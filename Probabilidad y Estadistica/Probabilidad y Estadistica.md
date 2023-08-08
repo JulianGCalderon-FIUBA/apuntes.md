@@ -1,87 +1,67 @@
-# Capítulo 1
+## Capítulo 1
 
-[[Probabilidad|Probabilidad]]
+- [[Probabilidad|Probabilidad]]
+- [[Técnicas de Conteo|Técnicas de Conteo]]
+- [[Probabilidad Condicional|Probabilidad Condicional]]
+- [[Eventos Independientes|Eventos Independientes]]
 
-[[Técnicas de Conteo|Técnicas de Conteo]]
+## Capítulo 2
 
-[[Probabilidad Condicional|Probabilidad Condicional]]
+- [[Simulación|Simulación]]
+- [[Variables Aleatorias|Variables Aleatorias]]
+- [[Vectores Aleatorios|Vectores Aleatorios]]
+- [[Propiedades de V A|Propiedades de V.A.]]
+- [[Distribuciones Continuas|Distribuciones Continuas]]
 
-[[Eventos Independientes|Eventos Independientes]]
+## Capitulo 3
 
-# Capítulo 2
+- [[Esperanza para Variables|Esperanza para Variables]]
+- [[Esperanza para Vectores|Esperanza para Vectores]]
+- [[Propiedades de la Esperanza|Propiedades de la Esperanza]]
 
-[[Simulación|Simulación]]
+## Capitulo 4
 
-[[Variables Aleatorias|Variables Aleatorias]]
+- [[Propiedades de Variables Aleatorias|Propiedades de Variables Aleatorias]]
 
-[[Vectores Aleatorios|Vectores Aleatorios]]
+## Capitulo 5
 
-[[Propiedades de V A|Propiedades de V.A.]]
+- [[Variables Aleatorias Condicionadas|Variables Aleatorias Condicionadas]]
+- [[Mezcla de Variables Aleatorias|Mezcla de Variables Aleatorias]]
+- [[Esperanza Condicional|Esperanza Condicional]]
+- [[Varianza Condicional|Varianza Condicional]]
 
-[[Distribuciones Continuas|Distribuciones Continuas]]
+## Capitulo 6
 
-# Capitulo 3
+- [[Proceso Bernoulli|Proceso Bernoulli]]
 
-[[Esperanza para Variables|Esperanza para Variables]]
+## Capitulo 7
 
-[[Esperanza para Vectores|Esperanza para Vectores]]
+- [[Proceso de Poisson|Proceso de Poisson]]
+- [[Propiedades del PP|Propiedades del PP]]
 
-[[Propiedades de la Esperanza|Propiedades de la Esperanza]]
+## Capitulo 8
 
-# Capitulo 4
+- [[Distribucion Normal|Distribucion Normal]]
+- [[Teoremas Utiles|Teoremas Utiles]]
+- [[Teorema Central del Límite|Teorema Central del Límite]]
 
-[[Propiedades de Variables Aleatorias|Propiedades de Variables Aleatorias]]
+## Capitulo 9
 
-# Capitulo 5
+- [[Inferencia Estadistica|Inferencia Estadistica]]
+- [[Modelos Parametricos|Modelos Parametricos]]
+- [[Estadisticos|Estadisticos]]
+- [[Estimadores|Estimadores]]
+- [[Distribuciones Importantes|Distribuciones Importantes]]
 
-[[Variables Aleatorias Condicionadas|Variables Aleatorias Condicionadas]]
+## Capitulo 10
 
-[[Mezcla de Variables Aleatorias|Mezcla de Variables Aleatorias]]
+- [[Hipotesis Estadistica|Hipotesis Estadistica]]
+- [[Test de Hipotesis|Test de Hipotesis]]
 
-[[Esperanza Condicional|Esperanza Condicional]]
+## Capitulo 11
 
-[[Varianza Condicional|Varianza Condicional]]
+- [[Intervalos de Confianza|Intervalos de Confianza]]
 
-# Capitulo 6
+## Capitulo 12
 
-[[Proceso Bernoulli|Proceso Bernoulli]]
-
-# Capitulo 7
-
-[[Proceso de Poisson|Proceso de Poisson]]
-
-[[Propiedades del PP|Propiedades del PP]]
-
-# Capitulo 8
-
-[[Distribucion Normal|Distribucion Normal]]
-
-[[Teoremas Utiles|Teoremas Utiles]]
-
-[[Teorema Central del Límite|Teorema Central del Límite]]
-
-# Capitulo 9
-
-[[Inferencia Estadistica|Inferencia Estadistica]]
-
-[[Modelos Parametricos|Modelos Parametricos]]
-
-[[Estadisticos|Estadisticos]]
-
-[[Estimadores|Estimadores]]
-
-[[Distribuciones Importantes|Distribuciones Importantes]]
-
-# Capitulo 10
-
-[[Hipotesis Estadistica|Hipotesis Estadistica]]
-
-[[Test de Hipotesis|Test de Hipotesis]]
-
-# Capitulo 11
-
-[[Intervalos de Confianza|Intervalos de Confianza]]
-
-# Capitulo 12
-
-[[Estimacion Bayesiana|Estimacion Bayesiana]]
+- [[Estimacion Bayesiana|Estimacion Bayesiana]]

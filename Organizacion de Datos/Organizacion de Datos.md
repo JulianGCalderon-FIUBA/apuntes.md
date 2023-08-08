@@ -1,37 +1,19 @@
-[[Introduccion|Introduccion]]
-
-[[Ciencia de Datos|Ciencia de Datos]]
-
-[[Modelos Comunes|Modelos Comunes]]
-
-[[Entrenamiento y Testing|Entrenamiento y Testing]]
-
-[[Transformacion de Datos|Transformacion de Datos]]
-
-[[Valores Atipicos|Valores Atipicos]]
-
-[[Arboles|Arboles]]
-
-[[Reduccion de Dimensionalidad|Reduccion de Dimensionalidad]]
-
-[[K-nearest Neighbours|K-nearest Neighbours]]
-
-[[Support Vector Machines|Support Vector Machines]]
-
-[[Ensambles|Ensambles]]
-
-[[Redes Neuronales|Redes Neuronales]]
-
-[[Clasificación de Texto|Clasificación de Texto]]
-
-[[Análisis de Sentimientos|Análisis de Sentimientos]]
-
-[[Extracción de Datos|Extracción de Datos]]
-
-[[Redes de Aprendizaje Profundo|Redes de Aprendizaje Profundo]]
-
-[[Tensor Flow|Tensor Flow]]
-
-[[Redes Recurrentes|Redes Recurrentes]]
-
-[[Algoritmos Genéticos|Algoritmos Genéticos]]
+- [[Introduccion|Introduccion]]
+- [[Ciencia de Datos|Ciencia de Datos]]
+- [[Modelos Comunes|Modelos Comunes]]
+- [[Entrenamiento y Testing|Entrenamiento y Testing]]
+- [[Transformacion de Datos|Transformacion de Datos]]
+- [[Valores Atipicos|Valores Atipicos]]
+- [[Arboles|Arboles]]
+- [[Reduccion de Dimensionalidad|Reduccion de Dimensionalidad]]
+- [[K-nearest Neighbours|K-nearest Neighbours]]
+- [[Support Vector Machines|Support Vector Machines]]
+- [[Ensambles|Ensambles]]
+- [[Redes Neuronales|Redes Neuronales]]
+- [[Clasificación de Texto|Clasificación de Texto]]
+- [[Análisis de Sentimientos|Análisis de Sentimientos]]
+- [[Extracción de Datos|Extracción de Datos]]
+- [[Redes de Aprendizaje Profundo|Redes de Aprendizaje Profundo]]
+- [[Tensor Flow|Tensor Flow]]
+- [[Redes Recurrentes|Redes Recurrentes]]
+- [[Algoritmos Genéticos|Algoritmos Genéticos]]

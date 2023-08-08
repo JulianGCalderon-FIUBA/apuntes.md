@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelos y Optimización I/Modelos y Optimización I.md",
+                "file": "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelos y Optimización I/Modelos y Optimización I.md",
+                "file": "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modelos y Optimización I/Modelos y Optimización I.md",
+                "file": "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modelos y Optimización I/Modelos y Optimización I.md"
+                "file": "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md"
               }
             }
           }
@@ -148,6 +148,14 @@
   },
   "active": "91fc470ad263d64e",
   "lastOpenFiles": [
+    "Sistemas Operativos/Sistemas Operativos.md",
+    "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
+    "Organizacion de Datos/AdaBoost.md",
+    "Organizacion de Datos/Ensambles.md",
+    "Organizacion de Datos/Organizacion de Datos.md",
+    "Modelos y Optimización I/Modelos y Optimización I.md",
+    "Modelos y Optimización I/Trabajo práctico - Análisis Post-Optimal.md",
+    "Modelos y Optimización I/Resolución de PLE.md",
     "Matemática Discreta/Matemática Discreta.md",
     "Física II/Física II.md",
     "Fisica I/Dinámica CR.md",
@@ -166,10 +174,6 @@
     "Algoritmos II/Algoritmos II.md",
     "Análisis de la Información/Análisis de la Información.md",
     "Análisis de la Información/Arquitectura del Software.md",
-    "Análisis Matemático II/Análisis Matemático II.md",
-    "Algoritmos I/Algoritmos I.md",
-    "Algebra II/Algebra II.md",
-    "Algebra II/Autovalores y Autovectores.md",
-    "Apuntes.md"
+    "Análisis Matemático II/Análisis Matemático II.md"
   ]
 }
