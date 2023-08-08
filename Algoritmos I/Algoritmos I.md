@@ -1,13 +1,7 @@
-[[Conceptos Básicos|Conceptos Básicos]]
-
-[[Bibliotecas Personales|Bibliotecas Personales]]
-
-[[Algoritmos I/Recursividad|Recursividad]]
-
-[[Operaciones con Arreglos|Operaciones con Arreglos]]
-
-[[Manejo de Archivos|Manejo de Archivos]]
-
-[[Operaciones con archivos|Operaciones con archivos]]
-
-[[Argumentos del programa|Argumentos del programa]]
+- [[Conceptos Básicos|Conceptos Básicos]]
+- [[Bibliotecas Personales|Bibliotecas Personales]]
+- [[Algoritmos I/Recursividad|Recursividad]]
+- [[Operaciones con Arreglos|Operaciones con Arreglos]]
+- [[Manejo de Archivos|Manejo de Archivos]]
+- [[Operaciones con archivos|Operaciones con archivos]]
+- [[Argumentos del programa|Argumentos del programa]]

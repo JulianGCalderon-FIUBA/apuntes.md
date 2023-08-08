@@ -1,25 +1,13 @@
-[[Plantilla de Informe|Plantilla de Informe]]
-
-[[Algoritmos II/Memoria|Memoria]]
-
-[[Punteros|Punteros]]
-
-[[Análisis de Algoritmos|Análisis de Algoritmos]]
-
-[[Algoritmos II/Recursividad|Recursividad]]
-
-[[TDA|TDA]]
-
-[[Pilas, Colas y Listas|Pilas, Colas y Listas]]
-
-[[Iteradores de Lista|Iteradores de Lista]]
-
-[[Arboles Generales|Arboles Generales]]
-
-[[Arboles Auto Balanceados|Arboles Auto Balanceados]]
-
-[[Diccionario y Hash|Diccionario y Hash]]
-
-[[Grafos|Grafos]]
-
-[[Algoritmos de Grafos|Algoritmos de Grafos]]
+- [[Plantilla de Informe|Plantilla de Informe]]
+- [[Algoritmos II/Memoria|Memoria]]
+- [[Punteros|Punteros]]
+- [[Análisis de Algoritmos|Análisis de Algoritmos]]
+- [[Algoritmos II/Recursividad|Recursividad]]
+- [[TDA|TDA]]
+- [[Pilas, Colas y Listas|Pilas, Colas y Listas]]
+- [[Iteradores de Lista|Iteradores de Lista]]
+- [[Arboles Generales|Arboles Generales]]
+- [[Arboles Auto Balanceados|Arboles Auto Balanceados]]
+- [[Diccionario y Hash|Diccionario y Hash]]
+- [[Grafos|Grafos]]
+- [[Algoritmos de Grafos|Algoritmos de Grafos]]

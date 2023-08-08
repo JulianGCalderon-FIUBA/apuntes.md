@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Algebra II.md",
+                "file": "Análisis Numérico/Interpolación Polinomial.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra II/Algebra II.md",
+                "file": "Análisis Numérico/Interpolación Polinomial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra II/Algebra II.md",
+                "file": "Análisis Numérico/Interpolación Polinomial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra II/Algebra II.md"
+                "file": "Análisis Numérico/Interpolación Polinomial.md"
               }
             }
           }
@@ -148,6 +148,16 @@
   },
   "active": "91fc470ad263d64e",
   "lastOpenFiles": [
+    "Análisis Numérico/Análisis Numérico.md",
+    "Análisis Numérico/Sistemas Lineales.md",
+    "Análisis Numérico/Descomposicion de Cholesky.md",
+    "Algoritmos II/Algoritmos II.md",
+    "Análisis de la Información/Análisis de la Información.md",
+    "Análisis de la Información/Arquitectura del Software.md",
+    "Análisis Matemático II/Análisis Matemático II.md",
+    "Algoritmos I/Algoritmos I.md",
+    "Algebra II/Algebra II.md",
+    "Algebra II/Autovalores y Autovectores.md",
     "Apuntes.md"
   ]
 }
