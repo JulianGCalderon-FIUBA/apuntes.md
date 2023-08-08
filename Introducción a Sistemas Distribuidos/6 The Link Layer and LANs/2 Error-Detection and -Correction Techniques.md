@@ -8,7 +8,7 @@ Si la probabilidad de error del enlace es pequeña esta técnicas sera suficient
 
 En la generalización bidimensional del esquema de paridad, los datos se separan en $i$ filas, y $j$ columnas. Se calcula un valor por cada columna y por cada fila. Los resultantes $i+j+1$ ***bits*** de paridad serán utilizados para la detección de errores.
 
-![[2 Error-Detection and -Correction Techniques 1.png|Untitled]]
+![[Error-Detection and -Correction Techniques 1.png|Untitled]]
 
 Si ocurre un solo error, entonces podremos utilizar la combinación de filas y columnas para invertir el ***bit*** corrupto. Si ocurre mas un erro esto no podrá realizarse, pero esto permite capturar los errores cuando ocurrió una cantidad par de ellos.
 
