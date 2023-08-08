@@ -1,39 +1,19 @@
-[[Introducción|Introducción]]
-
-[[Programación Lineal Continua|Programación Lineal Continua]]
-
-[[Patrones Comunes|Patrones Comunes]]
-
-[[Variables Enteras|Variables Enteras]]
-
-[[Problemas de cobertura de conjuntos|Problemas de cobertura de conjuntos]]
-
-[[Problema del Viajante|Problema del Viajante]]
-
-[[Problemas Combinatorios|Problemas Combinatorios]]
-
-[[Coloreo de Grafos|Coloreo de Grafos]]
-
-[[Método Simplex|Método Simplex]]
-
-[[Planteo Dual|Planteo Dual]]
-
-[[Análisis de Sensibilidad|Análisis de Sensibilidad]]
-
-[[Modificaciones al Planteo|Modificaciones al Planteo]]
-
-[[Resolución de PLE|Resolución de PLE]]
-
-[[Heurísticas|Heurísticas]]
-
-[[Heurísticas para el Problema del Viajante|Heurísticas para el Problema del Viajante]]
-
-[[Heurísticas para Coloreo de Grafos|Heurísticas para Coloreo de Grafos]]
-
-[[Heurísticas para el Problema de la Mochila|Heurísticas para el Problema de la Mochila]]
-
-[[Complejidad de Problemas|Complejidad de Problemas]]
-
-[[Complejidad de Programación Lineal|Complejidad de Programación Lineal]]
-
-[[Trabajo práctico - Análisis Post-Optimal|Trabajo práctico - Análisis Post-Optimal]]
+- [[Introducción|Introducción]]
+- [[Programación Lineal Continua|Programación Lineal Continua]]
+- [[Patrones Comunes|Patrones Comunes]]
+- [[Variables Enteras|Variables Enteras]]
+- [[Problemas de cobertura de conjuntos|Problemas de cobertura de conjuntos]]
+- [[Problema del Viajante|Problema del Viajante]]
+- [[Problemas Combinatorios|Problemas Combinatorios]]
+- [[Coloreo de Grafos|Coloreo de Grafos]]
+- [[Método Simplex|Método Simplex]]
+- [[Planteo Dual|Planteo Dual]]
+- [[Análisis de Sensibilidad|Análisis de Sensibilidad]]
+- [[Modificaciones al Planteo|Modificaciones al Planteo]]
+- [[Resolución de PLE|Resolución de PLE]]
+- [[Heurísticas|Heurísticas]]
+- [[Heurísticas para el Problema del Viajante|Heurísticas para el Problema del Viajante]]
+- [[Heurísticas para Coloreo de Grafos|Heurísticas para Coloreo de Grafos]]
+- [[Heurísticas para el Problema de la Mochila|Heurísticas para el Problema de la Mochila]]
+- [[Complejidad de Problemas|Complejidad de Problemas]]
+- [[Complejidad de Programación Lineal|Complejidad de Programación Lineal]]
