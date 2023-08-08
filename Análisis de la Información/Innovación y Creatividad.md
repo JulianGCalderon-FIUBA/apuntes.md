@@ -1,15 +1,15 @@
-# Brainstorming
+## Brainstorming
 
 Es un herramienta de trabajo grupal que facilita el surgimiento de nuevas ideas sobre un tema. Se busca contrarrestar las conductas que inhiben o bloquean la generación de ideas por medio de la suspensión del juicio o evaluación diferida y liberar la imaginación.
 
 Se deben seguir cuatro reglas fundamentales para la aplicación de la regla:
 
 1. **Toda critica esta prohibida**, ya sea autocensura o critica a ideas ajenas.
-2. **Toda idea es bienvenida.** Aun las ideas mas extravagantes e inaplicables. 
+2. **Toda idea es bienvenida.** Aun las ideas mas extravagantes e inaplicables.
 3. **Tantas ideas como sea posible.**
 4. **El desarrollo y asociación de las ideas es deseable** (resonancia selectiva). Una mala idea puede generar una idea en otra persona, que quizas es aplicable.
 
-## Modo No Estructurado / Flujo Libre
+### Modo no Estructurado / Flujo Libre
 
 1. Se escoge a un facilitador que apunte las ideas.
 2. Se escribe el problema a solucionar.
@@ -19,13 +19,13 @@ Se deben seguir cuatro reglas fundamentales para la aplicación de la regla:
 6. No interpretar o cambiar las ideas.
 7. Establecer un tiempo limite.
 
-# Brainwriting 6-3-5
+## Brainwriting 6-3-5
 
 Parecido al ***brainstorming***, pero un poco mas reducido. La idea consiste en juntar a 6 miembros, cada uno escribe como mínimo 3 ideas, en al menos 5 oportunidades. Los numeros pueden variar
 
 Una vez escritas las ideas, se pasa el papel al integrante siguiente quien leerá las ideas y escribirá otras 3 ideas. Así hasta completar las 5 iteraciones.
 
-# SCAMPER
+## Scamper
 
 Del mismo creador del brainstorming. Es un acrónimo de:
 
@@ -33,14 +33,13 @@ Del mismo creador del brainstorming. Es un acrónimo de:
 - Combinar
 - Adaptar
 - Modificar
-
 - Poner en otros usos
 - Eliminar
 - Reformar
 
 Debemos identificar el problema o foco creativo. Luego pensamos las preguntas del acrónimo para el problema en cuestión.
 
-# Lista de Atributos
+## Lista de Atributos
 
 Mediante este método se identifican atributos del producto o servicio, con la finalidad de considerarlos cada uno como una fuente de modificación y perfeccionamiento. Pueden ser características físicas, usos, de proceso, sociales, partes, función, tiempo, etc.
 
@@ -51,7 +50,7 @@ Mediante este método se identifican atributos del producto o servicio, con la f
 
 Para cualquier software, podríamos tomar sus atributos de calidad para evaluarlo.
 
-# 4x4x4
+## 4x4x4
 
 Es una técnica de filtrado de ideas, mas que de generación de ideas.
 
@@ -61,7 +60,7 @@ Es una técnica de filtrado de ideas, mas que de generación de ideas.
 
 De 16 ideas, obtendremos 4 ideas principales.
 
-# Selección de Ideas
+## Selección de Ideas
 
 1. Se proponen atributos para evaluar cada una de las ideas.
 2. Se evalúan las ideas con un puntaje para cada atributo

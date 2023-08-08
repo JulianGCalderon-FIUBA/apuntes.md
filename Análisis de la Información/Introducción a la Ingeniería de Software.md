@@ -1,14 +1,12 @@
 > [!note]
 > ***Ingeniería:*** La creación de soluciones costo efectivas a problemas prácticos mediante la aplicación de conocimiento codificado para construir cosas al servicio de la humanidad
 
-
 > [!note]
 > ***Ingeniería de Software:*** Aplicación de un enfoque sistemático, disciplinado y cuantificable al desarrollo, operación y mantenimiento de software
 
-
 La ingeniería de software es una ingeniería de cosas abstractas, trabajamos con cosas que no existen en el mundo ideal.
 
-# Diferencias con la Ingeniería Tradicional
+## Diferencias con la Ingeniería Tradicional
 
 - Trabaja con un producto intangible
 - Los ingenieros diseñan ***y construyen.*** En lugar de centrarse únicamente en la etapa de diseño.
@@ -16,21 +14,21 @@ La ingeniería de software es una ingeniería de cosas abstractas, trabajamos co
 - Cada producto es único, no se replican los diseños como en las construcciones
 - Tiene un cuerpo de conocimiento propio, ajeno a cualquier otra ingeniería.
 
-# Producto Finalizado
+## Producto Finalizado
 
 Convertir un programa en un producto específico implica ***generalización, testing, documentación y mantenimiento***. Si el producto debe interactuar con otros programas para formar un sistema también es necesario tener en cuenta las ***interfaces*** y la ***integración***. El ***software*** siempre forma parte de un sistema mayor integrado por otros elementos.
 
-# Cuerpo de Conocimiento
+## Cuerpo de Conocimiento
 
 El cuerpo de conocimiento está compuesto por un conjunto de á***reas de conocimiento.*** Una descripción de cada una puede hallarse en el documento *SWEBOK*
 
 ![[Introducción a la Ingeniería de Software 1.png|Untitled]]
 
-# Procesos
+## Procesos
 
 Un proceso es un conjunto de actividades que transforma una entrada en una salida y que consume recursos.
 
-# Desarrollo vs. Producción
+## Desarrollo vs. Producción
 
 En el ciclo de vida de un software suele haber dos grandes etapas: El desarrollo y la producción.
 
@@ -40,13 +38,13 @@ Los proyectos son esfuerzos temporales que crean nuevos productos, servicios, o 
 
 Una vez finalizado el desarrollo inicia la etapa de producción. Este es un esfuerzo permanente para mantener el producto desarrollado. Esta etapa produce valor.
 
-# Ciclo de Vida
+## Ciclo de Vida
 
 La intensidad de cada disciplina varía según la etapa del proyecto
 
 ![[Introducción a la Ingeniería de Software 2.png|Untitled]]
 
-# SCRUM
+## Scrum
 
 Es un modelo contemporáneo del ***Agile Manifesto***, que separa el desarrollo en ciclos:
 

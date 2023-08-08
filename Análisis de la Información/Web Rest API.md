@@ -6,11 +6,11 @@ Para el front end, utilizaremos principalmente ***react,*** el cual se puede eje
 
 Nuestro código estará almacenado en un repositorio en la nube, github, gitlab, bitbucket. Para verificar que nuestros cambios cumplan lo esperado, hay distintos servidores para automatizacion e integracion continua.
 
-# Back End
+## Back End
 
 Tendremos un modelo de capas, la primera es la ***API layer***, la cual recibe peticiones. Luego se ejecuta cierta lógica de negocio determinada (capa de servicio), se a la base de datos a través de capa de persistencia y acceso de datos. Finalmente devuelve una respuesta.
 
-## REST
+## Rest
 
 Es un tipo de ***API,*** que cumple con ciertos requisitos. Se puede implementar de muchas formas, una de ellas es utilizando ***http***.
 
@@ -26,5 +26,5 @@ Un pedido idempotente es aquel que si se ejecuta dos veces, el cambio ocurre dos
 Hay distintos elementos en los mensajes de la ***API***:
 
 - ***Path params:*** Comúnmente utilizado para identificar recursos. ***Ej: /accounts/{accountId}.*** No puede utilizar verbos.
-- ***Query params:*** Comúnmente utilizado para filtrar y ordenar. Le sigue a la ***url*** y comienza con un ‘*?’*. ***Ej: /cars?color=blue***
+- ***Query params:*** Comúnmente utilizado para filtrar y ordenar. Le sigue a la ***url*** y comienza con un '*?'*. ***Ej: /cars?color=blue***
 - ***Body:*** Se utiliza para enviar o recibir un recurso determinado. Usualmente es un json***.***

@@ -1,4 +1,4 @@
-# Stakeholders según PMBOK
+## Stakeholders según Pmbok
 
 - **Project Manager:** La persona responsable por la gestión del proyecto.
 - **Cliente/Usuario:** Individuo u organización que va utilizar el producto.
@@ -8,7 +8,7 @@
 - **Influencers:** Individuos o grupos que no están directamente relacionados con la adquisición o el uso del producto, pero por su posición en la organización del cliente pueden influir en el proyecto. Algunos, pueden estar en contra del producto.
 - **PMO:** Si existe en la organización ejecutante, tiene influencia en el resultado del proyecto.
 
-# Onion Model
+## Onion Model
 
 - Define el ***stakeholder*** como alguien que gana o pierde algo como resultado del proyecto.
 - El producto a desarrollar es el centro del diagrama.

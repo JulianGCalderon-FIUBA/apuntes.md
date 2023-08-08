@@ -8,7 +8,7 @@ Adicionalmente, con la estrategia determinaremos como gestionamos la cartera de 
 
 Las ideas no siempre se transforman en productos. Debemos saber si las ideas son factibles antes de realizar una ingeniería de requisitos completas o un análisis muy detallado. Debemos realizar un análisis de factibilidad, de orden de magnitud.
 
-# ¿Que hacemos en un Startup?
+## ¿Que Hacemos en Un Startup?
 
 Muchas veces, no sabemos que quieren los clientes. Se dan dos situaciones en paralelo:
 
@@ -21,7 +21,7 @@ Este tipo de desarrollo es mucho mas dinámico, ya que debemos descubrir nuestro
 
 Es mas dinámico, hay mas lugar a la innovación
 
-# Requisitos en el Ciclo de Vida
+## Requisitos en El Ciclo de Vida
 
 Los requisitos no están aislados. Son la fuente para el desarrollo del producto, para definir su visión, los riesgos, la arquitectura. Cuando hablamos de trazabilidad, estamos buscando el vinculo entre los requisitos y el resto de elementos del desarrollo del software.
 
@@ -31,7 +31,7 @@ Sirven para en buena medida, realizar una estimación de esfuerzo. ¿Cuanto trab
 
 ![[Requisitos en Contexto 3.png|Untitled]]
 
-# Método de Estimación
+## Método de Estimación
 
 Existen dos grupos principales en los métodos de estimación:
 
@@ -47,7 +47,7 @@ Métodos no algorítmicos:
 
 - Story Points: Muy ligados al desarrollo ágil. Es una técnica abstracta que nos muestra la complejidad relativa de cada item del producto backlog. El grupo de trabajo determinara la dificultad de implementación de cada item. El equipo estima en conjunto y los participantes dan su estimación en simultaneo para evitar influenciar a los demás. Una técnica muy usual es el planning poker.
 
-# Requisitos en Distintos Escenarios
+## Requisitos en Distintos Escenarios
 
 Cada situación requiere un enfoque distinto, cada uno tiene sus propias problemáticas y dificultades: Algunos posibles escenarios son:
 
@@ -57,9 +57,9 @@ Cada situación requiere un enfoque distinto, cada uno tiene sus propias problem
 - Tercerización de un servicio
 - Paquetes/SaaS
 
-# Requisitos en Desarrollo Ágil
+## Requisitos en Desarrollo Ágil
 
-## Proceso Unificado y Variantes
+### Proceso Unificado Y Variantes
 
 Los requisitos suceden con diverso grado de intensidad dependiendo de la fase. En las primeras fases del proyecto hay mucho análisis de requisito, y luego va disminuyendo gradualmente, pero nunca finaliza.
 
@@ -67,7 +67,7 @@ Los requisitos suceden con diverso grado de intensidad dependiendo de la fase. E
 
 Durante la fase inicial se busca tener un pantallazo general e indagar en un porcentaje pequeño de los requisitos de mayor riesgo.
 
-## Extreme Programming
+### Extreme Programming
 
 Una de las primeras metodologías agiles. Plantea un enfoque de desarrollo iterativo con programación de a pares e integración frecuente.
 
@@ -77,7 +77,7 @@ Se trabaja mucho sobre las historias de usuario y la definición de los casos de
 
 No hay actividades formales ni requisitos escritos. El eje se trata en programar y liberar frecuentemente. Funciona mejor con equipos pequeños y de alta experiencia.
 
-## Scrum
+### Scrum
 
 ![[Requisitos en Contexto 7.png|Untitled]]
 
@@ -87,7 +87,7 @@ Usualmente, los requisitos se organizan en ***user story mapping*** y ***user st
 
 El backlog se define constantemente a medida que se conoce mas acerca del producto y sus requerimientos.
 
-## FDD
+### Fdd
 
 Se desarrolla un modelo inicial a partir de la idea del producto, y una lista de ***features*** a desarrollar. Luego se organiza en iteraciones que toman una pequeña porción de la lista de ***features***. A diferencia de otras técnicas, habla de la importancia de diseñar modelos del ***software***.
 
@@ -95,7 +95,7 @@ Se desarrolla un modelo inicial a partir de la idea del producto, y una lista de
 
 Tiene una estructura jerárquica para organizar las características a implementar.
 
-## DAD
+### Dad
 
 Toma ideas del proceso unificado. Hay una fase de inspection, otra de construction, y otra de transition (desaparece elaboration). El desarrollo es similar a ***scrum***.
 
@@ -103,7 +103,7 @@ Cuando finaliza una iteración, se refina el ***product backlog***. Cuando termi
 
 Se sugiere el uso de *historias de usuario* para describir los requisitos*.*
 
-# Requisitos en Evolución de Sistemas
+## Requisitos en Evolución de Sistemas
 
 Algunos problemas que suelen surgir son:
 
@@ -111,7 +111,6 @@ Algunos problemas que suelen surgir son:
 - Falta documentación. El conocimiento de la aplicación es implícito, esta en los desarrolladores originales
 - Hay resistencia de los usuarios a las nuevas funcionalidades
 - Impacto en funcionalidad existente y performance
-- 
 
 Es muy importante entender ***que*** hace el sistema con el cual debemos trabajar. Para esto, podemos:
 
@@ -126,7 +125,7 @@ Es muy importante entender ***que*** hace el sistema con el cual debemos trabaja
 - Desarrollar prototipos
 - Inspeccionar requisitos
 
-# Requisitos en Migración de Sistemas
+## Requisitos en Migración de Sistemas
 
 Implica tomar un sistema que esta funcionando, y replicarlo en un nuevo sistema con los mismos requisitos. Debemos analizar si debemos eliminar algunos requisitos, cambiarlos, o crear nuevos. Algunas recomendaciones son:
 
@@ -138,7 +137,7 @@ Implica tomar un sistema que esta funcionando, y replicarlo en un nuevo sistema 
 - Derivar modelo de dominio
 - Desarrollar un diccionario de datos
 
-# Requisitos en la Implementación de Paquetes
+## Requisitos en la Implementación de Paquetes
 
 En este caso, nos compramos un producto y debemos implementarlo. Son proyectos complejos con muchas interfaces y requerimientos.
 
@@ -158,7 +157,7 @@ En general hay dos etapas:
 
 Los requisitos en cada etapa se manejan con distinto nivel de detalle, en la primera etapa son mas generales mientras que despues se detallan mas. Se deben analizar los requisitos, determinar la prioridad de los requisitos de los mismos. No siempre hay una solución perfecta.
 
-# Requisitos en la Tercerización
+## Requisitos en la Tercerización
 
 - Muchas veces decidir tercerizar implica salir a buscar un proveedor.
 - El cliente es el que especificara los requisitos. Se debe generar un RFP. Los requisitos deben poder ser modificables debido a cambios en el negocio.

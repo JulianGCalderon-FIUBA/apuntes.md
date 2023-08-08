@@ -1,8 +1,8 @@
-Un modelo de dominio es una representación visual del vocabulario del dominio.  Los construimos para entender y analizar mejor el contexto en el que operará el sistema a desarrollar.
+Un modelo de dominio es una representación visual del vocabulario del dominio. Los construimos para entender y analizar mejor el contexto en el que operará el sistema a desarrollar.
 
 Los objetos de dominio tienen atributos, que caracterizan a los objetos, y están relacionados entre si por cierta asociación.
 
-# ¿Categorías?
+## ¿Categorías?
 
 En general, los objetos de dominio pertenece a las siguientes familias:
 
@@ -11,11 +11,11 @@ En general, los objetos de dominio pertenece a las siguientes familias:
 - Eventos pasados a futuro (arribo, partida, pago)
 - Personas, roles, organizaciones (cliente, socio, alumno)
 
-# Objetos de Diseño
+## Objetos de Diseño
 
 Estos no son los objetos de diseño, no contienen detalles de la implementación. Los objetos de diseño están inspirados en conceptos del dominio del problema. La orientación a objetos busca minimizar la brecha entre el vocabulario del problema y la solución. No todo objeto de diseño existe en el dominio del problema.
 
-# ¿Cómo se Construye?
+## ¿Cómo Se Construye?
 
 En general, tiene los siguientes pasos:
 
@@ -30,17 +30,17 @@ Existen tres estrategias básicas para encontrar las clases conceptuales:
 
 - Aplicar el análisis lingüístico: Buscamos en nuestras minutas de Reunión, especificaciones y casos de uso, sustantivos que puedan ser candidatos a clases. El lenguaje natural es ambiguo. No podemos aplicar este enfoque de forma mecánica. Es preferible combinar esta técnica con la lista de categorías.
 - Utilizar una lista de categorías: A partir de una lista predefinida de categorías de objetos, podemos guiarnos para encontrar los objetos de nuestras clases del modelo dominio:
-    - Transacciones
-    - Items de una transacciones
-    - Producto o servicio relacionado con la transacción
-    - Donde se registra la transacción
-    - Roles u organizaciones relacionadas
-    - Lugar de la transacción
-    - Eventos
-    - Objetos físicos
+	- Transacciones
+	- Items de una transacciones
+	- Producto o servicio relacionado con la transacción
+	- Donde se registra la transacción
+	- Roles u organizaciones relacionadas
+	- Lugar de la transacción
+	- Eventos
+	- Objetos físicos
 - Reutilizar un modelo ya existente
 
-# Atributos
+## Atributos
 
 Un atributo es un dato lógico acerca de un objeto. Es información que debe ser recordada por el sistema
 
@@ -50,11 +50,11 @@ Algunos atributos son identificadores naturales (permiten individualizar una ins
 
 En algunos casos puede ser importante mostrar atributos derivados a partir de otros atributos (cuando sea relevante para entender el dominio)
 
-# Asociaciones
+## Asociaciones
 
-Una **asociación** es una relación entre instancias de una clase conceptual que debe ser recordada por el sistema. Casa asociación tiene nombre (frase con verbo) y multiplicidad. 
+Una **asociación** es una relación entre instancias de una clase conceptual que debe ser recordada por el sistema. Casa asociación tiene nombre (frase con verbo) y multiplicidad.
 
-La **multiplicidad** indica una regla de negocio (cardinalidad). Pueden existir múltiples asociaciones entre dos clases. 
+La **multiplicidad** indica una regla de negocio (cardinalidad). Pueden existir múltiples asociaciones entre dos clases.
 
 Típicamente las asociaciones son binarias, pero puede tener **asociaciones binarias** (en las que participan dos objetos). También podemos encontrar **asociaciones unarias** (entre instancias de una misma clase conceptual)
 
@@ -64,7 +64,7 @@ Las **clases asociativa**s se comportan simultáneamente como clase y como asoci
 
 Las asociaciones de **composición y agregación** permiten modelar relaciones del tipo todo y parte. Cuando los elementos de la conexión no dependen del ciclo de vida del contenedor, estamos ante una agregación. Cuando o hacen, estamos ante una composición.
 
-Las **asociaciones calificadas** permiten distinguir un grupo de instancias en uno de los extremos mediante un calificador. Por ejemplo: Todas las materias pertenecientes al mismo departamento se identifican con el código del departamento. 
+Las **asociaciones calificadas** permiten distinguir un grupo de instancias en uno de los extremos mediante un calificador. Por ejemplo: Todas las materias pertenecientes al mismo departamento se identifican con el código del departamento.
 
 Muchas veces, queremos establecer generalizaciones y especializaciones. Definimos aspectos **comunes** (superclase) ***y aspectos ***particulares*** (subclase). Es necesario cuando la subclase tiene atributos o asociaciones adicionales a los de la superclase
 
@@ -72,7 +72,7 @@ Un ***rol*** en uno de los extremos de una asociación describe el papel que jue
 
 Para encontrar asociaciones podemos utilizar una lista de categorías predefinidas.
 
-# Patrones
+## Patrones
 
 Cuando tenemos objetos con atributos comunes y otros que los diferencian, podemos utilizar la generalización y la especificación para mejorar el modelado.
 
@@ -98,19 +98,19 @@ Muchas veces, necesitamos registrar mediciones. Separamos entonces en el objeto 
 
 ![[Modelados de Dominio 6.png|Untitled]]
 
-# Factura
+## Factura
 
 Una factura es un documento que refleja la información de una operación de venta. En general, cada país tiene regulaciones que indican como deben generarse y resguardarse. En muchos países, existe la factura electrónica. Los sistemas administrativos necesitan mantener esta información.
 
 ![[Modelados de Dominio 7.png|Untitled]]
 
-Además de facturas, existen notas de credito y debito. Las notas de crédito disponen de saldo a favor al cliente, mientras que las notas de débito reflejan un saldo a favor del vendedor. 
+Además de facturas, existen notas de credito y debito. Las notas de crédito disponen de saldo a favor al cliente, mientras que las notas de débito reflejan un saldo a favor del vendedor.
 
 ![[Modelados de Dominio 8.png|Untitled]]
 
-# Modelo de Datos
+## Modelo de Datos
 
-Propone modelar entidades y relaciones. DEs un modelo conceptual que sirev para luego derivar los modelos logicos y fisicos de  la base de los datos. Es un antecesor del modelo de dominio. Tiene los siguientes elmentos:
+Propone modelar entidades y relaciones. DEs un modelo conceptual que sirev para luego derivar los modelos logicos y fisicos de la base de los datos. Es un antecesor del modelo de dominio. Tiene los siguientes elmentos:
 
 - Entidades: Abstracciones que representan personas, osas, lugares. Atributos identificadores y descriptivos de las entidades. Algunos tipos de objetos son tambie nrealciones (asociativos) y otro son debiles (su indentificaión depende de otra identidad)
 - Relaciones: Es una abstraccion que representa la asosiacion

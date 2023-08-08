@@ -15,14 +15,12 @@ Si las historias de usuario se centran en detalles y restricciones de implementa
 > [!note]
 > Como usuario, quiero poder presionar el botón, para comenzar el proceso de calibración
 
-
 No esta centrado en lo que el usuario quiere, sino una restricción (tener que presionar el botón), que no es importante para el usuario.
 
 > [!note]
 > Como usuario, quiero poder comenzar la calibración y obtener confirmación de su inicio
 
-
-Esta historia esta centrada en lo que quiere el usuario, y no se centra en la implementación. 
+Esta historia esta centrada en lo que quiere el usuario, y no se centra en la implementación.
 
 La idea de una historia de usuario, no es la diseñar una interfaz del usuario. Sino para diseñar el modelo mental el usuario, del contexto del sistema. En cuanto ignoramos esto, y empezamos a modelar el ***¿como?***, entonces nuestras historias de usuario dejaran de tener valor. Dejaran de ser requisitos.
 

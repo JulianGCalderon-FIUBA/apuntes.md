@@ -1,6 +1,6 @@
 También conocido como: ***Domain Story Telling***
 
-Es una herramiento o medio que nos permite transformar en software conocimiento de los expertos del dominio. Nos propone una estructura de talleres para analizar y discutir estos diagramas con los expertos en el dominio. Pretenden describir como trabajan en forma conjunta las personas. Combina un lenguaje pictográfico con talleres de trabajo con participación activa de expertos en el dominio. 
+Es una herramiento o medio que nos permite transformar en software conocimiento de los expertos del dominio. Nos propone una estructura de talleres para analizar y discutir estos diagramas con los expertos en el dominio. Pretenden describir como trabajan en forma conjunta las personas. Combina un lenguaje pictográfico con talleres de trabajo con participación activa de expertos en el dominio.
 
 Tendremos un actor, que realiza una actividad mediante una serie de objetos de trabajo. Describen siempre desde la perspectiva de los actores, las etiquetas asignadas a los actores se deben tomar del lenguaje de dominio, deben describir su rol.
 
@@ -12,14 +12,14 @@ Los actores crean, trabajan o intercambian objetos de trabajo o información ace
 
 Los actores realizan actividades mediante flechas etiquetadas con verbos y tomadas del lenguaje de dominio. Estas actividades deben ser enumeradas secuencialmente.
 
-# Recomendaciones/Comentarios
+## Recomendaciones/Comentarios
 
 - Mantener el formato *sujeto - predicado - objeto*
 - No hay condicionales, debemos modelar más de un escenario en ese caso
 - No representan un flujo de actividades
 - No representan diálogos (estímulo respuesta)
 
-# Alcance
+## Alcance
 
 - **Granularidad**: Gruesa, media, fina
 - **Pureza** de dominio: Pura, digitalizada

@@ -6,7 +6,7 @@ Esta ingeniería parte de una base de necesidades del usuario para generar requi
 
 Para cada uno de estos puntos de vista, usualmente se producen distintos documentos llamados especificaciones de requisitos. Los nombres de los documentos variarán de la audiencia y el alcance, pero el propósito colectivo es invariable: acordar entre las partes los requisitos del software a desarrollar.
 
-# Representación
+## Representación
 
 Existen diversas formas de representación para los requisitos:
 
@@ -16,27 +16,27 @@ Existen diversas formas de representación para los requisitos:
 
 La mayoría de las veces utilizamos una combinación de las primeras dos opciones.
 
-# Tipos de Documentos
+## Tipos de Documentos
 
-## Visión (y Alcance)
+### Visión (y Alcance)
 
 - Es desarrollado en las primera fases/iteraciones. Define el sistema a desarrollar desde el punto de vista de las partes interesadas.
 - Es la base para especificaciones mas detalladas que se desarrollarán posteriormente. A veces, también sirve de base para la elaboración de un contrato.
 - Puede incluir una definición del problema a resolver o de la oportunidad de negocio a aprovechar, una descripción de los usuarios e interesados, una descripción de las prestaciones del producto/sistema a desarrollar (a muy alto nivel), riesgos, valor para el negocio, supuestos, restricciones, etc.
 
-## Especificación de Requisitos de Software
+### Especificación de Requisitos de Software
 
 Usualmente representado en lenguaje natural, complementado con gráficos de, por ejemplo, casos de uso y reglas de negocio. Suele estar relacionado a ciclos de desarrollo clasicos (secuenciales), o proyectos donde hay contratos de por medio.
 
-## Desarrollo Ágil
+### Desarrollo Ágil
 
 En entornos ágiles, es difícil encontrarse con documentos como los vistos anteriormente. Se utilizan historias de usuario, como recordatorios de conversaciones con los especialistas o usuarios.
 
-## Modelos
+### Modelos
 
 Los modelos reflejan las abstracciones del dominio del problema, describen el sistema en términos tecnológicamente neutros. Pueden ser formales o informales.
 
-# Atributos de Buena Especificación
+## Atributos de Buena Especificación
 
 - Correcta: Reflejar las verdaderas necesidades de los usuarios. No debe tener ambigüedades, debe haber una única interpretación posible para cada requisito.
 - Completa: Todo lo que se supone que el software debe hacer debe estar incluido en la verificación, todas las respuestas a todas las entradas posibles están incluidas, todas las páginas del documento están numeradas y referenciadas correctamente.
@@ -50,9 +50,9 @@ Los modelos reflejan las abstracciones del dominio del problema, describen el si
 - Trazable: Se debe poder encontrar el origen de cada requisito
 - Priorizada: Los requisitos tendrá una prioridad asignada.
 
-# Técnicas
+## Técnicas
 
-## Organización de Requisitos
+### Organización de Requisitos
 
 Nos permite establecer categorías para identificar y ubicar más rápidamente a los requisitos
 
@@ -62,9 +62,9 @@ Nos permite establecer categorías para identificar y ubicar más rápidamente a
 - Por área o proceso de negocio
 - Por evento, casos de uso o escenario.
 
-Debemos definir como reflejamos los cambios en el repositorio y en los demás mecanismos que utilizaremos para registrar requisitos. Debemos entender la relación de cada requisitos con el resto de artefactos del proyecto. Cada requisito debería tener una identificación única, y más atributos asociados. Debemos definirlos independientemente del tipo de herramienta  que utilicemos.
+Debemos definir como reflejamos los cambios en el repositorio y en los demás mecanismos que utilizaremos para registrar requisitos. Debemos entender la relación de cada requisitos con el resto de artefactos del proyecto. Cada requisito debería tener una identificación única, y más atributos asociados. Debemos definirlos independientemente del tipo de herramienta que utilicemos.
 
-## Priorización
+### Priorización
 
 Nos permite asegurar que el esfuerzo del equipo esté dirigido hacia el análisis y la implementación de los requisitos más críticos para todos los interesados, son varios los criterios que se pueden utilizar para establecer la prioridad:
 
@@ -75,13 +75,13 @@ Nos permite asegurar que el esfuerzo del equipo esté dirigido hacia el análisi
 
 Existen varias técnicas que se utilizan para este tarea:
 
-- MoSCoW (Must/Should/Could/Won’t): Se colocan los requisitos en categorías
+- MoSCoW (Must/Should/Could/Won't): Se colocan los requisitos en categorías
 - Votación:
 - Timeboxing: Se decide la prioridad en función del tiempo de desarrollo disponible.
 - Análisis de Riesgo
 - Análisis de Decisiones
 
-## Escenarios
+### Escenarios
 
 Se conoce con este nombre a una familia de técnicas que están orientadas a contar historias acerca de loa que hace la técnica con los sistemas. Nuestro cerebro está socialmente adaptado para contar historias, por lo que es un grupo de técnicas muy familiar.
 
@@ -91,19 +91,19 @@ Se conoce con este nombre a una familia de técnicas que están orientadas a con
 
 Todas comparten una característica esencial, para identificar los escenarios se propone partir de los objetivos que las distintas categorías tienen con respecto a la utilización del sistema, luego se identifican subobjetivos, estos se satisfacerán a partir de un único escenario.
 
-# Técnicas de Modelado
+## Técnicas de Modelado
 
 Presentaremos algunos de los modelos de análisis más populares
 
-## C4
+### C4
 
 Utilizado para describir la estructura del software. Si bien no está muy relacionado con el análisis los requisitos. Nos permite entender el proyecto y su relación con el contexto. Muestra otros sistemas con los cuales interactuar.
 
-## Modelos de Casos de Uso
+### Modelos de Casos de Uso
 
 Busca representar los casos de uso del sistema y los actores primarios y secundarios con los que el sistema interactúa. Cuando se usa en conjunto con las especificaciones de casos de uso, forman parte del modelo de casos de uso
 
-## Modelos de Dominio
+### Modelos de Dominio
 
 Es una representación visual de los objetos o clases conceptuales del dominio del problema y las asociaciones entre sí.
 
@@ -113,29 +113,29 @@ Es una representación visual de los objetos o clases conceptuales del dominio d
 
 Sirven para entender y analizar el contexto del sistema a analizar. Se utiliza en combinación con otras técnicas como casos de uso e historias de usuarios.Para utilizarlo, emplearemos un diagrama de clases con la notación ***uml***. No representan objetos del lenguaje de programación, sino objetos de negocio. Es un modelo de análisis, no de diseño
 
-## Árbol de Funcionalidades (Feature Tree)
+### Árbol de Funcionalidades (Feature Tree)
 
 Se representa con un diagrama similar al de causa y efecto. Tiene como objetivo mostrar las prestaciones y funcionalidades del sistema, y como desglosan en prestaciones más pequeñas.
 
-## Diagrama de Estados
+### Diagrama de Estados
 
 Permite representar los diferentes estados por los que puede pasar un objeto de dominio o sistema. Representarlos usando lenguaje natural puede ser bastante problemático por lo que esta herramienta es muy útil. Para aplicaciones en tiempo real, es fundamental desarrollar este tipo de diagramas
 
-## Diagrama de Actividades
+### Diagrama de Actividades
 
 Permite especificar las actividades o pasos dentro un flujo de trabajo, de un proceso, o de un caso de uso.
 
-## Flujo de Actividades en un Proceso de Negocio (BPMN)
+### Flujo de Actividades en Un Proceso de Negocio (BPMN)
 
 Es un estándar para el modelado de procesos de negocio, ayuda a identificar casos de uso / historias de usuario. Es similar al diagrama de actividades mencionado anteriormente. Sirve para genera un proceso que pueda ser ejecutados.
 
-## Prototipado
+### Prototipado
 
-No sólo para descubrir requisitos, también es útil para analizarlos. No se deben discutir aspectos de diseño. Se suelen integrar con casos de uso, historias de usuario. 
+No sólo para descubrir requisitos, también es útil para analizarlos. No se deben discutir aspectos de diseño. Se suelen integrar con casos de uso, historias de usuario.
 
 Pueden ser evolutivos o descartables, y hechos con papel y lápiz.
 
-## EARS (Easy Approach To REquirements Synax)
+### Ears (Easy Approach to Requirements Synax)
 
 Es un lineamiento para minimizar los problemas derivados de la ambigüedad cuando utilizamos lenguaje natural. *EARS* propone formatos muy específicos para describir requisitos:
 
@@ -145,25 +145,25 @@ Es un lineamiento para minimizar los problemas derivados de la ambigüedad cuand
 - **Opcional:** Algo que necesario solo bajo determinadas circunstancias
 - **Comportamiento indeseado:** Una respuesta del sistema a eventos no deseados
 
-## Criterios de Aceptación
+### Criterios de Aceptación
 
-Es una estrategia útil para completar la especificación. El simple acto de pensar las condiciones que satisfacen los requisitos ayuda a encontrar problemas en la especificación mucho antes de comenzar el desarrollo del producto. 
+Es una estrategia útil para completar la especificación. El simple acto de pensar las condiciones que satisfacen los requisitos ayuda a encontrar problemas en la especificación mucho antes de comenzar el desarrollo del producto.
 
 Agregarle estos criterios a un requisito de usuario lo acerca a la definición clásica de requisitos de software. Ayudan a clarificar su alcance.
 
-## Reglas de Negocio
+### Reglas de Negocio
 
-Son políticas, regulaciones, leyes, y estándares. Puede seguir la siguiente estructura: “Cuando ***<condicion>*** entonces ***<imposición>.*** En caso contrario ***<consecuencias>***”. Pueden describir cálculos completos, restricciones, inferencias, o hechos.
+Son políticas, regulaciones, leyes, y estándares. Puede seguir la siguiente estructura: "Cuando ***<condicion>*** entonces ***<imposición>.*** En caso contrario ***<consecuencias>***". Pueden describir cálculos completos, restricciones, inferencias, o hechos.
 
-## User Story Mapping
+### User Story Mapping
 
 Es un modelo que describe las actividades que realizan a lo largo del tiempo los usuario de la aplicación, y como se descomponen en subactividades y tareas.
 
-## Impact Mapping
+### Impact Mapping
 
 Tiene como propósito alinear los equipos de trabajo con los objetivos de la organización. Se identifican los objetivos que se buscan satisfacer, luego los actores que serán impactados con la solución, lo que se deberá hacer para producir los impactos.
 
-# Recomendaciones
+## Recomendaciones
 
 Algunas recomendaciones **generales**:
 

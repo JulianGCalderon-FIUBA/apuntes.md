@@ -1,17 +1,17 @@
-Un modelo es una simplificación de la realidad, construimos modelos para entender mejor el sistema que estamos desarrollando. Estos permiten 
+Un modelo es una simplificación de la realidad, construimos modelos para entender mejor el sistema que estamos desarrollando. Estos permiten
 
 - Visualizar un sistema
 - Especificar la estructura o el comportamiento de un sistema
 - Proveer un guía para la construcción de un sistema
 - Documentar las decisiones tomadas
 
-# Influencia del Lenguaje de Programación
+## Influencia Del Lenguaje de Programación
 
-Idealmente, los modelos empleados en el análisis deberían reflejar el dominio del problema. Los modelos empleados en el diseño deberían reflejar las abstracciones naturales del lenguaje de programación. 
+Idealmente, los modelos empleados en el análisis deberían reflejar el dominio del problema. Los modelos empleados en el diseño deberían reflejar las abstracciones naturales del lenguaje de programación.
 
 En consecuencia, la transición entre el análisis y el diseño no siempre es fácil. La orientación a objetos provee una transición más natural debido a su similitud con la realidad.
 
-# UML
+## Uml
 
 Surge de mezclar las notaciones más populares de la época. Es un lenguaje gráfico que se utiliza para modelar sistemas basados en software. Ofrece diversos tipos de diagramas
 
@@ -24,10 +24,9 @@ Surge de mezclar las notaciones más populares de la época. Es un lenguaje grá
 > [!note]
 > El *BPMN (Business Process Modeling and Notation)* es similar al *UML*, pero busca representar un proceso de negocio.
 
+## C4
 
-# C4
-
-Tiene como propósito representar la arquitectura del software. Propone una estructura de diagramas en niveles. 
+Tiene como propósito representar la arquitectura del software. Propone una estructura de diagramas en niveles.
 
 1. **Diagrama de Contexto:** Muestra el medio ambiente en el cual funcionará el sistema.
 2. ***Diagrama de Contenedores:*** Busca separar el sistema en distintas aplicaciones, cada una con funcionalidad específica.

@@ -5,14 +5,14 @@ El diseño del software es el proceso mediante el cual definimos la arquitectura
 - No es sinónimo de modelar, pero se construyen modelos.
 - El nivel de formalidad del diseño dependerá de multiples factores, como la complejidad técnica, riesgo, costos, tamaño, experiencia del equipo, etc.
 
-# Modelado
+## Modelado
 
 Existen dos caminos posibles:
 
 - ***Modelado ágil:*** Los modelos son informales y no se mantienen.
 - ***Ing. de Software Basada en Modelos:*** Tiene que ver con desarrollar modelos y evolucionarlos hasta transformarlos en la solución. Esta técnica es relativamente popular en determinados segmentos (no todos).
 
-# De Requisitos al Diseño a la Construcción
+## De Requisitos Al Diseño a la Construcción
 
 Se comienza diseñar durante la etapa de requerimientos, solapando ambas actividades. La construcción también comienza durante la etapa de requerimientos y diseño. Existe una idea y vuelta entre todas las disciplinas.
 
@@ -28,7 +28,7 @@ A partir de los requisitos, debemos definir:
 
 La transición entre los requisitos y el diseño son difíciles.
 
-# Principios Clásicos del Diseño
+## Principios Clásicos Del Diseño
 
 A lo largo de la carrera, vimos multiples principios de clásicos del diseño:
 
@@ -46,11 +46,11 @@ Principios importantes para el diseño de objetos
 
 Principios SOLID
 
-# Arquitectura
+## Arquitectura
 
 Refiere a la estructura de alto nivel de un sistema. Las grandes decisiones respecto a un sistema, aquellas decisiones difíciles de cambiar.
 
-## 4 Vistas + 1
+### 4 Vistas + 1
 
 Es un modelo que permite visualizar la importancia de la arquitectura. Se plantea que un producto de software se puede ver con diversas vistas, cada una mostrando aspectos particulares:
 
@@ -60,7 +60,7 @@ Es un modelo que permite visualizar la importancia de la arquitectura. Se plante
 - Vista de Procesos: Distintos procesos a nivel del sistema operativa.
 - Vista de Escenarios: Junta las cuatro vistas anteriores. El mecanismo para visualizarla es un diagrama de secuencia o de colaboración.
 
-## Asignación De Requisitos
+### Asignación de Requisitos
 
 Relación entre los requisitos y la arquitectura
 
@@ -68,7 +68,7 @@ Relación entre los requisitos y la arquitectura
 - Hay algunos requisitos que tienen mucho impacto en la arquitectura (requisitos arquitectónicamente significativos)
 - A su vez, la arquitectura impacta en los requisitos.
 
-## Influencia de Arquitectura
+### Influencia de Arquitectura
 
 La arquitectura tiene mucha influencia en:
 
@@ -78,7 +78,7 @@ La arquitectura tiene mucha influencia en:
 - La flexibilidad para adaptarse a los cambios
 - Los objetivos de la organización
 
-## Estilos Arquitectónicos
+### Estilos Arquitectónicos
 
 ![[Introducción al Diseño de Software 5.png|Untitled]]
 
@@ -96,7 +96,7 @@ Se publica un evento en una cola de eventos. Del otro lado, tendremos componente
 
 A través de una ***API***, se accede a lógica que esta en una capa mas abajo.
 
-## Arquitectura Corporativa
+### Arquitectura Corporativa
 
 Son principios y practicas para guiar a las organización a través de los cambios en procesos, sistemas, información y tecnología necesarios para implementar su estrategia
 
@@ -113,11 +113,11 @@ Un lenguaje abierto para modelar arquitecturas corporativas, el modelado se real
 - Aplicación (software)
 - Tecnología (hardware y comunicaciones)
 
-# Interfaces del Usuario
+## Interfaces Del Usuario
 
 Es un elemento clave del usuario, es un tema critico. Si una aplicación es muy buena pero con mala interfaz, el producto será malo.
 
-# Diseño de Datos
+## Diseño de Datos
 
 Debemos definir como persistirán los datos. Existen tres niveles de modelado:
 
@@ -125,7 +125,7 @@ Debemos definir como persistirán los datos. Existen tres niveles de modelado:
 - **Lógico:** Diseño lógico de la base de datos, tablas columnas, claves primarias, claves foráneas (referencian claves primarias)
 - **Físico:** Implementación de la base de datos, indices, espacios de almacenamiento, seguridad.
 
-# Estrategias de Diseño
+## Estrategias de Diseño
 
 Un posible enfoque, podría ser:
 

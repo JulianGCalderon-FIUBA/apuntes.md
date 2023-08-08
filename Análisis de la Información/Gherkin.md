@@ -1,4 +1,4 @@
-# ¿Que es BDD?
+## ¿Que Es Bdd?
 
 Nace dentro de las metodologías ágiles de software. Busca alentar la colaboración conjunta entre distintas partes interesadas en el proyecto.
 
@@ -6,7 +6,7 @@ Busca establecer un lenguaje dentro del dominio (DSL) usando construcciones natu
 
 La idea es que todos puedan entender lo que se define en un comportamiento, usando palabras no técnicas.
 
-# Gherkin
+## Gherkin
 
 *Gherkin* es un lenguaje que permite definir estos comportamientos (***behaviour*** ***and expected outcomes).*** Junto a *Cucumber*, podemos definir pruebas automatizadas para *Java*.
 

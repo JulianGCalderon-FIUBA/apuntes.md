@@ -20,7 +20,7 @@ Ambas etapas tienen una etapa de divergencia en la que se proponen múltiples op
 
 Esta metodología se mezcla muy bien con las metodologías ágiles debido a su naturaleza iterativa e incremental
 
-# Métodos y Herramientas
+## Métodos Y Herramientas
 
 Las técnicas que se utilizan en este método son varias:
 
@@ -32,7 +32,7 @@ Las técnicas que se utilizan en este método son varias:
 - **Prototipos:** En papel, o de baja tecnología, para ser construidos de forma rápida.
 - **Wireframes:** Prototipos más avanzados pero que permiten describir la interacción de los usuarios con el producto.
 
-# Estrategias de Utilización
+## Estrategias de Utilización
 
 Hay tres estrategias básicas para emplear este método en el contexto de la ingeniería:
 
