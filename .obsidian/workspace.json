@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e7acbb133faef196",
+        "id": "39685dd574e99dd1",
         "type": "tabs",
         "children": [
           {
-            "id": "91fc470ad263d64e",
+            "id": "1a45e0e2eb723714",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Análisis de la Información/Web Rest API.md",
-                "mode": "source",
-                "source": true
-              }
-            },
-            "group": "fd21c53fa6adc55f"
-          }
-        ]
-      },
-      {
-        "id": "3c06bf5b7c08bc2a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e9fabccf6105dc94",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Análisis de la Información/Web Rest API.md",
-                "mode": "preview",
-                "source": true
-              }
-            },
-            "group": "fd21c53fa6adc55f"
+              "type": "empty",
+              "state": {}
+            }
           }
         ]
       }
@@ -105,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis de la Información/Web Rest API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis de la Información/Web Rest API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Análisis de la Información/Web Rest API.md"
-              }
+              "state": {}
             }
           },
           {
@@ -174,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "91fc470ad263d64e",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
+    "Análisis de la Información/Web Rest API.md",
     "Análisis de la Información/Verificar y Validar requerimientos.md",
     "Análisis de la Información/Técnicas de Descubrimiento de Requisitos.md",
     "Análisis de la Información/Técnicas de Análisis, Modelado y Especificación.md",
@@ -201,7 +174,6 @@
     "Análisis de la Información/Arquitectura del Software.md",
     "Análisis de la Información/Análisis de la Información.md",
     "Algoritmos II/TDA.md",
-    "Algoritmos II/Recursividad.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",
