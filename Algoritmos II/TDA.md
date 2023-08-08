@@ -1,4 +1,4 @@
-# Tipo de Dato
+## Tipo de Dato
 
 Un tipo de dato define dos cosas importantes:
 
@@ -9,7 +9,7 @@ Los lenguajes de programación tienen tipos de datos ***primitivos*** los cuales
 
 ![[TDA 1.png|Untitled]]
 
-# Abstracción
+## Abstracción
 
 Proviene del latín *abstracto*, y significa: **separar aisladamente en la mente las características de un objeto o un hecho, dejando de prestar atención al mundo sensible para enfocarse solo en el pensamiento.**
 
@@ -19,11 +19,11 @@ Separamos lo que nos **importa**, y nos olvidamos de lo **innecesario**
 
 Demostración de Picasso, del concepto de abstracción.
 
-# Tipo de Dato Abstracto
+## Tipo de Dato Abstracto
 
 Un tipo de dato abstracto (TDA), es una clase de objetos abstractos, los cuales están caracterizados por las operaciones que definimos sobre esos objetos. Cuando un programador utiliza un **TDA**, esta únicamente interesado en en el comportamiento del objeto (¿Que?), y no de como se implementa. La vision de aquel que utiliza un **TDA** es exclusivamente de **Caja Negra**.
 
-## El Qué y el Cómo
+### El Qué Y El Cómo
 
 Las visiones de caja negra y caja blanca hacen una gran diferencia:
 
@@ -36,11 +36,11 @@ En el estudio e implementación de los TDAs es fundamental poder separar correct
 
 Este concepto hace referencia a que, para cada problema a resolver, hay infinitas maneras de hacerlo.
 
-## El Contrato
+### El Contrato
 
-El contrato es el medio de comunicación entre el cliente y el programador, aca se define exactamente lo que tiene que realizar el TDA.  Una vez definido el contrato, es momento de diseñar e implementar.
+El contrato es el medio de comunicación entre el cliente y el programador, aca se define exactamente lo que tiene que realizar el TDA. Una vez definido el contrato, es momento de diseñar e implementar.
 
-## Ventajas
+### Ventajas
 
 La utilización de TDA tiene muchas ventajas a la hora de realizar programas de gran tamaño:
 
@@ -48,7 +48,7 @@ La utilización de TDA tiene muchas ventajas a la hora de realizar programas de 
 - **Encapsulamiento:** La información que no debe usar el usuario están ocultas, el solo tiene acceso a las funciones que el mismo entiende y necesita.
 - **Localización del Cambio:** Cuando existe un error en el programa, es mas fácil arreglarlo si el código se encuentra modularizado, ya que podemos probar cada parte del programa por separado.
 
-# Proceso de Desarrollo de Software
+## Proceso de Desarrollo de Software
 
 **El software no se fabrica, el software se desarrolla**. El desarrollo de software no es una única tarea, sino que incluye a un conjunto de etapas:
 

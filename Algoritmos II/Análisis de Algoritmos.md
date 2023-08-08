@@ -12,11 +12,11 @@ Hay muchas propiedades, además de tiempo y espacio, que son de interés para se
 - El **primer** enfoque para analizar algoritmos, se concentro en determinar el crecimiento del peor de los casos en lo que respecta a la eficiencia de un algoritmo.
 - El **segundo** enfoque se concentro en categorizar el mejor, el peor, y el promedio de la eficiencia de un algoritmo.
 
-# Complejidad de un Algoritmo
+## Complejidad de Un Algoritmo
 
 Vamos a definir algunas funciones que permiten analizar la complejidad de un algoritmo. Estas funciones tienen una base matemática y estudian el comportamiento de los algoritmos en los casos limites.
 
-### Big-O
+### Big-o
 
 Se dice que la tasa de crecimiento de un algoritmo es **Big-O:**
 
@@ -26,7 +26,7 @@ $$
 
 Esto quiere decir que la tasa de crecimiento $T(N)$ no superara $f(N)$. Es la cota superior
 
-### Big-Omega
+### Big-omega
 
 Se dice que la tasa de crecimiento de un algoritmo es **Big-Omega:**
 
@@ -46,7 +46,7 @@ $$
 
 Esto quiere decir que la tasa de crecimiento $T(N)$ es estrictamente menor a la de $f(N)$.
 
-### Big-Theta
+### Big-theta
 
 Se dice que la tasa de crecimiento de un algoritmo es **Big-Theta:**
 
@@ -56,7 +56,7 @@ $$
 
 Esto quiere decir que la tasa de crecimiento va a estar acotada por una tasa superior e una inferior. Es tanto **Big-O**, como **Big-Omega**.
 
-# Teorema Maestro
+## Teorema Maestro
 
 Es el "libro de cocina" para resolver recurrencias de la forma:
 

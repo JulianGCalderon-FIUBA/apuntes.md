@@ -1,8 +1,7 @@
 > [!note]
 > **Calidad:** Totalidad de prestaciones y características de un producto o servicio que generan su capacidad de ***satisfacer necesidades*** explícitas o implícitas
 
-
-# Costos de la Calidad
+## Costos de la Calidad
 
 Cuando no hay calidad, surgen los siguientes costos
 
@@ -15,7 +14,7 @@ Para solucionar los costos de falla **internos y externos**, debemos invertir en
 
 A veces, estos costos pueden incluso causar que el sistema tenga que ser rediseñado por completo. Particularmente, atributos de ***performance***.
 
-# Elementos de la Calidad
+## Elementos de la Calidad
 
 La calidad se puede separar en los siguiente elementos:
 
@@ -30,23 +29,23 @@ El **software** de la calidad es un conjunto de tres conceptos:
 - Recursos humanos motivados y entrenados.
 - Tecnología.
 
-# Verificación y Validación
+## Verificación Y Validación
 
 Hay dos términos distintos que se suelen confundir entre sí. A veces se utilizan de forma intercambiable.
 
 - **Verificación:** ¿Lo hicimos bien? ¿Satisface los requisitos?
 - **Validación:** ¿Hace lo que tiene que hacer? ¿Cumple con las necesidades y expectativas del cliente?
 
-# PDCA
+## Pdca
 
-Este método no es vigente hoy en dia. Un ciclo de mejora continua que consiste en cuatro fases, 
+Este método no es vigente hoy en dia. Un ciclo de mejora continua que consiste en cuatro fases,
 
 - **Plan:** Se establecen los objetivos y el plan para alcanzarlos
 - **Do:** Se desarrollan y prueban pequeños cambios. Luego se reúnen datos.
 - **Check:** Se evalúan los resultados. ¿Se mejoró? ¿Se puede mejorar más?
 - **Act:** Se implementan los cambios requeridos y se inicia un nuevo ciclo.
 
-# Enfoques Vigentes
+## Enfoques Vigentes
 
 Hay tres enfoques principales para aumentar la calidad:
 
@@ -56,7 +55,7 @@ Hay tres enfoques principales para aumentar la calidad:
 
 La mayoría de las filosofías de dia de hoy se basan en ***lean***. Lo mejor es tener ciclos de desarrollo que se van actualizando con cada iteración.
 
-# Grupos de factores de Calidad
+## Grupos de Factores de Calidad
 
 Hay dos grupos que surgen de los factores la calidad:
 

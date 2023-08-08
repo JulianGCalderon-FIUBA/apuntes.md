@@ -1,4 +1,4 @@
-# Header
+## Header
 
 El compilador los incluye de forma automática al compilar su archivo fuente. Aca se definen las funciones, variables y constantes, que pueden ser accedidas por otro archivo.
 
@@ -16,9 +16,9 @@ int sumar(int n1, int n2); // PROTOTIPO DE FUNCION
 #endif /* ARITMETICA_H */
 ```
 
-# Source
+## Source
 
-Tiene el mismo nombre que el header, pero con extension .c
+Tiene el mismo nombre que el header, pero con extension.c
 
 Aca se definen las funciones de la biblioteca
 
@@ -32,7 +32,7 @@ int sumar(int n1, int n2){
 }
 ```
 
-# Main
+## Main
 
 En este archivo se encuentra el `main` de la función. Desde aca se accede a las otras bibliotecas
 
@@ -49,7 +49,7 @@ int main(){
 }
 ```
 
-# Terminal
+## Terminal
 
 Al momento de compilar, debo incluir solo los archivos fuentes, no los mains
 
@@ -57,7 +57,7 @@ Al momento de compilar, debo incluir solo los archivos fuentes, no los mains
 
 `gcc -g aritmetica.c -c` → **`aritmetica.o`**
 
-`gcc -g main.c aritmetica.o -o main` → `**main`** 
+`gcc -g main.c aritmetica.o -o main` → `**main`**
 
 **OPCION 2:**
 

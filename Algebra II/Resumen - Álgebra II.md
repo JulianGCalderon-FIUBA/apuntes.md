@@ -333,14 +333,11 @@ En este caso, debemos elegir el $V_2$ que pertenezca a la imagen de $A- \lambda 
 
 $$
 A_3 = 
-
 Q
 \begin{bmatrix}
-
 \lambda & 0 & 0 \\
 0 & \lambda & 1 \\
 0 & 0 & \lambda
-
 \end{bmatrix}
 Q^{-1}
 $$
@@ -389,19 +386,15 @@ $$
 
 ## Clasificación de Matrices
 
-- **Matrices Simétricas** $\to A^t = A$
-. Son diagonalizables ortogonalmente
+- **Matrices Simétricas** $\to A^t = A$. Son diagonalizables ortogonalmente
 - **Matrices Ortogonales** $\to A A^T = A^T A = I$
 - **Matrices Anti Simétricas** $\to A^t = -A$
-.
 
 Para matrices complejas, tenemos que:
 
-- **Matrices Herméticas** $\to A^* = A$
-, Donde $A^*$ representa la matriz adjunta (transpuesta y conjugada)
+- **Matrices Herméticas** $\to A^* = A$, donde $A^*$ representa la matriz adjunta (transpuesta y conjugada)
 - **Matrices Unitarias**$\to A A^* = A^* A = I$. Sus autovalores tienen modulo 1. Preservan la norma
 - **Matrices Anti Herméticas** $\to A^* = -A$
-.
 
 Para matrices de transformaciones lineales, tenemos:
 
@@ -451,7 +444,6 @@ D_k= \begin{bmatrix}\sigma_1 & 0 & \cdots & 0 \\
 \vdots & \vdots & \ddots & \vdots \\
 0 & 0 & \cdots & \sigma_k
 \end{bmatrix}
-
 $$
 
 $$

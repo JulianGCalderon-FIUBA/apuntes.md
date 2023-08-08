@@ -1,6 +1,6 @@
-# Modificación
+## Modificación
 
-## Inserción Ordenada
+### Inserción Ordenada
 
 La idea de este algoritmo es poder insertar un elemento dentro de un vector, manteniendo el orden del mismo
 
@@ -22,7 +22,7 @@ void insertar_ordenado(vector_t vector, int *tope, elemento_t elemento){
 }
 ```
 
-## Eliminación Ordenada
+### Eliminación Ordenada
 
 La idea de este algoritmo es eliminar un elemento dentro de un vector, sin dejar huecos en el medio.
 
@@ -50,9 +50,9 @@ void eliminar_ordenado(vector_t vector, int *tope, elemento_t elemento){
 }
 ```
 
-# Búsqueda
+## Búsqueda
 
-## Búsqueda Lineal
+### Búsqueda Lineal
 
 La búsqueda lineal, busca sucesivamente cada elemento de un arreglo, hasta encontrar el elemento buscado
 
@@ -79,7 +79,7 @@ int busqueda_lineal(vector_t vector, int tope, elemento_t elemento_buscado){
 }
 ```
 
-## Búsqueda Binaria
+### Búsqueda Binaria
 
 La búsqueda binaria es un algoritmo mas eficiente para buscar elementos, cuando los elementos del arreglo están ordenados.
 
@@ -115,9 +115,9 @@ int busqueda_binaria(vector_t vector, int tope, elemento_t elemento_buscado){
 }
 ```
 
-# Ordenamiento
+## Ordenamiento
 
-## Selección
+### Selección
 
 Consta en buscar el elemento de menor valor del arreglo e intercambiarlo con el elemento que esta en la primer posición, repitiendo este algoritmo con el resto de posiciones hasta que todos los elementos estén ordenados.
 
@@ -141,7 +141,7 @@ void seleccion(vector_t vector, int tope){
 }
 ```
 
-## Burbujeo
+### Burbujeo
 
 Este método consiste en ir comparando cada elemento del arreglo con su adyacente, e intercambiarlos si están en el orden incorrecto. Se repite esto hasta que el elemento mayor se encuentre en el extremo, y se repite la pasada hasta que el arreglo este ordenado.
 
@@ -162,7 +162,7 @@ void burbujeo(vector_t vector, int tope){
 }
 ```
 
-## Inserción
+### Inserción
 
 Se parte de un vector con un solo elemento, y se van agregando uno por uno los nuevos elementos al vector, de forma ordenada. Hasta que el nuevo vector contenga todos los elementos, de forma ordenada.
 
@@ -184,9 +184,9 @@ void insercion(vector_t vector, int tope){
 }
 ```
 
-# Operaciones Avanzadas entre Arreglos
+## Operaciones Avanzadas entre Arreglos
 
-## Mezcla
+### Mezcla
 
 La mezcla consiste en tomar todos los valores de ambos arreglos
 
@@ -222,7 +222,7 @@ void mezcla(vector_t vectorA, int topeA, vector_t vectorB, int topeB,
 }
 ```
 
-## Union
+### Union
 
 La union es similar a la mezcla, pero el resultado no tendrá elementos repetidos
 
@@ -262,7 +262,7 @@ void union(vector_t vectorA, int topeA, vector_t vectorB, int topeB,
 }
 ```
 
-## Diferencia
+### Diferencia
 
 La diferencia entre A y B **(A-B)**, toma los valores de A que no están en B
 
@@ -294,7 +294,7 @@ void diferencia(vector_t vectorA, int topeA, vector_t vectorB, int topeB,
 }
 ```
 
-## Intersección
+### Intersección
 
 La intersección devuelve los elementos que se encuentran en ambos conjuntos
 

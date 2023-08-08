@@ -1,4 +1,4 @@
-# Buenas Practicas
+## Buenas Practicas
 
 **El software tiene 4 propiedades:**
 
@@ -15,7 +15,7 @@
 - Constantes en **MAYUSCULA.**
 - Escribir **pre-post** condiciones para cada función.
 
-# Modulacion
+## Modulacion
 
 Una `función` solo debe hacer una cosa, y recibe el nombre de lo que devuelve.
 
@@ -33,13 +33,13 @@ void saludar_usuario(char msg[]){
 
 El **ámbito** de una función es el espacio de memoria que puede acceder. Cada función tiene su propio ámbito y las variables que se crean ahi se destruyen al salir.
 
-## Pasaje
+### Pasaje
 
 Algunos tipos de datos se pasan por valor, `(char, int, float)`**.**
 
 Otros se pasan por referencia `(vectores, matrices)`
 
-# Punteros
+## Punteros
 
 La **memoria** es un conjunto de celdas distribuidas linealmente, y cada una tiene una única dirección de memoria
 
@@ -62,7 +62,7 @@ printf("%i", numero); //9
 
 `*`: Devuelve el valor al que apunta un puntero
 
-# Vectores
+## Vectores
 
 Un `vector` almacena una colección finita y secuencial, de elementos de un mismo tipo de dato.
 
@@ -92,7 +92,7 @@ int elemento = 78;
 agregar_elemento(edades, &tope, elemento);
 ```
 
-# Matrices
+## Matrices
 
 Una `matriz` es un arreglo de 2 dimensiones, como vectores adentro de un vector. Se comporta como un vector
 
@@ -102,9 +102,9 @@ int matriz[MAX_FILAS][MAX_COLUMNAS] = ...
 printf("%i", matriz[i][j])
 ```
 
-# Bibliotecas
+## Bibliotecas
 
-Las bibliotecas son código externo, que podemos importar a nuestro archivo. 
+Las bibliotecas son código externo, que podemos importar a nuestro archivo.
 
 Las bibliotecas estándar son aquellas que vienen con c, no tenemos que instalarlas.
 
@@ -116,13 +116,13 @@ Las bibliotecas estándar son aquellas que vienen con c, no tenemos que instalar
 #include <ctype.h>
 ```
 
-# Strings
+## Strings
 
 `#include <string.h>`
 
 Al trabajar con strings, las funciones suponen que un string es un vector de caracteres terminado en '\0'
 
-## Funciones
+### Funciones
 
 ```c
 // POST: La longitud de la cadena
@@ -143,7 +143,7 @@ void strcat(char destino[], char origen[]);
 int strcmp(char cadena1[], char cadena2[]);
 ```
 
-## Operaciones
+### Operaciones
 
 **Imprimir cadenas:**
 
@@ -155,9 +155,9 @@ int strcmp(char cadena1[], char cadena2[]);
 
 `scanf("%s[^\n]", cadena);` Lee hasta el primer \n
 
-# Registros
+## Registros
 
-Un registro es un tipo de dato que define una lista de variables agrupadas bajo un mismo nombre en un bloque de memoria. 
+Un registro es un tipo de dato que define una lista de variables agrupadas bajo un mismo nombre en un bloque de memoria.
 
 ```c
 typedef struct fecha{

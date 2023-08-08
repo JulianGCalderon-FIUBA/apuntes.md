@@ -6,14 +6,14 @@ Una algoritmo recursivo es aquel que se llama a si mismo, hay distintos tipos de
 
 La recursividad se puede aplicar para resolver problemas que son resolubles mediante una solución de una nueva instancia del mismo problema
 
-# Recursividad Directa
+## Recursividad Directa
 
 El algoritmo de recursividad directa es aquel que se llama a si mismo, directamente. Una función recursiva debe cumplir con ciertas reglas para que funcione correctamente:
 
 - Debe poseer una condición de corte
 - Debe poseer una llamada recursiva
 
-## Ámbito
+### Ámbito
 
 El ámbito de una función es la región de memoria del *stack* a la que el puede acceder. Dentro del ámbito de una función se almacenan:
 
@@ -21,7 +21,7 @@ El ámbito de una función es la región de memoria del *stack* a la que el pued
 - Las variables declaradas en la funcion
 - La línea a la que debe regresar una vez completada la ejecución.
 
-# Recursividad Indirecta
+## Recursividad Indirecta
 
 El algoritmo de recursividad indirecta es aquel que no se llama a si mismo, sino que llama a otra función, la cual llama a la función original.
 
@@ -29,7 +29,7 @@ El algoritmo de recursividad indirecta es aquel que no se llama a si mismo, sino
 
 Para lograr esto, en C se debe declarar la firma de las funciones de antemano, para que el compilador las detecte.
 
-# Recursividad de Cola
+## Recursividad de Cola
 
 La recursividad de cola es aquella que la ultima función que ejecuta es la llamada recursiva. De esta forma, se puede descartar la memoria almacenada al final de cada llamada, para optimizar mas el uso del stack.
 
@@ -51,7 +51,7 @@ int factorial (int n)
 }
 ```
 
-# Divide y Conquista
+## Divide Y Conquista
 
 El método ***divide y conquista*** es una forma general no solo de solucionar problemas, sino también de diseñar algoritmos.
 

@@ -3,37 +3,36 @@ Sean $\Bbb V$ y $\Bbb W$ dos $\Bbb K$ espacios vectoriales, se dice que una func
 - $T(u_1 + u_2) = T(u_1) + T(u_2),\quad \forall u_1,u_2 \in \Bbb V$
 - $T(\lambda u) = \lambda T(u),\quad \forall u \in \Bbb V \text{ y }\lambda \in \Bbb K$
 
-Para verificar que una función es una transformación lineal, entonces tengo que demostrar las dos propiedades anteriores para todo vector de  $\Bbb V$.
+Para verificar que una función es una transformación lineal, entonces tengo que demostrar las dos propiedades anteriores para todo vector de $\Bbb V$.
 
-# Conjuntos de T.L.
+## Conjuntos de T.L.
 
 - Se dice que $\Bbb V$ es el **dominio** de $T$ y $\Bbb W$ es el **codominio** de $T$
 - Se le llama **imagen** de $T$ al conjunto:
-    
-    $$
+
+	$$
     Im(T) = \{w \in \Bbb W:T(v) = w, v\in\Bbb V\}
     $$
-    
+
 - Si $S$ es un subespacio de $\Bbb V$, se llama **imagen** de $S$ por $T$, al conjunto:
-    
-    $$
+
+	$$
     T(S) = \{w \in \Bbb W:T(v) = w, v\in S\}
     $$
-    
+
 - Si $U$ es un subespacio de $\Bbb W$, se llama **preimagen** de $U$ por $T$, al conjunto:
-    
-    $$
+
+	$$
     T^{-1}(U) = \{x \in \Bbb V: T(x) \in U\}
     $$
-    
+
 - Se le llama **núcleo** de $T$ al conjunto:
-    
-    $$
+
+	$$
     Nu(T) = \{x\in\Bbb V: T(x) = 0_{\Bbb W}\} = T^{-1}(0_{\Bbb W})
     $$
-    
 
-# Propiedades
+## Propiedades
 
 Sea $T: \Bbb V \to \Bbb W$ una transformación lineal, siendo $\Bbb V$ y $\Bbb W$, espacios vectoriales:
 
@@ -49,7 +48,7 @@ $$
 \text{dim}(Nu(T)) + \text{dim}(Im(T)) = \text{dim}(\Bbb V)
 $$
 
-# Clasificación
+## Clasificación
 
 Sea $T: \Bbb V \to \Bbb W$ una transformación lineal, siendo $\Bbb V$ y $\Bbb W$, $\Bbb K$-espacios vectoriales:
 
@@ -61,18 +60,18 @@ Una transformación lineal es un **monomorfismo** cuando su núcleo es de dimens
 
 Una transformación lineal es un **epimorfismo** cuando la dimension de la imagen es de igual dimension que $\Bbb W$. Es decir, se generan todos los elementos del codominio.
 
-# Matriz de T.L.
+## Matriz de T.L.
 
-Si $\Bbb V$ y $\Bbb W$  son espacios vectoriales de dimension finita, podemos encontrar una expresion matriarcial para una transformacion lineal $T: \Bbb V \to \Bbb W$.
+Si $\Bbb V$ y $\Bbb W$ son espacios vectoriales de dimension finita, podemos encontrar una expresion matriarcial para una transformacion lineal $T: \Bbb V \to \Bbb W$.
 
 Supongamos que $B$ y $B'$ son bases de $\Bbb V$ y $\Bbb W$ respectivamente. $B = \{v_1, \cdots, v_n\}, B' = \{w_1, \cdots, w_m\}$
 
 $$
+\begin{align}
 x \in \Bbb V,\quad x = \alpha_1 v_1 + \cdots + \alpha_n v_n \implies T(x) = T(\alpha_1 v_1 + \cdots + \alpha_n v_n)
-
 \\\,\\
-
 \Big[T(x)\Big]^{B'} = \alpha_1\big[T(v_1)\big]^{B'} + \cdots + \alpha_n\big[T(v_n)\big]^{B'}
+\end{align}
 $$
 
 $$

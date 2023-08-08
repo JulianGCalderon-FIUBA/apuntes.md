@@ -21,7 +21,7 @@ long factorial(int n){
 }
 ```
 
-# Ejemplos de Recursividad
+## Ejemplos de Recursividad
 
 ```c
 //POST: La sumatoria desde 'numero' hasta 0
@@ -72,7 +72,7 @@ void imprimir_descendente(int numero){
 }
 ```
 
-## Recursividad Avanzada
+### Recursividad Avanzada
 
 ```c
 //POST: Cantidad de caracteres desde indice 'i' hasta final de 'string'

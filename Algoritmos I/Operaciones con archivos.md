@@ -1,4 +1,4 @@
-# Lectura de Archivos
+## Lectura de Archivos
 
 ```c
 int leidos = fscanf(stream, formato, punteros);
@@ -24,9 +24,9 @@ while (leidos != 0)
 }
 ```
 
-# Operaciones Avanzadas
+## Operaciones Avanzadas
 
-## Mezcla
+### Mezcla
 
 ```c
 FILE *stream_1 = fopen("archivo_1", "r");
@@ -67,7 +67,7 @@ while (leidos_2 == 1)
 
 ```
 
-## Unión
+### Unión
 
 ```c
 FILE *stream_1 = fopen("archivo_1", "r");
@@ -113,7 +113,7 @@ while (leidos_2 == 1)
 }
 ```
 
-## Intersección
+### Intersección
 
 ```c
 FILE *stream_1 = fopen("archivo_1", "r");
@@ -145,7 +145,7 @@ while (leidos_1 == 1 && leidos_2 == 1)
 }
 ```
 
-## Diferencia
+### Diferencia
 
 ```c
 FILE *stream_1 = fopen("archivo_1", "r");

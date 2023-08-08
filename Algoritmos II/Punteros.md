@@ -12,7 +12,7 @@ Al sumarle un entero a un puntero, estamos desplazándonos una cantidad `size_of
 
 Al declarar un puntero, es útil inicializarlo con el valor `NULL` para asegurarnos de no acceder a memoria invalida
 
-# Multiples Punteros
+## Multiples Punteros
 
 Es posible crear punteros que apunten a otros punteros, como es el caso de un vector de `strings`. Los elementos de este puntero doble apuntan al primer elemento de cada *`string`*
 
@@ -24,9 +24,9 @@ strings[2][0] == **(string+2);
 strings[3][3] == *(*(string+3)+3);
 ```
 
-# Punteros a Funciones
+## Punteros a Funciones
 
-Un puntero a función no es mas que la dirección de memoria donde reside una determinada función. Lo que permite pasarlo como argumento para funciones. 
+Un puntero a función no es mas que la dirección de memoria donde reside una determinada función. Lo que permite pasarlo como argumento para funciones.
 
 - Se puede tener un arreglo de funciones.
 - Para punteros a funciones, no se debe reservar/liberar memoria.
@@ -48,13 +48,13 @@ int main()
 }
 ```
 
-## **¿En que situaciones se utilizan?**
+### **¿En Que Situaciones Se utilizan?**
 
 Los punteros a funciones son útiles cuando tengo dos funciones con mucho código en común, pero difieren en una parte. Entonces puedo pasar este código distinto como un puntero a función.
 
 Es útil, por ejemplo, para ordenar vectores, puedo tener la lógica de ordenar vector en una función y pasarle como parámetro una función que se ocupe de comparar los elementos.
 
-# Puntero Comodín `void*`
+## Puntero Comodín `void*`
 
 En C, existe un tipo de puntero denominado ***puntero comodín***, este puede apuntar a cualquier tipo de dato ya que no esta asociado a ninguno. El puntero comodín no puede ser desreferenciado, para acceder a su valor se debe castear a otro tipo de puntero.
 

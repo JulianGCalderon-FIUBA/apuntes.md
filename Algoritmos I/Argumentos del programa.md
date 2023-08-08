@@ -4,8 +4,8 @@ El main, como cualquier otra función, también puede recibir parámetros. Estos
 int main(int argc, char *argv[]);
 ```
 
-- `argc` : Representa la cantidad de argumentos enviados
-- `argv` : Es un vector de **strings** de los argumentos enviados
+- `argc`: Representa la cantidad de argumentos enviados
+- `argv`: Es un vector de **strings** de los argumentos enviados
 
 El primer argumento del main es siempre la ruta relativa del ejecutable
 

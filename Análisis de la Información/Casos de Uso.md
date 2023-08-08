@@ -1,10 +1,8 @@
 > [!note]
 > Definición Una historia acerca de cómo un actor utiliza un sistema para alcanzar sus objetivos. Más formalmente, una secuencia de acciones realizadas por un sistema que generan un resultado observable de valor para un actor particular
 
-
 > [!note]
 > Actor: Una entidad con algún tipo de comportamiento que interactúa con el sistema: personas, organizaciones, otros sistemas.
-
 
 Los casos de uso son tecnológicamente neutros (esenciales). No describen la solución ni aspectos de implementación. (ni siquiera aquellos relacionados con la interfaz del usuario).
 
@@ -16,7 +14,7 @@ Un caso de uso describe un contrato entre las partes interesadas acerca del comp
 
 Si bien perdieron protagonista hoy en día, tienen su lugar en situaciones particulares.
 
-# Formatos
+## Formatos
 
 El formato breve simplemente contiene un título escrito en verbo en voz activa mas un objeto, y una descripción resumida del comportamiento.
 
@@ -34,48 +32,48 @@ El formato más completo, contiene precondiciones, poscondiciones,m y escenarios
 
 ![[Casos de Uso 4.png|Untitled]]
 
-# ¿Como encontrarlos?
+## ¿Como Encontrarlos?
 
 1. Es importante establecer / entender los límites del sistema. Que influiremos y que dejaremos afuera.
-2. Debemos identificar los actores primarios y sus objetivos. 
-3. Para cada objetivo, encontraremos un caso de uso. 
+2. Debemos identificar los actores primarios y sus objetivos.
+3. Para cada objetivo, encontraremos un caso de uso.
 4. Para cada caso de uso:
-    1. analizaremos sus pre y post condiciones
-    2. Describiremos sus escenarios principales.
-    3. Buscaremos los escenarios alternativos
-    4. Refinaremos y ajustaremos los casos. Buscamos relaciones de inclusión, de extensión, y especializaciones
+	1. analizaremos sus pre y post condiciones
+	2. Describiremos sus escenarios principales.
+	3. Buscaremos los escenarios alternativos
+	4. Refinaremos y ajustaremos los casos. Buscamos relaciones de inclusión, de extensión, y especializaciones
 
-## Relaciones de Inclusión
+### Relaciones de Inclusión
 
 Si encontramos que mucho comportamiento se repite en varios casos de uso, crearemos un nuevo caso de uso y lo invocaremos los casos de uso que lo necesiten los llamados casos base. La relación se dibuja con una línea punteada desde el caso de uso base al caso de uso incluido.
 
 ![[Casos de Uso 5.png|Untitled]]
 
-## Relaciones de Extensión
+### Relaciones de Extensión
 
 Cuando en un caso de uso encontramos comportamiento adicional u opcional, también podemos crear un nuevo caso de uso para ubicar esas acciones. En este caso, pagar con tarjeta de crédito extiende el comportamiento de vender productos.
 
 ![[Casos de Uso 6.png|Untitled]]
 
-## Relaciones de Generalización
+### Relaciones de Generalización
 
 También encontraremos situaciones donde es necesario especializar un caso de uso. Debemos indicar que comportamiento se hereda sin cambiar, cual se especializa, y cual es nuevo y propio de la especialización
 
 ![[Casos de Uso 7.png|Untitled]]
 
-# Adicionales
+## Adicionales
 
 A partir de cada caso de uso, se pueden identificar casos de prueba. Que debe probarse en cada escenario, bajo que condiciones, con que datos, etc.
 
 También vamos a encontrarnos con que en los casos de usa se mencionan objetos de negocio, asociaciones, atributos, propiedades. Todos ellos deben existir en el modelo de dominio.
 
-# CRUD/ABMC
+## CRUD/ABMC
 
 CRUD es un concepto, y un acrónimo de *Create, Read, Update, y Delete*, o en español, *Altas, Bajas, Modificaciones, Consultas.* Consiste en agrupar operaciones bajo estas categorías.
 
 Debe haber casos de uso que permitan custodiar las entidades del modelo de dominio. A veces será mostrar casos de uso independientes para el alta, la baja, la modificación, y la consulta. Otras veces, será mejor unificarlos en un único diagrama de casos de uso.
 
-# Procesos Unificado
+## Procesos Unificado
 
 Conjunto de disciplinas que en conjunto forman el proceso de software. En el proceso unificado los casos de uso juegan un papel importante ya que en relación a ellas se realizan las actividades.
 
@@ -83,7 +81,7 @@ Para adecuar los distintos aspectos, es necesario incluir más de una vista o pe
 
 ![[Casos de Uso 8.png|Untitled]]
 
-La vista central se representa mediante casos de uso. Los casos de uso se diagraman en notación UML. 
+La vista central se representa mediante casos de uso. Los casos de uso se diagraman en notación UML.
 
 Con esta información se propone desarrollar el modelo de análisis es una descripción de la realización de cada caso de uso. Se describe el comportamiento interno del sistema en términos tecnológicamente neutros, necesarios para elaborar las respuestas a los actores descritos en los casos de uso.
 
@@ -91,7 +89,7 @@ En este modelo el comportamiento se describe con objetos de análisis, abstracci
 
 A partir del modelo de análisis, se da lugar al modelo de diseño
 
-# Contratos y Operaciones
+## Contratos Y Operaciones
 
 *á la Larman* propone un modelo de casos de uso más completo que además de los casos de uso propiamente dichos, contiene contratos y operaciones. Nos encontraremos con diagramas de secuencia y contratos para cada operación
 
@@ -106,6 +104,6 @@ El contrato de la operación incluye:
 
 Con estas descripciones complementamos lo que hace el sistema.
 
-# Casos de Uso 2.0
+## Casos de Uso 2.0
 
 La novedad más importante es que los casos de uso en esta nueva versión son un conjunto de historias que ayudan a organizar las slices en las que se divide un caso de uso.

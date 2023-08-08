@@ -22,7 +22,7 @@ Se debe demostrar la doble inclusion, es decir, se deben poder formar los elemen
 
 Para esto, tengo que buscar la expresión mas general del espacio vectorial, y verificar que el sistema sea compatible para todos los casos
 
-# Independencia Lineal
+## Independencia Lineal
 
 Se dice que un generador es linealmente independiente si ninguno de sus componentes se puede formar como combinación lineal del resto de componentes.
 
@@ -32,13 +32,13 @@ $$
 \sum_{i = 1}^n \lambda_iv_i = 0 \implies \lambda_i = 0\,\forall\,i
 $$
 
-Se dice que un generador es una **base** si  es linealmente independiente. Todas las bases de $S$ tienen la misma cantidad de elementos**.** A **l**a cantidad de elementos de la base de se le llama dimension de $S$.
+Se dice que un generador es una **base** si es linealmente independiente. Todas las bases de $S$ tienen la misma cantidad de elementos**.** A **l**a cantidad de elementos de la base de se le llama dimension de $S$.
 
 El subespacio nulo $\{\Bbb O_{\Bbb V}\}$ tiene dimension 0, no tiene base.
 
-Si dos subespacios $S,T$ tienen la misma dimension, solo es necesario demostrar que $S\subseteq T$ para concluir que son equivalentes. 
+Si dos subespacios $S,T$ tienen la misma dimension, solo es necesario demostrar que $S\subseteq T$ para concluir que son equivalentes.
 
-## Independencia Lineal de Funciones en $C^n$
+### Independencia Lineal de Funciones en $C^n$
 
 Para demostrar que son linealmente independientes, igualamos una combinación lineal al elemento neutro, y recordando la propiedad de las derivadas, podemos derivar la ecuación respecto a la variable independiente cuantas veces nos permita el conjunto. ($n-1$) veces.
 
@@ -51,18 +51,14 @@ $$
 \vdots & \vdots & \vdots & \vdots\\
 \phi_1^{(n-1)} &\phi_2^{(n-1)} &\cdots &\phi_m^{(n-1)}
 \end{pmatrix}
-
 \times
-
 \begin{pmatrix}
 \lambda_1\\
 \lambda_2\\
 \vdots\\
 \lambda_n\\
 \end{pmatrix}
-
 =
-
 \begin{pmatrix}
 0\\
 0\\
