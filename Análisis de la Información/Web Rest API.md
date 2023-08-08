@@ -2,9 +2,9 @@ Para armar modelos de vista, el ***front end*** interactúa con la ***API***. Lu
 
 Para el ***backend***, se suele utilizar ***java*** con ***springboot,*** este es un framework de ***java*** utilizada para múltiples cosas, entre ellas aplicaciones web. Para la base de datos, existen distintos motores (***mySql***)
 
-Para el front end, utilizaremos principalmente ***react,*** el cual se puede ejecutar tanto en la nube como en la web. (azure, google cloud, github).
+Para el front end, utilizaremos principalmente ***react,*** el cual se puede ejecutar tanto en la nube como en la web. (*Azure*, *Google Cloud*, *GitHub*).
 
-Nuestro código estará almacenado en un repositorio en la nube, github, gitlab, bitbucket. Para verificar que nuestros cambios cumplan lo esperado, hay distintos servidores para automatizacion e integracion continua.
+Nuestro código estará almacenado en un repositorio en la nube, *GitHub*, *GitLab*, *BitBucket*. Para verificar que nuestros cambios cumplan lo esperado, hay distintos servidores para automatización e integración continua.
 
 ## Back End
 
