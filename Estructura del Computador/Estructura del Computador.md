@@ -1,0 +1,31 @@
+Breve resumen de los contenidos de la materia, consultar la bibliografia.
+
+[[Sistemas de Numeración|Sistemas de Numeración]]
+
+[[Pasajes de Base|Pasajes de Base]]
+
+[[Operaciones Basicas|Operaciones Basicas]]
+
+[[Representación (signo)|Representación (signo)]]
+
+[[Estructura del Computador/Punto Flotante|Punto Flotante]]
+
+[[Estructura del Computador/Álgebra de Boole|Álgebra de Boole]]
+
+[[Funciones Lógicas|Funciones Lógicas]]
+
+[[Circuitos|Circuitos]]
+
+[[Simplificación de Funciones|Simplificación de Funciones]]
+
+[[Circuitos con Capacidad de Memoria|Circuitos con Capacidad de Memoria]]
+
+[[Registros y Contadores|Registros y Contadores]]
+
+[[Sistema ARC|Sistema ARC]]
+
+[[Compiladores y Ensambladores|Compiladores y Ensambladores]]
+
+[[Micro Arquitectura|Micro Arquitectura]]
+
+[[Estructura del Computador/Memoria|Memoria]]
