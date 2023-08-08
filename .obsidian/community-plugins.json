@@ -1,6 +1,6 @@
 [
-  "obsidian-git",
+  "obsidian-linter",
   "obsidian-minimal-settings",
-  "obsidian-style-settings",
-  "obsidian-linter"
+  "obsidian-git",
+  "obsidian-style-settings"
 ]
