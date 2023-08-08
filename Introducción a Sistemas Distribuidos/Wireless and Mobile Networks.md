@@ -1,8 +1,0 @@
-1. [[Introducción a Sistemas Distribuidos/7 Wireless and Mobile Networks/1 Introduction|Introduction]]
-2. [[2 Wireless Links and Network Characteristics|Wireless Links and Network Characteristics]]
-3. [[3 WiFi 802 11 Wireless LANs|WiFi: 802.11 Wireless LANs]]
-4. [[4 Cellular Internet Access|Cellular Internet Access]]
-5. [[5 Mobility Management Principles|Mobility Management: Principles]]
-6. [[6 Mobile IP|Mobile IP]]
-7. [[7 Managing Mobility in Cellular Networks|Managing Mobility in Cellular Networks]]
-8. [[8 Wireless and Mobility Impact on Higher-Layer Pro|Wireless and Mobility: Impact on Higher-Layer Protocols]]

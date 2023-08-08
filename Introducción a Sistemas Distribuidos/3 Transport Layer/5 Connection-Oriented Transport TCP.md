@@ -26,7 +26,7 @@ Como el protocolo ***UDP***, el ***header*** de ***TCP*** contiene los puertos d
     - ***PSH*** bit: Indica que el receptor de enviar los datos a la capa de arriba de forma inmediata
     - ***URG*** bit: Indica que hay información en el segmento que es marcada como segmento. La dirección del último ***bit*** de información urgente es indicado en el ***urgent data pointer field***.
 
-![[5 Connection-Oriented Transport TCP 1.png|Untitled]]
+![[Connection-Oriented Transport TCP 1.png|Untitled]]
 
 ## Sequence Numbers and Acknowledgment Numbers
 
@@ -135,11 +135,11 @@ Cualquiera de los dos procesos puede elegir terminar la conexión, al ocurrir es
 
 Durante la vida de una conexión ***TCP***, los ***hosts*** atraviesan distintos estados:
 
-![[5 Connection-Oriented Transport TCP 2.png|Client State Diagram]]
+![[Connection-Oriented Transport TCP 2.png|Client State Diagram]]
 
 Client State Diagram
 
-![[5 Connection-Oriented Transport TCP 3.png|Server State Diagram]]
+![[Connection-Oriented Transport TCP 3.png|Server State Diagram]]
 
 Server State Diagram
 

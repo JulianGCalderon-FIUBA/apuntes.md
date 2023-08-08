@@ -11,9 +11,11 @@
             "id": "91fc470ad263d64e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Attachments/7 Managing Mobility in Cellular Networks 2.png"
+                "file": "Introducción a Sistemas Distribuidos/The Network Layer Control Plane.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Attachments/7 Managing Mobility in Cellular Networks 2.png",
+                "file": "Introducción a Sistemas Distribuidos/The Network Layer Control Plane.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Attachments/7 Managing Mobility in Cellular Networks 2.png",
+                "file": "Introducción a Sistemas Distribuidos/The Network Layer Control Plane.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Attachments/7 Managing Mobility in Cellular Networks 2.png"
+                "file": "Introducción a Sistemas Distribuidos/The Network Layer Control Plane.md"
               }
             }
           }
@@ -146,14 +148,19 @@
   },
   "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
-    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet.md",
-    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks.md",
+    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless and Mobile Networks.md",
+    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless Links and Network Characteristics.md",
+    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Introduction to Wireless Networks.md",
+    "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
+    "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",
+    "Introducción a Sistemas Distribuidos/Attachments/Managing Mobility in Cellular Networks 2.png",
+    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Computer Networks and the Internet.md",
     "Introducción a Sistemas Distribuidos/8 Security in Computer Networks.md",
-    "Introducción a Sistemas Distribuidos/The Link Layer and LANs.md",
-    "Introducción a Sistemas Distribuidos/6 The Link Layer and LANs/1 Introduction of the Link Layer.md",
+    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/The Link Layer and LANs.md",
+    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Introduction of the Link Layer.md",
     "Introducción a Sistemas Distribuidos/The Network Layer Control Plane.md",
     "Introducción a Sistemas Distribuidos/The Network Layer Data Plane.md",
-    "Introducción a Sistemas Distribuidos/4 The Network Layer Data Plane/2 What’s Inside a Router.md",
+    "Introducción a Sistemas Distribuidos/4 The Network Layer Data Plane/What’s Inside a Router.md",
     "2 What's Inside a Router.md",
     "Introducción a Sistemas Distribuidos/Transport Layer.md",
     "Introducción a Sistemas Distribuidos/Application Layer.md",
@@ -170,8 +177,6 @@
     "Física II/Física II.md",
     "Fisica I/Dinámica CR.md",
     "Fisica I/Física I.md",
-    "Estructura del Computador/Estructura del Computador.md",
-    "Estructura del Computador/Attachments/Circuitos Asincronicos 1.png",
-    "Estructura del Computador/Circuitos Sincronicos.md"
+    "Estructura del Computador/Attachments/Circuitos Asincronicos 1.png"
   ]
 }

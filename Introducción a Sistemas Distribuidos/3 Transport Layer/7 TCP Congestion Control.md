@@ -31,7 +31,7 @@ En este estado, `cwdn` se incrementa en ***1 MSS*** por cada ***ACK*** duplicado
 
 Una versión inicial de ***TCP***, conocida como ***TCP Tahoe*** no implementaba fast-recovery*.* Fue introducido posteriormente por *TCP Reno* 
 
-![[7 TCP Congestion Control 1.png|Untitled]]
+![[TCP Congestion Control 1.png|Untitled]]
 
 ## TCP Congestion Control: Retrospective
 
