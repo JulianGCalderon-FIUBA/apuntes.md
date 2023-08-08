@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Autovalores y Autovectores.md",
+                "file": "Algebra II/Resumen - Álgebra II.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Autovalores y Autovectores.md",
+                "file": "Algebra II/Resumen - Álgebra II.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra II/Autovalores y Autovectores.md",
+                "file": "Algebra II/Resumen - Álgebra II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra II/Autovalores y Autovectores.md",
+                "file": "Algebra II/Resumen - Álgebra II.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra II/Autovalores y Autovectores.md"
+                "file": "Algebra II/Resumen - Álgebra II.md"
               }
             }
           }
@@ -166,11 +166,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e9fabccf6105dc94",
+  "active": "91fc470ad263d64e",
   "lastOpenFiles": [
-    "Algebra II/Algebra II.md",
-    "Algebra II/Autovalores y Autovectores.md",
+    "Algebra II/Producto Interno.md",
+    "Algebra II/Ortogonalidad.md",
+    "Algebra II/Operaciones entre Subespacios.md",
+    "Algebra II/Método de Gram-Schmidt.md",
+    "Algebra II/Matrices Normales.md",
+    "Algebra II/Formas Cuadráticas.md",
+    "Algebra II/Espacios Vectoriales.md",
+    "Algebra II/Ejemplos de T L.md",
+    "Algebra II/EDOs.md",
+    "Algebra II/Descomposición en Valores Singulares.md",
     "Algebra II/Coordenadas.md",
+    "Algebra II/Autovalores y Autovectores.md",
+    "Algebra II/Algebra II.md",
     "Estructura del Computador/Memoria.md",
     "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Network Layer Data Plane.md",
     "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Internet Protocol (IP) IPv4, Addressing, IPv6, and More.md",
@@ -185,19 +195,9 @@
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/Principles of Network Applications.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/Socket Programming Creating a Network Application.md",
-    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
-    "Introducción a Sistemas Distribuidos/The Network Layer Control Plane/The Network Layer Control Plane.md",
-    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless and Mobile Networks.md",
-    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless Links and Network Characteristics.md",
-    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Introduction to Wireless Networks.md",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Managing Mobility in Cellular Networks 2.png",
-    "Introducción a Sistemas Distribuidos/8 Security in Computer Networks.md",
-    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Introduction of the Link Layer.md",
-    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/What’s Inside a Router.md",
     "Estructura del Computador/Attachments/Circuitos Asincronicos 1.png"
   ]
 }

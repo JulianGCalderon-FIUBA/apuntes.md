@@ -16,7 +16,7 @@ $$
 M_B^{B'} = M_e^{B'}M_B^e
 $$
 
-# Subespacios Fundamentales de una Matriz
+## Subespacios Fundamentales de Una Matriz
 
 - $\text{Col}(A)$. Generador por las columnas de $A$, Representa la imagen de la transformación lineal definida por $A$
 - $\text{Fil}(A)$. Generado por las filas de $A$, Representa el dominio que no pertenece al nulo de la transformación lineal definido por $A$
@@ -27,16 +27,16 @@ $$
 - $\text{Dim}(\text{Col}(A)) = \text{Dim}(\text{Fil}(A)) = \text{Rg}(A)$
 - $\text{Rg}(A) + \text{Dim}(\text{Nul}(A)) = n$
 - Si $\text{Nul}(B) \subseteq \text{Nul}(AB)$ y $\text{Col}(B) \cap \text{Nul}(A) = \{{0_{\Bbb K^n}}\}$, entonces $\text{Nul}(B) = \text{Nul}(AB)$
-- Si $\text{Col}(AB) \subseteq \text{Col}(A)$  y $\text{Rg}(B) = n$, entonces $\text{Col}(AB) = \text{Col}(A)$
+- Si $\text{Col}(AB) \subseteq \text{Col}(A)$ y $\text{Rg}(B) = n$, entonces $\text{Col}(AB) = \text{Col}(A)$
 
-# Operaciones entre Subespacios
+## Operaciones entre Subespacios
 
 - **Intersección:** Contiene los elementos del espacio que pertenecen a ambos subespacios. Es el subespacio más grande incluido en ambos conjuntos
 - **Union:** La union no genera otro subespacio
 - **Suma:** Genera otro subespacio, el más chico que incluye ambos conjuntos. Se calcula combinando los generadores de ambos subespacios. Si los subespacios no tienen intersección, entonces se denomina suma directa
 - **Suplemento:** Se define suplemento como el subespacio que en suma directa con el original, forman el espacio vectorial.
 
-# Transformaciones Lineales
+## Transformaciones Lineales
 
 Las transformaciones lineales se pueden clasificar de la siguiente forma:
 
@@ -50,7 +50,7 @@ $$
 [T]_E^E = [M]_{B'}^E \cdot[T]_B^{B'} \cdot [M]_E^B
 $$
 
-# Ecuaciones Diferenciales Ordinarias
+## Ecuaciones Diferenciales Ordinarias
 
 $$
 L(y)=y^{(n)} + a_{n-1}y^{(n-1)} + \cdots + a_1 y' + a_0y = f
@@ -62,45 +62,27 @@ Si el polinomio característico tiene raíces no reales $(a \pm ib)$, entonces p
 
 $$
 \def\arraystretch{1.4}\begin{array}{|c|c|c|}\hline
-
 \boldsymbol{f} & \boldsymbol{y_p} & \textbf{Raíces del polinomio caracteristico}
-
 \\\hline
-
 P_n & P_n & r \neq 0
-
 \\\hline
-
 P_n & P_{n+1} & r = 0:\text{Raíz Simple}
-
 \\\hline
-
 P_n & P_{n+k} & r=0:\text{Raiz mult. }k
-
 \\\hline
-
 e^{\lambda x} & ke^{\lambda x} & r \neq \lambda
-
 \\\hline
-
 e^{\lambda x} & P_k e^{\lambda x} & r = \lambda:\text{Raíz mult. } k
-
 \\\hline
-
 \sin(cx) & k_1\sin(cx) + k_2\cos(cx) &  r \neq ci 
-
 \\\hline
-
 \sin(cx) & P_k\sin(cx) + Q_k\cos(cx) & r = ci: \text{Raiz mult. } k 
-
 \\\hline
-
 \cos(cx) & k_1\sin(cx) + k_2\cos(cx) & r \neq ci
-
 \\\hline\end{array}
 $$
 
-# Producto Interno
+## Producto Interno
 
 El producto interno es una operación que cumple con las siguientes propiedades
 
@@ -110,7 +92,7 @@ El producto interno es una operación que cumple con las siguientes propiedades
 - $\langle u,u\rangle > 0 \iff u \in \Bbb V \neq 0_V$
 - $\langle u,u\rangle = 0 \iff u \in \Bbb V = 0_V$
 
-## Nociones del PI
+### Nociones Del Pi
 
 **Norma:** (inducida por el producto interno)
 
@@ -152,24 +134,21 @@ $$
 A(\triangle) = \sqrt{\|e_1\|^2\|e_2\|^2 - \langle e_1, e_2\rangle^2}
 $$
 
-## Base del PI
+### Base Del Pi
 
 Sea $B = \{v_1,...,v_n\}$ Entonces podemos definir el producto interno en todo el espacio a partir de los generadores de la base de la siguiente manera.
 
 $$
 \langle x, y\rangle = [x_1,x_2,...,x_n]
 \begin{bmatrix}
-
 \langle v_1, v_1\rangle & \langle v_1, v_2\rangle & \cdots &  \langle v_1, v_n\rangle \\  \langle v_2, v_1\rangle &  \langle v_2, v_2\rangle & \cdots &  \langle v_2, v_n\rangle \\ \vdots & \vdots & \ddots & \vdots \\  \langle v_n, v_1\rangle &  \langle v_n, v_2\rangle & \cdots &  \langle v_n, v_n\rangle
-
 \end{bmatrix}
-
 \begin{bmatrix}\overline{y_1} \\ \overline{y_2} \\ \vdots \\ \overline{y_n}\end{bmatrix}
 $$
 
 La matriz del producto interno $G_b$ es hermetica y definida positiva.
 
-# Proyección Ortogonal
+## Proyección Ortogonal
 
 La proyección ortogonal de $v$ sobre $S$ es el punto de $S$ mas cercano a $v$.
 
@@ -199,7 +178,7 @@ P_S(v) = \begin{bmatrix}
 \end{pmatrix} \cdot v
 $$
 
-# Cuadrados Mínimos
+## Cuadrados Mínimos
 
 Si queremos resolver el sistema $Ax = b$, Pero $b$ no pertenece a la imagen de $A$, entonces buscamos el punto de $\text{Col}(A)$ más cercano a $b$. Para esto planteamos las ecuaciones normales
 
@@ -219,7 +198,7 @@ $$
 \hat x =A^\# b
 $$
 
-# Regresión Lineal
+## Regresión Lineal
 
 Si tenemos un conjunto de datos, podemos encontrar una ecuación que se ajuste mejor a los datos. Podemos proponer distintas curvas, cambiando los parámetros de las mismas
 
@@ -230,12 +209,10 @@ x_2 & 1 \\
 \vdots & \vdots \\
 x_n & 1 \\
 \end{bmatrix}
-
 \begin{bmatrix}
 m \\
 b
 \end{bmatrix} =
-
 \begin{bmatrix}
 y_1 \\
 y_2 \\
@@ -251,13 +228,11 @@ x_2^2 & x_2 & 1 \\
 \vdots & \vdots & \vdots\\
 x_n^2 & x_n & 1 \\
 \end{bmatrix}
-
 \begin{bmatrix}
 a \\
 b \\
 c
 \end{bmatrix} =
-
 \begin{bmatrix}
 y_1 \\
 y_2 \\
@@ -268,7 +243,7 @@ $$
 
 Para hacer esto, debemos resolver el problema por mínimos cuadrados, ya que probablemente los datos obtenidos sean imprecisos.
 
-# Gram-Schmidt
+## Gram-schmidt
 
 Si tenemos una base $B = \{v_1, v_2, \cdots, v_n\}$, podemos construir una nueva base $B' = \{w_1, w_2, \cdots, w_n\}$ ortogonal. Aplicando el algoritmo de Gram-Schmidt
 
@@ -288,7 +263,7 @@ $$
 w_n = v_n - \Bigg(\frac{\langle v_n, w_1\rangle}{\|w_1\|^2} w_1 + \frac{\langle v_n, w_2\rangle}{\|w_2\|^2} w_2 + \cdots +\frac{\langle v_n, w_{n-1}\rangle}{\|w_{n-1}\|^2} w_{n-1}\Bigg)
 $$
 
-# Autovalores y Autovectores
+## Autovalores Y Autovectores
 
 Algunas matrices, pueden ser escritas de la forma $A$ = $PDP^{-1}$, Siendo $D$ una matriz diagonal. Esto permite elevar matrices de forma muy sencilla.
 
@@ -298,7 +273,7 @@ $$
 
 Los autovalores $\lambda_i$ se resuelven a partir de la ecuación $\text{det}(A -\lambda I) = 0$.
 
-Los autovectores $v_i$ se resuelven a partir de la ecuacion $v_i = \text{Null}(A - \lambda_i I)$. 
+Los autovectores $v_i$ se resuelven a partir de la ecuacion $v_i = \text{Null}(A - \lambda_i I)$.
 
 Para cada autovalor y su vector asociado, se cumple que
 
@@ -314,42 +289,36 @@ Algunas propiedades de los autovalores:
 - Si $\lambda$ es autovalor de $A$, entonces es autovalor de $A^T$
 - La multiplicidad algebraica indica la multiplicidad del autovalor, mientras que la geométrica indica la dimension de su autoespacio
 
-## Matrices de Jordan
+### Matrices de Jordan
 
 Si una matriz $A \in \Bbb C^{3 \times 3}$ no es diagonalizable, podemos encontrar matrices de Jordan similares a una matriz diagonal, tal que $A \sim J_i$
 
 Llamamos $V_1, V_2, V_3$ las columnas de $Q$
 
-### Algebraica 2, Geométrica 1
+#### Algebraica 2, Geométrica 1
 
 $$
 A_1 = 
-
 Q
 \begin{bmatrix}
-
 \lambda_1 & 1 & 0 \\
 0 & \lambda_1 & 0 \\
 0 & 0 & \lambda_2
-
 \end{bmatrix}
 Q^{-1}
 $$
 
 $V_2$ el vector que cumple con el sistema $: (A - \lambda_1I)V_2 = V_1$
 
-### Algebraica 3, Geométrica 1
+#### Algebraica 3, Geométrica 1
 
 $$
 A_2 = 
-
 Q
 \begin{bmatrix}
-
 \lambda & 1 & 0 \\
 0 & \lambda & 1 \\
 0 & 0 & \lambda
-
 \end{bmatrix}
 Q^{-1}
 $$
@@ -360,7 +329,7 @@ $V_3$ el vector que cumple con el sistema $: (A- \lambda I)V_3 = V_2$
 
 En este caso, debemos elegir el $V_2$ que pertenezca a la imagen de $A- \lambda I$
 
-### Algebraica 3, Geométrica 2
+#### Algebraica 3, Geométrica 2
 
 $$
 A_3 = 
@@ -380,7 +349,7 @@ $V_3$ el vector que cumple con el sistema $: (A- \lambda I)V_3 = V_2$
 
 En este caso, debemos elegir el $V_2$ que pertenezca a la imagen de $A- \lambda I$
 
-# Sistemas de E.D. Homogéneas
+## Sistemas de E.D. Homogéneas
 
 Si tenemos el sistema $AY = Y’$, entonces encontramos que al diagonalizar $Y$, las soluciones son de la forma
 
@@ -398,7 +367,7 @@ $$
 Im(Y_1(t)) = e^{at} \cdot \Big[\cos(bx)r + \sin(bx)w\Big]
 $$
 
-## Matrices de Jordan
+### Matrices de Jordan
 
 Si tiene un autovalor de multiplicidad algebraica $2$ y multiplicidad geométrica $1$
 
@@ -418,7 +387,7 @@ $$
 \text{gen}\{e^{\lambda t}v_1, e^{\lambda t}(v_2 + tv_1), e^{\lambda t}(v_3 + tv_2 +\frac{t^2}{2}v_1)\}
 $$
 
-# Clasificación de Matrices
+## Clasificación de Matrices
 
 - **Matrices Simétricas** $\to A^t = A$
 . Son diagonalizables ortogonalmente
@@ -438,9 +407,9 @@ Para matrices de transformaciones lineales, tenemos:
 
 - **Isometrías** $\to$ ***$\|Ax\| = \|x\|$. Son matrices que preservan la norma de un vector
 
-# Valores Singulares
+## Valores Singulares
 
-Se dice que $\sigma$ es un valor singular de $A$ si $\sigma = \sqrt \lambda$, con $\lambda$ autovalor de $A^* A$.  Si $v_i$ son autovectores de $A^*A$, entonces encontramos que. Los autovectores deben ser ortogonales.
+Se dice que $\sigma$ es un valor singular de $A$ si $\sigma = \sqrt \lambda$, con $\lambda$ autovalor de $A^* A$. Si $v_i$ son autovectores de $A^*A$, entonces encontramos que. Los autovectores deben ser ortogonales.
 
 $$
 \|Av_i\| = \sigma_i
@@ -468,7 +437,7 @@ $$
 \text{Nul}(A^T) = \Big\{ \frac{Av_{k+1}}{\sigma_{k+1}},\ \cdots,\ \frac{Av_n}{\sigma_n}\Big\}
 $$
 
-## Descomposición en V.S.
+### Descomposición en V.S.
 
 A partir de los conjuntos encontrados, podemos encontrar $A$ a partir la siguiente factorización
 
@@ -497,7 +466,7 @@ $$
 V = \Big[|v_1|, \ |v_2|,\ \cdots ,\ |v_n|\Big]
 $$
 
-## D.V.S. Reducida
+### D.V.S. Reducida
 
 Podemos escribir la matriz, omitiendo las filas y columnas que resultan nulas.
 
@@ -518,7 +487,7 @@ $$
 A = U_k D_k V_k^*
 $$
 
-## Pseudo inversa de Moore-Penrose
+### Pseudo Inversa de Moore-penrose
 
 Se le llama así a la matriz $A^\dagger = V_K D_K^{-1} U_K^*$. Definida para toda matriz $m \times n$
 
@@ -531,11 +500,11 @@ $$
 \hat x = A^\dagger b
 $$
 
-# Formas Cuadráticas
+## Formas Cuadráticas
 
 Dada una matriz $A \in \mathbb{R}^{n \times n}$ simétrica, una **forma cuadrática en** $\mathbb{R}^n$ es una función $Q: \mathbb{R}^n \to \mathbb{R}$ tal que $Q(x) = x^T Ax$
 
-## Teorema de Rayleigh
+### Teorema de Rayleigh
 
 Para simplificar, se puede diagonalizar la matriz $A = P D P^T$, y aplicar un cambio de variables.
 
@@ -555,7 +524,7 @@ $$
 
 Además, los extremos se encuentran en los autoespacios asociados a los autovalores máximos y mínimos.
 
-## Restricciones
+### Restricciones
 
 Si las restricciones son de la forma $R(x) = 1$, Entonces podemos encontrar los autovalores generalizados para el par de matrices $A,B$. Siendo $B$ una matriz definida positiva
 

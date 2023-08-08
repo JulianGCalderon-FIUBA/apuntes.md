@@ -1,12 +1,12 @@
-# Descomposición Ortogonal
+## Descomposición Ortogonal
 
-Sea $w$ un vector de $\Bbb V$, siempre se va a poder descomponer en componentes ortogonales como $u = kv + w$, siendo $v\perp w$.                                                                                                                                              
+Sea $w$ un vector de $\Bbb V$, siempre se va a poder descomponer en componentes ortogonales como $u = kv + w$, siendo $v\perp w$.
 
 $$
 k = \frac{\langle u,v\rangle}{\|v\|^2} \qquad w = u-kv
 $$
 
-# Conjuntos Ortogonales
+## Conjuntos Ortogonales
 
 Se dice que $\{v_1, v_2, \cdots, v_k\} \in \Bbb V$ es un conjunto **ortogonal**, si $\langle v_i, v_j\rangle = 0 \quad\forall\ i\neq j$.
 
@@ -14,7 +14,7 @@ Se dice que $\{v_1, v_2, \cdots, v_k\} \in \Bbb V$ es un conjunto **ortonormal**
 
 Si un conjunto ortogonal no contiene el vector nulo, entonces este conjunto es linealmente independiente.
 
-# Complemento Ortogonal
+## Complemento Ortogonal
 
 Sea $A \subset \Bbb V,\ A \neq \emptyset$, se llama **complemento ortogonal de** $A$, al conjunto $A^\perp$ formado por todos los vectores de $\Bbb V$ que son ortogonales a cada elemento de $A$.
 
@@ -26,9 +26,9 @@ Sea $A \subset \Bbb V,\ A \neq \emptyset$, se llama **complemento ortogonal de**
 - Sea $S,T \subseteq \Bbb V$, entonces $S\subseteq T \implies T^\perp \subseteq S^\perp$
 - Sea $S \subseteq \Bbb V$, entonces $S \cap S^\perp = \{0_{\Bbb V}\}$
 
-# Proyección Ortogonal
+## Proyección Ortogonal
 
-## Propiedades
+### Propiedades
 
 La proyección ortogonal de $v$ en $S$, es igual al punto de $S$ mas cercano a $v$, lo llamamos $v'$, es una transformacion lineal.
 
@@ -51,7 +51,7 @@ $$
 - $\Bbb V= S \oplus S^\perp$
 - $Im(P_S) = S,\ Nu(P_S) = S^\perp$
 
-## Formula
+### Formula
 
 Sea $S \subset\Bbb V$, $v \in \Bbb V$, y $B_S = \{v_1, v_2, \cdots, v_k\}$ una base ortogonal de $S$
 
@@ -59,9 +59,7 @@ $$
 P_S(v) = \frac{\langle v, v_1\rangle} {\|v_1\|^2} v_1 + \frac{\langle v, v_2\rangle} {\|v_2\|^2} v_2 + \cdots + \frac{\langle v, v_k\rangle} {\|v_k\|^2} v_k
 $$
 
- 
-
-## Matriz
+### Matriz
 
 Recordando que el producto interno canónico en $\Bbb C^n$es $\langle x,y \rangle = \overline y^T x$, podemos escribir la formula anterior como un producto matricial.
 
@@ -77,14 +75,14 @@ P_S(v) = \begin{bmatrix}
 \end{pmatrix} \cdot v
 $$
 
-Como es una transformación lineal, el subespacio formado por combinación lineal de las columnas de la matriz es la imagen de la función, $Col(P) = S$. 
+Como es una transformación lineal, el subespacio formado por combinación lineal de las columnas de la matriz es la imagen de la función, $Col(P) = S$.
 
 Una matriz $P \in \Bbb C^{n\times n}$ o $P \in \Bbb R^{n\times n}$ es una proyección ortogonal si cumple que:
 
 - $P = \overline P^T$ (es una matriz hermética)
 - $P^2 = P$ (es una matriz idempotente)
 
-# Cuadrados Minimos
+## Cuadrados Minimos
 
 Si $X \in \Bbb V$ y $S \subseteq \Bbb V$, entonces la distancia entre el punto y el conjunto es igual a:
 
@@ -111,7 +109,7 @@ Si el problema tiene infinitas soluciones, la solución de menor norma es aquell
 - $A^\# A = I_n$
 - $A A^\# = P_{Col(A)} \to$ Matriz de la proyección ortogonal sobre el subespacio columna
 
-## Regresión Lineal
+### Regresión Lineal
 
 Si tenemos un conjunto de datos $(x_1, y_1), (x_2, y_2), \cdots, (x_n, y_n)$. Si suponemos que hay una relación lineal entre las variables $(y = mx + b)$, podemos buscar la ecuación que mejor se ajusta
 
@@ -122,12 +120,10 @@ x_2 & 1 \\
 \vdots & \vdots \\
 x_n & 1 \\
 \end{bmatrix}
-
 \begin{bmatrix}
 m \\
 b
 \end{bmatrix} =
-
 \begin{bmatrix}
 y_1 \\
 y_2 \\
@@ -147,13 +143,11 @@ x_2^2 & x_2 & 1 \\
 \vdots & \vdots & \vdots\\
 x_n^2 & x_n & 1 \\
 \end{bmatrix}
-
 \begin{bmatrix}
 a \\
 b \\
 c
 \end{bmatrix} =
-
 \begin{bmatrix}
 y_1 \\
 y_2 \\

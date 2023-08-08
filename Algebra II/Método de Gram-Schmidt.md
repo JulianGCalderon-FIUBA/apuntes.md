@@ -40,7 +40,7 @@ $$
 w_n' := \frac{w_n}{\|w_n\|}
 $$
 
-# Descomposición $QR$ de una matriz $A$
+## Descomposición $QR$ de Una Matriz $A$
 
 Con el algoritmo de Gram-Schmidt teníamos una forma de encontrar vectores $w_i$ ortogonales entre si. En lugar de los vectores $w$, podemos despejar los vectores $v$.
 
@@ -68,6 +68,6 @@ Dada una matriz $A \in \mathbb{R}^{m\times k}$ $Rg(A) = k$, una descomposición 
 
 Además, se cumple que $Q^T Q = I_k$
 
-# Teorema de Representación de Riesz
+## Teorema de Representación de Riesz
 
-Sea $\Bbb V$ un $\Bbb K$-espacio vectorial de dimensión finita con **P.I.**, ***Si $\phi : \Bbb V \to \Bbb K$ es cualquier función lineal no nula, existe un único $w \in \Bbb V$ tal que $\langle X, w \rangle = \phi(X),\ \forall X \in \Bbb V$
+Sea $\Bbb V$ un $\Bbb K$-espacio vectorial de dimensión finita con **P.I.**, ***Si $\phi: \Bbb V \to \Bbb K$ es cualquier función lineal no nula, existe un único $w \in \Bbb V$ tal que $\langle X, w \rangle = \phi(X),\ \forall X \in \Bbb V$

@@ -1,4 +1,4 @@
-# Interseccion
+## Interseccion
 
 $$
 A\cap B = \{x/x\in A\land x\in B\}
@@ -8,7 +8,7 @@ Si $A, B$ son dos subespacios, entonces la intersección de ambos sigue siendo u
 
 Es el subespacio mas grande incluido en ambos conjuntos
 
-# Union
+## Union
 
 $$
 A\cup B = \{x/x\in A\lor x\in B\}
@@ -16,7 +16,7 @@ $$
 
 Si $A, B$ son dos subespacios, entonces la union no genera otro subespacio.
 
-# Suma
+## Suma
 
 $$
 C =A + B = \{v\in\Bbb V/ v = a + b, a \in A, b \in B\}
@@ -34,6 +34,6 @@ $$
 dim(A + B) = dim(A) + dim(B) - dim(A\cap B)
 $$
 
-## Suplemento
+### Suplemento
 
 Se dice que $W$ es suplemento de $A$ cuando $A\oplus W = \Bbb V$

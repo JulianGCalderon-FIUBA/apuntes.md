@@ -1,4 +1,4 @@
-# Definición
+## Definición
 
 Dada una matriz $A \in \mathbb{R}^{n \times n}$ simétrica, una **forma cuadrática en** $\mathbb{R}^n$ es una función $Q: \mathbb{R}^n \to \mathbb{R}$ tal que $Q(x) = x^T Ax$
 
@@ -8,7 +8,7 @@ Si $Q: \mathbb{R}^2 \to \mathbb{R}$, se le llama **Curva de Nivel** $k$ al conju
 
 Si $Q: \mathbb{R}^3 \to \mathbb{R}$, se le llama **Superficie de nivel** $k$ al conjunto $C_k = \{x \in \mathbb{R}^3: Q(x) = k\}$
 
-# Cambio de Variables
+## Cambio de Variables
 
 Como $A$ es una matriz simétrica, sabemos que es diagonalizable ortogonalmente: $A = PDP^T$, con $D$ una matriz diagonal.
 
@@ -30,7 +30,7 @@ $$
 y = P^Tx \iff x = Py
 $$
 
-# Teorema de Rayleigh
+## Teorema de Rayleigh
 
 Este teorema nos permitirá optimizar funciones, encontrando sus máximos y mínimos con restricciones en la norma de $x$.
 
@@ -52,7 +52,7 @@ $$
 
 Además, sabemos que como $P$ es una matriz ortogonal. $\|x\| = \|y\|$. Por lo que los valores máximos y mínimos de $Q$ serán los mismos incluso después del cambio de variables.
 
-# Restricciones Genéricas
+## Restricciones Genéricas
 
 Para optimizar funciones sujetas a una restricción del tipo $R(x) = 1$, Debemos plantear ciertos cambios de variable. $z = B^*x$, Tal que $B^* B^* = B$
 

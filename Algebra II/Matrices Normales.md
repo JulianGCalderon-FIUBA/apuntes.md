@@ -1,25 +1,22 @@
-# Clasificación de Matrices
+## Clasificación de Matrices
 
 Primero, algunas definiciones sobre matrices:
 
 - **Matrices Simétricas** $\to A^t = A$
 - **Matrices Ortogonales** $\to A A^t = A^T A = I$
 - **Matrices Anti Simétricas** $\to A^t = -A$
-.
 
 Para matrices complejas, tenemos que;
 
-- **Matrices Herméticas** $\to A^* = A$
-, Donde $A^*$ representa la matriz adjunta (transpuesta y conjugada)
+- **Matrices Herméticas** $\to A^* = A$, donde $A^*$ representa la matriz adjunta (transpuesta y conjugada)
 - **Matrices Unitarias**$\to A A^* = A^* A = I$
 - **Matrices Anti Herméticas** $\to A^* = -A$
-.
 
-# Matrices Normales
+## Matrices Normales
 
 Todas las matrices mencionadas anteriormente pertenecen a un mismo conjunto, el conjunto de las matrices *normales*. Verifican que $A A^* = A^* A$.
 
-## Propiedades: $A, A^*$.
+### Propiedades: $A, A^*$.
 
 Las siguientes propiedades marcan relaciones entre una matriz y su adjunta:
 
@@ -29,7 +26,7 @@ Las siguientes propiedades marcan relaciones entre una matriz y su adjunta:
 4. $\text{Null}(A) = \text{Col}^\perp(A^*)$. Se obtiene de $(2)$, Intercambiando $A, A^*$
 5. $\text{Null}^\perp(A) = \text{Col}(A^*)$. Se obtiene de $(3)$, Intercambiando $A, A^*$
 
-## Matrices Herméticas
+### Matrices Herméticas
 
 Las siguientes propiedades son validas únicamente para matrices herméticas:
 
@@ -37,29 +34,27 @@ Las siguientes propiedades son validas únicamente para matrices herméticas:
 - Los autovalores de $A$ son reales
 - Los auto espacios correspondientes a autovalores distintos son ortogonales
 - Existe una base ortonormal de $\Bbb C^n$ formada por autovectores de $A$. Sus multiplicidades algebraicas y geométricas coinciden. Toda matriz hermética es a su vez, diagonalizable.
-    
-    > [!note]
-    > Una matriz diagonalizable unitariamente no es necesariamente hermética.
 
-    
+	> [!note]
+	> Una matriz diagonalizable unitariamente no es necesariamente hermética.
 
-**Matrices Definidas Positivas:** 
+**Matrices Definidas Positivas:**
 
 Una matriz $A$ es definida positiva si $A^* = A$, y $x^* Ax > 0$, para todo $x$ no nulo.
 
 Estas matrices tienen todos sus autovalores positivos (y reales)
 
-**Matrices Semi Definidas Positiva:** 
+**Matrices Semi Definidas Positiva:**
 
 Una matriz $A$ es definida negativa si $A^* = A$, y $x^* Ax \geq 0$, para todo $x$ no nulo.
 
 Estas matrices tienen todos sus autovalores no negativos (y reales)
 
-**Matrices Indefinidas** 
+**Matrices Indefinidas**
 
 Estas matrices tienen autovalores tanto positivos como negativos (reales)
 
-## Matrices Unitarias
+### Matrices Unitarias
 
 Las siguientes propiedades son validas únicamente para matrices unitarias:
 
@@ -71,11 +66,11 @@ Las siguientes propiedades son validas únicamente para matrices unitarias:
 - Los autovectores de una matriz unitaria asociados a autovalores distintos son ortogonales.
 - Las matrices unitarias son inversibles, se cumple que $U^{-1} = U^*$
 
-## Matrices Simetricas
+### Matrices Simetricas
 
 Las matrices simétricas son diagonalizable ortogonalmente. Además, son las únicas matrices reales diagonalizables ortogonalmente.
 
-## Matrices Anti Herméticas
+### Matrices anti Herméticas
 
 Las siguientes propiedades son validas únicamente para matrices anti herméticas (y anti simétricas):
 
@@ -84,7 +79,7 @@ Las siguientes propiedades son validas únicamente para matrices anti hermética
 - Los autovectores asociados a autovalores distintos son ortogonales
 - Existe $U$ unitaria tal que $A = U DU^{-1}$
 
-# Isometrías
+## Isometrías
 
 Sea $\Bbb V$ un espacio vectorial con producto interno, entonces el operador $T: \Bbb V \to \Bbb V$ es una ***isometría*** si
 

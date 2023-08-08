@@ -4,7 +4,7 @@ Se le llama coordenadas de $v$ con respecto a la base $B$ a la $n$-upla en $\Bbb
 
 Así podemos definir la función $[v]^B: \Bbb V \to \Bbb K^n$, que dado un vector $v$ y una base $B$, nos devuelve el conjunto de escalares que forman $v$.
 
-# Matriz de Cambio de Base
+## Matriz de Cambio de Base
 
 Sean $B = \{v_i: i\in I_n\}$ y $B' = \{w_i:i\in I_n\}$ dos bases del espacio vectorial $\Bbb V$. Entonces cada vector del subespacio lo puedo anotar como
 
@@ -14,15 +14,10 @@ $$
 
 $$
 \begin{align*}
-
 [v]^{B'} &= [\alpha_1v_1 + \alpha_2v_2 + \cdots + \alpha_nv_n]^{B'}\\
-
 [v]^{B'} &= \underbrace{\begin{bmatrix}[v_1]^{B'} & [v_2]^{B'} & \cdots & [v_n]^{B'}\end{bmatrix}}_{M^{n\times n}}
-
 \begin{bmatrix}\alpha_1\\\alpha_2\\\vdots\\\alpha_n\end{bmatrix}
-
 = M_B^{B'}[v]^B
-
 \end{align*}
 $$
 

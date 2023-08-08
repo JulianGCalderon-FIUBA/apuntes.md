@@ -5,13 +5,13 @@ A partir de la descomposición en valores singulares (D.V.S), podemos encontrar 
 - $A^* A = \overline A^T A \implies$Es una matriz hermítica, semi definida positiva.
 - $\text{Nul}(A^* A) = \text{Nul}(A) = \text{Rg}(A)$
 - Para toda matriz hermítica, se cumple que:
-    - Todos sus autovalores son reales.
-    - Los autovectores son ortogonales.
-    - Es siempre diagonalizable.
+	- Todos sus autovalores son reales.
+	- Los autovectores son ortogonales.
+	- Es siempre diagonalizable.
 - Si además es semi definida positiva, no tiene autovalores negativos.
 - Sea $\text{Rg}(A^* A) = k$, los primeros $k$ autovalores son estrictamente positivos, mientras que el resto valen cero. (los autovalores se ordenan de mayor a menor)
 
-# Valor Singular
+## Valor Singular
 
 Se dice que $\sigma$ es un valor singular de $A$ si $\sigma = \sqrt \lambda$, con $\lambda$ autovalor de $A^* A$.
 
@@ -26,8 +26,7 @@ Los valores singulares de una matriz no dicen cuanto cambia la norma de los auto
 > [!note]
 > Los autovectores de $A^*A$ deben ser ortonormales
 
-
-# Subespacios Fundamentales
+## Subespacios Fundamentales
 
 Sea $\Lambda$ el conjunto de autovalores asociados a la matriz $A^*A$, entonces podemos encontrar los subespacios asociados a la matriz $A$.
 
@@ -53,7 +52,7 @@ $$
 \text{Nul}(A^T) = \Big\{ \frac{Av_{k+1}}{\sigma_{k+1}},\ \frac{Av_{k+2}}{\sigma_{k+2}},\ \cdots,\ \frac{Av_n}{\sigma_n}\Big\}
 $$
 
-# Descomposición en V.S.
+## Descomposición en V.S.
 
 Sea $A$ una matriz $\Bbb C^{m \times n}$, Puedo factorizarla de la forma
 
@@ -81,7 +80,6 @@ $$
 > [!note]
 > Los valores singulares entre $[k{+}1: n]$ valen $0$
 
-
 Siendo $U$, $V$, matrices unitarias e $\Bbb C^{m \times m}$ y $\Bbb C^{n \times n}$ respectivamente.
 
 $$
@@ -94,7 +92,7 @@ $$
 
 Si el rango de la matriz es menor a $m$, entonces las columnas restantes de $U$ se deben calcular a mano, teniendo en cuenta que debe ser un conjunto ortonormal.
 
-# D.V.S Reducida
+## D.V.S Reducida
 
 Si $A\in\Bbb C^{m \times n}$ y $\text{Rg(A)} = k$. Podemos escribir la D.V.S. de $A$ como
 
@@ -117,7 +115,7 @@ $$
 A = U_k D_k V_k^*
 $$
 
-# Pseudo-Inversa de Moore-Penrose
+## Pseudo-inversa de Moore-penrose
 
 Se le llama así a la matriz $A^\dagger = V_K D_K^{-1} U_K^*$. Se define para toda matriz de $m \times n$.
 
