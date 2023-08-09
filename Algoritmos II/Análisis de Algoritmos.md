@@ -12,7 +12,7 @@ Hay muchas propiedades, además de tiempo y espacio, que son de interés para se
 - El **primer** enfoque para analizar algoritmos, se concentro en determinar el crecimiento del peor de los casos en lo que respecta a la eficiencia de un algoritmo.
 - El **segundo** enfoque se concentro en categorizar el mejor, el peor, y el promedio de la eficiencia de un algoritmo.
 
-## Complejidad de Un Algoritmo
+## Complejidad de un Algoritmo
 
 Vamos a definir algunas funciones que permiten analizar la complejidad de un algoritmo. Estas funciones tienen una base matemática y estudian el comportamiento de los algoritmos en los casos limites.
 

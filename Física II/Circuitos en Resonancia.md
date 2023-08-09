@@ -1,4 +1,4 @@
-## Frecuencia Angular de Resonancia
+## Frecuencia angular de Resonancia
 
 Yo puedo variar la pulsación de un generador de corriente alterna. Si quiero maximizar la amplitud de la corriente, entonces debo tender la frecuencia hacia un valor
 
@@ -22,7 +22,7 @@ Si vario la resistencia del circuito, entonces varia la corriente maxima del cir
 
 Si analizamos la potencia activa, llegamos a que la potencia maxima también se encuentra cuando el circuito esta en resonancia. Por otro lado, la potencia reactiva es nula.
 
-## Frecuencia Angular de Corte
+## Frecuencia angular de Corte
 
 Se define la frecuencia angular de corte como la que causa que la potencia activa sea exactamente la mitad de la maxima. Entonces se define como:
 

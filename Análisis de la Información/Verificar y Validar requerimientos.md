@@ -12,7 +12,7 @@ La verificación y validación pueden tener lugar en cualquier momento del ciclo
 
 ***Aseguramiento de Calidad:*** No tiene nada que ver con las pruebas, apunta a evaluar si los productos y mis procesos se adhieren a los estándares aplicables. Es importante marcar la diferencia ya que mucha gente usa los términos indistintamente.
 
-## Técnicas de Verificación y Validación
+## Técnicas de verificación y validación
 
 Para cada elemento, tendremos técnicas para su correcta verificación y validación:
 

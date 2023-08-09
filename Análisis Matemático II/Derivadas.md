@@ -1,4 +1,4 @@
-## Funciones Vectoriales
+## Funciones vectoriales
 
 $$
 f(t) = (x, y, \cdots)
@@ -6,7 +6,7 @@ $$
 
 La derivada de una función vectorial se hace componente a componente, aplicando la definición de Análisis 1
 
-## Campos Escalares
+## Campos escalares
 
 $$
 f(x,y) = \cdots
@@ -22,7 +22,7 @@ La derivada direccional es un numero real que representa la pendiente de la rect
 
 Una función no tiene porque ser continua en $x,y$ para ser derivable. En cálculos de varias variables, estos conceptos son independientes entre si.
 
-## Derivadas Parciales
+## Derivadas parciales
 
 Cuando $\displaystyle\vec v = \underbrace{\vec e_k}_{\text{Canónico}}$, la derivada se llama parcial $\displaystyle \frac{\partial f}{\partial e_k}(\vec x)$
 

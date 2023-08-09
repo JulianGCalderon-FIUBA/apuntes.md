@@ -1,4 +1,4 @@
-## Pasaje de Base $B$ a Base 10
+## Pasaje de base $B$ a base 10
 
 La suma de los pesos de un símbolo es el numero en sistema decimal. $d_{1 \to n}$ son los dígitos de $a$ en la base $b$
 
@@ -12,7 +12,7 @@ $$
 a \text{ en base } n: a_n
 $$
 
-## Pasaje de Base 10 a Base $B$
+## Pasaje de base 10 a base $B$
 
 1. Divido $n$ entre $B$ $\frac nB = C\cdot B + R$
 2. Divido $C$ entre $B$

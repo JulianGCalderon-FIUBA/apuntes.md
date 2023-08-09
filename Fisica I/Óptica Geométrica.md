@@ -2,7 +2,7 @@ La **luz** son rayos que viajan en línea recta, en medios transparentes. Pueden
 
 ## Postulados
 
-### Propagación Rectilinea
+### Propagación rectilinea
 
 La **luz** se propaga en línea recta, se representa con una flecha que representa su dirección y sentido.
 

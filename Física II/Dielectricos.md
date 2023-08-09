@@ -31,7 +31,7 @@ Si el dipolo se encuentra en un campo eléctrico, se produce un torque $**\tau$*
 
 **Resultado:** La carga de las placas aumenta, es decir, aumenta la capacidad del capacitador. (diferencia de potencial constante)
 
-## ¿Por Qué Ocurre Esto?
+## ¿Por qué ocurre esto?
 
 El dieléctrico se polariza por acción del campo eléctrico del capacitador.
 
@@ -105,7 +105,7 @@ $$
 
 La permitividad indica el cambio en el campo eléctrico dentro del dieléctrico, lo que a su vez modifica la capacidad del capacitor.
 
-### **¿Hay Alguna Relación entre Los Campos eléctricos?**
+### **¿Hay alguna relación entre los campos eléctricos?**
 
 Ya que los medios materiales con los que trabajamos en Física II son **Lineales, isótropos y homogéneos (LIH).** Podemos obtener la siguiente relación.
 
@@ -123,7 +123,7 @@ $$
 
 Siendo $X_e$ La susceptibilidad dieléctrica. $(X_E \geq 0)$.
 
-#### Campo Desplazamiento a $Q$ Constante
+#### Campo Desplazamiento a $Q$ constante
 
 El campo desplazamiento esta generado solo por las cargas libres, por lo que el campo desplazamiento con o sin dieléctrico es el mismo.
 
@@ -139,7 +139,7 @@ $$
 \Delta V = \frac{\Delta V_0}{\varepsilon_r} \iff C = \varepsilon_r \cdot C_0
 $$
 
-#### Campo Desplazamiento a $\Delta V$ Constante
+#### Campo Desplazamiento a $\Delta V$ constante
 
 Si la diferencia de potencial es constante, entonces el campo eléctrico con y sin dieléctrico es el mismo, por lo que podemos llegar a la siguiente definición, a partir de la relación entre los campos.
 

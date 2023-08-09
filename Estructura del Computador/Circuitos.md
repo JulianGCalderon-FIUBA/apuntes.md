@@ -21,7 +21,7 @@ Puedo clasificar mis circuitos según la cantidad de niveles:
 - **Lógica de Dos Niveles:** La suma de minitérminos o el producto de maxitérminos representan la lógica dos niveles
 - **Lógica Multinivel:** Son mas costosos ya que tienen mas compuertas y de distintos tipos, generará un tiempo de respuesta mayor.
 
-### Complejidad de Un Circuito
+### Complejidad de Un circuito
 
 Podemos medir la complejidad de un circuito de la siguiente manera
 

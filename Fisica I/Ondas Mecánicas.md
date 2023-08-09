@@ -78,7 +78,7 @@ $$
 \frac{\partial^2\xi}{\partial x^2} = -k^2A\sin(\dots)
 $$
 
-## Velocidad de Las Ondas
+## Velocidad de las Ondas
 
 La velocidad de **propagación** depende estrictamente de las propiedades del medio
 

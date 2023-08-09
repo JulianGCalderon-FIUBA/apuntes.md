@@ -117,7 +117,7 @@ $$
 J_f = \begin{pmatrix}f'_{1_x} & f'_{1_y} & f'_{1_z}\\f'_{2_x} & f'_{2_y} & f'_{2_z}\\f'_{3_x} & f'_{3_y} & f'_{3_z}\end{pmatrix} = \begin{pmatrix}Q''_{xx} & Q''_{xy} & Q''_{xz}\\Q''_{yx} & Q''_{yy} & Q''_{yz}\\Q''_{zx} & Q''_{zy} & Q''_{zz}\end{pmatrix} 
 $$
 
-### Encontrar Función Potencial $\varphi$
+### Encontrar función potencial $\varphi$
 
 $$
 \begin{cases}f_1 = \varphi'_x\\f_2 = \varphi'_y\\f_3 = \varphi'_z\end{cases}\quad\text{Sist. de ED en derivadas parciales}

@@ -70,7 +70,7 @@ Las siguientes propiedades son validas únicamente para matrices unitarias:
 
 Las matrices simétricas son diagonalizable ortogonalmente. Además, son las únicas matrices reales diagonalizables ortogonalmente.
 
-### Matrices anti Herméticas
+### Matrices Anti Herméticas
 
 Las siguientes propiedades son validas únicamente para matrices anti herméticas (y anti simétricas):
 

@@ -229,7 +229,7 @@ $\beta = \frac{a\pi\sin\theta}\lambda = \frac{ak\sin\theta}2$
 
 $I = I_0\frac{\sin^2\beta}{\beta^2}$
 
-### **Red De Difracción**
+### **Red de Difracción**
 
 Constate de Red $C = \frac 1d$
 

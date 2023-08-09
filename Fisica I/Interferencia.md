@@ -126,7 +126,7 @@ $$
 ⟨I⟩ = 2I_0
 $$
 
-## Interferencia en $N$ Rendijas
+## Interferencia en $N$ rendijas
 
 Por el método fasorial, podemos deducir que los puntos de interferencia críticos.
 

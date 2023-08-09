@@ -6,7 +6,7 @@ $$
 
 $\Delta t \to 0, F \to \inf$
 
-## Coeficiente de Restitución
+## Coeficiente de restitución
 
 $$
 e =-\frac{v_{\text{Relativa Despues del Choque}}}{v_{\text{Relativa Antes del Choque}}}

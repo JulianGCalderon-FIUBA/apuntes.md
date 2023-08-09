@@ -50,7 +50,7 @@ $$
 
 El teorema de gauss para distribución distribución continua de cargas permite analizar el flujo de ciertos casos de forma mucha mas practica
 
-#### ¿Como Calcular El Campo Eléctrico?
+#### ¿Como calcular el campo eléctrico?
 
 - Buscamos la dirección y sentido de $\vec E$
 - Analizamos la dependencia de $\vec E$

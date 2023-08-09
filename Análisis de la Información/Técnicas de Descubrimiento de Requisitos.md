@@ -60,7 +60,7 @@ Es importante no discutir aspectos relacionados con el diseño, sino los requisi
 
 Pensada para organizar reuniones con una gran cantidad de asistentes. Se convoca a una reunión en un mismo lugar a los interesados. Se define la agenda de forma colaborativa: aquellos interesados en un tema en particular lo comunican públicamente. Aquellos interesados en los temas planteados se reúnen y dialogan entre si
 
-## Documentación de Los Resultados
+## Documentación de los resultados
 
 Se pueden tomar notas a mano, pero lo ideal es complementarlo con herramientas modernas como audio o video.
 

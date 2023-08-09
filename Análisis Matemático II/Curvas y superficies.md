@@ -4,15 +4,15 @@ $$\boxed {\vec X(t) = \Big(\frac{3\cos^2t\cdot\sin t}{\cos^3 + sen^3},\frac{3\co
 
 ![[Curvas y superficies 1.png]]
 
-## Curva Plana
+## Curva plana
 
 Esta totalmente contenida en un plano
 
-## Curva Cerrada Simple
+## Curva cerrada simple
 
 Tambien llamadas *curvas de Jordan, solo tienen en común el punto inicial y el final*
 
-## Tangente a la Curva (Regular)
+## Tangente a la curva (Regular)
 
 Si existe la derivada en un punto, se puede construir una recta tangente en ese punto. Si se puede derivar en todo el dominio, entonces la curva es regular.
 
@@ -20,7 +20,7 @@ Si se cambia la parametrización de una curva, pueden cambiar las propiedades de
 
 Se dice que es **regular a trozos** si deja de ser regular en un numero finito de puntos del intervalo $[a,b]$
 
-## Plano Normal a la Curva
+## Plano normal a la curva
 
 El plano perpendicular a la tangente de la curva y que contiene el punto de la misma
 
@@ -46,7 +46,7 @@ Con el vector normal a la superficie y el punto, puedo encontrar el plano tangen
 
 Una superficie es normal si en cada punto de la superficie, se puede encontrar un plano normal a la misma.
 
-### Vector Normal a la Superficie:
+### Vector normal a la superficie:
 
 $$
 \sigma'_u(u,v)\times\sigma'_v(u,v) = \begin{vmatrix}\hat i & \hat j & \hat k\\x'_u & y'_u & z'_u \\ x'_v & y'_v & z'_v\end{vmatrix}

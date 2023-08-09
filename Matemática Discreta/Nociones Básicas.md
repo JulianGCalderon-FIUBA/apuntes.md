@@ -80,7 +80,7 @@ Podemos probar por inducción que $A_G^q(i,j)$ cuenta la cantidad de caminos de 
 
 Por otro lado, a partir de la definición, tendremos que $M_GM_G^T = A_G + D$, con $D$ la matriz diagonal de los grados de los vertices del grafo.
 
-## Complemento de Un Grafo Simple
+## Complemento de un Grafo Simple
 
 Sea $G$ un grafo simple, entonces definimos su complemento como $G'$, donde:
 
@@ -89,7 +89,7 @@ Sea $G$ un grafo simple, entonces definimos su complemento como $G'$, donde:
 
 Observamos que si sumamos $d(G) + d(G')$, obtendremos una sucesión estable, como si fuera la del grafo $K_n$.
 
-## Espectro de Un Grafo
+## Espectro de un Grafo
 
 Sea $G$ un grafo, entonces definimos su espectro $\sigma(G)$ como el espectro de su matriz de adyacencia, $\sigma(A_G)$.
 

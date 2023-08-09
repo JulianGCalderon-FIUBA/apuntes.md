@@ -11,7 +11,7 @@ $$
 > Todo punto sin obstrucción de un frente de onda se puede considerar como un emisor de una onda esférica secundaria (de la misma frecuencia que la primaria). La amplitud del campo óptico en cualquier punto posterior es la superposición de todas esas ondas secundarias
 >
 
-## Difracción por Una Rendija
+## Difracción por una Rendija
 
 En el eje de simetría, se ubica el máximo principal $(\theta = 0)$. Los ceros y máximos secundarios se ubican hacia los costados del eje, Cada vez con menor intensidad. La cantidad de fuentes tiende al infinito, y la distancia entre las fuentes es despreciable.
 
@@ -64,7 +64,7 @@ La cantidad de mínimos de interferencia que hay entre los máximos de la campan
 
 La cantidad de máximos de interferencia que hay entre los máximos de la campana depende de la relacion $a,d$
 
-### Máximos de Interferencia
+### Máximos de interferencia
 
 Los máximos de interferencia se encuentran cuando la diferencia de recorrido es de una longitud de onda $\lambda$
 
@@ -76,7 +76,7 @@ $$
 y_M = m\cdot\frac{\lambda D}{d}
 $$
 
-### Mínimos de Interferencia
+### Mínimos de interferencia
 
 Los mínimos de interferencia se encuentran cuando los fasores se anulan entre si
 
@@ -88,7 +88,7 @@ $$
 y_M = \frac mN\cdot\frac {\lambda D}d
 $$
 
-### Mínimos de Difracción
+### Mínimos de difracción
 
 Los mínimos de difracción se encuentran cuando cada par de ondas (medio e inferior) se anula entre si, con una diferencia de recorrido de $\lambda/2$
 

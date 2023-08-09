@@ -34,7 +34,7 @@ Las pruebas de unicidad se suelen demostrar de la misma forma. Se supone que no 
 
 Cuando demostramos algo en el álgebra de ***Boole***, podemos inmediatamente asumir que su dual es válido también. Esto se debe a que todos los axiomas son duales, si se intercambia $0_B$ por $1_B$ y $\cdot$ por $+$, entonces la expresión sigue siendo completamente válida.
 
-## Pruebas de Equivalencia
+## Pruebas de equivalencia
 
 Se parte de una de las expresiones de la igualdad y, aplicando axiomas y propiedades derivadas de los axiomas, se llega a la segunda expresión. En algunos casos, también podemos utilizar los supuestos planteados para la igualdad (hipótesis).
 

@@ -36,7 +36,7 @@ $$
 
 Ver tabla de diferencabilidad en: [[Diferenciabilidad 1.pdf]]
 
-## Plano Tangente
+## Plano tangente
 
 Sea $f: D\subset\mathbb{R}^2 \to\mathbb{R}$ diferenciable en $A = (x_0, y_0)$, se llama plano tangente a la grafica de $f$ en el punto $(x_0,y_0,f(x_0,y_0))$ al plano de ecuacion:
 

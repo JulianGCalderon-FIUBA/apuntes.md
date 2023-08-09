@@ -9,7 +9,7 @@ Se deben seguir cuatro reglas fundamentales para la aplicación de la regla:
 3. **Tantas ideas como sea posible.**
 4. **El desarrollo y asociación de las ideas es deseable** (resonancia selectiva). Una mala idea puede generar una idea en otra persona, que quizas es aplicable.
 
-### Modo no Estructurado / Flujo Libre
+### Modo No Estructurado / Flujo Libre
 
 1. Se escoge a un facilitador que apunte las ideas.
 2. Se escribe el problema a solucionar.

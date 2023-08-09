@@ -1,4 +1,4 @@
-## Teorema del Punto Fijo
+## Teorema del Punto fijo
 
 Una función $G: D \subset \mathbb{R}^n \to \mathbb{R}^n$ tiene un punto fijo en $\overline p \in D$ si $G(\overline p) = \overline p$
 
@@ -64,7 +64,7 @@ Definiendo:
 
 De esta forma, los metodos de Cuasi-Newton necesitan el calculo de una sola Jacobiana
 
-## Método del Descenso Más Rápido
+## Método del Descenso más Rápido
 
 Coverge solo linealmente a la función, pero siempre converge. La idea consiste en partir de cualquier semilla, evaluar la función, y movernos en la direccion del maximo descenso, es decir, en la direccion inversa al gradiente.
 

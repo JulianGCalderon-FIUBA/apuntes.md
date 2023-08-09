@@ -130,7 +130,7 @@ $$
 \vec F_\text{Lorentz} = q\vec E +  q\cdot \vec v \times \vec B
 $$
 
-### $\vec V \perp \vec B$
+### $\vec v \perp \vec B$
 
 $$
 R = \frac{m\cdot v}{|q|\cdot\|\vec B\|}
@@ -140,7 +140,7 @@ $$
 w = \frac{v}{R} = \frac{|q|\cdot \|\vec B\|}{m}
 $$
 
-### $\vec V \not\perp \vec B$
+### $\vec v \not\perp \vec B$
 
 $$
 h = v_\parallel\cdot T = \frac{v_\parallel\cdot 2\pi \cdot m}{|q|\cdot \|\vec V\|}

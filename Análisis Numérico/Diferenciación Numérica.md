@@ -1,4 +1,4 @@
-## Aproximacion por 2 Puntos
+## Aproximacion por 2 puntos
 
 Son aproximaciones simples que se realizan a partir de utilizar dos puntos de la funcion original. Se deducen a partir del teorema de Taylor, despejando la derivada primera e ignorando las derivadas siguientes.
 
@@ -26,7 +26,7 @@ $$
 
 El error de este metodo es del orden $O(h^2)$.
 
-## Aproximacion por $n$ Puntos
+## Aproximacion por $n$ puntos
 
 A partir de realizar una aproximacion por lagrange, podemos aproximar la derivada usando mas puntos.
 

@@ -12,7 +12,7 @@ Existen dos caminos posibles:
 - ***Modelado ágil:*** Los modelos son informales y no se mantienen.
 - ***Ing. de Software Basada en Modelos:*** Tiene que ver con desarrollar modelos y evolucionarlos hasta transformarlos en la solución. Esta técnica es relativamente popular en determinados segmentos (no todos).
 
-## De Requisitos Al Diseño a la Construcción
+## De Requisitos al Diseño a la Construcción
 
 Se comienza diseñar durante la etapa de requerimientos, solapando ambas actividades. La construcción también comienza durante la etapa de requerimientos y diseño. Existe una idea y vuelta entre todas las disciplinas.
 
@@ -60,7 +60,7 @@ Es un modelo que permite visualizar la importancia de la arquitectura. Se plante
 - Vista de Procesos: Distintos procesos a nivel del sistema operativa.
 - Vista de Escenarios: Junta las cuatro vistas anteriores. El mecanismo para visualizarla es un diagrama de secuencia o de colaboración.
 
-### Asignación de Requisitos
+### Asignación De Requisitos
 
 Relación entre los requisitos y la arquitectura
 

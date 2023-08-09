@@ -1,8 +1,8 @@
-## Derivacion de Funciones Escritas Implicitamente
+## Derivacion de funciones escritas implicitamente
 
 **Funcion escrita Implicitamente:** No hay una variable despejada
 
-### Teorema de la Funcion Implicita
+### Teorema de la funcion implicita
 
 Sea $f(x,y,z)$ una funcion diferenciable en un entorno del punto $(x_0, y_0, z_0)$ donde $F(x_0, y_0, z_0) = 0$ **(*)***. Entonces, si $f'_z(x_0, y_0, z_0) \neq 0$, la expresion* **(*)** define $z=f(x,y)$ en un entorno de $(x_0, y_0)$. (Pero no se puede despejar)
 
@@ -18,7 +18,7 @@ $$
 - $F(x_0, y_0, z_0) = k$
 - $f'_x(x_0, y_0, z_0) \neq 0$
 
-### Generalizacion para $m$ Ecuaciones con $n$ Variables
+### Generalizacion para $m$ ecuaciones con $n$ variables
 
 $(n>m)$
 

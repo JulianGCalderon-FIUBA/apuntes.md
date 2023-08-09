@@ -1,4 +1,4 @@
-## Tipos de Funciones
+## Tipos de funciones
 
 - *Campo escalar:* es una función que asigna un número real $z$ a cada vector $(x_1, x_2,..., x_n)$
 
@@ -18,7 +18,7 @@
 	f(t) = (y_1, y_2, \dotsm, y_m)
 	$$
 
-## Representación de Campos Escalares
+## Representación de campos escalares
 
 Dado un campo escalar de $n$ variables $f(x_1, x_2, \dotsm, x_n)$, se le llama grafica al siguiente subconjunto de $\mathbb{R}^{n+1}$
 
@@ -29,7 +29,7 @@ $$
 
 Para $n≥3$, no hay representación grafica posible
 
-### Conjuntos de Nivel
+### Conjuntos de nivel
 
 Para cada valor real $k \in Im(f)$, se denomina *conjunto de nivel* $k$ de un campo escalar $f$ con dominio $D \subset\mathbb{R}^n$ al siguiente subconjunto del dominio de $f$
 
@@ -45,13 +45,13 @@ $$
 
 ![[Funciones de varias variables 1.png]]
 
-## Representación de Campos Vectoriales
+## Representación de campos vectoriales
 
 Para *campos vectoriales* de $R^2$ en $R^2$ y $R^3$ en $R^3$, se suele graficar con origen en cada punto del dominio, un vector flecha que represente el valor vectorial del campo en ese punto
 
 ![[Funciones de varias variables 2.png]]
 
-## Representación de Funciones Vectoriales
+## Representación de funciones vectoriales
 
 Las funciones vectoriales, con dominio en $R$ e imagen en $R^n$, admiten una representación para los casos en que $n=2$ y $y=3$. En estos casos se acostumbra representar el recorrido o imagen de la función, en el plano o en el espacio, según corresponda
 

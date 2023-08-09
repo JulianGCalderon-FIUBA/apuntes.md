@@ -32,9 +32,9 @@ $$
 
 Ya que la fuerza es siempre perpendicular a la trayectoria, entonces el trabajo de la fuerza magnética es nulo. $\vec F_M$ no es conservativa. Ya que no es conservativa, el modulo de la velocidad permanece constante. $W_{Fnc} = \Delta U_{\text{cinetica}}$
 
-### Trayectoria en $\vec B$ Uniforme
+### Trayectoria en $\vec B$ uniforme
 
-#### Caso 1: $\vec V \perp \vec B$
+#### Caso 1: $\vec v \perp \vec B$
 
 El movimiento es un **MCU**, movimiento circular uniforme. La fuerza magnética actúa como la fuerza centrípeta.
 
@@ -54,7 +54,7 @@ $$
 T = \frac{2\pi\cdot m}{q\cdot B}
 $$
 
-#### Caso 2: $\vec V \not\perp \vec B$
+#### Caso 2: $\vec v \not\perp \vec B$
 
 El movimiento es compuesto, se mueve tanto en **MCU** como en **MRU,** movimiento rectilíneo uniforme. De esta forma, la trayectoria es una hélice (movimiento helicoidal).
 

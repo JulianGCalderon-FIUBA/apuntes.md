@@ -28,7 +28,7 @@ $$
 
 El campo magnetización solo existe dentro de los materiales magnéticos. Indica la cantidad de momentos angulares por unidad de volume que tiene el material.
 
-### Relaciones entre Campos
+### Relaciones Entre Campos
 
 Si definimos la permeabilidad relativa $\mu_r$ y la susceptibilidad magnética $X_M = \mu_r - 1$. Entonces:
 
@@ -265,7 +265,7 @@ $$
 \cos(\phi_z) = \frac{P}{S}
 $$
 
-### Frecuencia Angular de Resonancia
+### Frecuencia angular de Resonancia
 
 $$
 w_r = \frac{1}{\sqrt{LC}}
@@ -275,7 +275,7 @@ $$
 P = \frac{v_{ef}^2}{R}
 $$
 
-### Frecuencia Angular de Corte
+### Frecuencia angular de Corte
 
 $$
 w_c = \frac{\pm CR + \sqrt{C^2R^2 + 4LC}}{2CL}

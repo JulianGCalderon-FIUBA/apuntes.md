@@ -67,7 +67,7 @@ La **bifurcacion** salta a una direccion de memoria si se cumple una condicion
 
 El salto por igual verifica el flag cero.
 
-## Registros Accesibles Al Programador
+## Registros accesibles al Programador
 
 ![[Sistema ARC 3.png]]
 

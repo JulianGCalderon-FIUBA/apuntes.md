@@ -7,7 +7,7 @@ No son requisitos en el sentido tradicional, sino que constituyen un recordatori
 
 Esto da origen al concepto de las tres 'C's
 
-## Card, conversation, confirmation
+## Card, Conversation, Confirmation
 
 Se separa en tres elementos
 
@@ -39,7 +39,7 @@ Criterio para determinar si la historia de usuario es correcta:
 - ***S:*** pequeña (se puede desarrollar dentro de una iteración)
 - ***T: v***erificable (se entiende lo suficiente como para poder ser probada.
 
-### QUS framework
+### QUS Framework
 
 Marco de referencia que propone 13 atributos de calidad:
 
@@ -62,29 +62,29 @@ Marco de referencia que propone 13 atributos de calidad:
 
 Este criterio considera opcional el *¿porqué?*, aunque nosotros lo consideramos necesario.
 
-## ¿Como Encontrarlas?
+## ¿Como encontrarlas?
 
 Primero debemos entender cuales son los límites del sistema que estamos analizando y quienes lo utilizan. Luego para cada usuario,debemos identificar sus objetivos y la funcionalidad esperada del sistema. Los objetivos pueden incluir una jerarquía de los objetivos. Al final de la jerarquía, podemos encontrar historias de usuario para cada sub objetivo.
 
-### User story mapping
+### User Story Mapping
 
 Es un posible enfoque para descubrir historias de usuario, describe las actividades que realizan a lo largo del tiempo los usuario de una aplicación y su descomposición en subactividades y tareas. A partir de las tareas podemos identificar historias de usuario. Cada subactividad tenrdra al menos una tarea asociada.
 
 ![[Historias de Usuario 2.png]]
 
-### Impact mapping
+### Impact Mapping
 
 Técnica de planificación que tiene como propósito alinear los equipos de trabajo con los objetivos de la organización
 
 ![[Historias de Usuario 3.png]]
 
-### Proceso de desarrollo
+### Proceso de Desarrollo
 
 En el proceso de desarrollo, asignaremos historias de usuario a las distintos ***releases*** del proyecto
 
 ![[Historias de Usuario 4.png]]
 
-### Product & sprint backlogs
+### Product & Sprint Backlogs
 
 En ***SCRUM***, las historias de usuario se almacenan en el ***product backlog*** y son seleccionadas para determinados ***sprints***. Cada historia se estima utilizando una técnica llamada ***user story points,*** que nos permite analizar la complejidad de las historias de usuario. A partir de las historias seleccionadas se determinan las tareas a realizar, en el ***sprint backlog***.
 
@@ -98,7 +98,7 @@ Tendremos una tarjeta por cada historia de usuario y por cada defecto encontrado
 
 ![[Historias de Usuario 6.png]]
 
-## Niveles de objetivos
+## Niveles de Objetivos
 
 Propuestos por Alistar Cockurn. Separan los objetivos en cuatro niveles:
 
@@ -107,7 +107,7 @@ Propuestos por Alistar Cockurn. Separan los objetivos en cuatro niveles:
 - **Sea level:** User goal level. Pueden ser realizados por una sola persona, contribuyen a la entrega de un objetivo completo
 - **Fish level:** Sub goal level. No son objetivos en si, si no que se utilizan para completar los objetivos y separarlos.
 
-## Criterios de aceptación
+## Criterios de Aceptación
 
 Una forma de definir un criterio, es define el escenario, un contexto específico, el evento, y el resultado esperado
 

@@ -136,7 +136,7 @@ El parámetro `start` puede tomar tres valores:
 - `SEEL_CUR`: Representa la posición actual del stream
 - `SEEK_END`: Representa el fin del stream
 
-## Operaciones sobre Archivos
+## Operaciones sobre archivos
 
 ### `remove`
 

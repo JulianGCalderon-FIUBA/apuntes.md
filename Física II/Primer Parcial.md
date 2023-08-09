@@ -98,13 +98,13 @@ $$
 
 ## Conductores
 
-### Campo en El Interior
+### Campo en el Interior
 
 $$
 \vec E = 0
 $$
 
-### Campo en Las Cercanías
+### Campo en las Cercanías
 
 $$
 \vec E_p = \frac{\sigma_p}{\varepsilon_0}\hat n_c
@@ -170,7 +170,7 @@ $$
 
 La unidad de los campos desplazamiento y polarización es $Q/m^2$
 
-### Relaciones entre Campos
+### Relaciones Entre Campos
 
 $$
 \vec D = \varepsilon_0 \vec E + \vec P

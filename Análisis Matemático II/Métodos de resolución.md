@@ -57,7 +57,7 @@ $$
 SG_{NH} = SG_{H} + SP_{NH}
 $$
 
-## Ed. de Tipo Homogéneo
+## ED. de tipo Homogéneo
 
 Este método se aplica cuando la EDO no es lineal, ni de variables separables, pero si es homogénea,
 

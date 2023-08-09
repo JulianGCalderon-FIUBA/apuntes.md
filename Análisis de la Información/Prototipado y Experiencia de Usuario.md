@@ -14,7 +14,7 @@ También se pueden clasificar según su alcance:
 
 El ***mock up*** no implementa comportamiento, pero lo sugiere. Es un prototipo horizontal. Una prueba de concepto es un prototipo vertical, que implementa una funcionalidad particular de forma completo. Desde la entrada del usuario hasta la última capa técnica.
 
-## En el Proceso de Desarrollo
+## En El Proceso de Desarrollo
 
 Cada requisito, caso de uso, escenario, describe una tarea que el usuario realizara con el producto. A partir de aquí se identifica un dialogo que puede representarse mediante un gráfico llamado "mapa de dialogo". Este permite identificar las distintas interfaces que participan en el diálogo. Cada interfaz será posteriormente representado mediante un prototipo. Con este podremos refinar y validar los requisitos.
 

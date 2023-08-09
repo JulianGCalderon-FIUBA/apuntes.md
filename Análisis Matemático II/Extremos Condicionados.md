@@ -1,4 +1,4 @@
-## Extremos en Conjuntos Compactos
+## Extremos en conjuntos compactos
 
 Al limitar una función a un conjunto compacto, se generan nuevos extremos que antes no existían.
 
@@ -6,7 +6,7 @@ Al limitar una función a un conjunto compacto, se generan nuevos extremos que a
 
 Si $f$ es continua en el conjunto $D\subset\mathbb{R}^n$ compacto, va a tener en $D$ un *max* y *min* absoluto
 
-### Encontrar Extremos
+### Encontrar extremos
 
 1. Buscar los puntos críticos en todo el dominio
 2. Descartar los puntos externos a $D$

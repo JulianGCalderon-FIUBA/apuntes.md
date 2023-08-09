@@ -8,7 +8,7 @@ Este modelo corresponde a la arquitectura de las primeras computadoras, sin emba
 
 Se utiliza para dispositivos automaticos que no requieren programacion. Tiene pequeño volumen de memoria dedatos y de programa
 
-## Arquitectura Von Neumann
+## Arquitectura von Neumann
 
 ![[Micro Arquitectura 2.png]]
 
@@ -139,7 +139,7 @@ Para las instrucciones de assembly que no contienen ***OP3, se le asigna a toda 
 
 Para no repetir el microcodigo en cada instrucciones, se puede utilizar la **nanoprogramación.** Consiste en remplazar la tabla de *2048wordsx41bits* por una tabla de *2048wordsx7bits*, donde se redirige a una nueva tabla de *100wordsx41bits*, la cual contiene el microcodigo para cada operación.
 
-#### **Tablas De Operaciones**
+#### **Tablas de Operaciones**
 
 Codigos de Condicion
 

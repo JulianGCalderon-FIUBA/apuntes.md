@@ -2,7 +2,7 @@
 
 Es una forma de atravesar el grafo, visitando cada vértice del mismo. El orden en el cual los vertices son visitados determina el tipo de recorrido.
 
-### Breadth First search
+### Breadth First Search
 
 Primero se visitan todos los nodos vecinos antes de visitar los nodos mas lejanos. Para su implementación, se utiliza un cola.
 
@@ -11,7 +11,7 @@ Primero se visitan todos los nodos vecinos antes de visitar los nodos mas lejano
 3. Encolar los vertices adyacentes al actual
 4. Repetir desde (2) hasta terminar
 
-### Depth First search
+### Depth First Search
 
 Se visita un nodo vecino primero, avanzando hasta que no se puede continuar. Luego se vuelve hasta donde se tenían mas caminos y se realiza la misma lógica. Para su implementación, se utiliza una pila.
 

@@ -55,7 +55,7 @@ Hay tres enfoques principales para aumentar la calidad:
 
 La mayoría de las filosofías de dia de hoy se basan en ***lean***. Lo mejor es tener ciclos de desarrollo que se van actualizando con cada iteración.
 
-## Grupos de Factores de Calidad
+## Grupos de factores de Calidad
 
 Hay dos grupos que surgen de los factores la calidad:
 

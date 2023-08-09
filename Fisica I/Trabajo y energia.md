@@ -36,7 +36,7 @@ $$
 \boxed{E_M = E_C + E_P}
 $$
 
-#### Energia Cinetica
+#### Energia cinetica
 
 Asociada al movimiento
 
@@ -44,7 +44,7 @@ $$
 E_C = \frac12mv^2
 $$
 
-#### Energia Potencial
+#### Energia potencial
 
 Asociada a la posicion
 
@@ -56,7 +56,7 @@ $$
 E_{P_e} = \frac 12k\cdot(\Delta x)^2
 $$
 
-## Conservacion de la Energia Mecancia
+## Conservacion de la energia mecancia
 
 Cuando en un sistema solo intervienen fuerzas conservativas, se conserva la energia mecanica
 
@@ -74,7 +74,7 @@ El trabajo sobre una trayectoria cerrada ES nulo
 - Fuerzas elásticas
 - Fuerza electrica
 
-### No Conservativas: $F_{NC}$
+### No conservativas: $F_{NC}$
 
 El trabajo SI depende de la trayectoria
 
@@ -83,7 +83,7 @@ El trabajo sobre una trayectoria cerrada NO ES nulo
 - Rozamiento
 - Fuerzas magneticas
 
-## Teorema de Las Fuerzas Vivas
+## Teorema de las fuerzas vivas
 
 $$
 \boxed{W = \Delta E_C}

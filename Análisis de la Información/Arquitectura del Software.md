@@ -1,4 +1,4 @@
-## Atributos de calidad
+## Atributos de Calidad
 
 Hay dos tipos de atributos de calidad:
 
@@ -17,19 +17,19 @@ Si priorizamos la resiliencia, esto puede afectar la eficiencia del sistema ya q
 
 La disponibilidad y la confianza en sí solos no son suficientes para un sistema, no importa que tan bien diseñado este un sistema, siempre podrá fallar.
 
-## Arquitecturas y patrones
+## Arquitecturas y Patrones
 
 **Pipe And Filter:** Componentes conectados a travès de conectores que procesan información. Consiste en manipular los datos de forma secuencial aplicando múltiples funciones hasta llegar al resultado
 
 ***N-Tier:*** Consiste en una separación física de las distintas capas de una aplicación. Relacionado con la arquitectura de separación en capas.
 
-### Orientación a eventos
+### Orientación a Eventos
 
 En una arquitectura P2P (punto a punto). Los componentes deben interactuar directamente con los otros servicios que utiliza. Si uno de sus componentes falla, el evento completo fallará.
 
 En la arquitectura orientada a eventos, los eventos se colocan en una cola de eventos. Los sistemas estarán conectados a esta cola y registrarán los eventos en cuanto esté disponible.º
 
-### REST API
+### Rest API
 
 ### Microservicios
 

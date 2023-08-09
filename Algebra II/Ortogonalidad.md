@@ -1,4 +1,4 @@
-## Descomposición ortogonal
+## Descomposición Ortogonal
 
 Sea $w$ un vector de $\Bbb V$, siempre se va a poder descomponer en componentes ortogonales como $u = kv + w$, siendo $v\perp w$.
 
@@ -6,7 +6,7 @@ $$
 k = \frac{\langle u,v\rangle}{\|v\|^2} \qquad w = u-kv
 $$
 
-## Conjuntos ortogonales
+## Conjuntos Ortogonales
 
 Se dice que $\{v_1, v_2, \cdots, v_k\} \in \Bbb V$ es un conjunto **ortogonal**, si $\langle v_i, v_j\rangle = 0 \quad\forall\ i\neq j$.
 
@@ -14,7 +14,7 @@ Se dice que $\{v_1, v_2, \cdots, v_k\} \in \Bbb V$ es un conjunto **ortonormal**
 
 Si un conjunto ortogonal no contiene el vector nulo, entonces este conjunto es linealmente independiente.
 
-## Complemento ortogonal
+## Complemento Ortogonal
 
 Sea $A \subset \Bbb V,\ A \neq \emptyset$, se llama **complemento ortogonal de** $A$, al conjunto $A^\perp$ formado por todos los vectores de $\Bbb V$ que son ortogonales a cada elemento de $A$.
 
@@ -26,7 +26,7 @@ Sea $A \subset \Bbb V,\ A \neq \emptyset$, se llama **complemento ortogonal de**
 - Sea $S,T \subseteq \Bbb V$, entonces $S\subseteq T \implies T^\perp \subseteq S^\perp$
 - Sea $S \subseteq \Bbb V$, entonces $S \cap S^\perp = \{0_{\Bbb V}\}$
 
-## Proyección ortogonal
+## Proyección Ortogonal
 
 ### Propiedades
 
@@ -82,7 +82,7 @@ Una matriz $P \in \Bbb C^{n\times n}$ o $P \in \Bbb R^{n\times n}$ es una proyec
 - $P = \overline P^T$ (es una matriz hermética)
 - $P^2 = P$ (es una matriz idempotente)
 
-## Cuadrados minimos
+## Cuadrados Minimos
 
 Si $X \in \Bbb V$ y $S \subseteq \Bbb V$, entonces la distancia entre el punto y el conjunto es igual a:
 
@@ -109,7 +109,7 @@ Si el problema tiene infinitas soluciones, la solución de menor norma es aquell
 - $A^\# A = I_n$
 - $A A^\# = P_{Col(A)} \to$ Matriz de la proyección ortogonal sobre el subespacio columna
 
-### Regresión lineal
+### Regresión Lineal
 
 Si tenemos un conjunto de datos $(x_1, y_1), (x_2, y_2), \cdots, (x_n, y_n)$. Si suponemos que hay una relación lineal entre las variables $(y = mx + b)$, podemos buscar la ecuación que mejor se ajusta
 

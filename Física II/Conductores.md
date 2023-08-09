@@ -8,7 +8,7 @@ Experimentalmente, podemos probar que el campo eléctrico ***dentro*** de un con
 
 Esto ocurre cuando tenemos un conductor ahuecado que encierra una porción vacía del espacio. El conductor entonces aísla esta porción del espacio y no permite que el campo externo ingrese. En la superficie interna del conductor hueco no se distribuyen cargas.
 
-## Campo Eléctrico en Las Cercanías de Un Conductor
+## Campo Eléctrico en las Cercanías de un Conductor
 
  ***Si analizamos un punto muy cercano a la superficie, el campo eléctrico es perpendicular a la superficie, por lo que si aplicamos la ley de gauss, llegamos a la expresión del campo eléctrico en las cercanías de la superficie. Es similar al campo de un plano infinito, pero solo tenemos en cuenta una de las tapas de la superficie de gauss, ya que la que se encuentra dentro del conductor tiene flujo nulo.
 

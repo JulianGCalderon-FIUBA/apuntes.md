@@ -97,7 +97,7 @@ Un subespacio $S \subseteq \Bbb V$ es un **subespacio invariante** de $T:\Bbb V\
 
 El núcleo y la imagen de una transformación lineal es un subespacio $T\text{-invariante}$.
 
-## Transformación lineal
+## Transformación Lineal
 
 Dados $\Bbb V {-} \Bbb K$ un espacio vectorial y $T: \Bbb V \to \Bbb V$ una transformacion lineal. Un autovalor de $T$ es un escalar $\lambda \in \Bbb K$ tal que existe $v \in \Bbb K^n$ no nulo que cumple $T(v) = \lambda v$
 
@@ -116,7 +116,7 @@ Se le llama **polinomio característico** de $T$ a $P_T(\lambda) = \text{det}(\l
 - Sea $D:\Bbb C^\infty\to\Bbb C^\infty$, sabemos que $\lambda \in \mathbb{R}$ es autovalor de $D$, y para cada $\lambda$, su autoespacio asociado es $S = gen\{e^{\lambda x}\}$
 - Si existe una base de $\Bbb V$ formada por autovectores de $T$, entonces $T$ es diagonalizables. La matriz $[T]_B^B$ sera una matriz diagonal. (propiedad de semejanza)
 
-## Matrices de jordan
+## Matrices de Jordan
 
 Si una matriz $A \in \Bbb C^{3 \times 3}$ no es diagonalizable, podemos encontrar matrices de jordan similares a una matriz diagonal, tal que $A \sim J_i$
 

@@ -16,7 +16,7 @@ $$
 
 $D_{\vec f}:$ Matriz Jacobiana de $\vec f$
 
-## Arbol de Derivacion
+## Arbol de derivacion
 
 ![[Propiedades de la diferenciabiliad 1.png]]
 

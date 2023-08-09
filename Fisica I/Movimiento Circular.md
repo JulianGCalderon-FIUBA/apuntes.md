@@ -12,7 +12,7 @@ Para $\Delta t \to 0$: $\Delta s = \Delta r \implies ds = |dr|$
 
 $\displaystyle |\vec v|= \frac{|dr|}{dt}=\frac{ds}{dt} = \frac{d\theta}{dt} \cdot R$
 
-## Velocidad y Aceleración Angular
+## Velocidad y aceleración angular
 
 $\displaystyle \Omega = \frac{d\theta}{dt}$
 

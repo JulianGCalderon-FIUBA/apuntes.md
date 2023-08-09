@@ -24,7 +24,7 @@ $$
 > [!note]
 > Para regiones mas complejas, se puede pensar la integral como la suma de distintas regiones simples, con limites variables conocidos.
 
-## Cambio de Variable
+## Cambio de variable
 
 Para facilitar la integración, se puede transformar la region para llegar a una mas simple, Cambiando las coordenadas.
 

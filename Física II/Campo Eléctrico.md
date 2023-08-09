@@ -12,7 +12,7 @@ $$
 \vec F(q, \vec r) = q\cdot \vec E(\vec r)
 $$
 
-## Campo Eléctrico de Una Carga Puntual.
+## Campo Eléctrico de una Carga Puntual.
 
 $$
 \vec E(\vec r) = qk\cdot\frac{(\vec r-\vec r')}{\|\vec r - \vec r'\|^3}
@@ -31,7 +31,7 @@ $$
 
 Si la carga puntual es negativa, entonces el sentido del campo se invierte. Entrante a la carga negativa.
 
-## Campo Eléctrico de Un Conjunto de Cargas
+## Campo Eléctrico de un conjunto de Cargas
 
 Debido al principio de superposición, podemos sumar los campos eléctricos de cada carga puntual y llegar a la siguiente definición
 
@@ -39,7 +39,7 @@ $$
 \vec E(\vec r) = k\sum_{i}^nq_i\cdot\frac{(\vec r - \vec r_i)}{\|\vec r - \vec r_i\|^3}
 $$
 
-## Campo Eléctrico en Una Distribución Continua
+## Campo Eléctrico en una Distribución Continua
 
 Podemos pensar a este campo eléctrico como una suma de cargas infinitesimales. es decir, una integral
 

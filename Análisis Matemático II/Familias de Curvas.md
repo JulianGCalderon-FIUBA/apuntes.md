@@ -14,7 +14,7 @@ $$
 y_2' = -\frac 1{f_1(x,y)} = f_2(x,y)
 $$
 
-## Líneas de Campos
+## Líneas de campos
 
 Sea $\vec F(x,y)$ un campo vectorial, entonces la EDO que cumple su línea de campo es $\displaystyle y' = \frac yx$. Otra manera de anotarlo es $\displaystyle \frac{dx}x = \frac{dy}y$
 

@@ -25,7 +25,7 @@ $$
 \vec p = \sum \vec p_i= M\vec v_{CM}
 $$
 
-### Teorema de Conservacion del Momento Lineal
+### Teorema de conservacion del momento lineal
 
 $$
 \sum \vec F = \frac{d\vec p}{dt} \implies \vec p = \text{cte} \iff \sum \vec F = 0
@@ -50,7 +50,7 @@ $$
 > [!note]
 > Se tienen en cuenta solo fuerzas externas al sistema, ya que las fuerzas internas se cancelan entre si
 
-### Teorema de Conservacion del Momento Angular
+### Teorema de conservacion del momento angular
 
 $$
 \sum \vec\tau_o = \frac{d\vec L_o}{dt} \implies \vec L_o = \text{cte} \iff \sum \vec\tau_o = 0
@@ -65,7 +65,7 @@ $$
 > [!note]
 > En el calculo de energía, se tienen en cuenta los trabajos internos y externos
 
-## Las Transformaciones de Galileo
+## Las transformaciones de Galileo
 
 $$
 L^{\text{Sist}}_o = \underbrace{L^{\text{Sist}}_{cm}}_{L\text{ Spin }} + \underbrace{L^{\text{cm}}_{o}}_{L\text{ Orbital}}

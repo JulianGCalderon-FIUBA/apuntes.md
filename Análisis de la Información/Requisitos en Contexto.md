@@ -8,7 +8,7 @@ Adicionalmente, con la estrategia determinaremos como gestionamos la cartera de 
 
 Las ideas no siempre se transforman en productos. Debemos saber si las ideas son factibles antes de realizar una ingeniería de requisitos completas o un análisis muy detallado. Debemos realizar un análisis de factibilidad, de orden de magnitud.
 
-## ¿Que Hacemos en un Startup?
+## ¿Que hacemos en un Startup?
 
 Muchas veces, no sabemos que quieren los clientes. Se dan dos situaciones en paralelo:
 

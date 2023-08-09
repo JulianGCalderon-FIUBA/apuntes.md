@@ -32,7 +32,7 @@ El formato más completo, contiene precondiciones, poscondiciones,m y escenarios
 
 ![[Casos de Uso 4.png]]
 
-## ¿Como Encontrarlos?
+## ¿Como encontrarlos?
 
 1. Es importante establecer / entender los límites del sistema. Que influiremos y que dejaremos afuera.
 2. Debemos identificar los actores primarios y sus objetivos.

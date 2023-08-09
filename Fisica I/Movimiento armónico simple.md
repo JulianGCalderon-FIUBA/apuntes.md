@@ -38,7 +38,7 @@ $$
 \boxed{C = \omega^2}
 $$
 
-## Fuerza Elástica
+## Fuerza elástica
 
 La fuerza elastica es la fuerza que ejerce un resorte ideal sobre un objeto, $K$ es la constante elastica y $(L-L_0)$ es el desplazamiento en relacion a la posicion de equilibrio
 

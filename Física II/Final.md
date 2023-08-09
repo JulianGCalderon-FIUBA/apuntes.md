@@ -144,7 +144,7 @@ Para obtener una funcion potencial, colocamos la referencia $A$ en el infinito. 
 
 ## Conductores
 
-### Campo en Las Cercanías
+### Campo en las Cercanías
 
 $$
 \vec E_p = \frac{\sigma_p}{\varepsilon_0}\hat n_c
@@ -210,7 +210,7 @@ $$
 
 La unidad de los campos desplazamiento y polarización es $Q/m^2$. El campo desplazamiento esta asociada con las cargas libres del circuito, mientras que el campo polarizacion esta asociado con las cargas polarizadas que se encuentran dentro del dielectrico.
 
-### Relaciones entre Campos
+### Relaciones Entre Campos
 
 $$
 \vec D = \varepsilon_0 \vec E + \vec P
@@ -396,7 +396,7 @@ $$
 \vec F_\text{Lorentz} = q\vec E +  q\cdot \vec v \times \vec B
 $$
 
-### $\vec V \perp \vec B$
+### $\vec v \perp \vec B$
 
 $$
 R = \frac{m\cdot v}{|q|\cdot\|\vec B\|}
@@ -406,7 +406,7 @@ $$
 w = \frac{v}{R} = \frac{|q|\cdot \|\vec B\|}{m}
 $$
 
-### $\vec V \not\perp \vec B$
+### $\vec v \not\perp \vec B$
 
 $$
 h = v_\parallel\cdot T = \frac{v_\parallel\cdot 2\pi \cdot m}{|q|\cdot \|\vec V\|}
@@ -531,7 +531,7 @@ $$
 
 El campo magnetización solo existe dentro de los materiales magnéticos. Indica la cantidad de momentos angulares por unidad de volume que tiene el material. El campo magnético existe siempre y esta relacionado con las corrientes reales
 
-### Relaciones entre Campos
+### Relaciones Entre Campos
 
 Si definimos la permeabilidad relativa $\mu_r$ y la susceptibilidad magnética $X_M = \mu_r - 1$. Entonces:
 
@@ -797,7 +797,7 @@ $$
 
 La potencia aparente $S$ indica la potencia que siente la fuente que deberá entregarle a la corriente.
 
-### Frecuencia Angular de Resonancia
+### Frecuencia angular de Resonancia
 
 $$
 w_r = \frac{1}{\sqrt{LC}}
@@ -809,7 +809,7 @@ $$
 
 La frecuencia de resonancia es la que causa que la potencia sea la maxima (circuito resistivo)
 
-### Frecuencia Angular de Corte
+### Frecuencia angular de Corte
 
 $$
 w_c = \frac{\pm CR + \sqrt{C^2R^2 + 4LC}}{2CL}

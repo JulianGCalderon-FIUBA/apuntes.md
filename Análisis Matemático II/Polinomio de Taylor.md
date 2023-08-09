@@ -26,7 +26,7 @@ $$
 P_{n+1}(x) = P_n(x) + \frac{f^{(n+1)}}{(n+1)!}\cdot(x-a)^{n+1}
 $$
 
-## Polinomios de Taylor en Varias Variables
+## Polinomios de Taylor en varias variables
 
 En campos escalares, se debe comprobar que todas las derivadas parciales del polinomio tengan el mismo valor que las derivadas parciales de $f$.
 

@@ -10,7 +10,7 @@ Este sistema ***DNS*** provee algunos servicios importantes:
 - ***Mail server aliasing:*** Similar al anterior, permite tener múltiples aliases para un único servidor de mails.
 - ***Load distribution:*** Se puede utilizar este sistema para redirigir a los usuarios a los servidores a otros servidores, a partir de un ***hostname*** común. Para hacer esto, el ***DNS*** devuelve todas las direcciones **IP** asociadas al ***hostname***, pero rotando el orden cada vez.
 
-# 2. Overview of How DNS Works
+# 2. Overview of How Dns Works
 
 ## A Distributed, Hierarchical Database
 

@@ -22,7 +22,7 @@ $$
 \iint_{P_{xy}(V)}dxdy\underbrace{\int_{\varphi_1}^{\varphi_2}f(x,y,z)dz}_{g(x,y)}
 $$
 
-## Cambio de Coordenadas
+## Cambio de coordenadas
 
 En integrales triples, puedo hacer un cambio de coordenadas parcial, Cambiando dos coordenadas, y dejando constante la otra. O puedo cambiar las tres variables.
 

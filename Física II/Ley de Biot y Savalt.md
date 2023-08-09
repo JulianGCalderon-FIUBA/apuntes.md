@@ -22,7 +22,7 @@ $$
 \vec B = \frac{\mu_0}{4\pi} \int\frac{I\cdot  d\vec l' \times (\vec r - \vec r')}{\|\vec r - \vec r'\|^3}
 $$
 
-## Campo Magnético Generado por Un Hilo
+## Campo Magnético Generado por un Hilo
 
 Si planteamos una integral recta, y resolvemos la ley del campo magnético, llegamos a la siguiente expresión
 

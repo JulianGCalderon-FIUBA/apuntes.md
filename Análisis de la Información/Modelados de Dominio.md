@@ -15,7 +15,7 @@ En general, los objetos de dominio pertenece a las siguientes familias:
 
 Estos no son los objetos de diseño, no contienen detalles de la implementación. Los objetos de diseño están inspirados en conceptos del dominio del problema. La orientación a objetos busca minimizar la brecha entre el vocabulario del problema y la solución. No todo objeto de diseño existe en el dominio del problema.
 
-## ¿Cómo Se Construye?
+## ¿Cómo se Construye?
 
 En general, tiene los siguientes pasos:
 

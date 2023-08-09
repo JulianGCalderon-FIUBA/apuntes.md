@@ -35,7 +35,7 @@ Para permitir que un mismo ***link*** pueda ser utilizado por mas de un circuito
 - ***frecuency-division multiplexing (FDM)***: El espectro de frecuencias de un ***link*** se divide entre las conexiones establecidas a través del ***link***.
 - ***time-division multiplexing (TDM)***. El tiempo se divide en frames de duración fija, y cada frame se divide en *time-slots* fijos
 
-### Packet Switching versus Circuit Switching
+### Packet Switching Versus Circuit Switching
 
 Algunos argumentan que *Packet switching* no es del todo adecuado para ***real-time*** services***,*** debido a su variabilidad y retrasos, aunque es más eficiente y más simple. Hoy en día este enfoque es más utilizado.
 
