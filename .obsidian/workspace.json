@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Producto Interno.md",
+                "file": "Algebra II/Subespacios.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Producto Interno.md",
+                "file": "Algebra II/Subespacios.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra II/Producto Interno.md",
+                "file": "Algebra II/Subespacios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra II/Producto Interno.md",
+                "file": "Algebra II/Subespacios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra II/Producto Interno.md"
+                "file": "Algebra II/Subespacios.md"
               }
             }
           },
@@ -176,6 +176,7 @@
   },
   "active": "c42caadea4e53a08",
   "lastOpenFiles": [
+    "Algebra II/Producto Interno.md",
     "Algoritmos I/Argumentos del programa.md",
     "Algoritmos I/Bibliotecas Personales.md",
     "Algebra II/Transformaciones Lineales.md",
@@ -201,7 +202,6 @@
     "Fisica I/Colisiones.md",
     "Análisis Matemático II/Cuádricas.md",
     "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
-    "Análisis Matemático II/Cónicas.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",
