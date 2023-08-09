@@ -70,7 +70,7 @@ El numero de nodos negros desde el nodo raíz a un nodo es denominado la profund
 
 El camino mas largo desde la raíz hasta una hoja no es mas largo que dos veces el camino mas corto desde la raíz a una hoja. Como resultado, el árbol esta aproximadamente equilibrado
 
-![[Arboles Auto Balanceados 1.pdf]]
+[[Arboles Auto Balanceados 1.pdf]]
 
 ## Árbol B
 

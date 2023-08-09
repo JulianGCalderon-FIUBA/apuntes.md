@@ -41,5 +41,6 @@
   "anuppuccin-theme-settings@@anp-button-metadata-toggle": false,
   "anuppuccin-theme-settings@@anp-decoration-toggle": true,
   "minimal-style@@zoom-off": false,
-  "minimal-style@@image-muted": 0.7
+  "minimal-style@@image-muted": 0.7,
+  "minimal-style@@image-grid-fit": "cover"
 }
