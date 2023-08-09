@@ -1,4 +1,4 @@
-# Energía Cinética
+## Energía Cinética
 
 Para un sistema de partículas, se cumple que:
 
@@ -20,7 +20,7 @@ $$
 \boxed{E_c = \frac 12I_{cir}\Omega^2}
 $$
 
-# Energía Potencial
+## Energía Potencial
 
 $$
 E_p^{Sist} = \sum M_igh_i
@@ -30,7 +30,7 @@ $$
 \boxed{E_p = Mgh_{cm}}
 $$
 
-# Trabajo
+## Trabajo
 
 En el calculo de trabajo, el procedimiento es el mismo que en un cuerpo puntual, pero se debe considerar el desplazamiento del punto del cuerpo rígido donde se aplica la fuerza
 

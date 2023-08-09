@@ -145,8 +145,6 @@ Codigos de Condicion
 
 ![[Micro Arquitectura 7.png]]
 
-
+Codigos de la ALU
 
 ![[Micro Arquitectura 8.png]]
-
-Codigos de la ALU

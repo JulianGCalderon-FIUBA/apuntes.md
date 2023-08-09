@@ -1,6 +1,6 @@
 Si un cuerpo es homogéneo, el centro de masa coincide con el centro geométrico
 
-# Momento Angular
+## Momento Angular
 
 $$
 \vec L^{Sist}_{o} = \sum m_i \cdot \vec r_{i/o} \times \vec\Omega\times\vec r_{i/o}
@@ -22,9 +22,10 @@ $$
 I_{o} = I_{cm} + M \cdot r^2_{cm/o}
 $$
 
-# Momento de Inercia $(I_o)$
+## Momento de Inercia $(I_o)$
 
 El momento de inercia puede pensarse como una inercia de
+
 rotación, como la resistencia que un cuerpo presenta a adquirir una aceleración angular.
 
 $$

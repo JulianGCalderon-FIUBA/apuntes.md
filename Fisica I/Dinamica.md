@@ -1,4 +1,4 @@
-# 1er principio:
+## 1er Principio:
 
 Si el observador encuentra que un objeto cuya fuerza resultante es nula y el objeto se esta moviendo a velocidad constante o esta quieto, esta en un marco de referencia inercial. Por lo que no puede cambiar su estado a menos que se le aplique una fuerza no nula
 
@@ -6,7 +6,7 @@ $$
 \sum F = 0 \implies a =\frac{dv}{dt} = 0
 $$
 
-# 2do principio:
+## 2do Principio:
 
 La aceleración de un objeto es proporcional a la fuerza que se le aplica
 
@@ -20,7 +20,7 @@ $$
 \sum \vec F = m \cdot \vec a
 $$
 
-# 3er principio:
+## 3er Principio:
 
 Cuando un cuerpo ejerce una fuerza sobre otro cuerpo, este ejerce una fuerza de misma dirección y modulo pero sentido contrario sobre el primer cuerpo
 
@@ -28,7 +28,7 @@ $$
 F_{12} = -F_{21}
 $$
 
-## Impulso
+### Impulso
 
 Se le llama impulso a la variación en la cantidad de movimiento $p$ que experimenta un objeto $[N/s]$
 

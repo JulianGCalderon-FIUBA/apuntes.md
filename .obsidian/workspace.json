@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estructura del Computador/Micro Arquitectura.md",
+                "file": "Fisica I/FORMULAS.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estructura del Computador/Micro Arquitectura.md",
+                "file": "Fisica I/FORMULAS.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estructura del Computador/Micro Arquitectura.md",
+                "file": "Fisica I/FORMULAS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estructura del Computador/Micro Arquitectura.md",
+                "file": "Fisica I/FORMULAS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estructura del Computador/Micro Arquitectura.md"
+                "file": "Fisica I/FORMULAS.md"
               }
             }
           },
@@ -177,32 +177,32 @@
   },
   "active": "c42caadea4e53a08",
   "lastOpenFiles": [
+    "Fisica I/Física I.md",
+    "Fisica I/Energía en Ondas.md",
+    "Fisica I/Energia CR.md",
+    "Fisica I/Dispositivos Opticos.md",
+    "Fisica I/Dinámica CR.md",
+    "Fisica I/Dinamica.md",
+    "Fisica I/Difracción.md",
+    "Fisica I/Definición Óptica.md",
+    "Fisica I/Cuerpo Rígido.md",
+    "Fisica I/Coordenadas Intrínsecas.md",
+    "Fisica I/Colisiones.md",
+    "Fisica I/Cinemática CR.md",
+    "Estructura del Computador/Sistemas de Numeración.md",
+    "Estructura del Computador/Sistema ARC.md",
+    "Estructura del Computador/Simplificación de Funciones.md",
+    "Estructura del Computador/Representación (signo).md",
+    "Estructura del Computador/Registros y Contadores.md",
+    "Estructura del Computador/Punto Flotante.md",
+    "Estructura del Computador/Pasajes de Base.md",
+    "Estructura del Computador/Operaciones Basicas.md",
+    "Estructura del Computador/Micro Arquitectura.md",
     "Estructura del Computador/Funciones Lógicas.md",
     "Estructura del Computador/Estructura del Computador.md",
     "Estructura del Computador/Compiladores y Ensambladores.md",
     "Estructura del Computador/Circuitos Sincronicos.md",
     "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
-    "Estructura del Computador/Circuitos Asincronicos.md",
-    "Estructura del Computador/Circuitos.md",
-    "Estructura del Computador/Álgebra de Boole.md",
-    "Análisis Numérico/Búsqueda de Raíces.md",
-    "Análisis Numérico/Descomposición de Cholesky.md",
-    "Análisis Numérico/Descomposición LU.md",
-    "Análisis Numérico/Trazador Cúbico - Spline.md",
-    "Análisis Numérico/Sistemas no Lineales.md",
-    "Análisis Numérico/Sistemas Lineales.md",
-    "Análisis Numérico/Series de Fourier.md",
-    "Análisis Numérico/Refinamiento Iterativo.md",
-    "Análisis Numérico/Punto Flotante.md",
-    "Análisis Numérico/Polinomio de Lagrange y Newton.md",
-    "Análisis Numérico/Iteracion en un Punto Fijo.md",
-    "Análisis Numérico/Metodos Iterativos.md",
-    "Análisis Numérico/Newton-Raphson.md",
-    "Análisis Numérico/Polinomio de Hermite.md",
-    "Análisis Numérico/Interpolación Polinomial.md",
-    "Análisis Numérico/Integración Numérica.md",
-    "Análisis Numérico/FFT.md",
-    "Análisis Numérico/Errores.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",
