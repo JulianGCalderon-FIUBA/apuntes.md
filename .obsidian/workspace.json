@@ -150,14 +150,21 @@
                 "file": "Análisis Matemático II/Curvas y superficies.md"
               }
             }
+          },
+          {
+            "id": "a38d35fa6246a4b7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
