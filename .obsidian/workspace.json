@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless Links and Network Characteristics.md",
+                "file": "Modelos y Optimización I/Análisis de Sensibilidad.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless Links and Network Characteristics.md",
+                "file": "Modelos y Optimización I/Análisis de Sensibilidad.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless Links and Network Characteristics.md",
+                "file": "Modelos y Optimización I/Análisis de Sensibilidad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless Links and Network Characteristics.md",
+                "file": "Modelos y Optimización I/Análisis de Sensibilidad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless Links and Network Characteristics.md"
+                "file": "Modelos y Optimización I/Análisis de Sensibilidad.md"
               }
             }
           },
@@ -176,8 +176,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c42caadea4e53a08",
+  "active": "986299c13b4bedd2",
   "lastOpenFiles": [
+    "Modelos y Optimización I/Método Simplex.md",
+    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless Links and Network Characteristics.md",
     "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless and Mobility Impact on Higher-Layer Pro.md",
     "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless and Mobile Networks.md",
     "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/WiFi 802 11 Wireless LANs.md",
@@ -202,8 +204,6 @@
     "Introducción a Sistemas Distribuidos/The Network Layer Control Plane/The SDN Control Plane.md",
     "Introducción a Sistemas Distribuidos/The Network Layer Control Plane/The Network Layer Control Plane.md",
     "Introducción a Sistemas Distribuidos/The Network Layer Control Plane/Routing Among the ISPs BGP.md",
-    "Introducción a Sistemas Distribuidos/The Network Layer Control Plane/Routing Algorithms.md",
-    "Introducción a Sistemas Distribuidos/The Network Layer Control Plane/Network Management and SNMP.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",

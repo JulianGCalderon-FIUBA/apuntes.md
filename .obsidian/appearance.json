@@ -4,5 +4,6 @@
   "enabledCssSnippets": [
     "center-image",
     "center-table"
-  ]
+  ],
+  "baseFontSize": 17
 }
