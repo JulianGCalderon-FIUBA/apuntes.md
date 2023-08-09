@@ -1,4 +1,4 @@
-## Definicion
+## Definición
 
 Un espacio vectorial consta de
 

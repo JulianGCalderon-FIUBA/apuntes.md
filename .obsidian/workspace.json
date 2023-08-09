@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física II/Trabajo de Campos.md",
+                "file": "Algebra II/Espacios Vectoriales.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física II/Trabajo de Campos.md",
+                "file": "Algebra II/Espacios Vectoriales.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física II/Trabajo de Campos.md",
+                "file": "Algebra II/Espacios Vectoriales.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física II/Trabajo de Campos.md",
+                "file": "Algebra II/Espacios Vectoriales.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física II/Trabajo de Campos.md"
+                "file": "Algebra II/Espacios Vectoriales.md"
               }
             }
           },
@@ -176,13 +176,18 @@
   },
   "active": "c42caadea4e53a08",
   "lastOpenFiles": [
+    "Algebra II/Autovalores y Autovectores.md",
+    "Algebra II/Algebra II.md",
+    "Física II/Trabajo de Campos.md",
     "Física II/Tercer Parcial.md",
-    "Física II/Segundo Parcial.md",
     "Física II/Referencia del Potencial.md",
     "Física II/Primer Parcial.md",
     "Física II/Potencia Activa y Reactiva.md",
-    "Física II/Materiales Magnéticos.md",
     "Física II/Ley de Gauss.md",
+    "Física II/Materiales Magnéticos.md",
+    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
+    "Física II/Campo Magnético.md",
+    "Física II/Segundo Parcial.md",
     "Física II/Ley de Faraday.md",
     "Física II/Ley de Coulomb.md",
     "Física II/Ley de Biot y Savalt.md",
@@ -197,11 +202,6 @@
     "Física II/Corriente Continua.md",
     "Física II/Corriente Alterna.md",
     "Física II/Conductores.md",
-    "Física II/Circuitos en Resonancia.md",
-    "Física II/Circuito Electrico.md",
-    "Física II/Capacitores.md",
-    "Estructura del Computador/Sistemas de Numeración.md",
-    "Estructura del Computador/Sistema ARC.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",
