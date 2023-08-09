@@ -354,12 +354,12 @@ La unidad de la resistencia es de $\Omega$, y su formula es unicamente para cond
 
 $$
 \sum_{i=1}^n I_i = 0\\
-\small\color{gray}\text{Ley de Nodo}
+\small\color{Gray}\text{Ley de Nodo}
 $$
 
 $$
 \sum_{i=1}^n V_i = 0\\
-\small\color{gray}\text{Ley de malla}
+\small\color{Gray}\text{Ley de malla}
 $$
 
 $$

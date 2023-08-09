@@ -37,7 +37,7 @@ $$
 $$
 
 $$
-\underbrace{\color{gray}{00}10}_{2}\underbrace{1101}_{D},\underbrace{1001}_{9}\underbrace{1\color{gray}{000}}_{8} = 2D,98_{16}
+\underbrace{\color{Gray}{00}10}_{2}\underbrace{1101}_{D},\underbrace{1001}_{9}\underbrace{1\color{Gray}{000}}_{8} = 2D,98_{16}
 $$
 
 Si quiero pasar hacia una base mas grande, cada digito de la base mayor la convierto en $n$ dígitos en la base menor

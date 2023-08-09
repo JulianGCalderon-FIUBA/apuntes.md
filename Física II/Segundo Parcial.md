@@ -2,7 +2,7 @@
 
 $$
 \begin{align*}
-&\text{Constante Magnetica}: K_m = \frac{\mu_0}{4\pi} = 10^{-7} N  / A^2 
+&\text{Constante Magnetica}: K_m = \frac{\mu_0}{4\pi} = 10^{-7} N  / A^2
 \\
 &\text{Permmeabilidad Magnetica del Vacio}: \mu_0 = 4\pi \cdot 10^{-7} N/A^2
 \end{align*}
@@ -35,7 +35,7 @@ I = \frac{dq}{dt}
 $$
 
 $$
-I = q\cdot n\cdot A \cdot \vec v_a  
+I = q\cdot n\cdot A \cdot \vec v_a
 $$
 
 Siendo $n$ la densidad de portadores de carga de un conductor
@@ -59,7 +59,7 @@ $$
 $$
 
 $$
-\sigma = \frac{q^2n\tau}{m} 
+\sigma = \frac{q^2n\tau}{m}
 $$
 
 Siendo $\sigma$ la conductividad eléctrica
@@ -88,12 +88,12 @@ La unidad de la resistencia es de $\Omega$.
 
 $$
 \sum_{i=1}^n I_i = 0\\
-\small\color{gray}\text{Ley de Nodo}
+\small\color{Gray}\text{Ley de Nodo}
 $$
 
 $$
 \sum_{i=1}^n V_i = 0\\
-\small\color{gray}\text{Ley de malla}
+\small\color{Gray}\text{Ley de malla}
 $$
 
 $$

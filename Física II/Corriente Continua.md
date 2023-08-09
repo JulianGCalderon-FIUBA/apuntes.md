@@ -29,7 +29,7 @@ Como históricamente, se relaciono la corriente con la cargas positivas, vamos a
 La corriente eléctrica es el flujo de carga eléctrica que recorre un material. La podemos definir como como la cantidad de cargas que fluye por unidad de tiempo, aunque también la podemos definir en función del numero de portadores de carga por unidad de volumen ($n$)
 
 $$
-I = \frac{dq}{dt} \qquad [i] = C/s = A_{\color{gray}\text{(Ampere)}}
+I = \frac{dq}{dt} \qquad [i] = C/s = A_{\color{Gray}\text{(Ampere)}}
 $$
 
 - $vol\ por\ dt:= A\cdot v_a\cdot dt$
@@ -103,7 +103,7 @@ Si analizamos el caso de un conductor cilindro uniforme, llegamos a la forma int
 $$
 
 \Delta V = E\cdot l = \frac{I}{\sigma \,A}\ l = I\,\eta\ \frac{l}{A}\\\ \\
-\small  \color{gray}E = J/\sigma \implies J = I/A \implies E = \frac{I}{\sigma A}
+\small  \color{Gray}E = J/\sigma \implies J = I/A \implies E = \frac{I}{\sigma A}
 $$
 
 $$

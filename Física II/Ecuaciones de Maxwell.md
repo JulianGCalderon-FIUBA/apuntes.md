@@ -6,11 +6,11 @@ Maxwell cambio algunas formulas que vimos en la materia, para que sean mas preci
 ## Ley de Ampere-Maxwell
 
 $$
-\oint\limits_\lambda \vec H \cdot \vec dl = \iint\limits_S\vec j \cdot d\vec A + \color{blue}{\frac d{dt} \iint\limits_S \vec D \cdot d\vec A}
+\oint\limits_\lambda \vec H \cdot \vec dl = \iint\limits_S\vec j \cdot d\vec A + \color{Teal}{\frac d{dt} \iint\limits_S \vec D \cdot d\vec A}
 $$
 
 $$
-\vec\nabla \times \vec H = \vec j + \color{blue}{\frac{\partial\vec D}{\partial t}}
+\vec\nabla \times \vec H = \vec j + \color{Teal}{\frac{\partial\vec D}{\partial t}}
 $$
 
 Maxwell introdujo un termino adicional, que corresponde a las corrientes de desplazamiento. Esto se debe a que cuando trabajamos con corrientes que dependen del tiempo, la ley de ampere es invalida. El flujo de la corriente sobre una superficie cerrada no es nulo (como indica la ley original)
@@ -18,11 +18,11 @@ Maxwell introdujo un termino adicional, que corresponde a las corrientes de desp
 ## Ley de Faraday-Maxwell
 
 $$
-\mathcal{E} =-\frac d{dt} \iint\limits_S \vec B \cdot d\vec A = \color{blue}{\oint\limits_\lambda \vec E \cdot d\vec l}
+\mathcal{E} =-\frac d{dt} \iint\limits_S \vec B \cdot d\vec A = \color{Teal}{\oint\limits_\lambda \vec E \cdot d\vec l}
 $$
 
 $$
-\color{blue}{\vec\nabla \times \vec E =  -\frac{\partial\vec B}{\partial t}}
+\color{Teal}{\vec\nabla \times \vec E =  -\frac{\partial\vec B}{\partial t}}
 $$
 
 Maxwell reinterpreto la ley de Faraday. Indicando que todo campo variable en el tiempo genera, además de una campo magnético inducido, un campo eléctrico.

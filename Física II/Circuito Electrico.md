@@ -37,13 +37,13 @@ Las ecuaciones de nodo consisten en tomar un nodo y computar todas las corriente
 Las ecuaciones de malla consisten en tomar un camino cerrado y computar las caídas y subidas de potencial de la misma. Vamos a tomar la cantidad de ecuaciones de malla que necesitemos para completar el sistema de ecuaciones.
 
 $$
-\sum_{i=1}^n I_i = 0\\
-\small\color{gray}\text{Ley de Nodo}
+\sum_{i=1}^n I_i = 0\quad
+\small\color{Gray}\text{Ley de Nodo}
 $$
 
 $$
-\sum_{i=1}^n V_i = 0\\
-\small\color{gray}\text{Ley de malla}
+\sum_{i=1}^n V_i = 0\quad
+\small\color{Gray}\text{Ley de malla}
 $$
 
 Esto es así ya que en el circuito no debe estar acumulando carga en ningún punto del circuito, y en un camino cerrado el trabajo es nulo.
