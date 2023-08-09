@@ -101,9 +101,10 @@ Podemos deducir entonces, cuanto menor sea la conductividad eléctrico, mayor de
 Si analizamos el caso de un conductor cilindro uniforme, llegamos a la forma integral de la ley de Ohm
 
 $$
-
+\begin{gathered}
 \Delta V = E\cdot l = \frac{I}{\sigma \,A}\ l = I\,\eta\ \frac{l}{A}\\\ \\
 \small  \color{Gray}E = J/\sigma \implies J = I/A \implies E = \frac{I}{\sigma A}
+\end{gathered}
 $$
 
 $$

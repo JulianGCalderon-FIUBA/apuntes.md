@@ -11,9 +11,10 @@ $$
 $$
 
 $$
+\begin{gathered}
 \text{Constante Magnetica}: K_m = \frac{\mu_0}{4\pi} \\
 \text{Permmeabilidad Magnetica del Vacio}: \mu_0 = 4\pi \cdot 10^{-7} N/A^2
-
+\end{gathered}
 $$
 
 Si extendemos esta formula para una corriente en lugar de una carga puntual, llegamos a la **Ley de Biot y Savalt** para una corriente estacionaria.

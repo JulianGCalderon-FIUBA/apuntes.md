@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Numérico/Ajuste.md",
-                "mode": "preview",
+                "file": "Fisica I/Superposición de Onda.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelos y Optimización I/Problemas Combinatorios.md",
+                "file": "Matemática Discreta/Operaciones entre Grafos.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/[^\\$]\\$[^\\$]*?\\\\\\\\[^\\$]*?\\$",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +77,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -100,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelos y Optimización I/Problemas Combinatorios.md",
+                "file": "Fisica I/Superposición de Onda.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modelos y Optimización I/Problemas Combinatorios.md",
+                "file": "Fisica I/Superposición de Onda.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modelos y Optimización I/Problemas Combinatorios.md"
+                "file": "Fisica I/Superposición de Onda.md"
               }
             }
           },
@@ -179,8 +177,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fc101f935a14504d",
+  "active": "5ab12f535df04990",
   "lastOpenFiles": [
+    "Física II/Corriente Continua.md",
+    "Física II/Fasores Complejos.md",
+    "Física II/Ley de Biot y Savalt.md",
+    "Física II/Física II.md",
+    "Primer Parcial.md",
+    "Análisis Numérico/Ajuste.md",
+    "Física II/Final.md",
+    "Física II/Segundo Parcial.md",
+    "Física II/Tercer Parcial.md",
+    "Física II/Primer Parcial.md",
+    "Matemática Discreta/Operaciones entre Grafos.md",
+    "Modelos y Optimización I/Planteo Dual.md",
+    "Modelos y Optimización I/Problemas Combinatorios.md",
     "Probabilidad y Estadistica/Distribuciones Importantes.md",
     "Probabilidad y Estadistica/Propiedades de V A.md",
     "Probabilidad y Estadistica/Técnicas de Conteo.md",
@@ -188,25 +199,12 @@
     "Análisis Matemático II/Funciones Implicitas.md",
     "Fisica I/FORMULAS.md",
     "Matemática Discreta/Álgebra de Conjuntos.md",
-    "Análisis Numérico/Ajuste.md",
     "Untitled.md",
     "Física II/Circuito Electrico.md",
     "Modelos y Optimización I/Método Simplex.md",
     "Matemática Discreta/Álgebra de Boole.md",
     "Física II/Inductores.md",
     "Física II/Capacitores.md",
-    "2023-08-09.md",
-    "notas.md",
-    "Oppenheimer.md",
-    "Análisis Numérico/Sistemas Lineales.md",
-    "Análisis Matemático II/Integrales Dobles.md",
-    "Análisis Matemático II/Diferenciabilidad.md",
-    "Algoritmos II/Arboles Auto Balanceados.md",
-    "Matemática Discreta/Algoritmos.md",
-    "Organizacion de Datos/Arboles.md",
-    "Organizacion de Datos/Algoritmos Genéticos.md",
-    "Algebra II/EDOs.md",
-    "Algebra II/Descomposición en Valores Singulares.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",

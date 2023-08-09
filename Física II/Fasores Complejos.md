@@ -83,7 +83,10 @@ $$
 $$
 
 $$
-\text{Amplitud}: V_0 = I_0 \cdot |z| \\
+\text{Amplitud}: V_0 = I_0 \cdot |z|
+$$
+
+$$
 \text{Fase}: \phi_{iv} = -\phi_z
 $$
 

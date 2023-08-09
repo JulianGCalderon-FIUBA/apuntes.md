@@ -89,7 +89,9 @@ $$
 Luego, $\forall u,w \in V(G)$, $\forall v,h \in V(H)$, entonces
 
 $$
+\begin{gathered}
 (u,v)(w,h) \in E(G \times H) \iff\\ (u = w \land (v,h) \in E(H)) \lor (v=h \land (u,w) \in E(G))
+\end{gathered}
 $$
 
 Observemos que $n(G \times H) = n(G) \cdot n(H)$, y que $m = n(H)m(G) + n(G)m(H)$

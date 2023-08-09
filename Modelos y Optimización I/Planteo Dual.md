@@ -5,9 +5,11 @@ El problema dual es un problema equivalente al primal (con el mismo valor del fu
 Dada un primal de la primer forma:
 
 $$
+\begin{gathered}
 AX \leq B\\
 X \geq 0\\
 \max CX
+\end{gathered}
 $$
 
 > [!example]- Planteo del Primal
@@ -26,9 +28,11 @@ $$
 El problema dual tendrá la siguiente forma:
 
 $$
+\begin{gathered}
 YA \geq C\\
 Y \geq 0\\
 \min YB
+\end{gathered}
 $$
 
 La dimensión del vector $Y$ será la cantidad de restricciones del problema original

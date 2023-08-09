@@ -5,8 +5,10 @@ Las ondas son soluciones de ecuaciones diferenciales lineales, por lo que la sum
 Las ondas estacionarias se generan cuando se superponen dos ondas de igual velocidad y frecuencia. Pero distinto sentido
 
 $$
+\begin{gathered}
 \xi_1 = A\cdot\sin(kx-\omega t)\\
 \xi_2 = A\cdot\sin(kx+\omega t)
+\end{gathered}
 $$
 
 ---
@@ -94,8 +96,10 @@ Si la frecuencia de la onda es la misma que la frecuencia natural de la caja de 
 Los batidos ocurren cuando dos ondas armónicas de igual amplitud pero de frecuencias diferentes se propagan en el mismo medio
 
 $$
+\begin{gathered}
 \xi_1 = A\cdot\sin(kx-\omega_1 t+\varphi_1)\\
 \xi_2 = A\cdot\sin(kx+\omega_2 t+\varphi_2)
+\end{gathered}
 $$
 
 ---
