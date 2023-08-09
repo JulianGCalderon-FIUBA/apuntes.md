@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilidad y Estadistica/Técnicas de Conteo.md",
+                "file": "Modelos y Optimización I/Problemas Combinatorios.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilidad y Estadistica/Técnicas de Conteo.md",
+                "file": "Modelos y Optimización I/Problemas Combinatorios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilidad y Estadistica/Técnicas de Conteo.md",
+                "file": "Modelos y Optimización I/Problemas Combinatorios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilidad y Estadistica/Técnicas de Conteo.md"
+                "file": "Modelos y Optimización I/Problemas Combinatorios.md"
               }
             }
           },
@@ -181,6 +181,9 @@
   },
   "active": "fc101f935a14504d",
   "lastOpenFiles": [
+    "Probabilidad y Estadistica/Distribuciones Importantes.md",
+    "Probabilidad y Estadistica/Propiedades de V A.md",
+    "Probabilidad y Estadistica/Técnicas de Conteo.md",
     "Análisis Matemático II/Rectas y Planos.md",
     "Análisis Matemático II/Funciones Implicitas.md",
     "Fisica I/FORMULAS.md",
@@ -204,9 +207,6 @@
     "Organizacion de Datos/Algoritmos Genéticos.md",
     "Algebra II/EDOs.md",
     "Algebra II/Descomposición en Valores Singulares.md",
-    "Algebra II/Coordenadas.md",
-    "Algebra II/Autovalores y Autovectores.md",
-    "Algebra II/Subespacios de Matriz.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",

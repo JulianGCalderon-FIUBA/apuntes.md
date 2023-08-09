@@ -3,8 +3,10 @@
 Sea $Y = g(X)$ una función de variable aleatorio, siendo $X$ una **V.A.D,** $Y$ sera discreta, con
 
 $$
+\begin{align}
 p_Y(y) = P(Y = y) = \sum_{x \in B} p_X(x) \\
 \qquad  B =\{x \in \mathbb{R}: g(x) = y\}
+\end{align}
 $$
 
 Si mi variable aleatorio no es discreta, entonces generalizamos:

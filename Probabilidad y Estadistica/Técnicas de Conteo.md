@@ -55,6 +55,7 @@ $$
 \begin{align}
 \text{Sea } n = n_1, n_2, n_3, \cdots \\\ \\
 \#A = \binom{n}{n_1}\binom{n - n_1}{n_2}\binom{n-n_1-n_2}{n_3}\cdots
+\end{align}
 $$
 
 Lo podemos pensar como que de las $n$ posiciones posibles, elijo $n_1$ opciones para colocar la primer letra. Luego repito la misma lógica para el resto de letras.

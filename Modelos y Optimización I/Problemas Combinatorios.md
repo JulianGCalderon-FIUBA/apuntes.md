@@ -174,9 +174,11 @@ $$
 Las tareas no pueden ejecutarse a la vez en cada maquina, esto se puede plantear indicar que se deben cumplir uno de dos casos. La tarea $A$ finaliza antes de que empiece la tarea $B$. La tarea $B$ finaliza antes de que empiece la tarea $A$. Planteamos entonces para cada par desordenado de tareas $i,j$ en cada maquina $k$.
 
 $$
+\begin{gathered}
 F_{ik} \leq I_{jk} + M Y_{i<j} \\
 F_{jk} \leq I_{ik} + M Y_{i>j} \\
 Y_{i< j} + Y_{i>j} = 1
+\end{gathered}
 $$
 
 ### Notación
@@ -200,9 +202,11 @@ Dada una función proposicional en su forma normal conjuntiva, hallar los valore
 Se definen $X_i$ como variables binarias o bivalentes y definimos $Y$ como verdadera si existe solución. Luego planteamos las restricciones de la forma:
 
 $$
+\begin{gathered}
 f_1(X) \geq Y \\
 f_2(X) \geq Y \\
 \cdots
+\end{gathered}
 $$
 
 Donde $f_i$ son las proposiciones cuya intersección forma la función proposicional original.
