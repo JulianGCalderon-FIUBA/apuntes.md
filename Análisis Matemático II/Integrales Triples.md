@@ -53,7 +53,7 @@ z = \rho\cos(\varphi)
 \end{cases}
 $$
 
-![[Integrales Triples 1.png|$\theta\in[0,2\pi],\,\varphi\in[0,\pi],\,\rho\in\mathbb{R}^+$]]
+![[Integrales Triples 1.png]]
 
 $\theta\in[0,2\pi],\,\varphi\in[0,\pi],\,\rho\in\mathbb{R}^+$
 

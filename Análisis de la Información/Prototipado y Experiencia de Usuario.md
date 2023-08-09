@@ -1,16 +1,16 @@
 Un prototipo de softwares es una implementación parcial, posible o preliminar de un nuevo producto propuesto que tiene como objetivo resolver incertidumbres tempranamente. Estos se generaran por diversas razones:
 
-![[Prototipado y Experiencia de Usuario 1.png|Untitled]]
+![[Prototipado y Experiencia de Usuario 1.png]]
 
 Se pueden clasificar según su uso a futuro:
 
-![[Prototipado y Experiencia de Usuario 2.png|Untitled]]
+![[Prototipado y Experiencia de Usuario 2.png]]
 
 El ***wireframe*** es un tipo particular de prototipo descartable que se utiliza para clarificar requisitos
 
 También se pueden clasificar según su alcance:
 
-![[Prototipado y Experiencia de Usuario 3.png|Untitled]]
+![[Prototipado y Experiencia de Usuario 3.png]]
 
 El ***mock up*** no implementa comportamiento, pero lo sugiere. Es un prototipo horizontal. Una prueba de concepto es un prototipo vertical, que implementa una funcionalidad particular de forma completo. Desde la entrada del usuario hasta la última capa técnica.
 
@@ -20,7 +20,7 @@ Cada requisito, caso de uso, escenario, describe una tarea que el usuario realiz
 
 Una interfaz del usuario es una conversación entre un usuario y el producto con el propósito de realizar tareas que le permitan cumplir sus objetivos. La interfaz deberá ser simple y amable.
 
-![[Prototipado y Experiencia de Usuario 4.png|Untitled]]
+![[Prototipado y Experiencia de Usuario 4.png]]
 
 Para definir una buena experiencia de usuario, debemos seguir los siguientes principios:
 

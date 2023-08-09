@@ -44,11 +44,11 @@ Lamentablemente, este algoritmo es muy malo cuando analizamos la métrica *turna
 
 # Entrada / Salida
 
-Cuando incorporamos este elemento, debemos tener en cuenta algunas cosas. Cuando un proceso inicia un pedido de **IO,** entonces este se bloquea esperando a que el pedido finaliza. En estos casos, el procesador probablemente deba cambia de proceso y ejecutar otro mientras tanto. 
+Cuando incorporamos este elemento, debemos tener en cuenta algunas cosas. Cuando un proceso inicia un pedido de **IO,** entonces este se bloquea esperando a que el pedido finaliza. En estos casos, el procesador probablemente deba cambia de proceso y ejecutar otro mientras tanto.
 
 Si esto no se hace, el procesamiento se puede tornar lento cuando algunos procesos ejecutan entrada salida.
 
-![[Planificación 1.png|Untitled]]
+![[Planificación 1.png]]
 
 # Última Suposición
 

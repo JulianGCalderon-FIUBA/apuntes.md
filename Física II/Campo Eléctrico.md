@@ -48,7 +48,7 @@ $$
 \vec E(\vec r) = k\int \frac{r-r'}{\|\vec r - \vec r'\|^3}\cdot dq
 $$
 
-Si esta distribuida en una línea, entonces podemos definir la densidad lineal de carga $\lambda$, y entonces $dq = \lambda dl$. 
+Si esta distribuida en una línea, entonces podemos definir la densidad lineal de carga $\lambda$, y entonces $dq = \lambda dl$.
 
 Si esta distribuida en una superficie, podemos definir la densidad superficial de carga $\sigma$, y entonces $dq = \sigma ds$
 
@@ -66,7 +66,7 @@ $$
 
 # Líneas de Campo Eléctrico
 
-Son curvas imaginarias de modo que su tangente en todo punto del espacio sea la dirección del campo eléctrico $E$. Al representar la dirección del campo, se pierde la información del modulo. 
+Son curvas imaginarias de modo que su tangente en todo punto del espacio sea la dirección del campo eléctrico $E$. Al representar la dirección del campo, se pierde la información del modulo.
 
 Para remplazar esta información faltante usamos la densidad de líneas dibujadas, la cual es proporcional a la intensidad del campo. Cuantas mas líneas haya alrededor de un punto $p$, mayor es la intensidad del campo en ese punto
 
@@ -76,4 +76,4 @@ Las líneas de campo son salientes de las cargas positivas (fuentes), y entrante
 
 Las líneas de campo nunca se cruzan, ya que cada punto pertenece a una sola línea de campo.
 
-![[Campo Eléctrico 1.png|Untitled]]
+![[Campo Eléctrico 1.png]]

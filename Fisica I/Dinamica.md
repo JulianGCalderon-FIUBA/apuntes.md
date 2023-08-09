@@ -44,6 +44,6 @@ $$
 j = \int_{t_0}^{t_1} Fdt
 $$
 
-![[Dinamica 1.png|Dinamica%20bd1147d9932b40e29ebbb9f63ae65c2c/Untitled.png]]
+![[Dinamica 1.png]]
 
-![[Dinamica 2.png|Dinamica%20bd1147d9932b40e29ebbb9f63ae65c2c/Untitled%201.png]]
+![[Dinamica 2.png]]

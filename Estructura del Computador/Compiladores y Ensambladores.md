@@ -20,7 +20,7 @@ Hay distintos tipos de compiladores:
 1. **Analisis Lexico**: Identifica palabras clave o identificadores y crea una tabla de simbolos.
 2. **Analisis Sintactico:** Interpreta que significan las instruccines
 3. **Analisis Semantico:** Se analizan los atributos de los identificadores (tipo de simbolo)
-4. **Mapeo de Acciones:** Traduce las lineas de codigo en codigo assembly. 
+4. **Mapeo de Acciones:** Traduce las lineas de codigo en codigo assembly.
 5. **Generacion de Codigo:** Genera una archivo con el codigo assembly
 
 Todos los pasos del proceso alteran y actualizan la tabla de simbolos.
@@ -102,7 +102,7 @@ Hay varias instancias
 - **Linking Loader:** Linkea en tiempo de carga. Ademas de relocalizar, Busca automaticamente bibliotecas, Linkea y carga el programa en memoria. De esta forma, el ejecutable no tiene que contener las bibiliotecas utilizadas.
 - **Linking Loader Dinamico:** Carga rutinas unicamente cuando el programa las necesita. Utiliza *Dynamic Link Libraries (dll)*
 
-![[Compiladores y Ensambladores 1.png|Untitled]]
+![[Compiladores y Ensambladores 1.png]]
 
 # Archivos Objeto
 

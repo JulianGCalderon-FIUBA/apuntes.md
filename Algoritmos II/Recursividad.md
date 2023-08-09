@@ -25,7 +25,7 @@ El ámbito de una función es la región de memoria del *stack* a la que el pued
 
 El algoritmo de recursividad indirecta es aquel que no se llama a si mismo, sino que llama a otra función, la cual llama a la función original.
 
-![[Algoritmos II/Attachments/Recursividad 1.png|Untitled]]
+![[Algoritmos II/Attachments/Recursividad 1.png]]
 
 Para lograr esto, en C se debe declarar la firma de las funciones de antemano, para que el compilador las detecte.
 

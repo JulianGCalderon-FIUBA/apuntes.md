@@ -12,7 +12,7 @@ La idea es que todos puedan entender lo que se define en un comportamiento, usan
 
 Las pruebas de ***Gherkin*** deben tener el siguiente formato.
 
-![[Gherkin 1.png|Untitled]]
+![[Gherkin 1.png]]
 
 A partir de ***Cucumber***, esto se transformara en código el cual verificará el funcionamiento de nuestro programa.
 

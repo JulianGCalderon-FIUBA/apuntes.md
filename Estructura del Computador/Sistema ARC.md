@@ -15,13 +15,13 @@ Las palabras de mas de 1 byte es guardada como una serie de bytes.
 Tenemos dos ordenes distintos, ambos igual de validos, mientras se respete a lo largo de todas las operaciones.
 
 - **Little-Endian**
-    
+
     Guarda el byte menos significativo en la dirección mas baja.
-    
+
 - **Big-Endian**
-    
+
     Guarda el byte menos significativo en la dirección mas alta.
-    
+
 
 ## Espacio Direccionable
 
@@ -41,7 +41,7 @@ La arquitectura ARC maneja datos de 32 bits, direccionables por byte. Contiene u
 
 El mapa de memoria esta especificado por el siguiente grafico:
 
-![[Sistema ARC 1.png|Untitled]]
+![[Sistema ARC 1.png]]
 
 La mitad de la memoria se utilizar para los dispositivos de entrada y salida, la otra mitad se utiliza para el sitema operativo *(2048bytes)* y para la memoria ram.
 
@@ -60,7 +60,7 @@ Debido a esto, para operar con numeros debemos cargarlo a un registro, y a parti
 
 # Instrucciones ARC
 
-![[Sistema ARC 2.png|Untitled]]
+![[Sistema ARC 2.png]]
 
 Las operaciones que terminan en **cc** alteran el contenido de los flags luego de la operación.
 
@@ -70,7 +70,7 @@ El salto por igual verifica el flag cero.
 
 # Registros accesibles al Programador
 
-![[Sistema ARC 3.png|Untitled]]
+![[Sistema ARC 3.png]]
 
 Los registros `%r` son de proposito general y se pueden utilizar libremente, excepto por algunas excepciones.
 
@@ -86,7 +86,7 @@ El registro `%r0` siempre vale 0.
 
 # Sintaxis
 
-![[Sistema ARC 4.png|Untitled]]
+![[Sistema ARC 4.png]]
 
 Distingue mayusculas de minusculas
 
@@ -96,7 +96,7 @@ Si empieza con **0x** o finaliza on **h**, se trata de hexadecimal.
 
 # Directivas del Ensamblador
 
-![[Sistema ARC 5.png|Untitled]]
+![[Sistema ARC 5.png]]
 
 Indican al ensamblador como procesar una seccion del programa
 
@@ -124,7 +124,7 @@ El codigo de maquina de una macro se repite tantas veces como se invoque. En el 
 
 Las instrucciones son traducidas en codigo de maquina. Hay cinco formatos de instruccion.
 
-![[Sistema ARC 6.png|Untitled]]
+![[Sistema ARC 6.png]]
 
 # Modos de Direccionamientos
 
@@ -138,15 +138,15 @@ Las instrucciones son traducidas en codigo de maquina. Hay cinco formatos de ins
 # Modelos de Arquitectura
 
 - **CISC: Complex Instruction Set Computer**
-    
-    Tiene mas instrucciones, pero las instrucciones son de tamaño variable y es mas lento. Como tiene instrucciones con acceso a memoria, utiliza menos registros. 
-    
+
+    Tiene mas instrucciones, pero las instrucciones son de tamaño variable y es mas lento. Como tiene instrucciones con acceso a memoria, utiliza menos registros.
+
     Utiliza el stack de forma inmersa, con instrucciones que acceden a el. La logica de encontrar instrucciones, decodificarlas, e interconexiones dentro del procesador es mas complicada.
-    
+
 - **RISC: Reduced Instruction Set Computer**
-    
+
     Todas las instrucciones ocupan el mismo espacio y es mas rapido. Tiene mas registros disponibles ya que todo debe estar en ellos para operar. Para utilizar el stack, se debe hacer de forma manual. Su set de instrucciones es mas reducido, no contiene instrucciones redundantes
-    
+
     Las opraciones aritmeticas son unicamente entre registros. Para acceder a memoria, solo se puede guardar y recuperar. Los dipositivos de entrada y salida estan mapeados en memoria.
-    
+
     Esta arquitectura es mucho mas rapida y simple que la de una arquitectura CISC. Por el otro lado, se requiere un poco mas de trabajo por parte del programador.

@@ -20,9 +20,9 @@ $$
 \displaystyle W = \int_{x_1}^{x_2} F_x dx
 $$
 
-![[Trabajo y energia 1.png|Trabajo%20y%20energia%20b1bba79afd484df19dbd15956960b044/Untitled.png]]
+![[Trabajo y energia 1.png]]
 
-![[Trabajo y energia 2.png|Trabajo%20y%20energia%20b1bba79afd484df19dbd15956960b044/Untitled%201.png]]
+![[Trabajo y energia 2.png]]
 
 ## Energia
 
@@ -108,7 +108,7 @@ $$
 ---
 
 $$
-W = W_{F_{NC}} + W_{F_C} 
+W = W_{F_{NC}} + W_{F_C}
 $$
 
 $$

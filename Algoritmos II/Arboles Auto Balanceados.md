@@ -10,7 +10,7 @@ Si el factor de balanceo de algún nodo del árbol es en modulo mayor a 1, enton
 
 	Entonces rotamos hacia la derecha el nodo desbalanceado
 
-![[Arboles Auto Balanceados 1.png|Rotamos hacia la derecha el nodo C]]
+![[Arboles Auto Balanceados 1.png]]
 
 Rotamos hacia la derecha el nodo C
 
@@ -18,7 +18,7 @@ Rotamos hacia la derecha el nodo C
 
 	Entonces rotamos hacia la izquierda el nodo desbalanceado
 
-![[Arboles Auto Balanceados 2.png|Rotamos hacia la izquierda el nodo A]]
+![[Arboles Auto Balanceados 2.png]]
 
 Rotamos hacia la izquierda el nodo A
 
@@ -26,7 +26,7 @@ Rotamos hacia la izquierda el nodo A
 
 	Entonces rotamos hacia la izquierda el nodo hijo, y hacia la derecha el nodo desbalanceado.
 
-![[Arboles Auto Balanceados 3.png|Rotamos hacia la izquierda el nodo A, derecha el nodo C]]
+![[Arboles Auto Balanceados 3.png]]
 
 Rotamos hacia la izquierda el nodo A, derecha el nodo C
 
@@ -34,7 +34,7 @@ Rotamos hacia la izquierda el nodo A, derecha el nodo C
 
 	Entonces rotamos hacia la derecha el nodo hijo, y hacia la izquierda el nodo desbalanceado.
 
-![[Arboles Auto Balanceados 4.png|Rotamos hacia la derecha el nodo C, izquierda el nodo A]]
+![[Arboles Auto Balanceados 4.png]]
 
 Rotamos hacia la derecha el nodo C, izquierda el nodo A
 

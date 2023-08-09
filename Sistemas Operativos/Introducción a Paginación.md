@@ -2,7 +2,7 @@ El enfoque de separar el espacio de direcciones en piezas de tamaño variable (s
 
 En lugar de partir el espacio de direcciones, lo dividimos en unidades de tamaño fijo a las cuales llamaremos ***páginas.*** Luego, veremos la memoria física como un arreglo de espacios fijos llamados ***page frames***. Cada uno de estos contiene una sola página de memoria virtual.
 
-![[Introducción a Paginación 1.png|Untitled]]
+![[Introducción a Paginación 1.png]]
 
 Este enfoque tiene un cierto número de ventajas:
 
@@ -20,7 +20,7 @@ Para traducir una dirección de memoria, primero se debe separar la dirección d
 
 Luego se busca, para el proceso actual, en que dirección de memoria se encuentra el numero de pagina virtual y realiza la traducción a el número de página física: ***PFN*** o ***physical frame number.***
 
-![[Introducción a Paginación 2.png|Untitled]]
+![[Introducción a Paginación 2.png]]
 
 # Page Tables
 
@@ -28,7 +28,7 @@ Estas *page tables* pueden volverse muy grandes, mucho más que la que teníamos
 
 Una page table es una estructura de datos que se usa para ***traducir*** direcciones de memoria virtuales. La más simple es una ***linear page table***, este es simplemente un array donde en cada índice es el *VPN*, y cada valor es *PFN.* Más adelante, veremos estructuras más eficientes.
 
- Dentro de cada ***page entry***, tendremos ciertos ***bits*** que nos dan información sobre cada traducción: 
+ Dentro de cada ***page entry***, tendremos ciertos ***bits*** que nos dan información sobre cada traducción:
 
 - El ***valid bit*** nos indicará si la traducción es válida. Es decir, si esa página le pertenece al proceso.
 - El ***protection bit*** nos indica que permisos se tienen sobre esa pagina (***lectura, escritura, ejecución***).

@@ -16,7 +16,7 @@ $c:$ Mantisa, le da significado al numero.
 
 $q:$ Exponente, le da magnitud al numero.
 
-![[Punto Flotante 1.png|Formatos típicos de los números de maquina.]]
+![[Punto Flotante 1.png]]
 
 Formatos típicos de los números de maquina.
 

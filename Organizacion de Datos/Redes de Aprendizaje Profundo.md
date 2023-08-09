@@ -53,11 +53,11 @@ Estas redes tienen distintas capas, son complejas:
 
 Son útiles cuando los patrones de los datos cambian con el tiempo. Pueden recibir una secuencia de valores de entrada y devolver una secuencia de valores de salida. Las capas están conectadas en secuencia, donde cada capa puede tener una o múltiples neuronas.
 
-![[Redes de Aprendizaje Profundo 1.png|Untitled]]
+![[Redes de Aprendizaje Profundo 1.png]]
 
 Se conoce como celdas de memoria, a la parte de una red neuronal que mantiene algún estado a lo largo de los pasos de tiempo.
 
-Este tipo de redes se puede utilizar para clasificar vídeos cuadro a cuadro, o predecir acciones. Utilizando componentes temporales. 
+Este tipo de redes se puede utilizar para clasificar vídeos cuadro a cuadro, o predecir acciones. Utilizando componentes temporales.
 
 También se puede utilizar para la clasificación de documentos. A veces, ignoramos todas las salidas exceptuando la salida final.
 
@@ -67,7 +67,7 @@ Las redes hacia adelante se utilizan para clasificación o predicción, pero las
 
 ## Costo
 
-Las redes recurrentes profundas son costosas, Es como entrenar una red con muchas capas de alimentación hacia adelante. 
+Las redes recurrentes profundas son costosas, Es como entrenar una red con muchas capas de alimentación hacia adelante.
 
 Para solucionar esto, se encontraron algunas soluciones:
 
@@ -80,7 +80,7 @@ Para solucionar esto, se encontraron algunas soluciones:
 
 # Recursive Neural Tensor Net
 
-Tienen estructuras de neuronas en forma de un árbol. El nodo raíz genera un ***score*** que es vuelto a ingresar en los nodos hojas, de forma recursiva. Los nodos hojas reciben una entrada y devuelven un score a su nodo padre. Esto se repite sucesivamente sumando entradas hasta llegar a un score final. 
+Tienen estructuras de neuronas en forma de un árbol. El nodo raíz genera un ***score*** que es vuelto a ingresar en los nodos hojas, de forma recursiva. Los nodos hojas reciben una entrada y devuelven un score a su nodo padre. Esto se repite sucesivamente sumando entradas hasta llegar a un score final.
 
 Para entrenar estas redes, se utiliza back propagation.
 
@@ -125,7 +125,7 @@ Funcionamiento:
 2. Por otro lado, tendremos una generador. Una red convolucional inversa, partimos de ruido y generamos una imagen.
 3. Aquellas imágenes generadas que no sean detectados como imagen, serán devueltos al generador para que actualice sus pesos.
 
-![[Redes de Aprendizaje Profundo 2.png|Untitled]]
+![[Redes de Aprendizaje Profundo 2.png]]
 
 ## ProGAN
 

@@ -49,7 +49,7 @@ $$
 ### Coeficiente de Autoinducción
 
 $$
-L_1 = N_1 \cdot \frac{d\phi_{11}}{di_1} 
+L_1 = N_1 \cdot \frac{d\phi_{11}}{di_1}
 $$
 
 $$
@@ -61,7 +61,7 @@ La unidad de la inductancia es de $H$
 ### Coeficiente de Inducción Mutuo
 
 $$
-M_{21} =N_2 \cdot \frac{d\varphi_{21}}{di_1} 
+M_{21} =N_2 \cdot \frac{d\varphi_{21}}{di_1}
 $$
 
 $$
@@ -158,7 +158,7 @@ $$
 
 \\\hline
 
-\textbf{R} & 
+\textbf{R} &
 \frac{v_0}{R} &
 \phi_v &
 0
@@ -255,7 +255,7 @@ $$
 
 ### Triangulo De Potencias
 
-![[Tercer Parcial 1.svg|Tercer%20Parcial%2016944545111d4a8ab9086d0e72a0c894/Diagram.drawio.svg]]
+![[Tercer Parcial 1.svg]]
 
 $$
 S = v_{ef} \cdot i_{ef}

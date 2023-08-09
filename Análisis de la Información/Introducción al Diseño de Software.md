@@ -16,7 +16,7 @@ Existen dos caminos posibles:
 
 Se comienza diseñar durante la etapa de requerimientos, solapando ambas actividades. La construcción también comienza durante la etapa de requerimientos y diseño. Existe una idea y vuelta entre todas las disciplinas.
 
-![[Introducción al Diseño de Software 1.png|Untitled]]
+![[Introducción al Diseño de Software 1.png]]
 
 A partir de los requisitos, debemos definir:
 
@@ -32,17 +32,17 @@ La transición entre los requisitos y el diseño son difíciles.
 
 A lo largo de la carrera, vimos multiples principios de clásicos del diseño:
 
-![[Introducción al Diseño de Software 2.png|Principios clásicos del desarrollo]]
+![[Introducción al Diseño de Software 2.png]]
 
 Principios clásicos del desarrollo
 
 Desarrollar grandes productos no es lo mismo que los pequeños proyectos. Los principios ***son*** importantes.
 
-![[Introducción al Diseño de Software 3.png|Principios importantes para el diseño de objetos]]
+![[Introducción al Diseño de Software 3.png]]
 
 Principios importantes para el diseño de objetos
 
-![[Introducción al Diseño de Software 4.png|Principios SOLID]]
+![[Introducción al Diseño de Software 4.png]]
 
 Principios SOLID
 
@@ -80,19 +80,19 @@ La arquitectura tiene mucha influencia en:
 
 ### Estilos Arquitectónicos
 
-![[Introducción al Diseño de Software 5.png|Untitled]]
+![[Introducción al Diseño de Software 5.png]]
 
 Busca aislar los cambios en la interfaz, de los cambios de la lógica, de los cambios en los datos. Es un patron del diseño orientado a objetos
 
-![[Introducción al Diseño de Software 6.png|Untitled]]
+![[Introducción al Diseño de Software 6.png]]
 
 La capa de presentación manejo la lógica del dialogo con el usuario. La capa de negocio maneja la lógica de la aplicación. La capa de persistencia permite el acceso a los datos, que están en la capa de base de datos.
 
-![[Introducción al Diseño de Software 7.png|Untitled]]
+![[Introducción al Diseño de Software 7.png]]
 
 Se publica un evento en una cola de eventos. Del otro lado, tendremos componentes que escuchan de la cola y esperan que aparezcan los eventos, para realizar acciones determinadas.
 
-![[Introducción al Diseño de Software 8.png|Untitled]]
+![[Introducción al Diseño de Software 8.png]]
 
 A través de una ***API***, se accede a lógica que esta en una capa mas abajo.
 

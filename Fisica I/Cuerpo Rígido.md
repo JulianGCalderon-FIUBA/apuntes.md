@@ -12,7 +12,7 @@ $$
 \vec v_{B/A} \perp \vec r_{B/A}
 $$
 
-![[Cuerpo Rígido 1.png|Cuerpo%20Ri%CC%81gido%20a2d8e44cb0fb4f0e9e35c3c2ae8a3a97/Untitled.png]]
+![[Cuerpo Rígido 1.png]]
 
 > [!note]
 > Un cuerpo rígido sigue siendo un sistema de partículas, que cumple con la condición de rigidez

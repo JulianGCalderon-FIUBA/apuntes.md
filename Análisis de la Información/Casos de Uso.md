@@ -18,19 +18,19 @@ Si bien perdieron protagonista hoy en día, tienen su lugar en situaciones parti
 
 El formato breve simplemente contiene un título escrito en verbo en voz activa mas un objeto, y una descripción resumida del comportamiento.
 
-![[Casos de Uso 1.png|Untitled]]
+![[Casos de Uso 1.png]]
 
 El formato de secuencia de acciones, se describen las acciones del actor y las respuestas una por una, de forma detallada. El sistema se describe como una caja negra, no muestra como se elabora la respuesta.
 
-![[Casos de Uso 2.png|Untitled]]
+![[Casos de Uso 2.png]]
 
 El formato de dos columnas o diálogo, se separan las acciones en dos columnas separadas. Una para el actor y otra para el sistema.
 
-![[Casos de Uso 3.png|Untitled]]
+![[Casos de Uso 3.png]]
 
 El formato más completo, contiene precondiciones, poscondiciones,m y escenarios alternativos. También es usual agregar una sección para describir los requisitos no funcionales asociados al caso de uso
 
-![[Casos de Uso 4.png|Untitled]]
+![[Casos de Uso 4.png]]
 
 ## ¿Como Encontrarlos?
 
@@ -47,19 +47,19 @@ El formato más completo, contiene precondiciones, poscondiciones,m y escenarios
 
 Si encontramos que mucho comportamiento se repite en varios casos de uso, crearemos un nuevo caso de uso y lo invocaremos los casos de uso que lo necesiten los llamados casos base. La relación se dibuja con una línea punteada desde el caso de uso base al caso de uso incluido.
 
-![[Casos de Uso 5.png|Untitled]]
+![[Casos de Uso 5.png]]
 
 ### Relaciones de Extensión
 
 Cuando en un caso de uso encontramos comportamiento adicional u opcional, también podemos crear un nuevo caso de uso para ubicar esas acciones. En este caso, pagar con tarjeta de crédito extiende el comportamiento de vender productos.
 
-![[Casos de Uso 6.png|Untitled]]
+![[Casos de Uso 6.png]]
 
 ### Relaciones de Generalización
 
 También encontraremos situaciones donde es necesario especializar un caso de uso. Debemos indicar que comportamiento se hereda sin cambiar, cual se especializa, y cual es nuevo y propio de la especialización
 
-![[Casos de Uso 7.png|Untitled]]
+![[Casos de Uso 7.png]]
 
 ## Adicionales
 
@@ -79,7 +79,7 @@ Conjunto de disciplinas que en conjunto forman el proceso de software. En el pro
 
 Para adecuar los distintos aspectos, es necesario incluir más de una vista o perspectiva.
 
-![[Casos de Uso 8.png|Untitled]]
+![[Casos de Uso 8.png]]
 
 La vista central se representa mediante casos de uso. Los casos de uso se diagraman en notación UML.
 

@@ -31,4 +31,4 @@ $$
 I_o = \sum r^2_{i/o} \cdot m_i
 $$
 
-![[Dinámica CR 1.png|Dina%CC%81mica%20CR%207d6b3cc4c4054b25b8c069415978f89c/Untitled.png]]
+![[Dinámica CR 1.png]]

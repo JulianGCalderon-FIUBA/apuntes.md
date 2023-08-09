@@ -9,7 +9,7 @@ Cada vez que se llama una función, se crea un ámbito nuevo y se va apilando en
 
 Toda función iterativa puede volverse recursiva, pero no toda función recursiva puede volverse iterativa.
 
-![[Algoritmos I/Attachments/Recursividad 1.png|Recursividad%2035c0a614b2c94cbbb90af315935b717d/Untitled.png]]
+![[Algoritmos I/Attachments/Recursividad 1.png]]
 
 ```c
 long factorial(int n){
@@ -40,13 +40,13 @@ long cuantos_pares(int numero, int i){
 		if ( i%2 == 0){
 			return 1;
 		} else {
-			return 0;	
+			return 0;
 		}
 	} else {
 		if ( i%2 == 0){
 			return 1 + cuantos_pares(numero, i+1);
 		} else {
-			return 0 + cuantos_pares(numero, i+1);	
+			return 0 + cuantos_pares(numero, i+1);
 		}
 	}
 }
@@ -66,7 +66,7 @@ void imprimir_ascendente(int numero){
 //Imprime todos los numeros desde 0 hasta 'numero', de forma descendente.
 void imprimir_descendente(int numero){
 	if (numero >= 0){
-		printf("%i", numero);	
+		printf("%i", numero);
 		imprimir_ascendente(numero-1);
 	}
 }

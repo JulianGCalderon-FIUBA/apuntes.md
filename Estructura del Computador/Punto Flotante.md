@@ -6,7 +6,7 @@ $$
 
 Por norma, se usa la base binaria para representar el numero.
 
-El principal inconveniente del punto flotante, es que el cero y los valores cercanos a el no pueden ser representados. El cero se representa con un valor especial. 
+El principal inconveniente del punto flotante, es que el cero y los valores cercanos a el no pueden ser representados. El cero se representa con un valor especial.
 
 # Componentes
 
@@ -14,7 +14,7 @@ El principal inconveniente del punto flotante, es que el cero y los valores cerc
 - **Mantisa:** Representa el significado del numero. Por norma, empieza con $1,d_1d_2d_3 \dots d_n$
 - **Exponente:** Representa la magnitud del numero (con signo). Se representa con *“exceso”.* En el exponente no están permitidos los extremos del rango de representación. No admite todos ceros ni todos unos.
 
-![[Punto Flotante 1.png|Formatos típicos de los números de maquina.]]
+![[Punto Flotante 1.png]]
 
 Formatos típicos de los números de maquina.
 
@@ -22,7 +22,7 @@ Formatos típicos de los números de maquina.
 
 Si se tienen 4 bits, Parte del -7 con todos los bits en 0. Luego va sumando uno por uno hasta llegar al 7 positivo. El numero inicial depende de la cantidad de bits del numero.
 
-La ventaja de este sistema de representación es que es mas fácil comprar exponentes. 
+La ventaja de este sistema de representación es que es mas fácil comprar exponentes.
 
 # Valores Especiales
 

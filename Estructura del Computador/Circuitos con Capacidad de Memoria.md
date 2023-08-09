@@ -18,6 +18,6 @@ Todo debe estar limitado por el reloj, por lo que no trabajo a la maxima capacid
 
 Reciben un numeo de entradas y seleccionan una a partir de entradas de control
 
-![[Circuitos con Capacidad de Memoria 1.png|Untitled]]
+![[Circuitos con Capacidad de Memoria 1.png]]
 
-![[Circuitos con Capacidad de Memoria 2.png|Untitled]]
+![[Circuitos con Capacidad de Memoria 2.png]]

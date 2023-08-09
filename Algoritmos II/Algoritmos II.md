@@ -1,4 +1,3 @@
-- [[Plantilla de Informe|Plantilla de Informe]]
 - [[Algoritmos II/Memoria|Memoria]]
 - [[Punteros|Punteros]]
 - [[Análisis de Algoritmos|Análisis de Algoritmos]]

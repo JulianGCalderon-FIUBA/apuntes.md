@@ -19,7 +19,7 @@ Es un conjunto de vertices y aristas, que determinan conexiones entre los vertic
 	Para el caso de un grafo simple, el índice de densidad equivale a
 
 	$$
-    D = \frac{2\cdot E}{V \cdot (V - 1)} 
+    D = \frac{2\cdot E}{V \cdot (V - 1)}
     $$
 
 	Siendo $D$ el índice de densidad, $E$ la cantidad de aristas y $V$ la cantidad de vertices.
@@ -32,7 +32,7 @@ Es un conjunto de vertices y aristas, que determinan conexiones entre los vertic
 
 Un ciclo es un recorrido de aristas adyacentes que empieza y termina en un mismo lugar. No todos lo grafos contienen ciclos
 
-![[Grafos 1.svg|Grafos%205f6449e4fb494bbe89f16bf76c0d05e7/Diagram.drawio.svg]]
+![[Grafos 1.svg]]
 
 ### Camino
 

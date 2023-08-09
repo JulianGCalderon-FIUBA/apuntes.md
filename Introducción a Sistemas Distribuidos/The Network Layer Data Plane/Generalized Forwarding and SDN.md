@@ -5,9 +5,9 @@ Debido a que la decisiones de envió pueden hacerse utilizando la capa de red o 
 Cada entrada en la tabla conocida como ***flow table incluye:***
 
 - Un conjunto de valores de campos de encabezados a partir de los cuales el paquete será analizado.
-    
-    ![[Generalized Forwarding and SDN 1.png|Untitled]]
-    
+
+    ![[Generalized Forwarding and SDN 1.png]]
+
 - Un conjunto de contadores que serán actualizados cuando el paquete coincide con la entrada
 - Un conjunto de acciones que deben tomarse cuando un paquete coincide con la entrada de la tabla
 

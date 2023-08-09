@@ -60,20 +60,20 @@ La extrapolación de richardson consiste en aproximar una derivada a partir de e
 
 1. Planteamos un $h$ inicial, evaluamos la función en los puntos de la sucesión $\{h/2^k\}_{k=0, {n-1}}$
 2. Encontramos las aproximaciones $R^{(0)}$ para cada uno de puntos
-    
+
     $$
     R^{(0)}(h) = \frac{f(x+h) - f(x-h)}{2h}
     $$
-    
+
 3. A partir de un proceso similar al de las diferencias divididas, encontramos el termino $R^{(n-1)}$ a partir de la ecuación
-    
+
     $$
     R^{(k)}(h) = \frac{4^kR^{(k-1)}(h/2) - R^{(k-1)}(h)}{4^k-1}
     $$
-    
+
 
 Nuestro arbol de diferencias divididas se vera de la siguiente forma
 
-![[Diferenciación Numérica 1.png|Untitled]]
+![[Diferenciación Numérica 1.png]]
 
 Podemos encontrar que el orden de este metodo es del orden $O(h^{2k+2})$

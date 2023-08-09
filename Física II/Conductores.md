@@ -2,7 +2,7 @@ La carga es una propiedad de la materia, por lo que las cargas están ubicadas e
 
 Experimentalmente, podemos probar que el campo eléctrico ***dentro*** de un conductor resulta nulo. Una manera de pensar esto intuitivamente es que las cargas, inducidas por el campo, se reordenan en el conductor y modifican el campo hasta que estas se posicionan en la superficie del conductor y dejan de moverse. Anulando el campo el campo eléctrico dentro del mismo.
 
-![[Conductores 1.png|Untitled]]
+![[Conductores 1.png]]
 
 **Blindaje Electroestático:**
 
@@ -20,7 +20,7 @@ $$
 
 Este caso es similar al del blindaje electroestático, pero al tener una carga en el interior, el campo en el medio ya no es nulo. Por ley de gauss, tenemos que la carga de la superficie interior del cascaron $Q_{int}$ debe anular a la carga de la esfera conductora $Q$. Por otro lado, la carga del cascaron era inicialmente nula, por lo que se deben anular las cargas de la superficie interior y exterior $Q_{ext}$ (carga total permanece constante)
 
-![[Conductores 2.png|Untitled]]
+![[Conductores 2.png]]
 
 $$
 Q_{int} = -Q

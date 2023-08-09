@@ -28,7 +28,7 @@ $$
 
 ## Cota de Error
 
-El error se calcula integrando el error de cada uno los polinomios en su intervalo. 
+El error se calcula integrando el error de cada uno los polinomios en su intervalo.
 
 $$
 E_K = \frac{1}{2}\int_{x_k}^{x_{k+1}} f''(\xi_k(x)) (x-x_k)(x-x_{k+1})dx
@@ -74,7 +74,7 @@ $$
 
 # Regla de Simpson (3/8)
 
-Para este método, se interpola la función cada intervalos de $4$ nodos. Sin embargo, no hace falta utilizar este método ya que el orden de su error $O(h^4)$ es igual al de Simpson (1/3). 
+Para este método, se interpola la función cada intervalos de $4$ nodos. Sin embargo, no hace falta utilizar este método ya que el orden de su error $O(h^4)$ es igual al de Simpson (1/3).
 
 $$
 \int_a^bf(x)dx \cong \frac{3h}8\Bigg[f(a)+f(b)+3\sum_{k=0}^{\frac{N-3}3}f(x_{3k+1})+3\sum_{k=0}^{\frac{N-3}3}f(x_{3k+2})+2\sum_{k=1}^{\frac{N-3}3}f(x_{3k})\Bigg]
@@ -94,4 +94,4 @@ $$
 R^{(k)}(h) = \frac{4^k R^{(k-1)}(h/2) - R^{(k-1)}(h)}{4^k-1}
 $$
 
-![[Diferenciación Numérica 1.png|Untitled]]
+![[Diferenciación Numérica 1.png]]

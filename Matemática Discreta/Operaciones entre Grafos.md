@@ -97,11 +97,11 @@ Observemos que $n(G \times H) = n(G) \cdot n(H)$, y que $m = n(H)m(G) + n(G)m(H)
 
 Un ejemplo podría ser el de la telaraña $W_{n,m}$:
 
-![[Operaciones entre Grafos 1.png|Untitled]]
+![[Operaciones entre Grafos 1.png]]
 
 # Eliminación de Vértice/Arista
 
-Definimos la operación de de vertices o aristas, como $G - e_i$, o $G - v_i$. Si es indiferente que vértice se elimina, dando grafos isomorfos, se omite la identificación del vértice, en tal caso podemos anotar la igualdad con $=$ en lugar de $\cong$. 
+Definimos la operación de de vertices o aristas, como $G - e_i$, o $G - v_i$. Si es indiferente que vértice se elimina, dando grafos isomorfos, se omite la identificación del vértice, en tal caso podemos anotar la igualdad con $=$ en lugar de $\cong$.
 
 $$
 K_4 - v = K_3
@@ -115,19 +115,19 @@ Si un grafo puede ser reconstruido a partir de su ***deck***, se dice que es *re
 
 Dada una [[Clasificaciones|inmersion]] de un grafo $G$, se define su dual $G^*$ al grafo que tiene tantos vertices como caras del original, existiendo una arista entre dos vertices del dual por cada arista de frontera entre las correspondientes caras del original. El dual del dual se llama ***bidual***, y se denota $G^{**}$.
 
-![[Operaciones entre Grafos 2.png|Untitled]]
+![[Operaciones entre Grafos 2.png]]
 
-Se observa que $C_3^{**} \cong C_3$$C_3^{**} = C_3$, pero en general no se puede decir que $G^{**} \cong G$. Esto ocurre si el original es conexo $(2P_2^{**} \ncong 2P_2)$ 
+Se observa que $C_3^{**} \cong C_3$$C_3^{**} = C_3$, pero en general no se puede decir que $G^{**} \cong G$. Esto ocurre si el original es conexo $(2P_2^{**} \ncong 2P_2)$
 
 Sean $G, H$ dos inmersiones isomorfas, entonces no necesariamente se cumple que $G^* \cong H^*$.
 
-![[Operaciones entre Grafos 3.png|Untitled]]
+![[Operaciones entre Grafos 3.png]]
 
 Podemos observar en este ejemplo que los grafos iniciales son isomorfos, pero los grafos duales no lo son (tienen distinto grado máximo).
 
 Curiosamente, observamos que los grafos resultantes son planares.
 
-![[Operaciones entre Grafos 4.png|Untitled]]
+![[Operaciones entre Grafos 4.png]]
 
 ***Observación:*** El dual siempre es conexo, por la definición de ***cara***.
 

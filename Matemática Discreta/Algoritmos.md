@@ -7,7 +7,7 @@ El algoritmo ***Depth First Search*** *(DFS)* es un algoritmo que busca encontra
 3. Se avanza en profundidad, cuidando de no crear ciclos, formando un árbol generador. Cada vértice se etiqueta en orden que se recorre.
 4. Se orienta cada arista que es parte del árbol generador, de menor a mayor. Las agregan las aristas que no son parte de árbol generador, orientándolas del vértice mayor al vértice menor, a partir de la secuencia definida previamente.
 
-![[Algoritmos 1.png|Untitled]]
+![[Algoritmos 1.png]]
 
 # Prim
 
@@ -54,7 +54,7 @@ Se le llama flujo de $G$ a una función $F: E(G) \to N_0$ tal que su valor siemp
 
 Buscaremos la cantidad de flujo máximo que podremos transportar desde la fuente al sumidero, y el camino óptimo para realizarlo.
 
-1. Establecemos como condición inicial, $\Phi = 0$ 
+1. Establecemos como condición inicial, $\Phi = 0$
 2. Mientras haya un camino de aumento desde $O$ hacia $T$. Estos los podemos encontrar colocándonos en el sumidero y analizar un camino posible de llegada. No debemos considerar aquellos caminos que ya estén saturados (se este utilizando su capacidad total)
     1. Calcular el cuello de botella del camino. Esto es la maxima cantidad de flujo que puedo enviar por allí, es decir el mínimo del pesos de las aristas que lo conforman, o en el caso de ser aristas ya utilizadas, el mínimo de la capacidad libre restante de cada una.
     2. Actualizar el flujo a través de cada arista, denotando la capacidad en uso actual, y la capacidad libre restante.

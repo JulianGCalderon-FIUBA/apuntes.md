@@ -6,7 +6,7 @@ $$
 a_{p/\text{sri}} = a_{p/\text{srni}} + a_{\text{srni}/\text{sri}}
 $$
 
-![[Sistema de referencia no inercial 1.png|Sistema%20de%20referencia%20no%20inercial%20556c3131f66f4d83be5194795e4ae68f/Untitled.png]]
+![[Sistema de referencia no inercial 1.png]]
 
 # Fuerza Ficticia
 

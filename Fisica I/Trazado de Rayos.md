@@ -14,22 +14,22 @@ El trazado de rayos en los lentes es similar, pero en lugar de centro de curvatu
 
 # Ejemplos
 
-![[Trazado de Rayos 1.png|Convergente Real]]
+![[Trazado de Rayos 1.png]]
 
 Convergente Real
 
-![[Trazado de Rayos 2.png|Divergente Virtual]]
+![[Trazado de Rayos 2.png]]
 
 Divergente Virtual
 
-![[Trazado de Rayos 3.png|Espejo Cóncavo Real]]
+![[Trazado de Rayos 3.png]]
 
 Espejo Cóncavo Real
 
-![[Trazado de Rayos 4.png|Convergente Virtual]]
+![[Trazado de Rayos 4.png]]
 
 Convergente Virtual
 
-![[Trazado de Rayos 5.png|Divergente Real]]
+![[Trazado de Rayos 5.png]]
 
 Divergente Real

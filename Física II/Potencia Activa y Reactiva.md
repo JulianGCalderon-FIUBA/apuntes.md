@@ -54,7 +54,7 @@ La potencia reactiva no representa el trabajo realizado, es energía que se cons
 
 Podemos relacionar entonces las potencias en un triangulo.
 
-![[Potencia Activa y Reactiva 2.svg|Potencia%20Activa%20y%20Reactiva%20344e1af324c243ce907c522ec247cf8d/Diagram.drawio.svg]]
+![[Potencia Activa y Reactiva 2.svg]]
 
 Llamaremos $S$ a la hipotenusa del triángulo
 
@@ -80,4 +80,4 @@ Si a los lados del triangulo anterior, lo divido por la corriente, encuentro un 
 
 Si lo vuelvo a dividir por la corriente, llegamos a un triangulo de las reactancias
 
-![[Potencia Activa y Reactiva 2.svg|Potencia%20Activa%20y%20Reactiva%20344e1af324c243ce907c522ec247cf8d/Diagram.drawio%201.svg]]
+![[Potencia Activa y Reactiva 2.svg]]

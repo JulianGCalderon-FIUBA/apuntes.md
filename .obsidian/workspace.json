@@ -14,9 +14,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Curvas y superficies.md",
+                "file": "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             },
             "group": "cbc33e7c2ca0aef2"
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Curvas y superficies.md",
+                "file": "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
                 "mode": "preview",
                 "source": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Curvas y superficies.md",
+                "file": "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Curvas y superficies.md",
+                "file": "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Curvas y superficies.md"
+                "file": "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md"
               }
             }
           },
@@ -164,7 +164,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,10 +179,12 @@
   },
   "active": "1a45e0e2eb723714",
   "lastOpenFiles": [
-    "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
-    "Análisis Matemático II/Cuádricas.md",
-    "Análisis Matemático II/Análisis Matemático II.md",
     "Análisis Matemático II/Cónicas.md",
+    "Análisis Matemático II/Cuádricas.md",
+    "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
+    "Algoritmos II/Algoritmos II.md",
+    "Análisis Matemático II/Curvas y superficies.md",
+    "Análisis Matemático II/Análisis Matemático II.md",
     "Fisica I/Trabajo y energia.md",
     "Análisis Matemático II/Topología.md",
     "Matemática Discreta/Nociones Básicas.md",
@@ -202,8 +205,6 @@
     "Análisis de la Información/Introducción al Diseño de Software.md",
     "Análisis de la Información/Introducción a la Ingeniería de Software.md",
     "Análisis de la Información/Interfaces de Usuario.md",
-    "Análisis de la Información/Innovación y Creatividad.md",
-    "Análisis de la Información/Ingeniería de Requisitos.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",

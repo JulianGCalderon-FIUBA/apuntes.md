@@ -2,7 +2,7 @@ Dada una expresión algebraica, buscamos simplificar para que el costo de repres
 
 ## Compuertas
 
-![[Circuitos 1.png|Untitled]]
+![[Circuitos 1.png]]
 
 # Diseño de Circuitos
 

@@ -29,9 +29,9 @@ Cuando ocurre un ***timer interrupt***, se realiza lo mismo que en el estado de 
 
 En este estado, `cwdn` se incrementa en ***1 MSS*** por cada ***ACK*** duplicado recibido por un segmento perdido que causo el ***fast-recovery state***. Eventualmente, cuando se recibe un *ACK* por el segmento perdido, *TCP* entra en *congestion-avoidance* luego de reducir `cwdn` a `sstresh` Ante un *timeout event,* se restablece `cwdn` y `sstresh` de la misma forma que antes y se pasa al estado de *slow start.*
 
-Una versión inicial de ***TCP***, conocida como ***TCP Tahoe*** no implementaba fast-recovery*.* Fue introducido posteriormente por *TCP Reno* 
+Una versión inicial de ***TCP***, conocida como ***TCP Tahoe*** no implementaba fast-recovery*.* Fue introducido posteriormente por *TCP Reno*
 
-![[TCP Congestion Control 1.png|Untitled]]
+![[TCP Congestion Control 1.png]]
 
 ## TCP Congestion Control: Retrospective
 

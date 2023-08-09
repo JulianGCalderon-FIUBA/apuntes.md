@@ -26,7 +26,7 @@ $$
 \boxed{\vec L_o = mR^2\Omega\hat z}
 $$
 
-![[Momento y Torque 1.png|Momento%20y%20Torque%20ca972b32e309424883f3f2edf5dbafec/Untitled.png]]
+![[Momento y Torque 1.png]]
 
 ## Trayectoria rectilinea
 
@@ -38,7 +38,7 @@ $$
 \boxed{\vec L_o = d\cdot mv\cdot\hat z}
 $$
 
-![[Momento y Torque 2.png|Momento%20y%20Torque%20ca972b32e309424883f3f2edf5dbafec/Untitled%201.png]]
+![[Momento y Torque 2.png]]
 
 # Torque
 

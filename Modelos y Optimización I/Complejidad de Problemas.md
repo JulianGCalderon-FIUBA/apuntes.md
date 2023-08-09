@@ -1,5 +1,5 @@
 > Conjeturo que no hay un buen algoritmo para el problema del viajante ~ Jack Edmonds, 1967
-> 
+>
 
 ¿Que quiere decir un buen algoritmo? Un algoritmo es bueno si puede resolver un problema en una cantidad de tiempo que consideramos aceptable, luego, ¿Que cantidad de tiempo es aceptable? Necesitaremos entonces una clasificación para los algoritmos.
 
@@ -39,7 +39,7 @@ El problema del viajante, se puede reducir a $n!$ posibles soluciones, luego con
 
 ## Clase NP Completo
 
-***Reducciones:*** Si un problema $A$ puede convertirse en tiempo polinomial en un problema $B$, se dice que $B$ “no es mas fácil” que $A$. 
+***Reducciones:*** Si un problema $A$ puede convertirse en tiempo polinomial en un problema $B$, se dice que $B$ “no es mas fácil” que $A$.
 
 Los problemas $NP{-}\text{Completos}$ son aquellos problemas $NP$ tales que cualquier problema $NP$ puede reducirse en tiempo polinómico a dicho problema.
 
@@ -57,6 +57,6 @@ Los $NP{-}\text{Completos}$ son la intersección entre los $NP$ y los $NP{-}\tex
 
 El problema del milenio $P$ vs. $NP$. es aquel que busca definir si todo algoritmo $NP$ es también, un algoritmo $P$. Es decir, si todo algoritmo que es verificable en tiempo polinomial, también es resoluble en tiempo polinomial.
 
-![[Complejidad de Problemas 1.png|Diagrama de Euler para las clases de dificultad, según el resultado del problema]]
+![[Complejidad de Problemas 1.png]]
 
 Diagrama de Euler para las clases de dificultad, según el resultado del problema

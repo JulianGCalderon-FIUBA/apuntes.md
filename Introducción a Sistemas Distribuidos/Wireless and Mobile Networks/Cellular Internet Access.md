@@ -9,9 +9,9 @@ Para esta descripción, adoptaremos la terminología de los estándares ***Globa
 
 ## Cellular Network Architecture, 2G: Voice Connections to the Telephone Network
 
-El termino ***celular*** proviene de que las regiones cubiertas por una red celular se conocen como ***celdas***. Cada celda contiene un ***base transceiver station (BTS**)* que transmite señal desde y hacia las estaciones mobiles dentro de la celda. 
+El termino ***celular*** proviene de que las regiones cubiertas por una red celular se conocen como ***celdas***. Cada celda contiene un ***base transceiver station (BTS**)* que transmite señal desde y hacia las estaciones mobiles dentro de la celda.
 
-![[Cellular Internet Access 1.png|Untitled]]
+![[Cellular Internet Access 1.png]]
 
 El área de cubrimiento de una célula depende de muchos factores, incluyendo el poder de transmisión de la BTS, de los dispositivos de usuario, de los edificios que obstruyen, las antenas, etc.
 
@@ -27,7 +27,7 @@ Una red de proveedor celular tiene un número de ***MSCs,*** con algunos especia
 
 Para poder transferir datos correctamente, los dispositivos debe poder mantener conexiones ***TCP*** estables mientras están en movimiento.
 
-![[Cellular Internet Access 2.png|Untitled]]
+![[Cellular Internet Access 2.png]]
 
 ## 3G Core Network
 
@@ -48,7 +48,7 @@ Un cambio significativo entre las redes 3G ***UMTS*** y las redes **2G** es que 
 
 Hay dos innovaciones importantes que surgieron con la llegada de los sistemas 4G
 
-![[Cellular Internet Access 3.png|Untitled]]
+![[Cellular Internet Access 3.png]]
 
 ## 4G System Architecture: An All-IP Core Network
 
@@ -72,6 +72,6 @@ Los principales componentes de la arquitectura *4G* son:
 
 En ***LTE***, para cada nodo activo se reserva uno o mas ***timeslots*** de ***0.5ms*** en uno o mas canales de frecuencias. Estas (re)reservas pueden realizarse hasta una vez por milisegundo, y pueden utilizarse distintos esquemas de modulación dependiendo de la circunstancia.
 
-La reserva particular no esta gestionada por el estándar de ***LTE***, sino que la decision de quienes podrán transmitir se determinan por algoritmos de ***scheduling*** provistos por los vendedores de ***LTE*** y operadores de red. 
+La reserva particular no esta gestionada por el estándar de ***LTE***, sino que la decision de quienes podrán transmitir se determinan por algoritmos de ***scheduling*** provistos por los vendedores de ***LTE*** y operadores de red.
 
 El ***opportunistic scheduling varia*** el protocol de capa física según las condiciones del canal para optimizar el uso del medio. Ademas, las prioridades del usuarios y el nivel se servicio contratado puede ser utilizado para favorecer las transmisiones de descarga de algunos usuarios.

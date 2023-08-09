@@ -16,7 +16,7 @@ Existen distintos modelos conocidos de base de datos:
 - ***De Red:*** Similar, pero sin necesidad de navegar la jerarquía, se puede navegar de un registro a otro
 - ***Relacional:*** Tablas relacionadas entre si, por otras tablas:
 
-	![[Diseño de Datos 1.png|PRIMARY_KEY: id - FOREIGN KEY: user_id]]
+	![[Diseño de Datos 1.png]]
 
 	PRIMARY_KEY: id - FOREIGN KEY: user_id
 
@@ -45,7 +45,7 @@ Existen distintos modelos conocidos de base de datos:
 
 El lado de ***Many*** mantiene referencia al ***One*** a partir de una clave foránea
 
-![[Diseño de Datos 2.png|Untitled]]
+![[Diseño de Datos 2.png]]
 
 ### One-one
 
@@ -55,7 +55,7 @@ Decidimos una tabla como mas relevante, e incluimos la ***foránea*** en la otra
 
 Crear una tabla de correlación cuyas columnas serán las claves primarias de las tablas relacionadas. Los identificadores serán tanto claves primarias como foráneas
 
-![[Diseño de Datos 3.png|Untitled]]
+![[Diseño de Datos 3.png]]
 
 ### Recursivas
 

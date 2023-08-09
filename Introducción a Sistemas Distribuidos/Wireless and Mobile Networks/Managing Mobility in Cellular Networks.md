@@ -3,7 +3,7 @@ Al igual que ***mobile IP***, ***GSM*** adopta un enfoque de ***indirect routing
 - La red local mantiene una base de datos conocida como ***home location register (HLR)***, que contiene el teléfono celular permanente de un usuario, e información de perfil sobre sus subscriptores. Ademas, contiene la dirección actual de cada uno de sus suscriptores. El ***HLR*** tiene suficiente información para obtener una dirección en la red visitada. Un ***switch especial*** es contactado en la red local, conocido como ***Gateway Mobile Services Switching Center (GMSC)**. Nos referiremos a el como el* home MSC*.*
 - La red visitada mantiene una base de datos conocida como ***visitor location register (VLR**)*. Esta contiene una entrada por cada móvil actualmente residente en la red. Esta base de datos es también localizada dentro del ***MSC de la red.***
 
-![[Managing Mobility in Cellular Networks 1.png|Untitled]]
+![[Managing Mobility in Cellular Networks 1.png]]
 
 # 1. Routing Calls to a Mobile User
 
@@ -19,7 +19,7 @@ Cuando un dispositivo móvil entra a una red cubierta por un nuevo ***VLR***, es
 
 Un ***handoff*** ocurre cuando una estación móvil cambia su asociación de una estación base a otra durante una llamada. Esto puede ocurrir por otras diversas razones, ademas de la movilidad de un nodo, incluyendo que la señal de la estación actual deterioro lo suficiente y esta en peligro de perderse, o una celda fue sobrecargada y debe delegar móviles a otras celdas cercanas.
 
-![[Managing Mobility in Cellular Networks 2.png|Untitled]]
+![[Managing Mobility in Cellular Networks 2.png]]
 
 Mientras esta asociado a una estación base, un móvil periódicamente mide la fuerza de de una ***beacon signal*** desde su propia estación base, y las cercanas. Basándose en esta métrica, puede iniciarse un ***handoff***. Este proceso, se da en los siguientes pasos:
 

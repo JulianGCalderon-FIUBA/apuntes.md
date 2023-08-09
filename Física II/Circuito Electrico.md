@@ -1,4 +1,4 @@
-Red conductora que contiene al menos una trayectoria cerrada por la que puede fluir la carga eléctrica. Las cargas eléctricas se mueven por acción del campo eléctrico dentro del conductor. 
+Red conductora que contiene al menos una trayectoria cerrada por la que puede fluir la carga eléctrica. Las cargas eléctricas se mueven por acción del campo eléctrico dentro del conductor.
 
 En un circuito cerrado, la corriente eléctrica es constante, estacionaria. Además, la diferencia de potencial en un circuito cerrado es nulo, debemos respetar esto para diseñar circuitos cerrados.
 
@@ -8,21 +8,21 @@ Una llave es una porción del circuito que se puede abrir o cerrar, también se 
 
 Los conductores ideales (cables) no tienen resistencia, en la practica este cable no existe.
 
-![[Circuito Electrico 1.png|Untitled]]
+![[Circuito Electrico 1.png]]
 
-![[Circuito Electrico 2.png|Untitled]]
+![[Circuito Electrico 2.png]]
 
  Para nosotros, los siguiente significan lo mismo. Fuentes de corriente continua
 
-![[Circuito Electrico 3.png|Untitled]]
+![[Circuito Electrico 3.png]]
 
 Un capacitor almacena cargas, energía. Hay varios tipos distintos. Se considera un capacitor variable si podemos modificar sus propiedades. El capacitor polarizado es mas barato pero solo permite que las cargas positivas estén de un lado, si esto no se cumple el capacitor se quema.
 
-![[Circuito Electrico 4.png|Untitled]]
+![[Circuito Electrico 4.png]]
 
 Las resistencias imponen una diferencia de potencial sobre el circuito. permite que los componentes no se quemen. La caída de potencial que causa la resistencia es negativa en el sentido positivo de la corriente.
 
-![[Circuito Electrico 5.png|Untitled]]
+![[Circuito Electrico 5.png]]
 
 # Leyes de Kirchhoff
 
@@ -76,7 +76,7 @@ $$
 
 **Donde se calcula la potencia?**
 
-Las pilas tienen una corriente y un voltaje, por lo que entregan (o absorben) potencia, dependiendo del sentido de la corriente. 
+Las pilas tienen una corriente y un voltaje, por lo que entregan (o absorben) potencia, dependiendo del sentido de la corriente.
 
 Las resistencias por el otro lado, siempre tienen potencia negativa. Debido a esto, las resistencias siempre *disipan potencia*, pierden energía en forma de calor.
 

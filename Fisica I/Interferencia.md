@@ -1,4 +1,4 @@
-Ocurre cuando tomas dos ondas armónicas de la misma *frecuencia*, misma *longitud*, pero con diferente *fase.* Cada onda recorre caminos distintos $x_1, x_2$. 
+Ocurre cuando tomas dos ondas armónicas de la misma *frecuencia*, misma *longitud*, pero con diferente *fase.* Cada onda recorre caminos distintos $x_1, x_2$.
 
 Estas ondas se denominan **coherentes** porque su diferencia de fase es constante en el tiempo. Si no trabajamos con fuentes coherentes, entonces el factor de interferencia se anula.
 
@@ -28,7 +28,7 @@ $$
 
 Las fuentes $S_1,\,S_2$ son puntuales y monocromáticas. al provenir de la misma fuente, asumimos que $\Delta \varphi = 0$
 
-![[Interferencia 1.png|Interferencia%204de3b4bba5014045a549249d7f66e2be/Untitled.png]]
+![[Interferencia 1.png]]
 
 $$
 \Delta x = \Delta r = d\sin\theta
@@ -86,9 +86,9 @@ $n = \pm1,2,3\cdots$
 
 Le asignamos a cada onda un fasor, y calculamos la suma de las ondas para llegar a la onda resultante.
 
-![[Interferencia 2.png|Interferencia%204de3b4bba5014045a549249d7f66e2be/Untitled%201.png]]
+![[Interferencia 2.png]]
 
-![[Interferencia 3.png|Interferencia%204de3b4bba5014045a549249d7f66e2be/Untitled%202.png]]
+![[Interferencia 3.png]]
 
 $$
 \xi_0 = \xi_{01} + \xi_{02}\\

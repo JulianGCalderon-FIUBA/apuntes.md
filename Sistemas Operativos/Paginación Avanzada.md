@@ -8,7 +8,7 @@ Su aumentamos el tamaño de las páginas a, digamos ***16 KB***, entonces estare
 
 ## Enfoque Híbrido: Páginas y Segmentos
 
-Muchas veces, nuestra tabla de páginas estará en su mayoría vacía, gastando mucha memoria en entradas inválidas. 
+Muchas veces, nuestra tabla de páginas estará en su mayoría vacía, gastando mucha memoria en entradas inválidas.
 
 Una forma de solucionar esto es utilizar el enfoque híbrido. De esta forma, tendremos una tabla de páginas para cada segmento lógico: ***stack, code, heap***. De esta forma, utilizamos el registro ***base*** para apuntar a la dirección de fisica donde se almacena dicha pagina de tablas. El registro ***bound*** se utiliza para indicar el final de la tabla de páginas, es decir, la cantidad de páginas válidas.
 
@@ -22,13 +22,13 @@ Este enfoque es tan efectiva que inclusa se utiliza en los sistemas modernos. Co
 
 La idea principal es separar la tabla de páginas es unidades del tamaño de una página. Si la página entera es inválida, entonces no se reserva memoria para ella. Esta solución introduce una nueva estructura, ***page directory***. Esta será una tabla de punteros a tablas de páginas, más pequeñas. Indicando si una tabla es válida o no.
 
-![[Paginación Avanzada 1.png|Untitled]]
+![[Paginación Avanzada 1.png]]
 
-En esencia, la *multi-paginación* utiliza tablas de *multi-nivel.* Los directorios tienen una cantidad de ***PDE*** o ***page directory entries***. Minimalmente, estos contienen un bit de validez y un ***PFN***, el frame donde se encuentra la tabla de páginas. 
+En esencia, la *multi-paginación* utiliza tablas de *multi-nivel.* Los directorios tienen una cantidad de ***PDE*** o ***page directory entries***. Minimalmente, estos contienen un bit de validez y un ***PFN***, el frame donde se encuentra la tabla de páginas.
 
-Este enfoque tiene varios ventajas obvias. En primer lugar, solo se reserva memoria para las páginas que se utilizan por proceso, lo que ahorra mucha memoria. 
+Este enfoque tiene varios ventajas obvias. En primer lugar, solo se reserva memoria para las páginas que se utilizan por proceso, lo que ahorra mucha memoria.
 
-Por otro lado, las páginas de tablas pueden entrar cuidadosamente en un frame, por lo que no tendremos fragmentación externa. 
+Por otro lado, las páginas de tablas pueden entrar cuidadosamente en un frame, por lo que no tendremos fragmentación externa.
 
 Además, al no tener la memoria contigua, es más fácil encontrar espacio libre para las tablas. Esto es así ya que agregamos un nivel de ***indirección***.
 

@@ -76,37 +76,37 @@ Para encontrar asociaciones podemos utilizar una lista de categorías predefinid
 
 Cuando tenemos objetos con atributos comunes y otros que los diferencian, podemos utilizar la generalización y la especificación para mejorar el modelado.
 
-![[Modelados de Dominio 1.png|Untitled]]
+![[Modelados de Dominio 1.png]]
 
 Para modelar estructuras jerárquicas, podemos utilizar asociaciones genéricas.
 
 Existe una unidad organizacional que puede tener múltiples unidades organizacionales que le corresponden. Y cada una pertenece a un tipo particular.
 
-![[Modelados de Dominio 2.png|Untitled]]
+![[Modelados de Dominio 2.png]]
 
-![[Modelados de Dominio 3.png|Untitled]]
+![[Modelados de Dominio 3.png]]
 
 A veces, es necesario separar la descripción o especificación del producto de una instancia de dicho producto.
 
-![[Modelados de Dominio 4.png|Untitled]]
+![[Modelados de Dominio 4.png]]
 
 Muchas veces es necesario registrar movimientos y saldos de bienes y valores. Para transferir plata entre cuentas, utilizamos transacciones. Las transacciones tienen dos movimientos asociados (uno para debitar, y otro para acreditan. A veces, las cuentas agrupan uentas de menor nivel
 
-![[Modelados de Dominio 5.png|Untitled]]
+![[Modelados de Dominio 5.png]]
 
 Muchas veces, necesitamos registrar mediciones. Separamos entonces en el objeto medido, la medición, y el tipo de medición
 
-![[Modelados de Dominio 6.png|Untitled]]
+![[Modelados de Dominio 6.png]]
 
 ## Factura
 
 Una factura es un documento que refleja la información de una operación de venta. En general, cada país tiene regulaciones que indican como deben generarse y resguardarse. En muchos países, existe la factura electrónica. Los sistemas administrativos necesitan mantener esta información.
 
-![[Modelados de Dominio 7.png|Untitled]]
+![[Modelados de Dominio 7.png]]
 
 Además de facturas, existen notas de credito y debito. Las notas de crédito disponen de saldo a favor al cliente, mientras que las notas de débito reflejan un saldo a favor del vendedor.
 
-![[Modelados de Dominio 8.png|Untitled]]
+![[Modelados de Dominio 8.png]]
 
 ## Modelo de Datos
 

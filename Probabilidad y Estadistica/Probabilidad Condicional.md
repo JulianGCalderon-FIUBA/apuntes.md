@@ -35,13 +35,13 @@ $$
 Sea el conjunto de eventos $B$ una partición de $\Omega$, y $A$ un evento de probabilidad positiva. Entonces
 
 $$
-P(B_i|A) = \frac{P(A|B_i) P(B_i)}{\sum_{j=1}^k P(A|B_j)P(B_j)} = \frac{P(A|B_i) P(B_i)}{P(A)} 
+P(B_i|A) = \frac{P(A|B_i) P(B_i)}{\sum_{j=1}^k P(A|B_j)P(B_j)} = \frac{P(A|B_i) P(B_i)}{P(A)}
 $$
 
 # Diagrama de Árbol
 
 Un diagrama de árbol es una forma grafica de mostrar los distintos resultados del experimento aleatorio. Cada ramificación del árbol contiene a su vez, distintos eventos que pueden resultar de el.
 
-![[Probabilidad Condicional 1.png|Untitled]]
+![[Probabilidad Condicional 1.png]]
 
 Podemos ver que los elementos de nuestro algebra de eventos son $A, B, C, D$. A su vez, $A,B$ es una partición de $\Omega$. Por lo que los eventos $C, D$ se pueden escribir en función de sus probabilidades respecto a $A,B$, a partir del *teorema de Bayes*.

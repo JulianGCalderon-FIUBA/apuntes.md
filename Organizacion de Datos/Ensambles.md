@@ -5,13 +5,13 @@
 
 Se busca tener *low bias, low variance*
 
-![[Ensambles 1.png|Untitled]]
+![[Ensambles 1.png]]
 
 ## Ensamble de Modelos
 
 A veces, un solo modelo no es suficiente para aprender un concepto completo, pero muchos modelos en conjuntos pueden aprender una gran parte del concepto
 
-![[Ensambles 2.png|Untitled]]
+![[Ensambles 2.png]]
 
 Se puede utilizar un proceso de *votación* para obtener la mejor clase, utilizando la predicción de cada modelo. Si devuelven probabilidades, se puede hacer una votación ponderada.
 

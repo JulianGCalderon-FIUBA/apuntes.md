@@ -4,13 +4,13 @@
 
 Este algoritmo permite crear un arbol de decisiones a partir de un conjunto de ejemplos. Esto es un grafo acíclico con un nodo raiz, del cual parten los demas nodos.
 
-Este arbol nos permite tomar decisiones a partir de ciertos valores de entrada. Los nodos hijos representan preguntas con respecto al valor de uno de los atributos. 
+Este arbol nos permite tomar decisiones a partir de ciertos valores de entrada. Los nodos hijos representan preguntas con respecto al valor de uno de los atributos.
 
 Para tomar deciciones, utiliza un concepto llamado **entropia (de la informacion o de Shannon)**.
 
-![[Arboles 1.png|Untitled]]
+![[Arboles 1.png]]
 
- 
+
 
 Algoritmo basico:
 
@@ -79,7 +79,7 @@ Este algoritmo es una mejora al algoritmo de ID3:
 # Random Forest
 
 > “**Muchos estimadores mediocres, promediados pueden ser muy buenos**”
-> 
+>
 
 **Boostrap Aggregating:** Es una tecnica, o meta-algoritmo que dice lo siguiente:
 
@@ -87,6 +87,6 @@ Dado un conjunto de entrenamiento $D$, de tamaño $n$, la técnica de ***bagging
 
 Ahora, entrenamos un arbol para cada uno de estos conjuntos de datos, creando una matriz de confusion para cada uno de ellos. Realizando metricas (*accuracy*) para cada matriz de confusion.
 
-Luego, a partir de un conjunto de entrenamiento, nos quedamos con el mejor arbol. Repetimos este proceso $k$ veces. 
+Luego, a partir de un conjunto de entrenamiento, nos quedamos con el mejor arbol. Repetimos este proceso $k$ veces.
 
 Luego tendremos un conjunto de arboles (*forest*)*,* donde cada arbol vota. Si la mayoria de arboles devolvieron una misma categoria, nos quedamos con esa categoria.

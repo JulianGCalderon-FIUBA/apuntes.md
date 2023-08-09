@@ -8,9 +8,9 @@ $$
 \boxed{D_f(x(t),y(t)) \cdot\begin{pmatrix}x'(t)\\y'(t)\end{pmatrix} = 0}
 $$
 
-El gradiente de una funcion diferenciable de dos variables es en cada punto ortogonal al vector tangente a la curva de nivel que pasa por ese punto
+El gradiente de una función diferenciable de dos variables es en cada punto ortogonal al vector tangente a la curva de nivel que pasa por ese punto
 
-![[Curvas de nivel y Regla de la cadena 1.png|Curvas%20de%20nivel%20y%20Regla%20de%20la%20cadena%205214b5d2832c45ad92bfe7e4004d320c/Untitled.png]]
+![[Curvas de nivel y Regla de la cadena 1.png]]
 
 ---
 
@@ -26,4 +26,4 @@ $$
 
 El gradiente es perpendicular a las direcciones tangentes a la curva de nivel en ese punto
 
-![[Curvas de nivel y Regla de la cadena 2.png|Curvas%20de%20nivel%20y%20Regla%20de%20la%20cadena%205214b5d2832c45ad92bfe7e4004d320c/Untitled%201.png]]
+![[Curvas de nivel y Regla de la cadena 2.png]]

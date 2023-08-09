@@ -36,21 +36,21 @@ El sistema operativo debe proveer una serie de mecanismos para poder crear nuevo
 En Linux, tenemos tres system calls principales para administrar procesos:
 
 - `fork()`
-    
-    Al llamarse a esta rutina, el sistema operativo crea un proceso completamente nuevo, como copia casi totalmente idéntica del proceso padre. Toda la información del proceso es clonada a otro espacio de memoria. Creando un nuevo proceso totalmente independiente. El PID o ***process identifier*** es lo único que se modifica, ya que estamos tratando con un proceso distinto. 
-    
+
+    Al llamarse a esta rutina, el sistema operativo crea un proceso completamente nuevo, como copia casi totalmente idéntica del proceso padre. Toda la información del proceso es clonada a otro espacio de memoria. Creando un nuevo proceso totalmente independiente. El PID o ***process identifier*** es lo único que se modifica, ya que estamos tratando con un proceso distinto.
+
     Para que el proceso conozca si es el padre o el hijo, la system call tiene dos valores de retorno. El hijo recibe un cero, mientras que el padre recibe el PID del hijo.
-    
+
     Debido a que el scheduler es complejo, nunca podremos definir en que orden se ejecutarán los procesos.
-    
+
 - `wait()`
-    
+
     Esta system call permite frenar la ejecución de un proceso hasta que alguno de sus procesos hijos termine su ejecución, recolectando la información de los procesos zombies y eliminandolos, es recomendable hacer esto siempre para no dejar procesos ***huérfanos***.
-    
+
 - `exec()`
-    
+
     Esta system call ejecuta un nuevo proceso, interrumpiendo totalmente el proceso anterior. Algunos datos se mantienen, como por ejemplo el *PID* y los ***file descriptors*** del proceso original. Carga el nuevo programa en memoria, y se reinicializa el *stack* y el *heap.*
-    
+
 
 La separación de las *system calls* `fork()` *y* `exec()` es muy útil ya que permite modificar un proceso entre el llamado a esas dos funciones. Lo que permite por ejemplo, modificar los file descriptors de un proceso.
 
@@ -66,7 +66,7 @@ Para que no todos pueden terminar cualquier proceso, el concepto de ***user*** d
 - Una vez que el código es cargado en memoria, debe reservarse memoria para el *stack* del proceso (el cual es limitado). Este es utilizado constantemente en todo el código debido a su velocidad. Esta porción es conocida `.data` o `.stack`
 - El sistema operativo también debe poder reservar memoria en el ***heap*** del proceso, memoria dinámica que es administrada únicamente por el sistema operativo. Esta porción es conocida como `.heap`
 
-![[Los procesos 1.png|Untitled]]
+![[Los procesos 1.png]]
 
 - También debe realizar algunas tareas de inicialización, por ejemplo los ***file descriptors*** iniciales del proceso.
 - Una vez finalizada la creación del proceso, el sistema operativo empieza a correr el programa en el punto de entrada `main()`
@@ -79,7 +79,7 @@ Los procesos pueden tener los siguientes estados, los cuales son administrados p
 - ***Ready:*** El proceso está a la espera para ser ejecutado
 - ***Blocked:*** El proceso realizó alguna operación que lo dejo en este estado, debe esperar al sistema operativo (solicitud de entrada/salida, excepcion). El proceso es bloqueado para que otros procesos puedan utilizar el procesador.
 
-![[Los procesos 2.png|Untitled]]
+![[Los procesos 2.png]]
 
 Existen otros estados en los que un proceso puede estar, pero esta es una simplificación. Los estados son: *UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE*
 

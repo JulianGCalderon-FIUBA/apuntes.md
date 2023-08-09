@@ -10,9 +10,9 @@ Geométricamente, el punto fijo se encuentra cuando la función corta la recta $
 
 **Teorema 1.2:** Si $\exists \ 0{<} k {<} 1\ /\  \|f’(x)\| \leq k \ \forall \ x\in[a,b]$, entonces el punto fijo es único.
 
-![[Iteracion en un Punto Fijo 1.png|Representación gráfica de las condiciones del teorema ]]
+![[Iteracion en un Punto Fijo 1.png]]
 
-Representación gráfica de las condiciones del teorema 
+Representación gráfica de las condiciones del teorema
 
 Si la función es siempre creciente o decreciente a razón menor a uno, entonces cortara con el la recta $y=x$ únicamente una vez.
 

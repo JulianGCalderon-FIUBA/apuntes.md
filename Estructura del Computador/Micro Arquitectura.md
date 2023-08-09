@@ -2,7 +2,7 @@ La tarea principal de una computadora es la de ejecutar un algoritmo, para esto 
 
 # Arquitectura Harvard
 
-![[Micro Arquitectura 1.png|Untitled]]
+![[Micro Arquitectura 1.png]]
 
 Este modelo corresponde a la arquitectura de las primeras computadoras, sin embargo tiene un problema. Estas computadoras no son facilmente programables, por lo que no pueden resolver todos los problemas.
 
@@ -10,7 +10,7 @@ Se utiliza para dispositivos automaticos que no requieren programacion. Tiene pe
 
 # Arquitectura von Neumann
 
-![[Micro Arquitectura 2.png|Untitled]]
+![[Micro Arquitectura 2.png]]
 
 En este modelo, se unifica el almacenamiento de datos con las instrucciones, lo que permite cargar facilmente un programa en memoria y ejecutarlo.
 
@@ -30,7 +30,7 @@ De esta forma, todos los dispositivos se comunican con el procesador a traves de
 
 Este sistema de buses permite conectar componente de una computadora, asi como varias computadoras entre si. Los componentes electronicos dentro de un procesador tambien interactuan con el bus.
 
-![[Micro Arquitectura 3.png|Untitled]]
+![[Micro Arquitectura 3.png]]
 
 En este sistema, los dipositivos de entrada y salida estan mapeados en memoria. En caso de no ser asi, se debera usar un bus distinto para comunicarse con ellos.
 
@@ -49,7 +49,7 @@ Hay distintas formas de implementar este ciclo de busqueda, y estas varian en la
 
 La unidad de datos es la parte del procesador que se encarga de realizar las operaciones y guardar los registros. Para realizar esto utiliza tres buses. Se puede realizar con menos buses, pero son soluciones mas lentas, ya que requiere mas ciclos de reloj para guardar los datos a usar en registros correspondientes, para luego ser usados.
 
-![[Micro Arquitectura 4.png|Untitled]]
+![[Micro Arquitectura 4.png]]
 
 - **Bus A:** Esta conectado con la salida de los registros y con la primer entrada de la ALU. Ademas, esta conectado con la linea de direcciones.
 - **Bus B:** Esta conectado con la salida de los registros y con la segunda entrada de la ALU. Ademas, esta conectado con la linea de datos.
@@ -93,7 +93,7 @@ La ALU calcula los flags de cada operación y los carga en el registro **PSR** e
 
 Hay dos formas de implementarla, con logica micro-programada o con logica cableada. El diseño cableado puede ser mas dificil de diseñar y de modificar. El micro-programa se puede grabar mientras que el diseño cableado debe cambiar completamente. Sin embargo, es un método mas rápido. Nos vamos a centrar en diseño micro-programado
 
-![[Micro Arquitectura 5.png|Diagrama completo de la unidad de control.]]
+![[Micro Arquitectura 5.png]]
 
 Diagrama completo de la unidad de control.
 
@@ -102,11 +102,11 @@ Para diseñarlo, se utilizan contadores que permiten indicar en que estado nos e
 - **ROM**. Esta contiene 2048 instrucciones, de 41 bits cada una. Aca esta programada la logica de cada instrucción del sistema
 - **MIR:** Aca se almacenan la instrucciones de la ROM que deben ser ejecutadas
 - **CS-Addres-MUX:** Envia la direccion a ejecutar dependiendo de su entrada de control.
-    
+
     Esta conectado con el CSAT, con los codigos de operacion de la instruccion almacenada en IR, y con la direccion de salto de la MIR.
-    
+
     A partir de una entrada de control proveniente de el CBL, decide que entrada tomar y envia al decodificador.
-    
+
 - **Decodificador:** Permite habilitar unicamente la instruccion deseada de la ROM, para ser copiada en el MIR.
 - **CSAT:** Es el contador de instrucciones, indica cual es la siguiente instruccion en la ROM
 - **CBL:** Esta conectado con los flags y los codigos de condicion y el bit 13 del registro IR. Decide que tipo de salto se debe realizar y lo envia al CS-Address-MUX.
@@ -116,7 +116,7 @@ Como la lectura de memoria puede ser mas lenta, se utiliza el **ACK (Acknowledge
 
 ### Formato de Instrucciones MIR
 
-![[Micro Arquitectura 6.png|Untitled]]
+![[Micro Arquitectura 6.png]]
 
 Cada parte de la MIR tiene un proposito distinto:
 
@@ -142,10 +142,10 @@ Para no repetir el microcodigo en cada instrucciones, se puede utilizar la **nan
 
 ### **Tablas de Operaciones**
 
-![[Micro Arquitectura 7.png|Codigos de Condicion]]
+![[Micro Arquitectura 7.png]]
 
 Codigos de Condicion
 
-![[Micro Arquitectura 8.png|Codigos de la ALU]]
+![[Micro Arquitectura 8.png]]
 
 Codigos de la ALU

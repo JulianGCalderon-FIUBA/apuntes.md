@@ -33,9 +33,9 @@ Si el dipolo se encuentra en un campo eléctrico, se produce un torque $**\tau$*
 
 # ¿Por qué ocurre esto?
 
-El dieléctrico se polariza por acción del campo eléctrico del capacitador. 
+El dieléctrico se polariza por acción del campo eléctrico del capacitador.
 
-![[Dielectricos 1.jpg|dielectrico.jpg]]
+![[Dielectricos 1.jpg]]
 
 Entonces podemos diferenciar dos tipos de cargas
 
@@ -101,7 +101,7 @@ $$
 $$
 
 $$
-E = \varepsilon_r E_0 \qquad\qquad C = \varepsilon_r C_0 
+E = \varepsilon_r E_0 \qquad\qquad C = \varepsilon_r C_0
 $$
 
 La permitividad indica el cambio en el campo eléctrico dentro del dieléctrico, lo que a su vez modifica la capacidad del capacitor.
@@ -119,7 +119,7 @@ Siendo $\varepsilon$ la permitividad eléctrica del material, y $\varepsilon_r$ 
 A partir de la ***relación* constitutiva**, podemos llegar a la siguiente formula.
 
 $$
-P = \varepsilon_0 \cdot(\varepsilon_r - 1) \cdot \vec E \quad\quad\quad \varepsilon_r - 1 = X_E 
+P = \varepsilon_0 \cdot(\varepsilon_r - 1) \cdot \vec E \quad\quad\quad \varepsilon_r - 1 = X_E
 $$
 
 Siendo $X_e$ La susceptibilidad dieléctrica. $(X_E \geq 0)$.

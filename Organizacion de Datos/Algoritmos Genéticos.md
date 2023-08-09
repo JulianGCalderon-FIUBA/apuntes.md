@@ -41,19 +41,19 @@ Existen distintos tipos de métodos de selección:
 Existen distintos métodos para la cruza:
 
 - ***Crossover 1 punto:*** Dividimos un cromosoma en dos, e intercambiamos cada mitad con otro cromosoma
-    
-    ![[Algoritmos Genéticos 1.png|Untitled]]
-    
+
+    ![[Algoritmos Genéticos 1.png]]
+
 - ***Crossover 2 puntos:*** Dividimos el cromosoma en 3
-    
-    ![[Algoritmos Genéticos 2.png|Untitled]]
-    
+
+    ![[Algoritmos Genéticos 2.png]]
+
 - **Crossover Aritmético:** Se aplica alguna operación sobre los cromosomas, como por ejemplo el operador AND
 
-![[Algoritmos Genéticos 3.png|Untitled]]
+![[Algoritmos Genéticos 3.png]]
 
 ## Mutación
 
-La mutación no se debe abusar, debe realizarse con probabilidad muy baja. Consiste en cambiar aleatoriamente un gen. 
+La mutación no se debe abusar, debe realizarse con probabilidad muy baja. Consiste en cambiar aleatoriamente un gen.
 
 Hay distintas alternativas, se pueden intercambiar valores o alterar sus valores de forma directa.

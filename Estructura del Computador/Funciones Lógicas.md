@@ -18,8 +18,8 @@ a & b & f_1 & f_2 & f_3 & f_4 & f_5 & f_6 & f_7 & f_8 & f_9 & f_{10} & f_{11} & 
 \hline
 1 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 & 0 & 0  & 1  & 1  & 0  & 0  & 1  & 1  \\
 \hline
-1 & 1 & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1  & 0  & 1  & 0  & 1  & 0  & 1 \\ 
-\hline 
+1 & 1 & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1  & 0  & 1  & 0  & 1  & 0  & 1 \\
+\hline
 \end{array}
 
 $$
@@ -36,7 +36,7 @@ Algunas de las funciones aca expresadas son conocidas
 
 Cada función lógica tiene infinitas expresiones algebraicas que le corresponden, para eso, vamos a tratar con las expresiones canónicas. Dada la siguiente tabla de verdad, vamos a escribir su expresión algebraica de dos formas distintas.
 
-![[Funciones Lógicas 1.png|Untitled]]
+![[Funciones Lógicas 1.png]]
 
 ## Suma de Minitérminos
 

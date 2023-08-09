@@ -2,7 +2,7 @@ Es un algoritmo de aprendizaje que busca simular la inteligencia humana. Para el
 
 Una neurona simple, tiene una serie de entradas. Estas se multiplican por unos pesos correspondientes, luego se suma y el resultado es pasado a una función de activación, la cual determina un resultado
 
-![[Redes Neuronales 1.png|Untitled]]
+![[Redes Neuronales 1.png]]
 
 # Perceptrón Simple
 
@@ -10,7 +10,7 @@ Su función de activación es un escalón, función simple que vale cero o uno. 
 
 En la primera iteración, se utilizan pesos aleatorios y se calcula el error obtenido. Luego se mueven los pesos en la dirección que se minimiza el error. Se utiliza la función del error
 
-![[Redes Neuronales 2.png|Gráfico de la función escalón]]
+![[Redes Neuronales 2.png]]
 
 Gráfico de la función escalón
 
@@ -28,11 +28,11 @@ El perceptrón en definitiva, crea una línea que corta el plano, esto permite g
 
 Para los problemas que no son linealmente separables, podemos utilizar múltiples capas para generar redes más complejas
 
-![[Redes Neuronales 3.png|Ejemplo de perceptrón multicapa]]
+![[Redes Neuronales 3.png]]
 
 Ejemplo de perceptrón multicapa
 
-![[Redes Neuronales 4.png|Separación del plano de forma compleja]]
+![[Redes Neuronales 4.png]]
 
 Separación del plano de forma compleja
 
@@ -46,11 +46,11 @@ Cuando una neurona gana, actualiza los pesos de todas las neuronas dentro de un 
 
 Estos radios disminuyen hasta que no se realicen cambios. Al final, se generan vecindarios
 
-![[Redes Neuronales 5.png|Untitled]]
+![[Redes Neuronales 5.png]]
 
-![[Redes Neuronales 6.png|Untitled]]
+![[Redes Neuronales 6.png]]
 
-![[Redes Neuronales 7.png|Untitled]]
+![[Redes Neuronales 7.png]]
 
 # Backpropagation
 
@@ -60,7 +60,7 @@ Los nodos, solo se conectan con los nodos siguientes.
 
 Pueden tanto aumentar como disminuir la cantidad de nodos en cada capa.
 
-![[Redes Neuronales 8.png|Untitled]]
+![[Redes Neuronales 8.png]]
 
 La función de activación de este método es la función sigma
 
@@ -92,7 +92,7 @@ Hay distintas funciones de activación dependiendo de nuestro problema:
 - Clasificación de clases excluyentes: Sigmoidea
 - Clasificación de clases simultáneas: Softmax, función exponencial normalizada. Se utiliza como función de activación de la capa de salida en modelos de calcificación, interpretandola como *scoring*.
 
-![[Redes Neuronales 9.png|Untitled]]
+![[Redes Neuronales 9.png]]
 
 # Métodos de Regularización
 

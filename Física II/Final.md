@@ -9,7 +9,7 @@ $$
 
 $$
 \begin{align*}
-&\text{Constante Magnetica}: K_m = \frac{\mu_0}{4\pi} = 10^{-7} N  / A^2 
+&\text{Constante Magnetica}: K_m = \frac{\mu_0}{4\pi} = 10^{-7} N  / A^2
 \\
 &\text{Permmeabilidad Magnetica del Vacio}: \mu_0 = 4\pi \cdot 10^{-7} N/A^2
 \end{align*}
@@ -29,7 +29,7 @@ $$
 \text{Joule}: [J] \\
 \text{Newton}: [N] \\
 \text{Volt}: [V] \\
-\text{Faraday}: [F] 
+\text{Faraday}: [F]
 \end{align*}
 $$
 
@@ -185,7 +185,7 @@ $$
 ### Energía
 
 $$
-U = \frac 12\cdot \frac{Q^2}{C} =\frac 12\cdot C\Delta V^2 = \frac 12 \cdot Q\Delta V 
+U = \frac 12\cdot \frac{Q^2}{C} =\frac 12\cdot C\Delta V^2 = \frac 12 \cdot Q\Delta V
 $$
 
 La energía se mide en $J$, es igual al trabajo necesario para cargar el capacitor.
@@ -305,7 +305,7 @@ I = \frac{dq}{dt}
 $$
 
 $$
-I = q\cdot n\cdot A \cdot \vec v_a  
+I = q\cdot n\cdot A \cdot \vec v_a
 $$
 
 La unidad de la corriente es $A$.
@@ -331,7 +331,7 @@ $$
 $$
 
 $$
-\sigma = \frac{q^2n\tau}{m} 
+\sigma = \frac{q^2n\tau}{m}
 $$
 
 Siendo $\sigma$ la conductividad eléctrica
@@ -554,7 +554,7 @@ La *fem* inducida sobre un circuito esta relacionada con el cambio de flujo de u
 ### Coeficiente de Autoinducción
 
 $$
-L_1 = N_1 \cdot \frac{d\phi_{11}}{di_1} 
+L_1 = N_1 \cdot \frac{d\phi_{11}}{di_1}
 $$
 
 $$
@@ -566,7 +566,7 @@ La unidad de la inductancia es de $H$.
 ### Coeficiente de Inducción Mutuo
 
 $$
-M =N_2 \cdot \frac{d\varphi_{21}}{di_1} 
+M =N_2 \cdot \frac{d\varphi_{21}}{di_1}
 $$
 
 $$
@@ -667,7 +667,7 @@ $$
 
 \\\hline
 
-\textbf{R} & 
+\textbf{R} &
 \frac{v_0}{R} &
 \phi_v &
 0
@@ -785,7 +785,7 @@ Asociada a la potencia almacenada en los capacitores e inductores.
 
 ### Triangulo De Potencias
 
-![[Final 1.png|Untitled]]
+![[Final 1.png]]
 
 $$
 S = v_{ef} \cdot i_{ef}

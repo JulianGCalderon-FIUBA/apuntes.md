@@ -26,7 +26,7 @@ Como el protocolo ***UDP***, el ***header*** de ***TCP*** contiene los puertos d
     - ***PSH*** bit: Indica que el receptor de enviar los datos a la capa de arriba de forma inmediata
     - ***URG*** bit: Indica que hay información en el segmento que es marcada como segmento. La dirección del último ***bit*** de información urgente es indicado en el ***urgent data pointer field***.
 
-![[Connection-Oriented Transport TCP 1.png|Untitled]]
+![[Connection-Oriented Transport TCP 1.png]]
 
 ## Sequence Numbers and Acknowledgment Numbers
 
@@ -79,7 +79,7 @@ Veremos primero una implementación simple del protocolo ***TCP***. En la llegad
 
 ## Doubling the Timeout Interval
 
-En esta modificación, el tiempo del intervalo es duplicado con cada retransmisión, pero vuelve a ser restablecido ante alguno de los otros dos eventos. Los intervalos crecen exponencialmente luego de cada retrasmisión. Esta modificación provee una forma limitada de congestión de control. 
+En esta modificación, el tiempo del intervalo es duplicado con cada retransmisión, pero vuelve a ser restablecido ante alguno de los otros dos eventos. Los intervalos crecen exponencialmente luego de cada retrasmisión. Esta modificación provee una forma limitada de congestión de control.
 
 Usualmente la perdida de información es causada por congestión en la red, por lo que si cada usuario sigue retransmitiendo los paquetes a la misma taza, es posible que empeore la situación.
 
@@ -135,11 +135,11 @@ Cualquiera de los dos procesos puede elegir terminar la conexión, al ocurrir es
 
 Durante la vida de una conexión ***TCP***, los ***hosts*** atraviesan distintos estados:
 
-![[Connection-Oriented Transport TCP 2.png|Client State Diagram]]
+![[Connection-Oriented Transport TCP 2.png]]
 
 Client State Diagram
 
-![[Connection-Oriented Transport TCP 3.png|Server State Diagram]]
+![[Connection-Oriented Transport TCP 3.png]]
 
 Server State Diagram
 

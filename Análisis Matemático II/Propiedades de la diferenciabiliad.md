@@ -2,7 +2,7 @@
 
 **Producto de funcion $C^1$ es $C^1$**
 
-**Cociente de funciones $C^1$ es $C^1$,** (con denominador no nulo) 
+**Cociente de funciones $C^1$ es $C^1$,** (con denominador no nulo)
 
 # Regla de la Cadena
 
@@ -18,7 +18,7 @@ $D_{\vec f}:$ Matriz Jacobiana de $\vec f$
 
 # Arbol de derivacion
 
-![[Propiedades de la diferenciabiliad 1.png|Propiedades%20de%20la%20diferenciabiliad%2034310a57aeff4c339ceb29cfdd2265a5/Untitled.png]]
+![[Propiedades de la diferenciabiliad 1.png]]
 
 $$
 h'_x = g'_u f'_x + g'_vf'_x
