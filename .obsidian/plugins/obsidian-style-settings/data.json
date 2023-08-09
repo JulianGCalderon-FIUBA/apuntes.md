@@ -7,7 +7,9 @@
   "minimal-style@@h6-size": "0.80em",
   "minimal-style@@image-radius": 0,
   "minimal-style@@image-muted": 0.7,
-  "minimal-style@@row-lines": false,
-  "minimal-style@@row-alt": false,
+  "minimal-style@@col-alt": false,
+  "minimal-style@@table-nowrap": false,
+  "minimal-style@@row-hover": false,
+  "minimal-style@@table-numbers": false,
   "minimal-style@@maximize-tables-off": "maximize-tables"
 }
