@@ -30,7 +30,7 @@ El mapa del espacio direccionable representa la signacion dada al espacio de dir
 
 Los dispositivos de entrada y salida tambien se encuentran en el espacio direccionable, el procesador puede cargar y leer datos por esos canales de informacion.
 
-## Arquitectura Arc
+## Arquitectura ARC
 
 Acronimo: **(A Risc Computer)**
 
@@ -57,7 +57,7 @@ Solo hay dos instrucciones que acceden a la memoria principal:
 
 Debido a esto, para operar con numeros debemos cargarlo a un registro, y a partir de ahi hacer las operaciones.
 
-## Instrucciones Arc
+## Instrucciones ARC
 
 ![[Sistema ARC 2.png]]
 

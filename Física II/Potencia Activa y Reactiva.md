@@ -26,7 +26,7 @@ $$
 \langle p(t) \rangle =v_{ef}\ i_{ef}  \cdot \cos(\phi_z) =i_{ef}^2 \cdot R
 $$
 
-# Potencia Activa y Reactiva
+## Potencia Activa Y Reactiva
 
 Tambien podemos reescribir la potencia en función de la potencia activa y la reactiva, siendo:
 
@@ -49,8 +49,7 @@ La potencia reactiva no representa el trabajo realizado, es energía que se cons
 > [!note]
 > Si $X_L > X_C$, el circuito tendrá un comportamiento inductivo, en el caso contrario, tendrá comportamiento capacitivo.
 
-
-## Triangulo de Potencias
+### Triangulo de Potencias
 
 Podemos relacionar entonces las potencias en un triangulo.
 
@@ -66,15 +65,15 @@ Si el circuito es resistivo puro $(\phi_z = 0) \iff Q = 0$, por lo que $S = P$
 
 Si el circuito es reactivo puro, $(\phi_z = \pm\pi/2) \iff P = 0$, por lo que $S = Q$
 
-### Potencia Aparente
+#### Potencia Aparente
 
 Llamamos $S$ entonces, a la potencia aparente. La potencia que siente la fuente que tendrá que entregarle al circuito.
 
-### Factor de Potencia
+#### Factor de Potencia
 
 Llamamos $cos(\phi_z)$ al factor de potencia. Un valor que representa la relación entre la potencia disipada (consumida) y la potencia almacenada.
 
-## Triángulos Equivalentes
+### Triángulos Equivalentes
 
 Si a los lados del triangulo anterior, lo divido por la corriente, encuentro un nuevo triangulo equivalente, con las tensiones del circuito
 

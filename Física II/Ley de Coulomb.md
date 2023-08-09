@@ -20,7 +20,7 @@ $$
 k = \frac 1{4\pi\varepsilon_0}
 $$
 
-Si analizamos cargas puntuales, en el vacío. Coulomb demostró la formula de la fuerza que ejerce una carga sobre otra. 
+Si analizamos cargas puntuales, en el vacío. Coulomb demostró la formula de la fuerza que ejerce una carga sobre otra.
 
 $$
 |F_{12}| = k\cdot \frac{q_1q_2}{d^2} \cdot

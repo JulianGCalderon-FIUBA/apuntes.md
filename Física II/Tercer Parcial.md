@@ -1,4 +1,4 @@
-# Constantes
+## Constantes
 
 $$
 \begin{align*}
@@ -12,7 +12,7 @@ $$
 \end{align*}
 $$
 
-# Materiales Magnéticos
+## Materiales Magnéticos
 
 $$
 \text{Campo de Inducción Magnética}\implies \oint\limits_\lambda \vec B d\vec l = \mu_0 I_\lambda
@@ -40,7 +40,7 @@ $$
 \vec B = \mu_0 \mu_r \cdot H
 $$
 
-# Inducción Electromagnética
+## Inducción Electromagnética
 
 $$
 \mathcal{E} = -\frac{d\phi}{dt}
@@ -78,7 +78,7 @@ $$
 M = k \sqrt{L_1 \cdot L_2}
 $$
 
-# Inductores
+## Inductores
 
 $$
 L = \frac{\mu_0 \mu_r\cdot N_1^2 \cdot S_1}{l_1}
@@ -118,7 +118,7 @@ $$
 \frac{\mathcal E_1}{\mathcal E_2} = \frac{N_1}{N_2\ k}
 $$
 
-# Corriente Alterna
+## Corriente Alterna
 
 $$
 v(t) = v_0 \cdot \cos(wt + \phi_v)
@@ -235,7 +235,7 @@ $$
 I_{ef} = \frac{I_0}{\sqrt 2}
 $$
 
-# Potencia Activa y Reactiva
+## Potencia Activa Y Reactiva
 
 $$
 P(t) = v_0\ i_0 \cdot \cos(wt) \cdot \cos(wt +\phi_{iv})
@@ -253,7 +253,7 @@ $$
 Q = v_{ef}\ i_{ef} \cdot  \sin(\phi_z) = i_{ef}^2 \cdot (X_L - X_C)
 $$
 
-### Triangulo De Potencias
+### Triangulo de Potencias
 
 ![[Tercer Parcial 1.svg]]
 

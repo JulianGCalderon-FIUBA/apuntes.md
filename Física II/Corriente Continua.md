@@ -6,7 +6,7 @@ El campo eléctrico dentro del conductor es nulo solo si se encuentra en *equili
 
 En los casos de corriente continua, el conductor nunca llega al estado de equilibrio, pero si alcanza el estado estacionario. Es decir, la corriente eléctrica es constante.
 
-# Modelo de Drude
+## Modelo de Drude
 
 El modelo de Drude fue desarrollado para explicar las propiedades de transporte de electrones en conductores.
 
@@ -22,20 +22,19 @@ $$
 \text{Movilidad}:\mu = \frac{q\,\tau}{m}
 $$
 
-# Corriente Eléctrica
+## Corriente Eléctrica
 
 Como históricamente, se relaciono la corriente con la cargas positivas, vamos a estudiar el movimiento de las cargas positivas, a diferencia del modelo de Drude.
 
-La corriente eléctrica es el flujo de carga eléctrica que recorre un material. La podemos definir como como la cantidad de cargas que fluye por unidad de tiempo, aunque también la podemos definir en función del numero de portadores de carga por unidad de volumen ($n$) 
+La corriente eléctrica es el flujo de carga eléctrica que recorre un material. La podemos definir como como la cantidad de cargas que fluye por unidad de tiempo, aunque también la podemos definir en función del numero de portadores de carga por unidad de volumen ($n$)
 
 $$
 I = \frac{dq}{dt} \qquad [i] = C/s = A_{\color{gray}\text{(Ampere)}}
 $$
 
-- $vol\ por\ dt := A\cdot v_a\cdot dt$
-- $dq := n\cdot vol\cdot q$
-
-- $n := \frac{Nº \text{ portadores de }q}{\text{unidad de vol.}}$
+- $vol\ por\ dt:= A\cdot v_a\cdot dt$
+- $dq:= n\cdot vol\cdot q$
+- $n:= \frac{Nº \text{ portadores de }q}{\text{unidad de vol.}}$
 
 A partir de estas relaciones, podemos llegar a una ecuación que relacione la corriente eléctrica con la velocidad de arrastre
 
@@ -45,7 +44,7 @@ $$
 
 La corriente tiene un escalar, su valor, y un sentido. Indica el sentido del movimiento de las cargas positivas.
 
-La corriente no tiene porque ser uniforme en todo el conductor, por lo que definimos la $\vec J$ como la densidad volumétrica de corriente. 
+La corriente no tiene porque ser uniforme en todo el conductor, por lo que definimos la $\vec J$ como la densidad volumétrica de corriente.
 
 Esta densidad es volumétrica ya que el conductor es un volumen, pero es por unidad de area (area de un corte transversal del conductor)
 
@@ -59,7 +58,7 @@ $$
 
 **¿Quien Genera el Campo Eléctrico?:** El campo es uniforme a lo largo del conductor, ya que ninguno de sus parámetros cambia a lo largo del tiempo. Además, la dirección del campo eléctrico sigue el contorno del conductor.
 
-# Ecuación de Continuidad
+## Ecuación de Continuidad
 
 Se deduce a partir de una de las ecuaciones de Maxwell
 
@@ -83,7 +82,7 @@ $$
 \vec \nabla \cdot \vec j = 0
 $$
 
-# Ley de Ohm
+## Ley de Ohm
 
 Así como relacionamos la corriente eléctrica con el campo eléctrico, también podemos relacionar la densidad de corriente eléctrica con el campo.
 
@@ -134,8 +133,7 @@ Notamos que a mayor longitud del cilindro o menor área, la cantidad de choques 
 > [!note]
 > Al atravesar una resistencia, el potencial cae si lo hacemos en el sentido de la corriente
 
-
-# Dependencia de Temperatura
+## Dependencia de Temperatura
 
 **A mayor temperatura:**
 

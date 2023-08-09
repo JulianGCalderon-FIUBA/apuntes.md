@@ -1,4 +1,4 @@
-# Constantes
+## Constantes
 
 $$
 \begin{align*}
@@ -18,7 +18,7 @@ $$
 \end{align*}
 $$
 
-# Corriente Continua
+## Corriente Continua
 
 $$
 \vec v_a = \mu\cdot E
@@ -70,7 +70,7 @@ $$
 
 Se define $k$ como la densidad superficial de corriente
 
-# Ley de Ohm
+## Ley de Ohm
 
 $$
 \Delta V = I\ R
@@ -82,9 +82,9 @@ $$
 
 Se define $\eta$ como la resistividad eléctrica del material $[\Omega m]$
 
-La unidad de la resistencia es de $\Omega$. 
+La unidad de la resistencia es de $\Omega$.
 
-# Circuitos Eléctricos
+## Circuitos Eléctricos
 
 $$
 \sum_{i=1}^n I_i = 0\\
@@ -116,7 +116,7 @@ $$
 
 La unidad de la potencia es $W$. Se define como la energía consumida por segundo.
 
-# Campo Magnético
+## Campo Magnético
 
 La unidad del campo magnético es de $T$
 
@@ -130,7 +130,7 @@ $$
 \vec F_\text{Lorentz} = q\vec E +  q\cdot \vec v \times \vec B
 $$
 
-### $\vec v \perp \vec B$
+### $\vec V \perp \vec B$
 
 $$
 R = \frac{m\cdot v}{|q|\cdot\|\vec B\|}
@@ -140,13 +140,13 @@ $$
 w = \frac{v}{R} = \frac{|q|\cdot \|\vec B\|}{m}
 $$
 
-### $\vec v \not\perp \vec B$
+### $\vec V \not\perp \vec B$
 
 $$
 h = v_\parallel\cdot T = \frac{v_\parallel\cdot 2\pi \cdot m}{|q|\cdot \|\vec V\|}
 $$
 
-# Fuerza Magnética
+## Fuerza Magnética
 
 $$
 \vec F_m = I\int_{\vec r_1}^{\vec r_2} \vec{dl} \times \vec B
@@ -172,7 +172,7 @@ $$
 
 Llamamos $\mu$ al momento dipolar magnético. $\vec \mu = I\vec A$
 
-# Ley de Biot y Savalt
+## Ley de Biot Y Savalt
 
 $$
 \vec B = K_m \cdot \frac{q\cdot \vec v \times (\vec r - \vec r')}{\|\vec r - \vec r'\|^3}
@@ -190,7 +190,7 @@ $$
 \vec B = \frac{\mu_0}{4\pi} \iiint\frac{\vec j\cdot  dV \times (\vec r - \vec r')}{\|\vec r - \vec r'\|^3}
 $$
 
-# Ley de Ampere
+## Ley de Ampere
 
 $$
 \text{Forma Integral}:\oint\limits_{\lambda} \vec B \cdot d\vec l = \mu_0 \cdot I_{S(\lambda)}
@@ -204,7 +204,7 @@ $$
 I_{S(\lambda)} =\sum I_{i\ S(\mathfrak{c)}}
 $$
 
-# Campos Conocidos
+## Campos Conocidos
 
 $$
 \vec{B}\text{ Hilo}: \frac{\mu_0\cdot I}{4\pi r} \cdot

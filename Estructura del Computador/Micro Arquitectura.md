@@ -113,7 +113,7 @@ Para diseñarlo, se utilizan contadores que permiten indicar en que estado nos e
 
 Como la lectura de memoria puede ser mas lenta, se utiliza el **ACK (Acknowledge)**, por este canal se envia un 1 una vez que termino la operacion en memoria. Permite indicarle a la unidad de control que puede seguir con la proxima instruccion.
 
-#### Formato de Instrucciones Mir
+#### Formato de Instrucciones MIR
 
 ![[Micro Arquitectura 6.png]]
 

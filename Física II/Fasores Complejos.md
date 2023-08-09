@@ -1,4 +1,4 @@
-# Circuitos Compuestos
+## Circuitos Compuestos
 
 Cuando tenemos circuitos con mas de un componente, vamos a tener que realizar operaciones entre *cosenos* para hallar una expresión para la corriente del circuito.
 
@@ -6,7 +6,6 @@ Vamos a querer hallar los valores instantáneos del circuito: $i(t), v_q(t)$.
 
 $$
 v_q(t) = i(t) R + \frac 1C \int i(t) dt +  L\cdot \frac{di(t)}{dt}
-
 $$
 
 $$
@@ -61,7 +60,7 @@ $$
 \tilde V_q(t) = \tilde I(t)\cdot \mathbb{Z}
 $$
 
-## Pseudo - Ley de Ohm
+### Pseudo - Ley de Ohm
 
 Si desarrollamos los fasores, llegamos a la ***Pseudo - Ley de Ohm***
 
@@ -107,8 +106,7 @@ $$
 > 
 > La amplitud pico es aproximadamente $311\ V$.
 
-
-## Impedancia Inductiva
+### Impedancia Inductiva
 
 Podemos separar la impedancia inductiva en los distintos componentes
 
@@ -125,14 +123,13 @@ De esta forma, podemos aplicar estas definiciones a cualquier circuito alterno, 
 > [!note]
 > Si $X_L > X_C$, $\phi_{iv} < 0$ el circuito tiene un comportamiento inductivo. En el caso contrario, el comportamiento es capacitivo. Si las reactancias son iguales, tiene un comportamiento resistivo.
 
+## Diagramas
 
-# Diagramas
+### Diagrama de Impedancias
 
-## Diagrama de Impedancias
+El diagrama de impedancias grafica las tres impedancias: $\mathbb{Z}_r$, $\mathbb{Z}_i$, $\mathbb{Z}_c$. Dependiendo de hacia donde apunta la impedancia total, determina el tipo de circuito que se trata. Circuito inductivo si la impedancia inductiva esta por encima de la impedancia resistiva.
 
-El diagrama de impedancias grafica las tres impedancias: $\mathbb{Z}_r$, $\mathbb{Z}_i$, $\mathbb{Z}_c$. Dependiendo de hacia donde apunta la impedancia total, determina el tipo de circuito que se trata. Circuito inductivo si la impedancia inductiva esta por encima de la impedancia resistiva. 
-
-## Diagrama Fasorial
+### Diagrama Fasorial
 
 El diagrama fasorial es un diagrama que representa los fasores en un determinado tiempo $t$. Los fasores que se graficaran serán: $\Bbb V_R(t)$, $\Bbb V_L(t)$, $\Bbb V_C(t)$, $\Bbb I(t)$.
 
