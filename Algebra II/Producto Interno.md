@@ -13,7 +13,7 @@ Si $\Bbb V$ es un $\Bbb K$-espacio vectorial, se dice que una función $\langle 
 2. $\langle u, \alpha v + \beta w\rangle = \overline{\alpha}\langle u,v\rangle + \overline{\beta}\langle u,w\rangle \impliedby \forall u,v,w \in \Bbb V$
 3. $\langle0,u\rangle = 0 \impliedby \forall u \in \Bbb V$
 
-### Nociones Del Producto Interno
+### Nociones del Producto Interno
 
 **Norma:** (inducida por el producto interno)
 

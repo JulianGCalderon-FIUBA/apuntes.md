@@ -22,7 +22,7 @@ $$
 
 Si $\lambda$ es raíz de $p$, entonces $y(t) = e^{\lambda t}$ es solución de la ecuación homogénea asociada.
 
-### Base Del Subespacio
+### Base del Subespacio
 
 Si el polinomio característico tiene $n$ raíces reales distintas, entonces $\{e^{\lambda_1x},\,e^{\lambda_2x},\,\cdot,\,e^{\lambda_nx}\}$ es una base del subespacio nulo.
 

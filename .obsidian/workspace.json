@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/The Network Core.md",
+                "file": "Algebra II/Espacios Vectoriales.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/The Network Core.md",
+                "file": "Algebra II/Espacios Vectoriales.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/The Network Core.md",
+                "file": "Algebra II/Espacios Vectoriales.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/The Network Core.md",
+                "file": "Algebra II/Espacios Vectoriales.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/The Network Core.md"
+                "file": "Algebra II/Espacios Vectoriales.md"
               }
             }
           },
@@ -174,12 +174,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "c42caadea4e53a08",
   "lastOpenFiles": [
-    "Estructura del Computador/Circuitos.md",
-    "Algebra II/Algebra II.md",
-    "Algebra II/Espacios Vectoriales.md",
+    "Algebra II/Ejemplos de T L.md",
+    "Algebra II/EDOs.md",
+    "Algebra II/Producto Interno.md",
+    "Algebra II/Descomposición en Valores Singulares.md",
+    "Algebra II/Coordenadas.md",
     "Algebra II/Autovalores y Autovectores.md",
+    "Algebra II/Algebra II.md",
+    "Algebra II/Resumen - Álgebra II.md",
+    "Algebra II/Ortogonalidad.md",
+    "Algebra II/Operaciones entre Subespacios.md",
+    "Algebra II/Método de Gram-Schmidt.md",
+    "Algebra II/Matrices Normales.md",
+    "Algebra II/Formas Cuadráticas.md",
+    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/The Network Core.md",
+    "Estructura del Computador/Circuitos.md",
+    "Algebra II/Espacios Vectoriales.md",
     "Física II/Trabajo de Campos.md",
     "Física II/Tercer Parcial.md",
     "Física II/Referencia del Potencial.md",
@@ -190,18 +202,6 @@
     "Introducción a Sistemas Distribuidos/Breaking WEP.md",
     "Física II/Campo Magnético.md",
     "Física II/Segundo Parcial.md",
-    "Física II/Ley de Faraday.md",
-    "Física II/Ley de Coulomb.md",
-    "Física II/Ley de Biot y Savalt.md",
-    "Física II/Ley de Ampere.md",
-    "Física II/Inductores.md",
-    "Física II/Fuerza Magnética.md",
-    "Física II/Física II.md",
-    "Física II/Final.md",
-    "Física II/Fasores Complejos.md",
-    "Física II/Ecuaciones de Maxwell.md",
-    "Física II/Dielectricos.md",
-    "Física II/Corriente Continua.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",

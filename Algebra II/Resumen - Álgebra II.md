@@ -92,7 +92,7 @@ El producto interno es una operación que cumple con las siguientes propiedades
 - $\langle u,u\rangle > 0 \iff u \in \Bbb V \neq 0_V$
 - $\langle u,u\rangle = 0 \iff u \in \Bbb V = 0_V$
 
-### Nociones Del Pi
+### Nociones del PI
 
 **Norma:** (inducida por el producto interno)
 
@@ -134,7 +134,7 @@ $$
 A(\triangle) = \sqrt{\|e_1\|^2\|e_2\|^2 - \langle e_1, e_2\rangle^2}
 $$
 
-### Base Del Pi
+### Base del PI
 
 Sea $B = \{v_1,...,v_n\}$ Entonces podemos definir el producto interno en todo el espacio a partir de los generadores de la base de la siguiente manera.
 
@@ -263,7 +263,7 @@ $$
 w_n = v_n - \Bigg(\frac{\langle v_n, w_1\rangle}{\|w_1\|^2} w_1 + \frac{\langle v_n, w_2\rangle}{\|w_2\|^2} w_2 + \cdots +\frac{\langle v_n, w_{n-1}\rangle}{\|w_{n-1}\|^2} w_{n-1}\Bigg)
 $$
 
-## Autovalores Y Autovectores
+## Autovalores y Autovectores
 
 Algunas matrices, pueden ser escritas de la forma $A$ = $PDP^{-1}$, Siendo $D$ una matriz diagonal. Esto permite elevar matrices de forma muy sencilla.
 
