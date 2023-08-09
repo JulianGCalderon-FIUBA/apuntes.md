@@ -167,12 +167,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 332.5,
-    "collapsed": true
+    "width": 332.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,8 +184,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "54c1fa07ae0cf29e",
+  "active": "a38d35fa6246a4b7",
   "lastOpenFiles": [
+    "Organizacion de Datos/Arboles.md",
+    "Organizacion de Datos/Algoritmos Genéticos.md",
+    "Matemática Discreta/Algoritmos.md",
     "Algebra II/EDOs.md",
     "Algebra II/Descomposición en Valores Singulares.md",
     "Algebra II/Coordenadas.md",
@@ -204,15 +206,12 @@
     "Organizacion de Datos/AdaBoost.md",
     "Introducción a Sistemas Distribuidos/Clases Practicas.md",
     "Organizacion de Datos/Análisis de Sentimientos.md",
-    "Organizacion de Datos/Arboles.md",
-    "Organizacion de Datos/Algoritmos Genéticos.md",
     "Matemática Discreta/Álgebra de Boole.md",
     "Modelos y Optimización I/Análisis de Sensibilidad.md",
     "Sistemas Operativos/Archivos y Directorios.md",
     "Algebra II/Ortogonalidad.md",
     "Fisica I/Ondas Mecánicas.md",
     "Fisica I/Movimiento armónico simple.md",
-    "Organizacion de Datos/Ciencia de Datos.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",

@@ -50,7 +50,7 @@ Existen distintos métodos para la cruza:
 
 - **Crossover Aritmético:** Se aplica alguna operación sobre los cromosomas, como por ejemplo el operador AND
 
-![[Algoritmos Genéticos 3.png]]
+	![[Algoritmos Genéticos 3.png]]
 
 ## Mutación
 
