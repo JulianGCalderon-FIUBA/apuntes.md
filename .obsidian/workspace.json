@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática Discreta/Caminos y Distancias.md",
+                "file": "Matemática Discreta/Clasificaciones.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática Discreta/Caminos y Distancias.md",
+                "file": "Matemática Discreta/Clasificaciones.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática Discreta/Caminos y Distancias.md",
+                "file": "Matemática Discreta/Clasificaciones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática Discreta/Caminos y Distancias.md",
+                "file": "Matemática Discreta/Clasificaciones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática Discreta/Caminos y Distancias.md"
+                "file": "Matemática Discreta/Clasificaciones.md"
               }
             }
           },
@@ -176,8 +176,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c42caadea4e53a08",
+  "active": "986299c13b4bedd2",
   "lastOpenFiles": [
+    "Matemática Discreta/Operaciones entre Grafos.md",
+    "Matemática Discreta/Clasificaciones.md",
+    "Matemática Discreta/Caminos y Distancias.md",
     "Matemática Discreta/Algoritmos.md",
     "Matemática Discreta/Álgebra de Conjuntos.md",
     "Matemática Discreta/Álgebra de Boole.md",
@@ -201,9 +204,6 @@
     "Probabilidad y Estadistica/Probabilidad.md",
     "Probabilidad y Estadistica/Modelos Parametricos.md",
     "Probabilidad y Estadistica/Mezcla de Variables Aleatorias.md",
-    "Probabilidad y Estadistica/Intervalos de Confianza.md",
-    "Probabilidad y Estadistica/Propiedades de V A.md",
-    "Probabilidad y Estadistica/Inferencia Estadistica.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",

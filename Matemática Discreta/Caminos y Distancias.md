@@ -33,10 +33,12 @@ La componente conexa maximal de un vértice es el conjunto de todos los vertices
 Si un grafo es conexo, la distancia entre cualquier par de vertices es de a lo sumo $n - 1$, ya que si es mayor, entonces se estaría repitiendo algún vértice (no seria el camino mínimo). Luego, podemos verificar que un grafo es conexo a partir de $A_G$.
 
 $$
+\begin{align}
 G \text{ es conexo} \iff \\
-\forall v_i, v_j \in V(G),\forall i,j,\exists k \in N_0, k \in [0, n-1]: A_G^k(i,j) > 0 \iff
+\forall v_i, v_j \in V(G),\forall i,j,\exists k \in N_0, k \in [0, n-1]: A_G^k(i,j) > 0 \iff \\
 \sum_{k=0}^{n-1} A_G^k(i,j) > 0 \iff \\
 (I_n + A_G)^{n-1}(i,j) > 0
+\end{align}
 $$
 
 ### Cortes
