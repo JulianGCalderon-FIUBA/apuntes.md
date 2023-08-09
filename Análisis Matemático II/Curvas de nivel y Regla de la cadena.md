@@ -1,7 +1,9 @@
 Sea $f: R^2\to R$ diferenciable y $X(x(t), y(t))$ una curva de nivel $k$ de $f$
 
 $$
+\begin{gathered}
 f(x(t), y(t)) = k\\\underbrace{D_{f\circ X} = 0}_{\text{Buscamos el gradiente de la composicion}}
+\end{gathered}
 $$
 
 $$
@@ -17,7 +19,9 @@ El gradiente de una función diferenciable de dos variables es en cada punto ort
 Sea $f(x,y,z)$ diferenciable, $C_k$ una superficie de nivel. Si tomamos una de las infinitas curvas de nivel $C:(x(t), y(t), z(t))$a
 
 $$
+\begin{gathered}
 f\circ C(t) = k\\\underbrace{D_{f\circ C} = 0}_{\text{Buscamos el gradiente de la composicion}}
+\end{gathered}
 $$
 
 $$

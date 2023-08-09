@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Integrales de Superficie.md",
+                "file": "Matemática Discreta/Clasificaciones.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Integrales de Superficie.md",
+                "file": "Matemática Discreta/Clasificaciones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Integrales de Superficie.md",
+                "file": "Matemática Discreta/Clasificaciones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Integrales de Superficie.md"
+                "file": "Matemática Discreta/Clasificaciones.md"
               }
             }
           },
@@ -178,6 +178,11 @@
   },
   "active": "5ab12f535df04990",
   "lastOpenFiles": [
+    "Algebra II/Método de Gram-Schmidt.md",
+    "Algebra II/Descomposición en Valores Singulares.md",
+    "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
+    "Análisis Matemático II/Curvas y superficies.md",
+    "Análisis Matemático II/Integrales de Superficie.md",
     "Análisis Matemático II/Integrales de Linea.md",
     "Análisis Matemático II/Limites.md",
     "Análisis Matemático II/Teoremas Integrales.md",
@@ -199,11 +204,6 @@
     "Análisis Numérico/Ajuste.md",
     "Física II/Final.md",
     "Física II/Segundo Parcial.md",
-    "Física II/Tercer Parcial.md",
-    "Física II/Primer Parcial.md",
-    "Matemática Discreta/Operaciones entre Grafos.md",
-    "Modelos y Optimización I/Planteo Dual.md",
-    "Modelos y Optimización I/Problemas Combinatorios.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",

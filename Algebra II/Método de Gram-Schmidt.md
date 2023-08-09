@@ -3,9 +3,11 @@ Es un método que nos permite encontrar una base ortogonal de cualquier subespac
 Si tenemos una base $B = \{v_1, v_2, \cdots, v_n\}$, podemos construir una nueva base $B' = \{w_1, w_2, \cdots, w_n\}$, siendo $w_1, w_2, \cdots, w_n$ vectores ortogonales entre si. De forma tal que
 
 $$
+\begin{gathered}
 S_1 = gen(v_1) = gen(w_1)\\S_2 = gen(v_1, v_2) = gen(w_1, w_2)\\
 \vdots = \vdots\\
 S_n = gen(v_1, v_2, \cdots, v_n) = gen(w_1, w_2, \cdots, w_n)
+\end{gathered}
 $$
 
 Definimos entonces el primer vector de la base original

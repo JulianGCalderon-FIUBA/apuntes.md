@@ -25,7 +25,9 @@ Se dice que es **regular a trozos** si deja de ser regular en un numero finito d
 El plano perpendicular a la tangente de la curva y que contiene el punto de la misma
 
 $$
+\begin{gathered}
 \Pi: \Big[(x,y,z) -\vec f(x_0)\Big]\cdot \vec f'(x_0) = 0 \\\vec f'(x_0) = N_\pi\quad\vec f(x_0) = P
+\end{gathered}
 $$
 
 ## Superficies

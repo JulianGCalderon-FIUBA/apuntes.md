@@ -71,7 +71,7 @@ Un árbol generador de un grafo $G$ es un subgrafo que contiene todos los vertic
 > [!proof]- Demostración de conexo minimal:
 > Sea $G$ un árbol, y se supone falso que es un conexo minimal. Luego, existe una arista $e$ que al retirarla, el grafo sigue siendo conexo. Si el grafo es acíclico, entonces existe un único camino entre dos vertices, ya que si no lo fuese existiría un ciclo. Luego, al eliminar la arista $e$, se desconecta los vertices en los que incide y separa el grafo, volviéndolo disconexo. Luego, el grafo era conexo minimal.
 
-> [!proof] Demostración de acíclico
+> [!proof]- Demostración de acíclico
 > Sea $G$ un árbol, se supone falso que es aciclico. Luego, existe una arista $e$ perteneciente al ciclo tal que al eliminarla el grafo continua siendo conexo, pero como un grafo es conexo minimal, entonces esto es un absurdo. Todo árbol es acíclico.
 
 ## Inmersión
@@ -102,8 +102,10 @@ $$
 > Sea $T$ un grafo generador de $G$, entonces:
 > 
 > $$
+> \begin{gathered}
 > n(T) - m(T) + f(T) = 12\\
 > n(G) - (n(G)-1) + 1 = 12
+> \end{gathered}
 > $$
 > 
 > Se añade a ese árbol generador una a una las aristas hasta completar $G$, por cada arista agregada, crearemos un circulo y entonces, crearemos una cara
@@ -130,9 +132,9 @@ A partir de este criterio, podemos demostrar por fuerza bruta que $K_5$ es el pr
 
 > [!proof]- Demostración
 >
-
+>
 Por inducción podemos probar que para todos los grafos de orden mayor a > dos, se cumple que:
-
+>
 > $$
 > d(f_k) \geq 3, \forall k \in 0,\cdots, f
 > $$

@@ -82,7 +82,9 @@ $$
 Siendo $U$, $V$, matrices unitarias e $\Bbb C^{m \times m}$ y $\Bbb C^{n \times n}$ respectivamente.
 
 $$
+\begin{gathered}
 U = \Big[|u_1|, \ |u_2|,\ \cdots ,\ |u_k|\Big] \\u_i = \frac{Av_i}{\sigma_i}
+\end{gathered}
 $$
 
 $$
