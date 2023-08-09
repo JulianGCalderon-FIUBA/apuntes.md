@@ -1,0 +1,4 @@
+td, th {
+  border-color:white !important;
+  border-collapse: collapse;
+}
