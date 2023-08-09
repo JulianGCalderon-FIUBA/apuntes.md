@@ -40,7 +40,8 @@ $$
 Es una heurística de mejora, parte de una solución factible inicial. Esta puede ser la trivial, dada por el orden alfabético de las ciudades. Opera bajo una propiedad importante de los grafos:
 
 > Si un ciclo *hamiltoniano* se cruza a si mismo, puede ser fácilmente mejorado eliminando las aristas que se cruzan y volviendo a unir los caminos con aristas que no se unan.
-> 
+>
+
 1. Se eliminan $k$ aristas del grafo
 2. Se reúnen los caminos con $k$ aristas nuevas
 3. Si el costo del nuevo camino es mejor al anterior, entonces se actualiza la solución optimo
@@ -49,11 +50,11 @@ Estos algoritmos no prueban todos los posibles cambios, sino que buscan alternat
 
 ## Heurística de Lin y Kerninghan
 
-Es una variación de la heurística de $k$-intercambios. Busca decidir en cada momento, el valor de $k$ apropiado. Al igual que la la heurística de los intercambios, es una heurística muy costosa, por lo que no se suele realizar de forma completa. 
+Es una variación de la heurística de $k$-intercambios. Busca decidir en cada momento, el valor de $k$ apropiado. Al igual que la la heurística de los intercambios, es una heurística muy costosa, por lo que no se suele realizar de forma completa.
 
 1. Se define marca como verdadero
 2. Mientras que marca sea verdadero
-    1. Se define marca como falso y se etiquetan todos los nodos como no explorados
-    2. Mientras que queden nodos sin explorar:
-        1. Seleccionar un nodo $i$ no explorado y caminar todos los movimientos (**2-opt, inserción)** que incluyan la arista $i$ y a su sucesor. Luego, se marca como explorado
-        2. Si alguno de los movimientos reduce la longitud del tour, establecer como solución actual y definir marca como uno.
+	1. Se define marca como falso y se etiquetan todos los nodos como no explorados
+	2. Mientras que queden nodos sin explorar:
+		1. Seleccionar un nodo $i$ no explorado y caminar todos los movimientos (**2-opt, inserción)** que incluyan la arista $i$ y a su sucesor. Luego, se marca como explorado
+		2. Si alguno de los movimientos reduce la longitud del tour, establecer como solución actual y definir marca como uno.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md",
+                "file": "Modelos y Optimización I/Método Simplex.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md",
+                "file": "Modelos y Optimización I/Método Simplex.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md",
+                "file": "Modelos y Optimización I/Método Simplex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md",
+                "file": "Modelos y Optimización I/Método Simplex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md"
+                "file": "Modelos y Optimización I/Método Simplex.md"
               }
             }
           },
@@ -178,6 +178,8 @@
   },
   "active": "c42caadea4e53a08",
   "lastOpenFiles": [
+    "Modelos y Optimización I/Introducción.md",
+    "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md",
     "Modelos y Optimización I/Heurísticas para el Problema de la Mochila.md",
     "Modelos y Optimización I/Heurísticas para Coloreo de Grafos.md",
     "Modelos y Optimización I/Heurísticas.md",
@@ -202,8 +204,6 @@
     "Introducción a Sistemas Distribuidos/Transport Layer/Multiplexing and Demultiplexing.md",
     "Introducción a Sistemas Distribuidos/Transport Layer/Introduction and Transport-Layer Services.md",
     "Introducción a Sistemas Distribuidos/Transport Layer/Connectionless Transport UDP.md",
-    "Introducción a Sistemas Distribuidos/Transport Layer/Connection-Oriented Transport TCP.md",
-    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/What’s Inside a Router.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",
