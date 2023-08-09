@@ -218,19 +218,15 @@ El método simplex elige comenzar por el vértice en el cual las variables reale
 > 
 > Entonces, un punto extremo sera $X = (0, 0, 600, 600, 801)$ debido a que los vectores asociados a las componentes positivas forman la base canonica.
 
-***Tabla Inicial***
-
-	Desarrollamos la tabla del vértice inicial para el problema dado.
-
-	| $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
-
-	| --- | --- | --- | --- | --- | --- | --- | --- |
-
-	| 0 | $x_3$ | 600 | 2 | 2 | 1 | 0 | 0 |
-
-	| 0 | $x_4$ | 600 | 0 | 4 | 0 | 1 | 0 |
-
-	| 0 | $x_5$ | 801 | 2 | 4 | 0 | 0 | 1 |
+> [!example]- Tabla Inicial
+> 
+> Desarrollamos la tabla del vértice inicial para el problema dado.
+> 
+> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
+> | --- | --- | --- | --- | --- | --- | --- | --- |
+> | 0 | $x_3$ | 600 | 2 | 2 | 1 | 0 | 0 |
+> | 0 | $x_4$ | 600 | 0 | 4 | 0 | 1 | 0 |
+> | 0 | $x_5$ | 801 | 2 | 4 | 0 | 0 | 1 |
 
 ### ¿Como sabemos si el vértice hallado es óptimo?
 
@@ -238,19 +234,14 @@ Siendo $A$ la matriz de la tabla, se define $A_{ij}$ como la reducción de la va
 
 Debemos calcular, para cada columna $A_j$, el valor de $z_j - c_j$, siendo $z_j = C \times A_j$. Este sera el desmejoro unidad total si se introduce la variable $x_j$ a la base. Para cada tabla, se calcula el próximo funcional como $Z_{p+1} = Z_p - \theta_{\min}(z_j - c_j)$
 
-- ***Calculo de*** $z_j - c_j$
-
-	| $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
-
-	| --- | --- | --- | --- | --- | --- | --- | --- |
-
-	| $0$ | $x_3$ | $600$ | $2$ | $2$ | $1$ | $0$ | $0$ |
-
-	| $0$ | $x_4$ | $600$ | $0$ | $4$ | $0$ | $1$ | $0$ |
-
-	| $0$ | $x_5$ | $801$ | $2$ | $4$ | $0$ | $0$ | $1$ |
-
-	| | | $Z = 0$ | $-8$ | $-10$ | $0$ | $0$ | $0$ |
+> [!example]- Calculo de $z_j - c_j$
+> 
+> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
+> | --- | --- | --- | --- | --- | --- | --- | --- |
+> | $0$ | $x_3$ | $600$ | $2$ | $2$ | $1$ | $0$ | $0$ |
+> | $0$ | $x_4$ | $600$ | $0$ | $4$ | $0$ | $1$ | $0$ |
+> | $0$ | $x_5$ | $801$ | $2$ | $4$ | $0$ | $0$ | $1$ |
+> | | | $Z = 0$ | $-8$ | $-10$ | $0$ | $0$ | $0$ |
 
 #### Teorema A
 
@@ -272,58 +263,45 @@ Para determinar que vector sale de la base, debemos calcular el coeficiente $\th
 
 Tendremos que elegir el menor de los tres cocientes (se toman los casos invalidos como infinito), ya que elegir uno mayor causará que las variables que tenían cocientes menores tomen valores negativos.
 
-- **Calculo de $\theta$**
-
-	Para este ejemplo, se ingresara el vector $A_1$
-
-	| $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ | $\theta$ |
-
-	| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-
-	| $0$ | $x_3$ | $600$ | $2$ | $2$ | $1$ | $0$ | $0$ | $300$ |
-
-	| $0$ | $x_4$ | $600$ | $0$ | $4$ | $0$ | $1$ | $0$ | - |
-
-	| $0$ | $x_5$ | $801$ | $2$ | $4$ | $0$ | $0$ | $1$ | $400.5$ |
-
-	| | | $Z = 0$ | $-8$ | $-10$ | $0$ | $0$ | $0$ | |
+> [!example]- Calculo de $\theta$
+> 
+> Para este ejemplo, se ingresara el vector $A_1$
+> 
+> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ | $\theta$ |
+> | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+> | $0$ | $x_3$ | $600$ | $2$ | $2$ | $1$ | $0$ | $0$ | $300$ |
+> | $0$ | $x_4$ | $600$ | $0$ | $4$ | $0$ | $1$ | $0$ | - |
+> | $0$ | $x_5$ | $801$ | $2$ | $4$ | $0$ | $0$ | $1$ | $400.5$ |
+> | | | $Z = 0$ | $-8$ | $-10$ | $0$ | $0$ | $0$ | |
 
 ### ¿Como construimos la siguiente tabla?
 
 Inicialmente, planteamos la tabla con los valores ya conocidos. Los coeficientes y las variables a tomar valor. Ademas, las columnas de las variables de la base deben tener la base canónica. El vector entrante deberá ser reemplazado por el vector saliente.
 
-- **Planteo Inicial**
-
-	Quitamos la variable $x_3$ y entramos la variable $x_1$:
-
-	| $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
-
-	| --- | --- | --- | --- | --- | --- | --- | --- |
-
-	| $8$ | $x_1$ | | $1$ | | | $0$ | $0$ |
-
-	| $0$ | $x_4$ | | $0$ | | | $1$ | $0$ |
-
-	| $0$ | $x_5$ | | $0$ | | | $0$ | $1$ |
+> [!example]- Planteo Inicial
+> Quitamos la variable $x_3$ y entramos la variable $x_1$:
+> 
+> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
+> | --- | --- | --- | --- | --- | --- | --- | --- |
+> | $8$ | $x_1$ | | $1$ | | | $0$ | $0$ |
+> | $0$ | $x_4$ | | $0$ | | | $1$ | $0$ |
+> | $0$ | $x_5$ | | $0$ | | | $0$ | $1$ |
 
 En definitivamente, estaremos realizando un cambio de base para que los vectores canónicos le correspondan a los elementos que estarán en la base.
 
 Para calcular el resto de valores, utilizamos la técnica del pivote. Se llama pivote de una tabla al elemento que está en la intersección de la columna de la variable que entra y la fila de la variable que sale. El pivote lo tomaremos de la tabla anterior.
 
 1. Dividimos todos los elementos de la fila de la variable que ingresa por el valor del pivote
-	- ***División*** ***por Pivote***
 
-		Debido a que ingresa la variable $x_1$ y sale la variable $x_3$, el valor del pivote será de: $2$.
-
-		| $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
-
-		| --- | --- | --- | --- | --- | --- | --- | --- |
-
-		| $8$ | $x_1$ | $300$ | $1$ | $1$ | $0.5$ | $0$ | $0$ |
-
-		| $0$ | $x_4$ | | $0$ | | | | |
-
-		| $0$ | $x_5$ | | $0$ | | | | |
+	> [!example]- División por Pivote
+	> 
+	> Debido a que ingresa la variable $x_1$ y sale la variable $x_3$, el valor del pivote será de: $2$.
+	> 
+	> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
+	> | --- | --- | --- | --- | --- | --- | --- | --- |
+	> | $8$ | $x_1$ | $300$ | $1$ | $1$ | $0.5$ | $0$ | $0$ |
+	> | $0$ | $x_4$ | | $0$ | | | | |
+	> | $0$ | $x_5$ | | $0$ | | | | |
 
 2. Para cada valor restante, se forma un cuadrilátero con las esquinas en el pivote y el valor anterior de la posición que queremos calcular. El nuevo valor se calculara como, la resta entre el valor anterior de la posición que queremos calcular, y el producto de las diagonales del rectángulo dividido por el pivote.
 
@@ -331,49 +309,36 @@ Para calcular el resto de valores, utilizamos la técnica del pivote. Se llama p
     \text{Valor Nuevo} = \text{Valor Anterior} - \frac{\text{Producto de las Diagonales}}{\text{Pivote}}
     $$
 
-	- ***Regla del Cuadrilátero***
-
-		Teniendo la tabla anterior, resaltamos los elementos:
-
-		- ***Rojo: Valor Pivote**
-		- ***Verde: Valor Anterior**
-		- ***Azul: Diagonales**
-
-		| $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
-
-		| --- | --- | --- | --- | --- | --- | --- | --- |
-
-		| $0$ | $x_3$ | $\color{blue}{600}$ | $\color{red} 2$ | $2$ | $1$ | $0$ | $0$ |
-
-		| $0$ | $x_4$ | $\color{green}{600}$ | $\color{blue}0$ | $4$ | $0$ | $1$ | $0$ |
-
-		| $0$ | $x_5$ | $801$ | $2$ | $4$ | $0$ | $0$ | $1$ |
-
-		| | | $Z = 0$ | $-8$ | $-10$ | $0$ | $0$ | $0$ |
-
-		Luego, calculamos en la nueva tabla el valor, como $600 - (0\cdot600)/2 = 600$
-
-		| $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
-
-		| --- | --- | --- | --- | --- | --- | --- | --- |
-
-		| $8$ | $x_1$ | $300$ | $1$ | $1$ | $0.5$ | $0$ | $0$ |
-
-		| $0$ | $x_4$ | $\color{green}{600}$ | $0$ | | | $1$ | $0$ |
-
-		| $0$ | $x_5$ | | $0$ | | | $0$ | $1$ |
-
-		Repetimos esta lógica para el resto de elementos de la tabla
-
-		| $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
-
-		| --- | --- | --- | --- | --- | --- | --- | --- |
-
-		| $8$ | $x_1$ | $600$ | $1$ | $1$ | $0.5$ | $0$ | $0$ |
-
-		| $0$ | $x_4$ | $600$ | $0$ | $4$ | $0$ | $1$ | $0$ |
-
-		| $0$ | $x_5$ | $200$ | $0$ | $2$ | $-1$ | $0$ | $1$ |
+> [!example]- Regla del Cuadrilátero
+> 
+> Teniendo la tabla anterior, resaltamos los elementos:
+> 
+> - ***Rojo: Valor Pivote**
+> - ***Verde: Valor Anterior**
+> - ***Azul: Diagonales**
+> 
+> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
+> | --- | --- | --- | --- | --- | --- | --- | --- |
+> | $0$ | $x_3$ | $\color{blue}{600}$ | $\color{red} 2$ | $2$ | $1$ | $0$ | $0$ |
+> | $0$ | $x_4$ | $\color{green}{600}$ | $\color{blue}0$ | $4$ | $0$ | $1$ | $0$ |
+> | $0$ | $x_5$ | $801$ | $2$ | $4$ | $0$ | $0$ | $1$ |
+> | | | $Z = 0$ | $-8$ | $-10$ | $0$ | $0$ | $0$ |
+> 
+> Luego, calculamos en la nueva tabla el valor, como $600 - (0\cdot600)/2 = 600$
+> 
+> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
+> | --- | --- | --- | --- | --- | --- | --- | --- |
+> | $8$ | $x_1$ | $300$ | $1$ | $1$ | $0.5$ | $0$ | $0$ |
+> | $0$ | $x_4$ | $\color{green}{600}$ | $0$ | | | $1$ | $0$ |
+> | $0$ | $x_5$ | | $0$ | | | $0$ | $1$ |
+> 
+> Repetimos esta lógica para el resto de elementos de la tabla
+> 
+> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
+> | --- | --- | --- | --- | --- | --- | --- | --- |
+> | $8$ | $x_1$ | $600$ | $1$ | $1$ | $0.5$ | $0$ | $0$ |
+> | $0$ | $x_4$ | $600$ | $0$ | $4$ | $0$ | $1$ | $0$ |
+> | $0$ | $x_5$ | $200$ | $0$ | $2$ | $-1$ | $0$ | $1$ |
 
 ### Finalización
 
