@@ -216,7 +216,7 @@ El método simplex elige comenzar por el vértice en el cual las variables reale
 > B
 > $$
 > 
-> Entonces, un punto extremo sera $X = (0, 0, 600, 600, 801)$ debido a que los vectores asociados a las componentes positivas forman la base canonica.
+> Entonces, un punto extremo sera $X = (0, 0, 600, 600, 801)$ debido a que los vectores asociados a las componentes positivas forman la base canónica.
 
 > [!example]- Tabla Inicial
 > 
@@ -235,6 +235,7 @@ Siendo $A$ la matriz de la tabla, se define $A_{ij}$ como la reducción de la va
 Debemos calcular, para cada columna $A_j$, el valor de $z_j - c_j$, siendo $z_j = C \times A_j$. Este sera el desmejoro unidad total si se introduce la variable $x_j$ a la base. Para cada tabla, se calcula el próximo funcional como $Z_{p+1} = Z_p - \theta_{\min}(z_j - c_j)$
 
 > [!example]- Calculo de $z_j - c_j$
+> Calculamos para cada columna:
 > 
 > | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
 > | --- | --- | --- | --- | --- | --- | --- | --- |
