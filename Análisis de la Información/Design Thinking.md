@@ -20,7 +20,7 @@ Ambas etapas tienen una etapa de divergencia en la que se proponen múltiples op
 
 Esta metodología se mezcla muy bien con las metodologías ágiles debido a su naturaleza iterativa e incremental
 
-## Métodos Y Herramientas
+## Métodos y Herramientas
 
 Las técnicas que se utilizan en este método son varias:
 
