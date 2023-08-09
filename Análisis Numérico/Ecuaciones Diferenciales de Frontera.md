@@ -1,4 +1,4 @@
-# Definición
+## Definición
 
 Si tenemos un problema de ecuación diferencial con valores en la frontera de siguiente forma, podemos encontrar una aproximación para los valores de $y$.
 
@@ -12,7 +12,7 @@ $$
 
 A diferencia que los problemas de valores iniciales de segundo orden, este problema no requiere secribir la ecuación diferencial como un sistema de ecuaciónes diferenciales de primer orden.
 
-# Aproximación por Diferencias Finitas
+## Aproximación por Diferencias Finitas
 
 Definimos $h = (b - a)/n$, donde $x_i = a + ih, \ \forall i = 0,1, \cdots, n$
 

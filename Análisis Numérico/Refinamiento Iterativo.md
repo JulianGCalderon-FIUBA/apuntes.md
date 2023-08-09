@@ -5,9 +5,9 @@ Sea $\widetilde x$ una aproximacion de la solución $x$ del sistema $Ax = b$, co
 1. $\|x - \widetilde x\| \leq \|r\|\|A^{-1}\|$
 2. $\frac{\|x - \widetilde x\|}{\|x\|} \leq \|A\| \|A^{-1}\|\frac{\|r\|}{\|b\|}$
 
-# Numero de Condicion $K$
+## Numero de Condicion $K$
 
-Llamamos $K(A)$ al numero de condicion de la matriz $A$, se puede calcular como  $K(A) =\|A\|\|A^{-1}\|$. El numero de condicion de una matriz es siempre mayor a $1$.
+Llamamos $K(A)$ al numero de condicion de la matriz $A$, se puede calcular como $K(A) =\|A\|\|A^{-1}\|$. El numero de condicion de una matriz es siempre mayor a $1$.
 
 Se dice que una matriz esta mal condicionada, si su numero de condicion es significativamente mayor que $1$.
 
@@ -29,7 +29,7 @@ $$
 K(A) \approx 10^t \frac{\|\widetilde y\|}{\|\widetilde x\|}
 $$
 
-# Refinamiento Iterativo
+## Refinamiento Iterativo
 
 El refinamiento iterativo consiste en, a cada iteración de un metodo iterativo, sumarle la solucion del sistema para el vector residual.
 

@@ -1,9 +1,9 @@
-# Teorema del Punto fijo
+## Teorema Del Punto Fijo
 
 Una función $G: D \subset \mathbb{R}^n \to \mathbb{R}^n$ tiene un punto fijo en $\overline p \in D$ si $G(\overline p) = \overline p$
 
 1. Sea $G$ continua en $D$, entonces si $G(\overline x) \in D,\quad \forall x \in D$, entonces $G$ tiene punto fijo en $D$
-2. Si $\exists 0 < k < 1$ talque $\|\frac{\partial g_i(\overline x)}{\partial x_j}\| \leq \frac Kn, \quad \forall \overline x \in D$, entonces el punto fijo  de $G$ es unico en $D$
+2. Si $\exists 0 < k < 1$ talque $\|\frac{\partial g_i(\overline x)}{\partial x_j}\| \leq \frac Kn, \quad \forall \overline x \in D$, entonces el punto fijo de $G$ es unico en $D$
 
 Entonces la sucesión definida como:
 
@@ -20,8 +20,7 @@ $$
 > [!note]
 > Este metodo converge para cualquier semilla perteneciente a $D$.
 
-
-# Newton-Raphson
+## Newton-raphson
 
 En el caso $n$-dimensional, el metodo Newton Raphson se resuelve a partir de dividir por la matriz Jacobiana
 
@@ -48,8 +47,7 @@ $$
 > [!note]
 > Este metodo tiene convergencia cuadratica, al igual que para una sola variable.
 
-
-# Métodos Cuasi Newton
+## Métodos Cuasi Newton
 
 Consisten en aproximar la matriz Jacobiana con cada iteracion mediante fórmulas de recurrencia.
 
@@ -66,7 +64,7 @@ Definiendo:
 
 De esta forma, los metodos de Cuasi-Newton necesitan el calculo de una sola Jacobiana
 
-# Método del Descenso más Rápido
+## Método Del Descenso Más Rápido
 
 Coverge solo linealmente a la función, pero siempre converge. La idea consiste en partir de cualquier semilla, evaluar la función, y movernos en la direccion del maximo descenso, es decir, en la direccion inversa al gradiente.
 

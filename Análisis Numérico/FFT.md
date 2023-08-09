@@ -1,4 +1,4 @@
-# DFT
+## DFT
 
 Para una señal periódica cuya función no conocemos, podemos escribir la transformada discreta de Fourier como
 
@@ -6,7 +6,7 @@ $$
 X_N(k) = X^{(N)}(k) = \sum_{n=0}^{N-1}x(n) e^{-i \frac{2\pi k n}{N}} \qquad \text{para }k = 0, \cdots, N -1
 $$
 
-## Implementación Matricial
+### Implementación Matricial
 
 Es posible representar la ecuación anterior como un producto matricial, de modo que $X = W_n x$, donde $X, x$ son vectores columna y $W_N$ es una matriz de $N\times N$
 
@@ -42,7 +42,7 @@ $$
 W_N^{k+N/2} = -W_{N}^k
 $$
 
-# FFT
+## FFT
 
 La transformada rápida de Fourier es un método mucho mas rápido para calcular la DFT, su velocidad proviene de la utilización de resultados previos para el calculo de la misma
 

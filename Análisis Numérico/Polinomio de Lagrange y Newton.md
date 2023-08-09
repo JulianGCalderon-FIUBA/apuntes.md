@@ -1,4 +1,4 @@
-# Polinomio de Lagrange
+## Polinomio de Lagrange
 
 La interpolación de Lagrange permite encontrar una polinomio que coincida con la función $f$ en $n+1$ puntos del espacio
 
@@ -10,7 +10,7 @@ $$
 L_k(x) = \prod_{i=0, i\neq k}^n \frac{(x-x_i)}{(x_k - x_i)}
 $$
 
-## Teorema del Error
+### Teorema Del Error
 
 Supongamos $x_0, x_1, \cdots, x_n$ son números distintos en el intervalo $[a,b]$ y que $f \in C^{n+1}[a,b]$. Entonces, para cada $x$ en $[a,b]$ existe un numero $\xi(x)$ en $(a,b)$ con la propiedad:
 
@@ -21,8 +21,7 @@ $$
 > [!note]
 > La dificultad práctica con esta interpolación consiste en que el termino de error es difícil de aplicar y generalmente el grado del polinomio necesario para lograr la exactitud deseada no se conoce antes de calcular.
 
-
-# Polinomio de Newton
+## Polinomio de Newton
 
 Supongamos que $P_L(x)$ es un polinomio de Lagrange de grado $n$, las diferencias divididas $a_i$ de $f$ respecto a $x_0, x_1, \cdots, x_n$ se usan para expresar $P_L(x)$ en la forma:
 
@@ -30,7 +29,7 @@ $$
 P_N(x) = a_0 + a_1(x - x_0) + a_2(x-x_0)(x-x_1) + \cdots \\+ a_n(x-x_0)(x-x_1)\cdots(x-x_{n-1})
 $$
 
-## Diferencias Divididas
+### Diferencias Divididas
 
 $$
 f[x_i] = f(x_i)
@@ -47,7 +46,7 @@ f[x_i, x_{i+1}, \cdots x_{i+k}] = \\
 \frac{f[x_{i+1}, x_{i+2}, \cdots, x_{i+k}] - f[x_{i}, x_{i+1}, \cdots, x_{i+k-1}]}{x_{i+k} - x_i}
 $$
 
-## Generalización
+### Generalización
 
 Una vez definidas las diferencias divididas, podemos definir el polinomio de Newton como
 
@@ -58,8 +57,7 @@ $$
 > [!note]
 > Podemos ignorar el ultimo termino de la suma, y utilizarlo como su cota de error.
 
-
-## Cálculo del Error
+### Cálculo Del Error
 
 Sea $f \in C^n[a,b]$ y $x_0, x_1, \cdots, x_n$ números distintos en el intervalo $[a,b]$. Entonces existe un número $\xi \in (a,b)$ tal que
 

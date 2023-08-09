@@ -1,4 +1,4 @@
-Es un polinomio interpolador de $f$ en los nodos $x_0, x_1, \cdots, x_n$ y la derivada del polinomio coincide con la derivada primera de la función en dichos nodos. 
+Es un polinomio interpolador de $f$ en los nodos $x_0, x_1, \cdots, x_n$ y la derivada del polinomio coincide con la derivada primera de la función en dichos nodos.
 
 Para calcularlo, se define la sucesión $z_0, z_1, \cdots z_n$ de la siguiente manera
 
@@ -18,7 +18,7 @@ $$
 f[z_0] + \sum_{k=1}^{2n+1} f[z_0, \cdots, z_k] (x-z_0) \cdots (x-z_{k-1})
 $$
 
-# Fórmula del Error para el polinomio de Hermite
+## Fórmula Del Error para El Polinomio de Hermite
 
 Al igual que con el polinomio de Lagrange, se puede aproximar a la función usando el polinomio a partir de la siguiente fórmula
 

@@ -1,4 +1,4 @@
-# Observaciones
+## Observaciones
 
 1. Las series de Fourier describen señales periódicas como combinación lineal de señales armónicas (senos y cosenos)
 2. Con esta herramienta, analizamos señales periódicas en términos de su contenido frecuencial o espectro.
@@ -16,7 +16,7 @@ $$
 w = 2\pi f
 $$
 
-# Teorema de Fourier
+## Teorema de Fourier
 
 Este teorema garantiza que una función periódica que satisface ciertas condiciones de continuidad puede ser expresada como suma de un número infinito de funciones senoidales y de diferentes amplitudes, fases, y periodos.
 
@@ -48,7 +48,7 @@ $$
 b_n = \frac{2}{T} \int_d^{d+T} f(t) \cos (n\omega t) dt \qquad n=1, 2, \cdots
 $$
 
-# Forma Compleja de la Serie de Fourier
+## Forma Compleja de la Serie de Fourier
 
 Podemos usar la forma exponencial de los números complejos para encontrar las siguientes equivalencias
 
@@ -82,7 +82,7 @@ $$
 c_n = \frac{1}{T} \int_d^{d+T} f(t) e^{-in\omega t}dt \qquad n=0, \pm1, \pm2, \cdots
 $$
 
-# Teorema de Dirichlet
+## Teorema de Dirichlet
 
 Si $f(t)$ es una función periódica que en cualquier periodo tiene:
 

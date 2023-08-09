@@ -4,7 +4,7 @@ $$
 
 Geométricamente, el punto fijo se encuentra cuando la función corta la recta $y=x$
 
-# Teoremas del Punto Fijo
+## Teoremas Del Punto Fijo
 
 **Teorema 1.1:** Si $f\in\mathscr C[a,b]$ y $f(x) \in [a,b]\ \forall\ x \in [a,b]$ entonces existe punto fijo
 
@@ -20,7 +20,7 @@ Si la función es siempre creciente o decreciente a razón menor a uno, entonces
 
 La convergencia es monótona si la derivada es positiva, la convergencia es oscilatoria si la derivada es negativa. Si las derivadas no cumplen las condiciones del teorema, entonces divergen de forma monótona o oscilatoria, dependiendo de su signo.
 
-## Cota de Error
+### Cota de Error
 
 Puedo demostrar con el teorema del punto fijo, que el numero de iteraciones del algoritmo cumple la siguiente inecuación. Siendo $k$ la derivada maxima de la función en el intervalo.
 
@@ -30,9 +30,9 @@ $$
 
 Puedo despejar $n$ para obtener cuantas veces debo iterar la sucesión para obtener una tolerancia deseada.
 
-## Búsqueda de Raíz
+### Búsqueda de Raíz
 
-Si buscamos $p$ tal que $f(p) = 0$, podemos definir $g(x) = x - f(x)$. Por lo que buscar  las raíces de $f$ equivale a buscar los puntos fijos de $g$.
+Si buscamos $p$ tal que $f(p) = 0$, podemos definir $g(x) = x - f(x)$. Por lo que buscar las raíces de $f$ equivale a buscar los puntos fijos de $g$.
 
 Análogamente, si $g(p) = p$, entonces $p$ es raíz de $f(x) = g(x) - x$
 

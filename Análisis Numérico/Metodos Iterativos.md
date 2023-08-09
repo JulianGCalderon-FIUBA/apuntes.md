@@ -41,7 +41,6 @@ Para cualquier $x^{(0)} \in \mathbb{R}^n$, los metodos anteriores convergen a la
 > [!note]
 > El radio espectral de una matriz es su mayor autovalor.
 
-
 Si $\|T\| < 1$ para cualquier norma matricial y $c$ es un vector cualquiera entonces la sucesión definida converge a la unica solucion si las siguientes cotas son validas
 
 $$
@@ -62,23 +61,22 @@ $$
 4. $\rho(T_g) = \rho(T_j) = 1$
 
 - **Matrices estrictamente diagonal dominante**
-    
-    Se dice que la matriz $A$ de $n \times n$ es **esctrictamente diagonal dominante por filas** si un elemento de la diagonal es mayor a la suma del resto de los elementos de la fila.
-    
-    $$
+
+	Se dice que la matriz $A$ de $n \times n$ es **esctrictamente diagonal dominante por filas** si un elemento de la diagonal es mayor a la suma del resto de los elementos de la fila.
+
+	$$
     |a_{ii}| > \sum_{j=1, j \neq i}^{n} |a_{ij}|
     $$
-    
-    Se dice que la matriz $A$ de $n \times n$ es **esctrictamente diagonal dominante por columnas** si un elemento de la diagonal es mayor a la suma del resto de los elementos de la fila.
-    
-    $$
+
+	Se dice que la matriz $A$ de $n \times n$ es **esctrictamente diagonal dominante por columnas** si un elemento de la diagonal es mayor a la suma del resto de los elementos de la fila.
+
+	$$
     |a_{ii}| > \sum_{i=1, j \neq i}^{n} |a_{ij}|
     $$
-    
-    Se dice que una matriz es estrictamente diagonal dominante si se cumple alguna de las dos condiciones anteriores.
-    
 
-# Metódos SOR
+	Se dice que una matriz es estrictamente diagonal dominante si se cumple alguna de las dos condiciones anteriores.
+
+## Metódos Sor
 
 Los metodos de sobre relajacion reciben este nombre porque producen sucesivas relajaciones excesivas. Son utiles para resolver sistemas lineales que ocurren en la solución numerica de ciertas equaciones diferenciales en derivadas parciales.
 

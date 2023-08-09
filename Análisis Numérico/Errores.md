@@ -1,6 +1,6 @@
 Los errores son una herramienta mas, no deben pensarse como algo negativo. No se pueden ignorar y hay que trabajar con ellos.
 
-# Fuente de Errores
+## Fuente de Errores
 
 - **Redondeo:** La computadora desprecia decimales.
 - **Inherente:** El error viene de la percepción humana al medir.
@@ -8,7 +8,7 @@ Los errores son una herramienta mas, no deben pensarse como algo negativo. No se
 
 A diferencia de redondeo, en truncamiento se desprecian términos de forma consiente.
 
-# Términos
+## Términos
 
 - **Error Absoluto:** Diferencia entre el valor real y el valor medido. $e_a = x - \overline x$
 - **Cota:** El valor máximo que puede tener nuestro error absoluto. $\|e_a\| \leq \Delta x$

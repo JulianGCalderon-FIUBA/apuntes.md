@@ -15,12 +15,12 @@ Para resolver sistemas lineales de la forma $Ax = b$ grandes, tenemos dos tipos 
 
 	La velocidad a la que convergen estos métodos depende de la estructura de la matriz.
 
-## Metodos Directos
+## Métodos Directos
 
-- ![[Descomposicion LU]]
-- ![[Descomposicion de Cholesky]]
+- [[Descomposicion LU]]
+- [[Descomposicion de Cholesky]]
 
-## Metodos Iterativos
+## Métodos Iterativos
 
-- ![[Metodos Iterativos]]
-- ![[Refinamiento Iterativo]]
+- [[Metodos Iterativos]]
+- [[Refinamiento Iterativo]]

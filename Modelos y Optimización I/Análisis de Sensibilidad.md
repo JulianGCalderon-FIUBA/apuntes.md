@@ -38,7 +38,7 @@ En el software *LINDO*, visualizaremos estos valores bajo la columna ***dual cos
 
 Si planteamos genéricamente un coeficiente $c_k$, podremos calcular los $z_j - c_j$ de las columnas afectadas para analizar el rango de coeficientes para el cual la solución sigue siendo estructuralmente la misma (intersección de las mismas restricciones).
 
-Si en lugar de analizar los coeficientes del funcional, queremos analizar el rango de variación de los términos independientes $b_k$, dependeremos del ![[Planteo Dual]].
+Si en lugar de analizar los coeficientes del funcional, queremos analizar el rango de variación de los términos independientes $b_k$, dependeremos del [[Planteo Dual]].
 
 Debido a que los términos independientes del planteo primal serán los coeficientes del planteo dual, podremos realizar un análisis de curva de oferta para el planteo dual.
 

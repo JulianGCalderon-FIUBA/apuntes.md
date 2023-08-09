@@ -20,7 +20,7 @@ $q:$ Exponente, le da magnitud al numero.
 
 Formatos típicos de los números de maquina.
 
-# Propiedades
+## Propiedades
 
 - Los números de maquina son un subconjunto finito de los números racionales.
 - Son mas densos cerca del $0$ y se separan a medida que se alejan de el.

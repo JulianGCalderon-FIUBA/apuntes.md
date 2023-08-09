@@ -1,4 +1,4 @@
-# PVI de Segundo Orden
+## Pvi de Segundo Orden
 
 Si tenemos un problema de valores iniciales se segundo orden:
 
@@ -83,7 +83,7 @@ k_4 = f(x_i + h, y_i + m_3h, u_i + k_3h)\\
 \end{cases}
 $$
 
-# PVI de $n$-esimo Orden
+## Pvi de $n$-esimo Orden
 
 En general, puedo expresar una ecuación diferencial de $n$-ésimo orden de la forma:
 
@@ -97,7 +97,7 @@ y^{(n-1)} = u_{n,0}
 \end{cases}
 $$
 
-Luego, puedo llegar a un sistema de $n$ ecuaciones diferenciales. 
+Luego, puedo llegar a un sistema de $n$ ecuaciones diferenciales.
 
 Donde $u_1 = y,\ u_2 = y',\  \cdots, \ u_n = y^{(n-1)}$
 
@@ -121,7 +121,7 @@ u_n(x_0) = u_{n,0} \\
 \end{cases}
 $$
 
-# Sistema de Ecuaciones Diferenciales
+## Sistema de Ecuaciones Diferenciales
 
 Dado un sistema de ecuaciones diferenciales, podemos usar cualquiera de los metodos vistos en cada ecuación para aproximar la solución.
 

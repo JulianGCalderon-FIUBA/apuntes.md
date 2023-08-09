@@ -1,21 +1,21 @@
 ## Algebra de Conjuntos
 
-- ![[Álgebra de Conjuntos]]
-- ![[Matemática Discreta/Álgebra de Boole]]
-- ![[Relaciones]]
-- ![[Alfabeto]]
+- [[Álgebra de Conjuntos]]
+- [[Matemática Discreta/Álgebra de Boole]]
+- [[Relaciones]]
+- [[Alfabeto]]
 ## Inducción y Recurrencia
 
-- ![[Inducción]]
-- ![[Ecuaciones de Recurrencia]]
+- [[Inducción]]
+- [[Ecuaciones de Recurrencia]]
 ## Grafos
 
-- ![[Nociones Básicas]]
-- ![[Grafos Particulares]]
-- ![[Caminos y Distancias]]
-- ![[Isomorfismos]]
-- ![[Operaciones entre Grafos]]
-- ![[Subconjuntos de Vertices y Aristas]]
-- ![[Clasificaciones]]
-- ![[Grafos Orientados]]
-- ![[Algoritmos]]
+- [[Nociones Básicas]]
+- [[Grafos Particulares]]
+- [[Caminos y Distancias]]
+- [[Isomorfismos]]
+- [[Operaciones entre Grafos]]
+- [[Subconjuntos de Vertices y Aristas]]
+- [[Clasificaciones]]
+- [[Grafos Orientados]]
+- [[Algoritmos]]
