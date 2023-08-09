@@ -39,7 +39,8 @@ $$
 > [!note]
 > El campo de inducción magnética tiene unidades de tesla $T$, mientras que el campo magnetico y de magnetizacion tienen unidades de $A/m$.
 
-## Materiales LIH
+
+# Materiales LIH
 
 Si los materiales son **LIH**, (lineales, isótropos, y homogéneos) entonces podemos encontrar una relación lineal entre los campos mencionados.
 
@@ -57,16 +58,16 @@ $$
 
 Siendo $\mu_r = 1 + X_M$ la permeabilidad relativa. $\mu = \mu_r \cdot \mu_0$
 
-## Materiales Ferromagnéticos
+# Materiales Ferromagnéticos
 
-Estos materiales no son lineales, la relación entre el campo magnético y el campo magnetización respeta la curva de Histéresis. Esto se debe a que los materiales tienen memoria y al eliminar el campo magnético, el material sigue magnetizado.
+Estos materiales no son lineales, la relación entre el campo magnético y el campo magnetización respeta la curva de Histéresis. Esto se debe a que los materiales tienen memoria y al eliminar el campo magnético, el material sigue magnetizado. 
 
-Sin embargo, vamos a tratar estos materiales como materiales lineales. La permeabilidad relativa de estos materiales es mucho mayor a la del vacío. $\mu_r \gg 1$
+Sin embargo, vamos a tratar estos materiales como materiales lineales. La permeabilidad relativa de estos materiales es mucho mayor a la del vacío. $\mu_r \gg 1$ 
 
-## Circuitos Magnéticos
+# Circuitos Magnéticos
 
 Vamos a trabajar con circuitos magnéticos cerrados de materiales ferromagnéticos. Estos circuitos pueden ser toroides tanto circulares como rectangulares, pero van a estar conformados por un solo material magnético, y van a ser enteros. Estos toroides van a tener bobinas que carguen el material.
 
-En estos circuitos, vamos a calcular los tres campos $\vec H, \vec M, \vec B$ dentro del material.
+En estos circuitos, vamos a calcular los tres campos $\vec H, \vec M, \vec B$ dentro del material. 
 
 Tenemos dos tipos de toroides. Los toroides gruesos, son aquellos en los que importa el radio para el calculo del campo magnetico. En los toroides finos, el campo magnético es uniforme.

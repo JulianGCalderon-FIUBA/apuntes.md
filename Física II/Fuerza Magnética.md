@@ -23,7 +23,8 @@ $$
 > [!note]
 > La fuerza ejercida por un campo magnético uniforme sobre un conductor cerrado es nula
 
-## Torque
+
+# Torque
 
 Si calculamos la fuerza sobre una trayectoria rectangular en un campo paralelo a uno de los lados, llegamos a una fuerza nula. Pero cuando calculo la fuerza sobre cada tramo, encontramos un par de fuerzas. Entonces, podemos calcular el torque de esta fuerza en el centro del rectángulo de lados $a, b$.
 
@@ -42,7 +43,8 @@ $$
 > [!note]
 > El momento tiene dirección normal a la espira, con sentido siguiendo la regla de la mano derecha.
 
-## Motor de C.C.
+
+# Motor de C.C.
 
 El motor de corriente continua consiste de dos partes, una espira y un conmutador (invierte la corriente)
 

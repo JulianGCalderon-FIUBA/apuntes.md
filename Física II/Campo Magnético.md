@@ -6,7 +6,7 @@ La tierra tiene asociada un imán, en el polo norte geográfico se encuentra el 
 
 La utilización mas antigua de los campos magnéticos es la brújula, un imán en equilibrio que se alineara con el campo magnético de la tierra. Por eso el polo norte magnético de la brújula apuntara al polo norte geográfico de la tierra (polo sur magnético)
 
-## Momento Dipolar Magnético
+# Momento Dipolar Magnético
 
 Similar a como se reordenaban los dipolos en un dieléctrico, ocurre algo parecido en los imanes. El momento dipolar magnético $\vec m$ se alinea con el campo magnético.
 
@@ -18,7 +18,7 @@ $$
 
 Las líneas de campo son cerradas, todas las que salen del polo norte ingresan al polo sur.
 
-## Fuerza Magnética
+# Fuerza Magnética
 
 La fuerza magnética resulta proporcional a la velocidad de la partícula, la carga, y el campo magnético. Además, es perpendicular tanto al vector velocidad como al vector campo magnético.
 
@@ -32,9 +32,9 @@ $$
 
 Ya que la fuerza es siempre perpendicular a la trayectoria, entonces el trabajo de la fuerza magnética es nulo. $\vec F_M$ no es conservativa. Ya que no es conservativa, el modulo de la velocidad permanece constante. $W_{Fnc} = \Delta U_{\text{cinetica}}$
 
-### Trayectoria en $\vec B$ Uniforme
+## Trayectoria en $\vec B$ uniforme
 
-#### Caso 1: $\vec V \perp \vec B$
+### Caso 1: $\vec v \perp \vec B$
 
 El movimiento es un **MCU**, movimiento circular uniforme. La fuerza magnética actúa como la fuerza centrípeta.
 
@@ -54,7 +54,7 @@ $$
 T = \frac{2\pi\cdot m}{q\cdot B}
 $$
 
-#### Caso 2: $\vec V \not\perp \vec B$
+### Caso 2: $\vec v \not\perp \vec B$
 
 El movimiento es compuesto, se mueve tanto en **MCU** como en **MRU,** movimiento rectilíneo uniforme. De esta forma, la trayectoria es una hélice (movimiento helicoidal).
 
@@ -69,9 +69,10 @@ $$
 > [!note]
 > Si la carga es negativa, la trayectoria es la misma pero la fuerza tiene sentido opuesto
 
-## Aplicaciones
 
-### Selector de Velocidades
+# Aplicaciones
+
+## Selector de Velocidades
 
 Consiste en una fuente con un campo magnético $\vec B$ y un campo eléctrico $\vec E$ que permite entrar y salir únicamente cargas que realicen una trayectoria rectilínea. Es decir, que la fuerza de Lorentz sea nula.
 
@@ -79,6 +80,6 @@ $$
 \|\vec v\| = \frac{\|\vec E\|}{\|\vec B\|}
 $$
 
-### Espectrómetro de Masas
+## Espectrómetro de Masas
 
 Utiliza un selector de velocidades para aislar cargas con la misma velocidad. Ya que las cargas tienen la misma carga y velocidad pero distinta masa, estas se van a girar debido al campo magnético y el radio de giro va a depender de la masa. De esta forma podemos recolectar cargas con diferente de masa dependiendo de la posición.

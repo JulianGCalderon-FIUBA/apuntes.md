@@ -1,13 +1,13 @@
 Cuando programamos en un lenguaje de alto nivel, esto se debe traducir a un lenguaje que el sistema pueda ejecutar
 
-## Diseño a Ejecucion
+# Diseño a Ejecucion
 
 - **Complilacion:** El lenguaje de alto nivel compilado en codigo assembly
 - **Ensamblador:** Este codigo de alto nivel luego es traducido a codigo de maquina
 - **Linker:** El linker se encarga de unir los distintos modulos de nuestro programa (bibliotecas)
 - **Loader:** El programa se carga en memoria para luego se rejecutado
 
-## Compilador
+# Compilador
 
 Hay distintos tipos de compiladores:
 
@@ -25,7 +25,7 @@ Hay distintos tipos de compiladores:
 
 Todos los pasos del proceso alteran y actualizan la tabla de simbolos.
 
-### Mapeo de Acciones
+## Mapeo de Acciones
 
 Hay tres tipos de instrucciones:
 
@@ -37,7 +37,7 @@ Cuando es excedida la cantidad de registros, se utiliza el stack. El compilador 
 
 Las variables globales permanecen a lo largo del tiempo de ejecucion del programa y se guardan en memoria. Las variables locales se guardan en el stack.
 
-## Ensamblador
+# Ensamblador
 
 Traduce el codigo assembly, creado por el compilador, en codigo de maquina.
 
@@ -49,7 +49,7 @@ Muchas de las funciones del ensamblador se realizan a partir de las directivas d
 
 Algunas de estas directivas generan informacion en memoria.
 
-### Proceso de Ensamblado en Dos Pasadas
+## Proceso de Ensamblado en Dos Pasadas
 
 Consiste de tres pasos:
 
@@ -66,7 +66,7 @@ El archivo objeto incluye un encabezamiento que contiene:
 
 A la hora de incluir modulos externos, estos pueden se relocalizados para poder ser cargados en memoria correctamente. Es el ensamblador el encargado de marcar que direcciones son relocalizables y cuales son absolutas. Esta información es necesaria para el linker.
 
-### Tabla de Simbolos
+## Tabla de Simbolos
 
 Para generarla, el ensamblador recorre el archivo linea por linea, Incluye su nombre en la tabla. Al encontrarlos, les asigna un valor correspondiente.
 
@@ -77,7 +77,7 @@ No todos los simbolos son relocalizables, por ejemplo:
 - Direcciones de entrada/salida
 - Rutinas del sistema
 
-## Linker
+# Linker
 
 El linker combina modulos que fueron ensamblados de forma separada:
 
@@ -85,7 +85,7 @@ El linker combina modulos que fueron ensamblados de forma separada:
 - Relocaliza los módulos combinándolos y reasignando las direccines internas a cada uno para reflejar su nueva localizacion
 - Define en el módulo a cargar la dirección de la primera instruccion a ser ejecutada.
 
-## Loader
+# Loader
 
 En ambientes multitarea la ram es compartida entre varios procesos.
 
@@ -93,7 +93,7 @@ El loader debe relocalizar todos los simbolos relocalizables
 
 Algunos loaders tienen la capacidad de combinar modulos en tiempos de carga (loader con capacidad de linkeo)
 
-## Linking & Loader
+# Linking & Loader
 
 Hay varias instancias
 
@@ -104,7 +104,7 @@ Hay varias instancias
 
 ![[Compiladores y Ensambladores 1.png]]
 
-## Archivos Objeto
+# Archivos Objeto
 
 Hay disintos tipos de archivos objeto:
 

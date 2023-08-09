@@ -1,6 +1,6 @@
 Si queremos encontrar la función potencial, y no pensarla solo como una diferencia entre dos puntos, entonces tengo que encontrar un valor de referencia. Como cuando calculamos la fuerza potencial gravitatoria, que depende de un valor de referencia.
 
-## Distribuciones Acotadas
+# Distribuciones Acotadas
 
 En el caso de distribuciones acotadas, podemos analizar el potencial en el infinito. Esto hara que tienda a 0.
 
@@ -14,7 +14,7 @@ $$
 V(A) = -\int\frac{dq'}{4\pi\epsilon_0}\cdot\frac{1}{\vec r_A - \vec r'}
 $$
 
-## Distribuciones no Acotadas
+# Distribuciones no Acotadas
 
 En el caso de distribuciones no acotadas, nuestra integral no esta definida. Por lo que no podemos usar esta definición. Sin embargo, podemos elegir un punto arbitrario $P$ y forzarlo a valer $0$
 

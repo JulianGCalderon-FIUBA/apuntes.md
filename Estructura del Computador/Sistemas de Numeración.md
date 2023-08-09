@@ -5,13 +5,13 @@ Un sistema numérico es un conjunto de símbolos y reglas para su organización.
 
 Estos sistemas utilizan **punto fijo** para representar los decimales.
 
-## Definiciones
+# Definiciones
 
 - **Base de un Sistema:** Cantidad de símbolos
 - **Posición de un Símbolo:** Se cuenta de derecha a izquierda y empieza desde el 0, las posiciones decimales son negativas
 - **Peso de un Símbolo:** $\text{Peso} = \text{Base}^\text{Posicion}$
 
-## Precisión
+# Precisión
 
 Si tengo $n_1$ decimales en la base $b_1$, necesito $n_2$ decimales en la base $b_2$
 
@@ -23,7 +23,7 @@ Como no puedo tener una cantidad no natural de dígitos, se redondea para arriba
 
 Se utiliza para saber cuantos decimales necesito en cierta base para tener una precisión de tantos decimales en base 10
 
-## Punto Fijo
+# Punto Fijo
 
 Este sistema divide la parte fraccionaria de un numero en sumas de potencias de ese numero.
 

@@ -8,7 +8,7 @@ $$
  \oint\limits_{\lambda} \vec B \cdot d\vec l = \mu_0 \cdot I_{S(\lambda)}
 $$
 
-Siendo $I_{S(\lambda)}$ la corriente concatenada. Es decir, la corriente que atraviesa toda superficie que tenga como borde la superficie $S$.
+Siendo $I_{S(\lambda)}$ la corriente concatenada. Es decir, la corriente que atraviesa toda superficie  que tenga como borde la superficie $S$.
 
 Podemos extender esta ley para casos con mas de una corriente, realizando la sumatoria de las corrientes concatenadas.
 
@@ -26,7 +26,7 @@ $$
 \vec \nabla \times \vec B= \mu_0 \cdot \vec j
 $$
 
-## Calculo del Campo Magnético
+# Calculo del Campo Magnético
 
 Al igual que con ley de Gauss calculábamos el campo eléctrico. Podemos realizar algo parecido con la ley de Ampere.
 

@@ -1,4 +1,4 @@
-## Constantes
+# Constantes
 
 $$
 \begin{align*} \text{Carga Elemental}:e&=-1,6\times10^{-19}C\\
@@ -48,7 +48,7 @@ $$
 \end{align*}
 $$
 
-## Integrales Útiles
+# Integrales Útiles
 
 $$
 \bullet\textbf{ 196}: \int \frac{dx}{[x^2 + a^2]^{3/2}} = \frac{x}{a^2\sqrt{x^2 + a^2}}
@@ -58,7 +58,7 @@ $$
 \bullet\textbf{ 197}: \int \frac{x\ dx}{[x^2 + a^2]^{3/2}} = \frac{-1}{\sqrt{x^2 + a^2}}
 $$
 
-## Ley de Coulomb
+# Ley de Coulomb
 
 $$
 \vec F_{ij} = k\cdot q_iq_j\cdot\frac{\vec r_i - \vec r_j}{\|\vec r_i - \vec r_j\|^{3}}
@@ -66,7 +66,7 @@ $$
 
 Siendo $F_{ij}$ la fuerza que siente la carga $i$ debido a la carga $j$
 
-## Campo Eléctrico
+# Campo Eléctrico
 
 $$
 \vec E(\vec r) \cdot q_0 = F_0
@@ -94,7 +94,7 @@ $$
 \vec E(\vec r) = k\int \frac{r-r'}{\|\vec r - \vec r'\|^3}\cdot dq
 $$
 
-## Ley de Gauss
+# Ley de Gauss
 
 $$
 \text{Integral}: {\subset\!\supset} \llap{\iint} \vec Ed\vec s = \frac{Q_\text{enc}}{\varepsilon_0}
@@ -106,7 +106,7 @@ $$
 
 Para utilizar la ley de Gauss, debo utilizar una superficie que sea paralela o perpendicular al campo en cada porción de la misma.
 
-## Trabajo
+# Trabajo
 
 $$
 W_{F_\text{ext}} = -q_0\int_A^B\vec E\cdot d\vec l
@@ -142,9 +142,9 @@ $$
 
 Para obtener una funcion potencial, colocamos la referencia $A$ en el infinito. En el caso de distribuciones infinitas, lo colocamos en un punto arbitrario
 
-## Conductores
+# Conductores
 
-### Campo en Las Cercanías
+### Campo en las Cercanías
 
 $$
 \vec E_p = \frac{\sigma_p}{\varepsilon_0}\hat n_c
@@ -190,7 +190,7 @@ $$
 
 La energía se mide en $J$, es igual al trabajo necesario para cargar el capacitor.
 
-## Dieléctricos
+# Dieléctricos
 
 $$
 \begin{align*}
@@ -210,7 +210,7 @@ $$
 
 La unidad de los campos desplazamiento y polarización es $Q/m^2$. El campo desplazamiento esta asociada con las cargas libres del circuito, mientras que el campo polarizacion esta asociado con las cargas polarizadas que se encuentran dentro del dielectrico.
 
-### Relaciones entre Campos
+### Relaciones Entre Campos
 
 $$
 \vec D = \varepsilon_0 \vec E + \vec P
@@ -234,7 +234,7 @@ $$
 
 El campo polarización apantalla el campo eléctrico, por lo que lo reduce (disminuyendo la diferencia de potencial entre las placas y aumentando la capacidad)
 
-## Campos Eléctricos Comunes
+# Campos Eléctricos Comunes
 
 $$
 \text{Hilo Infinito}: E(r) = \frac{\lambda}{2\pi\varepsilon_0} \frac{\hat r}{r}
@@ -284,7 +284,7 @@ E(r) = \frac{\sigma R}{\varepsilon_0} \frac{\hat r}{r} &\impliedby r > R
 \end{dcases}
 $$
 
-## Corriente Continua
+# Corriente Continua
 
 $$
 \vec v_a = \mu\cdot E
@@ -336,7 +336,7 @@ $$
 
 Siendo $\sigma$ la conductividad eléctrica
 
-## Ley de Ohm
+# Ley de Ohm
 
 $$
 \Delta V = I\ R
@@ -350,7 +350,7 @@ Se define $\rho = 1/\sigma$ como la resistividad eléctrica del material $[\Omeg
 
 La unidad de la resistencia es de $\Omega$, y su formula es unicamente para conductores cilindricos.
 
-## Circuitos Eléctricos
+# Circuitos Eléctricos
 
 $$
 \sum_{i=1}^n I_i = 0\\
@@ -382,7 +382,7 @@ $$
 
 La unidad de la potencia es $W$. Se define como la energía consumida por segundo.
 
-## Campo Magnético
+# Campo Magnético
 
 La unidad del campo magnético es de $T$. Este actúa sobre las cargas en movimiento
 
@@ -396,7 +396,7 @@ $$
 \vec F_\text{Lorentz} = q\vec E +  q\cdot \vec v \times \vec B
 $$
 
-### $\vec V \perp \vec B$
+### $\vec v \perp \vec B$
 
 $$
 R = \frac{m\cdot v}{|q|\cdot\|\vec B\|}
@@ -406,7 +406,7 @@ $$
 w = \frac{v}{R} = \frac{|q|\cdot \|\vec B\|}{m}
 $$
 
-### $\vec V \not\perp \vec B$
+### $\vec v \not\perp \vec B$
 
 $$
 h = v_\parallel\cdot T = \frac{v_\parallel\cdot 2\pi \cdot m}{|q|\cdot \|\vec V\|}
@@ -440,7 +440,7 @@ $$
 
 Llamamos $\mu$ al momento dipolar magnético. $\vec \mu = I\vec A$
 
-## Ley de Biot Y Savalt
+# Ley de Biot y Savalt
 
 $$
 \vec B = K_m \cdot \frac{q\cdot \vec v \times (\vec r - \vec r')}{\|\vec r - \vec r'\|^3}
@@ -458,7 +458,7 @@ $$
 \underbrace{\vec B = \frac{\mu_0}{4\pi} \iint\frac{\vec k\cdot  dS \times (\vec r - \vec r')}{\|\vec r - \vec r'\|^3}}_\text{Densidad Superficial de Corriente}
 $$
 
-## Ley de Ampere
+# Ley de Ampere
 
 $$
 \text{Integral}:\oint\limits_{\lambda} \vec B \cdot d\vec l = \mu_0 \cdot I_{S(\lambda)}
@@ -470,7 +470,7 @@ $$
 
 La curva de la ley de ampere debe ser perpendicular o paralelo al campo en cada porción de la misma.
 
-## Campos Magnéticos Conocidos
+# Campos Magnéticos Conocidos
 
 $$
 \vec{B}\text{ Hilo}: \frac{\mu_0\cdot I}{4\pi r} \cdot
@@ -515,7 +515,7 @@ $$
 \end{cases}
 $$
 
-## Materiales Magnéticos
+# Materiales Magnéticos
 
 $$
 \text{Campo de Inducción Magnética}\implies \oint\limits_\lambda \vec B d\vec l = \mu_0 I_\lambda
@@ -543,7 +543,7 @@ $$
 \vec B = \mu_0 \mu_r \cdot H
 $$
 
-## Inducción Electromagnética
+# Inducción Electromagnética
 
 $$
 \mathcal{E} = -\frac{d\phi}{dt}
@@ -581,7 +581,7 @@ $$
 
 El factor de acoplamiento define que porcentaje del flujo de un inductor es concatenado por el segundo.
 
-## Inductores
+# Inductores
 
 $$
 L = \frac{\mu_0 \mu_r\cdot N_1^2 \cdot S_1}{l_1}
@@ -627,7 +627,7 @@ $$
 
 Un transformador ideal es un toroide que permite cambiar el voltaje entre dos corrientes, a partir de inductores
 
-## Corriente Alterna
+# Corriente Alterna
 
 $$
 v(t) = v_0 \cdot \cos(wt + \phi_v)
@@ -761,7 +761,7 @@ $$
 I_{ef} = \frac{I_0}{\sqrt 2}
 $$
 
-## Potencia
+# Potencia
 
 $$
 p(t) = v_0\ i_0 \cdot \cos(wt) \cdot \cos(wt +\phi_{iv})
@@ -783,7 +783,7 @@ $$
 
 Asociada a la potencia almacenada en los capacitores e inductores.
 
-### Triangulo de Potencias
+### Triangulo De Potencias
 
 ![[Final 1.png]]
 

@@ -1,11 +1,11 @@
-## Simplificación Algebraica
+# Simplificación Algebraica
 
 Para simplificar un circuito, aplicamos los teoremas del álgebra de Boole para eliminar la mayor cantidad de términos que sea posible.
 
 1. Sacar negaciones, de externa a interna, a partir de las leyes de Morgan
 2. A partir del postulado de Huntington P5, factorizar y eliminar términos redundantes.
 
-## Mapa de Karnaugh
+# Mapa de Karnaugh
 
 El mapa de Karnaugh consiste en hacer una tabla de doble entrada, donde separamos variables. Marcamos en la tabla para que valores la función binaria devuelve un $1$.
 
@@ -27,3 +27,6 @@ A partir de los valores de esta tabla, podemos simplificar términos. Consiste e
 
 > [!note]
 > Los mapas de Karnaugh de 5 variables se pueden pensar como dos mapas de Karnaugh, con una variable cambiada. Los homólogos en la posición son vecinos.
+
+
+# Método de Quine-McCluskey

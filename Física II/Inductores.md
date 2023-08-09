@@ -14,7 +14,7 @@ $$
 L = \frac{\mu_0 \mu_r\cdot N_1^2 \cdot S_1}{l_1}
 $$
 
-## Bobinado Interno
+# Bobinado Interno
 
 Si en el interior del inductor, insertamos un bobinado dentro, podremos calcular el coeficiente de inductancia mutua.
 
@@ -26,9 +26,9 @@ $$
 M_{21} = \frac{\mu_0 \mu_r\cdot  N_1 N_2 \cdot S_2}{l_1}
 $$
 
-## Acoplamiento Magnético
+# Acoplamiento Magnético
 
-### Notación Circuital
+## Notación Circuital
 
 Los puntos rojos (bornes homólogos) indican el sentido de de la corriente, si los bornes están del mismo lado, los campos que genera cada inductor son aditivos.
 
@@ -48,7 +48,7 @@ $$
 \mathcal E_1 = \mathcal E_{11} -\mathcal E_{12}  = -L_1 \cdot \frac{di_1}{dt} + M_{12} \cdot \frac{di_2}{dt}
 $$
 
-## Conexión de Inductores en Serie
+# Conexión de Inductores en Serie
 
 Cuando colocamos inductancias en serie, la corriente es la misma.
 
@@ -60,7 +60,7 @@ $$
 
 El signo de $\pm$ varía si los bornes son homólogos $(+)$ o no homólogos $(-)$
 
-## Energía en Inductores
+# Energía en Inductores
 
 Son componentes, capaces de almacenar energía. Esta energía, será el trabajo que me cueste *energizar* ese inductor.
 
@@ -75,7 +75,8 @@ $$
 > [!note]
 > Si los inductores están conectados en serie, puedo remplazar el coeficiente de auto inductancia $L$ por el equivalente.
 
-### Acoplamiento Magnético
+
+## Acoplamiento Magnético
 
 Si los inductores están en acoplamiento magnético. Vamos a dividir la carga de energía en dos, para simplificar el calculo.
 
@@ -95,7 +96,7 @@ $$
 
 El signo de $\pm$ varia si los bornes son homólogos $(+)$ o no homólogos $(-)$
 
-## Transformador Ideal
+# Transformador Ideal
 
 Compuesto por un toroide de un cierto material magnético. Alrededor del toroide tiene envuelto dos solenoides de $N_1, N_2$ espiras. Podemos encontrar una relación entre el numero de espiras entre $N_1$ y $N_2$, para lograr transformar el voltaje desde $\varepsilon_1$ a $\varepsilon_2$
 

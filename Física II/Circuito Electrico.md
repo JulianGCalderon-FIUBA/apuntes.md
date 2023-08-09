@@ -2,7 +2,7 @@ Red conductora que contiene al menos una trayectoria cerrada por la que puede fl
 
 En un circuito cerrado, la corriente eléctrica es constante, estacionaria. Además, la diferencia de potencial en un circuito cerrado es nulo, debemos respetar esto para diseñar circuitos cerrados.
 
-## Notación Circuital
+# Notación Circuital
 
 Una llave es una porción del circuito que se puede abrir o cerrar, también se puede para conectar distintas ramas. (con llaves entre varios caminos distintos)
 
@@ -24,13 +24,13 @@ Las resistencias imponen una diferencia de potencial sobre el circuito. permite 
 
 ![[Circuito Electrico 5.png]]
 
-## Leyes de Kirchhoff
+# Leyes de Kirchhoff
 
 **Nodos:** Los nodos son puntos donde convergen tres o mas conductores.
 
 **Ramas:** Las ramas son porciones del circuito donde circula una única corriente. Para cada rama, hay una corriente. Una rama es cualquier camino que pueda tomar entre dos nodos.
 
-Para cada rama, necesitamos una ecuación. Estas ecuaciones provienen de las mallas, y de los nodos. v Las ecuaciones no son linealmente independientes, por eso debemos usar tanto ecuaciones de malla como de nodo.
+Para cada rama, necesitamos una ecuación. Estas ecuaciones provienen de las mallas, y de los nodos.  v  Las ecuaciones no son linealmente independientes, por eso debemos usar tanto ecuaciones de malla como de nodo.
 
 Las ecuaciones de nodo consisten en tomar un nodo y computar todas las corrientes que circulan por ese nodo. Si tenemos $n$ nodos, vamos a obtener $n{-}1$ ecuaciones independientes.
 
@@ -48,9 +48,9 @@ $$
 
 Esto es así ya que en el circuito no debe estar acumulando carga en ningún punto del circuito, y en un camino cerrado el trabajo es nulo.
 
-## Conexión de Resistencias
+# Conexión de Resistencias
 
-### Serie
+## Serie
 
 Si conectamos resistencias en serie, entonces entonces la corriente que pasa por cada una es la misma, pero la diferencia de potencial se divide. (el potencial total sigue siendo el mismo).
 
@@ -58,7 +58,7 @@ $$
 R_{eq} = \sum_{i=1}^n R_i
 $$
 
-### Paralelo
+## Paralelo
 
 Cuando las conectamos en paralelo, la corriente se divide pero la diferencia de potencial es la misma para cada camino.
 
@@ -66,7 +66,7 @@ $$
 \frac{1}{R_{eq}} = \sum_{i=1}^n \frac{1}{R_i}
 $$
 
-## Potencia
+# Potencia
 
 Podemos definir la potencia como la variación de energía en función del tiempo.
 
@@ -84,7 +84,7 @@ $$
 P = \frac{\Delta V^2}{R} = I^2 R
 $$
 
-### Balance de Potencia
+## Balance de Potencia
 
 En un circuito cerrado, la potencia total del circuito deberá ser nula.
 

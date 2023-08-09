@@ -17,7 +17,8 @@ $$
 > [!note]
 > Un cuerpo rígido sigue siendo un sistema de partículas, que cumple con la condición de rigidez
 
-## Tipos de Movimiento
+
+# Tipos de Movimiento
 
 **Traslación Pura:**
 

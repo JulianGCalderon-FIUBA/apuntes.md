@@ -1,4 +1,4 @@
-## Versores
+# Versores
 
 **Tangente:** con la misma dirección y sentido que la velocidad
 
@@ -6,7 +6,7 @@
 
 **Binormal:**
 
-## Variables Intrínsecas
+# Variables Intrínsecas
 
 $\vec v = |\vec v|\hat t$
 

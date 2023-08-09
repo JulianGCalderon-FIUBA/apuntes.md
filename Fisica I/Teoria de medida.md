@@ -6,7 +6,7 @@ $$
 
 $<x>$: Valor representativo
 
-$\Delta X$: Incerteza absoluta
+$\Delta X$:     Incerteza absoluta
 
 El resultado de una medición es un intervalo
 

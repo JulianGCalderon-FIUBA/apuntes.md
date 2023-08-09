@@ -3,32 +3,32 @@
 El trazador cúbico es una función partida que cumple las siguientes condiciones, para el conjunto de $x_0, \dots, x_n$ nodos.
 
 1. Debe interpolar todos los nodos.
-
-	$$
+    
+    $$
     S(x_j) = f(x_j) \quad, j=0\dots n
     $$
-
+    
 2. La función debe ser continua.
-
-	$$
+    
+    $$
     S_j(x_{j+1}) = S_{j+1}(x_{j+1})\quad ,j = 0\dots n{-}2
     $$
-
+    
 3. Las derivada debe ser una función continua.
-
-	$$
+    
+    $$
     S'_j(x_{j+1}) = S'_{j+1}(x_{j+1})\quad ,j = 0\dots n{-}2
     $$
-
+    
 4. La derivada segunda también debe ser una función continua.
-
-	$$
+    
+    $$
     S''_j(x_{j+1}) = S''_{j+1}(x_{j+1})\quad ,j = 0\dots n{-}2
     $$
-
+    
 5. Dependiendo de si es una Spline libre (natural) o ligada, se debe cumplir que:
-	1. Libre: $S''(x_0) = S''(x_n)$
-	2. Ligada: $S'(x_0) = f'(x_0) \quad S'(x_n) = f'(x_n)$
+    1. Libre: $S''(x_0) = S''(x_n)$
+    2. Ligada: $S'(x_0) = f'(x_0) \quad S'(x_n) = f'(x_n)$
 
 Para que se cumpla esto, la spline tendrá la siguiente estructura
 
@@ -48,7 +48,7 @@ $$
 
 Para encontrar las $4n$ constantes, entonces debo plantear las condiciones y resolver el sistema lineal. El sistema es cerrado.
 
-## Forma Matricial
+# Forma Matricial
 
 Si resolvemos el sistema en forma genérica, llegamos al siguiente sistema de ecuaciones cerrado
 

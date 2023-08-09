@@ -1,11 +1,11 @@
 Los aislantes o dieléctricos no poseen electrones libres, por lo que no sera posible el desplazamiento de carga a través de ellos.
 
-## Modelo Elemental de Dieléctricos
+# Modelo Elemental de Dieléctricos
 
 - Cada molécula del material adquiere un momento dipolar eléctrico inducido proporcional al campo externo $\vec E$
 - Las moléculas poseen una distribución de carga positiva y negativa, por lo que son reorientadas por el campo externo $\vec E$. En lugar de estar orientadas al azar.
 
-### Dipolo Puntual
+## Dipolo Puntual
 
 Esta formado por dos cargas $q$, de mismo modulo y signo opuesto, separadas una distancia $\delta$. Nos interesa el campo del dipolo para valores mucho mayores que $\delta$.
 
@@ -13,7 +13,7 @@ Esta formado por dos cargas $q$, de mismo modulo y signo opuesto, separadas una 
 
 Si el dipolo se encuentra en un campo eléctrico, se produce un torque $**\tau$** sobre el mismo. Este torque tiende a alinear el dipolo $(p)$ en la dirección del campo externo.
 
-## Experimentos de Faraday
+# Experimentos de Faraday
 
 **Experimento 1:**
 
@@ -31,7 +31,7 @@ Si el dipolo se encuentra en un campo eléctrico, se produce un torque $**\tau$*
 
 **Resultado:** La carga de las placas aumenta, es decir, aumenta la capacidad del capacitador. (diferencia de potencial constante)
 
-## ¿Por Qué Ocurre Esto?
+# ¿Por qué ocurre esto?
 
 El dieléctrico se polariza por acción del campo eléctrico del capacitador.
 
@@ -87,7 +87,8 @@ $$
 > [!note]
 > Podemos ver que el campo eléctrico se reduce debido al campo de polarización, por lo que la diferencia de potencial entre las placas sera menor.
 
-### Permitividad Dieléctrica Relativa
+
+## Permitividad Dieléctrica Relativa
 
 Es un factor que representa el la relación entre la densidad de cargas antes y después de introducir un dieléctrico.
 
@@ -105,7 +106,7 @@ $$
 
 La permitividad indica el cambio en el campo eléctrico dentro del dieléctrico, lo que a su vez modifica la capacidad del capacitor.
 
-### **¿Hay Alguna Relación entre Los Campos eléctricos?**
+## **¿Hay alguna relación entre los campos eléctricos?**
 
 Ya que los medios materiales con los que trabajamos en Física II son **Lineales, isótropos y homogéneos (LIH).** Podemos obtener la siguiente relación.
 
@@ -123,7 +124,7 @@ $$
 
 Siendo $X_e$ La susceptibilidad dieléctrica. $(X_E \geq 0)$.
 
-#### Campo Desplazamiento a $Q$ Constante
+### Campo Desplazamiento a $Q$ constante
 
 El campo desplazamiento esta generado solo por las cargas libres, por lo que el campo desplazamiento con o sin dieléctrico es el mismo.
 
@@ -139,7 +140,7 @@ $$
 \Delta V = \frac{\Delta V_0}{\varepsilon_r} \iff C = \varepsilon_r \cdot C_0
 $$
 
-#### Campo Desplazamiento a $\Delta V$ Constante
+### Campo Desplazamiento a $\Delta V$ constante
 
 Si la diferencia de potencial es constante, entonces el campo eléctrico con y sin dieléctrico es el mismo, por lo que podemos llegar a la siguiente definición, a partir de la relación entre los campos.
 
@@ -153,7 +154,7 @@ $$
 Q = \varepsilon_r \cdot Q_0 \iff C = \varepsilon_r \cdot C_0
 $$
 
-## Cargas de Polarización
+# Cargas de Polarización
 
 Las cargas del dieléctrico se dividen en dos. Las cargas en la superficie, y las cargas en el volumen
 
@@ -180,6 +181,6 @@ $$
 \sigma_p = \vec P |_S \cdot \hat n_{s}
 $$
 
-## Ruptura Dieléctrica
+# Ruptura Dieléctrica
 
 Todos los dieléctricos tienen un punto en el que se rompen, y dejan de tener sus propiedades. Este punto es el campo máximo. Tambien se da como el máximo voltaje operativo, que se refiere al máximo diferencial de potencial que acepta un dieléctrico.

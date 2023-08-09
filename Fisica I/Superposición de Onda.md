@@ -1,6 +1,6 @@
 Las ondas son soluciones de ecuaciones diferenciales lineales, por lo que la suma algebraica de dos ondas sigue siendo una onda.
 
-## Ondas Estacionarias
+# Ondas Estacionarias
 
 Las ondas estacionarias se generan cuando se superponen dos ondas de igual velocidad y frecuencia. Pero distinto sentido
 
@@ -19,9 +19,9 @@ El **nodo** es el punto donde la perturbación es nula. El **vientre** es el pun
 
 El modo de la onda $n$ determina la cantidad de vientres que tiene la onda. El primer modo se denomina onda estacionaria fundamental. Mientras que el segundo se denomina primer armónico.
 
-### Cuerdas
+## Cuerdas
 
-#### Ambos Extremos Fijos
+### Ambos Extremos Fijos
 
 Si los extremos de la cuerda de longitud $L$ son fijos, entonces las ondas estacionarias solo se dan en ciertas frecuencias.
 
@@ -37,7 +37,7 @@ $$
 
 $n=1,2,3,...$
 
-#### Un Extremo Fijo
+### Un Extremo Fijo
 
 Si solo uno de los extremos esta fijo, entonces ese extremo es un nodo, y el otro extremo es un vientre.
 
@@ -47,9 +47,9 @@ $$
 
 $n=1,2,3,...$
 
-### Tubos
+## Tubos
 
-#### Ambos Extremos Abiertos
+### Ambos Extremos Abiertos
 
 En este caso, en los extremos la presión coincide con la presión atmosférica, por lo que son vientres. Debido a esto, el planteo es idéntico a la cuerda con extremos fijos.
 
@@ -71,7 +71,7 @@ $$
 
 $n=1,2,3,...$
 
-#### Un Extremo Abierto
+### Un Extremo Abierto
 
 Si cierro un extremo, entonces uno de los extremos es un nodo, y el otro es un vientre. Se resuelve como una cuerda con un extremo fijo.
 
@@ -85,11 +85,11 @@ $$
 
 $n=1,2,3,...$
 
-### Resonancia
+## Resonancia
 
 Si la frecuencia de la onda es la misma que la frecuencia natural de la caja de resonancia, entonces la amplitud del sonido aumenta considerablemente
 
-## Batidos
+# Batidos
 
 Los batidos ocurren cuando dos ondas armónicas de igual amplitud pero de frecuencias diferentes se propagan en el mismo medio
 

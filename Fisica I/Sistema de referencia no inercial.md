@@ -8,7 +8,7 @@ $$
 
 ![[Sistema de referencia no inercial 1.png]]
 
-## Fuerza Ficticia
+# Fuerza Ficticia
 
 La fuerza ficticia es el efecto de inercia, se agrega para que la equacion de Newton sea valida.
 

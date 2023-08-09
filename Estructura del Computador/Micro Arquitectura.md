@@ -1,6 +1,6 @@
 La tarea principal de una computadora es la de ejecutar un algoritmo, para esto utiliza operaciones muy sencillas de forma ordenada. Estas operaciones sencillas se pueden utilizar en conjunto para resolver problemas complejos.
 
-## Arquitectura Harvard
+# Arquitectura Harvard
 
 ![[Micro Arquitectura 1.png]]
 
@@ -8,7 +8,7 @@ Este modelo corresponde a la arquitectura de las primeras computadoras, sin emba
 
 Se utiliza para dispositivos automaticos que no requieren programacion. Tiene pequeño volumen de memoria dedatos y de programa
 
-## Arquitectura Von Neumann
+# Arquitectura von Neumann
 
 ![[Micro Arquitectura 2.png]]
 
@@ -16,7 +16,7 @@ En este modelo, se unifica el almacenamiento de datos con las instrucciones, lo 
 
 Es mas versatil lo que permite resolver una variedad de problemas.
 
-## Problema del Conexionado
+# Problema del Conexionado
 
 Cuando quiero conectar muchos dispositivos, no pueden estar todos conectados con el CPU directamente. Para resolver esto, se utilizan buses.
 
@@ -34,7 +34,7 @@ Este sistema de buses permite conectar componente de una computadora, asi como v
 
 En este sistema, los dipositivos de entrada y salida estan mapeados en memoria. En caso de no ser asi, se debera usar un bus distinto para comunicarse con ellos.
 
-## Arquitectura del Microprocesador
+# Arquitectura del Microprocesador
 
 Para ejecutar un programa, el micropocesador realiza el llamado **Ciclo Fetch**, o ciclo de busqueda-ejecución.
 
@@ -45,7 +45,7 @@ Para ejecutar un programa, el micropocesador realiza el llamado **Ciclo Fetch**,
 
 Hay distintas formas de implementar este ciclo de busqueda, y estas varian en la velocidad o el consumo del mismo.
 
-### Unidad de Datos
+## Unidad de Datos
 
 La unidad de datos es la parte del procesador que se encarga de realizar las operaciones y guardar los registros. Para realizar esto utiliza tres buses. Se puede realizar con menos buses, pero son soluciones mas lentas, ya que requiere mas ciclos de reloj para guardar los datos a usar en registros correspondientes, para luego ser usados.
 
@@ -76,7 +76,7 @@ No todos los registros se implementan de la misma forma, hay algunos con caracte
 - **Registro PC:** Los ultimos dos bits valen siempre 0, por lo que no necesita flip flops alli.
 - **Registro IR:** Tiene salidas especiales para cada campo, tiene comunicacion bit a bit. Esto permite analizar la instruccion a ejecutar.
 
-#### ALU
+### ALU
 
 Para implementar las operaciones, utiliza dos componentes:
 
@@ -86,9 +86,10 @@ Para implementar las operaciones, utiliza dos componentes:
 > [!note]
 > En la tabla no estan todas las operaciones, la operacion subcc por ejemplo se puede realizar con un complemento y un suma. De esto se encarga la unidad de control.
 
+
 La ALU calcula los flags de cada operación y los carga en el registro **PSR** en cada de ser necesario.
 
-### Unidad de Control
+## Unidad de Control
 
 Hay dos formas de implementarla, con logica micro-programada o con logica cableada. El diseño cableado puede ser mas dificil de diseñar y de modificar. El micro-programa se puede grabar mientras que el diseño cableado debe cambiar completamente. Sin embargo, es un método mas rápido. Nos vamos a centrar en diseño micro-programado
 
@@ -102,9 +103,9 @@ Para diseñarlo, se utilizan contadores que permiten indicar en que estado nos e
 - **MIR:** Aca se almacenan la instrucciones de la ROM que deben ser ejecutadas
 - **CS-Addres-MUX:** Envia la direccion a ejecutar dependiendo de su entrada de control.
 
-	Esta conectado con el CSAT, con los codigos de operacion de la instruccion almacenada en IR, y con la direccion de salto de la MIR.
+    Esta conectado con el CSAT, con los codigos de operacion de la instruccion almacenada en IR, y con la direccion de salto de la MIR.
 
-	A partir de una entrada de control proveniente de el CBL, decide que entrada tomar y envia al decodificador.
+    A partir de una entrada de control proveniente de el CBL, decide que entrada tomar y envia al decodificador.
 
 - **Decodificador:** Permite habilitar unicamente la instruccion deseada de la ROM, para ser copiada en el MIR.
 - **CSAT:** Es el contador de instrucciones, indica cual es la siguiente instruccion en la ROM
@@ -113,7 +114,7 @@ Para diseñarlo, se utilizan contadores que permiten indicar en que estado nos e
 
 Como la lectura de memoria puede ser mas lenta, se utiliza el **ACK (Acknowledge)**, por este canal se envia un 1 una vez que termino la operacion en memoria. Permite indicarle a la unidad de control que puede seguir con la proxima instruccion.
 
-#### Formato de Instrucciones MIR
+### Formato de Instrucciones MIR
 
 ![[Micro Arquitectura 6.png]]
 
@@ -139,12 +140,12 @@ Para las instrucciones de assembly que no contienen ***OP3, se le asigna a toda 
 
 Para no repetir el microcodigo en cada instrucciones, se puede utilizar la **nanoprogramación.** Consiste en remplazar la tabla de *2048wordsx41bits* por una tabla de *2048wordsx7bits*, donde se redirige a una nueva tabla de *100wordsx41bits*, la cual contiene el microcodigo para cada operación.
 
-#### **Tablas De Operaciones**
-
-Codigos de Condicion
+### **Tablas de Operaciones**
 
 ![[Micro Arquitectura 7.png]]
 
-Codigos de la ALU
+Codigos de Condicion
 
 ![[Micro Arquitectura 8.png]]
+
+Codigos de la ALU
