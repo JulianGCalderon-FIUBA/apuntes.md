@@ -4,7 +4,7 @@ $$
 Ax^2 + By^2 + Cz^2 + Dxy + Eyz + Fzx + Gx + Hy + Iz + J = 0
 $$
 
-## Esferas Y Elipsoides
+## Esferas y Elipsoides
 
 $$
 \boxed{\frac{(x+x_0)^2}{a^2} + \frac{(y+y_0)^2}{b^2} + \frac{(z+z_0)^2}{c^2} = 1}
@@ -30,7 +30,7 @@ si $a$ y $b$ tienen distinto signo, se trata de un paraboloide hiperbólico
 
 ![[Cuádricas 3.png]]
 
-## Hiperboloides Y Conos
+## Hiperboloides y Conos
 
 $$
 \boxed{ax^2 + by^2 - cz^2 = d}

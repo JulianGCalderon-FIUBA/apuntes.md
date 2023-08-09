@@ -29,7 +29,7 @@ El **software** de la calidad es un conjunto de tres conceptos:
 - Recursos humanos motivados y entrenados.
 - Tecnología.
 
-## Verificación Y Validación
+## Verificación y Validación
 
 Hay dos términos distintos que se suelen confundir entre sí. A veces se utilizan de forma intercambiable.
 

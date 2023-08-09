@@ -52,7 +52,7 @@ $$
 
 **Teorema:** La función $f$ tiene un cero de multiplicidad $m$ en $p$ si $0 =f(p) = f'(p) = \cdots = f^{(m-1)}(p)$ y $f^{(m)}(p) \neq 0$
 
-### Modificación Del Método para Raíces Múltiples
+### Modificación del Método para Raíces Múltiples
 
 Si $f(x)$ tiene raíces multiples, entonces para encontrar esas raíces manteniendo la convergencia cuadrática, planteo la función iterativa como
 

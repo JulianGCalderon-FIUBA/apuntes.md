@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis de la Información/Design Thinking.md",
+                "file": "Algoritmos II/Arboles Generales.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis de la Información/Design Thinking.md",
+                "file": "Algoritmos II/Arboles Generales.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis de la Información/Design Thinking.md",
+                "file": "Algoritmos II/Arboles Generales.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis de la Información/Design Thinking.md",
+                "file": "Algoritmos II/Arboles Generales.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis de la Información/Design Thinking.md"
+                "file": "Algoritmos II/Arboles Generales.md"
               }
             }
           },
@@ -176,32 +176,32 @@
   },
   "active": "c42caadea4e53a08",
   "lastOpenFiles": [
-    "Análisis de la Información/Diseño de Datos.md",
-    "Análisis de la Información/Gherkin.md",
-    "Análisis de la Información/Historias de Dominio.md",
+    "Algoritmos II/Punteros.md",
+    "Algoritmos II/Pilas, Colas y Listas.md",
+    "Algoritmos II/Memoria.md",
+    "Algoritmos II/Grafos.md",
+    "Algoritmos II/Iteradores de Lista.md",
     "Análisis de la Información/Historias de Usuario.md",
-    "Análisis de la Información/Ingeniería de Requisitos.md",
-    "Análisis de la Información/Innovación y Creatividad.md",
-    "Análisis de la Información/Interfaces de Usuario.md",
-    "Análisis de la Información/Design Thinking.md",
-    "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
-    "Análisis de la Información/Arquitectura del Software.md",
-    "Análisis de la Información/Análisis de la Información.md",
+    "Análisis de la Información/Historias de Dominio.md",
+    "Análisis de la Información/Gherkin.md",
+    "Algoritmos I/Conceptos Básicos.md",
+    "Algoritmos I/Bibliotecas Personales.md",
+    "Algoritmos I/Algoritmos I.md",
+    "Algoritmos II/Arboles Auto Balanceados.md",
+    "Algoritmos II/Arboles Generales.md",
+    "Algoritmos II/Diccionario y Hash.md",
+    "Algoritmos II/Análisis de Algoritmos.md",
+    "Algoritmos II/Algoritmos II.md",
+    "Algoritmos II/Algoritmos de Grafos.md",
+    "Algoritmos II/TDA.md",
+    "Algoritmos II/Recursividad.md",
     "Algoritmos I/Recursividad.md",
     "Algoritmos I/Operaciones con Arreglos.md",
     "Algoritmos I/Operaciones con archivos.md",
     "Algoritmos I/Manejo de Archivos.md",
-    "Algoritmos I/Conceptos Básicos.md",
-    "Algoritmos I/Bibliotecas Personales.md",
-    "Algoritmos I/Algoritmos I.md",
     "Algebra II/Transformaciones Lineales.md",
     "Algebra II/Subespacios de Matriz.md",
     "Algebra II/Subespacios.md",
-    "Algebra II/Sistemas de E D Homogéneas.md",
-    "Algebra II/Resumen - Álgebra II.md",
-    "Algebra II/Producto Interno.md",
-    "Algebra II/Ortogonalidad.md",
-    "Algebra II/Operaciones entre Subespacios.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",

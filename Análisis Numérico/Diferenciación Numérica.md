@@ -2,7 +2,7 @@
 
 Son aproximaciones simples que se realizan a partir de utilizar dos puntos de la funcion original. Se deducen a partir del teorema de Taylor, despejando la derivada primera e ignorando las derivadas siguientes.
 
-### Diferencias Progresivas (adelanto) Y Regresivas (atraso)
+### Diferencias Progresivas (adelanto) y Regresivas (atraso)
 
 Se realizan a partir de evaluar en un punto y a una distancia $h$ del punto
 

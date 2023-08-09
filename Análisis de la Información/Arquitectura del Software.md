@@ -17,7 +17,7 @@ Si priorizamos la resiliencia, esto puede afectar la eficiencia del sistema ya q
 
 La disponibilidad y la confianza en sí solos no son suficientes para un sistema, no importa que tan bien diseñado este un sistema, siempre podrá fallar.
 
-## Arquitecturas Y Patrones
+## Arquitecturas y Patrones
 
 **Pipe And Filter:** Componentes conectados a travès de conectores que procesan información. Consiste en manipular los datos de forma secuencial aplicando múltiples funciones hasta llegar al resultado
 

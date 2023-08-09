@@ -28,7 +28,7 @@ A partir de los requisitos, debemos definir:
 
 La transición entre los requisitos y el diseño son difíciles.
 
-## Principios Clásicos Del Diseño
+## Principios Clásicos del Diseño
 
 A lo largo de la carrera, vimos multiples principios de clásicos del diseño:
 
@@ -113,7 +113,7 @@ Un lenguaje abierto para modelar arquitecturas corporativas, el modelado se real
 - Aplicación (software)
 - Tecnología (hardware y comunicaciones)
 
-## Interfaces Del Usuario
+## Interfaces del Usuario
 
 Es un elemento clave del usuario, es un tema critico. Si una aplicación es muy buena pero con mala interfaz, el producto será malo.
 

@@ -16,7 +16,7 @@ Son aquellos puntos del dominio donde puede que existan extremos
 
 Un punto estacionario pero que no es extremo se denomina **"punto silla"** o **"de ensilladura"**
 
-### Criterio Del Hessiano
+### Criterio del Hessiano
 
 El *determinante hessiano de* $f$ vale:
 

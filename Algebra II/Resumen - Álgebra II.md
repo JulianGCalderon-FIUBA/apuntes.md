@@ -16,7 +16,7 @@ $$
 M_B^{B'} = M_e^{B'}M_B^e
 $$
 
-## Subespacios Fundamentales de Una Matriz
+## Subespacios Fundamentales de una Matriz
 
 - $\text{Col}(A)$. Generador por las columnas de $A$, Representa la imagen de la transformación lineal definida por $A$
 - $\text{Fil}(A)$. Generado por las filas de $A$, Representa el dominio que no pertenece al nulo de la transformación lineal definido por $A$

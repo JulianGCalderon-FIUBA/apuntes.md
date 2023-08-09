@@ -4,7 +4,7 @@ $$
 
 Geométricamente, el punto fijo se encuentra cuando la función corta la recta $y=x$
 
-## Teoremas Del Punto Fijo
+## Teoremas del Punto Fijo
 
 **Teorema 1.1:** Si $f\in\mathscr C[a,b]$ y $f(x) \in [a,b]\ \forall\ x \in [a,b]$ entonces existe punto fijo
 

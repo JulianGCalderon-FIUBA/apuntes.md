@@ -59,7 +59,7 @@ Cada situación requiere un enfoque distinto, cada uno tiene sus propias problem
 
 ## Requisitos en Desarrollo Ágil
 
-### Proceso Unificado Y Variantes
+### Proceso Unificado y Variantes
 
 Los requisitos suceden con diverso grado de intensidad dependiendo de la fase. En las primeras fases del proyecto hay mucho análisis de requisito, y luego va disminuyendo gradualmente, pero nunca finaliza.
 

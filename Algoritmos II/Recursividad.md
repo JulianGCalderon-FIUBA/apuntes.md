@@ -51,7 +51,7 @@ int factorial (int n)
 }
 ```
 
-## Divide Y Conquista
+## Divide y Conquista
 
 El método ***divide y conquista*** es una forma general no solo de solucionar problemas, sino también de diseñar algoritmos.
 

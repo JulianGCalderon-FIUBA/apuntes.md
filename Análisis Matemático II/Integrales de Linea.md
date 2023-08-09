@@ -125,7 +125,7 @@ $$
 
 Se resuelve integrando y derivando respecto de $x,y,z$.
 
-### Condición Necesaria Y Suficiente para Campo Conservativo
+### Condición Necesaria y Suficiente para Campo Conservativo
 
 Sea $F$ un campo de fuerzas, entonces es conservativo en $D$ si $J_F$ es simétrico y continuo en $D$, y $D$ es simplemente conexo.
 

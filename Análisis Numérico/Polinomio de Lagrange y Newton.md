@@ -10,7 +10,7 @@ $$
 L_k(x) = \prod_{i=0, i\neq k}^n \frac{(x-x_i)}{(x_k - x_i)}
 $$
 
-### Teorema Del Error
+### Teorema del Error
 
 Supongamos $x_0, x_1, \cdots, x_n$ son números distintos en el intervalo $[a,b]$ y que $f \in C^{n+1}[a,b]$. Entonces, para cada $x$ en $[a,b]$ existe un numero $\xi(x)$ en $(a,b)$ con la propiedad:
 
@@ -57,7 +57,7 @@ $$
 > [!note]
 > Podemos ignorar el ultimo termino de la suma, y utilizarlo como su cota de error.
 
-### Cálculo Del Error
+### Cálculo del Error
 
 Sea $f \in C^n[a,b]$ y $x_0, x_1, \cdots, x_n$ números distintos en el intervalo $[a,b]$. Entonces existe un número $\xi \in (a,b)$ tal que
 

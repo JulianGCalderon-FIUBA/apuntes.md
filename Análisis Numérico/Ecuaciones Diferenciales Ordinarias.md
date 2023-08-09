@@ -97,7 +97,7 @@ k_2 = f(t_i + \frac h2, y_i + \frac{k_1h}{2})
 \end{cases}
 $$
 
-### Runge-Kutta Del Orden 3
+### Runge-Kutta del Orden 3
 
 Para el orden $3$, se generan seis ecuaciones con ocho incognitas. La versión más común de este método es:
 
@@ -111,7 +111,7 @@ k_3 = f(t_i + h, y_i - k_1h + 2k_2h)
 \end{cases}
 $$
 
-### Runge-Kutta Del Orden 4
+### Runge-Kutta del Orden 4
 
 Para el orden $3$, se generan seis ecuaciones con ocho incognitas. La versión más común de este método es:
 

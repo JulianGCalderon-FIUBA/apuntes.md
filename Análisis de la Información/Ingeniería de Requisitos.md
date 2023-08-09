@@ -62,7 +62,7 @@ Un correcto trabajo de la ingeniería de requisitos tiene múltiples ventajas:
 - Entrega mas rapida del producto
 - Menos costos de mantenimiento
 
-## Involucramiento Del Cliente
+## Involucramiento del Cliente
 
 Muchas veces, el cliente no forma parte del equipo. Esto dificulta la comunicación. Puede haber múltiples cliente. Si contamos con un representante con un cliente en el equipo ya que este experto está disponible para consultarlas necesidades. No tiene que haber comunicación tan formal. Obtendremos un feedback más fluido.
 

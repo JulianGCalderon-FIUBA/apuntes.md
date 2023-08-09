@@ -1,4 +1,4 @@
-## Estructura de Un Programa
+## Estructura de un Programa
 
 Un programa puede encontrarse en varias etapas:
 

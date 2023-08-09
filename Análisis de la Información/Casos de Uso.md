@@ -89,7 +89,7 @@ En este modelo el comportamiento se describe con objetos de análisis, abstracci
 
 A partir del modelo de análisis, se da lugar al modelo de diseño
 
-## Contratos Y Operaciones
+## Contratos y Operaciones
 
 *á la Larman* propone un modelo de casos de uso más completo que además de los casos de uso propiamente dichos, contiene contratos y operaciones. Nos encontraremos con diagramas de secuencia y contratos para cada operación
 

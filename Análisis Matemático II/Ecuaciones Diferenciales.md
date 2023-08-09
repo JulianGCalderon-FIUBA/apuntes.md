@@ -28,7 +28,7 @@ Una **solución singular** es una solución que verifica la ecuación, pero no p
 
 Vamos a estudiar ecuaciones diferenciales de orden $1$
 
-## Existencia Y Unicidad
+## Existencia y Unicidad
 
 $$
 \text{PVI }\begin{cases}y' = f(x,y)\\f(x_0) = y_0\end{cases}

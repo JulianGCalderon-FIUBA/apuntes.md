@@ -54,7 +54,7 @@ A cada nodo le modificamos el factor de balanceo en uno hasta que encontramos un
 
 En el borrado a veces es necesario aplicar mas de una rotación.
 
-## Árbol Rojo Y Negro
+## Árbol Rojo y Negro
 
 Un árbol Rojo-Negro es un árbol binario de búsqueda auto-balanceado. Cada nodo de este árbol posee una información extra que es el color del nodo.
 

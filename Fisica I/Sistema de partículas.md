@@ -37,7 +37,7 @@ $$
 > [!note]
 > Se tienen en cuenta solo las fuerzas externas al sistema, ya que las fuerzas internas se cancelan entre si
 
-## Momento Cinetico Y Torque
+## Momento Cinetico y Torque
 
 $$
 \vec L_o = \sum \vec r_i \times \vec p_i

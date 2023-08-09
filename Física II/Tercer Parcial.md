@@ -235,7 +235,7 @@ $$
 I_{ef} = \frac{I_0}{\sqrt 2}
 $$
 
-## Potencia Activa Y Reactiva
+## Potencia Activa y Reactiva
 
 $$
 P(t) = v_0\ i_0 \cdot \cos(wt) \cdot \cos(wt +\phi_{iv})

@@ -18,7 +18,7 @@ $$
 f[z_0] + \sum_{k=1}^{2n+1} f[z_0, \cdots, z_k] (x-z_0) \cdots (x-z_{k-1})
 $$
 
-## Fórmula Del Error para El Polinomio de Hermite
+## Fórmula del Error para El Polinomio de Hermite
 
 Al igual que con el polinomio de Lagrange, se puede aproximar a la función usando el polinomio a partir de la siguiente fórmula
 

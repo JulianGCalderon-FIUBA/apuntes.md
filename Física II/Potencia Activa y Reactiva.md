@@ -26,7 +26,7 @@ $$
 \langle p(t) \rangle =v_{ef}\ i_{ef}  \cdot \cos(\phi_z) =i_{ef}^2 \cdot R
 $$
 
-## Potencia Activa Y Reactiva
+## Potencia Activa y Reactiva
 
 Tambien podemos reescribir la potencia en función de la potencia activa y la reactiva, siendo:
 

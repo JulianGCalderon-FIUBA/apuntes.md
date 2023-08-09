@@ -440,7 +440,7 @@ $$
 
 Llamamos $\mu$ al momento dipolar magnético. $\vec \mu = I\vec A$
 
-## Ley de Biot Y Savalt
+## Ley de Biot y Savalt
 
 $$
 \vec B = K_m \cdot \frac{q\cdot \vec v \times (\vec r - \vec r')}{\|\vec r - \vec r'\|^3}
