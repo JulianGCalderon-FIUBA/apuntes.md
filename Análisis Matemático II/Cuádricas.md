@@ -4,7 +4,7 @@ $$
 Ax^2 + By^2 + Cz^2 + Dxy + Eyz + Fzx + Gx + Hy + Iz + J = 0
 $$
 
-## Esferas y Elipsoides
+## Esferas Y Elipsoides
 
 $$
 \boxed{\frac{(x+x_0)^2}{a^2} + \frac{(y+y_0)^2}{b^2} + \frac{(z+z_0)^2}{c^2} = 1}
@@ -12,9 +12,9 @@ $$
 
 $a, b, c$: Longitud de semiejes
 
-![[Cuádricas 1.png|Cua%CC%81dricas%2071bc41736dd84a3b9631889f1022a98f/Untitled.png]]
+![[Cuádricas 1.png]]
 
-# Paraboloide
+## Paraboloide
 
 $$
 \boxed{z = ax^2 + by^2 }
@@ -30,7 +30,7 @@ si $a$ y $b$ tienen distinto signo, se trata de un paraboloide hiperbólico
 
 ![[Cuádricas 3.png|Cua%CC%81dricas%2071bc41736dd84a3b9631889f1022a98f/Untitled%202.png]]
 
-# Hiperboloides y Conos
+## Hiperboloides Y Conos
 
 $$
 \boxed{ax^2 + by^2 - cz^2 = d}

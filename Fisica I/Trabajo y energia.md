@@ -1,8 +1,8 @@
-# Trabajo
+## Trabajo
 
 Se define como la energia necesaria para para desplazar a un objeto
 
-Es un escalar, Se mide en Julios $J = [N\cdot m]$ 
+Es un escalar, Se mide en Julios $J = [N\cdot m]$
 
 $$
 \begin{align*}&W = \vec F \cdot \vec{\Delta r}\\&W = |\vec F| \cdot |\vec{\Delta r}| \cdot \cos \alpha\end{align*}
@@ -17,26 +17,26 @@ $$
 Si $F$ no es constante:
 
 $$
- ⁍
+\displaystyle W = \int_{x_1}^{x_2} F_x dx
 $$
 
 ![[Trabajo y energia 1.png|Trabajo%20y%20energia%20b1bba79afd484df19dbd15956960b044/Untitled.png]]
 
 ![[Trabajo y energia 2.png|Trabajo%20y%20energia%20b1bba79afd484df19dbd15956960b044/Untitled%201.png]]
 
-# Energia
+## Energia
 
 La energia de un sistema mide su capacidad de hacer trabajo. No se destruye nunca, solo se transforma de un tipo a otro.
 
-Es un escalar, Se mide en Julios $J = [N\cdot m]$ 
+Es un escalar, Se mide en Julios $J = [N\cdot m]$
 
-## Energia Mecanica
+### Energia Mecanica
 
 $$
 \boxed{E_M = E_C + E_P}
 $$
 
-### Energia cinetica
+#### Energia Cinetica
 
 Asociada al movimiento
 
@@ -44,7 +44,7 @@ $$
 E_C = \frac12mv^2
 $$
 
-### Energia potencial
+#### Energia Potencial
 
 Asociada a la posicion
 
@@ -56,7 +56,7 @@ $$
 E_{P_e} = \frac 12k\cdot(\Delta x)^2
 $$
 
-# Conservacion de la energia mecancia
+## Conservacion de la Energia Mecancia
 
 Cuando en un sistema solo intervienen fuerzas conservativas, se conserva la energia mecanica
 
@@ -64,7 +64,7 @@ $$
 \boxed{E_{C_i} + E_{P_i}  = E_{C_f} + E_{P_f}}
 $$
 
-## Conservativas $F_C$
+### Conservativas $F_C$
 
 El trabajo NO depende de la trayectoria.
 
@@ -74,7 +74,7 @@ El trabajo sobre una trayectoria cerrada ES nulo
 - Fuerzas elásticas
 - Fuerza electrica
 
-## No conservativas: $F_{NC}$
+### No Conservativas: $F_{NC}$
 
 El trabajo SI depende de la trayectoria
 
@@ -83,7 +83,7 @@ El trabajo sobre una trayectoria cerrada NO ES nulo
 - Rozamiento
 - Fuerzas magneticas
 
-# Teorema de las fuerzas vivas
+## Teorema de Las Fuerzas Vivas
 
 $$
 \boxed{W = \Delta E_C}

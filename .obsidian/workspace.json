@@ -6,6 +6,7 @@
       {
         "id": "39685dd574e99dd1",
         "type": "tabs",
+        "dimension": 50.72674418604651,
         "children": [
           {
             "id": "1a45e0e2eb723714",
@@ -13,11 +14,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica I/Trabajo y energia.md",
+                "file": "Análisis Matemático II/Cuádricas.md",
                 "mode": "source",
                 "source": true
               }
-            }
+            },
+            "group": "cbc33e7c2ca0aef2"
+          }
+        ]
+      },
+      {
+        "id": "d0a08538dc1c9ffc",
+        "type": "tabs",
+        "dimension": 49.27325581395349,
+        "children": [
+          {
+            "id": "85b1a160e80f2d3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Análisis Matemático II/Cuádricas.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "cbc33e7c2ca0aef2"
           }
         ]
       }
@@ -48,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "⁍",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,12 +87,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -86,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica I/Trabajo y energia.md",
+                "file": "Análisis Matemático II/Cuádricas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica I/Trabajo y energia.md",
+                "file": "Análisis Matemático II/Cuádricas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica I/Trabajo y energia.md"
+                "file": "Análisis Matemático II/Cuádricas.md"
               }
             }
           }
@@ -135,7 +157,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,14 +170,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a45e0e2eb723714",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
+    "Análisis Matemático II/Cónicas.md",
+    "Análisis Matemático II/Análisis Matemático II.md",
+    "Fisica I/Trabajo y energia.md",
     "Análisis Matemático II/Topología.md",
     "Matemática Discreta/Nociones Básicas.md",
     "Fisica I/Magnitudes escalares y vectoriales.md",
-    "Análisis Matemático II/Cónicas.md",
     "Matemática Discreta/Álgebra de Boole.md",
-    "Análisis Matemático II/Análisis Matemático II.md",
     "Análisis Numérico/Ajuste.md",
     "Análisis de la Información/Web Rest API.md",
     "Análisis de la Información/Verificar y Validar requerimientos.md",
@@ -174,7 +198,6 @@
     "Análisis de la Información/Ingeniería de Requisitos.md",
     "Análisis de la Información/Historias de Usuario.md",
     "Análisis de la Información/Historias de Dominio.md",
-    "Análisis de la Información/Gherkin.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",
