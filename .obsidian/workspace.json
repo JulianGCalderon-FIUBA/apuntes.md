@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmos I/Manejo de Archivos.md",
+                "file": "Sistemas Operativos/Archivos y Directorios.md",
                 "mode": "source",
                 "source": true
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/``[^`]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmos I/Manejo de Archivos.md",
+                "file": "Sistemas Operativos/Archivos y Directorios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmos I/Manejo de Archivos.md",
+                "file": "Sistemas Operativos/Archivos y Directorios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmos I/Manejo de Archivos.md"
+                "file": "Sistemas Operativos/Archivos y Directorios.md"
               }
             }
           },
@@ -139,12 +138,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 332.5,
-    "collapsed": true
+    "width": 332.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,14 +155,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "178700d707526f5b",
+  "active": "a38d35fa6246a4b7",
   "lastOpenFiles": [
+    "Sistemas Operativos/API de Threads.md",
+    "Algoritmos I/Manejo de Archivos.md",
     "Algoritmos I/Conceptos Básicos.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.md",
     "Sistemas Operativos/Archivos y Directorios.md",
     "Sistemas Operativos/Bugs de Concurrencia.md",
     "Sistemas Operativos/API de Memoria.md",
-    "Sistemas Operativos/API de Threads.md",
     "Sistemas Operativos/Concurrencia.md",
     "Física II/Capacitores.md",
     "Análisis Matemático II/Rectas y Planos.md",
@@ -184,7 +183,6 @@
     "Matemática Discreta/Ecuaciones de Recurrencia.md",
     "Matemática Discreta/Caminos y Distancias.md",
     "Matemática Discreta/Algoritmos.md",
-    "Matemática Discreta/Álgebra de Conjuntos.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",
