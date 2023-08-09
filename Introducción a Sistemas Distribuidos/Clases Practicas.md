@@ -238,13 +238,13 @@ Los headers de **IP** tienen tres campos utilizados para la fragmentación:
 4. Como nuestro fragmento debe tener un tamaño múltiplo de 8, entonces debemos hallar el máximo valor permitido múltiplo de 8, este será:
 
 	$$
-    FP = \Bigg⌊\frac{\max FP}8\Bigg⌋\cdot 8
+    FP = \bigg\lfloor\frac{\max FP}8\bigg\rfloor\cdot 8
     $$
 
 5. A partir del ***nuestro fragment payload size***, podremos calcular la cantidad de fragmentos que debemos enviar como
 
 	$$
-    \#\text{Fragments} = \Bigg⌈\frac{P}{FP}\Bigg⌉
+    \#\text{Fragments} = \bigg\lceil\frac{P}{FP}\bigg\rceil
     $$
 
 6. Construiremos un fragmento con ***payload size*** $FP$***, datagram size*** $FP + \text{Header IP}$, y ***fragment offset*** de 0.

@@ -1,8 +1,9 @@
 {
   "accentColor": "",
-  "cssTheme": "Things",
+  "cssTheme": "Obsidian Nord",
   "enabledCssSnippets": [
-    "center-image"
+    "center-image",
+    "center-table"
   ],
   "baseFontSize": 17,
   "theme": "obsidian"
