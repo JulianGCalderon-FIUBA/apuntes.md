@@ -92,7 +92,7 @@ El producto interno es una operación que cumple con las siguientes propiedades
 - $\langle u,u\rangle > 0 \iff u \in \Bbb V \neq 0_V$
 - $\langle u,u\rangle = 0 \iff u \in \Bbb V = 0_V$
 
-### Nociones Del PI
+### Nociones del PI
 
 **Norma:** (inducida por el producto interno)
 
@@ -134,7 +134,7 @@ $$
 A(\triangle) = \sqrt{\|e_1\|^2\|e_2\|^2 - \langle e_1, e_2\rangle^2}
 $$
 
-### Base Del PI
+### Base del PI
 
 Sea $B = \{v_1,...,v_n\}$ Entonces podemos definir el producto interno en todo el espacio a partir de los generadores de la base de la siguiente manera.
 

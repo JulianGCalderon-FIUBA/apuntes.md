@@ -135,7 +135,7 @@ No sólo para descubrir requisitos, también es útil para analizarlos. No se de
 
 Pueden ser evolutivos o descartables, y hechos con papel y lápiz.
 
-### Ears (Easy Approach to Requirements Synax)
+### EARS (Easy Approach to Requirements Syntax)
 
 Es un lineamiento para minimizar los problemas derivados de la ambigüedad cuando utilizamos lenguaje natural. *EARS* propone formatos muy específicos para describir requisitos:
 

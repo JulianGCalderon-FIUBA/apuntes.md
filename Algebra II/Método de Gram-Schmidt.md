@@ -40,7 +40,7 @@ $$
 w_n' := \frac{w_n}{\|w_n\|}
 $$
 
-## Descomposición $QR$ de Una Matriz $A$
+## Descomposición $QR$ de una Matriz $A$
 
 Con el algoritmo de Gram-Schmidt teníamos una forma de encontrar vectores $w_i$ ortogonales entre si. En lugar de los vectores $w$, podemos despejar los vectores $v$.
 
