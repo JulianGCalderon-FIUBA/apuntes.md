@@ -11,9 +11,33 @@
             "id": "54c1fa07ae0cf29e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
-            }
+              "type": "markdown",
+              "state": {
+                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
+                "mode": "source",
+                "source": true
+              }
+            },
+            "group": "f2f652640e15ddb1"
+          }
+        ]
+      },
+      {
+        "id": "8cb1e48ba7f547f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0578681b57d41d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "f2f652640e15ddb1"
           }
         ]
       }
@@ -44,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "/\\t-",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +85,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +145,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md"
+              }
             }
           },
           {
@@ -156,8 +185,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "b0578681b57d41d5",
   "lastOpenFiles": [
+    "Organizacion de Datos/Ciencia de Datos.md",
+    "Algebra II/Autovalores y Autovectores.md",
+    "Organizacion de Datos/Arboles.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+    "Algebra II/Algebra II.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Network Layer Data Plane.md",
     "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/What’s Inside a Router.md",
@@ -180,10 +214,6 @@
     "Matemática Discreta/Clasificaciones.md",
     "Matemática Discreta/Nociones Básicas.md",
     "Matemática Discreta/Matemática Discreta.md",
-    "Matemática Discreta/Isomorfismos.md",
-    "Matemática Discreta/Inducción.md",
-    "Matemática Discreta/Grafos Particulares.md",
-    "Matemática Discreta/Grafos Orientados.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",
