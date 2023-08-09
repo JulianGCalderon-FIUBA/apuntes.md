@@ -36,26 +36,26 @@ $$
 \boxed{ax^2 + by^2 - cz^2 = d}
 $$
 
-![[Cuádricas 4.png|Hiperboloide de una hoja]]
-
-Hiperboloide de una hoja
-
-![[Cuádricas 5.png|Hiperboloide de dos hojas]]
-
-Hiperboloide de dos hojas
-
-![[Cuádricas 6.png|Cono]]
-
-Cono
+### Hiperboloide de Una Hoja
 
 $$
 d:\text{positivo}
 $$
 
+![[Cuádricas 4.png|Hiperboloide de una hoja]]
+
+### Hiperboloide de Dos Hojas
+
 $$
 d:\text{negativo}
 $$
 
+![[Cuádricas 5.png|Hiperboloide de dos hojas]]
+
+### Cono
+
 $$
 d=0
 $$
+
+![[Cuádricas 6.png|Cono]]
