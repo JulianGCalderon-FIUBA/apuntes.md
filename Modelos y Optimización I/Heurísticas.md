@@ -10,7 +10,7 @@ Las heurísticas pueden de construcción tener una **garantía de calidad**. Est
 
 Las **meta-heurísticas** plantearan multiples heurísticas para un mismo problema, para encontrar aquella que de mejores soluciones. Puede agrupar heurísticas y aplicar heurísticas tras otras para encontrar la mejor solución.
 
-# Secuenciación de Tareas
+## Secuenciación de Tareas
 
 Recordemos que en estos problemas, tendremos un conjuntos de tareas $T_i$. Buscamos obtener el orden de tareas que minimice el costo total. Contamos con restricciones de orden, donde ciertas tareas deben ser completadas antes que otras. Además, tendremos multiples operarios que pueden trabajar a la vez.
 
