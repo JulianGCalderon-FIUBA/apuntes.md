@@ -344,21 +344,16 @@ Para calcular el resto de valores, utilizamos la técnica del pivote. Se llama p
 
 Esta secuencia de pasos se repite hasta que lleguemos a una solución optima.
 
-- **Tabla Final**
-
-	Podemos observar que no hay valores negativos en la ultima fila, por lo que nos encontramos ante un punto optimo
-
-	| $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
-
-	| --- | --- | --- | --- | --- | --- | --- | --- |
-
-	| 8 | $x_1$ | 199.5 | 1 | 0 | 1 | 0 | -1/2 |
-
-	| 0 | $x_4$ | 198 | 0 | 0 | 2 | 1 | -2 |
-
-	| 10 | $x_2$ | 100.5 | 0 | 1 | -1/2 | 0 | 1/2 |
-
-	| | | 2601 | 0 | 0 | 3 | 0 | 1 |
+> [!example]- Tabla Final
+> 
+> Podemos observar que no hay valores negativos en la ultima fila, por lo que nos encontramos ante un punto optimo
+> 
+> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
+> | --- | --- | --- | --- | --- | --- | --- | --- |
+> | 8 | $x_1$ | 199.5 | 1 | 0 | 1 | 0 | -1/2 |
+> | 0 | $x_4$ | 198 | 0 | 0 | 2 | 1 | -2 |
+> | 10 | $x_2$ | 100.5 | 0 | 1 | -1/2 | 0 | 1/2 |
+> | | | 2601 | 0 | 0 | 3 | 0 | 1 |
 
 ### Problemas de Minimización
 
