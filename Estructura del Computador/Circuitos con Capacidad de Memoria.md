@@ -1,12 +1,12 @@
-La salida de un circuito combinacional, se realimenta como entrada al circuito con cierto retardo. Esto actúa como ‘memoria’.
+La salida de un circuito combinacional, se realimenta como entrada al circuito con cierto retardo. Esto actúa como 'memoria'.
 
-# Circuitos Asincronicos
+## Circuitos Asincronicos
 
 Los circuitos asincronicos no estan sincronizados con un reloj, por lo que todos los componentes trabajan a su capacidad maxima
 
 [[Circuitos Asincronicos]]
 
-# Circuitos Sincrónicos
+## Circuitos Sincrónicos
 
 Todos los circuitos que son parte del sistema están completamente sincronizados con un reloj. No influye el retardo de respuesta del circuito, sino que impone una frecuencia exacta sobre la cual tengo control.
 
@@ -14,7 +14,7 @@ Todo debe estar limitado por el reloj, por lo que no trabajo a la maxima capacid
 
 [[Circuitos Sincronicos]]
 
-# Multiplexores
+## Multiplexores
 
 Reciben un numeo de entradas y seleccionan una a partir de entradas de control
 

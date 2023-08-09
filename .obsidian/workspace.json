@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Numérico/Trazador Cúbico - Spline.md",
+                "file": "Estructura del Computador/Micro Arquitectura.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Numérico/Trazador Cúbico - Spline.md",
+                "file": "Estructura del Computador/Micro Arquitectura.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Numérico/Trazador Cúbico - Spline.md",
+                "file": "Estructura del Computador/Micro Arquitectura.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Numérico/Trazador Cúbico - Spline.md",
+                "file": "Estructura del Computador/Micro Arquitectura.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Numérico/Trazador Cúbico - Spline.md"
+                "file": "Estructura del Computador/Micro Arquitectura.md"
               }
             }
           },
@@ -177,6 +177,18 @@
   },
   "active": "c42caadea4e53a08",
   "lastOpenFiles": [
+    "Estructura del Computador/Funciones Lógicas.md",
+    "Estructura del Computador/Estructura del Computador.md",
+    "Estructura del Computador/Compiladores y Ensambladores.md",
+    "Estructura del Computador/Circuitos Sincronicos.md",
+    "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
+    "Estructura del Computador/Circuitos Asincronicos.md",
+    "Estructura del Computador/Circuitos.md",
+    "Estructura del Computador/Álgebra de Boole.md",
+    "Análisis Numérico/Búsqueda de Raíces.md",
+    "Análisis Numérico/Descomposición de Cholesky.md",
+    "Análisis Numérico/Descomposición LU.md",
+    "Análisis Numérico/Trazador Cúbico - Spline.md",
     "Análisis Numérico/Sistemas no Lineales.md",
     "Análisis Numérico/Sistemas Lineales.md",
     "Análisis Numérico/Series de Fourier.md",
@@ -191,18 +203,6 @@
     "Análisis Numérico/Integración Numérica.md",
     "Análisis Numérico/FFT.md",
     "Análisis Numérico/Errores.md",
-    "Análisis Numérico/Error en Métodos Iterativos.md",
-    "Análisis Numérico/Ecuaciones Diferenciales Ordinarias.md",
-    "Análisis Numérico/Ecuaciones Diferenciales de Orden Superior.md",
-    "Análisis Numérico/Ecuaciones Diferenciales de Frontera.md",
-    "Análisis Numérico/Diferenciación Numérica.md",
-    "Análisis Numérico/Descomposicion LU.md",
-    "Análisis Numérico/Descomposicion de Cholesky.md",
-    "Análisis Numérico/Búsqueda de Raíces.md",
-    "Análisis Numérico/Bisección.md",
-    "Análisis Numérico/Análisis Numérico.md",
-    "Análisis Numérico/Ajuste.md",
-    "Algoritmos II/Algoritmos II.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",
