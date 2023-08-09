@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
+                "file": "Organizacion de Datos/Ciencia de Datos.md",
                 "mode": "source",
                 "source": true
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
+                "file": "Organizacion de Datos/Ciencia de Datos.md",
                 "mode": "preview",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "/^\\t\\t- .+\\n\\t\\t[^-\\t]+",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -107,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
+                "file": "Organizacion de Datos/Ciencia de Datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
+                "file": "Organizacion de Datos/Ciencia de Datos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md"
+                "file": "Organizacion de Datos/Ciencia de Datos.md"
               }
             }
           },
@@ -186,35 +187,35 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "178700d707526f5b",
   "lastOpenFiles": [
-    "Organizacion de Datos/Ciencia de Datos.md",
-    "Algebra II/Autovalores y Autovectores.md",
+    "Matemática Discreta/Álgebra de Boole.md",
     "Organizacion de Datos/Arboles.md",
+    "Modelos y Optimización I/Análisis de Sensibilidad.md",
+    "Análisis Matemático II/Limites.md",
+    "Organizacion de Datos/Ciencia de Datos.md",
+    "Estructura del Computador/Registros y Contadores.md",
+    "Modelos y Optimización I/Variables Enteras.md",
+    "Organizacion de Datos/Transformacion de Datos.md",
+    "Análisis Numérico/Sistemas Lineales.md",
+    "Organizacion de Datos/Redes Recurrentes.md",
+    "Organizacion de Datos/Redes de Aprendizaje Profundo.md",
+    "Análisis de la Información/Modelados de Dominio.md",
+    "Análisis de la Información/Ingeniería de Requisitos.md",
+    "Análisis de la Información/Historias de Usuario.md",
+    "Algoritmos II/Grafos.md",
+    "Organizacion de Datos/Ensambles.md",
+    "Análisis de la Información/Diseño de Datos.md",
+    "Fisica I/Definición Óptica.md",
+    "Introducción a Sistemas Distribuidos/Transport Layer/Connection-Oriented Transport TCP.md",
+    "Introducción a Sistemas Distribuidos/Clases Practicas.md",
+    "Algebra II/Autovalores y Autovectores.md",
     "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
     "Algebra II/Algebra II.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Network Layer Data Plane.md",
     "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/What’s Inside a Router.md",
     "Sistemas Operativos/Archivos y Directorios.md",
-    "Sistemas Operativos/API de Threads.md",
-    "Algoritmos I/Manejo de Archivos.md",
-    "Algoritmos I/Conceptos Básicos.md",
-    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
-    "Sistemas Operativos/Bugs de Concurrencia.md",
-    "Sistemas Operativos/API de Memoria.md",
-    "Sistemas Operativos/Concurrencia.md",
-    "Física II/Capacitores.md",
-    "Análisis Matemático II/Rectas y Planos.md",
-    "Análisis Matemático II/Funciones Implicitas.md",
-    "Probabilidad y Estadistica/Probabilidad.md",
-    "Fisica I/FORMULAS.md",
-    "Matemática Discreta/Subconjuntos de Vertices y Aristas.md",
-    "Matemática Discreta/Relaciones.md",
-    "Matemática Discreta/Operaciones entre Grafos.md",
-    "Matemática Discreta/Clasificaciones.md",
-    "Matemática Discreta/Nociones Básicas.md",
-    "Matemática Discreta/Matemática Discreta.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",
