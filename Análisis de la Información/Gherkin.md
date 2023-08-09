@@ -1,4 +1,4 @@
-## ¿Que Es Bdd?
+## ¿Que Es BDD?
 
 Nace dentro de las metodologías ágiles de software. Busca alentar la colaboración conjunta entre distintas partes interesadas en el proyecto.
 

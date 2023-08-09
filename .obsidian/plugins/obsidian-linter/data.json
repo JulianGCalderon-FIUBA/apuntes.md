@@ -60,7 +60,7 @@
       "use-yaml-key-to-keep-track-of-old-filename-or-heading": true
     },
     "capitalize-headings": {
-      "enabled": true,
+      "enabled": false,
       "style": "Title Case",
       "ignore-case-words": false,
       "ignore-words": "EDO, macOS, iOS, iPhone, iPad, JavaScript, TypeScript, AppleScript, I, DFT, FFT",

@@ -36,7 +36,7 @@ Hay dos términos distintos que se suelen confundir entre sí. A veces se utiliz
 - **Verificación:** ¿Lo hicimos bien? ¿Satisface los requisitos?
 - **Validación:** ¿Hace lo que tiene que hacer? ¿Cumple con las necesidades y expectativas del cliente?
 
-## Pdca
+## PDCA
 
 Este método no es vigente hoy en dia. Un ciclo de mejora continua que consiste en cuatro fases,
 

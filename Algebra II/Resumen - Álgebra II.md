@@ -92,7 +92,7 @@ El producto interno es una operación que cumple con las siguientes propiedades
 - $\langle u,u\rangle > 0 \iff u \in \Bbb V \neq 0_V$
 - $\langle u,u\rangle = 0 \iff u \in \Bbb V = 0_V$
 
-### Nociones Del Pi
+### Nociones Del PI
 
 **Norma:** (inducida por el producto interno)
 
@@ -134,7 +134,7 @@ $$
 A(\triangle) = \sqrt{\|e_1\|^2\|e_2\|^2 - \langle e_1, e_2\rangle^2}
 $$
 
-### Base Del Pi
+### Base Del PI
 
 Sea $B = \{v_1,...,v_n\}$ Entonces podemos definir el producto interno en todo el espacio a partir de los generadores de la base de la siguiente manera.
 
@@ -479,7 +479,7 @@ $$
 A = U_k D_k V_k^*
 $$
 
-### Pseudo Inversa de Moore-penrose
+### Pseudo Inversa de Moore-Penrose
 
 Se le llama así a la matriz $A^\dagger = V_K D_K^{-1} U_K^*$. Definida para toda matriz $m \times n$
 
