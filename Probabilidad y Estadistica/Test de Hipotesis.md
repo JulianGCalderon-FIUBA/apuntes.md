@@ -2,9 +2,9 @@ El test de hipotesis es una regla de decisión entre $H_0, H_1$, la expresamos c
 
 Debo encontrar tests que minimicen la probabilidad de error, priorizando minimizar el error del tipo 1.
 
-# Definiciones
+## Definiciones
 
-Sea $\underline X$ una muestra aleatoria de una poblacion con distribucion parametrica. Sean $\varTheta_1 , \varTheta_2$ dos particiones de $\varTheta$. Un test para este problema es una regla de decisión basada en $\underline X$ para decidir entre 2 hipótesis.
+Sea $\underline X$ una muestra aleatoria de una poblacion con distribucion parametrica. Sean $\varTheta_1, \varTheta_2$ dos particiones de $\varTheta$. Un test para este problema es una regla de decisión basada en $\underline X$ para decidir entre 2 hipótesis.
 
 $$
 H_0: \theta \in \varTheta_1
@@ -44,11 +44,11 @@ $$
 \beta(\theta) = P_\theta(\text{"Error II"}) = 1 -\pi_\delta(\theta),\  \theta \in \varTheta_2
 $$
 
-# P-Valor
+## P-Valor
 
 Definimos el $p$-valor como la probabilidad de encontrar otra muestra tan extremo como la hallada, Si $H_0$ fuera verdadero. Proponemos como limite: $p_V \leq 0.05$
 
-# Test del Cociente de Verosimilitud
+## Test del Cociente de Verosimilitud
 
 Dados dos parametros, buscamos el cociente entre las funciones de verosimilitud de una muestra en cada parametro. Si el cociente $T$ es mayor a un $k_\alpha$, entonces rechazamos la hipotesis nula. Nuestra constante $k_\alpha$ depende de la probabilidad $\alpha$ que deseamos de realizar un error del tipo 1.
 
@@ -62,7 +62,7 @@ $$
 
 Para hallar $k_\alpha$, encuentro $\alpha$ y determino la probabilidad del error que estoy buscando. $T$ es el estadistico de
 
-## Propiedad
+### Propiedad
 
 Sea $\underline X = (X_1, \cdot, X_n)$ una muestra aleatoria con distribucion pertenecient a una familia exponencial, luego
 
@@ -76,18 +76,17 @@ $$
 $$
 
 - Si $C(\theta)$ es decreciente, entonces para $H_0: \theta \leq \theta_1, H_1: \theta > \theta_1$.
-    
-    $$
+
+	$$
     \delta(\underline X) = \begin{cases}
     1 \iff -T > k_\alpha\\
     0 \iff -T \leq k_\alpha
     \end{cases}
     $$
-    
 
 Si $H_0: \theta \geq \theta_1, H_1: \theta < \theta_1$, entonces las desigualdades se invierten.
 
-# Test con Nivel de Significación Asintótico
+## Test con Nivel de Significación Asintótico
 
 Sea $\underline X = (X_1, \cdots, X_n)$ una muestra aleatoria de una población con distribución $F_\theta(x), \theta \in \Theta$
 

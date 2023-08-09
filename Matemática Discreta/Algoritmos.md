@@ -1,4 +1,4 @@
-# DFS
+## DFS
 
 El algoritmo ***Depth First Search*** *(DFS)* es un algoritmo que busca encontrar una orientación fuertemente conexa para un grafo:
 
@@ -9,7 +9,7 @@ El algoritmo ***Depth First Search*** *(DFS)* es un algoritmo que busca encontra
 
 ![[Algoritmos 1.png]]
 
-# Prim
+## Prim
 
 El algoritmo de ***Prim*** es un algoritmo que busca generar un árbol generador mínimo; esto es, a partir de un grafo pesado, genera un árbol generador que minimice la suma del peso de sus aristas.
 
@@ -19,7 +19,7 @@ El algoritmo de ***Prim*** es un algoritmo que busca generar un árbol generador
 
 El árbol generado no es único, pero su peso será el mínimo posible.
 
-# Kruskal
+## Kruskal
 
 El algoritmo de ***Kruskal*** es un algoritmo que, al igual que el algoritmo de ***Prim***, busca generar un árbol generador mínimo.
 
@@ -27,7 +27,7 @@ El algoritmo de ***Kruskal*** es un algoritmo que, al igual que el algoritmo de 
 2. Mientras pueda, agrego la arista mínima que no genere ciclos.
 3. Una vez no tengo mas aristas para agregar, tendré un árbol generador mínimo.
 
-# Dijkstra
+## Dijkstra
 
 El algoritmo de ***Dijkstra*** busca, para un vértice $v$, el camino de longitud mínima hacia el resto de vertices del grafo. Para hacerlo, requiere los siguientes elementos:
 
@@ -42,7 +42,7 @@ El algoritmo es el siguiente:
 3. Repito hasta haber visitado todos los vertices
 4. Puedo calcular la distancia del nodo inicial a todos los nodos a partir de reconstruir los caminos de forma inversa. Tomo un nodo, voy a su nodo marcado como anterior, repito hasta alcanzar el nodo inicial. Luego, puedo reconstruir el camino del nodo inicial al nodo deseado.
 
-# Ford-Fulkerson
+## Ford-Fulkerson
 
 Una red de transporte es un dígrafo $G$ conexo y sin lazos, donde se verifica que:
 
@@ -56,6 +56,6 @@ Buscaremos la cantidad de flujo máximo que podremos transportar desde la fuente
 
 1. Establecemos como condición inicial, $\Phi = 0$
 2. Mientras haya un camino de aumento desde $O$ hacia $T$. Estos los podemos encontrar colocándonos en el sumidero y analizar un camino posible de llegada. No debemos considerar aquellos caminos que ya estén saturados (se este utilizando su capacidad total)
-    1. Calcular el cuello de botella del camino. Esto es la maxima cantidad de flujo que puedo enviar por allí, es decir el mínimo del pesos de las aristas que lo conforman, o en el caso de ser aristas ya utilizadas, el mínimo de la capacidad libre restante de cada una.
-    2. Actualizar el flujo a través de cada arista, denotando la capacidad en uso actual, y la capacidad libre restante.
-    3. Actualizar el flujo total $\Phi$, sumándole el valor de cuello de botella calculado anteriormente.
+	1. Calcular el cuello de botella del camino. Esto es la maxima cantidad de flujo que puedo enviar por allí, es decir el mínimo del pesos de las aristas que lo conforman, o en el caso de ser aristas ya utilizadas, el mínimo de la capacidad libre restante de cada una.
+	2. Actualizar el flujo a través de cada arista, denotando la capacidad en uso actual, y la capacidad libre restante.
+	3. Actualizar el flujo total $\Phi$, sumándole el valor de cuello de botella calculado anteriormente.

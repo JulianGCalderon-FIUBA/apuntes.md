@@ -1,6 +1,6 @@
-# Esperanza de una Variable Aleatoria
+## Esperanza de una Variable Aleatoria
 
-Es el promedio ponderado de los valores que puede tomar una variable aleatoria (”centro de masa”), no necesariamente es un valor del rango. Tambien se lo denomina $\mu_X$
+Es el promedio ponderado de los valores que puede tomar una variable aleatoria ("centro de masa"), no necesariamente es un valor del rango. Tambien se lo denomina $\mu_X$
 
 Sea $X$ una V.A.D. Entonces el valor esperado (o media) de $X$ es:
 
@@ -14,7 +14,7 @@ $$
 E(X) = \int_{-\infty}^{\infty} x \cdot f_X(x)
 $$
 
-## Función de Variable Aleatoria
+### Función de Variable Aleatoria
 
 El valor de la esperanza de una función $h(X)$ se calcula como
 
@@ -28,11 +28,11 @@ $$
 E(h(X)) = \int_{-\infty}^{\infty} h(x) \cdot f_X(x)
 $$
 
-**Propiedad: La esperanza de** $X$ “**es lineal”**
+**Propiedad: La esperanza de** $X$ "**es lineal"**
 
 Sea $X$ una V.A. con esperanza $\mu$, si $h(X) = aX + b$, entonces $E(h(X)) = a\mu + b$
 
-## Caso General
+### Caso General
 
 Sea $X$una variable aleatoria con función de distribución $F_X(x) = P(X \leq x)$, Si $h(X)$ es una función cualquiera de $X$, si definimos $A$ como el conjunto de átomos, entonces
 
@@ -58,7 +58,7 @@ $$
 E(X) = \int_0^\infty [1 - F_X(x)] dx - \int_{-\infty}^0 F_X(x)dx
 $$
 
-# Varianza de una Variable Aleatoria
+## Varianza de una Variable Aleatoria
 
 Sea $X$ una variable aleatoria, Entonces podemos encontrar que tan dispersa se encuentre la variable, como:
 

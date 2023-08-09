@@ -1,4 +1,4 @@
-# Chi-Cuadrado $\chi^2$
+## Chi-Cuadrado $\chi^2$
 
 la variable aleatiroa $X$ tiene distribucion $\chi^2$ de $\nu$ grados de libertar si su densidad esta dada por
 
@@ -14,7 +14,7 @@ La suma de variables independientes de distribucion $\chi^2$ de $\nu_i$ grados d
 
 **Corolario:** Se llama distribución $\chi^2$ con $\nu$ grados de libertad a la distribucion $U = \sum_{i=1}^\nu Z_i^2$, donde $Z_i, \cdots, Z_n \sim \mathscr N(0,1)$
 
-# T de Student
+## T de Student
 
 Sean $Z \sim \mathscr N(0,1)$ y $U \sim \chi_n^2$ dos variables aleatorias independientes, entonces definimos
 
@@ -24,7 +24,7 @@ $$
 
 A medida que aumentan los grados de liberta, la funcion tiende a una normal estandar.
 
-# F de Fisher-Snedecor
+## F de Fisher-Snedecor
 
 Sean $U,V$ dons variables aleatorias independientes con distribución $\chi^2$ de $\nu_1, \nu_2$ grados de livertad respectivamente, entonces
 
@@ -32,7 +32,7 @@ $$
 F = \frac{U/\nu_1}{V/\nu_2} \sim \mathscr F_{\nu_1, \nu_2}
 $$
 
-# Teorema
+## Teorema
 
 Sean $X_1, \cdots, X_n \stackrel{iid}{\sim} \mathscr N(\mu, \sigma^2)$
 

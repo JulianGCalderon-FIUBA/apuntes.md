@@ -13,7 +13,7 @@ Bajo este experimento, podemos definir distintas cosas
 - Cuantas veces obtengo exito en $n$ experimentos
 - Si busco observar $n$ existos, cuantas veces debo realizar el experimento
 
-# Binomial de parametros $n, p$
+## Binomial de parametros $n, p$
 
 La distribucion geometrica nos indica la probabilidad de la cantidad de exitos en $n$ experimentos
 
@@ -23,7 +23,7 @@ $$
 
 Se puede considerar como una suma de $n$ variables de Bernoulli, independientes
 
-# Pascal de parametros $k, p$
+## Pascal de parametros $k, p$
 
 La distribucion Pascal nos indica la probabilidad de la cantidad de experimentos necesarios hasta obtener $k$ exitos.
 
@@ -31,7 +31,7 @@ $$
 P_W(w) = \binom{w-1}{k-1} p^k(1-p)^{w-k}
 $$
 
-# Geometrica de parametro $p$
+## Geometrica de parametro $p$
 
 La distribucion Geometrica nos indica la probabilidad de cantidad de experimentos necesarios hasta obtener un exito
 
@@ -39,7 +39,7 @@ $$
 P_N(n) = p (1-p)^{n-1}
 $$
 
-Se puede relacionar $N$ con $W$ a partir de 
+Se puede relacionar $N$ con $W$ a partir de
 
 $$
 W = \sum_{i=1}^k N_i

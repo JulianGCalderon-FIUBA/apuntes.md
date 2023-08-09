@@ -1,4 +1,4 @@
-# Esperanza para Vectores Aleatorios
+## Esperanza para Vectores Aleatorios
 
 Sea el vector aleatorio $X, Y$, entonces definimos la esperanza de una función de las variables aleatorias como
 
@@ -10,7 +10,7 @@ $$
 E(h(X,Y)) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} h(x,y) f_{X,Y}(x,y) dx dy
 $$
 
-## Propiedades de Orden
+### Propiedades de Orden
 
 Sea $X$ un vector aleatorio y $g: \mathbb{R}^k \to \mathbb{R}$ una función, tenemos que:
 
@@ -20,17 +20,16 @@ Sea $X$ un vector aleatorio y $g: \mathbb{R}^k \to \mathbb{R}$ una función, ten
 4. $E(|X|) \geq E(X)$
 5. $E(|XY|) \leq \sqrt{E(X^2)E(Y^2)}$
 
-## Propiedades Importantes
+### Propiedades Importantes
 
-1. Linealidad de la esperanza: $E[\sum_{i=1}^n a_i x_i] = \sum_{i=1}^n a_iE(x_i)$ 
+1. Linealidad de la esperanza: $E[\sum_{i=1}^n a_i x_i] = \sum_{i=1}^n a_iE(x_i)$
 2. Si $x_1, \cdots, x_n$ son variables aleatorias independientes, entonces
-    
-    $$
+
+	$$
     E(\Pi_{i=1}^n X_i) = \Pi_{i=1}^n E(X_i)
     $$
-    
 
-# Covarianza para Vectores Aleatorios
+## Covarianza para Vectores Aleatorios
 
 La covarianza sirve para encontrar una relación entre dos variables aleatorias. Definimos
 
@@ -48,7 +47,7 @@ Como es una multiplicación, el significado del resultado lo voy a encontrar en 
 4. $\text{Cov}(X + Y, Z) = \text{Cov}(X,Z) + \text{Cov}(Y,Z)$
 5. $\text{Var}(X+Y) = \text{Var}(X) + \text{Var}(Y) + 2\text{Cov}(X,Y)$
 
-## Coeficiente de Correlación
+### Coeficiente de Correlación
 
 Entre las variables aleatorias $X,Y$, está dado por. Toma un valor entre $[-1, 1]$
 

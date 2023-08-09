@@ -1,4 +1,4 @@
-# Definiciones Básicas
+## Definiciones Básicas
 
 Un conjunto finito no vacío de elementos se denomina **alfabeto**, es designado con $\Sigma$.
 
@@ -10,13 +10,13 @@ Existe una única palabra de longitud cero denominada **palabra nula**, denotada
 
 Las palabras pueden ser **concatenadas** a partir del operador ***producto***. Sea $x = aab, y = abbc$. Entonces $z= xy = aababbc$. Definiremos la longitud como $|z| = |xy| = |x| + |y|$. Se puede concatenar con la palabra nula. $a\lambda = \lambda a = a$
 
-# Lenguaje
+## Lenguaje
 
 Sea $\Sigma$ un alfabeto, denominaremos $\Sigma^q$ simplemente como el producto de $\Sigma$, $q$ veces. También puede ser pensado como el conjunto de palabras formadas por $\Sigma$ con longitud $q$. Definiremos inicialmente $\Sigma^0 = \{\lambda\},\ \Sigma^1 = \Sigma$
 
 La clausura del alfabeto es el conjunto de palabras que se puede formar utilizando ese alfabeto. Se define como $\Sigma^* = \Sigma^0 + \Sigma^1 + \cdots$.
 
-# Lenguajes Regulares
+## Lenguajes Regulares
 
 Un lenguaje es regular si sus palabras se expresan con expresiones regulares. Las expresiones regulares se expresan a partir palabras, letras, y los operadores $+, \cdot, *$. Una expresión regular debe cumplir los 5 axiomas de las expresiones regulares, pero escapan del alcance de la materia.
 
@@ -32,7 +32,7 @@ $$
 (a+b)^* = \{a, b, aa, ab, ba, \cdots\}
 $$
 
-# Autómatas
+## Autómatas
 
 Se designa $M=(\Sigma, Q, q_0, \Upsilon, F)$ el ***autómata finito determinístico (DFA)*** donde:
 
@@ -59,12 +59,10 @@ $$
 > [!note]
 > Siempre existe un ***DFA*** para un lenguaje regular, y los ***DFA*** solo dan lenguajes regulares
 
-
 > [!note]
 > Existen infinitos autómatas para un mismo lenguaje, pero solo hay uno minino (con menor cantidad de estados)
 
-
-## Minimización de Autómatas
+### Minimización de Autómatas
 
 Sea $M$ un autómata y $k \in \mathbb{N}_0$, se define que un estado $q$ es $R_k{-}\text{equivalente}$ al estado $r$ si y solo si:
 

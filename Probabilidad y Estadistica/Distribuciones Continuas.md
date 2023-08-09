@@ -1,4 +1,4 @@
-# Uniforme
+## Uniforme
 
 Una variable aleatoria tiene función de densidad uniforme si todo punto tiene la misma probabilidad, su densidad esta dada por:
 
@@ -11,7 +11,7 @@ $$
 P(x \in [c, d]) = \frac{d-c}{b-a}
 $$
 
-# Exponencial
+## Exponencial
 
 Una variable aleatorio tiene distribución exponencial de parámetro $\lambda > 0$ si su funcion de densidad esta dada por:
 
@@ -30,12 +30,12 @@ $$
 P(X >x) = e^{-\lambda x}
 $$
 
-## Propiedades
+### Propiedades
 
 1. Si $x \backsim \varepsilon(\lambda)$, entonces $P(x > t+s | x > t) = P(x > s)$
 2. Además, si se cumple la propiedad anterior para una variable aleatorio, sabemos que tiene distribución exponencial
 
-## Función Intensidad de Fallas
+### Función Intensidad de Fallas
 
 Esta función se relaciona la probabilidad de un punto inmediatamente después de $t$, dado que $P(x > t)$
 
@@ -47,7 +47,7 @@ $$
 F_T(t) = 1-e^{-\int_0^t \lambda(s) ds}
 $$
 
-# Gamma
+## Gamma
 
 Se dice que una V.A $X$ tiene distribución Gamma de parámetros $\lambda$ y $k$, si su función de densidad es
 
@@ -57,7 +57,7 @@ $$
 
 Para obtener la función $\varGamma$, debo usar la tabla de resumen de la catedra.
 
-# Normal
+## Normal
 
 Se dice que una V.A $X$ que toma valores $-\infty < x < \infty$ tiene una distribución normal estándar si su función de densidad es de la forma
 

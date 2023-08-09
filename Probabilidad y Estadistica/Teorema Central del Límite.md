@@ -8,7 +8,7 @@ Pero si las graficamos, encontramos que los graficos se parecen a la grafica de 
 
 Ademas, si estandarizamos la funcion como si fuese una normal estandar, encontramos que el grafico de distribucion se parece mucho mas a la de una campana de Gauss.
 
-# Definición del Teorema
+## Definición del Teorema
 
 Sean $(X_n)_{n \geq 1}$ una sucesión de variables aleatorias independientes e identicamente distribuidas con esperanza y varianza finita, entonces (bajo ciertas condiciones generales) se cumple que
 

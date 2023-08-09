@@ -1,4 +1,4 @@
-El enfoque bayesiano consiste en utilizar informacion previa del parametro para realizar una mejor aproximacion. 
+El enfoque bayesiano consiste en utilizar informacion previa del parametro para realizar una mejor aproximacion.
 
 A priori, nosotros conoceremos la distribucion $\Theta$ y la distribucion de muestra $X | \Theta = \theta$. A partir de bayes para mezclas, podemos hallar la distribucion de $\Theta | \underline X = \underline x$ (distribucion a posteriori del parametro)
 
@@ -25,7 +25,7 @@ K \cdot f_{\underline X | \Theta = \theta}(\underline x) f_\Theta(\theta)
 
 $$
 
-# Calculo de Probabilidad
+## Calculo de Probabilidad
 
 Si buscamos calcular la probabilidad de un evento a partir de la estimacion, utilizaremos la formula de probabilidad total.
 
@@ -39,6 +39,6 @@ $$
 P(X_2 \leq a | \underline X = \underline x) = \int_{-\infty}^a\int_{-\infty}^\infty f_{X | \Theta = \theta}(x)\cdot f_{\Theta | \underline X = x}(\theta) \cdot d\theta dx
 $$
 
-# MAP
+## MAP
 
 Se deonimina moda a posteriori. En algunos casos a $\theta$ con la moda de la distribucion (punto donde se alcanza el maximo de la densidad)

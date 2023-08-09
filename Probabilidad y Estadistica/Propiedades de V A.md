@@ -1,4 +1,4 @@
-# Función de Variable Aleatoria
+## Función de Variable Aleatoria
 
 Sea $Y = g(X)$ una función de variable aleatorio, siendo $X$ una **V.A.D,** $Y$ sera discreta, con
 
@@ -13,7 +13,7 @@ $$
 F_Y(y) = P(Y \leq y) = P(g(X) \leq y)
 $$
 
-# Truncamiento
+## Truncamiento
 
 Truncamiento consiste en encontrar una nueva función de densidad para el caso de probabilidad condicional. Podemos restringir la función para cuando $X\in A$, manteniendo las propiedades de una función de densidad.
 
@@ -27,7 +27,7 @@ $$
 f_{X|X\in A}(x) = \frac{f_X(x)\ \mathbf{1}\{x \in A\}}{P(X \in A)}
 $$
 
-# Cuantil
+## Cuantil
 
 Un cuantil de una variable aleatorio será el menor $x_\alpha$ tal que
 

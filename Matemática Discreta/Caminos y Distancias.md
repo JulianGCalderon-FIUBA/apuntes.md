@@ -1,4 +1,4 @@
-# Caminos
+## Caminos
 
 Un $v_0{-}v_q$ camino es una sucesión alternada de vertices y aristas para viajar desde $v_0$ a $v_q$
 
@@ -12,7 +12,7 @@ $$
 - Un camino cerrado que no repite aristas es un circuito ***(circuit)***
 - Un camino cerrado que no repite vertices intermedios se llama ciclo. ***(cicle)***
 
-# Longitud de un Camino
+## Longitud de un Camino
 
 La longitud de un camino es la cantidad de aristas que tiene la sucesión. El camino trivial tiene longitud 0.
 
@@ -24,7 +24,7 @@ Podremos demostrar que la longitud minima $d(u,v)$ entre dos vertices es una mé
 2. Simetría: $d(u,v) = d(v,u)$
 3. Desigualdad Triangular: $d(u,w) \leq d(u,v) + d(v,w)$
 
-# Grafos Conexos
+## Grafos Conexos
 
 Un grafo es conexo si para cualquier par e vertices $u,v$ existe un $u{-}v$ camino. En caso contrario es disconexo.
 
@@ -39,7 +39,7 @@ G \text{ es conexo} \iff \\
 (I_n + A_G)^{n-1}(i,j) > 0
 $$
 
-## Cortes
+### Cortes
 
 Definimos el conjunto de aristas $S$ como un corte de $G$, y con eliminar las aristas de $S$ de $G$, entonces el grafo se vuelve disconexo. Un corte es mínimo es no existe otro corte de cardinal menor. Un corte es minimal si no otro existe un corte contenido en el mismo. El cardinal del mínimo corte se denomina ***arista-conectividad***: $\lambda(G)$.
 
@@ -51,7 +51,7 @@ $$
 \lambda'(G) \leq \lambda(G)
 $$
 
-# Excentricidad
+## Excentricidad
 
 La excentricidad de un vértice es la máxima longitud hasta cualquier vértice, se define
 
@@ -68,7 +68,7 @@ $$
 
 Un vértice puede no estar ni en el centro ni en la periferia de un grafo. En un grafo conexo, se verifica que $R(G) \leq \Phi(G) \leq 2R(G)$
 
-# Separaciones
+## Separaciones
 
 Sea $G$ un grafo conexo y $s,t$ dos vertices del grafo, entonces dos o más $s{-}t$ ***paths*** son de arista-disjuntos **si no comparten aristas. De igual forma, son vertice-disjuntos ***si no comparten vertices, excepto los extremos.
 

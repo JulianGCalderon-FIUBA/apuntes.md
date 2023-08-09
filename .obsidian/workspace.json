@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilidad y Estadistica/Distribucion Normal.md",
+                "file": "Matemática Discreta/Caminos y Distancias.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilidad y Estadistica/Distribucion Normal.md",
+                "file": "Matemática Discreta/Caminos y Distancias.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilidad y Estadistica/Distribucion Normal.md",
+                "file": "Matemática Discreta/Caminos y Distancias.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilidad y Estadistica/Distribucion Normal.md",
+                "file": "Matemática Discreta/Caminos y Distancias.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilidad y Estadistica/Distribucion Normal.md"
+                "file": "Matemática Discreta/Caminos y Distancias.md"
               }
             }
           },
@@ -178,32 +178,32 @@
   },
   "active": "c42caadea4e53a08",
   "lastOpenFiles": [
-    "Sistemas Operativos/Very Simple File System.md",
-    "Sistemas Operativos/Translation Lookaside Buffers.md",
-    "Sistemas Operativos/Traducción de Direcciones.md",
-    "Sistemas Operativos/Sistemas Operativos.md",
-    "Sistemas Operativos/Segmentación.md",
-    "Sistemas Operativos/Proportional-Share Scheduler.md",
-    "Sistemas Operativos/Planificador Multiprocesador.md",
-    "Sistemas Operativos/Planificación.md",
-    "Sistemas Operativos/Paginación Avanzada.md",
-    "Sistemas Operativos/Multi-Level Feedback Queue.md",
-    "Sistemas Operativos/Los procesos.md",
-    "Sistemas Operativos/Locks.md",
-    "Sistemas Operativos/Introducción a Sistemas Operativos.md",
-    "Sistemas Operativos/Introducción a Paginación.md",
-    "Sistemas Operativos/Free-Space Management.md",
-    "Sistemas Operativos/Estructuras Concurrentes.md",
-    "Sistemas Operativos/Espacio de Direcciones.md",
-    "Sistemas Operativos/Ejecución Directa.md",
-    "Sistemas Operativos/Concurrencia.md",
-    "Sistemas Operativos/Bugs de Concurrencia.md",
-    "Sistemas Operativos/Archivos y Directorios.md",
-    "Sistemas Operativos/API de Threads.md",
-    "Sistemas Operativos/API de Memoria.md",
-    "Organizacion de Datos/XGBoost.md",
-    "Organizacion de Datos/Valores Atipicos.md",
-    "Organizacion de Datos/Transformacion de Datos.md",
+    "Matemática Discreta/Algoritmos.md",
+    "Matemática Discreta/Álgebra de Conjuntos.md",
+    "Matemática Discreta/Álgebra de Boole.md",
+    "Matemática Discreta/Alfabeto.md",
+    "Probabilidad y Estadistica/Vectores Aleatorios.md",
+    "Probabilidad y Estadistica/Varianza Condicional.md",
+    "Probabilidad y Estadistica/Variables Aleatorias Condicionadas.md",
+    "Probabilidad y Estadistica/Variables Aleatorias.md",
+    "Probabilidad y Estadistica/Test de Hipotesis.md",
+    "Probabilidad y Estadistica/Teoremas Utiles.md",
+    "Probabilidad y Estadistica/Teorema Central del Límite.md",
+    "Probabilidad y Estadistica/Técnicas de Conteo.md",
+    "Probabilidad y Estadistica/Simulación.md",
+    "Probabilidad y Estadistica/Propiedades de Variables Aleatorias.md",
+    "Probabilidad y Estadistica/Propiedades del PP.md",
+    "Probabilidad y Estadistica/Propiedades de la Esperanza.md",
+    "Probabilidad y Estadistica/Proceso de Poisson.md",
+    "Probabilidad y Estadistica/Proceso Bernoulli.md",
+    "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
+    "Probabilidad y Estadistica/Probabilidad Condicional.md",
+    "Probabilidad y Estadistica/Probabilidad.md",
+    "Probabilidad y Estadistica/Modelos Parametricos.md",
+    "Probabilidad y Estadistica/Mezcla de Variables Aleatorias.md",
+    "Probabilidad y Estadistica/Intervalos de Confianza.md",
+    "Probabilidad y Estadistica/Propiedades de V A.md",
+    "Probabilidad y Estadistica/Inferencia Estadistica.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",

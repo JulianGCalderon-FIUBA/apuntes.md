@@ -1,4 +1,4 @@
-# Regla del Producto
+## Regla del Producto
 
 Dados dos conjuntos $A,B$ con $n_a, n_b$ elementos. La cantidad de pares ordenados que pueden formarse son
 
@@ -6,7 +6,7 @@ $$
 \#AB = n_a \cdot n_b
 $$
 
-# Permutaciones
+## Permutaciones
 
 Cantidad de formas distintas que puedo ordenar $n$ elementos.
 
@@ -14,7 +14,7 @@ $$
 \#AB = n!
 $$
 
-## Variaciones
+### Variaciones
 
 Si solo quiero ordenar $m$ elementos de los $r$ totales, entonces debo usar variaciones
 
@@ -24,7 +24,7 @@ $$
 
 En la calculadora, se puede calcular con la combinación de teclas: $n \ \boxed{\texttt{nPr}} \ r$
 
-## Anagramas
+### Anagramas
 
 En el caso de los anagramas, es un problema de permutaciones con elementos repetidos
 
@@ -35,7 +35,7 @@ $$
 
 Esto se debe a que a las permutaciones totales, debo descontar las permutaciones entre las mismas letras.
 
-# Combinaciones
+## Combinaciones
 
 Puedo calcular la cantidad de conjuntos no ordenados de $r$ de los $n$ elementos totales que puedo formar. Como los conjuntos no son ordenados, no importa el orden en el que represento los elementos del conjunto.
 
@@ -45,7 +45,7 @@ $$
 
 En la calculadora, se puede calcular con la combinación de teclas: $n \ \boxed{\texttt{nCr}} \ r$
 
-## Anagramas
+### Anagramas
 
 Tambien podemos resolver el caso con combinatoria
 
@@ -56,7 +56,7 @@ $$
 
 Lo podemos pensar como que de las $n$ posiciones posibles, elijo $n_1$ opciones para colocar la primer letra. Luego repito la misma lógica para el resto de letras.
 
-# Modelo Bose-Einstein
+## Modelo Bose-Einstein
 
 Para resolver un problema del estilo urnas y bolitas indistinguibles, puedo pensar el problema como un anagrama. Separando las bolitas en urnas utilizando ceros y unos.
 

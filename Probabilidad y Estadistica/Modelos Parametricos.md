@@ -6,7 +6,7 @@ $$
 \mathcal F = \{ F_\theta(x): \theta \in M\}
 $$
 
-# Funcion de Verosimilitud
+## Funcion de Verosimilitud
 
 Llamamos funcion de verosimilitud a la funcion conjunta vista como funcion del parametro desconocido $\theta$
 
@@ -19,18 +19,17 @@ L(\theta) =  \Pi_{i=1}^n p_\theta(x_i)
 $$
 
 > [!note]
-> La letra $L$ viene del ingles “likelihood”
+> La letra $L$ viene del ingles "likelihood"
 
-
-# Familia Paramétrica Regular
+## Familia Paramétrica Regular
 
 Diremos que una familia paramétrica es **Regular** si:
 
 1. El soporte de $f_\theta(x)$ no depende de $\theta$
-2. $f_\theta(x)$ es derivable con respecto a  $\theta\  \forall x$
+2. $f_\theta(x)$ es derivable con respecto a $\theta\  \forall x$
 3. El conjunto paramétrico $M$ es abierto
 
-# Familias Exponenciales
+## Familias Exponenciales
 
 Se dice que una familia de distribuciones en $\mathbb{R}^q$ con distribucion $F_\theta(x)$ es una familia exponencial a $k$ parametros si su funcion de densidad (o probabilidad) se puede escribir de la siguiente forma
 

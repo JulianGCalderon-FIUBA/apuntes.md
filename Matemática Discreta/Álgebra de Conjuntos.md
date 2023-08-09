@@ -12,15 +12,13 @@ $$
 
 Nota: En este documento se utilizará la notación $\subseteq$ para mayor claridad, sin embargo, en la materia el simbolo $\subset$ tambien denotara inclusión o igualdad. Para ser explícitos en que queremos un subconjunto que estrictamente incluido, utilizaremos la siguiente notación: $(A\subset B, A\neq B)$
 
-# Álgebra de Proposiciones
+## Álgebra de Proposiciones
 
 > [!note]
 > Si en particular $|B| = 2$, entonces $B^A = 2^{|A|}$
 
-
 > [!note]
 > ***Proposición:*** Afirmación que sólo puede tomar dos valores
-
 
 La función proposicional del argumento $x$ escrita como $p(x)$ se convierte en una proposición $p(a)$ cuando al argumento $x$ se le asigna un valor fijo $a$, tomado de un conjunto de referencia $I$.
 
@@ -64,7 +62,7 @@ $$
 |A| = 2^n
 $$
 
-Algunos matemáticos dicen que $p → q$ es la proposición más importante de todas. Esta es la proposición $p$ ***implica*** $a$. Solo puede ser falsa cuando la proposición $p$ es verdadera, pero su implicación $q$ no lo es. La forma de negar un teorema de este estilo es justamente encontrar algún caso para el cual $p$ se cumple, pero $q$ no. 
+Algunos matemáticos dicen que $p → q$ es la proposición más importante de todas. Esta es la proposición $p$ ***implica*** $a$. Solo puede ser falsa cuando la proposición $p$ es verdadera, pero su implicación $q$ no lo es. La forma de negar un teorema de este estilo es justamente encontrar algún caso para el cual $p$ se cumple, pero $q$ no.
 
 Podemos definir las implicancias utilizando los elementos del álgebra de boole.
 
@@ -124,7 +122,7 @@ $$
 A \oplus B \overset{\text{def}}{=} A'B + AB'
 $$
 
-# Densidad de Verdad de una Proposición
+## Densidad de Verdad de una Proposición
 
 Definiremos la densidad de verdad de una proposición como el porcentaje de elementos del dominio que afirman la proposición. Por ejemplo, sea
 
@@ -138,7 +136,7 @@ $$
 \delta\Big(f(p,q)\Big) = \frac34 = 75\%
 $$
 
-# Conjuntos de Veracidad
+## Conjuntos de Veracidad
 
 Sea $I$ un conjunto de referencia y $P$ un subconjunto de $I$, entonces definimos
 
@@ -154,16 +152,13 @@ Diremos que $P$ es el conjunto de veracidad de la función proposicional $p(x)$.
 > [!note]
 > **Disyunción**: Definimos la disyunción $P\cup Q$ como el conjunto de elementos que se encuentran o en $P$, o en $Q$. De forma análoga, considerando las funciones proposicionales correspondientes $p + q$.
 
-
 > [!note]
 > **Conjunción:** Definimos la conjunción $P\cap Q$ como el conjunto de elementos que se encuentran tanto en $P$ como en $Q$. De forma análoga, considerando las funciones proposicionales correspondientes, denotamos $pq$
-
 
 > [!note]
 > ***Negación:*** Definimos la negación $P'$ como el conjunto de elementos que no pertenecen a $P$. De forma análoga, considerando las funciones proposicionales correspondientes, denotamos $p'$
 
-
-# Demostraciones de Equivalencia
+## Demostraciones de Equivalencia
 
 Para demostrar que dos proposiciones $p, q$ son equivalentes, debemos demostrar la doble inclusión para sus conjuntos de veracidad. Esto es:
 
@@ -195,7 +190,7 @@ $$
 \text{Contra-reciproca}: q' \to p'
 $$
 
-# Equivalencias Útiles
+## Equivalencias Útiles
 
 Muchas veces se utilizan identidades para reescribir una expresión de forma que resulta más conveniente para trabajar. Las siguientes 6 expresiones son equivalentes:
 
@@ -212,7 +207,7 @@ Es más simple trabajar con expresiones que están igualadas al vacío (o a la i
 2. $X'Y + XY' = 0$
 3. $(X'+Y)(X + Y') = I$
 
-# Invalidez de la Cancelación
+## Invalidez de la Cancelación
 
 $$
 \begin{align*}
@@ -224,7 +219,7 @@ $$
 
 En álgebra de conjuntos y de proposiciones, la *cancelación* de términos es inválida. Notemos que si bien las soluciones triviales son válidas, estas no son la solución completa.
 
-# Forma Canónica de Proposiciones
+## Forma Canónica de Proposiciones
 
 Existen dos formas canónicas. La primera se llama forma canónica de suma de productos. Busca representar las regiones de validez a partir de productos sumados
 
@@ -240,7 +235,7 @@ $$
 
 Nótese que la primer forma tiene 5 términos, mientras que la segunda tiene 3 términos. Sumando a un total de 8 regiones (el cardinal del dominio).
 
-# Identidades del Álgebra de Proposiciones
+## Identidades del Álgebra de Proposiciones
 
 $$
 \begin{align*}
@@ -280,19 +275,18 @@ $$
 (p\downarrow q)' = p'\uparrow q'
 $$
 
-# Soluciones del Algebra de Proposiciones
+## Soluciones del Algebra de Proposiciones
 
-En el álgebra de proposiciones, encontrar soluciones a ecuaciones no es tan directo como en los reales. Solucionar la $X$ de una ecuación implica encontrar las cotas inferiores y superiores de la misma. La solución usualmente tomará  la siguiente forma.
+En el álgebra de proposiciones, encontrar soluciones a ecuaciones no es tan directo como en los reales. Solucionar la $X$ de una ecuación implica encontrar las cotas inferiores y superiores de la misma. La solución usualmente tomará la siguiente forma.
 
 $$
 f(X) \subseteq X \subseteq g(X)
 $$
 
-# Juegos Completos
+## Juegos Completos
 
 > [!note]
 > Un juego se llama completo si alcanza para fabricar cualquier elemento del conjunto donde se un juego completo
-
 
 **Teorema:** El juego ***$(+,\cdot, ')$ es un juego completo en el espacio de proposiciones. Podemos construir cualquier función proposicional a partir de estos elementos.
 

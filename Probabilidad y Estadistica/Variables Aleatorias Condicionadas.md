@@ -14,11 +14,11 @@ $$
 p_{X,Y}(x,y) = p_{Y | X = x}(y) p_X(x) = p_{X | Y = y}(x) p_Y(y)
 $$
 
-**Propiedad Útil :**
+**Propiedad Útil:**
 
 Sean $X,Y$ variables aleatorias discretas tal que $p_{Y | X = x}(y) = p_Y(y)$, entonces podemos decir que $X,Y$ son independientes.
 
-# Vectores Aleatorios Continuos
+## Vectores Aleatorios Continuos
 
 Sea $(X,Y)$ un vector aleatorio continuo con densidad conjunta $f_{X,Y}(x,y)$ y densidad marginal $f_X(x)$, entonces para cualquier valor de $X$ con el cual $f_X(x) > 0$, la función de densidad de la variable aleatoria condicionada $Y$ dado $X=x$ es
 

@@ -10,10 +10,10 @@ $$
 2. $P(\Omega|B) = 1$
 3. Si $A \cap C = \emptyset$, entonces $P(A\cup C | B) = P(A|B) + P(C | B)$
 4. Si $P(B) > 0$, entonces
-    1. $P(A \cap B) = P(A|B) \cdot P(B) = P(B|A) \cdot P(A)$
-    2. $P(A \cap B \cap C) = P (A|B\cap C) \cdot \underbrace{P(B|C) \cdot P(C)}_{P(B\cap C)}$
+	1. $P(A \cap B) = P(A|B) \cdot P(B) = P(B|A) \cdot P(A)$
+	2. $P(A \cap B \cap C) = P (A|B\cap C) \cdot \underbrace{P(B|C) \cdot P(C)}_{P(B\cap C)}$
 
-# Particiones
+## Particiones
 
 Decimos que los eventos $B_1, B_2, \cdots, B_k$ es una partición de $\Omega$ si
 
@@ -22,7 +22,7 @@ Decimos que los eventos $B_1, B_2, \cdots, B_k$ es una partición de $\Omega$ si
 
 Es decir, divido todo $\Omega$ en $k$ conjuntos mutuamente excluyentes dos a dos.
 
-# Formula de Probabilidad Total
+## Formula de Probabilidad Total
 
 Sea el conjunto de eventos $B$ una partición de $\Omega$, entonces
 
@@ -30,7 +30,7 @@ $$
 P(A) = \sum_{i=1}^k P(A|B_i)P(B_i)
 $$
 
-# Teorema de Bayes
+## Teorema de Bayes
 
 Sea el conjunto de eventos $B$ una partición de $\Omega$, y $A$ un evento de probabilidad positiva. Entonces
 
@@ -38,7 +38,7 @@ $$
 P(B_i|A) = \frac{P(A|B_i) P(B_i)}{\sum_{j=1}^k P(A|B_j)P(B_j)} = \frac{P(A|B_i) P(B_i)}{P(A)}
 $$
 
-# Diagrama de Árbol
+## Diagrama de Árbol
 
 Un diagrama de árbol es una forma grafica de mostrar los distintos resultados del experimento aleatorio. Cada ramificación del árbol contiene a su vez, distintos eventos que pueden resultar de el.
 

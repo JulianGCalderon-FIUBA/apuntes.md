@@ -6,7 +6,7 @@ Al realizar el experimento una cierta cantidad de veces obtenemos un conjunto de
 
 A partir de la muestra, podemos analizar el comportamiento de la poblacion
 
-# Muestra
+## Muestra
 
 Definimos muestra como una variable aleatoria $X$, definida sobre $(\Omega, \mathcal A, P)$ con distribucion desconocida (al menos parcialmente) $F_X(x) = P(X \leq x)$
 

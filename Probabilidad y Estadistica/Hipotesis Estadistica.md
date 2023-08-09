@@ -4,7 +4,7 @@ La hipotesis estadística se refiere a la población. Sin embargo, el analisis d
 
 El ensayo de una hipótesis es el procedimiento que se sigue para tratar de averiguar si una hipótesis es verdadera o falsa.
 
-# Planteo de Hipotesis
+## Planteo de Hipotesis
 
 Generalizando, en un analisis siempre vamos a plantear dos hipotesis
 
@@ -15,7 +15,7 @@ La conclusión fuerte unicamente se obitene en el rechazo de la hipótesis nula.
 
 Definimos la potencia de un test, como la probabiliad de rechazar la hipotesis nula.
 
-# Tipos de Errores
+## Tipos de Errores
 
 Al tomar una decisión, se pueden cometer errores:
 

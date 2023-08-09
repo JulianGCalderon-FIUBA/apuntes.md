@@ -1,4 +1,4 @@
-# Definiciones
+## Definiciones
 
 - Experimento Aleatorio: Conozco todos los posibles resultados, pero no se cual va a ocurrir
 - Espacio Muestral $\Omega$: Conjunto de resultados posibles del experimento aleatorio
@@ -10,7 +10,7 @@ $$
 P(A) = \lim_{n\to\infty} \frac{\#A}{n}
 $$
 
-# Laplace
+## Laplace
 
 En un espacio equiprobable se puede calcular la probabilidad de $A$ a partir de un conteo de eventos.
 
@@ -18,26 +18,26 @@ $$
 P(A) = \frac{\#A}{\#\Omega}
 $$
 
-# Definición Axiomática de Probabilidad
+## Definición Axiomática de Probabilidad
 
 $$
 P(A) : \Omega \to [0,1]
 $$
 
-## Axiomas
+### Axiomas
 
 1. $0 \leq P(A) \leq 1, \quad \forall A\in \mathscr A$
 2. $P(\Omega) = 1$
 3. $A, B \ /\  A\cap B = \emptyset \implies P(A\cup B) = P(A) + P(B)$
 4. $A_1 \geq A_2 \geq A_3 \geq\cdots \  / \ \cap_{i=1}^\infty A_i = \emptyset \implies \lim_{n\to\infty} P(A_n) = 0$
 
-## Propiedades
+### Propiedades
 
 1. $P(\overline A) = 1 - P(A)$
 2. $P(A \cup B) = P(A) + P(B) - P(A\cap B)$
 3. $P(A \cup B \cup C) = P(A) + P(B) + P(C) \\\qquad\qquad\qquad\quad\ - P(A\cap B) - P(A\cap C) - P(B\cap C) \\\qquad\qquad\qquad\quad\  + P(A \cap B \cap C)$
 
-# Algebra de Eventos
+## Algebra de Eventos
 
 $**\mathscr A:$ Algebra de Eventos:** Conjunto de eventos a los que le puedo calcular su probabilidad.
 

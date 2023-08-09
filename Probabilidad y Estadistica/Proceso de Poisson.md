@@ -14,7 +14,7 @@ $$
 
 la constante $\lambda$ sera la intensidad o tasa de ocurrencia, y $t$ sera la longitud del intervalo que voy a estudiar
 
-# Propiedades
+## Propiedades
 
-- La variable aleatoria $N(t)$ tiene distribucion de Poisson si y solo si la variable aleatoria $T$ “Tiempo entre 2 eventos consecutivos” tiene distribución exponencial, de parametro $\lambda$.
+- La variable aleatoria $N(t)$ tiene distribucion de Poisson si y solo si la variable aleatoria $T$ "Tiempo entre 2 eventos consecutivos" tiene distribución exponencial, de parametro $\lambda$.
 - Si definimos $G$ como el tiempo hasta el $k$-ésimo evento de Poisson, entonces $G$ se define como la suma de variables exponenciales independientes de parametro $\lambda$, por lo que $G \sim \Gamma(k, \lambda)$
