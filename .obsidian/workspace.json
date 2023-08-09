@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Espacios Vectoriales.md",
+                "file": "Algebra II/Algebra II.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Espacios Vectoriales.md",
+                "file": "Algebra II/Algebra II.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra II/Espacios Vectoriales.md",
+                "file": "Algebra II/Algebra II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra II/Espacios Vectoriales.md",
+                "file": "Algebra II/Algebra II.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra II/Espacios Vectoriales.md"
+                "file": "Algebra II/Algebra II.md"
               }
             }
           },
@@ -174,8 +174,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c42caadea4e53a08",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
+    "Algebra II/Espacios Vectoriales.md",
     "Algebra II/Autovalores y Autovectores.md",
     "Algebra II/Algebra II.md",
     "Física II/Trabajo de Campos.md",
@@ -201,7 +202,6 @@
     "Física II/Dielectricos.md",
     "Física II/Corriente Continua.md",
     "Física II/Corriente Alterna.md",
-    "Física II/Conductores.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",
