@@ -12,9 +12,9 @@ $\theta_i = \theta_r$
 
 **Refracción**:
 
-$n_i\sin\theta_i = n_r\sin\theta_r\\
+$n_i\sin\theta_i = n_r\sin\theta_r$
 
-\sin\theta_{crit} = \frac{n_r}{n_i}$
+$\sin\theta_{crit} = \frac{n_r}{n_i}$
 
 **Prisma**
 
@@ -22,9 +22,9 @@ $i = r'$
 
 $r = i'$
 
-$\delta_{min} = 2i -\varphi\\
+$\delta_{min} = 2i -\varphi$
 
-r = \frac{\varphi}{2}$
+$r = \frac{\varphi}{2}$
 
 ### **Esféricos:**
 
@@ -36,11 +36,11 @@ $\text{Aumento: }\quad A = -\frac{x_i}{x_o}$
 
 $\text{Focos: }$
 
-$f = \frac R2 \\
+$f = \frac R2$
 
-f_o:(x_i\to\infty) \\
+$f_o:(x_i\to\infty)$
 
-f_i:(x_o\to\infty)$
+$f_i:(x_o\to\infty)$
 
 **Dioptras**
 

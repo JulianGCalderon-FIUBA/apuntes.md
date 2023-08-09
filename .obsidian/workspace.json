@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática Discreta/Álgebra de Conjuntos.md",
+                "file": "Análisis Matemático II/Rectas y Planos.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/\\$[^\\$]*?\\\\\\\\[^\\$]*?\\$",
+                "query": "/[^\\$]\\$[^\\$]*?\\\\\\\\[^\\$]*?\\$",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática Discreta/Álgebra de Conjuntos.md",
+                "file": "Análisis Matemático II/Rectas y Planos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática Discreta/Álgebra de Conjuntos.md",
+                "file": "Análisis Matemático II/Rectas y Planos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática Discreta/Álgebra de Conjuntos.md"
+                "file": "Análisis Matemático II/Rectas y Planos.md"
               }
             }
           },
@@ -180,6 +180,9 @@
   },
   "active": "fc101f935a14504d",
   "lastOpenFiles": [
+    "Análisis Matemático II/Funciones Implicitas.md",
+    "Fisica I/FORMULAS.md",
+    "Matemática Discreta/Álgebra de Conjuntos.md",
     "Análisis Numérico/Ajuste.md",
     "Untitled.md",
     "Física II/Circuito Electrico.md",
@@ -203,9 +206,6 @@
     "Algebra II/Autovalores y Autovectores.md",
     "Algebra II/Subespacios de Matriz.md",
     "Algebra II/Subespacios.md",
-    "Algebra II/Algebra II.md",
-    "Algebra II/Espacios Vectoriales.md",
-    "Matemática Discreta/Álgebra de Conjuntos.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
