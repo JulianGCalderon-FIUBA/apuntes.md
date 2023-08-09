@@ -1,4 +1,4 @@
-# Regiones Rectangulares
+## Regiones Rectangulares
 
 Una integral doble busca el area debajo de una función de dos variables. Se puede pensar como la suma de muchos rectángulos, con los lados tendiendo a $0$. Tambien como la suma de muchas integrales de Análisis I.
 
@@ -7,7 +7,7 @@ $$
 &=\int dy\bigg( \int f(x,y)dx\bigg)\end{align*}
 $$
 
-# Regiones Simples
+## Regiones Simples
 
 Las regiones simples son aquellas que, no son rectángulos, pero se parecen a estos. Un lado de la region es fijo, mientras que el otro varia. Se pone afuera el limite fijo, y adentro los limites variables.
 
@@ -24,8 +24,7 @@ $$
 > [!note]
 > Para regiones mas complejas, se puede pensar la integral como la suma de distintas regiones simples, con limites variables conocidos.
 
-
-# Cambio de variable
+## Cambio de Variable
 
 Para facilitar la integración, se puede transformar la region para llegar a una mas simple, Cambiando las coordenadas.
 
@@ -42,10 +41,9 @@ $$
 > [!note]
 > El factor de transformación es siempre positivo
 
-
 Esto permite que los limites de la integración sean mas simples.
 
-# Regiones Circulares
+## Regiones Circulares
 
 En regiones circulares, es mas fácil resolver las integrales dobles en coordenadas polares
 

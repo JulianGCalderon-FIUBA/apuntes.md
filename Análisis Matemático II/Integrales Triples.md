@@ -10,7 +10,7 @@ Si $f$ representa la densidad $\delta$ del cuerpo en el punto, entonces la integ
 
 $f$ debe ser continua en la region, (o continua salvo por una porción nula de volumen).
 
-# Regiones Simples
+## Regiones Simples
 
 Se dice que una region es simple cuando se puede proyectar sobre uno de los planos coordenados. Para que un cuerpo sea proyectable, al trazar una recta perpendicular al plano, debe atravesar la region solo dos veces la region.
 
@@ -22,7 +22,7 @@ $$
 \iint_{P_{xy}(V)}dxdy\underbrace{\int_{\varphi_1}^{\varphi_2}f(x,y,z)dz}_{g(x,y)}
 $$
 
-# Cambio de coordenadas
+## Cambio de Coordenadas
 
 En integrales triples, puedo hacer un cambio de coordenadas parcial, Cambiando dos coordenadas, y dejando constante la otra. O puedo cambiar las tres variables.
 
@@ -38,7 +38,7 @@ y'_u && y'_v && y'_w\\
 z'_u && z'_v && z'_w\end{vmatrix}\quad\text{Factor de transformacion}
 $$
 
-# Coordenadas Esféricas
+## Coordenadas Esféricas
 
 $$
 \text{Variables}\begin{cases}

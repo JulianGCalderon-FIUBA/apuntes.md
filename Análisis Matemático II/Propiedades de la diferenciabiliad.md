@@ -4,7 +4,7 @@
 
 **Cociente de funciones $C^1$ es $C^1$,** (con denominador no nulo)
 
-# Regla de la Cadena
+## Regla de la Cadena
 
 Sea $\vec f: D\subset\mathbb{R}^n\to\mathbb{R}^m,\vec g: D\subset\mathbb{R}^m\to\mathbb{R}^p$. Si $\vec f$ es diferenciable en $\vec x_0$ y $\vec g$ es diferenciable en $\vec y_0 =\vec f(\vec x_0)$, entonces la composicion $\vec h = \vec g \circ\vec f$, resulta diferenciable en $\vec x_0$. Si existe $\vec h$
 
@@ -16,7 +16,7 @@ $$
 
 $D_{\vec f}:$ Matriz Jacobiana de $\vec f$
 
-# Arbol de derivacion
+## Arbol de Derivacion
 
 ![[Propiedades de la diferenciabiliad 1.png]]
 

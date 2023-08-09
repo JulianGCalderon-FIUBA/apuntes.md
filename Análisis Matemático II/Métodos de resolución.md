@@ -1,4 +1,4 @@
-# Método de Variables Separables
+## Método de Variables Separables
 
 $$
 y' = f(x)\cdot g(y)
@@ -16,7 +16,7 @@ $$
 \begin{cases} y = xz \\ y' = z + z'x\end{cases}
 $$
 
-# Método de Ecuaciones Lineales
+## Método de Ecuaciones Lineales
 
 **Definición:**
 
@@ -40,28 +40,28 @@ $$
 a(x)\cdot y' = b(x) \cdot y = c(x)
 $$
 
-La diferencia entre soluciones de la no homogénea es solución de la homogénea. 
+La diferencia entre soluciones de la no homogénea es solución de la homogénea.
 
 La SG de la no homogénea se obtiene como suma de la SG de la homogénea, con una SP de la no homogénea.
 
-## Método
+### Método
 
 1. Resolver la homogénea asociada (variables separables)
 2. Encontrar una SP de la no homogénea
-    1. Proponemos como solución la de la homogénea, pero dejamos que la constante sea en función de x
-    2. La remplazamos en la ecuación diferencial y la forzamos a que la cumpla.
-    3. Resolvemos la ecuación y tomamos la solución particular mas simple
+	1. Proponemos como solución la de la homogénea, pero dejamos que la constante sea en función de x
+	2. La remplazamos en la ecuación diferencial y la forzamos a que la cumpla.
+	3. Resolvemos la ecuación y tomamos la solución particular mas simple
 3. Buscamos la SG de la no homogénea
 
 $$
 SG_{NH} = SG_{H} + SP_{NH}
 $$
 
-# ED. de tipo Homogéneo
+## Ed. de Tipo Homogéneo
 
 Este método se aplica cuando la EDO no es lineal, ni de variables separables, pero si es homogénea,
 
-Se llama **homogénea** de grado $0$ a la toda función que satisfaga que $f(tx,ty) = f(x,y)$. 
+Se llama **homogénea** de grado $0$ a la toda función que satisfaga que $f(tx,ty) = f(x,y)$.
 
 Se llama EDO de tipo homogéneo siempre que se pueda escribir como $y' = f(x,y)$, siendo $f$ una función homogénea de grado 0.
 

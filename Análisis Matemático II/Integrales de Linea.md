@@ -17,10 +17,9 @@ $$
 > [!note]
 > La integral no depende de la parametrización elegida
 
+## Integral de Campos Escalares sobre Curvas
 
-# Integral de Campos Escalares sobre Curvas
-
-## Masa
+### Masa
 
 $$
 \text{densidad lineal }\delta = \frac {dM}{dL},\quad M = \delta\cdot ds
@@ -36,7 +35,7 @@ $$
 \boxed{M = \int_a^b \delta\big(\gamma(t)\big) \cdot \|\gamma'(t)\|\cdot dt}
 $$
 
-## Centro de Masa
+### Centro de Masa
 
 $$
 r_{cm} = \frac{\sum m_i \cdot \vec r_i}{\sum m_i}
@@ -48,7 +47,7 @@ $$
 \boxed{r_{cm} = \frac{\int_a^b \gamma(t) \cdot \delta\big(\gamma(t)\big) \cdot \|\gamma'(t)\|\cdot dt}{\int_a^b \delta\big(\gamma(t)\big) \cdot \|\gamma'(t)\|\cdot dt }}
 $$
 
-## Momento de Inercia
+### Momento de Inercia
 
 $$
 I_x = \sum m_i \cdot x_i^2
@@ -63,10 +62,9 @@ $$
 > [!note]
 > Se calcula de forma análoga para los otros ejes
 
+## Integral de Campos Vectoriales sobre Curvas
 
-# Integral de Campos Vectoriales sobre Curvas
-
-## Trabajo de Fuerza
+### Trabajo de Fuerza
 
 Cuando trabajamos con una partícula en un campo de fuerzas, sea $\gamma$ su trayectoria y $f$ el campo de fuerzas.
 
@@ -87,10 +85,8 @@ $$
 > [!note]
 > La integral no depende de la parametrización elegida, pero si del sentido.
 
-
 > [!note]
 > En general, el trabajo entre $P$ y $Q$ depende de la trayectoria, a menos que se trate de campos conservativos. Para los cuales la integral es independiente de la trayectoria.
-
 
 $$
 \underbrace{\oint_C}_{\substack{
@@ -100,7 +96,7 @@ $$
 \vec f\cdot d\vec s \neq 0 \implies \text{campo no conservativo}
 $$
 
-Si $\vec f$ es un campo conservativo, entonces  es el gradiente de una función potencial $\varphi$
+Si $\vec f$ es un campo conservativo, entonces es el gradiente de una función potencial $\varphi$
 
 $$
 \vec f = \nabla\varphi
@@ -117,12 +113,11 @@ $$
 > [!note]
 > La matriz jacobiana de un campo conservativo debe ser simétrica
 
-
 $$
 J_f = \begin{pmatrix}f'_{1_x} & f'_{1_y} & f'_{1_z}\\f'_{2_x} & f'_{2_y} & f'_{2_z}\\f'_{3_x} & f'_{3_y} & f'_{3_z}\end{pmatrix} = \begin{pmatrix}Q''_{xx} & Q''_{xy} & Q''_{xz}\\Q''_{yx} & Q''_{yy} & Q''_{yz}\\Q''_{zx} & Q''_{zy} & Q''_{zz}\end{pmatrix} 
 $$
 
-## Encontrar función potencial $\varphi$
+### Encontrar Función Potencial $\varphi$
 
 $$
 \begin{cases}f_1 = \varphi'_x\\f_2 = \varphi'_y\\f_3 = \varphi'_z\end{cases}\quad\text{Sist. de ED en derivadas parciales}
@@ -130,7 +125,7 @@ $$
 
 Se resuelve integrando y derivando respecto de $x,y,z$.
 
-## Condición Necesaria y Suficiente para Campo Conservativo
+### Condición Necesaria Y Suficiente para Campo Conservativo
 
 Sea $F$ un campo de fuerzas, entonces es conservativo en $D$ si $J_F$ es simétrico y continuo en $D$, y $D$ es simplemente conexo.
 

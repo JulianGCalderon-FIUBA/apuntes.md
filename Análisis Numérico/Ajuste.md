@@ -70,8 +70,6 @@ $$
 
 Si el modelo es de la forma potencial, lo resolveremos de forma similar
 
-.
-
 $$
 y = ax^b
 $$
@@ -126,6 +124,6 @@ $$
 \end{pmatrix}
 $$
 
-# Regresión por Polinomios
+## Regresión por Polinomios
 
 El procedimiento es fácilmente extendible al ajuste de datos con un polinomio de orden superior.

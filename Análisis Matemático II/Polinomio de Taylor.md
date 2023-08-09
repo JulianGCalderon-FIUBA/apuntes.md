@@ -26,7 +26,7 @@ $$
 P_{n+1}(x) = P_n(x) + \frac{f^{(n+1)}}{(n+1)!}\cdot(x-a)^{n+1}
 $$
 
-# Polinomios de Taylor en varias variables
+## Polinomios de Taylor en Varias Variables
 
 En campos escalares, se debe comprobar que todas las derivadas parciales del polinomio tengan el mismo valor que las derivadas parciales de $f$.
 
@@ -50,7 +50,7 @@ $$
 \begin{align*}p_3&(x_0, y_0) = p_2(x_0, y_0)\\+&\frac{1}{3!}\bigg[f'''_{xxx}(x_0, y_0)(x-x_0)^3 + f'''_{yyy}(x_0, y_0)(y-y_0)^3\\&+3f'''_{xxy}(x_0, y_0)(x-x_0)^2(y-y_0)\\&+3f'''_{yyx}(x_0, y_0)(x-x_0)(y-y_0)^2\bigg]\end{align*}
 $$
 
-## Definicion Formal
+### Definicion Formal
 
 $$
 p_k(x,y) = f(x_0, y_0) + \sum_{i=0}^k\frac{1}{i!}\sum_{j=0}^i\binom ij\frac{\partial^if}{\partial x^{i-j}\partial y^j}(x_0, y_0)(x-x_0)^{i-j}(y-y_0)^j

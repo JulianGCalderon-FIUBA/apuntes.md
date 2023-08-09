@@ -44,7 +44,7 @@ $$
 d\sigma = \bigg\|\frac{\nabla F}{F'_z}\bigg\|
 $$
 
-# Flujo
+## Flujo
 
 Llamamos ***"flujo*"** a la integral de superficie de tipo vectorial.
 
@@ -52,7 +52,6 @@ Sea $S$ una superficie en $\mathbb{R}^3$, y $f$ un campo vectorial que represent
 
 > [!note]
 > ¿Cuanto liquido atraviesa la superficie por unidad de tiempo?
-
 
 Solo la porción perpendicular de la velocidad atraviesa la superficie. Entonces si multiplico esta porción por el area infinitesimal, calculo el flujo. Tambien se puede pensar como el area del paralelogramo formado por la base infinitesimal y la velocidad de la partícula en el punto.
 

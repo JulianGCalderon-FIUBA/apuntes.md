@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Extremos de campos escalares.md",
+                "file": "Algoritmos II/Algoritmos II.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Extremos de campos escalares.md",
+                "file": "Algoritmos II/Algoritmos II.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Extremos de campos escalares.md",
+                "file": "Algoritmos II/Algoritmos II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Extremos de campos escalares.md",
+                "file": "Algoritmos II/Algoritmos II.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Extremos de campos escalares.md"
+                "file": "Algoritmos II/Algoritmos II.md"
               }
             }
           },
@@ -177,6 +177,23 @@
   },
   "active": "c42caadea4e53a08",
   "lastOpenFiles": [
+    "Análisis Numérico/Análisis Numérico.md",
+    "Análisis Numérico/Ajuste.md",
+    "Análisis Matemático II/Topología.md",
+    "Análisis Matemático II/Teoremas Integrales.md",
+    "Análisis Matemático II/Rectas y Planos.md",
+    "Análisis Matemático II/Propiedades de la diferenciabiliad.md",
+    "Análisis Matemático II/Polinomio de Taylor.md",
+    "Análisis Matemático II/Métodos de resolución.md",
+    "Análisis Matemático II/Limites.md",
+    "Análisis Matemático II/Integrales Triples.md",
+    "Análisis Matemático II/Integrales Dobles.md",
+    "Análisis Matemático II/Integrales de Superficie.md",
+    "Análisis Matemático II/Integrales de Linea.md",
+    "Análisis Matemático II/Funciones Implicitas.md",
+    "Análisis Matemático II/Funciones de varias variables.md",
+    "Análisis Matemático II/Familias de Curvas.md",
+    "Análisis Matemático II/Extremos de campos escalares.md",
     "Análisis Matemático II/Extremos Condicionados.md",
     "Análisis Matemático II/Ecuaciones Diferenciales 2.md",
     "Análisis Matemático II/Ecuaciones Diferenciales.md",
@@ -186,23 +203,6 @@
     "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
     "Análisis Matemático II/Cónicas.md",
     "Análisis Matemático II/Cuádricas.md",
-    "Algoritmos II/Algoritmos II.md",
-    "Análisis Matemático II/Análisis Matemático II.md",
-    "Fisica I/Trabajo y energia.md",
-    "Análisis Matemático II/Topología.md",
-    "Matemática Discreta/Nociones Básicas.md",
-    "Fisica I/Magnitudes escalares y vectoriales.md",
-    "Matemática Discreta/Álgebra de Boole.md",
-    "Análisis Numérico/Ajuste.md",
-    "Análisis de la Información/Web Rest API.md",
-    "Análisis de la Información/Verificar y Validar requerimientos.md",
-    "Análisis de la Información/Técnicas de Descubrimiento de Requisitos.md",
-    "Análisis de la Información/Técnicas de Análisis, Modelado y Especificación.md",
-    "Análisis de la Información/Taller de Análisis de Interesados.md",
-    "Análisis de la Información/Requisitos en Contexto.md",
-    "Análisis de la Información/Requirement Specification vs User Stories.md",
-    "Análisis de la Información/PSA.md",
-    "Análisis de la Información/Prototipado y Experiencia de Usuario.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",

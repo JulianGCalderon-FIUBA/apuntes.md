@@ -1,4 +1,4 @@
-# Divergencia
+## Divergencia
 
 La divergencia se calcula con el producto escalar entre el operador *nabla* $\nabla$ y una función vectorial $f$, el resultado seria la traza de la jacobiana de $f$
 
@@ -10,7 +10,7 @@ Representa la cantidad de liquido saliente en un punto (fuente). Si es negativa,
 
 Si la divergencia es nula, entonces el campo es **solenoidal**.
 
-# Rotor
+## Rotor
 
 El rotor se calcula con el producto vectorial entre el operador *nabla* $\nabla$ y una función vectorial $f$.
 
@@ -37,7 +37,7 @@ $$
 \nabla\times (\nabla \cdot f) ) = 0
 $$
 
-# Teoremas Integrales
+## Teoremas Integrales
 
 Relacionan entre si, integrales.
 
@@ -45,7 +45,7 @@ Relacionan entre si, integrales.
 - $\text{Stokes}$: Relaciona Circulación con un flujo
 - $\text{Green}$: Relaciona Circulación con una integral doble *(Stokes en 2D)*
 
-# Teorema de Gauss
+## Teorema de Gauss
 
 Si se cumple que
 
@@ -63,7 +63,7 @@ Este teorema permite calcular el flujo de superficies cerradas, con mas facilida
 
 Si la superficie no es cerrada, se puede usar el teorema cerrando la superficie, pero restándole el flujo de la superficie agregada.
 
-# Teorema de Stokes
+## Teorema de Stokes
 
 Si se cumple que
 
@@ -74,7 +74,6 @@ Si se cumple que
 > [!note]
 > Una superficie orientable si tiene dos caras. Un ejemplo de una superficie no orientable es la **Banda de Möbius**
 
-
 Entonces podemos aplicar el teorema de **Stokes.**
 
 $$
@@ -83,7 +82,7 @@ $$
 
 Este teorema permite calcular la circulación de curvas cerradas, con mas facilidad. El resultado de la integral es independiente de la superficie, solo depende de sus bordes. Debido a esto, se calcula la circulación con la superficie mas simple posible.
 
-# Teorema de Green
+## Teorema de Green
 
 Sea $\vec f:D\subset \mathbb{R}^2\to\mathbb{R}^2$, y $C$ una curva plana cerrada plana suave o suave a trozos, orientada en sentido contrario a las agujas del reloj (positivo), perteneciente a $D$. entonces podemos aplicar el teorema de ***Green**.*
 
