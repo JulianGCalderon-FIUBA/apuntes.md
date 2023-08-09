@@ -11,12 +11,8 @@
             "id": "54c1fa07ae0cf29e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemas Operativos/Archivos y Directorios.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operativos/Archivos y Directorios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operativos/Archivos y Directorios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Sistemas Operativos/Archivos y Directorios.md"
-              }
+              "state": {}
             }
           },
           {
@@ -136,13 +128,22 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "c5ec9f1b2f9b8c90",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 332.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,13 +156,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a38d35fa6246a4b7",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Network Layer Data Plane.md",
+    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/What’s Inside a Router.md",
+    "Sistemas Operativos/Archivos y Directorios.md",
     "Sistemas Operativos/API de Threads.md",
     "Algoritmos I/Manejo de Archivos.md",
     "Algoritmos I/Conceptos Básicos.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.md",
-    "Sistemas Operativos/Archivos y Directorios.md",
     "Sistemas Operativos/Bugs de Concurrencia.md",
     "Sistemas Operativos/API de Memoria.md",
     "Sistemas Operativos/Concurrencia.md",
@@ -180,9 +184,6 @@
     "Matemática Discreta/Inducción.md",
     "Matemática Discreta/Grafos Particulares.md",
     "Matemática Discreta/Grafos Orientados.md",
-    "Matemática Discreta/Ecuaciones de Recurrencia.md",
-    "Matemática Discreta/Caminos y Distancias.md",
-    "Matemática Discreta/Algoritmos.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",
