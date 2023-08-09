@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Algebra II.md",
+                "file": "Estructura del Computador/Circuitos.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Algebra II.md",
+                "file": "Estructura del Computador/Circuitos.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra II/Algebra II.md",
+                "file": "Estructura del Computador/Circuitos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra II/Algebra II.md",
+                "file": "Estructura del Computador/Circuitos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra II/Algebra II.md"
+                "file": "Estructura del Computador/Circuitos.md"
               }
             }
           },
@@ -174,11 +174,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "c42caadea4e53a08",
   "lastOpenFiles": [
+    "Algebra II/Algebra II.md",
     "Algebra II/Espacios Vectoriales.md",
     "Algebra II/Autovalores y Autovectores.md",
-    "Algebra II/Algebra II.md",
     "Física II/Trabajo de Campos.md",
     "Física II/Tercer Parcial.md",
     "Física II/Referencia del Potencial.md",
