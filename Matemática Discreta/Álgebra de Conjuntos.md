@@ -184,9 +184,18 @@ Es muy importante utilizar las definiciones, los supuestos, y las propiedades en
 A veces, demostrar una implicancia es complicada, por lo que se puede trabajar con la contrarrecíproca, la cual es equivalente. A su vez, la contraria es equivalente a la reciproca
 
 $$
-\text{Original}: p \to q \\
-\text{Contraria}: p' \to q' \\
-\text{Reciproca}: q \to p \\
+\text{Original}: p \to q
+$$
+
+$$
+\text{Contraria}: p' \to q'
+$$
+
+$$
+\text{Reciproca}: q \to p
+$$
+
+$$
 \text{Contra-reciproca}: q' \to p'
 $$
 

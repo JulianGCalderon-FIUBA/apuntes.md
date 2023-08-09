@@ -11,11 +11,28 @@
             "id": "5ab12f535df04990",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Análisis Numérico/Ajuste.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc101f935a14504d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matemática Discreta/Álgebra de Conjuntos.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "/\\$[^\\$]*?\\\\\\\\[^\\$]*?\\$",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,11 +78,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 520.5
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -81,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física II/Circuito Electrico.md",
+                "file": "Matemática Discreta/Álgebra de Conjuntos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física II/Circuito Electrico.md",
+                "file": "Matemática Discreta/Álgebra de Conjuntos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física II/Circuito Electrico.md"
+                "file": "Matemática Discreta/Álgebra de Conjuntos.md"
               }
             }
           },
@@ -160,10 +178,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "fc101f935a14504d",
   "lastOpenFiles": [
-    "Modelos y Optimización I/Método Simplex.md",
+    "Análisis Numérico/Ajuste.md",
+    "Untitled.md",
     "Física II/Circuito Electrico.md",
+    "Modelos y Optimización I/Método Simplex.md",
     "Matemática Discreta/Álgebra de Boole.md",
     "Física II/Inductores.md",
     "Física II/Capacitores.md",
@@ -186,8 +206,6 @@
     "Algebra II/Algebra II.md",
     "Algebra II/Espacios Vectoriales.md",
     "Matemática Discreta/Álgebra de Conjuntos.md",
-    "Matemática Discreta/Alfabeto.md",
-    "Algebra II/Producto Interno.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
