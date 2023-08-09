@@ -36,23 +36,20 @@ $$
 \boxed{ax^2 + by^2 - cz^2 = d}
 $$
 
+Su forma, dependerá del valor de $d$
+
 ### Hiperboloide de Una Hoja
 
-$$
-d:\text{positivo}
-$$
+Si es positivo, se trata de un hiperboloide de una hoja ![[Cuádricas 4.png|Hiperboloide de una hoja]]
 
-![[Cuádricas 4.png|Hiperboloide de una hoja]]
 
 ### Hiperboloide de Dos Hojas
 
-$$
-d:\text{negativo}
-$$
-
-![[Cuádricas 5.png|Hiperboloide de dos hojas]]
+Si es negativo, se trata de un hiperboloide de dos hojas ![[Cuádricas 5.png|Hiperboloide de dos hojas]]
 
 ### Cono
+
+
 
 $$
 d=0
