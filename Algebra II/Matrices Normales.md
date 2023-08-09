@@ -35,8 +35,8 @@ Las siguientes propiedades son validas únicamente para matrices herméticas:
 - Los auto espacios correspondientes a autovalores distintos son ortogonales
 - Existe una base ortonormal de $\Bbb C^n$ formada por autovectores de $A$. Sus multiplicidades algebraicas y geométricas coinciden. Toda matriz hermética es a su vez, diagonalizable.
 
-	> [!note]
-	> Una matriz diagonalizable unitariamente no es necesariamente hermética.
+> [!note]
+> Una matriz diagonalizable unitariamente no es necesariamente hermética.
 
 **Matrices Definidas Positivas:**
 

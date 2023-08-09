@@ -293,6 +293,11 @@ En definitivamente, estaremos realizando un cambio de base para que los vectores
 Para calcular el resto de valores, utilizamos la técnica del pivote. Se llama pivote de una tabla al elemento que está en la intersección de la columna de la variable que entra y la fila de la variable que sale. El pivote lo tomaremos de la tabla anterior.
 
 1. Dividimos todos los elementos de la fila de la variable que ingresa por el valor del pivote
+2. Para cada valor restante, se forma un cuadrilátero con las esquinas en el pivote y el valor anterior de la posición que queremos calcular. El nuevo valor se calculara como, la resta entre el valor anterior de la posición que queremos calcular, y el producto de las diagonales del rectángulo dividido por el pivote.
+
+$$
+\text{Valor Nuevo} = \text{Valor Anterior} - \frac{\text{Producto de las Diagonales}}{\text{Pivote}}
+$$
 
 > [!example]- División por Pivote
 > 
@@ -303,12 +308,6 @@ Para calcular el resto de valores, utilizamos la técnica del pivote. Se llama p
 > | $8$ | $x_1$ | $300$ | $1$ | $1$ | $0.5$ | $0$ | $0$ |
 > | $0$ | $x_4$ | | $0$ | | | | |
 > | $0$ | $x_5$ | | $0$ | | | | |
-
-2. Para cada valor restante, se forma un cuadrilátero con las esquinas en el pivote y el valor anterior de la posición que queremos calcular. El nuevo valor se calculara como, la resta entre el valor anterior de la posición que queremos calcular, y el producto de las diagonales del rectángulo dividido por el pivote.
-
-	$$
-    \text{Valor Nuevo} = \text{Valor Anterior} - \frac{\text{Producto de las Diagonales}}{\text{Pivote}}
-    $$
 
 > [!example]- Regla del Cuadrilátero
 > 
