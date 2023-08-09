@@ -18,11 +18,11 @@ $$
 - $F(x_0, y_0, z_0) = k$
 - $f'_x(x_0, y_0, z_0) \neq 0$
 
-### Generalizacion para $m$ ecuaciones con $n$ variables
+### Generalización para $m$ ecuaciones con $n$ variables
 
 $(n>m)$
 
-- $F_1, F_2, \cdots, F_m$ son funciones simultaneamente $C^1$ en un entorno del punto
+- $F_1, F_2, \cdots, F_m$ son funciones simultáneamente $C^1$ en un entorno del punto
 - $\displaystyle \begin{cases}F_1(\vec x_0) = 0 \\F_2(\vec x_0) = 0\\\cdots\\F_m(\vec x_0) = 0\end{cases}$
 - $\displaystyle\Delta\bigg(\frac{\partial(f_1, f_2, \cdots, f_m)}{\partial(x_1, x_2, \cdots, x_m)}\bigg)\neq 0$ (Determinante jacobiano de las funciones con respecta a las variables dependientes.
 

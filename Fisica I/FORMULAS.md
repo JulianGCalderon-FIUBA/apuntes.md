@@ -18,7 +18,9 @@ $n_i\sin\theta_i = n_r\sin\theta_r\\
 
 **Prisma**
 
-$i = r'\\r = i'$
+$i = r'$
+
+$r = i'$
 
 $\delta_{min} = 2i -\varphi\\
 
@@ -163,7 +165,9 @@ $f_\text{Pulso} = \big|f_2-f_1\big|$
 
 ### **Interferencia**
 
-$\xi_1(x,t) = A_1\sin(kx_1-wt+\varphi_1)\\\xi_2(x,t) = A_2\sin(kx_2-wt+\varphi_2)$
+$\xi_1(x,t) = A_1\sin(kx_1-wt+\varphi_1)$
+
+$\xi_2(x,t) = A_2\sin(kx_2-wt+\varphi_2)$
 
 $\xi(x,t) = 2A \cdot \cos\bigg[kx_p - wt +\varphi_p\bigg] \cdot \cos\bigg[\frac{k\cdot\Delta x}{2}+\frac{\Delta\varphi}{2}\bigg]$
 

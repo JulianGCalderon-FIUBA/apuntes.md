@@ -35,7 +35,7 @@ $$
 
 1. $P(\overline A) = 1 - P(A)$
 2. $P(A \cup B) = P(A) + P(B) - P(A\cap B)$
-3. $P(A \cup B \cup C) = P(A) + P(B) + P(C) \\\qquad\qquad\qquad\quad\ - P(A\cap B) - P(A\cap C) - P(B\cap C) \\\qquad\qquad\qquad\quad\  + P(A \cap B \cap C)$
+3. $P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A\cap B) - P(A\cap C) - P(B\cap C)  + P(A \cap B \cap C)$
 
 ## Algebra de Eventos
 

@@ -129,9 +129,10 @@ $$
 A partir de este criterio, podemos demostrar por fuerza bruta que $K_5$ es el primer grafo completo no planar. Además, todos los grafos siguientes tampoco lo son.
 
 > [!proof]- Demostración
-> 
+>
+
 Por inducción podemos probar que para todos los grafos de orden mayor a > dos, se cumple que:
-> 
+
 > $$
 > d(f_k) \geq 3, \forall k \in 0,\cdots, f
 > $$
@@ -173,7 +174,7 @@ Una cota superior del número cromático de $G$ es $\Delta(G) + 1$. Recordemos q
 > 
 > Para $n = 1$, sea $G$ el grafo de orden $1$, entonces existira la coloración trivial de un color, siendo $\chi(G) = 1 \leq \Delta(G) + 1 = 1$.
 > 
-> Para $n>1$, sea $G$ un grafo simple de orden $n$, y sea $v$ un vértice cualquiera del grafo. Luego, definimos $H = Gv$. El grafo $H$ es simple ya que eliminar aristas no introduce vertices. $\Delta(H) \leq \Delta(G)$ ya que tomamos cualquier vértice $v$, por lo que el grado máximo puede mantenerse igual. Debido a que no introducimos aristas, este nunca podrá ser mayor. Por la hipótesis inductiva, sabremos que existe al menos una coloración $H$ con a lo sumo, $\Delta(H) + 1 \leq\Delta(G) + 1$. Luego, existirá esa misma coloración para $G$, pero aún sin colorear el vértice eliminado $v$. Debido a que el vértice eliminado tiene, por definición, a lo sumo $\Delta(G)$ vecinos y tenemos un total de $\Delta(G) +1$ colores, siempre tendremos un color para utilizar.
+> Para $n> 1$, sea $G$ un grafo simple de orden $n$, y sea $v$ un vértice cualquiera del grafo. Luego, definimos $H = Gv$. El grafo $H$ es simple ya que eliminar aristas no introduce vertices. $\Delta(H) \leq \Delta(G)$ ya que tomamos cualquier vértice $v$, por lo que el grado máximo puede mantenerse igual. Debido a que no introducimos aristas, este nunca podrá ser mayor. Por la hipótesis inductiva, sabremos que existe al menos una coloración $H$ con a lo sumo, $\Delta(H) + 1 \leq\Delta(G) + 1$. Luego, existirá esa misma coloración para $G$, pero aún sin colorear el vértice eliminado $v$. Debido a que el vértice eliminado tiene, por definición, a lo sumo $\Delta(G)$ vecinos y tenemos un total de $\Delta(G) +1$ colores, siempre tendremos un color para utilizar.
 
 Se llama el índice cromático $\chi’(G)$ de un grafo al cardinal de una coloración mínima de aristas. Se consideran dos aristas adyacentes si inciden sobre el mismo vértice. Para las aristas, tendremos cotas mucho mas poderosas, con el teorema de ***Vizing***.
 

@@ -65,7 +65,7 @@ Todos los directorios siempre se crean con dos entradas iniciales:
 
 ### Lectura de Directorios
 
-En lugar de abrirlos como un archivo regularmente, utilizaremos la ***syscall ```````opendir*()`. Una vez abierto, utilizaremos `readdir()` para leer secuencialmente cada entrada del directorio.
+En lugar de abrirlos como un archivo regularmente, utilizaremos la ***syscall `opendir*()`. Una vez abierto, utilizaremos `readdir()` para leer secuencialmente cada entrada del directorio.
 
 ### Borrar Directorios
 

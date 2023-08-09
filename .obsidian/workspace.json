@@ -4,40 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4d4b85b09594899f",
+        "id": "17a5ce24301d8e0d",
         "type": "tabs",
         "children": [
           {
-            "id": "c42caadea4e53a08",
+            "id": "54c1fa07ae0cf29e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática Discreta/Subconjuntos de Vertices y Aristas.md",
+                "file": "Algoritmos I/Manejo de Archivos.md",
                 "mode": "source",
                 "source": true
               }
-            },
-            "group": "6f21b74d93d43c3a"
-          }
-        ]
-      },
-      {
-        "id": "16d2b0d38d2b5936",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "986299c13b4bedd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matemática Discreta/Subconjuntos de Vertices y Aristas.md",
-                "mode": "preview",
-                "source": true
-              }
-            },
-            "group": "6f21b74d93d43c3a"
+            }
           }
         ]
       }
@@ -68,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "/``[^`]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -105,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática Discreta/Subconjuntos de Vertices y Aristas.md",
+                "file": "Algoritmos I/Manejo de Archivos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática Discreta/Subconjuntos de Vertices y Aristas.md",
+                "file": "Algoritmos I/Manejo de Archivos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática Discreta/Subconjuntos de Vertices y Aristas.md"
+                "file": "Algoritmos I/Manejo de Archivos.md"
               }
             }
           },
@@ -176,8 +157,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c42caadea4e53a08",
+  "active": "178700d707526f5b",
   "lastOpenFiles": [
+    "Algoritmos I/Conceptos Básicos.md",
+    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
+    "Sistemas Operativos/Archivos y Directorios.md",
+    "Sistemas Operativos/Bugs de Concurrencia.md",
+    "Sistemas Operativos/API de Memoria.md",
+    "Sistemas Operativos/API de Threads.md",
+    "Sistemas Operativos/Concurrencia.md",
+    "Física II/Capacitores.md",
+    "Análisis Matemático II/Rectas y Planos.md",
+    "Análisis Matemático II/Funciones Implicitas.md",
+    "Probabilidad y Estadistica/Probabilidad.md",
+    "Fisica I/FORMULAS.md",
+    "Matemática Discreta/Subconjuntos de Vertices y Aristas.md",
     "Matemática Discreta/Relaciones.md",
     "Matemática Discreta/Operaciones entre Grafos.md",
     "Matemática Discreta/Clasificaciones.md",
@@ -191,19 +185,6 @@
     "Matemática Discreta/Caminos y Distancias.md",
     "Matemática Discreta/Algoritmos.md",
     "Matemática Discreta/Álgebra de Conjuntos.md",
-    "Matemática Discreta/Álgebra de Boole.md",
-    "Matemática Discreta/Alfabeto.md",
-    "Probabilidad y Estadistica/Vectores Aleatorios.md",
-    "Probabilidad y Estadistica/Varianza Condicional.md",
-    "Probabilidad y Estadistica/Variables Aleatorias Condicionadas.md",
-    "Probabilidad y Estadistica/Variables Aleatorias.md",
-    "Probabilidad y Estadistica/Test de Hipotesis.md",
-    "Probabilidad y Estadistica/Teoremas Utiles.md",
-    "Probabilidad y Estadistica/Teorema Central del Límite.md",
-    "Probabilidad y Estadistica/Técnicas de Conteo.md",
-    "Probabilidad y Estadistica/Simulación.md",
-    "Probabilidad y Estadistica/Propiedades de Variables Aleatorias.md",
-    "Probabilidad y Estadistica/Propiedades del PP.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",
