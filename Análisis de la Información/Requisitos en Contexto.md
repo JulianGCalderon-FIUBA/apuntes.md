@@ -8,7 +8,7 @@ Adicionalmente, con la estrategia determinaremos como gestionamos la cartera de 
 
 Las ideas no siempre se transforman en productos. Debemos saber si las ideas son factibles antes de realizar una ingeniería de requisitos completas o un análisis muy detallado. Debemos realizar un análisis de factibilidad, de orden de magnitud.
 
-## ¿Que Hacemos en Un Startup?
+## ¿Que Hacemos en un Startup?
 
 Muchas veces, no sabemos que quieren los clientes. Se dan dos situaciones en paralelo:
 
@@ -21,7 +21,7 @@ Este tipo de desarrollo es mucho mas dinámico, ya que debemos descubrir nuestro
 
 Es mas dinámico, hay mas lugar a la innovación
 
-## Requisitos en El Ciclo de Vida
+## Requisitos en el Ciclo de Vida
 
 Los requisitos no están aislados. Son la fuente para el desarrollo del producto, para definir su visión, los riesgos, la arquitectura. Cuando hablamos de trazabilidad, estamos buscando el vinculo entre los requisitos y el resto de elementos del desarrollo del software.
 

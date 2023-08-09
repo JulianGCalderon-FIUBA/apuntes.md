@@ -48,7 +48,7 @@ int main()
 }
 ```
 
-### **¿En Que Situaciones Se utilizan?**
+### **¿En Qué Situaciones se utilizan?**
 
 Los punteros a funciones son útiles cuando tengo dos funciones con mucho código en común, pero difieren en una parte. Entonces puedo pasar este código distinto como un puntero a función.
 

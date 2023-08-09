@@ -23,7 +23,7 @@ Demostración de Picasso, del concepto de abstracción.
 
 Un tipo de dato abstracto (TDA), es una clase de objetos abstractos, los cuales están caracterizados por las operaciones que definimos sobre esos objetos. Cuando un programador utiliza un **TDA**, esta únicamente interesado en en el comportamiento del objeto (¿Que?), y no de como se implementa. La vision de aquel que utiliza un **TDA** es exclusivamente de **Caja Negra**.
 
-### El Qué y El Cómo
+### El Qué y el Cómo
 
 Las visiones de caja negra y caja blanca hacen una gran diferencia:
 

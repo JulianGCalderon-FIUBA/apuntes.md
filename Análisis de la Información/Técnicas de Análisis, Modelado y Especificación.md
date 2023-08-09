@@ -125,7 +125,7 @@ Permite representar los diferentes estados por los que puede pasar un objeto de 
 
 Permite especificar las actividades o pasos dentro un flujo de trabajo, de un proceso, o de un caso de uso.
 
-### Flujo de Actividades en Un Proceso de Negocio (BPMN)
+### Flujo de Actividades en un Proceso de Negocio (BPMN)
 
 Es un estándar para el modelado de procesos de negocio, ayuda a identificar casos de uso / historias de usuario. Es similar al diagrama de actividades mencionado anteriormente. Sirve para genera un proceso que pueda ser ejecutados.
 
@@ -135,7 +135,7 @@ No sólo para descubrir requisitos, también es útil para analizarlos. No se de
 
 Pueden ser evolutivos o descartables, y hechos con papel y lápiz.
 
-### Ears (Easy Approach to Requirements Synax)
+### Ears (Easy Approach to Requirements Syntax)
 
 Es un lineamiento para minimizar los problemas derivados de la ambigüedad cuando utilizamos lenguaje natural. *EARS* propone formatos muy específicos para describir requisitos:
 
