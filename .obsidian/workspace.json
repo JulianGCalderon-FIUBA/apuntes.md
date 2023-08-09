@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmos II/Arboles Auto Balanceados.md",
+                "file": "2023-08-09.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmos II/Arboles Auto Balanceados.md",
+                "file": "2023-08-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmos II/Arboles Auto Balanceados.md",
+                "file": "2023-08-09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmos II/Arboles Auto Balanceados.md"
+                "file": "2023-08-09.md"
               }
             }
           },
@@ -164,8 +164,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "54c1fa07ae0cf29e",
   "lastOpenFiles": [
+    "Análisis Numérico/Sistemas Lineales.md",
+    "2023-08-09.md",
+    "Análisis Matemático II/Integrales Dobles.md",
     "Análisis Matemático II/Diferenciabilidad.md",
     "Algoritmos II/Arboles Auto Balanceados.md",
     "Matemática Discreta/Algoritmos.md",
@@ -189,9 +192,6 @@
     "Introducción a Sistemas Distribuidos/Clases Practicas.md",
     "Organizacion de Datos/Análisis de Sentimientos.md",
     "Matemática Discreta/Álgebra de Boole.md",
-    "Modelos y Optimización I/Análisis de Sensibilidad.md",
-    "Sistemas Operativos/Archivos y Directorios.md",
-    "Algebra II/Ortogonalidad.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
