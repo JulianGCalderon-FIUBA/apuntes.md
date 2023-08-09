@@ -13,11 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física II/Trabajo de Campos.md",
+                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
-            }
+            },
+            "group": "6f21b74d93d43c3a"
+          }
+        ]
+      },
+      {
+        "id": "16d2b0d38d2b5936",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "986299c13b4bedd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "6f21b74d93d43c3a"
           }
         ]
       }
@@ -85,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física II/Trabajo de Campos.md",
+                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física II/Trabajo de Campos.md",
+                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física II/Trabajo de Campos.md"
+                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md"
               }
             }
           },
@@ -152,13 +172,17 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "986299c13b4bedd2",
   "lastOpenFiles": [
-    "Física II/Tercer Parcial.md",
+    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
+    "Introducción a Sistemas Distribuidos/Clases Practicas.md",
+    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
     "Física II/Trabajo de Campos.md",
+    "Física II/Tercer Parcial.md",
     "Organizacion de Datos/Reduccion de Dimensionalidad.md",
     "Organizacion de Datos/Extracción de Datos.md",
     "Organizacion de Datos/Algoritmos Genéticos.md",
@@ -180,9 +204,6 @@
     "Algebra II/Subespacios de Matriz.md",
     "Análisis de la Información/Modelos en la ingeniería de software.md",
     "Análisis de la Información/Análisis de la Información.md",
-    "Análisis de la Información/Historias de Usuario.md",
-    "Análisis Numérico/Análisis Numérico.md",
-    "Análisis de la Información/Arquitectura del Software.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",

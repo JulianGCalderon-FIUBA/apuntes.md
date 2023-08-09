@@ -1,4 +1,4 @@
-# Latencia
+## Latencia
 
 ***Latencia:*** La latencia es el retardo entre un estimulo y la respuesta. Es un valor conceptual
 
@@ -33,7 +33,7 @@ $$
 T = \sum_{i\in\text{E}} T_i
 $$
 
-# TCP
+## TCP
 
 El protocolo ***TCP*** es un protocolo de capa de transporte que implementa un protocolo de entrega confiable, esto es:
 
@@ -48,7 +48,7 @@ Por el otro lado, el protocolo ***UDP*** es un protocolo minimalista que no ofre
 
 El protocolo ***TCP*** utiliza paquetes ***acks*** para indicarle al otro extremo de la conexión que recibir correctamente los paquetes. El valor del numero de secuencia del ***ack*** será el próximo ***byte*** que esperará recibir. Si un servidor recibe un paquete de datos con numero de secuencia $x$, entonces el servidor enviara un paquete de ***ack*** con un numero de secuencia de $x+1$. Si el un ***host*** recibe un paquete fuera de orden, entonces enviara un paquete de ***ack*** correspondiente al ultimo paquete recibido en orden.
 
-## Parámetros del Protocolo
+### Parámetros del Protocolo
 
 El protocolo ***TCP*** puede tiene los **siguientes parámetros**:
 
@@ -62,59 +62,57 @@ El protocolo ***TCP*** puede tiene los **siguientes parámetros**:
 - ***rwnd:*** Es el valor de la ventana de recepción del ***host*** del otro lado de la conexión. Representa la cantidad de paquetes que puede al o sumo tener en vuelo
 - ***Version:*** Tahoe | Reno
 
-## Etapas del Protocolo
+### Etapas del Protocolo
 
 El protocolo consta de las **siguientes etapas**:
 
 - ***Slow Start (SS):*** Es la etapa inicial del protocolo. Envía tantos paquetes como lo permitan las ventanas (se toma el mínimo entre la ventana de recepción y la ventana de congestión). El valor de la ventana se actualiza con la siguiente formula.
-    
-    $$
+
+	$$
     \text{cwnd}(n+1) = \text{cwnd}(n) + \text{MSS}\cdot\#\text{ack}
     $$
-    
-    Es decir, por cada ***ack*** recibido, aumentamos la ventana de congestión en uno.
-    
-    Por simplificación, únicamente aumentaremos el valor de la ventana cuando lleguen los ***acks*** de todos los paquetes enviados.
-    
-    En algún momento, se dará que $\text{cwnd} == \text{sstresh}$. En este momento pasamos a la etapa de ***Congestion Avoidance (CA).***
-    
+
+	Es decir, por cada ***ack*** recibido, aumentamos la ventana de congestión en uno.
+
+	Por simplificación, únicamente aumentaremos el valor de la ventana cuando lleguen los ***acks*** de todos los paquetes enviados.
+
+	En algún momento, se dará que $\text{cwnd} == \text{sstresh}$. En este momento pasamos a la etapa de ***Congestion Avoidance (CA).***
+
 - ***Congestion Avoidance (CA):*** En esta etapa, la ventana de congestión se aumentara linealmente:
-    
-    $$
+
+	$$
     \text{cwnd}(n+1) = \text{cwnd}(n) + \frac{\#\text{ack}}{\text{cwnd}(n)}
     $$
-    
-    Es decir, cuando arriban todos los paquetes que estaban en vuelo (siempre debe ser entero el valor), entonces aumentaremos la ventana de congestión en un ***MSS.***
-    
+
+	Es decir, cuando arriban todos los paquetes que estaban en vuelo (siempre debe ser entero el valor), entonces aumentaremos la ventana de congestión en un ***MSS.***
+
 - ***Fast Retransmit:*** Al entrar en esta fase, se reenvía inmediatamente el paquete que se presume perdido. En cuanto le llega el ***ack*** correspondiente, se avanza según el tipo de protocolo.
-    - ***Tahoe:*** Realiza lo mismo que tras un ***RTO***, se establecen los siguientes valores y se vuelve a ***Slow Start (SS):***
-        
-        
-        $$
-        \text{cwnd}(n+1) = \text{LW}
-        $$
-        
-        $$
+	- ***Tahoe:*** Realiza lo mismo que tras un ***RTO***, se establecen los siguientes valores y se vuelve a ***Slow Start (SS):***
+
+		$$
+		\text{cwnd}(n+1) = \text{LW}
+		$$
+
+		$$
         \text{sstresh}(n+1) = \text{cwnd}(n)/2
         $$
-        
-    - ***Reno:*** Se entra en la etapa de ***Fast Recovery***, la cual establecerá los siguientes valores:
-        
-        $$
-        \text{cwnd(n+1) = \text{cwnd}(n)/2}
-        $$
-        
-        Debido a que ahora ***cwnd*** y ***ssthresh*** tienen el mismo valor, se entrará a la etapa de ***Congestion Avoidance (CA)***.
-        
 
-## Perdida de Paquetes
+	- ***Reno:*** Se entra en la etapa de ***Fast Recovery***, la cual establecerá los siguientes valores:
+
+		$$
+        \text{cwnd}(n+1) = \text{cwnd}(n)/2
+        $$
+
+		Debido a que ahora ***cwnd*** y ***ssthresh*** tienen el mismo valor, se entrará a la etapa de ***Congestion Avoidance (CA)***.
+
+### Perdida de Paquetes
 
 Ante la **perdida de paquetes**, el protocolo responde:
 
 - Si se da una perdida por ***RTO (timer interrupt),*** entonces se establecerán los siguientes valores y se volverá a la etapa de ***Slow Start (SS):***
 - Si se da una perdida por triple ***ack*** repetido (cuatro *acks* iguales), entonces pasaremos a la etapa de ***Fast Retransmit (FR)***.
 
-## Three-Way Handshake
+### Three-Way Handshake
 
 Consiste de tres paquetes (de ahi su nombre)
 
@@ -124,7 +122,7 @@ Consiste de tres paquetes (de ahi su nombre)
 
 A partir de aca, ambos ***hosts*** están conectados y pueden intercambiar información.
 
-## Secuencia de Cierre
+### Secuencia de Cierre
 
 Consiste de cuatro paquetes:
 
@@ -135,14 +133,14 @@ Consiste de cuatro paquetes:
 
 Tanto el cliente como el servidor pueden iniciar el cierre de la conexión.
 
-# Routing
+## Routing
 
 Existen dos definiciones importantes:
 
 - ***Forwarding:*** Es la acción de mover los paquetes de una interfaz de entrada a una interfaz de salida
 - ***Routing:*** Es la acción de decidir a que interfaz enviar un paquete
 
-## Tablas de Ruteo
+### Tablas de Ruteo
 
 En la versión mas simple, una tabla de ruteo tiene dos columnas
 
@@ -151,7 +149,7 @@ En la versión mas simple, una tabla de ruteo tiene dos columnas
 | $192.168.0.1/24$ | $\text{P1}$ |
 | $10.20.0.6/30$ | $\text{P2}$ |
 
-Cuando se recibe un paquete, se debe comparar con las entradas de la tabla para definir a que puerto de salida debe ir. Por ejemplo, $\text{192.168.0.1/24}$ indica que los primeros $\text{24}$ *bits* de la dirección de destino del paquete entrante debe coincidir con $\text{192.168.0.1}$. 
+Cuando se recibe un paquete, se debe comparar con las entradas de la tabla para definir a que puerto de salida debe ir. Por ejemplo, $\text{192.168.0.1/24}$ indica que los primeros $\text{24}$ *bits* de la dirección de destino del paquete entrante debe coincidir con $\text{192.168.0.1}$.
 
 Generalmente, $/n$ indica que la mascara es un numero binario de $\text{32}$ *bits* donde los primeros $n$ bits tienen valor $\text 1$ mientras que los restantes tienen valor $\text 0$.
 
@@ -165,21 +163,21 @@ El paquete deberá ser enviado a la interfaz indicada por la entrada de la tabla
 
 ***Default Gateway:*** El ***default gateway*** es el puerto configurado para cualquier entrada que no coincide con la tabla, se denota con el prefijo/mascara $\text{0.0.0.0/0}$, esto se debe a que, por lo que vimos recién, cualquier dirección **IP** coincidirá con esta entrada, pero no la preferirá por sobre cualquier otra entrada (ya que es de longitud minima).
 
-## Optimización de Tablas
+### Optimización de Tablas
 
 Existen dos procedimientos para optimizar tablas:
 
 - ***Agregación de Entradas:*** Se da cuando dos redes vecinas tienen como destino el mismo puerto, por lo que pueden ser simplificadas en una sola entrada. Se debe cumplir que:
-    - Las entradas tienen una mascara de igual longitud
-    - Las entradas únicamente varían en el ultimo bit mantenido por la mascara
-    - Las entradas tienen el mismo puerto de salida
-    
-    En ese caso, podremos unificar esas entradas en una sola tabla, disminuyendo en uno la longitud del prefijo. (debemos quedarnos con el prefijo cuyo ultimo bit mantenido es un 0, ya que sino seria una entrada mal configurada).
-    
+	- Las entradas tienen una mascara de igual longitud
+	- Las entradas únicamente varían en el ultimo bit mantenido por la mascara
+	- Las entradas tienen el mismo puerto de salida
+
+	En ese caso, podremos unificar esas entradas en una sola tabla, disminuyendo en uno la longitud del prefijo. (debemos quedarnos con el prefijo cuyo ultimo bit mantenido es un 0, ya que sino seria una entrada mal configurada).
+
 - ***Contención de Entradas:*** Se da cuando dos entradas tienen la misma dirección de destino, y una entrada esta contenida en otra. En estos casos podremos eliminar la entrada mas restrictiva (la incluida en la otra).
 - ***Entrada Mal Configurada:*** Una entrada mal configurada es aquella que tiene un bit de valor 1 en una posición mayor al tamaño de la mascara. Esto implica que ninguna dirección jamás podrá coincidir con ella. El prefijo es mas restrictivo de lo que la mascara permite.
 
-# Subnetting
+## Subnetting
 
 Originalmente, se planteo dividir las redes en clases. Esto se llamo ***Classful Subnetting***, o ***Classful Addressing***. Existían tres grupos principales:
 
@@ -193,7 +191,7 @@ El problema con estas redes, era que había mucho desperdicio. Si no te alcanzab
 
 Debido a esto, se opto por un sistema de particionamiento flexible, en el que las mascaras pueden ser de cualquier longitud.
 
-## Método de Subnetting
+### Método de Subnetting
 
 Partiremos de un espacio de direcciones $S$ con longitud de mascara $M$. Debido a que cada red debe reservar una dirección para la ***Network Address*** y otra para la ***Broadcast Address***, tendremos un total de $T$ redes para entregar:
 
@@ -213,7 +211,7 @@ Debido a como se funcionan las mascaras, solo se pueden entregar cantidades de d
 
 Para evitar tener tablas mal configuradas, debemos entregar subespacios de direcciones de forma creciente en orden de mayor cantidad de redes solicitadas a menor.
 
-# Fragmentación
+## Fragmentación
 
 El ***MTU*** (***maximum transmission unit)*** es el máximo tamaño de un paquete de datos que se puede transferir en **IP**. Si el paquete completo tiene un tamaño mayor al ***MTU***, se deberá fragmentar.
 
@@ -223,41 +221,41 @@ Los headers de **IP** tienen tres campos utilizados para la fragmentación:
 
 - ***Identification:*** Es un numero de **16** bits que identifica cada paquete, permite definir de que paquete provienen los fragmentos
 - ***Flags:*** Son tres bits, el primero no es utilizado, siempre valdrá cero.
-    - El segundo es el bit ***Do Not Fragment***. Si vale uno, el paquete será descartado si es necesario fragmentarlo
-    - El tercer bit es el ***More Fragments***. Vale cero si es el ultimo fragmento de un paquete.
+	- El segundo es el bit ***Do Not Fragment***. Si vale uno, el paquete será descartado si es necesario fragmentarlo
+	- El tercer bit es el ***More Fragments***. Vale cero si es el ultimo fragmento de un paquete.
 - ***Fragment Offset:*** Numero de 13 bits que determina la posición del primer bit del fragmento en relación al paquete completo. Debido a que tenemos **3** bits menos, la posición real se obtiene tras multiplicar el ***offset*** por $2^3=8$. Debido a esto el tamaño de ***payload*** de los fragmentos debe ser múltiplo de 8.
 
-## Método de Fragmentación
+### Método de Fragmentación
 
 1. Si el tamaño del ***datagrama*** $D$ ***(incluye headers) es mayor al $MTU$, debemos fragmentar.
 2. Calculamos el tamaño del ***payload*** $P$ (sin headers) como:
-    
-    $$
+
+	$$
     P = D -  \underbrace{\text{Header IP}}_\text{20}
     $$
-    
+
 3. Calculamos el máximo tamaño de ***fragment payload*** $FP$ permitido, como:
-    
-    $$
+
+	$$
     \max FP = MTU - \text{Header IP}
     $$
-    
+
 4. Como nuestro fragmento debe tener un tamaño múltiplo de 8, entonces debemos hallar el máximo valor permitido múltiplo de 8, este será:
-    
-    $$
+
+	$$
     FP = \Bigg⌊\frac{\max FP}8\Bigg⌋\cdot 8
     $$
-    
+
 5. A partir del ***nuestro fragment payload size***, podremos calcular la cantidad de fragmentos que debemos enviar como
-    
-    $$
+
+	$$
     \#\text{Fragments} = \Bigg⌈\frac{P}{FP}\Bigg⌉
     $$
-    
+
 6. Construiremos un fragmento con ***payload size*** $FP$***, datagram size*** $FP + \text{Header IP}$, y ***fragment offset*** de 0.
 7. Repetiremos el procedimiento para el resto de fragmentos que se necesitan enviar. El tamaño de todos los fragmentos enviados sera el mismo $(P)$ excepto el ultimo, que tendrá un tamaño menor (o igual). Los ***fragment offset*** incrementaran linealmente a razón de $P/8$ por cada fragmento enviado. El ultimo fragmento tendrá el bit de ***More Fragments*** en 0. Logicamente, todos los paquetes tendran el bit de ***Do Not Fragment*** en 0.
 
-# NAT
+## NAT
 
 El NAT o *Network Address Translation* es un mecanismo mediante el cual un router traduce direcciones **IP** entre dos espacios incompatibles. Suele ser utilizado en redes locales para aprovechar el uso de direcciones **IP**.
 
@@ -277,7 +275,7 @@ Una tabla de traducción ***NAT*** mínimamente, tendría los siguientes campos:
 
 El puerto del ***router*** será elegido de forma aleatoria, mientras que el puerto del *host* sera, justamente, elegido por el ***host***.
 
-# DNS
+## DNS
 
 El sistema ***DNS*** es el sistema mediante el cual se traducen los nombres de dominio (google.com, fiuba.com.ar), a direcciones **IP**.
 
@@ -285,15 +283,15 @@ $$
 \underbrace{\text{www}}_\text{ Subdomain }\underbrace{\text{.fiuba}}_\text{ Domain }\underbrace{\text{.com}}_\text{ Second-level domain }\underbrace{\text{.ar}}_\text{ Top-level Domain }
 $$
 
-Para resolverlo, existen ***DNS*** ***servers*** ordenados de forma jerárquica que conocen las direcciones **IP** y los nombres de dominio de otros servidores conectados directamente. 
+Para resolverlo, existen ***DNS*** ***servers*** ordenados de forma jerárquica que conocen las direcciones **IP** y los nombres de dominio de otros servidores conectados directamente.
 
 Por encima de la jerarquía, están los servidores ***raíz*** que conocen las direcciones de los *TLD servers (top level domain)*
 
-El servidor autoritario es aquel que conoce la dirección de un dominio completo. Puede haber cualquier numero de servidores ***DNS*** intermedios desde el servidor raíz hasta el servidor autoritario. 
+El servidor autoritario es aquel que conoce la dirección de un dominio completo. Puede haber cualquier numero de servidores ***DNS*** intermedios desde el servidor raíz hasta el servidor autoritario.
 
 Por otro lado, también existen los ***local DNS servers.*** Cada ***ISP*** contiene uno, que se encarga de realizar las consultas provenientes de los usuarios.
 
-Existen dos tipos de consultas, las consultas iterativas y las consultas recursivas. 
+Existen dos tipos de consultas, las consultas iterativas y las consultas recursivas.
 
 - Cuando se realiza una consulta recursiva, si el receptor no conoce la dirección asociada al nombre de dominio dado, entonces se encargará de hallar la dirección a partir se consultas iterativas sucesivas.
 - Cuando se realiza una consulta iterativa, si el receptor no conoce la dirección asociada al nombre de dominio dado, devolverá una lista de servidores que conocerán la dirección buscada. Si la conoce, devolverá la dirección buscada (o una lista de ellas)

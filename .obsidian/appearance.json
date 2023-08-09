@@ -2,6 +2,7 @@
   "accentColor": "",
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
-    "center-image"
+    "center-image",
+    "center-table"
   ]
 }
