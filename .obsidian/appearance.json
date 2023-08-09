@@ -3,7 +3,9 @@
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
     "center-image",
-    "center-table"
+    "center-table",
+    "image-center",
+    "table-white-birder"
   ],
   "baseFontSize": 17,
   "theme": "obsidian"
