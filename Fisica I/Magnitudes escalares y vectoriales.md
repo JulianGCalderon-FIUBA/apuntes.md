@@ -39,7 +39,9 @@ $$
 ### Formula del coseno
 
 $$
-c^2 = a^2 + b^2 + 2ab\cos(180^º - \lambda) \\ \lambda = \angle{ab}
+\begin{align}
+&c^2 = a^2 + b^2 + 2ab\cos(180^º - \lambda) \\ &\lambda = \angle{ab}
+\end{align}
 $$
 
 ### Formula del seno

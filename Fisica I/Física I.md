@@ -32,4 +32,3 @@
 - [[Superposición de Onda]]
 - [[Interferencia]]
 - [[Difracción]]
-- [[FORMULAS]]

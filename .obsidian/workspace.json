@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica I/Superposición de Onda.md",
+                "file": "Análisis Numérico/Polinomio de Lagrange y Newton.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5,
-    "collapsed": true
+    "width": 322.5
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica I/Superposición de Onda.md",
+                "file": "Análisis Numérico/Polinomio de Lagrange y Newton.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica I/Superposición de Onda.md",
+                "file": "Análisis Numérico/Polinomio de Lagrange y Newton.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica I/Superposición de Onda.md"
+                "file": "Análisis Numérico/Polinomio de Lagrange y Newton.md"
               }
             }
           },
@@ -179,6 +178,13 @@
   },
   "active": "5ab12f535df04990",
   "lastOpenFiles": [
+    "Estructura del Computador/Operaciones Basicas.md",
+    "Fisica I/Difracción.md",
+    "Fisica I/Física I.md",
+    "Fisica I/Interferencia.md",
+    "Fisica I/FORMULAS.md",
+    "Fisica I/Magnitudes escalares y vectoriales.md",
+    "Fisica I/Superposición de Onda.md",
     "Física II/Corriente Continua.md",
     "Física II/Fasores Complejos.md",
     "Física II/Ley de Biot y Savalt.md",
@@ -197,14 +203,7 @@
     "Probabilidad y Estadistica/Técnicas de Conteo.md",
     "Análisis Matemático II/Rectas y Planos.md",
     "Análisis Matemático II/Funciones Implicitas.md",
-    "Fisica I/FORMULAS.md",
     "Matemática Discreta/Álgebra de Conjuntos.md",
-    "Untitled.md",
-    "Física II/Circuito Electrico.md",
-    "Modelos y Optimización I/Método Simplex.md",
-    "Matemática Discreta/Álgebra de Boole.md",
-    "Física II/Inductores.md",
-    "Física II/Capacitores.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",

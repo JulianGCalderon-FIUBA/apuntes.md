@@ -16,8 +16,10 @@ Sumo columna a columna a partir del siguiente método. Siendo $n$ el mayor y $m$
 Para usar una resta, puedo aplicar la siguiente equivalencia para evitar restar
 
 $$
+\begin{gathered}
 A - B = C\\
 A + C_{b_B} B = C + r^{d_B}
+\end{gathered}
 $$
 
 Una vez terminada la suma, desecho el digito extra

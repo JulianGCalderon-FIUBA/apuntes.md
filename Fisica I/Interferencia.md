@@ -91,9 +91,10 @@ Le asignamos a cada onda un fasor, y calculamos la suma de las ondas para llegar
 ![[Interferencia 3.png]]
 
 $$
+\begin{gathered}
 \xi_0 = \xi_{01} + \xi_{02}\\
 A^2 = (A_1 + A_2)^2
-
+\end{gathered}
 $$
 
 La intensidad de una onda es proporcional a su amplitud al cuadrado. $I \propto A^2$

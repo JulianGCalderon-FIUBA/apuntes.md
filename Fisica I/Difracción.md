@@ -54,8 +54,10 @@ $$
 Ocurren cuando se superponen los fenómenos de interferencia y de difracción. Es decir, se estudia el comportamiento de ondas al atravesar multiples $N$ ranuras no puntuales de ancho $a$ equidistantes $d$ entre si.
 
 $$
+\begin{gathered}
 \lambda \gg a\\
 d > a
+\end{gathered}
 $$
 
 El grafico para $N$ rendijas anchas se visualiza como la interferencia para $N$ rendijas puntuales, envuelta por la campana de difracción para una rendija ancha.

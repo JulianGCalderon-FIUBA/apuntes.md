@@ -119,7 +119,9 @@ $$
 
 $$
 \omega_\text{Onda Moduladora} = \frac{w_2-w_1}2
-\\
+$$
+
+$$
 f_\text{Onda Moduladora}  = \frac{f_2-f_1}2
 $$
 

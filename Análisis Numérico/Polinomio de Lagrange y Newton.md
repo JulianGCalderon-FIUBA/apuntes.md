@@ -26,7 +26,9 @@ $$
 Supongamos que $P_L(x)$ es un polinomio de Lagrange de grado $n$, las diferencias divididas $a_i$ de $f$ respecto a $x_0, x_1, \cdots, x_n$ se usan para expresar $P_L(x)$ en la forma:
 
 $$
-P_N(x) = a_0 + a_1(x - x_0) + a_2(x-x_0)(x-x_1) + \cdots \\+ a_n(x-x_0)(x-x_1)\cdots(x-x_{n-1})
+\begin{align}
+P_N(x) &= a_0 + a_1(x - x_0) + a_2(x-x_0)(x-x_1) + \cdots \\&+ a_n(x-x_0)(x-x_1)\cdots(x-x_{n-1})
+\end{align}
 $$
 
 ### Diferencias Divididas
@@ -42,8 +44,10 @@ $$
 Siguiendo esta lógica, podemos definir la $k$-esima diferencia dividida como
 
 $$
+\begin{gathered}
 f[x_i, x_{i+1}, \cdots x_{i+k}] = \\
 \frac{f[x_{i+1}, x_{i+2}, \cdots, x_{i+k}] - f[x_{i}, x_{i+1}, \cdots, x_{i+k-1}]}{x_{i+k} - x_i}
+\end{gathered}
 $$
 
 ### Generalización
