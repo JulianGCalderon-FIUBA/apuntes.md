@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"and-Forward\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,8 +85,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,7 +174,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c42caadea4e53a08",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
     "Estructura del Computador/Circuitos.md",
     "Algebra II/Algebra II.md",
