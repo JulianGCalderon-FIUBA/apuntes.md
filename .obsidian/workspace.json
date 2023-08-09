@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Cuádricas.md",
+                "file": "Análisis Matemático II/Curvas y superficies.md",
                 "mode": "source",
                 "source": true
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Cuádricas.md",
+                "file": "Análisis Matemático II/Curvas y superficies.md",
                 "mode": "preview",
                 "source": true
               }
@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 233.5
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -108,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Cuádricas.md",
+                "file": "Análisis Matemático II/Curvas y superficies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Cuádricas.md",
+                "file": "Análisis Matemático II/Curvas y superficies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Cuádricas.md"
+                "file": "Análisis Matemático II/Curvas y superficies.md"
               }
             }
           }
@@ -172,8 +171,10 @@
   },
   "active": "1a45e0e2eb723714",
   "lastOpenFiles": [
-    "Análisis Matemático II/Cónicas.md",
+    "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
+    "Análisis Matemático II/Cuádricas.md",
     "Análisis Matemático II/Análisis Matemático II.md",
+    "Análisis Matemático II/Cónicas.md",
     "Fisica I/Trabajo y energia.md",
     "Análisis Matemático II/Topología.md",
     "Matemática Discreta/Nociones Básicas.md",
@@ -196,8 +197,6 @@
     "Análisis de la Información/Interfaces de Usuario.md",
     "Análisis de la Información/Innovación y Creatividad.md",
     "Análisis de la Información/Ingeniería de Requisitos.md",
-    "Análisis de la Información/Historias de Usuario.md",
-    "Análisis de la Información/Historias de Dominio.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",

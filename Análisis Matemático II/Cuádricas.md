@@ -22,13 +22,13 @@ $$
 
 Si $a = b$, es un paraboloide circular
 
-si $a ≠ b$ y tienen el mismo signo, es un paraboloide eliptico
+si $a ≠ b$ y tienen el mismo signo, es un paraboloide elíptico
 
-![[Cuádricas 2.png|Cua%CC%81dricas%2071bc41736dd84a3b9631889f1022a98f/Untitled%201.png]]
+![[Cuádricas 2.png]]
 
 si $a$ y $b$ tienen distinto signo, se trata de un paraboloide hiperbólico
 
-![[Cuádricas 3.png|Cua%CC%81dricas%2071bc41736dd84a3b9631889f1022a98f/Untitled%202.png]]
+![[Cuádricas 3.png]]
 
 ## Hiperboloides Y Conos
 
@@ -42,17 +42,10 @@ Su forma, dependerá del valor de $d$
 
 Si es positivo, se trata de un hiperboloide de una hoja ![[Cuádricas 4.png|Hiperboloide de una hoja]]
 
-
 ### Hiperboloide de Dos Hojas
 
 Si es negativo, se trata de un hiperboloide de dos hojas ![[Cuádricas 5.png|Hiperboloide de dos hojas]]
 
 ### Cono
 
-
-
-$$
-d=0
-$$
-
-![[Cuádricas 6.png|Cono]]
+Si es cero, se trata de un cono ![[Cuádricas 6.png|Cono]]
