@@ -11,8 +11,12 @@
             "id": "1a45e0e2eb723714",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Fisica I/Trabajo y energia.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "⁍",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Fisica I/Trabajo y energia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Fisica I/Trabajo y energia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,19 +125,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "30527a4a1b365543",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
+              "state": {
+                "file": "Fisica I/Trabajo y energia.md"
+              }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -146,8 +147,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "1a45e0e2eb723714",
   "lastOpenFiles": [
+    "Análisis Matemático II/Topología.md",
+    "Matemática Discreta/Nociones Básicas.md",
+    "Fisica I/Magnitudes escalares y vectoriales.md",
+    "Análisis Matemático II/Cónicas.md",
+    "Matemática Discreta/Álgebra de Boole.md",
+    "Análisis Matemático II/Análisis Matemático II.md",
+    "Análisis Numérico/Ajuste.md",
     "Análisis de la Información/Web Rest API.md",
     "Análisis de la Información/Verificar y Validar requerimientos.md",
     "Análisis de la Información/Técnicas de Descubrimiento de Requisitos.md",
@@ -167,13 +175,6 @@
     "Análisis de la Información/Historias de Usuario.md",
     "Análisis de la Información/Historias de Dominio.md",
     "Análisis de la Información/Gherkin.md",
-    "Análisis de la Información/Diseño de Datos.md",
-    "Análisis de la Información/Design Thinking.md",
-    "Análisis de la Información/Casos de Uso.md",
-    "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
-    "Análisis de la Información/Arquitectura del Software.md",
-    "Análisis de la Información/Análisis de la Información.md",
-    "Algoritmos II/TDA.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",

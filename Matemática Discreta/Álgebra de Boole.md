@@ -26,24 +26,24 @@ A partir de los axiomas, podemos demostrar el resto de propiedades del algebra d
 5. Idempotencia: $x+x = x, xx=x$
 6. Absorción: $x + xy = x, x(x+y)=x$
 
-Decimos que un álgebra de ***Boole*** tiene definido un orden natural cuando   $x\leq y \iff xy = x$
+Decimos que un álgebra de ***Boole*** tiene definido un orden natural cuando $x\leq y \iff xy = x$
 
-# Pruebas de Unicidad
+## Pruebas de Unicidad
 
 Las pruebas de unicidad se suelen demostrar de la misma forma. Se supone que no hay unicidad y se elaboran las expresiones hasta llegar a que estos dos valores son el mismo.
 
 Cuando demostramos algo en el álgebra de ***Boole***, podemos inmediatamente asumir que su dual es válido también. Esto se debe a que todos los axiomas son duales, si se intercambia $0_B$ por $1_B$ y $\cdot$ por $+$, entonces la expresión sigue siendo completamente válida.
 
-# Pruebas de equivalencia
+## Pruebas de Equivalencia
 
 Se parte de una de las expresiones de la igualdad y, aplicando axiomas y propiedades derivadas de los axiomas, se llega a la segunda expresión. En algunos casos, también podemos utilizar los supuestos planteados para la igualdad (hipótesis).
 
-# Átomos
+## Átomos
 
 En el álgebra de ***Boole***, se llama *átomo* a los sucesores inmediatos del $O_B$. En otras palabras, $a \neq 0_B$ es un ***átomo*** si y sólo si
 
 $$
- ⁍ 
+\forall x \in B, \quad ax = b \implies x=a \lor x=0_B
 $$
 
 Es decir, si $x \leq b$, entonces $x$ deberá ser el propio elemento o el elemento neutro $0_B$.
@@ -64,7 +64,7 @@ Donde $a_1, \cdots, a_n$ son átomos en $B$ y $\alpha_1, \cdots, \alpha_n \in \{
 
 Como todos los elementos del álgebra pueden anotarse como una combinación de los átomos, entonces la cantidad de elementos del álgebra será $|B| = 2^n$, donde $n$ es la cantidad de átomos. Si un conjunto cumple los axiomas del algebra de boole, entonces esta propiedad se cumplirá.
 
-# Cotas
+## Cotas
 
 Sea $(A, \leq)$ un *poset* y sea $S \in A, S \ne 0$:
 
@@ -80,12 +80,10 @@ Un conjunto que admite cota superior (inferior) se llama superiormente (inferior
 > [!note]
 > Si $S$ tiene mínimo, es único. Esta observación también es análoga para el máximo.
 
-
 > [!note]
 > Si $u = \min S$ entonces $u$ la mayor de las cotas inferiores, y además pertenece a $S$. Esta observación también es análoga para el máximo.
 
-
-# Isomorfismos
+## Isomorfismos
 
 Sean $B_1, B_2$ dos álgebras de Boole, se dice que son isomorfas si preservan sus tres leyes a través de $f: B_1 \to B_2$ biyectiva tales que:
 
@@ -93,7 +91,7 @@ Sean $B_1, B_2$ dos álgebras de Boole, se dice que son isomorfas si preservan s
 2. $\forall x,y \in B_1: f(x \cdot_1 y) = f(x) \cdot_2 f(y)$
 3. $\forall x \in B_1: f(x^{'_1}) = f(x)^{'_2}$
 
-Se puede demostrar que si preserva algunas dos de las tres leyes mostradas, entonces preserva las tres. 
+Se puede demostrar que si preserva algunas dos de las tres leyes mostradas, entonces preserva las tres.
 
 Si se cumplen estas tres leyes, entonces podemos demostrar que se preservan también los siguientes elementos:
 

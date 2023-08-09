@@ -1,10 +1,10 @@
-# Distancia en $\mathbb{R}^n$
+## Distancia en $\mathbb{R}^n$
 
 $$
-⁍
+d(\vec{x},\vec{y}) = \|\vec{x}-\vec{y}\| = \sqrt{(x_1-y_2)^2 + (x_2-y_2)^2 + \text{... } + (x_n-y_n)^2}
 $$
 
-# Bolas en $\mathbb{R}^n$
+## Bolas en $\mathbb{R}^n$
 
 - *n-bola abierta:*
 
@@ -24,15 +24,15 @@ $$
 B(\vec x_0, r) = \{\vec x \in \mathbb{R}^n /0 < d(\vec x ,\vec x_0 ) < r\}
 $$
 
-# Topología en $\mathbb{R}^n$
+## Topología en $\mathbb{R}^n$
 
 **Puntos:**
 
-- $\vec x$ es un *punto interior* de $A$ si existe $r > 0$ tal que $B(\vec x , r) \subset A$
-- $\vec x$ es un *punto exterior* de $A$ si existe $r > 0$ tal que $B(\vec x , r) \subset A^c$
-- $\vec x$ es un *punto frontera* de $A$ si para todo $r > 0$,  $B(\vec x , r)$ contiene puntos de $A$ y de $A^c$
-- $\vec x$ es un *punto de acumulación* de $A$ si para todo $r > 0$,  $B(\vec x , r) \subset$ infinitos puntos de $A$
-- $\vec x$ es un *punto aislado* de $A$ si existe $r > 0$ tal que $B(\vec x , r) \cap A = \{\vec x\}$
+- $\vec x$ es un *punto interior* de $A$ si existe $r > 0$ tal que $B(\vec x, r) \subset A$
+- $\vec x$ es un *punto exterior* de $A$ si existe $r > 0$ tal que $B(\vec x, r) \subset A^c$
+- $\vec x$ es un *punto frontera* de $A$ si para todo $r > 0$, $B(\vec x, r)$ contiene puntos de $A$ y de $A^c$
+- $\vec x$ es un *punto de acumulación* de $A$ si para todo $r > 0$, $B(\vec x, r) \subset$ infinitos puntos de $A$
+- $\vec x$ es un *punto aislado* de $A$ si existe $r > 0$ tal que $B(\vec x, r) \cap A = \{\vec x\}$
 
 **Conjuntos:**
 
@@ -41,13 +41,13 @@ $$
 - $\partial A$ es el conjunto de *puntos frontera* de $A$
 - $A^´$ es el conjunto de *puntos de acumulación* de $A$, se denomina conjunto *derivado* de $A$
 - $I(A)$ es el conjunto de *puntos aislados* de $A$
-- $\bar A$ es el conjunto  $A \cup A^´$. Se denomina *clausura* de $A$
+- $\bar A$ es el conjunto $A \cup A^´$. Se denomina *clausura* de $A$
 
 **Tipos de conjuntos:**
 
 - $A$ es *abierto* si $A = A^0$
 - $A$ es *cerrado si su complemento es abierto*
-- $A$ es *acotado* si existe $r > 0$ tal que $A \subset B(\vec 0 ,r)$
+- $A$ es *acotado* si existe $r > 0$ tal que $A \subset B(\vec 0,r)$
 - $A$ es *compacto* si es cerrado y acotado
 
 **Segun su conectividad:**

@@ -1,4 +1,4 @@
-# Circunferencia
+## Circunferencia
 
 La distancia del centro a los bordes de la circunferencia es constante
 
@@ -12,12 +12,12 @@ $$
 
 $r$: Radio
 
-# Elipse
+## Elipse
 
-La suma de la distancias de un punto a dos focos es constante 
+La suma de la distancias de un punto a dos focos es constante
 
 $$
-⁍
+d(P,F_1) + d(P,F_2) = 2a
 $$
 
 $$
@@ -32,12 +32,12 @@ $b$: Semieje vertical
 
 $c$: Focos
 
-# Hipérbola
+## Hipérbola
 
 La diferencia de las distancias de un punto a dos focos es constante
 
 $$
-⁍
+|d(F_1, P) - d(F_2,P)| = 2a
 $$
 
 $$
@@ -58,12 +58,12 @@ $\displaystyle y = \frac{b}{a}x$
 
 $\displaystyle y = -\frac{b}{a}x$
 
-# Parabola
+## Parabola
 
 Las distancias de un punto a un foco y una directriz son iguales
 
 $$
-⁍
+d(P,F) = d(P,D)
 $$
 
 $$
