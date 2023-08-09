@@ -265,13 +265,13 @@ Cuando la respuesta al paquete enviado llega al ***router NAT,*** este utiliza l
 
 De esta forma, se simula tener mas direcciones **IP**, utilizando los puertos de un ***router.*** Desde afuera, los paquetes de toda la subred parecen provenir de un único ***host.***
 
-Una tabla de traducción ***NAT*** mínimamente, tendría los siguientes campos:
+Una tabla de traducción ***NAT*** minimamente, tendría los siguientes campos:
 
 | Puerto Router | Dirección Host | Puerto Host |
-| --- | --- | --- |
-| 23412 | 192.168.0.101 | 12412 |
-| 11239 | 192.168.0.101 | 61231 |
-| 31921 | 192.168.0.53 | 40032 |
+| ------------- | -------------- | ----------- |
+| 23412         | 192.168.0.101  | 12412       |
+| 11239         | 192.168.0.101  | 61231       |
+| 31921         | 192.168.0.53   | 40032       |
 
 El puerto del ***router*** será elegido de forma aleatoria, mientras que el puerto del *host* sera, justamente, elegido por el ***host***.
 

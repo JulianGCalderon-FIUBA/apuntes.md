@@ -6,5 +6,8 @@
   "minimal-style@@h5-size": "0.90em",
   "minimal-style@@h6-size": "0.80em",
   "minimal-style@@image-radius": 0,
-  "minimal-style@@image-muted": 0.7
+  "minimal-style@@image-muted": 0.7,
+  "minimal-style@@row-lines": false,
+  "minimal-style@@row-alt": false,
+  "minimal-style@@maximize-tables-off": "maximize-tables"
 }
