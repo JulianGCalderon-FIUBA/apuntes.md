@@ -14,5 +14,11 @@
   "minimal-style@@maximize-tables-off": "maximize-tables",
   "minimal-advanced@@styled-scrollbars": false,
   "minimal-style@@active-line-on": true,
-  "minimal-style@@image-blend-light": false
+  "minimal-style@@image-blend-light": false,
+  "minimal-style@@row-lines": true,
+  "minimal-style@@col-lines": true,
+  "minimal-style@@table-lines": true,
+  "minimal-style@@table-tabular": false,
+  "minimal-style@@row-alt": false,
+  "minimal-style@@window-title-off": false
 }

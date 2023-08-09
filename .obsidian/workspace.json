@@ -6,7 +6,6 @@
       {
         "id": "17a5ce24301d8e0d",
         "type": "tabs",
-        "dimension": 33.49573690621194,
         "children": [
           {
             "id": "54c1fa07ae0cf29e",
@@ -14,32 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelos y Optimización I/Método Simplex.md",
+                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
                 "mode": "source",
                 "source": true
               }
-            },
-            "group": "f2f652640e15ddb1"
-          }
-        ]
-      },
-      {
-        "id": "8cb1e48ba7f547f3",
-        "type": "tabs",
-        "dimension": 66.50426309378807,
-        "children": [
-          {
-            "id": "b0578681b57d41d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modelos y Optimización I/Método Simplex.md",
-                "mode": "preview",
-                "source": true
-              }
-            },
-            "group": "f2f652640e15ddb1"
+            }
           }
         ]
       }
@@ -70,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/---",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelos y Optimización I/Método Simplex.md",
+                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modelos y Optimización I/Método Simplex.md",
+                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modelos y Optimización I/Método Simplex.md"
+                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md"
               }
             }
           },
@@ -189,6 +167,10 @@
   },
   "active": "54c1fa07ae0cf29e",
   "lastOpenFiles": [
+    "Modelos y Optimización I/Planteo Dual.md",
+    "Fisica I/Ondas Mecánicas.md",
+    "Fisica I/Movimiento armónico simple.md",
+    "Modelos y Optimización I/Método Simplex.md",
     "Organizacion de Datos/AdaBoost.md",
     "Organizacion de Datos/Ciencia de Datos.md",
     "Matemática Discreta/Álgebra de Boole.md",
@@ -211,11 +193,7 @@
     "Introducción a Sistemas Distribuidos/Transport Layer/Connection-Oriented Transport TCP.md",
     "Introducción a Sistemas Distribuidos/Clases Practicas.md",
     "Algebra II/Autovalores y Autovectores.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
-    "Algebra II/Algebra II.md",
     "Untitled.canvas",
-    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Network Layer Data Plane.md",
-    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/What’s Inside a Router.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",
