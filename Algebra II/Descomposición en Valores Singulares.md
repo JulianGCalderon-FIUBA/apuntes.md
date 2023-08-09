@@ -70,7 +70,6 @@ D_k= \begin{bmatrix}\sigma_1 & 0 & \cdots & 0 \\
 \vdots & \vdots & \ddots & \vdots \\
 0 & 0 & \cdots & \sigma_k
 \end{bmatrix}
-
 $$
 
 $$

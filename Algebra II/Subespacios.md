@@ -67,7 +67,7 @@ $$
 \end{pmatrix}
 $$
 
-**Teorema del Wronskiano:**
+#### **Teorema del Wronskiano:**
 
 Si para algún $x_0 \in I$ se cumple que el Wronskiano $≠$ de 0, entonces el conjunto de funciones es linealmente independiente.
 

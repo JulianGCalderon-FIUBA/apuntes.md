@@ -118,7 +118,7 @@ Se le llama **polinomio característico** de $T$ a $P_T(\lambda) = \text{det}(\l
 
 ## Matrices de Jordan
 
-Si una matriz $A \in \Bbb C^{3 \times 3}$ no es diagonalizable, podemos encontrar matrices de jordan similares a una matriz diagonal, tal que $A \sim J_i$
+Si una matriz $A \in \Bbb C^{3 \times 3}$ no es diagonalizable, podemos encontrar matrices de jordan similares a una matriz diagonal, tal que $A \sim J_i$.
 
 Llamamos $V_1, V_2, V_3$ las columnas de $Q$
 
@@ -127,22 +127,19 @@ Llamamos $V_1, V_2, V_3$ las columnas de $Q$
 Si $A$ tiene un autovalor de multiplicidad algebraica $2$ y multiplicidad geometrica $1$. Llamamos $\lambda_1$ al autovalor de multiplicidad algebraica $2$, y $\lambda_2$ al autovalor de multiplicidad algebraica $1$.
 
 $$
-A_1 = 
-
-Q
+A_1 = Q
 \begin{bmatrix}
-
 \lambda_1 & 1 & 0 \\
 0 & \lambda_1 & 0 \\
 0 & 0 & \lambda_2
-
 \end{bmatrix}
 Q^{-1}
 $$
 
-Siendo $V_1, V_3$ los autovectores asociados a $\lambda_1, \lambda_2$.
+Siendo:
 
-$V_2$ el vector que cumple con el sistema $: (A - \lambda_1I)V_2 = V_1$
+- $V_1, V_3$ los autovectores asociados a $\lambda_1, \lambda_2$.
+- $V_2$ el vector que cumple con el sistema $: (A - \lambda_1I)V_2 = V_1$
 
 ### Caso 2
 
@@ -150,23 +147,20 @@ Si $A$ tiene un autovalor de multiplicidad algebraica $3$ y multiplicidad geomé
 
 $$
 A_2 = 
-
 Q
 \begin{bmatrix}
-
 \lambda & 1 & 0 \\
 0 & \lambda & 1 \\
 0 & 0 & \lambda
-
 \end{bmatrix}
 Q^{-1}
 $$
 
-Siendo $V_1$ el autovector asociado a $\lambda$
+Siendo:
 
-$V_2$ el vector que cumple con el sistema $:(A - \lambda I)V_2 = V_1$
-
-$V_3$ el vector que cumple con el sistema $: (A- \lambda I)V_3 = V_2$
+- $V_1$ el autovector asociado a $\lambda$
+- $V_2$ el vector que cumple con el sistema $:(A - \lambda I)V_2 = V_1$
+- $V_3$ el vector que cumple con el sistema $: (A- \lambda I)V_3 = V_2$
 
 En este caso, debemos elegir el $V_2$ que pertenezca a la imagen de $A- \lambda I$
 
@@ -176,22 +170,19 @@ Si $A$ tiene un autovalor de multiplicidad algebraica $3$ y multiplicidad geomé
 
 $$
 A_3 = 
-
 Q
 \begin{bmatrix}
-
 \lambda & 0 & 0 \\
 0 & \lambda & 1 \\
 0 & 0 & \lambda
-
 \end{bmatrix}
 Q^{-1}
 $$
 
-Siendo $V_1$ un autovector asociado a $\lambda$
+Siendo:
 
-$V_2$ otro autovector asociado a $\lambda$
-
-$V_3$ el vector que cumple con el sistema $: (A- \lambda I)V_3 = V_2$
+- $V_1$ un autovector asociado a $\lambda$
+- $V_2$ otro autovector asociado a $\lambda$
+- $V_3$ el vector que cumple con el sistema $: (A- \lambda I)V_3 = V_2$
 
 En este caso, debemos elegir el $V_2$ que perteneza a la imagen de $A- \lambda I$
