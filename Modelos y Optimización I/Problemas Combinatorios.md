@@ -1,14 +1,14 @@
 Los problemas combinatorios son aquellos en los cuales se desea determinar combinaciones óptimas. Se caracterizan por tener un número finito de soluciones factibles. Generalmente este número es muy grande
 
-# Problema de Distribución o Transporte
+## Problema de Distribución o Transporte
 
 Tenemos un conjunto de lugares, cada uno de los cuales tiene disponible una cantidad de unidades de un producto. Otro conjunto de lugares, cada uno de los cuales demanda una cantidad de unidades de un producto. Se conoce el costo $C_{ij}$ de enviar una unidad desde el origen $i$ hasta el destino $j$. Si la cantidad de unidades de un producto no es igual a la demanda, entonces tendremos que definir destinos ficticios, ya sean para indicar faltantes como sobrantes.
 
-El objetivo es determinar la cantidad de unidades de producto que cada origen envía a cada destino, para minimizar los costos de transporte totales en un cierto periodo de tiempo. 
+El objetivo es determinar la cantidad de unidades de producto que cada origen envía a cada destino, para minimizar los costos de transporte totales en un cierto periodo de tiempo.
 
 Supondremos que el producto es homogéneo (el mismo en origen y en destino), y los costos de envío son lineales (proporcionales a la cantidad de producto enviado.
 
-## Formulación
+### Formulación
 
 Definimos $X_{ij}$ como la cantidad de unidades del origen $i$ a enviar al destino $j$. Debemos asegurarnos que se cumpla la demanda y la disponibilidad de todos los productos.
 
@@ -28,11 +28,11 @@ $$
 
 Existe un teorema que demuestra que, si todas las ofertas son números enteros, y todas las demandas son números enteros, siendo todas las restricciones igualdades, el problema de distribución o transporte tendrá como resultado que todas las variables tomarán valor entero.
 
-# Problema de Transbordo
+## Problema de Transbordo
 
 En este problema, las unidades no son enviadas directamente desde los orígenes hacia los destinos, sino que las unidades van desde los orígenes hasta alguno de los centros de transbordo y desde éste a alguno de los destino.
 
-## Formulación
+### Formulación
 
 Definimos $XO_iT_J$ como la cantidad de unidades que son enviadas desde el origen $i$ hasta el transbordo $j$. También definimos $XT_iDj$ la cantidad de unidades que son enviadas del transbordo $i$ hasta el destino $j$. Debemos asegurarnos que se cumpla la demanda y la disponibilidad de todos los productos.
 
@@ -56,7 +56,7 @@ $$
 Z_{\min} \sum_{i=1}^{n_o}\sum_{j=1}^{n_t} CO_iT_j \times XO_iT_j + \sum_{i=1}^{n_t}\sum_{j=1}^{n_d} CT_iD_j \times XT_iD_j
 $$
 
-# Problema de Asignación
+## Problema de Asignación
 
 Sean $A, B$, dos conjuntos con $n$ elementos. El problema de asignación consiste en encontrar el conjunto $P$ tal que cada elemento de $P$ es un par $(a,b) \in A\times B$, tal que minimice una función de costo $\sum C(a,b)$. Se debe cumplir que cada elemento de $A$ debe aparecer en $P$ exactamente una vez, y cada elemento de $B$ debe aparecer en $P$ exactamente una vez.
 
@@ -76,9 +76,9 @@ $$
 Z_{\min} = \sum_{i=1}^n\sum_{j=1}^n C_{ij}Y_{ij}
 $$
 
-## Asignación Cuadrática
+### Asignación Cuadrática
 
-Ocurre cuando existe un costo o beneficio que se produce únicamente si se dan dos asociaciones particulares en conjunto. 
+Ocurre cuando existe un costo o beneficio que se produce únicamente si se dan dos asociaciones particulares en conjunto.
 
 Sea $C_{ijkl}$ el costo asociado a el par de asociaciones $ij$ y $kl$. Entonces el funcional valdria
 
@@ -98,7 +98,7 @@ $$
 \sum_{i=1}^M\sum_{j=1}^M\sum_{k=1}^M\sum_{l=1}^M Y_{ijkl} C_{ijkl}
 $$
 
-# Problema de la Mochila
+## Problema de la Mochila
 
 Este problema se caracteriza por tener una persona con una mochila con una cierta capacidad, y tiene que elegir que elemenots pondra en ella. Cada elemento aportará un valor pero también ocupara espacio en la mochila.
 
@@ -121,15 +121,15 @@ $$
 
 El problema es simple, pero existen múltiples variantes
 
-## Acotado
+### Acotado
 
 En lugar de contar con un elemento de cada tipo, podremos llevar muchos. Bastaria con utilizar variables enteras $X_i$ en lugar de las bivalentes, definiendo límites de ser necesario.
 
-## Suma de Subconjuntos
+### Suma de Subconjuntos
 
 Si el beneficio de cada elemento equivale a su peso, estamos ante un problema de suma de subconjuntos.
 
-## Multiples Mochilas
+### Multiples Mochilas
 
 En este caso, definiremos $Y_{ij}$ si se lleva el elemento $i$ en la mochila $j$. Luego
 
@@ -147,7 +147,7 @@ $$
 \sum_{j=1}^m Y_{ij} \leq 1, \quad\ \forall i
 $$
 
-# Calendarización (Scheduling)
+## Calendarización (Scheduling)
 
 Se busca encontrar una solución a la pregunta ¿En que orden deberán ejecutarse las tareas? ¿Quien deberá ejecutar cada tarea? Analicemos el caso de una fabrica.
 
@@ -179,7 +179,7 @@ F_{jk} \leq I_{ik} + M Y_{i>j} \\
 Y_{i< j} + Y_{i>j} = 1
 $$
 
-## Notación
+### Notación
 
 Es un problema tan común que se propuso una notación para identificarlos:
 
@@ -193,7 +193,7 @@ El segundo termino $\beta$ indica las caracteristicas de la tarea. $pmtn$ en est
 
 El último término $\gamma$ incluye la función objetivo. Minimizar el termino se denota con $\text{Cmax}$.
 
-# Satisfacibilidad Booleana - SAT
+## Satisfacibilidad Booleana - SAT
 
 Dada una función proposicional en su forma normal conjuntiva, hallar los valores para los cuales la proposición es verdadera.
 
@@ -207,7 +207,7 @@ $$
 
 Donde $f_i$ son las proposiciones cuya intersección forma la función proposicional original.
 
-# Uncapacitated Facility Location (UFL)
+## Uncapacitated Facility Location (UFL)
 
 Se debe decidir dónde abrir los depósitos que proporción de la demanda de los clientes satisface cada depositó abierto.
 

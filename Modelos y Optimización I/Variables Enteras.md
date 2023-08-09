@@ -2,12 +2,12 @@ Introduciremos al modelado, dos nuevos tipos de variables:
 
 - **Variables discretas:** Utilizadas para representar productos o recursos de valor entero (no divisibles)
 - **Variables bivalentes:** También conocidas como variables binarias:
-    - *De decisión:* Señalan alternativas posibles, el modelo erigirá un valor para determinar cierto comportamiento
-    - *Indicativas:* Marcan el estado de una variable asociada
+	- *De decisión:* Señalan alternativas posibles, el modelo erigirá un valor para determinar cierto comportamiento
+	- *Indicativas:* Marcan el estado de una variable asociada
 
 Usualmente, se acostumbra a notar las variables bivalentes con $Y_\alpha$
 
-# Relaciones Lógicas
+## Relaciones Lógicas
 
 Podemos simular relaciones lógicas a partir de variables bivalentes, utilizando algunas técnicas comunes
 
@@ -35,7 +35,7 @@ $$
 nY_q \leq Y_{p_1} + Y_{p_2} + \cdots + Y_{p_n} \leq n-1+Y_q
 $$
 
-## Variables Indicativas
+### Variables Indicativas
 
 Definamos una variable $Y$ tal que $Y = 1 \iff X > 0$. Entonces podemos definir
 
@@ -103,7 +103,7 @@ $$
 aY \leq X \leq a+ MY
 $$
 
-# Eliminación de Restricciones
+## Eliminación de Restricciones
 
 Podemos declarar restricciones que únicamente serán validas bajo cierta condición $Y = 0$.
 
@@ -119,13 +119,13 @@ $$
 g_n(X) \geq b_n - MY_n
 $$
 
-Luego, podemos restringir a que únicamente una de las restricciones pueda estar  habilitada a la vez.
+Luego, podemos restringir a que únicamente una de las restricciones pueda estar habilitada a la vez.
 
 $$
 Y_1 + \cdots + Y_n = n-1
 $$
 
-# Costo Diferencial Por Intervalo
+## Costo Diferencial Por Intervalo
 
 Tendremos una variable $X$, la cual queremos separar en $n$ intervalos, entonces debemos plantear ecuaciones para determinar cuando se encuentra en cada uno de los intervalos.
 
@@ -143,7 +143,7 @@ $$
 X_1 + \cdots + X_n = X
 $$
 
-# Función Cóncava Seccionalmente Lineal
+## Función Cóncava Seccionalmente Lineal
 
 En esta situación, crearemos una estructura del tipo ***represa*** tal que cuando se llena el primer ***dique***, se habilita el segundo. De esa forma, si $X$ pertenece al intervalo $(M_{i-1}, M_i)$. Entonces todos los $X_j$ previos a $X_i$ estarán completos. Con el valor de $X_i$ relativo a los otros *diques*.
 
@@ -173,7 +173,7 @@ $$
 X_1 + \cdots + X_n = X
 $$
 
-# Función de $n$ valores posibles
+## Función de $n$ valores posibles
 
 Puedo definir una bivalente para cada valor posible de $X$. Únicamente valido si $X$ tiene un número finito de valores posibles
 
@@ -185,24 +185,24 @@ $$
 Y_a + Y_b + Y_c = 1
 $$
 
-# Redondeo
+## Redondeo
 
 Si queremos redondear una variable continua X, a una variable entera $E$ tendremos tres posibilidades.
 
 - Round: Al entero más cercano
-    
-    $$
+
+	$$
     X - 0.5 + m \le E \le X + 0.5
     $$
-    
+
 - Floor: Al entero menor más cercano
-    
-    $$
+
+	$$
     X - 1 + m \le E \le X
     $$
-    
+
 - Ceiling: Al entero mayor más cercano
-    
-    $$
+
+	$$
     X + 1 - m \le E \le X
     $$

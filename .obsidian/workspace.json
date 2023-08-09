@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelos y Optimización I/Planteo Dual.md",
+                "file": "Organizacion de Datos/Ensambles.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelos y Optimización I/Planteo Dual.md",
+                "file": "Organizacion de Datos/Ensambles.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelos y Optimización I/Planteo Dual.md",
+                "file": "Organizacion de Datos/Ensambles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modelos y Optimización I/Planteo Dual.md",
+                "file": "Organizacion de Datos/Ensambles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modelos y Optimización I/Planteo Dual.md"
+                "file": "Organizacion de Datos/Ensambles.md"
               }
             }
           },
@@ -178,10 +178,23 @@
   },
   "active": "c42caadea4e53a08",
   "lastOpenFiles": [
+    "Organizacion de Datos/Clasificación de Texto.md",
+    "Organizacion de Datos/Ciencia de Datos.md",
+    "Organizacion de Datos/Arboles.md",
+    "Organizacion de Datos/Análisis de Sentimientos.md",
+    "Organizacion de Datos/Algoritmos Genéticos.md",
+    "Organizacion de Datos/AdaBoost.md",
+    "Modelos y Optimización I/Variables Enteras.md",
+    "Modelos y Optimización I/Resolución de PLE.md",
+    "Modelos y Optimización I/Programación Lineal Continua.md",
+    "Modelos y Optimización I/Problemas de cobertura de conjuntos.md",
+    "Modelos y Optimización I/Problemas Combinatorios.md",
+    "Modelos y Optimización I/Problema del Viajante.md",
+    "Modelos y Optimización I/Planteo Dual.md",
     "Modelos y Optimización I/Patrones Comunes.md",
-    "Modelos y Optimización I/Modificaciones al Planteo.md",
     "Modelos y Optimización I/Modelos y Optimización I.md",
     "Modelos y Optimización I/Método Simplex.md",
+    "Modelos y Optimización I/Modificaciones al Planteo.md",
     "Modelos y Optimización I/Introducción.md",
     "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md",
     "Modelos y Optimización I/Heurísticas para el Problema de la Mochila.md",
@@ -191,19 +204,6 @@
     "Modelos y Optimización I/Complejidad de Problemas.md",
     "Modelos y Optimización I/Coloreo de Grafos.md",
     "Modelos y Optimización I/Análisis de Sensibilidad.md",
-    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless Links and Network Characteristics.md",
-    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless and Mobility Impact on Higher-Layer Pro.md",
-    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless and Mobile Networks.md",
-    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/WiFi 802 11 Wireless LANs.md",
-    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Mobility Management Principles.md",
-    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Mobile IP.md",
-    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Managing Mobility in Cellular Networks.md",
-    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Introduction to Wireless Networks.md",
-    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Cellular Internet Access.md",
-    "Introducción a Sistemas Distribuidos/Transport Layer/Transport Layer.md",
-    "Introducción a Sistemas Distribuidos/Transport Layer/TCP Congestion Control.md",
-    "Introducción a Sistemas Distribuidos/Transport Layer/Principles of Reliable Data Transfer.md",
-    "Introducción a Sistemas Distribuidos/Transport Layer/Principles of Congestion Control.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",

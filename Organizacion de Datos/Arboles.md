@@ -1,4 +1,4 @@
-# ID3
+## ID3
 
 **Iterative Dichotomiser 3** es un algoritmo creado por *Ross Quinlan*
 
@@ -10,8 +10,6 @@ Para tomar deciciones, utiliza un concepto llamado **entropia (de la informacion
 
 ![[Arboles 1.png]]
 
-
-
 Algoritmo basico:
 
 1. Calcular la **entropía** para todas las clases
@@ -19,7 +17,7 @@ Algoritmo basico:
 3. Seleccionar el mejor atributo basado en la **reducción de la entropía**. A partir del cálculo de **ganancia** de información
 4. **Iterar**, para cada subnodo, excluyendo el nodo raíz.
 
-## Entropía de Información
+### Entropía de Información
 
 Es una medida de desorden o de pureza, mide la aleatoriedad de los datos. Para $n$ clases posibles. se utiliza la siguiente formula:
 
@@ -30,13 +28,13 @@ $$
 Donde:
 
 - $S:$ Es una lista de clases posibles
-- $P_i:$  Es la probabilidad de cada clase
+- $P_i:$ Es la probabilidad de cada clase
 
 Para una muestra homogenea, la entropia es $0$, mientras que, para $n{=}2$ la maxima entropia es $1$.
 
 La entropia, no sirve para calcular otra medida, la ganancia de informacion.
 
-## Ganancia de Informacion
+### Ganancia de Informacion
 
 Se aplica para saber que caracteristica de un conjunto nos proporciona la mayor cantidad de informacion. Definimos entonces:
 
@@ -50,9 +48,9 @@ Donde:
 - $A$: Uno de los atributos del set
 - $V(A):$ Conjunto de valores de $A$.
 - $S_v / S:$ Probabilidad de cada valor para el atributo $A$
-- $E(S_v):$  Entropía calculada anteriormente, para el valor $v$ de $A$.
+- $E(S_v):$ Entropía calculada anteriormente, para el valor $v$ de $A$.
 
-# Impureza de Gini
+## Impureza de Gini
 
 La impureza de Gini es una medida de cuán a menudo un elemento elegido aleatoriamente del conjunto sería etiquetado incorrectamente si fue etiquetado de manera aleatoria de acuerdo a la distribución de las etiquetas en el subconjunto. Utilizamos la siguiente formula:
 
@@ -64,21 +62,21 @@ Donde $C$ implica el conjunto de clases, y $p_i$ la probabilidad de que el eleme
 
 Se realiza un promedio ponderado de las probabilidades, para cada valor posible del atributo.
 
-# C4.5
+## C4.5
 
 Este algoritmo es una mejora al algoritmo de ID3:
 
 - Se agrega soporte para rangos continuos. Para esto, se convierte el campo en un campo booleano, generando una particion a partir del umbral $c$. Este umbral se calcula a partir de la ganancia de informacion.
-    - Se ordena de menor a mayor el conjunto
-    - Identificamos los valores adyacentes (de la clase de salida)
-    - Detectamos cuando se genera un cambio de salida, entones en esos limites estan nuestros $c_i$ cantidatos.
-    - Se crean distintas particiones y se mantiene la que tenga mayor ganancia de informacion
-- Se manejan  los datos faltantes. Para manejar los datos faltantes, estos se marcan y no se utilizan para el calculo de la entropia.
+	- Se ordena de menor a mayor el conjunto
+	- Identificamos los valores adyacentes (de la clase de salida)
+	- Detectamos cuando se genera un cambio de salida, entones en esos limites estan nuestros $c_i$ cantidatos.
+	- Se crean distintas particiones y se mantiene la que tenga mayor ganancia de informacion
+- Se manejan los datos faltantes. Para manejar los datos faltantes, estos se marcan y no se utilizan para el calculo de la entropia.
 - Se introduce el metodo de **poda**: Se realiza un analisis recursivo, partiendo de las hojas, que elimina nodos, verificando si el testeo mejora o empeora tras eliminarlo. (a partir de error)
 
-# Random Forest
+## Random Forest
 
-> “**Muchos estimadores mediocres, promediados pueden ser muy buenos**”
+> "**Muchos estimadores mediocres, promediados pueden ser muy buenos**"
 >
 
 **Boostrap Aggregating:** Es una tecnica, o meta-algoritmo que dice lo siguiente:

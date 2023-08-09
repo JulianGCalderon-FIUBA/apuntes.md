@@ -42,11 +42,11 @@ Existen distintos métodos para la cruza:
 
 - ***Crossover 1 punto:*** Dividimos un cromosoma en dos, e intercambiamos cada mitad con otro cromosoma
 
-    ![[Algoritmos Genéticos 1.png]]
+	![[Algoritmos Genéticos 1.png]]
 
 - ***Crossover 2 puntos:*** Dividimos el cromosoma en 3
 
-    ![[Algoritmos Genéticos 2.png]]
+	![[Algoritmos Genéticos 2.png]]
 
 - **Crossover Aritmético:** Se aplica alguna operación sobre los cromosomas, como por ejemplo el operador AND
 

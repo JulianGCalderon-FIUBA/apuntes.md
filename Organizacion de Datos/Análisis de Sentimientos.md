@@ -3,7 +3,7 @@ Es una tarea de clasificación de textos. Se utiliza para diversas tareas comple
 - Calcular confianza de un consumidor
 - Predecir el mercado de valores
 
-# Tipología de Scherer
+## Tipología de Scherer
 
 - **Emoción**: Respuesta relativamente corta del organismo a un estímulo externo.
 - **Estado de ánimo**: Sentimiento de baja intensidad y larga duración.
@@ -18,13 +18,13 @@ En un análisis de sentimientos, trataremos de predecir la actitud.
 - La Actitud
 - El documento que contiene la actitud
 
-# Algoritmo de Pang y Lee
+## Algoritmo de Pang y Lee
 
 1. Tokenización del texto
 2. Extraemos características del texto, palabras claves.
 3. Clasificación utilizando distintos algoritmos de clasificación
 
-Utilizar todas las palabras da mejores resultados, en términos generales (por lo menos en IBMD). 
+Utilizar todas las palabras da mejores resultados, en términos generales (por lo menos en IBMD).
 
 **Problemas comunes:**
 
@@ -38,37 +38,36 @@ Utilizar todas las palabras da mejores resultados, en términos generales (por l
 Otros problemas más complejos son:
 
 - Sutilezas: Los textos tienen un sentido negativo oculto
-    
-    *“Si usted está leyendo esto porque es su fragancia favorita, por favor úsela exclusivamente en su casa y cierre bien las ventanas”*
-    
-- Expectativas Frustradas: El significado del texto cambia totalmente por algún comentario en particular
-    
-    *“La película debería ser excelente ya que cuenta con grandes actores y una banda sonora fantástica, sin embargo es terriblemente aburrida”*
-    
 
-# Lexicón de Sentimientos
+	*"Si usted está leyendo esto porque es su fragancia favorita, por favor úsela exclusivamente en su casa y cierre bien las ventanas"*
+
+- Expectativas Frustradas: El significado del texto cambia totalmente por algún comentario en particular
+
+	*"La película debería ser excelente ya que cuenta con grandes actores y una banda sonora fantástica, sin embargo es terriblemente aburrida"*
+
+## Lexicón de Sentimientos
 
 Utilizar una diccionario de sentimientos, donde las palabras se categorizan según su sentimiento. Podemos usar este diccionario para clasificar un texto.
 
-## Algoritmo de Hatzivassiloglou y MecKeown
+### Algoritmo de Hatzivassiloglou y MecKeown
 
-- Adjetivos unidos por ‘y’ tienen la misma polaridad
-- Adjetivos unidos por ‘pero’ tienen distinta polaridad
+- Adjetivos unidos por 'y' tienen la misma polaridad
+- Adjetivos unidos por 'pero' tienen distinta polaridad
 
 El algoritmo tiene 4 pasos:
 
 1. Contruyeron a mano un leyicon de 1336 adejtivos
 2. Buscaron en google cada uno de los adjetivos con la formula was … ans. Recolectaron la palabra que seguia a continuación
-3. Repitieron esto con was … but. 
+3. Repitieron esto con was … but.
 4. De esta forma, obtuvieron muchas mas palabras, pero con algunos errores
 
-## Algoritmo de Turney
+### Algoritmo de Turney
 
 1. Extraer frases de opiniones y armar un lexicon
 2. Aprender la polaridad de cada frase
 3. Puntuar casa críticas según el promedio de las polaridades
 
-Para extraer frases, se crearon reglas. 
+Para extraer frases, se crearon reglas.
 
 Para encontrar la polaridad de una frase, se verifico cuan cerca aparecían las palabras de las palabras con polaridad conocida.
 
@@ -92,13 +91,13 @@ $$
 Polaridad(frase) = PMI(frase, "excelente") - PMI(farse, "pobre")
 $$
 
-# Aspectos
+## Aspectos
 
 Debemos detectar más de un sentimiento en una sola frase.
 
-## Método de Mingqing Hu y Bing Liu
+### Método de Mingqing Hu y Bing Liu
 
-***Frecuencia:*** Buscaron todas las frases frecuentes, llamaron a estas frases “aspectos”, o “objetos de sentimiento”.
+***Frecuencia:*** Buscaron todas las frases frecuentes, llamaron a estas frases "aspectos", o "objetos de sentimiento".
 
 ***Reglas:*** Filtraron todas esas frases frecuentes como: Ocurre después de una palabra que indica sentimientos.
 

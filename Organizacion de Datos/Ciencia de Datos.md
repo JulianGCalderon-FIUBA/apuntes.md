@@ -1,43 +1,43 @@
 La idea es crear modelos predictivos a partir de un conjunto de datos. Los modelos tienen dos partes
 
 - **Datamining**: Técnicas que vienen de la estadística y fórmulas
-    - Regresión Lineal
-    - Análisis Discriminante
-    - Análisis de componentes principales
+	- Regresión Lineal
+	- Análisis Discriminante
+	- Análisis de componentes principales
 - **Machine** **Learning**: Hacen uso de la inteligencia artificial
-    - Redes neuronales
-    - Support Vector Machines (SVM)
+	- Redes neuronales
+	- Support Vector Machines (SVM)
 - Elementos que combinan ambas
-    - Algoritmo ID3 (arboles de decision)
-    - K Means (distancia euclidiana)
-    - Bayes Naive (probabilidad condicional, teorema de bayes)
+	- Algoritmo ID3 (arboles de decision)
+	- K Means (distancia euclidiana)
+	- Bayes Naive (probabilidad condicional, teorema de bayes)
 
-# Tipos de Variables
+## Tipos de Variables
 
 - Variables Independientes: Utilizadas para entrenar el modelo (entrada)
-    - Cualitativas
-        - Texto
-            - Nominales (categorias)
-            - Ordinales (poco, mucho)
-        - Numericas
-            - Nominales
-            - Ordinarias
-    - Cuantitativas
-        - Discreta
-        - Continua
+	- Cualitativas
+		- Texto
+			- Nominales (categorias)
+			- Ordinales (poco, mucho)
+		- Numericas
+			- Nominales
+			- Ordinarias
+	- Cuantitativas
+		- Discreta
+		- Continua
 - Variables dependientes (salidas, categorias)
 
-# Tipos de Problemas
+## Tipos de Problemas
 
 1. Si la variable dependiente es cualitativa, el tipo de problema es de **clasificacion**. Buscamos clasificar una observacion en funcion de sus datos de entrada
 2. Si la variable es cuantitativa, el problema es de **regresión**. Buscamos predecir un valor en funcion de otros
 3. Si no hay variables dependientes, el problema es de **agrupamiento**. Buscamos agrupar observaciones segun sus caracteristicas.
 
-# Outliers
+## Outliers
 
 Los outliers son valores atipicos, debemos decir que hacer con estas observaciones. Hay distintas técnicas para lidiar con estos datos.
 
-# Correlacion entre Variables
+## Correlacion entre Variables
 
 hay distintos tipos de correlacion:
 
@@ -52,8 +52,7 @@ Las relaciones de causalidad son difíciles de encontrar y demostrar.
 > [!note]
 > [https://www.tylervigen.com/spurious-correlations](https://www.tylervigen.com/spurious-correlations)
 
-
-## Varianza
+### Varianza
 
 Es el error cuadrático medio de las observaciones respecto a su media. Representa que tan separadas están las muestras.
 
@@ -61,7 +60,7 @@ $$
 \text{Var} = \frac{\sum (x - \overline x)^2}{n-1}
 $$
 
-## Covarianza
+### Covarianza
 
 Indica el grado de variación conjunta de dos variables aleatorias respecto a sus medias. Toma un valor entre -1 y 1.
 
@@ -79,6 +78,6 @@ Si da 1, las variables están relacionadas linealmente de forma perfecta
 
 Si da -1, las variables están relacionadas linealmente (negativa) de forma perfecta.
 
-## Desvío Estándar
+### Desvío Estándar
 
 Se utiliza para cuantificar la variación o la dispersión de un conjunto numérico. Un desvío estándar bajo indica un mayor agrupamiento de los datos.

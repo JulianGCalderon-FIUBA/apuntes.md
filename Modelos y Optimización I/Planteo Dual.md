@@ -96,39 +96,36 @@ Podremos reconstruir la tabla del dual a partir de la tabla del primal:
 > | | | $39.5$ | $0$ | $0$ | $0$ | $3.5$ | $6.5$ |
 
 1. El valor de las variables del problema dual sera el $z_j - c_j$ de su variable relacionada al directo, el reciproco es valido también. El signo es determinado según el contexto, para el valor de las variables deberá ser siempre positivo, mientras que para el desmejoro dependerá del sentido del funcional.
-> [!example]- Valor de las variables
-> Calculamos el valor de las variables del dual:
-> 
-> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
-> | --- | --- | --- | --- | --- | --- | --- | --- |
-> | $2$ | $y_2$ | $3.5$ | | | | | |
-> | $5$ | $y_3$ | $6.5$ | | | | | |
-> | | | $39.5$ | $-7.5$ | $0$ | $0$ | $-3.5$ | $-1.5$ |
+
+	> [!example]- Valor de las variables
+	> Calculamos el valor de las variables del dual:
+	> 
+	> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
+	> | --- | --- | --- | --- | --- | --- | --- | --- |
+	> | $2$ | $y_2$ | $3.5$ | | | | | |
+	> | $5$ | $y_3$ | $6.5$ | | | | | |
+	> | | | $39.5$ | $-7.5$ | $0$ | $0$ | $-3.5$ | $-1.5$ |
 
 2. Las vectores asociados a las variables de la base deben contener los vectores canónicos, debido a que nos encontramos en una tabla *simplex.*
-	- **Vectores canónicos**
 
-		| $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
-
-		| --- | --- | --- | --- | --- | --- | --- | --- |
-
-		| $2$ | $y_2$ | $3.5$ | | $1$ | $0$ | | |
-
-		| $5$ | $y_3$ | $6.5$ | | $0$ | $1$ | | |
-
-		| | | $39.5$ | $-7.5$ | $0$ | $0$ | $-3.5$ | $-1.5$ |
+	> [!example]- Vectores canónicos
+	> Colocamos los vectores canónicos:
+	> 
+	> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
+	> | --- | --- | --- | --- | --- | --- | --- | --- |
+	> | $2$ | $y_2$ | $3.5$ | | $1$ | $0$ | | |
+	> | $5$ | $y_3$ | $6.5$ | | $0$ | $1$ | | |
+	> | | | $39.5$ | $-7.5$ | $0$ | $0$ | $-3.5$ | $-1.5$ |
 
 3. El resto de los valores los tomaremos transponiendo las columnas de la primal e invirtiendo sus signos. Sea $A$ la matriz de la tabla del primal y $A'$ la matriz de la tabla del dual, entonces $A_{ij} = -A'_{lk}$, donde $X_i \sim Y_k, X_j \sim X_l$. Nótese que los indices se invierten, ya que los valores de la base de una tabla no estarán en la tabla del otro (transposición).
-	- **Valores restantes**
 
-		| $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
-
-		| --- | --- | --- | --- | --- | --- | --- | --- |
-
-		| $2$ | $y_2$ | $3.5$ | $-1.5$ | $1$ | $0$ | $-0.5$ | $0.5$ |
-
-		| $5$ | $y_3$ | $6.5$ | $-0.5$ | $0$ | $1$ | $-0.5$ | $-0.5$ |
-
-		| | | $39.5$ | $-7.5$ | $0$ | $0$ | $-3.5$ | $-1.5$ |
+	> [!example]- Valores restantes
+	> Finalmente, agregamos los valores restantes:
+	> 
+	> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
+	> | --- | --- | --- | --- | --- | --- | --- | --- |
+	> | $2$ | $y_2$ | $3.5$ | $-1.5$ | $1$ | $0$ | $-0.5$ | $0.5$ |
+	> | $5$ | $y_3$ | $6.5$ | $-0.5$ | $0$ | $1$ | $-0.5$ | $-0.5$ |
+	> | | | $39.5$ | $-7.5$ | $0$ | $0$ | $-3.5$ | $-1.5$ |
 
 4. Si una de las filas del planteo dual, provenía de una restricción originalmente de mayor o igual, entonces debo invertir los signos de toda esa fila (tanto el valor de $c_j$, como los $a_{ij}$ de la fila).
