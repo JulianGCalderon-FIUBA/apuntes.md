@@ -29,8 +29,10 @@ En la calculadora, se puede calcular con la combinación de teclas: $n \ \boxed{
 En el caso de los anagramas, es un problema de permutaciones con elementos repetidos
 
 $$
-\text{Sea } n = n_1, n_2, n_3, \cdots\\\ \\
+\begin{align}
+\text{Sea } n = n_1, n_2, n_3, \cdots \\
 \#A = \frac{n!}{n_1!n_2!n_3!\cdots}
+\end{align}
 $$
 
 Esto se debe a que a las permutaciones totales, debo descontar las permutaciones entre las mismas letras.
@@ -50,6 +52,7 @@ En la calculadora, se puede calcular con la combinación de teclas: $n \ \boxed{
 Tambien podemos resolver el caso con combinatoria
 
 $$
+\begin{align}
 \text{Sea } n = n_1, n_2, n_3, \cdots \\\ \\
 \#A = \binom{n}{n_1}\binom{n - n_1}{n_2}\binom{n-n_1-n_2}{n_3}\cdots
 $$

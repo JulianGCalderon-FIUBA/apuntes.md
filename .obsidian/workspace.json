@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Rectas y Planos.md",
+                "file": "Probabilidad y Estadistica/Técnicas de Conteo.md",
                 "mode": "source",
                 "source": false
               }
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 520.5
+    "width": 322.5,
+    "collapsed": true
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Rectas y Planos.md",
+                "file": "Probabilidad y Estadistica/Técnicas de Conteo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Rectas y Planos.md",
+                "file": "Probabilidad y Estadistica/Técnicas de Conteo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Rectas y Planos.md"
+                "file": "Probabilidad y Estadistica/Técnicas de Conteo.md"
               }
             }
           },
@@ -180,6 +181,7 @@
   },
   "active": "fc101f935a14504d",
   "lastOpenFiles": [
+    "Análisis Matemático II/Rectas y Planos.md",
     "Análisis Matemático II/Funciones Implicitas.md",
     "Fisica I/FORMULAS.md",
     "Matemática Discreta/Álgebra de Conjuntos.md",
@@ -205,7 +207,6 @@
     "Algebra II/Coordenadas.md",
     "Algebra II/Autovalores y Autovectores.md",
     "Algebra II/Subespacios de Matriz.md",
-    "Algebra II/Subespacios.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
