@@ -4,13 +4,13 @@ El estado de un ***thread*** entonces, es muy similar al de un proceso. Cada uno
 
 En un programa ***multi-threaded*** tendremos un solo ***heap*** pero múltiples ***stacks***, uno para cada hilo. Estos romperá con nuestro esquema tradicional del espacio de direcciones, aunque no es un problema grave debido a que los stacks suelen tener tamaños pequeños.
 
-# Ventajas
+## Ventajas
 
 Hay dos razones principales por las cuales debemos usar concurrencia. La primera es el **paralelismo**, podemos dividir nuestro programa en distintas porciones que se ejecuten concurrentemente. Esto aporta velocidad en sistemas con múltiples procesadores, ya que cada hilo puede correr en un procesador distinto. Este proceso, de convertir un programa ***single-threaded*** a uno ***multi-threaded*** se conoce como ***paralelización***.
 
 La segunda razón es un poco más sutil: para evitar que un programa se ralentiza debido a pedidos de **IO**. Utilizar hilos permite continuar la ejecución del programa en un hilo distinto, mientras otro hilo está suspendido.
 
-# Intercambio de Información
+## Intercambio de Información
 
 Cuando utilizamos hilos, el resultado de la ejecución es **no determinística**, esto es debido a que el scheduler ***decide en que orden ejecutar los hilos, por lo que el resultado es **indeterminado**.
 
@@ -18,7 +18,7 @@ Como no sabemos el orden en que se ejecutarán los hilos, es muy difícil maneja
 
 Las porciones de código que pueden ocasionar una condición de carrera se conocen como ***secciones críticas***, una sección crítica es una porción del código que accede a una variable compartida (o cualquier recurso compartido).
 
-# Atomicidad
+## Atomicidad
 
 Para solucionar este problema, necesitamos un mecanismo conocido como ***exclusión mutua**.* Esto garantiza que si un hilo está ejecutando una sección crítica, los otros hilos no podrán.
 

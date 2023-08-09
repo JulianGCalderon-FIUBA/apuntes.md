@@ -12,13 +12,12 @@ $$
 > [!note]
 > **Ridge Regression** es una variación de la regresión lineal que busca encontrar una recta *no tan buena* para predecir, introducimos un sesgo que permita perder la varianza. Obtendremos una predicción peor para los datos de entrenamiento.
 
-
 1. Buscamos el siguiente nodo, para ello calculamos la ganancia total. Tomamos como umbral la distancia entre un par de observaciones y seleccionamos el par con mayor ganancia..
-    
-    $$
+
+	$$
     \text{G} = SS_{\text{izquierda}} + SS_{\text{derecha }}+ SS_{\text{raiz}} 
     $$
-    
+
 2. Repetimos el algoritmo anterior hasta llegar a la profundidad deseada
 3. Realizamos una poda: Elegimos un número al azar llamado $\gamma$. Calculamos la diferencia entre el $G$ del nodo más bajo y $\gamma$. Si la diferencia es negativa, removemos el nodo. Solo nos quedamos con aquellos nodos cuya ganancia es mayor a nuestro umbral de poda.
 

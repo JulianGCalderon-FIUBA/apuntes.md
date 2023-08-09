@@ -1,4 +1,4 @@
-# Separación Entrenamiento / Test
+## Separación Entrenamiento / Test
 
 Nunca se utiliza el mismo dato para entrenar un método que para testearlo. Separamos una porción de los datos para testear (aproximadamente un $20\%$ o $30\%$)
 
@@ -6,7 +6,7 @@ Nunca se utiliza el mismo dato para entrenar un método que para testearlo. Sepa
 
 ![https://scikit-learn.org/stable/_images/grid_search_cross_validation.png](https://scikit-learn.org/stable/_images/grid_search_cross_validation.png)
 
-# Conjuntos Balanceados
+## Conjuntos Balanceados
 
 Ambas técnicas consisten en incluir más muestras de una clase que de otra, con el fin de compensar el desbalance se ya se encuentra presente en los datos.
 
@@ -16,7 +16,7 @@ Ambas técnicas consisten en incluir más muestras de una clase que de otra, con
 
 ![[Entrenamiento y Testing 1.png]]
 
-# Overfitting
+## Overfitting
 
 Al entrenar un metodo, pueden ocurrir distintos resultados:
 
@@ -26,7 +26,7 @@ Al entrenar un metodo, pueden ocurrir distintos resultados:
 
 ![[Entrenamiento y Testing 2.png]]
 
-# Métricas
+## Métricas
 
 Hay distintos conceptos que podemos utilizar para definir la eficacia de un método entrenado.
 
@@ -45,7 +45,7 @@ A partir de estos valores, podemos definir:
 
 ![[Entrenamiento y Testing 3.png]]
 
-# ROC
+## ROC
 
 A partir de modificar el modelo (cambiando los hiperparametros) podemos obtener predicciones diferentes. Luego podemos graficar el **ROC**. Que muestra el *TPR* a partir del *FPR*
 

@@ -16,7 +16,7 @@ De esta forma, no reservaremos memoria para nuestras tablas completas, si no ún
 
 Este enfoque tiene aun sus desventajas, surge la fragmentación externa. Las páginas de tablas tienen un tamaño arbitrario, por lo que encontrar espacio libre para ellas puede ser un problema.
 
-# Tablas de Multi-Paginación
+## Tablas de Multi-Paginación
 
 Este enfoque es tan efectiva que inclusa se utiliza en los sistemas modernos. Consiste en no tener un únicamente tabla de páginas, sino utilizar una estructura de árboles para las tablas.
 
@@ -36,20 +36,20 @@ En contraste, esta solución es un poco más costosa, ya que tendremos dos acces
 
 Esta solución es un claro ejemplo de ***time-space trade-off***, sacrificamos un poco de tiempo para obtener mucho espacio. Aunque en algunas situaciones, debido a las ***TLBs***, el rendimiento es prácticamente idéntico.
 
-## Tablas Profundas
+### Tablas Profundas
 
 A veces, utilizar únicamente dos niveles de paginación no es suficiente. Cuando tenemos un espacio de direcciones grande, con pequeños chunks, necesitaremos incluso más indirección para no consumir demasiada memoria, y poder lograr que todas nuestras tablas se ajusten al tamaño de un *chunk*.
 
 Cuando nos encontramos con que nuestro ***page directory*** es muy grande, podemos considerar partirlo nuevamente en ***chunks*** para añadir un nuevo nivel de indirección.
 
-# Proceso de Traducción
+## Proceso de Traducción
 
 Para realizar la traducción, primero debemos acceder a la entrada de la ***page directory*** correspondiente. Luego, a partir de la ***page table***, accedemos ***PTE*** que contiene nuestra traducción. Por suerte, debido al ***cache***, solo debemos realizar esta búsqueda cuando nos encontramos con un ***TLB miss***.
 
-# Tablas Invertidas
+## Tablas Invertidas
 
 Esta solución un poco más extrema, consiste en tener una unicamente tabla para todas las tablas físicas del sistema, almacenando información sobre que procesos tienen acceso a es tabla, y cual es el ***mapeo*** correspondiente. Encontrar la traducción ahora consiste en buscar en esta tabla.(utilizamos una estructura tipo ***hash*** para ahorrarnos computo)
 
-# Swapping Tables to Disk
+## Swapping Tables to Disk
 
 Incluso con todos las soluciones discutidas anteriormente, es posible que las tablas sean muy grandes para entrar en memoria. En estos casos pondremos estas tablas en la ***kernel virtual memory***, permitiendo al sistema que las intercambie al disco cuando nos quedamos sin memoria.

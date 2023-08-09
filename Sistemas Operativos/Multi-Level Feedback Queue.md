@@ -1,6 +1,6 @@
 Este es uno de los enfoques más conocidos para la planificación. El problema fundamental que este enfoque trata de solucionar es minimizar tanto el ***turnaround time*** como el ***response time***. Para realizar esto, en lugar de depender de conocimiento ***a priori*** de los procesos, se observa su ejecución.
 
-# Reglas Básicas
+## Reglas Básicas
 
 Este algoritmo utiliza un número de colas distintas, donde cada una tiene asignada un cierto nivel de prioridad. Se utiliza un sistema de prioridad para decidir que proceso ejecutar. Cuando algunos procesos tienen la misma prioridad, entonces se utiliza el algoritmo ***round robin***.
 
@@ -11,11 +11,11 @@ La clave de este algoritmo reside en como se calculan estas prioridades. En luga
 
 Los ***time-slice*** para cada prioridad suele variar. Las colas con mayor prioridad tendrán menos tiempo de ejecución. Por otro lado, los ***time-slice*** largos suelen funcionar bien para procesos largos.
 
-Algunas implementaciones reservan las colas de máxima prioridad para procesos del sistema, dejando los procesos de usuario con menor prioridad. 
+Algunas implementaciones reservan las colas de máxima prioridad para procesos del sistema, dejando los procesos de usuario con menor prioridad.
 
 Otras, permiten al usuario ayudar a configurar la prioridad de su ejecución.
 
-# Cambio de Prioridad
+## Cambio de Prioridad
 
 Para cambiar la prioridad de un proceso, se introducen nuevas reglas a nuestro algoritmo. Se tiene en cuenta nuestra carga de trabajo usual: Una mezcla de procesos cortos e interactivos, y algunos procesos largos que necesita mucho tiempo de procesamiento, donde el **response** no es tan importante.
 
@@ -33,9 +33,9 @@ Sin embargo, aún tenemos algunos problemas:
 - ***Cambio de Comportamiento:*** Si un proceso cambia de comportamiento durante la ejecución, este tendrá una prioridad no acorde a la que debería tener (por ejemplo, pocos pedidos de ***IO*** al principio, pero muchos al final).
 - ***Cheating***: Si los procesos están al tanto del planificador, estos pueden delegar el control voluntariamente para no perder prioridad
 
-# Priority Boost
+## Priority Boost
 
-Para encarar los primeros dos problemas mencionados, se introduce el concepto de ***priority boost***.  De forma periódica, se aumenta la prioridad de los procesos. 
+Para encarar los primeros dos problemas mencionados, se introduce el concepto de ***priority boost***. De forma periódica, se aumenta la prioridad de los procesos.
 
 - **Regla 5:** Luego de un cierto período, todos los procesos vuelven a la cola máxima prioridad.
 
@@ -43,7 +43,7 @@ De esta forma, se garantiza que ningún proceso sufra de ***starvation***. Por e
 
 Surge la pregunta entonces, ¿Qué duración deberá tener el periodo de tiempo entre ***boosts?*** Si este periodo se muy largo, entonces los procesos largos sufrirán ***starvation;*** Si es muy corto, lo procesos interactivos no serán tratados correctamente. Algunos algoritmos varían estos parámetros durante la ejecución, utilizando fórmulas matemáticas.
 
-# Accounting
+## Accounting
 
 Para solucionar nuestro último problema, debemos realizar una mejor contabilización. En lugar de olvidarse cuando ***time-slice*** le quedaba a un proceso cuando delegó el procesamiento, podemos tenerlo en cuenta para nuestro cálculo de prioridad. Entonces, volveremos a escribir nuestra cuarta regla
 

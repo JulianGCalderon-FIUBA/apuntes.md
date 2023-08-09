@@ -2,7 +2,7 @@ En este capítulo se introduce una implementación muy simple para un sistema de
 
 Hay dos aspectos principales a cubrir cuando hablamos de sistemas de archivos. El primero son las estructuras de datos utilizadas. El segundo aspecto importante son los métodos de acceso a este sistema.
 
-# Estructuras de Datos
+## Estructuras de Datos
 
 Primero debemos dividir nuestro disco en bloques, los sistemas de archivos simples utilizan un único tamaño de bloque.
 
@@ -16,7 +16,7 @@ El sistema de archivos tiene que guardar información acerca de la ***metadata**
 
 ![[Very Simple File System 2.png]]
 
-# El Inodo
+## El Inodo
 
 Una de las estructuras más importante es la del ***inodo***. Los inodos tienen un nombre o **id** que indican dónde encontrarlo. Dentro de cada inodo está toda la información que necesitamos sobre un archivo. Su tipo, su tamaño, la cantidad de bloques que necesita, la información de permisos, entre otros. Nos referimos a toda esta información como la *metadata* de un archivo.
 
@@ -24,11 +24,11 @@ Una decisión importante respecto al diseño del inodo es como nos referimos a s
 
 Muchos ***file system*** almacenan algunos punteros directos a sus bloques, con algunos punteros indirectos para permitir tamaños mayores.
 
-## Directorios
+### Directorios
 
 Un directorio es un archivo, como cualquier otro, que contiene información acerca de los inodos a los que refiere, y sus nombres de usuario. Un mismo inodo puede ser referido por distintos directorios. Además, todos los directorios guardan dos directorios especiales. El primero es el directorio `.` que refiere a sí mismo, el segundo es el directorio `..` que refiere a su directorio padre.
 
-# Lectura y Escritura
+## Lectura y Escritura
 
 Cuando accedemos un archivo, el sistema de archivos primero debe encontrar el inodo deseado. Para eso, debe recorrer el ***path***, accediendo a los directorios intermedios hasta encontrar el inodo buscado.
 
@@ -38,11 +38,11 @@ Una vez tenemos el inodo, debemos acceder a sus ***data blocks*** para leer o es
 
 Cuando escribimos en un archivo, a veces es necesario reservar más bloques para el mismo, en caso de que los bloques actuales no sean suficientes para almacenar toda la información necesaria.
 
-# Optimizaciones
+## Optimizaciones
 
 Las operaciones mencionadas deben realizar muchas lecturas y escrituras, por lo que muchas veces se vuelve lento. Algunos ***file systems*** utilizan memoria ***caché (DRAM)*** para almacenar bloques importantes.
 
-Existen dos alternativas. ***static partitioning*** ***consiste en tener una cantidad de memoria fija para  almacenar bloques populares, esto puede ser innecesario ya que no siempre lo necesitaremos. Una alternativa. La otra opción es utilizar ***dynamic partitioning***.*** La memoria puede ser reservada para el ***caché*** de forma dinámica, reduciendo así la memoria reservada innecesariamente.
+Existen dos alternativas. ***static partitioning*** ***consiste en tener una cantidad de memoria fija para almacenar bloques populares, esto puede ser innecesario ya que no siempre lo necesitaremos. Una alternativa. La otra opción es utilizar ***dynamic partitioning***.*** La memoria puede ser reservada para el ***caché*** de forma dinámica, reduciendo así la memoria reservada innecesariamente.
 
 Otra táctica utilizada para mejorar el rendimiento de un ***file system*** es a partir de los ***write buffers***. Las escrituras muchas veces son retrasadas para ser enviadas de forma conjunta. Esto tiene una serie de distintos beneficios.
 

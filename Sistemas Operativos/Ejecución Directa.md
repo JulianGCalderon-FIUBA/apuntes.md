@@ -2,11 +2,11 @@ Para virtualizar el procesador, el sistema operativo necesita de alguna forma co
 
 Hay algunos desafíos que surgen al tratar de construir esta maquinaria de virtualización. El primero es el ***rendimiento***: ¿Como podemos implementar esta virtualización sin agregar excesivos gastos al sistema? El segundo problema es el ***control***: ***¿Como podemos correr estos procesos sin perder el control sobre el procesador?
 
-# ***Ejecución Directa Limitada***
+## Ejecución Directa Limitada
 
 Esta simple idea consiste en correr un programa directo en la CPU. Se carga el programa en memoria, se crean las estructuras necesarias del proceso y se ejecuta. Este enfoque trae muchos problemas sobre el ***control***. ¿Cómo limitamos lo que puede hacer el proceso? ¿Cómo lo frenamos para correr otro proceso e implementar el ***time sharing***?
 
-# Operaciones Restringidas
+## Operaciones Restringidas
 
 La ejecución directa es rápida, pero que pasa si el proceso quiere realizar alguna operación que no debería tener permiso de hacer, como emitir un solicitud de entrada/salida. Para solucionar esto, el hardware debe proveer el conocido ***dual mode***. Una forma entre cambiar entre los sets de operaciones permitidos, para que únicamente el kernel pueda realizar ciertas operaciones. Tendremos entonces dos modos: ***kernelmode**, **usermode***.
 
@@ -20,7 +20,7 @@ Para especificar que ***system call*** se quiere ejecutar, se utiliza el ***syst
 
 Hay dos fases en de la ***LDE*** o ***limited direct execution***. La primer es en el arranque, el kernel inicializa la ***trap table.*** La segunda fase ocurre cuando se corre un proceso, antes de la instrucción ***return-from-trap***. El ***kernel*** debe cambiar el modo a ***usermode*** y correr nuevamente el proceso. (***context switch***)
 
-# Cambio entre Procesos
+## Cambio entre Procesos
 
 Para solucionar esto, debemos encontrar una forma para el ***kernel*** de recuperar el control del procesador, para correr otro proceso.
 
@@ -30,11 +30,11 @@ El enfoque no cooperativo consiste, utilizamos algo conocido como ***timer inter
 
 Para este enfoque, es necesario que el ***hardware*** tenga los mecanismos necesarios para utilizarlo. Además de lanzar la excepción, debe almacenar suficiente información del estado del proceso para poder continuar luego. Esta información es almacenada en el ***hardware*** para poder continuar si el ***scheduler*** lo decide.
 
-# Guardando y Restaurando Contexto
+## Guardando y Restaurando Contexto
 
 Una vez que el *kernel* recupera el control, debe tomarse una decisión. Esta es tomada por una parte del sistema conocido como planificador o ***scheduler***. Si se realiza un cambio de proceso, entonces se realiza un *context switch. G*uarda los registros del procesador como información del proceso para poder continuar más tarde, y carga los registros del nuevo proceso./h1
 
-# Concurrencia
+## Concurrencia
 
 Hay un par de detalles aún por definir. ¿Que pasa si ocurre un ***timer interrupt*** mientras se ejecuta una ***system call***? El sistema operativo debe tener esto en cuenta. Una simple forma de solucionarlo es deshabilitando los *interrupts* durante la ejecución de otra interrupción.
 

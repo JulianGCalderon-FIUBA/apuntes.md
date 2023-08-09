@@ -12,7 +12,7 @@ Lo que se está describiendo es la abstracciones del mapa de memoria que provee 
 
 Cuando el usuario accede a cierta dirección de memoria virtual $\text A$, el sistema operativo ***mapea*** el valor a otra dirección de memoria $\text B$, una dirección de memoria real. Si el usuario accede a una dirección de memoria virtual que no le pertenece, entonces se lanza una excepción.
 
-# Objetivos
+## Objetivos
 
 Uno de los objetivos principales de la ***transparencia***, se busca que la memoria virtual sea invisible al usuario, de forma que el proceso se comporte como si fuese su propia memoria física.
 

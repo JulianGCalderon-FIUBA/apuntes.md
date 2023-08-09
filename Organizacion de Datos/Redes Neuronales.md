@@ -4,7 +4,7 @@ Una neurona simple, tiene una serie de entradas. Estas se multiplican por unos p
 
 ![[Redes Neuronales 1.png]]
 
-# Perceptrón Simple
+## Perceptrón Simple
 
 Su función de activación es un escalón, función simple que vale cero o uno. Se le puede introducir un sesgo $b$, para evitar el sobre modelado.
 
@@ -24,7 +24,7 @@ $$
 
 El perceptrón en definitiva, crea una línea que corta el plano, esto permite generar compuertas logicas (solo las linealmente separables)
 
-# Perceptrón Multicapa
+## Perceptrón Multicapa
 
 Para los problemas que no son linealmente separables, podemos utilizar múltiples capas para generar redes más complejas
 
@@ -36,7 +36,7 @@ Ejemplo de perceptrón multicapa
 
 Separación del plano de forma compleja
 
-# Redes SOM
+## Redes SOM
 
 *Mappean* un espacio de entrada en un espacio de salida, para hacerlo se utiliza una matriz de pesos. Cada entrada, está conectada con cada nodo de salida.
 
@@ -52,7 +52,7 @@ Estos radios disminuyen hasta que no se realicen cambios. Al final, se generan v
 
 ![[Redes Neuronales 7.png]]
 
-# Backpropagation
+## Backpropagation
 
 Mejor algoritmo para entrenar redes neuronales. Partimos de un perceptrón multicapa con cada nodo está conectado con todos sus nodos siguientes.
 
@@ -84,7 +84,7 @@ $$
 
 Para cada derivada parcial, utilizamos la regla de la cadena. Luego movemos los pesos en la dirección que minimice el error.
 
-# Funciones de Activación
+## Funciones de Activación
 
 Hay distintas funciones de activación dependiendo de nuestro problema:
 
@@ -94,16 +94,16 @@ Hay distintas funciones de activación dependiendo de nuestro problema:
 
 ![[Redes Neuronales 9.png]]
 
-# Métodos de Regularización
+## Métodos de Regularización
 
 Son métodos para prevenir el sobre modelado, a veces no son necesarios.
 
-- Regularización L1 y L2: Penalizan el valor de los pesos de la red, evite que se le dé  más importancia a una característica que a otra. L1 es proporcional al módulo de los pesos, L2 es proporcional al cuadrado.
+- Regularización L1 y L2: Penalizan el valor de los pesos de la red, evite que se le dé más importancia a una característica que a otra. L1 es proporcional al módulo de los pesos, L2 es proporcional al cuadrado.
 - Dropout: Apaga activaciones aleatoriamente durante el entrenamiento, esto hace que el resultado no dependa de unas pocas neuronas
 - Early Stopping: Frena el modelo antes de que el error del set de validación empieza a aumentar.
 - Data Augmentation: Generar más datos de prueba, a partir de los datos existentes. Aplicando transformaciones, especialmente útil para las imágenes.
 
-# Optimizadores
+## Optimizadores
 
 Es una implementación concreta del algoritmo de backpropagation.
 
@@ -116,7 +116,7 @@ Es una implementación concreta del algoritmo de backpropagation.
 - AdaMax: es una modificación de Adam, adam suele dar mejores resultados
 - AdaDelta: Es una variación de AdaGrad, en vez de calcular el escalado del factor de entrenamiento de cada dimensión, se restringe a una ventana de tamaño fijo de los últimos $n$ gradientes. Similar a RMSProp, que olvida gradientes.
 
-# Número de Capas
+## Número de Capas
 
 Ante problemas complejos, las redes profundas tendrán mejor desempeño. Para muchos problemas, una capa será suficiente.
 

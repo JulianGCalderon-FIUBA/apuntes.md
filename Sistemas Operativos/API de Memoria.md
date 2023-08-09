@@ -2,7 +2,7 @@ Cuando corremos un programa en C, hay dos tipos de memoria que reservamos. La pr
 
 Esta memoria no tiene larga duración, sólo dura durante el contexto en el que fue declarada. Muchas veces necesitamos memoria que viva más allá de este contexto, en estas situaciones necesitamos el segundo tipo de memoria, el ***heap***.
 
-Las asignaciones y des asignaciones de memoria en esta parte se realizan de forma automática, nosotros como programadores debemos reservar y liberar esta memoria cuando sea necesario. Esta memoria nos permite utilizar una variable afuera del ambiente en el que fue declarada, lo cual muchas veces es totalmente necesario. 
+Las asignaciones y des asignaciones de memoria en esta parte se realizan de forma automática, nosotros como programadores debemos reservar y liberar esta memoria cuando sea necesario. Esta memoria nos permite utilizar una variable afuera del ambiente en el que fue declarada, lo cual muchas veces es totalmente necesario.
 
 Esta memoria suele tener más capacidad que el stack, por lo que para estructuras grandes y de tamaño indefinido, debemos utilizar el ***stack***.
 
@@ -40,6 +40,6 @@ Muchas veces nos confundimos y liberamos dos veces el mismo puntero, esto puede 
 
 Estas funciones mencionadas pertenecen a la biblioteca estándar de C, pero se construyen a partir de system calls
 
-Una de ellas es ***brk***, la cual se utiliza para aumentar el tamaño del heap de nuestro programa. 
+Una de ellas es ***brk***, la cual se utiliza para aumentar el tamaño del heap de nuestro programa.
 
 Otra system call útil es ***mmap***, se puede utilizar para reservar una región de memoria anónima dentro de tu programa.

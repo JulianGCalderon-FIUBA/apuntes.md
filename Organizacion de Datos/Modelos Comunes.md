@@ -1,4 +1,4 @@
-# Regresión Lineal
+## Regresión Lineal
 
 La primer forma de regresión lineal documentada fue el método de cuadrados mínimos. Consisten en aproximar los datos con una función lineal, y luego utilizar esta función lineal para predecir variables dependientes.
 
@@ -8,19 +8,19 @@ $$
 
 ![[Modelos Comunes 1.png]]
 
-## Medidas de Error/
+### Medidas de Error/
 
 - **RMSE (raíz del error cuadrático medio)**
 - **MAE (error medio absoluto)**
 - **MSE (error cuadrático medio)**
 
-## Medidas de Comparación
+### Medidas de Comparación
 
 - **RSS (Residual Sum of Squares):** Variabilidad no explicada por los datos
 - **TTS (Total Sum of Squares):** Variabilidad total de los datos
 - $R^2$ **(Coeficiente de Determinación):** Indica la capacidad de predicción del modelo. Muestra el porcentaje de relación que nuestro modelo puede explicar. Es la proporción de variabilidad explicada por los datos. Devuelve un valor entre 0 y 1.
 
-# Regresión Logística
+## Regresión Logística
 
 A partir de datos del problema, buscamos decidir si la muestra pertenece a una cierta categoría. Estas categorías son finitas y conocidas de antemano.
 
@@ -30,7 +30,7 @@ Se utiliza la regresión logística. Donde a partir de los datos, se crea una fu
 
 Esta función asigna un valor entre 0 y 1, que indica la probabilidad de que la muestra pertenezca a la categoria. Diremos que la muestra pertenece a la categoria si $y \geq 0.5$.
 
-# K-Means
+## K-Means
 
 Permite agrupar un conjunto de datos en una cantidad K de grupos:
 
@@ -43,15 +43,15 @@ Permite agrupar un conjunto de datos en una cantidad K de grupos:
 
 ![[Modelos Comunes 3.png]]
 
-## Elección del K
+### Elección del K
 
-### Regla del Codo
+#### Regla del Codo
 
-Se grafica la distancia promedio al centroide de cada punto en función de la cantidad de grupos y se selecciona el número donde se “quiebra” la gráfica
+Se grafica la distancia promedio al centroide de cada punto en función de la cantidad de grupos y se selecciona el número donde se "quiebra" la gráfica
 
 ![[Modelos Comunes 4.png]]
 
-### Método Silhouette
+#### Método Silhouette
 
 Utilizamos el coeficiente de Silhouette y graficamos para cada punto, para cada valor de $K$. Nos quedamos con la elección de K que minime los outliers.
 
@@ -65,7 +65,7 @@ $$
 
 ![[Modelos Comunes 5.png]]
 
-### Estadistica de Hopkins
+#### Estadistica de Hopkins
 
 Se utiliza para evaluar la tendencia de agrupación de un conjunto de datos midiendo la probabilidad de que un conjunto de datos sea generado por una distribución uniforme. Prueba la aleatoriedad espacial de los datos.
 

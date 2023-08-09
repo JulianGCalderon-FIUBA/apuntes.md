@@ -1,4 +1,4 @@
-# Contadores Concurrentes
+## Contadores Concurrentes
 
 Una de las estructuras de datos más simples es un contador, podemos realizar un contador concurrente de forma simple utilizando lo visto en los capítulos anteriores.
 
@@ -10,7 +10,7 @@ Cuando un ***thread*** quiere incrementar un ***counter, incrementa su*** counte
 
 El tiempo entre actualizaciones se conoce como el ***threshold S***, cuanto menor es este valor, más se aproxima a un contador común.
 
-# Listas Enlazadas Concurrentes
+## Listas Enlazadas Concurrentes
 
 El enfoque simple para solucionar esto sería utilizar un ***lock*** para todas las secciones críticas. Nuevamente, esto puede tener bajo rendimiento cuando tenemos muchos *threads*.
 
@@ -20,10 +20,10 @@ En lugar de tener un único lock para toda la lista, tenemos un *lock* para cada
 
 Conceptualmente esta técnica tiene sentido, aunque es la practica es dificil que tenga mejor rendimiento que una lista enlazada simple. Esto es debido a la cantidad de ***locks*** y ***unlocks*** que se necesitan.
 
-# Colas Concurrentes
+## Colas Concurrentes
 
 Un enfoque más complejo que el tradicional para las colas concurrentes consiste en tener dos ***locks***, uno para el nodo inicial, y otro para el nodo final. Algunas implementaciones utilizan un ***dummy node*** para separar el nodo inicial del final.
 
-# Tablas de Hash Concurrentes
+## Tablas de Hash Concurrentes
 
 Para construir esta tabla, utilizamos las listas enlazadas mencionadas anteriormente. En lugar de un ***lock*** para la estructura completa, tendremos un ***lock*** para cada ***hash bucket.***

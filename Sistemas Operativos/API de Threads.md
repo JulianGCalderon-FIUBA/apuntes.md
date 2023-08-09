@@ -1,4 +1,4 @@
-# Creación de Threads
+## Creación de Threads
 
 Lo primero que debemos hacer para escribir un programa ***multi-threaded*** es crear nuevos hilos:
 
@@ -17,7 +17,7 @@ El segundo argumento se utiliza para especificar los atributos que tendrá el hi
 
 El tercer argumento es el es complejo, es el puntero a la función donde comenzará el hilo, Esta funcionara deberá recibir un puntero como parámetro. El cuarto argumento es el argumento que se le pasara a la función anterior cuando esta se ejecute.
 
-# Finalización de Threads
+## Finalización de Threads
 
 Muchas veces,queremos esperar a que un ***thread*** finalice para continuar la ejecución:
 
@@ -28,9 +28,9 @@ pthread_join(pthread_t      thread,
              void           **value_ptr);
 ```
 
-El primer argumento es el hilo al cual se deberá esperar, mientras que el segundo argumento es un puntero al valor de retorno que esperas recibir de la función. Estos valores de retorno no pueden ser almacenados en el ***stack***, ya que este deja de ser válido en cuanto termina el ***thread***. 
+El primer argumento es el hilo al cual se deberá esperar, mientras que el segundo argumento es un puntero al valor de retorno que esperas recibir de la función. Estos valores de retorno no pueden ser almacenados en el ***stack***, ya que este deja de ser válido en cuanto termina el ***thread***.
 
-# Utilización de Locks
+## Utilización de Locks
 
 Para poder evitar las condiciones de carrera, debemos poder crear ***locks*** que nos provean con ***exclusión mutua:***
 
@@ -54,7 +54,7 @@ pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;
 
 Los programas pueden tener múltiples ***locks*** para poder manejar distintas secciones criticas, sin que surjan condiciones de carrera.
 
-# Condition Variables
+## Condition Variables
 
 Las *condition variables* son muy útiles cuando queremos que ocurra cierto tipo de señalización entre *threads.*
 
@@ -67,7 +67,7 @@ Para utilizar estas variables, debemos tener un ***lock*** asociado a esta condi
 
 La primer rutina `pthread_cond_wait()` suspende el ***thread*** actual, esperando a que otro hilo le envié una señal para continuar. Además, libera el ***lock*** que se le pasa por parámetro, volviendolo a adquirir luego de despertar. Desde otro ***thread*** utilizamos la rutina `pthread_cond_signal()` para despertar al primer hilo.
 
-# Consejos
+## Consejos
 
 Hay un número de pequeñas pero importantes cosas a tener en cuenta cuando trabajamos con ***threads:***
 

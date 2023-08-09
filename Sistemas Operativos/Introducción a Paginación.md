@@ -12,7 +12,7 @@ Este enfoque tiene un cierto número de ventajas:
 
 Sin embargo, todavía hay algunos problemas a resolver cuando trabajamos con paginación.
 
-# Traducción de Direcciones
+## Traducción de Direcciones
 
 Para conocer donde cada página virtual se encuentra en la memoria física, el sistema operativo guarda una ***page table*** por cada proceso, allí se encuentran las traducciones para cada página virtual.
 
@@ -22,7 +22,7 @@ Luego se busca, para el proceso actual, en que dirección de memoria se encuentr
 
 ![[Introducción a Paginación 2.png]]
 
-# Page Tables
+## Page Tables
 
 Estas *page tables* pueden volverse muy grandes, mucho más que la que teníamos con segmentación. Supongamos que necesitamos ***4 bytes*** por cada ***page table entry*** o ***PTE***, entonces necesitaremos ***4 MB*** por cada *page table* (una para cada proceso). Esto es una ***inmensa cantidad de memoria. Debido a su tamaño, no las guardaremos en la MMU. Al estar guardadas en memoria, la traducción será lentas, más adelante veremos como acelerar esto utilizando caché.
 
@@ -36,7 +36,7 @@ Una page table es una estructura de datos que se usa para ***traducir*** direcci
 - El ***dirty bit*** nos indica si la página fue modificada desde que se trajo a memoria.
 - El ***reference bit*** se utiliza para sí la página fue accedida, vital para el ***page replacement***.
 
-# Velocidad de Traducción
+## Velocidad de Traducción
 
 La paginación es lenta, cuando se accede a una dirección de memoria virtual, el ***hardware*** deberá primer ver donde se encuentra la ***page table*** del proceso actual, para poder traducirlo. Podemos asumir que la dirección física de la page table s encuentra en un registro especial del procesador.
 

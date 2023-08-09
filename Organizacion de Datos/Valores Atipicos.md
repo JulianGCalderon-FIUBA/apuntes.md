@@ -11,7 +11,7 @@ La presencia de outliers puede influenciar los resultados de un análisis estad�
 - Deben ser cuidadosamente inspeccionados
 - Pueden estar alertando anomalías, en algunas situaciones nuestra tarea de interés será encontrarlos.
 
-# Tipos de Outliers
+## Tipos de Outliers
 
 Hay diferentes tipos de outliers:
 
@@ -29,7 +29,7 @@ Los outliers, en casos multivariados, pueden provocar dos tipos de efectos:
 - El efecto de enmascaramiento se produce cuando un grupo de outliers esconden a otros. Se harán visibles cuando se eliminen los outliers que los esconden
 - El efecto de inundación ocurre cuando una observación solo es outlier en presencia de otras observaciones.
 
-# Detección de Outliers
+## Detección de Outliers
 
 Para el caso de los outliers univariados, tomó información respecto a la distribución de la variable
 

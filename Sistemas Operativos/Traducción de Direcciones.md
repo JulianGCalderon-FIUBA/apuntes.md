@@ -1,8 +1,8 @@
-Para favorecer la eficiencia, se utiliza conocido como ***hardware-based address translation.*** El hardware transforma cada dirección de memoria por la dirección de memoria física correspondiente. 
+Para favorecer la eficiencia, se utiliza conocido como ***hardware-based address translation.*** El hardware transforma cada dirección de memoria por la dirección de memoria física correspondiente.
 
 Aunque por supuesto, el hardware por sí solo no puede realizar esta tarea. El sistema operativo debe intervenir en momento clave para preparar el hardware. Debe manejar la memoria, teniendo en cuenta los espacios de memoria libres y los ocupados.
 
-# Base and Bound
+## Base and Bound
 
 Una idea simple y primitiva para organizar la memoria, funcionaba bajo el supuesto de que los espacios de memoria eran contiguos. Requiere dos registros nuevos para cada procesador: ***Base***, y ***Límite***. El primero indica la dirección de memoria real donde empieza el espacio del proceso, y el segundo indica el tamaño de este espacio de memoria.
 
@@ -12,7 +12,7 @@ Antes de realizar la traducción revisa que la dirección de memoria no esté fu
 
 La porción del procesador encargada de realizar esta traducción de memoria es conocida como ***MMU.*** o ***memory management unit***.*
 
-# Soporte del Hardware
+## Soporte del Hardware
 
 El hardware debe poder soportar ***dual mode***, éste consiste en tener dos sets de instrucciones, uno para el kernel llamado ***kernelmode*** y otro para el usuario, llamado ***usermode*** **(esta información puede ser guardada en el procesador) **El hardware debe proporcionar una forma de realizar el pasaje entre estos modos.
 
@@ -22,7 +22,7 @@ El hardware debe contener instrucciones para modificar estos registros, pero pri
 
 Finalmente, debe poder generar excepciones para situaciones en las que el usuario acceda a memoria que no le pertenece, delegando el control al kernel nuevamente, otras operaciones ilegales también tendrán su propio ***handler***.
 
-# Problemáticas del Sistema Operativo
+## Problemáticas del Sistema Operativo
 
 Cuando se ejecuta un programa, el sistema primero debe encontrar un espacio libre en la memoria, para esto puede implementar una simple lista de espacios libres. Una vez encontrado, puede inicializar el proceso como lo visto anteriormente.
 
