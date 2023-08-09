@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Numérico/Trazador Cúbico - Spline.md",
+                "file": "Física II/Trabajo de Campos.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Numérico/Trazador Cúbico - Spline.md",
+                "file": "Física II/Trabajo de Campos.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Numérico/Trazador Cúbico - Spline.md",
+                "file": "Física II/Trabajo de Campos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Numérico/Trazador Cúbico - Spline.md",
+                "file": "Física II/Trabajo de Campos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Numérico/Trazador Cúbico - Spline.md"
+                "file": "Física II/Trabajo de Campos.md"
               }
             }
           },
@@ -158,12 +158,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 332.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,34 +174,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c42caadea4e53a08",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
-    "Análisis Numérico/Sistemas no Lineales.md",
-    "Análisis Numérico/Sistemas Lineales.md",
-    "Análisis Numérico/Series de Fourier.md",
-    "Análisis Numérico/Refinamiento Iterativo.md",
-    "Análisis Numérico/Punto Flotante.md",
-    "Análisis Numérico/Polinomio de Lagrange y Newton.md",
-    "Análisis Numérico/Iteracion en un Punto Fijo.md",
-    "Análisis Numérico/Metodos Iterativos.md",
-    "Análisis Numérico/Newton-Raphson.md",
-    "Análisis Numérico/Polinomio de Hermite.md",
-    "Análisis Numérico/Interpolación Polinomial.md",
-    "Análisis Numérico/Integración Numérica.md",
-    "Análisis Numérico/FFT.md",
-    "Análisis Numérico/Errores.md",
-    "Análisis Numérico/Error en Métodos Iterativos.md",
-    "Análisis Numérico/Ecuaciones Diferenciales Ordinarias.md",
-    "Análisis Numérico/Ecuaciones Diferenciales de Orden Superior.md",
-    "Análisis Numérico/Ecuaciones Diferenciales de Frontera.md",
-    "Análisis Numérico/Diferenciación Numérica.md",
-    "Análisis Numérico/Descomposicion LU.md",
     "Análisis Numérico/Descomposicion de Cholesky.md",
-    "Análisis Numérico/Búsqueda de Raíces.md",
-    "Análisis Numérico/Bisección.md",
-    "Análisis Numérico/Análisis Numérico.md",
-    "Análisis Numérico/Ajuste.md",
-    "Algoritmos II/Algoritmos II.md",
+    "Análisis Numérico/Descomposicion LU.md",
+    "Física II/Tercer Parcial.md",
+    "Física II/Segundo Parcial.md",
+    "Física II/Referencia del Potencial.md",
+    "Física II/Primer Parcial.md",
+    "Física II/Potencia Activa y Reactiva.md",
+    "Física II/Materiales Magnéticos.md",
+    "Física II/Ley de Gauss.md",
+    "Física II/Ley de Faraday.md",
+    "Física II/Ley de Coulomb.md",
+    "Física II/Ley de Biot y Savalt.md",
+    "Física II/Ley de Ampere.md",
+    "Física II/Inductores.md",
+    "Física II/Fuerza Magnética.md",
+    "Física II/Física II.md",
+    "Física II/Final.md",
+    "Física II/Fasores Complejos.md",
+    "Física II/Ecuaciones de Maxwell.md",
+    "Física II/Dielectricos.md",
+    "Física II/Corriente Continua.md",
+    "Física II/Corriente Alterna.md",
+    "Física II/Conductores.md",
+    "Física II/Circuitos en Resonancia.md",
+    "Física II/Circuito Electrico.md",
+    "Física II/Capacitores.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",
