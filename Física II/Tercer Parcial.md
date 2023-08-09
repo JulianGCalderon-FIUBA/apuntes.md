@@ -93,13 +93,13 @@ $$
 ### Acoplamiento (Material Magnético)
 
 $$
-\mathcal E_1 = \mathcal E_{11} \color{red}{\pm}\mathcal E_{12}  = -L_1 \cdot \frac{di_1}{dt} \color{red}{\mp} M_{12} \cdot \frac{di_2}{dt}
+\mathcal E_1 = \mathcal E_{11} \color{Red}{\pm}\mathcal E_{12}  = -L_1 \cdot \frac{di_1}{dt} \color{Red}{\mp} M_{12} \cdot \frac{di_2}{dt}
 $$
 
 ### Conexión en Serie
 
 $$
-L_{eq} = L_1 + L_2 \color{red}{\pm} 2M
+L_{eq} = L_1 + L_2 \color{Red}{\pm} 2M
 $$
 
 ### Energía Almacenada
@@ -109,7 +109,7 @@ U = \frac 12 \cdot L \cdot I^2
 $$
 
 $$
-U = U_1 + U_2 = \frac 12 L_1 I_1^2 + \frac 12 L_2 I_2^2\ \color{red}{\pm}\  MI_1 I_2
+U = U_1 + U_2 = \frac 12 L_1 I_1^2 + \frac 12 L_2 I_2^2\ \color{Red}{\pm}\  MI_1 I_2
 $$
 
 ### Transformador

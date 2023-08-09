@@ -55,7 +55,7 @@ Cuando colocamos inductancias en serie, la corriente es la misma.
 Si los bornes homólogos están del mismo lado del inductor, los flujos son aditivos. En el caso contrario, son sustractivo
 
 $$
-L_{eq} = L_1 + L_2 \color{red}{\pm} 2M
+L_{eq} = L_1 + L_2 \color{Red}{\pm} 2M
 $$
 
 El signo de $\pm$ varía si los bornes son homólogos $(+)$ o no homólogos $(-)$
@@ -90,7 +90,7 @@ U_2 = \int_{t_1}^{t_2} P(t)\cdot dt = M\cdot I_1 I_2 + \frac 12 \cdot L_2 \cdot 
 $$
 
 $$
-U_T = U_1 + U_2 = \frac 12 L_1 I_1^2 + \frac 12 L_2 I_2^2\ \color{red}{\pm}\  MI_1 I_2
+U_T = U_1 + U_2 = \frac 12 L_1 I_1^2 + \frac 12 L_2 I_2^2\ \color{Red}{\pm}\  MI_1 I_2
 $$
 
 El signo de $\pm$ varia si los bornes son homólogos $(+)$ o no homólogos $(-)$

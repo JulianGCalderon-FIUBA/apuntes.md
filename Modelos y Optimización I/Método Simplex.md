@@ -3,23 +3,23 @@ El método ***Simplex***, desarrollado por ***George Dantzig*** en 1947, se util
 Una vez planteado el problema con las inecuaciones, el modelo deberá transformar las inecuaciones en igualdades utilizando las variables ***slack***.
 
 > [!example]- Planteo Del Problema
-> 
+>
 > Partiremos de un ejemplo de un modelo simple, utilizando únicamente restricciones de menor o igual.
-> 
+>
 > ```bash
 > maximize 8*X1 + 10*X2;
-> 
+>
 > 2*X1 + 2*X2 <= 600;
 > 4*X2 <= 600;
 > 2*X1 + 4*X2 <= 801;
 > end;
 > ```
-> 
+>
 > Automáticamente, el *software* generará las variables ***slack*** necesarias para convertir las desigualdades en igualdades. Además, en el funcional todas la variables deben tener un coeficiente (puede ser cero)
-> 
+>
 > ```bash
 > maximize 8*X1 + 10*X2 + 0*X3 + 0*X4 + 0*X5;
-> 
+>
 > 2*X1 + 2*X2 + X3 = 600;
 > 4*X2 + X4 = 600;
 > 2*X1 + 4*X2 + X5 = 801;
@@ -64,7 +64,7 @@ Análogamente definimos, siendo $n$ la cantidad de variables, y $m$ la cantidad 
 	A partir de los datos del problema, transformamos la forma algebraica a su forma matricial. El vector $C$ tendrá los coeficientes del funcional, entonces:
 
 	$$
-	Z = 
+	Z =
     \begin{pmatrix}
     8 & 10 & 0 & 0 & 0
     \end{pmatrix}
@@ -162,7 +162,7 @@ El significado de las columnas será, para un vértice dado:
 El método simplex elige comenzar por el vértice en el cual las variables reales son cero. Esto tiene la ventaja de que los vectores de las variables positiva son canónicos distintos y, por lo tanto, linealmente independientes:
 
 > [!example]- Vectores Iniciales
-> 
+>
 > $$
 > A =\begin{pmatrix}
 > 2 & 2 & 1 & 0 & 0 \\
@@ -170,14 +170,14 @@ El método simplex elige comenzar por el vértice en el cual las variables reale
 > 2 & 4 & 0 & 0 & 1
 > \end{pmatrix}
 > $$
-> 
+>
 > $$
 > AX = B \\
 > \begin{pmatrix}
 > 2 & 2 & 1 & 0 & 0 \\
 > 0 & 4 & 0 & 1 & 0 \\
 > 2 & 4 & 0 & 0 & 1
-> \end{pmatrix} 
+> \end{pmatrix}
 > \begin{pmatrix}
 > x_1 \\
 > x_2 \\
@@ -186,7 +186,7 @@ El método simplex elige comenzar por el vértice en el cual las variables reale
 > x_5 \\
 > \end{pmatrix} = B
 > $$
-> 
+>
 > $$
 > x_1 \begin{pmatrix}
 > 2 \\
@@ -212,16 +212,16 @@ El método simplex elige comenzar por el vértice en el cual las variables reale
 > 0 \\
 > 0 \\
 > 1
-> \end{pmatrix} = 
+> \end{pmatrix} =
 > B
 > $$
-> 
+>
 > Entonces, un punto extremo sera $X = (0, 0, 600, 600, 801)$ debido a que los vectores asociados a las componentes positivas forman la base canónica.
 
 > [!example]- Tabla Inicial
-> 
+>
 > Desarrollamos la tabla del vértice inicial para el problema dado.
-> 
+>
 > | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
 > | --- | --- | --- | --- | --- | --- | --- | --- |
 > | 0 | $x_3$ | 600 | 2 | 2 | 1 | 0 | 0 |
@@ -236,7 +236,7 @@ Debemos calcular, para cada columna $A_j$, el valor de $z_j - c_j$, siendo $z_j 
 
 > [!example]- Calculo de $z_j - c_j$
 > Calculamos para cada columna:
-> 
+>
 > | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
 > | --- | --- | --- | --- | --- | --- | --- | --- |
 > | $0$ | $x_3$ | $600$ | $2$ | $2$ | $1$ | $0$ | $0$ |
@@ -265,9 +265,9 @@ Para determinar que vector sale de la base, debemos calcular el coeficiente $\th
 Tendremos que elegir el menor de los tres cocientes (se toman los casos invalidos como infinito), ya que elegir uno mayor causará que las variables que tenían cocientes menores tomen valores negativos.
 
 > [!example]- Calculo de $\theta$
-> 
+>
 > Para este ejemplo, se ingresara el vector $A_1$
-> 
+>
 > | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ | $\theta$ |
 > | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 > | $0$ | $x_3$ | $600$ | $2$ | $2$ | $1$ | $0$ | $0$ | $300$ |
@@ -281,7 +281,7 @@ Inicialmente, planteamos la tabla con los valores ya conocidos. Los coeficientes
 
 > [!example]- Planteo Inicial
 > Quitamos la variable $x_3$ y entramos la variable $x_1$:
-> 
+>
 > | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
 > | --- | --- | --- | --- | --- | --- | --- | --- |
 > | $8$ | $x_1$ | | $1$ | | | $0$ | $0$ |
@@ -300,9 +300,9 @@ $$
 $$
 
 > [!example]- División por Pivote
-> 
+>
 > Debido a que ingresa la variable $x_1$ y sale la variable $x_3$, el valor del pivote será de: $2$.
-> 
+>
 > | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
 > | --- | --- | --- | --- | --- | --- | --- | --- |
 > | $8$ | $x_1$ | $300$ | $1$ | $1$ | $0.5$ | $0$ | $0$ |
@@ -310,30 +310,30 @@ $$
 > | $0$ | $x_5$ | | $0$ | | | | |
 
 > [!example]- Regla del Cuadrilátero
-> 
+>
 > Teniendo la tabla anterior, resaltamos los elementos:
-> 
+>
 > - ***Rojo: Valor Pivote**
 > - ***Verde: Valor Anterior**
 > - ***Azul: Diagonales**
-> 
+>
 > | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
 > | --- | --- | --- | --- | --- | --- | --- | --- |
-> | $0$ | $x_3$ | $\color{blue}{600}$ | $\color{red} 2$ | $2$ | $1$ | $0$ | $0$ |
+> | $0$ | $x_3$ | $\color{blue}{600}$ | $\color{Red} 2$ | $2$ | $1$ | $0$ | $0$ |
 > | $0$ | $x_4$ | $\color{green}{600}$ | $\color{blue}0$ | $4$ | $0$ | $1$ | $0$ |
 > | $0$ | $x_5$ | $801$ | $2$ | $4$ | $0$ | $0$ | $1$ |
 > | | | $Z = 0$ | $-8$ | $-10$ | $0$ | $0$ | $0$ |
-> 
+>
 > Luego, calculamos en la nueva tabla el valor, como $600 - (0\cdot600)/2 = 600$
-> 
+>
 > | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
 > | --- | --- | --- | --- | --- | --- | --- | --- |
 > | $8$ | $x_1$ | $300$ | $1$ | $1$ | $0.5$ | $0$ | $0$ |
 > | $0$ | $x_4$ | $\color{green}{600}$ | $0$ | | | $1$ | $0$ |
 > | $0$ | $x_5$ | | $0$ | | | $0$ | $1$ |
-> 
+>
 > Repetimos esta lógica para el resto de elementos de la tabla
-> 
+>
 > | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
 > | --- | --- | --- | --- | --- | --- | --- | --- |
 > | $8$ | $x_1$ | $600$ | $1$ | $1$ | $0.5$ | $0$ | $0$ |
@@ -345,9 +345,9 @@ $$
 Esta secuencia de pasos se repite hasta que lleguemos a una solución optima.
 
 > [!example]- Tabla Final
-> 
+>
 > Podemos observar que no hay valores negativos en la ultima fila, por lo que nos encontramos ante un punto optimo
-> 
+>
 > | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
 > | --- | --- | --- | --- | --- | --- | --- | --- |
 > | 8 | $x_1$ | 199.5 | 1 | 0 | 1 | 0 | -1/2 |

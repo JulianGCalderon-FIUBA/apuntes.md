@@ -73,9 +73,9 @@ Sea $(A, \leq)$ un *poset* y sea $S \in A, S \ne 0$:
 
 Un conjunto que admite cota superior (inferior) se llama superiormente (inferiormente) acotado. Si admite ambas se llama acotado.
 
-- $x \in S$ es minimal (maximal) de $S$ sii $\forall y \in S, \color{}{y \leq x} \ \color{blue}{(y \geq x)}$
-- $u \in S$ es mínimo (máximo) de $S$ sii $\forall x \in S: \color{red}{u \leq x}\ \color{blue}{(u \geq x)}$. Se elemento se denota comúnmente como $u = \color{red}{\min S}\ \color{blue}{(\max S)}$
-- $u \in A$ es el ínfimo (supremo) de $S$ sii $S$ está inferiormente (superiormente) acotado y además $u$ es la máxima (mínima) cota inferior (superior). Se denota como $u = \color{red}{\inf S}\ \color{blue}{(\sup S)}$
+- $x \in S$ es minimal (maximal) de $S$ sii $\forall y \in S, \color{Red}{y \leq x} \ \color{Green}{(y \geq x)}$
+- $u \in S$ es mínimo (máximo) de $S$ sii $\forall x \in S: \color{Red}{u \leq x}\ \color{blue}{(u \geq x)}$. Se elemento se denota comúnmente como $u = \color{Red}{\min S}\ \color{blue}{(\max S)}$
+- $u \in A$ es el ínfimo (supremo) de $S$ sii $S$ está inferiormente (superiormente) acotado y además $u$ es la máxima (mínima) cota inferior (superior). Se denota como $u = \color{Red}{\inf S}\ \color{blue}{(\sup S)}$
 
 > [!note]
 > Si $S$ tiene mínimo, es único. Esta observación también es análoga para el máximo.
