@@ -13,11 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física II/Capacitores.md",
+                "file": "Matemática Discreta/Álgebra de Boole.md",
                 "mode": "source",
+                "source": true
+              }
+            },
+            "group": "bc1ba54158a5721b"
+          }
+        ]
+      },
+      {
+        "id": "3f89536760fc3bcc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03482fedce0c803b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matemática Discreta/Álgebra de Boole.md",
+                "mode": "preview",
                 "source": false
               }
-            }
+            },
+            "group": "bc1ba54158a5721b"
           }
         ]
       }
@@ -48,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "//color{red}",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +85,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física II/Capacitores.md",
+                "file": "Matemática Discreta/Álgebra de Boole.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física II/Capacitores.md",
+                "file": "Matemática Discreta/Álgebra de Boole.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física II/Capacitores.md"
+                "file": "Matemática Discreta/Álgebra de Boole.md"
               }
             }
           },
@@ -166,6 +187,8 @@
   },
   "active": "54c1fa07ae0cf29e",
   "lastOpenFiles": [
+    "Física II/Inductores.md",
+    "Física II/Capacitores.md",
     "2023-08-09.md",
     "notas.md",
     "Oppenheimer.md",
@@ -190,8 +213,6 @@
     "Modelos y Optimización I/Planteo Dual.md",
     "Algebra II/Matrices Normales.md",
     "Modelos y Optimización I/Método Simplex.md",
-    "Organizacion de Datos/AdaBoost.md",
-    "Introducción a Sistemas Distribuidos/Clases Practicas.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
