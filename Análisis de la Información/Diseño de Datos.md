@@ -41,17 +41,17 @@ Existen distintos modelos conocidos de base de datos:
 	- Recursivas
 	- Asociativas
 
-### One-Many
+### One-many
 
 El lado de ***Many*** mantiene referencia al ***One*** a partir de una clave foránea
 
 ![[Diseño de Datos 2.png]]
 
-### One-One
+### One-one
 
 Decidimos una tabla como mas relevante, e incluimos la ***foránea*** en la otra
 
-### Many-Many
+### Many-many
 
 Crear una tabla de correlación cuyas columnas serán las claves primarias de las tablas relacionadas. Los identificadores serán tanto claves primarias como foráneas
 

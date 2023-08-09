@@ -16,7 +16,7 @@ Hay muchas propiedades, además de tiempo y espacio, que son de interés para se
 
 Vamos a definir algunas funciones que permiten analizar la complejidad de un algoritmo. Estas funciones tienen una base matemática y estudian el comportamiento de los algoritmos en los casos limites.
 
-### Big-O
+### Big-o
 
 Se dice que la tasa de crecimiento de un algoritmo es **Big-O:**
 
@@ -26,7 +26,7 @@ $$
 
 Esto quiere decir que la tasa de crecimiento $T(N)$ no superara $f(N)$. Es la cota superior
 
-### Big-Omega
+### Big-omega
 
 Se dice que la tasa de crecimiento de un algoritmo es **Big-Omega:**
 
@@ -36,7 +36,7 @@ $$
 
 Esto quiere decir que, para algún valor de $c$, la tasa de crecimiento $T(N)$ nunca sera menor a $f(N)$. Es la cota inferior
 
-### Small-O
+### Small-o
 
 Se dice que la tasa de crecimiento de un algoritmo es **Small-o:**
 
@@ -46,7 +46,7 @@ $$
 
 Esto quiere decir que la tasa de crecimiento $T(N)$ es estrictamente menor a la de $f(N)$.
 
-### Big-Theta
+### Big-theta
 
 Se dice que la tasa de crecimiento de un algoritmo es **Big-Theta:**
 

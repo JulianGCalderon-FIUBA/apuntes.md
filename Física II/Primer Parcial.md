@@ -1,4 +1,4 @@
-# Constantes
+## Constantes
 
 $$
 \begin{align*} \text{Carga Elemental}:e&=-1,6\times10^{-19}C\\
@@ -18,7 +18,7 @@ $$
 \end{align*}
 $$
 
-# Ley de Coulomb
+## Ley de Coulomb
 
 $$
 \vec F_{ij} = k\cdot q_iq_j\cdot\frac{\vec r_i - \vec r_j}{\|\vec r_i - \vec r_j\|^{3}}
@@ -26,7 +26,7 @@ $$
 
 Siendo $F_{ij}$ la fuerza que siente la carga $i$ debido a la carga $j$
 
-# Campo Eléctrico
+## Campo Eléctrico
 
 $$
 \vec E(\vec r) \cdot q_0 = F_0
@@ -52,7 +52,7 @@ $$
 \vec E(\vec r) = k\int \frac{r-r'}{\|\vec r - \vec r'\|^3}\cdot dq
 $$
 
-# Ley de Gauss
+## Ley de Gauss
 
 $$
 \text{Forma Integral}: {\subset\!\supset} \llap{\iint} \vec Ed\vec s = \frac{Q_\text{enc}}{\varepsilon_0}
@@ -62,7 +62,7 @@ $$
 \text{Forma Diferencial}:\nabla\cdot\vec E = \frac{\rho}{\varepsilon_0}
 $$
 
-# Trabajo
+## Trabajo
 
 $$
 W_{F_\text{ext}} = -q_0\int_A^B\vec E\cdot d\vec l
@@ -96,21 +96,21 @@ $$
 \Delta V^{AB} = \frac{1}{4\pi\epsilon_0}\cdot\int \bigg[\frac{1}{|\vec r_B - \vec r'|} - \frac{1}{|\vec r_A - \vec r'|}\bigg]dq
 $$
 
-# Conductores
+## Conductores
 
-### Campo en el Interior
+### Campo en El Interior
 
 $$
 \vec E = 0
 $$
 
-### Campo en las Cercanías
+### Campo en Las Cercanías
 
 $$
 \vec E_p = \frac{\sigma_p}{\varepsilon_0}\hat n_c
 $$
 
-# Capacitores
+## Capacitores
 
 ### Capacidad
 
@@ -150,7 +150,7 @@ $$
 
 La energía se mide en $J$, es igual al trabajo necesario para cargar el capacitor
 
-# Aislantes
+## Aislantes
 
 $$
 \begin{align*}
@@ -170,7 +170,7 @@ $$
 
 La unidad de los campos desplazamiento y polarización es $Q/m^2$
 
-### Relaciones Entre Campos
+### Relaciones entre Campos
 
 $$
 \vec D = \varepsilon_0 \vec E + \vec P
@@ -202,7 +202,7 @@ $$
 \sigma_p = \vec P |_S \cdot \hat n_{s}
 $$
 
-# Campos Comunes
+## Campos Comunes
 
 $$
 \text{Hilo Infinito}: E(r) = \frac{\lambda}{2\pi\varepsilon_0} \frac{\hat r}{r}
@@ -252,7 +252,7 @@ E(r) = \frac{\sigma R}{\varepsilon_0} \frac{\hat r}{r} &\impliedby r > R
 \end{dcases}
 $$
 
-# Integrales Útiles
+## Integrales Útiles
 
 $$
 \bullet\textbf{ 196}: \int \frac{dx}{[x^2 + a^2]^{3/2}} = \frac{x}{a^2\sqrt{x^2 + a^2}}

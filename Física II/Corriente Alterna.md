@@ -6,7 +6,7 @@ $$
 
 Siendo $v_0$ la amplitud *(o valor pico),* $w$ la frecuencia angular *(o pulsación)*, y $\phi_v$ la fase inicial de la corriente.
 
-# Circuito Resistivo Puro
+## Circuito Resistivo Puro
 
 Planteamos, como con corriente estacionaria, la Ley de Ohm. Llegamos al valor de la corriente en el circuito, que varia en función del tiempo, según la tension el generador.
 
@@ -21,8 +21,7 @@ $$
 > [!note]
 > La corriente del circuito va a estar en fase con la tension del generador, lo que varia (en función de la resistencia) sera la amplitud.
 
-
-# Circuito Capacitivo Puro
+## Circuito Capacitivo Puro
 
 Planteamos, como con corriente estacionaria, la relación entre la diferencia de potencial y las propiedades del capacitor. Como obtenemos la carga del capacitor, podemos derivar la expresión para encontrar la corriente que circula.
 
@@ -37,10 +36,9 @@ $$
 > [!note]
 > La corriente del circuito va a estar desfasada $\pi/2$ con la tension del generador. Va a variar la amplitud (en función de la capacidad)
 
-
 Vamos a definir la reactancia capacitiva $X_c = \frac 1{C\ w}$. La cual tendrá unidades de **Ohm**. A mayor frecuencia, tendremos menor reactancia (menor corriente). Esto se debe a que no le damos tiempo suficiente al capacitor para cargarse.
 
-# Circuito Inductivo Puro
+## Circuito Inductivo Puro
 
 Si recordamos la $\mathcal E$ de un inductor, y luego integramos en función del tiempo, podemos encontrar la corriente que circula por el mismo.
 
@@ -57,8 +55,7 @@ Definimos entonces, la reactancia inductiva $X_L = w\ L$. A mayor frecuencia, La
 > [!note]
 > La corriente del circuito va a estar desfasada $\pi/2$ con la tension del generador. Va a variar la amplitud (en función del coeficiente de auto inductancia del material)
 
-
-# Conclusion
+## Conclusion
 
 Vemos entonces, que los tres elementos del circuito no modifican la frecuencia angular de la corriente, Sin embargo, Existirán desfasajes en la intensidad de la corriente. Además, la corriente varia según las propiedades de los elementos.
 

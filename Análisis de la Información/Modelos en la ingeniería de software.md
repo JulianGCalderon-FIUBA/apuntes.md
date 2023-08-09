@@ -11,7 +11,7 @@ Idealmente, los modelos empleados en el análisis deberían reflejar el dominio 
 
 En consecuencia, la transición entre el análisis y el diseño no siempre es fácil. La orientación a objetos provee una transición más natural debido a su similitud con la realidad.
 
-## UML
+## Uml
 
 Surge de mezclar las notaciones más populares de la época. Es un lenguaje gráfico que se utiliza para modelar sistemas basados en software. Ofrece diversos tipos de diagramas
 

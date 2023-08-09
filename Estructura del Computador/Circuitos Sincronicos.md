@@ -10,7 +10,7 @@ El circuito únicamente cambia cuando el pulso del reloj esta habilitado. Si no,
 
 Es un $JK$, pero si $J{=}K{=}1$, únicamente oscila cuando el reloj esta en pulso. Además, no sabemos en que estado va a terminar luego del pulso
 
-## Flip-Flop JK Sincrónico del tipo Maestro-Esclavo
+## Flip-Flop JK Sincrónico del Tipo Maestro-esclavo
 
 ![[Circuitos Sincronicos 3.png]]
 

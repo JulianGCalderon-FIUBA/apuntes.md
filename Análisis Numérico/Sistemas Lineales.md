@@ -17,8 +17,8 @@ Para resolver sistemas lineales de la forma $Ax = b$ grandes, tenemos dos tipos 
 
 ## Métodos Directos
 
-- [[Descomposicion LU]]
-- [[Descomposicion de Cholesky]]
+- [[Descomposición LU]]
+- [[Descomposición de Cholesky]]
 
 ## Métodos Iterativos
 

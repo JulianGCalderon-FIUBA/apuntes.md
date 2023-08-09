@@ -1,6 +1,6 @@
-Las funciones lógicas tienen dos valores posibles. $0,1$ Se pueden representar por una expresión algebraica a través de operadores lógicos $(+; .)$, o a través de tablas de verdad
+Las funciones lógicas tienen dos valores posibles. $0,1$ Se pueden representar por una expresión algebraica a través de operadores lógicos $(+;.)$, o a través de tablas de verdad
 
-# Tabla de Verdad
+## Tabla de Verdad
 
 Cada función tiene definida una única tabla de verdad. Esta tabla indica cada resultado posible de la función
 
@@ -32,13 +32,13 @@ Algunas de las funciones aca expresadas son conocidas
 - $f_9 -nor: \overline a.\overline b$
 - $f_7 - \text{xor}: \overline ab + a. \overline b$
 
-# Expresión Algebraica
+## Expresión Algebraica
 
 Cada función lógica tiene infinitas expresiones algebraicas que le corresponden, para eso, vamos a tratar con las expresiones canónicas. Dada la siguiente tabla de verdad, vamos a escribir su expresión algebraica de dos formas distintas.
 
 ![[Funciones Lógicas 1.png]]
 
-## Suma de Minitérminos
+### Suma de Minitérminos
 
 Se genera a partir de las filas que contienen un $1$ en la columna de la función. Cada término contiene todas las variables booleanas multiplicadas, complementadas si valen $0$ en esa fila de la tabla
 
@@ -46,7 +46,7 @@ $$
 f(A,B,C) = \sum[m(2, 4, 5, 6)] =\overline ab\overline c + a \overline b \overline c + a \overline b c + ab \overline c
 $$
 
-## Producto de Maxitérminos
+### Producto de Maxitérminos
 
 Se genera a partir de las filas que contienen un $0$ en la columna de la función. Cada término contiene todas las variables booleanas sumadas, complementadas si valen $1$ en esa fila de la tabla
 

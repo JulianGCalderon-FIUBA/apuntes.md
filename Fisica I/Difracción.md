@@ -11,13 +11,13 @@ $$
 > Todo punto sin obstrucción de un frente de onda se puede considerar como un emisor de una onda esférica secundaria (de la misma frecuencia que la primaria). La amplitud del campo óptico en cualquier punto posterior es la superposición de todas esas ondas secundarias
 >
 
-# Difracción por una Rendija
+## Difracción por Una Rendija
 
 En el eje de simetría, se ubica el máximo principal $(\theta = 0)$. Los ceros y máximos secundarios se ubican hacia los costados del eje, Cada vez con menor intensidad. La cantidad de fuentes tiende al infinito, y la distancia entre las fuentes es despreciable.
 
 ![[Difracción 1.png]]
 
-## Minimos
+### Minimos
 
 Para que haya interferencia destructiva, se tiene que cumplir la siguiente condición.
 
@@ -33,7 +33,7 @@ $$
 n = \pm\,1,2,3,\cdots
 $$
 
-## Intensidad
+### Intensidad
 
 Para calcular la intensidad, tengo que calcular la suma de la intensidad de todos los fasores.
 
@@ -49,7 +49,7 @@ $$
 I = I_0\frac{\sin^2\beta}{\beta^2}
 $$
 
-# Redes de Difracción
+## Redes de Difracción
 
 Ocurren cuando se superponen los fenómenos de interferencia y de difracción. Es decir, se estudia el comportamiento de ondas al atravesar multiples $N$ ranuras no puntuales de ancho $a$ equidistantes $d$ entre si.
 
@@ -64,7 +64,7 @@ La cantidad de mínimos de interferencia que hay entre los máximos de la campan
 
 La cantidad de máximos de interferencia que hay entre los máximos de la campana depende de la relacion $a,d$
 
-## Máximos de interferencia
+### Máximos de Interferencia
 
 Los máximos de interferencia se encuentran cuando la diferencia de recorrido es de una longitud de onda $\lambda$
 
@@ -76,7 +76,7 @@ $$
 y_M = m\cdot\frac{\lambda D}{d}
 $$
 
-## Mínimos de interferencia
+### Mínimos de Interferencia
 
 Los mínimos de interferencia se encuentran cuando los fasores se anulan entre si
 
@@ -88,7 +88,7 @@ $$
 y_M = \frac mN\cdot\frac {\lambda D}d
 $$
 
-## Mínimos de difracción
+### Mínimos de Difracción
 
 Los mínimos de difracción se encuentran cuando cada par de ondas (medio e inferior) se anula entre si, con una diferencia de recorrido de $\lambda/2$
 
@@ -100,7 +100,7 @@ $$
 y_n = n\cdot\lambda\cdot\frac{D}{a}
 $$
 
-## Relación $a,d$
+### Relación $a,d$
 
 Si los máximos de interferencia y los mínimos de difracción coinciden en un punto, entonces sus posiciones son iguales. Por lo que puedo igualar las ecuaciones y despejar la relación entre $a,d$
 
@@ -110,7 +110,7 @@ $$
 
 Si $d/a = k,\,k\in\mathbb{N}$, entonces se da que el primer mínimo de difracción coincide con el máximo de interferencia $m =k$. Esto implica que dentro de la campana principal de difracción hay $[2k-1]$ máximos.
 
-## Intensidad
+### Intensidad
 
 La intensidad resultante de esta superposición en la pantalla es
 

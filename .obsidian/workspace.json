@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Algebra II.md",
+                "file": "Física II/Trabajo de Campos.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Algebra II.md",
+                "file": "Física II/Trabajo de Campos.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra II/Algebra II.md",
+                "file": "Física II/Trabajo de Campos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra II/Algebra II.md",
+                "file": "Física II/Trabajo de Campos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra II/Algebra II.md"
+                "file": "Física II/Trabajo de Campos.md"
               }
             }
           },
@@ -162,7 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 448.5
+    "width": 332.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,32 +176,32 @@
   },
   "active": "c42caadea4e53a08",
   "lastOpenFiles": [
-    "Algebra II/Producto Interno.md",
-    "Algebra II/Ortogonalidad.md",
-    "Algebra II/Operaciones entre Subespacios.md",
-    "Algebra II/Método de Gram-Schmidt.md",
-    "Algebra II/Matrices Normales.md",
-    "Algebra II/Formas Cuadráticas.md",
-    "Algebra II/Espacios Vectoriales.md",
-    "Algebra II/Ejemplos de T L.md",
-    "Algebra II/EDOs.md",
-    "Algebra II/Descomposición en Valores Singulares.md",
-    "Algebra II/Coordenadas.md",
-    "Algebra II/Autovalores y Autovectores.md",
-    "Algebra II/Algebra II.md",
-    "Algebra II/Resumen - Álgebra II.md",
-    "Análisis de la Información/Prototipado y Experiencia de Usuario.md",
-    "Análisis de la Información/Modelos en la ingeniería de software.md",
-    "Análisis de la Información/PSA.md",
-    "Análisis de la Información/Requirement Specification vs User Stories.md",
-    "Análisis de la Información/Requisitos en Contexto.md",
-    "Análisis de la Información/Taller de Análisis de Interesados.md",
-    "Análisis de la Información/Técnicas de Análisis, Modelado y Especificación.md",
-    "Análisis de la Información/Modelados de Dominio.md",
-    "Análisis de la Información/Introducción al Diseño de Software.md",
-    "Análisis de la Información/Introducción a la Ingeniería de Software.md",
-    "Análisis de la Información/Interfaces de Usuario.md",
-    "Análisis de la Información/Innovación y Creatividad.md",
+    "Física II/Tercer Parcial.md",
+    "Física II/Segundo Parcial.md",
+    "Física II/Referencia del Potencial.md",
+    "Física II/Primer Parcial.md",
+    "Física II/Potencia Activa y Reactiva.md",
+    "Física II/Materiales Magnéticos.md",
+    "Física II/Ley de Gauss.md",
+    "Física II/Ley de Faraday.md",
+    "Física II/Ley de Coulomb.md",
+    "Física II/Ley de Biot y Savalt.md",
+    "Física II/Ley de Ampere.md",
+    "Física II/Inductores.md",
+    "Física II/Fuerza Magnética.md",
+    "Física II/Física II.md",
+    "Física II/Final.md",
+    "Física II/Fasores Complejos.md",
+    "Física II/Ecuaciones de Maxwell.md",
+    "Física II/Dielectricos.md",
+    "Física II/Corriente Continua.md",
+    "Física II/Corriente Alterna.md",
+    "Física II/Conductores.md",
+    "Física II/Circuitos en Resonancia.md",
+    "Física II/Circuito Electrico.md",
+    "Física II/Capacitores.md",
+    "Estructura del Computador/Sistemas de Numeración.md",
+    "Estructura del Computador/Sistema ARC.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",

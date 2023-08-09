@@ -1,6 +1,6 @@
 Faraday noto, luego de unos experimentos, que un campo magnético puede generar corriente en un circuito cercano. Sin embargo, esta corriente es temporal. Solo surge cuando el campo no es estacionario, sino que depende del tiempo. A esta corriente, se la denomina **corriente inducida**.
 
-# Ley de Faraday-Lenz
+## Ley de Faraday-Lenz
 
 $$
 \mathcal{E} = -\frac{d\phi}{dt}
@@ -10,15 +10,15 @@ Esta ley, también conocida como regla de flujo, propone que la variación del f
 
 La corriente inducida va a generar un campo magnético, que va a contrarrestar la variación de flujo del campo magnético inicial.
 
-## Variación de Flujo
+### Variación de Flujo
 
 Las variaciones de flujo ocurren tanto cuando:
 
 - La corriente no es estacionaria. $i(t) \to B(t)$
 - La superficie del flujo varía. $S(t)$
-- Modificando la posición relativa entre los vectores  $(\vec B \cdot d\vec S)$
+- Modificando la posición relativa entre los vectores $(\vec B \cdot d\vec S)$
 
-## Ley de Maxwell-Faraday
+### Ley de Maxwell-Faraday
 
 Si desarrollamos la expresión anterior y la relacionamos con la circulación del campo eléctrico, llegamos a la primera definición que vincula el campo eléctrico con el campo magnético.
 
@@ -26,7 +26,7 @@ $$
 \vec\nabla\times\vec E = -\frac{\delta\vec B}{\delta t}
 $$
 
-# Coeficiente de Inducción Mutuo
+## Coeficiente de Inducción Mutuo
 
 Tenemos un circuito, con una corriente que depende del tiempo, generando un campo magnético. Por el otro lado, otro circuito inicialmente sin corriente.
 
@@ -50,7 +50,7 @@ $$
 M_{12} = M_{21} =M
 $$
 
-## Medios Lineales
+### Medios Lineales
 
 Como trabajamos con medios lineales, la relación del flujo con respecto a la corriente es lineal. Entonces, simplificamos:
 
@@ -58,7 +58,7 @@ $$
 \frac{d\phi}{di} = \frac{\phi}{i}
 $$
 
-# Coeficiente de Autoinducción
+## Coeficiente de Autoinducción
 
 También podemos calcular el flujo sobre un circuito del campo magnético generador por el mismo.
 
@@ -72,7 +72,7 @@ $$
 L_1 = N_1 \cdot \frac{d\phi_{11}}{di_1} 
 $$
 
-# Relación entre Coeficientes
+## Relación entre Coeficientes
 
 Podemos definir un factor de acoplamiento $k$, que varía entre $0$ y $1$, Y relaciona los coeficientes de auto inductancia con los coeficientes de inductancia mutua
 

@@ -29,7 +29,7 @@ En una arquitectura P2P (punto a punto). Los componentes deben interactuar direc
 
 En la arquitectura orientada a eventos, los eventos se colocan en una cola de eventos. Los sistemas estarán conectados a esta cola y registrarán los eventos en cuanto esté disponible.º
 
-### REST API
+### Rest Api
 
 ### Microservicios
 

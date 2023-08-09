@@ -4,7 +4,7 @@ Dada una expresión algebraica, buscamos simplificar para que el costo de repres
 
 ![[Circuitos 1.png]]
 
-# Diseño de Circuitos
+## Diseño de Circuitos
 
 El diseño de circuitos consiste en definir una tabla de verdad y luego representar el circuito con compuertas.
 
@@ -14,14 +14,14 @@ El diseño de circuitos consiste en definir una tabla de verdad y luego represen
 4. Circuito
 5. Implementación
 
-## Lógica Combinacional
+### Lógica Combinacional
 
 Puedo clasificar mis circuitos según la cantidad de niveles:
 
 - **Lógica de Dos Niveles:** La suma de minitérminos o el producto de maxitérminos representan la lógica dos niveles
 - **Lógica Multinivel:** Son mas costosos ya que tienen mas compuertas y de distintos tipos, generará un tiempo de respuesta mayor.
 
-## Complejidad de Un circuito
+### Complejidad de Un Circuito
 
 Podemos medir la complejidad de un circuito de la siguiente manera
 

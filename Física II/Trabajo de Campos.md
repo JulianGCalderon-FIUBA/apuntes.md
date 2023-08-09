@@ -45,7 +45,6 @@ $$
 > [!note]
 > Como el campo solo tiene componente radial, solo nos importa esa componente entre $A$ y $B$, las otras componentes se cancelan
 
-
 ## Nº Cargas
 
 Al ser distribuible la integral, podemos simplemente sumar las diferencias del potencial.

@@ -1,4 +1,4 @@
-# Ecuaciones
+## Ecuaciones
 
 $$
 \vec r_B = \vec r_A + \underbrace{\vec r_{B/A}}_\text{mod cte}
@@ -12,7 +12,7 @@ $$
 \vec a_B = \vec a_A + \underbrace{\vec\gamma\times\vec r_{B/A}}_\text{Tangencial} + \underbrace{\vec\Omega\times\vec\Omega\times\vec r_{B/A}}_\text{Centripeta}
 $$
 
-# CIR
+## CIR
 
 **Centro Instantáneo de Rotación**
 

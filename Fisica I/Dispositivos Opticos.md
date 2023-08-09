@@ -1,4 +1,4 @@
-# Espejos Esféricos
+## Espejos Esféricos
 
 En los espejos **cóncavos.** La imagen es real, a menos que el objeto se encuentre entre el foco y el espejo
 
@@ -12,7 +12,7 @@ En los espejos **convexos**, la imagen es virtual, a menos que el objeto se encu
 
 ![[Dispositivos Opticos 4.png]]
 
-# Dioptras Esféricas
+## Dioptras Esféricas
 
 Una **Dioptra** es una superficie que separa dos medios de distinta densidad óptica ($n_1,n_2$)
 
@@ -28,7 +28,7 @@ En las dioptras **divergentes**, los focos son virtuales.
 
 ![[Dispositivos Opticos 8.png]]
 
-# Lentes
+## Lentes
 
 Una **lente** **delgada** son dos dioptras separadas infinitesimalmente. (espesor despreciable)
 

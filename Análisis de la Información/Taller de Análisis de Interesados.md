@@ -1,4 +1,4 @@
-## Stakeholders según PMBOOK
+## Stakeholders según Pmbok
 
 - **Project Manager:** La persona responsable por la gestión del proyecto.
 - **Cliente/Usuario:** Individuo u organización que va utilizar el producto.
