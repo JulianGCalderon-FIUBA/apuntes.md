@@ -13,31 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Subespacios.md",
+                "file": "Física II/Trabajo de Campos.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
-            },
-            "group": "ba25c5d20ccbf2ba"
-          }
-        ]
-      },
-      {
-        "id": "647fde7a45cfbc64",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1efd7f3bdbb161a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra II/Subespacios.md",
-                "mode": "preview",
-                "source": true
-              }
-            },
-            "group": "ba25c5d20ccbf2ba"
+            }
           }
         ]
       }
@@ -105,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra II/Subespacios.md",
+                "file": "Física II/Trabajo de Campos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra II/Subespacios.md",
+                "file": "Física II/Trabajo de Campos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra II/Subespacios.md"
+                "file": "Física II/Trabajo de Campos.md"
               }
             }
           },
@@ -162,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 332.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,8 +155,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c42caadea4e53a08",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
+    "Física II/Tercer Parcial.md",
+    "Física II/Trabajo de Campos.md",
+    "Organizacion de Datos/Reduccion de Dimensionalidad.md",
+    "Organizacion de Datos/Extracción de Datos.md",
+    "Organizacion de Datos/Algoritmos Genéticos.md",
+    "Algebra II/Subespacios.md",
     "Algebra II/Producto Interno.md",
     "Algoritmos I/Argumentos del programa.md",
     "Algoritmos I/Bibliotecas Personales.md",
@@ -191,17 +178,11 @@
     "Algebra II/Coordenadas.md",
     "Algebra II/Ortogonalidad.md",
     "Algebra II/Subespacios de Matriz.md",
-    "Algebra II/Subespacios.md",
     "Análisis de la Información/Modelos en la ingeniería de software.md",
     "Análisis de la Información/Análisis de la Información.md",
     "Análisis de la Información/Historias de Usuario.md",
     "Análisis Numérico/Análisis Numérico.md",
     "Análisis de la Información/Arquitectura del Software.md",
-    "Análisis Numérico/Diferenciación Numérica.md",
-    "Análisis Numérico/Descomposición de Cholesky.md",
-    "Fisica I/Colisiones.md",
-    "Análisis Matemático II/Cuádricas.md",
-    "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",
