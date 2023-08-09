@@ -31,5 +31,14 @@
   "anuppuccin-theme-settings@@anp-active-line": "anp-current-line",
   "anuppuccin-theme-settings@@anp-callout-select": "none",
   "anuppuccin-theme-settings@@anp-callout-color-toggle": false,
-  "anuppuccin-theme-settings@@anp-callout-fold-position": "0"
+  "anuppuccin-theme-settings@@anp-callout-fold-position": "0",
+  "anuppuccin-theme-settings@@anp-table-auto": true,
+  "anuppuccin-theme-settings@@anp-table-th-highlight": false,
+  "anuppuccin-theme-settings@@anp-td-highlight": "none",
+  "anuppuccin-theme-settings@@anp-table-width": false,
+  "anuppuccin-theme-settings@@anp-table-highlight-opacity": 0.5,
+  "anuppuccin-theme-settings@@anp-table-thickness": 2,
+  "anuppuccin-theme-settings@@anp-color-transition-toggle": false,
+  "anuppuccin-theme-settings@@anp-button-metadata-toggle": false,
+  "anuppuccin-theme-settings@@anp-decoration-toggle": true
 }

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelos y Optimización I/Análisis de Sensibilidad.md",
+                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
                 "mode": "source",
                 "source": false
               }
@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/^>",
+                "query": "/^- .*\\n{1,2}\\t[^-]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelos y Optimización I/Análisis de Sensibilidad.md",
+                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modelos y Optimización I/Análisis de Sensibilidad.md",
+                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modelos y Optimización I/Análisis de Sensibilidad.md"
+                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md"
               }
             }
           },
@@ -181,7 +181,14 @@
   },
   "active": "54c1fa07ae0cf29e",
   "lastOpenFiles": [
+    "Algebra II/Autovalores y Autovectores.md",
+    "Organizacion de Datos/Análisis de Sentimientos.md",
+    "Organizacion de Datos/Arboles.md",
+    "Organizacion de Datos/Algoritmos Genéticos.md",
     "Matemática Discreta/Alfabeto.md",
+    "Matemática Discreta/Álgebra de Boole.md",
+    "Matemática Discreta/Álgebra de Conjuntos.md",
+    "Modelos y Optimización I/Análisis de Sensibilidad.md",
     "Sistemas Operativos/Archivos y Directorios.md",
     "Algebra II/Ortogonalidad.md",
     "Introducción a Sistemas Distribuidos/Clases Practicas.md",
@@ -191,9 +198,6 @@
     "Modelos y Optimización I/Método Simplex.md",
     "Organizacion de Datos/AdaBoost.md",
     "Organizacion de Datos/Ciencia de Datos.md",
-    "Matemática Discreta/Álgebra de Boole.md",
-    "Organizacion de Datos/Arboles.md",
-    "Modelos y Optimización I/Análisis de Sensibilidad.md",
     "Análisis Matemático II/Limites.md",
     "Estructura del Computador/Registros y Contadores.md",
     "Modelos y Optimización I/Variables Enteras.md",
@@ -203,10 +207,6 @@
     "Organizacion de Datos/Redes de Aprendizaje Profundo.md",
     "Análisis de la Información/Modelados de Dominio.md",
     "Análisis de la Información/Ingeniería de Requisitos.md",
-    "Análisis de la Información/Historias de Usuario.md",
-    "Algoritmos II/Grafos.md",
-    "Organizacion de Datos/Ensambles.md",
-    "Análisis de la Información/Diseño de Datos.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
