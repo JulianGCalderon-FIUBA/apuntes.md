@@ -137,13 +137,13 @@ Por inducción podemos probar que para todos los grafos de orden mayor a > dos, 
 > $$
 > 
 > Intuitivamente, se puede pensar como que toda cara esta delimitada por una frontera. La curva de frontera de menor longitud que podemos formar es el triangulo, de longitud tres.
-> Si utilizamos ***FSL,*** tendremos que $3f \leq 2m$. Si combinamos esta > propiedad con el teorema de ***Euler***, tendremos un criterio de rechazo para la planaridad de un grafo
+> Si utilizamos ***FSL,*** tendremos que $3f \leq 2m$. Si combinamos esta > propiedad con el teorema de ***Euler***, tendremos un criterio de rechazo para la planáridad de un grafo
 > 
 > $$
 > m \leq 3(n-2)
 > $$
 > 
-Si no se cumple esta prioridad, entonces podemos asegurar que el grafo > conexo de grado mayor a dos no es planar.
+> Si no se cumple esta prioridad, entonces podemos asegurar que el grafo conexo de grado mayor a dos no es planar.
 
 Si $G$ es un primo conexo sin ciclos de longitud tres, con $n(G) \geq 3$, entonces podremos demostrar análogamente criterio similar. Si no se permiten ciclos impares, entonces la minima longitud de frontera ya no será tres, sino cuatro.
 
@@ -163,17 +163,17 @@ Una cota inferior del número cromático de $G$ es el número $p$ si $K_p$ es un
 
 Una cota superior del número cromático de $G$ es $\Delta(G) + 1$. Recordemos que se denota con $\Delta(G)$ al máximo grado. La prueba de esto es por inducción.
 
-- ***Demostración***
-
-	Buscamos probar que la cota superior del número cromático de $G$ es $\Delta(G) + 1$, para un grafo de cualquier orden. Esto es:
-
-	$$
-    p(n): \forall G \text{ simple de orden $n$},\chi(G)\leq \Delta(G) + 1
-    $$
-
-	Para $n = 1$, sea $G$ el grafo de orden $1$, entonces existira la coloración trivial de un color, siendo $\chi(G) = 1 \leq \Delta(G) + 1 = 1$.
-
-	Para $n>1$, sea $G$ un grafo simple de orden $n$, y sea $v$ un vértice cualquiera del grafo. Luego, definimos $H = Gv$. El grafo $H$ es simple ya que eliminar aristas no introduce vertices. $\Delta(H) \leq \Delta(G)$ ya que tomamos cualquier vértice $v$, por lo que el grado máximo puede mantenerse igual. Debido a que no introducimos aristas, este nunca podrá ser mayor. Por la hipótesis inductiva, sabremos que existe al menos una coloración $H$ con a lo sumo, $\Delta(H) + 1 \leq\Delta(G) + 1$. Luego, existirá esa misma coloración para $G$, pero aún sin colorear el vértice eliminado $v$. Debido a que el vértice eliminado tiene, por definición, a lo sumo $\Delta(G)$ vecinos y tenemos un total de $\Delta(G) +1$ colores, siempre tendremos un color para utilizar.
+> [!proof]- Demostración
+> 
+> Buscamos probar que la cota superior del número cromático de $G$ es $\Delta(G) + 1$, para un grafo de cualquier orden. Esto es:
+> 
+> $$
+> p(n): \forall G \text{ simple de orden $n$},\chi(G)\leq \Delta(G) + 1
+> $$
+> 
+> Para $n = 1$, sea $G$ el grafo de orden $1$, entonces existira la coloración trivial de un color, siendo $\chi(G) = 1 \leq \Delta(G) + 1 = 1$.
+> 
+> Para $n>1$, sea $G$ un grafo simple de orden $n$, y sea $v$ un vértice cualquiera del grafo. Luego, definimos $H = Gv$. El grafo $H$ es simple ya que eliminar aristas no introduce vertices. $\Delta(H) \leq \Delta(G)$ ya que tomamos cualquier vértice $v$, por lo que el grado máximo puede mantenerse igual. Debido a que no introducimos aristas, este nunca podrá ser mayor. Por la hipótesis inductiva, sabremos que existe al menos una coloración $H$ con a lo sumo, $\Delta(H) + 1 \leq\Delta(G) + 1$. Luego, existirá esa misma coloración para $G$, pero aún sin colorear el vértice eliminado $v$. Debido a que el vértice eliminado tiene, por definición, a lo sumo $\Delta(G)$ vecinos y tenemos un total de $\Delta(G) +1$ colores, siempre tendremos un color para utilizar.
 
 Se llama el índice cromático $\chi’(G)$ de un grafo al cardinal de una coloración mínima de aristas. Se consideran dos aristas adyacentes si inciden sobre el mismo vértice. Para las aristas, tendremos cotas mucho mas poderosas, con el teorema de ***Vizing***.
 

@@ -1,4 +1,4 @@
-# Definición
+## Definición
 
 Definimos $R$ como una relación en $A$ si $R \subseteq A\times A$, utilizando el producto cartesiano. Por ejemplo, sea $A = \{1, 2, 3\}$. Podremos definir una relación $R_1 = \{(1,1), (1,2), (3,3)\}$.
 
@@ -46,11 +46,11 @@ Se dice que $(a, R)$ es un conjunto parcialmente ordenado, o es POSET. De ahora 
 
 Se dice orden parcial ya que no todos los elementos están en relación entre sí. La relación sólo está presente para un subconjunto de los elementos. $a \nleq b$ no implica $a \geq b$.
 
-## Diagrama de Hasse
+### Diagrama de Hasse
 
 Sea $A = \{1,2,3\}$, en $P(a)$ (todos los subconjuntos de $A$) se define la relación de orden $\subseteq$.
 
-El diagrama de ***Hasse*** ordena los elementos de un conjunto de forma ascendente. uniendolos con una arista si son sucesores inmediatos. 
+El diagrama de ***Hasse*** ordena los elementos de un conjunto de forma ascendente. uniendolos con una arista si son sucesores inmediatos.
 
 ```mermaid
 graph LR
@@ -62,7 +62,7 @@ graph LR
   
 ```
 
-# Relación Inversa
+## Relación Inversa
 
 Definimos $R^{-1}$ como el conjunto de las relaciones de $R$ invertidas. Entonces:
 
@@ -90,9 +90,9 @@ $$
 A_R^T = A_{R^{-1}}
 $$
 
-# Composición de Relación
+## Composición de Relación
 
-Sean $S, T$ dos relaciones del conjunto $A$. Entonces definiremos la relación  $R = S \circ T$ para la cual:
+Sean $S, T$ dos relaciones del conjunto $A$. Entonces definiremos la relación $R = S \circ T$ para la cual:
 
 $$
 xRy \iff \exists z: xSz, zTy
@@ -114,7 +114,7 @@ graph LR
   A -->|R| C
 ```
 
-# Propiedades de Relación
+## Propiedades de Relación
 
 En una relación, se pueden presentar las siguientes propiedades independientes, siendo $R$ una relación en el conjunto $A$.
 
@@ -126,7 +126,7 @@ En una relación, se pueden presentar las siguientes propiedades independientes,
 - ***Transitiva: $\forall x,y,z \in A: (xRy, yRz) \implies xRz$**
 - ***Anti transitiva: $\forall x,y,z \in A: (xRy, yRz) \implies xR'z$**
 
-## Transitividad
+### Transitividad
 
 Sean $S,T$ relaciones en $A$, entonces si definamos $R = S \circ T$, hallamos que, con el producto matricial binario:
 
@@ -137,28 +137,30 @@ $$
 Para demostrarlo, utilizaremos la definición del producto matricial binario.
 
 $$
+\begin{align}
 A_SA_T(i,j) = 1\xLeftrightarrow{\text{ def. del producto}} \\ \sum_{k=1}^n A_S(i,k) A_T(k,j)  = 0 \xLeftrightarrow{\text{ por ser binario}} \\
 \exists k: A_S(i,k) = 1 \wedge A_T(k,j) = 1 \xLeftrightarrow{\text{ definición de forma matricial}}  \\
 \exists k:a_iSa_k \wedge a_kTa_j \xLeftrightarrow{\text{ definición de composición}} \\
 a_i R a_j \xLeftrightarrow{\text{ definicion de forma matricial}} \\  A_R(i,j) = 1
+\end{align}
 $$
 
 Por definición, $R \circ R$ es transitiva, entonces $R$ es transitiva si y sólo si $R \circ R \subset R$. Otra forma de expresarlo sería $A^2_R \leq A_R$.
 
-## Operaciones en Matrices
+### Operaciones en Matrices
 
 Sean $A,B \in \mathbb{R}^{n\times m}$ entonces:
 
 - **Orden:** $A \leq B \iff A(i,j) \leq B(i,j), \forall i,j$
 - ***Producto Hadamard:*** $(A \odot B)(i,j) = A(i,j)B(i,j), \forall i,j$
 
-# Clausuras
+## Clausuras
 
 Sea $P$ una propiedad de relación $R$, entonces sea $S$ una relación particular, la $P\text{-clausura}$ de $S$ es otra relación $H \supset S$ que tiene la propiedad $P$ y es minimal respecto a todas las que contienen a $S$.
 
 Puede generarse la clausura añadiendo uno a uno las relaciones necesarias, recalculando en cada paso.
 
-# Relaciones de equivalencia
+## Relaciones de equivalencia
 
 Una relación de equivalencia es una relación que cumple simultáneamente las propiedades: reflexiva, simétrica y transitiva.
 
@@ -184,23 +186,19 @@ graph TD
   
 ```
 
-Podemos ver que al introducir una relación de equivalencia en un conjunto, formaremos pequeños *clusters* aislados en el conjunto de modo que cualquier elemento de un cluster está en relación todos los elementos del mismo cluster , y con ningún elemento fuera del cluster
+Podemos ver que al introducir una relación de equivalencia en un conjunto, formaremos pequeños *clusters* aislados en el conjunto de modo que cualquier elemento de un cluster está en relación todos los elementos del mismo cluster, y con ningún elemento fuera del cluster
 
 > [!note]
-> ***Definición 1:  Sea*** $a \in A$, La clase de $a$ se denomina $[a] = \{x \in A: aRx\}$. Normalmente, se elige un representante de cada clase
-
+> ***Definición 1: Sea*** $a \in A$, La clase de $a$ se denomina $[a] = \{x \in A: aRx\}$. Normalmente, se elige un representante de cada clase
 
 > [!note]
 > Las clases no son vacías, esto es inmediato debido a la reflexividad.
 
-
 > [!note]
 > Dos clases distintas son disjuntas, si un elemento pertenece a más de una clase, entonces debido a la transitividad y la reflexividad estas clases se juntarían.
 
-
 > [!note]
 > La relación de equivalencia introduce una partición de clases, coloquialmente conocida como partición. Todos los elementos están en por lo menos una clase y las clases son disjuntas.
-
 
 > [!note]
 > ***Definición 2:*** Definimos $A/R$ como el conjunto de clases de $A$ bajo la relación de equivalencia de $R$. $A/R = \{[a]: a \in A\}$

@@ -4,10 +4,12 @@
 - [[Matemática Discreta/Álgebra de Boole]]
 - [[Relaciones]]
 - [[Alfabeto]]
+
 ## Inducción y Recurrencia
 
 - [[Inducción]]
 - [[Ecuaciones de Recurrencia]]
+
 ## Grafos
 
 - [[Nociones Básicas]]

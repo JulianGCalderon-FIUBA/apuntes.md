@@ -1,12 +1,11 @@
 Existen 257 operaciones entre grafos, pero trabajaremos únicamente con cuatro de ellas.
 
-# Potencia
+## Potencia
 
 Sea $G$ un grafo finito simple, entonces definimos denotamos el grafo potencia como $G^q$, donde
 
 $$
 V(G^q) = V(G)
-
 $$
 
 $$
@@ -29,7 +28,7 @@ $$
 
 El grafo conocido $p$-Cocktail cumple que todos los vertices se conectan con todos los grafos, excepto uno (su pareja). $p$ representa el numero de parejas.
 
-# Suma (Disjunta)
+## Suma (Disjunta)
 
 Definimos la operación de suma disjunta entre $G$ y $H$ como $G + H$, donde
 
@@ -41,7 +40,7 @@ $$
 E(G+H) = E(G) + E(H)
 $$
 
-La suma repetida, se denota como $kG = \underbrace{G + G + \cdots + G}_\text{$k$ veces}$
+La suma repetida, se denota como $kG = \underbrace{G + G + \cdots + G}_\text{k veces}$
 
 Observemos algunos ejemplos:
 
@@ -53,7 +52,7 @@ $$
 (4N_4)' = K_4
 $$
 
-# Ensamble
+## Ensamble
 
 Definimos la operación de ensamble (o ***join***) entre $G$ y $H$ como $G * H$, donde
 
@@ -79,7 +78,7 @@ $$
 N_1 * C_{n-1} = W_n
 $$
 
-# Producto Cartesiano
+## Producto Cartesiano
 
 Definimos la operación de producto cartesiano entre $G$ y $H$ como $G \times H$, donde
 
@@ -99,7 +98,7 @@ Un ejemplo podría ser el de la telaraña $W_{n,m}$:
 
 ![[Operaciones entre Grafos 1.png]]
 
-# Eliminación de Vértice/Arista
+## Eliminación de Vértice/Arista
 
 Definimos la operación de de vertices o aristas, como $G - e_i$, o $G - v_i$. Si es indiferente que vértice se elimina, dando grafos isomorfos, se omite la identificación del vértice, en tal caso podemos anotar la igualdad con $=$ en lugar de $\cong$.
 
@@ -111,9 +110,9 @@ Dado un grafo $G$, su ***deck*** es un *multiconjunto* de subgrafos (posiblement
 
 Si un grafo puede ser reconstruido a partir de su ***deck***, se dice que es *reconstruible*. Esto es, si un grafo es inequívocamente determinado por sus deck*.*
 
-# Grafo Dual
+## Grafo Dual
 
-Dada una [[Clasificaciones|inmersion]] de un grafo $G$, se define su dual $G^*$ al grafo que tiene tantos vertices como caras del original, existiendo una arista entre dos vertices del dual por cada arista de frontera entre las correspondientes caras del original. El dual del dual se llama ***bidual***, y se denota $G^{**}$.
+Dada una [[Clasificaciones#Inmersión|inmersión]] de un grafo $G$, se define su dual $G^*$ al grafo que tiene tantos vertices como caras del original, existiendo una arista entre dos vertices del dual por cada arista de frontera entre las correspondientes caras del original. El dual del dual se llama ***bidual***, y se denota $G^{**}$.
 
 ![[Operaciones entre Grafos 2.png]]
 
@@ -131,7 +130,7 @@ Curiosamente, observamos que los grafos resultantes son planares.
 
 ***Observación:*** El dual siempre es conexo, por la definición de ***cara***.
 
-# Grafo Arista
+## Grafo Arista
 
 Dado el grafo sin lazos $G$, se define su grafo arista $L$ como el grafo tal que sus vertices sean las aristas de $G$, y dos vertices son adyacentes si y solo si sus aristas asociadas al grafo original incidían sobre el mismo vértice.
 

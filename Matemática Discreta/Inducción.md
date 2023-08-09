@@ -1,7 +1,6 @@
 > [!note]
 > $A$**, Principio del buen orden:** Todo subconjunto no vacío de $\mathbb{N}$ tiene un primer elemento
 
-
 > [!note]
 > $B$**, Principio de inducción:** Sea $p(n)$ una proposición tal que para cada $n \in \mathbb{N}$ verifica:
 > 
@@ -10,10 +9,9 @@
 > 
 > Entonces $p(n)$ es verdadera $\forall n \geq n_0$
 
+Los principios no se pueden probar, por eso se llaman principios. Si tomamos uno como un axioma, entonces el otro se transforma en un teorema.
 
-Los principios no se pueden probar, por eso se llaman principios. Si tomamos uno como un axioma, entonces el otro se transforma en un teorema. 
-
-### Prueba de $A \to B$
+## Prueba de $A \to B$
 
 Supongamos que $B$ falsa, entonces es falso que $p(n) \text{ es verdadera},\ \forall n\geq n_0$. Luego $\exists n \geq n_0: p(n) \text{es falsa}$.
 
@@ -21,7 +19,7 @@ Definimos $F = \{n \in \mathbb{N}: p(n) \text{ es falsa}\} \neq \emptyset$, como
 
 Por $A$, existe un primer elemento $F: n_1 \geq n_0$. Luego, por definición de $n_1$, $p(n_1 - 1)$ es verdadera. Debido a $B$, $p(n_1 -1 +1) = p(n_1)$ es verdadera. Pero $p(n_1)$ es falsa por $F$. Llegamos a una contradicción, por lo que $B$ debe ser verdadera si suponemos $A$.
 
-# Inducción Fuerte
+## Inducción Fuerte
 
 El principio de inducción fuerte se utiliza en situaciones donde la situación débil no es suficiente para una demostración. Ambos son verdaderos, dado el principio del buen orden (y viceversa)
 
