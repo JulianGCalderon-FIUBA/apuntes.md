@@ -64,14 +64,14 @@ Análogamente definimos, siendo $n$ la cantidad de variables, y $m$ la cantidad 
 	A partir de los datos del problema, transformamos la forma algebraica a su forma matricial. El vector $C$ tendrá los coeficientes del funcional, entonces:
 
 	$$
-    Z = 
+	Z = 
     \begin{pmatrix}
     8 & 10 & 0 & 0 & 0
     \end{pmatrix}
     \begin{pmatrix}
     x_1 & x_2 & x_3 & x_4 & x_5
     \end{pmatrix}^T
-    $$
+	$$
 
 	La matriz $A$ tendrá los coeficientes de las restricciones, y el vector $B$ tendrá los términos independientes, entonces:
 
@@ -294,15 +294,15 @@ Para calcular el resto de valores, utilizamos la técnica del pivote. Se llama p
 
 1. Dividimos todos los elementos de la fila de la variable que ingresa por el valor del pivote
 
-	> [!example]- División por Pivote
-	> 
-	> Debido a que ingresa la variable $x_1$ y sale la variable $x_3$, el valor del pivote será de: $2$.
-	> 
-	> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
-	> | --- | --- | --- | --- | --- | --- | --- | --- |
-	> | $8$ | $x_1$ | $300$ | $1$ | $1$ | $0.5$ | $0$ | $0$ |
-	> | $0$ | $x_4$ | | $0$ | | | | |
-	> | $0$ | $x_5$ | | $0$ | | | | |
+> [!example]- División por Pivote
+> 
+> Debido a que ingresa la variable $x_1$ y sale la variable $x_3$, el valor del pivote será de: $2$.
+> 
+> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
+> | --- | --- | --- | --- | --- | --- | --- | --- |
+> | $8$ | $x_1$ | $300$ | $1$ | $1$ | $0.5$ | $0$ | $0$ |
+> | $0$ | $x_4$ | | $0$ | | | | |
+> | $0$ | $x_5$ | | $0$ | | | | |
 
 2. Para cada valor restante, se forma un cuadrilátero con las esquinas en el pivote y el valor anterior de la posición que queremos calcular. El nuevo valor se calculara como, la resta entre el valor anterior de la posición que queremos calcular, y el producto de las diagonales del rectángulo dividido por el pivote.
 
@@ -310,36 +310,36 @@ Para calcular el resto de valores, utilizamos la técnica del pivote. Se llama p
     \text{Valor Nuevo} = \text{Valor Anterior} - \frac{\text{Producto de las Diagonales}}{\text{Pivote}}
     $$
 
-	> [!example]- Regla del Cuadrilátero
-	> 
-	> Teniendo la tabla anterior, resaltamos los elementos:
-	> 
-	> - ***Rojo: Valor Pivote**
-	> - ***Verde: Valor Anterior**
-	> - ***Azul: Diagonales**
-	> 
-	> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
-	> | --- | --- | --- | --- | --- | --- | --- | --- |
-	> | $0$ | $x_3$ | $\color{blue}{600}$ | $\color{red} 2$ | $2$ | $1$ | $0$ | $0$ |
-	> | $0$ | $x_4$ | $\color{green}{600}$ | $\color{blue}0$ | $4$ | $0$ | $1$ | $0$ |
-	> | $0$ | $x_5$ | $801$ | $2$ | $4$ | $0$ | $0$ | $1$ |
-	> | | | $Z = 0$ | $-8$ | $-10$ | $0$ | $0$ | $0$ |
-	> 
-	> Luego, calculamos en la nueva tabla el valor, como $600 - (0\cdot600)/2 = 600$
-	> 
-	> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
-	> | --- | --- | --- | --- | --- | --- | --- | --- |
-	> | $8$ | $x_1$ | $300$ | $1$ | $1$ | $0.5$ | $0$ | $0$ |
-	> | $0$ | $x_4$ | $\color{green}{600}$ | $0$ | | | $1$ | $0$ |
-	> | $0$ | $x_5$ | | $0$ | | | $0$ | $1$ |
-	> 
-	> Repetimos esta lógica para el resto de elementos de la tabla
-	> 
-	> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
-	> | --- | --- | --- | --- | --- | --- | --- | --- |
-	> | $8$ | $x_1$ | $600$ | $1$ | $1$ | $0.5$ | $0$ | $0$ |
-	> | $0$ | $x_4$ | $600$ | $0$ | $4$ | $0$ | $1$ | $0$ |
-	> | $0$ | $x_5$ | $200$ | $0$ | $2$ | $-1$ | $0$ | $1$ |
+> [!example]- Regla del Cuadrilátero
+> 
+> Teniendo la tabla anterior, resaltamos los elementos:
+> 
+> - ***Rojo: Valor Pivote**
+> - ***Verde: Valor Anterior**
+> - ***Azul: Diagonales**
+> 
+> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
+> | --- | --- | --- | --- | --- | --- | --- | --- |
+> | $0$ | $x_3$ | $\color{blue}{600}$ | $\color{red} 2$ | $2$ | $1$ | $0$ | $0$ |
+> | $0$ | $x_4$ | $\color{green}{600}$ | $\color{blue}0$ | $4$ | $0$ | $1$ | $0$ |
+> | $0$ | $x_5$ | $801$ | $2$ | $4$ | $0$ | $0$ | $1$ |
+> | | | $Z = 0$ | $-8$ | $-10$ | $0$ | $0$ | $0$ |
+> 
+> Luego, calculamos en la nueva tabla el valor, como $600 - (0\cdot600)/2 = 600$
+> 
+> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
+> | --- | --- | --- | --- | --- | --- | --- | --- |
+> | $8$ | $x_1$ | $300$ | $1$ | $1$ | $0.5$ | $0$ | $0$ |
+> | $0$ | $x_4$ | $\color{green}{600}$ | $0$ | | | $1$ | $0$ |
+> | $0$ | $x_5$ | | $0$ | | | $0$ | $1$ |
+> 
+> Repetimos esta lógica para el resto de elementos de la tabla
+> 
+> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
+> | --- | --- | --- | --- | --- | --- | --- | --- |
+> | $8$ | $x_1$ | $600$ | $1$ | $1$ | $0.5$ | $0$ | $0$ |
+> | $0$ | $x_4$ | $600$ | $0$ | $4$ | $0$ | $1$ | $0$ |
+> | $0$ | $x_5$ | $200$ | $0$ | $2$ | $-1$ | $0$ | $1$ |
 
 ### Finalización
 
