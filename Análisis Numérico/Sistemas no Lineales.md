@@ -20,7 +20,7 @@ $$
 > [!note]
 > Este metodo converge para cualquier semilla perteneciente a $D$.
 
-## Newton-raphson
+## Newton-Raphson
 
 En el caso $n$-dimensional, el metodo Newton Raphson se resuelve a partir de dividir por la matriz Jacobiana
 

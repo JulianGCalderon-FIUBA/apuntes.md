@@ -12,7 +12,7 @@ $$
 \lim_{n\to\infty} \frac{|p_{n+1} - p |}{|p_n - p|} = |g'(p)|
 $$
 
-## Newton-raphson
+## Newton-Raphson
 
 Este método converge cuadráticamente únicamente cuando la raíz es simple, si la raíz es multiple, debo realizar una modificación del método para obtener una convergencia cuadrática.
 

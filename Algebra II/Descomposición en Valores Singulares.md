@@ -115,7 +115,7 @@ $$
 A = U_k D_k V_k^*
 $$
 
-## Pseudo-inversa de Moore-penrose
+## Pseudo-Inversa de Moore-Penrose
 
 Se le llama así a la matriz $A^\dagger = V_K D_K^{-1} U_K^*$. Se define para toda matriz de $m \times n$.
 

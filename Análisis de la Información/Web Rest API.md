@@ -10,7 +10,7 @@ Nuestro código estará almacenado en un repositorio en la nube, *GitHub*, *GitL
 
 Tendremos un modelo de capas, la primera es la ***API layer***, la cual recibe peticiones. Luego se ejecuta cierta lógica de negocio determinada (capa de servicio), se a la base de datos a través de capa de persistencia y acceso de datos. Finalmente devuelve una respuesta.
 
-## Rest
+## REST
 
 Es un tipo de ***API,*** que cumple con ciertos requisitos. Se puede implementar de muchas formas, una de ellas es utilizando ***http***.
 

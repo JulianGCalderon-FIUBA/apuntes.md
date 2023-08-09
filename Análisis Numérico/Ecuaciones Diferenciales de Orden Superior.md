@@ -1,4 +1,4 @@
-## Pvi de Segundo Orden
+## PVI de Segundo Orden
 
 Si tenemos un problema de valores iniciales se segundo orden:
 
@@ -83,7 +83,7 @@ k_4 = f(x_i + h, y_i + m_3h, u_i + k_3h)\\
 \end{cases}
 $$
 
-## Pvi de $n$-esimo Orden
+## PVI de $n$-esimo Orden
 
 En general, puedo expresar una ecuación diferencial de $n$-ésimo orden de la forma:
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
+                "file": "Análisis de la Información/Diseño de Datos.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
+                "file": "Análisis de la Información/Diseño de Datos.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
+                "file": "Análisis de la Información/Diseño de Datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
+                "file": "Análisis de la Información/Diseño de Datos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis de la Información/Calidad de Procesos en la Industria del Software.md"
+                "file": "Análisis de la Información/Diseño de Datos.md"
               }
             }
           },
@@ -174,22 +174,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c42caadea4e53a08",
+  "active": "1efd7f3bdbb161a1",
   "lastOpenFiles": [
+    "Análisis de la Información/Técnicas de Descubrimiento de Requisitos.md",
+    "Análisis de la Información/Design Thinking.md",
+    "Análisis de la Información/Análisis de la Información.md",
     "Algebra II/Resumen - Álgebra II.md",
-    "Algebra II/Ejemplos de T L.md",
-    "Algebra II/Espacios Vectoriales.md",
-    "Algebra II/EDOs.md",
     "Algebra II/Producto Interno.md",
-    "Algebra II/Descomposición en Valores Singulares.md",
-    "Algebra II/Coordenadas.md",
-    "Algebra II/Autovalores y Autovectores.md",
-    "Algebra II/Algebra II.md",
     "Algebra II/Ortogonalidad.md",
     "Algebra II/Operaciones entre Subespacios.md",
     "Algebra II/Método de Gram-Schmidt.md",
     "Algebra II/Matrices Normales.md",
     "Algebra II/Formas Cuadráticas.md",
+    "Algebra II/Espacios Vectoriales.md",
+    "Algebra II/Ejemplos de T L.md",
+    "Algebra II/EDOs.md",
+    "Algebra II/Descomposición en Valores Singulares.md",
+    "Algebra II/Coordenadas.md",
+    "Algebra II/Autovalores y Autovectores.md",
+    "Algebra II/Algebra II.md",
+    "Algebra II/Transformaciones Lineales.md",
+    "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/The Network Core.md",
     "Estructura del Computador/Circuitos.md",
     "Física II/Trabajo de Campos.md",
@@ -197,11 +202,6 @@
     "Física II/Referencia del Potencial.md",
     "Física II/Primer Parcial.md",
     "Física II/Potencia Activa y Reactiva.md",
-    "Física II/Ley de Gauss.md",
-    "Física II/Materiales Magnéticos.md",
-    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
-    "Física II/Campo Magnético.md",
-    "Física II/Segundo Parcial.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",

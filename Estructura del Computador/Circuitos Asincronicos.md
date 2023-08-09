@@ -1,4 +1,4 @@
-## Flip Flop - Rs Asincrónico
+## Flip Flop - RS Asincrónico
 
 RS - Asincrónico ![[Circuitos Asincronicos 1.png]]
 
@@ -42,7 +42,7 @@ $Q$ vale lo mismo que la entrada $D$. A primera vista no es útil, hace falta un
 
 ![[Circuitos Asincronicos 8.png]]
 
-### Flip Flop Jk
+### Flip Flop JK
 
 Similar al circuito $RS$, pero resuelve la problemática de $R{=}S{=}1$.
 

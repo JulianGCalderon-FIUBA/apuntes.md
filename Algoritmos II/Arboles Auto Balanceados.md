@@ -1,4 +1,4 @@
-## Avl
+## AVL
 
 Un árbol AVL o de *Adelson-Velsky and Landis*, es un árbol binario de búsqueda auto balanceado
 

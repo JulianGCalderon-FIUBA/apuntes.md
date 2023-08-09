@@ -45,7 +45,7 @@ $$
 
 Este método es muy inefectivo a medida que incrementamos la distancia entre el $t_0$ y $t_n$. Para aproximaciones lejanas es conveniente usar el método de Runge-Kutta.
 
-## Método de Runge-kutta
+## Método de Runge-Kutta
 
 Este método es similar al método de Euler, pero utiliza una función $\varphi$ que permite corregir el error que se va cometiendo.
 
@@ -64,7 +64,7 @@ $$
 
 Donde $p_i, q_{ij}$ son constantes a determinar
 
-### Runge-kutta de Orden 1
+### Runge-Kutta de Orden 1
 
 Para el orden $1$, no es necesario encontrar ninguna constante. De esta forma,
 
@@ -74,7 +74,7 @@ $$
 
 Por lo que si $a_1 = 0$, entonces tenemos el método de Euler.
 
-### Runge-kutta de Orden 2
+### Runge-Kutta de Orden 2
 
 Para el orden $2$. se puede demostrar que la contantes respetan el sistema de ecuaciones
 
@@ -97,7 +97,7 @@ k_2 = f(t_i + \frac h2, y_i + \frac{k_1h}{2})
 \end{cases}
 $$
 
-### Runge-kutta Del Orden 3
+### Runge-Kutta Del Orden 3
 
 Para el orden $3$, se generan seis ecuaciones con ocho incognitas. La versión más común de este método es:
 
@@ -111,7 +111,7 @@ k_3 = f(t_i + h, y_i - k_1h + 2k_2h)
 \end{cases}
 $$
 
-### Runge-kutta Del Orden 4
+### Runge-Kutta Del Orden 4
 
 Para el orden $3$, se generan seis ecuaciones con ocho incognitas. La versión más común de este método es:
 

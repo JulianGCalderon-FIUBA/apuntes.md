@@ -44,7 +44,7 @@ La intensidad de cada disciplina varía según la etapa del proyecto
 
 ![[Introducción a la Ingeniería de Software 2.png]]
 
-## Scrum
+## SCRUM
 
 Es un modelo contemporáneo del ***Agile Manifesto***, que separa el desarrollo en ciclos:
 

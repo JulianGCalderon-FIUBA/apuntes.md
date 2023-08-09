@@ -76,7 +76,7 @@ $$
 
 	Se dice que una matriz es estrictamente diagonal dominante si se cumple alguna de las dos condiciones anteriores.
 
-## Metódos Sor
+## Metódos SOR
 
 Los metodos de sobre relajacion reciben este nombre porque producen sucesivas relajaciones excesivas. Son utiles para resolver sistemas lineales que ocurren en la solución numerica de ciertas equaciones diferenciales en derivadas parciales.
 

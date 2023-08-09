@@ -25,7 +25,7 @@ Parecido al ***brainstorming***, pero un poco mas reducido. La idea consiste en 
 
 Una vez escritas las ideas, se pasa el papel al integrante siguiente quien leerá las ideas y escribirá otras 3 ideas. Así hasta completar las 5 iteraciones.
 
-## Scamper
+## SCAMPER
 
 Del mismo creador del brainstorming. Es un acrónimo de:
 

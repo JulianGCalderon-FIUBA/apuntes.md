@@ -243,7 +243,7 @@ $$
 
 Para hacer esto, debemos resolver el problema por mínimos cuadrados, ya que probablemente los datos obtenidos sean imprecisos.
 
-## Gram-schmidt
+## Gram-Schmidt
 
 Si tenemos una base $B = \{v_1, v_2, \cdots, v_n\}$, podemos construir una nueva base $B' = \{w_1, w_2, \cdots, w_n\}$ ortogonal. Aplicando el algoritmo de Gram-Schmidt
 
@@ -479,7 +479,7 @@ $$
 A = U_k D_k V_k^*
 $$
 
-### Pseudo Inversa de Moore-penrose
+### Pseudo Inversa de Moore-Penrose
 
 Se le llama así a la matriz $A^\dagger = V_K D_K^{-1} U_K^*$. Definida para toda matriz $m \times n$
 

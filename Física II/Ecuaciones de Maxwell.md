@@ -3,7 +3,7 @@ Maxwell cambio algunas formulas que vimos en la materia, para que sean mas preci
 > "La visión unificadora de Maxwell es la mayor alteración en nuestra concepción de la estructura de la realidad desde Newton" ~ Einstein
 >
 
-## Ley de Ampere-maxwell
+## Ley de Ampere-Maxwell
 
 $$
 \oint\limits_\lambda \vec H \cdot \vec dl = \iint\limits_S\vec j \cdot d\vec A + \color{blue}{\frac d{dt} \iint\limits_S \vec D \cdot d\vec A}
@@ -15,7 +15,7 @@ $$
 
 Maxwell introdujo un termino adicional, que corresponde a las corrientes de desplazamiento. Esto se debe a que cuando trabajamos con corrientes que dependen del tiempo, la ley de ampere es invalida. El flujo de la corriente sobre una superficie cerrada no es nulo (como indica la ley original)
 
-## Ley de Faraday-maxwell
+## Ley de Faraday-Maxwell
 
 $$
 \mathcal{E} =-\frac d{dt} \iint\limits_S \vec B \cdot d\vec A = \color{blue}{\oint\limits_\lambda \vec E \cdot d\vec l}

@@ -28,7 +28,7 @@ Podemos dar nombres a las historias para identificarlas fácilmente
 
 ## Calidad de Las Historias de Usuario
 
-### Regla Invest
+### Regla INVEST
 
 Criterio para determinar si la historia de usuario es correcta:
 
@@ -39,7 +39,7 @@ Criterio para determinar si la historia de usuario es correcta:
 - ***S:*** pequeña (se puede desarrollar dentro de una iteración)
 - ***T: v***erificable (se entiende lo suficiente como para poder ser probada.
 
-### Qus Framework
+### QUS Framework
 
 Marco de referencia que propone 13 atributos de calidad:
 

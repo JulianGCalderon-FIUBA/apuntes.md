@@ -77,7 +77,7 @@ Se trabaja mucho sobre las historias de usuario y la definición de los casos de
 
 No hay actividades formales ni requisitos escritos. El eje se trata en programar y liberar frecuentemente. Funciona mejor con equipos pequeños y de alta experiencia.
 
-### Scrum
+### SCRUM
 
 ![[Requisitos en Contexto 7.png]]
 
@@ -87,7 +87,7 @@ Usualmente, los requisitos se organizan en ***user story mapping*** y ***user st
 
 El backlog se define constantemente a medida que se conoce mas acerca del producto y sus requerimientos.
 
-### Fdd
+### FDD
 
 Se desarrolla un modelo inicial a partir de la idea del producto, y una lista de ***features*** a desarrollar. Luego se organiza en iteraciones que toman una pequeña porción de la lista de ***features***. A diferencia de otras técnicas, habla de la importancia de diseñar modelos del ***software***.
 
@@ -95,7 +95,7 @@ Se desarrolla un modelo inicial a partir de la idea del producto, y una lista de
 
 Tiene una estructura jerárquica para organizar las características a implementar.
 
-### Dad
+### DAD
 
 Toma ideas del proceso unificado. Hay una fase de inspection, otra de construction, y otra de transition (desaparece elaboration). El desarrollo es similar a ***scrum***.
 
