@@ -2,8 +2,8 @@
   "accentColor": "",
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
-    "center-image",
-    "center-table"
+    "center-image"
   ],
-  "baseFontSize": 17
+  "baseFontSize": 17,
+  "theme": "obsidian"
 }

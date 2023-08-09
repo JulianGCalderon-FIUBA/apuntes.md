@@ -6,6 +6,7 @@
       {
         "id": "17a5ce24301d8e0d",
         "type": "tabs",
+        "dimension": 33.49573690621194,
         "children": [
           {
             "id": "54c1fa07ae0cf29e",
@@ -25,6 +26,7 @@
       {
         "id": "8cb1e48ba7f547f3",
         "type": "tabs",
+        "dimension": 66.50426309378807,
         "children": [
           {
             "id": "b0578681b57d41d5",
@@ -68,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/\\t-",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,8 +87,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -185,7 +186,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b0578681b57d41d5",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
     "Organizacion de Datos/Ciencia de Datos.md",
     "Algebra II/Autovalores y Autovectores.md",

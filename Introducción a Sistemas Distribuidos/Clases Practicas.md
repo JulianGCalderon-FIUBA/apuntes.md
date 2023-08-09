@@ -144,11 +144,6 @@ Existen dos definiciones importantes:
 
 En la versión mas simple, una tabla de ruteo tiene dos columnas
 
-| Prefijo / Mascara | Puerto de Salida |
-| --- | --- |
-| $192.168.0.1/24$ | $\text{P1}$ |
-| $10.20.0.6/30$ | $\text{P2}$ |
-
 Cuando se recibe un paquete, se debe comparar con las entradas de la tabla para definir a que puerto de salida debe ir. Por ejemplo, $\text{192.168.0.1/24}$ indica que los primeros $\text{24}$ *bits* de la dirección de destino del paquete entrante debe coincidir con $\text{192.168.0.1}$.
 
 Generalmente, $/n$ indica que la mascara es un numero binario de $\text{32}$ *bits* donde los primeros $n$ bits tienen valor $\text 1$ mientras que los restantes tienen valor $\text 0$.
