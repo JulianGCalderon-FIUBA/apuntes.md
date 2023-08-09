@@ -1,10 +1,10 @@
 Debido a que los ***switches*** operan en la capa de enlace, lidian con ***link-layer*** ***frames*** en lugar de ***network-layer datagrams***. En lugar de direcciones **IP**, tienen dirección de capa de enlace
 
-# 1. Link-Layer Addressing and ARP
+## 1. Link-Layer Addressing and ARP
 
-## MAC Addresses
+### MAC Addresses
 
-Todos los adaptadores de ***hosts*** (interfaces de red) contienen una dirección propia de capa de enlace, esto no es así para los ***routers,*** los cuales no contienen direcciones de capa de enlace. 
+Todos los adaptadores de ***hosts*** (interfaces de red) contienen una dirección propia de capa de enlace, esto no es así para los ***routers,*** los cuales no contienen direcciones de capa de enlace.
 
 Estas direcciones son conocidas por varios nombres, como ***LAN address***, ***physical address***, o ***MAC address***.
 
@@ -14,9 +14,9 @@ Debido a que las direcciones ***MAC*** son manejadas por la ***IEEE***, no exist
 
 Cuando un adaptador quiere enviar un paquete a otro dispositivo, ocasionalmente el ***switch*** realizará un ***broadcast*** a todos los ***hosts*** de la red. Los hosts entonces inspeccionaran el paquete y lo descartaran si no fue dirigido para ellos.
 
-A veces un adaptador quiere enviar un paquete a toda la red, en tal caso se utiliza la  ***MAC broadcast*** ***address***.
+A veces un adaptador quiere enviar un paquete a toda la red, en tal caso se utiliza la ***MAC broadcast*** ***address***.
 
-## Address Resolution Protocol
+### Address Resolution Protocol
 
 Debido a que existen tanto direcciones **IP** como direcciones ***MAC***, existe una necesidad de traducir entre ellas. Para esto se utiliza el ***Address Resolution Protocol (ARP)***.
 
@@ -32,11 +32,11 @@ Las tablas son configuradas automáticamente ***(plug and play)*** y no deben ma
 
 Este es un protocolo que se encuentra entre la capa de red y la capa de enlace, ya que contiene información relacionada con ambas capas.
 
-## Sending a Datagram off the Subnet
+### Sending a Datagram off the Subnet
 
 Cuando enviamos un paquete a través de multiples ***routers*** hacia un destino externo, debemos incluir la dirección ***MAC*** del ***router*** inmediato *(next hop)*. Sin incluimos la dirección ***MAC*** del ***host*** de destino, ningún ***adaptador*** de la red tomará el paquete y este será descartado. Para conocer la dirección **IP** del próximo ***router*** inmediato, se utiliza el protocolo ***ARP***.
 
-# 2. Ethernet
+## 2. Ethernet
 
 Hoy en día, ***Ethernet*** es por lejos la tecnología de ***LAN*** con cable mas prevalente en el mundo. Esta fue una tecnología mas barata y simple que las otras hasta el momento, pero que ofrecía tasas de velocidad similares.
 
@@ -44,7 +44,7 @@ En los 90, las instalaciones de ***ethernet*** utilizaban una topología de estr
 
 Ethernet provee un servicio ***connectionless*** y no confiable a la capa de red. No se envía ningún tipo de acknowledgments positivos ni negativos, ni siquiera ante la corrupción de bits. La falta de confiabilidad es lo que le permite a ***Ethernet*** ser barato y simple.
 
-## Ethernet Frame Structure
+### Ethernet Frame Structure
 
 Los ***ethernet frames*** tienen 6 campos:
 
@@ -55,7 +55,7 @@ Los ***ethernet frames*** tienen 6 campos:
 - ***Cyclic Redundancy Check (CRC) (4 bytes):*** Como mencionado anteriormente, es utilizado para detectar errores
 - ***Preamble (8 bytes):*** Son utilizados para despertar y sincronizar los relojes de los adaptadores. Tienen un valor fijo y utilizado durante todo el protocolo.
 
-## Ethernet Technologies
+### Ethernet Technologies
 
 Las versiones del protocolo tienen nombres determinados por sus características, como ***10BASE-2, 100BASE-T, 1000BASE-LX***, entre otros.
 
@@ -74,11 +74,11 @@ Gigabit Ethernet es una extensión a los altamente exitosos 10***mbps*** y ***10
 
 Ethernet era inicialmente una tecnología de enlace de broadcast, pero para resolver las colisiones, se introdujo el protocolo ***CSMA/CD*** y las conexiones punto a punto. Debido a que hoy en día se utilizan principalmente conexiones punto a punto con topologías de estrella con un ***store-forward switch***, las direcciones ***MAC son casi no utilizadas.***
 
-# 3. Link-Layer Switches
+## 3. Link-Layer Switches
 
 Los ***switches*** son transparentes. Los adaptadores de red direccionan frames directamente a otros ***hosts*** de la subred, sin conocer los ***switches intermedios***. La tasa de llegada puede ser mayor a la tasa de salida, por lo que los ***switches*** utilizan ***buffers*** para no descartar información
 
-## Forwarding and Filtering
+### Forwarding and Filtering
 
 Filtering es la función que se encarga de determinar si un ***frame*** débe ser enviado a algún interfaz o descartado. ***Forwarding*** es la función que determina a que interfaz debe ser redireccionado cada ***frame***.
 
@@ -88,7 +88,7 @@ Vemos tres posibles escenarios en la llegada de un ***frame:***
 - Hay una entrada en la tabla asociada la dirección especificada, pero esta interfaz coincide con la interfaz de llegada, en ese caso el ***switch*** realiza la función de ***filtering*** y descarta el paquete.
 - Hay una entrada en la tabal asociada a la dirección especificada y es distinta a la de la interfaz de llegada, en ese caso el switch realiza la función de ***forwarding*** y reenvía el paquete a la interfaz determinada.
 
-## Self-Learning
+### Self-Learning
 
 Para configurar la tabla del ***switch***, se utiliza un mecanismo de auto aprendizaje:
 
@@ -98,7 +98,7 @@ Para configurar la tabla del ***switch***, se utiliza un mecanismo de auto apren
 
 Debido a estas reglas, los switches son dispositivos ***plug-and-play*** ya que no requieren intervención del administrador de red o del usuario.
 
-## Properties of Link-Layer-Switching
+### Properties of Link-Layer-Switching
 
 Podremos identificar multiples ventajas de los ***switches*** por sobre las topologías **hub-based**
 
@@ -106,9 +106,9 @@ Podremos identificar multiples ventajas de los ***switches*** por sobre las topo
 - ***Links Heterogéneos:*** Como los ***switches*** aíslan unos enlaces de otros, los diferentes ***links*** pueden operar a diferentes velocidades e incluso en distintos medios.
 - ***Manejo:*** Ademas de proveer seguridad avanzada, los switches también facilitan el manejo de la red. Por ejemplo, si un adaptador falla y empieza a mandar paquetes continuamente, el switch puede detectar esto y desconectar internamente el adaptador fallado. Por otro lado, si un cable se desconecta, solo se perjudica aquel ***host*** conectado con ese enlace.
 
-## Switches Versus Routers
+### Switches Versus Routers
 
-Tanto los ***switches*** como los ***routers*** realizan ***store-and-forward packet switching***, pero tienen diferencias fundamentales. Los ***routers*** operan con direcciones de capa de red, mientras que los ***switches*** operan con direcciones de capa de enlace. 
+Tanto los ***switches*** como los ***routers*** realizan ***store-and-forward packet switching***, pero tienen diferencias fundamentales. Los ***routers*** operan con direcciones de capa de red, mientras que los ***switches*** operan con direcciones de capa de enlace.
 
 Como vimos anteriormente, también existen dispositivos con estándar ***OpenFlow*** que utilizan la operación ***match plus action*** para funcionar como ambos (examinan 11 ***headers*** de distintas capas).
 
@@ -123,14 +123,14 @@ Por el otro lado, analizaremos algunas ventajas y desventajas de ***routers***.
 
 - Debido a que las estructuras son jerárquicas, los paquetes no atraviesan ciclos a lo largo del recorrido (a menos que haya una tabla mal configurada)
 - Las redes no están restringidas a un ***spanning tree*** y pueden utilizar el mejor camino entre dirección de envío y dirección de destino.
-- Debido a que las redes no están restringidas a un ***spanning tree***,  se pueden construir topologías complejas y de alta eficiencia
+- Debido a que las redes no están restringidas a un ***spanning tree***, se pueden construir topologías complejas y de alta eficiencia
 - Proveen protección de ***firewall*** ante ataque de ***broadcast*** de capa de enlace.
 - No son ***plug-and-play***, y requieren ser configurados por los administradores de red
 - Usualmente tienen mayor tiempo de procesamiento por paquete que los ***switches***.
 
 En general para redes pequeñas, los ***switches*** suelen ser suficientes. A medida que crece el tamaño de nuestra red, nos resultara conveniente optar por la utilización de ***routers***.
 
-# 4. Virtual Local Area Networks (VLANs)
+## 4. Virtual Local Area Networks (VLANs)
 
 Usualmente las redes ***switched LAN*** son configuradas jerárquicamente, donde cada grupo contiene su propia ***switched LAN*** que es a su ves conectada con otros grupos a través de una jerarquía de ***switches.*** Podemos identificar tres inconvenientes principales de esta configuración:
 

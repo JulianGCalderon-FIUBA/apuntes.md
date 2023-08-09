@@ -16,7 +16,7 @@ Existen multiples diferencias mas entre el las conexiones alámbricas y las inal
 
 Otro escenario de colisiones indetectables es la de el atenuó de las señales a medida que se propagan por el medio. La señal de dos estaciones *A, B* pueden dispersarse antes de llegar a la otra estación, pero interferir en el envío a una estación intermedia *C.*
 
-# 1. CDMA
+## 1. CDMA
 
 El protocolo ***code division multiple access (CDMA)*** pertenece a la familia de protocolos de partición de canales, prevalece en las redes inalámbricas ***LAN*** y las tecnologías de celular.
 

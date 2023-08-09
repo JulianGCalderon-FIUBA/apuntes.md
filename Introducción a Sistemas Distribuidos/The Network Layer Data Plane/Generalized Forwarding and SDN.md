@@ -6,12 +6,12 @@ Cada entrada en la tabla conocida como ***flow table incluye:***
 
 - Un conjunto de valores de campos de encabezados a partir de los cuales el paquete será analizado.
 
-    ![[Generalized Forwarding and SDN 1.png]]
+	![[Generalized Forwarding and SDN 1.png]]
 
 - Un conjunto de contadores que serán actualizados cuando el paquete coincide con la entrada
 - Un conjunto de acciones que deben tomarse cuando un paquete coincide con la entrada de la tabla
 
-# 1. Match
+## 1. Match
 
 La primera observación importante que la abstracciones de ***OpenFlow*** permite que el ***match*** se realice a partir de campos seleccionados a través de múltiples protocolos, permitiendo así al ***packet switch*** funcionar tanto como un dispositivo de capa tres (***router)*** como un dispositivo de capa dos (enlace).
 
@@ -19,7 +19,7 @@ Las entradas de la tabla también permiten comodines, permitiendo, por ejemplo, 
 
 Por último, vemos que no todos los ***headers*** de **IP** pueden ser utilizados para el ***match***. Algunos ***headers*** fueron ignorados para priorizar funcionalidad por sobre complejidad.
 
-# 2. Action
+## 2. Action
 
 Cada entrada de la tabla puede tener cero o múltiples acciones. Si hay múltiples acciones, estás se realizan en el orden especificado. Algunas de las acciones más comunes son:
 

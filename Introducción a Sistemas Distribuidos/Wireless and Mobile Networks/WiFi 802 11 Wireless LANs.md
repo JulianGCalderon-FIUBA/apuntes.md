@@ -4,13 +4,13 @@ Existen muchos estándares para esta clases, todos ellos comparten algunas carac
 
 Existen dos rangos frecuencias principales, ***2.4*** y ***5.8***. Las redes ***5.8*** tienen menor rango para un nivel de potencia dado, y sufren más de propagación ***multipath***. Los estándares mas recientes utilizan multiples antenas (tanto receptoras como emisoras), y utilizan antenas inteligentes para direccionar las mismas en dirección del receptor. Esto redujo la interferencia e incremento la distancia alcanzada para una tasa dada.
 
-# 1. The 802.11 Architecture
+## 1. The 802.11 Architecture
 
 El bloque fundamental de construcción de la arquitectura de 802.11 es el ***basic service set (BSS).*** Este contiene una o mas estaciones inalámbricas, y una estación base central, conocida como ***access point (AP).*** En una red típica de hogar, hay un **AP** y un ***router,*** típicamente integrados en la misma unidad.
 
-Las redes ***LAN*** inalámbricas que despliegan un ***access point*** son frecuentemente referidas como ***infrastructure wireless LANs***. Las estaciones, a su vez, pueden concentrase con otras estaciones formando una red descentralizada ***(ad hoc).*** 
+Las redes ***LAN*** inalámbricas que despliegan un ***access point*** son frecuentemente referidas como ***infrastructure wireless LANs***. Las estaciones, a su vez, pueden concentrase con otras estaciones formando una red descentralizada ***(ad hoc).***
 
-## Channels and Association
+### Channels and Association
 
 Cuando un administrador de red instala un ***access point***, deben configurarse dos parámetros. El ***Service Set Identifier (SSID),*** y el numero de canal. Las redes de *2.4GHz operan entre 2.4GHz y 2.4835Ghz*, definiendo *11* canales parcialmente superpuestos. Dos canales no se superponen si distan a 4 o mas canales.
 
@@ -22,7 +22,7 @@ Una vez seleccionado el **AP** al cual desea conectare, enviara un ***associatio
 
 En algunas situaciones, un ***host*** necesitará autenticarse para crear una conexión. Existen diversas formas de realizarlo. Un enfoque podría ser utilizando la dirección ***MAC*** del dispositivo, otro enfoque, mas utilizado, podría ser la utilización de usuarios y contraseñas. En general, esta autenticación se realiza a partir de un servidor de autenticación, con el protocolo ***RADIUS***.
 
-# 2. The 802.11 MAC Protocol
+## 2. The 802.11 MAC Protocol
 
 El protocolo de acceso al medio utilizado por ***Wi-Fi*** es el protocolo ***carrier sends multiple access with collision avoidance (CSMA/CA)***. Este difiere del protocolo de ***ethernet CSMA/CD*** en algunos aspectos. En primer lugar, en lugar de *collision detection*, ***802.11*** utiliza ***collision avoidance***. En segundo lugar, ***802.11*** utiliza una técnica de capa de enlace de ***acknowledges/retransmisiones.*** (ARQ).
 
@@ -37,7 +37,7 @@ Si un dispositivo quiere enviar un ***frame***, entonces escuchara el canal. Si 
 
 Cuando un estación recibe un paquete completo, espera un pequeño periodo de tiempo llamado Short Inter-Frame Spacing (SIFS) y luego reenvía un ack. Si el remitente no recibe el ***ack*** en un periodo determinado, entonces entra en la siguiente etapa de ***exponential backoff*** y elige un valor aleatorio mayor para el intervalo.
 
-## Dealing with Hidden Terminals: RTS and CTS
+### Dealing with Hidden Terminals: RTS and CTS
 
 El protocolo incluye un opcional esquema de reservación para evitar colisiones en presencia de ***hidden*** terminals*.* Para evitar este problema el protocolo define la utilización de un pequeño ***frame*** de control ***Request to Send (RTS)*** y otro ***Clear to Send (CTS)***.
 
@@ -45,19 +45,19 @@ Cuando un dispositivo quiere enviar información, primero envía un frame ***RTS
 
 Esto soluciona el problema de la terminal oculta, y limite las colisiones a los ***frames*** ***RTS*** y ***CTS***, que son cortos. Por otro lado, introduce retrasos y consume recursos del canal. Debido a esto, solo es utilizado para el envío de paquetes largos. En muchas situaciones, incluso no es utilizado.
 
-## Using 802.11 as a Point-to-Point Link
+### Using 802.11 as a Point-to-Point Link
 
 Si dos nodos tienen antenas direccionales, pueden apuntar las antenas entre si y utilizar para una comunicación barata, incluso a grandes distancias.
 
-# 3. The IEEE 802.11 Frame
+## 3. The IEEE 802.11 Frame
 
 Aunque comparte muchas similitudes con el ***Ethernet frame***, tiene campos específicos para el uso de enlaces inalámbricos.
 
-## Payload and CRC Fields
+### Payload and CRC Fields
 
 El ***payload*** de frame contiene el datagrama de **IP** o un paquete ***ARP***. Típicamente, tiene una longitud menor a ***1500*** ***bytes***. Al igual que el ***ethernet frame***, contiene un ***32-bit cyclic redundancy check (CRC)***.
 
-## Address Fields
+### Address Fields
 
 A diferencia de ***ethernet***, se tienen cuatro direcciones ***MAC.*** La primer dirección es la de la estación inalámbrica que recibe el ***frame***. La segunda reacción es la de la estación que envía el ***frame***.
 
@@ -65,7 +65,7 @@ La tercera dirección indica la dirección ***MAC*** del router al cual se le qu
 
 La cuarta dirección se utiliza cuando el **AP** le envía ***frames*** a otros en un modo centralizado, pero no nos centraremos en esta infraestructura.
 
-## Sequence Number, Duration, and Frame Control Fields
+### Sequence Number, Duration, and Frame Control Fields
 
 Debido a la existencia de ***acknowledgments***, los ***frames*** deben contener un numero de secuencia para detectar aquellos paquetes repetidos.
 
@@ -77,7 +77,7 @@ Finalmente, tiene un numero de campos de control, los mas importantes son:
 - **to** y ***from*** se utilizan para definir el significado de los distintos campos de ***address***.
 - *WEP* se utiliza para indicar si se utilizo encriptación o no.
 
-# 4. Mobility in the Same IP Subnet
+## 4. Mobility in the Same IP Subnet
 
 Para incrementar el rango físico de una red inalámbrica, a veces se despliegan multiples ***BBS*** a través de multiples estaciones. Los dispositivos mobiles muchas veces se mueven a través de multiples ***BBS***. ¿Como hacen para mantener una conexión ***TCP*** durante estos cambios de red?
 
@@ -87,15 +87,15 @@ A medida que un dispositivo se va alejando de una estación central, empieza a e
 
 ¿Que ocurre cuando hay un ***switch*** conectado a ambas estaciones centrales? Como estudiamos, los ***switches*** son ***self-learning*** y automáticamente construyen sus tablas de envió. Una solución es que la nueva estación envíe un ***broadcast*** indicándole a la subred del cambio de dirección.
 
-# 5. Advanced Features in 802.11
+## 5. Advanced Features in 802.11
 
-## 802.11 Rate Adaptation
+### 802.11 Rate Adaptation
 
-Como vimos anteriormente, las diferentes técnicas de modulación pueden ser apropiadas para diferentes escenarios de ***SNR***. Si se pierde un paquete, entonces se reduce la tasa de transmisión, pero si se envían correctamente diez paquetes seguidos, entonces esta se aumenta. 
+Como vimos anteriormente, las diferentes técnicas de modulación pueden ser apropiadas para diferentes escenarios de ***SNR***. Si se pierde un paquete, entonces se reduce la tasa de transmisión, pero si se envían correctamente diez paquetes seguidos, entonces esta se aumenta.
 
 Esta técnica utiliza la misma tecnología de ***probing*** que utiliza el control de congestión de ***TCP***.
 
-## Power Management
+### Power Management
 
 La energía es un recurso preciado en los dispositivos mobiles, por lo que 802.11 provee formas para permitir que los nodos minimicen el tiempo utilizado en lectura y transmisión.
 
@@ -103,21 +103,21 @@ Un nodo le indica al **AP** que entrara en modo de ***dormido*** enviándole un 
 
 Una vez se despierta el nodo, recibe de el beacon frame una lista de nodos cuyos paquetes fueron guardados. Si el propio nodo no se encuentra en la lista, puede volver a dormir. Si se encuentra en la lista, entonces puede pedir explícitamente recibir estos paquetes enviando un ***polling message***.
 
-Esto permite que si el nodo no tiene nada para recibir o enviar, el *99%* del tiempo, el nodo este dormido, ahorrando una increible cantidad de energía. 
+Esto permite que si el nodo no tiene nada para recibir o enviar, el *99%* del tiempo, el nodo este dormido, ahorrando una increible cantidad de energía.
 
-# 6. Personal Area Networks: Bluetooth and Zigbee
+## 6. Personal Area Networks: Bluetooth and Zigbee
 
 Existen dos protocolos en la familia de estándares ***802*** comúnmente utilizados:
 
-## Bluetooth
+### Bluetooth
 
-Es una tecnología de bajo alcance, costo, y consumo de energía. Se utiliza comúnmente para conectar periféricos con una computadora. Estas redes, llamadas 802.15.1, a veces son conocidas como ***wireless personal area networks (WPANs)***. 
+Es una tecnología de bajo alcance, costo, y consumo de energía. Se utiliza comúnmente para conectar periféricos con una computadora. Estas redes, llamadas 802.15.1, a veces son conocidas como ***wireless personal area networks (WPANs)***.
 
 Operan en el rango de los *2.4Ghz*, con time slots de *625ms*. Durante cada uno de estos ***time*** slots, un remitente envía por uno de los 79 canales, siendo el canal elegido de forma psuedo-aleatoria. Esta forma de cambio de canales se conoce como ***frequency-hopping spread spectrum (FHSS).*** Puede proveer tasas de hasta ***4Mbps***.
 
 Las redes 802.15.1 son ***ad hoc***, sin una infraestructura necesaria para conectar los dispositivos. Primero son organizados en un ***piconet*** desde hasta 8 dispositivos activos. Uno de los dispositivos sera el ***master***, mientras que el resto serán ***slaves***. Los ***masters*** pueden enviar en cada ***time slot*** impar, y los ***slaves*** solo pueden contestar al ***master*** cuando este en el ***slot anterior*** se comunico con ellos. Ademas de estos nodos activos, puede haber hasta *255* dispositivos estacionados que no pueden comunicarse hasta que se les cambie el estado a activo por el master node.
 
-## Zigbee
+### Zigbee
 
 Una segunda red personal, estandarizado por el ***IEEE***, es el estándar 802.15.4, conocido como ***Zigbee***. Mientras que *bluetooth pr*ovee un replace del cable a una tasa de megabits, el enfoque de esta red es el de una red incluso de menor costo y poder. No todos los dispositivos necesitan altas tasas de transferencia, por lo que este estandar es utilizados en dispositivos pequeños y sin neceisdad de altas tasas de transferencia.
 

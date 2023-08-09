@@ -1,10 +1,10 @@
-# 1. Network Application Architectures
+## 1. Network Application Architectures
 
 En el centro del desarrollo de aplicaciones de red esta la escritura de programas que se ejecutan en distintos end systems y se comunican entre ellos a través de la red.
 
 Desde el punto de vista del desarrollador, la arquitectura de red es fija y provee un conjunto especifico de servicios a las aplicaciones. La arquitectura de aplicación por otro lado, es diseñada por el diseñador y dicta como se estructura la aplicación en diversos ***end systems***. Hay dos paradigmas de arquitectura que se utilizan en las aplicaciones modernas.
 
-En la arquitectura cliente-servidor, siempre existe un ***host*** constantemente encendido con dirección fija y conocida, denominado ***server,*** que provee servicio a multiples ***hosts,*** denominados clientes. En esta arquitectura, los clientes no se comunican de forma directa entre si. 
+En la arquitectura cliente-servidor, siempre existe un ***host*** constantemente encendido con dirección fija y conocida, denominado ***server,*** que provee servicio a multiples ***hosts,*** denominados clientes. En esta arquitectura, los clientes no se comunican de forma directa entre si.
 
 Comúnmente en estas arquitecturas, un único servidor es incapaz de resolver todos los pedidos de los clientes. Por esta razon, un ***data center***, juntando un gran numero de servidores, es utilizado para crear un poderoso ***server*** virtual.
 
@@ -12,49 +12,49 @@ En la arquitectura peer-to-peer existe minima o nula dependencia en un servidor 
 
 Una de las características mas importantes de esta arquitectura es su ***self-scalability***. La velocidad de descarga aumenta a medida que aumenta el numero de ***peers***.
 
-# 2. Processes Communicating
+## 2. Processes Communicating
 
 En la jerga de los sistemas operativas, no son los programas los que se comunican, sino los procesos. Los procesos en dos ***end systems*** diferentes se comunican intercambiando mensajes a traves de la red.
 
-## Client and Server Processes
+### Client and Server Processes
 
-Por cada par de procesos en comunicación, normalmente etiquetamos a uno como el ***cliente*** y otro como el ***servidor***. En una arquitectura P2P, el que envía el archivo se denomina ***servidor*** y el que lo recibe se denomina ***cliente***. 
+Por cada par de procesos en comunicación, normalmente etiquetamos a uno como el ***cliente*** y otro como el ***servidor***. En una arquitectura P2P, el que envía el archivo se denomina ***servidor*** y el que lo recibe se denomina ***cliente***.
 
 Los procesos intercambian mensajes a través de una interfaz de ***software conocida como*** socket*.* Esta interfaz también es conocida como la ***API*** entre la aplicación y la red. El desarrollador no tiene control de lo que ocurre en esta interfaz, salvo por la elección de que protocolo usar o la configuración de algunos parámetros de la misma.
 
-## Addressing Processes
+### Addressing Processes
 
 Para identificar un proceso receptor, necesitamos dos piezas de información: La dirección del ***host*** y un identificador que especifica el proceso receptor ***del host***.
 
 En el internet, el ***host*** se identifica con la dirección **IP,** mientra que el proceso receptor se identifica con el ***port number***. Las aplicaciones populares tienen puertos específicos asignados, un servidor web se identifica con el numero de puerto 80.
 
-# 3. Transport Services Available to Applications
+## 3. Transport Services Available to Applications
 
 Cuando desarrollamos una aplicación, debemos seleccionar el protocolo de ***transport-layer*** que queremos utilizar. Estos se pueden clasificar según los servicios que proveen.
 
-## Reliable Data Transfer
+### Reliable Data Transfer
 
 Este servicio garantiza que los datos enviados por la aplicación llegaran a destino correctamente y en el orden especificado. Cuando un protocolo de transporte no provee este servicio, algunos de los paquetes enviados a destino no llegaran al proceso receptor. Esto es aceptable para ***loss-tolerance applications***, como aplicaciones multimedia
 
-## Throughput
+### Throughput
 
 Debido a el congestionamiento de la red, el ***throughput*** puede fluctuar a lo largo del tiempo. Este servicio garantiza que se podrá proveer un ***throughput*** constante a lo largo de toda la comunicación.
 
 Aquellas aplicaciones que tienen este tipo re requerimientos se conocen como ***bandwidth-sensitive applications***. Por otro lado, las ***elastic applications*** pueden funcionar con cualquier *throughput* que obtengan.
 
-## Timing
+### Timing
 
 Este tipo de servicio puede tener distintos aspectos. Un ejemplo es el de garantizar que cualquier bit de información que se envía llegue a destino en no mas de $t$ tiempo.
 
-## Security
+### Security
 
 Finalmente, un protocolo puede proveer uno o mas servicios de seguridad. Un ejemplo es el de la encriptación y desencriptación de data en la capa de transporte, para asegurarse que los datos viajen protegidos a lo largo de la red. Otro ejemplo puede ser el de proveer **end-point authentication.**
 
-# Transport Services Provided by the Internet
+## Transport Services Provided by the Internet
 
 El internet usa principalmente dos protocolos de transporte. ***UDP*** y ***TCP***.
 
-## TCP Services
+### TCP Services
 
 Este modelo de servicio incluye un servicio orientado a conexiones y envío confiable de información.
 
@@ -66,19 +66,19 @@ Por ultimo, TCP posee un mecanismo de control de congestión, un servicio para e
 
 Si bien este protocolo no ofrece encriptación, se puede utilizar el protocolo ***SSL Secure Sockets Layer*** para enviar mensaje encriptados. Este protocolo esta construido encima de ***TCP,*** por lo que no se considera una protocolo de transporte en si, sino una mejora de ***TCP***.
 
-## UDP Services
+### UDP Services
 
 Este protocolo es un protocolo de transporte minimalista. No ofrece ningún servicio ni garantia. Los mensajes pueden incluso llegar en desorden. Tampoco ofrece un mecanismo de control de congestión.
 
-Las aplicaciones de telefonía a través de internet, como ***Skype***, suelen utilizar este protocolo. Pueden tolerar cierta perdida de información.  
+Las aplicaciones de telefonía a través de internet, como ***Skype***, suelen utilizar este protocolo. Pueden tolerar cierta perdida de información.
 
-## Services Not Provided by Internet Transport Protocolos
+### Services Not Provided by Internet Transport Protocolos
 
 Ninguno de los dos protocolos mencionados provee el servicio de ***throughput*** o **timing.** Esto es así porque no existe ningún protocolo que los provea. Las aplicaciones fueron desarrolladas para que puedan funcionan sin este tipo de garantía, utilizando técnicas alternativas.
 
-# 5. Application-Layer Protocols
+## 5. Application-Layer Protocols
 
-Estos protocolos definen los tipos de mensajes intercambiados, su sintaxis, la semántica de sus campos, y las reglas que determinan el flujo de la comunicación. 
+Estos protocolos definen los tipos de mensajes intercambiados, su sintaxis, la semántica de sus campos, y las reglas que determinan el flujo de la comunicación.
 
 Algunos protocolos son de dominio publico, especificados en los ***RFCs,*** mientras que otros pertenecen a organismos propietarios.
 

@@ -1,6 +1,6 @@
 La web permite que los usuario consulten información de forma dinámica, en el momento que ellos quieren. Por otro lado, es sorprendentemente fácil para cualquier individuo publicar información en la red.
 
-# 1. Overview of HTTP
+## 1. Overview of HTTP
 
 El ***HyperText Transfer Protocol (HTTP)*** es el corazón de la web, un protocolo de capa de aplicación que utiliza el protocolo de transporte ***TCP***.
 
@@ -12,7 +12,7 @@ Cuando un usuario pide una página web, envía un ***HTTP request*** para los ob
 
 El protocolo ***HTTP es stateless***. El servidor no almacena ninguna información de la conexión con los clientes, esto permite que sea más simple de implementar.
 
-# 2. Non-Persistent and Persistent Connections
+## 2. Non-Persistent and Persistent Connections
 
 En las aplicaciones con conexiones no persistentes, se genera una conexión ***TCP*** por cada objeto a pedir, mientras que persistentes se mantiene una misma conexión para pedir todos los objetos.
 
@@ -22,15 +22,15 @@ El navegador puede configurar la cantidad de conexiones paralelas a utilizar par
 
 Si definimos el ***round-trip time*** que es el tiempo que le toma a un pequeño paquete viajar al servidor y volver, entonces el tiempo de pedir un archivo a un servidor ***web*** es de aproximadamente de 2 ***round-trip times***. Esto se debe a que ocurre un saludo inicial debido al protocolo ***TCP***.
 
-## HTTP with Persistent Connections
+### HTTP with Persistent Connections
 
-En las conexiones no persistentes, se debe establecer y mantener una conexión por cada objeto a pedir.  En las conexiones persistentes, el servidor deja la conexión ***TCP*** abierta luego de enviar la respuesta, esto permite que los siguientes llamados se envíen a través de esta misma conexión.
+En las conexiones no persistentes, se debe establecer y mantener una conexión por cada objeto a pedir. En las conexiones persistentes, el servidor deja la conexión ***TCP*** abierta luego de enviar la respuesta, esto permite que los siguientes llamados se envíen a través de esta misma conexión.
 
 Además, múltiples pedidos pueden ser pedidos al mismo tiempo sin esperar a las respuestas de cada uno (pipelining), el servidor enviará las respuestas en cuanto pueda.
 
 Hoy en día, la mayoría de los servidores web utilizan conexiones persistentes sin pipelining, aunque esto puede ser especificado en los mensajes ***HTTP***.
 
-# 3. HTTP Message Format
+## 3. HTTP Message Format
 
 Existen dos tipos de mensajes ***HTTP***. Los ***request messages*** y los ***response messages***.
 
@@ -46,19 +46,19 @@ A continuación, al igual que en el ***request***, siguen las ***header lines***
 
 Para generar las líneas de cabecera adecuadas, el navegador genera estas líneas en función de la versión del protocolo utilizada, la configuración del usuario, y el ***cache*** del ***end system***. El servidor ***web*** se comporta de la misma forma, generando automáticamente ***header lines*** según la información disponible.
 
-# 4. User-Server Interaction: Cookies
+## 4. User-Server Interaction: Cookies
 
 Muchas veces, es necesario que una página web pueda identificar usuarios. Para esto, se utilizan las cookies. Estos se utilizan por los servidores web para llevar un registro de los usuarios.
 
 Este tecnología utiliza cuatro componentes principales. Una línea de cabecera en la respuesta ***HTTP***. Una línea de cabecera en el pedido ***HTTP***. Un archivo de cookies que se almacena en el ***end system*** del usuario y es manejado por el navegador. Y una base de datos del servidor utilizada para almacenar la información de los usuarios.
 
-Cuando un usuario se conecta a una página a la que nunca se había conectado, el servidor crea un identificador único y crea una entrada en una base de datos de los clientes, indexada por el identificador. Luego, envía este identificador en los ***headers*** de la respuesta al cliente a través del header ***“Set-cookie”***.
+Cuando un usuario se conecta a una página a la que nunca se había conectado, el servidor crea un identificador único y crea una entrada en una base de datos de los clientes, indexada por el identificador. Luego, envía este identificador en los ***headers*** de la respuesta al cliente a través del header ***"Set-cookie"***.
 
 El usuario recibe el identificador en la respuesta y lo guarda en su navegador. La próxima vez que el usuario se conecte a la página web, enviará este identificador en uno de los ***headers*** para que el servidor pueda identificar al usuario. De esta forma, el servidor puede llevar un registro de los mensajes que envía un usuario al servidor web.
 
 Las ***cookies*** pueden usarse para crear una capa de ***use session*** por encima del ***HTTP***. Aunque pueden simplificar algunos aspectos de la web para los usuarios, son controversiales debido a que se consideran una invasión a la privacidad.
 
-# 5. Web Caching
+## 5. Web Caching
 
 Un ***web cache***, también conocido como un ***proxy server***, es una entidad que satisface pedidos ***HTTP*** en nombre del servidor de origen. Usualmente, estos ***web caches*** son instalados por los ***ISP***. El navegador puede ser configurado para que los pedidos ***HTTP*** se dirijan directamente el ***cache***.
 
@@ -68,8 +68,8 @@ Estos ***caches*** son desplegados usualmente por un ***ISP***, por dos razones 
 
 A través del uso de ***CDNs (Content Distribution Networks)***, los ***web caches*** cada vez cumplen un rol más importante en el internet. Estas compañías instalan múltiples ***caches*** distribuidos geográficamente para localizar el tráfico de internet.
 
-## The Conditional GET
+### The Conditional GET
 
-El ***caché*** introduce un nuevo problema, la copia del objeto que almacena puede quedar obsoleta. Para que los ***web caches*** puedan verificar la validez de una copia local, existe el ***conditional get***. Este es un mensaje HTTP que incluye la línea de cabecera “***If-Modified-Since”***. 
+El ***caché*** introduce un nuevo problema, la copia del objeto que almacena puede quedar obsoleta. Para que los ***web caches*** puedan verificar la validez de una copia local, existe el ***conditional get***. Este es un mensaje HTTP que incluye la línea de cabecera "***If-Modified-Since"***.
 
-Cuando se hace un pedido de un objeto a un ***caché***, este le envía un pedido al servidor original con el ***header*** indicado. Si este no ha modificado el archivo desde la fecha indicada, devolverá un mensaje vacío con el status line ***“304 Not Modified”***.
+Cuando se hace un pedido de un objeto a un ***caché***, este le envía un pedido al servidor original con el ***header*** indicado. Si este no ha modificado el archivo desde la fecha indicada, devolverá un mensaje vacío con el status line ***"304 Not Modified"***.

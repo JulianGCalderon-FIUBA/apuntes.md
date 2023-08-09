@@ -4,13 +4,13 @@ Los ***hosts*** dentro de un data center, llamados ***blades***, son ***hosts***
 
 En los ***datacenters*** hay dos tipos de trafico. El primero es entre clientes externos y ***hosts*** internos, para manejar este trafico se incluyen ***border routers*** que conectan los ***data centers con el internet. Los*** racks ***conectan a los*** hosts ***con los*** border routers*.* El segundo tipo de trafico es entre los ***hosts internos*** y se resuelve a partir de la red de ***switches*** que conectan los ***racks***.
 
-# Load Balancing
+## Load Balancing
 
-Cada aplicación tiene asociada una **IP** publica que es recibida por el ***data center***. Para soportar peticiones de clientes externos, las peticiones son primero dirigidas a un ***load balancer*** que tiene el trabajo de tomar las peticiones y repartirlas entre los ***hosts*** de forma distribuida. En grandes ***data centers***, puede haber multiples ***load balancers***, cada uno encargado de una aplicación distinta. Cuando el ***host*** termina de resolver la petición, este envía la respuesta al ***load balancer*** el cual le devolverá la respuesta al cliente. 
+Cada aplicación tiene asociada una **IP** publica que es recibida por el ***data center***. Para soportar peticiones de clientes externos, las peticiones son primero dirigidas a un ***load balancer*** que tiene el trabajo de tomar las peticiones y repartirlas entre los ***hosts*** de forma distribuida. En grandes ***data centers***, puede haber multiples ***load balancers***, cada uno encargado de una aplicación distinta. Cuando el ***host*** termina de resolver la petición, este envía la respuesta al ***load balancer*** el cual le devolverá la respuesta al cliente.
 
 Estos ***load balancers*** suelen ser referidos como ***layer-4 switch*** debido a que toma decisiones basadas en el puerto de destino y a la dirección de destino. Tambien realiza funciones de ***NAT***, traduciendo las direcciones de ***IP*** externas en direcciones de **IP** internas al ***data center***.
 
-# Hierarchical Architecture
+## Hierarchical Architecture
 
 Para ***data centers*** grandes, se emplea una estructura jerárquica para la red. Por encima de todo, están los ***border routers***, que se conectan con los ***access routers***. Cada ***access router*** se conecta con un ***top tier switch***, los cuales a su vez se conectan con multiples ***second-tier-switch*** y un ***load balancer***. Cada ***second tier switch*** a su vez se conecta con multiples ***racks*** a través de los ***TOR switches. Típicamente todos los*** links ***utilizan*** ethernet para la capa de enlace y la capa física.
 
@@ -22,7 +22,7 @@ Esta arquitectura sufre de limitada capacidad ***host-to-host,*** y es todavia m
 
 Soportar un gran ancho de banda es un requerimiento calve para los ***datacenters***, ya que se centran en la alta coordinación y comunicación entre sus ***hosts*** para resolver los pedidos.
 
-# Trends in Data Center Networking
+## Trends in Data Center Networking
 
 Para reducir el costo de los *data centers* y aumentar el rendimiento, se despliegan constantemente nuevos diseños de redes para los ***data centers***.
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
+                "file": "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless Links and Network Characteristics.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
+                "file": "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless Links and Network Characteristics.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
+                "file": "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless Links and Network Characteristics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md",
+                "file": "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless Links and Network Characteristics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Clases Practicas.md"
+                "file": "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless Links and Network Characteristics.md"
               }
             }
           },
@@ -176,34 +176,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "986299c13b4bedd2",
+  "active": "c42caadea4e53a08",
   "lastOpenFiles": [
-    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
-    "Introducción a Sistemas Distribuidos/Clases Practicas.md",
-    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
-    "Física II/Trabajo de Campos.md",
-    "Física II/Tercer Parcial.md",
-    "Organizacion de Datos/Reduccion de Dimensionalidad.md",
-    "Organizacion de Datos/Extracción de Datos.md",
-    "Organizacion de Datos/Algoritmos Genéticos.md",
-    "Algebra II/Subespacios.md",
-    "Algebra II/Producto Interno.md",
-    "Algoritmos I/Argumentos del programa.md",
-    "Algoritmos I/Bibliotecas Personales.md",
-    "Algebra II/Transformaciones Lineales.md",
-    "Algebra II/Espacios Vectoriales.md",
-    "Algebra II/Ejemplos de T L.md",
-    "Algebra II/Operaciones entre Subespacios.md",
-    "Algebra II/Sistemas de E D Homogéneas.md",
-    "Algoritmos I/Algoritmos I.md",
-    "Algebra II/Método de Gram-Schmidt.md",
-    "Sistemas Operativos/API de Memoria.md",
-    "Algebra II/Autovalores y Autovectores.md",
-    "Algebra II/Coordenadas.md",
-    "Algebra II/Ortogonalidad.md",
-    "Algebra II/Subespacios de Matriz.md",
-    "Análisis de la Información/Modelos en la ingeniería de software.md",
-    "Análisis de la Información/Análisis de la Información.md",
+    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless and Mobility Impact on Higher-Layer Pro.md",
+    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless and Mobile Networks.md",
+    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/WiFi 802 11 Wireless LANs.md",
+    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Mobility Management Principles.md",
+    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Mobile IP.md",
+    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Managing Mobility in Cellular Networks.md",
+    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Introduction to Wireless Networks.md",
+    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Cellular Internet Access.md",
+    "Introducción a Sistemas Distribuidos/Transport Layer/Transport Layer.md",
+    "Introducción a Sistemas Distribuidos/Transport Layer/TCP Congestion Control.md",
+    "Introducción a Sistemas Distribuidos/Transport Layer/Principles of Reliable Data Transfer.md",
+    "Introducción a Sistemas Distribuidos/Transport Layer/Principles of Congestion Control.md",
+    "Introducción a Sistemas Distribuidos/Transport Layer/Multiplexing and Demultiplexing.md",
+    "Introducción a Sistemas Distribuidos/Transport Layer/Introduction and Transport-Layer Services.md",
+    "Introducción a Sistemas Distribuidos/Transport Layer/Connectionless Transport UDP.md",
+    "Introducción a Sistemas Distribuidos/Transport Layer/Connection-Oriented Transport TCP.md",
+    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/What’s Inside a Router.md",
+    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Network Layer Data Plane.md",
+    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Internet Protocol (IP) IPv4, Addressing, IPv6, and More.md",
+    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/Overview of Network Layer.md",
+    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/Generalized Forwarding and SDN.md",
+    "Introducción a Sistemas Distribuidos/The Network Layer Control Plane/The SDN Control Plane.md",
+    "Introducción a Sistemas Distribuidos/The Network Layer Control Plane/The Network Layer Control Plane.md",
+    "Introducción a Sistemas Distribuidos/The Network Layer Control Plane/Routing Among the ISPs BGP.md",
+    "Introducción a Sistemas Distribuidos/The Network Layer Control Plane/Routing Algorithms.md",
+    "Introducción a Sistemas Distribuidos/The Network Layer Control Plane/Network Management and SNMP.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",

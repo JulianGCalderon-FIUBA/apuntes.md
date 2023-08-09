@@ -1,6 +1,6 @@
 Cuando movemos un paquete con una dirección de envío y destino dentro del mismo **AS**, el camino que este sigue es totalmente determinado por el ***intra-AS routing protocol***. Para moverlo a través de multiples **AS**, necesitamos un ***inter-autonomous system routing protocol***. Todo el internet ejecuta el mismo ***inter-AS routing protocol***, llamado ***Border Gateway Protocol***, también conocido como ***BGP***. Es un protocolo descentralizado y asincrónico que utiliza *distance-vector routing*.
 
-# 1. The Role of BGP
+## 1. The Role of BGP
 
 En ***BGP*** los paquete no son enviados a una dirección especifica de destino, sino a ***CIDRized prefixes***. Cada uno de ellos puede representar una ***subred*** o una colección de ***subredes***. Las entradas de la tabla de envío serán de la forma *`(x,l)`* donde *`x`* es un prefijo *`(138.16.68/22)`* y *`l`* es un numero de interfaz de una de las interfaces del router.
 
@@ -9,23 +9,23 @@ El protocolo ***BGP*** provee una forma para que cada ***router:***
 1. Obtenga información de accesibilidad de un prefijo de sus ***ASs*** vecinos. Cada subred puede anunciar su existencia en el internet.
 2. Determine las mejores rutas a los prefijos. Para realizarlo, ejecuta localmente un procedimiento de selección de ***BGP***.
 
-# 2. Advertising BGP Route Information
+## 2. Advertising BGP Route Information
 
 Por cada *AS*, cada router puede ser un *gateway router* o un *internal router*. El primero esta en el borde del *AS* y puede comunicarse con uno o mas routers externos, mientras que el segundo se conecta únicamente a *hosts* y *routers* dentro del *AS*.
 
-Para anunciar la información de ***ruteo***, los ***routers*** intercambian información a través de una conexión semi-permanente de ***TCP*** a través del puerto 179. Este es conocida como una ***BGP connection***. 
+Para anunciar la información de ***ruteo***, los ***routers*** intercambian información a través de una conexión semi-permanente de ***TCP*** a través del puerto 179. Este es conocida como una ***BGP connection***.
 
 Aquellas conexiones entre dos ***ASs*** distintos se denominan ***external BGP connection (eGBP)***, mientras que las conexiones entre ***routers*** de un mismo ***ASs*** se denominan ***internal BGP connection (iGBP).*** Generalmente, hay una conexión ***eGBP*** por cada enlace que conecta de forma directa ***gateway routers*** en los distintos **AS**s, y una conexión **iBGP** entre cada ***router*** dentro del AS
 
 Los mensajes intercambiados son propagados a través de toda la red y contienen información de la ruta de ***ASs*** a tomar para llegar desde cualquier **router** a un prefijo *x*.
 
-# 3. Determining the Best Routes
+## 3. Determining the Best Routes
 
 Pueden existir multiples caminos a una misma subred de destino, a través de distintos **AS**. Para decidir un camino, cuando un ***router*** se anuncia a través de una conexión *BGP* incluye una serie de atributos, entre ellos ***AS-PATH*** y ***NEXT-HOP***.
 
 ***AS-PATH*** es una lista de ***ASs*** por el cual el mensaje atravesó, la cual es actualizada cada vez que el mensaje llega a un nuevo **AS**. La lista también sirve para detectar y prevenir anuncios en ***loops;*** si un ***router*** ve que su AS ya esta en la lista, ignora el anuncio.
 
-***NEXT-HOP*** tiene el valor de la dirección **IP** de la interfaz del ***router*** que comenzó el ***AS-PATH***. 
+***NEXT-HOP*** tiene el valor de la dirección **IP** de la interfaz del ***router*** que comenzó el ***AS-PATH***.
 
 ### Hot Potato Routing
 
@@ -42,7 +42,7 @@ En la practica, se utiliza un algoritmo mas complejo que incorpora ***hot potato
 3. De las rutas restantes, se utiliza ***hot potato routing***. Se selecciona la ruta con el ***router*** ***NEXT-HOP*** mas cercano.
 4. Si queda mas de una ruta, se utilizan identificadores ***BGP*** para seleccionar una.
 
-# 4. IP-Anycast
+## 4. IP-Anycast
 
 *BGP* también se utiliza para implementar el servicio *anycast* de *IP*, utilizado comúnmente en DNS. Es útil para replicar el mismo contenido en multiples servidores esparcidos geográficamente y que los usuarios accedan al servidor mas cercano.
 
@@ -50,13 +50,13 @@ Durante el estado de configuración del ***anycast***, la compañía ***CDN*** a
 
 En la practica, los ***CDNs*** eligen no usar ***IP-anycast*** ya que los cambios en el ruteo de ***BGP*** pueden resultar en distintos paquetes de la misma conexión ***TCP*** llegando a distintas instancias del servidor. Sin embargo, es utilizado or el sistema ***DNS*** para dirigir consultas ***DNS*** al servidor root ***DNS*** mas cercano.
 
-# 5. Routing Policy
+## 5. Routing Policy
 
 Usualmente los puntos de acceso no permiten el trafico externo (paquetes que atraviesan el punto sin tener ni origen ni destino en algún ***host*** de la ***subnet*** asociada). Para realizarlo, estos puntos de acceso no anuncian sus conexiones externas con otros **AS**, sino únicamente las conexiones internas. Nótese que únicamente es necesaria esta distinción para los ***multi-homed access point***.
 
-Los ***backbone provider networks*** no suelen querer gastar recursos en envíos de  paquetes externos a su red, entonces por regla general solo se permite el manejo de trafico de un flujo si el destino o el remitente se encuentran en esa red.
+Los ***backbone provider networks*** no suelen querer gastar recursos en envíos de paquetes externos a su red, entonces por regla general solo se permite el manejo de trafico de un flujo si el destino o el remitente se encuentran en esa red.
 
-## Why are there different ***inter-AS*** and ***intra-AS*** routing protocols?
+### Why are there different ***inter-AS*** and ***intra-AS*** routing protocols?
 
 Existen diversas razones:
 

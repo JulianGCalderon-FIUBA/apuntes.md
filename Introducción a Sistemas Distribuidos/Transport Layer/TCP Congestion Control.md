@@ -17,13 +17,13 @@ Ahora podremos definir el algoritmo de congestión de control de ***TCP,*** el c
 
 Cuando se inicia una conexión ***TCP***, se inicializa el valor de `cwdn` **con un valor pequeño, de usualmente *1 MSS*. En el estado de ***slow start*** el `cwdn` es aumentado en uno por cada ***ACK*** recibido, esencialmente duplicando la tasa de envío cada ***RTT***.
 
-Si ocurre un ***timer interrupt, se asigna*** `sstresh = cwnd/2` y se vuelve a establecer `cwdn`  al valor inicial, reiniciando el proceso. Cuando `cwnd` alcanza o sobrepasa `sstresh`, se avanza al estado de ***congestion avoidance mode***. Si se reciben tres duplicados, entonces ***TCP*** ingresa al estado de ***fast recovery***.
+Si ocurre un ***timer interrupt, se asigna*** `sstresh = cwnd/2` y se vuelve a establecer `cwdn` al valor inicial, reiniciando el proceso. Cuando `cwnd` alcanza o sobrepasa `sstresh`, se avanza al estado de ***congestion avoidance mode***. Si se reciben tres duplicados, entonces ***TCP*** ingresa al estado de ***fast recovery***.
 
 ## Congestion Avoidance
 
 En lugar de duplicar el valor de `cwdn` cada ***RTT***, ***TCP*** adopta un enfoque mas conservativo. Se aumenta ***1 MSS*** por cada ***RTT.***
 
-Cuando ocurre un ***timer interrupt***, se realiza lo mismo que en el estado de ***slow start.*** Ante la llegada de tres *duplicate ACKs*, se toma un enfoque menos drástico, en lugar de restablecer ***`cwdn`,* se reduce a la mitad. Ante cualquier *loss event*, se ingresa  al estado de *fast recovery*
+Cuando ocurre un ***timer interrupt***, se realiza lo mismo que en el estado de ***slow start.*** Ante la llegada de tres *duplicate ACKs*, se toma un enfoque menos drástico, en lugar de restablecer ***`cwdn`,* se reduce a la mitad. Ante cualquier *loss event*, se ingresa al estado de *fast recovery*
 
 ## Fast Recovery
 
@@ -49,21 +49,21 @@ Debido al comportamiento de cierra que presenta la tasa de producción, podemos 
 
 Para obtener altas velocidades de transmisión utilizando ***TCP***, debemos conseguir una muy baja probabilidad de perdida de paquetes (utilizando la formula vista anteriormente). Debido a esto, hoy en día se están investigando nuevas versiones de ***TCP*** especificas para ambientes de alta velocidad.
 
-# 1. Fairness
+## 1. Fairness
 
 Un mecanismo de control de congestión se dice que es justo si la tasa de transmisión promedio e común para todas las conexiones. Todas obtienen una porción equitativa del ancho de banda del enlace.
 
-Si bien el algoritmo de control de congestión en la teoría es justo. En la practica los ***hosts*** con menos ***RTT*** tienden a obtener mejor **throughput  que aquellos con mayor** RTT*.*
+Si bien el algoritmo de control de congestión en la teoría es justo. En la practica los ***hosts*** con menos ***RTT*** tienden a obtener mejor **throughput que aquellos con mayor** RTT*.*
 
-## Fairness and UDP
+### Fairness and UDP
 
 Muchas aplicaciones de multimedia prefieren utilizar ***UDP*** para que su tasa de transmisión no se vea entorpecida por el mecanismo de control de congestión. Desde la perspectiva de ***TCP,*** estas aplicaciones multimedia no están siendo justas con el resto de usuarios.
 
-## Fairness and Parallel TCP Connections
+### Fairness and Parallel TCP Connections
 
 Incluso si podemos forzar a que el trafico de ***UDP*** se comporte de forma justa, el problema no esta totalmente resuelto. Nada impide a una aplicación basada en ***TCP*** de utilizar multiples conexiones paralelas, efectivamente obteniendo una mayor porción del ***bandwidth*** en un medio congestionado.
 
-# 2. Explicit Congestion Notification (ECN): Network-assisted Congestion Control
+## 2. Explicit Congestion Notification (ECN): Network-assisted Congestion Control
 
 Recientemente, fueron surgieron extensiones de **IP** y ***TCP*** para permitir a la red señalar congestión en la red de forma explicita, a través de dos bits en el campo ***Type of Service*** del ***IP datagram***. Este tipo de congestion de control se conoce como ***explicit congestion notification***.
 

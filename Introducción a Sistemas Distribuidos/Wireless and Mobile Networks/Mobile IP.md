@@ -1,7 +1,7 @@
 La arquitectura de internet y los protocolos para soportar la movilidad, conocidos como ***mobile IP***, se definen principalmente en el ***RFC 5499*** para ***IPv4***. Este estándar consiste en tres elementos importantes:
 
 - ***Agent Discovery.*** Define los protocolos a utilizar para el agente local y el agente externo, para publicitar sus servicios a los nodos móviles, y los protocolos a utilizar para que los nodos móviles soliciten servicios a los agentes locales y externos.
-- ***Registration with the Home Agent.*** Define los protocolos usados  por los nodos móviles y los agentes externos para registrar y des-registrar ***COAs*** con un agente local.
+- ***Registration with the Home Agent.*** Define los protocolos usados por los nodos móviles y los agentes externos para registrar y des-registrar ***COAs*** con un agente local.
 - ***Indirect Routing of Datagrams:*** Define la forma en la que los datagramas son enviados a los nodos móviles, desde los agentes locales. Incluye reglas para el envío, manejo de errores, y diversas formas de encapsulación.
 
 Ademas, se deben considerar temas de seguridad, para evitar que un nodo malicioso se registre y cause que los datagramas destinados al usuario real, se destinen al nodo malicioso.

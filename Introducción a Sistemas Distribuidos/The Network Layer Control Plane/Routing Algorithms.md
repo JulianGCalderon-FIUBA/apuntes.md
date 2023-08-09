@@ -12,23 +12,23 @@ Una segunda forma de clasificarlos se según si son estáticos o dinámicos:
 
 Por último, podremos clasificar los algoritmos según si son ***load-sensitive*** o ***load-insensitive.*** En un algoritmo *load-sensitive*, los costos en los enlaces varían según el nivel de congestión de la red. Si un enlace tiene mucha congestión, se utilizará una ruta que evite ese enlace.
 
-# 1. The Link-State (LS) Routing Algorithm
+## 1. The Link-State (LS) Routing Algorithm
 
-En un algoritmo de LS se requiere que todos los nodos tengan información completa acerca de la red. Para esto, todos los nodos realizan un ***broadcast*** de su información. 
+En un algoritmo de LS se requiere que todos los nodos tengan información completa acerca de la red. Para esto, todos los nodos realizan un ***broadcast*** de su información.
 
 El algoritmo utilizado es el algoritmo de ***Dijkstra***. Una vez finalizado el algoritmo, la tabla de envío de cada nodo puede construirse a partir de almacenar para cada destino posible, el próximo nodo en el camino de menor longitud. La complejidad de este algoritmo es del orden de $O(n^2)$.
 
-Los algoritmos de ruteo pueden fallar, causando oscilaciones, cuando el costo de los enlaces depende de la cantidad de tráfico. Una solución es decir que el algoritmo no dependerá del tráfico, pero esta solución no es aceptable. 
+Los algoritmos de ruteo pueden fallar, causando oscilaciones, cuando el costo de los enlaces depende de la cantidad de tráfico. Una solución es decir que el algoritmo no dependerá del tráfico, pero esta solución no es aceptable.
 
 Otra solución es la de asegurar que no todos los routers ejecutarán el algoritmo al mismo tiempo. Curiosamente, los tiempos de sincronización de los ***routers*** pueden sincronizarse con el tiempo de forma automática. Debido a esto, se podría aleatorizar el tiempo en el que envía un ***link advertisement***.
 
-# 2. The Distance-Vector (DV) Routing Algorithm
+## 2. The Distance-Vector (DV) Routing Algorithm
 
 Este algoritmo es iterativo (el proceso continúa hasta que no haya más información para intercambiar entre los vecinos), asincrónico (el algoritmo no requiere que los nodos operen de forma bloqueante los unos con los otros), y distribuido (todos los nodos reciben cierta información, realizan una calculación, y reenvían la información al resto de la red). Curiosamente, el algoritmo es ***auto-terminante***. No hay una señal para la finalización, simplemente lo hace. Este algoritmo es utilizado por muchos protocolos de rutina en la práctica.
 
 Este algoritmo se desarrolló alrededor de la ecuación de ***Bellman-Ford***. Sea $dx(y)$ el camino de menor costo entre $x, y$. Entonces. $dx(y) = \min\{c(x,v) + dv(y): \forall v\}$, siendo $c(x,v)$ el costo de viajar desde el nodo $x$ a su adyacente $v$.
 
-## Distance-Vector (DV) Algorithm
+### Distance-Vector (DV) Algorithm
 
 Cada nodo $x$ mantiene la siguiente información de ruteo:
 
@@ -40,19 +40,19 @@ Cada cierto tiempo, cada nodo envía una copia de su vector de distancias a sus 
 
 Para actualizar la propia tabla de envío, se debe encontrar el nodo vecino siguiente en el camino de menor longitud. Este es, el vecino que alcance el mínimo en la ecuación de ***Bellman-Ford***.
 
-## Distance-Vector Algorithm: Link-Cost Chances and Link Failure
+### Distance-Vector Algorithm: Link-Cost Chances and Link Failure
 
 Cuando un nodo ejecutando este algoritmo detecta un cambio en el costo, entonces actualiza su vector de distancias. Si hay algún cambio en el camino óptimo para alguno de los posibles destinos, se le informa a los nodos vecinos.
 
 Es posible que se forme un bucle, en el cual un cambio local del vector de distancias cause que paquetes oscilan entres dos routers, hasta que el otro actualice su vector de distancias. Este problema es comúnmente referido como el ***count-to-infinity problem***.
 
-## Distance-Vector Algorithm: Adding Poisoned Reverse
+### Distance-Vector Algorithm: Adding Poisoned Reverse
 
 EL escenario descrito puede ser evitado utilizando una técnica conocida como ***poisoned reverse***. Cuando un router $z$ envía un paquete a $y$ para llegar a $x$, también le informa (miente) que su distancia a $x$ es infinito, evitando así que el router le devuelva el paquete enviado. Cuando $z$ actualiza su vector de distancias (cambiando así el ruteo de $z$ a $x$ para no pasar por $y$), entonces le informe del valor real de $dz(x)$.
 
 Lamentablemente, los bucle de más de dos nodos no son solucionados a partir de esta técnica.
 
-## A Comparison of LS and DV Routing Algorithms
+### A Comparison of LS and DV Routing Algorithms
 
 Podemos analizar la diferencia entre estos algoritmos bajo tres categorías:
 

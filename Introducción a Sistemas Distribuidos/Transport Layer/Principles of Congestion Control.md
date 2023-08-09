@@ -1,4 +1,4 @@
-# 1. The Causes and the Costs of Congestion
+## 1. The Causes and the Costs of Congestion
 
 A medida que la tasa de arribo de paquetes se acerca a la capacidad del medio, entonces se experimentan grandes ***queuing delays***.
 
@@ -8,7 +8,7 @@ Las retransmisiones innecesarias ante los grandes delays pueden causar que el ro
 
 Cuando un paquete es perdido a lo largo de un camino, la capacidad de transmisión utilizada en cada uno de los ***links*** que había enviado el paquete hasta ese punto termina siendo desperdiciada.
 
-# 2. Approaches to Congestion Control
+## 2. Approaches to Congestion Control
 
 Examinaremos algunos enfoques específicos de ***TCP para lidiar con el control de congestión.*** En el nivel mas alto, podemos distinguir los distintos enfoques según la asistencia que provee la capa de red para el control de congestión:
 

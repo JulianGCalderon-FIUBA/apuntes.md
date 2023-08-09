@@ -7,7 +7,7 @@ Ambos problemas se solucionan al organizar los ***routers*** en autonomous syste
 
 Los ***routers*** dentro de un mismo **AS** ejecutarán el mismo algoritmo de ruteo y compartirán información entre ellos. El protocolo de ruteo se llamará ***intra-autonomous system routing protocol***.
 
-# Open Shortest Path First (OSPF)
+## Open Shortest Path First (OSPF)
 
 ***OSPF*** routing es ampliamente usado para ***intra-AS routing*** en el internet. ***Open*** indica que el protocolo de rutina está públicamente disponible. Es un protocolo de ***link-state*** que utiliza ***broadcast*** y ***dijkstra*** para calcular el camino de menor costo en cada ***router***. Cada uno de ellos construye un mapa topológico completo del sistema. Los costos individuales son configurados por el administrador de red.
 

@@ -7,7 +7,7 @@ Podemos identificar cuatro componentes principales:
 
 Debido a la velocidad necesaria, los *input ports*, *output ports*, y el *switching fabric* suelen ser implementados por ***hardware***, mientras que las funciones del plano de control suelen estar implementadas por *software.*
 
-# 1. Input Port Processing and Destination-Based Forwarding
+## 1. Input Port Processing and Destination-Based Forwarding
 
 La tabla de envio es copiada del procesador a los ***input ports*** a través de un bus distinto, como un ***PCI bus***. De esta forma, las decisiones son toman localmente en cada ***input port***.
 
@@ -19,7 +19,7 @@ Una vez determinado el ***output port*** de un paquete, éste será enviado al *
 
 Aunque el proceso de ***lookup*** es el más importante, existen otras acciones que deben ser tomadas: procesamiento de cada fisica y de red, la versión del paquete, el ***checksum*** y el ***time-to-live*** del paquete deben ser verificados (y los últimos dos actualizados), los contadores utilizados para el manejo de red (como el contador de *datagrams* recibidos) deben ser actualizados.
 
-# 2. Switching
+## 2. Switching
 
 Existen diversas formas para cumplir esta funcionalidad:
 
@@ -27,19 +27,19 @@ Existen diversas formas para cumplir esta funcionalidad:
 - ***Switching via a bus:*** En este enfoque, el ***input port*** transfiere el paquete directamente al ***output*** a través de un ***bus*** compartido, sin ninguna intervención. El ***input port*** agrega un header al paquete indicando el puerto utilizado, el cual es posteriormente removido por el ***output port***. Al ser compartido, todos reciben el paquete, pero solo el indicado lo mantiene. Únicamente un único paquete puede atravesar el ***bus*** a la vez. Esta técnica suele ser suficiente para ***routers*** de áreas locales y redes empresariales.
 - ***Switching via an interconnection network:*** Se utiliza un ***crossbar switch*** en una red interconectada de $2N$ ***buses*** que conectan $N$ ***input ports con*** $N$ output ports. Esta técnica es no bloqueante, únicamente habrá espera si dos paquetes deben ser enviados al mismo ***output port***. Redes más sofisticadas de múltiples etapas se puede utilizar para permitir enviar múltiples paquetes al mismo ***link*** al mismo tiempo.
 
-# 3. Output Port Processing
+## 3. Output Port Processing
 
 El procesamiento de ***output ports*** toma paquetes almacenados en el ***buffer*** correspondiente y los transmite a través del ***link***.
 
-# 4. Where Does Queuing Occur?
+## 4. Where Does Queuing Occur?
 
 El encolamiento de paquetes puede ocurrir tanto en los puertos de entrada como en los de salida, aunque el lugar y la extensión de la espera dependerá del tráfico.
 
-## Input Delay
+### Input Delay
 
 Si el ***switch fabric*** no es suficientemente rápido como para transferir todos los paquetes recibidos, puede ocurrir encolamiento en los ***input ports***. Para el ***crossbar switch***, esto puede ocurrir cuando hay más de un paquete destinado a un ***output switch***. o cuando hay más de un paquete en un mismo ***input*** port. Este fenómeno se conoce como ***head-of-the-line blocking (HOL).***
 
-## Output Queuing
+### Output Queuing
 
 Si el ***output port*** no es suficientemente rápido como para enviar todos los paquetes que llegaron a su ***buffer***, entonces se producirá encolamiento en los ***output ports***. Eventualmente esta cola puede crecer lo suficiente como para ocupar todo espacio disponible, produciendo pérdida de paquetes.
 
@@ -47,19 +47,19 @@ Llegada a esta situación, se puede elegir eliminar el paquete reciente (políti
 
 Por muchos años, se creyó que una buena regla para la capacidad del ***buffer*** es de $RTT\cdot C$, siendo $C$ la capacidad del ***link y*** $RTT$ ***el round trip time*** promedio. Estudiamos más recientes sugieren que para conexiones con una gran cantidad de ***flujos***, la necesidad de una gran capacidad del ***buffer*** disminuye considerablemente.
 
-# 5. Packet Scheduling
+## 5. Packet Scheduling
 
 Existen múltiples técnicas para determinar el orden en que paquetes encolados son transmitidos a través del enlace de salida.
 
-## First-in-First-Out (FIFO)
+### First-in-First-Out (FIFO)
 
 Técnica simple que consiste en enviar los paquetes en el mismo orden en el que fueron encolados. También es conocida como ***first-come-first-server (FCFS)***
 
-## Priority Queuing
+### Priority Queuing
 
 Bajo esta política, los paquetes son clasificados cuando llegan al ***buffer*** en distintas clases, dependiendo de la prioridad. Los paquetes de información de la red o aplicaciones en vivo pueden recibir una prioridad más alta, mientras aquellas aplicaciones que otras tendrán una menor prioridad. Cada clase tendrá su propia cola, la cual será vaciada antes de seguir con la cola de la siguiente prioridad. Bajo técnicas *non-preemptive*, la transmisión de un paquete no es interrumpida una vez comenzó.
 
-## Round Robin and Weighted Fair Queuing
+### Round Robin and Weighted Fair Queuing
 
 Los paquetes son ordenados en clases, aunque un ***round robin scheduler*** se utilizará para alternar entre las clases. La disciplina ***work-conserving queuing*** nunca permitirá que un ***link*** permanezca inactivo mientras haya paquetes encolados para la transmisión.
 

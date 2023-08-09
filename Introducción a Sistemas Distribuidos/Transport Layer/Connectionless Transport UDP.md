@@ -7,13 +7,13 @@ DNS es un ejemplo de una protocolo de capa de aplicación que típicamente utili
 
 Existen múltiples razones por las cuales una aplicación preferiría utilizar ***UDP***, en especial aquellas aplicaciones de multimedia. Aunque es común, la utilización de ***UDP*** es controversial y a que no contiene un mecanismo de control de congestión.
 
-Cuando la tasa de pérdida de paquetes es baja, y con algunas organizaciones bloqueando el tráfico ***UDP*** por razones de seguridad, el protocolo ***TCP*** es cada vez más atractivo para el transporte de ***streaming media***. 
+Cuando la tasa de pérdida de paquetes es baja, y con algunas organizaciones bloqueando el tráfico ***UDP*** por razones de seguridad, el protocolo ***TCP*** es cada vez más atractivo para el transporte de ***streaming media***.
 
-# 1. UDP Segment Structure
+## 1. UDP Segment Structure
 
 Los datos de la aplicación ocupan el ***data field*** del segmento. El ***UDP header*** tiene únicamente cuatro campos, los primero dos son los mencionados anteriormente (dirección y puerto de destino). Luego, sigue el ***length field*** el cual tiene el largo explícito del segmento. Este es importante ya que puede variar entre un segmento y otro. El último campo, ***checksum,*** es utilizado para verificar si hubo algún error durante el envío del segmento
 
-# 2. UDP Checksum
+## 2. UDP Checksum
 
 El ***UDP checksum*** se utiliza para determinar si los ***bits*** dentro del segmento fueron alterador. Desde el lado del remitente, se realiza el complemento a uno de la suma de todas las palabras de ***16 bits*** en el segmento, dando la vuelta en caso de un **overflow**. Este valor se introduce en el campo de ***checksum***. Si el segmento llega correctamente, entonces la suma desde el lado del receptor debe tener los ***16 bits*** en *1*. Por lo que sabremos si hubo alguna alteración durante el envío.
 

@@ -1,6 +1,6 @@
 En esta sección, consideraremos las redes ***Multiprotocol Label Switching (MPLS)***. En lugar de las ***circuit-switched telephone networks, MLPS*** es una ***packet-switched, virtual-circuit network***. Tiene sus propios formatos de paquetes y comportamientos de envío.
 
-# 1. Multiprotocol Label Switching (MPLS)
+## 1. Multiprotocol Label Switching (MPLS)
 
 El objetivo no era abandonar la infraestructura centrada en direcciones de destino en **IP**, sino selectivamente etiquetar datagramas y permitir a los routers ***reenviarlos utilizando etiquetas de tamaño fijo siempre que sea posible.
 

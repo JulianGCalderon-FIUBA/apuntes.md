@@ -1,6 +1,6 @@
 El principal rol del ***data plane*** es el de enviar los ***datagrams*** de un ***input link*** al ***output link*** en cada ***router*** del camino. El principal rol del ***control plane*** es el de coordinar estos envíos para que los ***datagrams*** sean transferidos ***end-to-end***, a lo largo de los caminos de routers entre los ***hosts*** en comunicación.
 
-# 1. Forwarding and Routing: The Data and Control Planes
+## 1. Forwarding and Routing: The Data and Control Planes
 
 Podremos identificar dos funciones de capa de red importantes:
 
@@ -11,19 +11,19 @@ Un elemento clave para la capa de red es la ***forwarding table.*** El router ex
 
 Existen dos tipos principales de ***packet switches: Los*** link-layer switches ***basarán las decisiones de envió a partir de los valores del ***link-layer-frame***, mientras que los ***packet switches*** basarán las decisiones en los campos de cabecera del ***datagram***.
 
-## Control Plane: The Traditional Approach
+### Control Plane: The Traditional Approach
 
 Los **routing algorithms** determinan el contenido de la ***forwarding table***. Para hacerlo, se comunican con los algoritmos de otros ***routers*** intercambiando ***routing information*** de acuerdo a un ***routing protocol***, computando así su propia tabla.
 
-## Control Plane: The SDN Approach
+### Control Plane: The SDN Approach
 
-Otro enfoque utilizado para estos algoritmos es el de utilizar un controlador remoto, el cual calculará y distribuirá las ***forwarding tables*** a todos los ***routers***. En este caso, los ***routers*** únicamente realizan la operación de ***forwarding.*** 
+Otro enfoque utilizado para estos algoritmos es el de utilizar un controlador remoto, el cual calculará y distribuirá las ***forwarding tables*** a todos los ***routers***. En este caso, los ***routers*** únicamente realizan la operación de ***forwarding.***
 
 Estos controladores son implementados en un ***data center*** remoto con alta confiabilidad y redundancia, y puede ser administrado por un ISP ***o alguna otra organización. Para la comunicación entre los elementos, utilizaremos mensajes conteniendo ***forwarding tables*** y otras piezas ***de*** routing ***para comunicar los controladores con los ***routers***.
 
-Se dice que este enfoque es de ***software-defined networking (SDN),*** debido a que las  tablas computadas y la interacción entre ***routers*** se implementa en ***software***.
+Se dice que este enfoque es de ***software-defined networking (SDN),*** debido a que las tablas computadas y la interacción entre ***routers*** se implementa en ***software***.
 
-# 2. Network Service Model
+## 2. Network Service Model
 
 El modelo de servicio de red define las características del envío end-to-end entres dos ***hosts,*** estos pueden incluir:
 

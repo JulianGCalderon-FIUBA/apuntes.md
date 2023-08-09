@@ -1,6 +1,6 @@
 ¿Que es el internet? Podemos responder esta pregunta de diversas formas. La primera sería analizar el internet desde el ***software*** y ***hardware*** básico que lo compone, pero otro enfoque podría ser describir el internet como una infraestructura que provee un servicio a las aplicaciones distribuidas.
 
-# 1. A Nuts-and-Bolts Description
+## 1. A Nuts-and-Bolts Description
 
 El internet es una red de computadoras que interconecta miles de millones de dispositivos. En la jerga del internet, todos estos dispositivos se denominan ***hosts*** o ***end systems.***
 
@@ -16,7 +16,7 @@ Las piezas del internet utilizan protocolos para controlar el envió y la recepc
 
 Es importante que todos estén de acuerdo en que hace cada uno protocolo, para que se puedan crear sistemas que operen entre sí. Estos protocolos están definidos en documentos con estándares ***IEFT***, conocidos como ***RFC***s (requests for comments).
 
-# 2. A Service Description
+## 2. A Service Description
 
 Otra forma de describir el internet es como una infraestructura que provee servicios a distintas aplicaciones.
 
@@ -24,9 +24,8 @@ Las aplicaciones que involucran múltiples dispositivos conectados se determinan
 
 Los ***end systems*** conectados a internet proveen una ***socket interface*** que indican como un programa ejecutándose en un dispositivo le pide a la infraestructura de internet de entregar información a un programa ejecutándose en otro dispositivo. Esta interfaz se compone de una serie de reglas que tiene que respetar el programa para poder comunicarse correctamente.
 
-# 3. What Is a Protocol?
+## 3. What Is a Protocol?
 
 Se necesitan dos (o más) entidades en comunicación siguiendo el mismo protocolo para lograr una tarea. Toda comunicación entre dos dispositivos se realiza siguiendo un protocolo.
 
 > Un protocolo define el formato y el orden de los mensajes intercambiados entre dos o más entidades en comunicación, así como las acciones que se toman en la recepción o envío de estos mensajes.
->

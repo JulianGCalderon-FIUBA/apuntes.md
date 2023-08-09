@@ -11,7 +11,7 @@ Muchas veces, el ***malware*** es ***self-replicating***. Una vez infecta un ***
 
 ## The Bad Guys Can Attack Servers and Network Infrastructure
 
-Otra amplia clase de las amenazas de seguridad son las conocidas ***DoS Attacks*** (***Denial-of-Service)***. Como sugiere el nombre, un ataque *DoS* busca dejar inutilizable un ***host, red , o componente de la infraestructura.***
+Otra amplia clase de las amenazas de seguridad son las conocidas ***DoS Attacks*** (***Denial-of-Service)***. Como sugiere el nombre, un ataque *DoS* busca dejar inutilizable un ***host, red, o componente de la infraestructura.***
 
 La mayoría de estos ataques recaen en tres categorías:
 
@@ -23,7 +23,7 @@ Si toda la fuente del ataque proviene de una sola computadora, entonces la red p
 
 ## The Bad Guys Can Sniff Packets
 
-Al colocar un receptor pasivo en la cercanía de un transmisor inalámbrico, podemos obtener una copia de todos los paquetes que son enviados. Estos dispositivos son conocidos como ***sniffers***, y 
+Al colocar un receptor pasivo en la cercanía de un transmisor inalámbrico, podemos obtener una copia de todos los paquetes que son enviados. Estos dispositivos son conocidos como ***sniffers***, y
 
 Los ***sniffers*** también son útiles en los ambientes cableados. Se colocan en el el ***access router*** e interceptan todos los mensajes que son enviados por allí.
 

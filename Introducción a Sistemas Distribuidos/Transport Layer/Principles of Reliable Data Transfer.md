@@ -2,15 +2,15 @@ La abstracción del servicio provista por las capas superiores es la de un canal
 
 Asumiremos a lo largo de esta discusión que los paquetes serán recibidos en el orden que fueron enviados, con algunos posiblemente siendo perdidos. Por otro lado, únicamente consideraremos el caso de ***unidirectional data transfer***, si bien el caso ***bidireccional*** no es conceptualmente más difícil, es más tedioso de explicar.
 
-# 1. Building a Reliable Data Transfer Protocol
+## 1. Building a Reliable Data Transfer Protocol
 
-## Reliable Data Transfer over a Perfectly Reliable Channel
+### Reliable Data Transfer over a Perfectly Reliable Channel
 
-El remitente simplemente acepta datos de la capa superior, crea un paquete conteniendo los datos y los envía a través del canal. Desde el lado del receptor, este recibe el paquete desde el canal subyacente, extrae los datos y se los envía a la capa superior. 
+El remitente simplemente acepta datos de la capa superior, crea un paquete conteniendo los datos y los envía a través del canal. Desde el lado del receptor, este recibe el paquete desde el canal subyacente, extrae los datos y se los envía a la capa superior.
 
 Al ser un canal confiable, no hay necesidad de enviar al remitente del mensaje algún tipo feedback de que los datos llegaron correctamente.
 
-## Reliable Data Transfer over a Channel with Bit Errors
+### Reliable Data Transfer over a Channel with Bit Errors
 
 Un modelo más realista es aquel que tienen en cuenta la corrupción de los ***bits*** en el envío del paquete. Un protocolo ***ARQ (Automatic Repeat reQuest)*** es aquel que utiliza tanto ***positive acknowledgments*** como ***negative acknowledgements.*** Tendremos tres características en estos tipos de protocolos.
 
@@ -30,17 +30,17 @@ Una simple solución a este último problema mencionado es el de agregar número
 
 Podríamos obtener el mismo efecto si en lugar de enviar ***NAK***, enviamos un ***ACK*** por el último paquete recibido correctamente. (agregándole también un número de secuencia). Si el remitente recibe dos ***ACK*** por el mismo paquete, sabrá que tiene que reenviar el paquete fallido.
 
-## Reliable Data Transfer over a Lossy Channel with Bit Errors
+### Reliable Data Transfer over a Lossy Channel with Bit Errors
 
 Supongamos que ahora, además de corrupción de bits, el canal subyacente puede perder paquetes (este no es un evento poco común en las redes de hoy en dia). Hay múltiples enfoques para lidiar con la pérdida de paquetes, nos centraremos en el que se enfoca en recuperar los paquetes perdidos desde el remitente.
 
-Supongamos que el ***paquete*** de enviado o si ***ACK*** correspondiente se pierde. En cualquier caso, no habrá ninguna respuesta de confirmación arribando al remitente. Si el remitente está dispuesto a esperar lo suficiente como para asegurarse que el paquete se perdió, entonces puede reenviarlo. 
+Supongamos que el ***paquete*** de enviado o si ***ACK*** correspondiente se pierde. En cualquier caso, no habrá ninguna respuesta de confirmación arribando al remitente. Si el remitente está dispuesto a esperar lo suficiente como para asegurarse que el paquete se perdió, entonces puede reenviarlo.
 
 El remitente debe reenviar el paquete lo más pronto posible, para asegurarse que el ***delay*** por la pérdida de paquetes sea lo menor posible. Usualmente, se toma un tiempo de espera tal que el paquete es probable que se haya perdido, aunque sin garantías. Esta técnica introduce la posibilidad de paquetes duplicados, pero podemos solucionarlas utilizando lo visto en anteriormente.
 
 Implementar un mecanismo de retransmisión requiere de un ***countdown timer***. El remitente deberá poder iniciar un ***timer*** con cada paquete enviado, responder a un ***timer interrupt***, y frenar un el ***timer***.
 
-# 2. Pipelined Reliable Data Transfer Protocols
+## 2. Pipelined Reliable Data Transfer Protocols
 
 La solución presentada anteriormente tiene un problema fundamental, su desempeño es muy bajo debido al protocolo ***stop-and-wait***. Si definimos ***utilization*** del remitente como la fracción de tiempo en la que está ocupado enviando ***bits*** a través del canal.
 
@@ -50,7 +50,7 @@ La solución a este problema es simple, en lugar de operar en un protocolo ***st
 - Tanto el emisor deberá ***bufferear*** los paquetes que aun no fueron confirmados. Esto también es necesario del lado del receptor.
 - El rango de números de secuencia y los requerimientos del ***buffer*** dependerán de la forma en la que el protocolo responden a los paquetes perdidos. Existen dos enfoques principales: ***Go-Back-N*** y ***Selective Repeat***.
 
-# 3. Go-Back-N (GBN)
+## 3. Go-Back-N (GBN)
 
 Este protocolo consiste en permitir que el remitente tenga un número máximo de $n$ de paquetes sin confirmación en el ***pipeline***. Este número suele ser denominado ***window size***, y el protocolo como ***sliding-window protocol***. Este número es limitado debido a que el campo del ***header*** tiene un tamaño fijo. *TCP* tiene un campo para el número de secuencia de 32 ***bits***, pero cuenta los ***bytes*** en el ***byte stream*** en lugar de los paquetes.
 
@@ -66,7 +66,7 @@ Como todos los datos deben ser entregados en orden, un receptor podría guardar 
 
 La implementación de este protocolo usualmente utiliza ***event-based programming***, ya que los distintos procedimientos son invocados según el resultado de distintos eventos asincrónicos.
 
-# 4. Selective Repeat (SR)
+## 4. Selective Repeat (SR)
 
 El protocolo ***GBN*** tiene la desventaja de que en redes con ***mucho delay***, pueden llegar a retransmitirse un gran número de paquetes de forma innecesaria. Como su nombre sugiere, estos protocolos consisten en selectivamente repetir únicamente aquellos paquetes que se perdieron. Se utiliza una ventana de tamaño $n$ tanto para el receptor como para el remitente.
 

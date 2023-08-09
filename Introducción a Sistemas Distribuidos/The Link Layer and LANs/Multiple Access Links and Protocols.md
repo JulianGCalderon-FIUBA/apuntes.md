@@ -1,12 +1,12 @@
 Un ***point-to-point link*** consiste en un único remitente en un extremo de enlace y un único receptor en el otro extremo del enlace. Existen multiples protocolos para el envío de información a través de este enlace, entre ellos: ***point-to-point protocol (PPP) y high-level data link control (HDLC)***.
 
-Un ***broadcast link*** puede tener multiples remitentes y receptores todos conectados al mismo canal compartido. Las computadoras tienen protocolos, llamados multiple access protocols, mediante los cuales se regulan las transmisiones dentro del canal compartido. Aunque técnicamente los nodos acceden mediante un adaptador, trataremos a los nodos directamente como  los remitentes y receptores.
+Un ***broadcast link*** puede tener multiples remitentes y receptores todos conectados al mismo canal compartido. Las computadoras tienen protocolos, llamados multiple access protocols, mediante los cuales se regulan las transmisiones dentro del canal compartido. Aunque técnicamente los nodos acceden mediante un adaptador, trataremos a los nodos directamente como los remitentes y receptores.
 
 Si dos nodos transmiten información al mismo tiempo, ambas señales colisionan, corrompiendo los datos. Debido a esto, debemos asegurar que las transmisiones de los nodos activos estén coordinadas de alguna forma.
 
 Los protocolos se pueden separar en tres categorías: *channel partitioning protocols, random access protocols, taking-turns protocols.*
 
-# 1. Channel Partitioning Protocols
+## 1. Channel Partitioning Protocols
 
 Un protocolo ***TDM*** divide el tiempo en ***time frames***, que a su vez son divididos en $n$ ***time slots***, siendo $n$ el numero de nodos conectados al canal. Cada uno de los ***time slots*** es asignado a uno de los nodos, por lo que solo puede transmitir información en momentos seleccionados
 
@@ -14,15 +14,15 @@ Un protocolo ***FDM*** divide el canal en $n$ rangos de frecuencia, creando efec
 
 Ambos protocolos son totalmente justos, pero tienen la desventaja de limitar la tasa de transmisión cuando hay un solo nodo enviando datos.
 
-Un tercer protocolo comúnmente utilizado es el de ***code division multiple access (CDMA)***. El protocolo le asigna a cada nodo un código diferente, el cual utilizara para codificar los datos de los bits que enviará. Si estos códigos se seleccionan cuidadosamente, se puede permitir que multiples nodos transmitan simultáneamente sin generar interferencia. 
+Un tercer protocolo comúnmente utilizado es el de ***code division multiple access (CDMA)***. El protocolo le asigna a cada nodo un código diferente, el cual utilizara para codificar los datos de los bits que enviará. Si estos códigos se seleccionan cuidadosamente, se puede permitir que multiples nodos transmitan simultáneamente sin generar interferencia.
 
-# 2. Random Access Protocols
+## 2. Random Access Protocols
 
 En este tipo de protocolos, los nodos transmiten datos a tasa completa a través del canal. Si ocurre una colisión, entonces reenviarán el paquete pero no inmediatamente. Si el tiempo de espera es el mismo, entonces ocurrirá una colisión nuevamente. Es por esto que los nodos esperarán tiempos aleatorios antes de reenviar el paquete.
 
 Existen muchos protocolos de este estilo, en esta sección estudiaremos los mas conocidos
 
-## Slotted ALOHA
+### Slotted ALOHA
 
 Las operaciones de cada nodo en el canal son simples:
 
@@ -34,13 +34,13 @@ Si hay un único nodo transmitiendo, este transmitirá información a la tasa co
 
 Consideraremos un ***successful slot*** cuando un solo nodo transmite un mensaje en este ***slot***. La eficiencia del protocolo se define como la fracción a largo plazo de los ***successful slots***. Si suponemos que todos los nodos siempre tienen un paquete para enviar, entonces la probabilidad de envío un successful slot sera de $Np(1-p)N-1$. Debemos hallar el $p$ que maximiza la expresión. Para $N$ tendiendo a infinito, la probabilidad de un ***slot exitoso*** será de únicamente $1/e=0.37$. Se esta utrilizando correctamente un tercio de la banda ancha total.
 
-## ALOHA
+### ALOHA
 
 El primer protocolo de ***ALOHA*** era desincronizado, por lo que los nodos no esperaban al comienzo de cada ***slot para enviar un paquete***. Si el paquete no es enviado con probabilidad $p$, en lguar de esperar al comienzo del próximo, entonces se espera un tiempo predeterminado de ***frame transmission time***.
 
 Si hacemos un analisis similar, encontramos que la maxima eficiencia sera la de $1/2e$, exactamente la mitad de la del protocolo anterior.
 
-## Carrier Sense Multiple Access (CSMA)
+### Carrier Sense Multiple Access (CSMA)
 
 El comportamiento de los nodos en ***ALOHA*** es independientemente del resto de nodos del canal, el protocolo ***CSMA*** tiene dos reglas importantes para mejorar la comunicación:
 
@@ -49,7 +49,7 @@ El comportamiento de los nodos en ***ALOHA*** es independientemente del resto de
 
 La razón por la cual, siguiendo la primera regla, pueden ocurrir colisiones, es debido a la existencia de ***channel propagation delay***. Dos nodos pueden transmitir a la vez por una fracción de tiempo sin darse cuenta.
 
-## CSMA with Collision Detection (CSMA/CD)
+### CSMA with Collision Detection (CSMA/CD)
 
 La segunda regla permite detectar las colisiones y reducir significativamente el tiempo perdido. Para determinar el tiempo de espera antes de volver a probar de transmitir, se utiliza el algoritmo de ***binary exponential backoff***.
 
@@ -57,9 +57,9 @@ Cuando se retransmite un paquete que ya experimento $n$ colisiones, el nodo toma
 
 Debido al tiempo de espera creciente por colisiones, este protocolo no sirve para aplicaciones de tiempo real
 
-collection avoidance May 20, 2023 
+collection avoidance May 20, 2023
 
-## CSMA/CD Efficiency
+### CSMA/CD Efficiency
 
 Cuando únicamente hay un nodo enviando información, la tasa de envió sera la maxima. Por el otro lado, si transmiten muchos nodos a la vez, la eficiencia sera mucho menor.
 
@@ -71,13 +71,13 @@ $$
 
 Si el tiempo de propagación es muy chico, la eficiencia tenderá a cero. Esto tiene sentido ya que no habra nodos transmitiendo a la vez. Si el tiempo de transmisión es muy grande, entonces una vez que un nodo obtiene control del canal, lo usara por mucho tiempo. De esta forma obtendremos una alto porcentaje de canal utrilizado exitosamente
 
-# 3. Taking-Turns Protocols
+## 3. Taking-Turns Protocols
 
 Nuevamente, hay muchos protocolos de este estilo. Discutiremos los dos mas importantes. El primero fue el ***polling protocol***. Este protocolo requiere que uno de los nodos del canal sea el ***master node***. Este será el encargado de seleccionar cada uno de los nodos utilizando ***round-robin***. El ***master node*** le indicará a cada uno de los nodos del canal, la maxima cantidad de ***frames*** que puede enviar y en que momento, de forma cíclica y continua.
 
 Este protocolo permite aprovechar los nodos inactivos permitiendo una eficiencia mucho mayor, pero con algunas desventajas. La primera es que se debe introducir un **polling delay**, necesario para notificar al próximo nodo que puede enviar información. Una segunda desventaja importante es que si falla el nodo maestro, el canal entero se vuelve inoperante.
 
-Un segundo protocolo conocido como ***token-passing protocol*** c**onsiste en la existencia de un ***frame*** de propósito especial que es intercambiado entre los nodos en un orden fijo y cíclico (cada nodo se lo envía al siguiente). 
+Un segundo protocolo conocido como ***token-passing protocol*** c**onsiste en la existencia de un ***frame*** de propósito especial que es intercambiado entre los nodos en un orden fijo y cíclico (cada nodo se lo envía al siguiente).
 
 Los nodos pueden únicamente enviar información si tienen el ***token***, y puede enviar hasta un máximo definido antes de tener que devolver el ***token***. Si un nodo no tiene información a enviar, entonces únicamente reenvía el ***token***.
 
@@ -85,7 +85,7 @@ Algunas desventajas de este protocolo es que si un nodo falla, el canal completo
 
 Está tecnología sirve para tiempo real, pero no es utilizada de esta forma hoy en dia. Por encima de ethernet, se utiliza el protocolo *Token Bus* para prevenir colisiones.
 
-# 4. DOCSIS: The Link-Layer Protocol for Cable Internet Access
+## 4. DOCSIS: The Link-Layer Protocol for Cable Internet Access
 
 Recordemos que una ***cable access network*** típicamente consiste en miles de ***residential cable modems conectados a un único*** cable modem termination system (CMTS). ***DOCSIS*** utiliza FDM para dividir el ***downstream*** (con el ***CMTS*** como único remitente) y el ***upstream***. Debido a que en el ***downstream*** hay un único remitente, no es necesario prevenir colisiones.
 

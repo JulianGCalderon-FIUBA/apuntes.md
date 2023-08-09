@@ -1,6 +1,6 @@
 Un protocolo de cada de transporte provee comunicación lógica entre procesos ejecutándose en diferentes ***hosts***. Con ***comunicación lógica***, nos referimos a que desde la perspectiva de la aplicación, es como si ambos ***hosts*** estén directamente conectados.
 
-# 1. Relationship Between Transport and Network Layers
+## 1. Relationship Between Transport and Network Layers
 
 Mientras que el protocolo de capa de transporte provee comunicación lógica entre procesos ejecutándose en distintos ***hosts***, un protocolo de capa de red provee comunicación lógica entre los ***hosts***.
 
@@ -8,9 +8,9 @@ Dentro de un ***end system***, un protocolo de transporte mueve los mensajes des
 
 Una red de computadores ofrece múltiples protocolos de transporte, con cada uno ofreciendo un modelo de servicios distinto a sus aplicaciones. Los servicios que estos protocolos proveen usualmente están limitados por los servicios del protocolo de red subyacente. Si un protocolo de red no puede proveer garantías de ***delay*** o ***bandwidth***, entonces la capa de transporte tampoco puede hacerlo.
 
-Sin embargo, algunos servicios  pueden ser ofrecidos por los protocolos de transporte incluso cuando la capa de transporte subyacente no lo hace. Por ejemplo, la capa de transporte puede ofrecer transferencia de datos confiable a una aplicación incluso cuando la red subyacente no lo es. Otro ejemplo es el de la encriptación para garantizar que los mensajes no sean leídos por intrusos.
+Sin embargo, algunos servicios pueden ser ofrecidos por los protocolos de transporte incluso cuando la capa de transporte subyacente no lo hace. Por ejemplo, la capa de transporte puede ofrecer transferencia de datos confiable a una aplicación incluso cuando la red subyacente no lo es. Otro ejemplo es el de la encriptación para garantizar que los mensajes no sean leídos por intrusos.
 
-# 2. Overview of the Transport Layer in the Internet
+## 2. Overview of the Transport Layer in the Internet
 
 El protocolo **IP** provee comunicación lógica entre *hosts*, ofrece un servicio de ***best-effort delivery***, esto significa que el protocolo hará su mejor esfuerzo para entregar la información, pero que puede garantizar nada. Debido a esto, se dice que el protocolo **IP** es un ***unreliable service***.
 

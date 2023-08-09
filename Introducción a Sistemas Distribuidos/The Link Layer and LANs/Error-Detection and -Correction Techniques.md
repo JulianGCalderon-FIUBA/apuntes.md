@@ -1,6 +1,6 @@
 Incluso con el uso de *EDC bits (error detection and correction bits)*, un remitente puede enviar un datagrama corrupto a la capa de red, inconsciente de que los contenidos del paquete fueron corrompidos. Analizaremos tres técnicas conocidas:
 
-# 1. Parity Checks
+## 1. Parity Checks
 
 El remitente incluye un bit adicional que indica que la cantidad de unos del paquete completo es un par (o impar) (esto incluye el propio bit de paridad). Si ocurre una cantidad impar de errores, entonces este error es suficiente. Si este numero es par, entonces no se detectara el error.
 
@@ -14,13 +14,13 @@ Si ocurre un solo error, entonces podremos utilizar la combinación de filas y c
 
 La habilidad del receptor de detectar los errores y poder corregirlos se conoce como ***forward error correction (FEC)***. Son usualmente utilizadas en dispositivos de almacenamiento y reproducción de audios.
 
-# 2. Checksumming Methods
+## 2. Checksumming Methods
 
 En estas técnicas, los **frames** son tratados como una secuencia de ***k-bit*** integers***.*** Se suman los enteros y el resultado es guardado en los *bits de EDC.*
 
 El checksum de internet es basado en este enfoque, donde se toman enteros de 16 bits para los datos del paquete, se suman, y su complemento a 1 es guardado en el ***checksum***. De esta forma, si sumas los datos del paquete, deberías obtener todos los bits en 1. Si ocurrió un error, se tendrá al menos un bit en 0.
 
-# 3. Cyclic Redundancy Check (CRC)
+## 3. Cyclic Redundancy Check (CRC)
 
 Esta técnica consisten en la utilización de **cyclic redundancy check codes**, conocidos como ***polynomial codes***.
 

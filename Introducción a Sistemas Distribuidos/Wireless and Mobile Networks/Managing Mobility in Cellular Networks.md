@@ -5,7 +5,7 @@ Al igual que ***mobile IP***, ***GSM*** adopta un enfoque de ***indirect routing
 
 ![[Managing Mobility in Cellular Networks 1.png]]
 
-# 1. Routing Calls to a Mobile User
+## 1. Routing Calls to a Mobile User
 
 Consideremos un escenario simple para el caso de un usuario móvil residiendo en una red extranjera:
 
@@ -15,7 +15,7 @@ Consideremos un escenario simple para el caso de un usuario móvil residiendo en
 
 Cuando un dispositivo móvil entra a una red cubierta por un nuevo ***VLR***, este debe registrarse con la red visitada. El visited ***VLR*** envía una actualización de localización al ***HLR*** del móvil. Este informará la dirección de roaming del móvil, o la dirección del ***VLR.*** Ademas, el ***VLR*** obtiene información de subscripciones del ***HLR*** sobre el móvil para determinar que servicios deben ser acordados con el usuario.
 
-# 2. Handoffs in GSM
+## 2. Handoffs in GSM
 
 Un ***handoff*** ocurre cuando una estación móvil cambia su asociación de una estación base a otra durante una llamada. Esto puede ocurrir por otras diversas razones, ademas de la movilidad de un nodo, incluyendo que la señal de la estación actual deterioro lo suficiente y esta en peligro de perderse, o una celda fue sobrecargada y debe delegar móviles a otras celdas cercanas.
 
