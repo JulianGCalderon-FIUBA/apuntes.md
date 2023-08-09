@@ -48,9 +48,9 @@ $\text{Aumento: }\quad A = \frac{n_1\cdot x_i}{n_2\cdot x_o}$
 
 $\text{Focos:}$
 
-$f_o:(x_i\to\infty) = \frac {n_1\cdot R}{n_1 - n_2}\\
+$f_o:(x_i\to\infty) = \frac {n_1\cdot R}{n_1 - n_2}$
 
-f_i:(x_o\to\infty) = \frac {n_2\cdot R}{n_2 - n_1}$
+$f_i:(x_o\to\infty) = \frac {n_2\cdot R}{n_2 - n_1}$
 
 ### **Lentes**
 
@@ -151,23 +151,11 @@ $\xi_1 = A\cdot\sin(kx-\omega_1 t+\varphi_1)$
 
 $xi_2 = A\cdot\sin(kx-\omega_2 t+\varphi_2)$
 
-$\xi_{\text{tot}} = 2A$
+$\xi_{\text{tot}} = 2A \cdot \cos\bigg(\frac{\Delta k}2x -\frac{\Delta\omega}2t+\frac{\Delta\varphi}2\bigg) \cdot \cos\bigg(k_px-w_pt+\varphi_p\bigg)$
 
-$\cdot
+$omega_\text{Onda Moduladora} = \frac{w_2-w_1}2$
 
-\cos\bigg(\frac{\Delta k}2x -\frac{\Delta\omega}2t+\frac{\Delta\varphi}2\bigg)
-
-\\
-
-\cdot
-
-\cos\bigg(k_px-w_pt+\varphi_p\bigg)$
-
-$\omega_\text{Onda Moduladora} = \frac{w_2-w_1}2
-
-\\
-
-f_\text{Onda Moduladora} = \frac{f_2-f_1}2$
+$f_\text{Onda Moduladora} = \frac{f_2-f_1}2$
 
 $f_\text{Pulso} = \big|f_2-f_1\big|$
 
@@ -177,15 +165,7 @@ $f_\text{Pulso} = \big|f_2-f_1\big|$
 
 $\xi_1(x,t) = A_1\sin(kx_1-wt+\varphi_1)\\\xi_2(x,t) = A_2\sin(kx_2-wt+\varphi_2)$
 
-$\xi(x,t) = 2A
-
-\cdot
-
-\cos\bigg[kx_p - wt +\varphi_p\bigg]
-
-\cdot
-
-\cos\bigg[\frac{k\cdot\Delta x}{2}+\frac{\Delta\varphi}{2}\bigg]$
+$\xi(x,t) = 2A \cdot \cos\bigg[kx_p - wt +\varphi_p\bigg] \cdot \cos\bigg[\frac{k\cdot\Delta x}{2}+\frac{\Delta\varphi}{2}\bigg]$
 
 Diferencia de Fase $\implies\Delta = k\Delta x + \Delta\varphi \to[rad]$
 
@@ -225,9 +205,7 @@ $n=1,2,3,\cdots$ No Múltiplo de $N$:
 
 **Amplitud**
 
-$A = A_0\frac{\sin\Big(\frac{N\cdot k\cdot\Delta x}2\Big)}
-
-{\sin\Big(\frac{ k\cdot\Delta x}2\Big)}$
+$A = A_0\frac{\sin\Big(\frac{N\cdot k\cdot\Delta x}2\Big)} {\sin\Big(\frac{ k\cdot\Delta x}2\Big)}$
 
 **Intensidad**
 
@@ -285,15 +263,9 @@ $\frac da = \frac mn \to y_{max_m},y_n\text{ coinciden}$
 
 $\beta = \frac{a\pi\cdot\sin\theta}\lambda = \frac{ak\cdot\sin\theta}2$
 
-$I = I_0\cdot
+$I = I_0\cdot \frac{\sin^2\beta}{\beta^2}\cdot \frac{\sin^2(N\cdot\gamma)}{\sin^2\gamma}$
 
-\frac{\sin^2\beta}{\beta^2}\cdot
-
-\frac{\sin^2(N\cdot\gamma)}{\sin^2\gamma}$
-
-$\gamma= \frac{\delta}2 =
-
-\frac{dk\cdot\sin\theta}2$
+$\gamma= \frac{\delta}2 = \frac{dk\cdot\sin\theta}2$
 
 $I_{max} = N^2\cdot I_0$
 

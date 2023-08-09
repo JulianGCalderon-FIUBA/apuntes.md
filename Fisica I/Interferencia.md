@@ -24,7 +24,7 @@ $$
 
 **Interferencia Destructiva:** Ocurre cuando las dos ondas se anulan y la amplitud de la onda resultante es nula.
 
-# Experiencia de Young
+## Experiencia de Young
 
 Las fuentes $S_1,\,S_2$ son puntuales y monocromáticas. al provenir de la misma fuente, asumimos que $\Delta \varphi = 0$
 
@@ -42,7 +42,7 @@ $$
 \theta\ll\sin\theta\approx\tan\theta=\frac yD
 $$
 
-## Interferencia Constructiva
+### Interferencia Constructiva
 
 $$
 \cos(\delta/2) = 1
@@ -62,7 +62,7 @@ $$
 
 $n = \pm0,1,2,\cdots$
 
-## Interferencia Destructiva
+### Interferencia Destructiva
 
 $$
 \cos(\delta/2) = 0
@@ -82,7 +82,7 @@ $$
 
 $n = \pm1,2,3\cdots$
 
-# Diagrama Fasorial
+## Diagrama Fasorial
 
 Le asignamos a cada onda un fasor, y calculamos la suma de las ondas para llegar a la onda resultante.
 
@@ -126,13 +126,13 @@ $$
 ⟨I⟩ = 2I_0
 $$
 
-# Interferencia en $N$ rendijas
+## Interferencia en $N$ Rendijas
 
 Por el método fasorial, podemos deducir que los puntos de interferencia críticos.
 
 A medida que aumenta $N$, el ancho angular del pico principal disminuye y los máximos secundarios se vuelve cada vez mas chicos. La cantidad de máximos relativos que hay entre los máximos principales es de $[N-2]$
 
-## Máximos Principales
+### Máximos Principales
 
 Los máximos principales se encuentran cuando no hay variación de ángulo entre los fasores $:\cos(\delta/2) = 1$
 
@@ -144,7 +144,7 @@ $$
 \boxed{y_{max} = n\cdot\frac{\lambda\cdot D}d}
 $$
 
-## Mínimos
+### Mínimos
 
 En este tipo de interferencia, la cantidad de ceros en un intervalo de $2\pi$ es de $[N-1]$.
 
@@ -158,7 +158,7 @@ $$
 \boxed{y_{min} = \frac nN\cdot\frac{\lambda\cdot D}d}
 $$
 
-## Amplitud
+### Amplitud
 
 La amplitud inicial de la onda resultante por la suma de las $N$ ondas esta dada por la siguiente formula:
 
@@ -167,7 +167,7 @@ A = A_0\frac{\sin\Big(\frac{N\cdot k\cdot\Delta x}2\Big)}
 {\sin\Big(\frac{ k\cdot\Delta x}2\Big)}
 $$
 
-## Intensidad
+### Intensidad
 
 La intensidad de cada punto, para la interferencia de $N$ rendijas esta dada por la siguiente formula:
 

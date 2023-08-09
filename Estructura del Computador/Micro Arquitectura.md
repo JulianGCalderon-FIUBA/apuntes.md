@@ -76,7 +76,7 @@ No todos los registros se implementan de la misma forma, hay algunos con caracte
 - **Registro PC:** Los ultimos dos bits valen siempre 0, por lo que no necesita flip flops alli.
 - **Registro IR:** Tiene salidas especiales para cada campo, tiene comunicacion bit a bit. Esto permite analizar la instruccion a ejecutar.
 
-#### Alu
+#### ALU
 
 Para implementar las operaciones, utiliza dos componentes:
 

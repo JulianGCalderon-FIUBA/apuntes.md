@@ -12,7 +12,7 @@ $$
 \vec F(q, \vec r) = q\cdot \vec E(\vec r)
 $$
 
-# Campo Eléctrico de una Carga Puntual.
+## Campo Eléctrico de Una Carga Puntual.
 
 $$
 \vec E(\vec r) = qk\cdot\frac{(\vec r-\vec r')}{\|\vec r - \vec r'\|^3}
@@ -20,7 +20,6 @@ $$
 
 - Punto Campo: $\vec r: (x,y,z)$
 - Punto Fuente: $\vec r': (x,y,z)$
-
 - Carga Puntual: $q$
 - Constante: $k = 1/4\pi\epsilon_0$
 
@@ -32,7 +31,7 @@ $$
 
 Si la carga puntual es negativa, entonces el sentido del campo se invierte. Entrante a la carga negativa.
 
-# Campo Eléctrico de un conjunto de Cargas
+## Campo Eléctrico de Un Conjunto de Cargas
 
 Debido al principio de superposición, podemos sumar los campos eléctricos de cada carga puntual y llegar a la siguiente definición
 
@@ -40,7 +39,7 @@ $$
 \vec E(\vec r) = k\sum_{i}^nq_i\cdot\frac{(\vec r - \vec r_i)}{\|\vec r - \vec r_i\|^3}
 $$
 
-# Campo Eléctrico en una Distribución Continua
+## Campo Eléctrico en Una Distribución Continua
 
 Podemos pensar a este campo eléctrico como una suma de cargas infinitesimales. es decir, una integral
 
@@ -64,7 +63,7 @@ $$
 \vec E(\vec r) = k\iiint_V \rho(x', y', z')\cdot\frac{(\vec r - \vec r')}{\|\vec r - \vec r'\|^3}dx'dy'dz'
 $$
 
-# Líneas de Campo Eléctrico
+## Líneas de Campo Eléctrico
 
 Son curvas imaginarias de modo que su tangente en todo punto del espacio sea la dirección del campo eléctrico $E$. Al representar la dirección del campo, se pierde la información del modulo.
 

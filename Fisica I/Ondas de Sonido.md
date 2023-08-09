@@ -1,6 +1,6 @@
-# Presión
+## Presión
 
-Cuando una onda sonora viaja a través del aire, entonces las moléculas de aire cercanas a la onda  se desplazan. Esto causa que la densidad se modifique y varíe la presión del aire cercana al sonido. Esta variación de presión se visualiza como una onda armónica
+Cuando una onda sonora viaja a través del aire, entonces las moléculas de aire cercanas a la onda se desplazan. Esto causa que la densidad se modifique y varíe la presión del aire cercana al sonido. Esta variación de presión se visualiza como una onda armónica
 
 $$
 p(x,t) = p_o\sin(kx - wt - \frac\pi 2)
@@ -16,7 +16,7 @@ $$
 Pascal: Pa = \frac N{m^2}
 $$
 
-# Decibeles
+## Decibeles
 
 La frecuencia del sonido se encuentra entre $400Hz$ y $20000Hz$.
 
@@ -28,7 +28,7 @@ $$
 
 En decibeles, el rango es de $0$ a $120\,db$
 
-# Doppler
+## Doppler
 
 Este fenómeno ocurre cuando la fuente o el receptor están en movimiento.
 

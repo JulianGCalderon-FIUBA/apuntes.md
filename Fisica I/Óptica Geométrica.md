@@ -1,12 +1,12 @@
 La **luz** son rayos que viajan en línea recta, en medios transparentes. Pueden desviarse.
 
-# Postulados
+## Postulados
 
-## Propagación rectilinea
+### Propagación Rectilinea
 
 La **luz** se propaga en línea recta, se representa con una flecha que representa su dirección y sentido.
 
-## Reflexión
+### Reflexión
 
 El rayo incidente, el reflejado y la dirección normal a la superficie en el punto de incidencia están en el mismo plano (plano de incidencia). El ángulo se mide con respecto a la normal.
 
@@ -16,7 +16,7 @@ $$
 
 ![[Óptica Geométrica 1.png]]
 
-## Refracción
+### Refracción
 
 El rayo incidente, el refractado y la dirección normal a la superficie en el punto de incidencia están en el mismo plano (plano de incidencia).
 
@@ -32,7 +32,7 @@ El de mayor índice tiene menor ángulo.
 
 **Reflexión Total:** Ocurre cuando no hay luz refractada, $\displaystyle\theta_i > \theta_\text{crit},\quad\sin\theta_\text{crit} = \frac{n_r}{n_i}$
 
-# Superficies Planas
+## Superficies Planas
 
 Las superficies planas son las mas simples de analizar, se calculan las posiciones a partir de la ***Ley de Snell*** y la ***Ley de Reflexión.***
 
@@ -44,13 +44,13 @@ Reflexión
 
 Refracción
 
-# Angulo Visual
+## Angulo Visual
 
 Esta formado por el conjunto de rayos que parten de los extremos del objeto y llegan al ojo. A mayor distancia, menor ángulo visual. El campo del espejo es el espacio que puede verse por el espejo desde el punto en cuestión.
 
 ![[Óptica Geométrica 5.png]]
 
-# Prisma
+## Prisma
 
 Los distintos colores, tienen distintos indices de refracción. Por eso, al pasar luz blanca por un prisma, se puede observar un abanico de colores.
 
@@ -72,7 +72,7 @@ $$
 
 ![[Óptica Geométrica 6.png]]
 
-# Concavidad
+## Concavidad
 
 Los espejos cóncavos convergen la luz, mientras que lo convexos la divergen.
 

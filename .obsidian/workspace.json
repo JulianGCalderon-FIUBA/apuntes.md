@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica I/FORMULAS.md",
+                "file": "Estructura del Computador/Micro Arquitectura.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica I/FORMULAS.md",
+                "file": "Estructura del Computador/Micro Arquitectura.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica I/FORMULAS.md",
+                "file": "Estructura del Computador/Micro Arquitectura.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica I/FORMULAS.md",
+                "file": "Estructura del Computador/Micro Arquitectura.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica I/FORMULAS.md"
+                "file": "Estructura del Computador/Micro Arquitectura.md"
               }
             }
           },
@@ -158,12 +158,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 332.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,6 +176,25 @@
   },
   "active": "c42caadea4e53a08",
   "lastOpenFiles": [
+    "Estructura del Computador/Operaciones Basicas.md",
+    "Estructura del Computador/Micro Arquitectura.md",
+    "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
+    "Estructura del Computador/Circuitos.md",
+    "Fisica I/Trazado de Rayos.md",
+    "Fisica I/Trabajo y energia.md",
+    "Fisica I/Teoria de medida.md",
+    "Fisica I/Superposición de Onda.md",
+    "Fisica I/Sistema de referencia no inercial.md",
+    "Fisica I/Potencia.md",
+    "Fisica I/Óptica Geométrica.md",
+    "Fisica I/Ondas Mecánicas.md",
+    "Fisica I/Ondas de Sonido.md",
+    "Fisica I/Movimiento Circular.md",
+    "Fisica I/Movimiento armónico simple.md",
+    "Fisica I/Momento y Torque.md",
+    "Fisica I/Magnitudes escalares y vectoriales.md",
+    "Fisica I/Interferencia.md",
+    "Fisica I/FORMULAS.md",
     "Fisica I/Física I.md",
     "Fisica I/Energía en Ondas.md",
     "Fisica I/Energia CR.md",
@@ -184,25 +202,6 @@
     "Fisica I/Dinámica CR.md",
     "Fisica I/Dinamica.md",
     "Fisica I/Difracción.md",
-    "Fisica I/Definición Óptica.md",
-    "Fisica I/Cuerpo Rígido.md",
-    "Fisica I/Coordenadas Intrínsecas.md",
-    "Fisica I/Colisiones.md",
-    "Fisica I/Cinemática CR.md",
-    "Estructura del Computador/Sistemas de Numeración.md",
-    "Estructura del Computador/Sistema ARC.md",
-    "Estructura del Computador/Simplificación de Funciones.md",
-    "Estructura del Computador/Representación (signo).md",
-    "Estructura del Computador/Registros y Contadores.md",
-    "Estructura del Computador/Punto Flotante.md",
-    "Estructura del Computador/Pasajes de Base.md",
-    "Estructura del Computador/Operaciones Basicas.md",
-    "Estructura del Computador/Micro Arquitectura.md",
-    "Estructura del Computador/Funciones Lógicas.md",
-    "Estructura del Computador/Estructura del Computador.md",
-    "Estructura del Computador/Compiladores y Ensambladores.md",
-    "Estructura del Computador/Circuitos Sincronicos.md",
-    "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",
