@@ -2,7 +2,7 @@
 
 ## Recursos Sobrantes y Saturados
 
-Cuando un recurso no tiene sobrante entonces se dice que este recurso es un recurso saturado. En otro caso, diremos que es un recurso sobrante. 
+Cuando un recurso no tiene sobrante entonces se dice que este recurso es un recurso saturado. En otro caso, diremos que es un recurso sobrante.
 
 Cuando aumentamos la disponibilidad de un recurso sobrante, podemos esperar que aumente el funcional, pero esto no ocurrirá siempre.
 
@@ -38,81 +38,81 @@ En el software *LINDO*, visualizaremos estos valores bajo la columna ***dual cos
 
 Si planteamos genéricamente un coeficiente $c_k$, podremos calcular los $z_j - c_j$ de las columnas afectadas para analizar el rango de coeficientes para el cual la solución sigue siendo estructuralmente la misma (intersección de las mismas restricciones).
 
-Si en lugar de analizar los coeficientes del funcional, queremos analizar el rango de variación de los términos independientes $b_k$, dependeremos del [[Planteo Dual|Planteo Dual]].
+Si en lugar de analizar los coeficientes del funcional, queremos analizar el rango de variación de los términos independientes $b_k$, dependeremos del ![[Planteo Dual]].
 
-Debido a que los términos independientes del planteo primal serán los coeficientes del planteo dual, podremos realizar un análisis de curva de oferta para el planteo dual. 
+Debido a que los términos independientes del planteo primal serán los coeficientes del planteo dual, podremos realizar un análisis de curva de oferta para el planteo dual.
 
 El rango de variación del coeficiente $c_j$ del problema dual, sera el rango de variación del termino independiente $b_i$ asociado en el problema primal.  Recordemos que el termino independiente de la restricción $j$ del problema primal sera el coeficiente $c_j$ del problema dual.
 
 - ***Rango de Variación***
-    
+
     Partiremos de una tabla optima para un problema dado
-    
+
     |  |  |  | $2$ | $2$ | $5$ | $0$ | $0$ |
     | --- | --- | --- | --- | --- | --- | --- | --- |
     | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
     | $2$ | $x_2$ | $3.5$ | $-1.5$ | $1$ | $0$ | $-0.5$ | $0.5$ |
     | $5$ | $x_3$ | $6.5$ | $-0.5$ | $0$ | $1$ | $-0.5$ | $-0.5$ |
     |  |  | $39.5$ | $-7.5$ | $0$ | $0$ | $-3.5$ | $-1.5$ |
-    
+
     Ahora, plantearemos un valor genérico para $c_2$ y analizaremos los $z_j - c_j$ para cada caso afectado, notemos que los elementos de la base no serán afectados, ya que su $z_j - c_j$ siempre será cero.
-    
+
     |  |  |  | $2$ | $c_2$ | $5$ | $0$ | $0$ |
     | --- | --- | --- | --- | --- | --- | --- | --- |
     | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
     | $c_2$ | $x_2$ | $3.5$ | $-1.5$ | $1$ | $0$ | $-0.5$ | $0.5$ |
     | $5$ | $x_3$ | $6.5$ | $-0.5$ | $0$ | $1$ | $-0.5$ | $-0.5$ |
     |  |  | $39.5$ | $-1.5c_2 - 4.5 $ | $0$ | $0$ | $-0.5c_2 -2.5$ | $0.5c_2 - 2.5$ |
-    
+
     Para que la solución sea algebraicamente la misma, entonces los $z_j - c_j$ deberán ser todos negativos (o positivos, en caso de que nos encontremos con un problema de maximización)
-    
+
     $$
     -1.5c_2 - 4.5 \leq 0 \implies c_2 \geq -3
     $$
-    
+
     $$
     -0.5c_2 - 2.5 \leq 0 \implies c_2 \geq -5
     $$
-    
+
     $$
     0.5c_2 - 2.5 \leq 0 \implies c_2 \leq 5
     $$
-    
+
     Luego, el rango de variación de $c_2$ sera de:
-    
+
     $$
     -3 \leq c_2 \leq 5
     $$
-    
+
     Este rango es únicamente válido si mantenemos el resto de coeficientes como constante, luego en análisis de variación se realizara de a un coeficiente a la vez.
-    
+
     Notemos que si hay algún $z_j - c_j$ fuera de la base con valor cero, estaremos ante soluciones alternativas, se considera este caso como aún estructuralmente equivalente (ya que una de las soluciones óptimas lo será, aunque surgirá otra).
-    
+
 - ***Análisis con LINDO***
-    
+
     En lindo, podremos visualizar el rango de variación para tanto los coeficientes del funcional como los términos independientes de las restricciones.
-    
+
     ```jsx
     RANGES IN WHICH THE BASIS IS UNCHANGED:
-    
+
     		  OBJ COEFFICIENT RANGES
-    
+
     VAR     CURRENT   ALLOWABLE  ALLOWABLE
     				 COEF     INCREASE   DECREASE
-    
+
     X1       8.0       2.0        3.0
     X2       10.0      6.0        2.0
-    
+
     		  RIGHTHAND SIDE RANGES
-    
+
     ROW      CURRENT   ALLOWABLE  ALLOWABLE
                RHS     INCREASE   DECREASE
-    
+
     AZ       600.0     200.0      100.0
     CR       600.0     INFINITY   200.0
     AL       800.0     100.0      200.0
     ```
-    
+
 
 ## Curva de Oferta
 
@@ -122,7 +122,7 @@ La forma de esta grafica será una función escalonada no decreciente (en caso d
 
 Para calcular la curva de oferta para un coeficiente $c_k$ y una variable $x_k$:
 
-1. Hallamos el rango de variación del coeficiente $c_k$ en la solución optima y el valor asociado $x_k$ 
+1. Hallamos el rango de variación del coeficiente $c_k$ en la solución optima y el valor asociado $x_k$
 2. Proponemos un nuevo $c_k$ para cada valor en los extremos del rango y calculamos la tabla en la solución alternativa.
 3. Repetimos el algoritmo hasta hallar todos los rangos faltantes (debemos ocupar el rango completo de los números reales)
 4. Graficamos la curva de oferta a partir de cada rango y el valor del $x_k$ asociado.
@@ -143,24 +143,24 @@ En los saltos de valor marginal, se encuentran soluciones alternativas. Ambos va
 
 Los rangos de variación no servirán, ya que estos planteaban una sola variable y el resto de valores permanecían constantes.
 
-Tenemos la posibilidad de aumentar el termino independiente de una restricción, reduciendo el termino independiente de otra. 
+Tenemos la posibilidad de aumentar el termino independiente de una restricción, reduciendo el termino independiente de otra.
 
 Para resolverlo, debemos (a partir de la relación entre los cambios de ambos términos) plantear genéricamente ambos términos, pero a partir de una sola variable.
 
 - ***Rango de Variación***
-    
+
     Sea $b_1$ el termino independiente original de la primera restricción, y $b_2$ el termino independiente original de la segunda restricción.
-    
+
     Luego, se nos ofrece intercambiar productos de $b_1$ a razón $\beta$ productos de $b_2$. Es decir, por cada unidad de $b_1$ que obtengamos, perderemos $\beta$ unidades de $b_2$.
-    
+
     Podremos plantear genéricamente los términos como:
-    
+
     $$
     b_1' \to b_1 + \alpha
     $$
-    
+
     $$
     b_2' \to b_2 - \beta\alpha
     $$
-    
+
     Una vez tenemos una sola variable, podremos hallar el rango de variación con las técnicas vistas anteriormente.

@@ -42,9 +42,9 @@ También puede sobre ajustar a los datos de entrada.
 
 Algunos modelos que implementan estas técnicas son:
 
-- [[AdaBoost|AdaBoost]]
-- [[Gradient Boost|Gradient Boost]]
-- [[XGBoost|XGBoost]]
+- ![[AdaBoost]]
+- ![[Gradient Boost]]
+- ![[XGBoost]]
 
 ## Ensambles Híbridos
 

@@ -8,6 +8,6 @@ $$
 
 ## Métodos de Búsqueda
 
-- [[Bisección|Bisección]]
-- [[Iteracion en un Punto Fijo|Iteracion en un Punto Fijo]]
-- [[Newton-Raphson|Newton-Raphson]]
+- ![[Bisección]]
+- ![[Iteracion en un Punto Fijo]]
+- ![[Newton-Raphson]]

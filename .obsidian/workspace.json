@@ -4,42 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "39685dd574e99dd1",
+        "id": "4d4b85b09594899f",
         "type": "tabs",
-        "dimension": 50.72674418604651,
         "children": [
           {
-            "id": "1a45e0e2eb723714",
+            "id": "c42caadea4e53a08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
+                "file": "Análisis Matemático II/Extremos de campos escalares.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             },
-            "group": "cbc33e7c2ca0aef2"
+            "group": "ba25c5d20ccbf2ba"
           }
         ]
       },
       {
-        "id": "d0a08538dc1c9ffc",
+        "id": "647fde7a45cfbc64",
         "type": "tabs",
-        "dimension": 49.27325581395349,
         "children": [
           {
-            "id": "85b1a160e80f2d3a",
+            "id": "1efd7f3bdbb161a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
+                "file": "Análisis Matemático II/Extremos de campos escalares.md",
                 "mode": "preview",
                 "source": true
               }
             },
-            "group": "cbc33e7c2ca0aef2"
+            "group": "ba25c5d20ccbf2ba"
           }
         ]
       }
@@ -107,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
+                "file": "Análisis Matemático II/Extremos de campos escalares.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
+                "file": "Análisis Matemático II/Extremos de campos escalares.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md"
+                "file": "Análisis Matemático II/Extremos de campos escalares.md"
               }
             }
           },
@@ -177,13 +175,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a45e0e2eb723714",
+  "active": "c42caadea4e53a08",
   "lastOpenFiles": [
+    "Análisis Matemático II/Extremos Condicionados.md",
+    "Análisis Matemático II/Ecuaciones Diferenciales 2.md",
+    "Análisis Matemático II/Ecuaciones Diferenciales.md",
+    "Análisis Matemático II/Diferenciabilidad.md",
+    "Análisis Matemático II/Derivadas.md",
+    "Análisis Matemático II/Curvas y superficies.md",
+    "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
     "Análisis Matemático II/Cónicas.md",
     "Análisis Matemático II/Cuádricas.md",
-    "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
     "Algoritmos II/Algoritmos II.md",
-    "Análisis Matemático II/Curvas y superficies.md",
     "Análisis Matemático II/Análisis Matemático II.md",
     "Fisica I/Trabajo y energia.md",
     "Análisis Matemático II/Topología.md",
@@ -200,11 +203,6 @@
     "Análisis de la Información/Requirement Specification vs User Stories.md",
     "Análisis de la Información/PSA.md",
     "Análisis de la Información/Prototipado y Experiencia de Usuario.md",
-    "Análisis de la Información/Modelos en la ingeniería de software.md",
-    "Análisis de la Información/Modelados de Dominio.md",
-    "Análisis de la Información/Introducción al Diseño de Software.md",
-    "Análisis de la Información/Introducción a la Ingeniería de Software.md",
-    "Análisis de la Información/Interfaces de Usuario.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",

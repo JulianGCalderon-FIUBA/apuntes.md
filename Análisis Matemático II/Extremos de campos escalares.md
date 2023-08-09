@@ -1,23 +1,22 @@
 Sea $f: D\subset\mathbb{R}^n \to \mathbb{R}$, En $\vec x_0$ se localiza un:
 
-- Minimo Absoluto:   $f(\vec x_0) \leq f(\vec x)$ para $\vec x \in D$
-- Minimo Relativo:     $f(\vec x_0) \leq f(\vec x)$ para $\vec x$ en un entorno de $\vec x_0$
-
-- Minimo Absoluto:   $f(\vec x_0) \geq f(\vec x)$ para $\vec x \in D$
-- Minimo Relativo:     $f(\vec x_0) \geq f(\vec x)$ para $\vec x$ en un entorno de $\vec x_0$
+- Minimo Absoluto: $f(\vec x_0) \leq f(\vec x)$ para $\vec x \in D$
+- Minimo Relativo: $f(\vec x_0) \leq f(\vec x)$ para $\vec x$ en un entorno de $\vec x_0$
+- Minimo Absoluto: $f(\vec x_0) \geq f(\vec x)$ para $\vec x \in D$
+- Minimo Relativo: $f(\vec x_0) \geq f(\vec x)$ para $\vec x$ en un entorno de $\vec x_0$
 
 Si $f$ es diferenciable en $\vec x_0$, el plano tangente a la curva en $\vec x_0$ (Siendo un maximo o un minimo) debera ser horizontal (Paralelo al plano $z=\text{cte}$). Entonces el gradiente es nulo.
 
-# Puntos Criticos
+## Puntos Criticos
 
 Son aquellos puntos del dominio donde puede que existan extremos
 
-- No Estacionarios:   Donde $f$ no es diferenciable
-- Estacionarios:         Donde $\nabla f = \vec 0$
+- No Estacionarios: Donde $f$ no es diferenciable
+- Estacionarios: Donde $\nabla f = \vec 0$
 
 Un punto estacionario pero que no es extremo se denomina **"punto silla"** o **"de ensilladura"**
 
-## Criterio del Hessiano
+### Criterio Del Hessiano
 
 El *determinante hessiano de* $f$ vale:
 
@@ -42,8 +41,7 @@ $$
 > [!note]
 > Si $\Delta H_f = 0$, No sirve el criterio
 
-
-### Tres Variables
+#### Tres Variables
 
 En el caso de tres variables, debemos **subdividir** el **Hessiano**:
 

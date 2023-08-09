@@ -73,4 +73,4 @@ El ***product owner*** es un representante del usuario que trabaja junto al equi
 Hay dos disciplinas relacionadas con la ingeniería de requisitos:
 
 - **Business Analysis:** Aplicación de conocimiento, técnicas y herramientas con el propósito de identificar problemas, determinar necesidades y formular y recomendar soluciones para satisfacerlas. Las soluciones no necesariamente incluyen ***software***.
-- **[[Design Thinking|Design Thinking]]**
+- **![[Design Thinking]]**

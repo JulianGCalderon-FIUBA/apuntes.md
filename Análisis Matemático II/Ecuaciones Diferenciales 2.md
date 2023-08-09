@@ -1,4 +1,4 @@
-# Diferencial Exacto
+## Diferencial Exacto
 
 Si la EDO no es de variables separables, entonces puedo tratar de escribir la ecuación de la forma
 
@@ -23,8 +23,7 @@ $$
 > [!note]
 > Un campo es conservativo si las derivadas segundas cruzadas de su función potencial son iguales, y el dominio es un conjunto simplemente conexo. $f'_{1y} = f'_{2x}\to\varphi''_{xy} = \varphi''_{yx}$
 
-
-## Factor Integrante
+### Factor Integrante
 
 Cuando la función potencial $\varphi$ no existe. podemos multiplicar la ecuación por un factor integrante para convertirla en un diferencial exacto.
 

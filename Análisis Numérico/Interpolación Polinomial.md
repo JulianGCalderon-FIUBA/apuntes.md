@@ -12,6 +12,6 @@ La interpolación polinomial consiste en que dicha función sea un polinomio, de
 
 ## Métodos de Interpolacion
 
-- [[Polinomio de Lagrange y Newton|Polinomio de Lagrange y Newton]]
-- [[Polinomio de Hermite|Polinomio de Hermite]]
-- [[Trazador Cúbico - Spline|Trazador Cúbico - Spline]]
+- ![[Polinomio de Lagrange y Newton]]
+- ![[Polinomio de Hermite]]
+- ![[Trazador Cúbico - Spline]]

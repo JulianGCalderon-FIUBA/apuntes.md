@@ -1,4 +1,4 @@
-# Funciones vectoriales
+## Funciones Vectoriales
 
 $$
 f(t) = (x, y, \cdots)
@@ -6,7 +6,7 @@ $$
 
 La derivada de una función vectorial se hace componente a componente, aplicando la definición de Análisis 1
 
-# Campos escalares
+## Campos Escalares
 
 $$
 f(x,y) = \cdots
@@ -20,9 +20,9 @@ $$
 
 La derivada direccional es un numero real que representa la pendiente de la recta tangente trazada en $(x_0, y_0, f(x_0, y_0)$ a la curva que se obtiene cortando la grafica de $f$ con una curva cuya traza en el plano $xy$ es la recta $(x,y) = (x_0, y_0) + h\vec v$, con $h \in R$.
 
-Una función no tiene porque ser continua en $x,y$ para ser derivable. En  cálculos de varias variables, estos conceptos son independientes entre si.
+Una función no tiene porque ser continua en $x,y$ para ser derivable. En cálculos de varias variables, estos conceptos son independientes entre si.
 
-# Derivadas parciales
+## Derivadas Parciales
 
 Cuando $\displaystyle\vec v = \underbrace{\vec e_k}_{\text{Canónico}}$, la derivada se llama parcial $\displaystyle \frac{\partial f}{\partial e_k}(\vec x)$
 
@@ -30,7 +30,7 @@ La derivada parcial $\partial$ se calcula derivando una sola variable y dejando 
 
 Si el dominio es mas delicado, se analiza por definición
 
-## Teorema de Schwarz
+### Teorema de Schwarz
 
 Si las derivadas (cruzadas) $f''_{xy}, f''_{yx}$ existen y son continuas, coinciden
 
@@ -38,7 +38,7 @@ $$
 f'''''_{xyyxy} = f'''''_{xxyyy}= \frac{\partial^5f(x,y)}{\partial x^2\partial y^3}
 $$
 
-# Gradiente
+## Gradiente
 
 Es un vector que indica la direccion en la cual el campo varia mas rapidamente.
 

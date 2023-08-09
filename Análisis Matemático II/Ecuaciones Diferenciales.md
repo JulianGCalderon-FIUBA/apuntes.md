@@ -1,6 +1,4 @@
-# EDO
-
-**Ecuaciones diferenciales ordinarias**:
+## Ecuaciones Diferenciales Ordinarias
 
 La incognita es una función de una sola variable, las derivadas que aparecen son ordinarias (no parciales)
 
@@ -10,7 +8,7 @@ $$
 
 El **Orden** de una EDO, es el orden de derivación mas alto que aparece en la *ecuación*.
 
-## Diferenciales
+### Diferenciales
 
 $$
 dy = y'dx,\quad\text{Newton}
@@ -20,7 +18,7 @@ $$
 \frac{dy}{dx} = y' ,\quad \text{Leibniz}
 $$
 
-## Resolver la EDO
+### Resolver la EDO
 
 Una **solución general** se contiene dos constantes de integración arbitrarias (es una familia de soluciones)
 
@@ -30,7 +28,7 @@ Una **solución singular** es una solución que verifica la ecuación, pero no p
 
 Vamos a estudiar ecuaciones diferenciales de orden $1$
 
-# Existencia y Unicidad
+## Existencia Y Unicidad
 
 $$
 \text{PVI }\begin{cases}y' = f(x,y)\\f(x_0) = y_0\end{cases}
