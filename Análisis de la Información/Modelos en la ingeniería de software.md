@@ -5,7 +5,7 @@ Un modelo es una simplificación de la realidad, construimos modelos para entend
 - Proveer un guía para la construcción de un sistema
 - Documentar las decisiones tomadas
 
-## Influencia del Lenguaje de Programación
+## Influencia del lenguaje de programación
 
 Idealmente, los modelos empleados en el análisis deberían reflejar el dominio del problema. Los modelos empleados en el diseño deberían reflejar las abstracciones naturales del lenguaje de programación.
 

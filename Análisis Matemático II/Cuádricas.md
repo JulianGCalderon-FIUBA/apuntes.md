@@ -38,11 +38,11 @@ $$
 
 Su forma, dependerá del valor de $d$
 
-### Hiperboloide de Una Hoja
+### Hiperboloide de una Hoja
 
 Si es positivo, se trata de un hiperboloide de una hoja ![[Cuádricas 4.png]]
 
-### Hiperboloide de Dos Hojas
+### Hiperboloide de dos Hojas
 
 Si es negativo, se trata de un hiperboloide de dos hojas ![[Cuádricas 5.png]]
 

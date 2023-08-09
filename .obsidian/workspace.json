@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Cuádricas.md",
+                "file": "Algebra II/Producto Interno.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Cuádricas.md",
+                "file": "Algebra II/Producto Interno.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Cuádricas.md",
+                "file": "Algebra II/Producto Interno.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Cuádricas.md",
+                "file": "Algebra II/Producto Interno.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Cuádricas.md"
+                "file": "Algebra II/Producto Interno.md"
               }
             }
           },
@@ -174,34 +174,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "c42caadea4e53a08",
   "lastOpenFiles": [
-    "Análisis Matemático II/Cónicas.md",
-    "Análisis Matemático II/Análisis Matemático II.md",
-    "Análisis de la Información/Web Rest API.md",
-    "Análisis de la Información/Verificar y Validar requerimientos.md",
-    "Análisis de la Información/Técnicas de Descubrimiento de Requisitos.md",
-    "Análisis de la Información/Técnicas de Análisis, Modelado y Especificación.md",
-    "Análisis de la Información/Taller de Análisis de Interesados.md",
-    "Análisis de la Información/Requisitos en Contexto.md",
-    "Análisis de la Información/Requirement Specification vs User Stories.md",
-    "Análisis de la Información/PSA.md",
-    "Análisis de la Información/Prototipado y Experiencia de Usuario.md",
+    "Algoritmos I/Argumentos del programa.md",
+    "Algoritmos I/Bibliotecas Personales.md",
+    "Algebra II/Transformaciones Lineales.md",
+    "Algebra II/Espacios Vectoriales.md",
+    "Algebra II/Ejemplos de T L.md",
+    "Algebra II/Operaciones entre Subespacios.md",
+    "Algebra II/Sistemas de E D Homogéneas.md",
+    "Algoritmos I/Algoritmos I.md",
+    "Algebra II/Método de Gram-Schmidt.md",
+    "Sistemas Operativos/API de Memoria.md",
+    "Algebra II/Autovalores y Autovectores.md",
+    "Algebra II/Coordenadas.md",
+    "Algebra II/Ortogonalidad.md",
+    "Algebra II/Subespacios de Matriz.md",
+    "Algebra II/Subespacios.md",
     "Análisis de la Información/Modelos en la ingeniería de software.md",
-    "Análisis de la Información/Modelados de Dominio.md",
-    "Análisis de la Información/Introducción al Diseño de Software.md",
-    "Análisis de la Información/Introducción a la Ingeniería de Software.md",
-    "Análisis de la Información/Innovación y Creatividad.md",
-    "Análisis de la Información/Interfaces de Usuario.md",
-    "Análisis de la Información/Ingeniería de Requisitos.md",
-    "Análisis de la Información/Historias de Usuario.md",
-    "Análisis de la Información/Historias de Dominio.md",
-    "Análisis de la Información/Gherkin.md",
-    "Análisis de la Información/Diseño de Datos.md",
-    "Análisis de la Información/Design Thinking.md",
-    "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
-    "Análisis de la Información/Arquitectura del Software.md",
     "Análisis de la Información/Análisis de la Información.md",
+    "Análisis de la Información/Historias de Usuario.md",
+    "Análisis Numérico/Análisis Numérico.md",
+    "Análisis de la Información/Arquitectura del Software.md",
+    "Análisis Numérico/Diferenciación Numérica.md",
+    "Análisis Numérico/Descomposición de Cholesky.md",
+    "Fisica I/Colisiones.md",
+    "Análisis Matemático II/Cuádricas.md",
+    "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
+    "Análisis Matemático II/Cónicas.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",

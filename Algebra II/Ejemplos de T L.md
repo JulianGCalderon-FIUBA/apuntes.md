@@ -59,7 +59,7 @@ $$
 \Sigma_{S_1 S_2}(v) = v - 2\Pi_{S_2 S_1}(v)
 $$
 
-## Cambio de Base
+## Cambio de base
 
 Aunque podemos usar los casos mas simples para definir una de las transformaciones mencionadas en la base canónica, es mas sencillo definirlas en las bases previamente definidas de $\Bbb V$ y utilizar matrices de cambio de bases para pasarlas a la base canonica
 
