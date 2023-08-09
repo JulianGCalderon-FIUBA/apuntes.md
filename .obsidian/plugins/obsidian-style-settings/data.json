@@ -11,5 +11,8 @@
   "minimal-style@@table-nowrap": false,
   "minimal-style@@row-hover": false,
   "minimal-style@@table-numbers": false,
-  "minimal-style@@maximize-tables-off": "maximize-tables"
+  "minimal-style@@maximize-tables-off": "maximize-tables",
+  "minimal-advanced@@styled-scrollbars": false,
+  "minimal-style@@active-line-on": true,
+  "minimal-style@@image-blend-light": false
 }

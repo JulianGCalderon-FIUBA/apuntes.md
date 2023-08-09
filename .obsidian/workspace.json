@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Organizacion de Datos/Ciencia de Datos.md",
+                "file": "Modelos y Optimización I/Método Simplex.md",
                 "mode": "source",
                 "source": true
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Organizacion de Datos/Ciencia de Datos.md",
+                "file": "Modelos y Optimización I/Método Simplex.md",
                 "mode": "preview",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/^\\t\\t- .+\\n\\t\\t[^-\\t]+",
+                "query": "/---",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Organizacion de Datos/Ciencia de Datos.md",
+                "file": "Modelos y Optimización I/Método Simplex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Organizacion de Datos/Ciencia de Datos.md",
+                "file": "Modelos y Optimización I/Método Simplex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Organizacion de Datos/Ciencia de Datos.md"
+                "file": "Modelos y Optimización I/Método Simplex.md"
               }
             }
           },
@@ -187,13 +187,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "178700d707526f5b",
+  "active": "54c1fa07ae0cf29e",
   "lastOpenFiles": [
+    "Organizacion de Datos/AdaBoost.md",
+    "Organizacion de Datos/Ciencia de Datos.md",
     "Matemática Discreta/Álgebra de Boole.md",
     "Organizacion de Datos/Arboles.md",
     "Modelos y Optimización I/Análisis de Sensibilidad.md",
     "Análisis Matemático II/Limites.md",
-    "Organizacion de Datos/Ciencia de Datos.md",
     "Estructura del Computador/Registros y Contadores.md",
     "Modelos y Optimización I/Variables Enteras.md",
     "Organizacion de Datos/Transformacion de Datos.md",
@@ -215,7 +216,6 @@
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Network Layer Data Plane.md",
     "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/What’s Inside a Router.md",
-    "Sistemas Operativos/Archivos y Directorios.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",

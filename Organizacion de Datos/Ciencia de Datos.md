@@ -37,9 +37,9 @@ La idea es crear modelos predictivos a partir de un conjunto de datos. Los model
 
 Los outliers son valores atipicos, debemos decir que hacer con estas observaciones. Hay distintas técnicas para lidiar con estos datos.
 
-## Correlacion entre Variables
+## Correlación entre Variables
 
-hay distintos tipos de correlacion:
+hay distintos tipos de correlación:
 
 - Positiva
 - Negativa
