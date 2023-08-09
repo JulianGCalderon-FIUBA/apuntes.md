@@ -44,10 +44,8 @@ $$
 Siguiendo esta lógica, podemos definir la $k$-esima diferencia dividida como
 
 $$
-\begin{gathered}
-f[x_i, x_{i+1}, \cdots x_{i+k}] = \\
+f[x_i, x_{i+1}, \cdots x_{i+k}] =
 \frac{f[x_{i+1}, x_{i+2}, \cdots, x_{i+k}] - f[x_{i}, x_{i+1}, \cdots, x_{i+k-1}]}{x_{i+k} - x_i}
-\end{gathered}
 $$
 
 ### Generalización

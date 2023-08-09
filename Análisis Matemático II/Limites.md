@@ -33,7 +33,9 @@ En los campos y funciones vectoriales, el calculo de limites se hace componente 
 Decimos que $\vec f(\vec x)$ es continua en $\vec x_0$ si:
 
 $$
+\begin{gathered}
 \exists\vec f(\vec x)\\\exists \lim_{\vec x\to \vec x_0} \vec f(\vec x) = \vec L\\\vec L = \vec f(\vec x_0)
+\end{gathered}
 $$
 
 Si $\vec f(\vec x)$ es continua todos los puntos de $A$, entonces la función es continua en $A$.

@@ -56,10 +56,12 @@ $$
 Definimos $\varphi(t_i, y_i, h) =  a_1k_1 + a_2k_2 + \cdots + a_nk_n$. Donde las constantes $k_i$ se definen como:
 
 $$
-k_1 = f(t_i, y_i) \\
-k_2 = f(t_i + p_1h, y_i +q_{11} k_1 h) \\
-k_3 = f(t_i + p_2h, y_i +q_{21}k_1h + q_{22} k_2h) \\
-k_4 = f(t_i + p_{n-1}h, y_i +q_{{n-1},1}k_1h + \cdots + q_{n-1,n-1}k_{n-1}h)
+\begin{align}
+&k_1 = f(t_i, y_i) \\
+&k_2 = f(t_i + p_1h, y_i +q_{11} k_1 h) \\
+&k_3 = f(t_i + p_2h, y_i +q_{21}k_1h + q_{22} k_2h) \\
+&k_4 = f(t_i + p_{n-1}h, y_i +q_{{n-1},1}k_1h + \cdots + q_{n-1,n-1}k_{n-1}h)
+\end{align}
 $$
 
 Donde $p_i, q_{ij}$ son constantes a determinar

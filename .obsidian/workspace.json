@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Numérico/Polinomio de Lagrange y Newton.md",
+                "file": "Análisis Matemático II/Integrales de Superficie.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Numérico/Polinomio de Lagrange y Newton.md",
+                "file": "Análisis Matemático II/Integrales de Superficie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Numérico/Polinomio de Lagrange y Newton.md",
+                "file": "Análisis Matemático II/Integrales de Superficie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Numérico/Polinomio de Lagrange y Newton.md"
+                "file": "Análisis Matemático II/Integrales de Superficie.md"
               }
             }
           },
@@ -178,6 +178,12 @@
   },
   "active": "5ab12f535df04990",
   "lastOpenFiles": [
+    "Análisis Matemático II/Integrales de Linea.md",
+    "Análisis Matemático II/Limites.md",
+    "Análisis Matemático II/Teoremas Integrales.md",
+    "Análisis Numérico/Búsqueda de Raíces.md",
+    "Análisis Numérico/Ecuaciones Diferenciales Ordinarias.md",
+    "Análisis Numérico/Polinomio de Lagrange y Newton.md",
     "Estructura del Computador/Operaciones Basicas.md",
     "Fisica I/Difracción.md",
     "Fisica I/Física I.md",
@@ -198,12 +204,6 @@
     "Matemática Discreta/Operaciones entre Grafos.md",
     "Modelos y Optimización I/Planteo Dual.md",
     "Modelos y Optimización I/Problemas Combinatorios.md",
-    "Probabilidad y Estadistica/Distribuciones Importantes.md",
-    "Probabilidad y Estadistica/Propiedades de V A.md",
-    "Probabilidad y Estadistica/Técnicas de Conteo.md",
-    "Análisis Matemático II/Rectas y Planos.md",
-    "Análisis Matemático II/Funciones Implicitas.md",
-    "Matemática Discreta/Álgebra de Conjuntos.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",

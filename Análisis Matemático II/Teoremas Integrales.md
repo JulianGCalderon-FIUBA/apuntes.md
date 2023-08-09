@@ -33,8 +33,10 @@ $$
 El rotor y la Divergencia se anulan entre si.
 
 $$
+\begin{gathered}
 \nabla\cdot(\nabla \times f) ) = 0\\
 \nabla\times (\nabla \cdot f) ) = 0
+\end{gathered}
 $$
 
 ## Teoremas Integrales
@@ -89,11 +91,13 @@ Sea $\vec f:D\subset \mathbb{R}^2\to\mathbb{R}^2$, y $C$ una curva plana cerrada
 El teorema de Green se utiliza para calcular la circulación en entornos de dos dimensiones. Aplicando lo mismo pero usando una superficie que sea totalmente parte del plano. La normal en este caso seria perpendicular al plano
 
 $$
+\begin{gathered}
 \vec F = \Big(f_1(x,y),\,f_2(x,y),\,0\Big)
 \\ \, \\
 \vec N = \big(0,\,0,\,1\big)
 \\ \, \\
 \nabla\times\vec F = \bigg(0,\,0,\,\frac{\partial f_2}{\partial x} - \frac{\partial f_1}{\partial y}\bigg)
+\end{gathered}
 $$
 
 ---
