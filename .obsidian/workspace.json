@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática Discreta/Álgebra de Boole.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\\color{",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática Discreta/Álgebra de Boole.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática Discreta/Álgebra de Boole.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática Discreta/Álgebra de Boole.md"
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md"
               }
             }
           },
@@ -165,8 +164,12 @@
   },
   "active": "a25fa245d1413477",
   "lastOpenFiles": [
-    "Algebra II/Producto Interno.md",
+    "Algebra II/Espacios Vectoriales.md",
     "Algebra II/Operaciones entre Subespacios.md",
+    "Algebra II/Transformaciones Lineales.md",
+    "Algebra II/Producto Interno.md",
+    "Física II/Ecuaciones de Maxwell.md",
+    "Matemática Discreta/Álgebra de Boole.md",
     "Algebra II/Autovalores y Autovectores.md",
     "Algebra II/Algebra II.md",
     "Organizacion de Datos/Redes Neuronales.md",
@@ -187,10 +190,6 @@
     "Análisis de la Información/Historias de Usuario.md",
     "Sistemas Operativos/Espacio de Direcciones.md",
     "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Error-Detection and -Correction Techniques.md",
-    "Organizacion de Datos/Ensambles.md",
-    "Fisica I/Dispositivos Opticos.md",
-    "Análisis Numérico/Diferenciación Numérica.md",
-    "Análisis Matemático II/Curvas y superficies.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
