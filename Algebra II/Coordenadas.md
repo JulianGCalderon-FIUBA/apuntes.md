@@ -21,4 +21,14 @@ $$
 \end{align*}
 $$
 
-A esta matriz se le llama, matriz de cambio de base de $B$ a $B'$. Y sirve para justamente, encontrar las coordenadas de cualquier vector respecto de $B'$, usando sus coordenadas respecto a $B$.
+A esta matriz se le llama, matriz de cambio de base de $B$ a $B'$. Y sirve para justamente, encontrar las coordenadas de cualquier vector respecto de $B'$, usando sus coordenadas respecto a $B$. Si multiplico la matriz por una coordenada en la base $B$, me devuelve la misma coordenada en la base $B’$
+
+$$
+M_B^e = \begin{bmatrix}
+v_1 | v_2 | \cdots | v_n
+\end{bmatrix} = (M_e^B)^{-1}
+$$
+
+$$
+M_B^{B'} = M_e^{B'}M_B^e
+$$

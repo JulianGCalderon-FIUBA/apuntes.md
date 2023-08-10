@@ -30,6 +30,7 @@ $$
 
 Si la dimension del núcleo es mayor a 0, entonces el sistema no es linealmente independiente.
 
+- $\text{Dim}(\text{Col}(A)) = \text{Dim}(\text{Fil}(A)) = \text{Rg}(A)$
 - $\text{Rg}(A) + \text{Dim}(\text{Nul}(A)) = n$
 - Si $\text{Nul}(B) \subseteq \text{Nul}(AB)$ y $\text{Col}(B) \cap \text{Nul}(A) = \{{0_{\Bbb K^n}}\}$, entonces $\text{Nul}(B) = \text{Nul}(AB)$
 - Si $\text{Col}(AB) \subseteq \text{Col}(A)$ y $\text{Rg}(B) = n$, entonces $\text{Col}(AB) = \text{Col}(A)$
