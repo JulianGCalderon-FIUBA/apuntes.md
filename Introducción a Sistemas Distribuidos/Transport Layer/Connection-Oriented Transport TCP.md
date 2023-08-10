@@ -135,14 +135,14 @@ Cualquiera de los dos procesos puede elegir terminar la conexión, al ocurrir es
 
 Durante la vida de una conexión ***TCP***, los ***hosts*** atraviesan distintos estados:
 
+#### Client State Diagram
+
 ![[Connection-Oriented Transport TCP 2.png]]
-
-Client State Diagram
-
-![[Connection-Oriented Transport TCP 3.png]]
-
-Server State Diagram
 
 El ultimo estado del cliente (***time wait***) se utiliza para reenviar un ***ack*** en caso de que este se haya perdido en la red.
 
 Cuando un cliente envía un ***SYN SEGMENT*** a una dirección y puerto en el que no hay ningún ***listening socket***, este le reenviará un segmento especial de ***reset*** con el ***RST*** bit en 1.
+
+#### Server State Diagram
+
+![[Connection-Oriented Transport TCP 3.png]]

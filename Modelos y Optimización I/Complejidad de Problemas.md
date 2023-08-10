@@ -58,4 +58,4 @@ El problema del milenio $P$ vs. $NP$. es aquel que busca definir si todo algorit
 
 ![[Complejidad de Problemas 1.png]]
 
-Diagrama de Euler para las clases de dificultad, según el resultado del problema
+En la imagen, vemos un diagrama de Euler para las clases de dificultad, según el resultado del problema
