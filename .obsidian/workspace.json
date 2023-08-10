@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis de la Información/Modelos en la ingeniería de software.md",
+                "file": "Algoritmos II/Grafos.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,9 +48,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path: Algoritmos /!\\[\\[.*?\\]\\]",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis de la Información/Modelos en la ingeniería de software.md"
+                "file": "Algoritmos II/Grafos.md"
               }
             }
           },
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis de la Información/Modelos en la ingeniería de software.md",
+                "file": "Algoritmos II/Grafos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis de la Información/Modelos en la ingeniería de software.md",
+                "file": "Algoritmos II/Grafos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +159,14 @@
   },
   "active": "a25fa245d1413477",
   "lastOpenFiles": [
+    "Matemática Discreta/Algoritmos.md",
+    "Algoritmos II/Arboles Auto Balanceados.md",
+    "Algoritmos II/Grafos.md",
+    "Organizacion de Datos/Algoritmos Genéticos.md",
+    "Análisis de la Información/Casos de Uso.md",
+    "Organizacion de Datos/Arboles.md",
     "Análisis de la Información/Modelados de Dominio.md",
+    "Análisis de la Información/Modelos en la ingeniería de software.md",
     "Análisis de la Información/Introducción al Diseño de Software.md",
     "Análisis de la Información/Introducción a la Ingeniería de Software.md",
     "Análisis de la Información/Interfaces de Usuario.md",
@@ -166,7 +174,6 @@
     "Análisis de la Información/Ingeniería de Requisitos.md",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
     "Análisis de la Información/Introducción a la Ingeniería de Software 1.md",
-    "Análisis de la Información/Modelos en la ingeniería de software.md",
     "Análisis de la Información/Análisis de la Información.md",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",
     "Análisis de la Información/Attachments/Historias de Usuario 6.png",
@@ -178,16 +185,10 @@
     "Análisis de la Información/Gherkin.md",
     "Análisis de la Información/Diseño de Datos.md",
     "Análisis de la Información/Design Thinking.md",
-    "Análisis de la Información/Casos de Uso.md",
     "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
     "Algoritmos II/Recursividad.md",
     "Análisis de la Información/Arquitectura del Software.md",
     "Algoritmos II/TDA.md",
-    "Algoritmos II/Punteros.md",
-    "Algoritmos II/Pilas, Colas y Listas.md",
-    "Algoritmos II/Memoria.md",
-    "Algoritmos II/Iteradores de Lista.md",
-    "Algoritmos II/Grafos.md",
     "Algoritmos II/Attachments/Machete - AAB.pdf",
     "Algoritmos I/Attachments/Recursividad 1.png",
     "Untitled.canvas",
