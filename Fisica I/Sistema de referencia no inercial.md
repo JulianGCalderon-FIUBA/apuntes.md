@@ -1,4 +1,4 @@
-Cuando se analiza en este sistema de referencia, las equaciones de Newton **NO** son validas
+Cuando se analiza en este sistema de referencia, las ecuaciones de Newton **NO** son validas
 
 Se usa para analizar el movimiento de un objeto en referencia a un sistema acelerado
 

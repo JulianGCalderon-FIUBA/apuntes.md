@@ -20,9 +20,7 @@ $$
 \displaystyle W = \int_{x_1}^{x_2} F_x dx
 $$
 
-![[Trabajo y energia 1.png]]
-
-![[Trabajo y energia 2.png]]
+![[Trabajo y energia 1.png]] ![[Trabajo y energia 2.png]]
 
 ## Energia
 

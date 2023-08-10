@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Integrales Triples.md",
-                "mode": "source",
+                "file": "Fisica I/Trabajo y energia.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Integrales Triples.md",
+                "file": "Fisica I/Trabajo y energia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Integrales Triples.md",
+                "file": "Fisica I/Trabajo y energia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Integrales Triples.md"
+                "file": "Fisica I/Trabajo y energia.md"
               }
             }
           },
@@ -166,6 +166,17 @@
   },
   "active": "52730347ee14ce39",
   "lastOpenFiles": [
+    "Fisica I/Física I.md",
+    "Fisica I/Sistema de referencia no inercial.md",
+    "Fisica I/Movimiento armónico simple.md",
+    "Fisica I/Dinamica.md",
+    "Fisica I/Movimiento Circular.md",
+    "Fisica I/Coordenadas Intrínsecas.md",
+    "Fisica I/Teoria de medida.md",
+    "Fisica I/Magnitudes escalares y vectoriales.md",
+    "Algebra II/Autovalores y Autovectores.md",
+    "Algebra II/Algebra II.md",
+    "Análisis Matemático II/Integrales Triples.md",
     "Análisis Matemático II/Integrales de Linea.md",
     "Análisis Matemático II/Polinomio de Taylor.md",
     "Análisis Matemático II/Derivadas.md",
@@ -173,8 +184,6 @@
     "Análisis Matemático II/Limites.md",
     "Análisis Matemático II/Funciones de varias variables.md",
     "Análisis Matemático II/Cuádricas.md",
-    "Algebra II/Autovalores y Autovectores.md",
-    "Algebra II/Algebra II.md",
     "Algebra II/Formas Cuadráticas.md",
     "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
     "Algebra II/Resumen - Álgebra II.md",
@@ -183,15 +192,6 @@
     "Algebra II/Subespacios de Matriz.md",
     "Algebra II/Sistemas de E D Homogéneas.md",
     "Algebra II/Método de Gram-Schmidt.md",
-    "Algebra II/Ortogonalidad.md",
-    "Algebra II/Producto Interno.md",
-    "Organizacion de Datos/Análisis de Sentimientos.md",
-    "Modelos y Optimización I/Modificaciones al Planteo.md",
-    "Algebra II/EDOs.md",
-    "Algebra II/Transformaciones Lineales.md",
-    "Algebra II/Operaciones entre Subespacios.md",
-    "Algebra II/Coordenadas.md",
-    "Física II/Física II.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
