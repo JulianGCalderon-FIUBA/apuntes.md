@@ -54,7 +54,7 @@ void eliminar_ordenado(vector_t vector, int *tope, elemento_t elemento){
 
 ### Búsqueda Lineal
 
-La búsqueda lineal, busca sucesivamente cada elemento de un arreglo, hasta encontrar el elemento buscado
+La búsqueda lineal busca sucesivamente cada elemento de un arreglo, hasta encontrar el elemento buscado
 
 ```c
 /*
@@ -81,7 +81,7 @@ int busqueda_lineal(vector_t vector, int tope, elemento_t elemento_buscado){
 
 ### Búsqueda Binaria
 
-La búsqueda binaria es un algoritmo mas eficiente para buscar elementos, cuando los elementos del arreglo están ordenados.
+La búsqueda binaria es un algoritmo más eficiente para buscar elementos, cuando los elementos del arreglo están ordenados.
 
 ```c
 /*
@@ -119,7 +119,7 @@ int busqueda_binaria(vector_t vector, int tope, elemento_t elemento_buscado){
 
 ### Selección
 
-Consta en buscar el elemento de menor valor del arreglo e intercambiarlo con el elemento que esta en la primer posición, repitiendo este algoritmo con el resto de posiciones hasta que todos los elementos estén ordenados.
+Consta en buscar el elemento de menor valor del arreglo e intercambiarlo con el elemento que está en la primera posición, repitiendo este algoritmo con el resto de posiciones hasta que todos los elementos estén ordenados.
 
 ```c
 // Ordena los elementos del vector, de forma ascendente.
@@ -143,7 +143,7 @@ void seleccion(vector_t vector, int tope){
 
 ### Burbujeo
 
-Este método consiste en ir comparando cada elemento del arreglo con su adyacente, e intercambiarlos si están en el orden incorrecto. Se repite esto hasta que el elemento mayor se encuentre en el extremo, y se repite la pasada hasta que el arreglo este ordenado.
+Este método consiste en ir comparando cada elemento del arreglo con su adyacente, e intercambiarlos si están en el orden incorrecto. Se repite esto hasta que el elemento mayor se encuentre en el extremo, y se repite la pasada hasta que el arreglo esté ordenado.
 
 ```c
 // Ordena los elementos del vector, de forma ascendente.

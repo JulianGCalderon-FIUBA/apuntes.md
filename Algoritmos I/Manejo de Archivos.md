@@ -104,7 +104,7 @@ Lee de un `stream` una entrada con formato `format` y lo almacena en los puntero
 int fprintf(FILE *stream, char *format, ...);
 ```
 
-Escribe en el puntero de un archivo de texto un `string` con format `format` con las variables especificadas `...`
+Escribe en el puntero de un archivo de texto un `string` con formato `format` con las variables especificadas `...`
 
 ### `fread`
 
@@ -128,13 +128,13 @@ Escribe en un `stream` una cantidad `count` de objetos binarios que ocupan una c
 size_t fseel(FILE *stream, int offset, int start);
 ```
 
-Sitúa el puntero del stream, desplazandolo una cantidad `offset` de bytes a partir de `start`
+Sitúa el puntero del *stream*, desplazándolo una cantidad `offset` de bytes a partir de `start`
 
 El parámetro `start` puede tomar tres valores:
 
-- `SEEK_SET`: Representa el comienzo del stream
-- `SEEL_CUR`: Representa la posición actual del stream
-- `SEEK_END`: Representa el fin del stream
+- `SEEK_SET`: Representa el comienzo del *stream*
+- `SEEL_CUR`: Representa la posición actual del *stream*
+- `SEEK_END`: Representa el fin del *stream*
 
 ## Operaciones sobre archivos
 
@@ -163,4 +163,4 @@ Renombra el archivo `old` por `new`
 	3. Cierro el archivo
 - Las rutas son constantes
 - Los archivos se leen una única vez
-- Es buena practica tener copia de los archivos mientras se trabaja con ellos, por seguridad
+- Es buena práctica tener copia de los archivos mientras se trabaja con ellos, por seguridad

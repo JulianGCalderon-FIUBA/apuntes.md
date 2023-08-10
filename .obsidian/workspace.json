@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmos I/Manejo de Archivos.md",
+                "file": "Algoritmos I/Recursividad.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmos I/Manejo de Archivos.md"
+                "file": "Algoritmos I/Recursividad.md"
               }
             }
           },
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmos I/Manejo de Archivos.md",
+                "file": "Algoritmos I/Recursividad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmos I/Manejo de Archivos.md",
+                "file": "Algoritmos I/Recursividad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,8 +156,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a25fa245d1413477",
+  "active": "178700d707526f5b",
   "lastOpenFiles": [
+    "Algoritmos I/Operaciones con Arreglos.md",
+    "Algoritmos I/Operaciones con archivos.md",
+    "Algoritmos I/Manejo de Archivos.md",
     "Algoritmos I/Conceptos Básicos.md",
     "Algoritmos I/Bibliotecas Personales.md",
     "Algoritmos I/Algoritmos I.md",
@@ -181,9 +184,6 @@
     "Algebra II/Algebra II.md",
     "Estructura del Computador/Estructura del Computador.md",
     "Estructura del Computador/Circuitos.md",
-    "Estructura del Computador/Memoria.md",
-    "Modelos y Optimización I/Modelos y Optimización I.md",
-    "Análisis Numérico/Bisección.md",
     "Algoritmos I/Attachments/Recursividad 1.png",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
