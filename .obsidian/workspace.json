@@ -11,8 +11,12 @@
             "id": "839479fcf3d1da0a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Física II/Circuito Electrico.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Física II/Circuito Electrico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Física II/Circuito Electrico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Física II/Circuito Electrico.md"
+              }
             }
           },
           {
@@ -156,7 +164,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "839479fcf3d1da0a",
   "lastOpenFiles": [
     "asdasd.md",
     "pro.md",
