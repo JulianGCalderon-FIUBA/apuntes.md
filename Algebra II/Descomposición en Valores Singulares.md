@@ -38,7 +38,7 @@ Podemos, a partir de este conjunto, definir el subespacio columna, fila, y nulo 
 
 $$
 \text{Col}(A) = \Big\{ \frac{Av_1}{\sigma_1},\ \frac{Av_2}{\sigma_2},\ \cdots,\ \frac{Av_k}{\sigma_k}\Big\}
-$$ 
+$$
 
 $$
 \text{Fil}(A) = \Big\{v_1,\ v_2,\ \cdots ,\ v_k\Big\}

@@ -10,6 +10,6 @@
 - [[Sistemas no Lineales]]
 - [[Diferenciación Numérica]]
 - [[Integración Numérica]]
-- [[Ecuaciones Diferenciales Ordinarias]]
+- [[Análisis Numérico/Ecuaciones Diferenciales Ordinarias]]
 - [[Ecuaciones Diferenciales de Orden Superior]]
 - [[Ecuaciones Diferenciales de Frontera]]

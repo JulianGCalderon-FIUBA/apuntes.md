@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Transformaciones Lineales.md",
+                "file": "Algebra II/Ecuaciones Diferenciales Ordinarias.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra II/Transformaciones Lineales.md"
+                "file": "Algebra II/Ecuaciones Diferenciales Ordinarias.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra II/Transformaciones Lineales.md",
+                "file": "Algebra II/Ecuaciones Diferenciales Ordinarias.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra II/Transformaciones Lineales.md",
+                "file": "Algebra II/Ecuaciones Diferenciales Ordinarias.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,10 +150,15 @@
   },
   "active": "a25fa245d1413477",
   "lastOpenFiles": [
+    "Algebra II/Ejemplos de Transformaciones Lineales.md",
+    "Algebra II/Ecuaciones Diferenciales Ordinarias.md",
+    "Algebra II/Descomposición en Valores Singulares.md",
+    "Algebra II/Coordenadas.md",
+    "Algebra II/Autovalores y Autovectores.md",
+    "Algebra II/Algebra II.md",
+    "Algebra II/Transformaciones Lineales.md",
     "Algebra II/Subespacios.md",
     "Algebra II/Ortogonalidad.md",
-    "Algebra II/Descomposición en Valores Singulares.md",
-    "Algebra II/Transformaciones Lineales.md",
     "Algebra II/Subespacios de Matriz.md",
     "Algebra II/Sistemas de E D Homogéneas.md",
     "Algebra II/Producto Interno.md",
@@ -162,11 +167,6 @@
     "Algebra II/Matrices Normales.md",
     "Algebra II/Formas Cuadráticas.md",
     "Algebra II/Espacios Vectoriales.md",
-    "Algebra II/Ejemplos de Transformaciones Lineales.md",
-    "Algebra II/EDOs.md",
-    "Algebra II/Coordenadas.md",
-    "Algebra II/Autovalores y Autovectores.md",
-    "Algebra II/Algebra II.md",
     "Estructura del Computador/Estructura del Computador.md",
     "Estructura del Computador/Circuitos.md",
     "Estructura del Computador/Memoria.md",
