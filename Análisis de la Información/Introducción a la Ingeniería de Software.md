@@ -22,7 +22,7 @@ Convertir un programa en un producto específico implica ***generalización, tes
 
 El cuerpo de conocimiento está compuesto por un conjunto de á***reas de conocimiento.*** Una descripción de cada una puede hallarse en el documento *SWEBOK*
 
-![[Introduccion a la Ingenieria de Software 1.png]]
+![[Introduccion a la Ingenieria de Software 1.png|500]]
 
 ## Procesos
 
@@ -42,7 +42,7 @@ Una vez finalizado el desarrollo inicia la etapa de producción. Este es un esfu
 
 La intensidad de cada disciplina varía según la etapa del proyecto
 
-![[Introducción a la Ingeniería de Software 2.png]]
+![[Introduccion a la Ingenieria de Software 2.png|500]]
 
 ## SCRUM
 
@@ -51,6 +51,6 @@ Es un modelo contemporáneo del ***Agile Manifesto***, que separa el desarrollo 
 - Visión: A partir de la visión y los requisitos del producto, analizamos lo que buscamos implementar.
 - Product Backlog: Lista de las funcionalidades a implementar
 - Sprint Backlog: Definición de las actividades a llevar a cabo para implementar lo designado para ese ***sprint***.
-- Daily meetings: Reuniones diarias a lo largo de 2 a 4 semanas, en las que se discute lo que se busca implementar en el dia y el desarrollo general del sprint.
+- Daily meetings: Reuniones diarias a lo largo de 2 a 4 semanas, en las que se discute lo que se busca implementar en el día y el desarrollo general del sprint.
 
 Al final de cada ***sprint***, tendremos una versión del producto probada y estable, potencialmente entregable. También se realizará una retrospectiva para mejorar en la siguiente iteración. Por último, debemos refinar el ***product backlog*** para definir si hay que realizar algún cambio.
