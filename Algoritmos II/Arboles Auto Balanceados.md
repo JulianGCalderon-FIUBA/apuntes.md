@@ -8,12 +8,9 @@ Si el factor de balanceo de algún nodo del árbol es en modulo mayor a 1, enton
 
 - **Rotación Simple a Derecha:** Ocurre cuando el factor de balanceo del nodo $FE = -2$ y el factor de balanceo del hijo izquierdo $FE = 0, -1$.
 
-
 	Entonces rotamos hacia la derecha el nodo desbalanceado
 
-
-
-![[Arboles Auto Balanceados 1.png|Rotamos hacia la derecha el nodo C|]]
+	![[Arboles Auto Balanceados 1.png|Rotamos hacia la derecha el nodo C]]
 
 - **Rotación Simple a Izquierda:** Ocurre cuando el factor de balanceo del nodo $FE = 2$ y el factor de balanceo del hijo izquierdo $FE = 0, 1$.
 
