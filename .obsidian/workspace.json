@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Organizacion de Datos/Análisis de Sentimientos.md",
+                "file": "Organizacion de Datos/Algoritmos Genéticos.md",
                 "mode": "source",
                 "source": true
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "/- .*\\n\\n\\t[^-]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Organizacion de Datos/Análisis de Sentimientos.md",
+                "file": "Organizacion de Datos/Algoritmos Genéticos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Organizacion de Datos/Análisis de Sentimientos.md",
+                "file": "Organizacion de Datos/Algoritmos Genéticos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Organizacion de Datos/Análisis de Sentimientos.md"
+                "file": "Organizacion de Datos/Algoritmos Genéticos.md"
               }
             }
           },
@@ -165,6 +166,12 @@
   },
   "active": "3bacfa5a591a3657",
   "lastOpenFiles": [
+    "Organizacion de Datos/Reduccion de Dimensionalidad.md",
+    "Organizacion de Datos/Redes Neuronales.md",
+    "Organizacion de Datos/Redes de Aprendizaje Profundo.md",
+    "Organizacion de Datos/K-nearest Neighbours.md",
+    "Organizacion de Datos/Extracción de Datos.md",
+    "Organizacion de Datos/Análisis de Sentimientos.md",
     "Organizacion de Datos/Entrenamiento y Testing.md",
     "Matemática Discreta/Grafos Particulares.md",
     "Análisis de la Información/Diseño de Datos.md",
@@ -185,12 +192,6 @@
     "Fisica I/Cuerpo Rígido.md",
     "Introducción a Sistemas Distribuidos/Transport Layer/Connection-Oriented Transport TCP.md",
     "Física II/Conductores.md",
-    "Modelos y Optimización I/Complejidad de Problemas.md",
-    "Estructura del Computador/Circuitos Sincronicos.md",
-    "Estructura del Computador/Circuitos Asincronicos.md",
-    "Física II/Circuito Electrico.md",
-    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Cellular Internet Access.md",
-    "Análisis de la Información/Casos de Uso.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",

@@ -40,7 +40,7 @@ Existen distintos tipos de métodos de selección:
 
 Existen distintos métodos para la cruza:
 
-- ***Crossover 1 punto:*** Dividimos un cromosoma en dos, e intercambiamos cada mitad con otro cromosoma
+- ***Crossover 1 punto:*** Dividimos un cromosoma en dos, e intercambiamos cada mitad con otro cromosomas
 
 	![[Algoritmos Genéticos 1.png]]
 
