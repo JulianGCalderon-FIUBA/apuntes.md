@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis de la Información/Casos de Uso.md",
+                "file": "Análisis de la Información/Historias de Usuario.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis de la Información/Casos de Uso.md"
+                "file": "Análisis de la Información/Historias de Usuario.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis de la Información/Casos de Uso.md",
+                "file": "Análisis de la Información/Historias de Usuario.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis de la Información/Casos de Uso.md",
+                "file": "Análisis de la Información/Historias de Usuario.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,11 +158,18 @@
   },
   "active": "a25fa245d1413477",
   "lastOpenFiles": [
+    "Análisis de la Información/Historias de Dominio.md",
+    "Análisis de la Información/Gherkin.md",
+    "Análisis de la Información/Diseño de Datos.md",
+    "Análisis de la Información/Design Thinking.md",
+    "Análisis de la Información/Casos de Uso.md",
     "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
+    "Análisis de la Información/Ingeniería de Requisitos.md",
+    "Análisis de la Información/Historias de Usuario.md",
+    "Algoritmos II/Recursividad.md",
     "Análisis de la Información/Arquitectura del Software.md",
     "Análisis de la Información/Análisis de la Información.md",
     "Algoritmos II/TDA.md",
-    "Algoritmos II/Recursividad.md",
     "Algoritmos II/Punteros.md",
     "Algoritmos II/Pilas, Colas y Listas.md",
     "Algoritmos II/Memoria.md",
@@ -178,13 +185,6 @@
     "Algoritmos I/Conceptos Básicos.md",
     "Algoritmos I/Argumentos del programa.md",
     "Algoritmos I/Algoritmos I.md",
-    "Algoritmos I/Recursividad.md",
-    "Algoritmos I/Operaciones con Arreglos.md",
-    "Algoritmos I/Operaciones con archivos.md",
-    "Algoritmos I/Bibliotecas Personales.md",
-    "Algebra II/Transformaciones Lineales.md",
-    "Algebra II/Subespacios de Matriz.md",
-    "Algebra II/Subespacios.md",
     "Algoritmos I/Attachments/Recursividad 1.png",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",

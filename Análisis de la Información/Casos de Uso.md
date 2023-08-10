@@ -106,4 +106,4 @@ Con estas descripciones complementamos lo que hace el sistema.
 
 ## Casos de Uso 2.0
 
-La novedad más importante es que los casos de uso en esta nueva versión son un conjunto de historias que ayudan a organizar las slices en las que se divide un caso de uso.
+La novedad más importante es que los casos de uso en esta nueva versión son un conjunto de historias que ayudan a organizar las *slices* en las que se divide un caso de uso.

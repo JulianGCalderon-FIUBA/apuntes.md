@@ -30,7 +30,7 @@ Las técnicas que se utilizan en este método son varias:
 - **Persona**: Se define un arquetipo de usuarios entrevistados
 - **Customer Journey:** Un relato de como el usuario usaría el producto/solución
 - **Prototipos:** En papel, o de baja tecnología, para ser construidos de forma rápida.
-- **Wireframes:** Prototipos más avanzados pero que permiten describir la interacción de los usuarios con el producto.
+- **Wireframes:** Prototipos más avanzados, pero que permiten describir la interacción de los usuarios con el producto.
 
 ## Estrategias de Utilización
 
