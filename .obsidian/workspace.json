@@ -11,12 +11,8 @@
             "id": "a25fa245d1413477",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Organizacion de Datos/Análisis de Sentimientos.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Organizacion de Datos/Análisis de Sentimientos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Organizacion de Datos/Análisis de Sentimientos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Organizacion de Datos/Análisis de Sentimientos.md"
-              }
+              "state": {}
             }
           },
           {
@@ -144,8 +136,17 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "2f17f4633788b9f5",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -162,15 +163,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "a25fa245d1413477",
   "lastOpenFiles": [
-    "Algoritmos II/Arboles Auto Balanceados.md",
+    "Sistemas Operativos/API de Memoria.md",
+    "Estructura del Computador/Circuitos.md",
+    "Algoritmos I/Recursividad.md",
+    "Algoritmos I/Algoritmos I.md",
+    "Algoritmos II/Memoria.md",
+    "Algoritmos II/Análisis de Algoritmos.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
+    "Estructura del Computador/Simplificación de Funciones.md",
+    "Estructura del Computador/Sistema ARC.md",
+    "Estructura del Computador/Registros y Contadores.md",
     "Organizacion de Datos/Análisis de Sentimientos.md",
+    "Algoritmos II/Arboles Auto Balanceados.md",
     "Organizacion de Datos/Algoritmos Genéticos.md",
     "Algebra II/Autovalores y Autovectores.md",
     "Sistemas Operativos/Archivos y Directorios.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
     "Algebra II/Espacios Vectoriales.md",
     "Algebra II/Operaciones entre Subespacios.md",
     "Algebra II/Transformaciones Lineales.md",
@@ -181,15 +191,6 @@
     "Organizacion de Datos/Redes Neuronales.md",
     "Organizacion de Datos/Reduccion de Dimensionalidad.md",
     "Organizacion de Datos/Redes de Aprendizaje Profundo.md",
-    "Organizacion de Datos/K-nearest Neighbours.md",
-    "Organizacion de Datos/Extracción de Datos.md",
-    "Organizacion de Datos/Entrenamiento y Testing.md",
-    "Matemática Discreta/Grafos Particulares.md",
-    "Análisis de la Información/Diseño de Datos.md",
-    "Análisis de la Información/Análisis de la Información.md",
-    "Estructura del Computador/Estructura del Computador.md",
-    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/What's Inside a Router.md",
-    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Network Layer Data Plane.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
