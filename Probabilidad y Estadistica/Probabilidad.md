@@ -33,9 +33,20 @@ $$
 
 ### Propiedades
 
-1. $P(\overline A) = 1 - P(A)$
-2. $P(A \cup B) = P(A) + P(B) - P(A\cap B)$
-3. $P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A\cap B) - P(A\cap C) - P(B\cap C)  + P(A \cap B \cap C)$
+$$
+P(\overline A) = 1 - P(A) \tag{1}
+$$
+
+$$
+P(A \cup B) = P(A) + P(B) - P(A\cap B) \tag{2}
+$$
+
+$$
+\begin{align}
+P(A \cup B \cup C) &= P(A) + P(B) + P(C) \\
+&- P(A\cap B) - P(A\cap C) - P(B\cap C) \\
+&+ P(A \cap B \cap C)
+\end{align} \tag{3}$$ 
 
 ## Algebra de Eventos
 
@@ -59,7 +70,9 @@ Dado $\Omega$, entonces $\mathscr A$ es algebra de eventos si:
 Sea $(A_n)_{n \geq 1}$ una sucesión eventos tal que $A_n \subset A_{n+1}$ y $A = \cup_{i=1}^\infty A_i$, luego
 
 $$
+
 P(A) = \lim_{n\to\infty}P(A_n)
+
 $$
 
 ### Teorema 2
@@ -67,7 +80,9 @@ $$
 Sea $(A_n)_{n \geq 1}$ una sucesión eventos tal que $A_n \supset A_{n+1}$ y $A = \cap_{i=1}^\infty A_i$, luego
 
 $$
+
 P(A) = \lim_{n\to\infty}P(A_n)
+
 $$
 
 ### Teorema ($\sigma$-aditividad)
@@ -75,5 +90,7 @@ $$
 Sea $A = \cup_{i=1}^\infty A_i \in \mathscr A$, con los eventos $A_i$ mutuamente excluyentes dos a dos, entonces
 
 $$
+
 P(A) = P(\cup_{i=1}^\infty A_i) = \sum_{i=1}^\infty P(A_i)
+
 $$

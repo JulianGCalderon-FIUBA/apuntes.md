@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "e8215838388142a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probabilidad y Estadistica/Vectores Aleatorios.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
+                "file": "Probabilidad y Estadistica/Vectores Aleatorios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
+                "file": "Probabilidad y Estadistica/Vectores Aleatorios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilidad y Estadistica/Probabilidad y Estadistica.md"
+                "file": "Probabilidad y Estadistica/Vectores Aleatorios.md"
               }
             }
           },
@@ -166,34 +179,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "52730347ee14ce39",
+  "active": "e8215838388142a4",
   "lastOpenFiles": [
-    "Probabilidad y Estadistica/Probabilidad.md",
-    "Probabilidad y Estadistica/Probabilidad Condicional.md",
+    "Probabilidad y Estadistica/Varianza Condicional.md",
+    "Probabilidad y Estadistica/Variables Aleatorias Condicionadas.md",
+    "Probabilidad y Estadistica/Variables Aleatorias.md",
+    "Probabilidad y Estadistica/Test de Hipotesis.md",
+    "Probabilidad y Estadistica/Teoremas Utiles.md",
+    "Probabilidad y Estadistica/Teorema Central del Límite.md",
+    "Probabilidad y Estadistica/Técnicas de Conteo.md",
+    "Probabilidad y Estadistica/Simulación.md",
+    "Probabilidad y Estadistica/Propiedades del PP.md",
+    "Probabilidad y Estadistica/Propiedades de Variables Aleatorias.md",
+    "Probabilidad y Estadistica/Propiedades de V A.md",
+    "Probabilidad y Estadistica/Propiedades de la Esperanza.md",
+    "Probabilidad y Estadistica/Proceso de Poisson.md",
+    "Probabilidad y Estadistica/Proceso Bernoulli.md",
     "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
-    "Algoritmos II/Algoritmos II.md",
-    "Algoritmos II/Algoritmos de Grafos.md",
-    "Algoritmos II/Grafos.md",
-    "Algoritmos II/Arboles Auto Balanceados.md",
-    "Algoritmos II/Pilas, Colas y Listas.md",
-    "Algoritmos II/Análisis de Algoritmos.md",
-    "Fisica I/Física I.md",
-    "Fisica I/Difracción.md",
-    "Física II/Física II.md",
-    "Física II/Ecuaciones de Maxwell.md",
-    "Física II/Circuitos en Resonancia.md",
-    "Física II/Potencia Activa y Reactiva.md",
-    "Física II/Fasores Complejos.md",
-    "Física II/Circuito Electrico.md",
-    "Física II/Corriente Continua.md",
-    "Física II/Capacitores.md",
-    "Física II/Conductores.md",
-    "Física II/Campo Eléctrico.md",
-    "Física II/Ley de Coulomb.md",
-    "Algebra II/Algebra II.md",
-    "Algebra II/Autovalores y Autovectores.md",
-    "Algebra II/Formas Cuadráticas.md",
-    "Algebra II/Descomposición en Valores Singulares.md",
+    "Probabilidad y Estadistica/Probabilidad Condicional.md",
+    "Probabilidad y Estadistica/Probabilidad.md",
+    "Probabilidad y Estadistica/Modelos Parametricos.md",
+    "Probabilidad y Estadistica/Mezcla de Variables Aleatorias.md",
+    "Probabilidad y Estadistica/Intervalos de Confianza.md",
+    "Probabilidad y Estadistica/Inferencia Estadistica.md",
+    "Probabilidad y Estadistica/Hipotesis Estadistica.md",
+    "Probabilidad y Estadistica/Eventos Independientes.md",
+    "Probabilidad y Estadistica/Estimadores.md",
+    "Probabilidad y Estadistica/Estimacion Bayesiana.md",
+    "Probabilidad y Estadistica/Estadisticos.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
