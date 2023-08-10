@@ -40,7 +40,7 @@ Para encontrar estos elementos, primero buscamos $\lambda$ tal que $\text{det}(\
 
 Definimos el polinomio característico de $A$ de grado $n$, $P_A(\lambda) = \text{det}(\lambda I - A)$.
 
-Se le denomina **multiplicidad algebraica** de $\lambda_0$ a la multiplicidad de $\lambda_0$ como raíz del polinomio caracteristico.
+Se le denomina **multiplicidad algebraica** de $\lambda_0$ a la multiplicidad de $\lambda_0$ como raíz del polinomio característico.
 
 Se le denomina **multiplicidad geométrica** de $\lambda_0$ a la dimensión del autoespacio asociado.
 
@@ -72,7 +72,7 @@ Sean $A, B$ dos matrices de mismas dimensiones, se dice que $A$ es semejante a $
 - Si $\Bbb V$ es un espacio vectorial de dimension $n$. $B$ y $B'$ siendo bases de $\Bbb V$. Entonces podemos escribir una transformación lineal respecto a ambas bases
 
 	$$
-    [T]_{B'}^{B'} = M_{B}^{B'}\cdot [T]_B^B\cdot (M_{B}^{B'})^{-1}
+	[T]_{B'}^{B'} = M_{B}^{B'}\cdot [T]_B^B\cdot (M_{B}^{B'})^{-1}
     $$
 
 	Podemos concluir que todas la representación de una transformación lineal con respecto a una misma base son semejantes entre si.
