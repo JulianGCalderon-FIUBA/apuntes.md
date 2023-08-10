@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis de la Información/Requisitos en Contexto.md",
+                "file": "Análisis de la Información/Taller de Análisis de Interesados.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis de la Información/Requisitos en Contexto.md"
+                "file": "Análisis de la Información/Taller de Análisis de Interesados.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis de la Información/Requisitos en Contexto.md",
+                "file": "Análisis de la Información/Taller de Análisis de Interesados.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis de la Información/Requisitos en Contexto.md",
+                "file": "Análisis de la Información/Taller de Análisis de Interesados.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,8 +158,8 @@
   },
   "active": "a25fa245d1413477",
   "lastOpenFiles": [
-    "Análisis de la Información/Requirement Specification vs User Stories.md",
     "Análisis de la Información/Requisitos en Contexto.md",
+    "Análisis de la Información/Requirement Specification vs User Stories.md",
     "Análisis de la Información/PSA.md",
     "Análisis de la Información/Prototipado y Experiencia de Usuario.md",
     "Análisis de la Información/Modelos en la ingeniería de software.md",
