@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmos II/Arboles Auto Balanceados.md",
+                "file": "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmos II/Arboles Auto Balanceados.md",
+                "file": "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmos II/Arboles Auto Balanceados.md",
+                "file": "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmos II/Arboles Auto Balanceados.md"
+                "file": "Probabilidad y Estadistica/Probabilidad y Estadistica.md"
               }
             }
           },
@@ -166,7 +166,13 @@
   },
   "active": "52730347ee14ce39",
   "lastOpenFiles": [
+    "Probabilidad y Estadistica/Probabilidad.md",
+    "Probabilidad y Estadistica/Probabilidad Condicional.md",
+    "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
     "Algoritmos II/Algoritmos II.md",
+    "Algoritmos II/Algoritmos de Grafos.md",
+    "Algoritmos II/Grafos.md",
+    "Algoritmos II/Arboles Auto Balanceados.md",
     "Algoritmos II/Pilas, Colas y Listas.md",
     "Algoritmos II/Análisis de Algoritmos.md",
     "Fisica I/Física I.md",
@@ -186,12 +192,6 @@
     "Algebra II/Autovalores y Autovectores.md",
     "Algebra II/Formas Cuadráticas.md",
     "Algebra II/Descomposición en Valores Singulares.md",
-    "Algebra II/Sistemas de E D Homogéneas.md",
-    "Algebra II/Método de Gram-Schmidt.md",
-    "Algebra II/Producto Interno.md",
-    "Algebra II/Transformaciones Lineales.md",
-    "Algebra II/Operaciones entre Subespacios.md",
-    "Algebra II/Subespacios de Matriz.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",

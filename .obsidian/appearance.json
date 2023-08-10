@@ -5,7 +5,8 @@
     "center-image",
     "center-table",
     "image-center",
-    "table-white-birder"
+    "table-white-birder",
+    "table-center"
   ],
   "baseFontSize": 17,
   "theme": "obsidian"
