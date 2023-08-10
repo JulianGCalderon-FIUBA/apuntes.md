@@ -22,7 +22,7 @@ Convertir un programa en un producto específico implica ***generalización, tes
 
 El cuerpo de conocimiento está compuesto por un conjunto de á***reas de conocimiento.*** Una descripción de cada una puede hallarse en el documento *SWEBOK*
 
-![[Introducción a la Ingeniería de Software 1.png]]
+![[Introduccion a la Ingenieria de Software 1.png]]
 
 ## Procesos
 
