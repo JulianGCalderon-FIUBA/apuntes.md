@@ -1,5 +1,6 @@
 {
   "vimMode": false,
   "alwaysUpdateLinks": true,
-  "showIndentGuide": true
+  "showIndentGuide": true,
+  "readableLineLength": true
 }

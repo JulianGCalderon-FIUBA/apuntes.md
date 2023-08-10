@@ -67,11 +67,11 @@ Si $\Bbb V$ y $\Bbb W$ son espacios vectoriales de dimension finita, podemos enc
 Supongamos que $B$ y $B'$ son bases de $\Bbb V$ y $\Bbb W$ respectivamente. $B = \{v_1, \cdots, v_n\}, B' = \{w_1, \cdots, w_m\}$
 
 $$
-\begin{align}
+\begin{gathered}
 x \in \Bbb V,\quad x = \alpha_1 v_1 + \cdots + \alpha_n v_n \implies T(x) = T(\alpha_1 v_1 + \cdots + \alpha_n v_n)
 \\\,\\
 \Big[T(x)\Big]^{B'} = \alpha_1\big[T(v_1)\big]^{B'} + \cdots + \alpha_n\big[T(v_n)\big]^{B'}
-\end{align}
+\end{gathered}
 $$
 
 $$

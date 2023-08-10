@@ -86,9 +86,7 @@ $n = \pm1,2,3\cdots$
 
 Le asignamos a cada onda un fasor, y calculamos la suma de las ondas para llegar a la onda resultante.
 
-![[Interferencia 2.png]]
-
-![[Interferencia 3.png]]
+![[Interferencia 2.png]]![[Interferencia 3.png]]
 
 $$
 \begin{gathered}
