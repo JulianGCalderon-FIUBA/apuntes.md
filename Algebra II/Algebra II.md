@@ -14,4 +14,3 @@
 - [[Matrices Normales]]
 - [[Descomposición en Valores Singulares]]
 - [[Formas Cuadráticas]]
-- [[Resumen - Álgebra II]]

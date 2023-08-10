@@ -77,7 +77,7 @@ $$
 Si $A$ tiene un autovalor de multiplicidad algebraica $3$ y multiplicidad geométrica $1$. Llamamos $\lambda$ al único autovalor
 
 $$
-\{e^{\lambda t}v_1, e^{\lambda t}(tv_1+v_2), e^{\lambda t}({t^2}/2 \ v_1 + tv_2 + v_3)\}
+\text{gen}\{e^{\lambda t}v_1, e^{\lambda t}(tv_1+v_2), e^{\lambda t}({t^2}/2 \ v_1 + tv_2 + v_3)\}
 $$
 
 ### Caso 3
@@ -85,5 +85,5 @@ $$
 Si $A$ tiene un autovalor de multiplicidad algebraica $3$ y multiplicidad geométrica $2$. Llamamos $\lambda$ al único autovalor
 
 $$
-\{e^{\lambda t}v_1, e^{\lambda t}(v_2+tv_1), e^{\lambda t}v_3\}
+\text{gen}\{e^{\lambda t}v_1, e^{\lambda t}(v_2+tv_1), e^{\lambda t}v_3\}
 $$

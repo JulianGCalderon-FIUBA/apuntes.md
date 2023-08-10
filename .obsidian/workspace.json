@@ -4,37 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "9fb831a74dd946c2",
+        "id": "6fc301a0098373a4",
         "type": "tabs",
         "children": [
           {
-            "id": "03c1c9692855cf3c",
+            "id": "52730347ee14ce39",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra II/Ortogonalidad.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "8be3e9d076fdeaea",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "607d6cf69b8845fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra II/Resumen - Álgebra II.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -103,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra II/Ortogonalidad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra II/Ortogonalidad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algebra II/Ortogonalidad.md"
-              }
+              "state": {}
             }
           },
           {
@@ -182,34 +156,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "52730347ee14ce39",
   "lastOpenFiles": [
-    "Algebra II/Producto Interno.md",
+    "Algebra II/Algebra II.md",
+    "Algebra II/Formas Cuadráticas.md",
+    "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
     "Algebra II/Resumen - Álgebra II.md",
+    "Algebra II/Descomposición en Valores Singulares.md",
+    "Algebra II/Matrices Normales.md",
+    "Algebra II/Subespacios de Matriz.md",
+    "Algebra II/Sistemas de E D Homogéneas.md",
+    "Algebra II/Autovalores y Autovectores.md",
+    "Algebra II/Método de Gram-Schmidt.md",
+    "Algebra II/Ortogonalidad.md",
+    "Algebra II/Producto Interno.md",
     "Organizacion de Datos/Análisis de Sentimientos.md",
     "Modelos y Optimización I/Modificaciones al Planteo.md",
     "Algebra II/EDOs.md",
-    "Algebra II/Sistemas de E D Homogéneas.md",
     "Algebra II/Transformaciones Lineales.md",
     "Algebra II/Operaciones entre Subespacios.md",
-    "Algebra II/Subespacios de Matriz.md",
-    "Algebra II/Algebra II.md",
     "Algebra II/Coordenadas.md",
-    "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
     "Física II/Física II.md",
     "Fisica I/Física I.md",
     "Primer Parcial.md",
     "Untitled.md",
-    "Algebra II/Descomposición en Valores Singulares.md",
-    "Algebra II/Autovalores y Autovectores.md",
     "Análisis Matemático II/Análisis Matemático II.md",
     "Matemática Discreta/Operaciones entre Grafos.md",
     "Modelos y Optimización I/Planteo Dual.md",
     "Matemática Discreta/Clasificaciones.md",
-    "Algebra II/Método de Gram-Schmidt.md",
-    "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
-    "Análisis Matemático II/Curvas y superficies.md",
-    "Análisis Matemático II/Integrales de Superficie.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",

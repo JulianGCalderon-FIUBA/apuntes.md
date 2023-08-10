@@ -122,7 +122,7 @@ Si una matriz $A \in \Bbb C^{3 \times 3}$ no es diagonalizable, podemos encontra
 
 Llamamos $V_1, V_2, V_3$ las columnas de $Q$
 
-### Caso 1
+### Caso 1: Algebraica 2, Geométrica 1
 
 Si $A$ tiene un autovalor de multiplicidad algebraica $2$ y multiplicidad geometrica $1$. Llamamos $\lambda_1$ al autovalor de multiplicidad algebraica $2$, y $\lambda_2$ al autovalor de multiplicidad algebraica $1$.
 
@@ -141,7 +141,7 @@ Siendo:
 - $V_1, V_3$ los autovectores asociados a $\lambda_1, \lambda_2$.
 - $V_2$ el vector que cumple con el sistema $: (A - \lambda_1I)V_2 = V_1$
 
-### Caso 2
+### Caso 2: Algebraica 3, Geométrica 1
 
 Si $A$ tiene un autovalor de multiplicidad algebraica $3$ y multiplicidad geométrica $1$. Llamamos $\lambda$ al único autovalor
 
@@ -164,7 +164,7 @@ Siendo:
 
 En este caso, debemos elegir el $V_2$ que pertenezca a la imagen de $A- \lambda I$
 
-### Caso 3
+### Caso 3: Algebraica 3, Geométrica 2
 
 Si $A$ tiene un autovalor de multiplicidad algebraica $3$ y multiplicidad geométrica $2$. Llamamos $\lambda$ al único autovalor
 
@@ -185,4 +185,4 @@ Siendo:
 - $V_2$ otro autovector asociado a $\lambda$
 - $V_3$ el vector que cumple con el sistema $: (A- \lambda I)V_3 = V_2$
 
-En este caso, debemos elegir el $V_2$ que perteneza a la imagen de $A- \lambda I$
+En este caso, debemos elegir el $V_2$ que pertenezca a la imagen de $A- \lambda I$
