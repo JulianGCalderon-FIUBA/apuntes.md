@@ -31,10 +31,7 @@ Utilizar todas las palabras da mejores resultados, en términos generales (por l
 - Lidiar con tags XML o HTML
 - Reconocer marcas de twitter, usuarios, hashtags
 - Tener en cuenta el uso de mayúsculas.
-	- asda
-	- asd
-	- asd
-- Despreciar fechas y numeros de telefonos
+- Despreciar fechas y números de teléfonos
 - Emoticones, son útiles para detectar un sentimiento.
 - Lidiar con la negación. Una forma es reemplazar las palabras que le siguen a un no, por ejemplo: *NO_palabra*
 
@@ -104,9 +101,9 @@ Debemos detectar más de un sentimiento en una sola frase.
 
 ***Reglas:*** Filtraron todas esas frases frecuentes como: Ocurre después de una palabra que indica sentimientos.
 
-Consideracines:
+Consideraciones:
 
 - El aspecto puede no ser mencionada
-- Los aspectos a veces son facilmente identificables
+- Los aspectos a veces son fácilmente identificables
 - Es posible utilizar clasificación supervisada y luego entrenar un clasificador
 - Si la cantidad de criticas no esta balanceada, se puede degradar el rendimiento

@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/- .*\\n*\\t[^-]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,12 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 400.5
+    "width": 418.5
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -163,7 +162,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a25fa245d1413477",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
     "Algoritmos II/Arboles Auto Balanceados.md",
     "Organizacion de Datos/Análisis de Sentimientos.md",
