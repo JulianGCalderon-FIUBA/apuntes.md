@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "770aeaae5760f350",
+        "id": "9fb831a74dd946c2",
         "type": "tabs",
         "children": [
           {
-            "id": "5ab12f535df04990",
+            "id": "607d6cf69b8845fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática Discreta/Clasificaciones.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc101f935a14504d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matemática Discreta/Operaciones entre Grafos.md",
+                "file": "Análisis Matemático II/Análisis Matemático II.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática Discreta/Clasificaciones.md",
+                "file": "Análisis Matemático II/Análisis Matemático II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática Discreta/Clasificaciones.md",
+                "file": "Análisis Matemático II/Análisis Matemático II.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática Discreta/Clasificaciones.md"
+                "file": "Análisis Matemático II/Análisis Matemático II.md"
               }
             }
           },
@@ -176,10 +164,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5ab12f535df04990",
+  "active": "607d6cf69b8845fc",
   "lastOpenFiles": [
-    "Algebra II/Método de Gram-Schmidt.md",
     "Algebra II/Descomposición en Valores Singulares.md",
+    "Algebra II/Coordenadas.md",
+    "Algebra II/Autovalores y Autovectores.md",
+    "Algebra II/Algebra II.md",
+    "Matemática Discreta/Operaciones entre Grafos.md",
+    "Modelos y Optimización I/Planteo Dual.md",
+    "Matemática Discreta/Clasificaciones.md",
+    "Algebra II/Método de Gram-Schmidt.md",
     "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
     "Análisis Matemático II/Curvas y superficies.md",
     "Análisis Matemático II/Integrales de Superficie.md",
@@ -198,12 +192,6 @@
     "Fisica I/Superposición de Onda.md",
     "Física II/Corriente Continua.md",
     "Física II/Fasores Complejos.md",
-    "Física II/Ley de Biot y Savalt.md",
-    "Física II/Física II.md",
-    "Primer Parcial.md",
-    "Análisis Numérico/Ajuste.md",
-    "Física II/Final.md",
-    "Física II/Segundo Parcial.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",

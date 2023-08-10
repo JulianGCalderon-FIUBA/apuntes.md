@@ -56,11 +56,13 @@ Podremos asignar las variables del dual de modo las primeros elementos de $Y$ co
 > En nuestro ejemplo, asignaremos:
 > 
 > $$
+> \begin{gathered}
 > y_1 \iff x_3\\
 > y_2 \iff x_4\\
 > y_3 \iff x_5\\
 > y_4 \iff x_1\\
 > y_5 \iff x_2\\
+> \end{gathered}
 > $$
 
 ### Relación entre Primal y Dual
