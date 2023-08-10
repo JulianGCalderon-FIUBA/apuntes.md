@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Producto Interno.md",
+                "file": "Algebra II/Transformaciones Lineales.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Modelos",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra II/Producto Interno.md"
+                "file": "Algebra II/Transformaciones Lineales.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra II/Producto Interno.md",
+                "file": "Algebra II/Transformaciones Lineales.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra II/Producto Interno.md",
+                "file": "Algebra II/Transformaciones Lineales.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,12 @@
   },
   "active": "a25fa245d1413477",
   "lastOpenFiles": [
+    "Algebra II/Subespacios.md",
     "Algebra II/Ortogonalidad.md",
+    "Algebra II/Descomposición en Valores Singulares.md",
+    "Algebra II/Transformaciones Lineales.md",
+    "Algebra II/Subespacios de Matriz.md",
+    "Algebra II/Sistemas de E D Homogéneas.md",
     "Algebra II/Producto Interno.md",
     "Algebra II/Operaciones entre Subespacios.md",
     "Algebra II/Método de Gram-Schmidt.md",
@@ -159,7 +164,6 @@
     "Algebra II/Espacios Vectoriales.md",
     "Algebra II/Ejemplos de Transformaciones Lineales.md",
     "Algebra II/EDOs.md",
-    "Algebra II/Descomposición en Valores Singulares.md",
     "Algebra II/Coordenadas.md",
     "Algebra II/Autovalores y Autovectores.md",
     "Algebra II/Algebra II.md",
@@ -173,10 +177,6 @@
     "Sistemas Operativos/Paginación Avanzada.md",
     "Sistemas Operativos/Sistemas Operativos.md",
     "Sistemas Operativos/API de Memoria.md",
-    "Algoritmos I/Recursividad.md",
-    "Algoritmos I/Algoritmos I.md",
-    "Algoritmos II/Memoria.md",
-    "Algoritmos II/Análisis de Algoritmos.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",

@@ -14,29 +14,29 @@ $$
 \forall w \in S, w = \sum_{i = 1}^n \lambda_iv_i
 $$
 
-**¿Como pruebo que dos conjuntos generan el mismo subespacio?**
+> ¿Cómo pruebo que dos conjuntos generan el mismo subespacio?**
 
-Se debe demostrar la doble inclusion, es decir, se deben poder formar los elementos del generador de $S_1$ a partir de los elementos de $S_2$ y viceversa. $S \subseteq T, T\subseteq S$
+Se debe demostrar la doble inclusión, es decir, se deben poder formar los elementos del generador de $S_1$ a partir de los elementos de $S_2$ y viceversa. $S \subseteq T, T\subseteq S$
 
-**¿Como demuestro que dos conjuntos generan un espacio vectorial?**
+> ¿Cómo demuestro que dos conjuntos generan un espacio vectorial?**
 
-Para esto, tengo que buscar la expresión mas general del espacio vectorial, y verificar que el sistema sea compatible para todos los casos
+Para esto, tengo que buscar la expresión más general del espacio vectorial, y verificar que el sistema sea compatible para todos los casos
 
 ## Independencia Lineal
 
 Se dice que un generador es linealmente independiente si ninguno de sus componentes se puede formar como combinación lineal del resto de componentes.
 
-**Equivalencia:** Es linealmente independiente si la solución para formar el elemento neutro es única, es decir con todos los escalares nulos.
+**Equivalencia:** Es linealmente independiente si la solución para formar el elemento neutro es única, es decir, con todos los escalares nulos.
 
 $$
 \sum_{i = 1}^n \lambda_iv_i = 0 \implies \lambda_i = 0\,\forall\,i
 $$
 
-Se dice que un generador es una **base** si es linealmente independiente. Todas las bases de $S$ tienen la misma cantidad de elementos**.** A **l**a cantidad de elementos de la base de se le llama dimension de $S$.
+Se dice que un generador es una **base** si es linealmente independiente. Todas las bases de $S$ tienen la misma cantidad de elementos**.** A **l**a cantidad de elementos de la base de se le llama dimensión de $S$.
 
-El subespacio nulo $\{\Bbb O_{\Bbb V}\}$ tiene dimension 0, no tiene base.
+El subespacio nulo $\{\Bbb O_{\Bbb V}\}$ tiene dimensión 0, no tiene base.
 
-Si dos subespacios $S,T$ tienen la misma dimension, solo es necesario demostrar que $S\subseteq T$ para concluir que son equivalentes.
+Si dos subespacios $S,T$ tienen la misma dimensión, solo es necesario demostrar que $S\subseteq T$ para concluir que son equivalentes.
 
 ### Independencia Lineal de Funciones en $C^n$
 
@@ -71,4 +71,4 @@ $$
 
 Si para algún $x_0 \in I$ se cumple que el Wronskiano $≠$ de 0, entonces el conjunto de funciones es linealmente independiente.
 
-(El reciproco del teorema no es verdadero)
+(El recíproco del teorema no es verdadero)

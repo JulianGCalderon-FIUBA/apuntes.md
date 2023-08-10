@@ -42,7 +42,7 @@ Sea $T: \Bbb V \to \Bbb W$ una transformación lineal, siendo $\Bbb V$ y $\Bbb W
 - Si $U \subset \Bbb W$, entonces $T^{-1}(U) \subset \Bbb V$
 - **Toda T.L. queda unívocamente determinada sobre una base.**
 
-**Teorema:** (Dimension de subespacios fundamentales de una transformación lineal) Si $\Bbb V$ es un espacio vectorial de dimension finita y $T: \Bbb V \to \Bbb W$, entonces:
+**Teorema:** (Dimensión de subespacios fundamentales de una transformación lineal) Si $\Bbb V$ es un espacio vectorial de dimensión finita y $T: \Bbb V \to \Bbb W$, entonces:
 
 $$
 \text{dim}(Nu(T)) + \text{dim}(Im(T)) = \text{dim}(\Bbb V)
@@ -53,16 +53,16 @@ $$
 Sea $T: \Bbb V \to \Bbb W$ una transformación lineal, siendo $\Bbb V$ y $\Bbb W$, $\Bbb K$-espacios vectoriales:
 
 - **Monomorfismo**: Si es una transformación lineal **inyectiva** $:x_1 \neq x_2, F(x_1) \neq F(x_2)$
-- **Epimorfismo**: Si es una transformación lineal **suryectiva** $: Im(F) = Cod(F) = \Bbb W$
-- **Isomorfismo:** Si es una transformación lineal **biyectiva** (inyectiva y suryectiva)
+- **Epimorfismo**: Si es una transformación lineal **sobreyectiva** $: Im(F) = Cod(F) = \Bbb W$
+- **Isomorfismo:** Sí es una transformación lineal **biyectiva** (inyectiva y sobreyectiva)
 
-Una transformación lineal es un **monomorfismo** cuando su núcleo es de dimension 0. Es decir, solo hay una forma de generar cada elemento.
+Una transformación lineal es un **monomorfismo** cuando su núcleo es de dimensión 0. Es decir, solo hay una forma de generar cada elemento.
 
-Una transformación lineal es un **epimorfismo** cuando la dimension de la imagen es de igual dimension que $\Bbb W$. Es decir, se generan todos los elementos del codominio.
+Una transformación lineal es un **epimorfismo** cuando la dimensión de la imagen es de igual dimensión que $\Bbb W$. Es decir, se generan todos los elementos del codominio.
 
 ## Matriz de T.L.
 
-Si $\Bbb V$ y $\Bbb W$ son espacios vectoriales de dimension finita, podemos encontrar una expresión matricial para una transformación lineal $T: \Bbb V \to \Bbb W$.
+Si $\Bbb V$ y $\Bbb W$ son espacios vectoriales de dimensión finita, podemos encontrar una expresión matricial para una transformación lineal $T: \Bbb V \to \Bbb W$.
 
 Supongamos que $B$ y $B'$ son bases de $\Bbb V$ y $\Bbb W$ respectivamente. $B = \{v_1, \cdots, v_n\}, B' = \{w_1, \cdots, w_m\}$
 

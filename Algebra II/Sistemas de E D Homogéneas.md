@@ -44,29 +44,23 @@ $$
 
 ## Propiedades
 
-**Si el autovalor es real**
-
-Si $\lambda > 0$, tendremos soluciones divergentes
-
-Si $\lambda < 0$, tendremos soluciones que convergen en $0$
-
-Si $\lambda = 0$, La solución sera constante.
-
-**Si el autovalor es complejo**
-
-$a < 0 \to \lim_{y \to \infty} e^{(a+ib)t}v = 0$
-
-$a > 0 \to \lim_{y \to \infty} e^{(a+ib)t}v = \text{No Acotado}$
+- **Si el autovalor es real**
+	- Si $\lambda > 0$, tendremos soluciones divergentes
+	- Si $\lambda < 0$, tendremos soluciones que convergen en $0$
+	- Si $\lambda = 0$, La solución será constante.
+- **Si el autovalor es complejo**
+	- $a < 0 \to \lim_{y \to \infty} e^{(a+ib)t}v = 0$
+	- $a > 0 \to \lim_{y \to \infty} e^{(a+ib)t}v = \text{No Acotado}$
 
 ## Matrices de Jordan
 
-Si una matriz $A \in \Bbb C^{3 \times 3}$ no es diagonalizable, podemos encontrar matrices de jordan similares a una matriz diagonal, tal que $A \sim J_i$
+Si una matriz $A \in \Bbb C^{3 \times 3}$ no es diagonalizable, podemos encontrar matrices de Jordan similares a una matriz diagonal, tal que $A \sim J_i$
 
 Llamamos $V_1, V_2, V_3$ las columnas de $Q$
 
 ### Caso 1
 
-Si $A$ tiene un autovalor de multiplicidad algebraica $2$ y multiplicidad geometrica $1$. Llamamos $\lambda_1$ al autovalor de multiplicidad algebraica $2$, y $\lambda_2$ al autovalor de multiplicidad algebraica $1$.
+Si $A$ tiene un autovalor de multiplicidad algebraica $2$ y multiplicidad geométrica $1$. Llamamos $\lambda_1$ al autovalor de multiplicidad algebraica $2$, y $\lambda_2$ al autovalor de multiplicidad algebraica $1$.
 
 $$
 \text{gen}\{e^{\lambda t}v_1, e^{\lambda t}(v_2+tv_1), e^{\eta t}v_3\}

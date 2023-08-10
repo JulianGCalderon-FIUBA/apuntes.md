@@ -18,8 +18,6 @@ Si un conjunto ortogonal no contiene el vector nulo, entonces este conjunto es l
 
 Sea $A \subset \Bbb V,\ A \neq \emptyset$, se llama **complemento ortogonal de** $A$, al conjunto $A^\perp$ formado por todos los vectores de $\Bbb V$ que son ortogonales a cada elemento de $A$.
 
-**Propiedades:**
-
 - $A^\perp$ es un subespacio de $\Bbb V$
 - $\{0_{\Bbb V}\}^\perp = \Bbb V$
 - $\Bbb V^\perp = \{0_{\Bbb V}\}$
@@ -103,8 +101,6 @@ A^\# = (\overline A^T A)^{-1} \overline A^T
 $$
 
 Si el problema tiene infinitas soluciones, la solución de menor norma es aquella que pertenezca al subespacio $\text{fil}(A)$
-
-**Propiedades:**
 
 - $A^\# A = I_n$
 - $A A^\# = P_{Col(A)} \to$ Matriz de la proyección ortogonal sobre el subespacio columna

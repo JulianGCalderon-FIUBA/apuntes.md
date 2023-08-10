@@ -1,6 +1,6 @@
 A partir de la descomposición en valores singulares (D.V.S.), podemos encontrar que toda matriz puede ser factorizada de forma que quede de forma explícita los subespacios fundamentales de la matriz.
 
-**Recordamos:**
+Primero, recordemos algunas propiedades:
 
 - $A^* A = \overline A^T A \implies$Es una matriz hermítica, semi definida positiva.
 - $\text{Nul}(A^* A) = \text{Nul}(A) = \text{Rg}(A)$
@@ -122,11 +122,11 @@ Se le llama así a la matriz $A^\dagger = V_K D_K^{-1} U_K^*$. Se define para to
 
 Si la matriz $A$ es de rango máximo, entonces coincide con la matriz pseudo-inversa definida anteriormente. $A^\dagger = A^\# \impliedby \text{Rg}(A) = m$
 
-**Propiedades:**
+Algunas propiedades de esta matriz son:
 
 - $A A^\dagger = P_{\text{Col}(A)}$
 - $A^\dagger A = P_{\text{Fil}(A)}$
 
 Si quiero resolver el sistema $Ax = b$ por cuadrados mínimos, entonces busco $x^\dagger$ tal que $x^\dagger = A^\dagger b$
 
-Luego puedo sumarle cualquier vector del subespacio nulo a la solución para encontrar todas las soluciones. Además. $x^\dagger$ pertenece al subespacio fila de $A$, por lo que podemos asegurar que su norma es mínima. esto se debe a que $U_k$ está compuesta por $\text{Fil}(A)$, por lo que el vector resultante también pertenece a este.
+Luego puedo sumarle cualquier vector del subespacio nulo a la solución para encontrar todas las soluciones. Además. $x^\dagger$ pertenece al subespacio fila de $A$, por lo que podemos asegurar que su norma es mínima. Esto se debe a que $U_k$ está compuesta por $\text{Fil}(A)$, por lo que el vector resultante también pertenece a este.

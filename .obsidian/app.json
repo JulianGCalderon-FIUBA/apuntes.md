@@ -23,6 +23,10 @@
     "Riesz",
     "Cauchy",
     "Bunyakovsky",
-    "Schwarz"
+    "Schwarz",
+    "Wronskiano",
+    "preimagen",
+    "codominio",
+    "sobreyectiva"
   ]
 }
