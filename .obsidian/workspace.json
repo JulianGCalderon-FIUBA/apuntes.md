@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Autovalores y Autovectores.md",
+                "file": "Estructura del Computador/Estructura del Computador.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Modelos",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,12 +80,22 @@
         "type": "tabs",
         "children": [
           {
+            "id": "6b8c795d3756fc69",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Estructura del Computador/Estructura del Computador.md"
+              }
+            }
+          },
+          {
             "id": "651e73bbbb50cca8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra II/Autovalores y Autovectores.md",
+                "file": "Estructura del Computador/Estructura del Computador.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra II/Autovalores y Autovectores.md",
+                "file": "Estructura del Computador/Estructura del Computador.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,43 +128,9 @@
                 "useHierarchy": false
               }
             }
-          },
-          {
-            "id": "6b8c795d3756fc69",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Algebra II/Autovalores y Autovectores.md"
-              }
-            }
-          },
-          {
-            "id": "a38d35fa6246a4b7",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "c5ec9f1b2f9b8c90",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "2f17f4633788b9f5",
-            "type": "leaf",
-            "state": {
-              "type": "dictionary-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -174,12 +150,19 @@
   },
   "active": "a25fa245d1413477",
   "lastOpenFiles": [
-    "Algebra II/Algebra II.md",
+    "Estructura del Computador/Circuitos.md",
+    "Estructura del Computador/Memoria.md",
+    "Modelos y Optimización I/Modelos y Optimización I.md",
+    "Algebra II/Espacios Vectoriales.md",
+    "Algebra II/Descomposición en Valores Singulares.md",
+    "Análisis Numérico/Bisección.md",
+    "Algoritmos I/Argumentos del programa.md",
+    "Algoritmos I/Attachments/Recursividad 1.png",
     "Algebra II/Autovalores y Autovectores.md",
+    "Algebra II/Algebra II.md",
     "Sistemas Operativos/Paginación Avanzada.md",
     "Sistemas Operativos/Sistemas Operativos.md",
     "Sistemas Operativos/API de Memoria.md",
-    "Estructura del Computador/Circuitos.md",
     "Algoritmos I/Recursividad.md",
     "Algoritmos I/Algoritmos I.md",
     "Algoritmos II/Memoria.md",
@@ -193,13 +176,7 @@
     "Algoritmos II/Arboles Auto Balanceados.md",
     "Organizacion de Datos/Algoritmos Genéticos.md",
     "Sistemas Operativos/Archivos y Directorios.md",
-    "Algebra II/Espacios Vectoriales.md",
     "Algebra II/Operaciones entre Subespacios.md",
-    "Algebra II/Transformaciones Lineales.md",
-    "Algebra II/Producto Interno.md",
-    "Física II/Ecuaciones de Maxwell.md",
-    "Matemática Discreta/Álgebra de Boole.md",
-    "Organizacion de Datos/Redes Neuronales.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
