@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Numérico/Trazador Cúbico - Spline.md",
+                "file": "Estructura del Computador/Funciones Lógicas.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Numérico/Trazador Cúbico - Spline.md",
+                "file": "Estructura del Computador/Funciones Lógicas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Numérico/Trazador Cúbico - Spline.md",
+                "file": "Estructura del Computador/Funciones Lógicas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Numérico/Trazador Cúbico - Spline.md"
+                "file": "Estructura del Computador/Funciones Lógicas.md"
               }
             }
           },
@@ -181,8 +181,16 @@
   },
   "active": "e8215838388142a4",
   "lastOpenFiles": [
-    "Análisis Numérico/Sistemas no Lineales.md",
+    "Estructura del Computador/Estructura del Computador.md",
+    "Estructura del Computador/Funciones Lógicas.md",
+    "Estructura del Computador/Compiladores y Ensambladores.md",
+    "Estructura del Computador/Circuitos Sincronicos.md",
+    "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
+    "Estructura del Computador/Circuitos Asincronicos.md",
+    "Estructura del Computador/Circuitos.md",
+    "Estructura del Computador/Álgebra de Boole.md",
     "Análisis Numérico/Trazador Cúbico - Spline.md",
+    "Análisis Numérico/Sistemas no Lineales.md",
     "Análisis Numérico/Sistemas Lineales.md",
     "Análisis Numérico/Series de Fourier.md",
     "Análisis Numérico/Refinamiento Iterativo.md",
@@ -199,14 +207,6 @@
     "Análisis Numérico/Error en Métodos Iterativos.md",
     "Análisis Numérico/Ecuaciones Diferenciales Ordinarias.md",
     "Análisis Numérico/Ecuaciones Diferenciales de Orden Superior.md",
-    "Análisis Numérico/Ecuaciones Diferenciales de Frontera.md",
-    "Análisis Numérico/Diferenciación Numérica.md",
-    "Análisis Numérico/Descomposición LU.md",
-    "Análisis Numérico/Descomposición de Cholesky.md",
-    "Análisis Numérico/Búsqueda de Raíces.md",
-    "Análisis Numérico/Bisección.md",
-    "Análisis Numérico/Análisis Numérico.md",
-    "Análisis Numérico/Ajuste.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
