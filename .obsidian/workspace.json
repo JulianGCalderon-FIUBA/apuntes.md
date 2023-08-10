@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Ortogonalidad.md",
+                "file": "Algebra II/Producto Interno.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra II/Ortogonalidad.md"
+                "file": "Algebra II/Producto Interno.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra II/Ortogonalidad.md",
+                "file": "Algebra II/Producto Interno.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra II/Ortogonalidad.md",
+                "file": "Algebra II/Producto Interno.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,8 +150,9 @@
   },
   "active": "a25fa245d1413477",
   "lastOpenFiles": [
-    "Algebra II/Operaciones entre Subespacios.md",
     "Algebra II/Ortogonalidad.md",
+    "Algebra II/Producto Interno.md",
+    "Algebra II/Operaciones entre Subespacios.md",
     "Algebra II/Método de Gram-Schmidt.md",
     "Algebra II/Matrices Normales.md",
     "Algebra II/Formas Cuadráticas.md",
@@ -176,7 +177,6 @@
     "Algoritmos I/Algoritmos I.md",
     "Algoritmos II/Memoria.md",
     "Algoritmos II/Análisis de Algoritmos.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",

@@ -15,50 +15,34 @@ Si $\Bbb V$ es un $\Bbb K$-espacio vectorial, se dice que una función $\langle 
 
 ### Nociones del Producto Interno
 
-**Norma:** (inducida por el producto interno)
+#### Norma
+
+Es inducida por el producto interno
 
 $$
 \|u\| = \sqrt{\langle u,u\rangle}
 $$
 
-Cumple las siguiente propiedades:
+Cumple las siguientes propiedades:
 
 - $||u|| > 0$
 - $||\lambda u|| = |\lambda|.||u||$
 - $|| u || = 0 \iff u = 0_V$
 
-**Distancia:** Sean $u,v \in \Bbb V$, definimos la distancia entre $u,v$ como
+#### Distancia
+
+Sean $u,v \in \Bbb V$, definimos la distancia entre $u,v$ como
 
 $$
 d(u,v) = \|u - v\| = \|v - u\|
 $$
 
-**Ortogonalidad:** Sean $u, v \in \Bbb V$, se dice que son ortogonales si
+#### Ortogonalidad
+
+Sean $u, v \in \Bbb V$, se dice que son ortogonales si
 
 $$
 \langle u,v \rangle = 0 \iff u \perp v
-$$
-
-**Ángulo entre** $u, v$:
-
-$$
-\cos(\theta) = \frac{\langle u,v \rangle}{\|u\| \|v\|} \impliedby \theta \in [0, \pi]
-$$
-
-**Area de un triangulo**
-
-Sea $\triangle$ un triangulo de vértices $(0, e_1, e_2)$, entonces el area de este triangulo se calcula con la siguiente fórmula
-
-$$
-A(\triangle) = \frac 12 \cdot \sqrt{\|e_1\|^2\|e_2\|^2 - \langle e_1, e_2\rangle^2}
-$$
-
-**Area de un paralelogramo**
-
-Se puede dividir el paralelogramo en dos triángulos y usar la formula anterior para encontrar su area.
-
-$$
-A(\triangle) = \sqrt{\|e_1\|^2\|e_2\|^2 - \langle e_1, e_2\rangle^2}
 $$
 
 ### Ejemplos Básicos
@@ -121,12 +105,12 @@ $$
 
 Con $G_B \in K^{n\times n}$ una matriz hermética y definida positiva.
 
-- $G_B \in K^{n\times n}$ es una matriz **hermética** si y solo si $G_B = \overline{G_B}^T$, Las matrices hermética son un subconjunto de las matrices simétricas, extendida a las matrices con coeficientes reales.
+- $G_B \in K^{n\times n}$ es una matriz **hermética** si y solo si $G_B = \overline{G_B}^T$, Las matrices herméticas son un subconjunto de las matrices simétricas, extendida a las matrices con coeficientes reales.
 - $G_B \in K^{n\times n}$ es definida **positiva** si y solo si $X^TG_BX > 0 \impliedby \forall X \in K^n \neq \{0_{\Bbb K^n}\}$
 
 ## Propiedades
 
-**Desigualdad de Cauchy-Bunyakovsky-Schwarz:**
+### Desigualdad de Cauchy-Bunyakovsky-Schwarz:
 
 $$
 | \langle u,v \rangle | \leq \|u\| \|v\| \impliedby \forall u,v \in \Bbb V
@@ -140,13 +124,13 @@ $$
 \end{cases}
 $$
 
-**Desigualdad Triangular:**
+### Desigualdad Triangular:
 
 $$
 \|u + v\| \leq \|u\| + \|v\| \impliedby \forall u,c \in \Bbb V
 $$
 
-**Teorema de Pitágoras:**
+### Teorema de Pitágoras:
 
 Si $\langle u,v \rangle = 0 \iff u \perp v$ (es decir, si trabajamos con vectores perpendiculares) se cumple que
 
@@ -154,7 +138,7 @@ $$
 \|u + v\|^2 = \|u\|^2 + \|v\|^2
 $$
 
-**Angulo entre** $u, v$:
+### Ángulo entre $u, v$:
 
 Como consecuencia la desigualdad de *Cauchy-Bunyakovsky-Schwarz*, llegamos a la siguiente expresión
 
@@ -172,10 +156,18 @@ $$
 \alpha(u,v) = \theta
 $$
 
-**Area de un triangulo**
+### Área de un triángulo
 
-Sea $\triangle$ un triangulo de vertices $(0, e_1, e_2)$, entonces el area de este triangulo se calcula con la siguiente formula
+Sea $\triangle$ un triángulo de vértices $(0, e_1, e_2)$, entonces el área de este triángulo se calcula con la siguiente fórmula
 
 $$
 A(\triangle) = \frac 12 \cdot \sqrt{\|e_1\|^2\|e_2\|^2 - \langle e_1, e_2\rangle^2}
+$$
+
+### Área de un paralelogramo
+
+Se puede dividir el paralelogramo en dos triángulos y usar la fórmula anterior para encontrar su área.
+
+$$
+A(\triangle) = \sqrt{\|e_1\|^2\|e_2\|^2 - \langle e_1, e_2\rangle^2}
 $$

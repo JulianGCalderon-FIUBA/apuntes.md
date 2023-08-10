@@ -20,6 +20,9 @@
     "upla",
     "diagonalizables",
     "Gram",
-    "Riesz"
+    "Riesz",
+    "Cauchy",
+    "Bunyakovsky",
+    "Schwarz"
   ]
 }

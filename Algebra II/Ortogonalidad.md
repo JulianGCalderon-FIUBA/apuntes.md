@@ -96,7 +96,7 @@ $$
 \overline A^T A\ \hat x = \overline A^T b
 $$
 
-Este problema tiene solución única siempre y cuando $rg(A) = n$ (rango columna máximo) y podemos despejar la incognita. Se le llama seudoinversa de $A$ a la matriz
+Este problema tiene solución única siempre y cuando $rg(A) = n$ (rango columna máximo) y podemos despejar la incógnita. Se le llama pseudo inversa de $A$ a la matriz
 
 $$
 A^\# = (\overline A^T A)^{-1} \overline A^T
@@ -111,7 +111,7 @@ Si el problema tiene infinitas soluciones, la solución de menor norma es aquell
 
 ### Regresión Lineal
 
-Si tenemos un conjunto de datos $(x_1, y_1), (x_2, y_2), \cdots, (x_n, y_n)$. Si suponemos que hay una relación lineal entre las variables $(y = mx + b)$, podemos buscar la ecuación que mejor se ajusta
+Sí tenemos un conjunto de datos $(x_1, y_1), (x_2, y_2), \cdots, (x_n, y_n)$. Si suponemos que hay una relación lineal entre las variables $(y = mx + b)$, podemos buscar la ecuación que mejor se ajusta
 
 $$
 \begin{bmatrix}
@@ -134,7 +134,7 @@ $$
 
 En el caso de que el sistema sea incompatible (medidas imprecisas) podemos resolverlo el sistema con el método de cuadrados mínimos.
 
-Si en lugar de proponer una relación lineal proponemos una relación cuadrático, podemos seguir el mismo procedimiento anterior $(y = ax^2 + bx + c)$
+Si en lugar de proponer una relación lineal proponemos una relación cuadrática, podemos seguir el mismo procedimiento anterior $(y = ax^2 + bx + c)$
 
 $$
 \begin{bmatrix}
