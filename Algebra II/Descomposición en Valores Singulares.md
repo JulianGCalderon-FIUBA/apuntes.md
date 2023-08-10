@@ -1,4 +1,4 @@
-A partir de la descomposición en valores singulares (D.V.S), podemos encontrar que toda matriz puede ser factorizada de forma que quede de forma explicita los subespacios fundamentales de la matriz.
+A partir de la descomposición en valores singulares (D.V.S.), podemos encontrar que toda matriz puede ser factorizada de forma que quede de forma explícita los subespacios fundamentales de la matriz.
 
 **Recordamos:**
 
@@ -34,7 +34,7 @@ $$
 \Lambda = \Big\{\underbrace{\lambda_1,\, \lambda_2,\, \cdots,\, \lambda_k}_\text{Autovalores Positivos},\ \underbrace{\lambda{_k+1},\  \cdots,\ \lambda_n}_\text{Autovalores Nulos}\Big\}
 $$
 
-Podemos a partir de este conjunto, definir el subespacio columna, fila, y nulo de $A$. Todos estos conjuntos son ortonormales.
+Podemos, a partir de este conjunto, definir el subespacio columna, fila, y nulo de $A$. Todos estos conjuntos son ortonormales.
 
 $$
 \text{Col}(A) = \Big\{ \frac{Av_1}{\sigma_1},\ \frac{Av_2}{\sigma_2},\ \cdots,\ \frac{Av_k}{\sigma_k}\Big\}
@@ -110,7 +110,7 @@ V_{m{-}k}^*
 \end{bmatrix}
 $$
 
-Por lo que su forma reducida, se vera de la siguiente manera:
+Por lo que su forma reducida, se verá de la siguiente manera:
 
 $$
 A = U_k D_k V_k^*
@@ -129,4 +129,4 @@ Si la matriz $A$ es de rango máximo, entonces coincide con la matriz pseudo-inv
 
 Si quiero resolver el sistema $Ax = b$ por cuadrados mínimos, entonces busco $x^\dagger$ tal que $x^\dagger = A^\dagger b$
 
-Luego puedo sumarle cualquier vector del subespacio nulo a la solución para encontrar todas las soluciones. Además. $x^\dagger$ pertenece al subespacio fila de $A$, por lo que podemos asegurar que su norma es minima. (esto se debe a que $U_k$ esta compuesta por $\text{Fil}(A)$, por lo que el vector resultante también pertenece a este.
+Luego puedo sumarle cualquier vector del subespacio nulo a la solución para encontrar todas las soluciones. Además. $x^\dagger$ pertenece al subespacio fila de $A$, por lo que podemos asegurar que su norma es mínima. esto se debe a que $U_k$ está compuesta por $\text{Fil}(A)$, por lo que el vector resultante también pertenece a este.

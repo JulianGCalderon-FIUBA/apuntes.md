@@ -28,12 +28,12 @@ Las siguientes propiedades marcan relaciones entre una matriz y su adjunta:
 
 ### Matrices Herméticas
 
-Las siguientes propiedades son validas únicamente para matrices herméticas:
+Las siguientes propiedades son válidas únicamente para matrices herméticas:
 
 - $\langle x, Ay \rangle =\langle Ax, y\rangle$
 - Los autovalores de $A$ son reales
 - Los auto espacios correspondientes a autovalores distintos son ortogonales
-- Existe una base ortonormal de $\Bbb C^n$ formada por autovectores de $A$. Sus multiplicidades algebraicas y geométricas coinciden. Toda matriz hermética es a su vez, diagonalizable.
+- Existe una base ortonormal de $\Bbb C^n$ formada por autovectores de $A$. Sus multiplicidades algebraicas y geométricas coinciden. Toda matriz hermética es, a su vez, diagonalizable.
 
 > [!note]
 > Una matriz diagonalizable unitariamente no es necesariamente hermética.
@@ -52,23 +52,23 @@ Estas matrices tienen autovalores tanto positivos como negativos (reales)
 
 ### Matrices Unitarias
 
-Las siguientes propiedades son validas únicamente para matrices unitarias:
+Las siguientes propiedades son válidas únicamente para matrices unitarias:
 
-- Sus autovalores tienen modulo $1$.
-- El determinante tiene modulo $1$. (El determinante es el producto de sus autovalores)
+- Sus autovalores tienen módulo $1$.
+- El determinante tiene módulo $1$. (El determinante es el producto de sus autovalores)
 - Sean $U,V$ dos matrices unitarias, $UV$ es unitaria.
 - $\langle Ux, Uy \rangle = \langle x, y\rangle$. La multiplicación por una matriz unitaria preserva el producto interno.
 - $\|Ux\| = \|x\|$. La multiplicación por una matriz unitaria preserva la norma.
 - Los autovectores de una matriz unitaria asociados a autovalores distintos son ortogonales.
-- Las matrices unitarias son inversibles, se cumple que $U^{-1} = U^*$
+- Las matrices unitarias son invertibles, se cumple que $U^{-1} = U^*$
 
-### Matrices Simetricas
+### Matrices Simétricas
 
 Las matrices simétricas son diagonalizable ortogonalmente. Además, son las únicas matrices reales diagonalizables ortogonalmente.
 
-### Matrices Anti Herméticas
+### Matrices Anti-Herméticas
 
-Las siguientes propiedades son validas únicamente para matrices anti herméticas (y anti simétricas):
+Las siguientes propiedades son válidas únicamente para matrices anti herméticas (y antisimétricas):
 
 - Para todo $x \in \Bbb C^n$, $x^* A x$ es imaginario puro o nulo
 - Los autovalores de $A$ son imaginarios puros o nulos.

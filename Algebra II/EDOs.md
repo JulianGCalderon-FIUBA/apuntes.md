@@ -4,7 +4,7 @@ $$
 L(y)=y^{(n)} + a_{n-1}y^{(n-1)} + \cdots + a_1 y' + a_0y = f
 $$
 
-Ya que $L$ es una transformación lineal, las soluciones del nulo de esta transformación son las soluciones del sistema homogéneo asociado. Si la EDO es de orden $n$, entonces $Nu(L)$ tiene dimension $n$.
+Ya que $L$ es una transformación lineal, las soluciones del nulo de esta transformación son las soluciones del sistema homogéneo asociado. Si la E.D.O. es de orden $n$, entonces $Nu(L)$ tiene dimensión $n$.
 
 Todas las soluciones de la ecuación se puede anotar como:
 

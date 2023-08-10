@@ -17,6 +17,9 @@
   "spellcheckDictionary": [
     "autoespacios",
     "diagonalizable",
-    "upla"
+    "upla",
+    "diagonalizables",
+    "Gram",
+    "Riesz"
   ]
 }

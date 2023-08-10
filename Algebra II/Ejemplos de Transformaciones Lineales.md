@@ -25,7 +25,7 @@ $$
 
 ## Proyectores
 
-En algebra lineal, definimos proyector a una transformación lineal que compuesta con si misma, da la misma transformación lineal.
+En álgebra lineal, definimos proyector a una transformación lineal que, compuesta consigo misma, da la misma transformación lineal.
 
 $$
 \Pi \circ \Pi = \Pi
@@ -43,7 +43,7 @@ Supongamos que $v \in Nu(\Pi) \cap Im(\pi)$, entonces $\underbrace{\Pi(v) = v}_{
 
 ### Definicion
 
-Ya que todo vector de $\Bbb V$ se puede representar como combinación única de vectores de $Im(\Pi)$ y $Nu(\Pi)$. Entonces si definimos ambos subespacios, siendo $S_1 = Im(\Pi)$, y $S_2 = Nu(\Pi)$, queda definida una proyección transversal que se denota como $\Pi_{S_1 S_2}$, se lee la proyección sobre $S_1$ en la dirección de $S_2$
+Ya que todo vector de $\Bbb V$ se puede representar como combinación única de vectores de $Im(\Pi)$ y $Nu(\Pi)$. Entonces, si definimos ambos subespacios, siendo $S_1 = Im(\Pi)$, y $S_2 = Nu(\Pi)$, queda definida una proyección transversal que se denota como $\Pi_{S_1 S_2}$, se lee la proyección sobre $S_1$ en la dirección de $S_2$
 
 #### Propiedades
 
@@ -61,15 +61,15 @@ $$
 
 ## Cambio de Base
 
-Aunque podemos usar los casos mas simples para definir una de las transformaciones mencionadas en la base canónica, es mas sencillo definirlas en las bases previamente definidas de $\Bbb V$ y utilizar matrices de cambio de bases para pasarlas a la base canonica
+Aunque podemos usar los casos más simples para definir una de las transformaciones mencionadas en la base canónica, es más sencillo definirlas en las bases previamente definidas de $\Bbb V$ y utilizar matrices de cambio de bases para pasarlas a la base canónica
 
 $$
 [T]_E^E = [M]_B^E \cdot[T]_B^B \cdot [M]_E^B
 $$
 
-Partimos de un vector en la base canónica, primero lo pasamos a la base $B$. Luego aplicamos la transformación, la cual nos devuelve un vector en la misma base $B$. Por ultimo usamos nuevamente el matriz de cambio de base para pasar el vector resultante a la base canónica $E$.
+Partimos de un vector en la base canónica, primero lo pasamos a la base $B$. Luego aplicamos la transformación, la cual nos devuelve un vector en la misma base $B$. Por último usamos nuevamente la matriz de cambio de base para pasar el vector resultante a la base canónica $E$.
 
-Tambien es posible pasarlo a las bases $B$ y $B'$, partiendo de la base $A$ y $A'$:
+También es posible pasarlo a las bases $B$ y $B'$, partiendo de la base $A$ y $A'$:
 
 $$
 [T]_B^{B'} = [M]_{A'}^{B'} \cdot [T]_A^{A'} \cdot [M]_B^A

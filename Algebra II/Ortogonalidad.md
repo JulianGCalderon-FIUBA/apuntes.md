@@ -10,7 +10,7 @@ $$
 
 Se dice que $\{v_1, v_2, \cdots, v_k\} \in \Bbb V$ es un conjunto **ortogonal**, si $\langle v_i, v_j\rangle = 0 \quad\forall\ i\neq j$.
 
-Se dice que $\{v_1, v_2, \cdots, v_k\} \in \Bbb V$ es un conjunto **ortonormal**, si $\langle v_i, v_j\rangle = 0 \quad\forall\ i\neq j$. y $\|v_i\|^2 = 1 \quad \forall\ i = 1, \cdots, k$
+Se dice que $\{v_1, v_2, \cdots, v_k\} \in \Bbb V$ es un conjunto **ortonormal**, si $\langle v_i, v_j\rangle = 0 \quad\forall\ i\neq j$, y $\|v_i\|^2 = 1 \quad \forall\ i = 1, \cdots, k$
 
 Si un conjunto ortogonal no contiene el vector nulo, entonces este conjunto es linealmente independiente.
 
@@ -28,7 +28,7 @@ Sea $A \subset \Bbb V,\ A \neq \emptyset$, se llama **complemento ortogonal de**
 
 ## Proyección Ortogonal
 
-La proyección ortogonal de $v$ en $S$, es igual al punto de $S$ mas cercano a $v$, lo llamamos $v'$, es una transformacion lineal.
+La proyección ortogonal de $v$ en $S$, es igual al punto de $S$ más cercano a $v$, lo llamamos $v'$, es una transformación lineal.
 
 $$
 P_S(v) = v'
@@ -51,7 +51,7 @@ $$
 - $\Bbb V= S \oplus S^\perp$
 - $Im(P_S) = S,\ Nu(P_S) = S^\perp$
 
-### Formula
+### Fórmula
 
 Sea $S \subset\Bbb V$, $v \in \Bbb V$, y $B_S = \{v_1, v_2, \cdots, v_k\}$ una base ortogonal de $S$
 
@@ -61,7 +61,7 @@ $$
 
 ### Matriz
 
-Recordando que el producto interno canónico en $\Bbb C^n$es $\langle x,y \rangle = \overline y^T x$, podemos escribir la formula anterior como un producto matricial.
+Recordando que el producto interno canónico en $\Bbb C^n$es $\langle x,y \rangle = \overline y^T x$, podemos escribir la fórmula anterior como un producto matricial.
 
 $$
 P_S(v) = \begin{bmatrix}
@@ -82,7 +82,7 @@ Una matriz $P \in \Bbb C^{n\times n}$ o $P \in \Bbb R^{n\times n}$ es una proyec
 - $P = \overline P^T$ (es una matriz hermética)
 - $P^2 = P$ (es una matriz idempotente)
 
-## Cuadrados Minimos
+## Cuadrados Mínimos
 
 Si $X \in \Bbb V$ y $S \subseteq \Bbb V$, entonces la distancia entre el punto y el conjunto es igual a:
 
@@ -90,7 +90,7 @@ $$
 dist(X,S) = min\{dist(X, v_S), v_S \in S\} = \|X -P_s(X)\| = \|P_{S^\perp}(X)\|
 $$
 
-Para resolver el problema de cuadrados mínimos y encontrar el punto $b$ mas cercano de $S$ al punto $x$, podemos resolver las ecuaciones normales:
+Para resolver el problema de cuadrados mínimos y encontrar el punto $b$ más cercano de $S$ al punto $x$, podemos resolver las ecuaciones normales:
 
 $$
 \overline A^T A\ \hat x = \overline A^T b

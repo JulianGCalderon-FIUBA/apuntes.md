@@ -1,6 +1,6 @@
 Es un método que nos permite encontrar una base ortogonal de cualquier subespacio, a partir de la aplicación de un mismo algoritmo de forma recursiva.
 
-Si tenemos una base $B = \{v_1, v_2, \cdots, v_n\}$, podemos construir una nueva base $B' = \{w_1, w_2, \cdots, w_n\}$, siendo $w_1, w_2, \cdots, w_n$ vectores ortogonales entre si. De forma tal que
+Si tenemos una base $B = \{v_1, v_2, \cdots, v_n\}$, podemos construir una nueva base $B' = \{w_1, w_2, \cdots, w_n\}$, siendo $w_1, w_2, \cdots, w_n$ vectores ortogonales entre sí. De forma tal que
 
 $$
 \begin{gathered}
@@ -30,7 +30,7 @@ $$
 w_3 =v_3 - P_{S_2}(v_3) = v_3 - \Bigg(\frac{\langle v_3, w_1\rangle}{\|w_1\|^2} w_1 + \frac{\langle v_3, w_2\rangle}{\|w_2\|^2} w_2\Bigg)
 $$
 
-Continuamos hasta el ultimo vector de la nueva base
+Continuamos hasta el último vector de la nueva base
 
 $$
 w_n = v_n - \Bigg(\frac{\langle v_n, w_1\rangle}{\|w_1\|^2} w_1 + \frac{\langle v_n, w_2\rangle}{\|w_2\|^2} w_2 + \cdots +\frac{\langle v_n, w_{n-1}\rangle}{\|w_{n-1}\|^2} w_{n-1}\Bigg)
@@ -44,7 +44,7 @@ $$
 
 ## Descomposición $QR$ de una matriz $A$
 
-Con el algoritmo de Gram-Schmidt teníamos una forma de encontrar vectores $w_i$ ortogonales entre si. En lugar de los vectores $w$, podemos despejar los vectores $v$.
+Con el algoritmo de Gram-Schmidt teníamos una forma de encontrar vectores $w_i$ ortogonales entre sí. En lugar de los vectores $w$, podemos despejar los vectores $v$.
 
 Podemos entonces definir una matriz
 
