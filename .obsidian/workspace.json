@@ -10,13 +10,15 @@
           {
             "id": "52730347ee14ce39",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ]
