@@ -13,13 +13,13 @@ En las redes de computadora, resiliencia es la habilidad de proveer y mantener u
 
 Relacionado con minimizar el impacto que tienen las fallas, para que el sistema siga funcionando correctamente.
 
-Si priorizamos la resiliencia, esto puede afectar la eficiencia del sistema ya que estaremos destinando recursos a protegernos de las fallas, lo que puede añadir trabajo extra al sistema. Otro ejemplo puede ser la escalabilidad.
+Si priorizamos la resiliencia, esto puede afectar la eficiencia del sistema, ya que estaremos destinando recursos a protegernos de las fallas, lo que puede añadir trabajo extra al sistema. Otro ejemplo puede ser la escalabilidad.
 
-La disponibilidad y la confianza en sí solos no son suficientes para un sistema, no importa que tan bien diseñado este un sistema, siempre podrá fallar.
+La disponibilidad y la confianza en sí solos no son suficientes para un sistema, no importa que tan bien diseñado esté un sistema, siempre podrá fallar.
 
 ## Arquitecturas y Patrones
 
-**Pipe And Filter:** Componentes conectados a travès de conectores que procesan información. Consiste en manipular los datos de forma secuencial aplicando múltiples funciones hasta llegar al resultado
+**Pipe and Filter:** Componentes conectados a través de conectores que procesan información. Consiste en manipular los datos de forma secuencial aplicando múltiples funciones hasta llegar al resultado
 
 ***N-Tier:*** Consiste en una separación física de las distintas capas de una aplicación. Relacionado con la arquitectura de separación en capas.
 
@@ -27,9 +27,9 @@ La disponibilidad y la confianza en sí solos no son suficientes para un sistema
 
 En una arquitectura P2P (punto a punto). Los componentes deben interactuar directamente con los otros servicios que utiliza. Si uno de sus componentes falla, el evento completo fallará.
 
-En la arquitectura orientada a eventos, los eventos se colocan en una cola de eventos. Los sistemas estarán conectados a esta cola y registrarán los eventos en cuanto esté disponible.º
+En la arquitectura orientada a eventos, los eventos se colocan en una cola de eventos. Los sistemas estarán conectados a esta cola y registrarán los eventos en cuanto esté disponible.
 
-### Rest API
+### REST API
 
 ### Microservicios
 

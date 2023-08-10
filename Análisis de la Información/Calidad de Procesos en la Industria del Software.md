@@ -6,7 +6,7 @@
 Cuando no hay calidad, surgen los siguientes costos
 
 - **Costos de Falla Externos:** Relacionados con las acciones necesarias para atender con los reclamos de los clientes.
-- **Costos de Falla Internos:** Relacionados con las actividades necesarias para reparar los productos defectuoso**:**
+- **Costos de Falla Internos:** Relacionados con las actividades necesarias para reparar los productos defectuoso:
 - ***Costos de Evaluación:*** Relacionados con las pruebas y las revisiones
 - ***Costos de Prevención:*** Relacionados con el entrenamiento y la capacitación de los empleados, el diseño de un plan de calidad, etc.
 
@@ -16,7 +16,7 @@ A veces, estos costos pueden incluso causar que el sistema tenga que ser redise�
 
 ## Elementos de la Calidad
 
-La calidad se puede separar en los siguiente elementos:
+La calidad se puede separar en los siguientes elementos:
 
 - **Control de Calidad:** Actividades y técnicas de evaluación empleadas para cumplir con los requerimientos del producto.
 - **Aseguramiento de la Calidad:** Busca proveer cierto nivel de confianza de que un producto satisfará los requerimientos.
@@ -38,7 +38,7 @@ Hay dos términos distintos que se suelen confundir entre sí. A veces se utiliz
 
 ## PDCA
 
-Este método no es vigente hoy en dia. Un ciclo de mejora continua que consiste en cuatro fases,
+Este método no es vigente hoy en día. Un ciclo de mejora continua que consiste en cuatro fases,
 
 - **Plan:** Se establecen los objetivos y el plan para alcanzarlos
 - **Do:** Se desarrollan y prueban pequeños cambios. Luego se reúnen datos.
@@ -53,7 +53,7 @@ Hay tres enfoques principales para aumentar la calidad:
 - **Lean**: Usa herramientas similares, pero busca remover el desperdicio y aumentar el flujo de trabajo.
 - ***TOC*** (Teoría de las Restricciones)***:*** Busca encontrar y resolver las restricciones del sistema, el cuello de botella del sistema.
 
-La mayoría de las filosofías de dia de hoy se basan en ***lean***. Lo mejor es tener ciclos de desarrollo que se van actualizando con cada iteración.
+La mayoría de las filosofías de día de hoy se basan en ***lean***. Lo mejor es tener ciclos de desarrollo que se van actualizando con cada iteración.
 
 ## Grupos de factores de Calidad
 

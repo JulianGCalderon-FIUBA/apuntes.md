@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmos II/Punteros.md",
+                "file": "Análisis de la Información/Casos de Uso.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmos II/Punteros.md"
+                "file": "Análisis de la Información/Casos de Uso.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmos II/Punteros.md",
+                "file": "Análisis de la Información/Casos de Uso.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmos II/Punteros.md",
+                "file": "Análisis de la Información/Casos de Uso.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,6 +158,12 @@
   },
   "active": "a25fa245d1413477",
   "lastOpenFiles": [
+    "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
+    "Análisis de la Información/Arquitectura del Software.md",
+    "Análisis de la Información/Análisis de la Información.md",
+    "Algoritmos II/TDA.md",
+    "Algoritmos II/Recursividad.md",
+    "Algoritmos II/Punteros.md",
     "Algoritmos II/Pilas, Colas y Listas.md",
     "Algoritmos II/Memoria.md",
     "Algoritmos II/Iteradores de Lista.md",
@@ -179,12 +185,6 @@
     "Algebra II/Transformaciones Lineales.md",
     "Algebra II/Subespacios de Matriz.md",
     "Algebra II/Subespacios.md",
-    "Algebra II/Sistemas de E D Homogéneas.md",
-    "Algebra II/Producto Interno.md",
-    "Algebra II/Ortogonalidad.md",
-    "Algebra II/Operaciones entre Subespacios.md",
-    "Algebra II/Método de Gram-Schmidt.md",
-    "Algebra II/Matrices Normales.md",
     "Algoritmos I/Attachments/Recursividad 1.png",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
