@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Matrices Normales.md",
+                "file": "Algebra II/Operaciones entre Subespacios.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra II/Matrices Normales.md"
+                "file": "Algebra II/Operaciones entre Subespacios.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra II/Matrices Normales.md",
+                "file": "Algebra II/Operaciones entre Subespacios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra II/Matrices Normales.md",
+                "file": "Algebra II/Operaciones entre Subespacios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 332.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,6 +150,8 @@
   },
   "active": "a25fa245d1413477",
   "lastOpenFiles": [
+    "Algebra II/Método de Gram-Schmidt.md",
+    "Algebra II/Matrices Normales.md",
     "Algebra II/Formas Cuadráticas.md",
     "Algebra II/Espacios Vectoriales.md",
     "Algebra II/Ejemplos de Transformaciones Lineales.md",
@@ -156,7 +159,6 @@
     "Algebra II/Descomposición en Valores Singulares.md",
     "Algebra II/Coordenadas.md",
     "Algebra II/Autovalores y Autovectores.md",
-    "Algebra II/Matrices Normales.md",
     "Algebra II/Algebra II.md",
     "Estructura del Computador/Estructura del Computador.md",
     "Estructura del Computador/Circuitos.md",
@@ -175,7 +177,6 @@
     "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
     "Estructura del Computador/Simplificación de Funciones.md",
-    "Estructura del Computador/Sistema ARC.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",

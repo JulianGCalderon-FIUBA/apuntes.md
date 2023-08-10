@@ -40,15 +40,11 @@ Las siguientes propiedades son validas únicamente para matrices herméticas:
 
 #### Matrices Definidas Positivas:
 
-Una matriz $A$ es definida positiva si $A^* = A$, y $x^* Ax > 0$, para todo $x$ no nulo.
-
-Estas matrices tienen todos sus autovalores positivos (y reales)
+Una matriz $A$ es definida positiva si $A^* = A$, y $x^* Ax > 0$, para todo $x$ no nulo. Estas matrices tienen todos sus autovalores positivos (y reales)
 
 #### Matrices Semi Definidas Positiva:
 
-Una matriz $A$ es definida negativa si $A^* = A$, y $x^* Ax \geq 0$, para todo $x$ no nulo.
-
-Estas matrices tienen todos sus autovalores no negativos (y reales)
+Una matriz $A$ es definida negativa si $A^* = A$, y $x^* Ax \geq 0$, para todo $x$ no nulo. Estas matrices tienen todos sus autovalores no negativos (y reales)
 
 #### Matrices Indefinidas
 
@@ -91,6 +87,4 @@ $$
 \|T(x)\| = \|x\|
 $$
 
-Es decir, el operador $T$ preserva la norma. Además, preserva el producto interno.
-
-El producto interno se preserva si y solo si se preserva la norma.
+Es decir, el operador $T$ preserva la norma. Además, preserva el producto interno. El producto interno se preserva si y solo si se preserva la norma.
