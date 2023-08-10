@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis de la Información/Historias de Usuario.md",
+                "file": "Análisis de la Información/Introducción a la Ingeniería de Software.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis de la Información/Historias de Usuario.md"
+                "file": "Análisis de la Información/Introducción a la Ingeniería de Software.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis de la Información/Historias de Usuario.md",
+                "file": "Análisis de la Información/Introducción a la Ingeniería de Software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis de la Información/Historias de Usuario.md",
+                "file": "Análisis de la Información/Introducción a la Ingeniería de Software.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,14 +158,17 @@
   },
   "active": "a25fa245d1413477",
   "lastOpenFiles": [
+    "Análisis de la Información/Interfaces de Usuario.md",
+    "Análisis de la Información/Introducción a la Ingeniería de Software.md",
+    "Análisis de la Información/Innovación y Creatividad.md",
+    "Análisis de la Información/Ingeniería de Requisitos.md",
+    "Análisis de la Información/Historias de Usuario.md",
     "Análisis de la Información/Historias de Dominio.md",
     "Análisis de la Información/Gherkin.md",
     "Análisis de la Información/Diseño de Datos.md",
     "Análisis de la Información/Design Thinking.md",
     "Análisis de la Información/Casos de Uso.md",
     "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
-    "Análisis de la Información/Ingeniería de Requisitos.md",
-    "Análisis de la Información/Historias de Usuario.md",
     "Algoritmos II/Recursividad.md",
     "Análisis de la Información/Arquitectura del Software.md",
     "Análisis de la Información/Análisis de la Información.md",
@@ -182,9 +185,6 @@
     "Algoritmos II/Análisis de Algoritmos.md",
     "Algoritmos II/Algoritmos de Grafos.md",
     "Algoritmos I/Manejo de Archivos.md",
-    "Algoritmos I/Conceptos Básicos.md",
-    "Algoritmos I/Argumentos del programa.md",
-    "Algoritmos I/Algoritmos I.md",
     "Algoritmos I/Attachments/Recursividad 1.png",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",

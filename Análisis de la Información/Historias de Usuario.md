@@ -5,7 +5,7 @@ Una historia de usuario es una descripción de la funcionalidad esperada de un s
 
 No son requisitos en el sentido tradicional, sino que constituyen un recordatorio de que se debe mantener una conversación respecto al tema en cuestión.
 
-Esto da origen al concepto de las tres 'C's
+Esto da origen al concepto de las tres 'C'
 
 ## Card, Conversation, Confirmation
 
@@ -60,15 +60,15 @@ Marco de referencia que propone 13 atributos de calidad:
 	- **Independiente:** No debe depender de otras historias, debe ser autocontenido
 	- **Completa:** No faltan pasos
 
-Este criterio considera opcional el *¿porqué?*, aunque nosotros lo consideramos necesario.
+Este criterio considera opcional él *¿por qué?*, aunque nosotros lo consideramos necesario.
 
 ## ¿Como encontrarlas?
 
-Primero debemos entender cuales son los límites del sistema que estamos analizando y quienes lo utilizan. Luego para cada usuario,debemos identificar sus objetivos y la funcionalidad esperada del sistema. Los objetivos pueden incluir una jerarquía de los objetivos. Al final de la jerarquía, podemos encontrar historias de usuario para cada sub objetivo.
+Primero debemos entender cuáles son los límites del sistema que estamos analizando y quienes lo utilizan. Luego, para cada usuario, debemos identificar sus objetivos y la funcionalidad esperada del sistema. Los objetivos pueden incluir una jerarquía de los objetivos. Al final de la jerarquía, podemos encontrar historias de usuario para cada subobjetivo.
 
 ### User Story Mapping
 
-Es un posible enfoque para descubrir historias de usuario, describe las actividades que realizan a lo largo del tiempo los usuario de una aplicación y su descomposición en subactividades y tareas. A partir de las tareas podemos identificar historias de usuario. Cada subactividad tenrdra al menos una tarea asociada.
+Es un posible enfoque para descubrir historias de usuario, describe las actividades que realizan a lo largo del tiempo los usuarios de una aplicación y su descomposición en subactividades y tareas. A partir de las tareas podemos identificar historias de usuario. Cada subactividad tendrá al menos una tarea asociada.
 
 ![[Historias de Usuario 2.png|500]]
 
@@ -80,9 +80,9 @@ Técnica de planificación que tiene como propósito alinear los equipos de trab
 
 ### Proceso de Desarrollo
 
-En el proceso de desarrollo, asignaremos historias de usuario a las distintos ***releases*** del proyecto
+En el proceso de desarrollo, asignaremos historias de usuario a los distintos ***releases*** del proyecto
 
-![[Historias de Usuario 4.png|475]]
+![[Historias de Usuario 4.png|500]]
 
 ### Product & Sprint Backlogs
 
@@ -92,7 +92,7 @@ En ***SCRUM***, las historias de usuario se almacenan en el ***product backlog**
 
 ### Kanbag
 
-Es un sistema de planificación y organización del trabajo. Su objetivo es ayudar a darle visibilidad al trabajo y limitar el trabajo en simultaneo, mejorando el flujo de trabajo.
+Es un sistema de planificación y organización del trabajo. Su objetivo es ayudar a darle visibilidad al trabajo y limitar el trabajo en simultáneo, mejorando el flujo de trabajo.
 
 Tendremos una tarjeta por cada historia de usuario y por cada defecto encontrado en el ***software***. Las historias de usuario se moverán por el tablero para indicar el estado de las mismas.
 
@@ -105,10 +105,10 @@ Propuestos por Alistar Cockurn. Separan los objetivos en cuatro niveles:
 - **Cloud level:** High summary level. Objetivos de negocio, son aquellos que llevan el negocio a la dirección requerida
 - **Kite level:** Sumary level. Objetivos alcanzados por procesos de punta a punta dentro de los sistemas. Pueden tomar icho tiempo en ser alcanzados
 - **Sea level:** User goal level. Pueden ser realizados por una sola persona, contribuyen a la entrega de un objetivo completo
-- **Fish level:** Sub goal level. No son objetivos en si, si no que se utilizan para completar los objetivos y separarlos.
+- **Fish level:** Sub goal level. No son objetivos en sí, si no que se utilizan para completar los objetivos y separarlos.
 
 ## Criterios de Aceptación
 
 Una forma de definir un criterio, es define el escenario, un contexto específico, el evento, y el resultado esperado
 
-![[Historias de Usuario 7.png|600]]
+![[Historias de Usuario 7.png|650]]

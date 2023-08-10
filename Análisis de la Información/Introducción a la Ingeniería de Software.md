@@ -16,7 +16,7 @@ La ingeniería de software es una ingeniería de cosas abstractas, trabajamos co
 
 ## Producto Finalizado
 
-Convertir un programa en un producto específico implica ***generalización, testing, documentación y mantenimiento***. Si el producto debe interactuar con otros programas para formar un sistema también es necesario tener en cuenta las ***interfaces*** y la ***integración***. El ***software*** siempre forma parte de un sistema mayor integrado por otros elementos.
+Convertir un programa en un producto específico implica ***generalización, testing, documentación y mantenimiento***. Si el producto debe interactuar con otros programas para formar un sistema, también es necesario tener en cuenta las ***interfaces*** y la ***integración***. El ***software*** siempre forma parte de un sistema mayor integrado por otros elementos.
 
 ## Cuerpo de Conocimiento
 
