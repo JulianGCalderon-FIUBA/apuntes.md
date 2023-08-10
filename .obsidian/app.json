@@ -27,6 +27,12 @@
     "Wronskiano",
     "preimagen",
     "codominio",
-    "sobreyectiva"
+    "sobreyectiva",
+    "Floyd",
+    "Prim",
+    "Prim",
+    "Dijkstra",
+    "Floyd",
+    "Kruskal"
   ]
 }

@@ -1,8 +1,8 @@
 ## AVL
 
-Un árbol AVL o de *Adelson-Velsky and Landis*, es un árbol binario de búsqueda auto balanceado
+Un árbol AVL o de *Adelson-Velsky and Landis*, es un árbol binario de búsqueda autobalanceado
 
-Si el factor de balanceo de algún nodo del árbol es en modulo mayor a 1, entonces es necesario reequilibrar
+Si el factor de balanceo de algún nodo del árbol es en módulo mayor a 1, entonces es necesario reequilibrar
 
 ### Rotaciones
 
@@ -34,7 +34,7 @@ Si el factor de balanceo de algún nodo del árbol es en modulo mayor a 1, enton
 
 Utilizamos el algoritmo usual de inserción de elemento en un árbol binario, Pero una vez insertado calculamos las alturas de los padres y aplicamos los balanceos necesarios. Los balanceos le reducen la altura a una rama en uno, por lo que después de aplicar alguna de las rotaciones vistas anteriormente no es necesario seguir rotando.
 
-Si insertamos un elemento modificamos el factor de balanceo de su padre en uno, Luego le sumamos este factor de balanceo a su padre y así sucesivamente hasta encontrar un desbalanceo.
+Si insertamos un elemento modificamos el factor de balanceo de su padre en uno, Luego le sumamos este factor de balanceo a su padre y así sucesivamente hasta encontrar un desbalance.
 
 Es decir, si algún nodo llega a $FE = 0$, entonces no es necesario seguir calculando factores de balanceo.
 
@@ -44,35 +44,35 @@ Utilizamos el algoritmo usual de eliminación de elemento en un árbol binario, 
 
 A cada nodo le modificamos el factor de balanceo en uno hasta que encontramos un desequilibrio, o hasta que verificamos que la eliminación del nodo ha dejado de repercutir en la altura del subárbol.
 
-En el borrado a veces es necesario aplicar mas de una rotación.
+En el borrado a veces es necesario aplicar más de una rotación.
 
 ## Árbol Rojo y Negro
 
-Un árbol Rojo-Negro es un árbol binario de búsqueda auto-balanceado. Cada nodo de este árbol posee una información extra que es el color del nodo.
+Un árbol Rojo-Negro es un árbol binario de búsqueda autobalanceado. Cada nodo de este árbol posee una información extra que es el color del nodo.
 
-Para que este tipo de árbol sea valido se tienen que cumplir los siguientes requisitos:
+Para que este tipo de árbol sea válido se tienen que cumplir los siguientes requisitos:
 
 - Todo nodo es o bien rojo o bien negro
 - La raíz es negra
 - Todas las hojas son negras
 - Todo nodo rojo debe tener dos nodos hijos negros
-- Cualquier camino desde un nodo dado a sus hojas contiene el mismo numero de nodos negros
+- Cualquier camino desde un nodo dado a sus hojas contiene el mismo número de nodos negros
 
-El numero de nodos negros desde el nodo raíz a un nodo es denominado la profundidad negra del nodo. EL numero uniforme nodos negros en todos los caminos desde la raíz hasta las hojas se denomina altura-negra. De esta forma, se cumple que
+El número de nodos negros desde el nodo raíz a un nodo es denominado la profundidad negra del nodo. El número uniforme de nodos negros en todos los caminos, desde la raíz hasta las hojas, se denomina altura-negra. De esta forma, se cumple que
 
-El camino mas largo desde la raíz hasta una hoja no es mas largo que dos veces el camino mas corto desde la raíz a una hoja. Como resultado, el árbol esta aproximadamente equilibrado
+El camino más largo desde la raíz hasta una hoja no es más largo que dos veces el camino más corto desde la raíz a una hoja. Como resultado, el árbol está aproximadamente equilibrado
 
-[[Arboles Auto Balanceados 1.pdf]]
+[[Machete - AAB.pdf]]
 
 ## Árbol B
 
-Los árboles B de búsqueda nacen a partir de la necesidad de tener un numero muy grande de elementos, en estos arboles se prioriza la poca profundidad.
+Los árboles B de búsqueda nacen a partir de la necesidad de tener un número muy grande de elementos, en estos árboles se prioriza la poca profundidad.
 
-Para que una árbol B de orden $k$ sea valido se tienen que cumplir los siguientes requisitos:
+Para que un árbol B de orden $k$ sea válido se tienen que cumplir los siguientes requisitos:
 
-- La cantidad minima de claves es al menos $k/2$ (excepto raíz)
-- Un nodo con $k$ claves tiene como máximo, $m{=}k{+}1$ descendientes
-- La cantidad minima de descendientes es $m/2$ (excepto raíz y hojas)
+- La cantidad mínima de claves es al menos $k/2$ (excepto raíz)
+- Un nodo con $k$ claves tiene, como máximo, $m{=}k{+}1$ descendientes
+- La cantidad mínima de descendientes es $m/2$ (excepto raíz y hojas)
 
 ### Búsqueda
 
@@ -83,7 +83,7 @@ La búsqueda se hace partiendo el nodo inicial, evaluando en que rama del nodo d
 Los elementos en un árbol B se insertan siempre en las hojas. El algoritmo de inserción en un árbol B sigue los siguientes pasos:
 
 1. Buscar el nodo donde debería ser insertada la nueva clave
-2. Si el nodo no esta completo, entonces insertar el valor respetando el orden
+2. Si el nodo no está completo, entonces insertar el valor respetando el orden
 3. Si el nodo esta lleno, entonces lo insertamos en el conjunto existente de clave dividimos el nodo en dos y movemos el elemento del medio hacia el nodo padre. Si el nodo padre esta lleno, repetir.
 
 ### Eliminación

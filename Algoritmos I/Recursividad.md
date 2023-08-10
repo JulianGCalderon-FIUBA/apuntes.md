@@ -1,11 +1,11 @@
-La recursividad es un método para solucionar problemas, que consta en repetir el mismo algoritmo en situaciones cada vez mas sencillas, hasta llegar a un caso base.
+La recursividad es un método para solucionar problemas, que consta en repetir el mismo algoritmo en situaciones cada vez más sencillas, hasta llegar a un caso base.
 
 Se divide en dos partes:
 
 - **Bajada,** voy simplificando el problema hasta llegar al caso base
 - **Subida**, resuelvo el problema
 
-Cada vez que se llama una función, se crea un ámbito nuevo y se va apilando en el stack de ejecución hasta que termine de ejecutarse la llamada.
+Cada vez que se llama una función, se crea un ámbito nuevo y se va apilando en el *stack* de ejecución hasta que termine de ejecutarse la llamada.
 
 Toda función iterativa puede volverse recursiva, pero no toda función recursiva puede volverse iterativa.
 

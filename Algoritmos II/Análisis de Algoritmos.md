@@ -1,4 +1,4 @@
-Una vez diseñado un algoritmo, es necesario analizar los recursos que consume, refiriéndose al tiempo e espacio que requiere su ejecución.
+Una vez diseñado un algoritmo, es necesario analizar los recursos que consume, refiriéndose al tiempo y espacio que requiere su ejecución.
 
 Los recursos que utiliza pueden ser:
 
@@ -9,12 +9,12 @@ Los recursos que utiliza pueden ser:
 
 Hay muchas propiedades, además de tiempo y espacio, que son de interés para ser estudiadas, por lo que es difícil en ocasiones analizar un algoritmo.
 
-- El **primer** enfoque para analizar algoritmos, se concentro en determinar el crecimiento del peor de los casos en lo que respecta a la eficiencia de un algoritmo.
-- El **segundo** enfoque se concentro en categorizar el mejor, el peor, y el promedio de la eficiencia de un algoritmo.
+- El **primer** enfoque para analizar algoritmos, se concentró en determinar el crecimiento del peor de los casos en lo que respecta a la eficiencia de un algoritmo.
+- El **segundo** enfoque se concentró en categorizar el mejor, el peor, y el promedio de la eficiencia de un algoritmo.
 
 ## Complejidad de un Algoritmo
 
-Vamos a definir algunas funciones que permiten analizar la complejidad de un algoritmo. Estas funciones tienen una base matemática y estudian el comportamiento de los algoritmos en los casos limites.
+Vamos a definir algunas funciones que permiten analizar la complejidad de un algoritmo. Estas funciones tienen una base matemática y estudian el comportamiento de los algoritmos en los casos límites.
 
 ### Big-O
 
@@ -34,7 +34,7 @@ $$
 T(N) = \Omega(f(N)) \impliedby T(N) \geq c\cdot f(N):\quad c \in \mathbb{R}^+, N > N_0
 $$
 
-Esto quiere decir que, para algún valor de $c$, la tasa de crecimiento $T(N)$ nunca sera menor a $f(N)$. Es la cota inferior
+Esto quiere decir que, para algún valor de $c$, la tasa de crecimiento $T(N)$ nunca será menor a $f(N)$. Es la cota inferior
 
 ### Small-o
 
@@ -54,7 +54,7 @@ $$
 T(N) = \Theta(f(N)) \impliedby T(N) = O(f(N)),\quad T(N) = \Omega(f(N))
 $$
 
-Esto quiere decir que la tasa de crecimiento va a estar acotada por una tasa superior e una inferior. Es tanto **Big-O**, como **Big-Omega**.
+Esto quiere decir que la tasa de crecimiento va a estar acotada por una tasa superior y una inferior. Es tanto **Big-O**, como **Big-Omega**.
 
 ## Teorema Maestro
 

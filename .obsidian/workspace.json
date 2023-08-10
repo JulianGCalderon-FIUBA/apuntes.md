@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmos I/Recursividad.md",
+                "file": "Algoritmos II/Arboles Auto Balanceados.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmos I/Recursividad.md"
+                "file": "Algoritmos II/Arboles Auto Balanceados.md"
               }
             }
           },
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmos I/Recursividad.md",
+                "file": "Algoritmos II/Arboles Auto Balanceados.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmos I/Recursividad.md",
+                "file": "Algoritmos II/Arboles Auto Balanceados.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,15 +156,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "178700d707526f5b",
+  "active": "a25fa245d1413477",
   "lastOpenFiles": [
-    "Algoritmos I/Operaciones con Arreglos.md",
-    "Algoritmos I/Operaciones con archivos.md",
+    "Algoritmos II/Attachments/Machete - AAB.pdf",
+    "Algoritmos II/Arboles Auto Balanceados.md",
+    "Algoritmos II/Análisis de Algoritmos.md",
+    "Algoritmos II/Algoritmos de Grafos.md",
     "Algoritmos I/Manejo de Archivos.md",
     "Algoritmos I/Conceptos Básicos.md",
-    "Algoritmos I/Bibliotecas Personales.md",
-    "Algoritmos I/Algoritmos I.md",
     "Algoritmos I/Argumentos del programa.md",
+    "Algoritmos I/Algoritmos I.md",
+    "Algoritmos I/Recursividad.md",
+    "Algoritmos I/Operaciones con Arreglos.md",
+    "Algoritmos I/Operaciones con archivos.md",
+    "Algoritmos I/Bibliotecas Personales.md",
     "Algebra II/Transformaciones Lineales.md",
     "Algebra II/Subespacios de Matriz.md",
     "Algebra II/Subespacios.md",
@@ -179,11 +184,6 @@
     "Algebra II/Ejemplos de Transformaciones Lineales.md",
     "Algebra II/Ecuaciones Diferenciales Ordinarias.md",
     "Algebra II/Descomposición en Valores Singulares.md",
-    "Algebra II/Coordenadas.md",
-    "Algebra II/Autovalores y Autovectores.md",
-    "Algebra II/Algebra II.md",
-    "Estructura del Computador/Estructura del Computador.md",
-    "Estructura del Computador/Circuitos.md",
     "Algoritmos I/Attachments/Recursividad 1.png",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
