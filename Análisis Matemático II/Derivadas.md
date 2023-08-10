@@ -20,7 +20,8 @@ $$
 
 La derivada direccional es un numero real que representa la pendiente de la recta tangente trazada en $(x_0, y_0, f(x_0, y_0)$ a la curva que se obtiene cortando la grafica de $f$ con una curva cuya traza en el plano $xy$ es la recta $(x,y) = (x_0, y_0) + h\vec v$, con $h \in R$.
 
-Una función no tiene porque ser continua en $x,y$ para ser derivable. En cálculos de varias variables, estos conceptos son independientes entre si.
+> [!warning] Atención
+> Una función no tiene porque ser continua en $x,y$ para ser derivable. En cálculos de varias variables, estos conceptos son independientes entre si.
 
 ## Derivadas parciales
 
@@ -40,7 +41,7 @@ $$
 
 ## Gradiente
 
-Es un vector que indica la direccion en la cual el campo varia mas rapidamente.
+Es un vector que indica la dirección en la cual el campo varia más rapidamente.
 
 Si $f$ es diferenciable en $\vec r$, entonces:
 

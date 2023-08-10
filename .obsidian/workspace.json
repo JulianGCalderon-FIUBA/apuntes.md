@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Cuádricas.md",
+                "file": "Análisis Matemático II/Integrales Triples.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Cuádricas.md",
+                "file": "Análisis Matemático II/Integrales Triples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Cuádricas.md",
+                "file": "Análisis Matemático II/Integrales Triples.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Cuádricas.md"
+                "file": "Análisis Matemático II/Integrales Triples.md"
               }
             }
           },
@@ -166,6 +166,13 @@
   },
   "active": "52730347ee14ce39",
   "lastOpenFiles": [
+    "Análisis Matemático II/Integrales de Linea.md",
+    "Análisis Matemático II/Polinomio de Taylor.md",
+    "Análisis Matemático II/Derivadas.md",
+    "Análisis Matemático II/Métodos de resolución.md",
+    "Análisis Matemático II/Limites.md",
+    "Análisis Matemático II/Funciones de varias variables.md",
+    "Análisis Matemático II/Cuádricas.md",
     "Algebra II/Autovalores y Autovectores.md",
     "Algebra II/Algebra II.md",
     "Algebra II/Formas Cuadráticas.md",
@@ -185,13 +192,6 @@
     "Algebra II/Operaciones entre Subespacios.md",
     "Algebra II/Coordenadas.md",
     "Física II/Física II.md",
-    "Fisica I/Física I.md",
-    "Primer Parcial.md",
-    "Untitled.md",
-    "Análisis Matemático II/Análisis Matemático II.md",
-    "Matemática Discreta/Operaciones entre Grafos.md",
-    "Modelos y Optimización I/Planteo Dual.md",
-    "Matemática Discreta/Clasificaciones.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",

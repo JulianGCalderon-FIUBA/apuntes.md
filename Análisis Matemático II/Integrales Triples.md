@@ -53,10 +53,10 @@ z = \rho\cos(\varphi)
 \end{cases}
 $$
 
-![[Integrales Triples 1.png]]
-
-$\theta\in[0,2\pi],\,\varphi\in[0,\pi],\,\rho\in\mathbb{R}^+$
-
 $$
 K = \rho^2\sin(\varphi)\cdot  d\varphi d\theta d\rho
 $$
+
+![[Integrales Triples 1.png]]
+
+$$\theta\in[0,2\pi],\,\varphi\in[0,\pi],\,\rho\in\mathbb{R}^+$$
