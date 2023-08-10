@@ -12,7 +12,7 @@ x_n &= Ax_{n-1} = A^nx_0\\
 \end{align*}
 $$
 
-Las matrices mas fáciles de potenciar son las matrices diagonales.
+Las matrices más fáciles de potenciar son las matrices diagonales.
 
 $$
 D = \text{diag}(\lambda_1,\lambda_2,\cdots,\lambda_n)
@@ -58,24 +58,24 @@ Encontramos que una matriz $A \in \Bbb K^{n\times n}$ puede ser factorizada como
 - $\text{tr}(A) = \sum_{i=1}^n \lambda_i$. (Se consideran los autovalores con repetición)
 - Si $\lambda$ es autovalor de $A$ asociado al autovector $v$:
 	- $(\lambda^k + t)$ es autovalor de $(A^k + tI)$ asociado al autovector $v$
-	- Si $A$ es inversible, entonces $\frac 1\lambda$ es autovalor de $A^-1$ asociado al autovector $v$
+	- Si $A$ es invertible, entonces $\frac 1\lambda$ es autovalor de $A^-1$ asociado al autovector $v$
 - Si $\lambda$ es autovalor de $A$, entonces es autovalor de $A^T$
 - La multiplicidad algebraica es siempre mayor o igual que la multiplicidad geométrica.
 
 ## Semejanza
 
-Sean $A, B$ dos matrices de mismas dimensiones, se dice que $A$ es semejante a $B$ $(A \sim B)$ Si existe $Q$ tal que $A = Q\ B\ Q^{-1}$
+Sean $A, B$ dos matrices de las mismas dimensiones, se dice que $A$ es semejante a $B$ $(A \sim B)$ Si existe $Q$ tal que $A = Q\ B\ Q^{-1}$
 
 - Es reflexiva: $A \sim A$
 - Es simétrica: Si $A \sim B$, entonces $B \sim A$
 - Es transitiva: Si $A \sim B$ y $B \sim C$, entonces $A \sim C$
-- Si $\Bbb V$ es un espacio vectorial de dimension $n$. $B$ y $B'$ siendo bases de $\Bbb V$. Entonces podemos escribir una transformación lineal respecto a ambas bases
+- Si $\Bbb V$ es un espacio vectorial de dimensión $n$. $B$ y $B'$ siendo bases de $\Bbb V$. Entonces podemos escribir una transformación lineal respecto a ambas bases
 
 	$$
 	[T]_{B'}^{B'} = M_{B}^{B'}\cdot [T]_B^B\cdot (M_{B}^{B'})^{-1}
     $$
 
-	Podemos concluir que todas la representación de una transformación lineal con respecto a una misma base son semejantes entre si.
+	Podemos concluir que toda la representación de una transformación lineal con respecto a una misma base son semejantes entre sí.
 
 - Si $A \sim B$, entonces $A, B$ tienen los mismos autovalores, con la misma multiplicidad tanto algebraica como geométrica.
 
@@ -91,7 +91,7 @@ Sean $A, B$ dos matrices de mismas dimensiones, se dice que $A$ es semejante a $
 
 Un subespacio $S \subseteq \Bbb K^n$ es un **subespacio invariante** de $A$ $(A\text{-invariante})$ si para todo vector $v \in S$, $Av \in S$.
 
-Sabemos que todo autoespacio de $A$ es un subespacio $A\text{-invariante}$. Pero el reciproco no es cierto, hay subespacios invariantes de $A$ que no son autoespacios del mismo.
+Sabemos que todo autoespacio de $A$ es un subespacio $A\text{-invariante}$. Pero el recíproco no es cierto, hay subespacios invariantes de $A$ que no son autoespacios del mismo.
 
 Un subespacio $S \subseteq \Bbb V$ es un **subespacio invariante** de $T:\Bbb V\to \Bbb V$ o $(T\text{-invariante})$ si para todo vector $v\in S$, se cumple que $T(v) \in S$
 
@@ -99,7 +99,7 @@ El núcleo y la imagen de una transformación lineal es un subespacio $T\text{-i
 
 ## Transformación Lineal
 
-Dados $\Bbb V {-} \Bbb K$ un espacio vectorial y $T: \Bbb V \to \Bbb V$ una transformacion lineal. Un autovalor de $T$ es un escalar $\lambda \in \Bbb K$ tal que existe $v \in \Bbb K^n$ no nulo que cumple $T(v) = \lambda v$
+Dados $\Bbb V {-} \Bbb K$ un espacio vectorial y $T: \Bbb V \to \Bbb V$ una transformación lineal. Un autovalor de $T$ es un escalar $\lambda \in \Bbb K$ tal que existe $v \in \Bbb K^n$ no nulo que cumple $T(v) = \lambda v$
 
 Se dice que $v$ es **autovector** de $T$ asociado a $\lambda$.
 
@@ -111,20 +111,20 @@ Se le llama **polinomio característico** de $T$ a $P_T(\lambda) = \text{det}(\l
 
 ### Propiedades
 
-- Si $T$ es una transformacion lineal no inyectiva (tiene nulo), $\lambda = 0$ es autovalor de $T$, siendo su autoespacio asociado el subespacio $Nu(T)$
-- Sea $(D - \lambda I):\Bbb C^\infty \to \Bbb C^\infty$. Sabemos que $Nu(D - \lambda I) = gen\{e^{\lambda x}\}$. Entonces aplicando la propiedad anterior, $\lambda = 0$ es autovalor de ese operador, y el autoespacio asociado es $S = gen\{e^{\lambda x}\}$
+- Si $T$ es una transformación lineal no inyectiva (tiene nulo), $\lambda = 0$ es autovalor de $T$, siendo su autoespacio asociado el subespacio $Nu(T)$
+- Sea $(D - \lambda I):\Bbb C^\infty \to \Bbb C^\infty$. Sabemos que $Nu(D - \lambda I) = gen\{e^{\lambda x}\}$. Entonces, aplicando la propiedad anterior, $\lambda = 0$ es autovalor de ese operador, y él autoespacio asociado es $S = gen\{e^{\lambda x}\}$
 - Sea $D:\Bbb C^\infty\to\Bbb C^\infty$, sabemos que $\lambda \in \mathbb{R}$ es autovalor de $D$, y para cada $\lambda$, su autoespacio asociado es $S = gen\{e^{\lambda x}\}$
-- Si existe una base de $\Bbb V$ formada por autovectores de $T$, entonces $T$ es diagonalizables. La matriz $[T]_B^B$ sera una matriz diagonal. (propiedad de semejanza)
+- Si existe una base de $\Bbb V$ formada por autovectores de $T$, entonces $T$ es diagonalizables. La matriz $[T]_B^B$ será una matriz diagonal. (propiedad de semejanza)
 
 ## Matrices de Jordan
 
-Si una matriz $A \in \Bbb C^{3 \times 3}$ no es diagonalizable, podemos encontrar matrices de jordan similares a una matriz diagonal, tal que $A \sim J_i$.
+Si una matriz $A \in \Bbb C^{3 \times 3}$ no es diagonalizable, podemos encontrar matrices de Jordan similares a una matriz diagonal, tal que $A \sim J_i$.
 
 Llamamos $V_1, V_2, V_3$ las columnas de $Q$
 
 ### Caso 1: Algebraica 2, Geométrica 1
 
-Si $A$ tiene un autovalor de multiplicidad algebraica $2$ y multiplicidad geometrica $1$. Llamamos $\lambda_1$ al autovalor de multiplicidad algebraica $2$, y $\lambda_2$ al autovalor de multiplicidad algebraica $1$.
+Si $A$ tiene un autovalor de multiplicidad algebraica $2$ y multiplicidad geométrica $1$. Llamamos $\lambda_1$ al autovalor de multiplicidad algebraica $2$, y $\lambda_2$ al autovalor de multiplicidad algebraica $1$.
 
 $$
 A_1 = Q

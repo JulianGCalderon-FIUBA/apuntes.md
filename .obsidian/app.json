@@ -13,5 +13,10 @@
   },
   "tabSize": 4,
   "smartIndentList": true,
-  "spellcheck": false
+  "spellcheck": false,
+  "spellcheckDictionary": [
+    "autoespacios",
+    "diagonalizable",
+    "upla"
+  ]
 }

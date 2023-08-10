@@ -24,7 +24,7 @@ $$
 
 Un generador de esta suma es el conjunto de vectores de ambos generadores de $A,B$. (Aunque este generador no necesariamente es **LI**)
 
-La suma de dos subespacios $A, B$ genera otro subespacio. Es el subespacio más chico que incluye a ambos conjuntos cov las manos vacias.
+La suma de dos subespacios $A, B$ genera otro subespacio. Es el subespacio más chico que incluye a ambos conjuntos con las manos vacías.
 
 Si $dim(A\cup B) = 0$, entonces la suma de ambos subespacios se denomina suma directa y se denota como $A \oplus B$
 
