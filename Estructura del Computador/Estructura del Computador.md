@@ -14,4 +14,4 @@ Breve resumen de los contenidos de la materia, consultar la bibliografía.
 - [[Sistema ARC]]
 - [[Compiladores y Ensambladores]]
 - [[Micro Arquitectura]]
-- [[Memoria]]
+- [[Estructura del Computador/Memoria]]
