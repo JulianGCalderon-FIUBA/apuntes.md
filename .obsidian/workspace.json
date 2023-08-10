@@ -15,29 +15,9 @@
               "state": {
                 "file": "Algoritmos II/Arboles Auto Balanceados.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
-            },
-            "group": "054d45747f700725"
-          }
-        ]
-      },
-      {
-        "id": "4a53cac805344211",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e49363b6f972e608",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algoritmos II/Arboles Auto Balanceados.md",
-                "mode": "preview",
-                "source": true
-              }
-            },
-            "group": "054d45747f700725"
+            }
           }
         ]
       }
@@ -68,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/!\\[\\[.*?\\]\\]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -185,8 +164,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e49363b6f972e608",
+  "active": "839479fcf3d1da0a",
   "lastOpenFiles": [
+    "Algoritmos II/Análisis de Algoritmos.md",
+    "Algoritmos II/Arboles Auto Balanceados.md",
     "Organizacion de Datos/Arboles.md",
     "Organizacion de Datos/Algoritmos Genéticos.md",
     "Matemática Discreta/Algoritmos.md",
@@ -211,8 +192,6 @@
     "Estructura del Computador/Circuitos Sincronicos.md",
     "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
     "Estructura del Computador/Circuitos Asincronicos.md",
-    "Estructura del Computador/Circuitos.md",
-    "Estructura del Computador/Álgebra de Boole.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
