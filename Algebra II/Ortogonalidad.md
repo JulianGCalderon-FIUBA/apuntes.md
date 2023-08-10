@@ -28,6 +28,22 @@ Sea $A \subset \Bbb V,\ A \neq \emptyset$, se llama **complemento ortogonal de**
 
 ## Proyección Ortogonal
 
+La proyección ortogonal de $v$ en $S$, es igual al punto de $S$ mas cercano a $v$, lo llamamos $v'$, es una transformacion lineal.
+
+$$
+P_S(v) = v'
+$$
+
+$$
+v' \in S
+$$
+
+Además, el vector que va de $v$ a $v'$ $(v'{-}v)$ es ortogonal a $S$
+
+$$
+v' - v \in S^\perp
+$$
+
 ### Propiedades
 
 La proyección ortogonal de $v$ en $S$, es igual al punto de $S$ mas cercano a $v$, lo llamamos $v'$, es una transformacion lineal.

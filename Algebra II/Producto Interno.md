@@ -39,6 +39,28 @@ $$
 \langle u,v \rangle = 0 \iff u \perp v
 $$
 
+**Ángulo entre** $u, v$:
+
+$$
+\cos(\theta) = \frac{\langle u,v \rangle}{\|u\| \|v\|} \impliedby \theta \in [0, \pi]
+$$
+
+**Area de un triangulo**
+
+Sea $\triangle$ un triangulo de vértices $(0, e_1, e_2)$, entonces el area de este triangulo se calcula con la siguiente fórmula
+
+$$
+A(\triangle) = \frac 12 \cdot \sqrt{\|e_1\|^2\|e_2\|^2 - \langle e_1, e_2\rangle^2}
+$$
+
+**Area de un paralelogramo**
+
+Se puede dividir el paralelogramo en dos triángulos y usar la formula anterior para encontrar su area.
+
+$$
+A(\triangle) = \sqrt{\|e_1\|^2\|e_2\|^2 - \langle e_1, e_2\rangle^2}
+$$
+
 ### Ejemplos Básicos
 
 - **Producto Interno canónico en $\mathbb{R}^n$,** Se cumple la siguiente igualdad para $X, Y \in \mathbb{R}^n$

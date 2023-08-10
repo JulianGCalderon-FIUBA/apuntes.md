@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/EDOs.md",
+                "file": "Algebra II/Ortogonalidad.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Matriz de Cambio de Base",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra II/EDOs.md",
+                "file": "Algebra II/Ortogonalidad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra II/EDOs.md",
+                "file": "Algebra II/Ortogonalidad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra II/EDOs.md"
+                "file": "Algebra II/Ortogonalidad.md"
               }
             }
           },
@@ -182,11 +182,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "03c1c9692855cf3c",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
+    "Algebra II/Producto Interno.md",
+    "Algebra II/Resumen - Álgebra II.md",
+    "Organizacion de Datos/Análisis de Sentimientos.md",
+    "Modelos y Optimización I/Modificaciones al Planteo.md",
+    "Algebra II/EDOs.md",
     "Algebra II/Sistemas de E D Homogéneas.md",
     "Algebra II/Transformaciones Lineales.md",
-    "Algebra II/Resumen - Álgebra II.md",
     "Algebra II/Operaciones entre Subespacios.md",
     "Algebra II/Subespacios de Matriz.md",
     "Algebra II/Algebra II.md",
@@ -196,7 +200,6 @@
     "Fisica I/Física I.md",
     "Primer Parcial.md",
     "Untitled.md",
-    "Algebra II/EDOs.md",
     "Algebra II/Descomposición en Valores Singulares.md",
     "Algebra II/Autovalores y Autovectores.md",
     "Análisis Matemático II/Análisis Matemático II.md",
@@ -207,9 +210,6 @@
     "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
     "Análisis Matemático II/Curvas y superficies.md",
     "Análisis Matemático II/Integrales de Superficie.md",
-    "Análisis Matemático II/Integrales de Linea.md",
-    "Análisis Matemático II/Limites.md",
-    "Análisis Matemático II/Teoremas Integrales.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
