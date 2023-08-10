@@ -11,8 +11,12 @@
             "id": "3bacfa5a591a3657",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Organizacion de Datos/Entrenamiento y Testing.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:Wha",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Organizacion de Datos/Entrenamiento y Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Organizacion de Datos/Entrenamiento y Testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Organizacion de Datos/Entrenamiento y Testing.md"
+              }
             }
           },
           {
@@ -158,12 +165,14 @@
   },
   "active": "3bacfa5a591a3657",
   "lastOpenFiles": [
+    "Matemática Discreta/Grafos Particulares.md",
+    "Análisis de la Información/Diseño de Datos.md",
+    "Organizacion de Datos/Algoritmos Genéticos.md",
+    "Análisis de la Información/Análisis de la Información.md",
     "Estructura del Computador/Estructura del Computador.md",
     "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/What's Inside a Router.md",
     "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Network Layer Data Plane.md",
     "Probabilidad y Estadistica/Distribucion Normal.md",
-    "Matemática Discreta/Grafos Particulares.md",
-    "Organizacion de Datos/Algoritmos Genéticos.md",
     "Análisis de la Información/Historias de Usuario.md",
     "Sistemas Operativos/Espacio de Direcciones.md",
     "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Error-Detection and -Correction Techniques.md",
@@ -182,8 +191,6 @@
     "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Cellular Internet Access.md",
     "Análisis de la Información/Casos de Uso.md",
     "Física II/Capacitores.md",
-    "Matemática Discreta/Algoritmos.md",
-    "Física II/Campo Eléctrico.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
