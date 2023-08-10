@@ -31,6 +31,9 @@ Utilizar todas las palabras da mejores resultados, en términos generales (por l
 - Lidiar con tags XML o HTML
 - Reconocer marcas de twitter, usuarios, hashtags
 - Tener en cuenta el uso de mayúsculas.
+	- asda
+	- asd
+	- asd
 - Despreciar fechas y numeros de telefonos
 - Emoticones, son útiles para detectar un sentimiento.
 - Lidiar con la negación. Una forma es reemplazar las palabras que le siguen a un no, por ejemplo: *NO_palabra*
