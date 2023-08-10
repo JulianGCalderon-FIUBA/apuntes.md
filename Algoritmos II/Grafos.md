@@ -32,7 +32,7 @@ Es un conjunto de vértices y aristas, que determinan conexiones entre los vért
 
 Un ciclo es un recorrido de aristas adyacentes que empieza y termina en un mismo lugar. No todos los grafos contienen ciclos
 
-![[Grafos 1.svg|Asd|550]]
+![[Grafos 1.svg|550]]
 
 ### Camino
 
