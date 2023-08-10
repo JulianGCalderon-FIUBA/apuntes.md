@@ -1,13 +1,13 @@
-## Buenas Practicas
+## Buenas Prácticas
 
-**El software tiene 4 propiedades:**
+El software tiene **4 propiedades:**
 
 - Variabilidad
 - Complejidad
 - Conformidad
 - Invisibilidad
 
-**Practicas:**
+Algunas prácticas recomendadas son:
 
 - Usar nombres descriptivos, significantes.
 - Usar una sola palabra para cada concepto.
@@ -15,7 +15,7 @@
 - Constantes en **MAYUSCULA.**
 - Escribir **pre-post** condiciones para cada función.
 
-## Modulacion
+## Modulación
 
 Una `función` solo debe hacer una cosa, y recibe el nombre de lo que devuelve.
 
@@ -31,11 +31,11 @@ void saludar_usuario(char msg[]){
 }
 ```
 
-El **ámbito** de una función es el espacio de memoria que puede acceder. Cada función tiene su propio ámbito y las variables que se crean ahi se destruyen al salir.
+El **ámbito** de una función es el espacio de memoria que puede acceder. Cada función tiene su propio ámbito y las variables que se crean ahí se destruyen al salir.
 
 ### Pasaje
 
-Algunos tipos de datos se pasan por valor, `(char, int, float)`**.**
+Algunos tipos de datos se pasan por valor, `(char, int, float)`.
 
 Otros se pasan por referencia `(vectores, matrices)`
 
@@ -43,7 +43,7 @@ Otros se pasan por referencia `(vectores, matrices)`
 
 La **memoria** es un conjunto de celdas distribuidas linealmente, y cada una tiene una única dirección de memoria
 
-Un `puntero` es un numero que apunta a una dirección de memoria, lo que permite modificarla desde cualquier lugar del código
+Un `puntero` es un número que apunta a una dirección de memoria, lo que permite modificarla desde cualquier lugar del código
 
 ```c
 void duplicar(int *numero){
@@ -117,7 +117,7 @@ Las bibliotecas estándar son aquellas que vienen con c, no tenemos que instalar
 
 `#include <string.h>`
 
-Al trabajar con strings, las funciones suponen que un string es un vector de caracteres terminado en '\0'
+Al trabajar con `strings`, las funciones suponen que un `string` es un vector de caracteres terminado en '\0'
 
 ### Funciones
 

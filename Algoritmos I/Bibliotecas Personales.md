@@ -51,7 +51,7 @@ int main(){
 
 ## Terminal
 
-Al momento de compilar, debo incluir solo los archivos fuentes, no 
+Al momento de compilar, debo incluir solo los archivos fuentes.
 
 ### Opción 1
 

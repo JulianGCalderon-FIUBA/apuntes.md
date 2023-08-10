@@ -1,18 +1,18 @@
 ## Caracteristicas
 
-**Cardinalidad infinita:** El tamaño puede variar en el tiempo, y puede virtualmente contener cualquier cantidad de elementos. Su limitación esta dada por el tamaño de la memoria principal de la computadora.
+**Cardinalidad infinita:** El tamaño puede variar en el tiempo, y puede virtualmente contener cualquier cantidad de elementos. Su limitación está dada por el tamaño de la memoria principal de la computadora.
 
-**Persistencia total:** La información almacenada dentro de un archivo persiste en el tiempo, es decir que queda almacenada una vez el algoritmo termina de hacer uso de la misma.
+**Persistencia total:** La información almacenada dentro de un archivo persiste en el tiempo, es decir, que queda almacenada una vez el algoritmo termina de hacer uso de la misma.
 
-**De Texto:** Los archivos de texto están escritos en caracteres, son secuenciales. Tienen extension `.txt`
+**De Texto:** Los archivos de texto están escritos en caracteres, son secuenciales. Tienen extensión `.txt`
 
-**Binarios**: Están escritos en binario, pueden ser tanto secuenciales como de acceso directo. Tienen extension `.dat`
+**Binarios**: Están escritos en binario, pueden ser tanto secuenciales como de acceso directo. Tienen extensión `.dat`
 
 **Secuenciales**: No pueden abrirse con el modo `+`. Se leen o modifican de principio a fin.
 
 **Acceso Directo:** Podemos modificar la posición del puntero y modificarlo o leerlo en cualquier orden.
 
-**Lectura**: La minima unidad de lectura que puede tiene un archivo de texto es un struct `char`, en el caso de archivos binarios, la unidad es el `int`
+**Lectura**: La mínima unidad de lectura que puede tener un archivo de texto es una estructura `char`, en el caso de archivos binarios, la unidad es él `int`
 
 ## Funciones
 
@@ -70,8 +70,8 @@ Si el stream apunta a un archivo de salida, la función envía los datos sin esc
 
 Los streams de caracteres son un flujo continuo de caracteres, tienen una naturaleza **exclusivamente secuencial**. Existen tres tipos de streams en todo programa escrito en **C**:
 
-- S**tandard input:** Corresponde a la entrada estándar del programa, el stream por el cual ingresan datos al programa, esta asociado al teclado
-- **Standard output:** Corresponde a la salida estándar del programa, el stream al que se mandan los datos para ser mostrados, esta asociado a la consola
+- **Standard input:** Corresponde a la entrada estándar del programa, el stream por el cual ingresan datos al programa, está asociado al teclado
+- **Standard output:** Corresponde a la salida estándar del programa, el stream al que se mandan los datos para ser mostrados, está asociado a la consola
 - **Standard error:** Corresponde al stream de errores estándar, al cual se mandan los errores que ocurren durante la ejecución del mismo.
 
 ### `fgetc`
@@ -80,7 +80,7 @@ Los streams de caracteres son un flujo continuo de caracteres, tienen una natura
 int fgetc(FILE *stream);
 ```
 
-Se utiliza cuando el stream esta abierto en modo `"r"`, extrae el próximo carácter del flujo de caracteres y lo devuelve casteado como un `int`
+Se utiliza cuando el *stream* está abierto en modo `"r"`, extrae el próximo carácter del flujo de caracteres y lo devuelve *casteado* como un `int`
 
 ### `fputc`
 
@@ -88,7 +88,7 @@ Se utiliza cuando el stream esta abierto en modo `"r"`, extrae el próximo cará
 int fputc(int c, FILE *stream);
 ```
 
-Se utiliza cuando el stream esta abierto en modo `"w"`, escribe el carácter casteado como un `int` en le stream de datos.
+Se utiliza cuando el *stream* está abierto en modo `"w"`, escribe el carácter *casteado* como un `int` en le *stream* de datos.
 
 ### `fscanf`
 

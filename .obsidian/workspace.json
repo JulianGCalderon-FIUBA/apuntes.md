@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmos I/Bibliotecas Personales.md",
+                "file": "Algoritmos I/Manejo de Archivos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmos I/Bibliotecas Personales.md"
+                "file": "Algoritmos I/Manejo de Archivos.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmos I/Bibliotecas Personales.md",
+                "file": "Algoritmos I/Manejo de Archivos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmos I/Bibliotecas Personales.md",
+                "file": "Algoritmos I/Manejo de Archivos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,10 +158,10 @@
   },
   "active": "a25fa245d1413477",
   "lastOpenFiles": [
-    "Algoritmos I/Algoritmos I.md",
-    "Algoritmos I/Argumentos del programa.md",
     "Algoritmos I/Conceptos Básicos.md",
     "Algoritmos I/Bibliotecas Personales.md",
+    "Algoritmos I/Algoritmos I.md",
+    "Algoritmos I/Argumentos del programa.md",
     "Algebra II/Transformaciones Lineales.md",
     "Algebra II/Subespacios de Matriz.md",
     "Algebra II/Subespacios.md",
