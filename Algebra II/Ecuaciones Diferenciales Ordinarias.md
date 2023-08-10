@@ -58,8 +58,15 @@ e^{\lambda x} & P_k e^{\lambda x} & r = \lambda:\text{Raíz mult. } k
 \\\hline\end{array}
 $$
 
-| $f$ | $y_p$ | $\text{Raices del polinomio característico}$ |
-| --- | ----- | -------------------------------------------- |
-| $P_n    |       |                                              |
+|       $f$       | $y_p$                       | $\text{Raices del polinomio característico}$ |
+|:---------------| --------------------------- | -------------------------------------------- |
+|      $P_n$      | $P_n$                       | $r\neq 0$                                    |
+|      $P_n$      | $P_{n+1}$                   |                                              |
+|      $P_n$      | $P_{n+k}$                   |                                              |
+| $e^{\lambda x}$ | $ke^{\lambda x}$            |                                              |
+| $e^{\lambda x}$ | $P_ke^{\lambda x}$          |                                              |
+|   $\sin(cx)$    | $k_1\sin(cx) + k_2\cos(cx)$ |                                              |
+|   $\sin(cx)$    | $P_k\sin(cx) + Q_k\cos(cx)$ |                                              |
+|   $\cos(cx)$    | $k_1\sin(cx) + k_2\cos(cx)$ |                                              |
 
 Si la función $f$ es una suma de las funciones mencionadas, entonces la solución particular es una suma de las soluciones particulares de la ecuación diferencial con cada $f_n$.
