@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilidad y Estadistica/Vectores Aleatorios.md",
+                "file": "Análisis Numérico/Trazador Cúbico - Spline.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilidad y Estadistica/Vectores Aleatorios.md",
+                "file": "Análisis Numérico/Trazador Cúbico - Spline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilidad y Estadistica/Vectores Aleatorios.md",
+                "file": "Análisis Numérico/Trazador Cúbico - Spline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilidad y Estadistica/Vectores Aleatorios.md"
+                "file": "Análisis Numérico/Trazador Cúbico - Spline.md"
               }
             }
           },
@@ -181,32 +181,32 @@
   },
   "active": "e8215838388142a4",
   "lastOpenFiles": [
-    "Probabilidad y Estadistica/Varianza Condicional.md",
-    "Probabilidad y Estadistica/Variables Aleatorias Condicionadas.md",
-    "Probabilidad y Estadistica/Variables Aleatorias.md",
-    "Probabilidad y Estadistica/Test de Hipotesis.md",
-    "Probabilidad y Estadistica/Teoremas Utiles.md",
-    "Probabilidad y Estadistica/Teorema Central del Límite.md",
-    "Probabilidad y Estadistica/Técnicas de Conteo.md",
-    "Probabilidad y Estadistica/Simulación.md",
-    "Probabilidad y Estadistica/Propiedades del PP.md",
-    "Probabilidad y Estadistica/Propiedades de Variables Aleatorias.md",
-    "Probabilidad y Estadistica/Propiedades de V A.md",
-    "Probabilidad y Estadistica/Propiedades de la Esperanza.md",
-    "Probabilidad y Estadistica/Proceso de Poisson.md",
-    "Probabilidad y Estadistica/Proceso Bernoulli.md",
-    "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
-    "Probabilidad y Estadistica/Probabilidad Condicional.md",
-    "Probabilidad y Estadistica/Probabilidad.md",
-    "Probabilidad y Estadistica/Modelos Parametricos.md",
-    "Probabilidad y Estadistica/Mezcla de Variables Aleatorias.md",
-    "Probabilidad y Estadistica/Intervalos de Confianza.md",
-    "Probabilidad y Estadistica/Inferencia Estadistica.md",
-    "Probabilidad y Estadistica/Hipotesis Estadistica.md",
-    "Probabilidad y Estadistica/Eventos Independientes.md",
-    "Probabilidad y Estadistica/Estimadores.md",
-    "Probabilidad y Estadistica/Estimacion Bayesiana.md",
-    "Probabilidad y Estadistica/Estadisticos.md",
+    "Análisis Numérico/Sistemas no Lineales.md",
+    "Análisis Numérico/Trazador Cúbico - Spline.md",
+    "Análisis Numérico/Sistemas Lineales.md",
+    "Análisis Numérico/Series de Fourier.md",
+    "Análisis Numérico/Refinamiento Iterativo.md",
+    "Análisis Numérico/Punto Flotante.md",
+    "Análisis Numérico/Polinomio de Lagrange y Newton.md",
+    "Análisis Numérico/Polinomio de Hermite.md",
+    "Análisis Numérico/Newton-Raphson.md",
+    "Análisis Numérico/Metodos Iterativos.md",
+    "Análisis Numérico/Iteracion en un Punto Fijo.md",
+    "Análisis Numérico/Interpolación Polinomial.md",
+    "Análisis Numérico/Integración Numérica.md",
+    "Análisis Numérico/FFT.md",
+    "Análisis Numérico/Errores.md",
+    "Análisis Numérico/Error en Métodos Iterativos.md",
+    "Análisis Numérico/Ecuaciones Diferenciales Ordinarias.md",
+    "Análisis Numérico/Ecuaciones Diferenciales de Orden Superior.md",
+    "Análisis Numérico/Ecuaciones Diferenciales de Frontera.md",
+    "Análisis Numérico/Diferenciación Numérica.md",
+    "Análisis Numérico/Descomposición LU.md",
+    "Análisis Numérico/Descomposición de Cholesky.md",
+    "Análisis Numérico/Búsqueda de Raíces.md",
+    "Análisis Numérico/Bisección.md",
+    "Análisis Numérico/Análisis Numérico.md",
+    "Análisis Numérico/Ajuste.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",

@@ -12,8 +12,6 @@ Geométricamente, el punto fijo se encuentra cuando la función corta la recta $
 
 ![[Iteracion en un Punto Fijo 1.png]]
 
-Representación gráfica de las condiciones del teorema
-
 Si la función es siempre creciente o decreciente a razón menor a uno, entonces cortara con el la recta $y=x$ únicamente una vez.
 
 **Teorema 2:** A partir del teorema 1.2, para cualquier $p_0 \in [a,b]$, la sucesión $p_n = g(p_{n-1})$ converge al punto fijo.
