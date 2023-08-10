@@ -29,9 +29,6 @@ Existen distintos modelos conocidos de base de datos:
 - Una tabla para cada superclase y subclase o una tabla para cada una
 	- Tendremos una única tabla, con un identificador de tipo para determinar a qué subclase pertenece la entrada
 	- Una tabla por cada variante, utilizando la misma clave foránea en la subclase que refieren a la clave primaria de las primarias.
-
-		A veces podemos suprimir superclase, si es una entidad abstracta y no hay elementos en común entre las subclases.
-
 - Implementar las asociaciones:
 	- One-Many
 	- One-One

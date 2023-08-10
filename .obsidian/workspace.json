@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmos II/Grafos.md",
+                "file": "Análisis de la Información/Diseño de Datos.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path: Algoritmos /!\\[\\[.*?\\]\\]",
+                "query": "path: \"Análisis de\"/!\\[\\[.*?\\]\\]",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmos II/Grafos.md"
+                "file": "Análisis de la Información/Diseño de Datos.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmos II/Grafos.md",
+                "file": "Análisis de la Información/Diseño de Datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmos II/Grafos.md",
+                "file": "Análisis de la Información/Diseño de Datos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,11 +159,13 @@
   },
   "active": "a25fa245d1413477",
   "lastOpenFiles": [
-    "Algoritmos II/Arboles Auto Balanceados.md",
+    "Análisis de la Información/Casos de Uso.md",
+    "Algoritmos I/Recursividad.md",
     "Algoritmos II/Grafos.md",
+    "Algoritmos II/Recursividad.md",
+    "Algoritmos II/Arboles Auto Balanceados.md",
     "Matemática Discreta/Algoritmos.md",
     "Organizacion de Datos/Algoritmos Genéticos.md",
-    "Análisis de la Información/Casos de Uso.md",
     "Organizacion de Datos/Arboles.md",
     "Análisis de la Información/Modelados de Dominio.md",
     "Análisis de la Información/Modelos en la ingeniería de software.md",
@@ -186,9 +188,7 @@
     "Análisis de la Información/Diseño de Datos.md",
     "Análisis de la Información/Design Thinking.md",
     "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
-    "Algoritmos II/Recursividad.md",
     "Análisis de la Información/Arquitectura del Software.md",
-    "Algoritmos II/TDA.md",
     "Algoritmos II/Attachments/Machete - AAB.pdf",
     "Algoritmos I/Attachments/Recursividad 1.png",
     "Untitled.canvas",

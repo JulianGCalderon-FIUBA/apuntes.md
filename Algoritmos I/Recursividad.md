@@ -7,9 +7,9 @@ Se divide en dos partes:
 
 Cada vez que se llama una función, se crea un ámbito nuevo y se va apilando en el *stack* de ejecución hasta que termine de ejecutarse la llamada.
 
-Toda función iterativa puede volverse recursiva, pero no toda función recursiva puede volverse iterativa.
-
 ![[Algoritmos I/Attachments/Recursividad 1.png]]
+
+Toda función iterativa puede volverse recursiva, pero no toda función recursiva puede volverse iterativa.
 
 ```c
 long factorial(int n){
