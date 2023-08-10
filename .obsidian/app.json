@@ -2,5 +2,6 @@
   "vimMode": false,
   "alwaysUpdateLinks": true,
   "showIndentGuide": true,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "attachmentFolderPath": "./Attachments"
 }

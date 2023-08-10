@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Autovalores y Autovectores.md",
+                "file": "Física II/Corriente Continua.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra II/Autovalores y Autovectores.md",
+                "file": "Física II/Corriente Continua.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra II/Autovalores y Autovectores.md",
+                "file": "Física II/Corriente Continua.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra II/Autovalores y Autovectores.md"
+                "file": "Física II/Corriente Continua.md"
               }
             }
           },
@@ -166,11 +166,17 @@
   },
   "active": "52730347ee14ce39",
   "lastOpenFiles": [
+    "Física II/Física II.md",
+    "Física II/Capacitores.md",
+    "Física II/Conductores.md",
+    "Física II/Campo Eléctrico.md",
+    "Física II/Ley de Coulomb.md",
+    "Fisica I/Difracción.md",
     "Algebra II/Algebra II.md",
+    "Algebra II/Autovalores y Autovectores.md",
     "Algebra II/Formas Cuadráticas.md",
     "Algebra II/Descomposición en Valores Singulares.md",
     "Algebra II/Sistemas de E D Homogéneas.md",
-    "Algebra II/Autovalores y Autovectores.md",
     "Algebra II/Método de Gram-Schmidt.md",
     "Algebra II/Producto Interno.md",
     "Algebra II/Transformaciones Lineales.md",
@@ -179,7 +185,6 @@
     "Algebra II/Coordenadas.md",
     "Algebra II/Subespacios.md",
     "Algebra II/Espacios Vectoriales.md",
-    "Fisica I/Difracción.md",
     "Fisica I/Física I.md",
     "Fisica I/Interferencia.md",
     "Fisica I/Superposición de Onda.md",
@@ -187,11 +192,6 @@
     "Fisica I/Energía en Ondas.md",
     "Fisica I/Ondas Mecánicas.md",
     "Fisica I/Definición Óptica.md",
-    "Fisica I/Dispositivos Opticos.md",
-    "Fisica I/Trazado de Rayos.md",
-    "Fisica I/Óptica Geométrica.md",
-    "Fisica I/Energia CR.md",
-    "Fisica I/Dinámica CR.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",

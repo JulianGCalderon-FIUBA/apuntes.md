@@ -20,8 +20,6 @@ $$
 
 Este caso es similar al del blindaje electroestático, pero al tener una carga en el interior, el campo en el medio ya no es nulo. Por ley de gauss, tenemos que la carga de la superficie interior del cascaron $Q_{int}$ debe anular a la carga de la esfera conductora $Q$. Por otro lado, la carga del cascaron era inicialmente nula, por lo que se deben anular las cargas de la superficie interior y exterior $Q_{ext}$ (carga total permanece constante)
 
-![[Conductores 2.png]]
-
 $$
 Q_{int} = -Q
 $$
@@ -29,3 +27,5 @@ $$
 $$
 Q_{ext} = Q
 $$
+
+![[Conductores 2.png]]
