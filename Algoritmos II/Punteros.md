@@ -10,9 +10,9 @@ vector[2] == *(vector+2);
 
 Al sumarle un entero a un puntero, estamos desplazándonos una cantidad `size_of(elemento_t)` de bytes, por lo que terminamos al comienzo del próximo elemento del vector.
 
-Al declarar un puntero, es útil inicializarlo con el valor `NULL` para asegurarnos de no acceder a memoria invalida
+Al declarar un puntero, es útil inicializarlo con el valor `NULL` para asegurarnos de no acceder a memoria inválida
 
-## Multiples Punteros
+## Múltiples Punteros
 
 Es posible crear punteros que apunten a otros punteros, como es el caso de un vector de `strings`. Los elementos de este puntero doble apuntan al primer elemento de cada *`string`*
 
@@ -26,7 +26,7 @@ strings[3][3] == *(*(string+3)+3);
 
 ## Punteros a Funciones
 
-Un puntero a función no es mas que la dirección de memoria donde reside una determinada función. Lo que permite pasarlo como argumento para funciones.
+Un puntero a función no es más que la dirección de memoria donde reside una determinada función. Lo que permite pasarlo como argumento para funciones.
 
 - Se puede tener un arreglo de funciones.
 - Para punteros a funciones, no se debe reservar/liberar memoria.
@@ -48,7 +48,7 @@ int main()
 }
 ```
 
-### **¿En Qué Situaciones se utilizan?**
+### **¿En qué situaciones se utilizan?**
 
 Los punteros a funciones son útiles cuando tengo dos funciones con mucho código en común, pero difieren en una parte. Entonces puedo pasar este código distinto como un puntero a función.
 

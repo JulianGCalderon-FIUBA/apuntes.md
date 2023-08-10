@@ -68,4 +68,4 @@ Si nosotros insertamos un valor en una clave existente, entonces debemos modific
 
 Si buscamos un valor y no se encuentra en el hash de su clave, entonces debemos acceder al siguiente hasta llegar a un espacio vacío o hasta el fin de la tabla
 
-Si quitamos un elemento, debemos reorganizar el hash. Avanzamos hasta encontrar un espacio vacío, o una elemento que que puede reemplazarlo. Si encontramos un espacio vacío, termina el algoritmo de quitado. Si encontramos una elemento que pueda reemplazarlo, entonces colocamos ese elemento en la posición donde quitamos el elemento y repetimos el algoritmo a partir del elemento movido.
+Si quitamos un elemento, debemos reorganizar el hash. Avanzamos hasta encontrar un espacio vacío, o una elemento que puede reemplazarlo. Si encontramos un espacio vacío, termina el algoritmo de quitado. Si encontramos una elemento que pueda reemplazarlo, entonces colocamos ese elemento en la posición donde quitamos el elemento y repetimos el algoritmo a partir del elemento movido.

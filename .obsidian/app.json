@@ -33,6 +33,9 @@
     "Prim",
     "Dijkstra",
     "Floyd",
-    "Kruskal"
+    "Kruskal",
+    "maximal",
+    "minimal",
+    "Iterador"
   ]
 }

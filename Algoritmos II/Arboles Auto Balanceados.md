@@ -84,7 +84,7 @@ Los elementos en un árbol B se insertan siempre en las hojas. El algoritmo de i
 
 1. Buscar el nodo donde debería ser insertada la nueva clave
 2. Si el nodo no está completo, entonces insertar el valor respetando el orden
-3. Si el nodo esta lleno, entonces lo insertamos en el conjunto existente de clave dividimos el nodo en dos y movemos el elemento del medio hacia el nodo padre. Si el nodo padre esta lleno, repetir.
+3. Si el nodo está lleno, entonces lo insertamos en el conjunto existente de clave, dividimos el nodo en dos y movemos el elemento del medio hacia el nodo padre. Si el nodo padre está lleno, repetir.
 
 ### Eliminación
 
@@ -93,10 +93,10 @@ Al igual que la inserción, la eliminación se realiza desde los nodos hojas.
 **Caso 1:** Eliminación de un nodo hoja.
 
 1. Buscamos el nodo donde se encuentra el elemento a eliminar
-2. Si el nodo contiene mas claves que el numero mínimo de claves, simplemente lo elimina
-3. Si el nodo contiene el numero mínimo de claves, lo quita y toma un elemento del hermano
-	1. Si el hermano de la derecha tiene mas elementos que el mínimo numero de claves, remplaza el elemento siguiente del nodo padre con la menor clave del hermano izquierdo y baja el elemento remplazado al nodo actual.
-	2. Si el hermano de la derecha tiene el mínimo numero de claves, tomamos del hermano izquierdo
+2. Si el nodo contiene más claves que el número mínimo de claves, simplemente lo elimina
+3. Si el nodo contiene el número mínimo de claves, lo quita y toma un elemento del hermano
+	1. Si el hermano de la derecha tiene más elementos que el mínimo número de claves, remplaza el elemento siguiente del nodo padre con la menor clave del hermano izquierdo y baja el elemento remplazado al nodo actual.
+	2. Si el hermano de la derecha tiene el mínimo número de claves, tomamos del hermano izquierdo
 4. Si no se puede tomar elementos de los hermanos, entonces se crea un nuevo nodo combinando dos nodos hermanos y el elemento en el medio. Si el nodo padre se queda con menos elementos que el mínimo, entonces repetimos el proceso en el nodo padre.
 
 **Caso 2:** Eliminación de un nodo interno.
@@ -107,15 +107,15 @@ En este caso, intercambiamos el elemento a eliminar con su sucesor o predecesor 
 
 El heap es un árbol binario, puede ser tanto maximal como minimal. Los nodos hijos son siempre menores que los padres, pero no hay relación entre hermanos. Si es maximal, el mayor elemento se encuentra en la raíz. Si es minimal, el menor elemento se encuentra en la raíz.
 
-Otra propiedad del heap es que es un árbol **casi completo**. Esto quiere decir que el ultimo nivel es el único que puede tener elementos faltantes. Además, los elementos faltantes están todos agrupados del lado derecho del nivel.
+Otra propiedad del heap es que es un árbol **casi completo**. Esto quiere decir que el último nivel es el único que puede tener elementos faltantes. Además, los elementos faltantes están todos agrupados del lado derecho del nivel.
 
 ### Inserción
 
-Para insertar, insertamos el elemento en el primer lugar disponible, luego lo intercambiamos con el nodo padre si es necesario. Repetimos esta operación hasta que el heap este ordenado. Esta operación se llama **SIFT UP.** Este algoritmo tiene complejidad $\log n$
+Para insertar, insertamos el elemento en el primer lugar disponible, luego lo intercambiamos con el nodo padre si es necesario. Repetimos esta operación hasta que el heap esté ordenado. Esta operación se llama **SIFT UP.** Este algoritmo tiene complejidad $\log n$
 
 ### Eliminación
 
-En el heap binario, solo podemos borrar la raíz. Para hacerlo, lo quitamos y lo remplazamos con el ultimo elemento, luego lo intercambiamos con el hijo adecuado (el mayor en un heap maximal). Repetimos esta operación hasta que el heap este ordenado. Esta operación se llama **SIFT DOWN.** Este algoritmo tiene complejidad $\log n$
+En el heap binario, solo podemos borrar la raíz. Para hacerlo, lo quitamos y lo remplazamos con el último elemento, luego lo intercambiamos con el hijo adecuado (el mayor en un heap maximal). Repetimos esta operación hasta que el heap esté ordenado. Esta operación se llama **SIFT DOWN.** Este algoritmo tiene complejidad $\log n$
 
 ### Construcción
 
@@ -136,7 +136,7 @@ Este algoritmo tiene complejidad $n \log n$
 
 Este algoritmo crea un heap a partir del conjunto de valores inicial, sin usar memoria auxiliar. Este tipo de algoritmos se denomina **IN-PLACE**.
 
-Otra forma de hacer un heapify, es partir del ultimo elemento del vector y aplicar *SIFT DOWN* a todos los elementos hasta llegar al inicio.
+Otra forma de hacer un heapify, es partir del último elemento del vector y aplicar *SIFT DOWN* a todos los elementos hasta llegar al inicio.
 
 ### Heap Sort
 

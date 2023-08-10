@@ -2,15 +2,15 @@
 
 Un programa puede encontrarse en varias etapas:
 
-- Edicion
-- Compilacion
-- Ejecucion
+- Edición
+- Compilación
+- Ejecución
 
 En cada una de estas etapas el programa tiene una estructura distinta.
 
 **Edición:** El programa es simplemente un archivo de texto editado en el lenguaje seleccionado.
 
-**Compilación:** De esta etapa se encarga el compilador, su tarea es traducir el código fuente a una estructura que la computadora pueda ejecutar. no es un proceso sencillo.
+**Compilación:** De esta etapa se encarga el compilador, su tarea es traducir el código fuente a una estructura que la computadora pueda ejecutar. No es un proceso sencillo.
 
 **Ejecución:** Una vez compilado el programa, el programa toma un formato objeto, el cual se puede ejecutar en una computadora.
 
@@ -33,11 +33,11 @@ La memoria dinámica es aquella reservada durante la ejecución del programa, y 
 
 Para manejar la memoria dinámica, usamos algunas funciones de la biblioteca estándar:
 
-- **`malloc():`** Se encarga de reservar memoria y devuelve un puntero a la memoria reservada. La memoria no esta inicializada, por lo que a veces es útil usar la alternativa `calloc()`, la cual reserva memoria y la inicializa con el valor `NULL`**.**
+- **`malloc():`** Se encarga de reservar memoria y devuelve un puntero a la memoria reservada. La memoria no está inicializada, por lo que a veces es útil usar la alternativa `calloc()`, la cual reserva memoria y la inicializa con el valor `NULL`**.**
 - **`free():`** Se encarga de liberar la memoria previamente reservada con el malloc.
-- **`realloc():`** Se encarga de modificar el tamaño del bloque de memoria previamente reservado, La memoria antes almacenada permanecerá sin cambios hasta el ultimo elemento de la memoria anterior, o el máximo del bloque.
+- **`realloc():`** Se encarga de modificar el tamaño del bloque de memoria previamente reservado, La memoria antes almacenada permanecerá sin cambios hasta el último elemento de la memoria anterior, o el máximo del bloque.
 
 El manejo de la memoria es responsabilidad del programador, toda memoria reservada debe liberarse. No liberar la memoria implica **SERIOS PROBLEMAS** en el **COMPORTAMIENTO del programa.**
 
-> "La memoria dinámica no se conserva! Siempre que se crea debe destruirse!
-> **Dr. *Mariano Mendez***
+> "¡La memoria dinámica no se conserva! ¡Siempre que se crea debe destruirse!
+> **Dr. *Mariano Méndez***

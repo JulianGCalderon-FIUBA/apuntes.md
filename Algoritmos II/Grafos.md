@@ -1,20 +1,20 @@
-Es un conjunto de vertices y aristas, que determinan conexiones entre los vertices. Es útil al estudiar las relaciones entre unidades que interactúan entre si. Por ejemplo, una red de computadores puede representarse y estudiarse mediante un grafo.
+Es un conjunto de vértices y aristas, que determinan conexiones entre los vértices. Es útil al estudiar las relaciones entre unidades que interactúan entre sí. Por ejemplo, una red de computadores puede representarse y estudiarse mediante un grafo.
 
 ## Clasificación
 
-**Segun su Dirección:**
+**Según su Dirección:**
 
 - **Grafo no Dirigido:** Todas sus aristas son bidireccionales.
 - **Grafo Dirigido:** Tiene al menos una arista unidireccional.
 
-**Segun su Peso:**
+**Según su Peso:**
 
 - **Grafo Pesado**: Las aristas tienen asignadas un peso, representa el costo de tomar ese camino.
 
-**Segun su complejidad:**
+**Según su complejidad:**
 
-- **Grafo Simple:** Es aquel que no posee aristas multiples ni lazos. Entre dos vertices, solo hay como máximo un camino posible.
-- **Grafo Denso**: Es aquel cuyo numero de aristas esta muy cerca del valor máximo que puede tener
+- **Grafo Simple:** Es aquel que no posee aristas múltiples ni lazos. Entre dos vértices, solo hay como máximo un camino posible.
+- **Grafo Denso**: Es aquel cuyo número de aristas está muy cerca del valor máximo que puede tener
 
 	Para el caso de un grafo simple, el índice de densidad equivale a
 
@@ -22,15 +22,15 @@ Es un conjunto de vertices y aristas, que determinan conexiones entre los vertic
     D = \frac{2\cdot E}{V \cdot (V - 1)}
     $$
 
-	Siendo $D$ el índice de densidad, $E$ la cantidad de aristas y $V$ la cantidad de vertices.
+	Siendo $D$ el índice de densidad, $E$ la cantidad de aristas y $V$ la cantidad de vértices.
 
-- **Grafo Completo:** Si posee todas las aristas posibles $(D = 1)$
+- **Grafo Completo:** Sí posee todas las aristas posibles $(D = 1)$
 
 ## Definiciones
 
 ### Ciclos
 
-Un ciclo es un recorrido de aristas adyacentes que empieza y termina en un mismo lugar. No todos lo grafos contienen ciclos
+Un ciclo es un recorrido de aristas adyacentes que empieza y termina en un mismo lugar. No todos los grafos contienen ciclos
 
 ![[Grafos 1.svg]]
 
@@ -42,12 +42,12 @@ Un camino es un recorrido a través de un grafo.
 
 - **Camino Simple:** Es aquel que no recorre dos veces el mismo vértice.
 - **Camino Cerrado:** Es aquel que termina en el vértice en el que comenzó.
-- **Componente Conexa:** Conjunto de vertices del grafo en el cual existe un camino que conecta todo par de vertices entre si.
+- **Componente Conexa:** Conjunto de vértices del grafo en el cual existe un camino que conecta todo par de vértices entre sí.
 
-	Si el grado es dirigido *(digrafo)*, entonces surgen dos definiciones mas
+	Si el grado es dirigido *(digrafo)*, entonces surgen dos definiciones más
 
 	- **Fuertemente Conexo:** Todo vértice conecta con cualquier vértice
-	- **Débilmente Conexo:** Todo par de vertices esta conectado, aunque el camino puede no ser bidireccional
+	- **Débilmente Conexo:** Todo par de vértices está conectado, aunque el camino puede no ser bidireccional
 
 ### Arbol
 
@@ -63,11 +63,11 @@ El grado de entrada indica la cantidad de aristas que entran al vértice. El gra
 
 ### Matriz de Adyacencia
 
-La matriz de adyacencia registra las conexiones entre los vertices. Las filas y columnas representan las vertices, y una posición determinada de la matriz representa si existe o no, conexión entre esos vertices.
+La matriz de adyacencia registra las conexiones entre los vértices. Las filas y columnas representan las vértices, y una posición determinada de la matriz representa, si existe o no, conexión entre esos vértices.
 
 Se coloca un $1$ en las posiciones en las que existe una arista, y un 0 en las que no.
 
-La diagonal de la matriz representa los lazos del grafo. (Aquellos vertices que conectan con ellos mismos)
+La diagonal de la matriz representa los lazos del grafo. (Aquellos vértices que conectan con ellos mismos)
 
 Si el grafo es pesado, entonces en lugar de colocar un $1$ donde hay una arista, colocamos su peso.
 
@@ -76,7 +76,7 @@ Si el grafo es pesado, entonces en lugar de colocar un $1$ donde hay una arista,
 
 ### Lista de Adyacencia
 
-Cada vértice tiene asociada una lista que contiene los vertices con los que conecta. Si conecta dos veces con el mismo vértice, es recomendable agregar un nuevo elemento a la lista.
+Cada vértice tiene asociada una lista que contiene los vértices con los que conecta. Si conecta dos veces con el mismo vértice, es recomendable agregar un nuevo elemento a la lista.
 
 Es útil ya que no tenemos posiciones vacías, como en la matriz de adyacencia.
 
@@ -84,7 +84,7 @@ En el caso de grafos pesados, solo debemos incluir el peso en los elementos de l
 
 ### Matriz de Incidencia
 
-Las filas de la matriz representan las aristas, las columnas de la matriz representa los vertices.
+Las filas de la matriz representan las aristas, las columnas de la matriz representa los vértices.
 
 Colocamos un $1$ si la arista conecta con ese vértice. En el caso de grafos dirigidos, colocamos un $1$ si es entrante, y un $-1$ si es saliente.
 

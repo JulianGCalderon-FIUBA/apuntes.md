@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmos II/Arboles Auto Balanceados.md",
+                "file": "Algoritmos II/Punteros.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmos II/Arboles Auto Balanceados.md"
+                "file": "Algoritmos II/Punteros.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmos II/Arboles Auto Balanceados.md",
+                "file": "Algoritmos II/Punteros.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmos II/Arboles Auto Balanceados.md",
+                "file": "Algoritmos II/Punteros.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,8 +158,14 @@
   },
   "active": "a25fa245d1413477",
   "lastOpenFiles": [
-    "Algoritmos II/Attachments/Machete - AAB.pdf",
+    "Algoritmos II/Pilas, Colas y Listas.md",
+    "Algoritmos II/Memoria.md",
+    "Algoritmos II/Iteradores de Lista.md",
+    "Algoritmos II/Grafos.md",
+    "Algoritmos II/Diccionario y Hash.md",
+    "Algoritmos II/Arboles Generales.md",
     "Algoritmos II/Arboles Auto Balanceados.md",
+    "Algoritmos II/Attachments/Machete - AAB.pdf",
     "Algoritmos II/Análisis de Algoritmos.md",
     "Algoritmos II/Algoritmos de Grafos.md",
     "Algoritmos I/Manejo de Archivos.md",
@@ -179,11 +185,6 @@
     "Algebra II/Operaciones entre Subespacios.md",
     "Algebra II/Método de Gram-Schmidt.md",
     "Algebra II/Matrices Normales.md",
-    "Algebra II/Formas Cuadráticas.md",
-    "Algebra II/Espacios Vectoriales.md",
-    "Algebra II/Ejemplos de Transformaciones Lineales.md",
-    "Algebra II/Ecuaciones Diferenciales Ordinarias.md",
-    "Algebra II/Descomposición en Valores Singulares.md",
     "Algoritmos I/Attachments/Recursividad 1.png",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
