@@ -66,17 +66,14 @@ printf("%i", numero); //9
 
 Un `vector` almacena una colección finita y secuencial, de elementos de un mismo tipo de dato.
 
-El **tamaño** del vector define la cantidad maxima de elementos que puede llegar a tener
+- El **tamaño** del vector define la cantidad máxima de elementos que puede llegar a tener
+- El **tope** de un vector define la cantidad de elementos significantes que tiene el vector
+- El í**ndice** es la posición en la que se encuentra cada elemento, empieza a contar desde 0.
 
-El **tope** de un vector define la cantidad de elementos significantes que tiene el vector
+Las **operaciones** entre vector se hacen elemento a elemento. Existen dos tipos de eliminaciones:
 
-El í**ndice** es la posición en la que se encuentra cada elemento, empieza a contar desde 0.
-
-Las **operaciones** entre vector se hacen elemento a elemento
-
-**Eliminación Física:** Es aquella que consiste en eliminar realmente el elemento del vector
-
-**Eliminación Lógica:** Es aquella que consiste en marcar como 'eliminado' un elemento del vector, Pero dejándolo en su posición.
+- **Eliminación Física:** Es aquella que consiste en eliminar realmente el elemento del vector
+- **Eliminación Lógica:** Es aquella que consiste en marcar como 'eliminado' un elemento del vector, Pero dejándolo en su posición.
 
 ```c
 int agregar_elemento(int edades[MAXIMO], int *tope, int elemento){

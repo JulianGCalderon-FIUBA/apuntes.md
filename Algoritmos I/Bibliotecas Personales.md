@@ -1,6 +1,6 @@
-## Header
+## *Header*
 
-El compilador los incluye de forma automática al compilar su archivo fuente. Aca se definen las funciones, variables y constantes, que pueden ser accedidas por otro archivo.
+El compilador los incluye de forma automática al compilar su archivo fuente. Acá se definen las funciones, variables y constantes, que pueden ser accedidas por otro archivo.
 
 Escribo el prototipo de las funciones, y sus pre/post condiciones.
 
@@ -16,11 +16,11 @@ int sumar(int n1, int n2); // PROTOTIPO DE FUNCION
 #endif /* ARITMETICA_H */
 ```
 
-## Source
+## *Source*
 
-Tiene el mismo nombre que el header, pero con extension.c
+Tiene el mismo nombre que el *header*, pero con extensión `.c`
 
-Aca se definen las funciones de la biblioteca
+Acá se definen las funciones de la biblioteca
 
 ```c
 /* aritmetica.c */
@@ -32,9 +32,9 @@ int sumar(int n1, int n2){
 }
 ```
 
-## Main
+## *Main*
 
-En este archivo se encuentra el `main` de la función. Desde aca se accede a las otras bibliotecas
+En este archivo se encuentra el `main` de la función. Desde acá se accede a las otras bibliotecas
 
 ```c
 /* main.c */
@@ -51,18 +51,18 @@ int main(){
 
 ## Terminal
 
-Al momento de compilar, debo incluir solo los archivos fuentes, no los mains
+Al momento de compilar, debo incluir solo los archivos fuentes, no 
 
-**OPCION 1:**
+### Opción 1
 
 `gcc -g aritmetica.c -c` → **`aritmetica.o`**
 
 `gcc -g main.c aritmetica.o -o main` → `**main`**
 
-**OPCION 2:**
+### Opción 2:
 
 `gcc -g main.c aritmetica.c -o main` → `**main**`
 
 Si el procesador encuentra la directiva `#include`, remplaza esta línea por el contenido completo del archivo que se encuentra en el sistema (<> o "")
 
-la directiva `#ifndef` se encarga de que no se definan los elementos del archivo 2 veces, y si ya se definió una vez, entonces omite el archivo.
+La directiva `#ifndef` se encarga de que no se definan los elementos del archivo 2 veces, y si ya se definió una vez, entonces omite el archivo.

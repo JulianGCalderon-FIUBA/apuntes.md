@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Subespacios.md",
+                "file": "Algoritmos I/Bibliotecas Personales.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra II/Subespacios.md"
+                "file": "Algoritmos I/Bibliotecas Personales.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra II/Subespacios.md",
+                "file": "Algoritmos I/Bibliotecas Personales.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra II/Subespacios.md",
+                "file": "Algoritmos I/Bibliotecas Personales.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,6 +158,13 @@
   },
   "active": "a25fa245d1413477",
   "lastOpenFiles": [
+    "Algoritmos I/Algoritmos I.md",
+    "Algoritmos I/Argumentos del programa.md",
+    "Algoritmos I/Conceptos Básicos.md",
+    "Algoritmos I/Bibliotecas Personales.md",
+    "Algebra II/Transformaciones Lineales.md",
+    "Algebra II/Subespacios de Matriz.md",
+    "Algebra II/Subespacios.md",
     "Algebra II/Sistemas de E D Homogéneas.md",
     "Algebra II/Producto Interno.md",
     "Algebra II/Ortogonalidad.md",
@@ -172,19 +179,12 @@
     "Algebra II/Coordenadas.md",
     "Algebra II/Autovalores y Autovectores.md",
     "Algebra II/Algebra II.md",
-    "Algebra II/Transformaciones Lineales.md",
-    "Algebra II/Subespacios.md",
-    "Algebra II/Subespacios de Matriz.md",
     "Estructura del Computador/Estructura del Computador.md",
     "Estructura del Computador/Circuitos.md",
     "Estructura del Computador/Memoria.md",
     "Modelos y Optimización I/Modelos y Optimización I.md",
     "Análisis Numérico/Bisección.md",
-    "Algoritmos I/Argumentos del programa.md",
     "Algoritmos I/Attachments/Recursividad 1.png",
-    "Sistemas Operativos/Paginación Avanzada.md",
-    "Sistemas Operativos/Sistemas Operativos.md",
-    "Sistemas Operativos/API de Memoria.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",

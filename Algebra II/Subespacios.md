@@ -18,7 +18,7 @@ $$
 
 Se debe demostrar la doble inclusión, es decir, se deben poder formar los elementos del generador de $S_1$ a partir de los elementos de $S_2$ y viceversa. $S \subseteq T, T\subseteq S$
 
-> ¿Cómo demuestro que dos conjuntos generan un espacio vectorial?*
+> ¿Cómo demuestro que dos conjuntos generan un espacio vectorial?
 
 Para esto, tengo que buscar la expresión más general del espacio vectorial, y verificar que el sistema sea compatible para todos los casos
 
@@ -69,6 +69,4 @@ $$
 
 #### **Teorema del Wronskiano:**
 
-Si para algún $x_0 \in I$ se cumple que el Wronskiano $≠$ de 0, entonces el conjunto de funciones es linealmente independiente.
-
-(El recíproco del teorema no es verdadero)
+Si para algún $x_0 \in I$ se cumple que el Wronskiano $≠$ de 0, entonces el conjunto de funciones es linealmente independiente. (El recíproco del teorema no es verdadero)
