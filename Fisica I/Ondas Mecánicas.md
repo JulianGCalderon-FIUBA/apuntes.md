@@ -30,37 +30,26 @@ $$
 
 ### Parámetros
 
-$\xi:$ Perturbación
-
-$x:$ Posición
-
-$t:$ Tiempo
-
-$A:$ Amplitud
-
-$k$ Numero de onda
-
-$w:$ Pulsación de la onda (Frecuencia Angular)
-
-$\varphi:$ Angulo inicial
+- $\xi:$ Perturbación
+- $x:$ Posición
+- $t:$ Tiempo
+- $A:$ Amplitud
+- $k$ Numero de onda
+- $w:$ Pulsación de la onda (Frecuencia Angular)
+- $\varphi:$ Angulo inicial
 
 Si $w$ tiene sentido **negativo**, entonces la onda se desplaza en sentido $\hat x$ **positivo**.
 
 Si $w$ tiene sentido **positivo**, entonces la onda se desplaza en sentido $\hat x$ **negativo**.
 
-**Velocidad de Propagación** $\displaystyle\to v= \frac\lambda T=\frac wk$
-
-**Longitud de Onda** $\displaystyle\to\lambda = \frac vf$
-
-**Número de Onda** $\displaystyle\to k =\frac{2\pi}\lambda$
-
-**Frecuencia** $\displaystyle\to f= \frac 1T=\frac w{2\pi}$
+- **Velocidad de Propagación** $\displaystyle\to v= \frac\lambda T=\frac wk$
+- **Longitud de Onda** $\displaystyle\to\lambda = \frac vf$
+- **Número de Onda** $\displaystyle\to k =\frac{2\pi}\lambda$
+- **Frecuencia** $\displaystyle\to f= \frac 1T=\frac w{2\pi}$
 
 ---
 
 ### Derivadas Temporales
-
-### Derivadas Espaciales
 
 $$
 \frac{\partial\xi}{\partial t} = \pm wA\cos(\dots)
@@ -69,6 +58,8 @@ $$
 $$
 \frac{\partial^2\xi}{\partial t^2} = -w^2A\sin(\dots)
 $$
+
+### Derivadas Espaciales
 
 $$
 \frac{\partial\xi}{\partial x} = kA\cos(\dots)
@@ -88,13 +79,13 @@ La velocidad de **propagación** depende estrictamente de las propiedades del me
     v = \sqrt\frac F\mu
     $$
 
-- **Solidos (Transversales):** la velocidad depende del modulo de *rigidez* $G$ **y de la densidad $\rho$
+- **Sólidos (Transversales):** la velocidad depende del modulo de *rigidez* $G$ **y de la densidad $\rho$
 
 	$$
     v = \sqrt\frac G\rho
     $$
 
-- **Solidos (Longitudinales):** la velocidad depende del modulo de *Young* $Y$ **y de la densidad $\rho$.
+- **Sólidos (Longitudinales):** la velocidad depende del modulo de *Young* $Y$ **y de la densidad $\rho$.
 
 	Se define modulo de Young, como el cociente entre el valor de la fuerza que recibe por unidad de area, y la deformación relativa que se le provoca al cuerpo.
 

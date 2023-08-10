@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica I/Óptica Geométrica.md",
+                "file": "Fisica I/Interferencia.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica I/Óptica Geométrica.md",
+                "file": "Fisica I/Interferencia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica I/Óptica Geométrica.md",
+                "file": "Fisica I/Interferencia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica I/Óptica Geométrica.md"
+                "file": "Fisica I/Interferencia.md"
               }
             }
           },
@@ -167,6 +167,14 @@
   "active": "52730347ee14ce39",
   "lastOpenFiles": [
     "Fisica I/Física I.md",
+    "Fisica I/Superposición de Onda.md",
+    "Fisica I/Ondas de Sonido.md",
+    "Fisica I/Energía en Ondas.md",
+    "Fisica I/Ondas Mecánicas.md",
+    "Fisica I/Definición Óptica.md",
+    "Fisica I/Dispositivos Opticos.md",
+    "Fisica I/Trazado de Rayos.md",
+    "Fisica I/Óptica Geométrica.md",
     "Fisica I/Energia CR.md",
     "Fisica I/Dinámica CR.md",
     "Fisica I/Cinemática CR.md",
@@ -184,14 +192,6 @@
     "Fisica I/Teoria de medida.md",
     "Fisica I/Magnitudes escalares y vectoriales.md",
     "Algebra II/Autovalores y Autovectores.md",
-    "Algebra II/Algebra II.md",
-    "Análisis Matemático II/Integrales Triples.md",
-    "Análisis Matemático II/Integrales de Linea.md",
-    "Análisis Matemático II/Polinomio de Taylor.md",
-    "Análisis Matemático II/Derivadas.md",
-    "Análisis Matemático II/Métodos de resolución.md",
-    "Análisis Matemático II/Limites.md",
-    "Análisis Matemático II/Funciones de varias variables.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
