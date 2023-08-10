@@ -20,13 +20,13 @@ La mayoría de las veces utilizamos una combinación de las primeras dos opcione
 
 ### Visión (y Alcance)
 
-- Es desarrollado en las primera fases/iteraciones. Define el sistema a desarrollar desde el punto de vista de las partes interesadas.
-- Es la base para especificaciones mas detalladas que se desarrollarán posteriormente. A veces, también sirve de base para la elaboración de un contrato.
+- Es desarrollado en las primeras fases/iteraciones. Define el sistema a desarrollar desde el punto de vista de las partes interesadas.
+- Es la base para especificaciones más detalladas que se desarrollarán posteriormente. A veces, también sirve de base para la elaboración de un contrato.
 - Puede incluir una definición del problema a resolver o de la oportunidad de negocio a aprovechar, una descripción de los usuarios e interesados, una descripción de las prestaciones del producto/sistema a desarrollar (a muy alto nivel), riesgos, valor para el negocio, supuestos, restricciones, etc.
 
 ### Especificación de Requisitos de Software
 
-Usualmente representado en lenguaje natural, complementado con gráficos de, por ejemplo, casos de uso y reglas de negocio. Suele estar relacionado a ciclos de desarrollo clasicos (secuenciales), o proyectos donde hay contratos de por medio.
+Usualmente representado en lenguaje natural, complementado con gráficos de, por ejemplo, casos de uso y reglas de negocio. Suele estar relacionado con ciclos de desarrollo clásicos (secuenciales), o proyectos donde hay contratos de por medio.
 
 ### Desarrollo Ágil
 
@@ -46,7 +46,7 @@ Los modelos reflejan las abstracciones del dominio del problema, describen el si
 - Modificable: la estructura debe permitir modificaciones simples ante un cambio en algún requisito
 - Independiente del diseño: Describe el comportamiento del sistema, no los detalles de implementación.
 - Concisa: No debe ser innecesariamente extensa
-- Organizada: Los requisitos deben ser faciles de localizar
+- Organizada: Los requisitos deben ser fáciles de localizar
 - Trazable: Se debe poder encontrar el origen de cada requisito
 - Priorizada: Los requisitos tendrá una prioridad asignada.
 
@@ -62,7 +62,7 @@ Nos permite establecer categorías para identificar y ubicar más rápidamente a
 - Por área o proceso de negocio
 - Por evento, casos de uso o escenario.
 
-Debemos definir como reflejamos los cambios en el repositorio y en los demás mecanismos que utilizaremos para registrar requisitos. Debemos entender la relación de cada requisitos con el resto de artefactos del proyecto. Cada requisito debería tener una identificación única, y más atributos asociados. Debemos definirlos independientemente del tipo de herramienta que utilicemos.
+Debemos definir como reflejamos los cambios en el repositorio y en los demás mecanismos que utilizaremos para registrar requisitos. Debemos entender la relación de cada requisito con el resto de artefactos del proyecto. Cada requisito debería tener una identificación única, y más atributos asociados. Debemos definirlos independientemente del tipo de herramienta que utilicemos.
 
 ### Priorización
 
@@ -71,9 +71,9 @@ Nos permite asegurar que el esfuerzo del equipo esté dirigido hacia el análisi
 - Valor para el negocio
 - Riesgos técnicos o de negocio
 - Dificultad de implementación
-- Regulaciones / politicas.
+- Regulaciones / políticas.
 
-Existen varias técnicas que se utilizan para este tarea:
+Existen varias técnicas que se utilizan para esta tarea:
 
 - MoSCoW (Must/Should/Could/Won't): Se colocan los requisitos en categorías
 - Votación:
@@ -85,11 +85,11 @@ Existen varias técnicas que se utilizan para este tarea:
 
 Se conoce con este nombre a una familia de técnicas que están orientadas a contar historias acerca de loa que hace la técnica con los sistemas. Nuestro cerebro está socialmente adaptado para contar historias, por lo que es un grupo de técnicas muy familiar.
 
-- **Casos de Uso**: Es una secuencia de acciones realizadas por un sistema que generan un resultado observable de valor para un actor en particular. A cada acción de un actor le corresponde una respuesta del sistema. Usualmente son cajas negras. No dicen como se elabora la respuesta, sino describe la respuesta en si.
+- **Casos de Uso**: Es una secuencia de acciones realizadas por un sistema que generan un resultado observable de valor para un actor en particular. A cada acción de un actor le corresponde una respuesta del sistema. Usualmente son cajas negras. No dicen como se elabora la respuesta, sino que describe la respuesta en sí.
 - **Historias de Usuario**: Una descripción de la funcionalidad esperada, desde el punto vista de un usuario. No son requisitos en el sentido estricto, sino simplemente un recordatorio. (tienen poca granularidad). Si incluyen criterios de aceptación, entonces constituyen una descripción completa de lo que se espera del comportamiento del sistema.
 - **Storyboards (Guiones)**: Son pequeños relatos, en prosa o en forma gráfica, que nos muestran como utilizar el sistema en determinadas circunstancias.
 
-Todas comparten una característica esencial, para identificar los escenarios se propone partir de los objetivos que las distintas categorías tienen con respecto a la utilización del sistema, luego se identifican subobjetivos, estos se satisfacerán a partir de un único escenario.
+Todas comparten una característica esencial, para identificar los escenarios se propone partir de los objetivos que las distintas categorías tienen con respecto a la utilización del sistema, luego se identifican subobjetivos, estos se satisfacen a partir de un único escenario.
 
 ## Técnicas de Modelado
 
@@ -97,7 +97,7 @@ Presentaremos algunos de los modelos de análisis más populares
 
 ### C4
 
-Utilizado para describir la estructura del software. Si bien no está muy relacionado con el análisis los requisitos. Nos permite entender el proyecto y su relación con el contexto. Muestra otros sistemas con los cuales interactuar.
+Utilizado para describir la estructura del software. Si bien no está muy relacionado con el análisis de los requisitos. Nos permite entender el proyecto y su relación con el contexto. Muestra otros sistemas con los cuales interactuar.
 
 ### Modelos de Casos de Uso
 
@@ -111,7 +111,7 @@ Es una representación visual de los objetos o clases conceptuales del dominio d
 - Objetos y conceptos del mundo real
 - Personas, roles, organizaciones
 
-Sirven para entender y analizar el contexto del sistema a analizar. Se utiliza en combinación con otras técnicas como casos de uso e historias de usuarios.Para utilizarlo, emplearemos un diagrama de clases con la notación ***uml***. No representan objetos del lenguaje de programación, sino objetos de negocio. Es un modelo de análisis, no de diseño
+Sirven para entender y analizar el contexto del sistema a analizar. Se utiliza en combinación con otras técnicas como casos de uso e historias de usuarios. Para utilizarlo, emplearemos un diagrama de clases con la notación ***uml***. No representan objetos del lenguaje de programación, sino objetos de negocio. Es un modelo de análisis, no de diseño
 
 ### Árbol de Funcionalidades (Feature Tree)
 
@@ -119,7 +119,7 @@ Se representa con un diagrama similar al de causa y efecto. Tiene como objetivo 
 
 ### Diagrama de Estados
 
-Permite representar los diferentes estados por los que puede pasar un objeto de dominio o sistema. Representarlos usando lenguaje natural puede ser bastante problemático por lo que esta herramienta es muy útil. Para aplicaciones en tiempo real, es fundamental desarrollar este tipo de diagramas
+Permite representar los diferentes estados por los que puede pasar un objeto de dominio o sistema. Representarlos usando lenguaje natural puede ser bastante problemático, por lo que esta herramienta es muy útil. Para aplicaciones en tiempo real, es fundamental desarrollar este tipo de diagramas
 
 ### Diagrama de Actividades
 
@@ -127,11 +127,11 @@ Permite especificar las actividades o pasos dentro un flujo de trabajo, de un pr
 
 ### Flujo de Actividades en un Proceso de Negocio (BPMN)
 
-Es un estándar para el modelado de procesos de negocio, ayuda a identificar casos de uso / historias de usuario. Es similar al diagrama de actividades mencionado anteriormente. Sirve para genera un proceso que pueda ser ejecutados.
+Es un estándar para el modelado de procesos de negocio, ayuda a identificar casos de uso / historias de usuario. Es similar al diagrama de actividades mencionado anteriormente. Sirve para generar un proceso que pueda ser ejecutados.
 
 ### Prototipado
 
-No sólo para descubrir requisitos, también es útil para analizarlos. No se deben discutir aspectos de diseño. Se suelen integrar con casos de uso, historias de usuario.
+No solo para descubrir requisitos, también es útil para analizarlos. No se deben discutir aspectos de diseño. Se suelen integrar con casos de uso, historias de usuario.
 
 Pueden ser evolutivos o descartables, y hechos con papel y lápiz.
 
@@ -153,11 +153,11 @@ Agregarle estos criterios a un requisito de usuario lo acerca a la definición c
 
 ### Reglas de Negocio
 
-Son políticas, regulaciones, leyes, y estándares. Puede seguir la siguiente estructura: "Cuando ***<condicion>*** entonces ***<imposición>.*** En caso contrario ***<consecuencias>***". Pueden describir cálculos completos, restricciones, inferencias, o hechos.
+Son políticas, regulaciones, leyes, y estándares. Puede seguir la siguiente estructura: "Cuando ***\<condición>*** entonces ***\<imposición>.*** En caso contrario, ***\<consecuencias>***". Pueden describir cálculos completos, restricciones, inferencias, o hechos.
 
 ### User Story Mapping
 
-Es un modelo que describe las actividades que realizan a lo largo del tiempo los usuario de la aplicación, y como se descomponen en subactividades y tareas.
+Es un modelo que describe las actividades que realizan a lo largo del tiempo los usuarios de la aplicación, y como se descomponen en sub actividades y tareas.
 
 ### Impact Mapping
 

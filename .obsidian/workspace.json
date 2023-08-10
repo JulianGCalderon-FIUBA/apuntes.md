@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis de la Información/Taller de Análisis de Interesados.md",
+                "file": "Análisis de la Información/Técnicas de Descubrimiento de Requisitos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis de la Información/Taller de Análisis de Interesados.md"
+                "file": "Análisis de la Información/Técnicas de Descubrimiento de Requisitos.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis de la Información/Taller de Análisis de Interesados.md",
+                "file": "Análisis de la Información/Técnicas de Descubrimiento de Requisitos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis de la Información/Taller de Análisis de Interesados.md",
+                "file": "Análisis de la Información/Técnicas de Descubrimiento de Requisitos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,6 +158,9 @@
   },
   "active": "a25fa245d1413477",
   "lastOpenFiles": [
+    "Análisis de la Información/Técnicas de Análisis, Modelado y Especificación.md",
+    "Análisis de la Información/Técnicas de Descubrimiento de Requisitos.md",
+    "Análisis de la Información/Taller de Análisis de Interesados.md",
     "Análisis de la Información/Requisitos en Contexto.md",
     "Análisis de la Información/Requirement Specification vs User Stories.md",
     "Análisis de la Información/PSA.md",
@@ -184,10 +187,7 @@
     "Análisis de la Información/Análisis de la Información.md",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",
     "Análisis de la Información/Attachments/Historias de Usuario 6.png",
-    "Análisis de la Información/Web Rest API.md",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
-    "Análisis de la Información/Historias de Dominio.md",
-    "Análisis de la Información/Gherkin.md",
     "Algoritmos II/Attachments/Machete - AAB.pdf",
     "Algoritmos I/Attachments/Recursividad 1.png",
     "Untitled.canvas",

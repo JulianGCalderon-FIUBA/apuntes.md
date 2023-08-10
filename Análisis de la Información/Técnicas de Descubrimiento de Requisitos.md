@@ -1,4 +1,4 @@
-Utilizamos la palabra descubrimiento debido a que los requisitos no están en la mente de los usuarios listos para ser recolectados, sino que tenemos que descubrirlos a travès de un esfuerzo cooperativo entre los interesados y los desarrolladores.
+Utilizamos la palabra descubrimiento debido a que los requisitos no están en la mente de los usuarios listos para ser recolectados, sino que tenemos que descubrirlos a través de un esfuerzo cooperativo entre los interesados y los desarrolladores.
 
 ## Dificultades
 
@@ -10,7 +10,7 @@ El *onion model* es un diagrama que consiste en colocar los interesados con el p
 
 - En la capa más cercana, encontraremos los usuarios finales que interactuarán con el sistema, esta capa junto al producto se denomina el sistema.
 - En la siguiente capa nos encontraremos con los beneficiarios económicos o funcionales, los responsables de mantener en funcionamiento la solución y otros sistemas que interactuarán como interfaces con la última capa.
-- La última capa es la del medio ambiente. Aquí encontraremos a los beneficiarios funcionales, los entes reguladores, auspiciadores económicos, etc. Por otro lado, aqui estaran los interesados negativos, aquellos que atacan la idea del nuevo sistema por diversas razones.
+- La última capa es la del medio ambiente. Aquí encontraremos a los beneficiarios funcionales, los entes reguladores, auspiciadores económicos, etc. Por otro lado, aquí estarán los interesados negativos, aquellos que atacan la idea del nuevo sistema por diversas razones.
 
 ## Entrevistas
 
@@ -20,7 +20,7 @@ Se obtienen limitados puntos de vista, lo que nos deja puntos de vista por resol
 
 ## Observación
 
-La observación puede ser pasiva (solo se observa) o activa (hacer el trabajo bajo supervisión). Debemos saber preguntar y saber escuchar, así como documentar las observaciones. Es una técnica fácil que tiene algunas limitaciones. Puede no ser suficiente para alcanzar nuevos requisitos ya que solo se observa el comportamiento actual, también puede no detectar eventos inusuales
+La observación puede ser pasiva (solo se observa) o activa (hacer el trabajo bajo supervisión). Debemos saber preguntar y saber escuchar, así como documentar las observaciones. Es una técnica fácil que tiene algunas limitaciones. Puede no ser suficiente para alcanzar nuevos requisitos, ya que solo se observa el comportamiento actual, también puede no detectar eventos inusuales
 
 ## Talleres
 
@@ -44,7 +44,7 @@ Consiste en reunir a un grupo de personas para resolver un problema y generar un
 
 ## Análisis de Documentos
 
-Tiene como propósito examinar documentación existente con el propósito identificar información relevante. Se pueden revisar planes de negocio, análisis de mercado, contratos, estudios, etc. Puede resultar tedioso ya que toma mucho tiempo y aveces la documentación encontrada es obsoleta.
+Tiene como propósito examinar documentación existente con el propósito identificar información relevante. Se pueden revisar planes de negocio, análisis de mercado, contratos, estudios, etc. Puede resultar tedioso, ya que toma mucho tiempo y a veces la documentación encontrada es obsoleta.
 
 ## Análisis de Causa Raíz
 
