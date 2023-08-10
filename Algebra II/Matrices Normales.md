@@ -38,19 +38,19 @@ Las siguientes propiedades son validas únicamente para matrices herméticas:
 > [!note]
 > Una matriz diagonalizable unitariamente no es necesariamente hermética.
 
-**Matrices Definidas Positivas:**
+#### Matrices Definidas Positivas:
 
 Una matriz $A$ es definida positiva si $A^* = A$, y $x^* Ax > 0$, para todo $x$ no nulo.
 
 Estas matrices tienen todos sus autovalores positivos (y reales)
 
-**Matrices Semi Definidas Positiva:**
+#### Matrices Semi Definidas Positiva:
 
 Una matriz $A$ es definida negativa si $A^* = A$, y $x^* Ax \geq 0$, para todo $x$ no nulo.
 
 Estas matrices tienen todos sus autovalores no negativos (y reales)
 
-**Matrices Indefinidas**
+#### Matrices Indefinidas
 
 Estas matrices tienen autovalores tanto positivos como negativos (reales)
 

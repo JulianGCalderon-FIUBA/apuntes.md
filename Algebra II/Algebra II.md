@@ -4,7 +4,7 @@
 - [[Subespacios de Matriz]]
 - [[Operaciones entre Subespacios]]
 - [[Transformaciones Lineales]]
-- [[Ejemplos de T L]]
+- [[Ejemplos de Transformaciones Lineales]]
 - [[EDOs]]
 - [[Producto Interno]]
 - [[Ortogonalidad]]
