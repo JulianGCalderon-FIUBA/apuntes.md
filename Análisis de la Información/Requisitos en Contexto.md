@@ -73,13 +73,13 @@ Una de las primeras metodologías ágiles. Plantea un enfoque de desarrollo iter
 
 Se trabaja mucho sobre las historias de usuario y la definición de los casos de prueba.
 
-![[Requisitos en Contexto 6.png]]
+![[Requisitos en Contexto 6.png|500]]
 
 No hay actividades formales ni requisitos escritos. El eje se trata en programar y liberar frecuentemente. Funciona mejor con equipos pequeños y de alta experiencia.
 
 ### SCRUM
 
-![[Requisitos en Contexto 7.png]]
+![[Requisitos en Contexto 7.png|500]]
 
 Se parte de una visión para generar un ***product backlog***. Que detalle las funcionalidades del sistema. Se elabora un ***sprint backlog*** con un subconjunto del product backlog que se van a desarrollar en el release. El sprint dura de 2 a 4 semanas, con reuniones diarias. Al final del ***sprint***, debería tener un producto potencialmente entregable.
 
@@ -91,13 +91,13 @@ El backlog se define constantemente a medida que se conoce más acerca del produ
 
 Se desarrolla un modelo inicial a partir de la idea del producto, y una lista de ***features*** a desarrollar. Luego se organiza en iteraciones que toman una pequeña porción de la lista de ***features***. A diferencia de otras técnicas, habla de la importancia de diseñar modelos del ***software***.
 
-![[Requisitos en Contexto 8.png]]
+![[Requisitos en Contexto 8.png|550]]
 
 Tiene una estructura jerárquica para organizar las características a implementar.
 
 ### DAD
 
-Toma ideas del proceso unificado. Hay una fase de inspection, otra de construction, y otra de transition (desaparece elaboration). El desarrollo es similar a ***scrum***.
+Toma ideas del proceso unificado. Hay una fase de inspección, otra de construcción, y otra de transición (desaparece elaboración). El desarrollo es similar a ***SCRUM***.
 
 Cuando finaliza una iteración, se refina el ***product backlog***. Cuando termino de iterar, llego al final de la fase de construcción y comienza la producción.
 
@@ -108,7 +108,7 @@ Se sugiere el uso de *historias de usuario* para describir los requisitos*.*
 Algunos problemas que suelen surgir son:
 
 - Los desarrolladores originales ya no están disponibles
-- Falta documentación. El conocimiento de la aplicación es implícito, esta en los desarrolladores originales
+- Falta documentación. El conocimiento de la aplicación es implícito, está en los desarrolladores originales
 - Hay resistencia de los usuarios a las nuevas funcionalidades
 - Impacto en funcionalidad existente y performance
 
@@ -120,18 +120,18 @@ Es muy importante entender ***que*** hace el sistema con el cual debemos trabaja
 - Documentar reglas de negocio (no siempre están escritas, a veces están únicamente implementadas)
 - Crear casos de uso o historias de usuario de alto nivel
 - Crear diagramas de contexto de alto nivel
-- Crear un diagrama de dialogo
+- Crear un diagrama de diálogo
 - Crear un modelo de datos
 - Desarrollar prototipos
 - Inspeccionar requisitos
 
 ## Requisitos en Migración de Sistemas
 
-Implica tomar un sistema que esta funcionando, y replicarlo en un nuevo sistema con los mismos requisitos. Debemos analizar si debemos eliminar algunos requisitos, cambiarlos, o crear nuevos. Algunas recomendaciones son:
+Implica tomar un sistema que está funcionando, y replicarlo en un nuevo sistema con los mismos requisitos. Debemos analizar si debemos eliminar algunos requisitos, cambiarlos, o crear nuevos. Algunas recomendaciones son:
 
-- Buscar un punto intermedio entre no documentar nada y documentar todo. Se debe realizar un ***tradeoff*** de que cosas viejas tomar, y cuales no
+- Buscar un punto intermedio entre no documentar nada y documentar todo. Se debe realizar un ***tradeoff*** de que cosas viejas tomar, y cuáles no
 - Tener siempre en cuenta los objetivos de negocio
-- Crear un mapa de dialogo con las principales interfaces del usuario
+- Crear un mapa de diálogo con las principales interfaces del usuario
 - Escribir historias de usuario o casos de uso principales de funcionalidades existentes y nuevos requisitos
 - Derivar reglas de negocio
 - Derivar modelo de dominio
@@ -144,23 +144,23 @@ En este caso, nos compramos un producto y debemos implementarlo. Son proyectos c
 - Se pueden usar ***out of the box***
 - Se pueden configurar y usarlos
 - Podemos integrarlo con otros sistemas (lo que requerirá algo de desarrollo)
-- Podemos cometer el error de customizarlo, que llevara mucho trabajo. Generalmente es mejor adaptarse al paquete, en lugar de adaptar el paquete.
+- Podemos cometer el error de customizarlo, que llevara mucho trabajo. Generalmente, es mejor adaptarse al paquete, en lugar de adaptar el paquete.
 
 Suele haber una cantidad infernal de requisitos en estos paquetes. Llevan años en desarrollarse
 
-![[Requisitos en Contexto 9.png]]
+![[Requisitos en Contexto 9.png|550]]
 
 En general hay dos etapas:
 
-- Evaluación y Selección del COTS: Proyecto en si mismo con su propia lista de requisitos
+- Evaluación y Selección del COTS: Proyecto en sí mismo con su propia lista de requisitos
 - Implementación del COTS
 
-Los requisitos en cada etapa se manejan con distinto nivel de detalle, en la primera etapa son mas generales mientras que despues se detallan mas. Se deben analizar los requisitos, determinar la prioridad de los requisitos de los mismos. No siempre hay una solución perfecta.
+Los requisitos en cada etapa se manejan con distinto nivel de detalle, en la primera etapa son más generales, mientras que después se detallan más. Se deben analizar los requisitos, determinar la prioridad de los requisitos de los mismos. No siempre hay una solución perfecta.
 
 ## Requisitos en la Tercerización
 
 - Muchas veces decidir tercerizar implica salir a buscar un proveedor.
 - El cliente es el que especificara los requisitos. Se debe generar un RFP. Los requisitos deben poder ser modificables debido a cambios en el negocio.
 - Debe haber condiciones de aceptación claras
-- Equipo de trabajo esta en otro uso horario, o en otro idioma, esto trae dificultades.
+- Equipo de trabajo está en otro huso horario, o en otro idioma, esto trae dificultades.
 - Falta conocimiento de negocio, puede dificultar el proceso.
