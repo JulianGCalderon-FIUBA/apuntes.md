@@ -22,6 +22,6 @@ No está centrado en lo que el usuario quiere, sino una restricción (tener que 
 
 Esta historia está centrada en lo que quiere el usuario, y no se centra en la implementación.
 
-La idea de una historia de usuario, no es la de diseñar una interfaz del usuario. Sino para diseñar el modelo mental, el usuario, del contexto del sistema. En cuanto ignoramos esto, y empezamos a modelar él ***¿cómo?***, entonces nuestras historias de usuario dejaran de tener valor. Dejarán de ser requisitos.
+La idea de una historia de usuario, no es la de diseñar una interfaz del usuario. Si no para diseñar el modelo mental, el usuario, del contexto del sistema. En cuanto ignoramos esto, y empezamos a modelar él, ***¿cómo?***, entonces nuestras historias de usuario dejaran de tener valor. Dejarán de ser requisitos.
 
 Si escribimos correctamente una historia, esta será válida siempre y cuando la opinión del usuario no cambie. No dependerá de la implementación

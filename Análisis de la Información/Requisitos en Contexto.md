@@ -1,14 +1,14 @@
-Las técnicas de ingeniería de requisitos dependerán totalmente de el contexto de la aplicación a desarrollar.
+Las técnicas de ingeniería de requisitos dependerán totalmente del contexto de la aplicación a desarrollar.
 
-Las organizaciones usualmente tienen un plan estratégico basado en lo que perciben que busca el mercado. Decide el objetivo y como se va a tratar de alcanzar. Esta estrategia se utilizara para generar ideas y oportunidades. Los clientes serán generadores de nuevas ideas y oportunidades.
+Las organizaciones usualmente tienen un plan estratégico basado en lo que perciben que busca el mercado. Decide el objetivo y como se va a tratar de alcanzar. Esta estrategia se utilizará para generar ideas y oportunidades. Los clientes serán generadores de nuevas ideas y oportunidades.
 
-Adicionalmente, con la estrategia determinaremos como gestionamos la cartera de proyectos y la cartera de productos y servicios. Los productos a su vez, alimentan las nuevas ideas.
+Adicionalmente, con la estrategia determinaremos como gestionamos la cartera de proyectos y la cartera de productos y servicios. Los productos, a su vez, alimentan las nuevas ideas.
 
-![[Requisitos en Contexto 1.png]]
+![[Requisitos en Contexto 1.png|550]]
 
 Las ideas no siempre se transforman en productos. Debemos saber si las ideas son factibles antes de realizar una ingeniería de requisitos completas o un análisis muy detallado. Debemos realizar un análisis de factibilidad, de orden de magnitud.
 
-## ¿Que hacemos en un Startup?
+## ¿Qué hacemos en un Startup?
 
 Muchas veces, no sabemos que quieren los clientes. Se dan dos situaciones en paralelo:
 
@@ -17,17 +17,17 @@ Muchas veces, no sabemos que quieren los clientes. Se dan dos situaciones en par
 
 Investigamos que producto podemos desarrollar, creamos un ***MVP***, obtenemos ***feedback*** de nuestros clientes.
 
-Este tipo de desarrollo es mucho mas dinámico, ya que debemos descubrir nuestro público a medida que desarrollamos.
+Este tipo de desarrollo es mucho más dinámico, ya que debemos descubrir nuestro público a medida que desarrollamos.
 
-Es mas dinámico, hay mas lugar a la innovación
+Es más dinámico, hay más lugar a la innovación
 
 ## Requisitos en el Ciclo de Vida
 
-Los requisitos no están aislados. Son la fuente para el desarrollo del producto, para definir su visión, los riesgos, la arquitectura. Cuando hablamos de trazabilidad, estamos buscando el vinculo entre los requisitos y el resto de elementos del desarrollo del software.
+Los requisitos no están aislados. Son la fuente para el desarrollo del producto, para definir su visión, los riesgos, la arquitectura. Cuando hablamos de trazabilidad, estamos buscando el vínculo entre los requisitos y el resto de elementos del desarrollo del software.
 
 ![[Requisitos en Contexto 2.png]]
 
-Sirven para en buena medida, realizar una estimación de esfuerzo. ¿Cuanto trabajo nos tomara el producto?. Debemos realizar una estimación del tamaño del proyecto a desarrollar. A partir del tamaño, podemos estimar el esfuerzo y a su vez, la duración del proyecto. Del esfuerzo, también podemos estimar los recursos que necesitaremos y los costos asociados
+Sirven para en buena medida, realizar una estimación de esfuerzo. ¿Cuánto trabajo nos tomara el producto?. Debemos realizar una estimación del tamaño del proyecto a desarrollar. A partir del tamaño, podemos estimar el esfuerzo y a su vez, la duración del proyecto. Del esfuerzo, también podemos estimar los recursos que necesitaremos y los costos asociados
 
 ![[Requisitos en Contexto 3.png]]
 
@@ -39,13 +39,13 @@ Existen dos grupos principales en los métodos de estimación:
 
 Métodos algorítmicos:
 
-- Los *Cocomo/Cocomo II* parten de una estimación previo de la cantidad de líneas de código que se necesitaran. En función de eso, se busca determinar la cantidad de horas del proyecto.
+- Los *Cocomo/Cocomo II* parten de una estimación previa de la cantidad de líneas de código que se necesitaran. En función de eso, se busca determinar la cantidad de horas del proyecto.
 - La técnica de puntos función busca determinar también el tamaño a partir de una definición abstracta del sistema (como los casos de uso o las historias de usuario).
 - Los use case points plantean algo parecido
 
 Métodos no algorítmicos:
 
-- Story Points: Muy ligados al desarrollo ágil. Es una técnica abstracta que nos muestra la complejidad relativa de cada item del producto backlog. El grupo de trabajo determinara la dificultad de implementación de cada item. El equipo estima en conjunto y los participantes dan su estimación en simultaneo para evitar influenciar a los demás. Una técnica muy usual es el planning poker.
+- Story Points: Muy ligados al desarrollo ágil. Es una técnica abstracta que nos muestra la complejidad relativa de cada ítem del producto backlog. El grupo de trabajo determinará la dificultad de implementación de cada ítem. El equipo estima en conjunto y los participantes dan su estimación en simultáneo para evitar influenciar a los demás. Una técnica muy usual es el planning poker.
 
 ## Requisitos en Distintos Escenarios
 
@@ -53,7 +53,7 @@ Cada situación requiere un enfoque distinto, cada uno tiene sus propias problem
 
 - Desarrollo ágil
 - Evolución de un producto existente
-- Migración de un sistema a otro
+- Migración de un sistema a otró
 - Tercerización de un servicio
 - Paquetes/SaaS
 
@@ -69,7 +69,7 @@ Durante la fase inicial se busca tener un pantallazo general e indagar en un por
 
 ### Extreme Programming
 
-Una de las primeras metodologías agiles. Plantea un enfoque de desarrollo iterativo con programación de a pares e integración frecuente.
+Una de las primeras metodologías ágiles. Plantea un enfoque de desarrollo iterativo con programación de a pares e integración frecuente.
 
 Se trabaja mucho sobre las historias de usuario y la definición de los casos de prueba.
 
@@ -83,9 +83,9 @@ No hay actividades formales ni requisitos escritos. El eje se trata en programar
 
 Se parte de una visión para generar un ***product backlog***. Que detalle las funcionalidades del sistema. Se elabora un ***sprint backlog*** con un subconjunto del product backlog que se van a desarrollar en el release. El sprint dura de 2 a 4 semanas, con reuniones diarias. Al final del ***sprint***, debería tener un producto potencialmente entregable.
 
-Usualmente, los requisitos se organizan en ***user story mapping*** y ***user stories***. Estos son recordatorios de reuniones con los clientes. De ser necesaria mas información, se pueden utilizar documentación complementaria.
+Usualmente, los requisitos se organizan en ***user story mapping*** y ***user stories***. Estos son recordatorios de reuniones con los clientes. De ser necesaria más información, se pueden utilizar documentación complementaria.
 
-El backlog se define constantemente a medida que se conoce mas acerca del producto y sus requerimientos.
+El backlog se define constantemente a medida que se conoce más acerca del producto y sus requerimientos.
 
 ### FDD
 
