@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis de la Información/Diseño de Datos.md",
+                "file": "Análisis de la Información/Requirement Specification vs User Stories.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis de la Información/Diseño de Datos.md"
+                "file": "Análisis de la Información/Requirement Specification vs User Stories.md"
               }
             }
           },
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis de la Información/Diseño de Datos.md",
+                "file": "Análisis de la Información/Requirement Specification vs User Stories.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis de la Información/Diseño de Datos.md",
+                "file": "Análisis de la Información/Requirement Specification vs User Stories.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,6 +158,14 @@
   },
   "active": "a25fa245d1413477",
   "lastOpenFiles": [
+    "Análisis de la Información/PSA.md",
+    "Análisis de la Información/Requirement Specification vs User Stories.md",
+    "Análisis de la Información/Prototipado y Experiencia de Usuario.md",
+    "Análisis de la Información/Modelos en la ingeniería de software.md",
+    "Análisis de la Información/Modelados de Dominio.md",
+    "Análisis de la Información/Introducción a la Ingeniería de Software.md",
+    "Análisis de la Información/Historias de Usuario.md",
+    "Análisis de la Información/Diseño de Datos.md",
     "Análisis de la Información/Casos de Uso.md",
     "Algoritmos I/Recursividad.md",
     "Algoritmos II/Grafos.md",
@@ -167,10 +174,7 @@
     "Matemática Discreta/Algoritmos.md",
     "Organizacion de Datos/Algoritmos Genéticos.md",
     "Organizacion de Datos/Arboles.md",
-    "Análisis de la Información/Modelados de Dominio.md",
-    "Análisis de la Información/Modelos en la ingeniería de software.md",
     "Análisis de la Información/Introducción al Diseño de Software.md",
-    "Análisis de la Información/Introducción a la Ingeniería de Software.md",
     "Análisis de la Información/Interfaces de Usuario.md",
     "Análisis de la Información/Innovación y Creatividad.md",
     "Análisis de la Información/Ingeniería de Requisitos.md",
@@ -179,16 +183,11 @@
     "Análisis de la Información/Análisis de la Información.md",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",
     "Análisis de la Información/Attachments/Historias de Usuario 6.png",
-    "Análisis de la Información/Prototipado y Experiencia de Usuario.md",
     "Análisis de la Información/Web Rest API.md",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
-    "Análisis de la Información/Historias de Usuario.md",
     "Análisis de la Información/Historias de Dominio.md",
     "Análisis de la Información/Gherkin.md",
-    "Análisis de la Información/Diseño de Datos.md",
     "Análisis de la Información/Design Thinking.md",
-    "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
-    "Análisis de la Información/Arquitectura del Software.md",
     "Algoritmos II/Attachments/Machete - AAB.pdf",
     "Algoritmos I/Attachments/Recursividad 1.png",
     "Untitled.canvas",

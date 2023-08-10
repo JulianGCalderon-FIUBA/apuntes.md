@@ -22,7 +22,7 @@ Se separa en tres elementos
 
 Para resolver el problema del manejo de numerosas historias de usuario, aparece el concepto de é*pica* o de epopeya***.*** Consiste en agrupar historias en relatos de mayor nivel, llamados épicas.
 
-![[Historias de Usuario 1.png|475]]
+![[Historias de Usuario 1.png|500]]
 
 Podemos dar nombres a las historias para identificarlas fácilmente
 
@@ -111,4 +111,4 @@ Propuestos por Alistar Cockurn. Separan los objetivos en cuatro niveles:
 
 Una forma de definir un criterio, es define el escenario, un contexto específico, el evento, y el resultado esperado
 
-![[Historias de Usuario 7.png|650]]
+![[Historias de Usuario 7.png|600]]

@@ -18,7 +18,7 @@ Existen distintos modelos conocidos de base de datos:
 	- Las claves primarias identifican las distintas filas (instancias) en una tabla
 	- Las claves foráneas referencian a claves primarias de otras tablas y son empleadas para implementar las relaciones
 
-	![[Diseño de Datos 1.png]]
+	![[Diseno de Datos 1.png|525]]
 
 - **Orientadas a** ***Objetos:***
 - ***Orientadas a Documento:*** no estructuradas
@@ -40,7 +40,7 @@ Existen distintos modelos conocidos de base de datos:
 
 El lado de ***Many*** mantiene referencia al ***One*** a partir de una clave foránea
 
-![[Diseño de Datos 2.png]]
+![[Diseno de Datos 2.png|525]]
 
 ### One-One
 
@@ -50,7 +50,7 @@ Decidimos una tabla como más relevante, e incluimos la ***foránea*** en la otr
 
 Crear una tabla de correlación cuyas columnas serán las claves primarias de las tablas relacionadas. Los identificadores serán tanto claves, primarias como foráneas
 
-![[Diseño de Datos 3.png]]
+![[Diseno de Datos 3.png|550]]
 
 ### Recursivas
 

@@ -1,6 +1,6 @@
 ## Visión
 
-Centralizar la información del los procesos de una organización en una única herramienta con el fin de avanzar la toma de decisiones en base a datos para mejorar los procesos internos y externos para así obtener una ventaja competitiva pero sobre los competidores y convertir a las empresas que usen este sistema en líderes en su segmento.
+Centralizar la información del los procesos de una organización en una única herramienta con el fin de avanzar la toma de decisiones en base a datos para mejorar los procesos internos y externos para así obtener una ventaja competitiva, pero sobre los competidores y convertir a las empresas que usen este sistema en líderes en su segmento.
 
 Es importante utilizar el propio sistema que se desarrolla, para asegurarse que se desarrolle correctamente y con la motivación adecuada. Esta política es conocida como *"Eat your own dog food"*
 
@@ -12,7 +12,7 @@ La estrategia es incorporar este nuevo producto a la cartera existente de PSA. S
 
 ## Propuesta
 
-El sistema estará compuestos por diversos módulos (microservicios), interconectados entre sí.
+El sistema estará compuesto por diversos módulos (microservicios), interconectados entre sí.
 
 ### Proyecto
 
@@ -22,7 +22,7 @@ El módulo del proyecto, tendrá las siguientes funcionalidades
 - **Administración de tareas:** Cada proyecto tendrá tareas asignadas a los diversos integrantes
 - ***Descomposición de riesgos en fases e iteraciones:***. Las tareas y los objetivos de proyectos podrán ser organizados en fases y iteraciones.
 - ***Administración de Riesgos:*** Se deben poder manejar los riesgos de los proyectos y la forma de lidiarlos
-- ***Integraciones con módulos relacionados:*** Como se mencionó, los módulos se comunicarán entre sí a travès de las interfaces públicas que estos ofrecen.
+- ***Integraciones con módulos relacionados:*** Como se mencionó, los módulos se comunicarán entre sí a través de las interfaces públicas que estos ofrecen.
 - ***Visibilizar estado de proyectos atrasados***
 - **Reportes, Alertas**
 
