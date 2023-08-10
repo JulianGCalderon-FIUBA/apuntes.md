@@ -27,7 +27,7 @@ Medio con el que el usuario puede comunicarse con el ***software***. Se conecta 
 
 El flujo comienza en el área de diseño, antes de llegar al área de informática
 
-## ¿Como diseñamos una Aplicación?
+## ¿Cómo diseñamos una Aplicación?
 
 Tendremos un proceso de 4 etapas dinámicas:
 

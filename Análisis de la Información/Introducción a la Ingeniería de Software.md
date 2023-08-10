@@ -32,7 +32,7 @@ Un proceso es un conjunto de actividades que transforma una entrada en una salid
 
 En el ciclo de vida de un software suele haber dos grandes etapas: El desarrollo y la producción.
 
-En la primer etapa se instancia un proceso o un grupo de procesos que pueden ser definidos o informales. Se ejecuta un proyecto, con su propio ciclo de vida.
+En la primera etapa sé instancia un proceso o un grupo de procesos que pueden ser definidos o informales. Se ejecuta un proyecto, con su propio ciclo de vida.
 
 Los proyectos son esfuerzos temporales que crean nuevos productos, servicios, o resultados. Generan una capacidad de producir valor.
 
