@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física II/Corriente Continua.md",
+                "file": "Algoritmos II/Arboles Auto Balanceados.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física II/Corriente Continua.md",
+                "file": "Algoritmos II/Arboles Auto Balanceados.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física II/Corriente Continua.md",
+                "file": "Algoritmos II/Arboles Auto Balanceados.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física II/Corriente Continua.md"
+                "file": "Algoritmos II/Arboles Auto Balanceados.md"
               }
             }
           },
@@ -166,12 +166,22 @@
   },
   "active": "52730347ee14ce39",
   "lastOpenFiles": [
+    "Algoritmos II/Algoritmos II.md",
+    "Algoritmos II/Pilas, Colas y Listas.md",
+    "Algoritmos II/Análisis de Algoritmos.md",
+    "Fisica I/Física I.md",
+    "Fisica I/Difracción.md",
     "Física II/Física II.md",
+    "Física II/Ecuaciones de Maxwell.md",
+    "Física II/Circuitos en Resonancia.md",
+    "Física II/Potencia Activa y Reactiva.md",
+    "Física II/Fasores Complejos.md",
+    "Física II/Circuito Electrico.md",
+    "Física II/Corriente Continua.md",
     "Física II/Capacitores.md",
     "Física II/Conductores.md",
     "Física II/Campo Eléctrico.md",
     "Física II/Ley de Coulomb.md",
-    "Fisica I/Difracción.md",
     "Algebra II/Algebra II.md",
     "Algebra II/Autovalores y Autovectores.md",
     "Algebra II/Formas Cuadráticas.md",
@@ -182,16 +192,6 @@
     "Algebra II/Transformaciones Lineales.md",
     "Algebra II/Operaciones entre Subespacios.md",
     "Algebra II/Subespacios de Matriz.md",
-    "Algebra II/Coordenadas.md",
-    "Algebra II/Subespacios.md",
-    "Algebra II/Espacios Vectoriales.md",
-    "Fisica I/Física I.md",
-    "Fisica I/Interferencia.md",
-    "Fisica I/Superposición de Onda.md",
-    "Fisica I/Ondas de Sonido.md",
-    "Fisica I/Energía en Ondas.md",
-    "Fisica I/Ondas Mecánicas.md",
-    "Fisica I/Definición Óptica.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
