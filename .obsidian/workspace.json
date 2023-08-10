@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Organizacion de Datos/Entrenamiento y Testing.md",
+                "file": "Organizacion de Datos/Análisis de Sentimientos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Organizacion de Datos/Entrenamiento y Testing.md",
+                "file": "Organizacion de Datos/Análisis de Sentimientos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Organizacion de Datos/Entrenamiento y Testing.md",
+                "file": "Organizacion de Datos/Análisis de Sentimientos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Organizacion de Datos/Entrenamiento y Testing.md"
+                "file": "Organizacion de Datos/Análisis de Sentimientos.md"
               }
             }
           },
@@ -165,6 +165,7 @@
   },
   "active": "3bacfa5a591a3657",
   "lastOpenFiles": [
+    "Organizacion de Datos/Entrenamiento y Testing.md",
     "Matemática Discreta/Grafos Particulares.md",
     "Análisis de la Información/Diseño de Datos.md",
     "Organizacion de Datos/Algoritmos Genéticos.md",
@@ -190,7 +191,6 @@
     "Física II/Circuito Electrico.md",
     "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Cellular Internet Access.md",
     "Análisis de la Información/Casos de Uso.md",
-    "Física II/Capacitores.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",

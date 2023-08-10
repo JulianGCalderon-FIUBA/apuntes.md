@@ -8,8 +8,10 @@ Es una tarea de clasificación de textos. Se utiliza para diversas tareas comple
 - **Emoción**: Respuesta relativamente corta del organismo a un estímulo externo.
 - **Estado de ánimo**: Sentimiento de baja intensidad y larga duración.
 - **Postura Interpersonal**: Posición afectiva respecto a otra persona
-- **ACtitudes**: Predisposición de una persona respecto a otras personas.
-- **Rasgos de Personalidad**: Tendencias del comportamiento típico de una persona
+- **Actitudes**: Predisposición de una persona respecto a otras personas.
+  asdas
+  asdasdasdasd
+- **Rasgos de Personalidad**: Tendencias del comportamiento típico de una person
 
 En un análisis de sentimientos, trataremos de predecir la actitud.
 
