@@ -26,9 +26,7 @@ Rotamos hacia la izquierda el nodo A
 
 	Entonces rotamos hacia la izquierda el nodo hijo, y hacia la derecha el nodo desbalanceado.
 
-	![[Arboles Auto Balanceados 3.png]]
-
-Rotamos hacia la izquierda el nodo A, derecha el nodo C
+	![[Arboles Auto Balanceados 3.png|Rotamos hacia la izquierda el nodo A, derecha el nodo C]]
 
 - **Rotación Derecha - Izquierda:** Ocurre cuando el factor de balanceo del nodo $FE = 2$ y el factor de balanceo del hijo izquierdo $FE = -1$.
 
