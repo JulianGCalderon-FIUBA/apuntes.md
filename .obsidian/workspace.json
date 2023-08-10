@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Transformaciones Lineales.md",
+                "file": "Algebra II/Autovalores y Autovectores.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra II/Transformaciones Lineales.md",
+                "file": "Algebra II/Autovalores y Autovectores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra II/Transformaciones Lineales.md",
+                "file": "Algebra II/Autovalores y Autovectores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra II/Transformaciones Lineales.md"
+                "file": "Algebra II/Autovalores y Autovectores.md"
               }
             }
           },
@@ -167,12 +167,18 @@
   "active": "52730347ee14ce39",
   "lastOpenFiles": [
     "Algebra II/Algebra II.md",
+    "Algebra II/Formas Cuadráticas.md",
+    "Algebra II/Descomposición en Valores Singulares.md",
+    "Algebra II/Sistemas de E D Homogéneas.md",
+    "Algebra II/Autovalores y Autovectores.md",
+    "Algebra II/Método de Gram-Schmidt.md",
+    "Algebra II/Producto Interno.md",
+    "Algebra II/Transformaciones Lineales.md",
     "Algebra II/Operaciones entre Subespacios.md",
     "Algebra II/Subespacios de Matriz.md",
     "Algebra II/Coordenadas.md",
     "Algebra II/Subespacios.md",
     "Algebra II/Espacios Vectoriales.md",
-    "Algebra II/Autovalores y Autovectores.md",
     "Fisica I/Difracción.md",
     "Fisica I/Física I.md",
     "Fisica I/Interferencia.md",
@@ -186,12 +192,6 @@
     "Fisica I/Óptica Geométrica.md",
     "Fisica I/Energia CR.md",
     "Fisica I/Dinámica CR.md",
-    "Fisica I/Cinemática CR.md",
-    "Fisica I/Cuerpo Rígido.md",
-    "Fisica I/Colisiones.md",
-    "Fisica I/Sistema de partículas.md",
-    "Fisica I/Momento y Torque.md",
-    "Fisica I/Potencia.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",

@@ -62,7 +62,7 @@ Una transformación lineal es un **epimorfismo** cuando la dimension de la image
 
 ## Matriz de T.L.
 
-Si $\Bbb V$ y $\Bbb W$ son espacios vectoriales de dimension finita, podemos encontrar una expresion matriarcial para una transformacion lineal $T: \Bbb V \to \Bbb W$.
+Si $\Bbb V$ y $\Bbb W$ son espacios vectoriales de dimension finita, podemos encontrar una expresión matricial para una transformación lineal $T: \Bbb V \to \Bbb W$.
 
 Supongamos que $B$ y $B'$ son bases de $\Bbb V$ y $\Bbb W$ respectivamente. $B = \{v_1, \cdots, v_n\}, B' = \{w_1, \cdots, w_m\}$
 
