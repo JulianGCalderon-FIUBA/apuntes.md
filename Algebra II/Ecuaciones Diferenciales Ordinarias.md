@@ -36,37 +36,15 @@ Una vez que tenemos las soluciones de la homogénea asociada, es momento de enco
 
 Este método consiste en proponer una forma de la función $y_p$ solución para cierto tipo de función $f$, si las raíces del polinomio característico cumplen con las condiciones especificadas.
 
-$$
-\def\arraystretch{1.4}\begin{array}{|c|c|c|}\hline
-\boldsymbol{f} & \boldsymbol{y_p} & \textbf{Raíces del polinomio caracteristico}
-\\\hline
-P_n & P_n & r \neq 0
-\\\hline
-P_n & P_{n+1} & r = 0:\text{Raíz Simple}
-\\\hline
-P_n & P_{n+k} & r=0:\text{Raiz mult. }k
-\\\hline
-e^{\lambda x} & ke^{\lambda x} & r \neq \lambda
-\\\hline
-e^{\lambda x} & P_k e^{\lambda x} & r = \lambda:\text{Raíz mult. } k
-\\\hline
-\sin(cx) & k_1\sin(cx) + k_2\cos(cx) &  r \neq ci 
-\\\hline
-\sin(cx) & P_k\sin(cx) + Q_k\cos(cx) & r = ci: \text{Raiz mult. } k 
-\\\hline
-\cos(cx) & k_1\sin(cx) + k_2\cos(cx) & r \neq ci
-\\\hline\end{array}
-$$
-
-|       $f$       | $y_p$                       | $\text{Raices del polinomio característico}$ |
-|:---------------| --------------------------- | -------------------------------------------- |
-|      $P_n$      | $P_n$                       | $r\neq 0$                                    |
-|      $P_n$      | $P_{n+1}$                   |                                              |
-|      $P_n$      | $P_{n+k}$                   |                                              |
-| $e^{\lambda x}$ | $ke^{\lambda x}$            |                                              |
-| $e^{\lambda x}$ | $P_ke^{\lambda x}$          |                                              |
-|   $\sin(cx)$    | $k_1\sin(cx) + k_2\cos(cx)$ |                                              |
-|   $\sin(cx)$    | $P_k\sin(cx) + Q_k\cos(cx)$ |                                              |
-|   $\cos(cx)$    | $k_1\sin(cx) + k_2\cos(cx)$ |                                              |
+|       $f$       |            $y_p$            | $\text{Raices del polinomio característico}$ |
+|:---------------:|:---------------------------:|:--------------------------------------------:|
+|      $P_n$      |            $P_n$            |                  $r\neq 0$                   |
+|      $P_n$      |          $P_{n+1}$          |          $r=0: \text{Raíz Simple}$           |
+|      $P_n$      |          $P_{n+k}$          |         $r=0: \text{Raíz mult. } k$          |
+| $e^{\lambda x}$ |      $ke^{\lambda x}$       |               $r \neq \lambda$               |
+| $e^{\lambda x}$ |     $P_ke^{\lambda x}$      |      $r=\lambda: \text{Raíz mult. } k$       |
+|   $\sin(cx)$    | $k_1\sin(cx) + k_2\cos(cx)$ |                 $r \neq ci$                  |
+|   $\sin(cx)$    | $P_k\sin(cx) + Q_k\cos(cx)$ |         $r=ci: \text{Raíz mult. } k$         |
+|   $\cos(cx)$    | $k_1\sin(cx) + k_2\cos(cx)$ |                 $r \neq ci$                  |
 
 Si la función $f$ es una suma de las funciones mencionadas, entonces la solución particular es una suma de las soluciones particulares de la ecuación diferencial con cada $f_n$.

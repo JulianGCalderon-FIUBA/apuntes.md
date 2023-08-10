@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Ecuaciones Diferenciales Ordinarias.md",
+                "file": "Algebra II/Subespacios.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra II/Ecuaciones Diferenciales Ordinarias.md"
+                "file": "Algebra II/Subespacios.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra II/Ecuaciones Diferenciales Ordinarias.md",
+                "file": "Algebra II/Subespacios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra II/Ecuaciones Diferenciales Ordinarias.md",
+                "file": "Algebra II/Subespacios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,6 +158,14 @@
   },
   "active": "a25fa245d1413477",
   "lastOpenFiles": [
+    "Algebra II/Sistemas de E D Homogéneas.md",
+    "Algebra II/Producto Interno.md",
+    "Algebra II/Ortogonalidad.md",
+    "Algebra II/Operaciones entre Subespacios.md",
+    "Algebra II/Método de Gram-Schmidt.md",
+    "Algebra II/Matrices Normales.md",
+    "Algebra II/Formas Cuadráticas.md",
+    "Algebra II/Espacios Vectoriales.md",
     "Algebra II/Ejemplos de Transformaciones Lineales.md",
     "Algebra II/Ecuaciones Diferenciales Ordinarias.md",
     "Algebra II/Descomposición en Valores Singulares.md",
@@ -165,15 +174,7 @@
     "Algebra II/Algebra II.md",
     "Algebra II/Transformaciones Lineales.md",
     "Algebra II/Subespacios.md",
-    "Algebra II/Ortogonalidad.md",
     "Algebra II/Subespacios de Matriz.md",
-    "Algebra II/Sistemas de E D Homogéneas.md",
-    "Algebra II/Producto Interno.md",
-    "Algebra II/Operaciones entre Subespacios.md",
-    "Algebra II/Método de Gram-Schmidt.md",
-    "Algebra II/Matrices Normales.md",
-    "Algebra II/Formas Cuadráticas.md",
-    "Algebra II/Espacios Vectoriales.md",
     "Estructura del Computador/Estructura del Computador.md",
     "Estructura del Computador/Circuitos.md",
     "Estructura del Computador/Memoria.md",
