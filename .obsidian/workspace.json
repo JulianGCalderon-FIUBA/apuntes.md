@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica I/Trabajo y energia.md",
-                "mode": "preview",
+                "file": "Fisica I/Óptica Geométrica.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica I/Trabajo y energia.md",
+                "file": "Fisica I/Óptica Geométrica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica I/Trabajo y energia.md",
+                "file": "Fisica I/Óptica Geométrica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica I/Trabajo y energia.md"
+                "file": "Fisica I/Óptica Geométrica.md"
               }
             }
           },
@@ -167,6 +167,15 @@
   "active": "52730347ee14ce39",
   "lastOpenFiles": [
     "Fisica I/Física I.md",
+    "Fisica I/Energia CR.md",
+    "Fisica I/Dinámica CR.md",
+    "Fisica I/Cinemática CR.md",
+    "Fisica I/Cuerpo Rígido.md",
+    "Fisica I/Colisiones.md",
+    "Fisica I/Sistema de partículas.md",
+    "Fisica I/Momento y Torque.md",
+    "Fisica I/Potencia.md",
+    "Fisica I/Trabajo y energia.md",
     "Fisica I/Sistema de referencia no inercial.md",
     "Fisica I/Movimiento armónico simple.md",
     "Fisica I/Dinamica.md",
@@ -183,15 +192,6 @@
     "Análisis Matemático II/Métodos de resolución.md",
     "Análisis Matemático II/Limites.md",
     "Análisis Matemático II/Funciones de varias variables.md",
-    "Análisis Matemático II/Cuádricas.md",
-    "Algebra II/Formas Cuadráticas.md",
-    "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
-    "Algebra II/Resumen - Álgebra II.md",
-    "Algebra II/Descomposición en Valores Singulares.md",
-    "Algebra II/Matrices Normales.md",
-    "Algebra II/Subespacios de Matriz.md",
-    "Algebra II/Sistemas de E D Homogéneas.md",
-    "Algebra II/Método de Gram-Schmidt.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",

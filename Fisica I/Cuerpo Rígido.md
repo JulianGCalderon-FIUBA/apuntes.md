@@ -1,15 +1,13 @@
-**Condición de rigidez:**
-
- $d_{AB} = \text{constante}$
+## Condición de rigidez
 
 Un cuerpo es rígido si se cumple la condición de rigidez entre todas sus partículas.
 
 $$
-v_{a\|} = v_{b\|}
+d_{AB} = \text{constante}
 $$
 
 $$
-\vec v_{B/A} \perp \vec r_{B/A}
+v_{a\|} = v_{b\|} \qquad \vec v_{B/A} \perp \vec r_{B/A}
 $$
 
 ![[Cuerpo Rígido 1.png]]
@@ -19,14 +17,6 @@ $$
 
 ## Tipos de Movimiento
 
-**Traslación Pura:**
-
-Las partículas se siguen trayectorias paralelas
-
-**Rotación Pura:**
-
-Todos los puntos siguen trayectorias circulares, al rededor de un eje de rotación
-
-**Roto traslación:**
-
-Combinación de ambos movimientos
+- **Traslación Pura:** Las partículas se siguen trayectorias paralelas
+- **Rotación Pura:** Todos los puntos siguen trayectorias circulares, alrededor de un eje de rotación
+- **Roto traslación:** Combinación de ambos movimientos

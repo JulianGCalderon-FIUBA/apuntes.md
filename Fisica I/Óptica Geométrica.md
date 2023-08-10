@@ -26,7 +26,7 @@ $$
 
 ![[Óptica Geométrica 2.png]]
 
-El de mayor índice tiene menor ángulo.
+> El de mayor índice tiene menor ángulo.
 
 **Índice de refracción:** $(n\geq1)$ Es la velocidad de la luz en el vacío sobre la velocidad de la luz en el medio.
 
@@ -38,11 +38,11 @@ Las superficies planas son las mas simples de analizar, se calculan las posicion
 
 ![[Óptica Geométrica 3.png]]
 
-Reflexión
+> Reflexión
 
 ![[Óptica Geométrica 4.png]]
 
-Refracción
+> Refracción
 
 ## Angulo Visual
 
