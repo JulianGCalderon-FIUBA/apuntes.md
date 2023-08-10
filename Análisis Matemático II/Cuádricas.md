@@ -20,9 +20,7 @@ $$
 \boxed{z = ax^2 + by^2 }
 $$
 
-Si $a = b$, es un paraboloide circular
-
-si $a ≠ b$ y tienen el mismo signo, es un paraboloide elíptico
+Si $a = b$, es un paraboloide circular, si $a ≠ b$ y tienen el mismo signo, es un paraboloide elíptico
 
 ![[Cuádricas 2.png]]
 
@@ -40,12 +38,18 @@ Su forma, dependerá del valor de $d$
 
 ### Hiperboloide de una Hoja
 
-Si es positivo, se trata de un hiperboloide de una hoja ![[Cuádricas 4.png]]
+Si es positivo, se trata de un hiperboloide de una hoja
+
+![[Cuádricas 4.png]]
 
 ### Hiperboloide de dos Hojas
 
-Si es negativo, se trata de un hiperboloide de dos hojas ![[Cuádricas 5.png]]
+Si es negativo, se trata de un hiperboloide de dos hojas
+
+![[Cuádricas 5.png]]
 
 ### Cono
 
-Si es cero, se trata de un cono ![[Cuádricas 6.png]]
+Si es cero, se trata de un cono
+
+![[Cuádricas 6.png]]
