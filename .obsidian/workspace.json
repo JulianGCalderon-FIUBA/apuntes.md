@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+                "file": "Algoritmos II/Arboles Auto Balanceados.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "/- .*\\n*\\t[^-]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+                "file": "Algoritmos II/Arboles Auto Balanceados.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+                "file": "Algoritmos II/Arboles Auto Balanceados.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md"
+                "file": "Algoritmos II/Arboles Auto Balanceados.md"
               }
             }
           },
@@ -164,6 +165,7 @@
   },
   "active": "a25fa245d1413477",
   "lastOpenFiles": [
+    "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
     "Algebra II/Espacios Vectoriales.md",
     "Algebra II/Operaciones entre Subespacios.md",
     "Algebra II/Transformaciones Lineales.md",
@@ -189,7 +191,6 @@
     "Probabilidad y Estadistica/Distribucion Normal.md",
     "Análisis de la Información/Historias de Usuario.md",
     "Sistemas Operativos/Espacio de Direcciones.md",
-    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Error-Detection and -Correction Techniques.md",
     "Untitled.canvas",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
