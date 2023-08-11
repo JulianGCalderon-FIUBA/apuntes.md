@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Álgebra II/Álgebra II.md",
+                "file": "Análisis Matemático II/Análisis Matemático II.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Álgebra II/Álgebra II.md"
+                "file": "Análisis Matemático II/Análisis Matemático II.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Álgebra II/Álgebra II.md",
+                "file": "Análisis Matemático II/Análisis Matemático II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Álgebra II/Álgebra II.md",
+                "file": "Análisis Matemático II/Análisis Matemático II.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,12 +158,16 @@
   },
   "active": "d7263f3c743d6923",
   "lastOpenFiles": [
-    "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
-    "index.md",
-    "Matemática Discreta/Matemática Discreta.md",
+    "Estructura del Computador/Estructura del Computador.md",
+    "Estructura del Computador/Attachments/Attachments.md",
+    "Física I/Física I.md",
     "Fisica I/Fisica I.md",
+    "Algoritmos I/Algoritmos I.md",
     "Álgebra II/Álgebra II.md",
-    "Álgebra II/Álgebra II.md",
+    "index.md",
+    "Álgebra II/hola.md",
+    "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
+    "Matemática Discreta/Matemática Discreta.md",
     "Álgebra II/Descomposición en Valores Singulares.md",
     "Sistemas Operativos/Sistemas Operativos.md",
     "Organizacion de Datos/Organizacion de Datos.md",
@@ -178,13 +182,9 @@
     "Estructura del Computador/Operaciones Básicas.md",
     "Estructura del Computador/Micro Arquitectura.md",
     "Estructura del Computador/Funciones Lógicas.md",
-    "Estructura del Computador/Estructura del Computador.md",
     "Estructura del Computador/Compiladores y Ensambladores.md",
     "Estructura del Computador/Circuitos Sincrónicos.md",
     "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
-    "Estructura del Computador/Circuitos Asincrónicos.md",
-    "Análisis Matemático II/Análisis Matemático II.md",
-    "Estructura del Computador/Circuitos.md",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",
     "Análisis de la Información/Attachments/Historias de Usuario 6.png",
