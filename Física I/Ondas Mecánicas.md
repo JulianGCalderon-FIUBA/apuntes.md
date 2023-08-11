@@ -38,17 +38,17 @@ $$
 - $w:$ Pulsación de la onda (Frecuencia Angular)
 - $\varphi:$ Ángulo inicial
 
-El sentido de $w$ indicará la dirección del desplazamiento:
-
-- Si $w$ tiene sentido **negativo**, entonces la onda se desplaza en sentido $\hat x$ **positivo**.
-- Si $w$ tiene sentido **positivo**, entonces la onda se desplaza en sentido $\hat x$ **negativo**.
-
-
+Algunas conversiones comunes son:
 
 - **Velocidad de Propagación** $\displaystyle\to v= \frac\lambda T=\frac wk$
 - **Longitud de Onda** $\displaystyle\to\lambda = \frac vf$
 - **Número de Onda** $\displaystyle\to k =\frac{2\pi}\lambda$
 - **Frecuencia** $\displaystyle\to f= \frac 1T=\frac w{2\pi}$
+
+El sentido de $w$ indicará la dirección del desplazamiento:
+
+- Si $w$ tiene sentido **negativo**, entonces la onda se desplaza en sentido $\hat x$ **positivo**.
+- Si $w$ tiene sentido **positivo**, entonces la onda se desplaza en sentido $\hat x$ **negativo**.
 
 ---
 
@@ -76,21 +76,21 @@ $$
 
 La velocidad de **propagación** depende estrictamente de las propiedades del medio
 
-- **Cuerdas:** la velocidad depende de la tension $F$ de la cuerda y la densidad lineal $\mu$
+- **Cuerdas:** la velocidad depende de la tensión $F$ de la cuerda y la densidad lineal $\mu$
 
 	$$
     v = \sqrt\frac F\mu
     $$
 
-- **Sólidos (Transversales):** la velocidad depende del modulo de *rigidez* $G$ **y de la densidad $\rho$
+- **Sólidos (Transversales):** la velocidad depende del módulo de *rigidez* $G$ **y de la densidad $\rho$
 
 	$$
     v = \sqrt\frac G\rho
     $$
 
-- **Sólidos (Longitudinales):** la velocidad depende del modulo de *Young* $Y$ **y de la densidad $\rho$.
+- **Sólidos (Longitudinales):** la velocidad depende del módulo de *Young* $Y$ **y de la densidad $\rho$.
 
-	Se define modulo de Young, como el cociente entre el valor de la fuerza que recibe por unidad de area, y la deformación relativa que se le provoca al cuerpo.
+	Se define módulo de Young, como el cociente entre el valor de la fuerza que recibe por unidad de área, y la deformación relativa que se le provoca al cuerpo.
 
 $$
 \text{Young}:Y = \frac{\frac FA}{\frac{\Delta l}L}  
@@ -100,9 +100,9 @@ $$
 v = \sqrt\frac Y\rho
 $$
 
-- **Gases:** la velocidad depende del modulo de compresibilidad $B$ y de la densidad $\rho$.
+- **Gases:** la velocidad depende del módulo de compresibilidad $B$ y de la densidad $\rho$.
 
-	Tambien se puede expresar en función del coeficiente adiabático $\gamma$, La constante de los gases ideales $R$, la temperatura $T$ medida en *Kelvin*, y la masa molecular $M$.
+	También se puede expresar en función del coeficiente adiabático $\gamma$, La constante de los gases ideales $R$, la temperatura $T$ medida en *Kelvin*, y la masa molecular $M$.
 
 $$
 \text{Compresibilidad} : B = -\frac{\Delta P}{\Delta V/ V}\bigg\rvert_{\text{Adiabatico}}

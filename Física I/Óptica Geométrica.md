@@ -2,7 +2,7 @@ La **luz** son rayos que viajan en línea recta, en medios transparentes. Pueden
 
 ## Postulados
 
-### Propagación rectilinea
+### Propagación rectilínea
 
 La **luz** se propaga en línea recta, se representa con una flecha que representa su dirección y sentido.
 
@@ -14,7 +14,7 @@ $$
 \text{Ley de la reflexion: }\quad \boxed{\theta_i = \theta_r}
 $$
 
-![[Optica Geometrica 1.png]]
+![[Optica Geometrica 1.png|359]]
 
 ### Refracción
 
@@ -24,9 +24,7 @@ $$
 \text{Ley de Snell: }\quad \boxed{n_i\cdot\sin\theta_i = n_r\cdot\sin\theta_r}
 $$
 
-![[Optica Geometrica 2.png]]
-
-> El de mayor índice tiene menor ángulo.
+![[Optica Geometrica 2.png|332]]
 
 **Índice de refracción:** $(n\geq1)$ Es la velocidad de la luz en el vacío sobre la velocidad de la luz en el medio.
 
@@ -34,25 +32,25 @@ $$
 
 ## Superficies Planas
 
-Las superficies planas son las mas simples de analizar, se calculan las posiciones a partir de la ***Ley de Snell*** y la ***Ley de Reflexión.***
+Las superficies planas son las más simples de analizar, se calculan las posiciones a partir de la ***Ley de Snell*** y la ***Ley de Reflexión.***
 
-![[Optica Geometrica 3.png]]
+En un espejo, podremos ver el prinicipio de reflexión
 
-> Reflexión
+![[Optica Geometrica 3.png|436]]
 
-![[Optica Geometrica 4.png]]
+En una superficie de agua, podemos ver el principio de refracción
 
-> Refracción
+![[Optica Geometrica 4.png|450]]
 
-## Angulo Visual
+## Ángulo Visual
 
-Esta formado por el conjunto de rayos que parten de los extremos del objeto y llegan al ojo. A mayor distancia, menor ángulo visual. El campo del espejo es el espacio que puede verse por el espejo desde el punto en cuestión.
+Está formado por el conjunto de rayos que parten de los extremos del objeto y llegan al ojo. A mayor distancia, menor ángulo visual. El campo del espejo es el espacio que puede verse por el espejo desde el punto en cuestión.
 
 ![[Optica Geometrica 5.png]]
 
 ## Prisma
 
-Los distintos colores, tienen distintos indices de refracción. Por eso, al pasar luz blanca por un prisma, se puede observar un abanico de colores.
+Los distintos colores tienen distintos índices de refracción. Por eso, al pasar luz blanca por un prisma, se puede observar un abanico de colores.
 
 $$
 i = r'
