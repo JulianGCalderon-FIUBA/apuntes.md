@@ -16,7 +16,7 @@ $$
 \vec T^{Sist}_{cm} = I_{cm} \cdot \vec \gamma \quad\quad\text{ \& }\quad\quad T^{Sist}_{cir} = I_{cir} \cdot \vec \gamma
 $$
 
-**Teorema de Steiner:**
+### Teorema de Steiner
 
 $$
 I_{o} = I_{cm} + M \cdot r^2_{cm/o}
@@ -24,12 +24,10 @@ $$
 
 ## Momento de Inercia $(I_o)$
 
-El momento de inercia puede pensarse como una inercia de
-
-rotación, como la resistencia que un cuerpo presenta a adquirir una aceleración angular.
+El momento de inercia puede pensarse como una inercia de rotación, como la resistencia que un cuerpo presenta a adquirir una aceleración angular.
 
 $$
 I_o = \sum r^2_{i/o} \cdot m_i
 $$
 
-![[Dinamica CR 1.png]]
+![[Dinamica CR 1.png|475]]
