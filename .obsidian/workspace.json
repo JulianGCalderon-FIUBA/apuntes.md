@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Cónicas.md",
+                "file": "Análisis Matemático II/Cuádricas.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Cónicas.md"
+                "file": "Análisis Matemático II/Cuádricas.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Cónicas.md",
+                "file": "Análisis Matemático II/Cuádricas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Cónicas.md",
+                "file": "Análisis Matemático II/Cuádricas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,13 +136,20 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "c531b2156cd4b756",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 392.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -156,8 +163,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d7263f3c743d6923",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
+    "Análisis Matemático II/Cónicas.md",
+    "Análisis Matemático II/Cuádricas.md",
     "Análisis Matemático II/Análisis Matemático II.md",
     "Algoritmos II/Algoritmos de Grafos.md",
     "Algoritmos I/Recursividad.md",
@@ -165,7 +174,6 @@
     "Algoritmos I/Operaciones con archivos.md",
     "2023-08-10.md",
     "Algoritmos I/Algoritmos I.md",
-    "Análisis Matemático II/Cónicas.md",
     "Algebra II/Coordenadas.md",
     "Análisis de la Información/Web Rest API.md",
     "Análisis de la Información/Innovación y Creatividad.md",
@@ -183,7 +191,6 @@
     "Análisis de la Información/Historias de Usuario.md",
     "Análisis de la Información/Diseño de Datos.md",
     "Análisis de la Información/Casos de Uso.md",
-    "Algoritmos II/Grafos.md",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",
     "Análisis de la Información/Attachments/Historias de Usuario 6.png",

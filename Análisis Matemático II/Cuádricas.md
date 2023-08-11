@@ -12,7 +12,7 @@ $$
 
 $a, b, c$: Longitud de semiejes
 
-![[Cuádricas 1.png]]
+![[Cuadricas 1.png]]
 
 ## Paraboloide
 
@@ -22,11 +22,11 @@ $$
 
 Si $a = b$, es un paraboloide circular, si $a ≠ b$ y tienen el mismo signo, es un paraboloide elíptico
 
-![[Cuádricas 2.png]]
+![[Cuadricas 2.png]]
 
 si $a$ y $b$ tienen distinto signo, se trata de un paraboloide hiperbólico
 
-![[Cuádricas 3.png]]
+![[Cuadricas 3.png]]
 
 ## Hiperboloides y Conos
 
@@ -40,7 +40,7 @@ Su forma, dependerá del valor de $d$
 
 Si es positivo, se trata de un hiperboloide de una hoja
 
-![[Cuádricas 4.png]]
+![[Cuadricas 4.png]]
 
 ### Hiperboloide de dos Hojas
 
