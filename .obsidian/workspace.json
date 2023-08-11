@@ -11,8 +11,12 @@
             "id": "d7263f3c743d6923",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Sistemas Operativos/Sistemas Operativos.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -80,7 +84,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Sistemas Operativos/Sistemas Operativos.md"
+              }
             }
           },
           {
@@ -89,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Sistemas Operativos/Sistemas Operativos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Sistemas Operativos/Sistemas Operativos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
