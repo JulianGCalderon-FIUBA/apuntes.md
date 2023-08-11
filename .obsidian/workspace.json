@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Introduction of the Link Layer.md",
+                "file": "Estructura del Computador/Memoria.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Introduction of the Link Layer.md"
+                "file": "Estructura del Computador/Memoria.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Introduction of the Link Layer.md",
+                "file": "Estructura del Computador/Memoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Introduction of the Link Layer.md",
+                "file": "Estructura del Computador/Memoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,8 +158,10 @@
   },
   "active": "524bc04d4da22735",
   "lastOpenFiles": [
-    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Link Virtualization A Network as a Link Layer.md",
+    "Estructura del Computador/Estructura del Computador.md",
+    "Estructura del Computador/Memoria.md",
     "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Introduction of the Link Layer.md",
+    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Link Virtualization A Network as a Link Layer.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
     "Física II/Campo Eléctrico.md",
     "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/Generalized Forwarding and SDN.md",
@@ -189,8 +191,6 @@
     "Análisis de la Información/Interfaces de Usuario.md",
     "Análisis de la Información/Innovación y Creatividad.md",
     "Análisis de la Información/Historias de Usuario.md",
-    "Análisis de la Información/Historias de Dominio.md",
-    "Análisis de la Información/Diseño de Datos.md",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",
     "Física II/Attachments/Potencia Activa y Reactiva 2.svg",
