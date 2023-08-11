@@ -11,12 +11,8 @@
             "id": "524bc04d4da22735",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Internet Protocol (IP) IPv4, Addressing, IPv6, and More.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -84,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Internet Protocol (IP) IPv4, Addressing, IPv6, and More.md"
-              }
+              "state": {}
             }
           },
           {
@@ -95,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Internet Protocol (IP) IPv4, Addressing, IPv6, and More.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Internet Protocol (IP) IPv4, Addressing, IPv6, and More.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,6 +150,9 @@
   },
   "active": "524bc04d4da22735",
   "lastOpenFiles": [
+    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/Generalized Forwarding and SDN.md",
+    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/Overview of Network Layer.md",
+    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Internet Protocol (IP) IPv4, Addressing, IPv6, and More.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
     "Organizacion de Datos/Algoritmos Genéticos.md",
@@ -188,9 +183,6 @@
     "Análisis de la Información/Diseño de Datos.md",
     "Análisis de la Información/Gherkin.md",
     "Organizacion de Datos/AdaBoost.md",
-    "Análisis de la Información/Casos de Uso.md",
-    "Análisis de la Información/Design Thinking.md",
-    "Análisis Numérico/Búsqueda de Raíces.md",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",
     "Física II/Attachments/Potencia Activa y Reactiva 2.svg",
