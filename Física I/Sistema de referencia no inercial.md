@@ -1,4 +1,4 @@
-Cuando se analiza en este sistema de referencia, las ecuaciones de Newton **NO** son validas
+Cuando se analiza en este sistema de referencia, las ecuaciones de Newton **NO** son válidas
 
 Se usa para analizar el movimiento de un objeto en referencia a un sistema acelerado
 
@@ -10,7 +10,7 @@ $$
 
 ## Fuerza Ficticia
 
-La fuerza ficticia es el efecto de inercia, se agrega para que la equacion de Newton sea valida.
+La fuerza ficticia es el efecto de inercia, se agrega para que la ecuación de Newton sea válida.
 
 $$
 \vec F^* = -m \cdot \vec a_{\text{srni}/\text{sri}}

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física I/Óptica Geométrica.md",
+                "file": "Física I/Sistema de referencia no inercial.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física I/Óptica Geométrica.md"
+                "file": "Física I/Sistema de referencia no inercial.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física I/Óptica Geométrica.md",
+                "file": "Física I/Sistema de referencia no inercial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física I/Óptica Geométrica.md",
+                "file": "Física I/Sistema de referencia no inercial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,6 +165,9 @@
   },
   "active": "d7263f3c743d6923",
   "lastOpenFiles": [
+    "Física I/Sistema de partículas.md",
+    "Física I/Potencia.md",
+    "Física I/Óptica Geométrica.md",
     "Física I/Ondas Mecánicas.md",
     "Física I/Ondas de Sonido.md",
     "Física I/Movimiento Circular.md",
@@ -188,9 +191,6 @@
     "Modelos y Optimización I/Heurísticas para Coloreo de Grafos.md",
     "Matemática Discreta/Clasificaciones.md",
     "Organizacion de Datos/Arboles.md",
-    "Modelos y Optimización I/Método Simplex.md",
-    "Sistemas Operativos/API de Threads.md",
-    "Física I/Cuerpo Rígido.md",
     "Física I/Attachments/Optica Geometrica 2.png",
     "Física I/Attachments/Optica Geometrica 1.png",
     "Física I/Attachments/Óptica Geométrica 2 1.png",

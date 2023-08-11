@@ -1,6 +1,7 @@
-**Fuerzas Internas:** Par de interacción actúa dentro del sistema
+Definimos dos tipos de fuerzas:
 
-**Fuerzas Externas:** Par de interacción queda por fuera del sistema
+- **Fuerzas Internas:** Par de interacción actúa dentro del sistema
+- **Fuerzas Externas:** Par de interacción queda por fuera del sistema
 
 ## Centro de Masa
 
@@ -17,7 +18,7 @@ $$
 $$
 
 > [!note]
-> Si en lugar de partículas son cuerpos, el calculo se hace a partir de los ***CM*** de cada cuerpo
+> Si en lugar de partículas son cuerpos, el cálculo se hace a partir de los ***CM*** de cada cuerpo
 
 ## Cantidad de Movimiento
 
@@ -25,7 +26,7 @@ $$
 \vec p = \sum \vec p_i= M\vec v_{CM}
 $$
 
-### Teorema de conservacion del momento lineal
+### Teorema de conservación del momento lineal
 
 $$
 \sum \vec F = \frac{d\vec p}{dt} \implies \vec p = \text{cte} \iff \sum \vec F = 0
@@ -37,7 +38,7 @@ $$
 > [!note]
 > Se tienen en cuenta solo las fuerzas externas al sistema, ya que las fuerzas internas se cancelan entre si
 
-## Momento Cinetico y Torque
+## Momento Cinético y Torque
 
 $$
 \vec L_o = \sum \vec r_i \times \vec p_i
@@ -48,22 +49,22 @@ $$
 $$
 
 > [!note]
-> Se tienen en cuenta solo fuerzas externas al sistema, ya que las fuerzas internas se cancelan entre si
+> Se tienen en cuenta solo fuerzas externas al sistema, ya que las fuerzas internas se cancelan entre sí
 
-### Teorema de conservacion del momento angular
+### Teorema de conservación del momento angular
 
 $$
 \sum \vec\tau_o = \frac{d\vec L_o}{dt} \implies \vec L_o = \text{cte} \iff \sum \vec\tau_o = 0
 $$
 
-## Energia
+## Energía
 
 $$
 \boxed{\Delta E_c =\frac 1 2\sum m_iv_i^2}
 $$
 
 > [!note]
-> En el calculo de energía, se tienen en cuenta los trabajos internos y externos
+> En el cálculo de energía, se tienen en cuenta los trabajos internos y externos
 
 ## Las transformaciones de Galileo
 

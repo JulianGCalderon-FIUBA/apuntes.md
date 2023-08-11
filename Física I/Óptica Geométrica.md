@@ -34,7 +34,7 @@ $$
 
 Las superficies planas son las más simples de analizar, se calculan las posiciones a partir de la ***Ley de Snell*** y la ***Ley de Reflexión.***
 
-En un espejo, podremos ver el prinicipio de reflexión
+En un espejo, podremos ver el principio de reflexión
 
 ![[Optica Geometrica 3.png|436]]
 
@@ -53,25 +53,17 @@ Está formado por el conjunto de rayos que parten de los extremos del objeto y l
 Los distintos colores tienen distintos índices de refracción. Por eso, al pasar luz blanca por un prisma, se puede observar un abanico de colores.
 
 $$
-i = r'
+i = r' \qquad r = i'
 $$
 
 $$
-r = i'
+\delta_{min} = 2i -\varphi \qquad r = \frac\varphi2
 $$
 
-$$
-\delta_{min} = 2i -\varphi
-$$
-
-$$
-r = \frac{\varphi}{2}
-$$
-
-![[Optica Geometrica 6.png]]
+![[Optica Geometrica 6.png|425]]
 
 ## Concavidad
 
-Los espejos cóncavos convergen la luz, mientras que lo convexos la divergen.
+Los espejos cóncavos convergen la luz, mientras que los convexos la divergen.
 
-![[Optica Geometrica 7.png]]
+![[Optica Geometrica 7.png|425]]
