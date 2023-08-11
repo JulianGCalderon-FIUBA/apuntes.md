@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Indice.md",
+                "file": "Sistemas Operativos/Archivos y Directorios.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "####",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Indice.md"
+                "file": "Sistemas Operativos/Archivos y Directorios.md"
               }
             }
           },
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Indice.md",
+                "file": "Sistemas Operativos/Archivos y Directorios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Indice.md",
+                "file": "Sistemas Operativos/Archivos y Directorios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,8 +158,10 @@
   },
   "active": "524bc04d4da22735",
   "lastOpenFiles": [
-    "Untitled.canvas",
+    "Estructura del Computador/Funciones Lógicas.md",
+    "Estructura del Computador/Estructura del Computador.md",
     "Indice.md",
+    "Untitled.canvas",
     "Análisis Numérico/Análisis Numérico.md",
     "Análisis Numérico/Búsqueda de Raíces.md",
     "Análisis Numérico/Iteración en un Punto Fijo.md",
@@ -188,7 +191,6 @@
     "Modelos y Optimización I/Complejidad de Programación Lineal.md",
     "Análisis de la Información/Historias de Usuario.md",
     "Análisis de la Información/Ingeniería de Requisitos.md",
-    "Análisis de la Información/Innovación y Creatividad.md",
     "Algoritmos I/Attachments/Recursividad 1.png",
     "Análisis de la Información/Attachments/Casos de Uso 3.png",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 2.png",
