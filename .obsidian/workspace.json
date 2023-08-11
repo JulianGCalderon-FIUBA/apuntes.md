@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Organizacion de Datos/AdaBoost.md",
+                "file": "Análisis de la Información/Introducción a la Ingeniería de Software.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Organizacion de Datos/AdaBoost.md"
+                "file": "Análisis de la Información/Introducción a la Ingeniería de Software.md"
               }
             }
           },
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Organizacion de Datos/AdaBoost.md",
+                "file": "Análisis de la Información/Introducción a la Ingeniería de Software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Organizacion de Datos/AdaBoost.md",
+                "file": "Análisis de la Información/Introducción a la Ingeniería de Software.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,11 +157,18 @@
   },
   "active": "524bc04d4da22735",
   "lastOpenFiles": [
+    "Análisis de la Información/Interfaces de Usuario.md",
+    "Análisis de la Información/Introducción a la Ingeniería de Software.md",
+    "Análisis de la Información/Innovación y Creatividad.md",
+    "Análisis de la Información/Historias de Usuario.md",
+    "Análisis de la Información/Historias de Dominio.md",
+    "Análisis de la Información/Diseño de Datos.md",
+    "Análisis de la Información/Gherkin.md",
+    "Organizacion de Datos/AdaBoost.md",
     "Análisis de la Información/Casos de Uso.md",
     "Análisis de la Información/Design Thinking.md",
     "Análisis Numérico/Búsqueda de Raíces.md",
     "Análisis Numérico/Bisección.md",
-    "Organizacion de Datos/AdaBoost.md",
     "Organizacion de Datos/Ensambles.md",
     "Matemática Discreta/Alfabeto.md",
     "Modelos y Optimización I/Planteo Dual.md",
@@ -177,13 +183,6 @@
     "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
     "Algoritmos II/Algoritmos II.md",
     "Estructura del Computador/Estructura del Computador.md",
-    "Estructura del Computador/Álgebra de Boole.md",
-    "Análisis de la Información/Análisis de la Información.md",
-    "Álgebra II/Transformaciones Lineales.md",
-    "Álgebra II/Álgebra II.md",
-    "Análisis de la Información/Historias de Dominio.md",
-    "Física I/Colisiones.md",
-    "Sistemas Operativos/Archivos y Directorios.md",
     "Untitled.canvas",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",

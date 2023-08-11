@@ -20,7 +20,7 @@ Se separa en tres elementos
 
 ### Epopeya
 
-Para resolver el problema del manejo de numerosas historias de usuario, aparece el concepto de é*pica* o de epopeya***.*** Consiste en agrupar historias en relatos de mayor nivel, llamados épicas.
+Para resolver el problema del manejo de numerosas historias de usuario, aparece el concepto de é*pica* o de epopeya. Consiste en agrupar historias en relatos de mayor nivel, llamados épicas.
 
 ![[Historias de Usuario 1.png|500]]
 

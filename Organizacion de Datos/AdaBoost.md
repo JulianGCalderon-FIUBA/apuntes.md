@@ -22,7 +22,7 @@ $$
 \text{Peso}_i = \text{Peso}_{i-1} \cdot e^{\text{Amount of Say}}
 $$
 
-Para calcular el peso de las instancias bien clasificados, utilizaremos la función inversa.
+Para calcular el peso de las instancias bien clasificadas, utilizaremos la función inversa.
 
 $$
 \text{Peso}_i = \text{Peso}_{i-1} \cdot e^{\text{-Amount of Say}}

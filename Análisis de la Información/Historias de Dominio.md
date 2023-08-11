@@ -21,9 +21,9 @@ Los actores realizan actividades mediante flechas etiquetadas con verbos y tomad
 
 ## Alcance
 
-- **Granularidad**: Gruesa, media, fina
-- **Pureza** de dominio: Pura, digitalizada
-- Punto en el **tiempo**: Como es, como será
+- **Granularidad**: Gruesa, media, fina.
+- **Pureza** de dominio: Pura, digitalizada.
+- Punto en el **tiempo**: Como es, como será.
 
 Vamos a variar el alcance según nuestro objetivo:
 
