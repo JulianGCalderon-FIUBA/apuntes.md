@@ -11,8 +11,12 @@
             "id": "524bc04d4da22735",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Indice.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -80,7 +84,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Indice.md"
+              }
             }
           },
           {
@@ -89,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Indice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Indice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,21 +157,27 @@
   },
   "active": "524bc04d4da22735",
   "lastOpenFiles": [
+    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
+    "Algoritmos II/Algoritmos II.md",
+    "Estructura del Computador/Estructura del Computador.md",
+    "Estructura del Computador/Álgebra de Boole.md",
+    "Análisis de la Información/Análisis de la Información.md",
+    "Álgebra II/Transformaciones Lineales.md",
+    "Álgebra II/Álgebra II.md",
     "Indice.md",
+    "Análisis de la Información/Casos de Uso.md",
+    "Análisis de la Información/Historias de Dominio.md",
+    "Física I/Colisiones.md",
     "Sistemas Operativos/Archivos y Directorios.md",
     "Estructura del Computador/Funciones Lógicas.md",
-    "Estructura del Computador/Estructura del Computador.md",
     "Untitled.canvas",
     "Análisis Numérico/Análisis Numérico.md",
     "Análisis Numérico/Búsqueda de Raíces.md",
     "Análisis Numérico/Iteración en un Punto Fijo.md",
     "Física II/Circuitos en Resonancia.md",
-    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
     "Modelos y Optimización I/Modelos y Optimización I.md",
-    "Análisis de la Información/Análisis de la Información.md",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Álgebra II/Autovalores y Autovectores.md",
-    "Álgebra II/Álgebra II.md",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",
     "Física II/Potencia Activa y Reactiva.md",
     "Física II/Attachments/Potencia Activa y Reactiva 2.svg",
@@ -176,12 +190,6 @@
     "Introducción a Sistemas Distribuidos/Transport Layer/Connection-Oriented Transport TCP.md",
     "Probabilidad y Estadistica/Distribuciones Continuas.md",
     "Modelos y Optimización I/Introducción.md",
-    "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md",
-    "Modelos y Optimización I/Heurísticas para el Problema de la Mochila.md",
-    "Modelos y Optimización I/Heurísticas para Coloreo de Grafos.md",
-    "Modelos y Optimización I/Complejidad de Programación Lineal.md",
-    "Análisis de la Información/Historias de Usuario.md",
-    "Análisis de la Información/Ingeniería de Requisitos.md",
     "Algoritmos I/Attachments/Recursividad 1.png",
     "Análisis de la Información/Attachments/Casos de Uso 3.png",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 2.png",
