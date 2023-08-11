@@ -15,7 +15,6 @@ Las palabras de más de 1 byte es guardada como una serie de bytes.
 Tenemos dos órdenes distintos, ambos igual de válidos, mientras se respete a lo largo de todas las operaciones.
 
 - **Little-Endian**: Guarda el byte menos significativo en la dirección más baja.
-
 - **Big-Endian**: Guarda el byte menos significativo en la dirección más alta.
 
 ### Espacio Direccionable
@@ -57,91 +56,80 @@ Debido a esto, para operar con números debemos cargarlo a un registro, y a part
 
 ![[Sistema ARC 2.png|475]]
 
-Las operaciones que terminan en **cc** alteran el contenido de los flags luego de la operación.
-
-La **bifurcación** salta a una dirección de memoria si se cumple una condición
-
-El salto por igual verifica el flag cero.
+- Las operaciones que terminan en **cc** alteran el contenido de los flags luego de la operación.
+- La **bifurcación** salta a una dirección de memoria si se cumple una condición
+- El salto por igual verifica el flag cero.
 
 ## Registros accesibles al Programador
 
 ![[Sistema ARC 3.png|475]]
 
-Los registros `%r` son de propósito general y se pueden utilizar libremente, excepto por algunas excepciones.
-
-El registro **PSR** es el que guarda los flags, pero no podemos acceder a su valor, unicamente a traves de instrucciones.
-
-El registro **PC** guarda la direccion de la instruccion siendo ejecutada.
-
-El registro `%r14` es el stack pointer
-
-El registro `%r15` es la direccion de retorno de procedimiento
-
-El registro `%r0` siempre vale 0.
+- Los registros `%r` son de propósito general y se pueden utilizar libremente, excepto por algunas excepciones.
+- El registro **PSR** es el que guarda los flags, pero no podemos acceder a su valor, únicamente a través de instrucciones.
+- El registro **PC** guarda la dirección de la instrucción siendo ejecutada.
+- El registro `%r14` es el stack pointer
+- El registro `%r15` es la dirección de retorno de procedimiento
+- El registro `%r0` siempre vale 0.
 
 ## Sintaxis
 
-![[Sistema ARC 4.png]]
+![[Sistema ARC 4.png|475]]
 
-Distingue mayusculas de minusculas
-
-Numeros por defecto en base 10
-
-Si empieza con **0x** o finaliza on **h**, se trata de hexadecimal.
+- Distingue mayúsculas de minúsculas
+- Números por defecto en base 10
+- Si empieza con **0x** o finaliza con **h**, se trata de hexadecimal.
 
 ## Directivas del Ensamblador
 
-![[Sistema ARC 5.png]]
+![[Sistema ARC 5.png|475]]
 
-Indican al ensamblador como procesar una seccion del programa
-
-Las instrucciones son especificas de un procesador, las pseudo-instrucciones son especificas de un programa ensamblador
-
-Algunas directivas generan informacion en la memoria
+- Indican al ensamblador como procesar una sección del programa
+- Las instrucciones son específicas de un procesador, las pseudo-instrucciones son específicas de un programa ensamblador
+- Algunas directivas generan información en la memoria
 
 ## Subrutinas
 
-La instruccion `call` llama a la subrutina deseada, guarda la direccion de retorno en `%r15`. La instruccion `jmpl` indica la siguiente linea a ejecutar. Se utiliza para volver de una subrutina
+La instrucción `call` llama a la subrutina deseada, guarda la dirección de retorno en `%r15`. La instrucción `jmpl` índica la siguiente línea a ejecutar. Se utiliza para volver de una subrutina
 
 ### Macros
 
-Una macro es una porcion de codigo que se ejecuta antes del ensamblado. En el proceso de expansion de macros, Sus nombres se intercambian por el codigo correspondiente, reemplazando con los parametros necesarios.
+Una macro es una porción de código que se ejecuta antes del ensamblado. En el proceso de expansión de macros, Sus nombres se intercambian por el código correspondiente, reemplazando con los parámetros necesarios.
 
 ### Diferencias
 
-Las macro se accede en tiempo de ensamblado por lo que es mas rapido. La subrutina es accedida por la instruccion `call` y termina con un `jmpl`, en tiempo de ejecucion
+Las macro se accede en tiempo de ensamblado por lo que es más rápido. La subrutina es accedida por la instrucción `call` y termina con un `jmpl`, en tiempo de ejecución
 
-Los parametros de una macro son interpretados por el ensamblador mientras que los de una subrutina es accedida por memoria o registro
+Los parámetros de una macro son interpretados por el ensamblador, mientras que los de una subrutina es accedida por memoria o registro
 
-El codigo de maquina de una macro se repite tantas veces como se invoque. En el caso de la subrutina, el codigo se encuentar en un solo lugar y se referencia a el cuando se necesita.
+El código de máquina de una macro se repite tantas veces como se invoque. En el caso de la subrutina, el código se encuentra en un solo lugar y se referencia a el cuando se necesita.
 
-## Codigos de Máquina
+## Códigos de Máquina
 
-Las instrucciones son traducidas en codigo de maquina. Hay cinco formatos de instruccion.
+Las instrucciones son traducidas en código de máquina. Hay cinco formatos de instrucción.
 
 ![[Sistema ARC 6.png]]
 
 ## Modos de Direccionamientos
 
-- **Inmediato**: La constante esta incluida en la instruccion
+- **Inmediato**: La constante está incluida en la instrucción
 - **Por Registro**: El registro tiene el dato
-- **Directo o Absoluto**: La direccion de memoria esta incluida en la instruccion
-- **Indirecta**: Contiene la direccion de memoria donde esta el puntero al dato (poco usado, lento)
+- **Directo o Absoluto**: La dirección de memoria está incluida en la instrucción
+- **Indirecta**: Contiene la dirección de memoria donde está el puntero al dato (poco usado, lento)
 - **Indirecta por Registro**: El registro tiene el puntero al dato
-- **Indexado por Registro**: Un registro da la direccion inicial, el otro un incremento.
+- **Indexado por Registro**: Un registro da la dirección inicial, el otro un incremento.
 
 ## Modelos de Arquitectura
 
 - **CISC: Complex Instruction Set Computer**
 
-	Tiene mas instrucciones, pero las instrucciones son de tamaño variable y es mas lento. Como tiene instrucciones con acceso a memoria, utiliza menos registros.
+	Tiene más instrucciones, pero las instrucciones son de tamaño variable y es más lento. Como tiene instrucciones con acceso a memoria, utiliza menos registros.
 
-	Utiliza el stack de forma inmersa, con instrucciones que acceden a el. La logica de encontrar instrucciones, decodificarlas, e interconexiones dentro del procesador es mas complicada.
+	Utiliza el stack de forma inmersa, con instrucciones que acceden a él. La lógica de encontrar instrucciones, decodificarlas, e interconexiones dentro del procesador es más complicada.
 
 - **RISC: Reduced Instruction Set Computer**
 
-	Todas las instrucciones ocupan el mismo espacio y es mas rapido. Tiene mas registros disponibles ya que todo debe estar en ellos para operar. Para utilizar el stack, se debe hacer de forma manual. Su set de instrucciones es mas reducido, no contiene instrucciones redundantes
+	Todas las instrucciones ocupan el mismo espacio y es más rápido. Tiene más registros disponibles, ya que todo debe estar en ellos para operar. Para utilizar el stack, se debe hacer de forma manual. Su set de instrucciones es más reducido, no contiene instrucciones redundantes
 
-	Las opraciones aritmeticas son unicamente entre registros. Para acceder a memoria, solo se puede guardar y recuperar. Los dipositivos de entrada y salida estan mapeados en memoria.
+	Las operaciones aritméticas son únicamente entre registros. Para acceder a memoria, solo se puede guardar y recuperar. Los dispositivos de entrada y salida están mapeados en memoria.
 
-	Esta arquitectura es mucho mas rapida y simple que la de una arquitectura CISC. Por el otro lado, se requiere un poco mas de trabajo por parte del programador.
+	Esta arquitectura es mucho más rápida y simple que la de una arquitectura CISC. Por el otro lado, se requiere un poco más de trabajo por parte del programador.
