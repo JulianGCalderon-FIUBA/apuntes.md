@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "adaboost",
+                "query": "/",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -156,10 +156,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "524bc04d4da22735",
+  "active": "178700d707526f5b",
   "lastOpenFiles": [
-    "Organizacion de Datos/Ensambles.md",
+    "Análisis de la Información/Casos de Uso.md",
+    "Análisis de la Información/Design Thinking.md",
+    "Análisis Numérico/Búsqueda de Raíces.md",
+    "Análisis Numérico/Bisección.md",
     "Organizacion de Datos/AdaBoost.md",
+    "Organizacion de Datos/Ensambles.md",
     "Matemática Discreta/Alfabeto.md",
     "Modelos y Optimización I/Planteo Dual.md",
     "Análisis Numérico/Métodos Iterativos.md",
@@ -177,14 +181,10 @@
     "Análisis de la Información/Análisis de la Información.md",
     "Álgebra II/Transformaciones Lineales.md",
     "Álgebra II/Álgebra II.md",
-    "Análisis de la Información/Casos de Uso.md",
     "Análisis de la Información/Historias de Dominio.md",
     "Física I/Colisiones.md",
     "Sistemas Operativos/Archivos y Directorios.md",
-    "Estructura del Computador/Funciones Lógicas.md",
     "Untitled.canvas",
-    "Análisis Numérico/Búsqueda de Raíces.md",
-    "Análisis Numérico/Iteración en un Punto Fijo.md",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",
     "Física II/Attachments/Potencia Activa y Reactiva 2.svg",

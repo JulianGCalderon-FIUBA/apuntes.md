@@ -8,5 +8,5 @@
   "minimal-style@@image-grid-fit": "contain",
   "minimal-style@@col-lines": false,
   "minimal-style@@table-lines": true,
-  "minimal-style@@maximize-tables-off": "maximize-tables-off"
+  "minimal-style@@maximize-tables-off": "maximize-tables"
 }
