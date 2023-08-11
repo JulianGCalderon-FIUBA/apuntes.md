@@ -4,9 +4,7 @@ La salida de un circuito combinacional, se realimenta como entrada al circuito c
 
 Los circuitos asincrónicos no están sincronizados con un reloj, por lo que todos los componentes trabajan a su capacidad máxima
 
-[[Circuitos Asincronicos]]
-
-Circuitos Asincronicos
+[[Circuitos Asincrónicos]]
 
 ## Circuitos Sincrónicos
 
@@ -14,10 +12,12 @@ Todos los circuitos que son parte del sistema están completamente sincronizados
 
 Todo debe estar limitado por el reloj, por lo que no trabajo a la máxima capacidad de mis componentes.
 
-[[Circuitos Sincronicos]]
+[[Circuitos Sincrónicos]]
 
 ## Multiplexores
 
 Reciben un número de entradas y seleccionan una a partir de entradas de control
 
-![[Circuitos con Capacidad de Memoria 1.png]] ![[Circuitos con Capacidad de Memoria 2.png]]
+![[Circuitos con Capacidad de Memoria 1.png|322]]
+
+![[Circuitos con Capacidad de Memoria 2.png|318]]
