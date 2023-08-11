@@ -4,10 +4,7 @@
   "enabledCssSnippets": [
     "center-image",
     "center-table",
-    "table-white-birder",
-    "table-white-border",
-    "table-center",
-    "image-center"
+    "table-white-birder"
   ],
   "baseFontSize": 18,
   "theme": "obsidian"

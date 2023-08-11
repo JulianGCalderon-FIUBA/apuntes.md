@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática Discreta/Álgebra de Conjuntos.md",
+                "file": "Análisis de la Información/Casos de Uso.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática Discreta/Álgebra de Conjuntos.md"
+                "file": "Análisis de la Información/Casos de Uso.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática Discreta/Álgebra de Conjuntos.md",
+                "file": "Análisis de la Información/Casos de Uso.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática Discreta/Álgebra de Conjuntos.md",
+                "file": "Análisis de la Información/Casos de Uso.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -156,14 +157,20 @@
   },
   "active": "5169f0d9ef8424bb",
   "lastOpenFiles": [
+    "Análisis de la Información/Attachments/Casos de Uso 3.png",
+    "Algoritmos I/Attachments/Recursividad 1.png",
+    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Cellular Internet Access.md",
+    "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 2.png",
+    "Introducción a Sistemas Distribuidos/Transport Layer/Connectionless Transport UDP.md",
+    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
+    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
+    "Introducción a Sistemas Distribuidos/Clases Practicas.md",
+    "Matemática Discreta/Álgebra de Conjuntos.md",
     "Física II/Capacitores.md",
     "Matemática Discreta/Caminos y Distancias.md",
     "Matemática Discreta/Álgebra de Boole.md",
     "Sistemas Operativos/Archivos y Directorios.md",
     "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
-    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
-    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
-    "Introducción a Sistemas Distribuidos/Clases Practicas.md",
     "Sistemas Operativos/API de Memoria.md",
     "Sistemas Operativos/API de Threads.md",
     "Física II/Trabajo de Campos.md",
@@ -178,10 +185,6 @@
     "Física II/Inductores.md",
     "Física II/Fuerza Magnética.md",
     "Física II/Física II.md",
-    "Física II/Fasores Complejos.md",
-    "Física II/Ecuaciones de Maxwell.md",
-    "Física II/Dieléctricos.md",
-    "Física II/Corriente Continua.md",
     "Física II/Attachments/Final 1.png",
     "Física II/Attachments/Tercer Parcial 1.svg",
     "Física II/Attachments/Potencia Activa y Reactiva 1.svg",
@@ -190,8 +193,6 @@
     "Física II/Attachments/Capacitores 1.png",
     "Física II/Attachments/Circuito Electrico 1.png",
     "Física II/Attachments/Circuito Electrico 2.png",
-    "Física II/Attachments/Circuito Electrico 3.png",
-    "Física II/Attachments/Circuito Electrico 4.png",
     "Base de Datos",
     "Algoritmos II/Attachments/Machete - AAB.pdf",
     "Untitled.canvas"
