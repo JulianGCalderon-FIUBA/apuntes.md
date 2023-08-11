@@ -38,7 +38,7 @@ Cada función lógica tiene infinitas expresiones algebraicas que le corresponde
 
 ![[Funciones Lógicas 1.png]]
 
-### Suma de mini términos
+### Suma de minitérminos
 
 Se genera a partir de las filas que contienen un $1$ en la columna de la función. Cada término contiene todas las variables booleanas multiplicadas, complementadas si valen $0$ en esa fila de la tabla
 
@@ -46,7 +46,7 @@ $$
 f(A,B,C) = \sum[m(2, 4, 5, 6)] =\overline ab\overline c + a \overline b \overline c + a \overline b c + ab \overline c
 $$
 
-### Producto de maxi términos
+### Producto de maxitérminos
 
 Se genera a partir de las filas que contienen un $0$ en la columna de la función. Cada término contiene todas las variables booleanas sumadas, complementadas si valen $1$ en esa fila de la tabla
 

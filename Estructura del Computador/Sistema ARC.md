@@ -1,48 +1,44 @@
-Cualquier lenguaje de alto nivel es traducido a Assembly, para luego se ensamblado en codigo de maquina, lenguaje que la computadora puede entender (ceros y unos).
+Cualquier lenguaje de alto nivel es traducido a Assembly, para luego se ensambla en código de máquina, lenguaje que la computadora puede entender (ceros y unos).
 
-Cuando un programa se guarda, este se guarda en el disco rigido, pero al momento de ejecutarse, toda la informacion se guarda en la memoria ram, para poder ser accedida.
+Cuando un programa se guarda, este se guarda en el disco rígido, pero al momento de ejecutarse, toda la información se guarda en la memoria RAM, para poder ser accedida.
 
-## Memoria Ram
+## Memoria RAM
 
-La memoria ram forma una estructura de datos tipo tabla, cada renglon de la tabla es identificado con su direccion. Cada dato es agrupado fisicamente cada 1 byte.
+La memoria RAM forma una estructura de datos tipo tabla, cada renglón de la tabla es identificado con su dirección. Cada dato es agrupado físicamente cada 1 byte.
 
-Los procesadores tienen instrucciones para acceder simultaneamente a 1, 2, 4, o mas bytes (palabras).
+Los procesadores tienen instrucciones para acceder simultáneamente a 1, 2, 4, o más bytes (palabras).
 
-Las palabras de mas de 1 byte es guardada como una serie de bytes.
+Las palabras de más de 1 byte es guardada como una serie de bytes.
 
 ### Orden de Guardado
 
-Tenemos dos ordenes distintos, ambos igual de validos, mientras se respete a lo largo de todas las operaciones.
+Tenemos dos órdenes distintos, ambos igual de válidos, mientras se respete a lo largo de todas las operaciones.
 
-- **Little-Endian**
+- **Little-Endian**: Guarda el byte menos significativo en la dirección más baja.
 
-	Guarda el byte menos significativo en la dirección mas baja.
-
-- **Big-Endian**
-
-	Guarda el byte menos significativo en la dirección mas alta.
+- **Big-Endian**: Guarda el byte menos significativo en la dirección más alta.
 
 ### Espacio Direccionable
 
-El espacio direccionable es aquel que puede ser accedido mediante una direccion de memoria. Incluso si no es memoria lo que se encuentra alli.
+El espacio direccionable es aquel que puede ser accedido mediante una dirección de memoria. Incluso si no es memoria lo que se encuentra allí.
 
-El mapa del espacio direccionable representa la signacion dada al espacio de direcciones, este es especifico del sistema.
+El mapa del espacio direccionable representa la asignación dada al espacio de direcciones, este es específico del sistema.
 
-Los dispositivos de entrada y salida tambien se encuentran en el espacio direccionable, el procesador puede cargar y leer datos por esos canales de informacion.
+Los dispositivos de entrada y salida también se encuentran en el espacio direccionable, el procesador puede cargar y leer datos por esos canales de información.
 
 ## Arquitectura ARC
 
-Acronimo: **(A Risc Computer)**
+Acrónimo: **(A Risc Computer)**
 
 ### Manejo de Memoria
 
 La arquitectura ARC maneja datos de 32 bits, direccionables por byte. Contiene un espacio de direcciones de $2^{32}$, Con un orden de guardado **Big-Endian.**
 
-El mapa de memoria esta especificado por el siguiente grafico:
+El mapa de memoria está especificado por el siguiente gráfico:
 
 ![[Sistema ARC 1.png]]
 
-La mitad de la memoria se utilizar para los dispositivos de entrada y salida, la otra mitad se utiliza para el sitema operativo *(2048bytes)* y para la memoria ram.
+La mitad de la memoria se utiliza para los dispositivos de entrada y salida, la otra mitad se utiliza para el sistema operativo *(2048 bytes)* y para la memoria RAM.
 
 ### Set de Instrucciones
 
@@ -55,23 +51,23 @@ Solo hay dos instrucciones que acceden a la memoria principal:
 - Leer memoria a registro.
 - Escribir desde registro a memoria.
 
-Debido a esto, para operar con numeros debemos cargarlo a un registro, y a partir de ahi hacer las operaciones.
+Debido a esto, para operar con números debemos cargarlo a un registro, y a partir de ahí hacer las operaciones.
 
 ## Instrucciones ARC
 
-![[Sistema ARC 2.png]]
+![[Sistema ARC 2.png|475]]
 
 Las operaciones que terminan en **cc** alteran el contenido de los flags luego de la operación.
 
-La **bifurcacion** salta a una direccion de memoria si se cumple una condicion
+La **bifurcación** salta a una dirección de memoria si se cumple una condición
 
 El salto por igual verifica el flag cero.
 
 ## Registros accesibles al Programador
 
-![[Sistema ARC 3.png]]
+![[Sistema ARC 3.png|475]]
 
-Los registros `%r` son de proposito general y se pueden utilizar libremente, excepto por algunas excepciones.
+Los registros `%r` son de propósito general y se pueden utilizar libremente, excepto por algunas excepciones.
 
 El registro **PSR** es el que guarda los flags, pero no podemos acceder a su valor, unicamente a traves de instrucciones.
 

@@ -13,13 +13,13 @@ El mapa de Karnaugh consiste en hacer una tabla de doble entrada, donde separamo
 
 A partir de los valores de esta tabla, podemos simplificar términos. Consiste en agrupar minitérminos y representarlos con un único termino. Notemos que este método únicamente aplica el postulado P5 de Huntington.
 
-**Definiciones:**
+### Definiciones
 
 - **Adyacencias**: Dos elementos son vecinos si solo cambia una variable entre ambos elementos, se piensa el mapa como un cilindro.
 - **Implicante Primo**: Mayor agrupación posible para un grupo de elementos
 - **Implicante Primo Esencial.** Implicante primo que no puedo omitir
 
-**Algoritmo:**
+### Algoritmo
 
 1. Marcar implicantes primos
 2. Marcar implicantes primos esenciales

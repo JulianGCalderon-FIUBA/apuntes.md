@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estructura del Computador/Simplificación de Funciones.md",
+                "file": "Estructura del Computador/Sistema ARC.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estructura del Computador/Simplificación de Funciones.md"
+                "file": "Estructura del Computador/Sistema ARC.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estructura del Computador/Simplificación de Funciones.md",
+                "file": "Estructura del Computador/Sistema ARC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estructura del Computador/Simplificación de Funciones.md",
+                "file": "Estructura del Computador/Sistema ARC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,8 +158,8 @@
   },
   "active": "d7263f3c743d6923",
   "lastOpenFiles": [
-    "Estructura del Computador/Sistema ARC.md",
     "Estructura del Computador/Simplificación de Funciones.md",
+    "Estructura del Computador/Sistema ARC.md",
     "Estructura del Computador/Representación (signo).md",
     "Estructura del Computador/Attachments/Simplificacion de Funciones 1.png",
     "Estructura del Computador/Registros y Contadores.md",
