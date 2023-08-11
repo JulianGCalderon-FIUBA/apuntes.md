@@ -4,9 +4,12 @@ $$
 
 ## Ecuaciones
 
-$A$: Amplitud
+Definimos:
 
-$W$: Velocidad angular
+- $A$: Amplitud
+- $W$: Velocidad angular
+
+Luego, se cumplirá:
 
 $$
 x = A\cdot\sin(\omega\cdot t + \varphi)
@@ -22,7 +25,7 @@ $$
 
 ## Ecuación Diferencial
 
-Notamos que hay una relacion entre $x$ y $a$, $\boxed{a = -w^2 x}$
+Notamos que hay una relación entre $x$ y $a$, $\boxed{a = -w^2 x}$
 
 $$
 -Cx = a_x
@@ -32,15 +35,13 @@ $$
 -Cx = -\omega^2\cdot x
 $$
 
----
-
 $$
 \boxed{C = \omega^2}
 $$
 
 ## Fuerza elástica
 
-La fuerza elastica es la fuerza que ejerce un resorte ideal sobre un objeto, $K$ es la constante elastica y $(L-L_0)$ es el desplazamiento en relacion a la posicion de equilibrio
+La fuerza elástica es la fuerza que ejerce un resorte ideal sobre un objeto, $K$ es la constante elástica y $(L-L_0)$ es el desplazamiento en relación con la posición de equilibrio
 
 $$
 F_{\text{el}} = -K(L-L_0)

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física I/Momento y Torque.md",
+                "file": "Física I/Movimiento Circular.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física I/Momento y Torque.md"
+                "file": "Física I/Movimiento Circular.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física I/Momento y Torque.md",
+                "file": "Física I/Movimiento Circular.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física I/Momento y Torque.md",
+                "file": "Física I/Movimiento Circular.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,6 +165,8 @@
   },
   "active": "d7263f3c743d6923",
   "lastOpenFiles": [
+    "Física I/Movimiento armónico simple.md",
+    "Física I/Momento y Torque.md",
     "Física I/Magnitudes escalares y vectoriales.md",
     "Física I/Interferencia.md",
     "Física I/Física I.md",
@@ -192,8 +194,6 @@
     "Física I/Attachments/Óptica Geométrica 2 1.png",
     "Probabilidad y Estadistica/Propiedades de Variables Aleatorias.md",
     "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
-    "Análisis Matemático II/Attachments/Attachments.md",
-    "Estructura del Computador/Attachments/Attachments.md",
     "Base de Datos",
     "Estructura del Computador/Attachments/Simplificacion de Funciones 1.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
