@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "590ef2870bed1d06",
+        "id": "b053a7316ad58c74",
         "type": "tabs",
         "children": [
           {
-            "id": "5123070076cf8950",
+            "id": "5169f0d9ef8424bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+                "file": "Sistemas Operativos/Archivos y Directorios.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md"
+                "file": "Sistemas Operativos/Archivos y Directorios.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+                "file": "Sistemas Operativos/Archivos y Directorios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+                "file": "Sistemas Operativos/Archivos y Directorios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,8 +154,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5123070076cf8950",
+  "active": "5169f0d9ef8424bb",
   "lastOpenFiles": [
+    "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
     "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.md",
     "Introducción a Sistemas Distribuidos/Clases Practicas.md",
@@ -181,7 +182,6 @@
     "Física II/Conductores.md",
     "Física II/Circuitos en Resonancia.md",
     "Física II/Circuito Eléctrico.md",
-    "Física II/Capacitores.md",
     "Física II/Attachments/Final 1.png",
     "Física II/Attachments/Tercer Parcial 1.svg",
     "Física II/Attachments/Potencia Activa y Reactiva 1.svg",
