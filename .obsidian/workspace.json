@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Indice.md",
+                "file": "Física II/Campo Eléctrico.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Indice.md"
+                "file": "Física II/Campo Eléctrico.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Indice.md",
+                "file": "Física II/Campo Eléctrico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Indice.md",
+                "file": "Física II/Campo Eléctrico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,8 +158,9 @@
   },
   "active": "524bc04d4da22735",
   "lastOpenFiles": [
-    "Attachments/Recording 20230811191147.webm",
     "Indice.md",
+    "Untitled.canvas",
+    "Attachments/Recording 20230811191147.webm",
     "Attachments",
     "Introducción a Sistemas Distribuidos/Application Layer/Principles of Network Applications.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md",
@@ -185,7 +186,6 @@
     "Análisis Numérico/Métodos Iterativos.md",
     "Análisis Numérico/Sistemas Lineales.md",
     "Análisis Numérico/Descomposición de Cholesky.md",
-    "Untitled.canvas",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",
     "Física II/Attachments/Potencia Activa y Reactiva 2.svg",
