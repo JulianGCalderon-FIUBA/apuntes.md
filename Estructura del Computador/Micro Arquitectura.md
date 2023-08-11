@@ -14,7 +14,7 @@ Se utiliza para dispositivos automáticos que no requieren programación. Tiene 
 
 En este modelo, se unifica el almacenamiento de datos con las instrucciones, lo que permite cargar fácilmente un programa en memoria y ejecutarlo.
 
-Es más versátil lo que permite resolver una variedad de problemas.
+Es más versátil, lo que permite resolver una variedad de problemas.
 
 ## Problema del Conexionado
 
@@ -24,7 +24,7 @@ Lo más común es la utilización de tres líneas:
 
 - **Línea de Datos:** Por aquí se envían los datos
 - **Línea de Direcciones:** Por aquí se envía la dirección con la que se está comunicando la CPU
-- **Línea de Control:** Por aquí indica si los datos son de entrada o de salida
+- **Línea de Control:** Por aquí índica si los datos son de entrada o de salida
 
 De esta forma, todos los dispositivos se comunican con el procesador a través del Bus
 
@@ -72,15 +72,15 @@ La unidad de control contiene también el multiplexor del bus C. Este define si 
 
 No todos los registros se implementan de la misma forma, hay algunos con características especiales:
 
-- **Registro %r0**: Este registro no necesita flip-flops, ya que siempre vale 0.
-- **Registro PC:** Los últimos dos bits valen siempre 0, por lo que no necesita Flip Flops allí.
+- **Registro %r0**: Este registro no necesita Flip-Flops, ya que siempre vale 0.
+- **Registro PC:** Los últimos dos bits valen siempre 0, por lo que no necesita Flip-Flops allí.
 - **Registro IR:** Tiene salidas especiales para cada campo, tiene comunicación bit a bit. Esto permite analizar la instrucción a ejecutar.
 
 #### ALU
 
 Para implementar las operaciones, utiliza dos componentes:
 
-- **Look-Up Table**: Esta tabla contiene la tabla de verdad de cada operación. Se opera de a un bit por vez, llevando el carry para la proxima operación.
+- **Look-Up Table**: Esta tabla contiene la tabla de verdad de cada operación. Se opera de a un bit por vez, llevando el carry para la próxima operación.
 - **Barrel-Shifter:** Este componente permite desplazar bits a izquierda o derecha en un solo ciclo de reloj, a diferencia de un registro de desplazamiento.
 
 > [!note]
@@ -90,61 +90,61 @@ La ALU calcula los flags de cada operación y los carga en el registro **PSR** e
 
 ### Unidad de Control
 
-Hay dos formas de implementarla, con logica micro-programada o con logica cableada. El diseño cableado puede ser mas dificil de diseñar y de modificar. El micro-programa se puede grabar mientras que el diseño cableado debe cambiar completamente. Sin embargo, es un método mas rápido. Nos vamos a centrar en diseño micro-programado
+Hay dos formas de implementarla, con lógica micro-programada o con lógica cableada. El diseño cableado puede ser más difícil de diseñar y de modificar. El microprograma se puede grabar, mientras que el diseño cableado debe cambiar completamente. Sin embargo, es un método más rápido. Nos vamos a centrar en diseño micro-programado
 
-![[Micro Arquitectura 5.png]]
+![[Micro Arquitectura 5.png|500]]
 
 Diagrama completo de la unidad de control.
 
 Para diseñarlo, se utilizan contadores que permiten indicar en que estado nos encontramos
 
-- **ROM**. Esta contiene 2048 instrucciones, de 41 bits cada una. Aca esta programada la logica de cada instrucción del sistema
-- **MIR:** Aca se almacenan la instrucciones de la ROM que deben ser ejecutadas
-- **CS-Addres-MUX:** Envia la direccion a ejecutar dependiendo de su entrada de control.
+- **ROM**. Esta contiene 2048 instrucciones, de 41 bits cada una. Acá está programada la lógica de cada instrucción del sistema
+- **MIR:** Acá se almacenan las instrucciones de la ROM que deben ser ejecutadas
+- **CS-Addres-MUX:** Envía la dirección a ejecutar dependiendo de su entrada de control.
 
-	Esta conectado con el CSAT, con los codigos de operacion de la instruccion almacenada en IR, y con la direccion de salto de la MIR.
+	Está conectado con el CSAT, con los códigos de operación de la instrucción almacenada en IR, y con la dirección de salto de la MIR.
 
-	A partir de una entrada de control proveniente de el CBL, decide que entrada tomar y envia al decodificador.
+	A partir de una entrada de control proveniente del CBL, decide que entrada tomar y envía al decodificador.
 
-- **Decodificador:** Permite habilitar unicamente la instruccion deseada de la ROM, para ser copiada en el MIR.
-- **CSAT:** Es el contador de instrucciones, indica cual es la siguiente instruccion en la ROM
-- **CBL:** Esta conectado con los flags y los codigos de condicion y el bit 13 del registro IR. Decide que tipo de salto se debe realizar y lo envia al CS-Address-MUX.
+- **Decodificador:** Permite habilitar únicamente la instrucción deseada de la ROM, para ser copiada en el MIR.
+- **CSAT:** Es el contador de instrucciones, indica cuál es la siguiente instrucción en la ROM
+- **CBL:** Está conectado con los flags y los códigos de condición y el bit 13 del registro IR. Decide que tipo de salto se debe realizar y lo envía al CS-Address-MUX.
 - **MUX A, B, C:** Estos tres multiplexores deciden si tomar el registro indicado por el MIR o por el IR, dependiendo de los correspondientes bits en el MIR.
 
-Como la lectura de memoria puede ser mas lenta, se utiliza el **ACK (Acknowledge)**, por este canal se envia un 1 una vez que termino la operacion en memoria. Permite indicarle a la unidad de control que puede seguir con la proxima instruccion.
+Como la lectura de memoria puede ser más lenta, se utiliza el **ACK (Acknowledge)**, por este canal se envía un 1 una vez que termino la operación en memoria. Permite indicarle a la unidad de control que puede seguir con la próxima instrucción.
 
 #### Formato de Instrucciones MIR
 
 ![[Micro Arquitectura 6.png]]
 
-Cada parte de la MIR tiene un proposito distinto:
+Cada parte de la MIR tiene un propósito distinto:
 
-- **A:** Contiene la informacion que debe ser enviada por el bus A en caso de ser necesario
+- **A:** Contiene la información que debe ser enviada por el bus A en caso de ser necesario
 - **Amux:** Contiene un 1 si la información de A debe ser cargada en el bus A
-- **B:** Contiene la informacion que debe ser enviada por el bus B en cado de ser necesario
+- **B:** Contiene la información que debe ser enviada por el bus B en cado de ser necesario
 - **Bmux:** Contiene un 1 si la información de B debe ser cargada en el bus B
-- **C:** Contiene la informacion que debe ser enviada por el bus A en cado de ser necesario
+- **C:** Contiene la información que debe ser enviada por el bus A en cado de ser necesario
 - **Cmux:** Contiene un 1 si la información de C debe ser cargada en el bus C
-- **RD:** Contiene un 1 si la instruccion es de lectura de la memoria
-- **WR:** Contiene un 1 si la instruccion es de escritura en memoria
-- **ALU:** Contiene el codigo de la instrucción de la ALU a ser ejecutada. Si no se necesita ninguna instruccion se realiza alguna que no altere flags
-- **COND:** Indica el tipo de salto que debe hacer luego de realizar la instruccion
-- **JUMP ADDR:** Indica la direccion a la cual saltar en caso de que la condicion lo indique
+- **RD:** Contiene un 1 si la instrucción es de lectura de la memoria
+- **WR:** Contiene un 1 si la instrucción es de escritura en memoria
+- **ALU:** Contiene el código de la instrucción de la ALU a ser ejecutada. Si no se necesita ninguna instrucción se realiza alguna que no altere flags
+- **COND:** Indica el tipo de salto que debe hacer luego de realizar la instrucción
+- **JUMP ADDR:** Indica la dirección a la cual saltar en caso de que la condición lo indique
 
-La instrucción **DECODE** lee la instruccion del registro IR y determina la instruccion de la ROM que se debe ejecutar.
+La instrucción **DECODE** lee la instrucción del registro IR y determina la instrucción de la ROM que se debe ejecutar.
 
-Para obtener que instruccion de la ROM se debe realizar, se utiliza el OP, seguido del OP3. Con un total de 8 bits. Como las instrucciones estan en 11 bits. El primer bit siempre vale 1, mientras que los ultimos dos bits siempre estan en 0.
+Para obtener que instrucción de la ROM se debe realizar, se utiliza el OP, seguido del OP3. Con un total de 8 bits. Como las instrucciones están en 11 bits. El primer bit siempre vale 1, mientras que los últimos dos bits siempre están en 0.
 
-Para las instrucciones de assembly que no contienen ***OP3, se le asigna a toda instruccion posible un mismo microcodigo, delegandole al mismo identificar cual operacion es. Por ejemplo, branches, sethi, call.
+Para las instrucciones de Assembly que no contienen **OP3**, se le asigna a toda instrucción posible un mismo microcódigo, delegándole al mismo identificar cuál operación es. Por ejemplo, branches, sethi, call.
 
-Para no repetir el microcodigo en cada instrucciones, se puede utilizar la **nanoprogramación.** Consiste en remplazar la tabla de *2048wordsx41bits* por una tabla de *2048wordsx7bits*, donde se redirige a una nueva tabla de *100wordsx41bits*, la cual contiene el microcodigo para cada operación.
+Para no repetir el microcódigo en cada instrucción, se puede utilizar la **nanoprogramación.** Consiste en remplazar la tabla de *2048words x 41bits* por una tabla de *2048words x 7bits*, donde se redirige a una nueva tabla de *100words x 41bits*, la cual contiene el microcódigo para cada operación.
 
 #### **Tablas de Operaciones**
 
-Codigos de Condicion
+Los códigos de condición son los siguientes
 
-![[Micro Arquitectura 7.png]]
+![[Micro Arquitectura 7.png|375]]
 
-Codigos de la ALU
+Códigos de la ALU son los siguientes
 
 ![[Micro Arquitectura 8.png]]

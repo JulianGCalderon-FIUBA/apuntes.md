@@ -92,6 +92,8 @@
     "loader",
     "ARC",
     "maxi",
-    "ALU"
+    "ALU",
+    "Flops",
+    "carry"
   ]
 }
