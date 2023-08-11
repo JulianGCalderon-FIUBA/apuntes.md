@@ -62,6 +62,7 @@
     "Raphson",
     "DFT",
     "FFT",
-    "Weierstrass"
+    "Weierstrass",
+    "Gauss-Seidel"
   ]
 }

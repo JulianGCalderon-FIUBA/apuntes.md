@@ -12,15 +12,15 @@ Geométricamente, el punto fijo se encuentra cuando la función corta la recta $
 
 ![[Iteracion en un Punto Fijo 1.png]]
 
-Si la función es siempre creciente o decreciente a razón menor a uno, entonces cortara con el la recta $y=x$ únicamente una vez.
+Si la función es siempre creciente o decreciente a razón menor a uno, entonces cortara con la recta $y=x$ únicamente una vez.
 
 **Teorema 2:** A partir del teorema 1.2, para cualquier $p_0 \in [a,b]$, la sucesión $p_n = g(p_{n-1})$ converge al punto fijo.
 
-La convergencia es monótona si la derivada es positiva, la convergencia es oscilatoria si la derivada es negativa. Si las derivadas no cumplen las condiciones del teorema, entonces divergen de forma monótona o oscilatoria, dependiendo de su signo.
+La convergencia es monótona si la derivada es positiva, la convergencia es oscilatoria si la derivada es negativa. Si las derivadas no cumplen las condiciones del teorema, entonces divergen de forma monótona u oscilatoria, dependiendo de su signo.
 
 ### Cota de Error
 
-Puedo demostrar con el teorema del punto fijo, que el numero de iteraciones del algoritmo cumple la siguiente inecuación. Siendo $k$ la derivada maxima de la función en el intervalo.
+Puedo demostrar con el teorema del punto fijo, que el número de iteraciones del algoritmo cumple la siguiente inecuación. Siendo $k$ la derivada máxima de la función en el intervalo.
 
 $$
 \|p_n - p\| \leq \frac{k^n}{1-k}\|p_1-p_0\| < \varepsilon

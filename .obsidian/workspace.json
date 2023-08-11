@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Numérico/Interpolación Polinomial.md",
+                "file": "Análisis Numérico/Métodos Iterativos.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Numérico/Interpolación Polinomial.md"
+                "file": "Análisis Numérico/Métodos Iterativos.md"
               }
             }
           },
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Numérico/Interpolación Polinomial.md",
+                "file": "Análisis Numérico/Métodos Iterativos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Numérico/Interpolación Polinomial.md",
+                "file": "Análisis Numérico/Métodos Iterativos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,10 +183,15 @@
   },
   "active": "9122a68e0bd97951",
   "lastOpenFiles": [
-    "Análisis Numérico/Integración Numérica.md",
-    "Análisis Numérico/FFT.md",
+    "Análisis Numérico/Sistemas Lineales.md",
+    "Análisis Numérico/Métodos Iterativos.md",
     "Análisis Numérico/Errores.md",
     "Análisis Numérico/Error en Métodos Iterativos.md",
+    "Análisis Numérico/Análisis Numérico.md",
+    "Análisis Numérico/Iteración en un Punto Fijo.md",
+    "Análisis Numérico/Interpolación Polinomial.md",
+    "Análisis Numérico/Integración Numérica.md",
+    "Análisis Numérico/FFT.md",
     "Análisis Numérico/Ecuaciones Diferenciales Ordinarias.md",
     "Análisis Numérico/Ecuaciones Diferenciales de Orden Superior.md",
     "Análisis Numérico/Ecuaciones Diferenciales de Frontera.md",
@@ -196,7 +201,6 @@
     "Análisis Numérico/Búsqueda de Raíces.md",
     "Análisis Numérico/Bisección.md",
     "Análisis Numérico/Ajuste.md",
-    "Análisis Numérico/Análisis Numérico.md",
     "Análisis Numérico/Análisis Numérico 1.md",
     "Análisis Matemático II/Análisis Matemático II.md",
     "Análisis Matemático II/Análisis Matemático II 1.md",
@@ -205,10 +209,6 @@
     "Algoritmos II/Algoritmos II.md",
     "Algoritmos II/Algoritmos II 1.md",
     "Algoritmos I/Algoritmos I.md",
-    "Algoritmos I/Algoritmos I 1.md",
-    "Álgebra II/Espacios Vectoriales.md",
-    "Álgebra II/Autovalores y Autovectores.md",
-    "Álgebra II/Algebra II 1.md",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",
     "Análisis de la Información/Attachments/Historias de Usuario 6.png",

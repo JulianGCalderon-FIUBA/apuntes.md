@@ -22,5 +22,5 @@ Para resolver sistemas lineales de la forma $Ax = b$ grandes, tenemos dos tipos 
 
 ## Métodos Iterativos
 
-- [[Metodos Iterativos]]
+- [[Métodos Iterativos]]
 - [[Refinamiento Iterativo]]
