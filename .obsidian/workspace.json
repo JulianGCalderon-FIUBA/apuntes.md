@@ -11,12 +11,8 @@
             "id": "d7263f3c743d6923",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estructura del Computador/Sistemas de Numeración.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -84,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Estructura del Computador/Sistemas de Numeración.md"
-              }
+              "state": {}
             }
           },
           {
@@ -95,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estructura del Computador/Sistemas de Numeración.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estructura del Computador/Sistemas de Numeración.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,6 +150,7 @@
   },
   "active": "d7263f3c743d6923",
   "lastOpenFiles": [
+    "Estructura del Computador/Sistemas de Numeración.md",
     "Estructura del Computador/Sistema ARC.md",
     "Estructura del Computador/Simplificación de Funciones.md",
     "Estructura del Computador/Representación (signo).md",
@@ -184,7 +177,6 @@
     "Análisis Numérico/Refinamiento Iterativo.md",
     "Análisis Numérico/Punto Flotante.md",
     "Análisis Numérico/Polinomio de Lagrange y Newton.md",
-    "Análisis Numérico/Polinomio de Hermite.md",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",
     "Análisis de la Información/Attachments/Historias de Usuario 6.png",
