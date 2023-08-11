@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Polinomio de Taylor.md",
+                "file": "Análisis Matemático II/Teoremas Integrales.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 418.5,
-    "collapsed": true
+    "width": 418.5
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Polinomio de Taylor.md"
+                "file": "Análisis Matemático II/Teoremas Integrales.md"
               }
             }
           },
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Polinomio de Taylor.md",
+                "file": "Análisis Matemático II/Teoremas Integrales.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Polinomio de Taylor.md",
+                "file": "Análisis Matemático II/Teoremas Integrales.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,6 +165,11 @@
   },
   "active": "d7263f3c743d6923",
   "lastOpenFiles": [
+    "Análisis Matemático II/Topología.md",
+    "Análisis Matemático II/Teoremas Integrales.md",
+    "Análisis Matemático II/Rectas y Planos.md",
+    "Análisis Matemático II/Propiedades de la diferenciabiliad.md",
+    "Análisis Matemático II/Polinomio de Taylor.md",
     "Análisis Matemático II/Métodos de resolución.md",
     "Análisis Matemático II/Limites.md",
     "Análisis Matemático II/Integrales Triples.md",
@@ -187,11 +191,6 @@
     "Análisis Matemático II/Curvas y superficies.md",
     "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
     "Análisis Matemático II/Cuádricas.md",
-    "Algoritmos II/Algoritmos de Grafos.md",
-    "Algoritmos I/Recursividad.md",
-    "Algoritmos I/Operaciones con Arreglos.md",
-    "Algoritmos I/Operaciones con archivos.md",
-    "2023-08-10.md",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",
     "Análisis de la Información/Attachments/Historias de Usuario 6.png",

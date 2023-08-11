@@ -6,23 +6,25 @@ $$
 
 ## Bolas en $\mathbb{R}^n$
 
+Existen tres tipos de $n$-bolas
+
 - *n-bola abierta:*
 
-$$
-B(\vec x_0, r) = \{\vec x \in \mathbb{R}^n / d(\vec x ,\vec x_0 ) < r\}
-$$
+	$$
+	B(\vec x_0, r) = \{\vec x \in \mathbb{R}^n / d(\vec x ,\vec x_0 ) < r\}
+	$$
 
 - *n-bola cerrada:*
 
-$$
-B(\vec x_0, r) = \{\vec x \in \mathbb{R}^n / d(\vec x ,\vec x_0 ) \leq r\}
-$$
+	$$
+	B(\vec x_0, r) = \{\vec x \in \mathbb{R}^n / d(\vec x ,\vec x_0 ) \leq r\}
+	$$
 
 - *n-bola abierta reducida:*
 
-$$
-B(\vec x_0, r) = \{\vec x \in \mathbb{R}^n /0 < d(\vec x ,\vec x_0 ) < r\}
-$$
+	$$
+	B(\vec x_0, r) = \{\vec x \in \mathbb{R}^n /0 < d(\vec x ,\vec x_0 ) < r\}
+	$$
 
 ## Topología en $\mathbb{R}^n$
 
@@ -50,9 +52,9 @@ $$
 - $A$ es *acotado* si existe $r > 0$ tal que $A \subset B(\vec 0,r)$
 - $A$ es *compacto* si es cerrado y acotado
 
-**Segun su conectividad:**
+**Según su conectividad:**
 
 - $A$ es *conv*exo *si con cada par de puntos de* $A$, el segmento que los une también pertenece a $A$
-- $A$ es *conexo* si esta formado por una sola parte
+- $A$ es *conexo* si está formado por una sola parte
 - $A$ es *arco conexo* si *para cada par de puntos de* $A$ existe una curva *contenida en* $A$ que los une
 - Si $A$ es conexo, también es *simplemente conexo* si toda curva cerrada contenida en $A$, forma un conjunto contenido en $A$
