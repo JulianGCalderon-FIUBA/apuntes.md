@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física I/Difracción.md",
+                "file": "Física I/Dinámica CR.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física I/Difracción.md"
+                "file": "Física I/Dinámica CR.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física I/Difracción.md",
+                "file": "Física I/Dinámica CR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física I/Difracción.md",
+                "file": "Física I/Dinámica CR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,6 +158,8 @@
   },
   "active": "d7263f3c743d6923",
   "lastOpenFiles": [
+    "Física I/Dinamica.md",
+    "Física I/Difracción.md",
     "Física I/Definición Óptica.md",
     "Organizacion de Datos/Introduccion.md",
     "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md",
@@ -166,7 +168,6 @@
     "Organizacion de Datos/Arboles.md",
     "Modelos y Optimización I/Método Simplex.md",
     "Sistemas Operativos/API de Threads.md",
-    "Física I/Difracción.md",
     "Física I/Cuerpo Rígido.md",
     "Física I/Coordenadas Intrínsecas.md",
     "Física I/Cinemática CR.md",
@@ -187,7 +188,6 @@
     "Introducción a Sistemas Distribuidos/Clases Practicas.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.md",
     "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Network Layer Data Plane.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
     "Estructura del Computador/Attachments/Simplificacion de Funciones 1.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",

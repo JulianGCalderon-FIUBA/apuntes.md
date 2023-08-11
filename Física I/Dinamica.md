@@ -1,12 +1,12 @@
-## 1er principio:
+## 1.º principio
 
-Si el observador encuentra que un objeto cuya fuerza resultante es nula y el objeto se esta moviendo a velocidad constante o esta quieto, esta en un marco de referencia inercial. Por lo que no puede cambiar su estado a menos que se le aplique una fuerza no nula
+Si el observador encuentra que un objeto cuya fuerza resultante es nula y el objeto se está moviendo a velocidad constante o está quieto, está en un marco de referencia inercial. Por lo que no puede cambiar su estado a menos que se le aplique una fuerza no nula
 
 $$
 \sum F = 0 \implies a =\frac{dv}{dt} = 0
 $$
 
-## 2do principio:
+## 2.º principio
 
 La aceleración de un objeto es proporcional a la fuerza que se le aplica
 
@@ -20,9 +20,9 @@ $$
 \sum \vec F = m \cdot \vec a
 $$
 
-## 3er principio:
+## 3.º principio
 
-Cuando un cuerpo ejerce una fuerza sobre otro cuerpo, este ejerce una fuerza de misma dirección y modulo pero sentido contrario sobre el primer cuerpo
+Cuando un cuerpo ejerce una fuerza sobre otro cuerpo, este ejerce una fuerza en la misma dirección y módulo, pero sentido contrario sobre el primer cuerpo
 
 $$
 F_{12} = -F_{21}
@@ -38,10 +38,10 @@ $$
 
 ---
 
-Si F no es constante:
+Si $F$ no es constante:
 
 $$
 j = \int_{t_0}^{t_1} Fdt
 $$
 
-![[Dinamica 1.png]]![[Dinamica 2.png]]
+![[Dinamica 1.png|425]]![[Dinamica 2.png|425]]
