@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis de la Información/Introducción a la Ingeniería de Software.md",
+                "file": "Indice.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis de la Información/Introducción a la Ingeniería de Software.md"
+                "file": "Indice.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis de la Información/Introducción a la Ingeniería de Software.md",
+                "file": "Indice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis de la Información/Introducción a la Ingeniería de Software.md",
+                "file": "Indice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,13 +152,23 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false
     }
   },
   "active": "524bc04d4da22735",
   "lastOpenFiles": [
-    "Análisis de la Información/Interfaces de Usuario.md",
+    "Attachments/Recording 20230811191147.webm",
+    "Indice.md",
+    "Attachments",
+    "Introducción a Sistemas Distribuidos/Application Layer/Principles of Network Applications.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
+    "Análisis de la Información/Introducción al Diseño de Software.md",
+    "Matemática Discreta/Algoritmos.md",
+    "Organizacion de Datos/Algoritmos Genéticos.md",
     "Análisis de la Información/Introducción a la Ingeniería de Software.md",
+    "Análisis de la Información/Interfaces de Usuario.md",
     "Análisis de la Información/Innovación y Creatividad.md",
     "Análisis de la Información/Historias de Usuario.md",
     "Análisis de la Información/Historias de Dominio.md",
@@ -175,14 +185,6 @@
     "Análisis Numérico/Métodos Iterativos.md",
     "Análisis Numérico/Sistemas Lineales.md",
     "Análisis Numérico/Descomposición de Cholesky.md",
-    "Análisis Numérico/Análisis Numérico.md",
-    "Análisis Numérico/Interpolación Polinomial.md",
-    "Análisis Numérico/Polinomio de Hermite.md",
-    "Indice.md",
-    "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
-    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
-    "Algoritmos II/Algoritmos II.md",
-    "Estructura del Computador/Estructura del Computador.md",
     "Untitled.canvas",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",

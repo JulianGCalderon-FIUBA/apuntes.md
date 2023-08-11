@@ -1,14 +1,14 @@
 ## 1. Network Application Architectures
 
-En el centro del desarrollo de aplicaciones de red esta la escritura de programas que se ejecutan en distintos end systems y se comunican entre ellos a través de la red.
+En el centro del desarrollo de aplicaciones de red está la escritura de programas que se ejecutan en distintos end systems y se comunican entre ellos a través de la red.
 
-Desde el punto de vista del desarrollador, la arquitectura de red es fija y provee un conjunto especifico de servicios a las aplicaciones. La arquitectura de aplicación por otro lado, es diseñada por el diseñador y dicta como se estructura la aplicación en diversos ***end systems***. Hay dos paradigmas de arquitectura que se utilizan en las aplicaciones modernas.
+Desde el punto de vista del desarrollador, la arquitectura de red es fija y provee un conjunto específico de servicios a las aplicaciones. La arquitectura de aplicación, por otro lado, es diseñada por el diseñador y dicta como se estructura la aplicación en diversos ***end systems***. Hay dos paradigmas de arquitectura que se utilizan en las aplicaciones modernas.
 
-En la arquitectura cliente-servidor, siempre existe un ***host*** constantemente encendido con dirección fija y conocida, denominado ***server,*** que provee servicio a multiples ***hosts,*** denominados clientes. En esta arquitectura, los clientes no se comunican de forma directa entre si.
+En la arquitectura cliente-servidor, siempre existe un ***host*** constantemente encendido con dirección fija y conocida, denominado ***server,*** que provee servicio a múltiples ***hosts,*** denominados clientes. En esta arquitectura, los clientes no se comunican de forma directa entre sí.
 
-Comúnmente en estas arquitecturas, un único servidor es incapaz de resolver todos los pedidos de los clientes. Por esta razon, un ***data center***, juntando un gran numero de servidores, es utilizado para crear un poderoso ***server*** virtual.
+Comúnmente en estas arquitecturas, un único servidor es incapaz de resolver todos los pedidos de los clientes. Por esta razón, un ***data center***, juntando un gran número de servidores, es utilizado para crear un poderoso ***server*** virtual.
 
-En la arquitectura peer-to-peer existe minima o nula dependencia en un servidor dedicad. En su lugar, la aplicación explota la comunicación entre pares, llamados ***peers***.
+En la arquitectura peer-to-peer existe mínima o nula dependencia en un servidor dedicad. En su lugar, la aplicación explota la comunicación entre pares, llamados ***peers***.
 
 Una de las características mas importantes de esta arquitectura es su ***self-scalability***. La velocidad de descarga aumenta a medida que aumenta el numero de ***peers***.
 

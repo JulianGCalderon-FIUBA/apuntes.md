@@ -27,3 +27,6 @@
 - [[Análisis de la Información]]
 - [[Matemática Discreta]]
 - [[Modelos y Optimización I]]
+
+
+![[Recording 20230811191147.webm]]
