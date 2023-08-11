@@ -1,8 +1,8 @@
-Una particula cargada orbita alrededor de su núcleo. Esto se puede pensar como corriente a través de una espira circular, por lo que tiene un momento angular. Este momento angular se alineará con el campo magnético en ese punto del espacio, por acción de un torque.
+Una partícula cargada orbita alrededor de su núcleo. Esto se puede pensar como corriente a través de una espira circular, por lo que tiene un momento angular. Este momento angular se alineará con el campo magnético en ese punto del espacio, por acción de un torque.
 
 Si el campo magnético es débil, entonces la magnetización será parcial. Si el campo magnético es intenso, la magnetización será completa.
 
-Vamos a introducir un nuevo campo vectorial, el campo **magnetización**, denominado $\vec M$. Nos va a indicar la cantidad de momentos angulares por unidad de volumen tenemos
+Vamos a introducir un nuevo campo vectorial, el campo **magnetización,** denominado $\vec M$. Nos va a indicar la cantidad de momentos angulares por unidad de volumen, tenemos
 
 $$
 \oint\limits_{\lambda} \vec M \cdot d\vec l = i_m \qquad \vec M = \frac{\delta \vec m}{\delta \text{vol}}
@@ -14,7 +14,7 @@ $$
 
 Estas corrientes de magnetización van a estar asociadas a las corrientes de los electrones que orbitan al alrededor del núcleo de los átomos.
 
-Las corrientes concatenadas de la ley de ampere deben tener en cuenta ambas corrientes, tanto la corrientes de magnetización $i_m$ como las corrientes reales $i_R$.
+Las corrientes concatenadas de la ley de ampere deben tener en cuenta ambas corrientes, tanto las corrientes de magnetización $i_m$ como las corrientes reales $i_R$.
 
 Llamaremos $\vec H$ al campo magnético relacionado con las corrientes reales, y $\vec B$ al campo de inducción magnética, relacionado con ambas corrientes.
 
@@ -37,7 +37,7 @@ $$
 $$
 
 > [!note]
-> El campo de inducción magnética tiene unidades de tesla $T$, mientras que el campo magnetico y de magnetizacion tienen unidades de $A/m$.
+> El campo de inducción magnética tiene unidades de tesla $T$, mientras que el campo magnético y de magnetización tienen unidades de $A/m$.
 
 ## Materiales LIH
 
@@ -65,8 +65,8 @@ Sin embargo, vamos a tratar estos materiales como materiales lineales. La permea
 
 ## Circuitos Magnéticos
 
-Vamos a trabajar con circuitos magnéticos cerrados de materiales ferromagnéticos. Estos circuitos pueden ser toroides tanto circulares como rectangulares, pero van a estar conformados por un solo material magnético, y van a ser enteros. Estos toroides van a tener bobinas que carguen el material.
+Vamos a trabajar con circuitos magnéticos cerrados de materiales ferromagnéticos. Estos circuitos pueden ser toroides, tanto circulares como rectangulares, pero van a estar conformados por un solo material magnético, y van a ser enteros. Estos toroides van a tener bobinas que carguen el material.
 
 En estos circuitos, vamos a calcular los tres campos $\vec H, \vec M, \vec B$ dentro del material.
 
-Tenemos dos tipos de toroides. Los toroides gruesos, son aquellos en los que importa el radio para el calculo del campo magnetico. En los toroides finos, el campo magnético es uniforme.
+Tenemos dos tipos de toroides. Los toroides gruesos son aquellos en los que importa el radio para el cálculo del campo magnético. En los toroides finos, el campo magnético es uniforme.

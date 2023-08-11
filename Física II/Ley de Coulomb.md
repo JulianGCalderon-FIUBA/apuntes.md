@@ -1,6 +1,6 @@
-Los átomos tienen dos tipo de carga, **positivas** y **negativas**. La cantidad de protones y electrones totales es siempre la misma, sin embargo los átomos cercanos pueden intercambiar electrones, alterando la carga eléctrica. La carga total de un sistema aislado permanece constante.
+Los átomos tienen dos tipos de carga, **positivas** y **negativas**. La cantidad de protones y electrones totales es siempre la misma; sin embargo, los átomos cercanos pueden intercambiar electrones, alterando la carga eléctrica. La carga total de un sistema aislado permanece constante.
 
-Una forma de hacer alterar la carga eléctrica es frotar dos objetos entre si.
+Una forma de hacer alterar la carga eléctrica es frotar dos objetos entre sí.
 
 Las cargas del mismo tipo se repelen, mientras que las de distinto tipo se atraen.
 
@@ -20,19 +20,19 @@ $$
 k = \frac 1{4\pi\varepsilon_0}
 $$
 
-Si analizamos cargas puntuales, en el vacío. Coulomb demostró la formula de la fuerza que ejerce una carga sobre otra.
+Si analizamos cargas puntuales, en el vacío. Coulomb demostró la fórmula de la fuerza que ejerce una carga sobre otra.
 
 $$
 |F_{12}| = k\cdot \frac{q_1q_2}{d^2} \cdot
 $$
 
-Si le agregamos el componente de la dirección a la fuerza, entonces llegamos a la siguiente formula:
+Si le agregamos el componente de la dirección a la fuerza, entonces llegamos a la siguiente fórmula:
 
 $$
 \boxed{\vec F_{ij} = k\cdot q_iq_j\cdot\frac{\vec r_i - \vec r_j}{\|\vec r_i - \vec r_j\|^{3}}}
 $$
 
-$F_{ij}:$ Fuerza que ejerce la carga $j$ sobre la carga $i$
+Donde se define como $F_{ij}$ a la fuerza que ejerce la carga $j$ sobre la carga $i$
 
 A partir del principio de superposición, podemos analizar la fuerza que recibe una partícula por acción de una multitud de partículas.
 

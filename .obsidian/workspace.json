@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física II/Inductores.md",
+                "file": "Física II/Materiales Magnéticos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física II/Inductores.md"
+                "file": "Física II/Materiales Magnéticos.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física II/Inductores.md",
+                "file": "Física II/Materiales Magnéticos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física II/Inductores.md",
+                "file": "Física II/Materiales Magnéticos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,6 +156,12 @@
   },
   "active": "5123070076cf8950",
   "lastOpenFiles": [
+    "Física II/Potencia Activa y Reactiva.md",
+    "Física II/Materiales Magnéticos.md",
+    "Física II/Ley de Gauss.md",
+    "Física II/Ley de Faraday.md",
+    "Física II/Ley de Coulomb.md",
+    "Física II/Ley de Biot y Savalt.md",
     "Física II/Ley de Ampere.md",
     "Física II/Inductores.md",
     "Física II/Fuerza Magnética.md",
@@ -186,12 +192,6 @@
     "Física I/Trabajo y energía.md",
     "Física I/Teoría de medida.md",
     "Física I/Superposición de Onda.md",
-    "Física I/Sistema de referencia no inercial.md",
-    "Física I/Sistema de partículas.md",
-    "Física I/Potencia.md",
-    "Física I/Óptica Geométrica.md",
-    "Física I/Ondas Mecánicas.md",
-    "Física I/Ondas de Sonido.md",
     "Base de Datos",
     "Algoritmos II/Attachments/Machete - AAB.pdf",
     "Untitled.canvas"

@@ -1,4 +1,4 @@
-Faraday noto, luego de unos experimentos, que un campo magnético puede generar corriente en un circuito cercano. Sin embargo, esta corriente es temporal. Solo surge cuando el campo no es estacionario, sino que depende del tiempo. A esta corriente, se la denomina **corriente inducida**.
+Faraday notó, luego de unos experimentos, que un campo magnético puede generar corriente en un circuito cercano. Sin embargo, esta corriente es temporal. Solo surge cuando el campo no es estacionario, sino que depende del tiempo. A esta corriente, se la denomina **corriente inducida**.
 
 ## Ley de Faraday-Lenz
 
@@ -38,7 +38,7 @@ $$
 \mathcal E_{21} = -N_2 \cdot \frac{d\phi_{21}}{dt} = -N_2 \cdot \frac{d\varphi_{21}}{di_1} \frac{di_1}{dt} = -M_{21} \cdot \frac{di_1}{dt}
 $$
 
-Podemos entonces agrupar los parámetros en el un coeficiente de inducción mutuo, simplificando la ecuación.
+Podemos entonces agrupar los parámetros en un coeficiente de inducción mutuo, simplificando la ecuación.
 
 $$
 M_{21} =N_2 \cdot \frac{d\varphi_{21}}{di_1} 
@@ -74,12 +74,11 @@ $$
 
 ## Relación entre Coeficientes
 
-Podemos definir un factor de acoplamiento $k$, que varía entre $0$ y $1$, Y relaciona los coeficientes de auto inductancia con los coeficientes de inductancia mutua
+Podemos definir un factor de acoplamiento $k$, que varía entre $0$ y $1$, Y relaciona los coeficientes de autoinductancia con los coeficientes de inductancia mutua
 
 $$
 M = k \sqrt{L_1 \cdot L_2}
 $$
 
-Si $k = 0$, decimos que los circuitos están **desacoplados**
-
-Si $k = 1$, decimos que los circuitos están en **acoplamiento perfecto**
+- Si $k = 0$, decimos que los circuitos están **desacoplados**
+- Si $k = 1$, decimos que los circuitos están en **acoplamiento perfecto**

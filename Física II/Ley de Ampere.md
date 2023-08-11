@@ -10,7 +10,7 @@ $$
 
 Siendo $I_{S(\lambda)}$ la corriente concatenada. Es decir, la corriente que atraviesa toda superficie que tenga como borde la superficie $S$.
 
-Podemos extender esta ley para casos con mas de una corriente, realizando la sumatoria de las corrientes concatenadas.
+Podemos extender esta ley para casos con más de una corriente, realizando la sumatoria de las corrientes concatenadas.
 
 $$
 I_{S(\lambda)} =\sum I_{i\ S(\mathfrak{c})}
@@ -26,7 +26,7 @@ $$
 \vec \nabla \times \vec B= \mu_0 \cdot \vec j
 $$
 
-## Calculo del Campo Magnético
+## Cálculo del Campo Magnético
 
 Al igual que con ley de Gauss calculábamos el campo eléctrico. Podemos realizar algo parecido con la ley de Ampere.
 

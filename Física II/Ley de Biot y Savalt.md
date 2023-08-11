@@ -4,7 +4,7 @@ Por la experiencia, se encontró que los campos magnéticos son generados por ca
 - $\vec B \perp (\vec r - \vec r')$
 - $\displaystyle\|\vec B\| \propto \frac{1}{\|\vec r - \vec r'\|^2}$
 
-A partir de estas relaciones, se formalizo la ley del campo magnético para una carga puntual en movimiento.
+A partir de estas relaciones, se formalizó la ley del campo magnético para una carga puntual en movimiento.
 
 $$
 \vec B = K_m \cdot \frac{q\cdot \vec v \times (\vec r - \vec r')}{\|\vec r - \vec r'\|^3}
@@ -17,7 +17,7 @@ $$
 \end{gathered}
 $$
 
-Si extendemos esta formula para una corriente en lugar de una carga puntual, llegamos a la **Ley de Biot y Savalt** para una corriente estacionaria.
+Si extendemos esta fórmula para una corriente en lugar de una carga puntual, llegamos a la **Ley de Biot y Savalt** para una corriente estacionaria.
 
 $$
 \vec B = \frac{\mu_0}{4\pi} \int\frac{I\cdot  d\vec l' \times (\vec r - \vec r')}{\|\vec r - \vec r'\|^3}
@@ -36,7 +36,7 @@ $$
 
 $$
 
-Si extendemos el hilo hacia el infinito, entonces llegamos a un campo mas simple
+Si extendemos el hilo hacia el infinito, entonces llegamos a un campo más simple
 
 $$
 \vec B = \frac{\mu_0\cdot I}{2\pi r} \cdot \hat \theta
@@ -51,7 +51,7 @@ $$
 I = \int \vec k \cdot d\vec l = \iint \vec j \cdot d\vec S
 $$
 
-De esta forma, podemos encontrar el campo magnético a partir de una densidad superficial de corriente, y una volumetrica.
+De esta forma, podemos encontrar el campo magnético a partir de una densidad superficial de corriente, y una volumétrica.
 
 $$
 \vec B = \frac{\mu_0}{4\pi} \iint\frac{\vec k\cdot  dS \times (\vec r - \vec r')}{\|\vec r - \vec r'\|^3}

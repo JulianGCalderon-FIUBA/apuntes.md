@@ -31,9 +31,9 @@ $$
 > [!note]
 > Podemos demostrar a través del teorema de gauss que el flujo es independiente de la superficie.
 
-### Multiples Cargas
+### Múltiples Cargas
 
-Para el caso de multiples cargas, el flujo es proporcional a la suma de las cargas individuales dentro de la superficie. Esto se debe a que las operaciones que se aplican son lineales. Se pueden distribuir
+Para el caso de múltiples cargas, el flujo es proporcional a la suma de las cargas individuales dentro de la superficie. Esto se debe a que las operaciones que se aplican son lineales. Se pueden distribuir
 
 $$
 \phi = {\subset\!\supset} \llap{\iint}_S \vec E\cdot d\vec s = {\subset\!\supset} \llap{\iint}_S \sum_i\vec E_i\cdot d\vec s = \sum_i{\subset\!\supset} \llap{\iint}_S \vec E_i\cdot d\vec s
@@ -44,11 +44,11 @@ $$
 $$
 
 > [!note]
-> Para el calculo del flujo, solo se tienen en cuenta las cargas dentro de la superficie cerrada. En cambio, el campo eléctrico en un punto depende de **todas** las cargas
+> Para el cálculo del flujo, solo se tienen en cuenta las cargas dentro de la superficie cerrada. En cambio, el campo eléctrico en un punto depende de **todas** las cargas
 
 ### Distribución Continua
 
-El teorema de gauss para distribución distribución continua de cargas permite analizar el flujo de ciertos casos de forma mucha mas practica
+El teorema de gauss para distribución continua de cargas permite analizar el flujo de ciertos casos de forma mucha más práctica
 
 #### ¿Como calcular el campo eléctrico?
 
@@ -57,4 +57,4 @@ El teorema de gauss para distribución distribución continua de cargas permite 
 - Elegimos una superficie cerrada $S$ acorde
 - Calculamos $\iint ds$, $Q_\text{enc}$
 
-De esta forma podemos despejar el modulo del campo eléctrico, y agregamos la dirección manualmente
+De esta forma podemos despejar el módulo del campo eléctrico, y agregamos la dirección manualmente

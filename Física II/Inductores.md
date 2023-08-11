@@ -73,7 +73,7 @@ U = \frac 12 \cdot L \cdot I^2
 $$
 
 > [!note]
-> Si los inductores están conectados en serie, puedo remplazar el coeficiente de auto inductancia $L$ por el equivalente.
+> Si los inductores están conectados en serie, puedo remplazar el coeficiente de autoinductancia $L$ por el equivalente.
 
 ### Acoplamiento Magnético
 
