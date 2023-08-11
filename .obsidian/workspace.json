@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmos II/Árboles Auto Balanceados.md",
+                "file": "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Internet Protocol (IP) IPv4, Addressing, IPv6, and More.md",
                 "mode": "source",
                 "source": true
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "/\\t+!\\[",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmos II/Árboles Auto Balanceados.md"
+                "file": "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Internet Protocol (IP) IPv4, Addressing, IPv6, and More.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmos II/Árboles Auto Balanceados.md",
+                "file": "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Internet Protocol (IP) IPv4, Addressing, IPv6, and More.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmos II/Árboles Auto Balanceados.md",
+                "file": "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Internet Protocol (IP) IPv4, Addressing, IPv6, and More.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,6 +158,11 @@
   },
   "active": "524bc04d4da22735",
   "lastOpenFiles": [
+    "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
+    "Organizacion de Datos/Algoritmos Genéticos.md",
+    "Álgebra II/Autovalores y Autovectores.md",
+    "Algoritmos II/Árboles Auto Balanceados.md",
     "Sistemas Operativos/Attachments/Paginación Avanzada 1.png",
     "Sistemas Operativos/Attachments/Los procesos 1.png",
     "Sistemas Operativos/Archivos y Directorios.md",
@@ -173,10 +178,8 @@
     "Attachments",
     "Introducción a Sistemas Distribuidos/Application Layer/Principles of Network Applications.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
     "Análisis de la Información/Introducción al Diseño de Software.md",
     "Matemática Discreta/Algoritmos.md",
-    "Organizacion de Datos/Algoritmos Genéticos.md",
     "Análisis de la Información/Introducción a la Ingeniería de Software.md",
     "Análisis de la Información/Interfaces de Usuario.md",
     "Análisis de la Información/Innovación y Creatividad.md",
@@ -188,15 +191,12 @@
     "Análisis de la Información/Casos de Uso.md",
     "Análisis de la Información/Design Thinking.md",
     "Análisis Numérico/Búsqueda de Raíces.md",
-    "Análisis Numérico/Bisección.md",
-    "Organizacion de Datos/Ensambles.md",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",
     "Física II/Attachments/Potencia Activa y Reactiva 2.svg",
     "Física II/Attachments/Potencia Activa y Reactiva 1.svg",
     "Física II/Attachments/Final 1.png",
     "Matemática Discreta/Attachments/Algoritmos 1.png",
-    "Algoritmos I/Attachments/Recursividad 1.png",
     "Base de Datos",
     "Algoritmos II/Attachments/Machete - AAB.pdf"
   ]
