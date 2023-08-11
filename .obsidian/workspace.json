@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Numérico/Búsqueda de Raíces.md",
+                "file": "Análisis Numérico/Ecuaciones Diferenciales Ordinarias.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Numérico/Búsqueda de Raíces.md"
+                "file": "Análisis Numérico/Ecuaciones Diferenciales Ordinarias.md"
               }
             }
           },
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Numérico/Búsqueda de Raíces.md",
+                "file": "Análisis Numérico/Ecuaciones Diferenciales Ordinarias.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Numérico/Búsqueda de Raíces.md",
+                "file": "Análisis Numérico/Ecuaciones Diferenciales Ordinarias.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,8 +181,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "9122a68e0bd97951",
   "lastOpenFiles": [
+    "Análisis Numérico/Error en Métodos Iterativos.md",
+    "Análisis Numérico/Ecuaciones Diferenciales Ordinarias.md",
+    "Análisis Numérico/Ecuaciones Diferenciales de Orden Superior.md",
+    "Análisis Numérico/Ecuaciones Diferenciales de Frontera.md",
+    "Análisis Numérico/Diferenciación Numérica.md",
+    "Análisis Numérico/Descomposición LU.md",
+    "Análisis Numérico/Descomposición de Cholesky.md",
+    "Análisis Numérico/Búsqueda de Raíces.md",
     "Análisis Numérico/Bisección.md",
     "Análisis Numérico/Ajuste.md",
     "Análisis Numérico/Análisis Numérico.md",
@@ -201,14 +209,6 @@
     "Álgebra II/Álgebra II.md",
     "Análisis Matemático II/Límites.md",
     "Análisis Matemático II/Métodos de resolución.md",
-    "Sistemas Operativos/Archivos y Directorios.md",
-    "Organizacion de Datos/Arboles.md",
-    "Sistemas Operativos/API de Threads.md",
-    "Algoritmos II/Algoritmos de Grafos.md",
-    "Matemática Discreta/Algoritmos.md",
-    "Matemática Discreta/Alfabeto.md",
-    "Análisis Matemático II/Topología.md",
-    "Análisis Matemático II/Teoremas Integrales.md",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",
     "Análisis de la Información/Attachments/Historias de Usuario 6.png",

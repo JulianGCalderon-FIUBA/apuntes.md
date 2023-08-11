@@ -10,7 +10,7 @@ y(b) = \beta
 \end{cases}
 $$
 
-A diferencia que los problemas de valores iniciales de segundo orden, este problema no requiere secribir la ecuación diferencial como un sistema de ecuaciónes diferenciales de primer orden.
+A diferencia que los problemas de valores iniciales de segundo orden, este problema no requiere escribir la ecuación diferencial como un sistema de ecuaciones diferenciales de primer orden.
 
 ## Aproximación por Diferencias Finitas
 

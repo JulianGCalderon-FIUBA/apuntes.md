@@ -1,6 +1,6 @@
-## PVI de Segundo Orden
+## P.V.I. de Segundo Orden
 
-Si tenemos un problema de valores iniciales se segundo orden:
+Si tenemos un problema de valores iniciales de segundo orden:
 
 $$
 \begin{cases}
@@ -16,7 +16,7 @@ $$
 y' = u \qquad u' = f(x,y,u)
 $$
 
-Luego, nuestro PVI se veria de la siguiente forma
+Luego, nuestro P.V.I. se vería de la siguiente forma
 
 $$
 \begin{cases}
@@ -46,7 +46,7 @@ f(x_i, y_i, u_i)
 \end{pmatrix}
 $$
 
-El m{etodo de Runge-Kutta de orden 4 seria:
+El método de Runge-Kutta de orden 4 sería:
 
 $$
 \begin{pmatrix}
@@ -83,9 +83,9 @@ k_4 = f(x_i + h, y_i + m_3h, u_i + k_3h)\\
 \end{cases}
 $$
 
-## PVI de $n$-esimo Orden
+## P.V.I. de $n$-esimo Orden
 
-En general, puedo expresar una ecuación diferencial de $n$-ésimo orden de la forma:
+En general, puedo expresar una ecuación diferencial de $n$-esimo orden de la forma:
 
 $$
 \begin{cases}
@@ -123,7 +123,7 @@ $$
 
 ## Sistema de Ecuaciones Diferenciales
 
-Dado un sistema de ecuaciones diferenciales, podemos usar cualquiera de los metodos vistos en cada ecuación para aproximar la solución.
+Dado un sistema de ecuaciones diferenciales, podemos usar cualquiera de los métodos vistos en cada ecuación para aproximar la solución.
 
 Si tenemos un sistema de ecuaciones diferenciales de dos ecuaciones
 
@@ -155,7 +155,7 @@ g(t_i, x_i, y_i)
 \end{pmatrix}
 $$
 
-También podemos aplicar el método de Runge-Kuta de orden 4
+También podemos aplicar el método de Runge-Kutta de orden 4
 
 $$
 \begin{pmatrix}

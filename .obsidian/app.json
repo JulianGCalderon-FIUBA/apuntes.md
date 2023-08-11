@@ -50,6 +50,14 @@
     "URD",
     "diferencabilidad",
     "EDO",
-    "Weierstras"
+    "Weierstras",
+    "Cholesky",
+    "LU",
+    "esima",
+    "Richardson",
+    "Runge",
+    "Kutta",
+    "esimo",
+    "Lipschitz"
   ]
 }

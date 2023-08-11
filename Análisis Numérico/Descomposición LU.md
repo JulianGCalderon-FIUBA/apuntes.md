@@ -1,20 +1,20 @@
-La factorización LU consiste en en descomponer la matriz en dos matrices diagonales, por lo que su resolución sera simple.
+La factorización LU consiste en descomponer la matriz en dos matrices diagonales, por lo que su resolución sera simple.
 
 $$
 Ax = LUx = L(Ux) = b
 $$
 
-La complejidad de la solución sera de $O(n^2)$
+La complejidad de la solución será de $O(n^2)$
 
 ## Paso 1
 
-El primer paso consiste en encontrar la primer fila de $u$, a partir de la multiplicación de la primer fila de $L$ con las columnas de $U$
+El primer paso consiste en encontrar la primera fila de $u$, a partir de la multiplicación de la primera fila de $L$ con las columnas de $U$
 
 $$
 u_{1j} = a_{1j}
 $$
 
-Luego, buscamos la primer columna de $l$, a partir de la multiplicacion de las filas de $L$ con la primer columna de $U$
+Luego, buscamos la primera columna de $l$, a partir de la multiplicación de las filas de $L$ con la primera columna de $U$
 
 $$
 l_{j1}= \frac{a_{j1}}{u_{11}}

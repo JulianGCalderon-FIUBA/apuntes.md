@@ -4,7 +4,7 @@ $$
 \|f(t,y_1) - f(t,y_2)\| \leq L\|y_1 - y_2\|; \qquad (t,y_1), (t,y_2) \in D
 $$
 
-**Teorema Condición:** Sea $f(t,y)$ definida en el conjunto $D$ conexo, entonce si exisite una cosntante positiva $L$ tal que:
+**Teorema Condición:** Sea $f(t,y)$ definida en el conjunto $D$ conexo, entonces si existe una constante positiva $L$ tal que:
 
 $$
 \Big\|\frac{\partial f}{\partial y}(t,y)\Big\| \leq L, \quad \forall(t,y) \in D
@@ -12,7 +12,7 @@ $$
 
 Entonces $f$ satisface una condición de Lipschitz en $D$ en la variable $y$.
 
-**Teorema Unicidad:** Sea $D = \{(t,y): a \leq t \leq b; -\infty \leq y \leq \infty\}$ y la funcion $f(t,y)$ continua en $D$, entonces si $f$ satisface la condición de Lipschitz en $D$ en la variable $y$, entonces el problema de valores iniciales
+**Teorema Unicidad:** Sea $D = \{(t,y): a \leq t \leq b; -\infty \leq y \leq \infty\}$ y la función $f(t,y)$ continua en $D$, entonces si $f$ satisface la condición de Lipschitz en $D$ en la variable $y$, entonces el problema de valores iniciales
 
 $$
 \text{PVI:}\begin{cases}
@@ -21,17 +21,17 @@ y(a) = y_0
 \end{cases} \tag{1}
 $$
 
-tiene solución unica en $y(t)$ para $a \leq t \leq b$
+tiene solución única en $y(t)$ para $a \leq t \leq b$
 
-**Teorema Bien Planteado:** Sea $D = \{(t,y): a \leq t \leq b; -\infty \leq y \leq \infty\}$. Si $f$ es continua y satisface la condición de Lipschitz en la variable $y$ en el dominio $D$, entonces el problema de valores iniciales $(1)$ esta bien planteado.
+**Teorema Bien Planteado:** Sea $D = \{(t,y): a \leq t \leq b; -\infty \leq y \leq \infty\}$. Si $f$ es continua y satisface la condición de Lipschitz en la variable $y$ en el dominio $D$, entonces el problema de valores iniciales $(1)$ está bien planteado.
 
 ## Método de Euler
 
-Este método genera aproximaciónes a la solución $y(t)$ en distintos valores, llamados **puntos de red** en el intervalo $[a,b]$. Estos puntos se seleccionan de la forma $t_i = a + ih,\ \forall i = 0, 1, 2, \cdots, N$
+Este método genera aproximaciones a la solución $y(t)$ en distintos valores, llamados **puntos de red** en el intervalo $[a,b]$. Estos puntos se seleccionan de la forma $t_i = a + ih,\ \forall i = 0, 1, 2, \cdots, N$
 
 La distancia $h$ entre los puntos recibe el nombre de **paso**.
 
-Planteamos un polinomio de Taylor centrado en $t_i$, para hallar una aproximación para la solucion de $y(t_{i+1}) \approx y_{i+1}$, despreciando el termino del error.
+Planteamos un polinomio de Taylor centrado en $t_i$, para hallar una aproximación para la solución de $y(t_{i+1}) \approx y_{i+1}$, despreciando el termino del error.
 
 $$
 y_{i+1} = y_i + hf(t_i, y_i); \quad y(a) = y_0
