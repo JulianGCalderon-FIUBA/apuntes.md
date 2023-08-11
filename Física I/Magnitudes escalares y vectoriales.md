@@ -4,7 +4,7 @@ $$
 a \cdot b = |a||b| \cos \theta
 $$
 
-Si $a \cdot b = 0$, Entonces $a$ y $b$ son perpendiculares entre si
+Si $a \cdot b = 0$, Entonces $a$ y $b$ son perpendiculares entre sí
 
 ## Producto vectorial
 
@@ -12,9 +12,7 @@ $$
 |a\times b| = |a||b|\sin\theta
 $$
 
-$a \times b$ es perpendicular a $a$ y $b$
-
-El sentido del vector $a \times b$ cumple la regla de la mano derecha
+$a \times b$ es perpendicular a $a$ y $b$. El sentido del vector $a \times b$ cumple la regla de la mano derecha
 
 ### Propiedades
 
@@ -36,15 +34,15 @@ $$
 
 ## Aplicaciones
 
-### Formula del coseno
+### Fórmula del coseno
 
 $$
-\begin{align}
+\begin{gathered}
 &c^2 = a^2 + b^2 + 2ab\cos(180^º - \lambda) \\ &\lambda = \angle{ab}
-\end{align}
+\end{gathered}
 $$
 
-### Formula del seno
+### Fórmula del seno
 
 $$
 \frac{a}{\sin\alpha} = \frac{b}{\sin\beta} = \frac{c}{\sin\gamma}

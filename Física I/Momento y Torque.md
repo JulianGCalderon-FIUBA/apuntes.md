@@ -16,7 +16,7 @@ $$
 \frac{d\vec L_o}{dt} = \vec r \times \vec F = \vec T_o
 $$
 
-### Trayectoria curvilinea
+### Trayectoria curvilínea
 
 $$
 \vec L_o = m(\vec R\times\vec v)
@@ -26,9 +26,9 @@ $$
 \boxed{\vec L_o = mR^2\Omega\hat z}
 $$
 
-![[Momento y Torque 1.png]]
+![[Momento y Torque 1.png|232]]
 
-### Trayectoria rectilinea
+### Trayectoria rectilínea
 
 $$
 \vec L_o = (r\sin\theta, r\cos\theta) \times (-mv, 0)

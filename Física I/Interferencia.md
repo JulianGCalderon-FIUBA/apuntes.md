@@ -20,15 +20,15 @@ $$
 \cos\bigg[\frac{k\cdot\Delta x}{2}+\frac{\Delta\varphi}{2}\bigg]}
 $$
 
-**Interferencia Constructiva:** Ocurre cuando las dos ondas se complementan y la amplitud de la onda resultante es maxima
+**Interferencia Constructiva:** Ocurre cuando las dos ondas se complementan y la amplitud de la onda resultante es máxima
 
 **Interferencia Destructiva:** Ocurre cuando las dos ondas se anulan y la amplitud de la onda resultante es nula.
 
 ## Experiencia de Young
 
-Las fuentes $S_1,\,S_2$ son puntuales y monocromáticas. al provenir de la misma fuente, asumimos que $\Delta \varphi = 0$
+Las fuentes $S_1,\,S_2$ son puntuales y monocromáticas. Al provenir de la misma fuente, asumimos que $\Delta \varphi = 0$
 
-![[Interferencia 1.png]]
+![[Interferencia 1.png|475]]
 
 $$
 \Delta x = \Delta r = d\sin\theta
@@ -86,7 +86,7 @@ $n = \pm1,2,3\cdots$
 
 Le asignamos a cada onda un fasor, y calculamos la suma de las ondas para llegar a la onda resultante.
 
-![[Interferencia 2.png]]![[Interferencia 3.png]]
+![[Interferencia 2.png|475]]![[Interferencia 3.png|475]]
 
 $$
 \begin{gathered}
@@ -129,7 +129,7 @@ $$
 
 Por el método fasorial, podemos deducir que los puntos de interferencia críticos.
 
-A medida que aumenta $N$, el ancho angular del pico principal disminuye y los máximos secundarios se vuelve cada vez mas chicos. La cantidad de máximos relativos que hay entre los máximos principales es de $[N-2]$
+A medida que aumenta $N$, el ancho angular del pico principal disminuye y los máximos secundarios se vuelve cada vez más chicos. La cantidad de máximos relativos que hay entre los máximos principales es de $[N-2]$
 
 ### Máximos Principales
 
@@ -159,7 +159,7 @@ $$
 
 ### Amplitud
 
-La amplitud inicial de la onda resultante por la suma de las $N$ ondas esta dada por la siguiente formula:
+La amplitud inicial de la onda resultante por la suma de las $N$ ondas está dada por la siguiente fórmula:
 
 $$
 A = A_0\frac{\sin\Big(\frac{N\cdot k\cdot\Delta x}2\Big)}
@@ -168,7 +168,7 @@ $$
 
 ### Intensidad
 
-La intensidad de cada punto, para la interferencia de $N$ rendijas esta dada por la siguiente formula:
+La intensidad de cada punto, para la interferencia de $N$ rendijas, está dada por la siguiente fórmula:
 
 $$
 I = I_0\frac{\sin^2\Big(\frac{N\cdot k\cdot\Delta x}2\Big)}{\sin^2\Big(\frac{k\cdot\Delta x}2\Big)}

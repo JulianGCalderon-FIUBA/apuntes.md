@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física I/Física I.md",
+                "file": "Física I/Momento y Torque.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física I/Física I.md"
+                "file": "Física I/Momento y Torque.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física I/Física I.md",
+                "file": "Física I/Momento y Torque.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física I/Física I.md",
+                "file": "Física I/Momento y Torque.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,11 +165,15 @@
   },
   "active": "d7263f3c743d6923",
   "lastOpenFiles": [
+    "Física I/Magnitudes escalares y vectoriales.md",
+    "Física I/Interferencia.md",
+    "Física I/Física I.md",
+    "Física I/Energía CR.md",
+    "Física I/Teoría de medida.md",
     "Física I/Energía en Ondas.md",
-    "Física I/Energia CR.md",
-    "Física I/Dispositivos Opticos.md",
+    "Física I/Dispositivos Ópticos.md",
     "Física I/Dinámica CR.md",
-    "Física I/Dinamica.md",
+    "Física I/Dinámica.md",
     "Física I/Difracción.md",
     "Física I/Definición Óptica.md",
     "Física I/Colisiones.md",
@@ -190,10 +194,6 @@
     "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
     "Análisis Matemático II/Attachments/Attachments.md",
     "Estructura del Computador/Attachments/Attachments.md",
-    "Sistemas Operativos/Sistemas Operativos.md",
-    "Base de Datos/Base de Datos.md",
-    "index.md",
-    "Base de Datos/Introducción.md",
     "Base de Datos",
     "Estructura del Computador/Attachments/Simplificacion de Funciones 1.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
