@@ -1,7 +1,7 @@
 Un sistema numérico es un conjunto de símbolos y reglas para su organización.
 
-- **Sistema Numérico Posicional:** Es relevante la posición de un símbolo en el calculo de su peso.
-- **Sistema Numérico no Posicional:** No es relevante la posición de un símbolo en el calculo de su peso.
+- **Sistema Numérico Posicional:** Es relevante la posición de un símbolo en el cálculo de su peso.
+- **Sistema Numérico no Posicional:** No es relevante la posición de un símbolo en el cálculo de su peso.
 
 Estos sistemas utilizan **punto fijo** para representar los decimales.
 
@@ -25,7 +25,7 @@ Se utiliza para saber cuantos decimales necesito en cierta base para tener una p
 
 ## Punto Fijo
 
-Este sistema divide la parte fraccionaria de un numero en sumas de potencias de ese numero.
+Este sistema divide la parte fraccionaria de un número en sumas de potencias de ese número.
 
 Por ejemplo: $0.75 = \frac 12 + \frac 14$, o $0.825 = \frac 12 + \frac 14 + \frac 18$, o $0.625 = \frac 12 + \frac 18$.
 
