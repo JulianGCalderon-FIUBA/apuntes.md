@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis de la Información/Historias de Usuario.md",
+                "file": "Modelos y Optimización I/Complejidad de Programación Lineal.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis de la Información/Historias de Usuario.md"
+                "file": "Modelos y Optimización I/Complejidad de Programación Lineal.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis de la Información/Historias de Usuario.md",
+                "file": "Modelos y Optimización I/Complejidad de Programación Lineal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis de la Información/Historias de Usuario.md",
+                "file": "Modelos y Optimización I/Complejidad de Programación Lineal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,9 +157,9 @@
   },
   "active": "5169f0d9ef8424bb",
   "lastOpenFiles": [
+    "Análisis de la Información/Historias de Usuario.md",
     "Análisis de la Información/Ingeniería de Requisitos.md",
     "Análisis de la Información/Innovación y Creatividad.md",
-    "Análisis de la Información/Historias de Usuario.md",
     "Análisis de la Información/Historias de Dominio.md",
     "Análisis de la Información/Gherkin.md",
     "Análisis de la Información/Diseño de Datos.md",
