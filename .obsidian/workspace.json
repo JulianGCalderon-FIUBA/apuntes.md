@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física II/Circuito Eléctrico.md",
+                "file": "Física II/Conductores.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física II/Circuito Eléctrico.md"
+                "file": "Física II/Conductores.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física II/Circuito Eléctrico.md",
+                "file": "Física II/Conductores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física II/Circuito Eléctrico.md",
+                "file": "Física II/Conductores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,8 +156,9 @@
   },
   "active": "5123070076cf8950",
   "lastOpenFiles": [
-    "Física II/Capacitores.md",
+    "Física II/Circuitos en Resonancia.md",
     "Física II/Circuito Eléctrico.md",
+    "Física II/Capacitores.md",
     "Física II/Campo Magnético.md",
     "Física II/Campo Eléctrico.md",
     "Física II/Attachments/Final 1.png",
@@ -191,7 +192,6 @@
     "Física I/Energía en Ondas.md",
     "Física I/Dispositivos Ópticos.md",
     "Física I/Dinámica CR.md",
-    "Física I/Dinámica.md",
     "Base de Datos",
     "Algoritmos II/Attachments/Machete - AAB.pdf",
     "Untitled.canvas"

@@ -26,9 +26,8 @@ Las resistencias imponen una diferencia de potencial sobre el circuito. Permite 
 
 ## Leyes de Kirchhoff
 
-**Nodos:** Los nodos son puntos donde convergen tres o más conductores.
-
-**Ramas:** Las ramas son porciones del circuito donde circula una única corriente. Para cada rama, hay una corriente. Una rama es cualquier camino que pueda tomar entre dos nodos.
+- **Nodos:** Los nodos son puntos donde convergen tres o más conductores.
+- **Ramas:** Las ramas son porciones del circuito donde circula una única corriente. Para cada rama, hay una corriente. Una rama es cualquier camino que pueda tomar entre dos nodos.
 
 Para cada rama, necesitamos una ecuación. Estas ecuaciones provienen de las mallas, y de los nodos. Las ecuaciones no son linealmente independientes, por eso debemos usar tanto ecuaciones de malla como de nodo.
 
@@ -74,7 +73,7 @@ $$
 P = \frac{dU}{dt} = \frac{dq}{dt}\ \Delta V = I \cdot \Delta V
 $$
 
-**¿Donde se calcula la potencia?**
+### ¿Dónde se calcula la potencia?
 
 Las pilas tienen una corriente y un voltaje, por lo que entregan (o absorben) potencia, dependiendo del sentido de la corriente.
 
