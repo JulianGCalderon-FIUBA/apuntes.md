@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estructura del Computador/Álgebra de Boole.md",
+                "file": "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estructura del Computador/Álgebra de Boole.md"
+                "file": "Estructura del Computador/Circuitos con Capacidad de Memoria.md"
               }
             }
           },
@@ -121,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estructura del Computador/Álgebra de Boole.md",
+                "file": "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estructura del Computador/Álgebra de Boole.md",
+                "file": "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,6 +183,9 @@
   },
   "active": "9122a68e0bd97951",
   "lastOpenFiles": [
+    "Estructura del Computador/Circuitos Asincronicos.md",
+    "Estructura del Computador/Circuitos.md",
+    "Estructura del Computador/Álgebra de Boole.md",
     "Análisis Numérico/Trazador Cúbico - Spline.md",
     "Análisis Numérico/Sistemas no Lineales.md",
     "Análisis Numérico/Sistemas Lineales.md",
@@ -207,9 +209,6 @@
     "Análisis Numérico/Diferenciación Numérica.md",
     "Análisis Numérico/Descomposición LU.md",
     "Análisis Numérico/Descomposición de Cholesky.md",
-    "Análisis Numérico/Búsqueda de Raíces.md",
-    "Análisis Numérico/Bisección.md",
-    "Análisis Numérico/Ajuste.md",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",
     "Análisis de la Información/Attachments/Historias de Usuario 6.png",

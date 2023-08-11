@@ -65,6 +65,12 @@
     "Weierstrass",
     "Gauss-Seidel",
     "Hermite",
-    "Spline"
+    "Spline",
+    "Boole",
+    "Combinacional",
+    "Flop",
+    "RS",
+    "RS",
+    "RS"
   ]
 }

@@ -2,7 +2,7 @@ Dada una expresión algebraica, buscamos simplificar para que el costo de repres
 
 ## Compuertas
 
-![[Circuitos 1.png]]
+![[Circuitos 1.png|500]]
 
 ## Diseño de Circuitos
 
@@ -18,8 +18,8 @@ El diseño de circuitos consiste en definir una tabla de verdad y luego represen
 
 Puedo clasificar mis circuitos según la cantidad de niveles:
 
-- **Lógica de Dos Niveles:** La suma de minitérminos o el producto de maxitérminos representan la lógica dos niveles
-- **Lógica Multinivel:** Son mas costosos ya que tienen mas compuertas y de distintos tipos, generará un tiempo de respuesta mayor.
+- **Lógica de Dos Niveles:** La suma de mini términos o el producto de maxi términos representan la lógica dos niveles
+- **Lógica Multi nivel:** Son más costosos, ya que tienen más compuertas y de distintos tipos, generará un tiempo de respuesta mayor.
 
 ### Complejidad de Un circuito
 
