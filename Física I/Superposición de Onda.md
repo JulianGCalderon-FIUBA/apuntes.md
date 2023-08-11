@@ -11,13 +11,11 @@ $$
 \end{gathered}
 $$
 
----
-
 $$
 \xi_{\text{tot}} = 2A\cdot\sin(kx)\cdot\cos(\omega t)
 $$
 
-El **nodo** es el punto donde la perturbación es nula. El **vientre** es el punto donde la perturbación puede ser maxima.
+El **nodo** es el punto donde la perturbación es nula. El **vientre** es el punto donde la perturbación puede ser máxima.
 
 El modo de la onda $n$ determina la cantidad de vientres que tiene la onda. El primer modo se denomina onda estacionaria fundamental. Mientras que el segundo se denomina primer armónico.
 
@@ -41,7 +39,7 @@ $n=1,2,3,...$
 
 #### Un Extremo Fijo
 
-Si solo uno de los extremos esta fijo, entonces ese extremo es un nodo, y el otro extremo es un vientre.
+Si solo uno de los extremos está fijo, entonces ese extremo es un nodo, y el otro extremo es un vientre.
 
 $$
 f_n = (2n-1)\frac v{4L}
@@ -55,7 +53,7 @@ $n=1,2,3,...$
 
 En este caso, en los extremos la presión coincide con la presión atmosférica, por lo que son vientres. Debido a esto, el planteo es idéntico a la cuerda con extremos fijos.
 
-Si se resuelve con ondas de desplazamiento, entonces en los extremos se encuentran los vientres. Para facilitar el calculo, se usa $[\cos]$
+Si se resuelve con ondas de desplazamiento, entonces en los extremos se encuentran los vientres. Para facilitar el cálculo, se usa $[\cos]$
 
 $$
 \xi_{\text{tot}} = 2A\cdot\cos(kx)\cdot\sin(\omega t)
@@ -77,7 +75,7 @@ $n=1,2,3,...$
 
 Si cierro un extremo, entonces uno de los extremos es un nodo, y el otro es un vientre. Se resuelve como una cuerda con un extremo fijo.
 
-Si planteo las ondas de desplazamiento, entonces en el primer extremo se encuentra un vientre, y en el otro un nodo. para facilitar el calculo, se usa $[\cos]$
+Si planteo las ondas de desplazamiento, entonces en el primer extremo se encuentra un vientre, y en el otro un nodo. Para facilitar el cálculo, se usa $[\cos]$
 
 El planteo coincide con el de la cuerda con un extremo fijo.
 
@@ -93,7 +91,7 @@ Si la frecuencia de la onda es la misma que la frecuencia natural de la caja de 
 
 ## Batidos
 
-Los batidos ocurren cuando dos ondas armónicas de igual amplitud pero de frecuencias diferentes se propagan en el mismo medio
+Los batidos ocurren cuando dos ondas armónicas de igual amplitud, pero de frecuencias diferentes se propagan en el mismo medio
 
 $$
 \begin{gathered}
