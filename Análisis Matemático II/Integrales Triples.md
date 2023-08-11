@@ -1,4 +1,4 @@
-Similar a las integrales dobles, las integrales triples calculan el area a partir de pequeños cubos.
+Similar a las integrales dobles, las integrales triples calculan el área a partir de pequeños cubos.
 
 $$
 \iiint_V f(x,y,z)\cdot dxdydz
@@ -8,11 +8,11 @@ Si $f(x,y,z) = 0$, entonces de esta manera se calcula el volumen de un espacio t
 
 Si $f$ representa la densidad $\delta$ del cuerpo en el punto, entonces la integral triple representa la **masa** del cuerpo.
 
-$f$ debe ser continua en la region, (o continua salvo por una porción nula de volumen).
+$f$ debe ser continua en la región, (o continua salvo por una porción nula de volumen).
 
 ## Regiones Simples
 
-Se dice que una region es simple cuando se puede proyectar sobre uno de los planos coordenados. Para que un cuerpo sea proyectable, al trazar una recta perpendicular al plano, debe atravesar la region solo dos veces la region.
+Se dice que una región es simple cuando se puede proyectar sobre uno de los planos coordenados. Para que un cuerpo sea proyectable, al trazar una recta perpendicular al plano, debe atravesar la región solo dos veces la región.
 
 Si un cuerpo es proyectable, entonces puedo calcular su volumen utilizando dos campos escalares, que sean función de las variables del plano. $\Big(z = \varphi_1(x,y),\,z=\varphi_2(x,y)\Big)$
 
@@ -58,5 +58,7 @@ K = \rho^2\sin(\varphi)\cdot  d\varphi d\theta d\rho
 $$
 
 ![[Integrales Triples 1.png]]
+
+En la imagen, los parámetros varían según:
 
 $$\theta\in[0,2\pi],\,\varphi\in[0,\pi],\,\rho\in\mathbb{R}^+$$
