@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física II/Campo Eléctrico.md",
+                "file": "Algoritmos II/Árboles Auto Balanceados.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física II/Campo Eléctrico.md"
+                "file": "Algoritmos II/Árboles Auto Balanceados.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física II/Campo Eléctrico.md",
+                "file": "Algoritmos II/Árboles Auto Balanceados.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física II/Campo Eléctrico.md",
+                "file": "Algoritmos II/Árboles Auto Balanceados.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,6 +158,15 @@
   },
   "active": "524bc04d4da22735",
   "lastOpenFiles": [
+    "Sistemas Operativos/Attachments/Paginación Avanzada 1.png",
+    "Sistemas Operativos/Attachments/Los procesos 1.png",
+    "Sistemas Operativos/Archivos y Directorios.md",
+    "Sistemas Operativos/API de Memoria.md",
+    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
+    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
+    "Introducción a Sistemas Distribuidos/Attachments/Generalized Forwarding and SDN 1.png",
+    "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
+    "Física II/Campo Eléctrico.md",
     "Indice.md",
     "Untitled.canvas",
     "Attachments/Recording 20230811191147.webm",
@@ -181,11 +190,6 @@
     "Análisis Numérico/Búsqueda de Raíces.md",
     "Análisis Numérico/Bisección.md",
     "Organizacion de Datos/Ensambles.md",
-    "Matemática Discreta/Alfabeto.md",
-    "Modelos y Optimización I/Planteo Dual.md",
-    "Análisis Numérico/Métodos Iterativos.md",
-    "Análisis Numérico/Sistemas Lineales.md",
-    "Análisis Numérico/Descomposición de Cholesky.md",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",
     "Física II/Attachments/Potencia Activa y Reactiva 2.svg",
@@ -193,9 +197,6 @@
     "Física II/Attachments/Final 1.png",
     "Matemática Discreta/Attachments/Algoritmos 1.png",
     "Algoritmos I/Attachments/Recursividad 1.png",
-    "Análisis de la Información/Attachments/Casos de Uso 3.png",
-    "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 2.png",
-    "Física II/Attachments/Tercer Parcial 1.svg",
     "Base de Datos",
     "Algoritmos II/Attachments/Machete - AAB.pdf"
   ]
