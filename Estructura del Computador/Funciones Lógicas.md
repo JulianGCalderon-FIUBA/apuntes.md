@@ -24,7 +24,7 @@ a & b & f_1 & f_2 & f_3 & f_4 & f_5 & f_6 & f_7 & f_8 & f_9 & f_{10} & f_{11} & 
 
 $$
 
-Algunas de las funciones aca expresadas son conocidas
+Algunas de las funciones expresadas son conocidas
 
 - $f_2 - \text{and}: a.b$
 - $f_{15} - nand: \overline a + \overline b$
@@ -38,7 +38,7 @@ Cada función lógica tiene infinitas expresiones algebraicas que le corresponde
 
 ![[Funciones Lógicas 1.png]]
 
-### Suma de Minitérminos
+### Suma de mini términos
 
 Se genera a partir de las filas que contienen un $1$ en la columna de la función. Cada término contiene todas las variables booleanas multiplicadas, complementadas si valen $0$ en esa fila de la tabla
 
@@ -46,7 +46,7 @@ $$
 f(A,B,C) = \sum[m(2, 4, 5, 6)] =\overline ab\overline c + a \overline b \overline c + a \overline b c + ab \overline c
 $$
 
-### Producto de Maxitérminos
+### Producto de maxi términos
 
 Se genera a partir de las filas que contienen un $0$ en la columna de la función. Cada término contiene todas las variables booleanas sumadas, complementadas si valen $1$ en esa fila de la tabla
 

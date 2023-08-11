@@ -2,37 +2,37 @@ La tarea principal de una computadora es la de ejecutar un algoritmo, para esto 
 
 ## Arquitectura Harvard
 
-![[Micro Arquitectura 1.png]]
+![[Micro Arquitectura 1.png|500]]
 
-Este modelo corresponde a la arquitectura de las primeras computadoras, sin embargo tiene un problema. Estas computadoras no son facilmente programables, por lo que no pueden resolver todos los problemas.
+Este modelo corresponde a la arquitectura de las primeras computadoras, sin embargo, tiene un problema. Estas computadoras no son fácilmente programables, por lo que no pueden resolver todos los problemas.
 
-Se utiliza para dispositivos automaticos que no requieren programacion. Tiene pequeño volumen de memoria dedatos y de programa
+Se utiliza para dispositivos automáticos que no requieren programación. Tiene pequeño volumen de memoria de datos y de programa
 
 ## Arquitectura von Neumann
 
-![[Micro Arquitectura 2.png]]
+![[Micro Arquitectura 2.png|500]]
 
-En este modelo, se unifica el almacenamiento de datos con las instrucciones, lo que permite cargar facilmente un programa en memoria y ejecutarlo.
+En este modelo, se unifica el almacenamiento de datos con las instrucciones, lo que permite cargar fácilmente un programa en memoria y ejecutarlo.
 
-Es mas versatil lo que permite resolver una variedad de problemas.
+Es más versátil lo que permite resolver una variedad de problemas.
 
 ## Problema del Conexionado
 
-Cuando quiero conectar muchos dispositivos, no pueden estar todos conectados con el CPU directamente. Para resolver esto, se utilizan buses.
+Cuando quiero conectar muchos dispositivos, no pueden estar todos conectados con la CPU directamente. Para resolver esto, se utilizan buses.
 
-Lo mas comun es la utilizacion de tres lineas:
+Lo más común es la utilización de tres líneas:
 
-- **Linea de Datos:** Por aqui se envian los datos
-- **Linea de Direcciones:** Por aqui se envia la direccion con la que se esta comunicando el CPU
-- **Linea de Control:** Por aqui indica si los datos son de entrada o de salida
+- **Línea de Datos:** Por aquí se envían los datos
+- **Línea de Direcciones:** Por aquí se envía la dirección con la que se está comunicando la CPU
+- **Línea de Control:** Por aquí indica si los datos son de entrada o de salida
 
-De esta forma, todos los dispositivos se comunican con el procesador a traves del Bus
+De esta forma, todos los dispositivos se comunican con el procesador a través del Bus
 
-Este sistema de buses permite conectar componente de una computadora, asi como varias computadoras entre si. Los componentes electronicos dentro de un procesador tambien interactuan con el bus.
+Este sistema de buses permite conectar componente de una computadora, así como varias computadoras entre sí. Los componentes electrónicos dentro de un procesador también interactúan con el bus.
 
 ![[Micro Arquitectura 3.png]]
 
-En este sistema, los dipositivos de entrada y salida estan mapeados en memoria. En caso de no ser asi, se debera usar un bus distinto para comunicarse con ellos.
+En este sistema, los dispositivos de entrada y salida estan mapeados en memoria. En caso de no ser asi, se debera usar un bus distinto para comunicarse con ellos.
 
 ## Arquitectura del Microprocesador
 

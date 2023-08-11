@@ -90,6 +90,7 @@
     "Libraries",
     "dll",
     "loader",
-    "ARC"
+    "ARC",
+    "maxi"
   ]
 }
