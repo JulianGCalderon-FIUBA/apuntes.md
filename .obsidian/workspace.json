@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Indice.md",
+                "file": "Modelos y Optimización I/Planteo Dual.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "/\\t>",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Indice.md"
+                "file": "Modelos y Optimización I/Planteo Dual.md"
               }
             }
           },
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Indice.md",
+                "file": "Modelos y Optimización I/Planteo Dual.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Indice.md",
+                "file": "Modelos y Optimización I/Planteo Dual.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,6 +158,14 @@
   },
   "active": "524bc04d4da22735",
   "lastOpenFiles": [
+    "Análisis Numérico/Métodos Iterativos.md",
+    "Análisis Numérico/Sistemas Lineales.md",
+    "Análisis Numérico/Descomposición de Cholesky.md",
+    "Análisis Numérico/Análisis Numérico.md",
+    "Análisis Numérico/Interpolación Polinomial.md",
+    "Análisis Numérico/Polinomio de Hermite.md",
+    "Indice.md",
+    "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
     "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
     "Algoritmos II/Algoritmos II.md",
     "Estructura del Computador/Estructura del Computador.md",
@@ -164,14 +173,12 @@
     "Análisis de la Información/Análisis de la Información.md",
     "Álgebra II/Transformaciones Lineales.md",
     "Álgebra II/Álgebra II.md",
-    "Indice.md",
     "Análisis de la Información/Casos de Uso.md",
     "Análisis de la Información/Historias de Dominio.md",
     "Física I/Colisiones.md",
     "Sistemas Operativos/Archivos y Directorios.md",
     "Estructura del Computador/Funciones Lógicas.md",
     "Untitled.canvas",
-    "Análisis Numérico/Análisis Numérico.md",
     "Análisis Numérico/Búsqueda de Raíces.md",
     "Análisis Numérico/Iteración en un Punto Fijo.md",
     "Física II/Circuitos en Resonancia.md",
@@ -183,13 +190,7 @@
     "Física II/Attachments/Potencia Activa y Reactiva 2.svg",
     "Física II/Attachments/Potencia Activa y Reactiva 1.svg",
     "Física II/Attachments/Final 1.png",
-    "Física II/Física II.md",
     "Matemática Discreta/Attachments/Algoritmos 1.png",
-    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
-    "Introducción a Sistemas Distribuidos/Transport Layer/Connection-Oriented Transport TCP.md",
-    "Probabilidad y Estadistica/Distribuciones Continuas.md",
-    "Modelos y Optimización I/Introducción.md",
     "Algoritmos I/Attachments/Recursividad 1.png",
     "Análisis de la Información/Attachments/Casos de Uso 3.png",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 2.png",
