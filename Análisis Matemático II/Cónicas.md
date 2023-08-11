@@ -6,11 +6,13 @@ $$
 d(P, \vec r_0) = r
 $$
 
+Esta definida por la siguiente ecuación
+
 $$
 \boxed{x^2 + y^2 = r^2}
 $$
 
-$r$: Radio
+Se denota a $r$ como el radio de la circunferencia
 
 ## Elipse
 
@@ -20,17 +22,17 @@ $$
 d(P,F_1) + d(P,F_2) = 2a
 $$
 
+Esta definida por la siguiente ecuación
+
 $$
 \boxed{\displaystyle\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1}
 $$
 
-$a^2 = b^2 + c^2$
+Se definen:
 
-$a$: Semieje horizontal
-
-$b$: Semieje vertical
-
-$c$: Focos
+- $a$: Semieje horizontal
+- $b$: Semieje vertical
+- $c$: Focos
 
 ## Hipérbola
 

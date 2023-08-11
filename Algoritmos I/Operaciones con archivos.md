@@ -5,7 +5,7 @@ int leidos = fscanf(stream, formato, punteros);
 
 //Hay distintas alternativas para la condicion del ciclo
 while (leidos != EOF)
-			(leidos == nro) //nro: Cantidad de punteros
+		(leidos == nro) //nro: Cantidad de punteros
 {
     // Procesar
 		leidos = fscanf(stream, formato, punteros);
@@ -17,10 +17,10 @@ size_t leidos = fread(&buffer, sizeof(buffer), nro, stream);
 
 //Hay distintas alternativas para la condicion del ciclo
 while (leidos != 0)
-			(leidos == nro)
+		(leidos == nro)
 {
-		// Procesar
-		leidos = fread(&buffer, sizeof(buffer), nro, stream);
+	// Procesar
+	leidos = fread(&buffer, sizeof(buffer), nro, stream);
 }
 ```
 
@@ -41,28 +41,28 @@ size_t leidos_2 = fread(&buffer_2, sizeof(buffer_t), 1, stream_2);
 
 while (leidos_1 == 1 && leidos_2 == 1)
 {
-		if (buffer_1.clave <= buffer_2.clave)
-		{
-				fwrite(&buffer_1, sizeof(buffer_t), 1, mezcla);
-				leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
-		} 
-		else
-		{
-				fwrite(&buffer_2, sizeof(buffer_t), 1, mezcla);
-				leidos_2 = fread(&buffer_2, sizeof(buffer), 1, stream_2);
-		}
+	if (buffer_1.clave <= buffer_2.clave)
+	{
+		fwrite(&buffer_1, sizeof(buffer_t), 1, mezcla);
+		leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
+	} 
+	else
+	{
+		fwrite(&buffer_2, sizeof(buffer_t), 1, mezcla);
+		leidos_2 = fread(&buffer_2, sizeof(buffer), 1, stream_2);
+	}
 }
 
 while (leidos_1 == 1)
 {
-		fwrite(&buffer_1, sizeof(buffer_t), 1, mezcla);
-		leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
+	fwrite(&buffer_1, sizeof(buffer_t), 1, mezcla);
+	leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
 }
 
 while (leidos_2 == 1)
 {
-		fwrite(&buffer_2, sizeof(buffer_t), 1, mezcla);
-		leidos_2 = fread(&buffer_2, sizeof(buffer), 1, stream_2);
+	fwrite(&buffer_2, sizeof(buffer_t), 1, mezcla);
+	leidos_2 = fread(&buffer_2, sizeof(buffer), 1, stream_2);
 }
 
 ```
@@ -82,34 +82,34 @@ size_t leidos_2 = fread(&buffer_2, sizeof(buffer_t), 1, stream_2);
 
 while (leidos_1 == 1 && leidos_2 == 1)
 {
-		if (buffer_1.clave < buffer_2.clave)
-		{
-				fwrite(&buffer_1, sizeof(buffer_t), 1, union);
-				leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
-		} 
-		else if (buffer_1.clave > buffer_2.clave)
-		{ 
-				fwrite(&buffer_2, sizeof(buffer_t), 1, union);
-				leidos_2 = fread(&buffer_2, sizeof(buffer), 1, stream_2);
-		}
-		else
-		{
-				fwrite(&buffer_1, sizeof(buffer_t), 1, union);
-				leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
-				leidos_2 = fread(&buffer_2, sizeof(buffer), 1, stream_2);
-		}
+	if (buffer_1.clave < buffer_2.clave)
+	{
+		fwrite(&buffer_1, sizeof(buffer_t), 1, union);
+		leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
+	} 
+	else if (buffer_1.clave > buffer_2.clave)
+	{ 
+		fwrite(&buffer_2, sizeof(buffer_t), 1, union);
+		leidos_2 = fread(&buffer_2, sizeof(buffer), 1, stream_2);
+	}
+	else
+	{
+		fwrite(&buffer_1, sizeof(buffer_t), 1, union);
+		leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
+		leidos_2 = fread(&buffer_2, sizeof(buffer), 1, stream_2);
+	}
 }
 
 while (leidos_1 == 1)
 {
-		fwrite(&buffer_1, sizeof(buffer_t), 1, union);
-		leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
+	fwrite(&buffer_1, sizeof(buffer_t), 1, union);
+	leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
 }
 
 while (leidos_2 == 1)
 {
-		fwrite(&buffer_2, sizeof(buffer_t), 1, union);
-		leidos_2 = fread(&buffer_2, sizeof(buffer), 1, stream_2);
+	fwrite(&buffer_2, sizeof(buffer_t), 1, union);
+	leidos_2 = fread(&buffer_2, sizeof(buffer), 1, stream_2);
 }
 ```
 
@@ -128,20 +128,20 @@ size_t leidos_2 = fread(&buffer_2, sizeof(buffer_t), 1, stream_2);
 
 while (leidos_1 == 1 && leidos_2 == 1)
 {
-		if (buffer_1.clave < buffer_2.clave)
-		{
-				leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
-		} 
-		else if (buffer_1.clave > buffer_2.clave)
-		{ 
-				leidos_2 = fread(&buffer_2, sizeof(buffer), 1, stream_2);
-		}
-		else
-		{
-				fwrite(&buffer_1, sizeof(buffer_t), 1, intersec);
-				leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
-				leidos_2 = fread(&buffer_2, sizeof(buffer), 1, stream_2);
-		}
+	if (buffer_1.clave < buffer_2.clave)
+	{
+		leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
+	} 
+	else if (buffer_1.clave > buffer_2.clave)
+	{ 
+		leidos_2 = fread(&buffer_2, sizeof(buffer), 1, stream_2);
+	}
+	else
+{
+		fwrite(&buffer_1, sizeof(buffer_t), 1, intersec);
+		leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
+		leidos_2 = fread(&buffer_2, sizeof(buffer), 1, stream_2);
+	}
 }
 ```
 
@@ -160,25 +160,25 @@ size_t leidos_2 = fread(&buffer_2, sizeof(buffer_t), 1, stream_2);
 
 while (leidos_1 == 1 && leidos_2 == 1)
 {
-		if (buffer_1.clave < buffer_2.clave)
-		{
-				fwrite(&buffer_1, sizeof(buffer_t), 1, diferencia);
-				leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
-		} 
-		else if (buffer_1.clave > buffer_2.clave)
-		{ 
-				leidos_2 = fread(&buffer_2, sizeof(buffer), 1, stream_2);
-		}
-		else
-		{
-				leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
-				leidos_2 = fread(&buffer_2, sizeof(buffer), 1, stream_2);
-		}
+	if (buffer_1.clave < buffer_2.clave)
+	{
+		fwrite(&buffer_1, sizeof(buffer_t), 1, diferencia);
+		leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
+	} 
+	else if (buffer_1.clave > buffer_2.clave)
+	{ 
+		leidos_2 = fread(&buffer_2, sizeof(buffer), 1, stream_2);
+	}
+	else
+	{
+		leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
+		leidos_2 = fread(&buffer_2, sizeof(buffer), 1, stream_2);
+	}
 }
 
 while (leidos_1 == 1)
 {
-		fwrite(&buffer_1, sizeof(buffer_t), 1, diferencia);
-		leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
+	fwrite(&buffer_1, sizeof(buffer_t), 1, diferencia);
+	leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
 }
 ```
