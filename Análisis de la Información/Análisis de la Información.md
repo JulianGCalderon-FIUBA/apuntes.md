@@ -6,7 +6,7 @@
 - [[Arquitectura del Software]]
 - [[Técnicas de Descubrimiento de Requisitos]]
 - [[Taller de Análisis de Interesados]]
-- [[Web Rest API]]
+- [[Web REST API]]
 - [[Técnicas de Análisis, Modelado y Especificación]]
 - [[Historias de Dominio]]
 - [[Modelados de Dominio]]

@@ -13,7 +13,7 @@ $$
 ### Algoritmo
 
 1. A partir de $a_1, b_1$, busco el punto medio $p_1$
-2. Busco si el cambio de signo esta en el intervalo $[a_1, p_1]$ o $[p_1, b_1]$
+2. Busco si el cambio de signo está en el intervalo $[a_1, p_1]$ o $[p_1, b_1]$
 	1. Si $f(p_1) = 0$, encontré el punto.
 	2. Si $f(a_1)f(p_1) < 0$, defino $a_2:= a_1, b_2:= p_1$
 	3. Caso contrario, defino $a_2:= p_1, b_2:= b_1$
@@ -40,9 +40,9 @@ $$
 
 ### Iteraciones Necesarias
 
-Podemos encontrar la cantidad de iteraciones necesarias para asegurarnos de alcanzar tolerancia especifica.
+Podemos encontrar la cantidad de iteraciones necesarias para asegurarnos de alcanzar tolerancia específica.
 
-Sabemos que el problema siempre divide el intervalo a la mitad, por lo que la cota de error maxima siempre se divide en dos a cada iteración. De esta forma, podemos plantear:
+Sabemos que el problema siempre divide el intervalo a la mitad, por lo que la cota de error máxima siempre se divide en dos a cada iteración. De esta forma, podemos plantear:
 
 $$
 \|P_n - P\| \leq \frac{b-a}{2^n} < \varepsilon
@@ -52,7 +52,7 @@ $$
 n > \frac{\log(b-a) - \log(\varepsilon)}{\log(2)}
 $$
 
-Ya que el numero de iteraciones debe ser un numero natural. Redondeo para arriba para encontrar el próximo natural.
+Ya que el número de iteraciones debe ser un número natural. Redondeo para arriba para encontrar el próximo natural.
 
 La sucesión $p_n$ converge a $p$ con un radio de convergencia $O(1/2^n)$. Esto quiere decir, que
 

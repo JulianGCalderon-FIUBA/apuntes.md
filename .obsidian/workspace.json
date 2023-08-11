@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Análisis Matemático II.md",
+                "file": "Álgebra II/Autovalores y Autovectores.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9122a68e0bd97951",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Análisis Numérico/Búsqueda de Raíces.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Análisis Matemático II.md"
+                "file": "Análisis Numérico/Búsqueda de Raíces.md"
               }
             }
           },
@@ -108,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Análisis Matemático II.md",
+                "file": "Análisis Numérico/Búsqueda de Raíces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Análisis Matemático II.md",
+                "file": "Análisis Numérico/Búsqueda de Raíces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,13 +181,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5a8430dd205dfdc8",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
+    "Análisis Numérico/Bisección.md",
+    "Análisis Numérico/Ajuste.md",
+    "Análisis Numérico/Análisis Numérico.md",
+    "Análisis Numérico/Análisis Numérico 1.md",
+    "Análisis Matemático II/Análisis Matemático II.md",
+    "Análisis Matemático II/Análisis Matemático II 1.md",
+    "Análisis de la Información/Análisis de la Información.md",
+    "Análisis de la Información/Análisis de la Información 1.md",
+    "Algoritmos II/Algoritmos II.md",
+    "Algoritmos II/Algoritmos II 1.md",
+    "Algoritmos I/Algoritmos I.md",
+    "Algoritmos I/Algoritmos I 1.md",
+    "Álgebra II/Espacios Vectoriales.md",
+    "Álgebra II/Autovalores y Autovectores.md",
+    "Álgebra II/Algebra II 1.md",
+    "Álgebra II/Álgebra II.md",
     "Análisis Matemático II/Límites.md",
     "Análisis Matemático II/Métodos de resolución.md",
-    "Análisis Matemático II/Análisis Matemático II.md",
-    "Análisis Numérico/Análisis Numérico.md",
-    "Análisis Numérico/Ajuste.md",
     "Sistemas Operativos/Archivos y Directorios.md",
     "Organizacion de Datos/Arboles.md",
     "Sistemas Operativos/API de Threads.md",
@@ -184,19 +209,6 @@
     "Matemática Discreta/Alfabeto.md",
     "Análisis Matemático II/Topología.md",
     "Análisis Matemático II/Teoremas Integrales.md",
-    "Análisis Matemático II/Rectas y Planos.md",
-    "Análisis Matemático II/Propiedades de la diferenciabiliad.md",
-    "Análisis Matemático II/Polinomio de Taylor.md",
-    "Análisis Matemático II/Integrales Triples.md",
-    "Análisis Matemático II/Integrales Dobles.md",
-    "Análisis Matemático II/Integrales de Superficie.md",
-    "Análisis Matemático II/Integrales de Linea.md",
-    "Análisis Matemático II/Funciones Implicitas.md",
-    "Análisis Matemático II/Funciones de varias variables.md",
-    "Análisis Matemático II/Familias de Curvas.md",
-    "Algebra II/Algebra II.md",
-    "Análisis Matemático II/Extremos de campos escalares.md",
-    "Análisis Matemático II/Extremos Condicionados.md",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",
     "Análisis de la Información/Attachments/Historias de Usuario 6.png",

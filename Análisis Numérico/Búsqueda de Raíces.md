@@ -11,5 +11,5 @@ $$
 ## Métodos de Búsqueda
 
 - [[Bisección]]
-- [[Iteracion en un Punto Fijo]]
+- [[Iteración en un Punto Fijo]]
 - [[Newton-Raphson]]
