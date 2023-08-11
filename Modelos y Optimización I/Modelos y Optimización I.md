@@ -1,4 +1,4 @@
-- [[Introducción]]
+- [[Modelos y Optimización I/Introducción]]
 - [[Programación Lineal Continua]]
 - [[Patrones Comunes]]
 - [[Variables Enteras]]

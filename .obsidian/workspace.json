@@ -11,12 +11,8 @@
             "id": "d7263f3c743d6923",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Análisis Matemático II/Análisis Matemático II.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -84,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Análisis Matemático II/Análisis Matemático II.md"
-              }
+              "state": {}
             }
           },
           {
@@ -95,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Análisis Matemático II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Análisis Matemático II.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,33 +150,34 @@
   },
   "active": "d7263f3c743d6923",
   "lastOpenFiles": [
+    "Base de Datos/Base de Datos.md",
+    "index.md",
+    "Base de Datos/Introducción.md",
+    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
+    "Base de Datos",
+    "Sistemas Operativos/Sistemas Operativos.md",
+    "Introducción a Sistemas Distribuidos/Clases Practicas.md",
+    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
+    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Network Layer Data Plane.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
+    "Análisis Matemático II/Análisis Matemático II.md",
+    "Análisis Matemático II/Attachments/Attachments.md",
+    "Análisis Matemático II/Funciones Implícitas.md",
     "Estructura del Computador/Estructura del Computador.md",
     "Estructura del Computador/Attachments/Attachments.md",
     "Física I/Física I.md",
     "Fisica I/Fisica I.md",
     "Algoritmos I/Algoritmos I.md",
     "Álgebra II/Álgebra II.md",
-    "index.md",
     "Álgebra II/hola.md",
     "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
     "Matemática Discreta/Matemática Discreta.md",
     "Álgebra II/Descomposición en Valores Singulares.md",
-    "Sistemas Operativos/Sistemas Operativos.md",
     "Organizacion de Datos/Organizacion de Datos.md",
     "Estructura del Computador/Sistemas de Numeración.md",
     "Estructura del Computador/Sistema ARC.md",
     "Estructura del Computador/Simplificación de Funciones.md",
-    "Estructura del Computador/Representación (signo).md",
     "Estructura del Computador/Attachments/Simplificacion de Funciones 1.png",
-    "Estructura del Computador/Registros y Contadores.md",
-    "Estructura del Computador/Punto Flotante.md",
-    "Estructura del Computador/Pasajes de Base.md",
-    "Estructura del Computador/Operaciones Básicas.md",
-    "Estructura del Computador/Micro Arquitectura.md",
-    "Estructura del Computador/Funciones Lógicas.md",
-    "Estructura del Computador/Compiladores y Ensambladores.md",
-    "Estructura del Computador/Circuitos Sincrónicos.md",
-    "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",
     "Análisis de la Información/Attachments/Historias de Usuario 6.png",
