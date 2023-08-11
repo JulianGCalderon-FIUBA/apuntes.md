@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis de la Información/Casos de Uso.md",
+                "file": "Análisis de la Información/Historias de Usuario.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis de la Información/Casos de Uso.md"
+                "file": "Análisis de la Información/Historias de Usuario.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis de la Información/Casos de Uso.md",
+                "file": "Análisis de la Información/Historias de Usuario.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis de la Información/Casos de Uso.md",
+                "file": "Análisis de la Información/Historias de Usuario.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,9 +157,19 @@
   },
   "active": "5169f0d9ef8424bb",
   "lastOpenFiles": [
+    "Análisis de la Información/Ingeniería de Requisitos.md",
+    "Análisis de la Información/Innovación y Creatividad.md",
+    "Análisis de la Información/Historias de Usuario.md",
+    "Análisis de la Información/Historias de Dominio.md",
+    "Análisis de la Información/Gherkin.md",
+    "Análisis de la Información/Diseño de Datos.md",
+    "Análisis de la Información/Design Thinking.md",
+    "Análisis de la Información/Análisis de la Información.md",
+    "Análisis de la Información/Arquitectura del Software.md",
+    "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
+    "Análisis de la Información/Casos de Uso.md",
     "Algoritmos I/Recursividad.md",
     "Algoritmos I/Attachments/Recursividad 1.png",
-    "Análisis de la Información/Casos de Uso.md",
     "Análisis de la Información/Attachments/Casos de Uso 3.png",
     "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Cellular Internet Access.md",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 2.png",
@@ -176,16 +186,6 @@
     "Sistemas Operativos/API de Memoria.md",
     "Sistemas Operativos/API de Threads.md",
     "Física II/Trabajo de Campos.md",
-    "Física II/Referencia del Potencial.md",
-    "Física II/Potencia Activa y Reactiva.md",
-    "Física II/Materiales Magnéticos.md",
-    "Física II/Ley de Gauss.md",
-    "Física II/Ley de Faraday.md",
-    "Física II/Ley de Coulomb.md",
-    "Física II/Ley de Biot y Savalt.md",
-    "Física II/Ley de Ampere.md",
-    "Física II/Inductores.md",
-    "Física II/Fuerza Magnética.md",
     "Física II/Attachments/Final 1.png",
     "Física II/Attachments/Tercer Parcial 1.svg",
     "Física II/Attachments/Potencia Activa y Reactiva 1.svg",

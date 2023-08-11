@@ -79,7 +79,7 @@ Conjunto de disciplinas que en conjunto forman el proceso de software. En el pro
 
 Para adecuar los distintos aspectos, es necesario incluir más de una vista o perspectiva.
 
-![[Casos de Uso 8.png]]
+![[Casos de Uso 8.png|500]]
 
 La vista central se representa mediante casos de uso. Los casos de uso se diagraman en notación UML.
 
