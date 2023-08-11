@@ -54,7 +54,7 @@ Existen tres tipos de $n$-bolas
 
 **Según su conectividad:**
 
-- $A$ es *conv*exo *si con cada par de puntos de* $A$, el segmento que los une también pertenece a $A$
+- $A$ es *convexo* si con cada par de puntos de $A$, el segmento que los une también pertenece a $A$
 - $A$ es *conexo* si está formado por una sola parte
 - $A$ es *arco conexo* si *para cada par de puntos de* $A$ existe una curva *contenida en* $A$ que los une
 - Si $A$ es conexo, también es *simplemente conexo* si toda curva cerrada contenida en $A$, forma un conjunto contenido en $A$

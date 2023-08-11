@@ -5,7 +5,7 @@
 - [[Topología]]
 - [[Cuádricas]]
 - [[Funciones de varias variables]]
-- [[Limites]]
+- [[Límites]]
 - [[Curvas y superficies]]
 - [[Derivadas]]
 - [[Diferenciabilidad]]

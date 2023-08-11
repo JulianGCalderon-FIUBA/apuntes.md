@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Topología.md",
+                "file": "Análisis Matemático II/Análisis Matemático II.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a8430dd205dfdc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Análisis Matemático II/Análisis Matemático II.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path: \"Análisis de\"/!\\[\\[.*?\\]\\]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -85,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Topología.md"
+                "file": "Análisis Matemático II/Análisis Matemático II.md"
               }
             }
           },
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Topología.md",
+                "file": "Análisis Matemático II/Análisis Matemático II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Topología.md",
+                "file": "Análisis Matemático II/Análisis Matemático II.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,15 +169,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8e3870351fe83571",
+  "active": "5a8430dd205dfdc8",
   "lastOpenFiles": [
-    "Análisis Matemático II/Teoremas Integrales.md",
+    "Análisis Matemático II/Límites.md",
+    "Análisis Matemático II/Métodos de resolución.md",
+    "Análisis Matemático II/Análisis Matemático II.md",
+    "Análisis Numérico/Análisis Numérico.md",
+    "Análisis Numérico/Ajuste.md",
+    "Sistemas Operativos/Archivos y Directorios.md",
+    "Organizacion de Datos/Arboles.md",
+    "Sistemas Operativos/API de Threads.md",
+    "Algoritmos II/Algoritmos de Grafos.md",
+    "Matemática Discreta/Algoritmos.md",
+    "Matemática Discreta/Alfabeto.md",
     "Análisis Matemático II/Topología.md",
+    "Análisis Matemático II/Teoremas Integrales.md",
     "Análisis Matemático II/Rectas y Planos.md",
     "Análisis Matemático II/Propiedades de la diferenciabiliad.md",
     "Análisis Matemático II/Polinomio de Taylor.md",
-    "Análisis Matemático II/Métodos de resolución.md",
-    "Análisis Matemático II/Limites.md",
     "Análisis Matemático II/Integrales Triples.md",
     "Análisis Matemático II/Integrales Dobles.md",
     "Análisis Matemático II/Integrales de Superficie.md",
@@ -175,15 +197,6 @@
     "Algebra II/Algebra II.md",
     "Análisis Matemático II/Extremos de campos escalares.md",
     "Análisis Matemático II/Extremos Condicionados.md",
-    "Análisis Matemático II/Ecuaciones Diferenciales 2.md",
-    "Análisis Matemático II/Cónicas.md",
-    "Análisis Matemático II/Análisis Matemático II.md",
-    "Análisis Matemático II/Ecuaciones Diferenciales.md",
-    "Análisis Matemático II/Diferenciabilidad.md",
-    "Análisis Matemático II/Derivadas.md",
-    "Análisis Matemático II/Curvas y superficies.md",
-    "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
-    "Análisis Matemático II/Cuádricas.md",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",
     "Análisis de la Información/Attachments/Historias de Usuario 6.png",

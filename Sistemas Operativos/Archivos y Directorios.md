@@ -1,8 +1,8 @@
 En este capítulo, trataremos una pieza crítica para la virtualización de la computadora: **almacenamiento persistente.** Para eso, utilizaremos discos que almacenan información de forma permanente (o al menos, durante un largo tiempo).
 
-Necesitamos dos abstracciones claves para la virtualización del almacenamiento. El primero es un **archivo**, un archivo es simplemente una vector lineal de bytes. Todos los archivos tienen un nombre de bajo nivel, usualmente un número, que utilizaremos para referirnos a él. Solemos referirnos a este nombre como el ***inodo*.***
+Necesitamos dos abstracciones claves para la virtualización del almacenamiento. El primero es un **archivo**, un archivo es simplemente una vector lineal de bytes. Todos los archivos tienen un nombre de bajo nivel, usualmente un número, que utilizaremos para referirnos a él. Solemos referirnos a este nombre como el ***inodo***
 
-La segunda abstracción necesaria es la de un ***directorio***.*** Un directorio también tiene un **inodo**, pero sus contenidos son específicos. Contiene una lista de pares ***user-level-name*** low-level-name. La jerarquía de directorias comienza en el directorio raíz `/.`
+La segunda abstracción necesaria es la de un ***directorio***. Un directorio también tiene un **inodo**, pero sus contenidos son específicos. Contiene una lista de pares ***user-level-name*** low-level-name. La jerarquía de directorias comienza en el directorio raíz `/.`
 
 Los nombres de los archivos se separan en dos partes, separadas por un punto: `name.extension`. La primer parte es el nombre, a nivel de usuario, del archivo. La segunda parte es la extensión, le indica a los usuario de que forma interpretar el archivo.
 
@@ -32,9 +32,9 @@ Cuando llamamos a `write()`, entonces estos datos se guardan en un ***buffer*** 
 
 Muchas veces queremos operar con un archivo archivo, pero no de forma secuencial. Para eso, utilizaremos la ***syscall*** `lseek()`. utilizaremos un ***offset*** que nos permitirá leer de una dirección particular. El parámetro ***whence*** nos permite determinar cómo se va a realizar este ***seek***.
 
-- ***SEEK_SET*:** Nos permite movernos al offset indicado.
-- ***SEEK_CUR*:** Nos permite movernos desde la posición actual del archivo.
-- ***SEEK_END*:** Nos permite movernos desde la posición final del archivo.
+- ***SEEK_SET:*** Nos permite movernos al offset indicado.
+- ***SEEK_CUR:*** Nos permite movernos desde la posición actual del archivo.
+- ***SEEK_END:*** Nos permite movernos desde la posición final del archivo.
 
 ### Archivos Compartidos
 

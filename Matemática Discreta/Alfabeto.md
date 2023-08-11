@@ -2,7 +2,7 @@
 
 Un conjunto finito no vacío de elementos se denomina **alfabeto**, es designado con $\Sigma$.
 
-Un elemento $a \in \Sigma$ se denomina **letra***.***
+Un elemento $a \in \Sigma$ se denomina **letra**.
 
 Una sucesión de letras es una **palabra**. Por ejemplo, $x = abaac$. Llamamos **longitud** a la cantidad de letras de una palabra, designada $|x| = 5$.
 

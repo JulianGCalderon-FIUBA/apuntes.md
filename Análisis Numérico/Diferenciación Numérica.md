@@ -73,6 +73,6 @@ La extrapolación de richardson consiste en aproximar una derivada a partir de e
 
 Nuestro arbol de diferencias divididas se vera de la siguiente forma
 
-![[Diferenciación Numérica 1.png]]
+![[Diferenciacion Numerica 1.png]]
 
 Podemos encontrar que el orden de este metodo es del orden $O(h^{2k+2})$

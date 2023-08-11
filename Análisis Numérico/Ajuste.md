@@ -12,7 +12,7 @@ $$
 
 ## Lineal
 
-Si creemos que nuestros datos se asemejan a una función lineal, entonces aplicamos lo visto anterior mente para encontrar la mejor recta que aproxime.
+Si creemos que nuestros datos se asemejan a una función lineal, entonces aplicamos lo visto anteriormente para encontrar la mejor recta que aproxime.
 
 $$
 y = a + bx
@@ -97,7 +97,7 @@ $$
 
 ## Racional
 
-El modelo racional es un poco mas complejo, sin embargo se resuelve da la misma forma
+El modelo racional es un poco más complejo, sin embargo, se resuelve da la misma forma
 
 $$
 y = \frac{ax}{b + x}
@@ -126,4 +126,4 @@ $$
 
 ## Regresión por Polinomios
 
-El procedimiento es fácilmente extendible al ajuste de datos con un polinomio de orden superior.
+El procedimiento es fácilmente extensible al ajuste de datos con un polinomio de orden superior.
