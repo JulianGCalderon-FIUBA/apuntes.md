@@ -2,7 +2,7 @@ Breve resumen de los contenidos de la materia, consultar la bibliografía.
 
 - [[Sistemas de Numeración]]
 - [[Pasajes de Base]]
-- [[Operaciones Basicas]]
+- [[Operaciones Básicas]]
 - [[Representación (signo)]]
 - [[Estructura del Computador/Punto Flotante]]
 - [[Estructura del Computador/Álgebra de Boole]]

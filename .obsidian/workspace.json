@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estructura del Computador/Compiladores y Ensambladores.md",
+                "file": "Estructura del Computador/Funciones Lógicas.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estructura del Computador/Compiladores y Ensambladores.md"
+                "file": "Estructura del Computador/Funciones Lógicas.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estructura del Computador/Compiladores y Ensambladores.md",
+                "file": "Estructura del Computador/Funciones Lógicas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estructura del Computador/Compiladores y Ensambladores.md",
+                "file": "Estructura del Computador/Funciones Lógicas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
