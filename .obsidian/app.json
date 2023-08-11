@@ -91,6 +91,7 @@
     "dll",
     "loader",
     "ARC",
-    "maxi"
+    "maxi",
+    "ALU"
   ]
 }

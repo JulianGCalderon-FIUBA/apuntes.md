@@ -32,49 +32,49 @@ Este sistema de buses permite conectar componente de una computadora, así como 
 
 ![[Micro Arquitectura 3.png]]
 
-En este sistema, los dispositivos de entrada y salida estan mapeados en memoria. En caso de no ser asi, se debera usar un bus distinto para comunicarse con ellos.
+En este sistema, los dispositivos de entrada y salida están mapeados en memoria. En caso de no ser así, se deberá usar un bus distinto para comunicarse con ellos.
 
 ## Arquitectura del Microprocesador
 
-Para ejecutar un programa, el micropocesador realiza el llamado **Ciclo Fetch**, o ciclo de busqueda-ejecución.
+Para ejecutar un programa, el microprocesador realiza el llamado **Ciclo Fetch**, o ciclo de búsqueda-ejecución.
 
-1. Buscar en memoría la próxima instrucción a ser ejecutada
+1. Buscar en memoria la próxima instrucción a ser ejecutada
 2. Decodificar el código de operación de esa instrucción
 3. Ejecutar la instrucción
 4. Repetir
 
-Hay distintas formas de implementar este ciclo de busqueda, y estas varian en la velocidad o el consumo del mismo.
+Hay distintas formas de implementar este ciclo de búsqueda, y estas varían en la velocidad o el consumo del mismo.
 
 ### Unidad de Datos
 
-La unidad de datos es la parte del procesador que se encarga de realizar las operaciones y guardar los registros. Para realizar esto utiliza tres buses. Se puede realizar con menos buses, pero son soluciones mas lentas, ya que requiere mas ciclos de reloj para guardar los datos a usar en registros correspondientes, para luego ser usados.
+La unidad de datos es la parte del procesador que se encarga de realizar las operaciones y guardar los registros. Para realizar esto utiliza tres buses. Se puede realizar con menos buses, pero son soluciones más lentas, ya que requiere más ciclos de reloj para guardar los datos a usar en registros correspondientes, para luego ser usados.
 
-![[Micro Arquitectura 4.png]]
+![[Micro Arquitectura 4.png|527]]
 
-- **Bus A:** Esta conectado con la salida de los registros y con la primer entrada de la ALU. Ademas, esta conectado con la linea de direcciones.
-- **Bus B:** Esta conectado con la salida de los registros y con la segunda entrada de la ALU. Ademas, esta conectado con la linea de datos.
-- **Bus C**: Esta conectado con la entrada de los registros.
+- **Bus A:** Está conectado con la salida de los registros y con la primera entrada de la ALU. Además, está conectado con la línea de direcciones.
+- **Bus B:** Está conectado con la salida de los registros y con la segunda entrada de la ALU. Además, está conectado con la línea de datos.
+- **Bus C**: Está conectado con la entrada de los registros.
 
 Para operar con los registros, se utilizan tres decodificadores:
 
-- **Decodificador A:** Decide cual registro enviara sus datos por el bus A
-- **Decodificador B:** Decide cual registro enviara sus datos por el bus B
-- **Decodificador C:** Decide en cual registro se guardara la informacion del bus C
+- **Decodificador A:** Decide cuál registro enviará sus datos por el bus A
+- **Decodificador B:** Decide cuál registro enviará sus datos por el bus B
+- **Decodificador C:** Decide en cuál registro se guardará la información del bus C
 
-Para decidir esto, se utiliza el **tri-state buffer,** este utiliza una resistencia muy alta para no permitir que la informacion salga de los registros no necesarios, solo habilitando el registro buscado.
+Para decidir esto, se utiliza el **tri-state buffer,** este utiliza una resistencia muy alta para no permitir que la información salga de los registros no necesarios, solo habilitando el registro buscado.
 
-Ademas de los registros utilizados por el programador, el microprocesador tiene mas registros que son utilizados por el mismo para realizar operaciones.
+Además de los registros utilizados por el programador, el microprocesador tiene más registros que son utilizados por el mismo para realizar operaciones.
 
-- **Registros Temporales:** En estos registros se guardara informacion adicional que necesite el microporcesador.
-- **Registro IR:** En este registro se cargara la instrucción que se debe ejecutar
+- **Registros Temporales:** En estos registros se guardará información adicional que necesite el microprocesador.
+- **Registro IR:** En este registro se cargará la instrucción que se debe ejecutar
 
-La unidad de control contiene tambien el multiplexor del bus C. Este define si debe leer la información proveniente de la ALU o de la linea de datos.
+La unidad de control contiene también el multiplexor del bus C. Este define si debe leer la información proveniente de la ALU o de la línea de datos.
 
-No todos los registros se implementan de la misma forma, hay algunos con caracteristicas especiales:
+No todos los registros se implementan de la misma forma, hay algunos con características especiales:
 
-- **Registro %r0**: Este registro no necesita flip-flops ya que siempre vale 0.
-- **Registro PC:** Los ultimos dos bits valen siempre 0, por lo que no necesita flip flops alli.
-- **Registro IR:** Tiene salidas especiales para cada campo, tiene comunicacion bit a bit. Esto permite analizar la instruccion a ejecutar.
+- **Registro %r0**: Este registro no necesita flip-flops, ya que siempre vale 0.
+- **Registro PC:** Los últimos dos bits valen siempre 0, por lo que no necesita Flip Flops allí.
+- **Registro IR:** Tiene salidas especiales para cada campo, tiene comunicación bit a bit. Esto permite analizar la instrucción a ejecutar.
 
 #### ALU
 
