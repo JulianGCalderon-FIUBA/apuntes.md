@@ -57,42 +57,13 @@ Definimos, entonces, la reactancia inductiva $X_L = w\ L$. A mayor frecuencia, L
 
 ## Conclusión
 
-Vemos, entonces, que los tres elementos del circuito no modifican la frecuencia angular de la corriente, Sin embargo, Existirán desfasajes en la intensidad de la corriente. Además, la corriente varía según las propiedades de los elementos.
+Vemos, entonces, que los tres elementos del circuito no modifican la frecuencia angular de la corriente, sin embargo, Existirán desfasajes en la intensidad de la corriente. Ademas, la corriente varía según las propiedades de los elementos.
 
-|     | Amplitud $(i_0)$ | Fase $(\phi_i)$ | Desfasaje $(\phi_{iv})$ |
-| --- | ---------------- | --------------- | ----------------------- |
-| $R$ | $v_0                 |                 |                         |
-| $C$ |                  |                 |                         |
-
-$$
-\def\arraystretch{1.4}\begin{array}{|c|c|c|c|}\hline
-
-& \textbf{Amplitud } (i_0)  &
-\textbf{Fase } (\phi_i) & \textbf{Desfasaje } (\phi_{iv})
-
-\\\hline
-
-\textbf{R} & 
-\frac{v_0}{R} &
-\phi_v &
-0
-
-\\\hline
-
-\textbf{C} &
-\frac{v_0}{1/wc} &
-\phi_v + \frac{\pi}{2} &
-\frac{\pi}{2}
-
-\\\hline
-
-\textbf{L} &
-\frac{v_0}{wL} &
-\phi_v - \frac{\pi}{2} &
--\frac{\pi}{2}
-
-\\\hline\end{array}
-$$
+|     | Amplitud $(i_0)$ |   Fase $(\phi_i)$    | Desfasaje $(\phi_{iv})$ |
+|:---:|:----------------:|:--------------------:|:-----------------------:|
+| $R$ |  $\frac{v_0}R$   |       $\phi_v$       |            0            |
+| $C$ |     $v_0wc$      | $\phi_v + \frac\pi2$ |       $\frac\pi2$       |
+| $L$ | $\frac{v_0}{wL}$ | $\phi_v - \frac\pi2$ |      -$\frac\pi2$       |
 
 > [!note]
 > Si el desfasaje fluctúa entre $0$ y $\pi\over2$, tiene un comportamiento capacitivo. Si fluctúa entre $-{\pi\over2}$ y $0$, tiene un comportamiento inductivo.
