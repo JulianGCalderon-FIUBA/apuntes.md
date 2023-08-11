@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -156,7 +156,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "178700d707526f5b",
+  "active": "524bc04d4da22735",
   "lastOpenFiles": [
     "Análisis de la Información/Casos de Uso.md",
     "Análisis de la Información/Design Thinking.md",
