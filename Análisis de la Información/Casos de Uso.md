@@ -18,19 +18,19 @@ Si bien perdieron protagonista hoy en día, tienen su lugar en situaciones parti
 
 El formato breve simplemente contiene un título escrito en verbo en voz activa, más un objeto, y una descripción resumida del comportamiento.
 
-![[Casos de Uso 1.png]]
+![[Casos de Uso 1.png|500]]
 
 El formato de secuencia de acciones, se describen las acciones del actor y las respuestas una por una, de forma detallada. El sistema se describe como una caja negra, no muestra como se elabora la respuesta.
 
-![[Casos de Uso 2.png]]
+![[Casos de Uso 2.png|500]]
 
 El formato de dos columnas o diálogo, se separan las acciones en dos columnas separadas. Una para el actor y otra para el sistema.
 
-![[Casos de Uso 3.png]]
+![[Casos de Uso 3.png|500]]
 
 El formato más completo, contiene precondiciones, poscondiciones, y escenarios alternativos. También es usual agregar una sección para describir los requisitos no funcionales asociados al caso de uso
 
-![[Casos de Uso 4.png]]
+![[Casos de Uso 4.png|500]]
 
 ## ¿Como encontrarlos?
 
@@ -59,7 +59,7 @@ Cuando en un caso de uso encontramos comportamiento adicional u opcional, tambi�
 
 También encontraremos situaciones donde es necesario especializar un caso de uso. Debemos indicar que comportamiento se hereda sin cambiar, cuál se especializa, y cuál es nuevo y propio de la especialización
 
-![[Casos de Uso 7.png]]
+![[Casos de Uso 7.png|500]]
 
 ## Adicionales
 
