@@ -34,8 +34,8 @@ La ventaja de este sistema de representación es que es más fácil comprar expo
 
 Esta operación es muy costosa, mucho menos efectiva que en punto fijo.
 
-1. Calcular la diferencia $d$ de exponentes (cual es mayor)
-2. Correr $d$ posiciones a la derecha la coma del numero mayor
+1. Calcular la diferencia $d$ de exponentes (cuál es mayor)
+2. Correr $d$ posiciones a la derecha la coma del número mayor
 3. Sumar las mantisas
-4. El exponente del resultado es el del numero mayor
+4. El exponente del resultado es el del número mayor
 5. Normalizar la mantisa, ajustando el exponente de ser necesario.
