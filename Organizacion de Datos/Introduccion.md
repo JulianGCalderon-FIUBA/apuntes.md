@@ -7,7 +7,6 @@ Un **data engineer** se enfoca en la creación de infraestructura y arquitectura
 ## Machine Learning
 
 > "El aprendizaje automático es la ciencia (y el arte) de programar computadoras para que aprendan a partir de datos" ~ Aurélien Géron
->
 
 Consiste en entrenar un algoritmo para que aprenda a analizar los datos, estos algoritmos deberían poder adaptarse a nuevos conjuntos de datos sin tener que modificar las reglas. Muchas veces nos permiten entender mejor el problema y descubrir nuevas perspectivas para el análisis del mismo.
 

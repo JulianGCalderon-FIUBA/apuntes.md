@@ -40,7 +40,6 @@ $$
 Es una heurística de mejora, parte de una solución factible inicial. Esta puede ser la trivial, dada por el orden alfabético de las ciudades. Opera bajo una propiedad importante de los grafos:
 
 > Si un ciclo *hamiltoniano* se cruza a si mismo, puede ser fácilmente mejorado eliminando las aristas que se cruzan y volviendo a unir los caminos con aristas que no se unan.
->
 
 1. Se eliminan $k$ aristas del grafo
 2. Se reúnen los caminos con $k$ aristas nuevas

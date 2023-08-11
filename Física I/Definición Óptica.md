@@ -1,8 +1,18 @@
-## Notación
+## Definiciones
 
-**Aproximación Paraxial:** Se considera que los rayos que inciden sobre la superficie forman un ángulo pequeño, y su radio de curvatura es grande. Esto permite simplificar y deducir la expresión General. (Ecuación de Descartes)
+- **Aproximación Paraxial:** Se considera que los rayos que inciden sobre la superficie forman un ángulo pequeño, y su radio de curvatura es grande. Esto permite simplificar y deducir la expresión General. (Ecuación de Descartes)
+- **Sentido:** El $0$ está en la superficie, positivo en sentido contrario a la propagación de la luz incidente.
+- **Objeto:** Es la fuente de rayos.
+- **Imagen:** Es la fuente *aparente* de rayos, donde se genera la imagen del objeto,
+- **Imagen Real:** Los rayos convergen en un punto. Este punto es una imagen real.
+- **Imagen Virtual:** Los rayos divergen, pero sus proyecciones convergen en un punto. Este punto es una imagen virtual.
+- **Aumento:** Determina la relación entre el tamaño de un objeto y su imagen, y su orientación.
+- **Foco Objeto:** El foco objetó es el punto donde debo poner un objeto, para que la imagen se forme en el infinito.
+- **Foco Imagen:** El foco es el punto donde se forma la imagen, si el objeto está en el infinito.
+- **Objeto Virtual:** Un objeto virtual es la Imagen real de un objeto causada por - otro dispositivo, que su proyección es interrumpida por un segundo dispositivo óptico. De esta forma, el objeto es virtual y su posición está dada por la extensión de los rayos.
+- **Potencia**: Representa la inversa del foco objeto. $\displaystyle P=\frac1{f_o}$
 
-**Sentido:** El $0$ está en la superficie, positivo en sentido contrario a la propagación de la luz incidente.
+## Notación Matemática
 
 - $x_o:$ Posición del objeto
 - $x_i:$ Posición de la imagen.
@@ -14,24 +24,6 @@
 	- $-$ Invertida
 	- $>1:$ Mayor
 	- $< 1:$ Menor
-
-**Objeto:** Es la fuente de rayos.
-
-**Imagen:** Es la fuente *aparente* de rayos, donde se genera la imagen del objeto,
-
-**Imagen Real:** Los rayos convergen en un punto. Este punto es una imagen real.
-
-**Imagen Virtual:** Los rayos divergen, pero sus proyecciones convergen en un punto. Este punto es una imagen virtual.
-
-**Aumento:** Determina la relación entre el tamaño de un objeto y su imagen, y su orientación.
-
-**Foco Objeto:** El foco objeto es el punto donde debo poner un objeto, para que la imagen se forme en el infinito.
-
-**Foco Imagen:** El foco es el punto donde se forma la imagen, si el objeto esta en el infinito.
-
-**Objeto Virtual:** Un objeto virtual es la Imagen real de un objeto causada por otro dispositivo, que su proyección es interrumpida por un segundo dispositivo óptico. De esta forma, el objeto es virtual y su posición esta dada por la extension de los rayos.
-
-**Potencia**: Representa la inversa del foco objeto. $\displaystyle P=\frac1{f_o}$
 
 ## Reflexión: Espejos Esféricos
 

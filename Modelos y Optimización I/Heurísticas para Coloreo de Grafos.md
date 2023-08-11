@@ -1,7 +1,6 @@
 Inicialmente se resuelve el modelo con relajación lineal. Recordemos que la solución obtenida no servirá, ya que siempre encontrará que la solución óptima será la utilización de dos colores. Todos los nodos del grafos se colorean a la mitad, con ambos colores.
 
 > ***Teorema de Appel-Hanke:*** Un grafo planar es al menos **4-**coloreable. Este teorema fue demostrado con la ayuda de una computadora, categorizando los grafos planares en clases (con una cantidad finita de clases) y demostrando (por fuerza bruta) la condición para cada clase.
->
 
 ## Heurística Greedy
 

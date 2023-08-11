@@ -1,4 +1,4 @@
-La difracción ocurre cuando la ranura por la que pasa la luz, no es puntual. tiene un diámetro similar a la longitud de onda $\lambda$ de la onda. Debido a esto, se puede pensar a la difracción y a la interferencia como conceptos similares, pero varia en la cantidad de ondas que se analizan.
+La difracción ocurre cuando la ranura por la que pasa la luz, no es puntual. Tiene un diámetro similar a la longitud de onda $\lambda$ de la onda. Debido a esto, se puede pensar a la difracción y a la interferencia como conceptos similares, pero varía en la cantidad de ondas que se analizan.
 
 La constante o periodo de red $C$ define la cantidad de ranuras que se encuentran por unidad de longitud
 
@@ -6,10 +6,7 @@ $$
 C = \frac 1d
 $$
 
-**Principio de Huyggens-Fresnel:**
-
-> Todo punto sin obstrucción de un frente de onda se puede considerar como un emisor de una onda esférica secundaria (de la misma frecuencia que la primaria). La amplitud del campo óptico en cualquier punto posterior es la superposición de todas esas ondas secundarias
->
+**Principio de Huyggens-Fresnel:** Todo punto sin obstrucción de un frente de onda se puede considerar como un emisor de una onda esférica secundaria (de la misma frecuencia que la primaria). La amplitud del campo óptico en cualquier punto posterior es la superposición de todas esas ondas secundarias
 
 ## Difracción por una Rendija
 

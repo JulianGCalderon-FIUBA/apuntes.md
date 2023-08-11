@@ -133,9 +133,9 @@ A partir de este criterio, podemos demostrar por fuerza bruta que $K_5$ es el pr
 > [!proof]- Demostración
 > 
 >
-
-Por inducción podemos probar que para todos los grafos de orden mayor a > dos, se cumple que:
-
+>
+>Por inducción podemos probar que para todos los grafos de orden mayor a dos, se cumple que:
+>
 > $$
 > d(f_k) \geq 3, \forall k \in 0,\cdots, f
 > $$

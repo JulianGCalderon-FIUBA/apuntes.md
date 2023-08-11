@@ -77,7 +77,6 @@ Este algoritmo es una mejora al algoritmo de ID3:
 ## Random Forest
 
 > "**Muchos estimadores mediocres, promediados pueden ser muy buenos**"
->
 
 **Boostrap Aggregating:** Es una tecnica, o meta-algoritmo que dice lo siguiente:
 
