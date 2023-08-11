@@ -1,6 +1,6 @@
 ## Circuitos Compuestos
 
-Cuando tenemos circuitos con mas de un componente, vamos a tener que realizar operaciones entre *cosenos* para hallar una expresión para la corriente del circuito.
+Cuando tenemos circuitos con más de un componente, vamos a tener que realizar operaciones entre *cosenos* para hallar una expresión para la corriente del circuito.
 
 Vamos a querer hallar los valores instantáneos del circuito: $i(t), v_q(t)$.
 
@@ -40,7 +40,7 @@ $$
 \mathbb{R} e(\tilde I(t)) = i(t)
 $$
 
-Tambien, podemos integrar y derivar el fasor de la corriente.
+También, podemos integrar y derivar el fasor de la corriente.
 
 $$
 \int \tilde I(t) dt = \frac{-j\tilde I(t)}{w}
@@ -72,7 +72,7 @@ $$
 \boxed{\Bbb V = \Bbb I \cdot \mathbb{Z}}
 $$
 
-Reescribimos la impedancia del circuito como un numero complejo, así obtenemos una relación entre las amplitudes y las faces del circuito.
+Reescribimos la impedancia del circuito como un número complejo, así obtenemos una relación entre las amplitudes y las faces del circuito.
 
 $$
 |z| = \sqrt{R^2 + (X_L - X_C)^2}
@@ -94,7 +94,7 @@ $$
 \text{Impedancias}:X_L = wL \quad X_c = \frac {1}{wC}
 $$
 
-Tambien podemos definir las amplitudes en su forma eficaz, este determina el valor cuadrático medio de las funciones $v_q(t)$, $i(t)$. Esto es útil ya que cuando medimos el voltaje y la corriente con un instrumento, obtendremos los valores eficaces.
+También podemos definir las amplitudes en su forma eficaz, este determina el valor cuadrático medio de las funciones $v_q(t)$, $i(t)$. Esto es útil, ya que cuando medimos el voltaje y la corriente con un instrumento, obtendremos los valores eficaces.
 
 $$
 V_{ef} = \frac{V_0}{\sqrt 2}
@@ -105,7 +105,7 @@ I_{ef} = \frac{I_0}{\sqrt 2}
 $$
 
 > [!note]
-> En argentina, la red domiciliaria tiene un voltaje efectivo de $220\ V$, y una frecuencia de $50\ Hz$.
+> En Argentina, la red domiciliaria tiene un voltaje efectivo de $220\ V$, y una frecuencia de $50\ Hz$.
 > 
 > La amplitud pico es aproximadamente $311\ V$.
 
@@ -130,7 +130,7 @@ De esta forma, podemos aplicar estas definiciones a cualquier circuito alterno, 
 
 ### Diagrama de Impedancias
 
-El diagrama de impedancias grafica las tres impedancias: $\mathbb{Z}_r$, $\mathbb{Z}_i$, $\mathbb{Z}_c$. Dependiendo de hacia donde apunta la impedancia total, determina el tipo de circuito que se trata. Circuito inductivo si la impedancia inductiva esta por encima de la impedancia resistiva.
+El diagrama de impedancias grafica las tres impedancias: $\mathbb{Z}_r$, $\mathbb{Z}_i$, $\mathbb{Z}_c$. Dependiendo de hacia donde apunta la impedancia total, determina el tipo de circuito que se trata. Circuito inductivo si la impedancia inductiva está por encima de la impedancia resistiva.
 
 ### Diagrama Fasorial
 

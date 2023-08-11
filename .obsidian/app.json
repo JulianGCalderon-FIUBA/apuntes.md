@@ -119,6 +119,10 @@
     "Circuital",
     "Kirchhoff",
     "cosenoidal",
-    "Drude"
+    "Drude",
+    "torque",
+    "torque",
+    "LIH",
+    "Savart"
   ]
 }

@@ -1,4 +1,4 @@
-Maxwell cambio algunas formulas que vimos en la materia, para que sean mas precisas. Y abarquen el caso dinámico. Considero que las leyes de Gauss ya eran validas en el caso dinámico.
+Maxwell cambió algunas fórmulas que vimos en la materia, para que sean más precisas. Y abarquen el caso dinámico. Considero que las leyes de Gauss ya eran válidas en el caso dinámico.
 
 > "La visión unificadora de Maxwell es la mayor alteración en nuestra concepción de la estructura de la realidad desde Newton" ~ Einstein
 
@@ -12,7 +12,7 @@ $$
 \vec\nabla \times \vec H = \vec j + \color{Teal}{\frac{\partial\vec D}{\partial t}}
 $$
 
-Maxwell introdujo un termino adicional, que corresponde a las corrientes de desplazamiento. Esto se debe a que cuando trabajamos con corrientes que dependen del tiempo, la ley de ampere es invalida. El flujo de la corriente sobre una superficie cerrada no es nulo (como indica la ley original)
+*Maxwell* introdujo un término adicional, que corresponde a las corrientes de desplazamiento. Esto se debe a que cuando trabajamos con corrientes que dependen del tiempo, la ley de ampere es inválida. El flujo de la corriente sobre una superficie cerrada no es nulo (como indica la ley original)
 
 ## Ley de Faraday-Maxwell
 
@@ -24,8 +24,8 @@ $$
 \color{Teal}{\vec\nabla \times \vec E =  -\frac{\partial\vec B}{\partial t}}
 $$
 
-Maxwell reinterpreto la ley de Faraday. Indicando que todo campo variable en el tiempo genera, además de una campo magnético inducido, un campo eléctrico.
+Maxwell reinterpretó la ley de Faraday. Indicando que todo campo variable en el tiempo genera, además de un campo magnético inducido, un campo eléctrico.
 
-Esta nueva interpretación parece cerrar el ciclo del electromagnetismo. Los campos eléctricos ejercen fuerzas sobre las cargas estacionarias, quienes crean campos eléctricos. Por otro lado los campos magnéticos ejercen fuerzas sobre las corrientes, quienes crean campos magnéticos. Gracias a la ley de Ohm, Biot-Savart y Ampere, encontramos que los campos eléctricos generan corrientes y a su vez, campos magnéticos.
+Esta nueva interpretación parece cerrar el ciclo del electromagnetismo. Los campos eléctricos ejercen fuerzas sobre las cargas estacionarias, quienes crean campos eléctricos. Por otro lado, los campos magnéticos ejercen fuerzas sobre las corrientes, quienes crean campos magnéticos. Gracias a la ley de Ohm, Biot-Savalt y Ampere, encontramos que los campos eléctricos generan corrientes y a su vez, campos magnéticos.
 
-Por ultimo, y gracias a Maxwell, encontramos que los campos magnéticos variables crean campos eléctricos (aunque no haya corrientes).
+Por último, y gracias a Maxwell, encontramos que los campos magnéticos variables crean campos eléctricos (aunque no haya corrientes).

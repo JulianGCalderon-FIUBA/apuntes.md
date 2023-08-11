@@ -1,4 +1,4 @@
-Los aislantes o dieléctricos no poseen electrones libres, por lo que no sera posible el desplazamiento de carga a través de ellos.
+Los aislantes o dieléctricos no poseen electrones libres, por lo que no será posible el desplazamiento de carga a través de ellos.
 
 ## Modelo Elemental de Dieléctricos
 
@@ -7,15 +7,15 @@ Los aislantes o dieléctricos no poseen electrones libres, por lo que no sera po
 
 ### Dipolo Puntual
 
-Esta formado por dos cargas $q$, de mismo modulo y signo opuesto, separadas una distancia $\delta$. Nos interesa el campo del dipolo para valores mucho mayores que $\delta$.
+Está formado por dos cargas $q$, del mismo módulo y signo opuesto, separadas una distancia $\delta$. Nos interesa el campo del dipolo para valores mucho mayores que $\delta$.
 
-**Momento Dipolar** $p$**:** Vector cuyo modulo es el producto $(q\cdot\delta)$ y tiene la dirección de la recta que une ambas cargas, apuntando hacia la carga positiva.
+**Momento Dipolar** $p$**:** Vector cuyo módulo es el producto $(q\cdot\delta)$ y tiene la dirección de la recta que une ambas cargas, apuntando hacia la carga positiva.
 
-Si el dipolo se encuentra en un campo eléctrico, se produce un torque $**\tau$** sobre el mismo. Este torque tiende a alinear el dipolo $(p)$ en la dirección del campo externo.
+Si el dipolo se encuentra en un campo eléctrico, se produce un torque $\tau$ sobre el mismo. Este torque tiende a alinear el dipolo $(p)$ en la dirección del campo externo.
 
 ## Experimentos de Faraday
 
-**Experimento 1:**
+### Experimento 1
 
 1. Se carga un capacitor en el vacío
 2. Se desconecta la pila (carga neta permanece constante)
@@ -23,7 +23,7 @@ Si el dipolo se encuentra en un campo eléctrico, se produce un torque $**\tau$*
 
 **Resultado:** La diferencia de potencial entre las placas es menor al de la pila, es decir, aumenta la capacidad del capacitador. (carga constante)
 
-**Experimento 2:**
+### Experimento 2
 
 1. Se carga un capacitor en el vacío
 2. Se deja conectada la pila (carga neta puede variar)
@@ -35,7 +35,7 @@ Si el dipolo se encuentra en un campo eléctrico, se produce un torque $**\tau$*
 
 El dieléctrico se polariza por acción del campo eléctrico del capacitador.
 
-![[Dielectricos 1.jpg]]
+![[Dielectricos 1.jpg|350]]
 
 Entonces podemos diferenciar dos tipos de cargas
 
@@ -85,11 +85,11 @@ $$
 $$
 
 > [!note]
-> Podemos ver que el campo eléctrico se reduce debido al campo de polarización, por lo que la diferencia de potencial entre las placas sera menor.
+> Podemos ver que el campo eléctrico se reduce debido al campo de polarización, por lo que la diferencia de potencial entre las placas será menor.
 
 ### Permitividad Dieléctrica Relativa
 
-Es un factor que representa el la relación entre la densidad de cargas antes y después de introducir un dieléctrico.
+Es un factor que representa la relación entre la densidad de cargas antes y después de introducir un dieléctrico.
 
 $$
 \delta = \delta_0 + \delta_\text{pol}
@@ -115,7 +115,7 @@ $$
 
 Siendo $\varepsilon$ la permitividad eléctrica del material, y $\varepsilon_r$ la permitividad dieléctrica relativa. $(\varepsilon_r \geq 1)$.
 
-A partir de la ***relación* constitutiva**, podemos llegar a la siguiente formula.
+A partir de la ***relación* constitutiva**, podemos llegar a la siguiente fórmula.
 
 $$
 P = \varepsilon_0 \cdot(\varepsilon_r - 1) \cdot \vec E \quad\quad\quad \varepsilon_r - 1 = X_E
@@ -125,7 +125,7 @@ Siendo $X_e$ La susceptibilidad dieléctrica. $(X_E \geq 0)$.
 
 #### Campo Desplazamiento a $Q$ constante
 
-El campo desplazamiento esta generado solo por las cargas libres, por lo que el campo desplazamiento con o sin dieléctrico es el mismo.
+El campo desplazamiento está generado solo por las cargas libres, por lo que el campo desplazamiento con o sin dieléctrico es el mismo.
 
 Siendo $E_0$ el campo eléctrico sin dieléctrico y $E$ el campo eléctrico con dieléctrico, entonces:
 
@@ -162,7 +162,7 @@ Por lo tanto, tenemos:
 - $\rho_p:\text{Densidad Volumetrica}$
 - $\sigma_p:\text{Densidad Superficial}$
 
-**Cargas Volumétricas**
+### Cargas Volumétricas
 
 A partir de la ley de Gauss en su forma diferencial, y las relaciones anteriormente mencionadas, podemos relación la densidad volumétrica de cargas polarizadas con la densidad volumétrica de cargas libres en el dieléctrico
 
@@ -170,9 +170,9 @@ $$
 \rho_p = \frac{-X_e}{\varepsilon_r}\cdot\rho_{libres}
 $$
 
-Si el dieléctrico esta descargado, entonces la densidad volumétricas de cargas polarizadas es nula.
+Si el dieléctrico está descargado, entonces la densidad volumétrica de cargas polarizadas es nula.
 
-**Cargas Superficiales**
+### Cargas Superficiales
 
 A partir de la ley de Gauss en su forma integral, podemos calcular el flujo del campo polarización en la superficie (con un largo de altura infinitesimal).
 
@@ -182,4 +182,4 @@ $$
 
 ## Ruptura Dieléctrica
 
-Todos los dieléctricos tienen un punto en el que se rompen, y dejan de tener sus propiedades. Este punto es el campo máximo. Tambien se da como el máximo voltaje operativo, que se refiere al máximo diferencial de potencial que acepta un dieléctrico.
+Todos los dieléctricos tienen un punto en el que se rompen, y dejan de tener sus propiedades. Este punto es el campo máximo. También se da como el máximo voltaje operativo, que se refiere al máximo diferencial de potencial que acepta un dieléctrico.

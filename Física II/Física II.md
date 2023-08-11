@@ -7,7 +7,7 @@
 - [[Referencia del Potencial]]
 - [[Conductores]]
 - [[Capacitores]]
-- [[Dielectricos]]
+- [[Dieléctricos]]
 
 ## Segundo Parcial
 
