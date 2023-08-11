@@ -2,7 +2,7 @@
 
 **Aproximación Paraxial:** Se considera que los rayos que inciden sobre la superficie forman un ángulo pequeño, y su radio de curvatura es grande. Esto permite simplificar y deducir la expresión General. (Ecuación de Descartes)
 
-**Sentido:** El $0$ esta en la superficie, positivo en sentido contrario a la propagación de la luz incidente.
+**Sentido:** El $0$ está en la superficie, positivo en sentido contrario a la propagación de la luz incidente.
 
 - $x_o:$ Posición del objeto
 - $x_i:$ Posición de la imagen.

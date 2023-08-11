@@ -14,7 +14,7 @@ $$
 \text{Ley de la reflexion: }\quad \boxed{\theta_i = \theta_r}
 $$
 
-![[Óptica Geométrica 1.png]]
+![[Optica Geometrica 1.png]]
 
 ### Refracción
 
@@ -24,7 +24,7 @@ $$
 \text{Ley de Snell: }\quad \boxed{n_i\cdot\sin\theta_i = n_r\cdot\sin\theta_r}
 $$
 
-![[Óptica Geométrica 2.png]]
+![[Optica Geometrica 2.png]]
 
 > El de mayor índice tiene menor ángulo.
 
@@ -36,11 +36,11 @@ $$
 
 Las superficies planas son las mas simples de analizar, se calculan las posiciones a partir de la ***Ley de Snell*** y la ***Ley de Reflexión.***
 
-![[Óptica Geométrica 3.png]]
+![[Optica Geometrica 3.png]]
 
 > Reflexión
 
-![[Óptica Geométrica 4.png]]
+![[Optica Geometrica 4.png]]
 
 > Refracción
 
@@ -48,7 +48,7 @@ Las superficies planas son las mas simples de analizar, se calculan las posicion
 
 Esta formado por el conjunto de rayos que parten de los extremos del objeto y llegan al ojo. A mayor distancia, menor ángulo visual. El campo del espejo es el espacio que puede verse por el espejo desde el punto en cuestión.
 
-![[Óptica Geométrica 5.png]]
+![[Optica Geometrica 5.png]]
 
 ## Prisma
 
@@ -70,10 +70,10 @@ $$
 r = \frac{\varphi}{2}
 $$
 
-![[Óptica Geométrica 6.png]]
+![[Optica Geometrica 6.png]]
 
 ## Concavidad
 
 Los espejos cóncavos convergen la luz, mientras que lo convexos la divergen.
 
-![[Óptica Geométrica 7.png]]
+![[Optica Geometrica 7.png]]

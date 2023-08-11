@@ -10,7 +10,7 @@ $$
 v_{a\|} = v_{b\|} \qquad \vec v_{B/A} \perp \vec r_{B/A}
 $$
 
-![[Cuerpo Rígido 1.png]]
+![[Cuerpo Rigido 1.png|340]]
 
 > [!note]
 > Un cuerpo rígido sigue siendo un sistema de partículas, que cumple con la condición de rigidez
