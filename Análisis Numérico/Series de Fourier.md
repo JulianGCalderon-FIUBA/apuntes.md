@@ -76,7 +76,7 @@ $$
 \boxed{f(t) = \sum_{n=-\infty}^\infty c_n e^{in\omega t}}
 $$
 
-Análogamente como en el caso anterior, los **coeficientes** se encuentran a partir de la siguiente integral
+Análogamente, como en el caso anterior, los **coeficientes** se encuentran a partir de la siguiente integral
 
 $$
 c_n = \frac{1}{T} \int_d^{d+T} f(t) e^{-in\omega t}dt \qquad n=0, \pm1, \pm2, \cdots
@@ -86,7 +86,7 @@ $$
 
 Si $f(t)$ es una función periódica que en cualquier periodo tiene:
 
-- Un numero finito de máximos y mínimos aislados
-- Un numero finito de puntos de discontinuidad finita
+- Un número finito de máximos y mínimos aislados
+- Un número finito de puntos de discontinuidad finita
 
-Entonces la expansion en serie de Fourier de $f(t)$ converge a $f(t)$ donde $f$ es continua y al promedio de los limites por derecha y por izquierda donde $f$ es discontinua.
+Entonces la expansión en serie de Fourier de $f(t)$ converge a $f(t)$ donde $f$ es continua y al promedio de los límites por derecha y por izquierda donde $f$ es discontinua.

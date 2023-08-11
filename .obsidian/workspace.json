@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Numérico/Refinamiento Iterativo.md",
+                "file": "Estructura del Computador/Álgebra de Boole.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Numérico/Refinamiento Iterativo.md"
+                "file": "Estructura del Computador/Álgebra de Boole.md"
               }
             }
           },
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Numérico/Refinamiento Iterativo.md",
+                "file": "Estructura del Computador/Álgebra de Boole.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Numérico/Refinamiento Iterativo.md",
+                "file": "Estructura del Computador/Álgebra de Boole.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,12 +183,16 @@
   },
   "active": "9122a68e0bd97951",
   "lastOpenFiles": [
+    "Análisis Numérico/Trazador Cúbico - Spline.md",
+    "Análisis Numérico/Sistemas no Lineales.md",
+    "Análisis Numérico/Sistemas Lineales.md",
+    "Análisis Numérico/Series de Fourier.md",
+    "Análisis Numérico/Refinamiento Iterativo.md",
     "Análisis Numérico/Punto Flotante.md",
     "Análisis Numérico/Polinomio de Lagrange y Newton.md",
     "Análisis Numérico/Polinomio de Hermite.md",
     "Análisis Numérico/Newton-Raphson.md",
     "Análisis Numérico/Métodos Iterativos.md",
-    "Análisis Numérico/Sistemas Lineales.md",
     "Análisis Numérico/Errores.md",
     "Análisis Numérico/Error en Métodos Iterativos.md",
     "Análisis Numérico/Análisis Numérico.md",
@@ -205,10 +209,6 @@
     "Análisis Numérico/Búsqueda de Raíces.md",
     "Análisis Numérico/Bisección.md",
     "Análisis Numérico/Ajuste.md",
-    "Análisis Numérico/Análisis Numérico 1.md",
-    "Análisis Matemático II/Análisis Matemático II.md",
-    "Análisis Matemático II/Análisis Matemático II 1.md",
-    "Análisis de la Información/Análisis de la Información.md",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",
     "Análisis de la Información/Attachments/Historias de Usuario 6.png",

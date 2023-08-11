@@ -14,7 +14,7 @@ El trazador cúbico es una función partida que cumple las siguientes condicione
     S_j(x_{j+1}) = S_{j+1}(x_{j+1})\quad ,j = 0\dots n{-}2
     $$
 
-3. Las derivada debe ser una función continua.
+3. La derivada debe ser una función continua.
 
 	$$
     S'_j(x_{j+1}) = S'_{j+1}(x_{j+1})\quad ,j = 0\dots n{-}2
@@ -30,7 +30,7 @@ El trazador cúbico es una función partida que cumple las siguientes condicione
 	1. Libre: $S''(x_0) = S''(x_n)$
 	2. Ligada: $S'(x_0) = f'(x_0) \quad S'(x_n) = f'(x_n)$
 
-Para que se cumpla esto, la spline tendrá la siguiente estructura
+Para que se cumpla esto, la Spline tendrá la siguiente estructura
 
 $$
 S(x) = \begin{cases}
@@ -53,6 +53,7 @@ Para encontrar las $4n$ constantes, entonces debo plantear las condiciones y res
 Si resolvemos el sistema en forma genérica, llegamos al siguiente sistema de ecuaciones cerrado
 
 $$
+\begin{gathered}
 \begin{bmatrix}
 
 1 & 0 & 0 & \dotsb & \dotsb & 0 \\
@@ -68,7 +69,7 @@ h_0 & 2(h_0+h_1) & h_1 & 0 & \dotsb & 0 \\
 
 c_0 \\ c_1 \\ c_2 \\ \vdots\\ \vdots\\ c_n
 
-\end{bmatrix} 
+\end{bmatrix} \\
 
 = 
 
@@ -81,6 +82,7 @@ c_0 \\ c_1 \\ c_2 \\ \vdots\\ \vdots\\ c_n
 0
 
 \end{bmatrix}
+\end{gathered}
 $$
 
 Una vez hallados los $c_j$, debemos encontrar $b_j$ y $d_j$ a partir de las siguientes ecuaciones.

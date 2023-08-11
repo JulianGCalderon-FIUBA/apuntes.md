@@ -64,6 +64,7 @@
     "FFT",
     "Weierstrass",
     "Gauss-Seidel",
-    "Hermite"
+    "Hermite",
+    "Spline"
   ]
 }

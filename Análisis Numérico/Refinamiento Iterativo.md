@@ -33,7 +33,7 @@ $$
 
 El refinamiento iterativo consiste en, a cada iteración de un método iterativo, sumarle la solución del sistema para el vector residual.
 
-1. Encontramops aproximación $\widetilde x^{(1)}$, para $Ax = b$
-2. Encontrar la  aproximación $\widetilde y^{(1)}$, para $Ay = r$, siendo $r = b-A\widetilde x^{(1)}$
+1. Encontramos la aproximación $\widetilde x^{(1)}$, para $Ax = b$
+2. Encontramos la aproximación $\widetilde y^{(1)}$, para $Ay = r$, siendo $r = b-A\widetilde x^{(1)}$
 3. Luego encontramos la siguiente aproximación $\widetilde x^{(2)} = \widetilde x^{(1)} + \widetilde y^{(1)}$
 4. Repetir este algoritmo hasta llegar a la cota de error deseada
