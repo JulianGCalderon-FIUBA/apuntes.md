@@ -39,16 +39,16 @@
     "Iterador",
     "desreferenciado",
     "modularizado",
-    "Microservicios",
+    "microservicios",
     "diagraman",
     "UML",
     "microservicios",
-    "Escalaciones",
+    "escalaciones",
     "COTS",
     "tercerizar",
     "grisados",
     "URD",
-    "diferencabilidad",
+    "diferenciabilidad",
     "EDO",
     "Weierstras",
     "Cholesky",
@@ -58,6 +58,10 @@
     "Runge",
     "Kutta",
     "esimo",
-    "Lipschitz"
+    "Lipschitz",
+    "Raphson",
+    "DFT",
+    "FFT",
+    "Weierstrass"
   ]
 }

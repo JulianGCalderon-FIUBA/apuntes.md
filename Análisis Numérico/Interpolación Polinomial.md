@@ -4,13 +4,11 @@ La interpolación polinomial consiste en que dicha función sea un polinomio, de
 
 1. Dada una función continua en un intervalo cerrado, existe un polinomio que está tan cerca de la función como se desee.
 
-	**Teorema de Aproximación de Weierstrass:**
-
-	Supongamos que $f$ esta definida y es continua en $[a,b]$. Para cada $\varepsilon > 0$ existe un polinomio $P$ con la propiedad. $\|f(x) - P(x)\| \in \varepsilon, \quad \forall x\in[a,b]$
+	**Teorema de Aproximación de Weierstrass:** Supongamos que $f$ está definida y es continua en $[a,b]$. Para cada $\varepsilon > 0$ existe un polinomio $P$ con la propiedad. $\|f(x) - P(x)\| \in \varepsilon, \quad \forall x\in[a,b]$
 
 2. La derivada y la integral indefinida de un polinomio son fáciles de determinar.
 
-## Métodos de Interpolacion
+## Métodos de Interpolación
 
 - [[Polinomio de Lagrange y Newton]]
 - [[Polinomio de Hermite]]

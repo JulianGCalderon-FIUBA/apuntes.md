@@ -31,7 +31,7 @@ Este método genera aproximaciones a la solución $y(t)$ en distintos valores, l
 
 La distancia $h$ entre los puntos recibe el nombre de **paso**.
 
-Planteamos un polinomio de Taylor centrado en $t_i$, para hallar una aproximación para la solución de $y(t_{i+1}) \approx y_{i+1}$, despreciando el termino del error.
+Planteamos un polinomio de Taylor centrado en $t_i$, para hallar una aproximación para la solución de $y(t_{i+1}) \approx y_{i+1}$, despreciando el término del error.
 
 $$
 y_{i+1} = y_i + hf(t_i, y_i); \quad y(a) = y_0
@@ -78,7 +78,7 @@ Por lo que si $a_1 = 0$, entonces tenemos el método de Euler.
 
 ### Runge-Kutta de Orden 2
 
-Para el orden $2$. se puede demostrar que la contantes respetan el sistema de ecuaciones
+Para el orden $2$. Se puede demostrar que las contantes respetan el sistema de ecuaciones
 
 $$
 \begin{cases}
@@ -101,7 +101,7 @@ $$
 
 ### Runge-Kutta del Orden 3
 
-Para el orden $3$, se generan seis ecuaciones con ocho incognitas. La versión más común de este método es:
+Para el orden $3$, se generan seis ecuaciones con ocho incógnitas. La versión más común de este método es:
 
 $$
 \begin{cases}
@@ -115,7 +115,7 @@ $$
 
 ### Runge-Kutta del Orden 4
 
-Para el orden $3$, se generan seis ecuaciones con ocho incognitas. La versión más común de este método es:
+Para el orden $3$, se generan seis ecuaciones con ocho incógnitas. La versión más común de este método es:
 
 $$
 \begin{cases}

@@ -32,7 +32,7 @@ x(N-1)
 \end{pmatrix}
 $$
 
-Para calcular la matriz. nos ayudamos de las siguientes propiedades:
+Para calcular la matriz. Nos ayudamos de las siguientes propiedades:
 
 $$
 W_N^{k+N} = W_{N}^k
@@ -44,7 +44,7 @@ $$
 
 ## FFT
 
-La transformada rápida de Fourier es un método mucho mas rápido para calcular la DFT, su velocidad proviene de la utilización de resultados previos para el calculo de la misma
+La transformada rápida de Fourier es un método mucho más rápido para calcular la DFT, su velocidad proviene de la utilización de resultados previos para el cálculo de la misma
 
 Para implementarlo, descomponemos una $DFT$ como la suma de dos $NFT$ de la mitad de puntos, lo que reduce la complejidad numérica a casi la mitad. Separamos los puntos impares de los puntos pares.
 
@@ -62,7 +62,7 @@ $$
 X^{(n)}(k) = X_0^{(N/2)} + e^{-i2\pi k/ N} X_1^{(N/2)}(k)  \qquad \text{para }k = 0, \cdots, N -1
 $$
 
-Podemos simplificar aun mas esta expresión ya que $X_0, X_1$ son periódicas cada $N/2$, por lo que obtenemos que
+Podemos simplificar aún más esta expresión, ya que $X_0, X_1$ son periódicas cada $N/2$, por lo que obtenemos que
 
 $$
 X^{(N)}(k) = X_0^{(N/2)}(k) + W_{N}^kX_1^{(N/2)}(k)

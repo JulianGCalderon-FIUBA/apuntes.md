@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Numérico/Ecuaciones Diferenciales Ordinarias.md",
+                "file": "Análisis Numérico/Interpolación Polinomial.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Numérico/Ecuaciones Diferenciales Ordinarias.md"
+                "file": "Análisis Numérico/Interpolación Polinomial.md"
               }
             }
           },
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Numérico/Ecuaciones Diferenciales Ordinarias.md",
+                "file": "Análisis Numérico/Interpolación Polinomial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Numérico/Ecuaciones Diferenciales Ordinarias.md",
+                "file": "Análisis Numérico/Interpolación Polinomial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,6 +183,9 @@
   },
   "active": "9122a68e0bd97951",
   "lastOpenFiles": [
+    "Análisis Numérico/Integración Numérica.md",
+    "Análisis Numérico/FFT.md",
+    "Análisis Numérico/Errores.md",
     "Análisis Numérico/Error en Métodos Iterativos.md",
     "Análisis Numérico/Ecuaciones Diferenciales Ordinarias.md",
     "Análisis Numérico/Ecuaciones Diferenciales de Orden Superior.md",
@@ -206,9 +209,6 @@
     "Álgebra II/Espacios Vectoriales.md",
     "Álgebra II/Autovalores y Autovectores.md",
     "Álgebra II/Algebra II 1.md",
-    "Álgebra II/Álgebra II.md",
-    "Análisis Matemático II/Límites.md",
-    "Análisis Matemático II/Métodos de resolución.md",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",
     "Análisis de la Información/Attachments/Historias de Usuario 6.png",

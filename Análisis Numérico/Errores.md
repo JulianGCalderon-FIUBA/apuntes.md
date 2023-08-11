@@ -1,4 +1,4 @@
-Los errores son una herramienta mas, no deben pensarse como algo negativo. No se pueden ignorar y hay que trabajar con ellos.
+Los errores son una herramienta más, no deben pensarse como algo negativo. No se pueden ignorar y hay que trabajar con ellos.
 
 ## Fuente de Errores
 
@@ -15,7 +15,7 @@ A diferencia de redondeo, en truncamiento se desprecian términos de forma consi
 - **Error Relativo:** Relación entre el error absoluto y la magnitud del valor medido. $e_r = \frac{\Delta x}{x}$
 - **Resultado Final:** El resultado final se expresa como $x = \overline x + \Delta x$
 
-La cota se expresa con una sola cifra significativa redondeando hacia arriba mientras que el valor medido se redondea (al mas cercano) hasta el orden de magnitud de la cota
+La cota se expresa con una sola cifra significativa redondeando hacia arriba, mientras que el valor medido se redondea (al más cercano) hasta el orden de magnitud de la cota
 
 Para calcular la cota de error de una función, se utiliza la siguiente fórmula
 
