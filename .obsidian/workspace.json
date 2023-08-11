@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Funciones Implicitas.md",
+                "file": "Análisis Matemático II/Integrales de Superficie.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Funciones Implicitas.md"
+                "file": "Análisis Matemático II/Integrales de Superficie.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Funciones Implicitas.md",
+                "file": "Análisis Matemático II/Integrales de Superficie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Funciones Implicitas.md",
+                "file": "Análisis Matemático II/Integrales de Superficie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,8 +165,11 @@
   },
   "active": "d7263f3c743d6923",
   "lastOpenFiles": [
+    "Análisis Matemático II/Integrales de Linea.md",
+    "Análisis Matemático II/Funciones Implicitas.md",
     "Análisis Matemático II/Funciones de varias variables.md",
     "Análisis Matemático II/Familias de Curvas.md",
+    "Algebra II/Algebra II.md",
     "Análisis Matemático II/Extremos de campos escalares.md",
     "Análisis Matemático II/Extremos Condicionados.md",
     "Análisis Matemático II/Ecuaciones Diferenciales 2.md",
@@ -188,9 +191,6 @@
     "Análisis de la Información/Web Rest API.md",
     "Análisis de la Información/Innovación y Creatividad.md",
     "Análisis de la Información/Introducción a la Ingeniería de Software.md",
-    "Análisis de la Información/Requisitos en Contexto.md",
-    "Análisis de la Información/Verificar y Validar requerimientos.md",
-    "Análisis de la Información/Técnicas de Descubrimiento de Requisitos.md",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",
     "Análisis de la Información/Attachments/Historias de Usuario 6.png",

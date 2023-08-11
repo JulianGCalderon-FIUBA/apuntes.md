@@ -129,6 +129,5 @@ Se resuelve integrando y derivando respecto de $x,y,z$.
 
 Sea $F$ un campo de fuerzas, entonces es conservativo en $D$ si $J_F$ es simétrico y continuo en $D$, y $D$ es simplemente conexo.
 
-**Simplemente conexo:**
-
-Un conjunto es simplemente conexo si para toda curva cerrada contenida en $D$, la puedo contraer hasta tener un solo punto, tambien incluido en $D$.
+> [!definition] Simplemente Conexo
+> Un conjunto es simplemente conexo si para toda curva cerrada contenida en $D$, la puedo contraer hasta tener un solo punto, también incluido en $D$.
