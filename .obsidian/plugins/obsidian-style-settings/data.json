@@ -5,5 +5,8 @@
   "minimal-style@@h4-size": "1em",
   "minimal-style@@h6-size": "0.80em",
   "minimal-style@@h5-size": "0.90em",
-  "minimal-style@@image-grid-fit": "contain"
+  "minimal-style@@image-grid-fit": "contain",
+  "minimal-style@@col-lines": false,
+  "minimal-style@@table-lines": true,
+  "minimal-style@@maximize-tables-off": "maximize-tables-off"
 }
