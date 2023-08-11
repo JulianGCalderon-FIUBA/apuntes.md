@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física II/Física II.md",
+                "file": "Física II/Inductores.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física II/Física II.md"
+                "file": "Física II/Inductores.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física II/Física II.md",
+                "file": "Física II/Inductores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física II/Física II.md",
+                "file": "Física II/Inductores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,6 +156,10 @@
   },
   "active": "5123070076cf8950",
   "lastOpenFiles": [
+    "Física II/Ley de Ampere.md",
+    "Física II/Inductores.md",
+    "Física II/Fuerza Magnética.md",
+    "Física II/Física II.md",
     "Física II/Fasores Complejos.md",
     "Física II/Ecuaciones de Maxwell.md",
     "Física II/Dieléctricos.md",
@@ -188,10 +192,6 @@
     "Física I/Óptica Geométrica.md",
     "Física I/Ondas Mecánicas.md",
     "Física I/Ondas de Sonido.md",
-    "Física I/Movimiento Circular.md",
-    "Física I/Movimiento armónico simple.md",
-    "Física I/Momento y Torque.md",
-    "Física I/Magnitudes escalares y vectoriales.md",
     "Base de Datos",
     "Algoritmos II/Attachments/Machete - AAB.pdf",
     "Untitled.canvas"

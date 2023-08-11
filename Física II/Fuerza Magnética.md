@@ -46,6 +46,6 @@ $$
 
 El motor de corriente continua consiste de dos partes, una espira y un conmutador (invierte la corriente)
 
-Primero le aplicamos a una espira plana un campo eléctrico uniforme y lo hacemos rotar. Una vez que hace un giro de 180 grados, el sentido de la corriente de la espira se invierte por lo que el sentido de rotación se mantiene. De esta forma, el motor continua girando.
+Primero le aplicamos a una espira plana un campo eléctrico uniforme y lo hacemos rotar. Una vez que hace un giro de 180 grados, el sentido de la corriente de la espira se invierte, por lo que el sentido de rotación se mantiene. De esta forma, el motor continúa girando.
 
 ![[Fuerza Magnetica 1.png]]

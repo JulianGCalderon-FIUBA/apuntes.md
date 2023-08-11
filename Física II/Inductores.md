@@ -1,4 +1,4 @@
-Los inductores son bobinados, alrededor de un cierto material magnético $(\mu_r)$. Este bobinado, tendrá un coeficiente de autoinducción $L_1$, una corriente $I_1$, y un número de vueltas o espiras $N$ y una longitud $l_1$
+Los inductores son bobinados, alrededor de un cierto material magnético $(\mu_r)$. Este bobinado tendrá un coeficiente de autoinducción $L_1$, una corriente $I_1$, y un número de vueltas o espiras $N$ y una longitud $l_1$
 
 Este bobinado generará un campo de inducción magnética $\vec B$, dentro del material magnético, en sentido del mismo.
 
@@ -30,11 +30,11 @@ $$
 
 ### Notación Circuital
 
-Los puntos rojos (bornes homólogos) indican el sentido de de la corriente, si los bornes están del mismo lado, los campos que genera cada inductor son aditivos.
+Los puntos rojos (bornes homólogos) indican el sentido de la corriente, si los bornes están del mismo lado, los campos que genera cada inductor son aditivos.
 
 Las dos líneas paralelas del medio, indican que ambos inductores están sobre un mismo material magnético
 
-![[Inductores 1.png]]
+![[Inductores 1.png|300]]
 
 Si yo quiero calcular la diferencia de potencial de esos inductores, debo calcular:
 
@@ -62,7 +62,7 @@ El signo de $\pm$ varía si los bornes son homólogos $(+)$ o no homólogos $(-)
 
 ## Energía en Inductores
 
-Son componentes, capaces de almacenar energía. Esta energía, será el trabajo que me cueste *energizar* ese inductor.
+Son componentes, capaces de almacenar energía. Esta energía será el trabajo que me cueste *energizar* ese inductor.
 
 $$
 U = W = \int_0^t P(t) \cdot dt = \int_0^I i(t)\cdot L \cdot di
@@ -77,7 +77,7 @@ $$
 
 ### Acoplamiento Magnético
 
-Si los inductores están en acoplamiento magnético. Vamos a dividir la carga de energía en dos, para simplificar el calculo.
+Si los inductores están en acoplamiento magnético. Vamos a dividir la carga de energía en dos, para simplificar el cálculo.
 
 Primero hacemos circular una corriente por el circuito uno hasta que $t_1$, que esta corriente sea estacionaria. Una vez que esta corriente es estacionaria, hacemos circular corriente por el circuito dos. Hasta un $t_2$, donde se vuelve estacionaria.
 
@@ -93,13 +93,13 @@ $$
 U_T = U_1 + U_2 = \frac 12 L_1 I_1^2 + \frac 12 L_2 I_2^2\ \color{Red}{\pm}\  MI_1 I_2
 $$
 
-El signo de $\pm$ varia si los bornes son homólogos $(+)$ o no homólogos $(-)$
+El signo de $\pm$ varía si los bornes son homólogos $(+)$ o no homólogos $(-)$
 
 ## Transformador Ideal
 
-Compuesto por un toroide de un cierto material magnético. Alrededor del toroide tiene envuelto dos solenoides de $N_1, N_2$ espiras. Podemos encontrar una relación entre el numero de espiras entre $N_1$ y $N_2$, para lograr transformar el voltaje desde $\varepsilon_1$ a $\varepsilon_2$
+Compuesto por un toroide de un cierto material magnético. Alrededor del toroide tiene envuelto dos solenoides de $N_1, N_2$ espiras. Podemos encontrar una relación entre el número de espiras entre $N_1$ y $N_2$, para lograr transformar el voltaje desde $\varepsilon_1$ a $\varepsilon_2$
 
-![[Inductores 2.png]]
+![[Inductores 2.png|375]]
 
 $$
 \frac{\varepsilon_1}{\varepsilon_2} = \frac{N_1}{N_2}
