@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b053a7316ad58c74",
+        "id": "e5ff24e8f37d841e",
         "type": "tabs",
         "children": [
           {
-            "id": "5169f0d9ef8424bb",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "468c4fcda50cd664",
+            "id": "524bc04d4da22735",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
+                "file": "Indice.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md"
+                "file": "Indice.md"
               }
             }
           },
@@ -104,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
+                "file": "Indice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
+                "file": "Indice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,10 +155,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "468c4fcda50cd664",
+  "active": "524bc04d4da22735",
   "lastOpenFiles": [
-    "Modelos y Optimización I/Modelos y Optimización I.md",
+    "Untitled.canvas",
     "Indice.md",
+    "Análisis Numérico/Análisis Numérico.md",
+    "Análisis Numérico/Búsqueda de Raíces.md",
+    "Análisis Numérico/Iteración en un Punto Fijo.md",
+    "Física II/Circuitos en Resonancia.md",
+    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
+    "Modelos y Optimización I/Modelos y Optimización I.md",
     "Análisis de la Información/Análisis de la Información.md",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Álgebra II/Autovalores y Autovectores.md",
@@ -192,18 +189,11 @@
     "Análisis de la Información/Historias de Usuario.md",
     "Análisis de la Información/Ingeniería de Requisitos.md",
     "Análisis de la Información/Innovación y Creatividad.md",
-    "Análisis de la Información/Historias de Dominio.md",
-    "Análisis de la Información/Gherkin.md",
-    "Análisis de la Información/Diseño de Datos.md",
-    "Análisis de la Información/Design Thinking.md",
-    "Análisis de la Información/Arquitectura del Software.md",
-    "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
     "Algoritmos I/Attachments/Recursividad 1.png",
     "Análisis de la Información/Attachments/Casos de Uso 3.png",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 2.png",
     "Física II/Attachments/Tercer Parcial 1.svg",
     "Base de Datos",
-    "Algoritmos II/Attachments/Machete - AAB.pdf",
-    "Untitled.canvas"
+    "Algoritmos II/Attachments/Machete - AAB.pdf"
   ]
 }
