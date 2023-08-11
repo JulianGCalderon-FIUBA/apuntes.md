@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.md"
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,8 +157,8 @@
   "active": "5123070076cf8950",
   "lastOpenFiles": [
     "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
-    "Introducción a Sistemas Distribuidos/Clases Practicas.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.md",
+    "Introducción a Sistemas Distribuidos/Clases Practicas.md",
     "Sistemas Operativos/API de Memoria.md",
     "Sistemas Operativos/API de Threads.md",
     "Física II/Trabajo de Campos.md",

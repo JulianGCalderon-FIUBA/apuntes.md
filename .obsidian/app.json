@@ -130,6 +130,8 @@
     "WEP",
     "XOR",
     "KSA",
-    "PRGA"
+    "PRGA",
+    "WPA",
+    "particionamiento"
   ]
 }

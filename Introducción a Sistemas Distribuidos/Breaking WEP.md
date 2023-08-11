@@ -107,7 +107,7 @@ $$
 K[I+B] = S_{I+B-1}^{-1}[\text{Out}] - j_{I+B-1} - S_{I+B-1}[I+B]
 $$
 
-Algo importante a notar, es que este ataque requiere de una gran cantidad de paquetes encriptados con distintos $\text{IVs}$, por lo que si los ***hosts*** en lugar de utilizar valores distintos cada vez, alternan entre dos o una pequeña cantidad valores distintos, entonces el ataque deja de funcionar.
+Algo importante a notar, es que este ataque requiere de una gran cantidad de paquetes encriptados con distintos $\text{IVs}$, por lo que si los ***hosts,*** en lugar de utilizar valores distintos cada vez, alternan entre dos o una pequeña cantidad valores distintos, entonces el ataque deja de funcionar.
 
 Cabe notar que si ocurre esto, la red será susceptible a otro tipo de ataques. Debido a que es posible obtener el flujo de claves a través del cifrado y el valor desencriptado, si un ataque obtiene esto podrá desencriptar fácilmente todos los paquetes provenientes del mismo vector de inicialización, incluso sin conocer la clave.
 
@@ -129,13 +129,13 @@ Necesitamos dos elementos fundamentales para la ejecución de este ataque. La pr
 
 Estos programas configuran el adaptador de red en modo ***promiscuo***. Este permite que los ***frames*** no destinados a nuestro dispositivo (a partir de la dirección ***MAC***), no sean descartados.
 
-El segundo elemento que necesitamos, es conocer la primera palabra del segmentos de datos enviado, sin encriptar. Al conocer esto, y con el segmento cifrado, podremos determinar la primera palabra del flujo de claves.
+El segundo elemento que necesitamos, es conocer la primera palabra de los segmentos de datos enviados, sin encriptar. Al conocer esto, y con el segmento cifrado, podremos determinar la primera palabra del flujo de claves.
 
 ## 6. Obtención de Paquetes
 
-Como vimos, el método requiere de inicialmente, recolectar un gran numero de paquetes cifrados con distintos $\text{IVs}$. Una opción es esperar el tiempo necesario hasta recolectar los paquetes requeridos, pero existe un truco para acelerar el proceso.
+Como vimos, el método requiere de, inicialmente, recolectar un gran número de paquetes cifrados con distintos $\text{IVs}$. Una opción es esperar el tiempo necesario hasta recolectar los paquetes requeridos, pero existe un truco para acelerar el proceso.
 
-Otra opción, es la de tomar un paquetes ya perteneciente a la red (encriptado con el mismo algoritmo), y reenviárselo repetidamente a uno de los nodos de la red. Esto también aumentara la carga de la red.
+Otra opción es la de tomar un paquete ya perteneciente a la red (encriptado con el mismo algoritmo), y reenviárselo repetidamente a uno de los nodos de la red. Esto también aumentará la carga de la red.
 
 Recordemos que el ataque es un ataque pasivo, por lo que este paso no es necesario, pero altamente efectivo.
 
@@ -153,4 +153,4 @@ El atacante debe conocer el contenido real de un paquete encriptado, de esta for
 
 ## 9. Evolución de WEP
 
-A principios de 2001, se empezaron a identificar varias debilidades a partir de analistas criptográficos. Unos meses mas tarde, la ***IEEE*** creó la corrección de seguridad ***802.11i*** para neutralizar esto. En ***2004***, finalmente, el estándar ***802.11i***, también conocido como ***WPA***, fue ratificado.
+A principios de 2001, se empezaron a identificar varias debilidades a partir de analistas criptográficos. Unos meses más tarde, el **IEEE** creó la corrección de seguridad ***802.11i*** para neutralizar esto. En ***2004***, finalmente, el estándar ***802.11i***, también conocido como ***WPA***, fue ratificado.
