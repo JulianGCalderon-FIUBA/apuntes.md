@@ -137,7 +137,7 @@ Para obtener que instrucción de la ROM se debe realizar, se utiliza el OP, segu
 
 Para las instrucciones de Assembly que no contienen **OP3**, se le asigna a toda instrucción posible un mismo microcódigo, delegándole al mismo identificar cuál operación es. Por ejemplo, branches, sethi, call.
 
-Para no repetir el microcódigo en cada instrucción, se puede utilizar la **nanoprogramación.** Consiste en remplazar la tabla de *2048words x 41bits* por una tabla de *2048words x 7bits*, donde se redirige a una nueva tabla de *100words x 41bits*, la cual contiene el microcódigo para cada operación.
+Para no repetir el microcódigo en cada instrucción, se puede utilizar la **nanoprogramación.** Consiste en remplazar la tabla de *2048 words x 41 bits* por una tabla de *2048 words x 7 bits*, donde se redirige a una nueva tabla de *100 words x 41 bits*, la cual contiene el microcódigo para cada operación.
 
 #### **Tablas de Operaciones**
 

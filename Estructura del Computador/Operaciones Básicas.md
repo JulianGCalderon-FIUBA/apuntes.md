@@ -1,10 +1,10 @@
 ## Complemento
 
-Complemento de un numero en base $b$ indica cuanto le falta al numero para llegar a su base. Si $n > b$, entonces su complemento indica cuanto le falta al numero para llegar al numero de la base seguido de tantos dígitos como $n$. Es decir, su distancia a $b^d$ siendo $d$ los dígitos de $n$
+Complemento de un número en base $b$ índica cuanto le falta al número para llegar a su base. Si $n > b$, entonces su complemento indica cuanto le falta al número para llegar al número de la base seguido de tantos dígitos como $n$. Es decir, su distancia a $b^d$ siendo $d$ los dígitos de $n$
 
 ## Sumar en Base $b$
 
-Sumo columna a columna a partir del siguiente método. Siendo $n$ el mayor y $m$ el menor.
+Sumo columna a partir del siguiente método. Siendo $n$ el mayor y $m$ el menor.
 
 1. Tomo el numero mas grande $n$
 2. Busco su complemento $c$
