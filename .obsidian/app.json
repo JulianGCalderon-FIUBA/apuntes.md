@@ -118,6 +118,7 @@
     "Capacitores",
     "Circuital",
     "Kirchhoff",
-    "cosenoidal"
+    "cosenoidal",
+    "Drude"
   ]
 }

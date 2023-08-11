@@ -4,13 +4,13 @@ La corriente continua o **CC** ocurre cuando las cargas dentro de los conductore
 
 El campo eléctrico dentro del conductor es nulo solo si se encuentra en *equilibrio estático.*
 
-En los casos de corriente continua, el conductor nunca llega al estado de equilibrio, pero si alcanza el estado estacionario. Es decir, la corriente eléctrica es constante.
+En los casos de corriente continua, el conductor nunca llega al estado de equilibrio, pero sí alcanza el estado estacionario. Es decir, la corriente eléctrica es constante.
 
 ## Modelo de Drude
 
 El modelo de Drude fue desarrollado para explicar las propiedades de transporte de electrones en conductores.
 
-Por un lado tenemos iones (positivos), pesados y estáticos. Por el otro lado, electrones (negativos) en movimiento que se aceleran y gana energía cinética. Estos electrones se van a chocar con los iones, se dispersan y pierden parte de su energía. Como resultado de estos choques, el electron ira acelerando y frenando. Alcanzamos una velocidad promedio en sentido de la corriente llamada *velocidad de arrastre o deriva*.
+Por un lado, tenemos iones (positivos), pesados y estáticos. Por el otro lado, electrones (negativos) en movimiento que se aceleran y gana energía cinética. Estos electrones se van a chocar con los iones, se dispersan y pierden parte de su energía. Como resultado de estos choques, el electrón irá acelerando y frenando. Alcanzamos una velocidad promedio en sentido de la corriente llamada *velocidad de arrastre o deriva*.
 
 $$
 \vec v_a = \frac{q\,\tau}{m}\,\vec E = \mu\,\vec E \qquad\approx 10^{-4} m/s
@@ -24,9 +24,9 @@ $$
 
 ## Corriente Eléctrica
 
-Como históricamente, se relaciono la corriente con la cargas positivas, vamos a estudiar el movimiento de las cargas positivas, a diferencia del modelo de Drude.
+Como históricamente, se relacionó la corriente con las cargas positivas, vamos a estudiar el movimiento de las cargas positivas, a diferencia del modelo de Drude.
 
-La corriente eléctrica es el flujo de carga eléctrica que recorre un material. La podemos definir como como la cantidad de cargas que fluye por unidad de tiempo, aunque también la podemos definir en función del numero de portadores de carga por unidad de volumen ($n$)
+La corriente eléctrica es el flujo de carga eléctrica que recorre un material. La podemos definir como la cantidad de cargas que fluye por unidad de tiempo, aunque también la podemos definir en función del número de portadores de carga por unidad de volumen ($n$)
 
 $$
 I = \frac{dq}{dt} \qquad [i] = C/s = A_{\color{Gray}\text{(Ampere)}}
@@ -44,9 +44,9 @@ $$
 
 La corriente tiene un escalar, su valor, y un sentido. Indica el sentido del movimiento de las cargas positivas.
 
-La corriente no tiene porque ser uniforme en todo el conductor, por lo que definimos la $\vec J$ como la densidad volumétrica de corriente.
+La corriente no tiene por qué ser uniforme en todo el conductor, por lo que definimos la $\vec J$ como la densidad volumétrica de corriente.
 
-Esta densidad es volumétrica ya que el conductor es un volumen, pero es por unidad de area (area de un corte transversal del conductor)
+Esta densidad es volumétrica, ya que el conductor es un volumen, pero es por unidad de área (área de un corte transversal del conductor)
 
 $$
 \vec j(\vec r) = q\cdot n\cdot \vec v_a \qquad [j] = A/m^2
@@ -56,7 +56,7 @@ $$
 I = {\subset\!\supset} \llap{\iint}_A \vec j(\vec r) \ dA
 $$
 
-**¿Quien Genera el Campo Eléctrico?:** El campo es uniforme a lo largo del conductor, ya que ninguno de sus parámetros cambia a lo largo del tiempo. Además, la dirección del campo eléctrico sigue el contorno del conductor.
+**¿Quién Genera el Campo Eléctrico?:** El campo es uniforme a lo largo del conductor, ya que ninguno de sus parámetros cambia a lo largo del tiempo. Además, la dirección del campo eléctrico sigue el contorno del conductor.
 
 ## Ecuación de Continuidad
 
@@ -70,7 +70,7 @@ $$
 \underbrace{\vec \nabla \cdot \vec J = -\frac{\partial\rho}{\partial t}}_\text{Forma Diferencial}
 $$
 
-La ecuación de continuidad indica que si tenemos corriente eléctrica neta saliendo de una region, la carga en este region tiene que estar disminuyendo
+La ecuación de continuidad indica que si tenemos corriente eléctrica neta saliendo de una región, la carga en esta región tiene que estar disminuyendo
 
 Para corrientes estacionarias, se cumple que toda corriente que entra a un volumen cerrado, sale.
 
@@ -96,7 +96,7 @@ $$
 \boxed{\vec J = \sigma \cdot \vec E}
 $$
 
-Podemos deducir entonces, cuanto menor sea la conductividad eléctrico, mayor debe ser el campo eléctrico para llegar a la misma densidad de corriente.
+Podemos deducir entonces, cuanto menor sea la conductividad eléctrica, mayor debe ser el campo eléctrico para llegar a la misma densidad de corriente.
 
 Si analizamos el caso de un conductor cilindro uniforme, llegamos a la forma integral de la ley de Ohm
 
@@ -138,8 +138,8 @@ Notamos que a mayor longitud del cilindro o menor área, la cantidad de choques 
 
 **A mayor temperatura:**
 
-- $\tau:$ Disminuye, hay mas choques entre partículas.
-- $v_a:$ Disminuye, al haber mas choques la velocidad es menor.
+- $\tau:$ Disminuye, hay más choques entre partículas.
+- $v_a:$ Disminuye, al haber más choques la velocidad es menor.
 - $I:$ Disminuye, menos velocidad equivale a menos corriente.
 - $\sigma:$ Disminuye, al haber menor corriente, hay menos conductividad eléctrica.
 - $\eta:$ Aumenta, la resistividad eléctrica está definida como el inverso de la conductividad eléctrica.

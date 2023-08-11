@@ -57,7 +57,7 @@ Definimos, entonces, la reactancia inductiva $X_L = w\ L$. A mayor frecuencia, L
 
 ## Conclusión
 
-Vemos, entonces, que los tres elementos del circuito no modifican la frecuencia angular de la corriente, sin embargo, Existirán desfasajes en la intensidad de la corriente. Ademas, la corriente varía según las propiedades de los elementos.
+Vemos, entonces, que los tres elementos del circuito no modifican la frecuencia angular de la corriente, sin embargo, Existirán desfasajes en la intensidad de la corriente. Además, la corriente varía según las propiedades de los elementos.
 
 |     | Amplitud $(i_0)$ |   Fase $(\phi_i)$    | Desfasaje $(\phi_{iv})$ |
 |:---:|:----------------:|:--------------------:|:-----------------------:|

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física II/Corriente Alterna.md",
+                "file": "Física II/Corriente Continua.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física II/Corriente Alterna.md"
+                "file": "Física II/Corriente Continua.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física II/Corriente Alterna.md",
+                "file": "Física II/Corriente Continua.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física II/Corriente Alterna.md",
+                "file": "Física II/Corriente Continua.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,9 +156,10 @@
   },
   "active": "5123070076cf8950",
   "lastOpenFiles": [
-    "Física II/Conductores.md",
-    "Física II/Corriente Alterna.md",
+    "Física II/Dielectricos.md",
     "Física II/Corriente Continua.md",
+    "Física II/Corriente Alterna.md",
+    "Física II/Conductores.md",
     "Física II/Circuitos en Resonancia.md",
     "Física II/Circuito Eléctrico.md",
     "Física II/Capacitores.md",
@@ -191,7 +192,6 @@
     "Física I/Magnitudes escalares y vectoriales.md",
     "Física I/Interferencia.md",
     "Física I/Física I.md",
-    "Física I/Energía CR.md",
     "Base de Datos",
     "Algoritmos II/Attachments/Machete - AAB.pdf",
     "Untitled.canvas"
