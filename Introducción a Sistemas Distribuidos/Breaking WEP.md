@@ -1,4 +1,4 @@
-## 1. ¿Que es WEP?
+## 1. ¿Qué es WEP?
 
 El sistema ***WEP*** es un sistema de cifrado opcional incluido en el estándar ***IEEE 802.11, edición 1999.*** Para proteger la confidencialidad de los datos intercambiados a través de un medio compartido.
 
@@ -6,9 +6,9 @@ Se utiliza una clave en común entre el remitente y el receptor. Se presume que 
 
 Debido a esta clave común, es un algoritmo simétrico, ya que la misma clave se utiliza para encriptar o desencriptar.
 
-## 2. ¿Como funciona WEP?
+## 2. ¿Cómo funciona WEP?
 
-Sea $\text{Data}$ el segmento de datos que quiero enviar, el tamaño total del segmento concatenado sera de $n$, en $\text{bytes}$.
+Sea $\text{Data}$ el segmento de datos que quiero enviar, el tamaño total del segmento concatenado será de $n$, en $\text{bytes}$.
 
 El algoritmo parte de una semilla de encriptación, que se obtendrá al concatenar un vector de inicialización de $24 \text{ bytes}$ que llamaremos $\text{IV}$, con la clave compartida de $40 \text{ bytes}$, que llamaremos $\text{SK}$. El operador $⧺$ denota concatenación.
 
@@ -16,7 +16,7 @@ $$
 \text{Seed} = IV \ ⧺\ \  \text{SK}
 $$
 
-La semilla, de un total de $64 \text{ bytes}$, sera introducida en el algoritmo de encriptación ***RC4,*** el cual devolverá un flujo de claves de longitud $n$ que se utilizará para encriptar el segmento de datos.
+La semilla, de un total de $64 \text{ bytes}$, será introducida en el algoritmo de encriptación ***RC4,*** el cual devolverá un flujo de claves de longitud $n$ que se utilizará para encriptar el segmento de datos.
 
 $$
 \text{Key Stream} = \text{RC4}(Seed)
@@ -42,7 +42,7 @@ $$
 \text{Data} = \text{Cipher} \oplus \text{Key Stream}
 $$
 
-## 3. ¿Como funciona RC4?
+## 3. ¿Cómo funciona RC4?
 
 El protocolo ***RC4*** consta de dos algoritmos, extremadamente simples, que parten de una semilla dada. Definiremos $N$ como la cantidad de permutaciones posibles de palabras de longitud $n$, comúnmente, tendremos que $N = 256$.
 
@@ -71,37 +71,37 @@ El protocolo ***RC4*** consta de dos algoritmos, extremadamente simples, que par
     Exponer valor de S[t];
     ```
 
-	Cada valor expuesto por el algoritmo sera un octeto del flujo de claves, este podrá tener cualquier longitud que se desea.
+	Cada valor expuesto por el algoritmo será un octeto del flujo de claves, este podrá tener cualquier longitud que se desea.
 
 ## 3. Inseguridades de RC4
 
-### Debilidad de la Invarianza
+### Debilidad de la Invariancia
 
-El primer algoritmo de, ***KSA***, expone dos inseguridades significantes. La primera es la existencia de una gran clase de ***claves débiles***, en las cuales una pequeña parte de la llave determina un gran numero de ***bits*** de la permutación inicial. Ademas, ***PRGA*** traduce estos patrones en la permutación inicial, en patrones en el prefijo del flujo de claves.
+El primer algoritmo de, ***KSA***, expone dos inseguridades significantes. La primera es la existencia de una gran clase de ***claves débiles***, en las cuales una pequeña parte de la llave determina un gran número de ***bits*** de la permutación inicial. Además, ***PRGA*** traduce estos patrones en la permutación inicial, en patrones en el prefijo del flujo de claves.
 
-Esta afirmación permite distinguir fácilmente flujos de ***RC4*** de segmentos de datos aleatorios, debido a que las palabras iniciales contienen patrones fácilmente reconocibles. Cuando las claves son seleccionadas bajo una distribución uniforme, esta inclinación se atenúa, pero aún permite la construcción de un diferenciador eficiente. Ademas, los patrones se extienden a las primeras decenas de palabras, por lo que la eficiencia del diferenciador no disminuye si se descartan las primeras palabras.
+Esta afirmación permite distinguir fácilmente flujos de ***RC4*** de segmentos de datos aleatorios, debido a que las palabras iniciales contienen patrones fácilmente reconocibles. Cuando las claves son seleccionadas bajo una distribución uniforme, esta inclinación se atenúa, pero aún permite la construcción de un diferenciador eficiente. Además, los patrones se extienden a las primeras decenas de palabras, por lo que la eficiencia del diferenciador no disminuye si se descartan las primeras palabras.
 
 ### Debilidad de clave relacionada
 
-La segunda debilidad esta relacionada con la vulnerabilidad de las claves, que aplica cuando parte de la clave presenta es expuesta al atacante. Cuando la misma porción de clave secreta esta presente en diferentes valores expuestos, el atacante puede derivar la parte secreta al analizar la palabra inicial de el flujo de claves.
+La segunda debilidad está relacionada con la vulnerabilidad de las claves, que aplica cuando parte de la clave presenta es expuesta al atacante. Cuando la misma porción de clave secreta está presente en diferentes valores expuestos, el atacante puede derivar la parte secreta al analizar la palabra inicial del flujo de claves.
 
 Para hacer esto, el algoritmo se aprovecha de la posibilidad de encontrar claves tales que causen que el algoritmo entre en condición de ***resuelto***.
 
-Sea $S_i$ el vector permutación tras la iteración $i$ de la permutación, definimos $X_i = S_i[1], Y_i = S_i[X]$. Si para algún punto de la permutación, se cumple que $i$ es mayor o igual que $1, X_i, Y_i$, entonces diremos que el algoritmo esta en condición de resuelto.
+Sea $S_i$ el vector permutación tras la iteración $i$ de la permutación, definimos $X_i = S_i[1], Y_i = S_i[X]$. Si para algún punto de la permutación, se cumple que $i$ es mayor o igual que $1, X_i, Y_i$, entonces diremos que el algoritmo está en condición de resuelto.
 
-Cuando ocurre esto, aseguramos con probabilidad mayor a $e^{-3} \approx 0.05$ que los elementos $X_i, Y_i,S_i[Y_i]$ no volverán a participar en un intercambio. Luego, la primer palabra del flujo de claves estará dado por $S_i[X_i + S_i[Y_i]]$.
+Cuando ocurre esto, aseguramos con probabilidad mayor a $e^{-3} \approx 0.05$ que los elementos $X_i, Y_i,S_i[Y_i]$ no volverán a participar en un intercambio. Luego, la primera palabra del flujo de claves estará dado por $S_i[X_i + S_i[Y_i]]$.
 
-Si no se cumple esto, entonces los elementos volverán a participar en intercambios, haciendo que el valor resultante sea efectivamente aleatorio. Esto implica que si repetimos este análisis para muchos valores de escenarios resueltos, entonces el valor mas probable será el correcto.
+Si no se cumple esto, entonces los elementos volverán a participar en intercambios, haciendo que el valor resultante sea efectivamente aleatorio. Esto implica que si repetimos este análisis para muchos valores de escenarios resueltos, entonces el valor más probable será el correcto.
 
 ## 4. Detalles del ***Known IV Attack***
 
 Debido a como funciona el algoritmo de ***WEP***, únicamente estudiaremos el escenario en el que el vector de inicialización precede a la clave secreta compartida, aunque ambas situaciones son vulnerables al mismo tipo de ataque.
 
-Sea $\text{IV}$ el vector de inicialización conocido, de longitud $I$, y $\text{SK}$ la clave secreta, de longitud $l - I$, entonces construiremos la semilla para ***RC4*** como $K = \text{IV}\ ⧺\ \ SK$, con longitud $l$. Trataremos de derivar el valor de la palabra $B$ de la clave secreta, esto es, la palabra $I + B$ de la semilla. Para que este ataque sea posible, el atacante debe poder obtener la primera palabra del flujo de claves. A esta primer palabra, la denominaremos $\text{Out}$.
+Sea $\text{IV}$ el vector de inicialización conocido, de longitud $I$, y $\text{SK}$ la clave secreta, de longitud $l - I$, entonces construiremos la semilla para ***RC4*** como $K = \text{IV}\ ⧺\ \ SK$, con longitud $l$. Trataremos de derivar el valor de la palabra $B$ de la clave secreta, esto es, la palabra $I + B$ de la semilla. Para que este ataque sea posible, el atacante debe poder obtener la primera palabra del flujo de claves. A esta primera palabra, la denominaremos $\text{Out}$.
 
-Si se cumple que $S_I[1] < I$ y $S_I[1] + S_I[S_I[1]] = I+B$, entonces estaremos ante una condición resuelta tras la ronda $I + B$ con un probabilidad relativamente alta: $p\approx e^{-\frac{2B}N}$. Luego, podremos tomar la suposición de que esto se cumplirá.
+Si se cumple que $S_I[1] < I$ y $S_I[1] + S_I[S_I[1]] = I+B$, entonces estaremos ante una condición resuelta tras la ronda $I + B$ con una probabilidad relativamente alta: $p\approx e^{-\frac{2B}N}$. Luego, podremos tomar la suposición de que esto se cumplirá.
 
-Por la condición de resuelto, tendremos que $\text{Out} = S_{I+B}[I+B]$ sera cierto mas del $5\%$ de las veces. Al ser el valor mas probable, lo asumiremos cierto. Luego, podremos predecir la palabra buscada, a partir de la siguiente formula:
+Por la condición de resuelto, tendremos que $\text{Out} = S_{I+B}[I+B]$ será cierto más del $5\%$ de las veces. Al ser el valor más probable, lo asumiremos cierto. Luego, podremos predecir la palabra buscada, a partir de la siguiente fórmula:
 
 $$
 K[I+B] = S_{I+B-1}^{-1}[\text{Out}] - j_{I+B-1} - S_{I+B-1}[I+B]
@@ -109,7 +109,7 @@ $$
 
 Algo importante a notar, es que este ataque requiere de una gran cantidad de paquetes encriptados con distintos $\text{IVs}$, por lo que si los ***hosts*** en lugar de utilizar valores distintos cada vez, alternan entre dos o una pequeña cantidad valores distintos, entonces el ataque deja de funcionar.
 
-Cabe notar que si ocurre esto, la red será susceptible a otro tipo de ataques. Debido a que es posible obtener el flujo de claves a través de el cifrado y el valor desencriptado, si un ataque obtiene esto podrá desencriptar fácilmente todos los paquetes provenientes del mismo vector de inicialización, incluso sin conocer la clave.
+Cabe notar que si ocurre esto, la red será susceptible a otro tipo de ataques. Debido a que es posible obtener el flujo de claves a través del cifrado y el valor desencriptado, si un ataque obtiene esto podrá desencriptar fácilmente todos los paquetes provenientes del mismo vector de inicialización, incluso sin conocer la clave.
 
 ## 5. Aplicación del Ataque en WEP
 
@@ -117,19 +117,19 @@ El ataque consiste en observar selectivamente vectores $\text{IV}$ tal que podam
 
 Se necesitan aproximadamente $60$ vectores de la forma $(A+3, N-1, V)$, donde $A$ indica la cantidad de palabras conocidas de la clave secreta, y $V$ tomará valores cualesquiera.
 
-La elección de estos valores particulares, nos asegura que todas las permutaciones desde la inicial hasta la ronda $I$ son conocidos, lo que nos permite trabajar con el resultado de la anterior sección. Para cada vector valido observado, calcularemos sus permutaciones hasta la ronda $I$.
+La elección de estos valores particulares, nos asegura que todas las permutaciones, desde la inicial hasta la ronda $I$ son conocidos, lo que nos permite trabajar con el resultado de la anterior sección. Para cada vector válido observado, calcularemos sus permutaciones hasta la ronda $I$.
 
-Si para alguno de los valores hallados, no se cumple la condición entonces lo descartamos. Para los valores que no descartamos, podemos tomar las suposiciones indicadas en la anterior sección y derivar $K[A+3]$ con probabilidad $p > 0.05$. Al examinar una gran cantidad de resultados, un atacante puede derivar la clave correctamente con probabilidad $p > 0.5$.
+Si para alguno de los valores hallados, no se cumple la condición, entonces lo descartamos. Para los valores que no descartamos, podemos tomar las suposiciones indicadas en la anterior sección y derivar $K[A+3]$ con probabilidad $p > 0.05$. Al examinar una gran cantidad de resultados, un atacante puede derivar la clave correctamente con probabilidad $p > 0.5$.
 
-Debemos tener en cuenta que este ataque es valida para todos los ataques que cumplan la condición propuesta, aunque estos no pertenezcan a la forma mencionada.
+Debemos tener en cuenta que este ataque es válida para todos los ataques que cumplan la condición propuesta, aunque estos no pertenezcan a la forma mencionada.
 
 ## 5. Preparación para el Ataque
 
-Necesitamos dos elementos fundamentales para la ejecución de este ataque. La primera, es alguna tarjeta o adaptador de red que nos permita escuchar y enviar paquetes de redes ***802.11***. A partir de un programa conocido como ***sniffer*** o analizador de paquetes***,*** podremos visualizar todos los paquetes que son enviados a través del medio.
+Necesitamos dos elementos fundamentales para la ejecución de este ataque. La primera es alguna tarjeta o adaptador de red que nos permita escuchar y enviar paquetes de redes ***802.11***. A partir de un programa conocido como ***sniffer*** o analizador de paquetes, podremos visualizar todos los paquetes que son enviados a través del medio.
 
 Estos programas configuran el adaptador de red en modo ***promiscuo***. Este permite que los ***frames*** no destinados a nuestro dispositivo (a partir de la dirección ***MAC***), no sean descartados.
 
-El segundo elemento que necesitamos, es conocer el la primer palabra del segmentos de datos enviado, sin encriptar. Al conocer esto, y con el segmento cifrado, podremos determinar la primera palabra del flujo de claves.
+El segundo elemento que necesitamos, es conocer la primera palabra del segmentos de datos enviado, sin encriptar. Al conocer esto, y con el segmento cifrado, podremos determinar la primera palabra del flujo de claves.
 
 ## 6. Obtención de Paquetes
 

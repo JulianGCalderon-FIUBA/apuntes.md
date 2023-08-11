@@ -2,7 +2,7 @@ $$
 W_{\vec F}^{AB} = \int_A^B \vec F\cdot d\vec l = q_0\int_A^B \vec E\cdot d\vec l
 $$
 
-Si usando una fuerza externa $\vec F_e$ desplazo la partícula de $A$ a $B$ como un movimiento cuasi estacionario, entonces la velocidad es constante a lo largo del trayecto y la sumatoria de fuerzas es por lo tanto, nula.
+Si usando una fuerza externa $\vec F_e$ desplazo la partícula de $A$ a $B$ como un movimiento cuasi estacionario, entonces la velocidad es constante a lo largo del trayecto y la sumatoria de fuerzas es, por lo tanto, nula.
 
 Entonces podemos definir le trabajo de este fuerza externa como inverso al trabajo del campo eléctrico.
 
@@ -45,7 +45,7 @@ $$
 > [!note]
 > Como el campo solo tiene componente radial, solo nos importa esa componente entre $A$ y $B$, las otras componentes se cancelan
 
-## Nº Cargas
+## N.º Cargas
 
 Al ser distribuible la integral, podemos simplemente sumar las diferencias del potencial.
 

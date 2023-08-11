@@ -2,7 +2,7 @@ Si queremos encontrar la función potencial, y no pensarla solo como una diferen
 
 ## Distribuciones Acotadas
 
-En el caso de distribuciones acotadas, podemos analizar el potencial en el infinito. Esto hara que tienda a 0.
+En el caso de distribuciones acotadas, podemos analizar el potencial en el infinito. Esto hará que tienda a 0.
 
 A este método se le llama: ***integración directa.***
 
@@ -16,7 +16,7 @@ $$
 
 ## Distribuciones no Acotadas
 
-En el caso de distribuciones no acotadas, nuestra integral no esta definida. Por lo que no podemos usar esta definición. Sin embargo, podemos elegir un punto arbitrario $P$ y forzarlo a valer $0$
+En el caso de distribuciones no acotadas, nuestra integral no está definida. Por lo que no podemos usar esta definición. Sin embargo, podemos elegir un punto arbitrario $P$ y forzarlo a valer $0$
 
 $$
 \Delta V^{PA} = V(A) - \underbrace{V(P)}_0 = V(A) =-\int_A^P \vec E d\vec l

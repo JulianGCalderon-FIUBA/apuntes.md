@@ -126,6 +126,10 @@
     "Savart",
     "Fasores",
     "Savalt",
-    "Lenz"
+    "Lenz",
+    "WEP",
+    "XOR",
+    "KSA",
+    "PRGA"
   ]
 }

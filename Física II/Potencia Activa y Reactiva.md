@@ -1,4 +1,4 @@
-Partimos de la ecuaciones de corriente eléctrica, con fase inicial nulo para simplificar las cuentas.
+Partimos de las ecuaciones de corriente eléctrica, con fase inicial nulo para simplificar las cuentas.
 
 $$
 v_q(t) = v_0 \cdot \cos(wt)
@@ -28,7 +28,7 @@ $$
 
 ## Potencia Activa y Reactiva
 
-Tambien podemos reescribir la potencia en función de la potencia activa y la reactiva, siendo:
+También podemos reescribir la potencia en función de la potencia activa y la reactiva, siendo:
 
 $$
 p(t) = \underbrace{v_{ef}\ i_{ef}\cdot\cos(\phi_{iv})}_\text{$P:$ Potencia Activa} \cdot \Big[cos (2wt + 1)\Big] \ \underbrace{- v_{ef} \cdot i_{ef}\cdot \sin(\phi_{iv})}_\text{$Q:$ Potencia Reactiva}\cdot \Big[\sin(2wt)\Big]
@@ -44,14 +44,14 @@ $$
 Q = v_{ef}\ i_{ef} \cdot  \sin(\phi_z) = i_{ef}^2 \cdot (X_L - X_C)
 $$
 
-La potencia reactiva no representa el trabajo realizado, es energía que se conserva. Sera la potencia acumulada como energía tanto en el inductor como en el capacitor. Tendrá unidades de $[Q] = VAR$. (Voltio, Ampere, Reactivo)
+La potencia reactiva no representa el trabajo realizado, es energía que se conserva. Será la potencia acumulada como energía tanto en el inductor como en el capacitor. Tendrá unidades de $[Q] = VAR$. (Voltio, Ampere, Reactivo)
 
 > [!note]
 > Si $X_L > X_C$, el circuito tendrá un comportamiento inductivo, en el caso contrario, tendrá comportamiento capacitivo.
 
-### Triangulo de Potencias
+### Triángulo de Potencias
 
-Podemos relacionar entonces las potencias en un triangulo.
+Podemos relacionar entonces las potencias en un triángulo.
 
 ![[Potencia Activa y Reactiva 2.svg]]
 
@@ -75,8 +75,8 @@ Llamamos $cos(\phi_z)$ al factor de potencia. Un valor que representa la relaci�
 
 ### Triángulos Equivalentes
 
-Si a los lados del triangulo anterior, lo divido por la corriente, encuentro un nuevo triangulo equivalente, con las tensiones del circuito
+Si a los lados del triángulo anterior, lo divido por la corriente, encuentro un nuevo triángulo equivalente, con las tensiones del circuito
 
-Si lo vuelvo a dividir por la corriente, llegamos a un triangulo de las reactancias
+Si lo vuelvo a dividir por la corriente, llegamos a un triángulo de las reactancias
 
 ![[Potencia Activa y Reactiva 2.svg]]
