@@ -18,18 +18,18 @@ $$
 f'(\vec x_0, \hat v) = \lim_{h\to 0} \frac{f(\vec x_0 + h\vec v) - f(\vec x_0)}{h}
 $$
 
-La derivada direccional es un numero real que representa la pendiente de la recta tangente trazada en $(x_0, y_0, f(x_0, y_0)$ a la curva que se obtiene cortando la grafica de $f$ con una curva cuya traza en el plano $xy$ es la recta $(x,y) = (x_0, y_0) + h\vec v$, con $h \in R$.
+La derivada direccional es un número real que representa la pendiente de la recta tangente trazada en $(x_0, y_0, f(x_0, y_0)$ a la curva que se obtiene cortando la gráfica de $f$ con una curva cuya traza en el plano $xy$ es la recta $(x,y) = (x_0, y_0) + h\vec v$, con $h \in R$.
 
 > [!warning] Atención
 > Una función no tiene porque ser continua en $x,y$ para ser derivable. En cálculos de varias variables, estos conceptos son independientes entre si.
 
 ## Derivadas parciales
 
-Cuando $\displaystyle\vec v = \vec e_k$, la derivada se llama parcial $\displaystyle \frac{\partial f}{\partial e_k}(\vec x)$
+Cuando $\displaystyle\vec v = \vec e_k$ (vector canónico) la derivada se llama parcial $\displaystyle \frac{\partial f}{\partial e_k}(\vec x)$
 
 La derivada parcial $\partial$ se calcula derivando una sola variable y dejando a la otra como constante.
 
-Si el dominio es mas delicado, se analiza por definición
+Si el dominio es más delicado, se analiza por definición
 
 ### Teorema de Schwarz
 
@@ -41,7 +41,7 @@ $$
 
 ## Gradiente
 
-Es un vector que indica la dirección en la cual el campo varia más rapidamente.
+Es un vector que indica la dirección en la cual el campo varía más rápidamente.
 
 Si $f$ es diferenciable en $\vec r$, entonces:
 
@@ -55,8 +55,6 @@ $$
 
 **La derivada es:**
 
-Maxima $\|\nabla f(\vec r)\|$ en $\theta = 0$
-
-Minima $\|\nabla f(\vec r)\|$ en $\theta = \pi$
-
-Nula en $\displaystyle\theta = \frac\pi 2$
+- Máxima $\|\nabla f(\vec r)\|$ en $\theta = 0$
+- Mínima $\|\nabla f(\vec r)\|$ en $\theta = \pi$
+- Nula en $\displaystyle\theta = \frac\pi 2$
