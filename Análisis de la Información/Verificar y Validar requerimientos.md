@@ -10,13 +10,13 @@ La verificación y validación pueden tener lugar en cualquier momento del ciclo
 
 ***Control de Calidad:*** Apunta más a la evaluación operativa para determinar si lo que hemos producido cumple con los requerimientos de calidad. (verificación y validación caen en esta categoría)
 
-***Aseguramiento de Calidad:*** No tiene nada que ver con las pruebas, apunta a evaluar si los productos y mis procesos se adhieren a los estándares aplicables. Es importante marcar la diferencia ya que mucha gente usa los términos indistintamente.
+***Aseguramiento de Calidad:*** No tiene nada que ver con las pruebas, apunta a evaluar si los productos y mis procesos se adhieren a los estándares aplicables. Es importante marcar la diferencia, ya que mucha gente usa los términos indistintamente.
 
 ## Técnicas de verificación y validación
 
 Para cada elemento, tendremos técnicas para su correcta verificación y validación:
 
-![[Verificar y Validar requerimientos 1.png]]
+![[Verificar y Validar requerimientos 1.png|500]]
 
 La prueba de aceptación es una técnica de validación, mientras que las otras técnicas son de verificación.
 
@@ -24,19 +24,19 @@ La prueba de aceptación es una técnica de validación, mientras que las otras 
 
 Tendremos actividades dinámicas y estáticas. Las actividades dinámicas están relacionadas con las pruebas del ***software***.
 
-![[Verificar y Validar requerimientos 2.png]]
+![[Verificar y Validar requerimientos 2.png|500]]
 
 Las revisiones por pares es una familia que incluye múltiples técnicas, según la estructura y la cantidad de integrantes
 
-![[Verificar y Validar requerimientos 3.png]]
+![[Verificar y Validar requerimientos 3.png|500]]
 
 Las revisiones de a pares es un tipo de revisión en el cual y un artefacto es examinado por pares (lideradas por el autor) con el propósito de encontrar defectos. No hay específicamente una técnica que se llame "revisión de pares", sino que existen varias y cada una tiene características particulares y distintivas.
 
 ### Revisiones (Walkthrough)
 
-Son revisiones de a pares, es un enfoque menos formal que otros. Usualmente son lideradas por el autor. No siempre es necesaria la preparación previa, ni hay límites a la cantidad de material revisado ni a la duración de la reunión.
+Son revisiones de a pares, es un enfoque menos formal que otros. Usualmente, son lideradas por el autor. No siempre es necesaria la preparación previa, ni hay límites a la cantidad de material revisado ni a la duración de la reunión.
 
-Se sugiere una hora de duración y una hora de preparación. Se permite la discusión de sugerencias. Usualmente el presentador es el autor, pero participa un secretario y varios revisores. Como regla general, el management no debe estar presente. En el ámbito de la ingeniería de requerimientos se pueden emplear para la validación.
+Se sugiere una hora de duración y una hora de preparación. Se permite la discusión de sugerencias. Usualmente, el presentador es el autor, pero participa un secretario y varios revisores. Como regla general, el management no debe estar presente. En el ámbito de la ingeniería de requerimientos se pueden emplear para la validación.
 
 ### Inspecciones
 
@@ -44,7 +44,7 @@ Son mucho más formales, hay roles, pasos, etapas, artefactos detallados. Tiene 
 
 #### Etapas
 
-1. Planificación: Dado un artefacto a inspeccionar, se asigna un moderador quien decidirá quien participara, donde, cuando, y distribuirá la documentación necesaria.
+1. Planificación: Dado un artefacto a inspeccionar, se asigna un moderador, quien decidirá quién participara, donde, cuando, y distribuirá la documentación necesaria.
 2. Presentación: Se realiza una Reunión corta en la que se presenta a los inspectores el material a revisar (opcional)
 3. Preparación: Los inspectores trabajan solos durante una hora y media, familiarizándose con el material y tratando de detectar potenciales defectos.
 4. Reunión de la inspección: Los inspectores presentan los supuestos defectos. El moderador confecciona una lista de defectos unificada. No está permitida la discusión en torno de la autenticidad de los defectos, ni de las posibles soluciones.
@@ -52,7 +52,7 @@ Son mucho más formales, hay roles, pasos, etapas, artefactos detallados. Tiene 
 6. Retrabajo: El autor resuelve los defectos encontrados. Luego de esta etapa, se puede volver a la etapa de planificación.
 7. Seguimiento: El moderador verifica que se haya realizado el trabajo.
 
-![[Verificar y Validar requerimientos 4.png]]
+![[Verificar y Validar requerimientos 4.png|175]]
 
 Algunas personas proponen que los autores no deberían participar en la inspección, para evitar posibles rencores generados.
 

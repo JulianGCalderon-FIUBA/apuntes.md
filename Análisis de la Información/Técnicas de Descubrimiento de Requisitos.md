@@ -48,7 +48,7 @@ Tiene como propósito examinar documentación existente con el propósito identi
 
 ## Análisis de Causa Raíz
 
-También conocido como diagrama ***espina de pescado,*** Tiene como propósito determinar las causas que originan un problema. Estas causas estarán ordenadas en categorías y en ***subcausas*** que estén relacionadas. Algunas categorías utilizadas son personas, procesos, métricas, etc. Es útil para guiar discusiones, utilizándolo en combinación con otras técnicas.
+También conocido como diagrama ***espina de pescado,*** Tiene como propósito determinar las causas que originan un problema. Estas causas estarán ordenadas en categorías y en ***sub causas*** que estén relacionadas. Algunas categorías utilizadas son personas, procesos, métricas, etc. Es útil para guiar discusiones, utilizándolo en combinación con otras técnicas.
 
 ## Prototipado
 
@@ -64,7 +64,7 @@ Pensada para organizar reuniones con una gran cantidad de asistentes. Se convoca
 
 Se pueden tomar notas a mano, pero lo ideal es complementarlo con herramientas modernas como audio o video.
 
-En el caso de las entrevistas, se estila a documentar lo conversado en una minuta de reunión. Es un documento electrónico que tiene como propósito registrar los temas conversados y registrar que se entendió correctamente. Normalmente, se distribuye luego de la reunión para que sea validada por los participantes. El contenido puede variar, pero en general incluye el objetivo, sus participante, un resumen de los temas tratados, y los próximos pasos a dar.
+En el caso de las entrevistas, se estila a documentar lo conversado en una minuta de reunión. Es un documento electrónico que tiene como propósito registrar los temas conversados y registrar que se entendió correctamente. Normalmente, se distribuye luego de la reunión para que sea validada por los participantes. El contenido puede variar, pero en general incluye el objetivo, sus participantes, un resumen de los temas tratados, y los próximos pasos a dar.
 
 ## Otras Técnicas
 
@@ -85,7 +85,7 @@ Pueden utilizarse de forma combinada:
 - Registrar las fuentes de los requisitos. Es crucial entender el origen de cada requisito.
 - Registrar, cuando corresponda, la fundamentación de los requisitos.
 - En términos generales, debemos guiarnos por las inquietudes del negocio. Centrarnos en los problemas a resolver.
-- Debemos buscar restricciones en el dominio (leyes, regulaciones, normas, estándares, etc).
+- Debemos buscar restricciones en el dominio (leyes, regulaciones, normas, estándares, etc.).
 - Es importante considerar múltiples puntos de vista, y llegar a un consenso a través del diálogo
 - Prototipar requisitos poco claros o riesgosos (o con puntos de vista divergentes), para facilitar el diálogo y la validación.
 - No debemos perder de vista el interés de quienes deberán operar y mantener la solución una vez desarrollada. Esta es una fuente para múltiples requisitos, en su mayoría no funcionales.
