@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "e5ff24e8f37d841e",
+        "id": "8a838ff7ee31c113",
         "type": "tabs",
         "children": [
           {
-            "id": "524bc04d4da22735",
+            "id": "ffeb57ff7bf1b0a7",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/\\t+!\\[",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -80,7 +80,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Matemática Discreta/Clasificaciones.md"
+              }
             }
           },
           {
@@ -89,6 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Matemática Discreta/Clasificaciones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Matemática Discreta/Clasificaciones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,8 +152,12 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "524bc04d4da22735",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
+    "Matemática Discreta/Operaciones entre Grafos.md",
+    "Matemática Discreta/Clasificaciones.md",
+    "Matemática Discreta/Matemática Discreta.md",
+    "Probabilidad y Estadistica/Variables Aleatorias Condicionadas.md",
     "Probabilidad y Estadistica/Distribucion Normal.md",
     "Indice.md",
     "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
@@ -179,10 +187,6 @@
     "Attachments",
     "Introducción a Sistemas Distribuidos/Application Layer/Principles of Network Applications.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md",
-    "Análisis de la Información/Introducción al Diseño de Software.md",
-    "Matemática Discreta/Algoritmos.md",
-    "Análisis de la Información/Introducción a la Ingeniería de Software.md",
-    "Análisis de la Información/Interfaces de Usuario.md",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",
     "Física II/Attachments/Potencia Activa y Reactiva 2.svg",

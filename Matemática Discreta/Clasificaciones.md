@@ -80,9 +80,9 @@ Un grafo $G$ es planar si y solo si puede representarse en un plano (inmersión)
 
 La planeidad es un concepto particular de cuando la inmersión se exige en un plano, pero puede exigirse en otras formas (como un toroide, o una esfera.
 
-Si un grafo no es planar, hablamos de su espesor. Esta es la cantidad minima de capas que son necesarias para representarlo (en un circuito, por ejemplo).
+Si un grafo no es planar, hablamos de su espesor. Esta es la cantidad mínima de capas que son necesarias para representarlo (en un circuito, por ejemplo).
 
-Ver [[Operaciones entre Grafos|Grafo Dual]]
+Ver [[Operaciones entre Grafos#Grafo Dual|Grafo Dual]]
 
 ### Formula de Euler
 
@@ -132,10 +132,10 @@ A partir de este criterio, podemos demostrar por fuerza bruta que $K_5$ es el pr
 
 > [!proof]- Demostración
 > 
->
->
->Por inducción podemos probar que para todos los grafos de orden mayor a dos, se cumple que:
->
+> 
+> 
+> Por inducción podemos probar que para todos los grafos de orden mayor a dos, se cumple que:
+> 
 > $$
 > d(f_k) \geq 3, \forall k \in 0,\cdots, f
 > $$
