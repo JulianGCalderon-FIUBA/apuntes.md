@@ -1,8 +1,8 @@
-Los capacitores están formados por dos conductores, de cargas opuestas e igual modulo. Entre estos capacitores podemos dibujar un campo eléctrico, que nace en las cargas positivas, y muere en las cargas negativas. Este capacitor tiene la capacidad de almacenar energía.
+Los capacitores están formados por dos conductores, de cargas opuestas e igual módulo. Entre estos capacitores podemos dibujar un campo eléctrico, que nace en las cargas positivas, y muere en las cargas negativas. Este capacitor tiene la capacidad de almacenar energía.
 
 Para cargar ambos conductores con cargas opuestas, utilizamos una pila. La pila mueve cargas de un capacitor al otro. La pila tiene asociada una diferencia de potencial $\Delta V$, la cual que permite mover las cargas, hasta que entre los dos conductores haya la misma diferencia de potencial que entre los bornes de la pila.
 
-![[Capacitores 1.png]]
+![[Capacitores 1.png|475]]
 
 La carga final del capacitor resulta proporcional a la diferencia de potencial de la pila, siendo $C$ la capacidad del capacitor. La unidad de la capacidad es el **Faradio** $[F] = C/V$
 
@@ -22,13 +22,13 @@ $$
 
 ## Capacidad de Capacitor
 
-La capacidad de un capacitor esta relacionado con la geometría y el medio de los conductores
+La capacidad de un capacitor está relacionado con la geometría y el medio de los conductores
 
 $$
 C = \varepsilon_0\varepsilon_r \cdot \frac{A}{d}
 $$
 
-Siendo $A$ el area de la placa del capacitor, y $d$ la distancia entre las placas.
+Siendo $A$ el área de la placa del capacitor, y $d$ la distancia entre las placas.
 
 En el caso de un capacitor cilíndrico, la capacidad equivale a
 
@@ -58,7 +58,7 @@ $$
 
 ### Paralelo
 
-Tambien podemos conectar los capacitores en paralelo, podemos relacionar la capacidad de los capacitores de la siguiente manera:
+También podemos conectar los capacitores en paralelo, podemos relacionar la capacidad de los capacitores de la siguiente manera:
 
 $$
 C_{eq} = C_1 + C_2
@@ -66,10 +66,9 @@ $$
 
 ## Mallas e Islas
 
-Cuando las conexiones son mas complejas que en los casos vistos anteriormente, podemos utilizar este método para resolver el problema
+Cuando las conexiones son más complejas que en los casos vistos anteriormente, podemos utilizar este método para resolver el problema
 
-**Malla:** Camino cerrado de forma que la diferencia de potencial sea nula.
+- **Malla:** Camino cerrado de forma que la diferencia de potencial sea nula.
+- **Isla:** Porción aislada donde la carga se conserva.
 
-**Isla:** Porción aislada donde la carga se conserva.
-
-Utilizando estos conceptos, podemos encontrar la ecuaciones que necesitemos para completar el sistema de ecuaciones.
+Utilizando estos conceptos, podemos encontrar las ecuaciones que necesitemos para completar el sistema de ecuaciones.

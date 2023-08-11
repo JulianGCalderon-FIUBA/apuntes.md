@@ -111,6 +111,12 @@
     "Snell",
     "MCU",
     "MRU",
-    "Lorentz"
+    "Lorentz",
+    "capacitores",
+    "capacitor",
+    "Capacitor",
+    "Capacitores",
+    "Circuital",
+    "Kirchhoff"
   ]
 }

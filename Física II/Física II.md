@@ -12,7 +12,7 @@
 ## Segundo Parcial
 
 - [[Corriente Continua]]
-- [[Circuito Electrico]]
+- [[Circuito Eléctrico]]
 - [[Campo Magnético]]
 - [[Fuerza Magnética]]
 - [[Ley de Biot y Savalt]]
