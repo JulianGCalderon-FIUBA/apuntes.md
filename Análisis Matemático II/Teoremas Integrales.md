@@ -86,9 +86,9 @@ Este teorema permite calcular la circulación de curvas cerradas, con más facil
 
 ## Teorema de Green
 
-Sea $\vec f:D\subset \mathbb{R}^2\to\mathbb{R}^2$, y $C$ una curva plana cerrada plana, suave o suave a trozos, orientada en sentido contrario a las agujas del reloj (positivo), perteneciente a $D$. Entonces podemos aplicar el teorema de ***Green**.*
+Sea $\vec f:D\subset \mathbb{R}^2\to\mathbb{R}^2$, y $C$ una curva cerrada plana, suave o suave a trozos, orientada en sentido contrario a las agujas del reloj (positivo), perteneciente a $D$. Entonces podemos aplicar el teorema de ***Green**.*
 
-El teorema de Green se utiliza para calcular la circulación en entornos de dos dimensiones. Aplicando lo mismo, pero usando una superficie que sea totalmente parte del plano. La normal en este caso seria perpendicular al plano
+El teorema de Green se utiliza para calcular la circulación en entornos de dos dimensiones. Aplicando lo mismo, pero usando una superficie que sea totalmente parte del plano. La normal en este caso sería perpendicular al plano
 
 $$
 \begin{gathered}
