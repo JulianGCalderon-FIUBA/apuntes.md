@@ -1,6 +1,6 @@
 ## Flip-Flop D Sincrónico Activado por Nivel
 
-![[Circuitos Sincronicos 1.png]]
+![[Circuitos Sincronicos 1.png|500]]
 
 El circuito únicamente cambia cuando el pulso del reloj está habilitado. Si no, el circuito mantiene su valor anterior.
 
