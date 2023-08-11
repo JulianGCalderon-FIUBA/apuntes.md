@@ -10,7 +10,7 @@ $$
 p_o = \rho\cdot w\cdot v\cdot A
 $$
 
-La onda de la presión esta desplazada $\pi/2$ con respecto al sonido hacia la izquierda.
+La onda de la presión está desplazada $\pi/2$ con respecto al sonido hacia la izquierda.
 
 $$
 Pascal: Pa = \frac N{m^2}

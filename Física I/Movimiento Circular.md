@@ -2,10 +2,13 @@ $$
 \boxed{\vec r = R\cos\theta\hat i + R\sin \theta \hat j}
 $$
 
-- **Distancia recorrida:** $\Delta s = \Delta \theta \cdot R$
-- **Rapidez:** Para $\Delta t \to 0$: $\Delta s = \Delta r \implies ds = |dr|$
+Definimos la **distancia recorrida:** $\Delta s = \Delta \theta \cdot R$ según la variación del ángulo del movimiento.
 
-	$$\displaystyle |\vec v|= \frac{|dr|}{dt}=\frac{ds}{dt} = \frac{d\theta}{dt} \cdot R$$
+Para un tiempo infinitesimal $\Delta t \to 0$: $\Delta s = \Delta r \implies ds = |dr|$. Luego, podemos hallar una expresión para la **rapidez**
+
+$$
+\displaystyle |\vec v|= \frac{|dr|}{dt}=\frac{ds}{dt} = \frac{d\theta}{dt} \cdot R
+$$
 
 ## Velocidad y aceleración angular
 

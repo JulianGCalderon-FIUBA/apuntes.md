@@ -2,12 +2,12 @@ En física existen dos conceptos fundamentales. Las partículas, que responden a
 
 ## Clasificación
 
-**Segun el medio:**
+**Según el medio:**
 
 - **Ondas Mecánicas**: Vibran las moléculas, necesitan un medio. Un ejemplo de esto es la cuerda de una guitarra, requiere de la misma cuerda para vibrar.
 - **Ondas Electromagnéticas:** Vibra el campo, no necesitan un medio. Un ejemplo de esto es la luz, esta atraviesa miles de kilómetros en el vacío y no necesita un medio para propagarse. Solo pueden ser transversales
 
-**Segun la dirección:**
+**Según la dirección:**
 
 - **Onda Longitudinal:** La velocidad de propagación tiene la misma dirección que la perturbación. Necesitan medio con resistencia a la compresión. Tienen compresiones y dilataciones
 - **Onda Transversal:** La velocidad de propagación es perpendicular a la de la perturbación. Necesitan medios con resistencia a la flexión. Tienen crestas y valles.
@@ -34,13 +34,16 @@ $$
 - $x:$ Posición
 - $t:$ Tiempo
 - $A:$ Amplitud
-- $k$ Numero de onda
+- $k:$ Número de onda
 - $w:$ Pulsación de la onda (Frecuencia Angular)
-- $\varphi:$ Angulo inicial
+- $\varphi:$ Ángulo inicial
 
-Si $w$ tiene sentido **negativo**, entonces la onda se desplaza en sentido $\hat x$ **positivo**.
+El sentido de $w$ indicará la dirección del desplazamiento:
 
-Si $w$ tiene sentido **positivo**, entonces la onda se desplaza en sentido $\hat x$ **negativo**.
+- Si $w$ tiene sentido **negativo**, entonces la onda se desplaza en sentido $\hat x$ **positivo**.
+- Si $w$ tiene sentido **positivo**, entonces la onda se desplaza en sentido $\hat x$ **negativo**.
+
+
 
 - **Velocidad de Propagación** $\displaystyle\to v= \frac\lambda T=\frac wk$
 - **Longitud de Onda** $\displaystyle\to\lambda = \frac vf$
