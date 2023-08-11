@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física II/Conductores.md",
+                "file": "Física II/Corriente Alterna.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física II/Conductores.md"
+                "file": "Física II/Corriente Alterna.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física II/Conductores.md",
+                "file": "Física II/Corriente Alterna.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física II/Conductores.md",
+                "file": "Física II/Corriente Alterna.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,6 +156,9 @@
   },
   "active": "5123070076cf8950",
   "lastOpenFiles": [
+    "Física II/Corriente Continua.md",
+    "Física II/Corriente Alterna.md",
+    "Física II/Conductores.md",
     "Física II/Circuitos en Resonancia.md",
     "Física II/Circuito Eléctrico.md",
     "Física II/Capacitores.md",
@@ -189,9 +192,6 @@
     "Física I/Interferencia.md",
     "Física I/Física I.md",
     "Física I/Energía CR.md",
-    "Física I/Energía en Ondas.md",
-    "Física I/Dispositivos Ópticos.md",
-    "Física I/Dinámica CR.md",
     "Base de Datos",
     "Algoritmos II/Attachments/Machete - AAB.pdf",
     "Untitled.canvas"

@@ -1,4 +1,4 @@
-Vamos a diseñar circuitos que contengan los elementos vistos anteriormente. Además, vamos a conectar circuitos a la corriente alterna, Es decir, una corriente cuya tension esta asociada a una función cosenoidal.
+Vamos a diseñar circuitos que contengan los elementos vistos anteriormente. Además, vamos a conectar circuitos a la corriente alterna, Es decir, una corriente cuya tensión está asociada a una función cosenoidal.
 
 $$
 v_q(t) = v_0 \cdot \cos(wt + \phi_v)
@@ -8,7 +8,7 @@ Siendo $v_0$ la amplitud *(o valor pico),* $w$ la frecuencia angular *(o pulsaci
 
 ## Circuito Resistivo Puro
 
-Planteamos, como con corriente estacionaria, la Ley de Ohm. Llegamos al valor de la corriente en el circuito, que varia en función del tiempo, según la tension el generador.
+Planteamos, como con corriente estacionaria, la Ley de Ohm. Llegamos al valor de la corriente en el circuito, que varía en función del tiempo, según la tensión el generador.
 
 $$
 v_q(t) = i(t)\ R
@@ -19,7 +19,7 @@ i(t) = \frac{v_0}{R} \cdot \cos(wt + \phi_v)
 $$
 
 > [!note]
-> La corriente del circuito va a estar en fase con la tension del generador, lo que varia (en función de la resistencia) sera la amplitud.
+> La corriente del circuito va a estar en fase con la tensión del generador, lo que varía (en función de la resistencia) será la amplitud.
 
 ## Circuito Capacitivo Puro
 
@@ -34,7 +34,7 @@ i(t) = C \cdot w\ v_0  \cdot \cos(wt + \phi_v + \frac\pi 2)
 $$
 
 > [!note]
-> La corriente del circuito va a estar desfasada $\pi/2$ con la tension del generador. Va a variar la amplitud (en función de la capacidad)
+> La corriente del circuito va a estar desfasada $\pi/2$ con la tensión del generador. Va a variar la amplitud (en función de la capacidad)
 
 Vamos a definir la reactancia capacitiva $X_c = \frac 1{C\ w}$. La cual tendrá unidades de **Ohm**. A mayor frecuencia, tendremos menor reactancia (menor corriente). Esto se debe a que no le damos tiempo suficiente al capacitor para cargarse.
 
@@ -50,14 +50,19 @@ $$
 i(t) = \frac{v_0}{w\cdot L} \cdot \cos(wt + \phi_v - \frac \pi 2)
 $$
 
-Definimos entonces, la reactancia inductiva $X_L = w\ L$. A mayor frecuencia, La reactancia inductiva aumentara (menor corriente). Esto se debe a que la variación de flujo sera menor.
+Definimos, entonces, la reactancia inductiva $X_L = w\ L$. A mayor frecuencia, La reactancia inductiva aumentará (menor corriente). Esto se debe a que la variación de flujo será menor.
 
 > [!note]
-> La corriente del circuito va a estar desfasada $\pi/2$ con la tension del generador. Va a variar la amplitud (en función del coeficiente de auto inductancia del material)
+> La corriente del circuito va a estar desfasada $\pi/2$ con la tensión del generador. Va a variar la amplitud (en función del coeficiente de autoinductancia del material)
 
-## Conclusion
+## Conclusión
 
-Vemos entonces, que los tres elementos del circuito no modifican la frecuencia angular de la corriente, Sin embargo, Existirán desfasajes en la intensidad de la corriente. Además, la corriente varia según las propiedades de los elementos.
+Vemos, entonces, que los tres elementos del circuito no modifican la frecuencia angular de la corriente, Sin embargo, Existirán desfasajes en la intensidad de la corriente. Además, la corriente varía según las propiedades de los elementos.
+
+|     | Amplitud $(i_0)$ | Fase $(\phi_i)$ | Desfasaje $(\phi_{iv})$ |
+| --- | ---------------- | --------------- | ----------------------- |
+| $R$ | $v_0                 |                 |                         |
+| $C$ |                  |                 |                         |
 
 $$
 \def\arraystretch{1.4}\begin{array}{|c|c|c|c|}\hline
