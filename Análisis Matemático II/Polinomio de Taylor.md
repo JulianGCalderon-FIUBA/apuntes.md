@@ -40,16 +40,17 @@ Así resulta el único polinomio de Taylor de grado 2 en $x,y$ es:
 
 $$
 \begin{align*}
-p_2(&x_0, y_0) = \overbrace{f(x_0, y_0) + f'_x(x_0, y_0)(x-x_0) + f'y(x_0, y_0)(y-y_0)}^\text{Aproximacion Lineal (Plano Tangente)}+\\ &+ \frac{1}{2!}\bigg[ f''_{xx}(x_0, y_0)(x-x_0)^2 + \\ 2f''_{xy}(x_0, y_0)(x-x_0)(y-y_0) + \\ f''_{yy}(x_0, y_0)(y-y_0)^2\bigg]
+&p_2(x_0, y_0) = \overbrace{f(x_0, y_0) + f'_x(x_0, y_0)(x-x_0) + f'y(x_0, y_0)(y-y_0)}^\text{Aproximacion Lineal (Plano Tangente)} \\
+&+ \frac{1}{2!}\bigg[ f''_{xx}(x_0, y_0)(x-x_0)^2 + 2f''_{xy}(x_0, y_0)(x-x_0)(y-y_0) + f''_{yy}(x_0, y_0)(y-y_0)^2\bigg]
 \end{align*}
 $$
-
----
 
 Análogamente, el polinomio de Taylor de grado 3 en $x,y$ es:
 
 $$
-\begin{align*}p_3&(x_0, y_0) = p_2(x_0, y_0)\\+&\frac{1}{3!}\bigg[f'''_{xxx}(x_0, y_0)(x-x_0)^3 + f'''_{yyy}(x_0, y_0)(y-y_0)^3\\&+3f'''_{xxy}(x_0, y_0)(x-x_0)^2(y-y_0)\\&+3f'''_{yyx}(x_0, y_0)(x-x_0)(y-y_0)^2\bigg]\end{align*}
+\begin{align*}p_3&(x_0, y_0) = &p_2(x_0, y_0)\\&+\frac{1}{3!}\bigg[&f'''_{xxx}(x_0, y_0)(x-x_0)^3 + f'''_{yyy}(x_0, y_0)(y-y_0)^3\\
+&+&3f'''_{xxy}(x_0, y_0)(x-x_0)^2(y-y_0)\\
+&+&3f'''_{yyx}(x_0, y_0)(x-x_0)(y-y_0)^2\bigg]\end{align*}
 $$
 
 ### Definición Formal
