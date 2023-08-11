@@ -12,9 +12,7 @@ $$
 
 El gradiente de una función diferenciable de dos variables es en cada punto ortogonal al vector tangente a la curva de nivel que pasa por ese punto
 
-![[Curvas de nivel y Regla de la cadena 1.png]]
-
----
+![[Curvas de nivel y Regla de la cadena 1.png|425]]
 
 Sea $f(x,y,z)$ diferenciable, $C_k$ una superficie de nivel. Si tomamos una de las infinitas curvas de nivel $C:(x(t), y(t), z(t))$a
 
@@ -30,4 +28,4 @@ $$
 
 El gradiente es perpendicular a las direcciones tangentes a la curva de nivel en ese punto
 
-![[Curvas de nivel y Regla de la cadena 2.png]]
+![[Curvas de nivel y Regla de la cadena 2.png|425]]

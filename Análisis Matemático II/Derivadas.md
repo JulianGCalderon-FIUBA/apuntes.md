@@ -25,7 +25,7 @@ La derivada direccional es un numero real que representa la pendiente de la rect
 
 ## Derivadas parciales
 
-Cuando $\displaystyle\vec v = \underbrace{\vec e_k}_{\text{Canónico}}$, la derivada se llama parcial $\displaystyle \frac{\partial f}{\partial e_k}(\vec x)$
+Cuando $\displaystyle\vec v = \vec e_k$, la derivada se llama parcial $\displaystyle \frac{\partial f}{\partial e_k}(\vec x)$
 
 La derivada parcial $\partial$ se calcula derivando una sola variable y dejando a la otra como constante.
 

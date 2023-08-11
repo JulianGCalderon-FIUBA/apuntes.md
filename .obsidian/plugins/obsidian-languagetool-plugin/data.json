@@ -1,7 +1,7 @@
 {
   "serverUrl": "https://api.languagetool.org",
   "urlMode": "standard",
-  "glassBg": true,
+  "glassBg": false,
   "shouldAutoCheck": true,
   "autoCheckDelay": 3000,
   "pickyMode": false

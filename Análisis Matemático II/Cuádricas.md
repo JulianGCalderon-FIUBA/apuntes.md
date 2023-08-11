@@ -6,50 +6,52 @@ $$
 
 ## Esferas y Elipsoides
 
+Definida por la ecuación:
+
 $$
 \boxed{\frac{(x+x_0)^2}{a^2} + \frac{(y+y_0)^2}{b^2} + \frac{(z+z_0)^2}{c^2} = 1}
 $$
 
-$a, b, c$: Longitud de semiejes
-
-![[Cuadricas 1.png]]
+Donde definimos $a, b, c$: Longitud de semiejes
 
 ## Paraboloide
+
+Definida por la ecuación:
 
 $$
 \boxed{z = ax^2 + by^2 }
 $$
 
-Si $a = b$, es un paraboloide circular, si $a ≠ b$ y tienen el mismo signo, es un paraboloide elíptico
+Si $a = b$, es un paraboloide circular, si $a ≠ b$ y tienen el mismo signo, es un paraboloide elíptico.
 
-![[Cuadricas 2.png]]
+Si $a$ y $b$ tienen distinto signo, se trata de un paraboloide hiperbólico
 
-si $a$ y $b$ tienen distinto signo, se trata de un paraboloide hiperbólico
-
-![[Cuadricas 3.png]]
+![[Cuadricas 2.png|162]]![[Cuadricas 3.png|147]]
 
 ## Hiperboloides y Conos
+
+Definida por la ecuación:
 
 $$
 \boxed{ax^2 + by^2 - cz^2 = d}
 $$
 
-Su forma, dependerá del valor de $d$
+Su forma dependerá del valor de $d$
 
 ### Hiperboloide de una Hoja
 
-Si es positivo, se trata de un hiperboloide de una hoja
+Si $d$ es positivo, se trata de un hiperboloide de una hoja
 
 ![[Cuadricas 4.png]]
 
 ### Hiperboloide de dos Hojas
 
-Si es negativo, se trata de un hiperboloide de dos hojas
+Si $d$ es negativo, se trata de un hiperboloide de dos hojas
 
-![[Cuádricas 5.png]]
+![[Cuadricas 5.png]]
 
 ### Cono
 
-Si es cero, se trata de un cono
+Si $d$ es cero, se trata de un cono
 
-![[Cuádricas 6.png]]
+![[Cuadricas 6.png]]
