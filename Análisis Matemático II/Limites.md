@@ -17,7 +17,7 @@ En los campos y funciones vectoriales, el cálculo de límites se hace component
 	- Parábolas:
 		- $y = m(x-x_0)^2 + y_0$
 		- $x = m(y - y_0)^2 + x_0$
-	- Curva de nivel K:
+	- Curva de nivel $K$:
 		- Me acerco por una curva de nivel $k$ que contenga el punto al que me quiero acercar
 
 ### Para calcular límites
