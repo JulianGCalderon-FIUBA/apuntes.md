@@ -6,7 +6,7 @@ $$
 P = \xi^2\cdot F\cdot k\cdot w\cdot\cos^2(kx \pm wt)
 $$
 
-Si calculo el promedio de la potencia por unidad de area, llegamos a que
+Si calculo el promedio de la potencia por unidad de área, llegamos a que
 
 $$
 ⟨P⟩ = \frac12\cdot\Big[\rho\cdot\text{Sección}\Big]\cdot v\cdot w^2\cdot A^2
@@ -20,7 +20,7 @@ $$
 
 ## Intensidad
 
-La intensidad de una cuerda esta relacionada con la potencia que tiene la cuerda, por unidad de area.
+La intensidad de una cuerda está relacionada con la potencia que tiene la cuerda, por unidad de área.
 
 $$
 ⟨I⟩ =
@@ -31,7 +31,7 @@ $$
 ⟨I⟩ = \frac 12\cdot\rho\cdot v\cdot w^2\cdot A^2
 $$
 
-Si la onda se propaga en tres dimensiones, entonces el area vale $4\pi R^2$
+Si la onda se propaga en tres dimensiones, entonces el área vale $4\pi R^2$
 
 $$
 I = \frac{⟨P⟩}{4\pi R^2}
@@ -65,7 +65,7 @@ $$
 E_{Pel} = \frac 12K\cdot\Delta x^2
 $$
 
-Asociamos la constante elástica $K$ al modulo de *Young* $Y$, y la velocidad de la partícula a la derivada espacial de la perturbación. Así podemos calcular la densidad de energía potencial
+Asociamos la constante elástica $K$ al módulo de *Young* $Y$, y la velocidad de la partícula a la derivada espacial de la perturbación. Así podemos calcular la densidad de energía potencial
 
 $$
 dE_{Pel} = \frac 12v_p^2\cdot\rho

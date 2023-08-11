@@ -1,8 +1,12 @@
 ## Espejos Esféricos
 
+### Espejos Cóncavos
+
 En los espejos **cóncavos.** La imagen es real, a menos que el objeto se encuentre entre el foco y el espejo
 
 ![[Dispositivos Opticos 1.png|475]]![[Dispositivos Opticos 2.png|475]]
+
+### Espejos Convexos
 
 En los espejos **convexos**, la imagen es virtual, a menos que el objeto se encuentre entre el foco y el espejo
 
@@ -12,9 +16,13 @@ En los espejos **convexos**, la imagen es virtual, a menos que el objeto se encu
 
 Una **Dioptra** es una superficie que separa dos medios de distinta densidad óptica ($n_1,n_2$)
 
+### Dioptras Convergentes
+
 En las dioptras **convergentes**, los focos son reales.
 
 ![[Dispositivos Opticos 5.png|500]]![[Dispositivos Opticos 6.png|500]]
+
+### Dioptras Divergentes
 
 En las dioptras **divergentes**, los focos son virtuales.
 
@@ -28,11 +36,15 @@ Una **lente gruesa** es aquella que no tiene un espesor despreciable entre sus d
 
 En **física 1** se trabaja con lentes delgadas.
 
-![[Dispositivos Opticos 9.png|477]]
+![[Dispositivos Opticos 9.png|252]]
+
+### Lentes Convergentes
 
 En las lentes **convergentes**, los focos son reales.
 
 ![[Dispositivos Opticos 10.png|475]]![[Dispositivos Opticos 11.png|475]]
+
+### Lentes Divergentes
 
 En las lentes **divergentes**, los focos son virtuales.
 

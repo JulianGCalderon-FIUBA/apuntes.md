@@ -32,11 +32,11 @@ $$
 
 ## Trabajo
 
-En el calculo de trabajo, el procedimiento es el mismo que en un cuerpo puntual, pero se debe considerar el desplazamiento del punto del cuerpo rígido donde se aplica la fuerza
+En el cálculo de trabajo, el procedimiento es el mismo que en un cuerpo puntual, pero se debe considerar el desplazamiento del punto del cuerpo rígido donde se aplica la fuerza
 
-### Calculo de $\Delta x$ en $A$
+### Cálculo de $\Delta x$ en $A$
 
-![[Energia CR 1.png]]
+![[Energia CR 1.png|425]]
 
 $$
 W^F = \int F\cdot dx_A

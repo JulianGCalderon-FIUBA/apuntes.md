@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "cb3b85be7a990123",
+        "id": "3077cbf3427c2d4c",
         "type": "tabs",
         "children": [
           {
@@ -13,10 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física I/Dispositivos Opticos.md",
+                "file": "Física I/Física I.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "6aa8e65c1774a650",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física I/Dispositivos Opticos.md"
+                "file": "Física I/Física I.md"
               }
             }
           },
@@ -95,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física I/Dispositivos Opticos.md",
+                "file": "Física I/Física I.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física I/Dispositivos Opticos.md",
+                "file": "Física I/Física I.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,6 +165,9 @@
   },
   "active": "d7263f3c743d6923",
   "lastOpenFiles": [
+    "Física I/Energía en Ondas.md",
+    "Física I/Energia CR.md",
+    "Física I/Dispositivos Opticos.md",
     "Física I/Dinámica CR.md",
     "Física I/Dinamica.md",
     "Física I/Difracción.md",
@@ -183,10 +194,7 @@
     "Base de Datos/Base de Datos.md",
     "index.md",
     "Base de Datos/Introducción.md",
-    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
     "Base de Datos",
-    "Introducción a Sistemas Distribuidos/Clases Practicas.md",
-    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
     "Estructura del Computador/Attachments/Simplificacion de Funciones 1.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",
