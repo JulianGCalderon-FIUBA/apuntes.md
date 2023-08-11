@@ -77,9 +77,9 @@ $$
 
 ### Métodos SOR
 
-Los métodos de sobre relajación reciben este nombre porque producen sucesivas relajaciones excesivas. Son útiles para resolver sistemas lineales que ocurren en la solución numérica de ciertas equaciones diferenciales en derivadas parciales.
+Los métodos de sobre relajación reciben este nombre porque producen sucesivas relajaciones excesivas. Son útiles para resolver sistemas lineales que ocurren en la solución numérica de ciertas ecuaciones diferenciales en derivadas parciales.
 
-Los metodos consisten en utiizar $\omega$ para modificar las matrices $T, c$
+Los métodos consisten en utilizar $\omega$ para modificar las matrices $T, c$
 
 $$
 T_\omega = (D - \omega L)^{-1}[(1-\omega)D + \omega U]
@@ -93,8 +93,8 @@ $$
 x^{(k)} = T_\omega x^{(k-1)} + c_\omega
 $$
 
-Si ningun elemento de la diagonal es nulo, entonces el metodo SOR converge sólo si $0 < \omega < 2$
+Si ningún elemento de la diagonal es nulo, entonces el método SOR converge solo si $0 < \omega < 2$
 
-Si la matriz es definida posistiva y $0 < \omega < 2$, entonces el método SOR converge para cualquier semilla.
+Si la matriz es definida positiva y $0 < \omega < 2$, entonces el método SOR converge para cualquier semilla.
 
-Si $\omega = 1$, entonces se reduce al método Gauss-Seidel.
+> [!note] Si $\omega = 1$, entonces se reduce al método Gauss-Seidel.

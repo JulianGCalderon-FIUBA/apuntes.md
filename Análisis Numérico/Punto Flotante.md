@@ -10,21 +10,21 @@ $$
 \end{align*}
 $$
 
-$s:$ Signo, Indica si es positivo o negativo.
+Definiendo:
 
-$c:$ Mantisa, le da significado al numero.
+- $s:$ Signo, Indica si es positivo o negativo.
+- $c:$ Mantisa, le da significado al número.
+- $q:$ Exponente, le da magnitud al número.
 
-$q:$ Exponente, le da magnitud al numero.
+Podemos observar en la siguiente imagen, los formatos típicos de los números de máquinas
 
-![[Punto Flotante 1.png]]
-
-Formatos típicos de los números de maquina.
+![[Punto Flotante 1.png|475]]
 
 ## Propiedades
 
-- Los números de maquina son un subconjunto finito de los números racionales.
-- Son mas densos cerca del $0$ y se separan a medida que se alejan de el.
-- La cota de error relativo para cualquier numero distinto de $0$ es constante.
-- Si intentamos almacenar un numero mas grande que la cota maxima obtendremos una excepción llamada **overflow**.
-- Si intentamos almacenar un numero mas chico que la cota minima obtendremos un a excepción llamada **underflow**.
-- Cuando queremos almacenar un numero cualquiera, la computadora lo redondea al numero de maquina mas cercano.
+- Los números de máquina son un subconjunto finito de los números racionales.
+- Son más densos cerca del $0$ y se separan a medida que se alejan de él.
+- La cota de error relativo para cualquier número distinto de $0$ es constante.
+- Si intentamos almacenar un número más grande que la cota máxima obtendremos una excepción llamada **overflow**.
+- Si intentamos almacenar un número más chico que la cota mínima obtendremos una excepción llamada **underflow**.
+- Cuando queremos almacenar un número cualquiera, la computadora lo redondea al número de máquina más cercano.

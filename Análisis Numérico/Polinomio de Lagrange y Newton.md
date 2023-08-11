@@ -1,6 +1,6 @@
 ## Polinomio de Lagrange
 
-La interpolación de Lagrange permite encontrar una polinomio que coincida con la función $f$ en $n+1$ puntos del espacio
+La interpolación de Lagrange permite encontrar un polinomio que coincida con la función $f$ en $n+1$ puntos del espacio
 
 $$
 P_L(x) = \sum_{k=0}^n f(x_k)L_k(x)
@@ -12,7 +12,7 @@ $$
 
 ### Teorema del Error
 
-Supongamos $x_0, x_1, \cdots, x_n$ son números distintos en el intervalo $[a,b]$ y que $f \in C^{n+1}[a,b]$. Entonces, para cada $x$ en $[a,b]$ existe un numero $\xi(x)$ en $(a,b)$ con la propiedad:
+Supongamos $x_0, x_1, \cdots, x_n$ son números distintos en el intervalo $[a,b]$ y que $f \in C^{n+1}[a,b]$. Entonces, para cada $x$ en $[a,b]$ existe un número $\xi(x)$ en $(a,b)$ con la propiedad:
 
 $$
 f(x) = P_n(x) + \frac{f^{(n+1)}(\xi(x))}{(n+1)!}(x - x_0)(x - x_1)\cdots(x - x_n)
@@ -67,7 +67,7 @@ $$
 f[x_0, x_1, \cdots, x_n] = \frac{f^{(n)}(\xi)}{n!}
 $$
 
-De esta forma, podemos usar el teorema del error del polinomio de Lagrange para calcular el error cometido en la aproximación polinomial. El polinomio de newton es una forma del polinomio de lagrange pero de un grado menor. Sacrificamos un grado del polinomio para obtener la cota del error.
+De esta forma, podemos usar el teorema del error del polinomio de Lagrange para calcular el error cometido en la aproximación polinomial. El polinomio de newton es una forma del polinomio de Lagrange pero de un grado menor. Sacrificamos un grado del polinomio para obtener la cota del error.
 
 $$
 f(x) = P_{n-1} + \frac{f^{(n)}(\xi) }{n!} \cdot (x-x_0)(x-x_1)\cdots(x-x_{n-1})

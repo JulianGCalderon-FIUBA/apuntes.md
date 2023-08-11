@@ -1,14 +1,14 @@
-Este método es una de las técnicas numéricas mas poderosas de la búsqueda de raíces. Sin embargo, este método requiere de una buena raíz ya que no converge para todo valor inicial.
+Este método es una de las técnicas numéricas más poderosas de la búsqueda de raíces. Sin embargo, este método requiere de una buena raíz, ya que no converge para todo valor inicial.
 
 Para este método, se realiza una aproximación lineal de la función a analizar y se busca la raíz de dicha aproximación. Si el punto inicial es suficientemente cercano a la raíz, entonces el método converge.
 
-Para encontrar el método, partimos de la aproximación de taylor de orden dos, ignorando el despreciando el término del error. Luego remplazamos $f(p) = 0$ para obtener la sucesión.
+Para encontrar el método, partimos de la aproximación de Taylor de orden dos, ignorando/despreciando el término del error. Luego remplazamos $f(p) = 0$ para obtener la sucesión.
 
 $$
 f(x)=f(\overline x)+(x-\overline x)f'(\overline x) + \frac{(x-\overline x)^2}{2}f''(\overline x)
 $$
 
-Sea $f \in \mathscr C^2[a,b]$ y $\overline x \in [a.b]$ una aproximación de p tal que $f'(x) \neq 0$ y $\|p-\overline x\|$ suficientemente pequeño. Entonces la sucesión $p_n$ converge a la raíz.
+Sea $f \in \mathscr C^2[a,b]$ y $\overline x \in [a.b]$ una aproximación de $p$ tal que $f'(x) \neq 0$ y $\|p-\overline x\|$ suficientemente pequeño. Entonces la sucesión $p_n$ converge a la raíz.
 
 $$
 p_n = p_{n-1} - \frac{f(p_{n-1})}{f'(p_{n-1})} \quad \forall n \geq 1
@@ -38,9 +38,9 @@ $$
 p_n = p_{n-1} - \frac{f(p_{n-1})(p_{n-1}-p_{n-2})}{f(p_{n-1})-f(p_{n-2})}
 $$
 
-El método de la ventaja permite que no debamos calcular la derivada, y tiene mejores rendimientos que los métodos lineales. Sin embargo, se necesitan dos semillas y se pierde la convergencia cuadratica.
+El método de la ventaja permite que no debamos calcular la derivada, y tiene mejores rendimientos que los métodos lineales. Sin embargo, se necesitan dos semillas y se pierde la convergencia cuadrática.
 
-## Raíces Multiples
+## Raíces Múltiples
 
 Una solución $p$ de $f(x) = 0$ es un cero de multiplicidad $m$ de $f$ si para todo $x \neq p$, se cumple que
 
@@ -54,15 +54,15 @@ $$
 
 ### Modificación del Método para Raíces Múltiples
 
-Si $f(x)$ tiene raíces multiples, entonces para encontrar esas raíces manteniendo la convergencia cuadrática, planteo la función iterativa como
+Si $f(x)$ tiene raíces múltiples, entonces para encontrar esas raíces manteniendo la convergencia cuadrática, planteo la función iterativa como
 
 $$
 g(x) = x - \frac{u(x)}{u'(x)} \iff u(x) = \frac{f(x)}{f’(x)}
 $$
 
-De esta forma, nos aseguramos que la función $u$ no tenga raíces multiples, pero que $p$ sea un cero de $u$.
+De esta forma, nos aseguramos que la función $u$ no tenga raíces múltiples, pero que $p$ sea un cero de $u$.
 
-Definimos la sucesión de newton raphson modificado como
+Definimos la sucesión de Newton-Raphson modificado como
 
 $$
 
