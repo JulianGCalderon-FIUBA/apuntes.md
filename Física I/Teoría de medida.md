@@ -8,7 +8,7 @@ $$
 
 El resultado de una medición es un intervalo, que tiene en cuenta la imprecisión del artefacto medidor.
 
-También podemos calcular la incerteza relativa, según$\displaystyle \varepsilon = \frac{\Delta x}{x}$
+También podemos calcular la incerteza relativa, según $\displaystyle \varepsilon = \frac{\Delta x}{x}$
 
 ## Clasificación de mediciones
 
@@ -34,17 +34,11 @@ Es el número de dígitos contenidos en el resultado de la medición que están 
 	\Delta y = \frac{\partial y}{\partial x_1}\Delta x_1 + \frac{\partial y}{\partial x_2}\Delta x_2 + \dots + \frac{\partial y}{\partial x_n}\Delta x_n 
 	$$
 
-$$
-\Delta y = \varepsilon \cdot y
-$$
+	$$
+	\Delta y = \varepsilon \cdot y
+	$$
 
-**Clasificación de incertezas**
+## Clasificación de incertezas
 
-- Sistemáticas: Imperfección del instrumento
-- Accidentales: Son distintas en cada medición
-
-**Incerteza relativa:** $\varepsilon = \frac{\Delta X}{X}$
-
-**Precisión:** Menor variación de la magnitud que detecta el instrumento
-
-**Exactitud:** Asociada a la calidad de la calibración del mismo
+- Sistemáticas: Imperfección del instrumento. Asociadas a estas, está la exactitud del instrumento. La exactitud de un instrumento es la calidad de calibración del mismo
+- Accidentales: Son distintas en cada medición. La precisión de un instrumento es la menor variación de la magnitud que detecta el mismo.

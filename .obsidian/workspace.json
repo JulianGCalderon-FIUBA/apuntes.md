@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física I/Teoría de medida.md",
+                "file": "Física I/Trazado de Rayos.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física I/Teoría de medida.md"
+                "file": "Física I/Trazado de Rayos.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física I/Teoría de medida.md",
+                "file": "Física I/Trazado de Rayos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física I/Teoría de medida.md",
+                "file": "Física I/Trazado de Rayos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,6 +165,8 @@
   },
   "active": "d7263f3c743d6923",
   "lastOpenFiles": [
+    "Física I/Trabajo y energía.md",
+    "Física I/Teoría de medida.md",
     "Física I/Superposición de Onda.md",
     "Física I/Sistema de referencia no inercial.md",
     "Física I/Sistema de partículas.md",
@@ -179,7 +181,6 @@
     "Física I/Interferencia.md",
     "Física I/Física I.md",
     "Física I/Energía CR.md",
-    "Física I/Teoría de medida.md",
     "Física I/Energía en Ondas.md",
     "Física I/Dispositivos Ópticos.md",
     "Física I/Dinámica CR.md",
@@ -190,7 +191,6 @@
     "Física I/Coordenadas Intrínsecas.md",
     "Organizacion de Datos/Introduccion.md",
     "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md",
-    "Modelos y Optimización I/Heurísticas para Coloreo de Grafos.md",
     "Física I/Attachments/Optica Geometrica 2.png",
     "Física I/Attachments/Optica Geometrica 1.png",
     "Física I/Attachments/Óptica Geométrica 2 1.png",
