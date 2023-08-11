@@ -11,8 +11,12 @@
             "id": "d7263f3c743d6923",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Física I/Colisiones.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -80,7 +84,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Física I/Colisiones.md"
+              }
             }
           },
           {
@@ -89,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Física I/Colisiones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Física I/Colisiones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,6 +158,11 @@
   },
   "active": "d7263f3c743d6923",
   "lastOpenFiles": [
+    "Física I/Cinemática CR.md",
+    "Probabilidad y Estadistica/Propiedades de Variables Aleatorias.md",
+    "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
+    "Análisis Matemático II/Attachments/Attachments.md",
+    "Estructura del Computador/Attachments/Attachments.md",
     "Sistemas Operativos/Sistemas Operativos.md",
     "Base de Datos/Base de Datos.md",
     "index.md",
@@ -161,22 +174,17 @@
     "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Network Layer Data Plane.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
     "Análisis Matemático II/Análisis Matemático II.md",
-    "Análisis Matemático II/Attachments/Attachments.md",
     "Análisis Matemático II/Funciones Implícitas.md",
     "Estructura del Computador/Estructura del Computador.md",
-    "Estructura del Computador/Attachments/Attachments.md",
     "Física I/Física I.md",
     "Fisica I/Fisica I.md",
     "Algoritmos I/Algoritmos I.md",
     "Álgebra II/Álgebra II.md",
     "Álgebra II/hola.md",
-    "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
     "Matemática Discreta/Matemática Discreta.md",
     "Álgebra II/Descomposición en Valores Singulares.md",
     "Organizacion de Datos/Organizacion de Datos.md",
     "Estructura del Computador/Sistemas de Numeración.md",
-    "Estructura del Computador/Sistema ARC.md",
-    "Estructura del Computador/Simplificación de Funciones.md",
     "Estructura del Computador/Attachments/Simplificacion de Funciones 1.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",
