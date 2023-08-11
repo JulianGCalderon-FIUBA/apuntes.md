@@ -4,7 +4,7 @@ La unidad del campo magnético es de $[\vec V] = T \text{(tesla)} = N/(A\cdot m)
 
 La tierra tiene asociada un imán, en el polo norte geográfico se encuentra el polo sur magnético e igualmente para el polo sur geográfico.
 
-La utilización mas antigua de los campos magnéticos es la brújula, un imán en equilibrio que se alineara con el campo magnético de la tierra. Por eso el polo norte magnético de la brújula apuntara al polo norte geográfico de la tierra (polo sur magnético)
+La utilización más antigua de los campos magnéticos es la brújula, un imán en equilibrio que se alineara con el campo magnético de la tierra. Por eso el polo norte magnético de la brújula apuntará al polo norte geográfico de la tierra (polo sur magnético)
 
 ## Momento Dipolar Magnético
 
@@ -30,7 +30,7 @@ $$
 \vec F_\text{Lorentz} = q\vec E +  q\cdot \vec v \times \vec B
 $$
 
-Ya que la fuerza es siempre perpendicular a la trayectoria, entonces el trabajo de la fuerza magnética es nulo. $\vec F_M$ no es conservativa. Ya que no es conservativa, el modulo de la velocidad permanece constante. $W_{Fnc} = \Delta U_{\text{cinetica}}$
+Ya que la fuerza es siempre perpendicular a la trayectoria, entonces el trabajo de la fuerza magnética es nulo. $\vec F_M$ no es conservativa. Puesto que no es conservativa, el módulo de la velocidad permanece constante. $W_{Fnc} = \Delta U_{\text{cinetica}}$
 
 ### Trayectoria en $\vec B$ uniforme
 
@@ -58,7 +58,7 @@ $$
 
 El movimiento es compuesto, se mueve tanto en **MCU** como en **MRU,** movimiento rectilíneo uniforme. De esta forma, la trayectoria es una hélice (movimiento helicoidal).
 
-Comparte las mismas formulas que el caso anterior, pero se usa la velocidad perpendicular $v_\perp$ al campo para el **MCU**.
+Comparte las mismas fórmulas que el caso anterior, pero se usa la velocidad perpendicular $v_\perp$ al campo para el **MCU**.
 
 Por otro lado, la velocidad paralela $v_\parallel$ al campo afecta el **MRU**. Siendo $h$ el desplazamiento en esta dirección por cada periodo
 
@@ -67,7 +67,7 @@ h = v_\parallel\cdot T = \frac{v_\parallel\cdot 2\pi \cdot m}{q\cdot B}
 $$
 
 > [!note]
-> Si la carga es negativa, la trayectoria es la misma pero la fuerza tiene sentido opuesto
+> Si la carga es negativa, la trayectoria es la misma, pero la fuerza tiene sentido opuesto
 
 ## Aplicaciones
 
@@ -81,4 +81,4 @@ $$
 
 ### Espectrómetro de Masas
 
-Utiliza un selector de velocidades para aislar cargas con la misma velocidad. Ya que las cargas tienen la misma carga y velocidad pero distinta masa, estas se van a girar debido al campo magnético y el radio de giro va a depender de la masa. De esta forma podemos recolectar cargas con diferente de masa dependiendo de la posición.
+Utiliza un selector de velocidades para aislar cargas con la misma velocidad. Ya que las cargas tienen la misma carga y velocidad, pero distinta masa, estas se van a girar debido al campo magnético y el radio de giro va a depender de la masa. De esta forma podemos recolectar cargas con diferente de masa dependiendo de la posición.

@@ -108,6 +108,9 @@
     "fasor",
     "fasorial",
     "Torque",
-    "Snell"
+    "Snell",
+    "MCU",
+    "MRU",
+    "Lorentz"
   ]
 }

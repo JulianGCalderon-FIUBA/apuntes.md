@@ -41,23 +41,23 @@ $$
 
 ## Campo Eléctrico en una Distribución Continua
 
-Podemos pensar a este campo eléctrico como una suma de cargas infinitesimales. es decir, una integral
+Podemos pensar a este campo eléctrico como una suma de cargas infinitesimales. Es decir, una integral
 
 $$
 \vec E(\vec r) = k\int \frac{r-r'}{\|\vec r - \vec r'\|^3}\cdot dq
 $$
 
-Si esta distribuida en una línea, entonces podemos definir la densidad lineal de carga $\lambda$, y entonces $dq = \lambda dl$.
+Si está distribuida en una línea, entonces podemos definir la densidad lineal de carga $\lambda$, y entonces $dq = \lambda dl$.
 
-Si esta distribuida en una superficie, podemos definir la densidad superficial de carga $\sigma$, y entonces $dq = \sigma ds$
+Si está distribuida en una superficie, podemos definir la densidad superficial de carga $\sigma$, y entonces $dq = \sigma ds$
 
-Si esta distribuida en un volumen, podemos definir la densidad volumétrica de carga $\rho$, y entonces $dq = \rho dv$
+Si está distribuida en un volumen, podemos definir la densidad volumétrica de carga $\rho$, y entonces $dq = \rho dv$
 
 Tanto $\lambda, \sigma, \rho$ pueden depender de las coordenadas primadas. $\lambda(\vec r'), \sigma(\vec r'), \rho(\vec r')$.
 
-$r$ es el punto campo, y no se integra respecto a esta variable. $r'$ por el otro lado es el punto fuente y varia dentro de la integral
+$r$ es el punto campo, y no se integra respecto a esta variable. $r'$ por el otro lado es el punto fuente y varía dentro de la integral
 
-Por lo tanto definimos el campo eléctrico de una distribución continua de cargas en un volumen como
+Por lo tanto, definimos el campo eléctrico de una distribución continua de cargas en un volumen como
 
 $$
 \vec E(\vec r) = k\iiint_V \rho(x', y', z')\cdot\frac{(\vec r - \vec r')}{\|\vec r - \vec r'\|^3}dx'dy'dz'
@@ -65,14 +65,14 @@ $$
 
 ## Líneas de Campo Eléctrico
 
-Son curvas imaginarias de modo que su tangente en todo punto del espacio sea la dirección del campo eléctrico $E$. Al representar la dirección del campo, se pierde la información del modulo.
+Son curvas imaginarias, de modo que su tangente en todo punto del espacio sea la dirección del campo eléctrico $E$. Al representar la dirección del campo, se pierde la información del módulo.
 
-Para remplazar esta información faltante usamos la densidad de líneas dibujadas, la cual es proporcional a la intensidad del campo. Cuantas mas líneas haya alrededor de un punto $p$, mayor es la intensidad del campo en ese punto
+Para remplazar esta información faltante usamos la densidad de líneas dibujadas, la cual es proporcional a la intensidad del campo. Cuantas más líneas haya alrededor de un punto $p$, mayor es la intensidad del campo en ese punto
 
-Si alrededor de una carga $C$ hay mas líneas de campo que alrededor de la carga $D$, entonces podemos afirmar que $\|Q_C\| > \|Q_D\|$
+Si alrededor de una carga $C$ hay más líneas de campo que alrededor de la carga $D$, entonces podemos afirmar que $\|Q_C\| > \|Q_D\|$
 
 Las líneas de campo son salientes de las cargas positivas (fuentes), y entrantes en las cargas negativas (sumidero).
 
 Las líneas de campo nunca se cruzan, ya que cada punto pertenece a una sola línea de campo.
 
-![[Campo Eléctrico 1.png]]
+![[Campo Electrico 1.png|450]]
