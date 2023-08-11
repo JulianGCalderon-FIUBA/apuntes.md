@@ -7,7 +7,6 @@ Este apunte estará basado en la bibliografía de la materia, aunque se añadir�
 5. [[The Network Layer Control Plane]]
 6. [[The Link Layer and LANs]]
 7. [[Wireless and Mobile Networks]]
-8. [[Security in Computer Networks]]
 
 Las clases prácticas fueron resumidas en el documento: [[Clases Practicas]]
 
