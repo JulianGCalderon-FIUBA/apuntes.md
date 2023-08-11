@@ -53,7 +53,7 @@ La potencia reactiva no representa el trabajo realizado, es energía que se cons
 
 Podemos relacionar entonces las potencias en un triángulo.
 
-![[Potencia Activa y Reactiva 2.svg]]
+![[Potencia Activa y Reactiva 1.svg]]
 
 Llamaremos $S$ a la hipotenusa del triángulo
 
