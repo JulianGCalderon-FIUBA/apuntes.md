@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estructura del Computador/Representación (signo).md",
+                "file": "Estructura del Computador/Simplificación de Funciones.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estructura del Computador/Representación (signo).md"
+                "file": "Estructura del Computador/Simplificación de Funciones.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estructura del Computador/Representación (signo).md",
+                "file": "Estructura del Computador/Simplificación de Funciones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estructura del Computador/Representación (signo).md",
+                "file": "Estructura del Computador/Simplificación de Funciones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,8 +158,11 @@
   },
   "active": "d7263f3c743d6923",
   "lastOpenFiles": [
-    "Estructura del Computador/Registros y Contadores.md",
+    "Estructura del Computador/Sistema ARC.md",
+    "Estructura del Computador/Simplificación de Funciones.md",
     "Estructura del Computador/Representación (signo).md",
+    "Estructura del Computador/Attachments/Simplificacion de Funciones 1.png",
+    "Estructura del Computador/Registros y Contadores.md",
     "Estructura del Computador/Punto Flotante.md",
     "Estructura del Computador/Pasajes de Base.md",
     "Estructura del Computador/Operaciones Básicas.md",
@@ -182,8 +185,6 @@
     "Análisis Numérico/Punto Flotante.md",
     "Análisis Numérico/Polinomio de Lagrange y Newton.md",
     "Análisis Numérico/Polinomio de Hermite.md",
-    "Análisis Numérico/Newton-Raphson.md",
-    "Análisis Numérico/Métodos Iterativos.md",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",
     "Análisis de la Información/Attachments/Historias de Usuario 6.png",
@@ -194,7 +195,6 @@
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Introducción a Sistemas Distribuidos/Attachments/Connection-Oriented Transport TCP 1.png",
-    "Introducción a Sistemas Distribuidos/Attachments/Managing Mobility in Cellular Networks 2.png",
-    "Estructura del Computador/Attachments/Circuitos Asincronicos 1.png"
+    "Introducción a Sistemas Distribuidos/Attachments/Managing Mobility in Cellular Networks 2.png"
   ]
 }

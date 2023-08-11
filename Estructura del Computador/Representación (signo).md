@@ -10,6 +10,6 @@ Si quiero sumar dos números con diferentes cantidades de bits, entonces debo ex
 
 - **Magnitud y Signo:** Se leen todos los dígitos salvo el primero. El primer dígito indica el signo
 - **Complemento a la 1:** Se debe aplicar complemento a la 1 y leer todos los dígitos menos el primero. El primer dígito antes del complemento indica el signo.
-- **Complemento a la 2:** Se debe aplicar complemento a la 2 y leer todos los dígitos menos el primero. El primer dígito antes del complemento índica el signo.
+- **Complemento a la 2:** Se debe aplicar complemento a la 2 y leer todos los dígitos menos el primero. El primer dígito antes del complemento indica el signo.
 
 	En la convención de complemento a 2, se pueden realizar operaciones de suma. Además, el rango de valores es mayor. $[-2^{n-1};2^{n-1}-1]$

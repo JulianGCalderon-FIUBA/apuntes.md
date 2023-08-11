@@ -94,6 +94,10 @@
     "maxi",
     "ALU",
     "Flops",
-    "carry"
+    "carry",
+    "Karnaugh",
+    "minitérminos",
+    "Implicante",
+    "implicantes"
   ]
 }
