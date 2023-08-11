@@ -4,12 +4,12 @@ Complemento de un número en base $b$ índica cuanto le falta al número para ll
 
 ## Sumar en Base $b$
 
-Sumo columna a partir del siguiente método. Siendo $n$ el mayor y $m$ el menor.
+Sumo columna a columna partir del siguiente método. Siendo $n$ el mayor y $m$ el menor.
 
-1. Tomo el numero mas grande $n$
+1. Tomo el número más grande $n$
 2. Busco su complemento $c$
 3. Si $m-c ≥ 0$, me llevo $1$ a la siguiente columna y lo dejo como resultado
-4. Sino, dejo como resultado simplemente a $m + n$.
+4. Si no, dejo como resultado simplemente a $m + n$.
 
 ## Restar en Base $b$
 
@@ -22,22 +22,22 @@ A + C_{b_B} B = C + r^{d_B}
 \end{gathered}
 $$
 
-Una vez terminada la suma, desecho el digito extra
+Una vez terminada la suma, desecho el dígito extra
 
-Si el numero obtenido no tiene digito extra, significa que el resultado es negativo. En este caso, el resultado que queremos es el complemento en base $b$ del numero obtenido. (luego le agrego el signo)
+Si el número obtenido no tiene dígito extra, significa que el resultado es negativo. En este caso, el resultado que queremos es el complemento en base $b$ del número obtenido. (luego le agrego el signo)
 
 ## Multiplicación por Múltiplo de Base
 
-Si multiplico el numero por $b^n,\ \forall n\in\mathbb{Z}$. Entonces desplazo los dígitos del numero a izquierda o derecha, dependiendo del signo de $n$. Si $n$ es positivo, desplazo los dígitos hacia la izquierda.
+Si multiplico el número por $b^n,\ \forall n\in\mathbb{Z}$. Entonces desplazo los dígitos del número a izquierda o derecha, dependiendo del signo de $n$. Si $n$ es positivo, desplazo los dígitos hacia la izquierda.
 
-Si se trata de un numero en representación, entonces el primer bit se mantiene igual.
+Si se trata de un número en representación, entonces el primer bit se mantiene igual.
 
 ## Flags
 
 Los flags se generan siempre luego de una operación, depende de nosotros interpretar los números que se almacenan allí.
 
-- **C - Carry:** Cuando una operación devuelve mas bits del que podemos almacenar, el bit extra se almacena en el carry. (por defecto un cero)
+- **C - Carry:** Cuando una operación devuelve más bits del que podemos almacenar, el bit extra se almacena en el carry. (por defecto un cero)
 - **V - Overflow**: Indica si ocurrió un overflow en el caso de números con signo.
 - **Z - Cero:** Indica si el resultado dio cero.
 - **N - Negativo:** Indica si el resultado dio negativo. Es una copia del primer bit.
-- **P - Paridad:** Indica si el numero tiene una cantidad par de unos.
+- **P - Paridad:** Indica si el número tiene una cantidad par de unos.

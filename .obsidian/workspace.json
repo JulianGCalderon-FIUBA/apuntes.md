@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estructura del Computador/Operaciones Básicas.md",
+                "file": "Estructura del Computador/Punto Flotante.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estructura del Computador/Operaciones Básicas.md"
+                "file": "Estructura del Computador/Punto Flotante.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estructura del Computador/Operaciones Básicas.md",
+                "file": "Estructura del Computador/Punto Flotante.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estructura del Computador/Operaciones Básicas.md",
+                "file": "Estructura del Computador/Punto Flotante.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,8 +158,9 @@
   },
   "active": "d7263f3c743d6923",
   "lastOpenFiles": [
-    "Estructura del Computador/Micro Arquitectura.md",
+    "Estructura del Computador/Pasajes de Base.md",
     "Estructura del Computador/Operaciones Básicas.md",
+    "Estructura del Computador/Micro Arquitectura.md",
     "Estructura del Computador/Funciones Lógicas.md",
     "Estructura del Computador/Estructura del Computador.md",
     "Estructura del Computador/Compiladores y Ensambladores.md",
@@ -183,7 +184,6 @@
     "Análisis Numérico/Errores.md",
     "Análisis Numérico/Error en Métodos Iterativos.md",
     "Análisis Numérico/Análisis Numérico.md",
-    "Análisis Numérico/Iteración en un Punto Fijo.md",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",
     "Análisis de la Información/Attachments/Historias de Usuario 6.png",
