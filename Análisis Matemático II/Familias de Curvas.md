@@ -4,7 +4,7 @@ Un haz de curvas $\varPhi(x,y,C) = 0$ puede ser solución general e una EDO de p
 
 Dadas dos familias de curvas simplemente finitas, se dice que son familias ortogonales cuando, por cada punto del plano por el que pasa una curva de $F_1$, también pasa una curva de $F_2$ y son ortogonales en ese punto.
 
-![[Familias de Curvas 1.png]]
+![[Familias de Curvas 1.png|425]]
 
 $$
 y' = f_1(x,y)

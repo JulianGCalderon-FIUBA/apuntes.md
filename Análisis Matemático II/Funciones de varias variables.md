@@ -6,13 +6,13 @@
     f(x_1, x_2, \dotsm,x_n) = z
     $$
 
-- *Campo vectorial:* es una función que asigna, de manera univoca, un vector $(y_1, y_2, \dotsm, y_m)$ a cada punto $(x_1, x_2,..., x_n)$
+- *Campo vectorial:* es una función que asigna, de manera unívoca, un vector $(y_1, y_2, \dotsm, y_m)$ a cada punto $(x_1, x_2,..., x_n)$
 
 	$$
 	f(x_1, x_2, \dotsm, x_n) = (y_1, y_2, \dotsm, y_m)
 	$$
 
-- *Función vectorial:* es una función que asigna un vector $(y_1, y_2, \dotsm, y_m)$ a cada numero real $t$
+- *Función vectorial:* es una función que asigna un vector $(y_1, y_2, \dotsm, y_m)$ a cada número real $t$
 
 	$$
 	f(t) = (y_1, y_2, \dotsm, y_m)
@@ -20,14 +20,14 @@
 
 ## Representación de campos escalares
 
-Dado un campo escalar de $n$ variables $f(x_1, x_2, \dotsm, x_n)$, se le llama grafica al siguiente subconjunto de $\mathbb{R}^{n+1}$
+Dado un campo escalar de $n$ variables $f(x_1, x_2, \dotsm, x_n)$, se le llama gráfica al siguiente subconjunto de $\mathbb{R}^{n+1}$
 
 $$
 Gr(f) = \big\lbrace\vec x\in\mathbb{R}^{n+1} /x_{n+1} =(x_1,x_2,\dotsm,x_n)
 ,\,(x_1,x_2,\dotsm,x_n) \in D\big\rbrace
 $$
 
-Para $n≥3$, no hay representación grafica posible
+Para $n≥3$, no hay representación gráfica posible
 
 ### Conjuntos de nivel
 
@@ -37,17 +37,17 @@ $$
 L_k = \big\lbrace(x_1, x_2, \dotsm, x_n) \in D / f(x_1, x_2, \dotsm, x_n) = k\big\rbrace
 $$
 
-Para *campos escalares* de dos variables los conjuntos de nivel son, en general, curvas en el plano.
+Para *campos escalares* de dos variables, los conjuntos de nivel son, en general, curvas en el plano.
 
 $$
 L_k = \big\lbrace(x,y) \in D/f(x,y) = k\big\rbrace
 $$
 
-![[Funciones de varias variables 1.png]]
+![[Funciones de varias variables 1.png|375]]
 
 ## Representación de campos vectoriales
 
-Para *campos vectoriales* de $R^2$ en $R^2$ y $R^3$ en $R^3$, se suele graficar con origen en cada punto del dominio, un vector flecha que represente el valor vectorial del campo en ese punto
+Para *campos vectoriales* de $R^2$ en $R^2$ y $R^3$ en $R^3$, se suele graficar, con origen en cada punto del dominio, un vector flecha que represente el valor vectorial del campo en ese punto
 
 ![[Funciones de varias variables 2.png]]
 
@@ -59,4 +59,4 @@ $$
 \vec f(t) = (t,t^2)
 $$
 
-![[Funciones de varias variables 3.png]]
+![[Funciones de varias variables 3.png|400]]

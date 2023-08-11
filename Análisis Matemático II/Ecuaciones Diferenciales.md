@@ -1,14 +1,16 @@
 ## Ecuaciones Diferenciales Ordinarias
 
-La incognita es una función de una sola variable, las derivadas que aparecen son ordinarias (no parciales)
+La incógnita es una función de una sola variable, las derivadas que aparecen son ordinarias (no parciales)
 
 $$
 F(x,y,y',\cdots,y^{(n)}) = 0
 $$
 
-El **Orden** de una EDO, es el orden de derivación mas alto que aparece en la *ecuación*.
+El **Orden** de una EDO, es el orden de derivación más alto que aparece en la *ecuación*.
 
 ### Diferenciales
+
+Existen dos notaciones utilizadas para los diferenciales:
 
 $$
 dy = y'dx,\quad\text{Newton}
@@ -26,7 +28,7 @@ Una **solución particular** se obtiene dando valores a las constantes de integr
 
 Una **solución singular** es una solución que verifica la ecuación, pero no pertenece a la solución general
 
-Vamos a estudiar ecuaciones diferenciales de orden $1$
+> Vamos a estudiar ecuaciones diferenciales de orden $1$
 
 ## Existencia y Unicidad
 
