@@ -11,8 +11,12 @@
             "id": "d7263f3c743d6923",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Algoritmos I/Operaciones con archivos.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -80,7 +84,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Algoritmos I/Operaciones con archivos.md"
+              }
             }
           },
           {
@@ -89,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Algoritmos I/Operaciones con archivos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Algoritmos I/Operaciones con archivos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,8 +156,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "d7263f3c743d6923",
   "lastOpenFiles": [
+    "2023-08-10.md",
+    "Algoritmos I/Operaciones con archivos.md",
+    "Algoritmos I/Algoritmos I.md",
     "Análisis Matemático II/Cónicas.md",
     "Análisis Matemático II/Análisis Matemático II.md",
     "Algebra II/Coordenadas.md",
@@ -173,9 +184,6 @@
     "Algoritmos II/Grafos.md",
     "Algoritmos II/Recursividad.md",
     "Algoritmos II/Arboles Auto Balanceados.md",
-    "Matemática Discreta/Algoritmos.md",
-    "Organizacion de Datos/Algoritmos Genéticos.md",
-    "Organizacion de Datos/Arboles.md",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 2.png",
     "Análisis de la Información/Attachments/Introduccion a la Ingenieria de Software 1.png",
     "Análisis de la Información/Attachments/Historias de Usuario 6.png",

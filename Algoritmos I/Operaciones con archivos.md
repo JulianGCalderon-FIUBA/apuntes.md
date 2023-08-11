@@ -72,7 +72,7 @@ while (leidos_2 == 1)
 ```c
 FILE *stream_1 = fopen("archivo_1", "r");
 FILE *stream_2 = fopen("archivo_2", "r");
-FILE *union= fopen("union", "w");
+FILE *union = fopen("union", "w");
 
 buffer_t buffer_1;
 buffer_t buffer_2;
