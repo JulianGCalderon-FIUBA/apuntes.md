@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
+                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md"
+                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
+                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
+                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,8 +158,11 @@
   },
   "active": "524bc04d4da22735",
   "lastOpenFiles": [
+    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Computer Networks and the Internet.md",
+    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
     "Introducción a Sistemas Distribuidos/Clases Practicas.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.md",
+    "Sistemas Operativos/Archivos y Directorios.md",
     "Física I/Dispositivos Ópticos.md",
     "Indice.md",
     "Untitled.canvas",
@@ -167,7 +170,6 @@
     "Análisis Numérico/Búsqueda de Raíces.md",
     "Análisis Numérico/Iteración en un Punto Fijo.md",
     "Física II/Circuitos en Resonancia.md",
-    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
     "Modelos y Optimización I/Modelos y Optimización I.md",
     "Análisis de la Información/Análisis de la Información.md",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
@@ -182,7 +184,6 @@
     "Matemática Discreta/Attachments/Algoritmos 1.png",
     "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
     "Introducción a Sistemas Distribuidos/Transport Layer/Connection-Oriented Transport TCP.md",
-    "Sistemas Operativos/Archivos y Directorios.md",
     "Probabilidad y Estadistica/Distribuciones Continuas.md",
     "Modelos y Optimización I/Introducción.md",
     "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md",
@@ -190,7 +191,6 @@
     "Modelos y Optimización I/Heurísticas para Coloreo de Grafos.md",
     "Modelos y Optimización I/Complejidad de Programación Lineal.md",
     "Análisis de la Información/Historias de Usuario.md",
-    "Análisis de la Información/Ingeniería de Requisitos.md",
     "Algoritmos I/Attachments/Recursividad 1.png",
     "Análisis de la Información/Attachments/Casos de Uso 3.png",
     "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 2.png",

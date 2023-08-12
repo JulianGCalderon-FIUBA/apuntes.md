@@ -1,4 +1,4 @@
-¿Que es el internet? Podemos responder esta pregunta de diversas formas. La primera sería analizar el internet desde el ***software*** y ***hardware*** básico que lo compone, pero otro enfoque podría ser describir el internet como una infraestructura que provee un servicio a las aplicaciones distribuidas.
+¿Qué es el internet? Podemos responder esta pregunta de diversas formas. La primera sería analizar el internet desde el ***software*** y ***hardware*** básico que lo compone, pero otro enfoque podría ser describir el internet como una infraestructura que provee un servicio a las aplicaciones distribuidas.
 
 ## 1. A Nuts-and-Bolts Description
 
@@ -10,9 +10,9 @@ Cuando un dispositivo quiere enviar información a otro dispositivo, este se sep
 
 Un ***packet switch*** toma un ***packet*** de sus *links* de entrada y lo reenvía a uno de sus ***links*** de salida. La forma más común de ***packet switches*** es la de ***routers*** o ***link-layer*** ***switches***. La secuencia de elementos que atraviesa un ***packet*** hasta llegar a su destino se denomina ***route*** o ***path***.
 
-Los ***hosts*** acceden al internet a través de los ***Internet Service Providers (ISP)***. Cada uno de estos es en sí, una red de ***packet switches*** y ***links***. Los ***ISP*** de bajo nivel a su vez están conectados entre sí a través de ***ISP*** de mayor nivel. Cada red ***ISP*** es administrada de forma independiente, pero ejecuta el protocolo **IP** y se conforma con ciertas nomenclaturas y convenciones
+Los ***hosts*** acceden al internet a través de los ***Internet Service Providers (ISP)***. Cada uno de estos es, en sí, una red de ***packet switches*** y ***links***. Los ***ISP*** de bajo nivel a su vez están conectados entre sí a través de ***ISP*** de mayor nivel. Cada red ***ISP*** es administrada de forma independiente, pero ejecuta el protocolo **IP** y se conforma con ciertas nomenclaturas y convenciones
 
-Las piezas del internet utilizan protocolos para controlar el envió y la recepción de la información. Los protocolos de internet más importantes son: ***TCP (Transmission Control Protocol)*** e ***IP (Internet Protocol).*** Este último ***e***specifica el formato de envió de información entre ***hosts*** y ***routers***. Los protocolos principales de internet se conocen de forma colectiva como ***TCP/IP***
+Las piezas del internet utilizan protocolos para controlar el envío y la recepción de la información. Los protocolos de internet más importantes son: ***TCP (Transmission Control Protocol)*** e ***IP (Internet Protocol).*** Este último específica el formato de envío de información entre ***hosts*** y ***routers***. Los protocolos principales de internet se conocen de forma colectiva como ***TCP/IP***
 
 Es importante que todos estén de acuerdo en que hace cada uno protocolo, para que se puedan crear sistemas que operen entre sí. Estos protocolos están definidos en documentos con estándares ***IEFT***, conocidos como ***RFC***s (requests for comments).
 
