@@ -24,7 +24,7 @@ Este protocolo es similar al DNS, pero con la salvedad de que ***ARP*** únicame
 
 Todos los ***hosts*** tienen una ***ARP table*** que contiene ***mapeos*** entre direcciones **IP** y ***MAC*** addresses. Ademas, las entradas de la tabla contienen un campo ***TTL*** para definir cuanto actualizar el valor, debido a que los ***mapeos*** no son permanentes.
 
-Cuando un ***hosts*** quiere definir un**a** MAC address, el adaptador enviara un ***ARP*** packet conteniendo la petición y la enviara en ***broadcast*** a toda la subred.
+Cuando un ***hosts*** quiere definir un**a** MAC address***,*** el adaptador enviara un ***ARP*** packet conteniendo la petición y la enviara en ***broadcast*** a toda la subred.
 
 El *hosts* que contiene la dirección *IP* referida enviara en respuesta un paquete conteniendo el mapeo solicitado. La respuesta no se enviara en un paquete ***broadcast***, sino dirigido al que realizo la petición.
 
