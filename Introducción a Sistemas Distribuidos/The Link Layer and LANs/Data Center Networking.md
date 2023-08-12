@@ -1,8 +1,8 @@
 Recientemente, muchas grandes compañías han construido ***data centers*** masivos que utilizan para almacenar mucha información y soportar de forma concurrente muchas aplicaciones nube. Cada ***data center*** tiene su propia data center network.
 
-Los ***hosts*** dentro de un data center, llamados ***blades***, son ***hosts*** que incluyen ***CPU,*** memoria, y almacenamiento de disco. Estos son apilados en racks. Por encima de los racks, hay un ***switch,*** comúnmente llamado ***Top of Rack (TOR) Switch,*** que interconecta los ***hosts en el rack con el resto de*** hosts ***del data center. Los*** hosts tienen tarjeta de interfaces de red que se conectan con el ***TOR switch,*** y cada ***TOR Switch*** tiene puertos adicionales para conectarse con otros ***switches***. Cada ***host*** tiene asignada su propio **IP** interna del ***data center***.
+Los ***hosts*** dentro de un data center, llamados ***blades***, son ***hosts*** que incluyen ***CPU,*** memoria, y almacenamiento de disco. Estos son apilados en racks. Por encima de los racks, hay un ***switch,*** comúnmente llamado ***Top of Rack (TOR) Switch,*** que interconecta los ***hosts*** en el rack con el resto de hosts del ***data center***. Los hosts tienen tarjeta de interfaces de red que se conectan con el ***TOR switch,*** y cada ***TOR Switch*** tiene puertos adicionales para conectarse con otros ***switches***. Cada ***host*** tiene asignada su propio **IP** interna del ***data center***.
 
-En los ***datacenters*** hay dos tipos de tráfico. El primero es entre clientes externos y ***hosts*** internos, para manejar este tráfico se incluyen ***border routers*** que conectan los ***data centers con el internet. Los*** racks ***conectan a los*** hosts ***con los*** border routers*.* El segundo tipo de tráfico es entre los ***hosts internos*** y se resuelve a partir de la red de ***switches*** que conectan los ***racks***.
+En los ***datacenters*** hay dos tipos de tráfico. El primero es entre clientes externos y ***hosts*** internos, para manejar este tráfico se incluyen ***border routers*** que conectan los ***data centers*** con el internet. Los ***racks*** conectan a los hosts ***con los*** border routers*.* El segundo tipo de tráfico es entre los ***hosts internos*** y se resuelve a partir de la red de ***switches*** que conectan los ***racks***.
 
 ## Load Balancing
 
@@ -12,7 +12,7 @@ Estos ***load balancers*** suelen ser referidos como ***layer-4 switch*** debido
 
 ## Hierarchical Architecture
 
-Para ***data centers*** grandes, se emplea una estructura jerárquica para la red. Por encima de todo, están los ***border routers***, que se conectan con los ***access routers.*** Cada ***access router*** se conecta con un ***top tier switch***, los cuales a su vez se conectan con multiples ***second-tier-switch*** y un ***load balancer***. Cada ***second tier switch*** a su vez se conecta con múltiples ***racks*** a través de los ***TOR switches. Típicamente todos los*** links ***utilizan*** ethernet para la capa de enlace y la capa física.
+Para ***data centers*** grandes, se emplea una estructura jerárquica para la red. Por encima de todo, están los ***border routers***, que se conectan con los ***access routers.*** Cada ***access router*** se conecta con un ***top tier switch***, los cuales a su vez se conectan con multiples ***second-tier-switch*** y un ***load balancer***. Cada ***second tier switch*** a su vez se conecta con múltiples ***racks*** a través de los ***TOR switches***. Típicamente todos los ***links*** utilizan ethernet para la capa de enlace y la capa física.
 
 Debido a la importancia de proveer servicio de alta disponibilidad, los ***datacenters*** suelen contar con equipamiento y enlaces redundantes en sus diseños. Cada ***TOR switch*** se puede conectar con dos **tier-2 switches**, y cada ***access router, tier-1 switch*** y ***tier-2 switch*** puede ser duplicado e integrado en el diseño.
 

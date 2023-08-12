@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Data Center Networking.md",
+                "file": "Organizacion de Datos/AdaBoost.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Data Center Networking.md"
+                "file": "Organizacion de Datos/AdaBoost.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Data Center Networking.md",
+                "file": "Organizacion de Datos/AdaBoost.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Data Center Networking.md",
+                "file": "Organizacion de Datos/AdaBoost.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,15 +156,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "524bc04d4da22735",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
+    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Data Center Networking.md",
+    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Error-Detection and -Correction Techniques.md",
     "Introducción a Sistemas Distribuidos/The Link Layer and LANs/The Link Layer and LANs.md",
     "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Link Virtualization A Network as a Link Layer.md",
     "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Introduction of the Link Layer.md",
     "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Switched Local Area Networks.md",
     "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Multiple Access Links and Protocols.md",
-    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Error-Detection and -Correction Techniques.md",
-    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Data Center Networking.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Socket Programming Creating a Network Application.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Video Streaming and Content Distribution Network.md",
