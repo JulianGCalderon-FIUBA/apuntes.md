@@ -38,7 +38,7 @@ Un ***request message*** consiste en múltiples líneas separadas por un ***CRLF
 
 Luego, siguen una serie de ***header lines,*** cada una con el nombre del campo y su valor. Entre los campos más comunes se encuentran: ***Connection,*** utilizado para indicar si se quiere intentar tener una conexión persistente, *User-agent,* utilizado para indicar el tipo de navegador utilizado, ***Accept-language,*** utilizado para indicar el lenguaje de preferencia de la página web. Para indicar la finalización de la sección de cabecera se utiliza un ***CRLF*** extra.
 
-Finalmente, está ***entity body***. El contiene el contenido del mensaje.
+Finalmente, está ***entity body***. Él contiene el contenido del mensaje.
 
 Un ***response message*** tiene una estructura similar a la del pedido. La primera línea se conoce como ***status line*** y contiene información acerca del resultado del pedido. Este tiene tres campos: la versión del protocolo, un código de estado, y el mensaje de estado correspondiente. Los códigos de error más comunes son: ***200 OK***, indicando que el pedido fue exitoso. ***301 Moved Permanently,*** indicando que el objeto no está disponible en esa dirección y indicando la nueva ***url*** en los ***headers. 400 Bad Request***, es un código de error genérico para cualquier pedido que no fue entendido. ***404 Not Found,*** indicando que el documento no existe en el servidor. y ***505 HTTP Version Not Supported,*** indicando que la versión del protocolo utilizada no es soportada por el servidor.
 
@@ -50,7 +50,7 @@ Para generar las líneas de cabecera adecuadas, el navegador genera estas línea
 
 Muchas veces, es necesario que una página web pueda identificar usuarios. Para esto, se utilizan las cookies. Estos se utilizan por los servidores web para llevar un registro de los usuarios.
 
-Este tecnología utiliza cuatro componentes principales. Una línea de cabecera en la respuesta ***HTTP***. Una línea de cabecera en el pedido ***HTTP***. Un archivo de cookies que se almacena en el ***end system*** del usuario y es manejado por el navegador. Y una base de datos del servidor utilizada para almacenar la información de los usuarios.
+Estas tecnologías utiliza cuatro componentes principales. Una línea de cabecera en la respuesta ***HTTP***. Una línea de cabecera en el pedido ***HTTP***. Un archivo de cookies que se almacena en el ***end system*** del usuario y es manejado por el navegador. Y una base de datos del servidor utilizada para almacenar la información de los usuarios.
 
 Cuando un usuario se conecta a una página a la que nunca se había conectado, el servidor crea un identificador único y crea una entrada en una base de datos de los clientes, indexada por el identificador. Luego, envía este identificador en los ***headers*** de la respuesta al cliente a través del header ***"Set-cookie"***.
 
@@ -62,7 +62,7 @@ Las ***cookies*** pueden usarse para crear una capa de ***use session*** por enc
 
 Un ***web cache***, también conocido como un ***proxy server***, es una entidad que satisface pedidos ***HTTP*** en nombre del servidor de origen. Usualmente, estos ***web caches*** son instalados por los ***ISP***. El navegador puede ser configurado para que los pedidos ***HTTP*** se dirijan directamente el ***cache***.
 
-El navegador se conecta a un ***web cache*** y le hace un pedido ***HTTP***. Si el ***caché*** tiene una copia del objeto entonces la envia. Si no la tiene, entonces abre una conexión con el servidor de origen y envía un ***request*** para el objeto. Una vez recibido, guarda el objeto en su copia local y envía una copia al cliente original.
+El navegador se conecta a un ***web cache*** y le hace un pedido ***HTTP***. Si el ***caché*** tiene una copia del objeto, entonces la envia. Si no la tiene, entonces abre una conexión con el servidor de origen y envía un ***request*** para el objeto. Una vez recibido, guarda el objeto en su copia local y envía una copia al cliente original.
 
 Estos ***caches*** son desplegados usualmente por un ***ISP***, por dos razones principales. En primer lugar puede reducir sustancialmente el tiempo de respuesta de un pedido de un cliente. Por otro lado, también reduce drásticamente el tráfico del ***access link*** de una institución hacia el internet.
 

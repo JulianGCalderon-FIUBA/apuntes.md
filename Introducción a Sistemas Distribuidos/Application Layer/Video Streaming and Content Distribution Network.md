@@ -1,8 +1,8 @@
 ## 1. Internet Video
 
-En el aplicaciones de ***streaming,*** el medio son videos pre-grabados, almacenados en servidores. Los usuarios pueden enviar peticiones a los servidores para ver estos videos bajo demanda.
+En las aplicaciones de ***streaming,*** el medio son videos pre-grabados, almacenados en servidores. Los usuarios pueden enviar peticiones a los servidores para ver estos videos bajo demanda.
 
-Un video es una secuencia de imágenes, sin compresión puede ser considerado como un arreglo de pixeles, cada uno codifica su color y luminosidad. Estos videos pueden ser comprimidas, intercambiando calidad por ***bit rate***.
+Un video es una secuencia de imágenes, sin compresión, puede ser considerado como un arreglo de píxeles, cada uno codifica su color y luminosidad. Estos videos pueden ser comprimidos, intercambiando calidad por ***bit rate***.
 
 ## 2. HTTP Streaming and DASH
 
