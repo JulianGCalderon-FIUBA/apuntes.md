@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md"
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,10 +158,11 @@
   },
   "active": "524bc04d4da22735",
   "lastOpenFiles": [
+    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md",
     "Álgebra II/Autovalores y Autovectores.md",
     "Sistemas Operativos/API de Memoria.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
     "Matemática Discreta/Álgebra de Boole.md",
     "Matemática Discreta/Alfabeto.md",
     "Organizacion de Datos/AdaBoost.md",
@@ -181,7 +182,6 @@
     "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Multiple Access Links and Protocols.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Socket Programming Creating a Network Application.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Video Streaming and Content Distribution Network.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md",
     "Introducción a Sistemas Distribuidos/Application Layer/The Web and HTTP.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Principles of Network Applications.md",
     "Untitled.canvas",

@@ -1,8 +1,8 @@
-El sistema de e-mails tiene tres componentes principales: ***user agents, mail servers,*** and the ***simple mail transfer protocol*** (SMTP). Los* user agents permiten a los usuarios interactuar con los mensajes. Estos envían mensajes a los ***mail servers*** y estos se colocan en la cola de mensajes salientes del servidor. Estos son enviados al ***mail server*** de destino, el cual los coloca en el buzón adecuado. Cuando un user agent quiere recibir un mail, recupera sus mensajes del de su buzón de entrada en su mail server.
+El sistema de e-mails tiene tres componentes principales: ***user agents, mail servers,*** and the ***simple mail transfer protocol*** (SMTP). Los user agents permiten a los usuarios interactuar con los mensajes. Estos envían mensajes a los ***mail servers*** y estos se colocan en la cola de mensajes salientes del servidor. Estos son enviados al ***mail server*** de destino, el cual los coloca en el buzón adecuado. Cuando un user agent quiere recibir un mail, recupera sus mensajes del de su buzón de entrada en su mail server.
 
 ## 1. SMTP
 
-El protocolo ***SMPT es un sistema mucho más antiguo que*** HTTP***.*** Debido a esto, el protocolo tiene algunas restricciones, como que todos los mensajes deben ser codificados en ***7-bit ascii***.
+El protocolo ***SMPT*** es un sistema mucho más antiguo que ***HTTP*** Debido a esto, el protocolo tiene algunas restricciones, como que todos los mensajes deben ser codificados en ***7-bit ascii***.
 
 Para el envío de mensaje entre servidores, primero se establece una conexión TCP. En la etapa de ***handshake*** el cliente envía la dirección del remitente y la del destinatario. A continuación, envía el mensaje en cuestión.
 
