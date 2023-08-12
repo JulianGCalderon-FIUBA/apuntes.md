@@ -1,4 +1,4 @@
-El álgebra de *Boole* es un espacio vectorial de forma axiomática. Se definen los siguientes elementos:
+El álgebra de Boole es un espacio vectorial de forma axiomática. Se definen los siguientes elementos:
 
 $$
 (B, +, \cdot, ', O_B, 1_B)

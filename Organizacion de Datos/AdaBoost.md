@@ -28,7 +28,7 @@ $$
 \text{Peso}_i = \text{Peso}_{i-1} \cdot e^{\text{-Amount of Say}}
 $$
 
-Para la siguiente iteración, podemos usar la impureza de ***Gini*** como realizamos anteriormente, o bien podemos crear un nuevo *dataset* teniendo en cuenta los pesos recientemente calculados
+Para la siguiente iteración, podemos usar la impureza de ***Gini*** como realizamos anteriormente, o bien podemos crear un nuevo dataset teniendo en cuenta los pesos recientemente calculados
 
 Agregamos una nueva columna llamada distribución, que es la suma sucesiva de los pesos de cada observación
 
