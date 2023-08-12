@@ -1,4 +1,4 @@
-La web permite que los usuario consulten información de forma dinámica, en el momento que ellos quieren. Por otro lado, es sorprendentemente fácil para cualquier individuo publicar información en la red.
+La web permite que los usuarios consulten información de forma dinámica, en el momento que ellos quieren. Por otro lado, es sorprendentemente fácil para cualquier individuo publicar información en la red.
 
 ## 1. Overview of HTTP
 
@@ -34,9 +34,9 @@ Hoy en día, la mayoría de los servidores web utilizan conexiones persistentes 
 
 Existen dos tipos de mensajes ***HTTP***. Los ***request messages*** y los ***response messages***.
 
-Un ***request message*** consiste en múltiples líneas separadas por un ***CRLF***, organizadas en tres secciones. La primer línea se llama ***request line*** e indica el tipo de ***request*** (método), la *url* con la cual debe interactuar y la versión de ***http*** que se utiliza. Los métodos más comunes son: ***GET***, utilizado para pedir un objeto, y *POST, HEAD, PUT, DELETE*.
+Un ***request message*** consiste en múltiples líneas separadas por un ***CRLF***, organizadas en tres secciones. La primera línea se llama ***request line*** e indica el tipo de ***request*** (método), la *url* con la cual debe interactuar y la versión de ***http*** que se utiliza. Los métodos más comunes son: ***GET***, utilizado para pedir un objeto, y *POST, HEAD, PUT, DELETE*.
 
-Luego, siguen una serie de ***header lines,*** cada una con el nombre del campo y su valor. Entre las campos más comunes se encuentran: ***Connection,*** utilizado para indicar si se quiere intentar tener una conexión persistente, *User-agent,* utilizado para indicar el tipo de navegador utilizado, ***Accept-language,*** utilizado para indicar el lenguaje de preferencia de la página web. Para indicar la finalización de la sección de cabecera se utiliza un ***CRLF*** extra.
+Luego, siguen una serie de ***header lines,*** cada una con el nombre del campo y su valor. Entre los campos más comunes se encuentran: ***Connection,*** utilizado para indicar si se quiere intentar tener una conexión persistente, *User-agent,* utilizado para indicar el tipo de navegador utilizado, ***Accept-language,*** utilizado para indicar el lenguaje de preferencia de la página web. Para indicar la finalización de la sección de cabecera se utiliza un ***CRLF*** extra.
 
 Finalmente, está ***entity body***. El contiene el contenido del mensaje.
 

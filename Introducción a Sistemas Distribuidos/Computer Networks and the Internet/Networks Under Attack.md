@@ -2,7 +2,7 @@ El campo de la seguridad de red se trata de que formas una persona puede atacar 
 
 ## The Bad Guys Can Put Malware into Your Host Via the Internet
 
-Al recibir información de internet, podemos encontrar archivos maliciosos conocidos como ***malware***. Estos infectan nuestro dispositivo y toman control del mismo. Nuestro host puede se ser agregado a una red de miles de disipativos conocida como ***botnet***, utilizada para distribuir ataques o *spam emails*.
+Al recibir información de internet, podemos encontrar archivos maliciosos conocidos como ***malware***. Estos infectan nuestro dispositivo y toman control del mismo. Nuestro host puede ser agregado a una red de miles de disipativos conocida como ***botnet***, utilizada para distribuir ataques o *spam emails*.
 
 Muchas veces, el ***malware*** es ***self-replicating***. Una vez infecta un ***host***, busca entrada al siguiente a través del internet. Los ***malware*** se dividen en dos categorías según el método de contagio:
 
@@ -25,13 +25,13 @@ Si toda la fuente del ataque proviene de una sola computadora, entonces la red p
 
 Al colocar un receptor pasivo en la cercanía de un transmisor inalámbrico, podemos obtener una copia de todos los paquetes que son enviados. Estos dispositivos son conocidos como ***sniffers***, y
 
-Los ***sniffers*** también son útiles en los ambientes cableados. Se colocan en el el ***access router*** e interceptan todos los mensajes que son enviados por allí.
+Los ***sniffers*** también son útiles en los ambientes cableados. Se colocan en él ***access router*** e interceptan todos los mensajes que son enviados por allí.
 
-Al ser pasivos (no inyectan información, sino leen) son difíciles de detectar. La mejor solución a esta técnica consiste en involucrar criptografía.
+Al ser pasivos (no inyectan información, sino que leen) son difíciles de detectar. La mejor solución a esta técnica consiste en involucrar criptografía.
 
 ## The Bad Guys Can Masquerade as Someone You Trust
 
-Es sorprendentemente fácil crear un paquete con una dirección de fuente arbitrario y transmitirlo a la red, la cual va a exitosamente hacer llegar el paquete a destino. La habilidad de inyectar paquetes con una dirección falsa de envió se conoce como ***IP spoofing***.
+Es sorprendentemente fácil crear un paquete con una dirección de fuente arbitrario y transmitirlo a la red, la cual va a exitosamente hacer llegar el paquete a destino. La habilidad de inyectar paquetes con una dirección falsa de envío se conoce como ***IP spoofing***.
 
 Para solucionar este problema, necesitaremos ***end-point authentication***. Un mecanismo que nos permitirá determinar la veracidad del origen de un mensaje.
 
