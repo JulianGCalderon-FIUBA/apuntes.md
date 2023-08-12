@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/Socket Programming Creating a Network Application.md",
+                "file": "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Error-Detection and -Correction Techniques.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/Socket Programming Creating a Network Application.md"
+                "file": "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Error-Detection and -Correction Techniques.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/Socket Programming Creating a Network Application.md",
+                "file": "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Error-Detection and -Correction Techniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/Socket Programming Creating a Network Application.md",
+                "file": "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Error-Detection and -Correction Techniques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,12 @@
   },
   "active": "524bc04d4da22735",
   "lastOpenFiles": [
+    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/The Link Layer and LANs.md",
+    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Introduction of the Link Layer.md",
+    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Error-Detection and -Correction Techniques.md",
+    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Data Center Networking.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/Socket Programming Creating a Network Application.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Video Streaming and Content Distribution Network.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md",
     "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
@@ -180,12 +185,7 @@
     "Untitled.canvas",
     "Análisis Numérico/Análisis Numérico.md",
     "Análisis Numérico/Búsqueda de Raíces.md",
-    "Análisis Numérico/Iteración en un Punto Fijo.md",
-    "Física II/Circuitos en Resonancia.md",
-    "Modelos y Optimización I/Modelos y Optimización I.md",
-    "Análisis de la Información/Análisis de la Información.md",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
-    "Álgebra II/Autovalores y Autovectores.md",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",
     "Física II/Attachments/Potencia Activa y Reactiva 2.svg",
     "Física II/Attachments/Potencia Activa y Reactiva 1.svg",

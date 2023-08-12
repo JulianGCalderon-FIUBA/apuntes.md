@@ -2,15 +2,15 @@ Incluso con el uso de *EDC bits (error detection and correction bits)*, un remit
 
 ## 1. Parity Checks
 
-El remitente incluye un bit adicional que indica que la cantidad de unos del paquete completo es un par (o impar) (esto incluye el propio bit de paridad). Si ocurre una cantidad impar de errores, entonces este error es suficiente. Si este numero es par, entonces no se detectara el error.
+El remitente incluye un bit adicional que indica que la cantidad de unos del paquete completo es un par (o impar) (esto incluye el propio bit de paridad). Si ocurre una cantidad impar de errores, entonces este error es suficiente. Si este número es par, entonces no se detectara el error.
 
-Si la probabilidad de error del enlace es pequeña esta técnicas sera suficiente, ya que la probabilidad de dos errores es baja. Sin embargo, se encontró que cuando ocurre un error de un bit, suele ocurrir mas de uno. En condiciones de errores en ráfaga, la probabilidad de detectar errores con esta técnica será de 50%.
+Si la probabilidad de error del enlace es pequeña, esta técnica sera suficiente, ya que la probabilidad de dos errores es baja. Sin embargo, se encontró que cuando ocurre un error de un bit, suele ocurrir más de uno. En condiciones de errores en ráfaga, la probabilidad de detectar errores con esta técnica será de 50%.
 
 En la generalización bidimensional del esquema de paridad, los datos se separan en $i$ filas, y $j$ columnas. Se calcula un valor por cada columna y por cada fila. Los resultantes $i+j+1$ ***bits*** de paridad serán utilizados para la detección de errores.
 
 ![[Error-Detection and -Correction Techniques 1.png]]
 
-Si ocurre un solo error, entonces podremos utilizar la combinación de filas y columnas para invertir el ***bit*** corrupto. Si ocurre mas un erro esto no podrá realizarse, pero esto permite capturar los errores cuando ocurrió una cantidad par de ellos.
+Si ocurre un solo error, entonces podremos utilizar la combinación de filas y columnas para invertir el ***bit*** corrupto. Si ocurre más de un erro, esto no podrá realizarse, pero esto permite capturar los errores cuando ocurrió una cantidad par de ellos.
 
 La habilidad del receptor de detectar los errores y poder corregirlos se conoce como ***forward error correction (FEC)***. Son usualmente utilizadas en dispositivos de almacenamiento y reproducción de audios.
 
