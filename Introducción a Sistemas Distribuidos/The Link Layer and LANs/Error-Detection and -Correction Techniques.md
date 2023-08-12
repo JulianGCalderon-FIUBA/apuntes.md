@@ -10,22 +10,22 @@ En la generalización bidimensional del esquema de paridad, los datos se separan
 
 ![[Error-Detection and -Correction Techniques 1.png]]
 
-Si ocurre un solo error, entonces podremos utilizar la combinación de filas y columnas para invertir el ***bit*** corrupto. Si ocurre más de un erro, esto no podrá realizarse, pero esto permite capturar los errores cuando ocurrió una cantidad par de ellos.
+Si ocurre un solo error, entonces podremos utilizar la combinación de filas y columnas para invertir el ***bit*** corrupto. Si ocurre más de un error, esto no podrá realizarse, pero esto permite capturar los errores cuando ocurrió una cantidad par de ellos.
 
 La habilidad del receptor de detectar los errores y poder corregirlos se conoce como ***forward error correction (FEC)***. Son usualmente utilizadas en dispositivos de almacenamiento y reproducción de audios.
 
 ## 2. Checksumming Methods
 
-En estas técnicas, los **frames** son tratados como una secuencia de ***k-bit*** integers***.*** Se suman los enteros y el resultado es guardado en los *bits de EDC.*
+En estas técnicas, los **frames** son tratados como una secuencia de ***k-bit*** integers. Se suman los enteros y el resultado es guardado en los *bits de EDC.*
 
-El checksum de internet es basado en este enfoque, donde se toman enteros de 16 bits para los datos del paquete, se suman, y su complemento a 1 es guardado en el ***checksum***. De esta forma, si sumas los datos del paquete, deberías obtener todos los bits en 1. Si ocurrió un error, se tendrá al menos un bit en 0.
+El **checksum** de internet es basado en este enfoque, donde se toman enteros de 16 bits para los datos del paquete, se suman, y su complemento a 1 es guardado en el ***checksum***. De esta forma, si sumas los datos del paquete, deberías obtener todos los bits en 1. Si ocurrió un error, se tendrá al menos un bit en 0.
 
 ## 3. Cyclic Redundancy Check (CRC)
 
 Esta técnica consisten en la utilización de **cyclic redundancy check codes**, conocidos como ***polynomial codes***.
 
-En primer lugar, tanto el remitente como el receptor deben acordar en un patron de $r{+}1$ bits, conocido como un generador, el cual denotaremos como $G$. Es necesario que el ***bit*** mas significativo del patron sea un uno.
+En primer lugar, tanto el remitente como el receptor deben acordar en un patrón de $r{+}1$ bits, conocido como un generador, el cual denotaremos como $G$. Es necesario que el ***bit*** más significativo del patrón sea un uno.
 
-Por una cadena de datos $D$, el remitente agrega $r$ bits adicionales de forma que el patron resultante sea divisible por $G$. Utilizando aritmética en modulo dos. Si los ***bits*** recibidos por el receptor también son divisibles por $G$, entonces se concluye que no hay errores.
+Por una cadena de datos $D$, el remitente agrega $r$ bits adicionales, de forma que el patrón resultante sea divisible por $G$. Utilizando aritmética en módulo dos. Si los ***bits*** recibidos por el receptor también son divisibles por $G$, entonces se concluye que no hay errores.
 
-Esta tecnica puede detectar errores en rafaga de menos de $r+1$ bits, ademas, una rafaga de errores mayor a esta longitud, es detectada con probabilidad $1{-}0.5r$.
+Esta técnica puede detectar errores en ráfaga de menos de $r+1$ bits, además, una ráfaga de errores mayor a esta longitud, es detectada con probabilidad $1{-}0.5r$.
