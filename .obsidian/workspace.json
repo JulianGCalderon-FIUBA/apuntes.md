@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "8a838ff7ee31c113",
+        "id": "e5ff24e8f37d841e",
         "type": "tabs",
         "children": [
           {
-            "id": "ffeb57ff7bf1b0a7",
+            "id": "524bc04d4da22735",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Física I/Dispositivos Ópticos.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática Discreta/Clasificaciones.md"
+                "file": "Física I/Dispositivos Ópticos.md"
               }
             }
           },
@@ -91,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática Discreta/Clasificaciones.md",
+                "file": "Física I/Dispositivos Ópticos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática Discreta/Clasificaciones.md",
+                "file": "Física I/Dispositivos Ópticos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,51 +152,47 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "524bc04d4da22735",
   "lastOpenFiles": [
-    "Matemática Discreta/Operaciones entre Grafos.md",
-    "Matemática Discreta/Clasificaciones.md",
-    "Matemática Discreta/Matemática Discreta.md",
-    "Probabilidad y Estadistica/Variables Aleatorias Condicionadas.md",
-    "Probabilidad y Estadistica/Distribucion Normal.md",
     "Indice.md",
-    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
-    "Física II/Circuito Eléctrico.md",
-    "Estructura del Computador/Estructura del Computador.md",
-    "Estructura del Computador/Memoria.md",
-    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Introduction of the Link Layer.md",
-    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Link Virtualization A Network as a Link Layer.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
-    "Física II/Campo Eléctrico.md",
-    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/Generalized Forwarding and SDN.md",
-    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/Overview of Network Layer.md",
-    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Internet Protocol (IP) IPv4, Addressing, IPv6, and More.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
-    "Organizacion de Datos/Algoritmos Genéticos.md",
-    "Álgebra II/Autovalores y Autovectores.md",
-    "Algoritmos II/Árboles Auto Balanceados.md",
-    "Sistemas Operativos/Attachments/Paginación Avanzada 1.png",
-    "Sistemas Operativos/Attachments/Los procesos 1.png",
-    "Sistemas Operativos/Archivos y Directorios.md",
-    "Sistemas Operativos/API de Memoria.md",
-    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
-    "Introducción a Sistemas Distribuidos/Attachments/Generalized Forwarding and SDN 1.png",
-    "Introducción a Sistemas Distribuidos/Attachments/TCP Congestion Control 1.png",
     "Untitled.canvas",
-    "Attachments/Recording 20230811191147.webm",
-    "Attachments",
-    "Introducción a Sistemas Distribuidos/Application Layer/Principles of Network Applications.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md",
+    "Análisis Numérico/Análisis Numérico.md",
+    "Análisis Numérico/Búsqueda de Raíces.md",
+    "Análisis Numérico/Iteración en un Punto Fijo.md",
+    "Física II/Circuitos en Resonancia.md",
+    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
+    "Modelos y Optimización I/Modelos y Optimización I.md",
+    "Análisis de la Información/Análisis de la Información.md",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
+    "Álgebra II/Autovalores y Autovectores.md",
+    "Álgebra II/Álgebra II.md",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",
+    "Física II/Potencia Activa y Reactiva.md",
     "Física II/Attachments/Potencia Activa y Reactiva 2.svg",
     "Física II/Attachments/Potencia Activa y Reactiva 1.svg",
     "Física II/Attachments/Final 1.png",
+    "Física II/Física II.md",
     "Matemática Discreta/Attachments/Algoritmos 1.png",
+    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
+    "Introducción a Sistemas Distribuidos/Transport Layer/Connection-Oriented Transport TCP.md",
+    "Sistemas Operativos/Archivos y Directorios.md",
+    "Probabilidad y Estadistica/Distribuciones Continuas.md",
+    "Modelos y Optimización I/Introducción.md",
+    "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md",
+    "Modelos y Optimización I/Heurísticas para el Problema de la Mochila.md",
+    "Modelos y Optimización I/Heurísticas para Coloreo de Grafos.md",
+    "Modelos y Optimización I/Complejidad de Programación Lineal.md",
+    "Análisis de la Información/Historias de Usuario.md",
+    "Análisis de la Información/Ingeniería de Requisitos.md",
+    "Análisis de la Información/Innovación y Creatividad.md",
+    "Algoritmos I/Attachments/Recursividad 1.png",
+    "Análisis de la Información/Attachments/Casos de Uso 3.png",
+    "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 2.png",
+    "Física II/Attachments/Tercer Parcial 1.svg",
     "Base de Datos",
     "Algoritmos II/Attachments/Machete - AAB.pdf"
   ]
