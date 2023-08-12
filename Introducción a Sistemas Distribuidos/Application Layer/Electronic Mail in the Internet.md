@@ -8,7 +8,7 @@ Para el envío de mensaje entre servidores, primero se establece una conexión T
 
 ## 2. Comparison with HTTP
 
-En primer lugar, el protocolo HTTP es principalmente un ***pull protocol***. Por el otro lado, ***SMTP es un*** transfer protocol. Por otro lado, como fue indicado anteriormente, los mensajes *SMTP deben ser codificados en 7-bit ascii.* Por último, **HTTP** utiliza un mensaje distinto para cada objeto, mientras que ***SMTP*** utiliza un único mensaje.
+En primer lugar, el protocolo HTTP es principalmente un ***pull protocol***. Por el otro lado, ***SMTP es un*** transfer protocol. Por otro lado, como fue indicado anteriormente, los mensajes *SMTP* deben ser codificados en 7-bit ascii. Por último, **HTTP** utiliza un mensaje distinto para cada objeto, mientras que ***SMTP*** utiliza un único mensaje.
 
 ## 3. Mail Message Formats
 
