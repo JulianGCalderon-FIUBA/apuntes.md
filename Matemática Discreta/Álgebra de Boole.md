@@ -97,6 +97,6 @@ Si se cumplen estas tres leyes, entonces podemos demostrar que se preservan tamb
 
 - **Neutro:** $f(0_{B_1}) = 0_{B_2}$
 - **Orden:** $\forall x,y \in B_1: x\leq_1 y \to f(x) \leq_2 f(y)$
-- ***Átomos:*** Si $a$ es átomo en $B_1$, entonces $f(a)$ es átomo en $B_2$.
+- **Átomos:** Si $a$ es átomo en $B_1$, entonces $f(a)$ es átomo en $B_2$.
 
 Como cualquier elemento del álgebra de Boole se puede escribir como combinación de los átomos, entonces para definir un isomorfismo basta con definir la transformación de sus átomos. De esta forma definimos la cantidad de isomorfismos posibles entre dos algebras como $n!$, siendo $n$ la cantidad de átomos (ambas álgebras tendrán el mismo numero de átomos).

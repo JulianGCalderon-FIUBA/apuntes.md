@@ -39,7 +39,7 @@ int pthread_mutex_lock(pthread_mutex_t *mutex);
 int pthread_mutex_unlock(pthread_mutex_t *mutex);
 ```
 
- ***Si*** ningún otro hilo posee ***el ***lock*** cuando llamada a ***`pthread_mutex_lock`***, entonces obtendremos el ***lock*** y continuamos con la ejecución. Si otro hilo posee el ***lock***, entonces el hilo actual se bloquea hasta que el ***lock*** esté disponible. Solo el ***thread*** que posee el ***lock*** deberá llamar a la función ***`pthread_mutex_lock`.* Hay situaciones en las que tendremos a múltiples hilos esperando el ***lock***, cuando se libera, lo obtendrá arbitrariamente cualquiera de los ***hilos***, pero solo uno.
+ ***Si*** ningún otro hilo posee ***el ***lock*** cuando llamada a ***`pthread_mutex_lock`***, entonces obtendremos el ***lock*** y continuamos con la ejecución. Si otro hilo posee el ***lock***, entonces el hilo actual se bloquea hasta que el ***lock*** esté disponible. Solo el ***thread*** que posee el ***lock*** deberá llamar a la función ***`pthread_mutex_lock`.*** Hay situaciones en las que tendremos a múltiples hilos esperando el ***lock***, cuando se libera, lo obtendrá arbitrariamente cualquiera de los ***hilos***, pero solo uno.
 
 Los *locks* para ser utilizados deben ser inicializados (y debidamente destruidos) para que puedan ser utilizados:
 

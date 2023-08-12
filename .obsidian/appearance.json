@@ -1,12 +1,13 @@
 {
   "accentColor": "",
-  "cssTheme": "Minimal",
+  "cssTheme": "Things",
   "enabledCssSnippets": [
     "center-image",
     "center-table",
     "table-white-birder",
     "image-center",
-    "table-white-border"
+    "table-white-border",
+    "table-center"
   ],
   "baseFontSize": 18,
   "theme": "obsidian"
