@@ -8,11 +8,11 @@ Todos los adaptadores de ***hosts*** (interfaces de red) contienen una direcció
 
 Estas direcciones son conocidas por varios nombres, como ***LAN address***, ***physical address***, o ***MAC address***.
 
-Típicamente las direcciones ***MAC*** son anotadas en notación hexadecimal
+Típicamente, las direcciones ***MAC*** son anotadas en notación hexadecimal
 
 Debido a que las direcciones ***MAC*** son manejadas por la ***IEEE***, no existen dos direcciones ***MAC*** iguales en todo el mundo (en teoría). Además, estas direcciones son física e independientes de la localización (no tienen una jerarquía como las direcciones **IP**).
 
-Cuando un adaptador quiere enviar un paquete a otro dispositivo, ocasionalmente el ***switch*** realizará un ***broadcast*** a todos los ***hosts*** de la red. Los hosts entonces inspeccionaran el paquete y lo descartaran si no fue dirigido para ellos.
+Cuando un adaptador quiere enviar un paquete a otro dispositivo, ocasionalmente el ***switch*** realizará un ***broadcast*** a todos los ***hosts*** de la red. Los hosts entonces inspeccionarán el paquete y lo descartaran si no fue dirigido para ellos.
 
 A veces un adaptador quiere enviar un paquete a toda la red, en tal caso se utiliza la ***MAC broadcast*** ***address***.
 
@@ -22,11 +22,11 @@ Debido a que existen tanto direcciones **IP** como direcciones ***MAC***, existe
 
 Este protocolo es similar al DNS, pero con la salvedad de que ***ARP*** únicamente resuelve direcciones **IP** de los ***hosts*** y las interfaces que pertenecen a la misma ***subnet.***
 
-Todos los ***hosts*** tienen una ***ARP table*** que contiene ***mapeos*** entre direcciones **IP** y ***MAC*** addresses. Ademas, las entradas de la tabla contienen un campo ***TTL*** para definir cuanto actualizar el valor, debido a que los ***mapeos*** no son permanentes.
+Todos los ***hosts*** tienen una ***ARP table*** que contiene ***mapeos*** entre direcciones **IP** y ***MAC*** addresses. Además, las entradas de la tabla contienen un campo ***TTL*** para definir cuanto actualizar el valor, debido a que los ***mapeos*** no son permanentes.
 
-Cuando un ***hosts*** quiere definir un**a** MAC address***,*** el adaptador enviara un ***ARP*** packet conteniendo la petición y la enviara en ***broadcast*** a toda la subred.
+Cuando un ***hosts*** quiere definir un**a** MAC address, el adaptador enviara un ***ARP*** packet conteniendo la petición y la enviara en ***broadcast*** a toda la subred.
 
-El *hosts* que contiene la dirección *IP* referida enviara en respuesta un paquete conteniendo el mapeo solicitado. La respuesta no se enviara en un paquete ***broadcast***, sino dirigido al que realizo la petición.
+Los **hosts** que contiene la dirección *IP* referida enviara en respuesta un paquete conteniendo el mapeo solicitado. La respuesta no se enviará en un paquete ***broadcast***, sino dirigido al que realizo la petición.
 
 Las tablas son configuradas automáticamente ***(plug and play)*** y no deben mantenidas por un administrador de red.
 
@@ -34,13 +34,13 @@ Este es un protocolo que se encuentra entre la capa de red y la capa de enlace, 
 
 ### Sending a Datagram off the Subnet
 
-Cuando enviamos un paquete a través de multiples ***routers*** hacia un destino externo, debemos incluir la dirección ***MAC*** del ***router*** inmediato *(next hop)*. Sin incluimos la dirección ***MAC*** del ***host*** de destino, ningún ***adaptador*** de la red tomará el paquete y este será descartado. Para conocer la dirección **IP** del próximo ***router*** inmediato, se utiliza el protocolo ***ARP***.
+Cuando enviamos un paquete a través de multiples ***routers*** hacia un destino externo, debemos incluir la dirección ***MAC*** del ***router*** inmediato *(next hop)*. Si incluimos la dirección ***MAC*** del ***host*** de destino, ningún ***adaptador*** de la red tomará el paquete y este será descartado. Para conocer la dirección **IP** del próximo ***router*** inmediato, se utiliza el protocolo ***ARP***.
 
 ## 2. Ethernet
 
-Hoy en día, ***Ethernet*** es por lejos la tecnología de ***LAN*** con cable mas prevalente en el mundo. Esta fue una tecnología mas barata y simple que las otras hasta el momento, pero que ofrecía tasas de velocidad similares.
+Hoy en día, ***Ethernet*** es por lejos la tecnología de ***LAN*** con cable más prevalente en el mundo. Esta fue una tecnología más barata y simple que las otras hasta el momento, pero que ofrecía tasas de velocidad similares.
 
-En los 90, las instalaciones de ***ethernet*** utilizaban una topología de estrella ***hub-based***. Un ***hub*** era un dispositivo intermedio entre el resto de dispositivos que ampliaba e intensificaba lo que recibía por cada interfaz y lo reenviaba al resto de interfaces. A partir de los 2000, se cambio el ***hub*** por un **switch**, pero continuaba siendo una topología de estrella. Los switches eran ***collision less*** y un ***store-forward*** ***packet switch***.
+En los 90, las instalaciones de ***ethernet*** utilizaban una topología de estrella ***hub-based***. Un ***hub*** era un dispositivo intermedio entre el resto de dispositivos que ampliaba e intensificaba lo que recibía por cada interfaz y lo reenviaba al resto de interfaces. A partir de los 2000, se cambió el ***hub*** por un **switch**, pero continuaba siendo una topología de estrella. Los switches eran ***collision less*** y un ***store-forward*** ***packet switch***.
 
 Ethernet provee un servicio ***connectionless*** y no confiable a la capa de red. No se envía ningún tipo de acknowledgments positivos ni negativos, ni siquiera ante la corrupción de bits. La falta de confiabilidad es lo que le permite a ***Ethernet*** ser barato y simple.
 
@@ -48,7 +48,7 @@ Ethernet provee un servicio ***connectionless*** y no confiable a la capa de red
 
 Los ***ethernet frames*** tienen 6 campos:
 
-- ***Data Field (46 to 1500 bytes):*** El ***MTU*** de ethernet es de ***1500***, por lo cualquier paquete de mayor tamaño deberá ser fragmentado. Ademas, el mínimo tamaño de un ***frame*** es de **46** bytes, por lo que en caso de ser menor debe ser rellenado antes de ser enviado, para eliminarse utilizando el campo de ***length***.
+- ***Data Field (46 to 1500 bytes):*** El ***MTU*** de ethernet es de ***1500***, por lo cualquier paquete de mayor tamaño deberá ser fragmentado. Además, el mínimo tamaño de un ***frame*** es de **46** bytes, por lo que en caso de ser menor debe ser rellenado antes de ser enviado, para eliminarse utilizando el campo de ***length***.
 - ***Destination Address (6 bytes):*** Este campo contiene la dirección ***MAC*** del adaptador de destino.
 - ***Source Address (6 bytes)***: Este campo contiene la dirección ***MAC*** del adaptador de envío
 - ***Type Field (2 bytes):*** Debido a que la capa de enlace debe poder manejar multiples protocolos de red, se utiliza este campo para indicar a que protocolo debe ser entregado en el adaptador de destino
@@ -59,7 +59,7 @@ Los ***ethernet frames*** tienen 6 campos:
 
 Las versiones del protocolo tienen nombres determinados por sus características, como ***10BASE-2, 100BASE-T, 1000BASE-LX***, entre otros.
 
-La primera parte indica la velocidad de transmisión del estándar, la segunda parte indica que funciona para ***baseband ethernet***, mientras que la ultima parte refiere al medio físico utilizado. *T* refiere particularmente a los ***twisted-pair copper wires***.
+La primera parte indica la velocidad de transmisión del estándar, la segunda parte indica que funciona para ***baseband ethernet***, mientras que la última parte refiere al medio físico utilizado. *T* refiere particularmente a los ***twisted-pair copper wires***.
 
 En los protocolos iniciales, ethernet estaba limitado a cables de longitud maxima, debido a esto se utilizaban repetidores, dispositivos de capa física que únicamente reciben una señal y la reproducen (amplifican).
 
@@ -68,7 +68,7 @@ A lo largo de los años, ***ethernet*** cambio mucho. Hoy en día la mayoría de
 Gigabit Ethernet es una extensión a los altamente exitosos 10***mbps*** y ***100mbps*** estándares de ethernet, ofreciendo tasas de ***40gb.***
 
 - Utiliza el formato de ***frames*** estándar de ***ethernet*** y es compatible con las tecnologías ***10BASE-T*** y ***100BASE-T***.
-- Permite tanto enlaces punto a punto como canales compartidos (los punto a punto utilizan ***switches*** mientras que los compartidos utilizan ***hubs***
+- Permite tanto enlaces punto a punto como canales compartidos (los puntos a punto utilizan ***switches*** mientras que los compartidos utilizan ***hubs***
 - Utiliza *CMSA/CD* para medios compartidos (la maxima distancia entre nodos es limitada para maximizar eficiencia)
 - Permite una operación ***full-duplex*** de ***40gb*** en ambas direcciones.
 
@@ -80,17 +80,17 @@ Los ***switches*** son transparentes. Los adaptadores de red direccionan frames 
 
 ### Forwarding and Filtering
 
-Filtering es la función que se encarga de determinar si un ***frame*** débe ser enviado a algún interfaz o descartado. ***Forwarding*** es la función que determina a que interfaz debe ser redireccionado cada ***frame***.
+Filtering es la función que se encarga de determinar si un ***frame*** débe ser enviado a alguna interfaz o descartado. ***Forwarding*** es la función que determina a qué interfaz debe ser redireccionado cada ***frame***.
 
 Vemos tres posibles escenarios en la llegada de un ***frame:***
 
 - No hay una entrada en la tabla para la dirección especificada, en ese caso el ***switch*** envía el paquete a todas las interfaces excepto a la de llegada.
 - Hay una entrada en la tabla asociada la dirección especificada, pero esta interfaz coincide con la interfaz de llegada, en ese caso el ***switch*** realiza la función de ***filtering*** y descarta el paquete.
-- Hay una entrada en la tabal asociada a la dirección especificada y es distinta a la de la interfaz de llegada, en ese caso el switch realiza la función de ***forwarding*** y reenvía el paquete a la interfaz determinada.
+- Hay una entrada en la tabla asociada a la dirección especificada y es distinta a la de la interfaz de llegada, en ese caso el switch realiza la función de ***forwarding*** y reenvía el paquete a la interfaz determinada.
 
 ### Self-Learning
 
-Para configurar la tabla del ***switch***, se utiliza un mecanismo de auto aprendizaje:
+Para configurar la tabla del ***switch***, se utiliza un mecanismo de autoaprendizaje:
 
 1. La tabla inicialmente estará vacía
 2. Por cada ***frame*** que recibe, almacena en su tabla la dirección ***MAC*** del remitente del ***frame*** con la interfaz de llegada.
@@ -102,9 +102,9 @@ Debido a estas reglas, los switches son dispositivos ***plug-and-play*** ya que 
 
 Podremos identificar multiples ventajas de los ***switches*** por sobre las topologías **hub-based**
 
-- **Eliminación de colisiones:** Debido a que las conexiones son punto a punto y los switches manejan el intercambio de información, no hay colisiones entre los paquetes. Nunca se envía mas de un ***frame*** a la vez a través de un determinado enlace.
+- **Eliminación de colisiones:** Debido a que las conexiones son punto a punto y los switches manejan el intercambio de información, no hay colisiones entre los paquetes. Nunca se envía más de un ***frame*** a la vez a través de un determinado enlace.
 - ***Links Heterogéneos:*** Como los ***switches*** aíslan unos enlaces de otros, los diferentes ***links*** pueden operar a diferentes velocidades e incluso en distintos medios.
-- ***Manejo:*** Ademas de proveer seguridad avanzada, los switches también facilitan el manejo de la red. Por ejemplo, si un adaptador falla y empieza a mandar paquetes continuamente, el switch puede detectar esto y desconectar internamente el adaptador fallado. Por otro lado, si un cable se desconecta, solo se perjudica aquel ***host*** conectado con ese enlace.
+- ***Manejo:*** Además de proveer seguridad avanzada, los switches también facilitan el manejo de la red. Por ejemplo, si un adaptador falla y empieza a mandar paquetes continuamente, el switch puede detectar esto y desconectar internamente el adaptador fallado. Por otro lado, si un cable se desconecta, solo se perjudica aquel ***host*** conectado con ese enlace.
 
 ### Switches Versus Routers
 
@@ -112,11 +112,11 @@ Tanto los ***switches*** como los ***routers*** realizan ***store-and-forward pa
 
 Como vimos anteriormente, también existen dispositivos con estándar ***OpenFlow*** que utilizan la operación ***match plus action*** para funcionar como ambos (examinan 11 ***headers*** de distintas capas).
 
-Un administrador debe decidir entre cual de estos dispositivos utilizar para gestionar su red. Veremos algunas ventajas y desventajas de los switches.
+Un administrador debe decidir entre cuál de estos dispositivos utilizar para gestionar su red. Veremos algunas ventajas y desventajas de los switches.
 
 - Los switches tienen tasas de filtrado y envío relativamente altas, ya que solo deben procesar ***frames*** hasta la capa de enlace
-- Para prevenir envíos de ***broadcast*** cíclicos, la topología esta limitada a un ***spanning tree (grafo conexo acíclico)***
-- Una gran red necesitaría grandes tablas de ***ARP*** y esto generaría un gran numero trafico y procesamiento de ***ARP***.
+- Para prevenir envíos de ***broadcast*** cíclicos, la topología está limitada a un ***spanning tree (grafo conexo acíclico)***
+- Una gran red necesitaría grandes tablas de ***ARP*** y esto generaría un gran número de tráfico y procesamiento de ***ARP***.
 - Los switches son susceptibles a ***broadcast storms***.
 
 Por el otro lado, analizaremos algunas ventajas y desventajas de ***routers***.
@@ -128,24 +128,24 @@ Por el otro lado, analizaremos algunas ventajas y desventajas de ***routers***.
 - No son ***plug-and-play***, y requieren ser configurados por los administradores de red
 - Usualmente tienen mayor tiempo de procesamiento por paquete que los ***switches***.
 
-En general para redes pequeñas, los ***switches*** suelen ser suficientes. A medida que crece el tamaño de nuestra red, nos resultara conveniente optar por la utilización de ***routers***.
+En general, para redes pequeñas, los ***switches*** suelen ser suficientes. A medida que crece el tamaño de nuestra red, nos resultara conveniente optar por la utilización de ***routers***.
 
 ## 4. Virtual Local Area Networks (VLANs)
 
-Usualmente las redes ***switched LAN*** son configuradas jerárquicamente, donde cada grupo contiene su propia ***switched LAN*** que es a su ves conectada con otros grupos a través de una jerarquía de ***switches.*** Podemos identificar tres inconvenientes principales de esta configuración:
+Usualmente las redes ***switched LAN*** son configuradas jerárquicamente, donde cada grupo contiene su propia ***switched LAN*** que es a su vez conectada con otros grupos a través de una jerarquía de ***switches.*** Podemos identificar tres inconvenientes principales de esta configuración:
 
-- ***Lack of Traffic Isolation:*** Aunque las jerarquías localizan el trafico del grupo en un único ***switch***, el tráfico de ***broadcast*** debe aun recorrer toda la red completa. Limitar este trafico incrementaría el rendimiento de la red. Para solucionar esto podríamos reemplazar el ***switch central*** (que conecta los switches de los distintos departamentos) con un ***router***.
-- ***Inefficient use of Switches:*** Si aumenta el numero de grupos, pero se reduce el numero de ***hosts*** por grupo, estaremos ante una situación donde o bien podríamos tener muchos ***switches*** y tener un uso ineficiente de los mismos, o bien tener un único ***switch*** pero sin proveer aislamiento de trafico.
+- ***Lack of Traffic Isolation:*** Aunque las jerarquías localizan el tráfico del grupo en un único ***switch***, el tráfico de ***broadcast*** debe aún recorrer toda la red completa. Limitar este tráfico incrementaría el rendimiento de la red. Para solucionar esto podríamos reemplazar el ***switch central*** (que conecta los switches de los distintos departamentos) con un ***router***.
+- ***Inefficient use of Switches:*** Si aumenta el número de grupos, pero se reduce el número de ***hosts*** por grupo, estaremos ante una situación donde o bien podríamos tener muchos ***switches*** y tener un uso ineficiente de los mismos, o bien tener un único ***switch*** pero sin proveer aislamiento de tráfico.
 - ***Managing Users:*** Si un empleado se mueve de un grupo al otro, se debe modificar el cableado físico para reflejar este cambio en la red.
 
 Afortunadamente, estas dificultades pueden ser resueltas utilizando un ***Virtual Local Area Network (VLAN)***. Un ***switch*** que permite ***VLANs*** permite que multiples ***VLANs*** sean definidas por sobre una única ***LAN*** física. En una ***port-based VLAN***, los puertos del ***switch*** central son distribuidos entre los distintos grupos por el administrador de red (cada puerto es asociado a una ***VLAN*** distinta).
 
 - Cuando se realiza un ***broadcast***, el ***switch*** limita el ***broadcast*** a únicamente los puertos de ese grupo
 - Podremos agrupar todos los switches en un solo switch central, separando los grupos virtualmente
-- Si un empleado se mueve a otro grupo, simplemente debe reconfigurar a que grupo esta asociado su puerto designado en el ***switch***.
+- Si un empleado se mueve a otro grupo, simplemente debe reconfigurar a qué grupo está asociado su puerto designado en el ***switch***.
 
 Al aislar completamente los grupos, nos encontramos con un nuevo problema. Para resolverlo, se puede conectar un puerto de ***switch*** a un ***router*** externo y configurar para que este puerto este asociado a todos los grupos. De esa forma, para enviar un paquete entre dos grupos, deben pasar primero por el ***router*** externo antes de ser dirigido a otro grupo. Afortunadamente, existen dispositivos que contienen internamente un ***VLAN switch*** como un ***router.***
 
-¿Que pasa si los dos grupos están situados en distintos edificios? En ese caso se utiliza la técnica de ***VLAN trunking***. Se designa un puerto en especial en cada switch, asociado con todos los grupos, que se utilizara para conectar ambos switches***.*** Cuando se quiere enviar un paquete a un grupo externo, se enviara a este puerto el cual utilizará el ***VLAN tag*** (campo del header de ethernet) para determinar a que grupo reenviar el paquete.
+¿Qué pasa si los dos grupos están situados en distintos edificios? En ese caso se utiliza la técnica de ***VLAN trunking***. Se designa un puerto, en especial en cada switch, asociado con todos los grupos, que se utilizara para conectar ambos switches. Cuando se quiere enviar un paquete a un grupo externo, se enviara a este puerto, el cual utilizará el ***VLAN tag*** (campo del header de ethernet) para determinar a qué grupo reenviar el paquete.
 
-En las ***MAC-based VLANs***, el administrador de red especifica que conjunto de direcciones ***MAC le pertenecen a cada grupo***. Tambien se permite que las redes ***VLANs*** se extiendan entre ***routers*** de IP, permitiendo islas de ***LANs*** interconectadas a través del mundo.
+En las ***MAC-based VLANs***, el administrador de red especifica que conjunto de direcciones ***MAC*** le pertenecen a cada grupo. También se permite que las redes ***VLANs*** se extiendan entre ***routers*** de IP, permitiendo islas de ***LANs*** interconectadas a través del mundo.

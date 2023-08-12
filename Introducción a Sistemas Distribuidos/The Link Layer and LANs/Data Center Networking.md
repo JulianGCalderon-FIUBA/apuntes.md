@@ -1,4 +1,4 @@
-Recientemente, muchas grandes compañías han construido ***data centers*** masivos que utilizan para almacenar mucha información y soportar de forma concurrente muchas aplicaciones nube. Cada ***data center*** tiene su propia ***data center network***.
+Recientemente, muchas grandes compañías han construido ***data centers*** masivos que utilizan para almacenar mucha información y soportar de forma concurrente muchas aplicaciones nube. Cada ***data center*** tiene su propia data center network.
 
 Los ***hosts*** dentro de un data center, llamados ***blades***, son ***hosts*** que incluyen ***CPU,*** memoria, y almacenamiento de disco. Estos son apilados en racks. Por encima de los racks, hay un ***switch,*** comúnmente llamado ***Top of Rack (TOR) Switch,*** que interconecta los ***hosts en el rack con el resto de*** hosts ***del data center. Los*** hosts tienen tarjeta de interfaces de red que se conectan con el ***TOR switch,*** y cada ***TOR Switch*** tiene puertos adicionales para conectarse con otros ***switches***. Cada ***host*** tiene asignada su propio **IP** interna del ***data center***.
 
@@ -12,7 +12,7 @@ Estos ***load balancers*** suelen ser referidos como ***layer-4 switch*** debido
 
 ## Hierarchical Architecture
 
-Para ***data centers*** grandes, se emplea una estructura jerárquica para la red. Por encima de todo, están los ***border routers***, que se conectan con los ***access routers***. Cada ***access router*** se conecta con un ***top tier switch***, los cuales a su vez se conectan con multiples ***second-tier-switch*** y un ***load balancer***. Cada ***second tier switch*** a su vez se conecta con multiples ***racks*** a través de los ***TOR switches. Típicamente todos los*** links ***utilizan*** ethernet para la capa de enlace y la capa física.
+Para ***data centers*** grandes, se emplea una estructura jerárquica para la red. Por encima de todo, están los ***border routers***, que se conectan con los ***access routers.*** Cada ***access router*** se conecta con un ***top tier switch***, los cuales a su vez se conectan con multiples ***second-tier-switch*** y un ***load balancer***. Cada ***second tier switch*** a su vez se conecta con múltiples ***racks*** a través de los ***TOR switches. Típicamente todos los*** links ***utilizan*** ethernet para la capa de enlace y la capa física.
 
 Debido a la importancia de proveer servicio de alta disponibilidad, los ***datacenters*** suelen contar con equipamiento y enlaces redundantes en sus diseños. Cada ***TOR switch*** se puede conectar con dos **tier-2 switches**, y cada ***access router, tier-1 switch*** y ***tier-2 switch*** puede ser duplicado e integrado en el diseño.
 
@@ -34,7 +34,7 @@ Otro enfoque, llamado ***MDC (modular data center)*** consiste en agrupar en con
 
 Con ***MDC*** tendremos dos tipos de redes, las redes internas de los contenedores, y la red central que conecta los contenedores. El diseño de la red central es un problema desafiante, ya que consiste en conectar múltiples contenedores, cada uno con miles de hosts.
 
-Cuando se usan topologías altamente interconectadas, uno de los mayores problemas es diseñar los algoritmos de ***ruteo*** entre los ***switches***. Existen multiples posibilidades como ***random routing***, o dejar que los ***hosts*** se encarguen de inteligentemente dirigir tráfico a los ***switches***.
+Cuando se usan topologías altamente interconectadas, uno de los mayores problemas es diseñar los algoritmos de ***ruteo*** entre los ***switches***. Existen múltiples posibilidades como ***random routing***, o dejar que los ***hosts*** se encarguen de inteligentemente dirigir tráfico a los ***switches***.
 
 Otra estrategia es la de construir y customizar todos los dispositivos y protocolos dentro de un ***datacenter*** para que se ajuste a sus necesidades.
 
