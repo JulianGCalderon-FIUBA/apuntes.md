@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
+                "file": "Sistemas Operativos/Bugs de Concurrencia.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md"
+                "file": "Sistemas Operativos/Bugs de Concurrencia.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
+                "file": "Sistemas Operativos/Bugs de Concurrencia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
+                "file": "Sistemas Operativos/Bugs de Concurrencia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,8 +156,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "524bc04d4da22735",
   "lastOpenFiles": [
+    "Sistemas Operativos/API de Threads.md",
+    "Sistemas Operativos/API de Memoria.md",
+    "Álgebra II/Coordenadas.md",
+    "Física II/Campo Eléctrico.md",
+    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
     "Organizacion de Datos/AdaBoost.md",
     "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Data Center Networking.md",
@@ -179,11 +184,6 @@
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Protocol Layers and Their Service Models.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Computer Networks and the Internet.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/The Network Core.md",
-    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md",
-    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
-    "Introducción a Sistemas Distribuidos/Clases Practicas.md",
-    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
-    "Sistemas Operativos/Archivos y Directorios.md",
     "Untitled.canvas",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",

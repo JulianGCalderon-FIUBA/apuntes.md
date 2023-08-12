@@ -41,9 +41,9 @@ Otra forma de prevenir esto es nunca tener esto es obtener todos los *lock al mi
 
 ### No Preemption
 
-Muchas thread libraries ***permiten interfaces flexibles para adquirir ***locks***. Con rutinas que no bloquean un proceso, sino que continúan la ejecución si no se pudo acceder al ***lock***.
+Muchas thread libraries permiten interfaces flexibles para adquirir ***locks***. Con rutinas que no bloquean un proceso, sino que continúan la ejecución si no se pudo acceder al ***lock***.
 
-Esta solución puede causar algo conocido como ***live lock***. Dos threads **repiten constantemente la misma secuencia de código sin producir ningún avance. Para este problema también existen soluciones, como añadir un ***delay*** aleatorio entre ciclos.
+Esta solución puede causar algo conocido como ***live lock***. Dos threads repiten constantemente la misma secuencia de código sin producir ningún avance. Para este problema también existen soluciones, como añadir un ***delay*** aleatorio entre ciclos.
 
 Esta solución trae problemas de encapsulamiento, ya que un ***lock*** puede esta enterrado dentro de una rutina, y necesitaríamos saber de antemano esta información. Por otro lado, si fallamos en adquirir un ***lock***, debemos saber que ***locks*** fueron previamente accedidos por funciones anteriores, para poder liberarlos.
 
