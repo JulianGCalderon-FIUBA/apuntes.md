@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Álgebra II/Ecuaciones Diferenciales Ordinarias.md",
+                "file": "Matemática Discreta/Alfabeto.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path: (Álgebra OR Algoritmos OR Aná)/\\*+.*?\\*+",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 464.5
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Álgebra II/Ecuaciones Diferenciales Ordinarias.md"
+                "file": "Matemática Discreta/Alfabeto.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Álgebra II/Ecuaciones Diferenciales Ordinarias.md",
+                "file": "Matemática Discreta/Alfabeto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Álgebra II/Ecuaciones Diferenciales Ordinarias.md",
+                "file": "Matemática Discreta/Alfabeto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,6 +160,10 @@
   },
   "active": "178700d707526f5b",
   "lastOpenFiles": [
+    "Matemática Discreta/Álgebra de Boole.md",
+    "Matemática Discreta/Alfabeto.md",
+    "Organizacion de Datos/AdaBoost.md",
+    "Álgebra II/Ecuaciones Diferenciales Ordinarias.md",
     "Álgebra II/Autovalores y Autovectores.md",
     "Álgebra II/Álgebra II.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
@@ -169,12 +173,9 @@
     "Física I/Coordenadas Intrínsecas.md",
     "Álgebra II/Descomposición en Valores Singulares.md",
     "Álgebra II/Coordenadas.md",
-    "Organizacion de Datos/AdaBoost.md",
-    "Matemática Discreta/Álgebra de Boole.md",
     "Análisis Numérico/Ajuste.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Principles of Network Applications.md",
     "Sistemas Operativos/API de Threads.md",
-    "Matemática Discreta/Alfabeto.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md",
     "Sistemas Operativos/API de Memoria.md",
     "Sistemas Operativos/Bugs de Concurrencia.md",
@@ -185,7 +186,6 @@
     "Introducción a Sistemas Distribuidos/The Link Layer and LANs/The Link Layer and LANs.md",
     "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Link Virtualization A Network as a Link Layer.md",
     "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Introduction of the Link Layer.md",
-    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Switched Local Area Networks.md",
     "Untitled.canvas",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",

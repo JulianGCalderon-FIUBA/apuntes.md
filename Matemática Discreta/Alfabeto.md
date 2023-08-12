@@ -8,7 +8,7 @@ Una sucesión de letras es una **palabra**. Por ejemplo, $x = abaac$. Llamamos *
 
 Existe una única palabra de longitud cero denominada **palabra nula**, denotada con $\lambda, |\lambda| = 0$
 
-Las palabras pueden ser **concatenadas** a partir del operador ***producto***. Sea $x = aab, y = abbc$. Entonces $z= xy = aababbc$. Definiremos la longitud como $|z| = |xy| = |x| + |y|$. Se puede concatenar con la palabra nula. $a\lambda = \lambda a = a$
+Las palabras pueden ser **concatenadas** a partir del operador **producto**. Sea $x = aab, y = abbc$. Entonces $z= xy = aababbc$. Definiremos la longitud como $|z| = |xy| = |x| + |y|$. Se puede concatenar con la palabra nula. $a\lambda = \lambda a = a$
 
 ## Lenguaje
 
@@ -34,7 +34,7 @@ $$
 
 ## Autómatas
 
-Se designa $M=(\Sigma, Q, q_0, \Upsilon, F)$ el ***autómata finito determinístico (DFA)*** donde:
+Se designa $M=(\Sigma, Q, q_0, \Upsilon, F)$ el **autómata finito determinístico (DFA)** donde:
 
 - $\Sigma$ es un alfabeto
 - $Q$ es un conjunto de estados
