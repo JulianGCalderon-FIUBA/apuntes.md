@@ -1,6 +1,6 @@
 Para virtualizar el procesador, el sistema operativo necesita de alguna forma compartir el procesador físico entre múltiples procesos. ***Time sharing*** es una simple idea que soluciona este problema.
 
-Hay algunos desafíos que surgen al tratar de construir esta maquinaria de virtualización. El primero es el ***rendimiento***: ¿Como podemos implementar esta virtualización sin agregar excesivos gastos al sistema? El segundo problema es el ***control***: ***¿Como podemos correr estos procesos sin perder el control sobre el procesador?
+Hay algunos desafíos que surgen al tratar de construir esta maquinaria de virtualización. El primero es el ***rendimiento***: ¿Como podemos implementar esta virtualización sin agregar excesivos gastos al sistema? El segundo problema es el ***control***: ¿Como podemos correr estos procesos sin perder el control sobre el procesador?
 
 ## Ejecución Directa Limitada
 
@@ -12,7 +12,7 @@ La ejecución directa es rápida, pero que pasa si el proceso quiere realizar al
 
 ¿Cómo hacemos para que el usuario pueda realizar estos pedidos, pero de forma controlada? Para esto, utilizaremos las ***system calls***. Funciones del sistema que levantan el ***kernel*** para que realicen la operación deseada en modo privilegiado, devolviendole el control al proceso cuando termine.
 
-El proceso debe ejecutar cierta instrucción ***trap i***nterpretada por el ***hardware*** que se encarga de despertar el ***kernel***. Cuando termine, se llama a la instrucción ***return-from-trap,*** que le devuelve el control al usuario.
+El proceso debe ejecutar cierta instrucción ***trap*** interpretada por el ***hardware*** que se encarga de despertar el ***kernel***. Cuando termine, se llama a la instrucción ***return-from-trap,*** que le devuelve el control al usuario.
 
 Cuando el *kernel* arranca, prepara la conocida ***trap table***. Esta es configurada para que el ***hardware*** pueda saber que instrucciones ejecutar en cada caso. Cuando el usuario llama a algunas de estas instrucciones, el hardware ejecuta el ***trap handler*** correspondiente.
 

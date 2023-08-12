@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática Discreta/Alfabeto.md",
+                "file": "Probabilidad y Estadistica/Distribuciones Continuas.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path: (Álgebra OR Algoritmos OR Aná)/\\*+.*?\\*+",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática Discreta/Alfabeto.md"
+                "file": "Probabilidad y Estadistica/Distribuciones Continuas.md"
               }
             }
           },
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática Discreta/Alfabeto.md",
+                "file": "Probabilidad y Estadistica/Distribuciones Continuas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática Discreta/Alfabeto.md",
+                "file": "Probabilidad y Estadistica/Distribuciones Continuas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,13 +157,18 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "178700d707526f5b",
+  "active": "524bc04d4da22735",
   "lastOpenFiles": [
-    "Matemática Discreta/Álgebra de Boole.md",
+    "Sistemas Operativos/API de Memoria.md",
+    "Sistemas Operativos/Ejecución Directa.md",
+    "Indice.md",
+    "Álgebra II/Matrices Normales.md",
+    "Álgebra II/Autovalores y Autovectores.md",
+    "Física I/Colisiones.md",
     "Matemática Discreta/Alfabeto.md",
+    "Matemática Discreta/Álgebra de Boole.md",
     "Organizacion de Datos/AdaBoost.md",
     "Álgebra II/Ecuaciones Diferenciales Ordinarias.md",
-    "Álgebra II/Autovalores y Autovectores.md",
     "Álgebra II/Álgebra II.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
     "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
@@ -177,15 +181,10 @@
     "Introducción a Sistemas Distribuidos/Application Layer/Principles of Network Applications.md",
     "Sistemas Operativos/API de Threads.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md",
-    "Sistemas Operativos/API de Memoria.md",
     "Sistemas Operativos/Bugs de Concurrencia.md",
     "Física II/Campo Eléctrico.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
     "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Data Center Networking.md",
-    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Error-Detection and -Correction Techniques.md",
-    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/The Link Layer and LANs.md",
-    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Link Virtualization A Network as a Link Layer.md",
-    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Introduction of the Link Layer.md",
     "Untitled.canvas",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",
