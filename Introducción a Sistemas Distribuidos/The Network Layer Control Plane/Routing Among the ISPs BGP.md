@@ -60,6 +60,6 @@ Los ***backbone provider networks*** no suelen querer gastar recursos en envíos
 
 Existen diversas razones:
 
-- **Policy:** ***Dentro de los*** ASs***,*** dominan las decisiones de politica. Puede ser relevante que el trafico en un **AS** no pase por otro **AS** especifico, o un **AS** puede controlar el traficao que lleva de un ***AS a otro***. ***BGP*** permite tener atributos de ***path*** para tener una distribución controlada de la información.
+- **Policy:** ***Dentro de los*** ASs, dominan las decisiones de politica. Puede ser relevante que el trafico en un **AS** no pase por otro **AS** especifico, o un **AS** puede controlar el traficao que lleva de un ***AS a otro***. ***BGP*** permite tener atributos de ***path*** para tener una distribución controlada de la información.
 - ***Scale:*** En el ruteo ***inter-AS*** la habilidad de un algoritmo y sus estructuras de datos de ser escalable para manejar ruteos entre numeros grandes de redes es un asunto critico. Dentro de un **AS**, la escalabilidad no es tanto problema ya que se siempre se puede dividir en dos **AS**.
 - ***Performance:*** Como el ***ruteo*** inter-AS es orientado a las políticas, la calidad de las rutas suele ser un tema secundario. Dentro de un **AS**, las políticas no son ta importantes, por lo que se le da mas prioridad al ***performance*** de la ruta.

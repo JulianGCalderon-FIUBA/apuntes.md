@@ -101,7 +101,7 @@ Toma ideas del proceso unificado. Hay una fase de inspección, otra de construcc
 
 Cuando finaliza una iteración, se refina el ***product backlog***. Cuando termino de iterar, llego al final de la fase de construcción y comienza la producción.
 
-Se sugiere el uso de *historias de usuario* para describir los requisitos*.*
+Se sugiere el uso de *historias de usuario* para describir los requisitos.
 
 ## Requisitos en Evolución de Sistemas
 

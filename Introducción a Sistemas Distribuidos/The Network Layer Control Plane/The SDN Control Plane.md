@@ -17,7 +17,7 @@ Debido a que los controladores suelen ser implementados en multiples servidores,
 
 ## 2. OpenFlow Protocol
 
-Este protocolo opera entre un controlador ***SDN*** y un ***SDN-controlled*** switch***,*** a través de ***TCP*** en el puerto por defecto ***6653.***
+Este protocolo opera entre un controlador ***SDN*** y un ***SDN-controlled*** switch, a través de ***TCP*** en el puerto por defecto ***6653.***
 
 Entre los mensajes mas importantes enviados desde el controlador al ***switch*** están:
 

@@ -20,7 +20,7 @@ Es importante que todos estén de acuerdo en que hace cada uno protocolo, para q
 
 Otra forma de describir el internet es como una infraestructura que provee servicios a distintas aplicaciones.
 
-Las aplicaciones que involucran múltiples dispositivos conectados se determinan ***aplicaciones distribuidas***. Estas aplicaciones son ejecutadas en ***hosts***.
+Las aplicaciones que involucran múltiples dispositivos conectados se determinan ***aplicaciones distribuidas***. Estas aplicaciones son ejecutadas en ***hosts.***
 
 Los ***end systems*** conectados a internet proveen una ***socket interface*** que indican como un programa ejecutándose en un dispositivo le pide a la infraestructura de internet de entregar información a un programa ejecutándose en otro dispositivo. Esta interfaz se compone de una serie de reglas que tiene que respetar el programa para poder comunicarse correctamente.
 

@@ -86,4 +86,4 @@ Ahora, entrenamos un arbol para cada uno de estos conjuntos de datos, creando un
 
 Luego, a partir de un conjunto de entrenamiento, nos quedamos con el mejor arbol. Repetimos este proceso $k$ veces.
 
-Luego tendremos un conjunto de arboles (*forest*)*,* donde cada arbol vota. Si la mayoria de arboles devolvieron una misma categoria, nos quedamos con esa categoria.
+Luego tendremos un conjunto de arboles (*forest*), donde cada arbol vota. Si la mayoria de arboles devolvieron una misma categoria, nos quedamos con esa categoria.

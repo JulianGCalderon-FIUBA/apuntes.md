@@ -4,7 +4,7 @@ En una red inalámbrica, podremos identificar los siguientes elementos:
 - ***Wireless Links:*** Un host se conecta con otro ***host*** a través de un enlace de comunicación inalámbrico. Las distintas tecnologías difieren en diversos parámetros, como el area de cobertura o la tasa de transmisión.
 - ***Base Station:*** Es una parte clave de la infraestructura. Es la responsable de leer y recibir paquetes desde y hacia los ***hosts***. Se encargará de coordinar la transmission de multiples ***hosts*** con los cuales esta asociado. Este se conecta con una red mayor, funcionando como un ***relay*** entre los ***hosts*** y el resto del mundo.
 
-	Los ***hosts*** asociados con una estación base suelen ser referidos como operando en ***infrastructure mode***. En las redes ***ad hoc (descentralizadas)***, los ***hosts*** inalámbricos no tienen dicha infraestructura con la cual conectarse, por lo que ellos mismos deben proveer servicio como **routing**,** address assignment, ***y otros.
+	Los ***hosts*** asociados con una estación base suelen ser referidos como operando en ***infrastructure mode***. En las redes ***ad hoc (descentralizadas)***, los ***hosts*** inalámbricos no tienen dicha infraestructura con la cual conectarse, por lo que ellos mismos deben proveer servicio como **routing**, address assignment, ***y otros.
 
 	Cuando un ***host*** móvil se mueve fuera del rango de una estación base y dentro de otra, entonces cambiara su punto de union con la red mayor. Este proceso es conocido como ***handoff***.
 

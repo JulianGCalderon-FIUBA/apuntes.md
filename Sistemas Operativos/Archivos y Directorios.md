@@ -69,7 +69,7 @@ En lugar de abrirlos como un archivo regularmente, utilizaremos la ***syscall `o
 
 ### Borrar Directorios
 
-Podemos borrar directorios utilizando la ***syscall*** `rmdir()`*,* aunque para que funcione, el directorio tiene que estar vacío.
+Podemos borrar directorios utilizando la ***syscall*** `rmdir()`, aunque para que funcione, el directorio tiene que estar vacío.
 
 ## Links
 

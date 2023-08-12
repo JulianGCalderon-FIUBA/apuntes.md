@@ -6,7 +6,7 @@ En lugar de partir el espacio de direcciones, lo dividimos en unidades de tamañ
 
 Este enfoque tiene un cierto número de ventajas:
 
-- ***flexibilidad***,** el sistema puede soportar la abstracciones de espacios de memoria virtuales de forma efectiva, sin importar como utiliza el espacio de memoria ese proceso.
+- ***flexibilidad***, el sistema puede soportar la abstracciones de espacios de memoria virtuales de forma efectiva, sin importar como utiliza el espacio de memoria ese proceso.
 - ***simplicidad,*** no tiene que buscar espacios de memoria con los tamaños deseados, ya que los tamaños son todos iguales. Solo necesita encontrar la cantidad de páginas deseadas.
 - *sin fragmentación externa*, como las páginas son de tamaño fijo, no necesita buscar las que tienen un tamaño particular
 

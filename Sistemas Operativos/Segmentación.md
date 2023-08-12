@@ -20,7 +20,7 @@ Hasta ahora, vimos que el enfoque de segmentación permite ahorrar una gran cant
 
 ¿Qué debe hacer el sistema operativo en un ***context switch***? Los registros de los segmentos deben ser guardados y restaurados posteriormente. Debe almacenar correctamente la ubicación de los segmentos para cada proceso.
 
-Otro problema surge cuando queremos aumentar nuestra memoria disponible. Esto suele ocurrir cuando un proceso pide mas memoria al sistema operativo mediante una ***system call,*** entonces el sistema operativo debe aumentar el espacio disponible para este proceso***,*** actualizando el tamaño del segmento, o creando un nuevo segmento.
+Otro problema surge cuando queremos aumentar nuestra memoria disponible. Esto suele ocurrir cuando un proceso pide mas memoria al sistema operativo mediante una ***system call,*** entonces el sistema operativo debe aumentar el espacio disponible para este proceso, actualizando el tamaño del segmento, o creando un nuevo segmento.
 
 Por último, como se maneja la memoria libre. Cuando se crea un espacio de direcciones, el sistema operativo debe encontrar espacio para todos los segmentos que el proceso requiera. Pero esto puede ser difícil
 

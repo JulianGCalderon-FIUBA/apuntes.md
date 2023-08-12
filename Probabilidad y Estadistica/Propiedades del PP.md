@@ -1,6 +1,6 @@
 ## Adelgazamiento
 
-Sea $N(t)$ un proceso de Poisson de intensidad $\lambda$, donde cada evento es del tipo $I, II$ con probabilidad independiente de cada evento $p, 1{-}p$ respectivamente. Entonces podemos dividir el proceso de de Poisson en 2 *Poissonsitos* $N_I(t), N_{II}(t)$*,* con intensidad $\lambda p, \lambda (1{-}p)$ respectivamente. De esta forma, obtenemos
+Sea $N(t)$ un proceso de Poisson de intensidad $\lambda$, donde cada evento es del tipo $I, II$ con probabilidad independiente de cada evento $p, 1{-}p$ respectivamente. Entonces podemos dividir el proceso de de Poisson en 2 *Poissonsitos* $N_I(t), N_{II}(t)$, con intensidad $\lambda p, \lambda (1{-}p)$ respectivamente. De esta forma, obtenemos
 
 $$
 N(t) = N_I(t) + N_{II}(t)

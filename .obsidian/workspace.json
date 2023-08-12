@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Organizacion de Datos/AdaBoost.md",
+                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Organizacion de Datos/AdaBoost.md"
+                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Organizacion de Datos/AdaBoost.md",
+                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Organizacion de Datos/AdaBoost.md",
+                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,8 +156,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "524bc04d4da22735",
   "lastOpenFiles": [
+    "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
+    "Organizacion de Datos/AdaBoost.md",
     "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Data Center Networking.md",
     "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Error-Detection and -Correction Techniques.md",
     "Introducción a Sistemas Distribuidos/The Link Layer and LANs/The Link Layer and LANs.md",
@@ -170,7 +172,6 @@
     "Introducción a Sistemas Distribuidos/Application Layer/Video Streaming and Content Distribution Network.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md",
     "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
     "Introducción a Sistemas Distribuidos/Application Layer/The Web and HTTP.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Principles of Network Applications.md",
     "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
@@ -183,7 +184,6 @@
     "Introducción a Sistemas Distribuidos/Clases Practicas.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.md",
     "Sistemas Operativos/Archivos y Directorios.md",
-    "Física I/Dispositivos Ópticos.md",
     "Untitled.canvas",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",
