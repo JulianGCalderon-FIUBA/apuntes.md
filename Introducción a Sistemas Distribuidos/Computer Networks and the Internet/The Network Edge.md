@@ -1,4 +1,4 @@
-Los ***end systems*** se denominan así ya que se encuentran en el extremo final de la red. También denominados ***hosts*** ya que ***hostean*** (ejecutan) aplicaciones. Usaremos ambos términos indistintamente. ***Los hosts*** se suelen separar a su vez en ***clientes*** y ***servidores***.
+Los ***end systems*** se denominan así, ya que se encuentran en el extremo final de la red. También denominados ***hosts***, ya que ***hostean*** (ejecutan) aplicaciones. Usaremos ambos términos indistintamente. ***Los hosts*** se suelen separar a su vez en ***clientes*** y ***servidores***.
 
 ## 1. Access Networks
 
@@ -10,7 +10,7 @@ En 2015, las dos formas principales de Acceso residencial de banda ancha eran:
 
 #### **DSL (Digital Subscriber Line)**
 
-Una residencia usualmente obtiene este acceso de internet ***DSL*** del mismo proveedor de linea de telefono. Debido a esto, se usar cable de la linea de telefono. Utilizando distintas frecuencias para transmitir tanto datos como señales telefónicas de forma simultánea:
+Una residencia usualmente obtiene este acceso de internet ***DSL*** del mismo proveedor de línea de teléfono. Debido a esto, se usa el cable de la línea de teléfono. Utilizando distintas frecuencias para transmitir tanto datos como señales telefónicas de forma simultánea:
 
 - A high-speed downstream channel, in the 50 kHz to 1 MHz band
 - A medium-speed upstream channel, in the 4 kHz to 50 kHz band
@@ -22,9 +22,9 @@ Como la descarga y la subida tienen distintas tasas, se dice que es de acceso as
 
 #### **Cable**
 
-Este método hace uso del cable de televisión para proporcionar acceso a internet. Requiere de un tipo especial de módem llamados ***cable modems***. Al igual que *DSL*, es de acceso asimétrico.
+Este método hace uso del cable de televisión para proporcionar acceso a internet. Requiere de un tipo especial de módem llamado ***cable modem***. Al igual que *DSL*, es de acceso asimétrico.
 
-Cables coaxiales conectan un vecindario, compartidos entre varios usuarios (entre 500 y 5000). Todos ellos están conectados a un nodo, el cual se comunica con el proveedor a través de un cable fibra óptica. Debido a que el cable atraviesa varias casas antes de llegar a destino, si múltiples usuario usan el internet al mismo tiempo, la velocidad de conexión baja. Como se usa tanto un cable coaxial como de fibra óptica, este sistema se suele denominar como ***HFC*** ***(hybrid fiber coax)***
+Cables coaxiales conectan un vecindario, compartidos entre varios usuarios (entre 500 y 5000). Todos ellos están conectados a un nodo, el cual se comunica con el proveedor a través de un cable fibra óptica. Debido a que el cable atraviesa varias casas antes de llegar a destino, si múltiples usuarios usan el internet al mismo tiempo, la velocidad de conexión baja. Como se usa tanto un cable coaxial como de fibra óptica, este sistema se suele denominar como ***HFC*** ***(hybrid fiber coax)***
 
 Desde el servidor, hay una estructura similar al DSLAM conocida como CMTS, transformando lase señales analogicas de las casas a señales digitales.
 
@@ -34,7 +34,7 @@ Hay múltiples tecnologías en competencia por distribución óptica a los hogar
 
 #### Other Methods
 
-Otros métodos menos utilizado son: ***Satellite Links** y **Dial-up* ***Access.*** Este último es utilizado en casas tradicionales. Tiene un esquema similar al ***DSL, pero mucho más lento.***
+Otros métodos menos utilizados son: ***Satellite Links** y **Dial-up* ***Access.*** Este último es utilizado en casas tradicionales. Tiene un esquema similar al ***DSL, pero mucho más lento.***
 
 ### Access in the Enterprise (and the Home): Ethernet and WiFi
 
@@ -49,11 +49,11 @@ Las empresas de telecomunicaciones han hecho enormes inversiones en tecnologías
 
 ## 2. Physical Media
 
-Consideremos un ***bit*** viajando de un ***end system*** a otro, a través de una serie de ***links*** y ***routers.*** Por cada ***transmitter-receiver***, el ***bit*** se envía propagando ondas electromagnéticos o pulsos eléctricos a través de un medio físico.
+Consideremos un ***bit*** viajando de un ***end system*** a otro, a través de una serie de ***links*** y ***routers.*** Por cada ***transmitter-receiver***, el ***bit*** se envía propagando ondas electromagnéticas o pulsos eléctricos a través de un medio físico.
 
-Hay muchos medios por los cuales se envía la información a través de la red. Los medio se separan en dos categorías:
+Hay muchos medios por los cuales se envía la información a través de la red. Los medios se separan en dos categorías:
 
-- **Guided Medium:** Las ondas se transmiten a través de un medio sólido, como un cable coaxial, de fibra óptica, o de cobre. El costo de estos nombres suele ser muy barato, en comparación con otros elementos de la red. (como la instalación en si)
+- **Guided Medium:** Las ondas se transmiten a través de un medio sólido, como un cable coaxial, de fibra óptica, o de cobre. El costo de estos nombres suele ser muy barato, en comparación con otros elementos de la red. (como la instalación en sí)
 - **Non Guided Medium:** Las ondas se transmiten por la atmósfera, de forma inalámbrica.
 
 ### **Twisted-Pair Copper Wire**
