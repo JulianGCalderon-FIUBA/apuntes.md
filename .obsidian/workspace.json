@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "76df7e3ce48f41f6",
+        "id": "2f1c016edae8d9ac",
         "type": "tabs",
         "children": [
           {
-            "id": "2bc1c1b72eb56f12",
+            "id": "296235815c1e0f0b",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.pdf"
+                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.pdf"
+                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.md"
               }
             }
           },
@@ -93,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
+                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
+                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,10 +157,11 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "2bc1c1b72eb56f12",
+  "active": "296235815c1e0f0b",
   "lastOpenFiles": [
-    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
+    "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
+    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
     "Indice.md",
     "Indice.pdf",
     "Indice.tex",
