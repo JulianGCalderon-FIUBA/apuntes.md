@@ -5,6 +5,7 @@ keywords: [wep, rc4, sistemas distribuidos]
 abstract: |
   El objetivo de este trabajo práctico es el de investigar el protocolo WEP y la razón de su vulnerabilidad
 numbersections: true
+toc: true
 ---
 
 \newpage
@@ -23,7 +24,7 @@ Debido a esta clave común, es un algoritmo simétrico, ya que la misma clave se
 
 Sea $\text{Data}$ el segmento de datos que quiero enviar, el tamaño total del segmento concatenado será de $n$, en $\text{bytes}$.
 
-El algoritmo parte de una semilla de encriptación, que se obtendrá al concatenar un vector de inicialización de $24 \text{ bytes}$ que llamaremos $\text{IV}$, con la clave compartida de $40 \text{ bytes}$, que llamaremos $\text{SK}$. El operador $\doubleplus$ denota concatenación.
+El algoritmo parte de una semilla de encriptación, que se obtendrá al concatenar un vector de inicialización de $24 \text{ bytes}$ que llamaremos $\text{IV}$, con la clave compartida de $40 \text{ bytes}$, que llamaremos $\text{SK}$. El operador $⧺$ denota concatenación.
 
 $$
 \text{Seed} = IV \ ⧺\ \  \text{SK}
