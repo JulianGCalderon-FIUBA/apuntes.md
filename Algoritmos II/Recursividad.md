@@ -1,4 +1,4 @@
-Una algoritmo recursivo es aquel que se llama a si mismo, hay distintos tipos de recursividad:
+Un algoritmo recursivo es aquel que se llama a sí mismo, hay distintos tipos de recursividad:
 
 - Recursividad Directa
 - Recursividad Indirecta
@@ -8,22 +8,22 @@ La recursividad se puede aplicar para resolver problemas que son resolubles medi
 
 ## Recursividad Directa
 
-El algoritmo de recursividad directa es aquel que se llama a si mismo, directamente. Una función recursiva debe cumplir con ciertas reglas para que funcione correctamente:
+El algoritmo de recursividad directa es aquel que se llama a sí mismo, directamente. Una función recursiva debe cumplir con ciertas reglas para que funcione correctamente:
 
 - Debe poseer una condición de corte
 - Debe poseer una llamada recursiva
 
 ### Ámbito
 
-El ámbito de una función es la región de memoria del *stack* a la que el puede acceder. Dentro del ámbito de una función se almacenan:
+El ámbito de una función es la región de memoria del *stack* a la que él puede acceder. Dentro del ámbito de una función se almacenan:
 
-- Los argumentos que son pasados a la funcion
-- Las variables declaradas en la funcion
+- Los argumentos que son pasados a la función
+- Las variables declaradas en la función
 - La línea a la que debe regresar una vez completada la ejecución.
 
 ## Recursividad Indirecta
 
-El algoritmo de recursividad indirecta es aquel que no se llama a si mismo, sino que llama a otra función, la cual llama a la función original.
+El algoritmo de recursividad indirecta es aquel que no se llama a sí mismo, sino que llama a otra función, la cual llama a la función original.
 
 ![[Algoritmos II/Attachments/Recursividad 1.png|425]]
 
@@ -31,7 +31,7 @@ Para lograr esto, en C se debe declarar la firma de las funciones de antemano, p
 
 ## Recursividad de Cola
 
-La recursividad de cola es aquella que la ultima función que ejecuta es la llamada recursiva. De esta forma, se puede descartar la memoria almacenada al final de cada llamada, para optimizar mas el uso del stack.
+La recursividad de cola es aquella que la última función que ejecuta es la llamada recursiva. De esta forma, se puede descartar la memoria almacenada al final de cada llamada, para optimizar más el uso del stack.
 
 ```c
 // Un ejemplo de un alguritmo factorial, recursivo de cola.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Álgebra II/Autovalores y Autovectores.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Álgebra II/Autovalores y Autovectores.md"
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Álgebra II/Autovalores y Autovectores.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Álgebra II/Autovalores y Autovectores.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,36 +159,36 @@
   },
   "active": "114c3278ee40296f",
   "lastOpenFiles": [
-    "Matemática Discreta/Alfabeto.md",
-    "Álgebra II/Autovalores y Autovectores.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
+    "Algoritmos I/Conceptos Básicos.md",
+    "Algoritmos I/Bibliotecas Personales.md",
+    "Algoritmos I/Argumentos del programa.md",
+    "Algoritmos I/Algoritmos I.md",
     "Álgebra II/Álgebra II.md",
-    "Algoritmos II/TDA.md",
-    "Algoritmos II/Recursividad.md",
+    "Álgebra II/Subespacios de Matriz.md",
+    "Álgebra II/Espacios Vectoriales.md",
+    "Álgebra II/Ejemplos de Transformaciones Lineales.md",
     "Algoritmos II/Punteros.md",
+    "Algoritmos II/Recursividad.md",
+    "Algoritmos II/TDA.md",
+    "Álgebra II/Producto Interno.md",
+    "Álgebra II/Ortogonalidad.md",
+    "Álgebra II/Operaciones entre Subespacios.md",
+    "Álgebra II/Método de Gram-Schmidt.md",
+    "Álgebra II/Coordenadas.md",
+    "Álgebra II/Autovalores y Autovectores.md",
+    "Matemática Discreta/Alfabeto.md",
     "Algoritmos II/Pilas, Colas y Listas.md",
     "Algoritmos II/Diccionario y Hash.md",
     "Álgebra II/Matrices Normales.md",
-    "Álgebra II/Ortogonalidad.md",
     "Álgebra II/Subespacios.md",
     "Álgebra II/Sistemas de E D Homogéneas.md",
-    "Álgebra II/Producto Interno.md",
     "Álgebra II/Formas Cuadráticas.md",
-    "Álgebra II/Operaciones entre Subespacios.md",
-    "Álgebra II/Espacios Vectoriales.md",
-    "Álgebra II/Método de Gram-Schmidt.md",
     "Álgebra II/Transformaciones Lineales.md",
-    "Álgebra II/Coordenadas.md",
-    "Indice.md",
-    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
-    "Introducción a Sistemas Distribuidos/Clases Practicas.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
-    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",
     "Indice.tex",
-    "Sistemas Operativos/API de Memoria.md",
-    "Organizacion de Datos/AdaBoost.md",
-    "Probabilidad y Estadistica/Distribuciones Continuas.md",
     "Untitled.canvas",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",
