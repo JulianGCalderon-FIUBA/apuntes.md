@@ -1,17 +1,3 @@
----
-title: 'This is the title: it contains a colon'
-author:
-- Author One
-- Author Two
-keywords: [nothing, nothingness]
-abstract: |
-  This is the abstract.
-
-  It consists of two paragraphs.
-toc: true
-documentc
----
-
 ## 1.º 2021
 
 - [[Análisis Matemático II]]

@@ -1,4 +1,12 @@
-## 1. ¿Qué es WEP?
+---
+title: Breaking WEP
+author: Julián Gonzalez Calderón
+keywords: [wep, rc4, sistemas distribuidos]
+abstract: |
+  El objetivo de este trabajo práctico es el de investigar el protocolo WEP y la razón de su vulnerabilidad
+---
+
+## ¿Qué es WEP?
 
 El sistema ***WEP*** es un sistema de cifrado opcional incluido en el estándar ***IEEE 802.11, edición 1999.*** Para proteger la confidencialidad de los datos intercambiados a través de un medio compartido.
 
@@ -6,7 +14,7 @@ Se utiliza una clave en común entre el remitente y el receptor. Se presume que 
 
 Debido a esta clave común, es un algoritmo simétrico, ya que la misma clave se utiliza para encriptar o desencriptar.
 
-## 2. ¿Cómo funciona WEP?
+## ¿Cómo funciona WEP?
 
 Sea $\text{Data}$ el segmento de datos que quiero enviar, el tamaño total del segmento concatenado será de $n$, en $\text{bytes}$.
 
@@ -42,7 +50,7 @@ $$
 \text{Data} = \text{Cipher} \oplus \text{Key Stream}
 $$
 
-## 3. ¿Cómo funciona RC4?
+## ¿Cómo funciona RC4?
 
 El protocolo ***RC4*** consta de dos algoritmos, extremadamente simples, que parten de una semilla dada. Definiremos $N$ como la cantidad de permutaciones posibles de palabras de longitud $n$, comúnmente, tendremos que $N = 256$.
 
@@ -73,7 +81,7 @@ El protocolo ***RC4*** consta de dos algoritmos, extremadamente simples, que par
 
 	Cada valor expuesto por el algoritmo será un octeto del flujo de claves, este podrá tener cualquier longitud que se desea.
 
-## 3. Inseguridades de RC4
+## Inseguridades de RC4
 
 ### Debilidad de la Invariancia
 
@@ -93,7 +101,7 @@ Cuando ocurre esto, aseguramos con probabilidad mayor a $e^{-3} \approx 0.05$ qu
 
 Si no se cumple esto, entonces los elementos volverán a participar en intercambios, haciendo que el valor resultante sea efectivamente aleatorio. Esto implica que si repetimos este análisis para muchos valores de escenarios resueltos, entonces el valor más probable será el correcto.
 
-## 4. Detalles del ***Known IV Attack***
+## Detalles del ***Known IV Attack***
 
 Debido a como funciona el algoritmo de ***WEP***, únicamente estudiaremos el escenario en el que el vector de inicialización precede a la clave secreta compartida, aunque ambas situaciones son vulnerables al mismo tipo de ataque.
 
@@ -111,7 +119,7 @@ Algo importante a notar, es que este ataque requiere de una gran cantidad de paq
 
 Cabe notar que si ocurre esto, la red será susceptible a otro tipo de ataques. Debido a que es posible obtener el flujo de claves a través del cifrado y el valor desencriptado, si un ataque obtiene esto podrá desencriptar fácilmente todos los paquetes provenientes del mismo vector de inicialización, incluso sin conocer la clave.
 
-## 5. Aplicación del Ataque en WEP
+## Aplicación del Ataque en WEP
 
 El ataque consiste en observar selectivamente vectores $\text{IV}$ tal que podamos calcular la permutación en la iteración $I$ sin necesitar la clave secreta. En este caso, $I$ será $3$. Debemos previamente conocer la primera palabra de flujo de claves.
 
@@ -123,7 +131,7 @@ Si para alguno de los valores hallados, no se cumple la condición, entonces lo 
 
 Debemos tener en cuenta que este ataque es válida para todos los ataques que cumplan la condición propuesta, aunque estos no pertenezcan a la forma mencionada.
 
-## 5. Preparación para el Ataque
+## Preparación para el Ataque
 
 Necesitamos dos elementos fundamentales para la ejecución de este ataque. La primera es alguna tarjeta o adaptador de red que nos permita escuchar y enviar paquetes de redes ***802.11***. A partir de un programa conocido como ***sniffer*** o analizador de paquetes, podremos visualizar todos los paquetes que son enviados a través del medio.
 
@@ -131,7 +139,7 @@ Estos programas configuran el adaptador de red en modo ***promiscuo***. Este per
 
 El segundo elemento que necesitamos, es conocer la primera palabra de los segmentos de datos enviados, sin encriptar. Al conocer esto, y con el segmento cifrado, podremos determinar la primera palabra del flujo de claves.
 
-## 6. Obtención de Paquetes
+## Obtención de Paquetes
 
 Como vimos, el método requiere de, inicialmente, recolectar un gran número de paquetes cifrados con distintos $\text{IVs}$. Una opción es esperar el tiempo necesario hasta recolectar los paquetes requeridos, pero existe un truco para acelerar el proceso.
 
@@ -139,18 +147,18 @@ Otra opción es la de tomar un paquete ya perteneciente a la red (encriptado con
 
 Recordemos que el ataque es un ataque pasivo, por lo que este paso no es necesario, pero altamente efectivo.
 
-## 7. Resultados del Ataque
+## Resultados del Ataque
 
 En ***2001***, ***Fluhrer, Mantin y Shamir*** tratarón de aplicar el ataque mencionado, para vulnerar una red con ***802.11*** autenticación ***WEP***.
 
 A partir de lo mencionado, y con algunas modificaciones, pudieron vulnerar ***WEP*** utilizando un total de un millón de paquetes.
 
-## 8. Otras Inseguridades
+## Otras Inseguridades
 
 El ataque mencionado no es la única forma de vulnerar este protocolo, por ejemplo, veamos el ataque activo de inyección de paquetes.
 
 El atacante debe conocer el contenido real de un paquete encriptado, de esta forma, podremos obtener el flujo de claves correspondiente. Luego, podremos encriptar cualquier paquete que nosotros queramos con este flujo de claves. De esta forma, lograremos introducir paquetes malignos en la red.
 
-## 9. Evolución de WEP
+## Evolución de WEP
 
 A principios de 2001, se empezaron a identificar varias debilidades a partir de analistas criptográficos. Unos meses más tarde, el **IEEE** creó la corrección de seguridad ***802.11i*** para neutralizar esto. En ***2004***, finalmente, el estándar ***802.11i***, también conocido como ***WPA***, fue ratificado.

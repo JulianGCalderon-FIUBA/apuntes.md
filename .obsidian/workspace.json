@@ -11,11 +11,9 @@
             "id": "2bc1c1b72eb56f12",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Indice.md",
-                "mode": "source",
-                "source": false
+                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Indice.md"
+                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.pdf"
               }
             }
           },
@@ -95,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Indice.md",
+                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Indice.md",
+                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,8 +157,10 @@
   },
   "active": "2bc1c1b72eb56f12",
   "lastOpenFiles": [
-    "Indice.pdf",
+    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
+    "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Indice.md",
+    "Indice.pdf",
     "Indice.tex",
     "Sistemas Operativos/API de Memoria.md",
     "Organizacion de Datos/AdaBoost.md",
@@ -185,7 +185,6 @@
     "Sistemas Operativos/API de Threads.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md",
     "Sistemas Operativos/Bugs de Concurrencia.md",
-    "Física II/Campo Eléctrico.md",
     "Untitled.canvas",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",
