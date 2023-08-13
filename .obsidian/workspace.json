@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Organizacion de Datos/AdaBoost.md",
+                "file": "Indice.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Organizacion de Datos/AdaBoost.md"
+                "file": "Indice.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Organizacion de Datos/AdaBoost.md",
+                "file": "Indice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Organizacion de Datos/AdaBoost.md",
+                "file": "Indice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,8 +157,10 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "524bc04d4da22735",
   "lastOpenFiles": [
+    "Indice.tex",
+    "Organizacion de Datos/AdaBoost.md",
     "Probabilidad y Estadistica/Distribuciones Continuas.md",
     "Sistemas Operativos/API de Memoria.md",
     "Sistemas Operativos/Ejecución Directa.md",
@@ -168,7 +170,6 @@
     "Física I/Colisiones.md",
     "Matemática Discreta/Alfabeto.md",
     "Matemática Discreta/Álgebra de Boole.md",
-    "Organizacion de Datos/AdaBoost.md",
     "Álgebra II/Ecuaciones Diferenciales Ordinarias.md",
     "Álgebra II/Álgebra II.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
@@ -184,7 +185,6 @@
     "Introducción a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md",
     "Sistemas Operativos/Bugs de Concurrencia.md",
     "Física II/Campo Eléctrico.md",
-    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
     "Untitled.canvas",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",
