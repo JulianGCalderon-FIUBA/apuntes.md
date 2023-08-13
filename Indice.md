@@ -9,8 +9,10 @@ abstract: |
   This is the abstract.
 
   It consists of two paragraphs.
-toc: true
 ---
+
+\newpage{}
+\toc
 
 ## 1.º 2021
 
