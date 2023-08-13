@@ -9,7 +9,6 @@ abstract: |
 
   It consists of two paragraphs.
 toc: true
-documentclass: report
 ---
 
 ## 1.º 2021
