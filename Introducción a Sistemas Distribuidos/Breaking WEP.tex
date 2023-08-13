@@ -79,6 +79,7 @@
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
 \usepackage{unicode-math}
+\usepackage{tikz}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -129,8 +130,8 @@ total del segmento concatenado será de \(n\), en \(\text{bytes}\).
 El algoritmo parte de una semilla de encriptación, que se obtendrá al
 concatenar un vector de inicialización de \(24 \text{ bytes}\) que
 llamaremos \(\text{IV}\), con la clave compartida de
-\(40 \text{ bytes}\), que llamaremos \(\text{SK}\). El operador
-\(\doubleplus\) denota concatenación.
+\(40 \text{ bytes}\), que llamaremos \(\text{SK}\). El operador \(⧺\)
+denota concatenación.
 
 \[
 \text{Seed} = IV \ ⧺\ \  \text{SK}
