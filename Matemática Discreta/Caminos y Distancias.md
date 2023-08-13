@@ -9,8 +9,8 @@ $$
 - Un camino es cerrado si $v_0 = v_q$, de lo contrario es un camino abierto
 - Un camino abierto que no repite aristas es un recorrido *(trail)*
 - Un camino abierto que no repite vertices es un camino simple *(path)*
-- Un camino cerrado que no repite aristas es un circuito ***(circuit)***
-- Un camino cerrado que no repite vertices intermedios se llama ciclo. ***(cicle)***
+- Un camino cerrado que no repite aristas es un circuito *(circuit)*
+- Un camino cerrado que no repite vertices intermedios se llama ciclo. *(cicle)*
 
 ## Longitud de un Camino
 
@@ -72,8 +72,8 @@ Un vértice puede no estar ni en el centro ni en la periferia de un grafo. En un
 
 ## Separaciones
 
-Sea $G$ un grafo conexo y $s,t$ dos vertices del grafo, entonces dos o más $s{-}t$ ***paths*** son de arista-disjuntos **si no comparten aristas. De igual forma, son vertice-disjuntos ***si no comparten vertices, excepto los extremos.
+Sea $G$ un grafo conexo y $s,t$ dos vertices del grafo, entonces dos o más $s{-}t$ paths son de arista-disjuntos si no comparten aristas. De igual forma, son vertice-disjuntos si no comparten vertices, excepto los extremos.
 
-Un conjunto de aristas (o vertices) separa $s$ de $t$ si su remoción destruye todo ***path*** entre $s$ y $t$.
+Un conjunto de aristas (o vertices) separa $s$ de $t$ si su remoción destruye todo path entre $s$ y $t$.
 
-La maxima cantidad de caminos **arista-disjuntos** o ***vertice-disjuntos*** es igual a la mínima cantidad de aristas o vertices que separan ambos vertices.
+La maxima cantidad de caminos **arista-disjuntos** o **vertice-disjuntos** es igual a la mínima cantidad de aristas o vertices que separan ambos vertices.

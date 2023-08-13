@@ -56,7 +56,7 @@ $$
 
 #### Caso 2: $\vec v \not\perp \vec B$
 
-El movimiento es compuesto, se mueve tanto en **MCU** como en **MRU,** movimiento rectilíneo uniforme. De esta forma, la trayectoria es una hélice (movimiento helicoidal).
+El movimiento es compuesto, se mueve tanto en **MCU** como en **MRU**, movimiento rectilíneo uniforme. De esta forma, la trayectoria es una hélice (movimiento helicoidal).
 
 Comparte las mismas fórmulas que el caso anterior, pero se usa la velocidad perpendicular $v_\perp$ al campo para el **MCU**.
 

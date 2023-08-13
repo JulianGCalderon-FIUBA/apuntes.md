@@ -68,7 +68,7 @@ Un `vector` almacena una colección finita y secuencial, de elementos de un mism
 
 - El **tamaño** del vector define la cantidad máxima de elementos que puede llegar a tener
 - El **tope** de un vector define la cantidad de elementos significantes que tiene el vector
-- El í**ndice** es la posición en la que se encuentra cada elemento, empieza a contar desde 0.
+- El **índice** es la posición en la que se encuentra cada elemento, empieza a contar desde 0.
 
 Las **operaciones** entre vector se hacen elemento a elemento. Existen dos tipos de eliminaciones:
 
@@ -142,15 +142,15 @@ int strcmp(char cadena1[], char cadena2[]);
 
 ### Operaciones
 
-**Imprimir cadenas:**
+#### Imprimir cadenas:
 
 `printf("%s", cadena);`
 
-**Leer Cadenas**
+#### Leer Cadenas
 
-`scanf("%s", &cadena);` Lee hasta el primer espacio o \n
+`scanf("%s", &cadena);` Lee hasta el primer espacio o `\n`
 
-`scanf("%s[^\n]", cadena);` Lee hasta el primer \n
+`scanf("%s[^\n]", cadena);` Lee hasta el primer `\n`
 
 ## Registros
 
