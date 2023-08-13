@@ -40,7 +40,7 @@ Sea $T: \Bbb V \to \Bbb W$ una transformación lineal, siendo $\Bbb V$ y $\Bbb W
 - Sea $\Bbb V = gen(v_1, v_2, \cdots, v_n)$, entonces $Im(T) = gen(T(v_1), T(v_2), \cdots, T(v_m))$
 - Si $S \subset \Bbb V$, entonces $T(S) \subset \Bbb W$
 - Si $U \subset \Bbb W$, entonces $T^{-1}(U) \subset \Bbb V$
-- **Toda T.L. queda unívocamente determinada sobre una base.**
+- Toda T.L. queda unívocamente determinada sobre una base.
 
 **Teorema:** (Dimensión de subespacios fundamentales de una transformación lineal) Si $\Bbb V$ es un espacio vectorial de dimensión finita y $T: \Bbb V \to \Bbb W$, entonces:
 
@@ -80,7 +80,7 @@ $$
 \begin{bmatrix}\alpha_1 \\ \vdots \\ \alpha_n\end{bmatrix}
 $$
 
-Entonces, obtenemos una matriz de $m\times n$, que nos permite transformar cualquier vector de $\Bbb V$ con coordenadas en $B$, a un vector de $\Bbb W$ con coordenadas en $B'$. A esta matriz se le llama ***matriz de*** $T$ ***con respecto a las bases*** $B$ ***y*** $B'$, y se denota como $[T]_B^{B'}$
+Entonces, obtenemos una matriz de $m\times n$, que nos permite transformar cualquier vector de $\Bbb V$ con coordenadas en $B$, a un vector de $\Bbb W$ con coordenadas en $B'$. A esta matriz se le llama matriz de $T$ con respecto a las bases $B$ y $B'$, y se denota como $[T]_B^{B'}$
 
 $$
 [T(x)]^{B'} = [T]_B^{B'} [x]^{B}

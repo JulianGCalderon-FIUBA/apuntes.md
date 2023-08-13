@@ -72,4 +72,4 @@ Además, se cumple que $Q^T Q = I_k$
 
 ## Teorema de Representación de Riesz
 
-Sea $\Bbb V$ un $\Bbb K$-espacio vectorial de dimensión finita con **P.I.**, ***Si $\phi: \Bbb V \to \Bbb K$ es cualquier función lineal no nula, existe un único $w \in \Bbb V$ tal que $\langle X, w \rangle = \phi(X),\ \forall X \in \Bbb V$
+Sea $\Bbb V$ un $\Bbb K$-espacio vectorial de dimensión finita con P.I., Si $\phi: \Bbb V \to \Bbb K$ es cualquier función lineal no nula, existe un único $w \in \Bbb V$ tal que $\langle X, w \rangle = \phi(X),\ \forall X \in \Bbb V$

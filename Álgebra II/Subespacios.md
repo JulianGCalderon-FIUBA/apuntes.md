@@ -32,7 +32,7 @@ $$
 \sum_{i = 1}^n \lambda_iv_i = 0 \implies \lambda_i = 0\,\forall\,i
 $$
 
-Se dice que un generador es una **base** si es linealmente independiente. Todas las bases de $S$ tienen la misma cantidad de elementos**.** A **l**a cantidad de elementos de la base de se le llama dimensión de $S$.
+Se dice que un generador es una **base** si es linealmente independiente. Todas las bases de $S$ tienen la misma cantidad de elementos**.** A la cantidad de elementos de la base de se le llama dimensión de $S$.
 
 El subespacio nulo $\{\Bbb O_{\Bbb V}\}$ tiene dimensión 0, no tiene base.
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Indice.md",
+                "file": "Álgebra II/Matrices Normales.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,11 +48,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path: \"Álgebra II\" /\\*+.*?\\*+",
                 "matchingCase": false,
                 "explainSearch": true,
-                "collapseAll": false,
-                "extraContext": false,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Indice.md"
+                "file": "Álgebra II/Matrices Normales.md"
               }
             }
           },
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Indice.md",
+                "file": "Álgebra II/Matrices Normales.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Indice.md",
+                "file": "Álgebra II/Matrices Normales.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,35 +160,36 @@
   },
   "active": "114c3278ee40296f",
   "lastOpenFiles": [
+    "Álgebra II/Formas Cuadráticas.md",
+    "Álgebra II/Matrices Normales.md",
+    "Álgebra II/Espacios Vectoriales.md",
+    "Álgebra II/Autovalores y Autovectores.md",
+    "Álgebra II/Álgebra II.md",
+    "Álgebra II/Método de Gram-Schmidt.md",
+    "Álgebra II/Subespacios.md",
+    "Álgebra II/Transformaciones Lineales.md",
+    "Álgebra II/Producto Interno.md",
+    "Álgebra II/Coordenadas.md",
+    "Indice.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.md",
     "Introducción a Sistemas Distribuidos/Clases Practicas.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
-    "Indice.md",
     "Indice.pdf",
     "Indice.tex",
     "Sistemas Operativos/API de Memoria.md",
     "Organizacion de Datos/AdaBoost.md",
     "Probabilidad y Estadistica/Distribuciones Continuas.md",
     "Sistemas Operativos/Ejecución Directa.md",
-    "Álgebra II/Matrices Normales.md",
-    "Álgebra II/Autovalores y Autovectores.md",
     "Física I/Colisiones.md",
     "Matemática Discreta/Alfabeto.md",
     "Matemática Discreta/Álgebra de Boole.md",
     "Álgebra II/Ecuaciones Diferenciales Ordinarias.md",
-    "Álgebra II/Álgebra II.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
     "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
     "Física I/Difracción.md",
-    "Física I/Coordenadas Intrínsecas.md",
-    "Álgebra II/Descomposición en Valores Singulares.md",
-    "Álgebra II/Coordenadas.md",
-    "Análisis Numérico/Ajuste.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/Principles of Network Applications.md",
-    "Sistemas Operativos/API de Threads.md",
     "Untitled.canvas",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",

@@ -14,7 +14,7 @@ Para matrices complejas, tenemos que;
 
 ## Matrices Normales
 
-Todas las matrices mencionadas anteriormente pertenecen a un mismo conjunto, el conjunto de las matrices *normales*. Verifican que $A A^* = A^* A$.
+Todas las matrices mencionadas anteriormente pertenecen a un mismo conjunto, el conjunto de las matrices normales. Verifican que $A A^* = A^* A$.
 
 ### Propiedades: $A, A^*$.
 
