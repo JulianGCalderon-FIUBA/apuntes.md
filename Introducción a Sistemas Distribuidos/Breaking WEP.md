@@ -4,6 +4,7 @@ author: Julián Gonzalez Calderón
 keywords: [wep, rc4, sistemas distribuidos]
 abstract: |
   El objetivo de este trabajo práctico es el de investigar el protocolo WEP y la razón de su vulnerabilidad
+numbersections: true
 ---
 
 ## ¿Qué es WEP?
