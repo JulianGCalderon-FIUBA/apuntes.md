@@ -1,6 +1,5 @@
 ---
 title: 'This is the title: it contains a colon'
-
 author:
 - Author One
 - Author Two
@@ -9,14 +8,9 @@ abstract: |
   This is the abstract.
 
   It consists of two paragraphs.
-
-pagebreak
+toc: true
+documentClass: report
 ---
-
-<div>
-\newpage{}
-\toc
-</div>
 
 ## 1.º 2021
 
