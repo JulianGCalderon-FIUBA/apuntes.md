@@ -49,7 +49,7 @@ Este método no es vigente hoy en día. Un ciclo de mejora continua que consiste
 
 Hay tres enfoques principales para aumentar la calidad:
 
-- **Six Sigma**: ***Busca reducir la variación y se centra en la resolución de problemas
+- **Six Sigma**: Busca reducir la variación y se centra en la resolución de problemas
 - **Lean**: Usa herramientas similares, pero busca remover el desperdicio y aumentar el flujo de trabajo.
 - ***TOC*** (Teoría de las Restricciones)***:*** Busca encontrar y resolver las restricciones del sistema, el cuello de botella del sistema.
 

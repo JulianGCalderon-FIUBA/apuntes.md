@@ -35,9 +35,9 @@ Criterio para determinar si la historia de usuario es correcta:
 - **I:** independiente (de otras historias)
 - **N:** negociable (una declaración flexible, no un contrato)
 - **V:** valiosa (aporta valor al cliente o al usuario)
-- **E**: estimable (se puede estimar)
-- ***S:*** pequeña (se puede desarrollar dentro de una iteración)
-- ***T: v***erificable (se entiende lo suficiente como para poder ser probada.
+- **E:** estimable (se puede estimar)
+- **S:** pequeña (se puede desarrollar dentro de una iteración)
+- **T:** verificable (se entiende lo suficiente como para poder ser probada)
 
 ### QUS Framework
 

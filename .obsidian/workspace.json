@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md"
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,32 +159,32 @@
   },
   "active": "114c3278ee40296f",
   "lastOpenFiles": [
-    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
-    "Física II/Potencia Activa y Reactiva.md",
-    "Física II/Ley de Gauss.md",
-    "Física II/Campo Magnético.md",
-    "Algoritmos I/Conceptos Básicos.md",
-    "Algoritmos I/Argumentos del programa.md",
-    "Algoritmos I/Algoritmos I.md",
-    "Álgebra II/Coordenadas.md",
-    "Álgebra II/Autovalores y Autovectores.md",
-    "Álgebra II/Álgebra II.md",
-    "Matemática Discreta/Caminos y Distancias.md",
-    "Matemática Discreta/Álgebra de Conjuntos.md",
-    "Matemática Discreta/Álgebra de Boole.md",
-    "Matemática Discreta/Alfabeto.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
-    "Organizacion de Datos/AdaBoost.md",
-    "Álgebra II/Descomposición en Valores Singulares.md",
     "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
-    "Algoritmos I/Bibliotecas Personales.md",
-    "Álgebra II/Subespacios de Matriz.md",
-    "Álgebra II/Espacios Vectoriales.md",
-    "Álgebra II/Ejemplos de Transformaciones Lineales.md",
-    "Algoritmos II/Punteros.md",
-    "Algoritmos II/Recursividad.md",
-    "Algoritmos II/TDA.md",
-    "Álgebra II/Producto Interno.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
+    "Física II/Circuitos en Resonancia.md",
+    "Análisis Matemático II/Familias de Curvas.md",
+    "Análisis Matemático II/Curvas y superficies.md",
+    "Análisis Matemático II/Cónicas.md",
+    "Análisis de la Información/Introducción al Diseño de Software.md",
+    "Análisis de la Información/Introducción a la Ingeniería de Software.md",
+    "Análisis de la Información/Interfaces de Usuario.md",
+    "Análisis de la Información/Innovación y Creatividad.md",
+    "Análisis de la Información/Ingeniería de Requisitos.md",
+    "Análisis de la Información/Historias de Usuario.md",
+    "Análisis de la Información/Historias de Dominio.md",
+    "Análisis de la Información/Gherkin.md",
+    "Análisis de la Información/Diseño de Datos.md",
+    "Análisis de la Información/Design Thinking.md",
+    "Análisis de la Información/Casos de Uso.md",
+    "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
+    "Análisis de la Información/Arquitectura del Software.md",
+    "Análisis de la Información/Análisis de la Información.md",
+    "Algoritmos II/Diccionario y Hash.md",
+    "Algoritmos II/Árboles Generales.md",
+    "Algoritmos II/Árboles Auto Balanceados.md",
+    "Algoritmos II/Algoritmos II.md",
+    "Algoritmos II/Algoritmos de Grafos.md",
+    "Algoritmos I/Recursividad.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",

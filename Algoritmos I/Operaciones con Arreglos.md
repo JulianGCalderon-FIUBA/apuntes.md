@@ -16,9 +16,7 @@ void insertar_ordenado(vector_t vector, int *tope, elemento_t elemento){
 		i--;
 	}
 	vector[i] = elemento;
-	(*tope)++;
-
-	
+	(*tope)++;	
 }
 ```
 

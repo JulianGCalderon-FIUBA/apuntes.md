@@ -6,10 +6,8 @@
 
 La ingeniería de software es una ingeniería de cosas abstractas, trabajamos con cosas que no existen en el mundo ideal.
 
-
 > [!Reference] Title
 > Contents
-
 
 ## Diferencias con la Ingeniería Tradicional
 
@@ -25,7 +23,7 @@ Convertir un programa en un producto específico implica ***generalización, tes
 
 ## Cuerpo de Conocimiento
 
-El cuerpo de conocimiento está compuesto por un conjunto de á***reas de conocimiento.*** Una descripción de cada una puede hallarse en el documento *SWEBOK*
+El cuerpo de conocimiento está compuesto por un conjunto de ***áreas de conocimiento.*** Una descripción de cada una puede hallarse en el documento *SWEBOK*
 
 ![[Introduccion a la Ingenieria de Software 1.png|500]]
 
