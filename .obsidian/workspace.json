@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2f1c016edae8d9ac",
+        "id": "8d06088f713091d9",
         "type": "tabs",
         "children": [
           {
-            "id": "296235815c1e0f0b",
+            "id": "a836c5205f006776",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -157,11 +157,12 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "296235815c1e0f0b",
+  "active": "a836c5205f006776",
   "lastOpenFiles": [
-    "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.md",
+    "Introducción a Sistemas Distribuidos/Clases Practicas.md",
+    "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.md",
     "Indice.pdf",
     "Indice.tex",
@@ -187,7 +188,6 @@
     "Introducción a Sistemas Distribuidos/Application Layer/Principles of Network Applications.md",
     "Sistemas Operativos/API de Threads.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md",
-    "Sistemas Operativos/Bugs de Concurrencia.md",
     "Untitled.canvas",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",

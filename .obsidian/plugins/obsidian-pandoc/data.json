@@ -1,5 +1,5 @@
 {
-  "showCLICommands": false,
+  "showCLICommands": true,
   "addExtensionsToInternalLinks": "html",
   "injectAppCSS": "light",
   "injectThemeCSS": false,
@@ -10,6 +10,6 @@
   "pandoc": null,
   "pdflatex": null,
   "outputFolder": null,
-  "extraArguments": "--shift-heading-level-by=-1",
-  "exportFrom": "html"
+  "extraArguments": "--shift-heading-level-by=-1\n",
+  "exportFrom": "md"
 }
