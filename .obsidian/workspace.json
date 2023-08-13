@@ -11,9 +11,11 @@
             "id": "114c3278ee40296f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.pdf"
+                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.pdf"
+                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.md"
               }
             }
           },
@@ -93,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
+                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
+                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,8 +159,9 @@
   },
   "active": "114c3278ee40296f",
   "lastOpenFiles": [
-    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
+    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
+    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
     "Introducción a Sistemas Distribuidos/Clases Practicas.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.md",
@@ -185,7 +188,6 @@
     "Análisis Numérico/Ajuste.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Principles of Network Applications.md",
     "Sistemas Operativos/API de Threads.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md",
     "Untitled.canvas",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",

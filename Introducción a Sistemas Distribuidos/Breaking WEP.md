@@ -5,7 +5,6 @@ keywords: [wep, rc4, sistemas distribuidos]
 abstract: |
   El objetivo de este trabajo práctico es el de investigar el protocolo WEP y la razón de su vulnerabilidad
 numbersections: true
-toc: true
 ---
 
 \newpage
@@ -24,10 +23,10 @@ Debido a esta clave común, es un algoritmo simétrico, ya que la misma clave se
 
 Sea $\text{Data}$ el segmento de datos que quiero enviar, el tamaño total del segmento concatenado será de $n$, en $\text{bytes}$.
 
-El algoritmo parte de una semilla de encriptación, que se obtendrá al concatenar un vector de inicialización de $24 \text{ bytes}$ que llamaremos $\text{IV}$, con la clave compartida de $40 \text{ bytes}$, que llamaremos $\text{SK}$. El operador $⧺$ denota concatenación.
+El algoritmo parte de una semilla de encriptación, que se obtendrá al concatenar un vector de inicialización de $24 \text{ bytes}$ que llamaremos $\text{IV}$, con la clave compartida de $40 \text{ bytes}$, que llamaremos $\text{SK}$. El operador $+$ denota concatenación.
 
 $$
-\text{Seed} = IV \ ⧺\ \  \text{SK}
+\text{Seed} = IV \ +\ \  \text{SK}
 $$
 
 La semilla, de un total de $64 \text{ bytes}$, será introducida en el algoritmo de encriptación ***RC4,*** el cual devolverá un flujo de claves de longitud $n$ que se utilizará para encriptar el segmento de datos.
@@ -45,7 +44,7 @@ $$
 Finalmente, se concatena el vector de inicialización $\text{IV}$ al segmento cifrado, y se envía a través del medio.
 
 $$
-\text{Sent} = \text{Cipher}\ ⧺\ \text{IV} 
+\text{Sent} = \text{Cipher}\ +\ \text{IV} 
 $$
 
 Cuando el receptor recibe el paquete, extrae el vector de inicialización del segmento y lo introduce a ***RC4***, junto a la clave compartida, para hallar el mismo flujo de claves que utilizó el remitente.
@@ -111,7 +110,7 @@ Si no se cumple esto, entonces los elementos volverán a participar en intercamb
 
 Debido a como funciona el algoritmo de ***WEP***, únicamente estudiaremos el escenario en el que el vector de inicialización precede a la clave secreta compartida, aunque ambas situaciones son vulnerables al mismo tipo de ataque.
 
-Sea $\text{IV}$ el vector de inicialización conocido, de longitud $I$, y $\text{SK}$ la clave secreta, de longitud $l - I$, entonces construiremos la semilla para ***RC4*** como $K = \text{IV}\ ⧺\ \ SK$, con longitud $l$. Trataremos de derivar el valor de la palabra $B$ de la clave secreta, esto es, la palabra $I + B$ de la semilla. Para que este ataque sea posible, el atacante debe poder obtener la primera palabra del flujo de claves. A esta primera palabra, la denominaremos $\text{Out}$.
+Sea $\text{IV}$ el vector de inicialización conocido, de longitud $I$, y $\text{SK}$ la clave secreta, de longitud $l - I$, entonces construiremos la semilla para ***RC4*** como $K = \text{IV}\ +\ \ SK$, con longitud $l$. Trataremos de derivar el valor de la palabra $B$ de la clave secreta, esto es, la palabra $I + B$ de la semilla. Para que este ataque sea posible, el atacante debe poder obtener la primera palabra del flujo de claves. A esta primera palabra, la denominaremos $\text{Out}$.
 
 Si se cumple que $S_I[1] < I$ y $S_I[1] + S_I[S_I[1]] = I+B$, entonces estaremos ante una condición resuelta tras la ronda $I + B$ con una probabilidad relativamente alta: $p\approx e^{-\frac{2B}N}$. Luego, podremos tomar la suposición de que esto se cumplirá.
 
