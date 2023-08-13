@@ -1,6 +1,6 @@
 ## Pila
 
-Una pila es una estructura de datos, que agrupa elementos. En la pila, solo podemos leer el ultimo elemento apilado, y no podemos leer el próximo hasta deshacernos de ese. ***LIFO*** $\to$ ***"Last in, First Out"***
+Una pila es una estructura de datos, que agrupa elementos. En la pila, solo podemos leer el ultimo elemento apilado, y no podemos leer el próximo hasta deshacernos de ese. **LIFO** $\to$ **"Last in, First Out"**
 
 Funciones definidas para el TDA pila
 
@@ -25,7 +25,7 @@ Hay 3 formas de implementar la pila.
 
 ## Cola
 
-Una cola es una estructura de datos, en la que solo podemos leer el elemento mas antiguo, y no podemos leer el próximo hasta deshacernos de ese. ***FIFO*** $\to$ ***"First in, First Out"***
+Una cola es una estructura de datos, en la que solo podemos leer el elemento mas antiguo, y no podemos leer el próximo hasta deshacernos de ese. **FIFO** $\to$ **"First in, First Out"**
 
 Funciones definidas para el TDA pila:
 

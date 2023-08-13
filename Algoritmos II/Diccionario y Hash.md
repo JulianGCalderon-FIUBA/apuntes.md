@@ -1,6 +1,6 @@
 ## Definición
 
-Un **diccionario** es una colección de pares [clave, valor]. Se accede a los elementos mediante una clave, que funciona como índice. También es conocido como un ***hashmap***.
+Un **diccionario** es una colección de pares [clave, valor]. Se accede a los elementos mediante una clave, que funciona como índice. También es conocido como un **hashmap**.
 
 La utilidad del diccionario es que aumenta el rendimiento a la hora de acceder a valores. En los diccionarios, no hay entradas duplicadas.
 

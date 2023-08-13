@@ -77,7 +77,7 @@ Las siguientes propiedades son válidas únicamente para matrices anti hermétic
 
 ## Isometrías
 
-Sea $\Bbb V$ un espacio vectorial con producto interno, entonces el operador $T: \Bbb V \to \Bbb V$ es una ***isometría*** si
+Sea $\Bbb V$ un espacio vectorial con producto interno, entonces el operador $T: \Bbb V \to \Bbb V$ es una **isometría** si
 
 $$
 d(T(x), T(y)) = d(x,y)

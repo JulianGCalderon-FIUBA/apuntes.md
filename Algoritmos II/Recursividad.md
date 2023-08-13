@@ -53,10 +53,10 @@ int factorial (int n)
 
 ## Divide y Conquista
 
-El método ***divide y conquista*** es una forma general no solo de solucionar problemas, sino también de diseñar algoritmos.
+El método **divide y conquista** es una forma general no solo de solucionar problemas, sino también de diseñar algoritmos.
 
-Esta compuesto por tres fases:
+Está compuesto por tres fases:
 
-1. **Dividir:** el problema es un numero de sub-problemas, que sean instancias menores del mismo problema
-2. **Conquistar:** los sub-problemas de modo tal que sean resueltos recursivamente, hasta que el tamaño del problema sea lo suficientemente pequeño como para que su solución sea simple (caso base)
-3. **Combinar:** las soluciones obtenidas por cada sub-problema en la solución del problema original
+1. **Dividir:** el problema es un número de subproblemas, que sean instancias menores del mismo problema
+2. **Conquistar:** los subproblemas de modo tal que sean resueltos recursivamente, hasta que el tamaño del problema sea lo suficientemente pequeño como para que su solución sea simple (caso base)
+3. **Combinar:** las soluciones obtenidas por cada subproblema en la solución del problema original

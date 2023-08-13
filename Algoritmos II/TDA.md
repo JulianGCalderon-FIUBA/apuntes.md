@@ -5,13 +5,13 @@ Un tipo de dato define dos cosas importantes:
 1. El conjunto de todos los valores posibles que una variable de ese tipo puede tomar
 2. Las operaciones que las variables de ese tipo de dato pueden utilizar
 
-Los lenguajes de programación tienen tipos de datos ***primitivos,*** los cuales son predefinidos por el lenguaje de programación.
+Los lenguajes de programación tienen tipos de datos **primitivos**, los cuales son predefinidos por el lenguaje de programación.
 
 ![[TDA 1.png|475]]
 
 ## Abstracción
 
-Proviene del latín *abstracto*, y significa: **separar aisladamente en la mente las características de un objeto o un hecho, dejando de prestar atención al mundo sensible para enfocarse solo en el pensamiento.**
+Proviene del latín *abstracto*, y significa: separar aisladamente en la mente las características de un objeto o un hecho, dejando de prestar atención al mundo sensible para enfocarse solo en el pensamiento.
 
 Separamos lo que nos **importa**, y nos olvidamos de lo **innecesario**
 

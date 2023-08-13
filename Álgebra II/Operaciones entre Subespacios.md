@@ -22,7 +22,7 @@ $$
 C =A + B = \{v\in\Bbb V/ v = a + b, a \in A, b \in B\}
 $$
 
-Un generador de esta suma es el conjunto de vectores de ambos generadores de $A,B$. (Aunque este generador no necesariamente es **LI**)
+Un generador de esta suma es el conjunto de vectores de ambos generadores de $A,B$. (Aunque este generador no necesariamente es linealmente independientes)
 
 La suma de dos subespacios $A, B$ genera otro subespacio. Es el subespacio más chico que incluye a ambos conjuntos con las manos vacías.
 
