@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilidad y Estadistica/Distribuciones Continuas.md",
+                "file": "Organizacion de Datos/AdaBoost.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilidad y Estadistica/Distribuciones Continuas.md"
+                "file": "Organizacion de Datos/AdaBoost.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilidad y Estadistica/Distribuciones Continuas.md",
+                "file": "Organizacion de Datos/AdaBoost.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilidad y Estadistica/Distribuciones Continuas.md",
+                "file": "Organizacion de Datos/AdaBoost.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,8 +157,9 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "524bc04d4da22735",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
+    "Probabilidad y Estadistica/Distribuciones Continuas.md",
     "Sistemas Operativos/API de Memoria.md",
     "Sistemas Operativos/Ejecución Directa.md",
     "Indice.md",
@@ -184,7 +185,6 @@
     "Sistemas Operativos/Bugs de Concurrencia.md",
     "Física II/Campo Eléctrico.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
-    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Data Center Networking.md",
     "Untitled.canvas",
     "Análisis de la Información/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",
