@@ -9,6 +9,7 @@ abstract: |
   This is the abstract.
 
   It consists of two paragraphs.
+documentclass: article
 ---
 
 ## 1.º 2021
