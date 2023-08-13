@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md"
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,6 +160,12 @@
   "active": "114c3278ee40296f",
   "lastOpenFiles": [
     "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
+    "Organizacion de Datos/AdaBoost.md",
+    "Física II/Campo Magnético.md",
+    "Álgebra II/Descomposición en Valores Singulares.md",
+    "Álgebra II/Coordenadas.md",
+    "Álgebra II/Autovalores y Autovectores.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
     "Algoritmos I/Conceptos Básicos.md",
     "Algoritmos I/Bibliotecas Personales.md",
     "Algoritmos I/Argumentos del programa.md",
@@ -175,16 +181,10 @@
     "Álgebra II/Ortogonalidad.md",
     "Álgebra II/Operaciones entre Subespacios.md",
     "Álgebra II/Método de Gram-Schmidt.md",
-    "Álgebra II/Coordenadas.md",
-    "Álgebra II/Autovalores y Autovectores.md",
     "Matemática Discreta/Alfabeto.md",
     "Algoritmos II/Pilas, Colas y Listas.md",
     "Algoritmos II/Diccionario y Hash.md",
     "Álgebra II/Matrices Normales.md",
-    "Álgebra II/Subespacios.md",
-    "Álgebra II/Sistemas de E D Homogéneas.md",
-    "Álgebra II/Formas Cuadráticas.md",
-    "Álgebra II/Transformaciones Lineales.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",
