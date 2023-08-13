@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "e5ff24e8f37d841e",
+        "id": "9001eb9ad99b8a13",
         "type": "tabs",
         "children": [
           {
-            "id": "524bc04d4da22735",
+            "id": "87be686871a4b096",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Indice.pdf"
+                "file": "Indice.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Indice.pdf"
+                "file": "Indice.md"
               }
             }
           },
@@ -93,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Indice.pdf",
+                "file": "Indice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Indice.pdf",
+                "file": "Indice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,12 +157,12 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "524bc04d4da22735",
+  "active": "87be686871a4b096",
   "lastOpenFiles": [
-    "Indice.md",
-    "Indice.pdf",
-    "Sistemas Operativos/API de Memoria.md",
     "Indice.tex",
+    "Indice.pdf",
+    "Indice.md",
+    "Sistemas Operativos/API de Memoria.md",
     "Organizacion de Datos/AdaBoost.md",
     "Probabilidad y Estadistica/Distribuciones Continuas.md",
     "Sistemas Operativos/Ejecución Directa.md",
