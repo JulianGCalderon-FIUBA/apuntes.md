@@ -7,5 +7,14 @@
       ],
       "key": "L"
     }
+  ],
+  "obsidian-pandoc:pandoc-export-pdf": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
   ]
 }
