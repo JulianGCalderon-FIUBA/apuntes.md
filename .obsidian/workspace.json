@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md"
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,8 +159,10 @@
   },
   "active": "114c3278ee40296f",
   "lastOpenFiles": [
-    "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
+    "Introducción a Sistemas Distribuidos/1 What is the internet 40e9f12bd0ce45cd8221aa4ba65ac38e.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
     "Física II/Circuitos en Resonancia.md",
     "Análisis Matemático II/Familias de Curvas.md",
     "Análisis Matemático II/Curvas y superficies.md",
@@ -183,8 +185,6 @@
     "Algoritmos II/Árboles Generales.md",
     "Algoritmos II/Árboles Auto Balanceados.md",
     "Algoritmos II/Algoritmos II.md",
-    "Algoritmos II/Algoritmos de Grafos.md",
-    "Algoritmos I/Recursividad.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",
