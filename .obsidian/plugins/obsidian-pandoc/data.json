@@ -10,6 +10,6 @@
   "pandoc": null,
   "pdflatex": null,
   "outputFolder": null,
-  "extraArguments": "--template custom.latex --data-dir=~/Configs/.pandoc/",
+  "extraArguments": "--template custom.latex",
   "exportFrom": "html"
 }
