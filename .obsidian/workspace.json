@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7241fb77e5da4bb4",
+        "id": "76df7e3ce48f41f6",
         "type": "tabs",
         "children": [
           {
-            "id": "d9a92f661a13e03b",
+            "id": "2bc1c1b72eb56f12",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -157,7 +157,7 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "d9a92f661a13e03b",
+  "active": "2bc1c1b72eb56f12",
   "lastOpenFiles": [
     "Indice.pdf",
     "Indice.md",
