@@ -54,7 +54,7 @@ $$
 T(N) = \Theta(f(N)) \impliedby T(N) = O(f(N)),\quad T(N) = \Omega(f(N))
 $$
 
-Esto quiere decir que la tasa de crecimiento va a estar acotada por una tasa superior y una inferior. Es tanto **Big-O**, como **Big-Omega**.
+Esto quiere decir que la tasa de crecimiento va a estar acotada por una tasa superior y una inferior. Es tanto Big-O, como Big-Omega.
 
 ## Teorema Maestro
 

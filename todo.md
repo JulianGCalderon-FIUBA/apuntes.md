@@ -1,6 +1,6 @@
 - [x] Álgebra II
-- [ ] Algoritmos I
-- [ ] Algoritmos II
+- [x] Algoritmos I
+- [x] Algoritmos II
 - [ ] Análisis de la Información
 - [ ] Análisis Matemático II
 - [ ] Análisis Numérico

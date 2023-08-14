@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmos II/TDA.md",
+                "file": "Algoritmos II/Árboles Auto Balanceados.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmos II/TDA.md"
+                "file": "Algoritmos II/Árboles Auto Balanceados.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmos II/TDA.md",
+                "file": "Algoritmos II/Árboles Auto Balanceados.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmos II/TDA.md",
+                "file": "Algoritmos II/Árboles Auto Balanceados.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,12 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Algoritmos II/Análisis de Algoritmos.md",
+    "Algoritmos II/Algoritmos II.md",
+    "Algoritmos II/Algoritmos de Grafos.md",
     "Algoritmos I/Recursividad.md",
+    "todo.md",
+    "Algoritmos II/TDA.md",
     "Algoritmos I/Operaciones con Arreglos.md",
     "Algoritmos I/Operaciones con archivos.md",
     "Algoritmos I/Manejo de Archivos.md",
@@ -180,7 +185,6 @@
     "Algoritmos I/Bibliotecas Personales.md",
     "Algoritmos I/Argumentos del programa.md",
     "Algoritmos I/Algoritmos I.md",
-    "todo.md",
     "Álgebra II/Transformaciones Lineales.md",
     "Álgebra II/Subespacios de Matriz.md",
     "Álgebra II/Subespacios.md",
@@ -194,10 +198,6 @@
     "Álgebra II/Formas Cuadráticas.md",
     "Álgebra II/Espacios Vectoriales.md",
     "Álgebra II/Ejemplos de Transformaciones Lineales.md",
-    "Álgebra II/Ecuaciones Diferenciales Ordinarias.md",
-    "Álgebra II/Descomposición en Valores Singulares.md",
-    "Álgebra II/Coordenadas.md",
-    "Álgebra II/Autovalores y Autovectores.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

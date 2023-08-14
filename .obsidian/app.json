@@ -33,6 +33,11 @@
     "root",
     "stack",
     "TDA",
-    "modularizado"
+    "modularizado",
+    "Heap",
+    "heap",
+    "maximal",
+    "minimal",
+    "heapify"
   ]
 }

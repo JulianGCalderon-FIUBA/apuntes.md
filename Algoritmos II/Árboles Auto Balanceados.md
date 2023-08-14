@@ -1,6 +1,6 @@
 ## AVL
 
-Un árbol AVL o de *Adelson-Velsky and Landis*, es un árbol binario de búsqueda autobalanceado
+Un árbol AVL o de Adelson-Velsky y Landis, es un árbol binario de búsqueda autobalanceado
 
 Si el factor de balanceo de algún nodo del árbol es en módulo mayor a 1, entonces es necesario reequilibrar
 
@@ -76,7 +76,7 @@ Para que un árbol B de orden $k$ sea válido se tienen que cumplir los siguient
 
 ### Búsqueda
 
-La búsqueda se hace partiendo el nodo inicial, evaluando en que rama del nodo debería estar, y repitiendo hasta llegar a un nodo NULL o al elemento buscado.
+La búsqueda se hace partiendo el nodo inicial, evaluando en que rama del nodo debería estar, y repitiendo hasta llegar a un nodo nulo o al elemento buscado.
 
 ### Inserción
 
@@ -111,11 +111,11 @@ Otra propiedad del heap es que es un árbol **casi completo**. Esto quiere decir
 
 ### Inserción
 
-Para insertar, insertamos el elemento en el primer lugar disponible, luego lo intercambiamos con el nodo padre si es necesario. Repetimos esta operación hasta que el heap esté ordenado. Esta operación se llama **SIFT UP.** Este algoritmo tiene complejidad $\log n$
+Para insertar, insertamos el elemento en el primer lugar disponible, luego lo intercambiamos con el nodo padre si es necesario. Repetimos esta operación hasta que el heap esté ordenado. Esta operación se llama **sift up.** Este algoritmo tiene complejidad $\log n$
 
 ### Eliminación
 
-En el heap binario, solo podemos borrar la raíz. Para hacerlo, lo quitamos y lo remplazamos con el último elemento, luego lo intercambiamos con el hijo adecuado (el mayor en un heap maximal). Repetimos esta operación hasta que el heap esté ordenado. Esta operación se llama **SIFT DOWN.** Este algoritmo tiene complejidad $\log n$
+En el heap binario, solo podemos borrar la raíz. Para hacerlo, lo quitamos y lo remplazamos con el último elemento, luego lo intercambiamos con el hijo adecuado (el mayor en un heap maximal). Repetimos esta operación hasta que el heap esté ordenado. Esta operación se llama **sift down.** Este algoritmo tiene complejidad $\log n$
 
 ### Construcción
 
@@ -130,16 +130,16 @@ N:\text{Nodo Actual} \implies \begin{cases}
 \end{cases}
 $$
 
-Entonces, si tenemos una lista de elementos y queremos convertirla en un heap, lo que hacemos es tomar el vector y suponemos que tenemos un heap con un solo elemento (ignoramos el resto de elementos del vector). Luego vamos aumentando el tamaño del heap y aplicándole *SIFT UP* a cada nuevo elemento. Esta operación se llama **HEAPIFY.**
+Entonces, si tenemos una lista de elementos y queremos convertirla en un heap, lo que hacemos es tomar el vector y suponemos que tenemos un heap con un solo elemento (ignoramos el resto de elementos del vector). Luego vamos aumentando el tamaño del heap y aplicándole *sift up* a cada nuevo elemento. Esta operación se llama **heapify.**
 
 Este algoritmo tiene complejidad $n \log n$
 
-Este algoritmo crea un heap a partir del conjunto de valores inicial, sin usar memoria auxiliar. Este tipo de algoritmos se denomina **IN-PLACE**.
+Este algoritmo crea un heap a partir del conjunto de valores inicial, sin usar memoria auxiliar. Este tipo de algoritmos se denomina **in-place**.
 
-Otra forma de hacer un heapify, es partir del último elemento del vector y aplicar *SIFT DOWN* a todos los elementos hasta llegar al inicio.
+Otra forma de hacer un heapify, es partir del último elemento del vector y aplicar *sift down* a todos los elementos hasta llegar al inicio.
 
 ### Heap Sort
 
-Es un algoritmo de ordenamiento que se aprovecha de la construcción de un heap. Para esto, primero aplicamos **HEAPIFY** en el vector. Luego, retiramos la raíz sucesivamente hasta que nos quedemos sin elementos. Así obtenemos un algoritmo de ordenamiento $n \log n$.
+Es un algoritmo de ordenamiento que se aprovecha de la construcción de un heap. Para esto, primero aplicamos heapify en el vector. Luego, retiramos la raíz sucesivamente hasta que nos quedemos sin elementos. Así obtenemos un algoritmo de ordenamiento $n \log n$.
 
 Podemos almacenar los números eliminados del heap al final del arreglo, de esta forma no usamos memoria adicional.
