@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Álgebra II/Álgebra II.pdf"
+                "file": "Álgebra II/Formas Cuadráticas.pdf"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Álgebra II/Álgebra II.pdf"
+                "file": "Álgebra II/Formas Cuadráticas.pdf"
               }
             }
           },
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Álgebra II/Álgebra II.pdf",
+                "file": "Álgebra II/Formas Cuadráticas.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Álgebra II/Álgebra II.pdf",
+                "file": "Álgebra II/Formas Cuadráticas.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,12 +157,13 @@
   },
   "active": "f6c9c20f2228edef",
   "lastOpenFiles": [
-    "Álgebra II/Álgebra II.md",
+    "Álgebra II/Formas Cuadráticas.md",
+    "Álgebra II/Formas Cuadráticas.pdf",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Autovalores y Autovectores.md",
+    "Álgebra II/Álgebra II.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.md",
     "Matemática Discreta/Álgebra de Boole.md",
-    "Álgebra II/Formas Cuadráticas.md",
     "Álgebra II/Operaciones entre Subespacios.md",
     "Álgebra II/Ecuaciones Diferenciales Ordinarias.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
