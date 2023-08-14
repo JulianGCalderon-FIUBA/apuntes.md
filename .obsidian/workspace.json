@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Álgebra II/Producto Interno.md",
-                "mode": "source",
-                "source": false
+                "file": "Álgebra II/Subespacios.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Álgebra II/Producto Interno.md"
+                "file": "Álgebra II/Subespacios.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Álgebra II/Producto Interno.md",
+                "file": "Álgebra II/Subespacios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Álgebra II/Producto Interno.md",
+                "file": "Álgebra II/Subespacios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,6 +159,11 @@
   },
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
+    "Álgebra II/Subespacios de Matriz.md",
+    "Álgebra II/Transformaciones Lineales.md",
+    "Álgebra II/Subespacios.md",
+    "Álgebra II/Sistemas de E D Homogéneas.md",
+    "Álgebra II/Producto Interno.md",
     "Álgebra II/Ortogonalidad.md",
     "Álgebra II/Operaciones entre Subespacios.md",
     "Álgebra II/Método de Gram-Schmidt.md",
@@ -182,11 +187,6 @@
     "Modelos y Optimización I/Variables Enteras.md",
     "Análisis de la Información/Técnicas de Descubrimiento de Requisitos.md",
     "Análisis de la Información/Técnicas de Análisis, Modelado y Especificación.md",
-    "Análisis de la Información/Taller de Análisis de Interesados.md",
-    "Matemática Discreta/Subconjuntos de Vertices y Aristas.md",
-    "Física I/Sistema de partículas.md",
-    "Modelos y Optimización I/Resolución de PLE.md",
-    "Análisis de la Información/Requisitos en Contexto.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",

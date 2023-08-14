@@ -16,7 +16,7 @@ Si un conjunto ortogonal no contiene el vector nulo, entonces este conjunto es l
 
 ## Complemento Ortogonal
 
-Sea $A \subset \Bbb V,\ A \neq \emptyset$, se llama **complemento ortogonal de** $A$, al conjunto $A^\perp$ formado por todos los vectores de $\Bbb V$ que son ortogonales a cada elemento de $A$.
+Sea $A \subset \Bbb V,\ A \neq \emptyset$, se llama **complemento ortogonal de $A$,** al conjunto $A^\perp$ formado por todos los vectores de $\Bbb V$ que son ortogonales a cada elemento de $A$.
 
 - $A^\perp$ es un subespacio de $\Bbb V$
 - $\{0_{\Bbb V}\}^\perp = \Bbb V$

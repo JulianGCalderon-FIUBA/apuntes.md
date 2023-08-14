@@ -1,6 +1,6 @@
 ## Definición
 
-Si $\Bbb V$ es un $\Bbb K$-espacio vectorial, se dice que una función $\langle *,* \rangle: \Bbb V \times \Bbb V \to \Bbb K$ es un producto interno **(P.I.),** si cumple:
+Si $\Bbb V$ es un $\Bbb K$-espacio vectorial, se dice que una función $\langle *,* \rangle: \Bbb V \times \Bbb V \to \Bbb K$ es un producto interno **(P.I.)** si cumple:
 
 - $\langle \alpha u + \beta v, w\rangle = \alpha \langle u, w\rangle + \beta \langle v, w\rangle \impliedby \forall u,v,w \in \Bbb V \ \land\  \forall \alpha, \beta \in \Bbb K$
 - $\langle u,v\rangle = \overline{\langle v,u\rangle } \impliedby \forall u,v \in V \text{Conjugado}$
@@ -47,7 +47,7 @@ $$
 
 ### Ejemplos Básicos
 
-- **Producto Interno canónico en** $\mathbb{R}^n$, Se cumple la siguiente igualdad para $X, Y \in \mathbb{R}^n$
+- **Producto Interno canónico en $\mathbb{R}^n$:** Se cumple la siguiente igualdad para $X, Y \in \mathbb{R}^n$
 
 	$$
     \langle X,Y\rangle = Y^TX
@@ -86,7 +86,7 @@ $$
 
 ## Base de Producto Interno
 
-Si $\Bbb V$ es un espacio vectorial de dimensión finita, todo **P.I.** queda definido sobre una base de $\Bbb V$. Más aún, si $B = \{v_1,...,v_n\}$ todo **P.I**. puede escribirse como:
+Si $\Bbb V$ es un espacio vectorial de dimensión finita, todo **P.I.** queda definido sobre una base de $\Bbb V$. Más aún, si $B = \{v_1,...,v_n\}$ todo **P.I.** puede escribirse como:
 
 $$
 \langle u,v\rangle = \overline{[v]^B}^T G_B[u]^B = [u]^{B^T}G_B\overline{[v]^B}
@@ -140,7 +140,7 @@ $$
 
 ### Ángulo entre $u, v$:
 
-Como consecuencia la desigualdad de *Cauchy-Bunyakovsky-Schwarz*, llegamos a la siguiente expresión
+Como consecuencia la desigualdad de *Cauchy-Bunyakovsky-Schwarz,* llegamos a la siguiente expresión
 
 $$
 -1 \leq \frac{\langle u,v \rangle}{\|u\| \|v\|}\leq 1

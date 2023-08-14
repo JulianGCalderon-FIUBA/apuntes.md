@@ -9,7 +9,7 @@ Primero, algunas definiciones sobre matrices:
 Para matrices complejas, tenemos que;
 
 - **Matrices Herméticas** $\to A^* = A$, donde $A^*$ representa la matriz adjunta (transpuesta y conjugada)
-- **Matrices Unitarias**$\to A A^* = A^* A = I$
+- **Matrices Unitarias** $\to A A^* = A^* A = I$
 - **Matrices Anti Herméticas** $\to A^* = -A$
 
 ## Matrices Normales
