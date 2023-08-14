@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
+                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md"
+                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
+                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
+                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,18 +159,19 @@
   },
   "active": "114c3278ee40296f",
   "lastOpenFiles": [
+    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Computer Networks and the Internet.md",
+    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Delay, Loss, and Throughput in Packet-Switched N.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+    "Sistemas Operativos/API de Threads.md",
+    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
     "Indice.md",
     "Sistemas Operativos/API de Memoria.md",
-    "Sistemas Operativos/API de Threads.md",
     "Introducción a Sistemas Distribuidos/Clases Practicas.md",
     "Matemática Discreta/Clasificaciones.md",
     "Matemática Discreta/Álgebra de Conjuntos.md",
     "Matemática Discreta/Álgebra de Boole.md",
     "Matemática Discreta/Alfabeto.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
-    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Delay, Loss, and Throughput in Packet-Switched N.md",
-    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Computer Networks and the Internet.md",
     "Algoritmos II/Punteros.md",
     "Álgebra II/Matrices Normales.md",
     "Sistemas Operativos/Locks.md",
@@ -182,7 +183,6 @@
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/The Network Core.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md",
-    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
     "Análisis de la Información/PSA.md",
     "Análisis de la Información/Interfaces de Usuario.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
