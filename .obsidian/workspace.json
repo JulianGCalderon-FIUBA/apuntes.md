@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis de la Información/Requisitos en Contexto.md",
+                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis de la Información/Requisitos en Contexto.md"
+                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis de la Información/Requisitos en Contexto.md",
+                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis de la Información/Requisitos en Contexto.md",
+                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,32 +159,32 @@
   },
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
+    "Introducción a Sistemas Distribuidos/Clases Practicas.md",
+    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
+    "Análisis Numérico/Refinamiento Iterativo.md",
+    "Análisis Numérico/Punto Flotante.md",
+    "Análisis Numérico/Polinomio de Lagrange y Newton.md",
+    "Análisis Numérico/Polinomio de Hermite.md",
+    "Análisis Numérico/Newton-Raphson.md",
+    "Análisis Numérico/Iteración en un Punto Fijo.md",
+    "Análisis Numérico/Errores.md",
+    "Análisis Numérico/Descomposición LU.md",
+    "Análisis Numérico/Bisección.md",
+    "Análisis Matemático II/Curvas y superficies.md",
+    "Análisis Matemático II/Cuádricas.md",
+    "Análisis Matemático II/Cónicas.md",
+    "Análisis de la Información/Web Rest API.md",
+    "Análisis de la Información/Verificar y Validar requerimientos.md",
+    "Análisis de la Información/Técnicas de Descubrimiento de Requisitos.md",
+    "Análisis de la Información/Técnicas de Análisis, Modelado y Especificación.md",
+    "Análisis de la Información/Taller de Análisis de Interesados.md",
+    "Análisis de la Información/Requisitos en Contexto.md",
     "Análisis de la Información/Requirement Specification vs User Stories.md",
     "Análisis de la Información/PSA.md",
     "Análisis de la Información/Prototipado y Experiencia de Usuario.md",
     "Análisis de la Información/Modelos en la ingeniería de software.md",
     "Análisis de la Información/Modelados de Dominio.md",
     "Análisis de la Información/Introducción al Diseño de Software.md",
-    "Análisis de la Información/Introducción a la Ingeniería de Software.md",
-    "Análisis de la Información/Interfaces de Usuario.md",
-    "Análisis de la Información/Innovación y Creatividad.md",
-    "Análisis de la Información/Ingeniería de Requisitos.md",
-    "Análisis de la Información/Historias de Usuario.md",
-    "Análisis de la Información/Historias de Dominio.md",
-    "Análisis de la Información/Gherkin.md",
-    "Análisis de la Información/Diseño de Datos.md",
-    "Análisis de la Información/Design Thinking.md",
-    "Análisis de la Información/Casos de Uso.md",
-    "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
-    "Análisis de la Información/Arquitectura del Software.md",
-    "Análisis de la Información/Análisis de la Información.md",
-    "Algoritmos II/TDA.md",
-    "Algoritmos II/Recursividad.md",
-    "Algoritmos II/Punteros.md",
-    "Algoritmos II/Pilas, Colas y Listas.md",
-    "Algoritmos II/Memoria.md",
-    "Algoritmos II/Iteradores de Lista.md",
-    "Algoritmos II/Grafos.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

@@ -1,7 +1,7 @@
 ## Stakeholders según PMBOK
 
 - **Project Manager:** La persona responsable por la gestión del proyecto.
-- **Cliente/Usuario:** Individuo u organización que va va a utilizar producto.
+- **Cliente/Usuario:** Individuo u organización que va a utilizar producto.
 - **Organización Ejecutante:** Empresa cuyos empleados están directamente involucrados en la ejecución del proyecto.
 - **Miembros del equipo:** El grupo de gente ejecutando las tareas del proyecto.
 - **Sponsor:** Individuo o grupo que provee los recursos financieros para la ejecución del proyecto.

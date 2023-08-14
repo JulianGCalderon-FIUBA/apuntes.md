@@ -1,10 +1,10 @@
-Para armar modelos de vista, el **frontend** interactúa con la *API*. Luego devuelve estos modelos para que el navegador lo renderice. Estos pedidos se realizan a través de un request *HTTP*. La respuesta suele estar en formato *JSON,* el cual es utilizado para armar las vistas.
+Para armar modelos de vista, el **frontend** interactúa con la API. Luego devuelve estos modelos para que el navegador lo renderice. Estos pedidos se realizan a través de un request HTTP. La respuesta suele estar en formato JSON, el cual es utilizado para armar las vistas.
 
-Para el **backend**, se suele utilizar *java* con *Spring Boot,* este es un framework de *java* utilizada para múltiples cosas, entre ellas aplicaciones web. Para la base de datos, existen distintos motores (*MySQL*)
+Para el **backend**, se suele utilizar Java con Spring Boot, este es un *framework* de Java utilizada para múltiples cosas, entre ellas aplicaciones web. Para la base de datos, existen distintos motores (MySQL)
 
-Para el frontend, utilizaremos principalmente *React,* el cual se puede ejecutar tanto en la nube como en la web. (*Azure*, *Google Cloud*, *GitHub*).
+Para el frontend, utilizaremos principalmente React, el cual se puede ejecutar tanto en la nube como en la web. (Azure, Google Cloud, GitHub).
 
-Nuestro código estará almacenado en un repositorio en la nube, *GitHub*, *GitLab*, *Bitbucket*. Para verificar que nuestros cambios cumplan lo esperado, hay distintos servidores para automatización e integración continua.
+Nuestro código estará almacenado en un repositorio en la nube, GitHub, GitLab, Bitbucket. Para verificar que nuestros cambios cumplan lo esperado, hay distintos servidores para automatización e integración continua.
 
 ## Backend
 
