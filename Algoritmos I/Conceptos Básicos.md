@@ -57,9 +57,8 @@ printf("%i", numero); //9
 
 ### Operadores
 
-`&`: Devuelve la dirección en la que se encuentra una variable.
-
-`*`: Devuelve el valor al que apunta un puntero
+- `&`: Devuelve la dirección en la que se encuentra una variable.
+- `*`: Devuelve el valor al que apunta un puntero
 
 ## Vectores
 
@@ -143,13 +142,12 @@ int strcmp(char cadena1[], char cadena2[]);
 
 #### Imprimir cadenas:
 
-`printf("%s", cadena);`
+- `printf("%s", cadena);`
 
 #### Leer Cadenas
 
-`scanf("%s", &cadena);` Lee hasta el primer espacio o `\n`
-
-`scanf("%s[^\n]", cadena);` Lee hasta el primer `\n`
+- `scanf("%s", &cadena);` Lee hasta el primer espacio o `\n`
+- `scanf("%s[^\n]", cadena);` Lee hasta el primer `\n`
 
 ## Registros
 
@@ -173,6 +171,6 @@ reg.dia = 16;
 reg.mes = 5;
 
 fecha_t *ptr = &reg;
-ptr->anio = 2002;
-//(*ptr).anio = 2002;
+ptr->año = 2002;
+//(*ptr).año = 2002;
 ```
