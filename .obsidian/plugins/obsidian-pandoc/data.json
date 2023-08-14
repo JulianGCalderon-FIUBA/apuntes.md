@@ -10,6 +10,6 @@
   "pandoc": null,
   "pdflatex": null,
   "outputFolder": null,
-  "extraArguments": "--shift-heading-level-by=-1\n",
+  "extraArguments": "--shift-heading-level-by=-1 --listings\n",
   "exportFrom": "md"
 }
