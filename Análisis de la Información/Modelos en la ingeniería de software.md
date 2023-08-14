@@ -29,7 +29,7 @@ Surge de mezclar las notaciones más populares de la época. Es un lenguaje grá
 Tiene como propósito representar la arquitectura del software. Propone una estructura de diagramas en niveles.
 
 1. **Diagrama de Contexto:** Muestra el medio ambiente en el cual funcionará el sistema.
-2. ***Diagrama de Contenedores:*** Busca separar el sistema en distintas aplicaciones, cada una con funcionalidad específica.
+2. **Diagrama de Contenedores:** Busca separar el sistema en distintas aplicaciones, cada una con funcionalidad específica.
 3. ***Diagrama de Componentes:*** Muestra cada contenedor en particular, describe la implementación del componente
 4. ***Diagrama de Código:*** Si es necesario, busca representar el código que forma parte un componente.
 

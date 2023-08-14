@@ -66,9 +66,9 @@ Las asociaciones de **composición y agregación** permiten modelar relaciones d
 
 Las **asociaciones calificadas** permiten distinguir un grupo de instancias en uno de los extremos mediante un calificador. Por ejemplo: Todas las materias pertenecientes al mismo departamento se identifican con el código del departamento.
 
-Muchas veces, queremos establecer generalizaciones y especializaciones. Definimos aspectos **comunes** (superclase) ***y aspectos ***particulares*** (subclase). Es necesario cuando la subclase tiene atributos o asociaciones adicionales a los de la superclase
+Muchas veces, queremos establecer generalizaciones y especializaciones. Definimos aspectos **comunes** (superclase) y aspectos **particulares** (subclase). Es necesario cuando la subclase tiene atributos o asociaciones adicionales a los de la superclase
 
-Un ***rol*** en uno de los extremos de una asociación describe el papel que juega el objeto en la relación. No son obligatorios, pero pueden ayudar a entender mejor la relación entre los objetos.
+Un **rol** en uno de los extremos de una asociación describe el papel que juega el objeto en la relación. No son obligatorios, pero pueden ayudar a entender mejor la relación entre los objetos.
 
 Para encontrar asociaciones podemos utilizar una lista de categorías predefinidas.
 
@@ -122,6 +122,6 @@ Existen distintas comunidades, con distintas perspectivas del modelado de datos 
 
 - **Diseño de base de datos:** Trabajan en el espacio de la solución y están preocupados por el modelo lógico de la base de datos
 - **Modelado conceptual**: Trabajan en el espacio del problema, los datos son activos en la organización. Están preocupados por la arquitectura de los datos, independientemente de la tecnología.
-- ***Modelado de objetos:*** Más cerca del espacio de la solución. Todo es un objeto
+- **Modelado de objetos:** Más cerca del espacio de la solución. Todo es un objeto
 
 UML se puede utilizar para modelar en las tres situaciones, con algunas salvedades en cuanto a la notación. En determinados contextos el modelado entre distintas perspectivas es importante. El modelado de dominio es equivalente al modelo conceptual de datos.

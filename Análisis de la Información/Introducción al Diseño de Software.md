@@ -9,8 +9,8 @@ El diseño del software es el proceso mediante el cual definimos la arquitectura
 
 Existen dos caminos posibles:
 
-- ***Modelado ágil:*** Los modelos son informales y no se mantienen.
-- ***Ing. de Software Basada en Modelos:*** Tiene que ver con desarrollar modelos y evolucionarlos hasta transformarlos en la solución. Esta técnica es relativamente popular en determinados segmentos (no todos).
+- **Modelado ágil:** Los modelos son informales y no se mantienen.
+- **Ing. de Software Basada en Modelos:** Tiene que ver con desarrollar modelos y evolucionarlos hasta transformarlos en la solución. Esta técnica es relativamente popular en determinados segmentos (no todos).
 
 ## De Requisitos al Diseño a la Construcción
 
@@ -21,10 +21,10 @@ Se comienza diseñar durante la etapa de requerimientos, solapando ambas activid
 A partir de los requisitos, debemos definir:
 
 - **Arquitectura:** Organización general y estructura de la solución
-- ***Componentes:*** Algoritmos a utilizar, estructuras de datos internas, clases, métodos, criterio
-- ***Interfaces:*** Interacción con el usuario, diálogo.
-- ***Datos:*** Archivo, base de datos
-- ***Colaboración:*** Componentes que interactúan para implementar el comportamiento identificado.
+- **Componentes:** Algoritmos a utilizar, estructuras de datos internas, clases, métodos, criterio
+- **Interfaces:** Interacción con el usuario, diálogo.
+- **Datos:** Archivo, base de datos
+- **Colaboración:** Componentes que interactúan para implementar el comportamiento identificado.
 
 La transición entre los requisitos y el diseño son difíciles.
 
@@ -36,7 +36,7 @@ A lo largo de la carrera, vimos múltiples principios de clásicos del diseño:
 
 Principios clásicos del desarrollo
 
-Desarrollar grandes productos no es lo mismo que los pequeños proyectos. Los principios ***son*** importantes.
+Desarrollar grandes productos no es lo mismo que los pequeños proyectos. Los principios son importantes.
 
 ![[Introduccion al Diseño de Software 3.png|500]]
 
@@ -94,7 +94,7 @@ Se publica un evento en una cola de eventos. Del otro lado, tendremos componente
 
 ![[Introduccion al Diseño de Software 8.png|500]]
 
-A través de una ***API***, se accede a lógica que está en una capa más abajo.
+A través de una **API**, se accede a lógica que está en una capa más abajo.
 
 ### Arquitectura Corporativa
 
