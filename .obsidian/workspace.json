@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática Discreta/Alfabeto.md",
+                "file": "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/\\*{1}.*?\\*{1}",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática Discreta/Alfabeto.md"
+                "file": "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md"
               }
             }
           },
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática Discreta/Alfabeto.md",
+                "file": "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática Discreta/Alfabeto.md",
+                "file": "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,8 +157,16 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "178700d707526f5b",
+  "active": "114c3278ee40296f",
   "lastOpenFiles": [
+    "Indice.md",
+    "Sistemas Operativos/API de Memoria.md",
+    "Sistemas Operativos/API de Threads.md",
+    "Introducción a Sistemas Distribuidos/Clases Practicas.md",
+    "Matemática Discreta/Clasificaciones.md",
+    "Matemática Discreta/Álgebra de Conjuntos.md",
+    "Matemática Discreta/Álgebra de Boole.md",
+    "Matemática Discreta/Alfabeto.md",
     "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Delay, Loss, and Throughput in Packet-Switched N.md",
@@ -171,7 +178,6 @@
     "Probabilidad y Estadistica/Probabilidad.md",
     "Estructura del Computador/Micro Arquitectura.md",
     "Física I/Energía en Ondas.md",
-    "Sistemas Operativos/API de Memoria.md",
     "Algoritmos II/Algoritmos de Grafos.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/The Network Core.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
@@ -179,13 +185,6 @@
     "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
     "Análisis de la Información/PSA.md",
     "Análisis de la Información/Interfaces de Usuario.md",
-    "Análisis de la Información/Innovación y Creatividad.md",
-    "Análisis de la Información/Ingeniería de Requisitos.md",
-    "Análisis de la Información/Gherkin.md",
-    "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
-    "Análisis de la Información/Arquitectura del Software.md",
-    "Análisis de la Información/Análisis de la Información.md",
-    "Algoritmos II/Análisis de Algoritmos.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",

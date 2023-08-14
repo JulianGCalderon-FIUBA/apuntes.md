@@ -26,13 +26,13 @@ A partir de los axiomas, podemos demostrar el resto de propiedades del algebra d
 5. Idempotencia: $x+x = x, xx=x$
 6. Absorción: $x + xy = x, x(x+y)=x$
 
-Decimos que un álgebra de ***Boole*** tiene definido un orden natural cuando $x\leq y \iff xy = x$
+Decimos que un álgebra de *Boole* tiene definido un orden natural cuando $x\leq y \iff xy = x$
 
 ## Pruebas de Unicidad
 
 Las pruebas de unicidad se suelen demostrar de la misma forma. Se supone que no hay unicidad y se elaboran las expresiones hasta llegar a que estos dos valores son el mismo.
 
-Cuando demostramos algo en el álgebra de ***Boole***, podemos inmediatamente asumir que su dual es válido también. Esto se debe a que todos los axiomas son duales, si se intercambia $0_B$ por $1_B$ y $\cdot$ por $+$, entonces la expresión sigue siendo completamente válida.
+Cuando demostramos algo en el álgebra de *Boole*, podemos inmediatamente asumir que su dual es válido también. Esto se debe a que todos los axiomas son duales, si se intercambia $0_B$ por $1_B$ y $\cdot$ por $+$, entonces la expresión sigue siendo completamente válida.
 
 ## Pruebas de equivalencia
 
@@ -40,7 +40,7 @@ Se parte de una de las expresiones de la igualdad y, aplicando axiomas y propied
 
 ## Átomos
 
-En el álgebra de ***Boole***, se llama *átomo* a los sucesores inmediatos del $O_B$. En otras palabras, $a \neq 0_B$ es un ***átomo*** si y sólo si
+En el álgebra de *Boole*, se llama *átomo* a los sucesores inmediatos del $O_B$. En otras palabras, $a \neq 0_B$ es un átomo si y sólo si
 
 $$
 \forall x \in B, \quad ax = b \implies x=a \lor x=0_B
