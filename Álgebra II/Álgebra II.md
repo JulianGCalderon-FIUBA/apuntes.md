@@ -1,4 +1,6 @@
-- [[Espacios Vectoriales]]
+![[Espacios Vectoriales]]
+
+
 - [[Subespacios]]
 - [[Coordenadas]]
 - [[Subespacios de Matriz]]

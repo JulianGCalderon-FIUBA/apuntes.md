@@ -11,11 +11,9 @@
             "id": "f6c9c20f2228edef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Álgebra II/Autovalores y Autovectores.md",
-                "mode": "source",
-                "source": false
+                "file": "Álgebra II/Álgebra II.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Álgebra II/Autovalores y Autovectores.md"
+                "file": "Álgebra II/Álgebra II.pdf"
               }
             }
           },
@@ -95,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Álgebra II/Autovalores y Autovectores.md",
+                "file": "Álgebra II/Álgebra II.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Álgebra II/Autovalores y Autovectores.md",
+                "file": "Álgebra II/Álgebra II.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,8 +158,9 @@
   "active": "f6c9c20f2228edef",
   "lastOpenFiles": [
     "Álgebra II/Álgebra II.md",
-    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
+    "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Autovalores y Autovectores.md",
+    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
     "Matemática Discreta/Álgebra de Boole.md",
     "Álgebra II/Formas Cuadráticas.md",
     "Álgebra II/Operaciones entre Subespacios.md",
@@ -184,7 +183,6 @@
     "Organizacion de Datos/Redes Recurrentes.md",
     "Organizacion de Datos/Redes Neuronales.md",
     "Organizacion de Datos/Redes de Aprendizaje Profundo.md",
-    "Análisis de la Información/PSA.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",
