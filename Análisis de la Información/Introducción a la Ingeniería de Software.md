@@ -6,9 +6,6 @@
 
 La ingeniería de software es una ingeniería de cosas abstractas, trabajamos con cosas que no existen en el mundo ideal.
 
-> [!Reference] Title
-> Contents
-
 ## Diferencias con la Ingeniería Tradicional
 
 - Trabaja con un producto intangible

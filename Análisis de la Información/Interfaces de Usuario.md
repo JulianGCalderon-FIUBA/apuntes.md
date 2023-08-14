@@ -34,7 +34,7 @@ Tendremos un proceso de 4 etapas dinámicas:
 1. **Plan:** Conceptualización, definición, alcance del proyecto.
 2. **Diseño / Flujo de Trabajo:** ¿Cómo se va a ver la aplicación?
 
-	Podremos realizar bosquejos con workflows, y wireframes. En un workflow, no hay diseño, solo buscamos mostrar el flujo del usuario y el contenido mínimo, la navegabilidad.
+	Podremos realizar bosquejos con *workflows*, y *wireframes*. En un *workflow*, no hay diseño, solo buscamos mostrar el flujo del usuario y el contenido mínimo, la navegabilidad.
 
 	Las pruebas de usuario permiten a los usuarios verificar el flujo de la aplicación. Podremos ver como intenta realizar una acción un usuario, qué información busca
 
