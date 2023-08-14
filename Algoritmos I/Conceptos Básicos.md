@@ -13,7 +13,7 @@ Algunas prácticas recomendadas son:
 - Usar una sola palabra para cada concepto.
 - Definir todo en **snake_case.**
 - Constantes en **MAYUSCULA.**
-- Escribir **pre-post** condiciones para cada función.
+- Escribir pre-post condiciones para cada función.
 
 ## Modulación
 
@@ -35,9 +35,8 @@ El **ámbito** de una función es el espacio de memoria que puede acceder. Cada 
 
 ### Pasaje
 
-Algunos tipos de datos se pasan por valor, `(char, int, float)`.
-
-Otros se pasan por referencia `(vectores, matrices)`
+- Algunos tipos de datos se pasan por valor, `(char, int, float)`.
+- Otros se pasan por referencia `(vectores, matrices)`
 
 ## Punteros
 

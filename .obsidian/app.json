@@ -20,6 +20,9 @@
     "upla",
     "diagonalizar",
     "semidefinidas",
-    "diagonalizables"
+    "diagonalizables",
+    "codominio",
+    "preimagen",
+    "sobreyectiva"
   ]
 }

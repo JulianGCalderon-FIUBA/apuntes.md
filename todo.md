@@ -1,4 +1,4 @@
-- [ ] Álgebra II
+- [x] Álgebra II
 - [ ] Algoritmos I
 - [ ] Algoritmos II
 - [ ] Análisis de la Información

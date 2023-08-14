@@ -17,7 +17,7 @@ $$
 > [!question] ¿Cómo pruebo que dos conjuntos generan el mismo subespacio?
 > Se debe demostrar la doble inclusión, es decir, se deben poder formar los elementos del generador de $S_1$ a partir de los elementos de $S_2$ y viceversa. $S \subseteq T, T\subseteq S$
 
-> [!question] ¿Cómo demuestro que dos conjuntos generan un espacio vectorial?**
+> [!question] ¿Cómo demuestro que dos conjuntos generan un espacio vectorial?
 > Para esto, tengo que buscar la expresión más general del espacio vectorial, y verificar que el sistema sea compatible para todos los casos
 
 ## Independencia Lineal
@@ -30,7 +30,7 @@ $$
 \sum_{i = 1}^n \lambda_iv_i = 0 \implies \lambda_i = 0\,\forall\,i
 $$
 
-Se dice que un generador es una **base** si es linealmente independiente. Todas las bases de $S$ tienen la misma cantidad de elementos**.** A la cantidad de elementos de la base de se le llama dimensión de $S$.
+Se dice que un generador es una **base** si es linealmente independiente. Todas las bases de $S$ tienen la misma cantidad de elementos. A la cantidad de elementos de la base de se le llama dimensión de $S$.
 
 El subespacio nulo $\{\Bbb O_{\Bbb V}\}$ tiene dimensión 0, no tiene base.
 

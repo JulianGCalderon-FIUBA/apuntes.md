@@ -42,11 +42,13 @@ Sea $T: \Bbb V \to \Bbb W$ una transformación lineal, siendo $\Bbb V$ y $\Bbb W
 - Si $U \subset \Bbb W$, entonces $T^{-1}(U) \subset \Bbb V$
 - Toda T.L. queda unívocamente determinada sobre una base.
 
-**Teorema:** (Dimensión de subespacios fundamentales de una transformación lineal) Si $\Bbb V$ es un espacio vectorial de dimensión finita y $T: \Bbb V \to \Bbb W$, entonces:
-
-$$
-\text{dim}(Nu(T)) + \text{dim}(Im(T)) = \text{dim}(\Bbb V)
-$$
+> [!theorem] Dimensión de subespacios fundamentales es una transformación lineal
+> 
+> Si $\Bbb V$ es un espacio vectorial de dimensión finita y $T: \Bbb V \to \Bbb W$, entonces:
+> 
+> $$
+> \text{dim}(Nu(T)) + \text{dim}(Im(T)) = \text{dim}(\Bbb V)
+> $$
 
 ## Clasificación
 
