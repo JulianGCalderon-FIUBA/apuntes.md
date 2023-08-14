@@ -40,7 +40,7 @@ Para encontrar estos elementos, primero buscamos $\lambda$ tal que $\text{det}(\
 
 Definimos el **polinomio característico** de $A$ de grado $n$, $P_A(\lambda) = \text{det}(\lambda I - A)$.
 
-Se le denomina **multiplicidad algebraica** de $\lambda_0$ a la multiplicidad de $\lambda_0$ como raíz del polinomio característico.
+Se le denomina **multiplicidad algebraica** de $\lambda_0$ a la m ultiplicidad de $\lambda_0$ como raíz del polinomio característico.
 
 Se le denomina **multiplicidad geométrica** de $\lambda_0$ a la dimensión del autoespacio asociado.
 
