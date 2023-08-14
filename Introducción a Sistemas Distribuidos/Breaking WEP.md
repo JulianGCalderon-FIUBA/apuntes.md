@@ -1,11 +1,3 @@
----
-title: Breaking WEP
-author: Julián González Calderón
-toc: true
-listings: true
----
-
-
 ## ¿Qué es WEP?
 
 El sistema ***WEP*** es un sistema de cifrado opcional incluido en el estándar ***IEEE 802.11, edición 1999.*** Para proteger la confidencialidad de los datos intercambiados a través de un medio compartido.
