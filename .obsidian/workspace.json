@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática Discreta/Alfabeto.md",
+                "file": "Análisis Matemático II/Integrales Triples.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/\\*..*?\\*",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática Discreta/Alfabeto.md"
+                "file": "Análisis Matemático II/Integrales Triples.md"
               }
             }
           },
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática Discreta/Alfabeto.md",
+                "file": "Análisis Matemático II/Integrales Triples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática Discreta/Alfabeto.md",
+                "file": "Análisis Matemático II/Integrales Triples.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,8 +157,22 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "178700d707526f5b",
+  "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
+    "Análisis Matemático II/Límites.md",
+    "Análisis Matemático II/Métodos de resolución.md",
+    "Análisis Matemático II/Polinomio de Taylor.md",
+    "Análisis Matemático II/Propiedades de la diferenciabilidad.md",
+    "Análisis Matemático II/Rectas y Planos.md",
+    "Análisis Matemático II/Teoremas Integrales.md",
+    "Análisis Matemático II/Topología.md",
+    "Análisis Matemático II/Curvas y superficies.md",
+    "Análisis Matemático II/Cuádricas.md",
+    "Análisis Matemático II/Cónicas.md",
+    "Álgebra II/Autovalores y Autovectores.md",
+    "Álgebra II/Álgebra II.md",
+    "Matemática Discreta/Caminos y Distancias.md",
+    "Matemática Discreta/Alfabeto.md",
     "Física II/Fuerza Magnética.md",
     "Física II/Ecuaciones de Maxwell.md",
     "Sistemas Operativos/API de Threads.md",
@@ -172,20 +185,6 @@
     "Matemática Discreta/Grafos Orientados.md",
     "Matemática Discreta/Ecuaciones de Recurrencia.md",
     "Matemática Discreta/Clasificaciones.md",
-    "Matemática Discreta/Caminos y Distancias.md",
-    "Matemática Discreta/Algoritmos.md",
-    "Matemática Discreta/Álgebra de Conjuntos.md",
-    "Matemática Discreta/Álgebra de Boole.md",
-    "Matemática Discreta/Alfabeto.md",
-    "Introducción a Sistemas Distribuidos/Clases Practicas.md",
-    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
-    "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
-    "Análisis Numérico/Refinamiento Iterativo.md",
-    "Análisis Numérico/Punto Flotante.md",
-    "Análisis Numérico/Polinomio de Lagrange y Newton.md",
-    "Análisis Numérico/Polinomio de Hermite.md",
-    "Análisis Numérico/Newton-Raphson.md",
-    "Análisis Numérico/Iteración en un Punto Fijo.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

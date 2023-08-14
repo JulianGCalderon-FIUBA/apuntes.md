@@ -6,7 +6,7 @@
 ## Rectas en $\mathbb{R}^3$
 
 - **Paramétrica:** $(x,y,z)=\lambda(d_1,d_2,d_3)+(p_1,p_2,p_3)$
-- **Implícita:** $\begin{cases}ax+by+cz+d=0 \\ ex+fy+gz+h=0\end{cases}$ (*Intersección de 2 planos*)
+- **Implícita:** $\begin{cases}ax+by+cz+d=0 \\ ex+fy+gz+h=0\end{cases}$ (Intersección de 2 planos)
 
 ## Planos en $\mathbb{R}^3$
 
