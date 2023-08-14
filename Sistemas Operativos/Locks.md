@@ -64,7 +64,7 @@ Esta instrucción se puede utilizar para construir un ***ticket lock***. Cuando 
 
 Este enfoque permite cumplir el segundo criterio, se garantiza que todos los ***threads*** van a obtener el ***lock*** eventualmente.
 
-## Simple Approach: **Yield**
+## Simple Approach: *Yield*
 
 El concepto detrás de este enfoque es simple: Cuando un proceso va a hacer un ***spin***, en su lugar delega el control del procesador. Este enfoque aún tiene la desventaja de que se gasta procesamiento de igual forma, cuando se realiza un ***yield***.
 

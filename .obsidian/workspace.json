@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas Operativos/API de Memoria.md",
+                "file": "Matemática Discreta/Alfabeto.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,8 +48,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/^#+ .*\\*.*",
-                "matchingCase": false,
+                "query": "/\\*{1}.*?\\*{1}",
+                "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": true,
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operativos/API de Memoria.md"
+                "file": "Matemática Discreta/Alfabeto.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operativos/API de Memoria.md",
+                "file": "Matemática Discreta/Alfabeto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operativos/API de Memoria.md",
+                "file": "Matemática Discreta/Alfabeto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,13 +158,24 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "114c3278ee40296f",
+  "active": "178700d707526f5b",
   "lastOpenFiles": [
+    "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
+    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Delay, Loss, and Throughput in Packet-Switched N.md",
+    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Computer Networks and the Internet.md",
+    "Algoritmos II/Punteros.md",
+    "Álgebra II/Matrices Normales.md",
+    "Sistemas Operativos/Locks.md",
+    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
+    "Probabilidad y Estadistica/Probabilidad.md",
+    "Estructura del Computador/Micro Arquitectura.md",
+    "Física I/Energía en Ondas.md",
+    "Sistemas Operativos/API de Memoria.md",
     "Algoritmos II/Algoritmos de Grafos.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/The Network Core.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md",
-    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Computer Networks and the Internet.md",
     "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
     "Análisis de la Información/PSA.md",
     "Análisis de la Información/Interfaces de Usuario.md",
@@ -175,17 +186,6 @@
     "Análisis de la Información/Arquitectura del Software.md",
     "Análisis de la Información/Análisis de la Información.md",
     "Algoritmos II/Análisis de Algoritmos.md",
-    "Álgebra II/Coordenadas.md",
-    "Álgebra II/Autovalores y Autovectores.md",
-    "Álgebra II/Álgebra II.md",
-    "Algoritmos II/Recursividad.md",
-    "Algoritmos II/Punteros.md",
-    "Análisis de la Información/Casos de Uso.md",
-    "Algoritmos II/Memoria.md",
-    "Algoritmos II/Iteradores de Lista.md",
-    "Algoritmos II/Árboles Generales.md",
-    "Algoritmos II/Algoritmos II.md",
-    "Álgebra II/Descomposición en Valores Singulares.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",

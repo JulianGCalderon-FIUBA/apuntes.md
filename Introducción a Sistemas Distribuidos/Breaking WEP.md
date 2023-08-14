@@ -93,7 +93,7 @@ Cuando ocurre esto, aseguramos con probabilidad mayor a $e^{-3} \approx 0.05$ qu
 
 Si no se cumple esto, entonces los elementos volverán a participar en intercambios, haciendo que el valor resultante sea efectivamente aleatorio. Esto implica que si repetimos este análisis para muchos valores de escenarios resueltos, entonces el valor más probable será el correcto.
 
-## Detalles del ***Known IV Attack***
+## Detalles del *Known IV Attack*
 
 Debido a como funciona el algoritmo de ***WEP***, únicamente estudiaremos el escenario en el que el vector de inicialización precede a la clave secreta compartida, aunque ambas situaciones son vulnerables al mismo tipo de ataque.
 
