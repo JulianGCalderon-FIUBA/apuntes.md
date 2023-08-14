@@ -1,17 +1,17 @@
 ## Pila
 
-Una pila es una estructura de datos, que agrupa elementos. En la pila, solo podemos leer el último elemento apilado, y no podemos leer el próximo hasta deshacernos de ese. **LIFO $\to$ "Last in, First Out"**
+Una pila es una estructura de datos, que agrupa elementos. En la pila, solo podemos leer el último elemento apilado, y no podemos leer el próximo hasta deshacernos de ese. **LIFO: "Last in, First Out"**
 
 Funciones definidas para el TDA pila
 
-- Crear (create)
-- Apilar (push)
-- Tope (top)
-- Desapilar (pop)
-- Destruir (destroy)
-- Vacía (is_empty)
+- Crear *(create)*
+- Apilar *(push)*
+- Tope *(top)*
+- Desapilar *(pop)*
+- Destruir *(destroy)*
+- Vacía *(is_empty)*
 
-Cada **TDA** tiene un uso particular, no es útil usar una pila si vamos a querer estar accediendo a elementos que no están en la última posición.
+Cada TDA tiene un uso particular, no es útil usar una pila si vamos a querer estar accediendo a elementos que no están en la última posición.
 
 ### Implementación
 
@@ -25,16 +25,16 @@ Hay 3 formas de implementar la pila.
 
 ## Cola
 
-Una cola es una estructura de datos, en la que solo podemos leer el elemento más antiguo, y no podemos leer el próximo hasta deshacernos de ese. **FIFO $\to$ "First in, First Out"**
+Una cola es una estructura de datos, en la que solo podemos leer el elemento más antiguo, y no podemos leer el próximo hasta deshacernos de ese. **FIFO: "First in, First Out"**
 
 Funciones definidas para el TDA pila:
 
-- Crear (create)
-- Encolar (enqueue)
-- Primero (first)
-- Desencolar (dequeue)
-- Destruir (destroy)
-- Vacía (is_empty)
+- Crear *(create)*
+- Encolar *(enqueue)*
+- Primero *(first)*
+- Desencolar *(dequeue)*
+- Destruir *(destroy)*
+- Vacía *(is_empty)*
 
 ### Implementación
 
@@ -50,16 +50,16 @@ Una lista es una estructura de datos, en la que podemos acceder a cualquier elem
 
 Funciones definidas para el TDA lista:
 
-- Crear (create)
-- Insertar (insert_at)
-- Buscar (find)
-- Eliminar (delete_at)
-- Vacia (is_empty)
-- Destruir (destroy
+- Crear *(create)*
+- Insertar *(insert_at)*
+- Buscar *(find)*
+- Eliminar *(delete_at)*
+- Vacía *(is_empty)*
+- Destruir *(destroy*
 
 ### Implementación
 
-Vamos a centrarnos únicamente en la implementación con **nodos**:
+Vamos a centrarnos únicamente en la implementación con nodos:
 
 - **Simplemente Enlazada:** Se mantiene referencia al primer nodo, cada nodo apunta al elemento siguiente
 - **Doblemente Enlazada**: Se mantiene referencia al primer nodo, cada nodo apunta tanto al elemento siguiente, como al elemento anterior. De esta forma, cuando tenemos que acceder al nodo anterior, podemos hacerlo rápidamente, en lugar de tener que recorrer la lista nuevamente.
