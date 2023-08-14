@@ -38,7 +38,7 @@ Sea $A \in \Bbb K^{n \times n}$, un **autovalor** de $A$ es un escalar $\lambda 
 
 Para encontrar estos elementos, primero buscamos $\lambda$ tal que $\text{det}(\lambda I - A) = 0$. Los autovectores asociados a cada $\lambda$ son $v \in \text{null}(\lambda I - A)$.
 
-Definimos el polinomio característico de $A$ de grado $n$, $P_A(\lambda) = \text{det}(\lambda I - A)$.
+Definimos el **polinomio característico** de $A$ de grado $n$, $P_A(\lambda) = \text{det}(\lambda I - A)$.
 
 Se le denomina **multiplicidad algebraica** de $\lambda_0$ a la multiplicidad de $\lambda_0$ como raíz del polinomio característico.
 

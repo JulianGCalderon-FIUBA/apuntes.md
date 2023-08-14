@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
+                "file": "Álgebra II/Autovalores y Autovectores.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md"
+                "file": "Álgebra II/Autovalores y Autovectores.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
+                "file": "Álgebra II/Autovalores y Autovectores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
+                "file": "Álgebra II/Autovalores y Autovectores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,6 +159,12 @@
   },
   "active": "114c3278ee40296f",
   "lastOpenFiles": [
+    "Álgebra II/Álgebra II.md",
+    "Álgebra II/Formas Cuadráticas.md",
+    "Álgebra II/Coordenadas.md",
+    "Álgebra II/Descomposición en Valores Singulares.md",
+    "Álgebra II/Autovalores y Autovectores.md",
+    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Computer Networks and the Internet.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Delay, Loss, and Throughput in Packet-Switched N.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
@@ -179,12 +185,6 @@
     "Probabilidad y Estadistica/Probabilidad.md",
     "Estructura del Computador/Micro Arquitectura.md",
     "Física I/Energía en Ondas.md",
-    "Algoritmos II/Algoritmos de Grafos.md",
-    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/The Network Core.md",
-    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
-    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md",
-    "Análisis de la Información/PSA.md",
-    "Análisis de la Información/Interfaces de Usuario.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",
