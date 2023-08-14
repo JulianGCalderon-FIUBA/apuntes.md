@@ -24,7 +24,7 @@ Es un conjunto de vértices y aristas, que determinan conexiones entre los vért
 
 	Siendo $D$ el índice de densidad, $E$ la cantidad de aristas y $V$ la cantidad de vértices.
 
-- **Grafo Completo:** Sí posee todas las aristas posibles $(D = 1)$
+- **Grafo Completo:** Si posee todas las aristas posibles $(D = 1)$
 
 ## Definiciones
 
@@ -49,7 +49,7 @@ Un camino es un recorrido a través de un grafo.
 	- **Fuertemente Conexo:** Todo vértice conecta con cualquier vértice
 	- **Débilmente Conexo:** Todo par de vértices está conectado, aunque el camino puede no ser bidireccional
 
-### Arbol
+### Árbol
 
 Un grafo es un árbol si es tanto conexo como acíclico.
 
@@ -63,7 +63,7 @@ El grado de entrada indica la cantidad de aristas que entran al vértice. El gra
 
 ### Matriz de Adyacencia
 
-La matriz de adyacencia registra las conexiones entre los vértices. Las filas y columnas representan las vértices, y una posición determinada de la matriz representa, si existe o no, conexión entre esos vértices.
+La matriz de adyacencia registra las conexiones entre los vértices. Las filas y columnas representan los vértices, y una posición determinada de la matriz representa, si existe o no, conexión entre esos vértices.
 
 Se coloca un $1$ en las posiciones en las que existe una arista, y un 0 en las que no.
 

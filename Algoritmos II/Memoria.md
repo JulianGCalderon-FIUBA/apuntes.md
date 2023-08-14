@@ -16,10 +16,10 @@ En cada una de estas etapas el programa tiene una estructura distinta.
 
 En esta etapa, el programa se divide en distintas secciones:
 
-- **Código** (.code): En esta sección se almacena el código del programa, ya traducido por el compilador
-- **Datos** (.data): En esta sección se almacena los datos de valores globales y literales
-- **Pila de Ejecución** (.stack): Se almacenan las variables locales una vez se ejecuta el programa
-- **Montículo** (.heap): Es la memoria dinámica, no existe hasta que el programa se ejecuta.
+- **Código (.code):** En esta sección se almacena el código del programa, ya traducido por el compilador
+- **Datos (.data):** En esta sección se almacena los datos de valores globales y literales
+- **Pila de Ejecución (.stack):** Se almacenan las variables locales una vez se ejecuta el programa
+- **Montículo (.heap):** Es la memoria dinámica, no existe hasta que el programa se ejecuta.
 
 ## Memoria
 
@@ -33,11 +33,11 @@ La memoria dinámica es aquella reservada durante la ejecución del programa, y 
 
 Para manejar la memoria dinámica, usamos algunas funciones de la biblioteca estándar:
 
-- **`malloc():`** Se encarga de reservar memoria y devuelve un puntero a la memoria reservada. La memoria no está inicializada, por lo que a veces es útil usar la alternativa `calloc()`, la cual reserva memoria y la inicializa con el valor `NULL`**.**
-- **`free():`** Se encarga de liberar la memoria previamente reservada con el malloc.
+- **`malloc():`** Se encarga de reservar memoria y devuelve un puntero a la memoria reservada. La memoria no está inicializada, por lo que a veces es útil usar la alternativa `calloc()`, la cual reserva memoria y la inicializa con el valor `NULL`.
+- **`free():`** Se encarga de liberar la memoria previamente reservada con el `malloc`.
 - **`realloc():`** Se encarga de modificar el tamaño del bloque de memoria previamente reservado, La memoria antes almacenada permanecerá sin cambios hasta el último elemento de la memoria anterior, o el máximo del bloque.
 
 El manejo de la memoria es responsabilidad del programador, toda memoria reservada debe liberarse. No liberar la memoria implica **SERIOS PROBLEMAS** en el **COMPORTAMIENTO del programa.**
 
-> "¡La memoria dinámica no se conserva! ¡Siempre que se crea debe destruirse!
+> "¡La memoria dinámica no se conserva! ¡Siempre que se crea debe destruirse!"
 > **Dr. *Mariano Méndez***

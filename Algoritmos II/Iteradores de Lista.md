@@ -1,6 +1,6 @@
 Este TDA se encarga de recorrer secuencialmente los datos almacenados en la lista.
 
-Existen dos tipo de iteradores:
+Existen dos tipos de iteradores:
 
 - Iterador Interno
 - Iterador Externo
@@ -12,7 +12,7 @@ Permite recorrer todos los elementos de una lista sin controlar el ciclo en el c
 Para pasar múltiples parámetros, tenemos distintas opciones
 
 - Definir un `struct` personalizado que contenga los parámetros necesarios
-- Crear un arreglo de punteros void: `void *parametros[CANTIDAD_PARAMETROS]`
+- Crear un arreglo de punteros *void*: `void *parametros[CANTIDAD_PARAMETROS]`
 - Con un **TDA lista**
 
 ## Iterador Externo
