@@ -71,7 +71,7 @@ Para extraer frases, se crearon reglas.
 
 Para encontrar la polaridad de una frase, se verifico cuan cerca aparecían las palabras de las palabras con polaridad conocida.
 
-***Pointwise mutual information*** es una fórmula matemática que indica la probabilidad de que dos eventos estén relacionados, o que sean independientes entre si.
+**Pointwise mutual information** es una fórmula matemática que indica la probabilidad de que dos eventos estén relacionados, o que sean independientes entre si.
 
 $$
 P(palabra) = \frac{\text{$\#$ palabra}}{\text{$\#$ totales}}
@@ -97,9 +97,9 @@ Debemos detectar más de un sentimiento en una sola frase.
 
 ### Método de Mingqing Hu y Bing Liu
 
-***Frecuencia:*** Buscaron todas las frases frecuentes, llamaron a estas frases "aspectos", o "objetos de sentimiento".
+**Frecuencia:** Buscaron todas las frases frecuentes, llamaron a estas frases "aspectos", o "objetos de sentimiento".
 
-***Reglas:*** Filtraron todas esas frases frecuentes como: Ocurre después de una palabra que indica sentimientos.
+**Reglas:** Filtraron todas esas frases frecuentes como: Ocurre después de una palabra que indica sentimientos.
 
 Consideraciones:
 

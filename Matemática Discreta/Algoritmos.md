@@ -1,6 +1,6 @@
 ## DFS
 
-El algoritmo ***Depth First Search*** *(DFS)* es un algoritmo que busca encontrar una orientación fuertemente conexa para un grafo:
+El algoritmo **Depth First Search** *(DFS)* es un algoritmo que busca encontrar una orientación fuertemente conexa para un grafo:
 
 1. Se elije un vértice $v$ cualquiera, y se lo etiqueta como el primero
 2. Se toma un vértice cualquiera, adyacente al anterior.
@@ -11,7 +11,7 @@ El algoritmo ***Depth First Search*** *(DFS)* es un algoritmo que busca encontra
 
 ## Prim
 
-El algoritmo de ***Prim*** es un algoritmo que busca generar un árbol generador mínimo; esto es, a partir de un grafo pesado, genera un árbol generador que minimice la suma del peso de sus aristas.
+El algoritmo de **Prim** es un algoritmo que busca generar un árbol generador mínimo; esto es, a partir de un grafo pesado, genera un árbol generador que minimice la suma del peso de sus aristas.
 
 1. Parto de un vértice cualquiera del grafo.
 2. Mientras queden vertices sin conectar, agrego la arista minima, conectada con el grafo actual, que incida sobre un vértice aún no seleccionado.
@@ -21,7 +21,7 @@ El árbol generado no es único, pero su peso será el mínimo posible.
 
 ## Kruskal
 
-El algoritmo de ***Kruskal*** es un algoritmo que, al igual que el algoritmo de ***Prim***, busca generar un árbol generador mínimo.
+El algoritmo de **Kruskal** es un algoritmo que, al igual que el algoritmo de *Prim*, busca generar un árbol generador mínimo.
 
 1. Parto de una arista de peso mínimo
 2. Mientras pueda, agrego la arista mínima que no genere ciclos.
@@ -29,7 +29,7 @@ El algoritmo de ***Kruskal*** es un algoritmo que, al igual que el algoritmo de 
 
 ## Dijkstra
 
-El algoritmo de ***Dijkstra*** busca, para un vértice $v$, el camino de longitud mínima hacia el resto de vertices del grafo. Para hacerlo, requiere los siguientes elementos:
+El algoritmo de **Dijkstra** busca, para un vértice $v$, el camino de longitud mínima hacia el resto de vertices del grafo. Para hacerlo, requiere los siguientes elementos:
 
 - Un vector de vertices visitados del grafo: $V$.
 - Un vector de vertices no visitados del grafo: $NV$.

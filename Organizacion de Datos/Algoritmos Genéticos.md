@@ -10,9 +10,9 @@ Para modelar estos algoritmos, se plantearon las siguientes definiciones:
 
 Con estos cromosomas, podemos aplicar ciertas operaciones:
 
-- ***Cruza:*** Combinamos distintos cromosomas para generar uno nuevo
-- ***Mutación:*** Modificamos algunos símbolos del cromosoma
-- ***Selección:*** Probamos el cromosoma para obtener un puntaje, obtenemos el que tiene un mejor puntaje.
+- **Cruza:** Combinamos distintos cromosomas para generar uno nuevo
+- **Mutación:** Modificamos algunos símbolos del cromosoma
+- **Selección:** Probamos el cromosoma para obtener un puntaje, obtenemos el que tiene un mejor puntaje.
 
 En un algoritmo genético, tendremos las distintas variables:
 
@@ -33,18 +33,18 @@ Existen distintos tipos de codificaciones
 Existen distintos tipos de métodos de selección:
 
 - **Por Ruleta:** A cada cromosoma se le asigna una probabilidad en base a su puntaje
-- ***Selección Elitista:*** Además del método anterior, se seleccionan manualmente las mejores muestras
-- ***Otras Selecciones:*** Jerárquica, por torneo, escalada, etc.
+- **Selección Elitista:** Además del método anterior, se seleccionan manualmente las mejores muestras
+- **Otras Selecciones:** Jerárquica, por torneo, escalada, etc.
 
 ## Cruza
 
 Existen distintos métodos para la cruza:
 
-- ***Crossover 1 punto:*** Dividimos un cromosoma en dos, e intercambiamos cada mitad con otro cromosomas
+- **Crossover 1 punto:** Dividimos un cromosoma en dos, e intercambiamos cada mitad con otro cromosomas
 
 	![[Algoritmos Genéticos 1.png]]
 
-- ***Crossover 2 puntos:*** Dividimos el cromosoma en 3
+- **Crossover 2 puntos:** Dividimos el cromosoma en 3
 
 	![[Algoritmos Genéticos 2.png]]
 

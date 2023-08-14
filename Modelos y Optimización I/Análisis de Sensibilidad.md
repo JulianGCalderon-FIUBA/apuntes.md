@@ -23,14 +23,14 @@ En el software *LINDO*, visualizaremos estos valores bajo la columna *reduced co
 
 ### Valor Marginal
 
-El valor marginal es distinto de cero cuando la variable ***slack*** de la restricción no está en la base (porque vale cero)
+El valor marginal es distinto de cero cuando la variable *slack* de la restricción no está en la base (porque vale cero)
 
 El valor marginal indica cuanto va a mejorar el funcional si esa restricción se afloja en una unidad
 
 - Si la restricción es de menor o igual, aflojar la restricción implica aumentar el término independiente
 - Si la restricción es de mayor o igual, aflojar la restricción implica disminuir el termino independiente
 
-En el software *LINDO*, visualizaremos estos valores bajo la columna ***dual cost***.
+En el software *LINDO*, visualizaremos estos valores bajo la columna *dual cost*.
 
 ## Análisis de Sensibilidad
 

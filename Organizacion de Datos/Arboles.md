@@ -80,7 +80,7 @@ Este algoritmo es una mejora al algoritmo de ID3:
 
 **Boostrap Aggregating:** Es una tecnica, o meta-algoritmo que dice lo siguiente:
 
-Dado un conjunto de entrenamiento $D$, de tamaño $n$, la técnica de ***bagging*** generará **m** nuevos conjuntos de entrenamiento $D_1, \cdots, D_m$ cada uno de tamaño $n'$ tomando muestras aleatorias de $D$. Donde $n' \approx \frac 23 n$
+Dado un conjunto de entrenamiento $D$, de tamaño $n$, la técnica de *bagging* generará $m$ nuevos conjuntos de entrenamiento $D_1, \cdots, D_m$ cada uno de tamaño $n'$ tomando muestras aleatorias de $D$. Donde $n' \approx \frac 23 n$
 
 Ahora, entrenamos un arbol para cada uno de estos conjuntos de datos, creando una matriz de confusion para cada uno de ellos. Realizando metricas (*accuracy*) para cada matriz de confusion.
 

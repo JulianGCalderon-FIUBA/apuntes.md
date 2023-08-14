@@ -18,7 +18,7 @@ Nota: En este documento se utilizará la notación $\subseteq$ para mayor clarid
 > Si en particular $|B| = 2$, entonces $B^A = 2^{|A|}$
 
 > [!note]
-> ***Proposición:*** Afirmación que sólo puede tomar dos valores
+> **Proposición:** Afirmación que sólo puede tomar dos valores
 
 La función proposicional del argumento $x$ escrita como $p(x)$ se convierte en una proposición $p(a)$ cuando al argumento $x$ se le asigna un valor fijo $a$, tomado de un conjunto de referencia $I$.
 
@@ -62,7 +62,7 @@ $$
 |A| = 2^n
 $$
 
-Algunos matemáticos dicen que $p → q$ es la proposición más importante de todas. Esta es la proposición $p$ ***implica*** $a$. Solo puede ser falsa cuando la proposición $p$ es verdadera, pero su implicación $q$ no lo es. La forma de negar un teorema de este estilo es justamente encontrar algún caso para el cual $p$ se cumple, pero $q$ no.
+Algunos matemáticos dicen que $p → q$ es la proposición más importante de todas. Esta es la proposición $p$ implica $a$. Solo puede ser falsa cuando la proposición $p$ es verdadera, pero su implicación $q$ no lo es. La forma de negar un teorema de este estilo es justamente encontrar algún caso para el cual $p$ se cumple, pero $q$ no.
 
 Podemos definir las implicancias utilizando los elementos del álgebra de boole.
 
@@ -88,19 +88,19 @@ p \to q = q'\to p'
 \end{align*}
 $$
 
-La función binaria ***Sheffer*** denominada usualmente ***NAND*** se simboliza con $\uparrow$ y se define de la siguiente manera
+La función binaria **Sheffer** denominada usualmente **NAND** se simboliza con $\uparrow$ y se define de la siguiente manera
 
 $$
 p\uparrow q\overset{\text{def}}{=} (pq)'
 $$
 
-La función binaria ***Peirce*** denominada usualmente ***NOR*** se simboliza con $\downarrow$ y se define de la siguiente manera
+La función binaria **Peirce** denominada usualmente **NOR** se simboliza con $\downarrow$ y se define de la siguiente manera
 
 $$
 p\downarrow q\overset{\text{def}}{=} (p+q)'
 $$
 
-Ambas funciones admiten versiones $n$***-arias*** que aceptan más de dos proposiciones como argumentos. Se definen de la siguiente manera
+Ambas funciones admiten versiones $n$-arias que aceptan más de dos proposiciones como argumentos. Se definen de la siguiente manera
 
 $$
 p_1\uparrow p_2 \uparrow \cdots \uparrow p_3 \overset{\text{def}}{=} (p_1p_2\cdots p_3)'
@@ -156,7 +156,7 @@ Diremos que $P$ es el conjunto de veracidad de la función proposicional $p(x)$.
 > **Conjunción:** Definimos la conjunción $P\cap Q$ como el conjunto de elementos que se encuentran tanto en $P$ como en $Q$. De forma análoga, considerando las funciones proposicionales correspondientes, denotamos $pq$
 
 > [!note]
-> ***Negación:*** Definimos la negación $P'$ como el conjunto de elementos que no pertenecen a $P$. De forma análoga, considerando las funciones proposicionales correspondientes, denotamos $p'$
+> **Negación:** Definimos la negación $P'$ como el conjunto de elementos que no pertenecen a $P$. De forma análoga, considerando las funciones proposicionales correspondientes, denotamos $p'$
 
 ## Demostraciones de Equivalencia
 
@@ -274,7 +274,7 @@ $$
 
 Nota: en sus respectivos conjuntos de igualdad se cumplen las mismas identidades.
 
-Las leyes de ***De Morgan*** también se cumplen para las operaciones $\uparrow$ y $\downarrow$
+Las leyes de **De Morgan** también se cumplen para las operaciones $\uparrow$ y $\downarrow$
 
 $$
 (p\uparrow q)' = p'\downarrow q'
@@ -297,7 +297,7 @@ $$
 > [!note]
 > Un juego se llama completo si alcanza para fabricar cualquier elemento del conjunto donde se un juego completo
 
-**Teorema:** El juego ***$(+,\cdot, ')$ es un juego completo en el espacio de proposiciones. Podemos construir cualquier función proposicional a partir de estos elementos.
+**Teorema:** El juego **$(+,\cdot, ')$ es un juego completo en el espacio de proposiciones. Podemos construir cualquier función proposicional a partir de estos elementos.
 
 Se puede demostrar, a partir de equivalencias, que los siguientes juegos también son completos. Para hacerlo, deberá tratar de expresarse la operación faltante como una combinación de los elementos disponibles.
 

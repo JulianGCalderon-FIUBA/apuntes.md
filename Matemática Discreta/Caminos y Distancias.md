@@ -43,9 +43,9 @@ $$
 
 ### Cortes
 
-Definimos el conjunto de aristas $S$ como un corte de $G$, y con eliminar las aristas de $S$ de $G$, entonces el grafo se vuelve disconexo. Un corte es mínimo es no existe otro corte de cardinal menor. Un corte es minimal si no otro existe un corte contenido en el mismo. El cardinal del mínimo corte se denomina ***arista-conectividad***: $\lambda(G)$.
+Definimos el conjunto de aristas $S$ como un corte de $G$, y con eliminar las aristas de $S$ de $G$, entonces el grafo se vuelve disconexo. Un corte es mínimo es no existe otro corte de cardinal menor. Un corte es minimal si no otro existe un corte contenido en el mismo. El cardinal del mínimo corte se denomina **arista-conectividad**: $\lambda(G)$.
 
-De la misma forma, definimos un corte de vertices***.*** Conjunto de vertices que al eliminarlos, vuelve al grafo disconexo. El cardinal del mínimo corte se denomina ***vertice-conectividad:*** $\lambda'(G)$. Definimos la vértice conectividad de $K_n$ como $n-1$. Esto es arbitrario, ya que no existe ningún vértice que al eliminarlo vuelva a un grafo completo, disconexo.
+De la misma forma, definimos un corte de vertices. Conjunto de vertices que al eliminarlos, vuelve al grafo disconexo. El cardinal del mínimo corte se denomina **vertice-conectividad:** $\lambda'(G)$. Definimos la vértice conectividad de $K_n$ como $n-1$. Esto es arbitrario, ya que no existe ningún vértice que al eliminarlo vuelva a un grafo completo, disconexo.
 
 Los cortes de vertices son mas fuertes que los cortes de aristas. Esto se debe a que podremos encontrar un corte de vertices de igual tamaño que un corte de aristas, si eliminamos todos los vertices incidentes sobre estas aristas.
 
