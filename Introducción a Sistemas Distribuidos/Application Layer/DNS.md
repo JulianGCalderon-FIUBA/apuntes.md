@@ -6,7 +6,7 @@ Necesitamos un servicio que permita traducir *hostnames* en direcciones IP. El s
 
 Este sistema *DNS* provee algunos servicios importantes:
 
-- **Host aliasing:** Un *host* con un *hostname* complicado puede tener uno o múltiples *aliases.* Al *hostname* original se lo denomina *canónico.*
+- **Host aliasing:** Un *host* con un *hostname* complicado puede tener uno o múltiples *aliases.* Al *hostname* original se lo denomina **canónico.**
 - **Mail server aliasing:** Similar al anterior, permite tener múltiples aliases para un único servidor de mails.
 - **Load distribution:** Se puede utilizar este sistema para redirigir a los usuarios a los servidores a otros servidores, a partir de un *hostname* común. Para hacer esto, el *DNS* devuelve todas las direcciones *IP* asociadas al *hostname*, pero rotando el orden cada vez.
 

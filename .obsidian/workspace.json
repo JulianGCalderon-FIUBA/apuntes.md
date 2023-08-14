@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+                "file": "Álgebra II/Autovalores y Autovectores.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md"
+                "file": "Álgebra II/Autovalores y Autovectores.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+                "file": "Álgebra II/Autovalores y Autovectores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+                "file": "Álgebra II/Autovalores y Autovectores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,9 +159,13 @@
   },
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
+    "Álgebra II/Álgebra II.md",
+    "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
+    "Análisis de la Información/Arquitectura del Software.md",
+    "Análisis de la Información/Análisis de la Información.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
     "Álgebra II/Autovalores y Autovectores.md",
-    "Álgebra II/Álgebra II.md",
     "Análisis Matemático II/Integrales Triples.md",
     "Análisis Matemático II/Límites.md",
     "Análisis Matemático II/Métodos de resolución.md",
@@ -181,10 +185,6 @@
     "Física II/Capacitores.md",
     "Física II/Campo Magnético.md",
     "Física II/Ley de Gauss.md",
-    "Física II/Circuitos en Resonancia.md",
-    "Sistemas Operativos/API de Memoria.md",
-    "Indice.md",
-    "Matemática Discreta/Grafos Orientados.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
