@@ -24,13 +24,13 @@ Denotamos $\nu(G)$ como el numero de ciclos de un grafo, y $\mu(G)$ como el nume
 
 ### Grafo Euleriano - Explorador
 
-Se dice que un grafo es Euleriano si existe un ciclo que recorra todas las aristas exactamente una sola vez. Es decir, si existe un circuito Euleriano***.***
+Se dice que un grafo es Euleriano si existe un ciclo que recorra todas las aristas exactamente una sola vez. Es decir, si existe un circuito Euleriano.
 
-***Teorema:** Un grafo conexo es Euleriano ***sii*** el grado de todos sus vertices es par.
+**Teorema:** Un grafo conexo es Euleriano si y solo si el grado de todos sus vertices es par.
 
 Se dice que un grafo es semi Euleriano si existe un camino no cerrado que recorra todas las aristas exactamente una sola vez.
 
-***Teorema:** Un grafo conexo es semi Euleriano si y solo si exactamente dos vertices tienen grado par.
+**Teorema:** Un grafo conexo es semi Euleriano si y solo si exactamente dos vertices tienen grado par.
 
 ### Grafo Hamiltoniano - Viajante
 
@@ -42,7 +42,7 @@ Este grafo es un problema no resuelto. No conocemos ninguna implicancia de si so
 
 **Teorema de Orec:** Un grafo simple conexo es Hamiltoneano si se cumple que $d(u) + d(v) \geq n(G)$ para todos los vertices no adyacentes.
 
-Podremos demostrar fácilmente que el teorema de ***Direc*** implica el teorema de ***Orec***.
+Podremos demostrar fácilmente que el teorema de *Direc* implica el teorema de *Orec*.
 
 ## Arboles
 
@@ -59,7 +59,7 @@ Cualquiera de las siguientes definiciones de árbol son equivalentes. El grafo $
 
 Un árbol generador de un grafo $G$ es un subgrafo que contiene todos los vertices del grafo original y es un árbol.
 
-***Propiedad:*** Si a un árbol se le quita una hoja (vértice de grado 1), el grafo resultante es un árbol. Esto se debe a que no se generan ciclos ni se pierde la conexidad.
+**Propiedad:** Si a un árbol se le quita una hoja (vértice de grado 1), el grafo resultante es un árbol. Esto se debe a que no se generan ciclos ni se pierde la conexidad.
 
 > [!proof]- **Demostración de $m = n-1$:**
 >
@@ -141,7 +141,7 @@ A partir de este criterio, podemos demostrar por fuerza bruta que $K_5$ es el pr
 > $$
 >
 > Intuitivamente, se puede pensar como que toda cara esta delimitada por una frontera. La curva de frontera de menor longitud que podemos formar es el triangulo, de longitud tres.
-> Si utilizamos ***FSL,*** tendremos que $3f \leq 2m$. Si combinamos esta > propiedad con el teorema de ***Euler***, tendremos un criterio de rechazo para la planáridad de un grafo
+> Si utilizamos *FSL*, tendremos que $3f \leq 2m$. Si combinamos esta > propiedad con el teorema de *Euler*, tendremos un criterio de rechazo para la planáridad de un grafo
 >
 > $$
 > m \leq 3(n-2)
@@ -179,7 +179,7 @@ Una cota superior del número cromático de $G$ es $\Delta(G) + 1$. Recordemos q
 >
 > Para $n> 1$, sea $G$ un grafo simple de orden $n$, y sea $v$ un vértice cualquiera del grafo. Luego, definimos $H = Gv$. El grafo $H$ es simple ya que eliminar aristas no introduce vertices. $\Delta(H) \leq \Delta(G)$ ya que tomamos cualquier vértice $v$, por lo que el grado máximo puede mantenerse igual. Debido a que no introducimos aristas, este nunca podrá ser mayor. Por la hipótesis inductiva, sabremos que existe al menos una coloración $H$ con a lo sumo, $\Delta(H) + 1 \leq\Delta(G) + 1$. Luego, existirá esa misma coloración para $G$, pero aún sin colorear el vértice eliminado $v$. Debido a que el vértice eliminado tiene, por definición, a lo sumo $\Delta(G)$ vecinos y tenemos un total de $\Delta(G) +1$ colores, siempre tendremos un color para utilizar.
 
-Se llama el índice cromático $\chi’(G)$ de un grafo al cardinal de una coloración mínima de aristas. Se consideran dos aristas adyacentes si inciden sobre el mismo vértice. Para las aristas, tendremos cotas mucho mas poderosas, con el teorema de ***Vizing***.
+Se llama el índice cromático $\chi’(G)$ de un grafo al cardinal de una coloración mínima de aristas. Se consideran dos aristas adyacentes si inciden sobre el mismo vértice. Para las aristas, tendremos cotas mucho mas poderosas, con el teorema de **Vizing**.
 
 $$
 \Delta(G) \leq \chi'(G) \leq \Delta(G) + 1

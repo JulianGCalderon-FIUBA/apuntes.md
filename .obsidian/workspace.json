@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Organizacion de Datos/Clasificación de Texto.md",
+                "file": "Matemática Discreta/Clasificaciones.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/\\*{3}.*?\\*{3}",
+                "query": "-path: (\"Introducción a Sistemas Distribuidos\" OR \"Sistemas Operativos\") /\\*{3}.*?\\*{3}",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Organizacion de Datos/Clasificación de Texto.md"
+                "file": "Matemática Discreta/Clasificaciones.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Organizacion de Datos/Clasificación de Texto.md",
+                "file": "Matemática Discreta/Clasificaciones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Organizacion de Datos/Clasificación de Texto.md",
+                "file": "Matemática Discreta/Clasificaciones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,6 +160,7 @@
   },
   "active": "114c3278ee40296f",
   "lastOpenFiles": [
+    "Organizacion de Datos/Clasificación de Texto.md",
     "Matemática Discreta/Caminos y Distancias.md",
     "Organizacion de Datos/Arboles.md",
     "Sistemas Operativos/API de Threads.md",
@@ -186,7 +187,6 @@
     "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/WiFi 802 11 Wireless LANs.md",
     "Introducción a Sistemas Distribuidos/Transport Layer/Principles of Congestion Control.md",
     "Introducción a Sistemas Distribuidos/Transport Layer/Connection-Oriented Transport TCP.md",
-    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Internet Protocol (IP) IPv4, Addressing, IPv6, and More.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",
     "Indice.tex",

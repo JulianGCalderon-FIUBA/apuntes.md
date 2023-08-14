@@ -3,13 +3,13 @@ Es un problema de clasificación, sirve para asignar un tópico o categoría de 
 ## Métodos de Clasificación
 
 - **Reglas escritas a mano:** Si el texto contiene cierta palabra particular, entonces se catalogara en la categoría designada
-	- ***PROS:*** La precisión de este método puede ser muy alta
-	- ***CONS:*** Construir y mantener estas reglas puede ser costoso
-- ***Aprendizaje automático supervisado***: Se tiene un documento $d$, un conjunto $C$ fijo de clases, y un conjunto $m$ de documentos clasificados. Buscamos entrenar un modelo clasificador.
+	- **PROS:** La precisión de este método puede ser muy alta
+	- **CONS:** Construir y mantener estas reglas puede ser costoso
+- **Aprendizaje automático supervisado**: Se tiene un documento $d$, un conjunto $C$ fijo de clases, y un conjunto $m$ de documentos clasificados. Buscamos entrenar un modelo clasificador.
 
 ## Tipos de Clasificadores
 
-- ***Naïve Bayes***
+- **Naïve Bayes**
 - **Logistic Regression**
 - **Support-Vector Machines**
 - **K-Nearest Neighbors**
@@ -26,7 +26,7 @@ Si tenemos un conjunto $C$ de clases, busquemos la clase que que maximice esta p
 
 Necesitaremos ahora, calcular estas probabilidades. Para $P(c)$, utilizaremos la fórmula de Laplace con el conjunto de documentos que tendremos para el entrenamiento.
 
-Usaremos un método conocido como ***bag word***. Un documento será entonces una bolsa de características, o palabras. Las probabilidades de cada característica $x_1,x_2,...$ dada una clase, son independientes entre sí.
+Usaremos un método conocido como **bag word**. Un documento será entonces una bolsa de características, o palabras. Las probabilidades de cada característica $x_1,x_2,...$ dada una clase, son independientes entre sí.
 
 El orden de las palabras no importa. Esto trae algunos inconvenientes.
 
