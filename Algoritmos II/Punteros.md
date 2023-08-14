@@ -56,7 +56,7 @@ Es útil, por ejemplo, para ordenar vectores, puedo tener la lógica de ordenar 
 
 ## Puntero Comodín `void*`
 
-En C, existe un tipo de puntero denominado **puntero comodín**, este puede apuntar a cualquier tipo de dato ya que no está asociado a ninguno. El puntero comodín no puede ser desreferenciado, para acceder a su valor se debe *castear* a otro tipo de puntero.
+En C, existe un tipo de puntero denominado **puntero comodín**, este puede apuntar a cualquier tipo de dato, ya que no está asociado a ninguno. El puntero comodín no puede ser desreferenciado, para acceder a su valor se debe *castear* a otro tipo de puntero.
 
 ```c
 int main()

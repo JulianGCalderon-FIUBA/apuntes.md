@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis de la Información/Historias de Usuario.md",
+                "file": "Análisis de la Información/Ingeniería de Requisitos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis de la Información/Historias de Usuario.md"
+                "file": "Análisis de la Información/Ingeniería de Requisitos.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis de la Información/Historias de Usuario.md",
+                "file": "Análisis de la Información/Ingeniería de Requisitos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis de la Información/Historias de Usuario.md",
+                "file": "Análisis de la Información/Ingeniería de Requisitos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,32 +159,32 @@
   },
   "active": "114c3278ee40296f",
   "lastOpenFiles": [
+    "Análisis de la Información/Gherkin.md",
+    "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
+    "Análisis de la Información/Arquitectura del Software.md",
+    "Análisis de la Información/Análisis de la Información.md",
+    "Algoritmos II/Análisis de Algoritmos.md",
+    "Algoritmos II/Algoritmos de Grafos.md",
+    "Álgebra II/Coordenadas.md",
     "Álgebra II/Autovalores y Autovectores.md",
     "Álgebra II/Álgebra II.md",
+    "Algoritmos II/Recursividad.md",
+    "Algoritmos II/Punteros.md",
+    "Análisis de la Información/Casos de Uso.md",
+    "Algoritmos II/Memoria.md",
+    "Algoritmos II/Iteradores de Lista.md",
+    "Algoritmos II/Árboles Generales.md",
+    "Algoritmos II/Algoritmos II.md",
+    "Álgebra II/Descomposición en Valores Singulares.md",
     "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
+    "Análisis de la Información/Historias de Usuario.md",
     "Introducción a Sistemas Distribuidos/1 What is the internet 40e9f12bd0ce45cd8221aa4ba65ac38e.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
     "Física II/Circuitos en Resonancia.md",
     "Análisis Matemático II/Familias de Curvas.md",
     "Análisis Matemático II/Curvas y superficies.md",
     "Análisis Matemático II/Cónicas.md",
-    "Análisis de la Información/Introducción al Diseño de Software.md",
-    "Análisis de la Información/Introducción a la Ingeniería de Software.md",
-    "Análisis de la Información/Interfaces de Usuario.md",
-    "Análisis de la Información/Innovación y Creatividad.md",
-    "Análisis de la Información/Ingeniería de Requisitos.md",
-    "Análisis de la Información/Historias de Usuario.md",
-    "Análisis de la Información/Historias de Dominio.md",
-    "Análisis de la Información/Gherkin.md",
-    "Análisis de la Información/Diseño de Datos.md",
-    "Análisis de la Información/Design Thinking.md",
-    "Análisis de la Información/Casos de Uso.md",
-    "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
-    "Análisis de la Información/Arquitectura del Software.md",
-    "Análisis de la Información/Análisis de la Información.md",
-    "Algoritmos II/Diccionario y Hash.md",
-    "Algoritmos II/Árboles Generales.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",
