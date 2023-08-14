@@ -7,7 +7,7 @@ La investigación operativa utiliza modelos matemáticos para la toma de decisio
 
 ## Modelos Matemáticos
 
-Un ***modelo matemático*** de un objeto o fenómeno es cualquier esquema simplificado e idealizado de ese objeto o fenómeno, constituido por símbolos y operaciones (relaciones) matemáticas.
+Un **modelo matemático** de un objeto o fenómeno es cualquier esquema simplificado e idealizado de ese objeto o fenómeno, constituido por símbolos y operaciones (relaciones) matemáticas.
 
 Un modelo es una forma de representar cada una de los entidades que intervienen en un cierto proceso fisico mediante objetos matemáticos. Una vez formado el modelo matemático se pueden aplicar el cálculo, el álgebra y otras herramientas matemáticas para deducir el comportamiento del sistema bajo estudio.
 
@@ -20,29 +20,29 @@ Los modelos se pueden clasificar según distintos aspectos:
 Podemos distinguir entre:
 
 - **Modelos heurísticos**. Son los que están basados en las explicaciones sobre las causas o mecanismos naturales que dan lugar al fenómeno estudiado
-- ***Modelos empíricos:*** Son los que utilizan las observaciones directas o los resultados de experimentos del fenómeno estudiado.
+- **Modelos empíricos:** Son los que utilizan las observaciones directas o los resultados de experimentos del fenómeno estudiado.
 
 ### Según el tipo de representación
 
 Podemos distinguir entre:
 
-- ***Modelos cualitativos o conceptuales:*** Estos pueden ser figuras, gráficos o descripciones causales. Se contentan con definir la dirección que tomará el sistema. sin importar el modo.
-- ***Modelos cuantitativos o numéricos:*** Usan números para representar aspectos del sistema, incluyen fórmulas y algoritmos para relacionar los valores.
+- **Modelos cualitativos o conceptuales:** Estos pueden ser figuras, gráficos o descripciones causales. Se contentan con definir la dirección que tomará el sistema. sin importar el modo.
+- **Modelos cuantitativos o numéricos:** Usan números para representar aspectos del sistema, incluyen fórmulas y algoritmos para relacionar los valores.
 
 ### Según la aleatoriedad
 
 Podemos distinguir entre:
 
-- ***Modelos Determinísticos:*** Se conoce de manera puntual la forma del resultado ya que no hay incertidumbre
-- ***Modelos Estocásticos:*** Probabilísticos, no se conoce el resultado esperado, sino su probabilidad de ocurrir.
+- **Modelos Determinísticos:** Se conoce de manera puntual la forma del resultado ya que no hay incertidumbre
+- **Modelos Estocásticos:** Probabilísticos, no se conoce el resultado esperado, sino su probabilidad de ocurrir.
 
 ### Según su aplicación u objetivo
 
 Podemos distinguir entre:
 
-- ***Modelo de simulación o descriptivo:*** De situaciones medibles de manera precisa o aleatoria. Pretende predecir que sucede en una situación concreta.
-- ***Modelo de optimización:*** Para determinar el punto exacto para resolver alguna problemática. REquiere comparar diversas condiciones, casos o posibles valores de un parámetro para hallar el resultado óptimo
-- ***Modelo de control:*** Para saber con precisión como está algo en una organización. Pretende ayudar a decidir que nuevas medidas o variables o parámetros deben ajustarse para lograr un resultado concreto.
+- **Modelo de simulación o descriptivo:** De situaciones medibles de manera precisa o aleatoria. Pretende predecir que sucede en una situación concreta.
+- **Modelo de optimización:** Para determinar el punto exacto para resolver alguna problemática. REquiere comparar diversas condiciones, casos o posibles valores de un parámetro para hallar el resultado óptimo
+- **Modelo de control:** Para saber con precisión como está algo en una organización. Pretende ayudar a decidir que nuevas medidas o variables o parámetros deben ajustarse para lograr un resultado concreto.
 
 ## Elementos de un Modelo
 

@@ -37,7 +37,7 @@ Para los problemas de este tipo, se deben definir los siguientes supuestos bási
 
 - ***Certeza***: Todos los parámetros del modelo son constantes conocidas. para poder plantear el modelo dentro de la optimización determinística, se debe cumplir este principio.
 - **Proporcionalidad:** Tanto el beneficio como el uso de recursos son directamente proporcionales al nivel de actividad.
-- ***Aditividad:*** No existen interacciones entre las actividades que cambien la medida total de la efectividad o el uso total de algún recurso. No en todo los dominios se cumple esta propiedad. Por ejemplo, en el caso de la química, las interacciones no suelen ser lineales.
+- **Aditividad:** No existen interacciones entre las actividades que cambien la medida total de la efectividad o el uso total de algún recurso. No en todo los dominios se cumple esta propiedad. Por ejemplo, en el caso de la química, las interacciones no suelen ser lineales.
 - **Divisibilidad:** Las unidades de actividad pueden dividirse en niveles fraccionarios cualesquiera, de modo que pueden permitirse valores no enteros para las variables. Si este supuesto no se cumple, tendremos que trabajar con variables enteras.
 
 ### Variables Enteras

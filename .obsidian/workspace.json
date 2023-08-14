@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelos y Optimización I/Heurísticas para el Problema de la Mochila.md",
+                "file": "Análisis de la Información/Modelos en la ingeniería de software.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modelos y Optimización I/Heurísticas para el Problema de la Mochila.md"
+                "file": "Análisis de la Información/Modelos en la ingeniería de software.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelos y Optimización I/Heurísticas para el Problema de la Mochila.md",
+                "file": "Análisis de la Información/Modelos en la ingeniería de software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modelos y Optimización I/Heurísticas para el Problema de la Mochila.md",
+                "file": "Análisis de la Información/Modelos en la ingeniería de software.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,6 +160,13 @@
   },
   "active": "114c3278ee40296f",
   "lastOpenFiles": [
+    "Análisis Matemático II/Métodos de resolución.md",
+    "Modelos y Optimización I/Método Simplex.md",
+    "Matemática Discreta/Isomorfismos.md",
+    "Modelos y Optimización I/Introducción.md",
+    "Análisis Matemático II/Integrales de Superficie.md",
+    "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md",
+    "Modelos y Optimización I/Heurísticas para el Problema de la Mochila.md",
     "Modelos y Optimización I/Heurísticas para Coloreo de Grafos.md",
     "Modelos y Optimización I/Heurísticas.md",
     "Matemática Discreta/Grafos Particulares.md",
@@ -179,14 +186,7 @@
     "Organizacion de Datos/Análisis de Sentimientos.md",
     "Modelos y Optimización I/Análisis de Sensibilidad.md",
     "Organizacion de Datos/Algoritmos Genéticos.md",
-    "Matemática Discreta/Algoritmos.md",
-    "Matemática Discreta/Álgebra de Conjuntos.md",
-    "Álgebra II/Autovalores y Autovectores.md",
-    "Álgebra II/Álgebra II.md",
-    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
-    "Introducción a Sistemas Distribuidos/Clases Practicas.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",
     "Indice.tex",

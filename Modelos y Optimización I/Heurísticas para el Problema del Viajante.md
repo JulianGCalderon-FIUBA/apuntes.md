@@ -29,21 +29,21 @@ $$
 \forall u,v,w \in V(G): d(u,v) + d (v,w) \geq d(u,w)
 $$
 
-1. Se arma un árbol de costo mínimo *(prim* o *kruskal)*
+1. Se arma un árbol de costo mínimo (*prim* o *kruskal*)
 2. Definimos la raíz como un vértice arbitrario
-3. Se duplican las aristas y se halla un camino euleriano. ***(DFS)***
-4. Se toman los vertices de este camino, ignorando los repetidos.
-5. El camino encontrando será un camino ***hamiltoniano***.
+3. Se duplican las aristas y se halla un camino euleriano. (*DFS*)
+4. Se toman los vértices de este camino, ignorando los repetidos.
+5. El camino encontrando será un camino hamiltoniano.
 
 ## Heurística de $k$-intercambios
 
 Es una heurística de mejora, parte de una solución factible inicial. Esta puede ser la trivial, dada por el orden alfabético de las ciudades. Opera bajo una propiedad importante de los grafos:
 
-> Si un ciclo *hamiltoniano* se cruza a si mismo, puede ser fácilmente mejorado eliminando las aristas que se cruzan y volviendo a unir los caminos con aristas que no se unan.
+> Si un ciclo hamiltoniano se cruza a sí mismo, puede ser fácilmente mejorado eliminando las aristas que se cruzan y volviendo a unir los caminos con aristas que no se unan.
 
 1. Se eliminan $k$ aristas del grafo
 2. Se reúnen los caminos con $k$ aristas nuevas
-3. Si el costo del nuevo camino es mejor al anterior, entonces se actualiza la solución optimo
+3. Si el costo del nuevo camino es mejor al anterior, entonces se actualiza la solución óptimo
 
 Estos algoritmos no prueban todos los posibles cambios, sino que buscan alternativas durante un tiempo determinado y si no lo encuentran, finalizan.
 

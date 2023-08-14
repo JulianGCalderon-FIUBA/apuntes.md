@@ -24,7 +24,7 @@ $$
 a_n(x) \cdot y^{(n)} + a_{n-1}(x) \cdot y^{(n-1)} + \cdots + a_1(x) \cdot y= g(x)
 $$
 
-Si $g(x) = 0$, entonces la ecuación diferencial lineal es ***homogénea***
+Si $g(x) = 0$, entonces la ecuación diferencial lineal es **homogénea**
 
 #### Homogéneas
 

@@ -6,7 +6,7 @@ En un programa ***multi-threaded*** tendremos un solo ***heap*** pero múltiples
 
 ## Ventajas
 
-Hay dos razones principales por las cuales debemos usar concurrencia. La primera es el **paralelismo**, podemos dividir nuestro programa en distintas porciones que se ejecuten concurrentemente. Esto aporta velocidad en sistemas con múltiples procesadores, ya que cada hilo puede correr en un procesador distinto. Este proceso, de convertir un programa ***single-threaded*** a uno ***multi-threaded*** se conoce como ***paralelización***.
+Hay dos razones principales por las cuales debemos usar concurrencia. La primera es el **paralelismo**, podemos dividir nuestro programa en distintas porciones que se ejecuten concurrentemente. Esto aporta velocidad en sistemas con múltiples procesadores, ya que cada hilo puede correr en un procesador distinto. Este proceso, de convertir un programa ***single-threaded*** a uno ***multi-threaded*** se conoce como **paralelización**.
 
 La segunda razón es un poco más sutil: para evitar que un programa se ralentiza debido a pedidos de **IO**. Utilizar hilos permite continuar la ejecución del programa en un hilo distinto, mientras otro hilo está suspendido.
 
@@ -22,7 +22,7 @@ Las porciones de código que pueden ocasionar una condición de carrera se conoc
 
 Para solucionar este problema, necesitamos un mecanismo conocido como ***exclusión mutua**.* Esto garantiza que si un hilo está ejecutando una sección crítica, los otros hilos no podrán.
 
-Para obtener esto, necesitamos una técnica conocida como ***atomic operation***. Una operación atómica es una operación que no puede ser interrumpida. Llamamos el agrupamiento de muchas acciones en una única operación atómica como una ***transacción***.
+Para obtener esto, necesitamos una técnica conocida como ***atomic operation***. Una operación atómica es una operación que no puede ser interrumpida. Llamamos el agrupamiento de muchas acciones en una única operación atómica como una **transacción**.
 
 Si logramos que las secciones críticas sean *operaciones atómicas*, entonces no tendremos condiciones de carrera. La operación una vez empieza no puede ser interrumpida, por lo que ningún cambio de contexto puede alterar el resultado.
 

@@ -85,7 +85,7 @@ Esta afirmación permite distinguir fácilmente flujos de ***RC4*** de segmentos
 
 La segunda debilidad está relacionada con la vulnerabilidad de las claves, que aplica cuando parte de la clave presenta es expuesta al atacante. Cuando la misma porción de clave secreta está presente en diferentes valores expuestos, el atacante puede derivar la parte secreta al analizar la palabra inicial del flujo de claves.
 
-Para hacer esto, el algoritmo se aprovecha de la posibilidad de encontrar claves tales que causen que el algoritmo entre en condición de ***resuelto***.
+Para hacer esto, el algoritmo se aprovecha de la posibilidad de encontrar claves tales que causen que el algoritmo entre en condición de **resuelto**.
 
 Sea $S_i$ el vector permutación tras la iteración $i$ de la permutación, definimos $X_i = S_i[1], Y_i = S_i[X]$. Si para algún punto de la permutación, se cumple que $i$ es mayor o igual que $1, X_i, Y_i$, entonces diremos que el algoritmo está en condición de resuelto.
 

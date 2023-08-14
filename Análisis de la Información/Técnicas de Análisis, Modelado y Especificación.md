@@ -153,7 +153,7 @@ Agregarle estos criterios a un requisito de usuario lo acerca a la definición c
 
 ### Reglas de Negocio
 
-Son políticas, regulaciones, leyes, y estándares. Puede seguir la siguiente estructura: "Cuando ***\<condición>*** entonces ***\<imposición>.*** En caso contrario, ***\<consecuencias>***". Pueden describir cálculos completos, restricciones, inferencias, o hechos.
+Son políticas, regulaciones, leyes, y estándares. Puede seguir la siguiente estructura: "Cuando **\<condición>** entonces **\<imposición>.** En caso contrario, **\<consecuencias>**". Pueden describir cálculos completos, restricciones, inferencias, o hechos.
 
 ### User Story Mapping
 

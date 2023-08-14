@@ -1,6 +1,6 @@
 A medida que avanza el tiempo, los sistemas con múltiples procesador se vuelven cada vez más comunes. La aparición de procesadores ***multicore*** son el núcleo de estos sistemas.
 
-Hay muchas problemáticas que surgen cuando tratamos de correr una aplicación en múltiples procesadores. Para poder hacer esto, debemos reescribir nuestro programa para permitir que se ejecute en ***paralelo***, quizás a partir de la utilización de hilos o ***threads***.
+Hay muchas problemáticas que surgen cuando tratamos de correr una aplicación en múltiples procesadores. Para poder hacer esto, debemos reescribir nuestro programa para permitir que se ejecute en **paralelo**, quizás a partir de la utilización de hilos o ***threads***.
 
 ## Arquitecturas Multiprocesador
 
@@ -30,6 +30,6 @@ Debido a los problemas que surgen con el enfoque anterior, muchos sistemas optar
 
 Cada cola seguirá un esquema de planificación particular. Cuando un proceso entra a un sistema, se coloca en una de las colas. Cada planificador es independiente de los otros, lo que nos ahorra problemas de planificación e información. Este enfoque tiene numerosas ventajas. Es más escalable, además de proteger nativamente la afinidad de caché.
 
-Con este enfoque, surge un nuevo problema: ***load imbalance***. La solución obvia para este problemática a la cual nos referimos como ***migración***. Moviendo procesos de un procesador a otro. Muchas veces, una única migración no solucionará el problema, sino que debemos recurrir a una migración continua. Existen muchos patrones de migración.
+Con este enfoque, surge un nuevo problema: ***load imbalance***. La solución obvia para este problemática a la cual nos referimos como **migración**. Moviendo procesos de un procesador a otro. Muchas veces, una única migración no solucionará el problema, sino que debemos recurrir a una migración continua. Existen muchos patrones de migración.
 
 Para decidir cuando debemos realizar una migración, se puede utilizar la técnica conocida como ***work stealing***. Las colas con pocos trabajos pueden ocasionalmente ojear otras colas, si tiene muchos más procesos que la propia cola, entonces se opta por "robar" un proceso.

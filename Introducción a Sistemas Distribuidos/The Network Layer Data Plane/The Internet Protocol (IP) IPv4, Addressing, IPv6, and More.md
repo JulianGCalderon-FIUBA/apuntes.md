@@ -34,7 +34,7 @@ Para determinar una ***subnet***, se desconectan todas las interfaces de su host
 
 La estrategia de asignamiento de direcciones de internet se conoce como ***Classless Interdomain Routing (CIDR)***. La dirección **IP** se divide en dos secciones y tiene la forma `a.b.c.d/x`, donde `x` indica el número de ***bits*** en la primer parte de la dirección. Esta sección es conocida como el prefijo.
 
-Una organización suele ser asignado un rango de conexiones con un prefijo común. Fuera de la organización, únicamente se utilizarán los ***bits*** del prefijo para enviar el paquete. Esto reduce considerablemente el tamaño de las ***forwarding tables***. Los restantes ***bits*** serán usados dentro de la organización para distinguir las direcciones **IP,** es posible que los ***bits*** restantes a su vez estén organizados en otras estructuras de ***subredes***.
+Una organización suele ser asignado un rango de conexiones con un prefijo común. Fuera de la organización, únicamente se utilizarán los ***bits*** del prefijo para enviar el paquete. Esto reduce considerablemente el tamaño de las ***forwarding tables***. Los restantes ***bits*** serán usados dentro de la organización para distinguir las direcciones **IP,** es posible que los ***bits*** restantes a su vez estén organizados en otras estructuras de **subredes**.
 
 La habilidad de utilizar un único prefijo para anunciar múltiples redes se conoce como ***address aggregation***.
 
@@ -89,7 +89,7 @@ La motivación para el desarrollo de las dirección ***IPv6*** es la realizació
 
 Se definen entonces, los siguientes campos:
 
-- ***Versión:*** Este campo de 4 bits identifica el número de versión **IP**. Para la *IPv6* se utiliza el valor 6.
+- **Versión:** Este campo de 4 bits identifica el número de versión **IP**. Para la *IPv6* se utiliza el valor 6.
 - ***Traffic class:*** Este campo de 8 bits es usado para dar más prioridad a ciertos datagramas dentro de un flujo.
 - ***Flow label:*** Campo de 20 bits que permite identificar un flujo de ***datagrams***.
 - ***Payload length:*** Valor de 16 bits que muestra el tamaño en bytes del payload del paquete.

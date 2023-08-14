@@ -2,7 +2,7 @@ Existe un software, responsable de hacer que los programas sean fáciles de ejec
 
 ## Virtualización
 
-La técnica principal mediante la cual el sistema operativo realiza esto es a partir de la v***irtualización.*** Debido a esto, a veces nos referimos al sistema operativo como una máquina virtual.
+La técnica principal mediante la cual el sistema operativo realiza esto es a partir de la v**irtualización.** Debido a esto, a veces nos referimos al sistema operativo como una máquina virtual.
 
 El sistema operativo toma un recurso físico (procesador, memoria, disco), y lo virtualiza de forma que sea poderoso y fácil de usar para los procesos.
 
@@ -16,7 +16,7 @@ Para permitir que muchos usuarios accedan a los recursos, el sistema operativo s
 
 Para generar la ilusión de que cada usuario tiene el control total del procesador, el sistema operativo genera una virtualización de la CPU para cada proceso, permitiendo que muchos programas corran aparentemente de forma "paralela" (esto no ocurre realmente)
 
-Para definir como correr estos programas, el sistema operativo tiene una serie de ***políticas*** y ***mecanismos*** que utiliza para resolver estas problemáticas.
+Para definir como correr estos programas, el sistema operativo tiene una serie de **políticas** y **mecanismos** que utiliza para resolver estas problemáticas.
 
 ### Virtualización de Memoria
 
@@ -46,7 +46,7 @@ A diferencia de los otros recursos, el sistema operativo no genera una virtualiz
 
 ## Objetivos de Diseño
 
-Para que el sistema sea fácil de usar, el sistema operativo genera una serie de abstracciones y virtualizaciones que permiten al usuario interactuar con los recursos físicos de la computadora de forma segura, pero a la vez generando la ***ilusión*** de que cada proceso tiene el control total de la computadora.
+Para que el sistema sea fácil de usar, el sistema operativo genera una serie de abstracciones y virtualizaciones que permiten al usuario interactuar con los recursos físicos de la computadora de forma segura, pero a la vez generando la **ilusión** de que cada proceso tiene el control total de la computadora.
 
 Se busca diseñar un sistema operativo **eficiente**, con alto rendimiento. Las virtualizaciones hacen que el sistema sea difícil de usar, pero esto también implica un costo de rendimiento.
 
@@ -78,7 +78,7 @@ El sistema operativo tiene tres instancias:
 
 Existen algunos mecanismos que permiten delegarle el control al ***kernel***:
 
-- ***Interrupciones:*** Son señales asincrónicas que delegan el control al kernel para que se siga administrando el sistema operativo.
+- **Interrupciones:** Son señales asincrónicas que delegan el control al kernel para que se siga administrando el sistema operativo.
 - **Excepciones:** Son eventos del hardware causados por un proceso realizando una instrucción ilegal
 - ***System Calls:*** Al llamar a una de estas funciones, se le delega el control al kernel para luego ser retornado al usuario.
 

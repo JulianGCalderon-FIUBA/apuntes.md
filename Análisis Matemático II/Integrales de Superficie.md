@@ -46,7 +46,7 @@ $$
 
 ## Flujo
 
-Llamamos ***flujo*** a la integral de superficie de tipo vectorial.
+Llamamos **flujo** a la integral de superficie de tipo vectorial.
 
 Sea $S$ una superficie en $\mathbb{R}^3$, y $f$ un campo vectorial que representa la velocidad de un fluido en el espacio.
 

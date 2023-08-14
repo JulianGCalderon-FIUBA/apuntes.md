@@ -58,4 +58,4 @@ El i***nstantaneous throughput*** en cualquier instante del tiempo es la tasa a 
 
 Supongamos un servidor y un cliente conectados por dos ***communication links*** y un ***router***. Si definimos $R_s$ como la tasa del ***link*** entre el servidor y el *router* y $R_c$ como la tasa del link entre el ***router*** y el cliente. Entonces el ***throughput*** sera el minimo de estos dos valores, este será la ***transmission rate*** del ***bottleneck link***. Hoy en día, este ***bottleneck*** link ***se suele encontrar en la red de acceso.
 
-Para casos donde no hay tráfico interviniendo, el ***throughput*** se puede aproximar simplemente como el mínimo de los ***transmission rates*** a lo largo del recorrido. Pero en casos donde hay ***tráfico***, un ***link*** con alta ***transmission rate*** puede perfectamente ser el ***bottleneck link***.
+Para casos donde no hay tráfico interviniendo, el ***throughput*** se puede aproximar simplemente como el mínimo de los ***transmission rates*** a lo largo del recorrido. Pero en casos donde hay **tráfico**, un ***link*** con alta ***transmission rate*** puede perfectamente ser el ***bottleneck link***.

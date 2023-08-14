@@ -130,7 +130,7 @@ Curiosamente, observamos que los grafos resultantes son planares.
 
 ![[Operaciones entre Grafos 4.png]]
 
-***Observación:*** El dual siempre es conexo, por la definición de ***cara***.
+**Observación:** El dual siempre es conexo, por la definición de ***cara***.
 
 ## Grafo Arista
 

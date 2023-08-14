@@ -24,7 +24,7 @@ Vemos que el aumento no es lineal, ya que a medida que aumenta $N$, también aum
 
 ## BitTorrent
 
-Es un protocolo popular para la distribución de archivos. En la jerga de *BitTorrent*, una colección de clientes participando en una distribución de un archivo particular se conoce como un ***torrent***. Los ***peers*** en un ***torrent*** se transfieren ***chunks*** de tamaño fijo de unos a otros. Los clientes ***descargan*** y ***envían*** ***chunks*** de forma simultánea.
+Es un protocolo popular para la distribución de archivos. En la jerga de *BitTorrent*, una colección de clientes participando en una distribución de un archivo particular se conoce como un ***torrent***. Los ***peers*** en un ***torrent*** se transfieren ***chunks*** de tamaño fijo de unos a otros. Los clientes **descargan** y ***envían*** ***chunks*** de forma simultánea.
 
 Cada torrent tiene un nodo de infraestructura llamado ***tracker***. Cuando un usuario se una a un ***torrent,*** se registra en el *tracker* y le informa periódicamente que sigue allí. Cuando un ***peer*** se une a un ***tracker***, este le envía de forma aleatoria un subconjunto de *peers.* El usuario tratará de establecer conexiones *TCP* concurrentes con todos los clientes de la lista. Estos se llamarán ***neighboring peers***. El usuario solicita una lista de ***chunks*** de cada *neighboring peer* y les pide los que necesita, utilizando un enfoque de ***rarest first***.
 

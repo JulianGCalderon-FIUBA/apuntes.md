@@ -6,8 +6,8 @@ En lugar de partir el espacio de direcciones, lo dividimos en unidades de tamañ
 
 Este enfoque tiene un cierto número de ventajas:
 
-- ***flexibilidad***, el sistema puede soportar la abstracciones de espacios de memoria virtuales de forma efectiva, sin importar como utiliza el espacio de memoria ese proceso.
-- ***simplicidad,*** no tiene que buscar espacios de memoria con los tamaños deseados, ya que los tamaños son todos iguales. Solo necesita encontrar la cantidad de páginas deseadas.
+- **flexibilidad**, el sistema puede soportar la abstracciones de espacios de memoria virtuales de forma efectiva, sin importar como utiliza el espacio de memoria ese proceso.
+- **simplicidad,** no tiene que buscar espacios de memoria con los tamaños deseados, ya que los tamaños son todos iguales. Solo necesita encontrar la cantidad de páginas deseadas.
 - *sin fragmentación externa*, como las páginas son de tamaño fijo, no necesita buscar las que tienen un tamaño particular
 
 Sin embargo, todavía hay algunos problemas a resolver cuando trabajamos con paginación.
@@ -26,7 +26,7 @@ Luego se busca, para el proceso actual, en que dirección de memoria se encuentr
 
 Estas *page tables* pueden volverse muy grandes, mucho más que la que teníamos con segmentación. Supongamos que necesitamos ***4 bytes*** por cada ***page table entry*** o ***PTE***, entonces necesitaremos ***4 MB*** por cada *page table* (una para cada proceso). Esto es una ***inmensa cantidad de memoria. Debido a su tamaño, no las guardaremos en la MMU. Al estar guardadas en memoria, la traducción será lentas, más adelante veremos como acelerar esto utilizando caché.
 
-Una page table es una estructura de datos que se usa para ***traducir*** direcciones de memoria virtuales. La más simple es una ***linear page table***, este es simplemente un array donde en cada índice es el *VPN*, y cada valor es *PFN.* Más adelante, veremos estructuras más eficientes.
+Una page table es una estructura de datos que se usa para **traducir** direcciones de memoria virtuales. La más simple es una ***linear page table***, este es simplemente un array donde en cada índice es el *VPN*, y cada valor es *PFN.* Más adelante, veremos estructuras más eficientes.
 
  Dentro de cada ***page entry***, tendremos ciertos ***bits*** que nos dan información sobre cada traducción:
 

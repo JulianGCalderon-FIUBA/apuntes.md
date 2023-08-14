@@ -145,7 +145,7 @@ $$
 
 ## Función Cóncava Seccionalmente Lineal
 
-En esta situación, crearemos una estructura del tipo ***represa*** tal que cuando se llena el primer ***dique***, se habilita el segundo. De esa forma, si $X$ pertenece al intervalo $(M_{i-1}, M_i)$. Entonces todos los $X_j$ previos a $X_i$ estarán completos. Con el valor de $X_i$ relativo a los otros *diques*.
+En esta situación, crearemos una estructura del tipo **represa** tal que cuando se llena el primer ***dique***, se habilita el segundo. De esa forma, si $X$ pertenece al intervalo $(M_{i-1}, M_i)$. Entonces todos los $X_j$ previos a $X_i$ estarán completos. Con el valor de $X_i$ relativo a los otros *diques*.
 
 De esta forma, declararemos la variable $Y_i$ que valdrá uno únicamente si el intervalo apropiado esta completo.
 

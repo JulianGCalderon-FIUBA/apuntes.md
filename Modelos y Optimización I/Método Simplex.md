@@ -1,6 +1,6 @@
-El método ***Simplex***, desarrollado por ***George Dantzig*** en 1947, se utiliza para resolver problemas de programación lineal continua, de forma eficiente.
+El método **Simplex**, desarrollado por *George Dantzig* en 1947, se utiliza para resolver problemas de programación lineal continua, de forma eficiente.
 
-Una vez planteado el problema con las inecuaciones, el modelo deberá transformar las inecuaciones en igualdades utilizando las variables ***slack***.
+Una vez planteado el problema con las inecuaciones, el modelo deberá transformar las inecuaciones en igualdades utilizando las variables *slack*.
 
 > [!example]- Planteo Del Problema
 >
@@ -15,7 +15,7 @@ Una vez planteado el problema con las inecuaciones, el modelo deberá transforma
 > end;
 > ```
 >
-> Automáticamente, el *software* generará las variables ***slack*** necesarias para convertir las desigualdades en igualdades. Además, en el funcional todas la variables deben tener un coeficiente (puede ser cero)
+> Automáticamente, el *software* generará las variables *slack* necesarias para convertir las desigualdades en igualdades. Además, en el funcional todas la variables deben tener un coeficiente (puede ser cero)
 >
 > ```bash
 > maximize 8*X1 + 10*X2 + 0*X3 + 0*X4 + 0*X5;
@@ -39,7 +39,7 @@ $$
 
 Se definen las variables:
 
-- $c_j:$ Son los coeficientes asociados a las variables $x_j$. Las variables ***slack*** también seran tenidas en cuenta.
+- $c_j:$ Son los coeficientes asociados a las variables $x_j$. Las variables *slack* también seran tenidas en cuenta.
 - $a_{ij}:$ El coeficiente de la variable $j$ en la restricción $i$
 - $b_i:$ El termino independientes de la restricción $i$
 
@@ -53,55 +53,57 @@ Z = \ & CX  \\
 \end{align*}
 $$
 
-Análogamente definimos, siendo $n$ la cantidad de variables, y $m$ la cantidad de restricciones:
+Análogamente, definimos, siendo $n$ la cantidad de variables, y $m$ la cantidad de restricciones:
 
 - $C^{1\times n}:$ Vector de coeficientes de las variables en el funcional.
 - $X^{n\times 1}:$ Vector de variables del problema.
 - $A^{m\times n}:$ Matriz de coeficientes de las variables en las restricciones.
 - $B^{m\times 1}:$ Vector de términos independientes de las restricciones.
-- ***Planteo Matricial***
 
-	A partir de los datos del problema, transformamos la forma algebraica a su forma matricial. El vector $C$ tendrá los coeficientes del funcional, entonces:
 
-	$$
-	Z =
-    \begin{pmatrix}
-    8 & 10 & 0 & 0 & 0
-    \end{pmatrix}
-    \begin{pmatrix}
-    x_1 & x_2 & x_3 & x_4 & x_5
-    \end{pmatrix}^T
-	$$
-
-	La matriz $A$ tendrá los coeficientes de las restricciones, y el vector $B$ tendrá los términos independientes, entonces:
-
-	$$
-    \begin{pmatrix}
-    2 & 2 & 1 & 0 & 0 \\
-    0 & 4 & 0 & 1 & 0 \\
-    2 & 4 & 0 & 0 & 1
-    \end{pmatrix}
-    \begin{pmatrix}
-    x_1 \\
-    x_2 \\
-    x_3 \\
-    x_4 \\
-    x_5
-    \end{pmatrix} =
-    \begin{pmatrix}
-    600 \\
-    600 \\
-    801
-    \end{pmatrix}
-    $$
-
-	Notamos que debido a las restricciones ***slack***, podremos hallar una matriz ***identidad*** dentro de $A$.
+> [!example]- Planteo Matricial
+>
+> A partir de los datos del problema, transformamos la forma algebraica a su forma matricial. El vector $C$ tendrá los coeficientes del funcional, entonces:
+> 
+> $$
+> Z =
+> \begin{pmatrix}
+> 8 & 10 & 0 & 0 & 0
+> \end{pmatrix}
+> \begin{pmatrix}
+> x_1 & x_2 & x_3 & x_4 & x_5
+> \end{pmatrix}^T
+> $$
+> 
+> La matriz $A$ tendrá los coeficientes de las restricciones, y el vector $B$ tendrá los términos independientes, entonces:
+> 
+> $$
+> \begin{pmatrix}
+> 2 & 2 & 1 & 0 & 0 \\
+> 0 & 4 & 0 & 1 & 0 \\
+> 2 & 4 & 0 & 0 & 1
+> \end{pmatrix}
+> \begin{pmatrix}
+> x_1 \\
+> x_2 \\
+> x_3 \\
+> x_4 \\
+> x_5
+> \end{pmatrix} =
+> \begin{pmatrix}
+> 600 \\
+> 600 \\
+> 801
+> \end{pmatrix}
+> $$
+> 
+> Notamos que debido a las restricciones *slack*, podremos hallar una matriz identidad dentro de $A$.
 
 ## Teoremas
 
 Debido a que el funcional es una función lineal, hallaremos el máximo (o el mínimo) en uno de los vértices del poliedro de soluciones factibles. Para reconocer un vértice, sabemos que la cantidad máxima de variables que pueden ser distintas de cero en un vértice es igual a la cantidad de restricciones que tiene el problema (en nuestro caso hay tres restricciones).
 
-Para desarrollar el método, ***Dantzig*** se basó en varios teoremas:
+Para desarrollar el método, *Dantzig* se basó en varios teoremas:
 
 ### Teorema 1
 
@@ -119,7 +121,7 @@ Si se puede encontrar en la matriz $A$ del problema un conjunto de $m$ vectores 
 
 $X$ es un vector $n$-dimensional cuyos últimos $n-k$ elementos son cero.
 
-Para encontrarse en un extremo, deben intersecar $n-k$ restricciones, por cada restriccisón, su variable ***slack*** debe ser 0, entonces hay por lo menos $n - k$ variables que valen cero. Luego a lo sumo tendremos $k$ variables con valor positivo.
+Para encontrarse en un extremo, deben intersecar $n-k$ restricciones, por cada restriccisón, su variable *slack* debe ser 0, entonces hay por lo menos $n - k$ variables que valen cero. Luego a lo sumo tendremos $k$ variables con valor positivo.
 
 ### Teorema 4
 
@@ -367,7 +369,7 @@ $$
 x_1 \geq 2
 $$
 
-Luego de agregar las variables ***slack***, tendremos:
+Luego de agregar las variables *slack*, tendremos:
 
 $$
 x_1 - x_2 = 2

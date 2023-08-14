@@ -2,9 +2,9 @@
 
 **Calidad (ISO)**: La totalidad de prestaciones y características de un producto o servicio que generan su capacidad de satisfacer necesidades explícitas o implícitas
 
-***Verificación:*** Es un conjunto de actividades que compara un producto del ciclo de vida con las características exigidas para ese producto. El sistema ha sido construido correctamente
+**Verificación:** Es un conjunto de actividades que compara un producto del ciclo de vida con las características exigidas para ese producto. El sistema ha sido construido correctamente
 
-***Validación:*** Conjunto de actividades que permiten garantizar que un sistema es capaz de cumplir con su uso previsto, metas y objetivos. Se ha construido el sistema correcto.
+**Validación:** Conjunto de actividades que permiten garantizar que un sistema es capaz de cumplir con su uso previsto, metas y objetivos. Se ha construido el sistema correcto.
 
 La verificación y validación pueden tener lugar en cualquier momento del ciclo de vida del producto.
 

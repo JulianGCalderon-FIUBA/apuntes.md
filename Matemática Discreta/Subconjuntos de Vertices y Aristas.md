@@ -1,6 +1,6 @@
 ## Clique y Anticlique
 
-Un **clique** es un subconjunto de vertices tal que cualquier par de ellos esta unido por una arista, también llamado ***clan***.
+Un **clique** es un subconjunto de vertices tal que cualquier par de ellos esta unido por una arista, también llamado **clan**.
 
 - El numero de clique $\omega(G)$ es el cardinal del clique máximo.
 

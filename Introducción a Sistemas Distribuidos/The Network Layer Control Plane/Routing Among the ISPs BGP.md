@@ -2,7 +2,7 @@ Cuando movemos un paquete con una dirección de envío y destino dentro del mism
 
 ## 1. The Role of BGP
 
-En ***BGP*** los paquete no son enviados a una dirección especifica de destino, sino a ***CIDRized prefixes***. Cada uno de ellos puede representar una ***subred*** o una colección de ***subredes***. Las entradas de la tabla de envío serán de la forma *`(x,l)`* donde *`x`* es un prefijo *`(138.16.68/22)`* y *`l`* es un numero de interfaz de una de las interfaces del router.
+En ***BGP*** los paquete no son enviados a una dirección especifica de destino, sino a ***CIDRized prefixes***. Cada uno de ellos puede representar una **subred** o una colección de **subredes**. Las entradas de la tabla de envío serán de la forma *`(x,l)`* donde *`x`* es un prefijo *`(138.16.68/22)`* y *`l`* es un numero de interfaz de una de las interfaces del router.
 
 El protocolo ***BGP*** provee una forma para que cada ***router:***
 

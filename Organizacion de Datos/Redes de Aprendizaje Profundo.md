@@ -43,7 +43,7 @@ Estas redes tienen distintas capas, son complejas:
 - ***Capa Pooling:*** Una capa que reduce la dimensionalidad de la entrada
 - ***Capa Fully Connected:*** Perceptrón final de dos capas que clasifica la salida.
 
-***Convolución:*** Es una forma de combinar dos funciones en una función nueva. Podemos decir que le aplica la función a la entrada para obtener una entrada simplificada. Por ejemplo, detectar líneas de una imagen
+**Convolución:** Es una forma de combinar dos funciones en una función nueva. Podemos decir que le aplica la función a la entrada para obtener una entrada simplificada. Por ejemplo, detectar líneas de una imagen
 
 ***Relu:*** Es una función de activación. devuelve el máximo entre la entrada y el valor cero.
 

@@ -1,6 +1,6 @@
 ## Latencia
 
-***Latencia:*** La latencia es el retardo entre un estímulo y la respuesta. Es un valor conceptual
+**Latencia:** La latencia es el retardo entre un estímulo y la respuesta. Es un valor conceptual
 
 ***RTT:*** El RTT es una medida aproximada de la latencia, es el tiempo que le toma a un paquete ir a un ***host*** de destino y volver. Una forma de medirlo es a través del comando ***ping***.
 
@@ -153,7 +153,7 @@ $$
 \text{Destination} \oplus \text{Mask} == \text{Prefix}
 $$
 
-El paquete deberá ser enviado a la interfaz indicada por la entrada de la tabla con el prefijo más restrictivo (más largo) que coincide. Esto se debe a que si una ***subred*** *particular* está incluida en otra, entonces debe enviarle el paquete a la particular.
+El paquete deberá ser enviado a la interfaz indicada por la entrada de la tabla con el prefijo más restrictivo (más largo) que coincide. Esto se debe a que si una **subred** *particular* está incluida en otra, entonces debe enviarle el paquete a la particular.
 
 ***Default Gateway:*** El ***default gateway*** es el puerto configurado para cualquier entrada que no coincide con la tabla, se denota con el prefijo/mascara $\text{0.0.0.0/0}$, esto se debe a que, por lo que vimos recién, cualquier dirección **IP** coincidirá con esta entrada, pero no la preferirá por sobre cualquier otra entrada (ya que es de longitud mínima).
 
@@ -199,9 +199,9 @@ $$
 T_a = A + R + 2
 $$
 
-Las conexiones entre los ***routers*** también son ***subredes***, por lo que una conexión punto a punto entre dos ***routers*** necesitaría $2 + 2 = 4$ direcciones, mientras que una entre tres ***routers*** necesitaría $3 + 2 = 5$ direcciones.
+Las conexiones entre los ***routers*** también son **subredes**, por lo que una conexión punto a punto entre dos ***routers*** necesitaría $2 + 2 = 4$ direcciones, mientras que una entre tres ***routers*** necesitaría $3 + 2 = 5$ direcciones.
 
-Debido a como se funcionan las máscaras, solo se pueden entregar cantidades de direcciones que sean potencias de dos, por lo que si una ***subred*** necesita $5$ direcciones, debemos entregarle por lo menos $2^3=8$. Nos quedaremos con la menor potencia de dos que nos proporcione al menos la cantidad de redes necesarias.
+Debido a como se funcionan las máscaras, solo se pueden entregar cantidades de direcciones que sean potencias de dos, por lo que si una **subred** necesita $5$ direcciones, debemos entregarle por lo menos $2^3=8$. Nos quedaremos con la menor potencia de dos que nos proporcione al menos la cantidad de redes necesarias.
 
 Para evitar tener tablas mal configuradas, debemos entregar subespacios de direcciones de forma creciente en orden de mayor cantidad de redes solicitadas a menor.
 

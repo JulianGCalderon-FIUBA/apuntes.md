@@ -2,7 +2,7 @@
 
 Dos grafos se consideran iguales si coinciden los tres elementos de la terna que lo definen. EN cambio, dos grafos simples son isomorfos solo si preservan todos sus *invariantes,* pero la recíproca es falsa.
 
-Llamamos ***invariantes de un grafo*** a cualquier propiedad que se mantiene ante isomorfismos,. Ningún conjunto de variantes es un juego completo: Conexidad, Secuencia, Sucesión, Diámetro, Centro, Periferias.
+Llamamos **invariantes de un grafo** a cualquier propiedad que se mantiene ante isomorfismos,. Ningún conjunto de variantes es un juego completo: Conexidad, Secuencia, Sucesión, Diámetro, Centro, Periferias.
 
 Si dos grafos simples son isomorfos, cada grafo es representante de la clase de todos los grafos que le son isomorfos, y entonces puede prescindirse de las etiquetas (grafos no etiquetados)
 

@@ -2,7 +2,7 @@
 
 Un ejemplo simple de **heurística** puede ser:
 
-1. Ordenar los elementos por el índice ***precio/peso***, de mayor a menor. En caso de empate, el de menor peso. En caso de empate, por orden alfabético.
+1. Ordenar los elementos por el índice **precio/peso**, de mayor a menor. En caso de empate, el de menor peso. En caso de empate, por orden alfabético.
 2. Mientras queden elementos en la lista:
 	1. Tomo el primer elemento de la lista y lo quito de la lista:
 	2. Si entra en la mochila, lo agrego y recalculo el espacio disponible
@@ -53,7 +53,7 @@ $$
 
 ### Dantzig
 
-A la solución anterior, ***Dantzig*** le aplicó una condición de integralidad. La cota superior será el entero menor mas cercano a la cota resuelta por relajación lineal, ya que nunca podremos encontrar una valor de óptimo no entero.
+A la solución anterior, *Dantzig* le aplicó una condición de integralidad. La cota superior será el entero menor mas cercano a la cota resuelta por relajación lineal, ya que nunca podremos encontrar una valor de óptimo no entero.
 
 $$
 U_1 = \lfloor CP(KP) \rfloor = \sum_{i=1}^{s-1}p_i + \bigg\lfloor \overline c\frac{p_s}{w_s} \bigg\rfloor
@@ -61,9 +61,9 @@ $$
 
 ### Martello & Toth
 
-Ellos superaron la cota de ***Dantzig***, estableciendo la integridad del elemento crítico. Es decir, plantean dos cotas, una si se ingresa el elemento crítico, y otra si no se ingresa el elemento crítico.
+Ellos superaron la cota de *Dantzig*, estableciendo la integridad del elemento crítico. Es decir, plantean dos cotas, una si se ingresa el elemento crítico, y otra si no se ingresa el elemento crítico.
 
-Si no se ingresa el elemento crítico, entonces el termino es igual al de ***Dantzig***, pero fraccionando el elemento siguiente al elemento crítico.
+Si no se ingresa el elemento crítico, entonces el termino es igual al de *Dantzig*, pero fraccionando el elemento siguiente al elemento crítico.
 
 $$
 W_0 = \sum_{i=1}^{s-1}p_i + \bigg\lfloor \overline c\frac{p_{s+1}}{w_{s+1}} \bigg\rfloor

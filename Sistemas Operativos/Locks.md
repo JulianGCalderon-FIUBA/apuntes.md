@@ -42,7 +42,7 @@ Podemos hacer un análisis de su efectividad según los criterios mencionados an
 
 - **C***orrectness***, el spin lock provee exclusión mutua.
 - **F***airness***, los spinlocks no proveen ninguna garantía de que un ***thread*** no va a esperar infinitamente.
-- ***Performance,*** si trabajamos con una única CPU, entonces ***s***e desperdician muchos ciclos, por lo que esta solución es extremadamente ineficiente. Con múltiples CPUs, este enfoque performa bastante bien (siempre y cuando haya aproximadamente la misma cantidad de ***threads*** que de ***procesadores***).
+- ***Performance,*** si trabajamos con una única CPU, entonces ***s***e desperdician muchos ciclos, por lo que esta solución es extremadamente ineficiente. Con múltiples CPUs, este enfoque performa bastante bien (siempre y cuando haya aproximadamente la misma cantidad de ***threads*** que de **procesadores**).
 
 ## Compare-And-Swap
 

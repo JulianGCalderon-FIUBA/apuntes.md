@@ -14,8 +14,8 @@ Cuando el usuario accede a cierta dirección de memoria virtual $\text A$, el si
 
 ## Objetivos
 
-Uno de los objetivos principales de la ***transparencia***, se busca que la memoria virtual sea invisible al usuario, de forma que el proceso se comporte como si fuese su propia memoria física.
+Uno de los objetivos principales de la **transparencia**, se busca que la memoria virtual sea invisible al usuario, de forma que el proceso se comporte como si fuese su propia memoria física.
 
-Otro objetivo importante es el de la ***eficiencia***, tanto en términos de tiempo como espacio. Para que esto sea posible, el sistema operativo confía en el soporte del hardware para lograrlo, como las TLBs.
+Otro objetivo importante es el de la **eficiencia**, tanto en términos de tiempo como espacio. Para que esto sea posible, el sistema operativo confía en el soporte del hardware para lograrlo, como las TLBs.
 
 Por último, es importante la **protección.** El sistema operativo debe asegurarse que a pesar de tener un mapa de direcciones completo, el usuario solo pueda acceder a aquella memoria que le pertenece, que el sistema operativo le dio permiso de acceder.

@@ -30,7 +30,7 @@ Este enfoque tiene varios ventajas obvias. En primer lugar, solo se reserva memo
 
 Por otro lado, las páginas de tablas pueden entrar cuidadosamente en un frame, por lo que no tendremos fragmentación externa.
 
-Además, al no tener la memoria contigua, es más fácil encontrar espacio libre para las tablas. Esto es así ya que agregamos un nivel de ***indirección***.
+Además, al no tener la memoria contigua, es más fácil encontrar espacio libre para las tablas. Esto es así ya que agregamos un nivel de **indirección**.
 
 En contraste, esta solución es un poco más costosa, ya que tendremos dos accesos a memoria. Uno para la *page directory*, y otro para la *page table*. Esta solución también es un poco más compleja que las tablas lineales, pero a veces es necesario utilizar soluciones complejas, teniendo en cuenta el **trade-off** que ofrecen.
 

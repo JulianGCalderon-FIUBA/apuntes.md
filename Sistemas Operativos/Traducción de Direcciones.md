@@ -34,4 +34,4 @@ Gracias a este espacio de traducciones, es muy simple para el sistema operativo 
 
 Por último, el sistema operativo debe proveer **exception handlers**, funciones a ser llamadas en cuanto se lance la excepción correspondiente. Estos handlers son instalados en ***boot*** ***time***.
 
-Como la memoria del proceso tiene tamaño fijo, puede tener reservada memoria que no utiliza, esto es conocido como ***fragmentación interna***. El primer enfoque para solucionar esto sera una técnica un poco más avanzada llamada ***segmentación***.
+Como la memoria del proceso tiene tamaño fijo, puede tener reservada memoria que no utiliza, esto es conocido como ***fragmentación interna***. El primer enfoque para solucionar esto sera una técnica un poco más avanzada llamada **segmentación**.
