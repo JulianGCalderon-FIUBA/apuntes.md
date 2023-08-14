@@ -2,18 +2,18 @@ Para resolver problemas de programación lineal entera, tendremos distintas téc
 
 La técnica trivial para problemas cuyas variables son bivalentes es la de enumeración o fuerza bruta. Probamos todas las posibilidades hasta hallar la óptima.
 
-Los métodos pseudo-booleanos son aquellos cuyas todas variables son ***bivalentes***. En ese caso, el problema se convierte en un conjunto de expresiones de algebra de *Boole* y se resuelve para maximizar la función objetivo.
+Los métodos pseudo-booleanos son aquellos cuyas todas variables son **bivalentes**. En ese caso, el problema se convierte en un conjunto de expresiones de algebra de *Boole* y se resuelve para maximizar la función objetivo.
 
 ## Branch & Bound
 
 Tendremos un árbol de enumeración con la raíz correspondiente al problema real. El problema original se resuelve con programación lineal continua y se verifica si las variables deseadas tomaron valores enteros. Si tomaron valor entero, entonces finaliza el método.
 
-Si alguna variable deseada no tomo valor entero, debemos aplicar ***branching***. Este método consiste en dividir en dos el poliedro con el que estamos trabajando. Supongamos que la variable $X_2$ un valor continuo $\alpha$, entonces creamos dos subproblemas a partir del nodo raíz. Estos subproblemas contienen las mismas restricciones del problema anterior, y además $X_2 \leq \lfloor X_2 \rfloor$ o $X_2 \geq \lceil X_2 \rceil$, respectivamente.
+Si alguna variable deseada no tomo valor entero, debemos aplicar **branching**. Este método consiste en dividir en dos el poliedro con el que estamos trabajando. Supongamos que la variable $X_2$ un valor continuo $\alpha$, entonces creamos dos subproblemas a partir del nodo raíz. Estos subproblemas contienen las mismas restricciones del problema anterior, y además $X_2 \leq \lfloor X_2 \rfloor$ o $X_2 \geq \lceil X_2 \rceil$, respectivamente.
 
 Una vez realizada la bifurcación, resolvemos ambos problemas como si las variables fueran continuas (relajación lineal).
 
 - Si alguno de los dos problemas encontró solución con las variables deseadas enteras, entonces anotaremos esta solución como una posible solución al problema entero.
-- Si alguno de los dos problemas no encontró solución con las variables deseadas enteras, entonces continuaremos el algoritmo bifurcando dicha solución. En caso de que el funcional hallado sea menor que el de alguna solución entera ya hallada, entonces no valdrá seguir explorando este camino. Esto se debe a que al bifurcar el modelo, acortamos el poliedro de soluciones, por lo que el funcional solo podrá bajar. Esto se denomina ***bound***.
+- Si alguno de los dos problemas no encontró solución con las variables deseadas enteras, entonces continuaremos el algoritmo bifurcando dicha solución. En caso de que el funcional hallado sea menor que el de alguna solución entera ya hallada, entonces no valdrá seguir explorando este camino. Esto se debe a que al bifurcar el modelo, acortamos el poliedro de soluciones, por lo que el funcional solo podrá bajar. Esto se denomina **bound**.
 - Si ninguno de los dos problemas encontró solución, se continua con aquel de mayor funcional y el otro se deja en espera hasta agotar la otra rama elegida.
 - Si alguno de los dos problemas no encontró solución (incompatible), entonces ignoramos esta rama (no bifurcamos).
 
@@ -27,12 +27,12 @@ Definiremos algunos conceptos para comenzar a estudiar este método:
 
 - Una **desigualdad valida** es aquella que se cumpla en todos los puntos del poliedro entero. Esta desigualdad puede ser valida para el problema entero, pero no para el continuo. Justamente son estos problemas los que nos interesan.
 - Una **cara** es una desigualdad valida cuya intersección con el poliedro no sea vacía.
-- Una ***faceta*** es una desigualdad valida cuya intersección con el poliedro tiene una dimensión menos que el poliedro original.
-- Una ***capsula convexa*** es el recinto mas chico que contiene todas las soluciones factibles (enteras). Este se lo puede formular a partir de únicamente facetas. Todos los métodos que veremos se tratan de reducir el poliedro a su capsula convexa equivalente.
+- Una **faceta** es una desigualdad valida cuya intersección con el poliedro tiene una dimensión menos que el poliedro original.
+- Una **capsula convexa** es el recinto mas chico que contiene todas las soluciones factibles (enteras). Este se lo puede formular a partir de únicamente facetas. Todos los métodos que veremos se tratan de reducir el poliedro a su capsula convexa equivalente.
 
-Un ***plano de corte*** es una desigualdad valida entera que no es parte de la formulación original y no es satisfecha por la solución actual de la relajación lineal actual (continua). Existe un algoritmo para encontrarlos.
+Un **plano de corte** es una desigualdad valida entera que no es parte de la formulación original y no es satisfecha por la solución actual de la relajación lineal actual (continua). Existe un algoritmo para encontrarlos.
 
-Los ***planos de corte generales*** solo se basan en la condición de integralidad de las variables y pueden ser utilizados para cualquier problema de programación lineal entera, aunque suelen ser muy débiles.
+Los **planos de corte generales** solo se basan en la condición de integralidad de las variables y pueden ser utilizados para cualquier problema de programación lineal entera, aunque suelen ser muy débiles.
 
 ### Planos de Corte Gomory
 
@@ -62,7 +62,7 @@ $$
 
 Este sistema de ecuaciones despejado, puede ser obtenido de la matriz de coeficientes de la tabla simplex. Notemos que esta tabla ya tiene los vectores canónicos en las variables pertenecientes a la base.
 
-Aplicamos al problema un plano de corte de ***Chvatal/Gomory, como:***
+Aplicamos al problema un plano de corte de **Chvatal/Gomory, como:**
 
 $$
 X_i + \sum_{k=m+1}^{n} \lfloor -a'_{ik} \rfloor X_k  \leq \lfloor \text{Valor de $X_i$}\rfloor,  j\in1,\cdots,m

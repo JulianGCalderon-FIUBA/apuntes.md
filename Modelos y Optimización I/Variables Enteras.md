@@ -23,7 +23,7 @@ $$
 Y_q \le Y_{p_1} + Y_{p_2} + \dots + Y_{p_n} \le nY_q
 $$
 
-También, podemos simular una compuesto lógica ***and*** para la variable $r$ tal que $pq = r$ de la siguiente forma:
+También, podemos simular una compuesto lógica **AND** para la variable $r$ tal que $pq = r$ de la siguiente forma:
 
 $$
 2Y_r \leq Y_p + Y_q  \leq 1 + Y_r
@@ -145,7 +145,7 @@ $$
 
 ## Función Cóncava Seccionalmente Lineal
 
-En esta situación, crearemos una estructura del tipo **represa** tal que cuando se llena el primer ***dique***, se habilita el segundo. De esa forma, si $X$ pertenece al intervalo $(M_{i-1}, M_i)$. Entonces todos los $X_j$ previos a $X_i$ estarán completos. Con el valor de $X_i$ relativo a los otros *diques*.
+En esta situación, crearemos una estructura del tipo **represa** tal que cuando se llena el primer **dique**, se habilita el segundo. De esa forma, si $X$ pertenece al intervalo $(M_{i-1}, M_i)$. Entonces todos los $X_j$ previos a $X_i$ estarán completos. Con el valor de $X_i$ relativo a los otros diques.
 
 De esta forma, declararemos la variable $Y_i$ que valdrá uno únicamente si el intervalo apropiado esta completo.
 

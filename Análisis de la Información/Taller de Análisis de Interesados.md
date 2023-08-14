@@ -10,7 +10,7 @@
 
 ## Onion Model
 
-- Define el ***stakeholder*** como alguien que gana o pierde algo como resultado del proyecto.
+- Define el *stakeholder* como alguien que gana o pierde algo como resultado del proyecto.
 - El producto a desarrollar es el centro del diagrama.
 - En la capa interna está el sistema del producto, los usuarios están aquí. Aquí están las características socio técnicas.
 - En la capa del medio, está el sistema contenedor. Esta capa también es socio-técnica.

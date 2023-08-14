@@ -34,16 +34,16 @@ Sea $G$ u grafo, $S \in V(G)$ es un conjunto de vertices dominantes *sii* $\bigc
 
 Al igual que con los vertices, un apareamiento es un conjunto independiente de aristas (dos aristas son independientes si no tienen un vértice común).
 
-Un apareamiento será maximal si no es subconjunto propio de otro ***matching*** y es máximo si no hay otro con mayor cardinal.
+Un apareamiento será maximal si no es subconjunto propio de otro *matching* y es máximo si no hay otro con mayor cardinal.
 
-- El cardinal del máximo apareamiento se denomina $\alpha'(G)$, y se conoce como ***numero de matching***.
-- Un ***matching*** es perfecto si es a su vez, un cubrimiento de aristas.
+- El cardinal del máximo apareamiento se denomina $\alpha'(G)$, y se conoce como numero de *matching*.
+- Un *matching* es perfecto si es a su vez, un cubrimiento de aristas.
 
 ## Cubrimiento de Aristas
 
 Análogo al cubrimiento de vertices. $S$ es un cubrimiento de aristas si y solo cualquier vértice del grafo es alcanzado por una de las aristas del cubrimiento.
 
-Un cubrimiento de aristas será minimal si no incluye a otro ***matching*** y es mínimo si no hay otro con menor cardinal.
+Un cubrimiento de aristas será minimal si no incluye a otro *matching* y es mínimo si no hay otro con menor cardinal.
 
 El numero del cardinal mínimo se denota $\beta'(G)$ se conoce como numero de cubrimiento de aristas
 

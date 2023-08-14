@@ -24,7 +24,7 @@ La observación puede ser pasiva (solo se observa) o activa (hacer el trabajo ba
 
 ## Talleres
 
-Consiste en reunir un grupo de expertas con el objetivo común de encontrar una solución a un problema compartido. Son actividades intensas y de duración limitada que debe ser correctamente gestionada. Se busca que los ***stakeholder*** discutan las diferencias y puedan llegar a un acuerdo.
+Consiste en reunir un grupo de expertas con el objetivo común de encontrar una solución a un problema compartido. Son actividades intensas y de duración limitada que debe ser correctamente gestionada. Se busca que los *stakeholder* discutan las diferencias y puedan llegar a un acuerdo.
 
 ## Encuestas
 
@@ -48,7 +48,7 @@ Tiene como propósito examinar documentación existente con el propósito identi
 
 ## Análisis de Causa Raíz
 
-También conocido como diagrama ***espina de pescado,*** Tiene como propósito determinar las causas que originan un problema. Estas causas estarán ordenadas en categorías y en ***sub causas*** que estén relacionadas. Algunas categorías utilizadas son personas, procesos, métricas, etc. Es útil para guiar discusiones, utilizándolo en combinación con otras técnicas.
+También conocido como diagrama **espina de pescado**, Tiene como propósito determinar las causas que originan un problema. Estas causas estarán ordenadas en categorías y en **sub causas** que estén relacionadas. Algunas categorías utilizadas son personas, procesos, métricas, etc. Es útil para guiar discusiones, utilizándolo en combinación con otras técnicas.
 
 ## Prototipado
 

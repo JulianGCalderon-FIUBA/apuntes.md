@@ -18,7 +18,7 @@ $$
 $$
 
 > [!note]
-> Si en lugar de partículas son cuerpos, el cálculo se hace a partir de los ***CM*** de cada cuerpo
+> Si en lugar de partículas son cuerpos, el cálculo se hace a partir de los *CM* de cada cuerpo
 
 ## Cantidad de Movimiento
 

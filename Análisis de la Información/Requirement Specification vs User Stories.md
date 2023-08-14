@@ -1,6 +1,6 @@
-Algunos discuten que las ***user stories*** no son requerimientos. Pero la realidad es que las especificaciones de requisitos se realiza erróneamente y el término se ha redefinido.
+Algunos discuten que las *user stories* no son requerimientos. Pero la realidad es que las especificaciones de requisitos se realiza erróneamente y el término se ha redefinido.
 
-***Requisito (IEEE)***: Una condición necesaria por un usuario para resolver un problema o alcanzar un objetivo
+**Requisito (IEEE)**: Una condición necesaria por un usuario para resolver un problema o alcanzar un objetivo
 
 La mayoría de las veces, se malinterpreta el requisito como una solución a un problema del usuario. Esto es erróneo. Si describen como funciona el sistema, no son requisitos.
 
@@ -8,7 +8,7 @@ Los grandes equipos de desarrollo tienen la responsabilidad de no solo generar l
 
 Se debe traducir de un **deseo** a un requerimiento formal. Debemos entender que quieren los usuarios. Muchas veces no saben lo que quieren hasta que se lo muestran.
 
-Si describimos únicamente él *¿qué debe hacer? En nuestros requerimientos, en lugar de ***¿cómo debe hacerlo?***, disminuimos la probabilidad de error.
+Si describimos únicamente él **¿qué debe hacer?** En nuestros requerimientos, en lugar de **¿cómo debe hacerlo?**, disminuimos la probabilidad de error.
 
 Si las historias de usuario se centran en detalles y restricciones de implementación, entonces no estamos hablando de requerimientos.
 

@@ -8,9 +8,9 @@
 
 La verificación y validación pueden tener lugar en cualquier momento del ciclo de vida del producto.
 
-***Control de Calidad:*** Apunta más a la evaluación operativa para determinar si lo que hemos producido cumple con los requerimientos de calidad. (verificación y validación caen en esta categoría)
+**Control de Calidad:** Apunta más a la evaluación operativa para determinar si lo que hemos producido cumple con los requerimientos de calidad. (verificación y validación caen en esta categoría)
 
-***Aseguramiento de Calidad:*** No tiene nada que ver con las pruebas, apunta a evaluar si los productos y mis procesos se adhieren a los estándares aplicables. Es importante marcar la diferencia, ya que mucha gente usa los términos indistintamente.
+**Aseguramiento de Calidad:** No tiene nada que ver con las pruebas, apunta a evaluar si los productos y mis procesos se adhieren a los estándares aplicables. Es importante marcar la diferencia, ya que mucha gente usa los términos indistintamente.
 
 ## Técnicas de verificación y validación
 
@@ -22,7 +22,7 @@ La prueba de aceptación es una técnica de validación, mientras que las otras 
 
 ## Actividades de Control de Calidad
 
-Tendremos actividades dinámicas y estáticas. Las actividades dinámicas están relacionadas con las pruebas del ***software***.
+Tendremos actividades dinámicas y estáticas. Las actividades dinámicas están relacionadas con las pruebas del *software*.
 
 ![[Verificar y Validar requerimientos 2.png|500]]
 

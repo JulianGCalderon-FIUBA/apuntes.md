@@ -1,8 +1,8 @@
 Esta ingeniería parte de una base de necesidades del usuario para generar requisitos. Los requisitos pueden ser descritos desde distintos puntos de vista:
 
 - **Requisitos de Negocio:** Desde el punto de vista de la organización que solicita el software. Utilizaremos artefactos como el documento de visión, concepto de operación, especificación de requisitos de negocio (BRD)
-- ***Requisitos de Usuario:*** Desde el punto de vista del usuario final. Utilizaremos estrategias de caja negra, describiremos únicamente la interacción de los actores con el sistema, sin detalles internos. Podremos utilizar casos de uso, historias de usuario, Especificación de requisitos de usuario (URD).
-- ***Requisitos de Software:*** Desde el punto de vista de los desarrolladores. A veces hay una capa mayor, denominada requisitos del sistema. No es un documento de diseño, sino una descripción abstracta de lo que deberá hacer, independientemente de la implementación. Se utiliza el documento SRS (especificación de requisitos de software).
+- **Requisitos de Usuario:** Desde el punto de vista del usuario final. Utilizaremos estrategias de caja negra, describiremos únicamente la interacción de los actores con el sistema, sin detalles internos. Podremos utilizar casos de uso, historias de usuario, Especificación de requisitos de usuario (URD).
+- **Requisitos de Software:** Desde el punto de vista de los desarrolladores. A veces hay una capa mayor, denominada requisitos del sistema. No es un documento de diseño, sino una descripción abstracta de lo que deberá hacer, independientemente de la implementación. Se utiliza el documento SRS (especificación de requisitos de software).
 
 Para cada uno de estos puntos de vista, usualmente se producen distintos documentos llamados especificaciones de requisitos. Los nombres de los documentos variarán de la audiencia y el alcance, pero el propósito colectivo es invariable: acordar entre las partes los requisitos del software a desarrollar.
 
@@ -111,7 +111,7 @@ Es una representación visual de los objetos o clases conceptuales del dominio d
 - Objetos y conceptos del mundo real
 - Personas, roles, organizaciones
 
-Sirven para entender y analizar el contexto del sistema a analizar. Se utiliza en combinación con otras técnicas como casos de uso e historias de usuarios. Para utilizarlo, emplearemos un diagrama de clases con la notación ***uml***. No representan objetos del lenguaje de programación, sino objetos de negocio. Es un modelo de análisis, no de diseño
+Sirven para entender y analizar el contexto del sistema a analizar. Se utiliza en combinación con otras técnicas como casos de uso e historias de usuarios. Para utilizarlo, emplearemos un diagrama de clases con la notación *UML*. No representan objetos del lenguaje de programación, sino objetos de negocio. Es un modelo de análisis, no de diseño
 
 ### Árbol de Funcionalidades (Feature Tree)
 

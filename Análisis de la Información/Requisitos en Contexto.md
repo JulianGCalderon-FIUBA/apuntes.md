@@ -15,7 +15,7 @@ Muchas veces, no sabemos que quieren los clientes. Se dan dos situaciones en par
 - Desarrollo de productos
 - Desarrollo de clientes
 
-Investigamos que producto podemos desarrollar, creamos un ***MVP***, obtenemos ***feedback*** de nuestros clientes.
+Investigamos que producto podemos desarrollar, creamos un *MVP*, obtenemos *feedback* de nuestros clientes.
 
 Este tipo de desarrollo es mucho más dinámico, ya que debemos descubrir nuestro público a medida que desarrollamos.
 
@@ -81,15 +81,15 @@ No hay actividades formales ni requisitos escritos. El eje se trata en programar
 
 ![[Requisitos en Contexto 7.png|500]]
 
-Se parte de una visión para generar un ***product backlog***. Que detalle las funcionalidades del sistema. Se elabora un ***sprint backlog*** con un subconjunto del product backlog que se van a desarrollar en el release. El sprint dura de 2 a 4 semanas, con reuniones diarias. Al final del ***sprint***, debería tener un producto potencialmente entregable.
+Se parte de una visión para generar un *product backlog*. Que detalle las funcionalidades del sistema. Se elabora un *sprint backlog* con un subconjunto del product backlog que se van a desarrollar en el release. El sprint dura de 2 a 4 semanas, con reuniones diarias. Al final del *sprint*, debería tener un producto potencialmente entregable.
 
-Usualmente, los requisitos se organizan en ***user story mapping*** y ***user stories***. Estos son recordatorios de reuniones con los clientes. De ser necesaria más información, se pueden utilizar documentación complementaria.
+Usualmente, los requisitos se organizan en *user story mapping* y *user stories*. Estos son recordatorios de reuniones con los clientes. De ser necesaria más información, se pueden utilizar documentación complementaria.
 
 El backlog se define constantemente a medida que se conoce más acerca del producto y sus requerimientos.
 
 ### FDD
 
-Se desarrolla un modelo inicial a partir de la idea del producto, y una lista de ***features*** a desarrollar. Luego se organiza en iteraciones que toman una pequeña porción de la lista de ***features***. A diferencia de otras técnicas, habla de la importancia de diseñar modelos del ***software***.
+Se desarrolla un modelo inicial a partir de la idea del producto, y una lista de *features* a desarrollar. Luego se organiza en iteraciones que toman una pequeña porción de la lista de *features*. A diferencia de otras técnicas, habla de la importancia de diseñar modelos del *software*.
 
 ![[Requisitos en Contexto 8.png|550]]
 
@@ -97,9 +97,9 @@ Tiene una estructura jerárquica para organizar las características a implement
 
 ### DAD
 
-Toma ideas del proceso unificado. Hay una fase de inspección, otra de construcción, y otra de transición (desaparece elaboración). El desarrollo es similar a ***SCRUM***.
+Toma ideas del proceso unificado. Hay una fase de inspección, otra de construcción, y otra de transición (desaparece elaboración). El desarrollo es similar a *SCRUM*.
 
-Cuando finaliza una iteración, se refina el ***product backlog***. Cuando termino de iterar, llego al final de la fase de construcción y comienza la producción.
+Cuando finaliza una iteración, se refina el *product backlog*. Cuando termino de iterar, llego al final de la fase de construcción y comienza la producción.
 
 Se sugiere el uso de *historias de usuario* para describir los requisitos.
 
@@ -112,7 +112,7 @@ Algunos problemas que suelen surgir son:
 - Hay resistencia de los usuarios a las nuevas funcionalidades
 - Impacto en funcionalidad existente y performance
 
-Es muy importante entender ***que*** hace el sistema con el cual debemos trabajar. Para esto, podemos:
+Es muy importante entender **que** hace el sistema con el cual debemos trabajar. Para esto, podemos:
 
 - Crear un árbol de funcionalidades.
 - Identificar clases de usuario
@@ -129,7 +129,7 @@ Es muy importante entender ***que*** hace el sistema con el cual debemos trabaja
 
 Implica tomar un sistema que está funcionando, y replicarlo en un nuevo sistema con los mismos requisitos. Debemos analizar si debemos eliminar algunos requisitos, cambiarlos, o crear nuevos. Algunas recomendaciones son:
 
-- Buscar un punto intermedio entre no documentar nada y documentar todo. Se debe realizar un ***tradeoff*** de que cosas viejas tomar, y cuáles no
+- Buscar un punto intermedio entre no documentar nada y documentar todo. Se debe realizar un *tradeoff* de que cosas viejas tomar, y cuáles no
 - Tener siempre en cuenta los objetivos de negocio
 - Crear un mapa de diálogo con las principales interfaces del usuario
 - Escribir historias de usuario o casos de uso principales de funcionalidades existentes y nuevos requisitos
@@ -141,7 +141,7 @@ Implica tomar un sistema que está funcionando, y replicarlo en un nuevo sistema
 
 En este caso, nos compramos un producto y debemos implementarlo. Son proyectos complejos con muchas interfaces y requerimientos.
 
-- Se pueden usar ***out of the box***
+- Se pueden usar *out of the box*
 - Se pueden configurar y usarlos
 - Podemos integrarlo con otros sistemas (lo que requerirá algo de desarrollo)
 - Podemos cometer el error de customizarlo, que llevara mucho trabajo. Generalmente, es mejor adaptarse al paquete, en lugar de adaptar el paquete.

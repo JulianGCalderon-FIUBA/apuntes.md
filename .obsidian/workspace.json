@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física II/Referencia del Potencial.md",
+                "file": "Análisis de la Información/Web Rest API.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física II/Referencia del Potencial.md"
+                "file": "Análisis de la Información/Web Rest API.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física II/Referencia del Potencial.md",
+                "file": "Análisis de la Información/Web Rest API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física II/Referencia del Potencial.md",
+                "file": "Análisis de la Información/Web Rest API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,6 +160,18 @@
   },
   "active": "114c3278ee40296f",
   "lastOpenFiles": [
+    "Análisis de la Información/Verificar y Validar requerimientos.md",
+    "Modelos y Optimización I/Variables Enteras.md",
+    "Análisis de la Información/Técnicas de Descubrimiento de Requisitos.md",
+    "Análisis de la Información/Técnicas de Análisis, Modelado y Especificación.md",
+    "Análisis de la Información/Taller de Análisis de Interesados.md",
+    "Matemática Discreta/Subconjuntos de Vertices y Aristas.md",
+    "Física I/Sistema de partículas.md",
+    "Modelos y Optimización I/Resolución de PLE.md",
+    "Análisis de la Información/Requisitos en Contexto.md",
+    "Análisis de la Información/Requirement Specification vs User Stories.md",
+    "Matemática Discreta/Relaciones.md",
+    "Física II/Referencia del Potencial.md",
     "Organizacion de Datos/Redes Recurrentes.md",
     "Organizacion de Datos/Redes Neuronales.md",
     "Organizacion de Datos/Redes de Aprendizaje Profundo.md",
@@ -174,18 +186,6 @@
     "Modelos y Optimización I/Modificaciones al Planteo.md",
     "Análisis de la Información/Modelos en la ingeniería de software.md",
     "Análisis Matemático II/Métodos de resolución.md",
-    "Modelos y Optimización I/Método Simplex.md",
-    "Matemática Discreta/Isomorfismos.md",
-    "Modelos y Optimización I/Introducción.md",
-    "Análisis Matemático II/Integrales de Superficie.md",
-    "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md",
-    "Modelos y Optimización I/Heurísticas para el Problema de la Mochila.md",
-    "Modelos y Optimización I/Heurísticas para Coloreo de Grafos.md",
-    "Modelos y Optimización I/Heurísticas.md",
-    "Matemática Discreta/Grafos Particulares.md",
-    "Matemática Discreta/Grafos Orientados.md",
-    "Física II/Fasores Complejos.md",
-    "Análisis Matemático II/Extremos de campos escalares.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",
