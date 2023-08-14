@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis de la Información/Web Rest API.md",
+                "file": "Sistemas Operativos/API de Threads.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "-path: (\"Introducción a Sistemas Distribuidos\" OR \"Sistemas Operativos\") /\\*{3}.*?\\*{3}",
+                "query": "\"zv",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis de la Información/Web Rest API.md"
+                "file": "Sistemas Operativos/API de Threads.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis de la Información/Web Rest API.md",
+                "file": "Sistemas Operativos/API de Threads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis de la Información/Web Rest API.md",
+                "file": "Sistemas Operativos/API de Threads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,8 +158,9 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "114c3278ee40296f",
+  "active": "178700d707526f5b",
   "lastOpenFiles": [
+    "Análisis de la Información/Web Rest API.md",
     "Análisis de la Información/Verificar y Validar requerimientos.md",
     "Modelos y Optimización I/Variables Enteras.md",
     "Análisis de la Información/Técnicas de Descubrimiento de Requisitos.md",
@@ -185,7 +186,6 @@
     "Matemática Discreta/Nociones Básicas.md",
     "Modelos y Optimización I/Modificaciones al Planteo.md",
     "Análisis de la Información/Modelos en la ingeniería de software.md",
-    "Análisis Matemático II/Métodos de resolución.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",
