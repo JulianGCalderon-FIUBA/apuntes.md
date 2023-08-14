@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física II/Campo Magnético.md",
+                "file": "Matemática Discreta/Alfabeto.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "/\\*..*?\\*",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física II/Campo Magnético.md"
+                "file": "Matemática Discreta/Alfabeto.md"
               }
             }
           },
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física II/Campo Magnético.md",
+                "file": "Matemática Discreta/Alfabeto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física II/Campo Magnético.md",
+                "file": "Matemática Discreta/Alfabeto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,8 +158,13 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "6060b098ee9aa43c",
+  "active": "178700d707526f5b",
   "lastOpenFiles": [
+    "Física II/Fuerza Magnética.md",
+    "Física II/Ecuaciones de Maxwell.md",
+    "Sistemas Operativos/API de Threads.md",
+    "Física II/Capacitores.md",
+    "Física II/Campo Magnético.md",
     "Física II/Ley de Gauss.md",
     "Física II/Circuitos en Resonancia.md",
     "Sistemas Operativos/API de Memoria.md",
@@ -180,11 +186,6 @@
     "Análisis Numérico/Polinomio de Hermite.md",
     "Análisis Numérico/Newton-Raphson.md",
     "Análisis Numérico/Iteración en un Punto Fijo.md",
-    "Análisis Numérico/Errores.md",
-    "Análisis Numérico/Descomposición LU.md",
-    "Análisis Numérico/Bisección.md",
-    "Análisis Matemático II/Curvas y superficies.md",
-    "Análisis Matemático II/Cuádricas.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
