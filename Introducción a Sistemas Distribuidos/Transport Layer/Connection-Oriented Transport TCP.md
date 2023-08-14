@@ -131,7 +131,7 @@ Cualquiera de los dos procesos puede elegir terminar la conexión, al ocurrir es
 1. El cliente envía un ***close command***, con el ***FIN*** ***bit*** en 1.
 2. El servidor lo recibe y envía un ***ACK*** para el segmento recibido
 3. El servidor envía su propio segmento de cierre, con el ***FIN bit*** en 1
-4. Finalmente, el cliente envia el ACK ***para el segmento de cierre y ambos hosts*** liberan los recursos utilizados.
+4. Finalmente, el cliente envia el ACK para el segmento de cierre y ambos hosts liberan los recursos utilizados.
 
 Durante la vida de una conexión ***TCP***, los ***hosts*** atraviesan distintos estados:
 

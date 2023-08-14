@@ -16,10 +16,10 @@ Este es un protocolo de capa de aplicación utilizado para el manejo de red. El 
 
 Se definen siete tipos de mensajes, conocidos como ***protocol data units (PDUs)***.
 
-- ***Get Request, Get Next Request, y Get Bulk Request***:** Son utilizados por el servidor para consultar uno o mas objetos ***MIB al dispositivo.*** Estos difieren en la granularidad de las consultas. El primero puede consultar uno o mas objetos, el segundo consulta el siguiente objeto en una lista, y el ultimo consulta grandes cantidades de información, por ejemplo de una gran tabla.
+- ***Get Request, Get Next Request, y Get Bulk Request***: Son utilizados por el servidor para consultar uno o mas objetos ***MIB al dispositivo.*** Estos difieren en la granularidad de las consultas. El primero puede consultar uno o mas objetos, el segundo consulta el siguiente objeto en una lista, y el ultimo consulta grandes cantidades de información, por ejemplo de una gran tabla.
 - ***Set Request*** es utilizado por un servidor para establecer uno o mas valores del dispositivo.
 - ***Inform Request*** es utilizado por el servidor para notificar otro servidor información ***MIB***.
-- ***Response PDU ***es típicamente utilizado por el dispositivo en respuesta a una consulta del servidor.
+- ***Response PDU*** es típicamente utilizado por el dispositivo en respuesta a una consulta del servidor.
 - ***Trap Message*** es utilizado para notificar al servidor de algún evento excepcional
 
 Usualmente, el protocolo es implementado a través de ***UDP***. Hay un campo de **ID** utilizado por el servidor para detectar consultas o respuestas perdidas. No hay ningún procedimiento de reenvío implementado, o si quiera si debe realizarse en primer lugar.

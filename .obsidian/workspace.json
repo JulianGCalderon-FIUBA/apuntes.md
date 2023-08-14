@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas Operativos/Very Simple File System.md",
+                "file": "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/WiFi 802 11 Wireless LANs.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"consiste en tener una cantidad de memoria fija para almacenar bloques\"",
+                "query": "\"carrier sends multiple access",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operativos/Very Simple File System.md"
+                "file": "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/WiFi 802 11 Wireless LANs.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operativos/Very Simple File System.md",
+                "file": "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/WiFi 802 11 Wireless LANs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operativos/Very Simple File System.md",
+                "file": "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/WiFi 802 11 Wireless LANs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,6 +160,13 @@
   },
   "active": "114c3278ee40296f",
   "lastOpenFiles": [
+    "Introducción a Sistemas Distribuidos/Transport Layer/Principles of Congestion Control.md",
+    "Introducción a Sistemas Distribuidos/Transport Layer/Connection-Oriented Transport TCP.md",
+    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Internet Protocol (IP) IPv4, Addressing, IPv6, and More.md",
+    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Cellular Internet Access.md",
+    "Introducción a Sistemas Distribuidos/The Network Layer Control Plane/Network Management and SNMP.md",
+    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Multiple Access Links and Protocols.md",
+    "Sistemas Operativos/Very Simple File System.md",
     "Sistemas Operativos/Concurrencia.md",
     "Sistemas Operativos/Bugs de Concurrencia.md",
     "Sistemas Operativos/API de Threads.md",
@@ -167,11 +174,7 @@
     "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless Links and Network Characteristics.md",
     "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Mobility Management Principles.md",
     "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Managing Mobility in Cellular Networks.md",
-    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Cellular Internet Access.md",
-    "Introducción a Sistemas Distribuidos/Transport Layer/Connection-Oriented Transport TCP.md",
-    "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Internet Protocol (IP) IPv4, Addressing, IPv6, and More.md",
     "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/Overview of Network Layer.md",
-    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Multiple Access Links and Protocols.md",
     "Análisis de la Información/Modelos en la ingeniería de software.md",
     "Análisis de la Información/Modelados de Dominio.md",
     "Análisis de la Información/Introducción al Diseño de Software.md",
@@ -183,9 +186,6 @@
     "Análisis de la Información/Historias de Usuario.md",
     "Análisis de la Información/Historias de Dominio.md",
     "Análisis de la Información/Gherkin.md",
-    "Análisis de la Información/Diseño de Datos.md",
-    "Análisis de la Información/Design Thinking.md",
-    "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",
