@@ -107,7 +107,7 @@ Si el problema tiene infinitas soluciones, la solución de menor norma es aquell
 
 ### Regresión Lineal
 
-Sí tenemos un conjunto de datos $(x_1, y_1), (x_2, y_2), \cdots, (x_n, y_n)$. Si suponemos que hay una relación lineal entre las variables $(y = mx + b)$, podemos buscar la ecuación que mejor se ajusta
+Si tenemos un conjunto de datos $(x_1, y_1), (x_2, y_2), \cdots, (x_n, y_n)$. Si suponemos que hay una relación lineal entre las variables $(y = mx + b)$, podemos buscar la ecuación que mejor se ajusta
 
 $$
 \begin{bmatrix}

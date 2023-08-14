@@ -4,7 +4,7 @@ $$
 A\cap B = \{x/x\in A\land x\in B\}
 $$
 
-Si $A, B$ son dos subespacios, entonces la intersección de ambos sigue siendo un subespacio,
+Si $A, B$ son dos subespacios, entonces la intersección de ambos sigue siendo un subespacio.
 
 Es el subespacio más grande incluido en ambos conjuntos
 
