@@ -6,9 +6,9 @@ Necesitamos un servicio que permita traducir *hostnames* en direcciones IP. El s
 
 Este sistema *DNS* provee algunos servicios importantes:
 
-- ***Host aliasing:*** Un *host* con un *hostname* complicado puede tener uno o múltiples *aliases.* Al *hostname* original se lo denomina *canónico.*
-- ***Mail server aliasing:*** Similar al anterior, permite tener múltiples aliases para un único servidor de mails.
-- ***Load distribution:*** Se puede utilizar este sistema para redirigir a los usuarios a los servidores a otros servidores, a partir de un *hostname* común. Para hacer esto, el *DNS* devuelve todas las direcciones *IP* asociadas al *hostname*, pero rotando el orden cada vez.
+- **Host aliasing:** Un *host* con un *hostname* complicado puede tener uno o múltiples *aliases.* Al *hostname* original se lo denomina *canónico.*
+- **Mail server aliasing:** Similar al anterior, permite tener múltiples aliases para un único servidor de mails.
+- **Load distribution:** Se puede utilizar este sistema para redirigir a los usuarios a los servidores a otros servidores, a partir de un *hostname* común. Para hacer esto, el *DNS* devuelve todas las direcciones *IP* asociadas al *hostname*, pero rotando el orden cada vez.
 
 ## 2. Overview of How Dns Works
 
@@ -17,9 +17,9 @@ Este sistema *DNS* provee algunos servicios importantes:
 El sistema *DNS* utiliza un gran número de servidores organizados de forma jerárquica y distribuidos a lo largo del mundo. Se pueden separar en tres clases:
 
 - **Root:** Es una base de datos distribuida, todos estos servidores comparten la misma información y están gestionados por 13 organizaciones distintas.
-- ***Top-Level Domain (TLD):*** Por cada top-level domain, tendremos un servidor (o multiples). Son los que están al final de la url. Ej: .com.ar.
-- ***Authoritative:*** Cada organización con hosts públicos tiene que proveer registros públicos para conectar sus hostnames con la dirección IP. Entre ellos, tendremos.edu.uba. Estos pueden estar anidados, como por ejemplo "fi.uba.ar".
-- ***Local:*** Los servidores locales DNS no pertenecen estrictamente a la jerarquía, pero son centrales en la arquitectura. Cada ISP tiene uno. Cuando un host hace una consulta DNS, esta se le envía a su DNS local el cual se encarga de hacer la consulta.
+- **Top-Level Domain (TLD):** Por cada top-level domain, tendremos un servidor (o multiples). Son los que están al final de la url. Ej: .com.ar.
+- **Authoritative:** Cada organización con hosts públicos tiene que proveer registros públicos para conectar sus hostnames con la dirección IP. Entre ellos, tendremos.edu.uba. Estos pueden estar anidados, como por ejemplo "fi.uba.ar".
+- **Local:** Los servidores locales DNS no pertenecen estrictamente a la jerarquía, pero son centrales en la arquitectura. Cada ISP tiene uno. Cuando un host hace una consulta DNS, esta se le envía a su DNS local el cual se encarga de hacer la consulta.
 
 Las consultas pueden ser tanto recursivas como iterativas. Por lo general, el *DNS local utiliza consultas recursivas,* mientras todo el resto utilizan consultas iterativas.
 
@@ -33,7 +33,7 @@ Además, permiten que las consultas no atraviesen los servidores *root*, almacen
 
 ## 3. DNS Records and Messages
 
-Los servidores *DNS* almacenan ***resource records (RR)***. Estos tienen la siguiente estructura.
+Los servidores *DNS* almacenan **resource records (RR)**. Estos tienen la siguiente estructura.
 
 $$
 \text{(Name, Value, Type, TTL)}
@@ -56,8 +56,8 @@ En la **authority** section estarán los *RR* de otros *authoritative servers.* 
 
 ## Inserting Records into the DNS Database
 
-Un ***registrar*** es una entidad comercial que verifica la unicidad de un dominio, e ingresa el dominio en la base de datos.
+Un **registrar** es una entidad comercial que verifica la unicidad de un dominio, e ingresa el dominio en la base de datos.
 
 Cuando registramos un nombre, debemos proveer los nombres y las direcciones de su primario y secundario *authoritative server*.
 
-El ***registrar se encargará de que los*** registros ***proporcionados*** se ingresen en los servidores del dominio.
+El *registrar* se encargará de que los registros proporcionados se ingresen en los servidores del dominio.

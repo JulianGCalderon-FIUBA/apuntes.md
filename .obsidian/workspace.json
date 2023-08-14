@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
-                "mode": "source",
+                "file": "Matemática Discreta/Álgebra de Conjuntos.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "***",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md"
+                "file": "Matemática Discreta/Álgebra de Conjuntos.md"
               }
             }
           },
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+                "file": "Matemática Discreta/Álgebra de Conjuntos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+                "file": "Matemática Discreta/Álgebra de Conjuntos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,9 +157,11 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "114c3278ee40296f",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
     "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
     "Análisis de la Información/PSA.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Delay, Loss, and Throughput in Packet-Switched N.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Networks Under Attack.md",
@@ -184,8 +185,6 @@
     "Análisis de la Información/Modelos en la ingeniería de software.md",
     "Análisis de la Información/Modelados de Dominio.md",
     "Análisis de la Información/Introducción al Diseño de Software.md",
-    "Análisis de la Información/Introducción a la Ingeniería de Software.md",
-    "Análisis de la Información/Web Rest API.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",
