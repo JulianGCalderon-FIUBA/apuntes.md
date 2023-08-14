@@ -13,7 +13,7 @@ Para pasar múltiples parámetros, tenemos distintas opciones
 
 - Definir un `struct` personalizado que contenga los parámetros necesarios
 - Crear un arreglo de punteros *void*: `void *parametros[CANTIDAD_PARAMETROS]`
-- Con un **TDA lista**
+- Con una TDA lista
 
 ## Iterador Externo
 

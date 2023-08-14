@@ -29,7 +29,7 @@ Cada celda de la memoria posee un byte, es tarea del programa leer la cantidad d
 
 ## Memoria Dinámica
 
-La memoria dinámica es aquella reservada durante la ejecución del programa, y se almacena en el **heap**.
+La memoria dinámica es aquella reservada durante la ejecución del programa, y se almacena en el heap.
 
 Para manejar la memoria dinámica, usamos algunas funciones de la biblioteca estándar:
 
@@ -37,7 +37,7 @@ Para manejar la memoria dinámica, usamos algunas funciones de la biblioteca est
 - **`free():`** Se encarga de liberar la memoria previamente reservada con el `malloc`.
 - **`realloc():`** Se encarga de modificar el tamaño del bloque de memoria previamente reservado, La memoria antes almacenada permanecerá sin cambios hasta el último elemento de la memoria anterior, o el máximo del bloque.
 
-El manejo de la memoria es responsabilidad del programador, toda memoria reservada debe liberarse. No liberar la memoria implica **SERIOS PROBLEMAS** en el **COMPORTAMIENTO del programa.**
+El manejo de la memoria es responsabilidad del programador, toda memoria reservada debe liberarse. No liberar la memoria implica serios problemas en el COMPORTAMIENTO del programa.
 
 > "¡La memoria dinámica no se conserva! ¡Siempre que se crea debe destruirse!"
-> **Dr. *Mariano Méndez***
+> Dr. Mariano Méndez

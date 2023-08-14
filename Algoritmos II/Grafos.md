@@ -38,16 +38,14 @@ Un ciclo es un recorrido de aristas adyacentes que empieza y termina en un mismo
 
 Un camino es un recorrido a través de un grafo.
 
-**Definiciones:**
-
 - **Camino Simple:** Es aquel que no recorre dos veces el mismo vértice.
 - **Camino Cerrado:** Es aquel que termina en el vértice en el que comenzó.
 - **Componente Conexa:** Conjunto de vértices del grafo en el cual existe un camino que conecta todo par de vértices entre sí.
 
-	Si el grado es dirigido *(digrafo)*, entonces surgen dos definiciones más
+Si el grado es dirigido se lo denomina **digrafo**, entonces surgen dos definiciones más:
 
-	- **Fuertemente Conexo:** Todo vértice conecta con cualquier vértice
-	- **Débilmente Conexo:** Todo par de vértices está conectado, aunque el camino puede no ser bidireccional
+- **Fuertemente Conexo:** Todo vértice conecta con cualquier vértice
+- **Débilmente Conexo:** Todo par de vértices está conectado, aunque el camino puede no ser bidireccional
 
 ### Árbol
 
@@ -72,7 +70,7 @@ La diagonal de la matriz representa los lazos del grafo. (Aquellos vértices que
 Si el grafo es pesado, entonces en lugar de colocar un $1$ donde hay una arista, colocamos su peso.
 
 > [!note]
-> En un grafo no dirigido, la matriz sera una matriz simétrica.
+> En un grafo no dirigido, la matriz será una matriz simétrica.
 
 ### Lista de Adyacencia
 

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmos II/Grafos.md",
+                "file": "Algoritmos II/Pilas, Colas y Listas.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmos II/Grafos.md"
+                "file": "Algoritmos II/Pilas, Colas y Listas.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmos II/Grafos.md",
+                "file": "Algoritmos II/Pilas, Colas y Listas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmos II/Grafos.md",
+                "file": "Algoritmos II/Pilas, Colas y Listas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,8 +172,10 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
-    "Algoritmos II/Diccionario y Hash.md",
+    "Algoritmos II/Memoria.md",
+    "Algoritmos II/Iteradores de Lista.md",
     "Algoritmos II/Grafos.md",
+    "Algoritmos II/Diccionario y Hash.md",
     "Algoritmos II/Árboles Generales.md",
     "Algoritmos II/Árboles Auto Balanceados.md",
     "Algoritmos II/Análisis de Algoritmos.md",
@@ -196,8 +198,6 @@
     "Álgebra II/Álgebra II.md",
     "Álgebra II/Producto Interno.md",
     "Álgebra II/Ortogonalidad.md",
-    "Álgebra II/Operaciones entre Subespacios.md",
-    "Álgebra II/Método de Gram-Schmidt.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
