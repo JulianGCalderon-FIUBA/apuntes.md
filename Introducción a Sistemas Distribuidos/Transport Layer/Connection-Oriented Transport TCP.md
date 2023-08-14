@@ -101,7 +101,7 @@ Una posible modificación de ***TCP*** consiste en el llamado ***selective ackno
 
 Cuando una conexión *TCP* recibe información correcta y en secuencia, la coloca en el ***receive buffer***. Si la aplicación es relativamente lenta en leer esta información, el receptor puede fácilmente causar un ***overflow*** en el buffer de lectura. El servicio de ***flow-control*** elimina la posibilidad de que esto ocurra, provee un servicio de ***speed-matching*** para emparejar la velocidad de lectura con la velocidad de bajada. Este servicio el distinto al de ***congestion control;*** ambos producen el mismo efecto, pero por razones distintas.
 
-Para implementar este mecanismo, un host ***mantener la siguiente información:
+Para implementar este mecanismo, un host mantener la siguiente información:
 
 - ***`LastByteRead`:*** El numero del ultimo byte que fue leído por la aplicación
 - ***`LastByteRcvd`:*** El numero del ultimo byte que fue recibido a través de la red
@@ -110,7 +110,7 @@ Para implementar este mecanismo, un host ***mantener la siguiente información:
 El host agregara este ultimo campo a los paquetes transferidos a través de la red, para comunicarle al otro ***host*** del estado actual del ***buffer***. Este a su vez deberá mantener las siguientes variables:
 
 - ***`LastByteSend`:*** El numero del ultimo byte que fue enviado a través de internet
-- *`LastByteAck`:* El numero del ultimo byte que fue confirmado por el host.
+- **`LastByteAck`:** El numero del ultimo byte que fue confirmado por el host.
 
 A partir de estos dos valores, podremos calcular la cantidad de datos sin verificar que fueron enviados. El protocolo tratara de que esta cantidad nunca sea mayor al tamaño de la ventana del receptor.
 
