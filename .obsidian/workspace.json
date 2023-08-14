@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis de la Información/PSA.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "***",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis de la Información/PSA.md"
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis de la Información/PSA.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis de la Información/PSA.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,8 +158,10 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "178700d707526f5b",
+  "active": "114c3278ee40296f",
   "lastOpenFiles": [
+    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
+    "Análisis de la Información/PSA.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Delay, Loss, and Throughput in Packet-Switched N.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Networks Under Attack.md",
     "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Multiple Access Links and Protocols.md",
@@ -184,8 +186,6 @@
     "Análisis de la Información/Introducción al Diseño de Software.md",
     "Análisis de la Información/Introducción a la Ingeniería de Software.md",
     "Análisis de la Información/Web Rest API.md",
-    "Análisis de la Información/Interfaces de Usuario.md",
-    "Análisis de la Información/Innovación y Creatividad.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",
