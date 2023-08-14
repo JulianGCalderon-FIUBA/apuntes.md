@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Integrales Triples.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Integrales Triples.md"
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Integrales Triples.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Integrales Triples.md",
+                "file": "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,6 +159,10 @@
   },
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
+    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
+    "Álgebra II/Autovalores y Autovectores.md",
+    "Álgebra II/Álgebra II.md",
+    "Análisis Matemático II/Integrales Triples.md",
     "Análisis Matemático II/Límites.md",
     "Análisis Matemático II/Métodos de resolución.md",
     "Análisis Matemático II/Polinomio de Taylor.md",
@@ -169,8 +173,6 @@
     "Análisis Matemático II/Curvas y superficies.md",
     "Análisis Matemático II/Cuádricas.md",
     "Análisis Matemático II/Cónicas.md",
-    "Álgebra II/Autovalores y Autovectores.md",
-    "Álgebra II/Álgebra II.md",
     "Matemática Discreta/Caminos y Distancias.md",
     "Matemática Discreta/Alfabeto.md",
     "Física II/Fuerza Magnética.md",
@@ -183,8 +185,6 @@
     "Sistemas Operativos/API de Memoria.md",
     "Indice.md",
     "Matemática Discreta/Grafos Orientados.md",
-    "Matemática Discreta/Ecuaciones de Recurrencia.md",
-    "Matemática Discreta/Clasificaciones.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
