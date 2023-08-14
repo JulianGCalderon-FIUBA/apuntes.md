@@ -1,4 +1,4 @@
-## Caracteristicas
+## Características
 
 **Cardinalidad infinita:** El tamaño puede variar en el tiempo, y puede virtualmente contener cualquier cantidad de elementos. Su limitación está dada por el tamaño de la memoria principal de la computadora.
 
@@ -30,12 +30,12 @@ Abre el archivo en la ruta indicada, y devuelvo un puntero al stream asociando a
 
 #### Modos:
 
-- `"r"`: Abre un archivo para lectura
-- `"w"`: Crea un archivo en blanco para escritura
-- `"a"`: Adjunta al final del archivo
-- `"r+"`: Abre un archivo para lectura/escritura
-- `"w+"`: Crea un archivo en blanco para lectura/escritura
-- `"a+"`: Abre un archivo al final para lectura/escritura
+- `"r"`: Abre un archivo para lectura.
+- `"w"`: Crea un archivo en blanco para escritura.
+- `"a"`: Adjunta al final del archivo.
+- `"r+"`: Abre un archivo para lectura/escritura.
+- `"w+"`: Crea un archivo en blanco para lectura/escritura.
+- `"a+"`: Abre un archivo al final para lectura/escritura.
 
 ### `fclose`
 
@@ -68,7 +68,7 @@ Si el stream apunta a un archivo de salida, la función envía los datos sin esc
 
 ## Stream
 
-Los streams de caracteres son un flujo continuo de caracteres, tienen una naturaleza **exclusivamente secuencial.** Existen tres tipos de streams en todo programa escrito en **C:**
+Los *streams* de caracteres son un flujo continuo de caracteres, tienen una naturaleza exclusivamente secuencial. Existen tres tipos de streams en todo programa escrito en **C:**
 
 - **Standard input:** Corresponde a la entrada estándar del programa, el stream por el cual ingresan datos al programa, está asociado al teclado
 - **Standard output:** Corresponde a la salida estándar del programa, el stream al que se mandan los datos para ser mostrados, está asociado a la consola
@@ -80,7 +80,7 @@ Los streams de caracteres son un flujo continuo de caracteres, tienen una natura
 int fgetc(FILE *stream);
 ```
 
-Se utiliza cuando el *stream* está abierto en modo `"r"`, extrae el próximo carácter del flujo de caracteres y lo devuelve *casteado* como un `int`
+Se utiliza cuando el stream está abierto en modo `"r"`, extrae el próximo carácter del flujo de caracteres y lo devuelve casteado como un `int`
 
 ### `fputc`
 
@@ -88,7 +88,7 @@ Se utiliza cuando el *stream* está abierto en modo `"r"`, extrae el próximo ca
 int fputc(int c, FILE *stream);
 ```
 
-Se utiliza cuando el *stream* está abierto en modo `"w"`, escribe el carácter *casteado* como un `int` en le *stream* de datos.
+Se utiliza cuando el stream está abierto en modo `"w"`, escribe el carácter casteado como un `int` en le stream de datos.
 
 ### `fscanf`
 
@@ -132,9 +132,9 @@ Sitúa el puntero del *stream*, desplazándolo una cantidad `offset` de bytes a 
 
 El parámetro `start` puede tomar tres valores:
 
-- `SEEK_SET`: Representa el comienzo del *stream*
-- `SEEL_CUR`: Representa la posición actual del *stream*
-- `SEEK_END`: Representa el fin del *stream*
+- `SEEK_SET`: Representa el comienzo del stream
+- `SEEL_CUR`: Representa la posición actual del stream
+- `SEEK_END`: Representa el fin del stream
 
 ## Operaciones sobre archivos
 
@@ -144,7 +144,7 @@ El parámetro `start` puede tomar tres valores:
 int remove(char *fname);
 ```
 
-Elimina el archivo de nombre `fname` que se encuentra en el directorio root del programa
+Elimina el archivo de nombre `fname` que se encuentra en el directorio *root* (o raíz) del programa
 
 ### `rename`
 
@@ -154,7 +154,7 @@ int rename(const char *old, const char *new);
 
 Renombra el archivo `old` por `new`
 
-## Buenas Practicas
+## Buenas Prácticas
 
 - **Siempre** abrir y cerrar en la misma función
 - Me mantengo a la estructura:

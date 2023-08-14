@@ -12,7 +12,7 @@ Algunas prácticas recomendadas son:
 - Usar nombres descriptivos, significantes.
 - Usar una sola palabra para cada concepto.
 - Definir todo en **snake_case.**
-- Constantes en **MAYUSCULA.**
+- Constantes en **MAYÚSCULA.**
 - Escribir pre-post condiciones para cada función.
 
 ## Modulación
@@ -171,6 +171,6 @@ reg.dia = 16;
 reg.mes = 5;
 
 fecha_t *ptr = &reg;
-ptr->año = 2002;
+ptr->año = 2002;        // El caracter 'ñ' no esta permitido
 //(*ptr).año = 2002;
 ```

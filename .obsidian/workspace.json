@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmos I/Conceptos Básicos.md",
+                "file": "Algoritmos I/Operaciones con Arreglos.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmos I/Conceptos Básicos.md"
+                "file": "Algoritmos I/Operaciones con Arreglos.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmos I/Conceptos Básicos.md",
+                "file": "Algoritmos I/Operaciones con Arreglos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmos I/Conceptos Básicos.md",
+                "file": "Algoritmos I/Operaciones con Arreglos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,11 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Algoritmos I/Operaciones con archivos.md",
+    "Algoritmos I/Manejo de Archivos.md",
+    "Algoritmos I/Conceptos Básicos.md",
+    "Algoritmos I/Bibliotecas Personales.md",
+    "Algoritmos I/Argumentos del programa.md",
     "Algoritmos I/Algoritmos I.md",
     "todo.md",
     "Álgebra II/Transformaciones Lineales.md",
@@ -192,12 +197,7 @@
     "Álgebra II/Coordenadas.md",
     "Álgebra II/Autovalores y Autovectores.md",
     "Indice.md",
-    "Algoritmos I/Manejo de Archivos.md",
-    "Algoritmos I/Conceptos Básicos.md",
-    "Algoritmos I/Bibliotecas Personales.md",
-    "Algoritmos I/Argumentos del programa.md",
     "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

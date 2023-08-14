@@ -23,6 +23,13 @@
     "diagonalizables",
     "codominio",
     "preimagen",
-    "sobreyectiva"
+    "sobreyectiva",
+    "Header",
+    "Strings",
+    "stream",
+    "streams",
+    "Stream",
+    "casteado",
+    "root"
   ]
 }

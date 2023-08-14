@@ -220,9 +220,9 @@ void mezcla(vector_t vectorA, int topeA, vector_t vectorB, int topeB,
 }
 ```
 
-### Union
+### Unión
 
-La union es similar a la mezcla, pero el resultado no tendrá elementos repetidos
+La unión es similar a la mezcla, pero el resultado no tendrá elementos repetidos
 
 ```c
 void union(vector_t vectorA, int topeA, vector_t vectorB, int topeB, 
@@ -262,7 +262,7 @@ void union(vector_t vectorA, int topeA, vector_t vectorB, int topeB,
 
 ### Diferencia
 
-La diferencia entre A y B **(A-B)**, toma los valores de A que no están en B
+La diferencia entre A y B $(A{-}B)$, toma los valores de A que no están en B
 
 ```c
 void diferencia(vector_t vectorA, int topeA, vector_t vectorB, int topeB, 
