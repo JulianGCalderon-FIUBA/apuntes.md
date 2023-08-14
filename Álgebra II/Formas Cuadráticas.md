@@ -1,6 +1,6 @@
 ## Definición
 
-Dada una matriz $A \in \mathbb{R}^{n \times n}$ simétrica, una **forma cuadrática en $\mathbb{R}^n$** es una función $Q: \mathbb{R}^n \to \mathbb{R}$ tal que $Q(x) = x^T Ax$
+Dada una matriz $A \in \mathbb{R}^{n \times n}$ simétrica, una **forma cuadrática** en $\mathbb{R}^n$ es una función $Q: \mathbb{R}^n \to \mathbb{R}$ tal que $Q(x) = x^T Ax$
 
 Las formas cuadráticas se clasifican en positivas, negativas, semidefinidas positivas, semidefinidas negativas, o indefinidas, según como se clasifican las matrices simétricas que las definen.
 

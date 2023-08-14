@@ -8,15 +8,15 @@ $$
 
 ## Conjuntos Ortogonales
 
-Se dice que $\{v_1, v_2, \cdots, v_k\} \in \Bbb V$ es un conjunto **ortogonal**, si $\langle v_i, v_j\rangle = 0 \quad\forall\ i\neq j$.
+Se dice que $\{v_1, v_2, \cdots, v_k\} \in \Bbb V$ es un conjunto **ortogonal,** si $\langle v_i, v_j\rangle = 0 \quad\forall\ i\neq j$.
 
-Se dice que $\{v_1, v_2, \cdots, v_k\} \in \Bbb V$ es un conjunto **ortonormal**, si $\langle v_i, v_j\rangle = 0 \quad\forall\ i\neq j$, y $\|v_i\|^2 = 1 \quad \forall\ i = 1, \cdots, k$
+Se dice que $\{v_1, v_2, \cdots, v_k\} \in \Bbb V$ es un conjunto **ortonormal,** si $\langle v_i, v_j\rangle = 0 \quad\forall\ i\neq j$, y $\|v_i\|^2 = 1 \quad \forall\ i = 1, \cdots, k$
 
 Si un conjunto ortogonal no contiene el vector nulo, entonces este conjunto es linealmente independiente.
 
 ## Complemento Ortogonal
 
-Sea $A \subset \Bbb V,\ A \neq \emptyset$, se llama **complemento ortogonal de $A$,** al conjunto $A^\perp$ formado por todos los vectores de $\Bbb V$ que son ortogonales a cada elemento de $A$.
+Sea $A \subset \Bbb V,\ A \neq \emptyset$, se llama **complemento ortogonal** de $A$, al conjunto $A^\perp$ formado por todos los vectores de $\Bbb V$ que son ortogonales a cada elemento de $A$.
 
 - $A^\perp$ es un subespacio de $\Bbb V$
 - $\{0_{\Bbb V}\}^\perp = \Bbb V$

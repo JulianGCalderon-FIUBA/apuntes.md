@@ -140,7 +140,7 @@ $$
 
 ### Ángulo entre $u, v$:
 
-Como consecuencia la desigualdad de *Cauchy-Bunyakovsky-Schwarz,* llegamos a la siguiente expresión
+Como consecuencia la desigualdad de Cauchy-Bunyakovsky-Schwarz, llegamos a la siguiente expresión
 
 $$
 -1 \leq \frac{\langle u,v \rangle}{\|u\| \|v\|}\leq 1

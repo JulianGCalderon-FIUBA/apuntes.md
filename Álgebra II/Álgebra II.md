@@ -10,7 +10,7 @@
 - [[Ortogonalidad]]
 - [[Método de Gram-Schmidt]]
 - [[Autovalores y Autovectores]]
-- [[Sistemas de E D Homogéneas]]
+- [[Sistemas de E.D. Homogéneas]]
 - [[Matrices Normales]]
 - [[Descomposición en Valores Singulares]]
 - [[Formas Cuadráticas]]

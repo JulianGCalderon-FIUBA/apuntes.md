@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Álgebra II/Formas Cuadráticas.md",
+                "file": "Álgebra II/Sistemas de E.D. Homogéneas.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Álgebra II/Formas Cuadráticas.md"
+                "file": "Álgebra II/Sistemas de E.D. Homogéneas.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Álgebra II/Formas Cuadráticas.md",
+                "file": "Álgebra II/Sistemas de E.D. Homogéneas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Álgebra II/Formas Cuadráticas.md",
+                "file": "Álgebra II/Sistemas de E.D. Homogéneas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,12 +172,17 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Álgebra II/Producto Interno.md",
+    "Álgebra II/Ortogonalidad.md",
+    "Álgebra II/Operaciones entre Subespacios.md",
+    "Álgebra II/Método de Gram-Schmidt.md",
+    "Álgebra II/Matrices Normales.md",
+    "Álgebra II/Formas Cuadráticas.md",
     "Álgebra II/Espacios Vectoriales.md",
     "Álgebra II/Ejemplos de Transformaciones Lineales.md",
     "Álgebra II/Ecuaciones Diferenciales Ordinarias.md",
     "Álgebra II/Descomposición en Valores Singulares.md",
     "Álgebra II/Coordenadas.md",
-    "Álgebra II/Formas Cuadráticas.md",
     "Álgebra II/Autovalores y Autovectores.md",
     "Álgebra II/Álgebra II.md",
     "todo.md",
@@ -193,11 +198,6 @@
     "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
     "Análisis de la Información/Arquitectura del Software.md",
     "Análisis de la Información/Análisis de la Información.md",
-    "Algoritmos II/TDA.md",
-    "Algoritmos II/Algoritmos de Grafos.md",
-    "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
-    "Análisis Matemático II/Integrales Triples.md",
-    "Análisis Matemático II/Límites.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

@@ -6,7 +6,7 @@ Primero, algunas definiciones sobre matrices:
 - **Matrices Ortogonales** $\to A A^t = A^T A = I$
 - **Matrices Anti Simétricas** $\to A^t = -A$
 
-Para matrices complejas, tenemos que;
+Para matrices complejas, tenemos que:
 
 - **Matrices Herméticas** $\to A^* = A$, donde $A^*$ representa la matriz adjunta (transpuesta y conjugada)
 - **Matrices Unitarias** $\to A A^* = A^* A = I$
