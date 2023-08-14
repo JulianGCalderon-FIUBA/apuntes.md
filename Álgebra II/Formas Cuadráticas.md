@@ -79,4 +79,4 @@ Por último debemos hallar el vector perteneciente al subespacio de la solución
 Si resolvemos para $\alpha$, encontramos los vectores que minimizan la forma cuadrática con la restricción.
 
 > [!note]
-> Si la restricción es indefinida, entonces la solución no esta a acotada y el mínimo de la forma cuadrática estará asociado al autovalor máximo.
+> Si la restricción es indefinida, entonces la solución no está a acotada y el mínimo de la forma cuadrática estará asociado al autovalor máximo.

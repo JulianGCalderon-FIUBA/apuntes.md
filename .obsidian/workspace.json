@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Álgebra II/Autovalores y Autovectores.md",
+                "file": "Álgebra II/Formas Cuadráticas.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Álgebra II/Autovalores y Autovectores.md"
+                "file": "Álgebra II/Formas Cuadráticas.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Álgebra II/Autovalores y Autovectores.md",
+                "file": "Álgebra II/Formas Cuadráticas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Álgebra II/Autovalores y Autovectores.md",
+                "file": "Álgebra II/Formas Cuadráticas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,19 +172,20 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
-    "Álgebra II/Álgebra II.md",
+    "Álgebra II/Espacios Vectoriales.md",
     "Álgebra II/Ejemplos de Transformaciones Lineales.md",
     "Álgebra II/Ecuaciones Diferenciales Ordinarias.md",
     "Álgebra II/Descomposición en Valores Singulares.md",
     "Álgebra II/Coordenadas.md",
+    "Álgebra II/Formas Cuadráticas.md",
     "Álgebra II/Autovalores y Autovectores.md",
+    "Álgebra II/Álgebra II.md",
     "todo.md",
     "Indice.md",
     "Algoritmos I/Manejo de Archivos.md",
     "Algoritmos I/Conceptos Básicos.md",
     "Algoritmos I/Bibliotecas Personales.md",
     "Algoritmos I/Argumentos del programa.md",
-    "Álgebra II/Espacios Vectoriales.md",
     "Algoritmos I/Algoritmos I.md",
     "Álgebra II/Transformaciones Lineales.md",
     "Álgebra II/Subespacios de Matriz.md",
@@ -197,7 +198,6 @@
     "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
     "Análisis Matemático II/Integrales Triples.md",
     "Análisis Matemático II/Límites.md",
-    "Análisis Matemático II/Métodos de resolución.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
