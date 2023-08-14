@@ -11,8 +11,12 @@
             "id": "6060b098ee9aa43c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Física II/Campo Magnético.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -80,7 +84,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Física II/Campo Magnético.md"
+              }
             }
           },
           {
@@ -89,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Física II/Campo Magnético.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Física II/Campo Magnético.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,6 +159,9 @@
   },
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
+    "Física II/Ley de Gauss.md",
+    "Física II/Circuitos en Resonancia.md",
+    "Sistemas Operativos/API de Memoria.md",
     "Indice.md",
     "Matemática Discreta/Grafos Orientados.md",
     "Matemática Discreta/Ecuaciones de Recurrencia.md",
@@ -174,9 +185,6 @@
     "Análisis Numérico/Bisección.md",
     "Análisis Matemático II/Curvas y superficies.md",
     "Análisis Matemático II/Cuádricas.md",
-    "Análisis Matemático II/Cónicas.md",
-    "Análisis de la Información/Web Rest API.md",
-    "Análisis de la Información/Verificar y Validar requerimientos.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
