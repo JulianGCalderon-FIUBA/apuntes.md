@@ -40,7 +40,7 @@ Se parte de una de las expresiones de la igualdad y, aplicando axiomas y propied
 
 ## Átomos
 
-En el álgebra de *Boole*, se llama *átomo* a los sucesores inmediatos del $O_B$. En otras palabras, $a \neq 0_B$ es un átomo si y sólo si
+En el álgebra de *Boole*, se llama **átomo** a los sucesores inmediatos del $O_B$. En otras palabras, $a \neq 0_B$ es un átomo si y sólo si
 
 $$
 \forall x \in B, \quad ax = b \implies x=a \lor x=0_B
@@ -66,7 +66,7 @@ Como todos los elementos del álgebra pueden anotarse como una combinación de l
 
 ## Cotas
 
-Sea $(A, \leq)$ un *poset* y sea $S \in A, S \ne 0$:
+Sea $(A, \leq)$ un **poset** y sea $S \in A, S \ne 0$:
 
 - $m \in A$ es una cota inferior de $S$ sii $\forall x \in S, m \leq x$.
 - $M \in A$ es una cota superior de $S$ sii $\forall x \in S, x \leq M$.

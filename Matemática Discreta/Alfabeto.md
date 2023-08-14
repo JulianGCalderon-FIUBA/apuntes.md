@@ -57,7 +57,7 @@ L(M) \stackrel{\text{def}}{=} \Big\{ x \in \Sigma^*: \Upsilon(q_0, x) \in F\Big\
 $$
 
 > [!note]
-> Siempre existe un **DFA** para un lenguaje regular, y los **DFA** solo dan lenguajes regulares
+> Siempre existe un DFA para un lenguaje regular, y los DFA solo dan lenguajes regulares
 
 > [!note]
 > Existen infinitos autómatas para un mismo lenguaje, pero solo hay uno minino (con menor cantidad de estados)

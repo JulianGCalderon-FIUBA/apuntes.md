@@ -10,7 +10,7 @@ $$
 K_{n,m, \cdots} = N_n * N_m * \cdots
 $$
 
-Un grafo es **bi**partito $(k{=}2)$ si y solo si tiene ciclos impares
+Un grafo es bipartito $(k{=}2)$ si y solo si tiene ciclos impares
 
 ## Cactus
 
@@ -61,7 +61,7 @@ Un árbol generador de un grafo $G$ es un subgrafo que contiene todos los vertic
 
 **Propiedad:** Si a un árbol se le quita una hoja (vértice de grado 1), el grafo resultante es un árbol. Esto se debe a que no se generan ciclos ni se pierde la conexidad.
 
-> [!proof]- **Demostración de $m = n-1$:**
+> [!proof]- Demostración de $m = n-1$:**
 >
 > Para demostrar que en un árbol, $m = n-1$, utilizaremos inducción. Sea $G$ un árbol de tamaño $n$:
 >

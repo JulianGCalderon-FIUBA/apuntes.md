@@ -11,12 +11,8 @@
             "id": "6060b098ee9aa43c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -84,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.md"
-              }
+              "state": {}
             }
           },
           {
@@ -95,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Breaking WEP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +151,17 @@
   },
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
+    "Indice.md",
+    "Matemática Discreta/Grafos Orientados.md",
+    "Matemática Discreta/Ecuaciones de Recurrencia.md",
+    "Matemática Discreta/Clasificaciones.md",
+    "Matemática Discreta/Caminos y Distancias.md",
+    "Matemática Discreta/Algoritmos.md",
+    "Matemática Discreta/Álgebra de Conjuntos.md",
+    "Matemática Discreta/Álgebra de Boole.md",
+    "Matemática Discreta/Alfabeto.md",
     "Introducción a Sistemas Distribuidos/Clases Practicas.md",
+    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
     "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
     "Análisis Numérico/Refinamiento Iterativo.md",
     "Análisis Numérico/Punto Flotante.md",
@@ -175,16 +177,6 @@
     "Análisis Matemático II/Cónicas.md",
     "Análisis de la Información/Web Rest API.md",
     "Análisis de la Información/Verificar y Validar requerimientos.md",
-    "Análisis de la Información/Técnicas de Descubrimiento de Requisitos.md",
-    "Análisis de la Información/Técnicas de Análisis, Modelado y Especificación.md",
-    "Análisis de la Información/Taller de Análisis de Interesados.md",
-    "Análisis de la Información/Requisitos en Contexto.md",
-    "Análisis de la Información/Requirement Specification vs User Stories.md",
-    "Análisis de la Información/PSA.md",
-    "Análisis de la Información/Prototipado y Experiencia de Usuario.md",
-    "Análisis de la Información/Modelos en la ingeniería de software.md",
-    "Análisis de la Información/Modelados de Dominio.md",
-    "Análisis de la Información/Introducción al Diseño de Software.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

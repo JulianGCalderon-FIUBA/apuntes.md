@@ -81,7 +81,7 @@ El primer algoritmo de, ***KSA***, expone dos inseguridades significantes. La pr
 
 Esta afirmación permite distinguir fácilmente flujos de ***RC4*** de segmentos de datos aleatorios, debido a que las palabras iniciales contienen patrones fácilmente reconocibles. Cuando las claves son seleccionadas bajo una distribución uniforme, esta inclinación se atenúa, pero aún permite la construcción de un diferenciador eficiente. Además, los patrones se extienden a las primeras decenas de palabras, por lo que la eficiencia del diferenciador no disminuye si se descartan las primeras palabras.
 
-### Debilidad de clave *relacionada*
+### Debilidad de clave relacionada
 
 La segunda debilidad está relacionada con la vulnerabilidad de las claves, que aplica cuando parte de la clave presenta es expuesta al atacante. Cuando la misma porción de clave secreta está presente en diferentes valores expuestos, el atacante puede derivar la parte secreta al analizar la palabra inicial del flujo de claves.
 

@@ -226,7 +226,7 @@ $$
 \end{align*}
 $$
 
-En álgebra de conjuntos y de proposiciones, la *cancelación* de términos es inválida. Notemos que si bien las soluciones triviales son válidas, estas no son la solución completa.
+En álgebra de conjuntos y de proposiciones, la **cancelación** de términos es inválida. Notemos que si bien las soluciones triviales son válidas, estas no son la solución completa.
 
 ## Forma Canónica de Proposiciones
 
@@ -297,7 +297,7 @@ $$
 > [!note]
 > Un juego se llama completo si alcanza para fabricar cualquier elemento del conjunto donde se un juego completo
 
-**Teorema:** El juego **$(+,\cdot, ')$ es un juego completo en el espacio de proposiciones. Podemos construir cualquier función proposicional a partir de estos elementos.
+**Teorema:** El juego $(+,\cdot, ')$ es un juego completo en el espacio de proposiciones. Podemos construir cualquier función proposicional a partir de estos elementos.
 
 Se puede demostrar, a partir de equivalencias, que los siguientes juegos también son completos. Para hacerlo, deberá tratar de expresarse la operación faltante como una combinación de los elementos disponibles.
 
