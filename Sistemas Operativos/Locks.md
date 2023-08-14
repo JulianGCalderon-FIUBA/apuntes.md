@@ -6,7 +6,7 @@ El nombre de la biblioteca que usa los ***locks*** se llama ***mutex***, ya que 
 
 La semántica de las rutinas es simple: Llamar a `lock()` para tratar de adquirir el ***lock***, si ningún otro ***thread*** lo tiene, entonces se adquiere el ***lock*** y se entra en una sección crítica. Si otro ***thread*** tiene el ***lock***, entonces se espera a que se libere. Una vez el dueño del ***lock*** lo libera, este esta libre nuevamente para que otro ***thread*** lo acceda.
 
-## Evaluación de *Locks*
+## Evaluación de Locks
 
 Antes de construir un ***lock,*** necesitamos entender su objetivo y como evaluar su eficacia. Existen un par de criterios para esto:
 
@@ -34,7 +34,7 @@ La forma más simple de ***hardware support*** se conoce como la instrucción **
 
 Esta simple instrucción es todo lo que necesitamos para implementar un ***spin lock***.
 
-## Evaluación de *Spin Lock*
+## Evaluación de Spin Lock
 
 Un ***spin lock*** es un tipo de ***lock*** donde un thread espera indefinidamente utilizando ciclos de la CPU hasta que el ***lock*** se libera. Para que esto funcione, necesitamos un *preemptive scheduler.* (para que tenga sentido, el planificador debe interrumpir ciertos hilos a través de un timer).
 
@@ -50,13 +50,13 @@ Otra primitiva del hardware, también conocida como ***compare-and-exchange***. 
 
 Esta instrucción es más poderosa que ***test-and-swap***. Estudiaremos sus beneficios más adelante.
 
-## *Load-Linked* and *Store-Conditional*
+## Load-Linked and Store-Conditional
 
 Algunas plataformas proveen este par de instrucciones para poder construir ***locks***. La instrucción ***Load-Linked*** es similar a un típico ***load.*** La diferencia proviene de la instrucción ***store-conditional***. Esta instrucción solo se realiza si no hubo ninguna intervención desde que se realizó un ***load-linked.*** En caso de un ***store*** exitoso, se devuelve el valor 1 y se actualiza el valor.
 
 Con estas instrucciones, podemos construir nuevamente un ***spinlock***.
 
-## ***Fetch-And-Add***
+## Fetch-And-Add
 
 Esta instrucción, de forma atómica, incrementa un valor, retornando el valor anterior de una dirección de memoria particular.
 
@@ -64,16 +64,16 @@ Esta instrucción se puede utilizar para construir un ***ticket lock***. Cuando 
 
 Este enfoque permite cumplir el segundo criterio, se garantiza que todos los ***threads*** van a obtener el ***lock*** eventualmente.
 
-## Simple Approach: ***Yield***
+## Simple Approach: **Yield**
 
 El concepto detrás de este enfoque es simple: Cuando un proceso va a hacer un ***spin***, en su lugar delega el control del procesador. Este enfoque aún tiene la desventaja de que se gasta procesamiento de igual forma, cuando se realiza un ***yield***.
 
-## Sleeping: *Queues*
+## Sleeping: Queues
 
 Necesitamos encontrar una forma de que los procesos que estén esperando a adquirir un ***lock*** no se planifiquen. Podemos utilizar dos rutinas: `park()`, que pone al ***thread*** que trata de adquirir un ***lock*** a dormir. y `unpark()` que despierta un hilo.
 
 Cuando llamamos a `lock()`, el thread actual debe colocarse en la cola de espera. Cuando se realiza un `unlock()`, Entonces se debe despertar al próximo ***thread*** en la cola. Para evitar condiciones de carrera, se utiliza la instrucción atómica `set_park()`, que libera el guard y duerme el proceso.
 
-## ***Two-Phase Lock***
+## Two-Phase Lock
 
 Este tipo de ***locks*** tienen dos fases, una de ***spinning*** y otra de ***sleeping***. Si no se puede conseguir el ***lock*** en la etapa inicial de ***spining***, entonces se duerme hasta que se libere el ***lock.***

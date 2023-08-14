@@ -21,7 +21,7 @@ $$
 
 Sea $(\Omega, \mathscr A, P)$ un *E.P.* y $X$ una *V.A.*, diremos que $X$ es una *V.A.D.* cuando existe $A \in \mathbb{R}$ finito o infinito numerable tal que $P_X(A) = 1$, donde $P_X(A) = P(X \in A)$.
 
-### Rango de *V.A.D*
+### Rango de V.A.D
 
 $$
 R_X = \{x \in \mathbb{R}: P_X(x) > 0\}

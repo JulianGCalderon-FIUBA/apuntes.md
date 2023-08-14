@@ -46,7 +46,7 @@ $$
 P(A \cup B \cup C) &= P(A) + P(B) + P(C) \\
 &- P(A\cap B) - P(A\cap C) - P(B\cap C) \\
 &+ P(A \cap B \cap C)
-\end{align} \tag{3}$$ 
+\end{align} \tag{3}$$
 
 ## Algebra de Eventos
 
@@ -59,7 +59,7 @@ Dado $\Omega$, entonces $\mathscr A$ es algebra de eventos si:
 3. Si $A, B \in \mathscr A$, entonces $A \cup B \in \mathscr A$
 4. Si $(A_n)_{n \geq 1}$ es sucesión de $\mathscr A$, entonces $\cup_{i=1}^\infty A_i \in \mathscr A$
 
-### **Propiedades**
+### Propiedades
 
 1. $\emptyset \in \mathscr A$
 2. $\cup_{i=1}^n A_i \in \mathscr A$

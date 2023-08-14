@@ -29,7 +29,7 @@ Podemos distinguir entre:
 - ***Modelos cualitativos o conceptuales:*** Estos pueden ser figuras, gráficos o descripciones causales. Se contentan con definir la dirección que tomará el sistema. sin importar el modo.
 - ***Modelos cuantitativos o numéricos:*** Usan números para representar aspectos del sistema, incluyen fórmulas y algoritmos para relacionar los valores.
 
-### ***Según la aleatoriedad***
+### Según la aleatoriedad
 
 Podemos distinguir entre:
 

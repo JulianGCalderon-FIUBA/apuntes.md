@@ -1,6 +1,6 @@
 En esta sección, se encuentra malla densa de ***packet switches*** y ***links*** que interconecta a los ***end systems*** de internet
 
-## 1. *Packet Switching*
+## 1. Packet Switching
 
 En una aplicación de red, los ***end systems*** intercambian mensajes entre ellos. Para enviar un mensaje, la fuente separa los largos mensajes en pequeños ***chunks*** de información conocidos como ***packets*** o paquetes. Cada paquete viaja a través de una serie de ***communication links*** y ***packet switches,*** de los cuales hay dos tipos principales: ***routers*** y ***link-layer switches***.
 
@@ -22,7 +22,7 @@ Como el espacio del ***buffer*** es limitado, un paquete entrando puede encontra
 
 Cuando llega un ***paquete***, el ***router*** examina la dirección indicada y lo envía a través del ***link*** correspondiente, a partir de una tabla de envío (***forwarding table).*** El internet tiene una serie de protocolos de rutina ***(routine protocols)*** que se utilizan para configurar una tabla de envío. Estos, por ejemplo, buscan el mejor camino posible para llegar a un ***host***.
 
-## 2. *Circuit Switching*
+## 2. Circuit Switching
 
 Hay dos enfoques fundamentales para mover información a través de la red: ***circuit switching*** y ***packet switching***. En las redes de ***circuit-switching,*** los recursos requeridos a lo largo de la ruta son reservados por la duración de la misma.
 

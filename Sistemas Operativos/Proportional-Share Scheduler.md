@@ -58,6 +58,6 @@ $$
 
 Para encontrar el próximo proceso a correr, el planificador utiliza este tipo de estructura. Este es un árbol balanceado que permite operaciones en tiempo logarítmico. El planificador solo mantiene procesos que estén listos para correr en la estructura.
 
-### *Lidiando con procesos frenados*
+### Lidiando con procesos frenados
 
 Cuando un proceso fue frenado por un largo periodo de tiempo, su ***vruntime*** no estará ajustado y monopolizará el procesador. Para solucionar esto, el ***vruntime*** se actualiza cuando un proceso despierta. Este valor se ***setea*** al valor mínimo encontrado en el árbol.

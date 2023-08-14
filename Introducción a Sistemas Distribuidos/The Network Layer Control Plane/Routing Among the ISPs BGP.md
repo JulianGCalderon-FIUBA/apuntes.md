@@ -56,7 +56,7 @@ Usualmente los puntos de acceso no permiten el trafico externo (paquetes que atr
 
 Los ***backbone provider networks*** no suelen querer gastar recursos en envíos de paquetes externos a su red, entonces por regla general solo se permite el manejo de trafico de un flujo si el destino o el remitente se encuentran en esa red.
 
-### Why are there different ***inter-AS*** and ***intra-AS*** routing protocols?
+### Why are there different inter-AS and intra-AS routing protocols?
 
 Existen diversas razones:
 

@@ -20,7 +20,7 @@ Se visita un nodo vecino primero, avanzando hasta que no se puede continuar. Lue
 3. Apilar los vértices adyacentes al actual
 4. Repetir desde (2) hasta terminar
 
-### **Orden Topológico**
+### Orden Topológico
 
 La idea del orden topológico es la de no visitar un vértice hasta haber visitado todos los vértices que conectan a él. De esta forma, devuelve un conjunto de vértices ordenado.
 

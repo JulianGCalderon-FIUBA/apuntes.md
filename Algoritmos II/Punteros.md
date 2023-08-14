@@ -40,15 +40,15 @@ void imprimir_entero(int n)
 int main()
 {
 	void (*func)(int) = imprimir_entero; // No es necesario referenciar la funcion
-	
-	(*func)(10);	
+
+	(*func)(10);
 	func(10); // No es necesario desreferenciar el puntero
 
 	return 0;
 }
 ```
 
-### **¿En qué situaciones se utilizan?**
+### ¿En qué situaciones se utilizan?
 
 Los punteros a funciones son útiles cuando tengo dos funciones con mucho código en común, pero difieren en una parte. Entonces puedo pasar este código distinto como un puntero a función.
 
@@ -64,12 +64,12 @@ int main()
 	int a = 10;
 	char b = 'a';
 
-	
+
 	void *p = &a;
 	printf("%i", *((int*) p));
 	p = &b;
 	printf("%c", *((char*) p));
-	
+
 	return 0;
 }
 ```

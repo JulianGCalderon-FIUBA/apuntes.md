@@ -14,7 +14,7 @@ Algunas personas se oponen a esta arquitectura, ya que en este enfoque algunas c
 
 Cuando se combinan, las varias capas de protocolo con conocidas como el ***stack protocol***. El **IP** ***stack*** consiste en cinco capas: physical, ***link***, ***network***, ***transport***, y las ***application layers***.
 
-### ***Application Layer***
+### Application Layer
 
 Aquí es donde residen las aplicaciones de red. En el internet, esta capa incluye muchos protocolos, como el HTTP (transferencia y pedido de documentos de web), SMPT (transferencia de emails), FTP (transferencia de archivos).
 

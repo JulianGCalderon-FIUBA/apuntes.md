@@ -20,7 +20,7 @@ $$
 \displaystyle \gamma = \frac{d\Omega}{dt}
 $$
 
-## **Relaciones escalares**
+## Relaciones escalares
 
 - $\Omega =2\pi f: [\frac{\text{rad}}{s}]$
 - $f = \frac{\Omega}{2\pi}: [\frac{\text{vueltas}}{s}]$
@@ -29,7 +29,7 @@ $$
 - $a_t = \gamma\cdot R$
 - $\displaystyle a_n = \Omega^2 \cdot R = \frac {v^2}{R}$
 
-## **Relaciones vectoriales**
+## Relaciones vectoriales
 
 $$
 \vec v = \vec\Omega \times \vec r

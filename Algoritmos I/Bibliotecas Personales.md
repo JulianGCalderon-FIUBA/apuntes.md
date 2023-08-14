@@ -1,4 +1,4 @@
-## *Header*
+## Header
 
 El compilador los incluye de forma automática al compilar su archivo fuente. Acá se definen las funciones, variables y constantes, que pueden ser accedidas por otro archivo.
 
@@ -16,7 +16,7 @@ int sumar(int n1, int n2); // PROTOTIPO DE FUNCION
 #endif /* ARITMETICA_H */
 ```
 
-## *Source*
+## Source
 
 Tiene el mismo nombre que el *header*, pero con extensión `.c`
 
@@ -32,7 +32,7 @@ int sumar(int n1, int n2){
 }
 ```
 
-## *Main*
+## Main
 
 En este archivo se encuentra el `main` de la función. Desde acá se accede a las otras bibliotecas
 
@@ -43,7 +43,7 @@ En este archivo se encuentra el `main` de la función. Desde acá se accede a la
 
 int main(){
 	int suma = sumar(2, 3);
-	printf("%i", suma) //5	
+	printf("%i", suma) //5
 
 	return 0;
 }

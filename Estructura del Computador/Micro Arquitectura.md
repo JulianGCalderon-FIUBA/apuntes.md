@@ -139,7 +139,7 @@ Para las instrucciones de Assembly que no contienen **OP3**, se le asigna a toda
 
 Para no repetir el microcódigo en cada instrucción, se puede utilizar la **nanoprogramación.** Consiste en remplazar la tabla de *2048 words x 41 bits* por una tabla de *2048 words x 7 bits*, donde se redirige a una nueva tabla de *100 words x 41 bits*, la cual contiene el microcódigo para cada operación.
 
-#### **Tablas de Operaciones**
+#### Tablas de Operaciones
 
 Los códigos de condición son los siguientes
 

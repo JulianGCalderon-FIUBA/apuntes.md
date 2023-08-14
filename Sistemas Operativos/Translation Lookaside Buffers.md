@@ -7,7 +7,7 @@ Para esto, vamos a utilizar un elemento del hardware llamado ***TLB***, o ***tra
 > [!note]
 > El término ***RAM*** o ***random-access memory*** indica que se puede acceder a cualquier parte de la memoria tan rápido como cualquier otro. Sin embargo, debido a algunos rasgos de la computadora (como el ***TLB***), esto no es asi.
 
-## Funcionamiento del *TLB*
+## Funcionamiento del TLB
 
 Ante cada referencia a memoria virtual, el ***hardware*** primero verifica si el TLB contiene la traducción deseada, en ese caso la traducción se realiza de forma rápida. En caso contrario, se debe consultar la ***page table***, que contiene todas las traducciones.
 
@@ -19,7 +19,7 @@ Con el uso de paginación, podemos aumentar la velocidad de nuestro programa apr
 
 Además de las traducciones, el buffer puede contener un ***valid bit***, el cual indica si la información de esa traducción es válida. también ***protection bits***, los cuales determinan que permisos tiene cierta pagina **(lectura, escritura, ejecución)**.
 
-### *TLB miss*
+### TLB miss
 
 Anteriormente, el ***hardware*** se encargaba completamente de lidiar con estos eventos, almacenando la información necesaria para todas las traducciones, se conocían como ***hardware-managed TLBs***.
 

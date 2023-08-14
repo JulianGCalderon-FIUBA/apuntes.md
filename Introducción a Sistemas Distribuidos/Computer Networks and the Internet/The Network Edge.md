@@ -62,20 +62,20 @@ El cable más barato y común que se puede encontrar, se utiliza hace más de un
 
 Dos cables de cobre giran sobre mismos para reducir interferencia eléctrica ocasionada por otros cables cercanos. Usualmente, varios pares de cables se juntan en uno solo y se envuelven con un escudo protector. Dentro de un edificio, se suele utilizar *UTP (Unshielded twisted pair)*
 
-### **Coaxial Cable**
+### Coaxial Cable
 
 Como el anterior, consiste en dos conductores de cobre, concéntricos en lugar de paralelos. Este cable puede alcanzar altas velocidades. Este cable puede ser usado como un *shared medium,* múltiples sistemas se pueden conectar a un mismo cable.
 
-### **Fiber Optics**
+### Fiber Optics
 
 La fibra óptica es un medio fino y flexible que transmite pulsos de luz, cada uno representando un bit. Es extremadamente rápido y seguro, utilizado en conexiones de larga distancia.
 
 Al ser más costoso, no es tan utilizado en distancias cortas como en el hogar.
 
-### **Terrestrial Radio Channels**
+### Terrestrial Radio Channels
 
 Los canales de radio transmiten señales utilizando el espectro electromagnético. Son atractivos ya que no requiere cables y puede penetrar paredes. Se pueden separar en tres categorías, según su alcance: Distancia corta (uno o dos metros), áreas locales (decenas o cientos de metros) y áreas amplias (decenas de kilómetros).
 
-### **Satellite Radio Channels**
+### Satellite Radio Channels
 
 Un satélite de comunicación conecta dos receptores/emisores de microondas, conocidos como *ground stations*. El satélite recibe señales en una banda de frecuencia, y replica la señal utilizando un repetidor, en otra frecuencia. Hay dos tipos de satélites: **Geostationary Satellites** permanentemente permanecen en el mismo punto de la tierra. Al estar bastante lejos de la tierra, tienen un sustancial *delay*. Los **low-earth orbiting (LEO) satellites** se colocan más cerca de la tierra y rotan alrededor de ella. Proveen cobertura continua en un área, pero muchos de estos satélites tienen que ser colocados en órbita

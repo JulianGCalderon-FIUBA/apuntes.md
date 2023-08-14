@@ -105,7 +105,7 @@ $$
 
 La permitividad indica el cambio en el campo eléctrico dentro del dieléctrico, lo que a su vez modifica la capacidad del capacitor.
 
-### **¿Hay alguna relación entre los campos eléctricos?**
+### ¿Hay alguna relación entre los campos eléctricos?
 
 Ya que los medios materiales con los que trabajamos en Física II son **Lineales, isótropos y homogéneos (LIH).** Podemos obtener la siguiente relación.
 

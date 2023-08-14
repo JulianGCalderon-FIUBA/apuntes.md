@@ -12,7 +12,7 @@ $$
 
 El tiempo requerido para examinar el ***header*** del paquete y determinar a donde enviarlo es parte del ***processing delay***, aunque también puede incluir otros factores, como los chequeos de errores a nivel de bit. Luego de este procesamiento, el router dirige el paquete a la ***queue*** que le precede al ***link*** correspondiente.
 
-### *Queuing Delay*
+### Queuing Delay
 
 En la cola, el paquete experimenta el ***queuing delay*** mientras espera a ser transmitido al link. El tiempo de este paquete dependerá de la cantidad de paquetes que se encuentren delante de él.
 
@@ -20,7 +20,7 @@ En la cola, el paquete experimenta el ***queuing delay*** mientras espera a ser 
 
 Sea $L$ el largo en *bits* de un paquete, y $R$ la tasa de transmisión del ***link*** en ***bits/secs***. Entonces el ***transmission delay*** sera de $L/R$. Esta es la cantidad de tiempo requerida para ***pushear*** el paquete al ***link***.
 
-### ***Propagation Link***
+### Propagation Link
 
 Una vez ***pusheado*** el paquete en el ***link***. Necesita propagarse al router siguiente. El tiempo requerido para propagar el paquete desde el inicio al final del ***link*** se conoce como ***propagation delay***. Este dependera del medio fisico y la longitud del trayecto.
 

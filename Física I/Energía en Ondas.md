@@ -57,7 +57,7 @@ $$
 ⟨dE_c⟩ = \frac 14\rho\cdot A^2\cdot w^2
 $$
 
-## **Energía Potencial**
+## Energía Potencial
 
 En modelo de partículas, se da que
 
@@ -69,7 +69,7 @@ Asociamos la constante elástica $K$ al módulo de *Young* $Y$, y la velocidad d
 
 $$
 dE_{Pel} = \frac 12v_p^2\cdot\rho
-=\frac 12v_p^2\cdot\rho\cdot A^2\cdot K^2\cdot\cos^2(\ldots) 
+=\frac 12v_p^2\cdot\rho\cdot A^2\cdot K^2\cdot\cos^2(\ldots)
 $$
 
 Si calculamos su valor medio, se simplifica y llegamos a que
