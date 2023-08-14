@@ -11,7 +11,7 @@ Los lenguajes de programación tienen tipos de datos **primitivos**, los cuales 
 
 ## Abstracción
 
-Proviene del latín *abstracto*, y significa: separar aisladamente en la mente las características de un objeto o un hecho, dejando de prestar atención al mundo sensible para enfocarse solo en el pensamiento.
+Proviene del latín *abstractio*, y significa: separar aisladamente en la mente las características de un objeto o un hecho, dejando de prestar atención al mundo sensible para enfocarse solo en el pensamiento.
 
 Separamos lo que nos **importa**, y nos olvidamos de lo **innecesario**
 
@@ -21,7 +21,7 @@ Demostración de Picasso, del concepto de abstracción.
 
 ## Tipo de Dato Abstracto
 
-Un tipo de dato abstracto (TDA), es una clase de objetos abstractos, los cuales están caracterizados por las operaciones que definimos sobre esos objetos. Cuando un programador utiliza un **TDA**, está únicamente interesado en el comportamiento del objeto (¿Qué?), y no de como se implementa. La visión de aquel que utiliza un **TDA** es exclusivamente de **Caja Negra**.
+Un tipo de dato abstracto *(TDA),* es una clase de objetos abstractos, los cuales están caracterizados por las operaciones que definimos sobre esos objetos. Cuando un programador utiliza un TDA, está únicamente interesado en el comportamiento del objeto (¿Qué?), y no de como se implementa. La visión de aquel que utiliza un TDA es exclusivamente de **Caja Negra**.
 
 ### El Qué y el Cómo
 
@@ -32,7 +32,7 @@ Las visiones de caja negra y caja blanca hacen una gran diferencia:
 
 En el estudio e implementación de los TDA es fundamental poder separar correctamente el **qué** y el **cómo**.
 
-**Un Qué y Mil Cómos:** Este concepto hace referencia a que, para cada problema a resolver, hay infinitas maneras de hacerlo.
+**Un qué y mil cómos:** Este concepto hace referencia a que, para cada problema a resolver, hay infinitas maneras de hacerlo.
 
 ### El Contrato
 

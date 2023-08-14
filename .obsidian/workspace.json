@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmos I/Operaciones con Arreglos.md",
+                "file": "Algoritmos II/TDA.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmos I/Operaciones con Arreglos.md"
+                "file": "Algoritmos II/TDA.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmos I/Operaciones con Arreglos.md",
+                "file": "Algoritmos II/TDA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmos I/Operaciones con Arreglos.md",
+                "file": "Algoritmos II/TDA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,8 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Algoritmos I/Recursividad.md",
+    "Algoritmos I/Operaciones con Arreglos.md",
     "Algoritmos I/Operaciones con archivos.md",
     "Algoritmos I/Manejo de Archivos.md",
     "Algoritmos I/Conceptos Básicos.md",
@@ -196,8 +198,6 @@
     "Álgebra II/Descomposición en Valores Singulares.md",
     "Álgebra II/Coordenadas.md",
     "Álgebra II/Autovalores y Autovectores.md",
-    "Indice.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

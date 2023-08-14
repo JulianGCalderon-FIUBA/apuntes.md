@@ -5,7 +5,7 @@ Se divide en dos partes:
 - **Bajada:** voy simplificando el problema hasta llegar al caso base.
 - **Subida:** resuelvo el problema.
 
-Cada vez que se llama una función, se crea un ámbito nuevo y se va apilando en el *stack* de ejecución hasta que termine de ejecutarse la llamada.
+Cada vez que se llama una función, se crea un ámbito nuevo y se va apilando en el *stack* (o pila) de ejecución hasta que termine de ejecutarse la llamada.
 
 ![[Algoritmos I/Attachments/Recursividad 1.png|525]]
 
