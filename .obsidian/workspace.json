@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Descomposición de riesgos en fases e iteraciones:",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -158,7 +158,7 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "114c3278ee40296f",
+  "active": "178700d707526f5b",
   "lastOpenFiles": [
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Delay, Loss, and Throughput in Packet-Switched N.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Networks Under Attack.md",
