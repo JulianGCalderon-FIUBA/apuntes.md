@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Managing Mobility in Cellular Networks.md",
+                "file": "Sistemas Operativos/Very Simple File System.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Esta contiene una entrada por cada móvil\"",
+                "query": "\"consiste en tener una cantidad de memoria fija para almacenar bloques\"",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Managing Mobility in Cellular Networks.md"
+                "file": "Sistemas Operativos/Very Simple File System.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Managing Mobility in Cellular Networks.md",
+                "file": "Sistemas Operativos/Very Simple File System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Managing Mobility in Cellular Networks.md",
+                "file": "Sistemas Operativos/Very Simple File System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,6 +160,13 @@
   },
   "active": "114c3278ee40296f",
   "lastOpenFiles": [
+    "Sistemas Operativos/Concurrencia.md",
+    "Sistemas Operativos/Bugs de Concurrencia.md",
+    "Sistemas Operativos/API de Threads.md",
+    "Matemática Discreta/Grafos Particulares.md",
+    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Wireless Links and Network Characteristics.md",
+    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Mobility Management Principles.md",
+    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Managing Mobility in Cellular Networks.md",
     "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/Cellular Internet Access.md",
     "Introducción a Sistemas Distribuidos/Transport Layer/Connection-Oriented Transport TCP.md",
     "Introducción a Sistemas Distribuidos/The Network Layer Data Plane/The Internet Protocol (IP) IPv4, Addressing, IPv6, and More.md",
@@ -179,13 +186,6 @@
     "Análisis de la Información/Diseño de Datos.md",
     "Análisis de la Información/Design Thinking.md",
     "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
-    "Análisis de la Información/Arquitectura del Software.md",
-    "Álgebra II/Autovalores y Autovectores.md",
-    "Álgebra II/Álgebra II.md",
-    "Sistemas Operativos/Archivos y Directorios.md",
-    "Álgebra II/Formas Cuadráticas.md",
-    "Álgebra II/Coordenadas.md",
-    "Álgebra II/Descomposición en Valores Singulares.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",

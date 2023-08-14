@@ -66,7 +66,7 @@
 
 	El tamaño del ***path*** en los últimos cuatro grafos es referido según su longitud, y no la cantidad de sus nodos
 
-- $K(p,q):$ ***Grafo de *Kneser.** Dado un* $p$-conjunto $H$ fijo, se define el grafo simple $G = K(p,q)$ siendo $V(G)$ = $\mathcal{P}_q(H)$ (los $q$-subconjuntos de $H$) con $uv \in E(G)$ ***sii*** $uv = \emptyset$. Es decir, dos vertices son adyacentes ***sii*** los correspondientes conjuntos son disjuntos. Genéricamente, definimos $K(p,q,s)$ donde $uv \in E(G)$ ***sii*** $|uv| \leq s$, y entonces particularmente $K(p,q) = K(p,q,0)$.
+- $K(p,q):$ ***Grafo de Kneser***. Dado un* $p$-conjunto $H$ fijo, se define el grafo simple $G = K(p,q)$ siendo $V(G)$ = $\mathcal{P}_q(H)$ (los $q$-subconjuntos de $H$) con $uv \in E(G)$ ***sii*** $uv = \emptyset$. Es decir, dos vertices son adyacentes *sii* los correspondientes conjuntos son disjuntos. Genéricamente, definimos $K(p,q,s)$ donde $uv \in E(G)$ *sii* $|uv| \leq s$, y entonces particularmente $K(p,q) = K(p,q,0)$.
 
 	El miembro ilustre de la familia $K(5,2)$ es isomorfo al grafo de *Petersen.*
 

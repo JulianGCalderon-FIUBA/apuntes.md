@@ -26,4 +26,4 @@ Para obtener esto, necesitamos una técnica conocida como ***atomic operation***
 
 Si logramos que las secciones críticas sean *operaciones atómicas*, entonces no tendremos condiciones de carrera. La operación una vez empieza no puede ser interrumpida, por lo que ningún cambio de contexto puede alterar el resultado.
 
-Normalmente no podremos encontrar una *operación atómica* para ***nuestra sección crítica, por lo que debemos recurrir a otra técnica: ***primitivas de sincronización***. Utilizando soporte del ***hardware***, podremos construir un programa ***multi-threaded*** que acceda a secciones criticas de forma sincronizada y controlada.
+Normalmente no podremos encontrar una *operación atómica* para nuestra sección crítica, por lo que debemos recurrir a otra técnica: ***primitivas de sincronización***. Utilizando soporte del ***hardware***, podremos construir un programa ***multi-threaded*** que acceda a secciones criticas de forma sincronizada y controlada.

@@ -10,7 +10,7 @@ La definición más formal, de acuerdo con '*Tu et al'* es: *"The desired serial
 
 También existe otro tipo de bugs muy comunes llamados ***order violation bugs***. Ocurren cuando algunas operaciones dependen del comportamiento de otros ***threads***, pero no se pueden asegurar el orden de la ejecución. Para solucionar estos bugs, es necesario utilizar ***condition variables***. Estas variables permiten asegurarnos de que algunas partes del código se ejecutan después de otras.
 
-La dirección más formal de un ***order violation*** es: ***""The desired order between two (groups of) memory accesses is flipped***.
+La dirección más formal de un ***order violation*** es: "The desired order between two (groups of) memory accesses is flipped".
 
 ## Deadlock Bugs
 
