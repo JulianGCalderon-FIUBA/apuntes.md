@@ -65,7 +65,7 @@ También encontraremos situaciones donde es necesario especializar un caso de us
 
 A partir de cada caso de uso, se pueden identificar casos de prueba. Que debe probarse en cada escenario, bajo que condiciones, con qué datos, etc.
 
-También vamos a encontrarnos con que en los casos de usa se mencionan objetos de negocio, asociaciones, atributos, propiedades. Todos ellos deben existir en el modelo de dominio.
+También vamos a encontrarnos con que en los casos de uso se mencionan objetos de negocio, asociaciones, atributos, propiedades. Todos ellos deben existir en el modelo de dominio.
 
 ## CRUD/ABMC
 
@@ -91,7 +91,7 @@ A partir del modelo de análisis, se da lugar al modelo de diseño
 
 ## Contratos y Operaciones
 
-*á la Larman* propone un modelo de casos de uso más completo que, además de los casos de uso propiamente dichos, contiene contratos y operaciones. Nos encontraremos con diagramas de secuencia y contratos para cada operación
+*Á la Larman* propone un modelo de casos de uso más completo que, además de los casos de uso propiamente dichos, contiene contratos y operaciones. Nos encontraremos con diagramas de secuencia y contratos para cada operación
 
 Una operación se dispara como resultado de un evento, como resultado de la operación se pueden producir cambios en los objetos de demonio. Cada operación debe ser definida mediante un contrato. No estamos hablando de la implementación, sino de la esencia del sistema.
 

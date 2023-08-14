@@ -137,6 +137,14 @@
     "Rehash",
     "rehashear",
     "heap",
-    "Desapilar"
+    "Desapilar",
+    "LIFO",
+    "FIFO",
+    "castear",
+    "P2P",
+    "Microservicios",
+    "poscondiciones",
+    "Gherkin",
+    "Cucumber"
   ]
 }

@@ -6,7 +6,7 @@
 Cuando no hay calidad, surgen los siguientes costos
 
 - **Costos de Falla Externos:** Relacionados con las acciones necesarias para atender con los reclamos de los clientes.
-- **Costos de Falla Internos:** Relacionados con las actividades necesarias para reparar los productos defectuoso:
+- **Costos de Falla Internos:** Relacionados con las actividades necesarias para reparar los productos defectuosos:
 - **Costos de Evaluación:** Relacionados con las pruebas y las revisiones
 - **Costos de Prevención:** Relacionados con el entrenamiento y la capacitación de los empleados, el diseño de un plan de calidad, etc.
 

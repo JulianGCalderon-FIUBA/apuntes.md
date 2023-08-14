@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmos II/Pilas, Colas y Listas.md",
+                "file": "Análisis de la Información/Innovación y Creatividad.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmos II/Pilas, Colas y Listas.md"
+                "file": "Análisis de la Información/Innovación y Creatividad.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmos II/Pilas, Colas y Listas.md",
+                "file": "Análisis de la Información/Innovación y Creatividad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmos II/Pilas, Colas y Listas.md",
+                "file": "Análisis de la Información/Innovación y Creatividad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,6 +159,20 @@
   },
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
+    "Análisis de la Información/Interfaces de Usuario.md",
+    "Análisis de la Información/Innovación y Creatividad.md",
+    "Análisis de la Información/Ingeniería de Requisitos.md",
+    "Análisis de la Información/Historias de Usuario.md",
+    "Análisis de la Información/Historias de Dominio.md",
+    "Análisis de la Información/Gherkin.md",
+    "Análisis de la Información/Diseño de Datos.md",
+    "Análisis de la Información/Design Thinking.md",
+    "Análisis de la Información/Casos de Uso.md",
+    "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
+    "Análisis de la Información/Arquitectura del Software.md",
+    "Análisis de la Información/Análisis de la Información.md",
+    "Algoritmos II/TDA.md",
+    "Algoritmos II/Recursividad.md",
     "Algoritmos II/Punteros.md",
     "Algoritmos II/Pilas, Colas y Listas.md",
     "Algoritmos II/Memoria.md",
@@ -171,20 +185,6 @@
     "Algoritmos II/Algoritmos II.md",
     "Algoritmos II/Algoritmos de Grafos.md",
     "Matemática Discreta/Alfabeto.md",
-    "Algoritmos I/Operaciones con archivos.md",
-    "Algoritmos I/Manejo de Archivos.md",
-    "Algoritmos I/Recursividad.md",
-    "Algoritmos I/Operaciones con Arreglos.md",
-    "Álgebra II/Álgebra II.md",
-    "Algoritmos I/Argumentos del programa.md",
-    "Algoritmos I/Bibliotecas Personales.md",
-    "Algoritmos I/Algoritmos I.md",
-    "Álgebra II/Transformaciones Lineales.md",
-    "Álgebra II/Subespacios.md",
-    "Álgebra II/Subespacios de Matriz.md",
-    "Álgebra II/Sistemas de E D Homogéneas.md",
-    "Álgebra II/Producto Interno.md",
-    "Álgebra II/Ortogonalidad.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

@@ -1,7 +1,7 @@
 Una historia de usuario es una descripción de la funcionalidad esperada de un sistema, expresada desde el punto de vista del usuario:
 
 > [!note]
-> El formato más aceptado es el denominado quién-qué-porque: Como \<actor> , quiero poder \<función> de modo que/para asi \<razón>
+> El formato más aceptado es el denominado quién-qué-porque: Como \<actor> , quiero poder \<función>, de modo que/para así \<razón>
 
 No son requisitos en el sentido tradicional, sino que constituyen un recordatorio de que se debe mantener una conversación respecto al tema en cuestión.
 
@@ -68,7 +68,7 @@ Primero debemos entender cuáles son los límites del sistema que estamos analiz
 
 ### User Story Mapping
 
-Es un posible enfoque para descubrir historias de usuario, describe las actividades que realizan a lo largo del tiempo los usuarios de una aplicación y su descomposición en subactividades y tareas. A partir de las tareas podemos identificar historias de usuario. Cada subactividad tendrá al menos una tarea asociada.
+Es un posible enfoque para descubrir historias de usuario, describe las actividades que realizan a lo largo del tiempo los usuarios de una aplicación y su descomposición en sub actividades y tareas. A partir de las tareas podemos identificar historias de usuario. Cada sub actividad tendrá al menos una tarea asociada.
 
 ![[Historias de Usuario 2.png|500]]
 
@@ -94,7 +94,7 @@ En **SCRUM**, las historias de usuario se almacenan en el *product backlog* y so
 
 Es un sistema de planificación y organización del trabajo. Su objetivo es ayudar a darle visibilidad al trabajo y limitar el trabajo en simultáneo, mejorando el flujo de trabajo.
 
-Tendremos una tarjeta por cada historia de usuario y por cada defecto encontrado en el **software**. Las historias de usuario se moverán por el tablero para indicar el estado de las mismas.
+Tendremos una tarjeta por cada historia de usuario y por cada defecto encontrado en el *software*. Las historias de usuario se moverán por el tablero para indicar el estado de las mismas.
 
 ![[Historias de Usuario 6.png|450]]
 
@@ -105,7 +105,7 @@ Propuestos por Alistar Cockurn. Separan los objetivos en cuatro niveles:
 - **Cloud level:** High summary level. Objetivos de negocio, son aquellos que llevan el negocio a la dirección requerida
 - **Kite level:** Sumary level. Objetivos alcanzados por procesos de punta a punta dentro de los sistemas. Pueden tomar icho tiempo en ser alcanzados
 - **Sea level:** User goal level. Pueden ser realizados por una sola persona, contribuyen a la entrega de un objetivo completo
-- **Fish level:** Sub goal level. No son objetivos en sí, si no que se utilizan para completar los objetivos y separarlos.
+- **Fish level:** Sub goal level. No son objetivos en sí, sino que se utilizan para completar los objetivos y separarlos.
 
 ## Criterios de Aceptación
 

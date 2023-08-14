@@ -7,7 +7,7 @@ Se deben seguir cuatro reglas fundamentales para la aplicación de la regla:
 1. **Toda crítica está prohibida**, ya sea autocensura o critica a ideas ajenas.
 2. **Toda idea es bienvenida.** Aun las ideas más extravagantes e inaplicables.
 3. **Tantas ideas como sea posible.**
-4. **El desarrollo y asociación de las ideas es deseable** (resonancia selectiva). Una mala idea puede generar una idea en otra persona, que quizás es aplicable.
+4. **El desarrollo y asociación de las ideas es deseable (resonancia selectiva).** Una mala idea puede generar una idea en otra persona, que quizás es aplicable.
 
 ### Modo No Estructurado / Flujo Libre
 

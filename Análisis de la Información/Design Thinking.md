@@ -25,7 +25,7 @@ Esta metodología se mezcla muy bien con las metodologías ágiles debido a su n
 Las técnicas que se utilizan en este método son varias:
 
 - **Stakeholder Map:** Describe a los interesados y sus conexiones
-- **Storytelling:** El entrevistador recree las entrevistas utilizando herramientas visuales
+- **Storytelling:** El entrevistador recrea las entrevistas utilizando herramientas visuales
 - **Benchmarking:** Consiste en analizar otras soluciones al mismo problema
 - **Persona**: Se define un arquetipo de usuarios entrevistados
 - **Customer Journey:** Un relato de como el usuario usaría el producto/solución
@@ -38,5 +38,5 @@ Hay tres estrategias básicas para emplear este método en el contexto de la ing
 
 - **En Estado Puro**: Utilizar únicamente *design thinking*.
 - **Upfront:** Para una etapa previa al desarrollo.
-- **Integración Parcial**: Incluir algunas actividades de design thinking en el proceso de ingeniería de requisitos.
+- **Integración Parcial**: Incluir algunas actividades de *design thinking* en el proceso de ingeniería de requisitos.
 - **Integración Total**: Ambas disciplinas se integran totalmente.

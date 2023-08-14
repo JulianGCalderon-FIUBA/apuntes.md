@@ -30,7 +30,7 @@ Las visiones de caja negra y caja blanca hacen una gran diferencia:
 - El **Qué:** Este se refiere a la funcionalidad del TDA, relacionado con ¿Qué hace esto? **CAJA NEGRA**
 - El **Cómo:** Este se refiere a como se implemente el TDA, relacionado con ¿Cómo hace esto? **CAJA BLANCA**
 
-En el estudio e implementación de los TDAs es fundamental poder separar correctamente el **qué** y el **cómo**.
+En el estudio e implementación de los TDA es fundamental poder separar correctamente el **qué** y el **cómo**.
 
 **Un Qué y Mil Cómos:**
 
