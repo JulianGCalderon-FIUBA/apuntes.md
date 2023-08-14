@@ -24,7 +24,7 @@ Se utilizan protocolos de acceso especiales para transferir mensajes del servido
 
 ### POP
 
-***POP3 (Post Office Protocol - Version 3)*** es un protocolo extremadamente simple. Progresa a través de tres etapas: authorization, transaction, and update. Durante la primera fase, el *user agent* envía el usuario y su contraseña. Durante la segunda fase, el ***user agent*** recupera los mensajes, durante esta fase también puede marcar mensajes para el borrado y obtener estadísticas. Durante la primera fase, se actualiza el buzón de entrada.
+**POP3 (Post Office Protocol - Version 3)** es un protocolo extremadamente simple. Progresa a través de tres etapas: authorization, transaction, and update. Durante la primera fase, el *user agent* envía el usuario y su contraseña. Durante la segunda fase, el ***user agent*** recupera los mensajes, durante esta fase también puede marcar mensajes para el borrado y obtener estadísticas. Durante la primera fase, se actualiza el buzón de entrada.
 
 En el modo ***download-and-delete***, el usuario emite los comandos: ***list, retr,*** and ***dele***. En el modo ***download-and-keep***, el usuario deja los comandos en el buzón luego de descargarlos.
 

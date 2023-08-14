@@ -55,8 +55,8 @@ Hay dos innovaciones importantes que surgieron con la llegada de los sistemas 4G
 Existen dos importantes observaciones de la arquitectura **4G:**
 
 - ***A unified, all-IP network architecture.*** A diferencia de las redes 3G, la arquitectura 4G utiliza datagramas de **IP** para tanto trasferencias de voz como transferencias de datos. Con la llegada de **4G**, desapareció los últimos vestigios de las redes de telefonía, dando lugar a un servicio universal de **IP**.
-- ***A clear separation of the 4G data plane and 4G control plane.*** Esta distinción es similar a la del plano de datos y el plano de control que vimos en **IP**.
-- ***A clear separation between the radio access network, and the all-IP-core network.*** Los datagramas de **IP** son enviados desde el usuario *(UE)* hacia el ***gateway*** (***P-GW)*** a través de una red interna de **4G**. Los paquetes de control son intercambiados dentro de la misma red.
+- **A clear separation of the 4G data plane and 4G control plane.** Esta distinción es similar a la del plano de datos y el plano de control que vimos en **IP**.
+- **A clear separation between the radio access network, and the all-IP-core network.** Los datagramas de **IP** son enviados desde el usuario *(UE)* hacia el ***gateway*** (***P-GW)*** a través de una red interna de **4G**. Los paquetes de control son intercambiados dentro de la misma red.
 
 Los principales componentes de la arquitectura *4G* son:
 

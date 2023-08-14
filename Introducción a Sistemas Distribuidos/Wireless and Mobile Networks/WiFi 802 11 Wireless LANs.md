@@ -24,7 +24,7 @@ En algunas situaciones, un ***host*** necesitará autenticarse para crear una co
 
 ## 2. The 802.11 MAC Protocol
 
-El protocolo de acceso al medio utilizado por ***Wi-Fi*** es el protocolo ***carrier sends multiple access with collision avoidance (CSMA/CA)***. Este difiere del protocolo de ***ethernet CSMA/CD*** en algunos aspectos. En primer lugar, en lugar de *collision detection*, ***802.11*** utiliza ***collision avoidance***. En segundo lugar, ***802.11*** utiliza una técnica de capa de enlace de ***acknowledges/retransmisiones.*** (ARQ).
+El protocolo de acceso al medio utilizado por ***Wi-Fi*** es el protocolo **carrier sends multiple access with collision avoidance (CSMA/CA)**. Este difiere del protocolo de ***ethernet CSMA/CD*** en algunos aspectos. En primer lugar, en lugar de *collision detection*, ***802.11*** utiliza ***collision avoidance***. En segundo lugar, ***802.11*** utiliza una técnica de capa de enlace de ***acknowledges/retransmisiones.*** (ARQ).
 
 Hay dos razones principales por las cuales, 802.11 no implementa ***collision detection***.
 

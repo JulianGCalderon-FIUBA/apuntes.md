@@ -20,7 +20,7 @@ El módulo del proyecto, tendrá las siguientes funcionalidades
 
 - **Manejo de proyectos:** dar de alta, de baja, modificar.
 - **Administración de tareas:** Cada proyecto tendrá tareas asignadas a los diversos integrantes
-- ***Descomposición de riesgos en fases e iteraciones:***. Las tareas y los objetivos de proyectos podrán ser organizados en fases y iteraciones.
+- **Descomposición de riesgos en fases e iteraciones:**. Las tareas y los objetivos de proyectos podrán ser organizados en fases y iteraciones.
 - ***Administración de Riesgos:*** Se deben poder manejar los riesgos de los proyectos y la forma de lidiarlos
 - ***Integraciones con módulos relacionados:*** Como se mencionó, los módulos se comunicarán entre sí a través de las interfaces públicas que estos ofrecen.
 - ***Visibilizar estado de proyectos atrasados***

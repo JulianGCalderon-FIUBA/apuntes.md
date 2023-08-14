@@ -42,7 +42,7 @@ La ***IP de*** broadcast `255.255.255.255` es utilizada cuando un host quiere en
 
 ### Obtaining a Block of Addresses
 
-Para obtener un bloque de direcciones **IP**, un administrador de red puede comunicarse con su ***ISP***, el cual puede proveer direcciones de un gran bloque de direcciones ya reservado para el ISP. A nivel mundial, las direcciones **IP** están manejadas detrás de la autoridad de ***Internet Corporation for Assigned Names and Numbers (ICANN)***. El rol de esta organización sin fines de lucro no es solo reservar direcciones **IP**, sino también manejar los servidores raíz ***DNS***. Esta organización reserva direcciones para los registros de internet regionales.
+Para obtener un bloque de direcciones **IP**, un administrador de red puede comunicarse con su ***ISP***, el cual puede proveer direcciones de un gran bloque de direcciones ya reservado para el ISP. A nivel mundial, las direcciones **IP** están manejadas detrás de la autoridad de **Internet Corporation for Assigned Names and Numbers (ICANN)**. El rol de esta organización sin fines de lucro no es solo reservar direcciones **IP**, sino también manejar los servidores raíz ***DNS***. Esta organización reserva direcciones para los registros de internet regionales.
 
 ### Obtaining a Host Address: The Dynamic Host Configuration Protocol
 

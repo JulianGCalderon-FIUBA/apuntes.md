@@ -11,7 +11,7 @@ Muchas veces, el ***malware*** es ***self-replicating***. Una vez infecta un ***
 
 ## The Bad Guys Can Attack Servers and Network Infrastructure
 
-Otra amplia clase de las amenazas de seguridad son las conocidas ***DoS Attacks*** (***Denial-of-Service)***. Como sugiere el nombre, un ataque *DoS* busca dejar inutilizable un ***host, red, o componente de la infraestructura.***
+Otra amplia clase de las amenazas de seguridad son las conocidas ***DoS Attacks*** (***Denial-of-Service)***. Como sugiere el nombre, un ataque *DoS* busca dejar inutilizable un host, red, o componente de la infraestructura.
 
 La mayoría de estos ataques recaen en tres categorías:
 
