@@ -53,7 +53,7 @@ $$
     \langle X,Y\rangle = Y^TX
     $$
 
-- **Producto Interno canónico en** $C^n$, Se cumple la siguiente igualdad para $X, Y \in \Bbb C^n$
+- **Producto Interno canónico en $C^n$:** Se cumple la siguiente igualdad para $X, Y \in \Bbb C^n$
 
 	$$
     \langle X, Y\rangle = \overline{Y}^TX
