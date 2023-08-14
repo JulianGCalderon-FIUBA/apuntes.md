@@ -32,10 +32,10 @@ Una vez que me quedo sin elementos, habremos recorrido el grafo en orden topoló
 
 Es un algoritmo para determinar el camino más corto dado un vértice origen, hacia el resto de los vértices en un grafo con pesos.
 
-1. Se elige el vértice **V** sobre el cual se aplicara el algoritmo.
+1. Se elige el vértice $V$ sobre el cual se aplicara el algoritmo.
 2. Se crean dos listas de nodos, una de nodos visitados, y otra de nodos no visitados. Esta contiene todos los nodos del grafo.
 3. Se crea una tabla con tres columnas: Vértice, Distancia mínima V, y el nodo anterior por el cual se llegó.
-4. Se toma el vértice **V** como vértice inicial, su distancia a sí mismo es cero.
+4. Se toma el vértice $V$ como vértice inicial, su distancia a sí mismo es cero.
 5. Se actualiza la tabla, en la cual todas las distancias de los demás vértices se marcan como infinito.
 6. Se visita el vértice no visitado con menor distancia conocida desde el primer vértice V, que es el vértice con el que comenzamos, ya que la distancia a ese es 0 y las demás infinito.
 7. Se calcula la distancia entre los vértices sumando los pesos de cada uno con la distancia de V

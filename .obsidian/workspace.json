@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Álgebra II/Subespacios.md",
-                "mode": "preview",
-                "source": true
+                "file": "Algoritmos II/Árboles Generales.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Álgebra II/Subespacios.md"
+                "file": "Algoritmos II/Árboles Generales.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Álgebra II/Subespacios.md",
+                "file": "Algoritmos II/Árboles Generales.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Álgebra II/Subespacios.md",
+                "file": "Algoritmos II/Árboles Generales.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,9 +159,22 @@
   },
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
-    "Álgebra II/Subespacios de Matriz.md",
+    "Algoritmos II/Árboles Auto Balanceados.md",
+    "Algoritmos II/Análisis de Algoritmos.md",
+    "Algoritmos II/Algoritmos II.md",
+    "Algoritmos II/Algoritmos de Grafos.md",
+    "Matemática Discreta/Alfabeto.md",
+    "Algoritmos I/Operaciones con archivos.md",
+    "Algoritmos I/Manejo de Archivos.md",
+    "Algoritmos I/Recursividad.md",
+    "Algoritmos I/Operaciones con Arreglos.md",
+    "Álgebra II/Álgebra II.md",
+    "Algoritmos I/Argumentos del programa.md",
+    "Algoritmos I/Bibliotecas Personales.md",
+    "Algoritmos I/Algoritmos I.md",
     "Álgebra II/Transformaciones Lineales.md",
     "Álgebra II/Subespacios.md",
+    "Álgebra II/Subespacios de Matriz.md",
     "Álgebra II/Sistemas de E D Homogéneas.md",
     "Álgebra II/Producto Interno.md",
     "Álgebra II/Ortogonalidad.md",
@@ -172,21 +185,8 @@
     "Álgebra II/Espacios Vectoriales.md",
     "Álgebra II/Ejemplos de Transformaciones Lineales.md",
     "Álgebra II/Ecuaciones Diferenciales Ordinarias.md",
-    "Álgebra II/Descomposición en Valores Singulares.md",
-    "Álgebra II/Coordenadas.md",
-    "Álgebra II/Autovalores y Autovectores.md",
-    "Álgebra II/Álgebra II.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
-    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
-    "Matemática Discreta/Álgebra de Boole.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
-    "Sistemas Operativos/API de Threads.md",
-    "Análisis de la Información/Web Rest API.md",
-    "Análisis de la Información/Verificar y Validar requerimientos.md",
-    "Modelos y Optimización I/Variables Enteras.md",
-    "Análisis de la Información/Técnicas de Descubrimiento de Requisitos.md",
-    "Análisis de la Información/Técnicas de Análisis, Modelado y Especificación.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",

@@ -6,13 +6,13 @@
 
 **De Texto:** Los archivos de texto están escritos en caracteres, son secuenciales. Tienen extensión `.txt`
 
-**Binarios**: Están escritos en binario, pueden ser tanto secuenciales como de acceso directo. Tienen extensión `.dat`
+**Binarios:** Están escritos en binario, pueden ser tanto secuenciales como de acceso directo. Tienen extensión `.dat`
 
-**Secuenciales**: No pueden abrirse con el modo `+`. Se leen o modifican de principio a fin.
+**Secuenciales:** No pueden abrirse con el modo `+`. Se leen o modifican de principio a fin.
 
 **Acceso Directo:** Podemos modificar la posición del puntero y modificarlo o leerlo en cualquier orden.
 
-**Lectura**: La mínima unidad de lectura que puede tener un archivo de texto es una estructura `char`, en el caso de archivos binarios, la unidad es él `int`
+**Lectura:** La mínima unidad de lectura que puede tener un archivo de texto es una estructura `char`, en el caso de archivos binarios, la unidad es él `int`
 
 ## Funciones
 
@@ -68,7 +68,7 @@ Si el stream apunta a un archivo de salida, la función envía los datos sin esc
 
 ## Stream
 
-Los streams de caracteres son un flujo continuo de caracteres, tienen una naturaleza **exclusivamente secuencial**. Existen tres tipos de streams en todo programa escrito en **C**:
+Los streams de caracteres son un flujo continuo de caracteres, tienen una naturaleza **exclusivamente secuencial.** Existen tres tipos de streams en todo programa escrito en **C:**
 
 - **Standard input:** Corresponde a la entrada estándar del programa, el stream por el cual ingresan datos al programa, está asociado al teclado
 - **Standard output:** Corresponde a la salida estándar del programa, el stream al que se mandan los datos para ser mostrados, está asociado a la consola
