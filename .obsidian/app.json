@@ -123,6 +123,7 @@
     "REST",
     "GET",
     "DELETE",
-    "CRUD"
+    "CRUD",
+    "diagonalizar"
   ]
 }

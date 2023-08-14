@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Álgebra II/Autovalores y Autovectores.md",
+                "file": "Álgebra II/Formas Cuadráticas.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Álgebra II/Autovalores y Autovectores.md"
+                "file": "Álgebra II/Formas Cuadráticas.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Álgebra II/Autovalores y Autovectores.md",
+                "file": "Álgebra II/Formas Cuadráticas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Álgebra II/Autovalores y Autovectores.md",
+                "file": "Álgebra II/Formas Cuadráticas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,18 +159,19 @@
   },
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
+    "Álgebra II/Espacios Vectoriales.md",
+    "Álgebra II/Ejemplos de Transformaciones Lineales.md",
+    "Álgebra II/Ecuaciones Diferenciales Ordinarias.md",
     "Álgebra II/Descomposición en Valores Singulares.md",
     "Álgebra II/Coordenadas.md",
     "Álgebra II/Autovalores y Autovectores.md",
     "Álgebra II/Álgebra II.md",
-    "Álgebra II/Espacios Vectoriales.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.md",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.md",
     "Matemática Discreta/Álgebra de Boole.md",
     "Álgebra II/Operaciones entre Subespacios.md",
-    "Álgebra II/Ecuaciones Diferenciales Ordinarias.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
     "Sistemas Operativos/API de Threads.md",
     "Análisis de la Información/Web Rest API.md",
@@ -186,7 +187,6 @@
     "Análisis de la Información/Requirement Specification vs User Stories.md",
     "Matemática Discreta/Relaciones.md",
     "Física II/Referencia del Potencial.md",
-    "Organizacion de Datos/Redes Recurrentes.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",

@@ -2,7 +2,7 @@
 
 Dada una matriz $A \in \mathbb{R}^{n \times n}$ simétrica, una **forma cuadrática en** $\mathbb{R}^n$ es una función $Q: \mathbb{R}^n \to \mathbb{R}$ tal que $Q(x) = x^T Ax$
 
-Las formas cuadráticas se clasifican en positivas, negativas, semi-definidas positivas, semi-definidas negativas, o indefinidas. Segun lo sean las matrices simétricas que las definen.
+Las formas cuadráticas se clasifican en positivas, negativas, semidefinidas positivas, semidefinidas negativas, o indefinidas, según como se clasifican las matrices simétricas que las definen.
 
 Si $Q: \mathbb{R}^2 \to \mathbb{R}$, se le llama **Curva de Nivel** $k$ al conjunto $C_k = \{x \in \mathbb{R}^2: Q(x) = k\}$
 
@@ -34,7 +34,7 @@ $$
 
 Este teorema nos permitirá optimizar funciones, encontrando sus máximos y mínimos con restricciones en la norma de $x$.
 
-Tambien podremos encontrar los puntos donde la norma es minima o maxima, dado un conjunto de nivel de la función.
+También podremos encontrar los puntos donde la norma es mínima o máxima, dado un conjunto de nivel de la función.
 
 $$
 \lambda_\text{min} \cdot \|x\|^2 \leq Q(x) \leq \lambda_\text{max} \cdot \|x\|^2
@@ -62,7 +62,7 @@ $$
 
 Siendo $A^* = B^{*-1} A B^{*-1}$ tal que $B^* B^* = B$
 
-Sin embargo para esto debemos diagonalizar tanto $B$ como $A^*$, Sin embargo podemos simplificar el cálculo mediante la siguiente equivalencia
+Sin embargo, para esto debemos diagonalizar tanto $B$ como $A^*$; Sin embargo, podemos simplificar el cálculo mediante la siguiente equivalencia
 
 Los autovalores de $A^*$ son los mismos que $B^{-1}A$. Además, se puede demostrar que si $A^* z = \lambda z$, Entonces $B^{-1}A x = \lambda x$. Por lo que la solución del problema se encuentra encontrando los autovalores y autovectores de $B^{-1}A$. A partir de una equivalencia, llegamos a:
 

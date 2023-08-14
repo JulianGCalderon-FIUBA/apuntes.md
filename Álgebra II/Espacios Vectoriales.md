@@ -1,6 +1,6 @@
 ## Definición
 
-Un espacio vectorial consta de
+Un espacio vectorial consta de:
 
 - Un conjunto $\Bbb{V}$ de objetos que llamaremos vectores
 - Un conjunto $\Bbb{K}$ de escalares ($\Bbb{K} = \mathbb{R}$, o $\Bbb{K} = \mathbb{C}$)
