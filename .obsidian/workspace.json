@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Álgebra II/Ortogonalidad.md",
+                "file": "Álgebra II/Producto Interno.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Álgebra II/Ortogonalidad.md"
+                "file": "Álgebra II/Producto Interno.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Álgebra II/Ortogonalidad.md",
+                "file": "Álgebra II/Producto Interno.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Álgebra II/Ortogonalidad.md",
+                "file": "Álgebra II/Producto Interno.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,6 +159,7 @@
   },
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
+    "Álgebra II/Ortogonalidad.md",
     "Álgebra II/Operaciones entre Subespacios.md",
     "Álgebra II/Método de Gram-Schmidt.md",
     "Álgebra II/Matrices Normales.md",
@@ -186,7 +187,6 @@
     "Física I/Sistema de partículas.md",
     "Modelos y Optimización I/Resolución de PLE.md",
     "Análisis de la Información/Requisitos en Contexto.md",
-    "Análisis de la Información/Requirement Specification vs User Stories.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",

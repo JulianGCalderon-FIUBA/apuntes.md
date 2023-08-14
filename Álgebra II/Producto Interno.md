@@ -1,6 +1,6 @@
 ## Definición
 
-Si $\Bbb V$ es un $\Bbb K$-espacio vectorial, se dice que una función $\langle *,* \rangle: \Bbb V \times \Bbb V \to \Bbb K$ es un producto interno **(P.I.)**, si cumple:
+Si $\Bbb V$ es un $\Bbb K$-espacio vectorial, se dice que una función $\langle *,* \rangle: \Bbb V \times \Bbb V \to \Bbb K$ es un producto interno **(P.I.),** si cumple:
 
 - $\langle \alpha u + \beta v, w\rangle = \alpha \langle u, w\rangle + \beta \langle v, w\rangle \impliedby \forall u,v,w \in \Bbb V \ \land\  \forall \alpha, \beta \in \Bbb K$
 - $\langle u,v\rangle = \overline{\langle v,u\rangle } \impliedby \forall u,v \in V \text{Conjugado}$
