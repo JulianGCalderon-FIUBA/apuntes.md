@@ -26,21 +26,21 @@
 
 ![[Grafos Particulares 7.png]]
 
-- $2p$-***Corona:*** Una $2p$-corona es un bipartito $G(U, V)$ tal que $u_iv_j \in E(G) \iff i\neq j$
+- $2p$-**Corona:** Una $2p$-corona es un bipartito $G(U, V)$ tal que $u_iv_j \in E(G) \iff i\neq j$
 
 	![[Grafos Particulares 8.png]]
 
 	Este grafo sera bipartito por su propia definición, pero no sera completo (podemos observarlo en la figura
 
-- $p$-***Book:*** Definido como $p$ ciclos $C_4$ todos compartiendo una arista en común. Puede ser definida a partir de operaciones, como $B(p) = S_{p+1} \times P_2$.
+- $p$-**Book:** Definido como $p$ ciclos $C_4$ todos compartiendo una arista en común. Puede ser definida a partir de operaciones, como $B(p) = S_{p+1} \times P_2$.
 
 	![[Grafos Particulares 9.png]]
 
 	Los libros son bipartitos ya que las estrellas lo son, y los vertices de cada estrella solo son adyacentes a sus análogos en la segunda estrella. De esta forma, se pueden colorear inversamente las estrellas, formando un grafo bipartito
 
-- $**p$-Cube:** Grafo con $2^p$ vertices. Los vertices se etiquetan con una cadena binaria de $p$ digitos, con una arista si la distancia ***hamming*** es 1. Alternativamente, puede pensarse con el producto cartesiano de $p$ veces $K_2$
+- $**p$-Cube:** Grafo con $2^p$ vertices. Los vertices se etiquetan con una cadena binaria de $p$ digitos, con una arista si la distancia *hamming* es 1. Alternativamente, puede pensarse con el producto cartesiano de $p$ veces $K_2$
 
-	La distancia ***hamming*** entre dos cadenas indica la cantidad de ***bits*** distintos
+	La distancia *hamming* entre dos cadenas indica la cantidad de *bits* distintos
 
 	![[Grafos Particulares 10.png]]
 
@@ -52,21 +52,21 @@
 
 	![[Grafos Particulares 12.png]]
 
-- $L_{p,q}:$ ***Lollipop.*** Es el grafo simple compuesto por el $K_p$ y el grafo $P_q$ conectados por un puente
-- $T_{p,q}:$ ***Renacuajo.*** Es el grafo simple resultante de conectar $C_p$ con $P_q$ mediante un puente
+- $L_{p,q}:$ **Lollipop.** Es el grafo simple compuesto por el $K_p$ y el grafo $P_q$ conectados por un puente
+- $T_{p,q}:$ **Renacuajo.** Es el grafo simple resultante de conectar $C_p$ con $P_q$ mediante un puente
 
 	![[Grafos Particulares 13.png]]
 
 	*Chupetín* a la izquierda, y Renacuajo a la derecha
 
-- $KP(p,q,l):$ ***Remo.*** Es el grafo simple resultante de unir el ciclo $C_p$ con el ciclo $C_q$ mediante un ***path*** de longitud $l$.
-- $B_p:$ ***Pesa***. Es el grafo simple obtenido de conectar dos copias de $k_p$ con un puente
+- $KP(p,q,l):$ **Remo.** Es el grafo simple resultante de unir el ciclo $C_p$ con el ciclo $C_q$ mediante un *path* de longitud $l$.
+- $B_p:$ **Pesa**. Es el grafo simple obtenido de conectar dos copias de $k_p$ con un puente
 
 	![[Grafos Particulares 14.png]]
 
-	El tamaño del ***path*** en los últimos cuatro grafos es referido según su longitud, y no la cantidad de sus nodos
+	El tamaño del *path* en los últimos cuatro grafos es referido según su longitud, y no la cantidad de sus nodos
 
-- $K(p,q):$ ***Grafo de Kneser***. Dado un* $p$-conjunto $H$ fijo, se define el grafo simple $G = K(p,q)$ siendo $V(G)$ = $\mathcal{P}_q(H)$ (los $q$-subconjuntos de $H$) con $uv \in E(G)$ ***sii*** $uv = \emptyset$. Es decir, dos vertices son adyacentes *sii* los correspondientes conjuntos son disjuntos. Genéricamente, definimos $K(p,q,s)$ donde $uv \in E(G)$ *sii* $|uv| \leq s$, y entonces particularmente $K(p,q) = K(p,q,0)$.
+- $K(p,q):$ **Grafo de Kneser**. Dado un* $p$-conjunto $H$ fijo, se define el grafo simple $G = K(p,q)$ siendo $V(G)$ = $\mathcal{P}_q(H)$ (los $q$-subconjuntos de $H$) con $uv \in E(G)$ *sii* $uv = \emptyset$. Es decir, dos vertices son adyacentes *sii* los correspondientes conjuntos son disjuntos. Genéricamente, definimos $K(p,q,s)$ donde $uv \in E(G)$ *sii* $|uv| \leq s$, y entonces particularmente $K(p,q) = K(p,q,0)$.
 
 	El miembro ilustre de la familia $K(5,2)$ es isomorfo al grafo de *Petersen.*
 
@@ -74,7 +74,7 @@
 
 	Denotamos $ij$ al vector asociado al conjunto ${i, j}$
 
-	Genéricamente, podemos hallar el tamaño del grafo de ***Kneser*** a partir de la cantidad de formas posibles de tomar $q$ elementos de un conjunto de $p$ elementos, es decir, el numero combinatorio
+	Genéricamente, podemos hallar el tamaño del grafo de *Kneser* a partir de la cantidad de formas posibles de tomar $q$ elementos de un conjunto de $p$ elementos, es decir, el numero combinatorio
 
 	$$
     n(K(p,q)) = \binom{p}{q}
@@ -90,11 +90,11 @@
 
 	Por otro lado, si $p - q < q$, entonces el grafo no tendrá aristas..
 
-- $J(p,q):$ ***Grafo de Johnson.*** Dado un $p$-conjunto $H$ fijo, se define el grafo simple $G = J(p,q)$ con $q \geq 1$, donde $V(G) = \mathcal P_q(H)$ y $uv \in E(G)$ ***sii*** $|uv| = q-1$. Es decir, dos vertices son adyacentes ***sii*** la intersección de los conjuntos asociados es de cardinalidad $q-1$. Algunas relaciones particulares son $J(p, 1) \cong J(p, p-1) \cong K_p$. El grafo de J***ohnson*** generalizo se define como $J(p,q,r)$ donde dos vertices son adyacentes si $|uv| = r$.
+- $J(p,q):$ **Grafo de Johnson.** Dado un $p$-conjunto $H$ fijo, se define el grafo simple $G = J(p,q)$ con $q \geq 1$, donde $V(G) = \mathcal P_q(H)$ y $uv \in E(G)$ *sii* $|uv| = q-1$. Es decir, dos vertices son adyacentes *sii* la intersección de los conjuntos asociados es de cardinalidad $q-1$. Algunas relaciones particulares son $J(p, 1) \cong J(p, p-1) \cong K_p$. El grafo de *Johnson* generalizo se define como $J(p,q,r)$ donde dos vertices son adyacentes si $|uv| = r$.
 
 	![[Grafos Particulares 16.png]]
 
-	Al igual que con el grafo de ***Kneser***, calcularemos el tamaño del grafo a partir del numero combinatorio $\binom pq$.
+	Al igual que con el grafo de *Kneser*, calcularemos el tamaño del grafo a partir del numero combinatorio $\binom pq$.
 
 	Para calcular el grado de cada nodo, sabemos que por cada elemento del conjunto asociado, podremos conectarnos con los nodos cuyo conjunto asociado difieran en únicamente ese elemento. Como difieren en únicamente ese elemento, este no debe pertenecer al propio nodo, luego $d(v) = q(p-q)$. El cardinal del grafo entonces será:
 

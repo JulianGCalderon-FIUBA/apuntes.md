@@ -1,10 +1,10 @@
 Inicialmente se resuelve el modelo con relajación lineal. Recordemos que la solución obtenida no servirá, ya que siempre encontrará que la solución óptima será la utilización de dos colores. Todos los nodos del grafos se colorean a la mitad, con ambos colores.
 
-> ***Teorema de Appel-Hanke:*** Un grafo planar es al menos **4-**coloreable. Este teorema fue demostrado con la ayuda de una computadora, categorizando los grafos planares en clases (con una cantidad finita de clases) y demostrando (por fuerza bruta) la condición para cada clase.
+> *Teorema de Appel-Hanke:* Un grafo planar es al menos 4-coloreable. Este teorema fue demostrado con la ayuda de una computadora, categorizando los grafos planares en clases (con una cantidad finita de clases) y demostrando (por fuerza bruta) la condición para cada clase.
 
 ## Heurística Greedy
 
-Un ejemplo de ***heurística golosa*** podría ser el siguiente:
+Un ejemplo de *heurística golosa* podría ser el siguiente:
 
 1. Construyo una lista de vertices no pintados y parto de un color inicial.
 2. Pinto vertices de la lista con el color seleccionado hasta llegar a un vértice que no puedo pintar con dicho color.
@@ -15,15 +15,15 @@ Esta heurística puede fallar, por ejemplo, al pintar un grafo bipartito complet
 
 ### Heurística DSATUR
 
-La heurística ***largest saturation degree (don satur)*** parte de pintar los tres vertices de mayor grado de tres colores distintos.
+La heurística **largest saturation degree (don satur)** parte de pintar los tres vertices de mayor grado de tres colores distintos.
 
 ### Heurística RLF
 
-Similar a la anterior ***heurística***, pero tiene un algoritmo más complejo, y recursivo.
+Similar a la anterior **heurística**, pero tiene un algoritmo más complejo, y recursivo.
 
 ## Meta-heurística MACOL
 
-Trabaja sobre un algoritmo memético (un tipo de algoritmo genético). Se usa un algoritmo genético combinando ***Tabu Search***.
+Trabaja sobre un algoritmo memético (un tipo de algoritmo genético). Se usa un algoritmo genético combinando **Tabu Search**.
 
 Se busca un $k$-coloreo valido, en caso de encontrarlo, se busca un $k'$-coloreo valido mejor. A medida que disminuye $k$, el problema se vuelve mas difícil.
 
@@ -43,7 +43,7 @@ Se define una solución de evaluación $f$ que mide la cantidad de conflictos qu
 
 ### Initial Population
 
-Se utiliza una versión aleatorizada de la heurística ***DANGER***. El proximo vértice a colorear se elige en base a su índice de riesgo. El color a asignar se toma con el mismo criterio. Los valores de riesgo se toan como una probabilidad de elección del color o vértice.
+Se utiliza una versión aleatorizada de la heurística **DANGER**. El proximo vértice a colorear se elige en base a su índice de riesgo. El color a asignar se toma con el mismo criterio. Los valores de riesgo se toan como una probabilidad de elección del color o vértice.
 
 Si el nuevo $k$-coloreo obtenido es muy parecido a los ya obtenidos, se lo descarta y se busca uno nuevo. Para esto, se toma una función de distancia entre dos coloreos, a partir de la cual se deriva una función de distancia entre un coloreo y una población.
 
@@ -57,7 +57,7 @@ Esto se repite, y la condición de corte es la cantidad de iteraciones.
 
 ### Adaptive Multi-Parent Crossover
 
-*AMPaX* Es una extensión del algoritmo ***GPX (Greedy Partition Crossover)***. Toma como entrada dos particiones, y devolverá una nueva partición mejorada.
+*AMPaX* Es una extensión del algoritmo **GPX (Greedy Partition Crossover)**. Toma como entrada dos particiones, y devolverá una nueva partición mejorada.
 
 ### Pool Updating
 

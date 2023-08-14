@@ -8,7 +8,7 @@ Si dos grafos simples son isomorfos, cada grafo es representante de la clase de 
 
 Dados dos grafos simples $G$ y $H$, se considera que son isomorfos con $G \cong H \iff \exists \theta: V(G) \to V(H)$ biyectiva tal que $uv \in E(G) \iff \theta(u)\theta(v) \in E(H)$. Es decir, si preservan las adyacencias
 
-Ademas $G \cong H$ con el isomorfismo definido por $\theta: V(G) \to V(H)$ ***sii*** la correspondiente matriz de permutación $P \in \{0,1\}^{n\times n}$ satisface $A_G = P^{-1}A_HP$. Esto es, $A_G$ y $A_H$ son semejantes.
+Ademas $G \cong H$ con el isomorfismo definido por $\theta: V(G) \to V(H)$ *sii* la correspondiente matriz de permutación $P \in \{0,1\}^{n\times n}$ satisface $A_G = P^{-1}A_HP$. Esto es, $A_G$ y $A_H$ son semejantes.
 
 Para calcular, $P$ permutaremos las filas de la matriz identidad $I_n$ como indica la permutación $\theta$. $P{-1} = P_T$ se obtendrá permutando de la misma forma, las columnas de la identidad.
 

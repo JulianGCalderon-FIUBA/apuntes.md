@@ -67,7 +67,7 @@ $$
 \Delta_1 < 0,\quad \Delta_2 > 0,\quad \Delta_3 < 0.\quad \text{Maximo Relativo}
 $$
 
-Si no se cumple ninguna combinacion, se considera un ***punto silla.***
+Si no se cumple ninguna combinacion, se considera un **punto silla.**
 
 > [!note]
 > Si $\Delta_i = 0$ para algun $i$, No sirve el criterio

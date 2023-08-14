@@ -16,11 +16,11 @@ Un problema indecidible es aquel que no tiene algoritmos que lo resuelvan. Un ej
 
 ## Complejidad Algorítmica
 
-La complejidad se define según la relación entre la cantidad de instrucciones computadas y el tamaño de la instancia. Usualmente, se utiliza la notación ***big-O*** para medirla.
+La complejidad se define según la relación entre la cantidad de instrucciones computadas y el tamaño de la instancia. Usualmente, se utiliza la notación **big-O** para medirla.
 
 ## Clases de Complejidad
 
-Antes de mencionar las clases de complejidad, debemos hablar de la maquina determinística de ***Turing***. Esta se definió como una cinta, de tamaño ilimitado, que podremos pensar como la memoria de la maquina. La maquina tendrá un solo procesador y podrá recorrer la cinta, modificar los valores, y realizar operaciones con ella.
+Antes de mencionar las clases de complejidad, debemos hablar de la maquina determinística de Turing. Esta se definió como una cinta, de tamaño ilimitado, que podremos pensar como la memoria de la maquina. La maquina tendrá un solo procesador y podrá recorrer la cinta, modificar los valores, y realizar operaciones con ella.
 
 Una maquina no determinística es aquella que contiene una cantidad infinitas de cintas infinitas, luego cualquier problema de ramificación se puede resolver como si existiese una sola rama.
 
@@ -32,13 +32,13 @@ La clase de problemas de decisión $P$ constituyen aquellos problemas que tienen
 
 ### Clase NP
 
-La clase de problemas de decisión $NP$ constituyen aquellos problemas que pueden ser resueltos en tiempo polinomial por una maquina de ***Turing*** no determinística. Esto es, no se pueden resolver en tiempo polinomial, pero si se pueden verificar en tiempo polinomial.
+La clase de problemas de decisión $NP$ constituyen aquellos problemas que pueden ser resueltos en tiempo polinomial por una maquina de Turing no determinística. Esto es, no se pueden resolver en tiempo polinomial, pero si se pueden verificar en tiempo polinomial.
 
 El problema del viajante, se puede reducir a $n!$ posibles soluciones, luego con $n!$ verificaciones encontraremos la solución optima. Este es un problema $NP$.
 
 ### Clase NP Completo
 
-***Reducciones:*** Si un problema $A$ puede convertirse en tiempo polinomial en un problema $B$, se dice que $B$ "no es mas fácil" que $A$.
+**Reducciones:** Si un problema $A$ puede convertirse en tiempo polinomial en un problema $B$, se dice que $B$ "no es mas fácil" que $A$.
 
 Los problemas $NP{-}\text{Completos}$ son aquellos problemas $NP$ tales que cualquier problema $NP$ puede reducirse en tiempo polinómico a dicho problema.
 

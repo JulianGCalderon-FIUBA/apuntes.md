@@ -25,7 +25,7 @@ Si $T$ es un conjunto independiente de vertices, no hay ninguna arista entre cua
 
 ## Dominación de Vertices
 
-Sea $G$ u grafo, $S \in V(G)$ es un conjunto de vertices dominantes ***sii*** $\bigcup_{v \in S}$ $\Gamma(v) = V(G)$. Este es fuertemente dominante si se cumple la propiedad con el entorno cerrado $\Gamma[v)$
+Sea $G$ u grafo, $S \in V(G)$ es un conjunto de vertices dominantes *sii* $\bigcup_{v \in S}$ $\Gamma(v) = V(G)$. Este es fuertemente dominante si se cumple la propiedad con el entorno cerrado $\Gamma[v)$
 
 - Se define el numero de dominancia $\gamma(G)$ como el cardinal del mínimo dominante
 - Se define el numero fuerte de dominancia $\gamma_s(G)$ como el cardinal del mínimo fuertemente dominante

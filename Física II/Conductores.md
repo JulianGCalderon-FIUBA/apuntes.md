@@ -1,6 +1,6 @@
 La carga es una propiedad de la materia, por lo que las cargas están ubicadas en medio materiales. En este curso vamos a estudiar dos medios materiales. Los **conductores**, y los **aislantes**.
 
-Experimentalmente, podemos probar que el campo eléctrico ***dentro*** de un conductor resulta nulo. Una manera de pensar esto intuitivamente es que las cargas, inducidas por el campo, se reordenan en el conductor y modifican el campo hasta que estas se posicionan en la superficie del conductor y dejan de moverse. Anulando el campo, el campo eléctrico dentro del mismo.
+Experimentalmente, podemos probar que el campo eléctrico dentro de un conductor resulta nulo. Una manera de pensar esto intuitivamente es que las cargas, inducidas por el campo, se reordenan en el conductor y modifican el campo hasta que estas se posicionan en la superficie del conductor y dejan de moverse. Anulando el campo, el campo eléctrico dentro del mismo.
 
 ![[Conductores 1.png|475]]
 

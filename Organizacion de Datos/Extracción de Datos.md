@@ -45,7 +45,7 @@ Esta ontología se puede generar automáticamente:
 	1. Para un par de entidades semilla, buscar coincidencias
 	2. Extraer el contexto de la oración, reemplazar entidades por comodines
 	3. Realizar búsquedas con esos patrones para encontrar nuevas entidades y repetir
-- ***DISTANT SUPERVISION:*** Combina bootstrapping con aprendizaje supervisado. En lugar de usar pocas semillas, se utiliza un gran volumen de datos.
+- **DISTANT SUPERVISION:** Combina bootstrapping con aprendizaje supervisado. En lugar de usar pocas semillas, se utiliza un gran volumen de datos.
 	1. Para cada relación
 	2. Para cada tupla de entidades
 	3. Encuentra sentencias en un corpus donde aparecen esas entidades
@@ -54,8 +54,8 @@ Esta ontología se puede generar automáticamente:
 
 ### No supervisado para la web.
 
-- ***KnowItAll:*** No Supervisado; Independiente del Dominio; Escalable
-- ***TEXTRUNNER:*** Primer algoritmo que podríamos definir de Open Information Extraction
+- **KnowItAll:** No Supervisado; Independiente del Dominio; Escalable
+- **TEXTRUNNER:** Primer algoritmo que podríamos definir de Open Information Extraction
 	1. Realiza una sola pasada sobre el conjunto de datos
 	2. Extraer relaciones semánticas no definidas a priori
 

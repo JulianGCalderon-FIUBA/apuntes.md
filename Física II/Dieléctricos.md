@@ -78,7 +78,7 @@ $$
 \end{align*}
 $$
 
-Si combinamos estas definiciones, llegamos a la ***relación constitutiva:***
+Si combinamos estas definiciones, llegamos a la **relación constitutiva:**
 
 $$
 \vec E = \frac{\vec D - \vec P}{\varepsilon_0} \iff \vec D = \varepsilon_0 \vec E + \vec P

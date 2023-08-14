@@ -2,7 +2,7 @@ Para resolver modelos de programación lineal entera, tendremos muchos métodos.
 
 Las **heurísticas** las utilizaremos cuando no existe un método exacto de resolución o requiere demasiado tiempo o recursos. También la utilizaremos cuando no necesitemos obtener la solución óptima y con una aproximación es suficiente, o cuando tenemos datos poco confiables. En casos, las heurísticas se utilizarán como paso intermedio antes de la aplicación de otro algoritmo.
 
-Los problemas **NP** son aquellos que no pueden resolverse en tiempo polinómico y debido a esto, se suelen usar ***heurísticas*** para resolverlos.
+Los problemas **NP** son aquellos que no pueden resolverse en tiempo polinómico y debido a esto, se suelen usar *heurísticas* para resolverlos.
 
 Existen dos tipos de heurísticas. Las heurísticas de **construcción** utilizan un algoritmo para crear una solución inicial. Las heurísticas de **mejora** parten de una solución y buscan mejorarla.
 

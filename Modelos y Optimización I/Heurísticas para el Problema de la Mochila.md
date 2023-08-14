@@ -1,6 +1,6 @@
 ## Aproximación a través de coeficiente de rendimiento
 
-Un ejemplo simple de ***heurística*** puede ser:
+Un ejemplo simple de **heurística** puede ser:
 
 1. Ordenar los elementos por el índice ***precio/peso***, de mayor a menor. En caso de empate, el de menor peso. En caso de empate, por orden alfabético.
 2. Mientras queden elementos en la lista:

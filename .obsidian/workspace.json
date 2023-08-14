@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática Discreta/Clasificaciones.md",
+                "file": "Modelos y Optimización I/Heurísticas para el Problema de la Mochila.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática Discreta/Clasificaciones.md"
+                "file": "Modelos y Optimización I/Heurísticas para el Problema de la Mochila.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática Discreta/Clasificaciones.md",
+                "file": "Modelos y Optimización I/Heurísticas para el Problema de la Mochila.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática Discreta/Clasificaciones.md",
+                "file": "Modelos y Optimización I/Heurísticas para el Problema de la Mochila.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,6 +160,17 @@
   },
   "active": "114c3278ee40296f",
   "lastOpenFiles": [
+    "Modelos y Optimización I/Heurísticas para Coloreo de Grafos.md",
+    "Modelos y Optimización I/Heurísticas.md",
+    "Matemática Discreta/Grafos Particulares.md",
+    "Matemática Discreta/Grafos Orientados.md",
+    "Física II/Fasores Complejos.md",
+    "Análisis Matemático II/Extremos de campos escalares.md",
+    "Organizacion de Datos/Extracción de Datos.md",
+    "Física II/Dieléctricos.md",
+    "Física II/Conductores.md",
+    "Modelos y Optimización I/Complejidad de Problemas.md",
+    "Matemática Discreta/Clasificaciones.md",
     "Organizacion de Datos/Clasificación de Texto.md",
     "Matemática Discreta/Caminos y Distancias.md",
     "Organizacion de Datos/Arboles.md",
@@ -176,17 +187,6 @@
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Clases Practicas.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Application Layer.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
-    "Análisis de la Información/PSA.md",
-    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Delay, Loss, and Throughput in Packet-Switched N.md",
-    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Networks Under Attack.md",
-    "Introducción a Sistemas Distribuidos/The Link Layer and LANs/Multiple Access Links and Protocols.md",
-    "Introducción a Sistemas Distribuidos/The Network Layer Control Plane/Network Management and SNMP.md",
-    "Introducción a Sistemas Distribuidos/The Network Layer Control Plane/The SDN Control Plane.md",
-    "Introducción a Sistemas Distribuidos/Wireless and Mobile Networks/WiFi 802 11 Wireless LANs.md",
-    "Introducción a Sistemas Distribuidos/Transport Layer/Principles of Congestion Control.md",
-    "Introducción a Sistemas Distribuidos/Transport Layer/Connection-Oriented Transport TCP.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",
     "Indice.tex",
