@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Álgebra II/Formas Cuadráticas.md",
+                "file": "Álgebra II/Autovalores y Autovectores.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Álgebra II/Formas Cuadráticas.md"
+                "file": "Álgebra II/Autovalores y Autovectores.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Álgebra II/Formas Cuadráticas.md",
+                "file": "Álgebra II/Autovalores y Autovectores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Álgebra II/Formas Cuadráticas.md",
+                "file": "Álgebra II/Autovalores y Autovectores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,12 +157,15 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "f6c9c20f2228edef",
   "lastOpenFiles": [
+    "Álgebra II/Álgebra II.md",
+    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
+    "Álgebra II/Autovalores y Autovectores.md",
+    "Matemática Discreta/Álgebra de Boole.md",
+    "Álgebra II/Formas Cuadráticas.md",
     "Álgebra II/Operaciones entre Subespacios.md",
     "Álgebra II/Ecuaciones Diferenciales Ordinarias.md",
-    "Álgebra II/Autovalores y Autovectores.md",
-    "Álgebra II/Álgebra II.md",
     "Introducción a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
     "Sistemas Operativos/API de Threads.md",
     "Análisis de la Información/Web Rest API.md",
@@ -182,9 +185,6 @@
     "Organizacion de Datos/Redes Neuronales.md",
     "Organizacion de Datos/Redes de Aprendizaje Profundo.md",
     "Análisis de la Información/PSA.md",
-    "Análisis de la Información/Prototipado y Experiencia de Usuario.md",
-    "Modelos y Optimización I/Programación Lineal Continua.md",
-    "Modelos y Optimización I/Problemas de cobertura de conjuntos.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",
