@@ -30,7 +30,7 @@ Un directorio es un archivo, como cualquier otro, que contiene información acer
 
 ## Lectura y Escritura
 
-Cuando accedemos un archivo, el sistema de archivos primero debe encontrar el inodo deseado. Para eso, debe recorrer el ***path***, accediendo a los directorios intermedios hasta encontrar el inodo buscado.
+Cuando accedemos un archivo, el sistema de archivos primero debe encontrar el inodo deseado. Para eso, debe recorrer el *path*, accediendo a los directorios intermedios hasta encontrar el inodo buscado.
 
 El primer directorio a leer debe ser el directorio ***root***, el sistema de archivo suele conocer su ubicación de antemano. Luego, debe leer sus contenidos hasta encontrar el siguiente inodo en el cual buscar (a partir del path), este proceso se repite de forma recursiva hasta encontrar el inodo buscado.
 

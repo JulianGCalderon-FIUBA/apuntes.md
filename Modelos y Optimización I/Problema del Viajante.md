@@ -37,17 +37,17 @@ $$
 Z_{\min} = \sum_{i=0}^{n}\sum_{ j=0, i\neq j}^{n} C_{ij}Y_{ij}
 $$
 
-Esta dos restricciones aún no son suficientes, ya que todavía no impedimos la formación de ***subtours. Sean*** $A, B, \cdots, G$ siete ciudades, entonces los caminos $GF, FD, DG$ no incumplirian restricciones, pero formarian un camino aislado.
+Esta dos restricciones aún no son suficientes, ya que todavía no impedimos la formación de **subtours**. Sean $A, B, \cdots, G$ siete ciudades, entonces los caminos $GF, FD, DG$ no incumplirian restricciones, pero formarian un camino aislado.
 
 ### Formulación MTZ
 
-La formulación ***MTZ***, llamada así tras los que la formularon (Miller, Kuhn, Tucker), define $U_i$ como el número de secuencia en el cual la ciudad $i$ es visitada, para todo $i = 1, 2, \cdots, n$.
+La formulación *MTZ*, llamada así tras los que la formularon (Miller, Kuhn, Tucker), define $U_i$ como el número de secuencia en el cual la ciudad $i$ es visitada, para todo $i = 1, 2, \cdots, n$.
 
 $$
 U_i - U_j + nY_{ij} \leq n-1
 $$
 
-Si se utiliza el camino $ij$, entonces tendremos que $U_i - U_j \leq -1$. En otras palabras, el número de secuencia de la ciudad $U_i$ debe ser menor al número de secuencia de la ciudad $U_j$. A partir de la primer caso, se obliga a que todas las ciudades tomen un número de secuencia distinto y ordenado, evitando así la formación de ***subtours***. Si analizamos el ejemplo anterior: $CF, FD, DC$ e imponemos las restricciones, tendremos $U_c < U_f < U_d < U_c$, esto es absurdo. Debido a que no estamos utilizando $i=0$ en la formación de restricciones, el único camino cerrado que podemos formar es aquel que incluya a la ciudad cero, (y por lo tanto completo).
+Si se utiliza el camino $ij$, entonces tendremos que $U_i - U_j \leq -1$. En otras palabras, el número de secuencia de la ciudad $U_i$ debe ser menor al número de secuencia de la ciudad $U_j$. A partir de la primer caso, se obliga a que todas las ciudades tomen un número de secuencia distinto y ordenado, evitando así la formación de *subtours*. Si analizamos el ejemplo anterior: $CF, FD, DC$ e imponemos las restricciones, tendremos $U_c < U_f < U_d < U_c$, esto es absurdo. Debido a que no estamos utilizando $i=0$ en la formación de restricciones, el único camino cerrado que podemos formar es aquel que incluya a la ciudad cero, (y por lo tanto completo).
 
 Si no se utiliza el camino $ij$, entonces tendremos que $U_i - U_j \leq n-1$. En otras palabras, la diferencia de secuencia entre todo par de ciudades debe ser menor o igual a $n-1$. Esto obliga a que los números de secuencia no solo estén ordenados, sino que además sean consecutivos. Sean $U_1, \cdots, U_n$ números distintos tal que $U_1 <U_2< \cdots < U_n$. con $U_n - U_1 \leq n-1$. Entonces los únicos valores que posibles que podrán tomar los números de secuencia serán los números consecutivos de $1$ a $n$.
 

@@ -32,7 +32,7 @@ $$
 
 ## Superficies Planas
 
-Las superficies planas son las más simples de analizar, se calculan las posiciones a partir de la ***Ley de Snell*** y la ***Ley de Reflexión.***
+Las superficies planas son las más simples de analizar, se calculan las posiciones a partir de la **Ley de Snell** y la **Ley de Reflexión.**
 
 En un espejo, podremos ver el principio de reflexión
 

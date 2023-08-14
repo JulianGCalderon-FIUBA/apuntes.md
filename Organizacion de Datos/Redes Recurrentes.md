@@ -8,10 +8,10 @@ Tendremos entonces un conjunto de $n$ entradas y un conjunto de $n$ salidas, est
 
 Para hacer esto, cada neurona recurrente tiene dos entradas, la entrada usual, y otra entrada que sería la salida del paso anterior. Tendremos los siguientes componentes:
 
-- Matriz de *pesos* para X
-- Matriz de *pesos* para Y
-- Función de *activación*
-- Vector de ***bias***
+- Matriz de pesos para X
+- Matriz de pesos para Y
+- Función de activación
+- Vector de bias
 
 Son también llamadas celdas de memoria, ya que …. ALGO
 
@@ -33,7 +33,7 @@ Otra alternativa es que la ultima neurona tenga $n$ salidas.
 
 ## Métricas
 
-El enfoque ***naive*** para analizar el error es comprar con el último valor de una secuencia ya conocida
+El enfoque **naive** para analizar el error es comprar con el último valor de una secuencia ya conocida
 
 ## Problemáticas
 

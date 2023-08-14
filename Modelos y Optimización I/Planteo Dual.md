@@ -13,16 +13,16 @@ X \geq 0\\
 $$
 
 > [!example]- Planteo del Primal
-> 
+>
 > Tendremos un problema de maximización, con tres restricciones y dos variables:
-> 
+>
 > $$
 > \begin{alignat*}{2}
 > -2x_1& + 1x_2& \leq 2\\
 > 1x_1& - 1x_2& \leq 2\\
 > 1x_1& + 1x_2& \leq 5\\
 > Z_{max} = 10x_1& + 3x_2
-> \end{alignat*} 
+> \end{alignat*}
 > $$
 
 El problema dual tendrá la siguiente forma:
@@ -38,23 +38,23 @@ $$
 La dimensión del vector $Y$ será la cantidad de restricciones del problema original
 
 > [!example]- Planteo del Dual
-> 
+>
 > En el dual, intercambiaremos los términos independientes de las restricciones con los coeficientes del funcional, y los coeficientes de las restricciones se obtendrán transponiendo los originales
-> 
+>
 > $$
 > \begin{alignat*}{2}
 > -2y_1& + 1y_2& + 1y_3& \geq 10\\
 > 1y_1& - 1y_2& + 1y_3& \geq 3\\
 > Z_{max} = 2y_1& + 2y_2& + 5y_3&
-> \end{alignat*} 
+> \end{alignat*}
 > $$
 
-Podremos asignar las variables del dual de modo las primeros elementos de $Y$ corresponderán a las variables ***slack***, mientras que lo siguientes elementos corresponderán a las variables reales.
+Podremos asignar las variables del dual de modo las primeros elementos de $Y$ corresponderán a las variables *slack*, mientras que lo siguientes elementos corresponderán a las variables reales.
 
 > [!example]- Asignación
-> 
+>
 > En nuestro ejemplo, asignaremos:
-> 
+>
 > $$
 > \begin{gathered}
 > y_1 \iff x_3\\
@@ -83,9 +83,9 @@ Si cualquiera de los dos problemas tiene una solución optima no acotada, entonc
 
 ### Teorema de la Holgura Complementaria
 
-Dados el problema primal y el dual correspondiente, siempre que en la $k$-ésima restricción de uno de ellos la variable ***slack*** tome valor distinto de cero, entonces la $k$-ésima variable del otro problema desaparece de la base.
+Dados el problema primal y el dual correspondiente, siempre que en la $k$-ésima restricción de uno de ellos la variable *slack* tome valor distinto de cero, entonces la $k$-ésima variable del otro problema desaparece de la base.
 
-Si la $k$-ésima variable de uno de los dos problemas es mayor que cero, en la $k$-ésima restricción del otro problema se verifica la igualdad (la ***slack*** es nula)
+Si la $k$-ésima variable de uno de los dos problemas es mayor que cero, en la $k$-ésima restricción del otro problema se verifica la igualdad (la *slack* es nula)
 
 ### Reconstrucción de Tabla del Dual
 
@@ -93,7 +93,7 @@ Podremos reconstruir la tabla del dual a partir de la tabla del primal:
 
 > [!example]- Tabla Optima del Primal
 > Partimos de la tabla óptima del primal:
-> 
+>
 > | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
 > | --- | --- | --- | --- | --- | --- | --- | --- |
 > | $0$ | $x_3$ | $7.5$ | $0$ | $0$ | $1$ | $1.5$ | $0.5$ |
@@ -105,7 +105,7 @@ Podremos reconstruir la tabla del dual a partir de la tabla del primal:
 
 	> [!example]- Valor de las variables
 	> Calculamos el valor de las variables del dual:
-	> 
+	>
 	> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
 	> | --- | --- | --- | --- | --- | --- | --- | --- |
 	> | $2$ | $y_2$ | $3.5$ | | | | | |
@@ -116,7 +116,7 @@ Podremos reconstruir la tabla del dual a partir de la tabla del primal:
 
 	> [!example]- Vectores canónicos
 	> Colocamos los vectores canónicos:
-	> 
+	>
 	> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
 	> | --- | --- | --- | --- | --- | --- | --- | --- |
 	> | $2$ | $y_2$ | $3.5$ | | $1$ | $0$ | | |
@@ -127,7 +127,7 @@ Podremos reconstruir la tabla del dual a partir de la tabla del primal:
 
 	> [!example]- Valores restantes
 	> Finalmente, agregamos los valores restantes:
-	> 
+	>
 	> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
 	> | --- | --- | --- | --- | --- | --- | --- | --- |
 	> | $2$ | $y_2$ | $3.5$ | $-1.5$ | $1$ | $0$ | $-0.5$ | $0.5$ |

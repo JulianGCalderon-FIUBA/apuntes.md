@@ -54,7 +54,7 @@ $$
 
 ## Ensamble
 
-Definimos la operación de ensamble (o ***join***) entre $G$ y $H$ como $G * H$, donde
+Definimos la operación de ensamble (o *join*) entre $G$ y $H$ como $G * H$, donde
 
 $$
 V(G *H) = V(G) + V(H)
@@ -108,13 +108,13 @@ $$
 K_4 - v = K_3
 $$
 
-Dado un grafo $G$, su ***deck*** es un *multiconjunto* de subgrafos (posiblemente repetidos), obtenidos de la eliminación de exactamente un vértice. El ***edge-deck*** de un grafo es el conjunto de clases isomórficas de su ***deck***. Mas generalmente, se puede tener un ***deck*** de vertices y un ***deck*** de aristas.
+Dado un grafo $G$, su **deck** es un multiconjunto de subgrafos (posiblemente repetidos), obtenidos de la eliminación de exactamente un vértice. El **edge-deck** de un grafo es el conjunto de clases isomórficas de su *deck*. Mas generalmente, se puede tener un *deck* de vertices y un *deck* de aristas.
 
-Si un grafo puede ser reconstruido a partir de su ***deck***, se dice que es *reconstruible*. Esto es, si un grafo es inequívocamente determinado por sus deck*.*
+Si un grafo puede ser reconstruido a partir de su *deck*, se dice que es *reconstruible*. Esto es, si un grafo es inequívocamente determinado por sus deck*.*
 
 ## Grafo Dual
 
-Dada una [[Clasificaciones#Inmersión|inmersión]] de un grafo $G$, se define su dual $G^*$ al grafo que tiene tantos vertices como caras del original, existiendo una arista entre dos vertices del dual por cada arista de frontera entre las correspondientes caras del original. El dual del dual se llama ***bidual***, y se denota $G^{**}$.
+Dada una [[Clasificaciones#Inmersión|inmersión]] de un grafo $G$, se define su dual $G^*$ al grafo que tiene tantos vertices como caras del original, existiendo una arista entre dos vertices del dual por cada arista de frontera entre las correspondientes caras del original. El dual del dual se llama **bidual**, y se denota $G^{**}$.
 
 ![[Operaciones entre Grafos 2.png]]
 
@@ -130,7 +130,7 @@ Curiosamente, observamos que los grafos resultantes son planares.
 
 ![[Operaciones entre Grafos 4.png]]
 
-**Observación:** El dual siempre es conexo, por la definición de ***cara***.
+**Observación:** El dual siempre es conexo, por la definición de **cara**.
 
 ## Grafo Arista
 

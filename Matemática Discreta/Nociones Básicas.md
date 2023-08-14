@@ -48,7 +48,7 @@ Un grafo es simple si no tiene lazos ni aristas multiples. En los grafos simples
 
 ## Grado de Vértice
 
-El grado de un vértice $d(v)$, del ingles ***degree*** es la cantidad de aristas que inciden sobre ese vértice. La sucesión de grados $d(G)$ es un vector no decreciente con el grado de cada uno de los vertices.
+El grado de un vértice $d(v)$, del ingles *degree* es la cantidad de aristas que inciden sobre ese vértice. La sucesión de grados $d(G)$ es un vector no decreciente con el grado de cada uno de los vertices.
 
 - Definimos $\delta(G)$ como el grado mínimo del grafo.
 - Definimos $\Delta(G)$ como el grado máximo del grafo.
@@ -62,7 +62,7 @@ Si todos los vertices del grafo $G$ tienen de grado $\delta(G)$, excepto uno de 
 
 Se dice que la sucesión $P=(p_1, p_2, \cdots, p_n)$ es grafica si existe un grafo $G(n,m)$ cuya sucesión de grafos es $P$.
 
-***Teorema:*** Si $P$ es una sucesión de naturales cuya suma es par, entones siempre es una sucesión grafica de algún grafo, posiblemente simple.
+**Teorema:** Si $P$ es una sucesión de naturales cuya suma es par, entones siempre es una sucesión grafica de algún grafo, posiblemente simple.
 
 **Algoritmo de Construcción de Grafo:**
 
@@ -125,4 +125,4 @@ $$
 
 La matriz $J$, completa con unos, tiene $n-1$ autovalores de valor $0$, y un solo autovalor de multiplicidad de valor $n$. A partir de estas definiciones, podremos definir el espectro de $K_n$. Su matriz de adyacencia sera $J - I$, luego definimos el polinomio $p(\lambda) = \lambda -1$, y su polinomio matricial asociado $P(A) = A - I$. Entonces, $A_{K_n} = J - I = P(J)$. Luego, el espectro de $K_n$ será $\sigma(G) = \{-1\ (\text{orden }n-1), n-1\}$.
 
-De forma similar, se demuestra que el espectro de un bipartito $K_{r,s}$ será $\sigma(G) = \{\pm\sqrt{rs}, 0 (r+s - 2)\}$. El espectro de un ***path*** $P_n$ será $\sigma(G) = \{2\cos(k\pi/(n+1)), k = 1,2,\cdots, n\}$. El espectro de un cubo $Q_3$, será $\sigma(G) = \{-3, 3, 1(3), -1(3)\}$.
+De forma similar, se demuestra que el espectro de un bipartito $K_{r,s}$ será $\sigma(G) = \{\pm\sqrt{rs}, 0 (r+s - 2)\}$. El espectro de un *path* $P_n$ será $\sigma(G) = \{2\cos(k\pi/(n+1)), k = 1,2,\cdots, n\}$. El espectro de un cubo $Q_3$, será $\sigma(G) = \{-3, 3, 1(3), -1(3)\}$.

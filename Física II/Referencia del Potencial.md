@@ -4,7 +4,7 @@ Si queremos encontrar la función potencial, y no pensarla solo como una diferen
 
 En el caso de distribuciones acotadas, podemos analizar el potencial en el infinito. Esto hará que tienda a 0.
 
-A este método se le llama: ***integración directa.***
+A este método se le llama: *integración directa.*
 
 $$
 \Delta V^{\infty A} = V(A) - \underbrace{V(\infty)}_{\to 0} = V(A) = -\int \frac{dq'}{4\pi\epsilon_0}\Bigg[\frac{1}{|\vec r_A - \vec r'|} - \frac{1}{\infty}\Bigg]

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis de la Información/Modelos en la ingeniería de software.md",
+                "file": "Física II/Referencia del Potencial.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis de la Información/Modelos en la ingeniería de software.md"
+                "file": "Física II/Referencia del Potencial.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis de la Información/Modelos en la ingeniería de software.md",
+                "file": "Física II/Referencia del Potencial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis de la Información/Modelos en la ingeniería de software.md",
+                "file": "Física II/Referencia del Potencial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,6 +160,19 @@
   },
   "active": "114c3278ee40296f",
   "lastOpenFiles": [
+    "Organizacion de Datos/Redes Recurrentes.md",
+    "Organizacion de Datos/Redes Neuronales.md",
+    "Organizacion de Datos/Redes de Aprendizaje Profundo.md",
+    "Análisis de la Información/PSA.md",
+    "Análisis de la Información/Prototipado y Experiencia de Usuario.md",
+    "Modelos y Optimización I/Programación Lineal Continua.md",
+    "Modelos y Optimización I/Problemas de cobertura de conjuntos.md",
+    "Modelos y Optimización I/Problema del Viajante.md",
+    "Física I/Óptica Geométrica.md",
+    "Matemática Discreta/Operaciones entre Grafos.md",
+    "Matemática Discreta/Nociones Básicas.md",
+    "Modelos y Optimización I/Modificaciones al Planteo.md",
+    "Análisis de la Información/Modelos en la ingeniería de software.md",
     "Análisis Matemático II/Métodos de resolución.md",
     "Modelos y Optimización I/Método Simplex.md",
     "Matemática Discreta/Isomorfismos.md",
@@ -173,19 +186,6 @@
     "Matemática Discreta/Grafos Orientados.md",
     "Física II/Fasores Complejos.md",
     "Análisis Matemático II/Extremos de campos escalares.md",
-    "Organizacion de Datos/Extracción de Datos.md",
-    "Física II/Dieléctricos.md",
-    "Física II/Conductores.md",
-    "Modelos y Optimización I/Complejidad de Problemas.md",
-    "Matemática Discreta/Clasificaciones.md",
-    "Organizacion de Datos/Clasificación de Texto.md",
-    "Matemática Discreta/Caminos y Distancias.md",
-    "Organizacion de Datos/Arboles.md",
-    "Sistemas Operativos/API de Threads.md",
-    "Sistemas Operativos/API de Memoria.md",
-    "Organizacion de Datos/Análisis de Sentimientos.md",
-    "Modelos y Optimización I/Análisis de Sensibilidad.md",
-    "Organizacion de Datos/Algoritmos Genéticos.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",

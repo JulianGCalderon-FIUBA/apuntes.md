@@ -21,7 +21,7 @@ Suelen tardar mucho tiempo en entrenarse, las redes de aprendizaje profundo pued
 - Hacer la ejecución en sentido inverso. Tratamos de encontrar la entrada en función de la salida.
 - Utilizamos KL Divergence para ajustar los pesos y bias, hasta que las salidas de la red invertida coinciden con las entradas.
 
-Esta es una alternativa al algoritmo de ***back propagation***. Una red Deep Belief Net es exactamente como un perceptrón multicapa, pero su método de entrenamiento es completamente diferente.
+Esta es una alternativa al algoritmo de **back propagation**. Una red Deep Belief Net es exactamente como un perceptrón multicapa, pero su método de entrenamiento es completamente diferente.
 
 El algoritmo se entrena de a poco, capa por capa.
 
@@ -39,15 +39,15 @@ Estas redes tienen distintas capas, son complejas:
 - **Capa Convolucional:**
 	- Hay una capa de múltiples niveles, donde cada neurona está conectada con múltiples neuronas de entrada
 	- Todas las neuronas de la cada nivel de esta capa tienen los mismos pesos y configuraciones que el resto de neuronas del mismo nivel
-- ***Capa RELU:*** Una capa de activación que se entrena con backpropagation
-- ***Capa Pooling:*** Una capa que reduce la dimensionalidad de la entrada
-- ***Capa Fully Connected:*** Perceptrón final de dos capas que clasifica la salida.
+- **Capa RELU:** Una capa de activación que se entrena con backpropagation
+- **Capa Pooling:** Una capa que reduce la dimensionalidad de la entrada
+- **Capa Fully Connected:** Perceptrón final de dos capas que clasifica la salida.
 
 **Convolución:** Es una forma de combinar dos funciones en una función nueva. Podemos decir que le aplica la función a la entrada para obtener una entrada simplificada. Por ejemplo, detectar líneas de una imagen
 
-***Relu:*** Es una función de activación. devuelve el máximo entre la entrada y el valor cero.
+**Relu:** Es una función de activación. devuelve el máximo entre la entrada y el valor cero.
 
-***Pooling:*** Por lo general funciona de dos formas, puede devolver tanto la entrada máxima como la entrada promedio.
+**Pooling:** Por lo general funciona de dos formas, puede devolver tanto la entrada máxima como la entrada promedio.
 
 ## Redes Recurrentes
 
@@ -80,7 +80,7 @@ Para solucionar esto, se encontraron algunas soluciones:
 
 ## Recursive Neural Tensor Net
 
-Tienen estructuras de neuronas en forma de un árbol. El nodo raíz genera un ***score*** que es vuelto a ingresar en los nodos hojas, de forma recursiva. Los nodos hojas reciben una entrada y devuelven un score a su nodo padre. Esto se repite sucesivamente sumando entradas hasta llegar a un score final.
+Tienen estructuras de neuronas en forma de un árbol. El nodo raíz genera un *score* que es vuelto a ingresar en los nodos hojas, de forma recursiva. Los nodos hojas reciben una entrada y devuelven un score a su nodo padre. Esto se repite sucesivamente sumando entradas hasta llegar a un score final.
 
 Para entrenar estas redes, se utiliza back propagation.
 

@@ -1,8 +1,8 @@
 Sea $S$ un conjunto de elementos a cubrir, y $L$ un conjunto de subconjuntos de $S$, entonces debemos elegir elementos de $L$ tal que:
 
-- ***Cobertura:*** Se cubran todos los elementos de $S$ con solapamiento
+- **Cobertura:** Se cubran todos los elementos de $S$ con solapamiento
 - **Partición:** Se cubran todos los elementos de $S$ sin solapamiento
-- ***Packing:*** Se cubra la mayor cantidad de elementos de $S$ que se pueda sin solapamiento.
+- **Packing:** Se cubra la mayor cantidad de elementos de $S$ que se pueda sin solapamiento.
 
 Nótese que usualmente los problemas de *cobertura* y *packing* tienen solución óptima, mientras que los de **partición** pueden llegar a ser incompatibles
 

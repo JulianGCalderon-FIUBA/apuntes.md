@@ -6,13 +6,13 @@ Se pueden clasificar según su uso a futuro:
 
 ![[Prototipado y Experiencia de Usuario 2.png]]
 
-El ***wireframe*** es un tipo particular de prototipo descartable que se utiliza para clarificar requisitos
+El **wireframe** es un tipo particular de prototipo descartable que se utiliza para clarificar requisitos
 
 También se pueden clasificar según su alcance:
 
 ![[Prototipado y Experiencia de Usuario 3.png]]
 
-El ***mock up*** no implementa comportamiento, pero lo sugiere. Es un prototipo horizontal. Una prueba de concepto es un prototipo vertical, que implementa una funcionalidad particular de forma completa. Desde la entrada del usuario hasta la última capa técnica.
+El **mock up** no implementa comportamiento, pero lo sugiere. Es un prototipo horizontal. Una prueba de concepto es un prototipo vertical, que implementa una funcionalidad particular de forma completa. Desde la entrada del usuario hasta la última capa técnica.
 
 ## En El Proceso de Desarrollo
 

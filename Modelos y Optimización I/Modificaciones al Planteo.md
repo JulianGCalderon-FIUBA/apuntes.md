@@ -14,7 +14,7 @@ Si el lucro cesante es mayor al beneficio del nuevo producto, no conviene produc
 
 Para definir el beneficio real con certeza, debemos agregar este producto a la tabla óptima pero no directamente (ya que la base esta cambiada). Debemos obtener la matriz de cambio de base que transforme un vector de la primera tabla a su equivalente en la tabla óptima.
 
-La matriz de cambio de base va a estar formada por las columnas de los vectores de la tabla optima, que en la tabla inicial formaban la matriz identidad. Es un problema con únicamente restricciones de menor igual, este será dado por las variables ***slack***.
+La matriz de cambio de base va a estar formada por las columnas de los vectores de la tabla optima, que en la tabla inicial formaban la matriz identidad. Es un problema con únicamente restricciones de menor igual, este será dado por las variables *slack*.
 
 Una vez obtenida la matriz, multiplicamos esta por la columna del nuevo producto y la agregamos a la tabla óptima. A partir de allí, continuamos la resolución del método hasta hallar la nueva tabla.
 
@@ -26,9 +26,9 @@ Inicialmente, podemos analizar si la solución actual cumple la nueva restricci�
 
 No es posible agregar directamente una fila en el problema inicial, debido a que ya no tendríamos vectores canónicos. Debemos hallar la tabla optima del problema dual y agregar una columna en ella, a partir de la técnica que vimos de agregado de variables (matriz de cambio de base).
 
-En la tabla inicial del dual, los vectores canónicos estaban asociados a variables artificiales, pero estos vectores no se pueden reconstruir desde la tabla óptima del primal. Afortunadamente, sabemos que estas son los vectores de las ***slack***, cambiadas de signo.
+En la tabla inicial del dual, los vectores canónicos estaban asociados a variables artificiales, pero estos vectores no se pueden reconstruir desde la tabla óptima del primal. Afortunadamente, sabemos que estas son los vectores de las *slack*, cambiadas de signo.
 
-Luego, la matriz de base sera las columnas de las ***slack*** de la tabla óptima, cambiadas de signo si la variable ***slack*** tiene una artificial asociada.
+Luego, la matriz de base sera las columnas de las *slack* de la tabla óptima, cambiadas de signo si la variable *slack* tiene una artificial asociada.
 
 Nuevamente, multiplicamos la nueva columna por la matriz de cambio de base y obtenemos la nueva columna en la tabla óptima. Continuamos la resolución del método a partir de la nueva tabla.
 
@@ -72,7 +72,7 @@ Se nos ofrece la oportunidad de comprar una cierta cantidad de un producto, en l
 
 Para simular la compra de estos productos, podemos disminuir la restricción de demanda minima a un precio fijo por unidad.
 
-Recordemos que el valor marginal de un recurso nos indica cuanto esperamos mejorar el funcional si yo "aflojo" en una unidad esa restricción (independiente del sentido de la restricción). En el caso de demanda de un producto, esto será al reducir en una unidad la demanda minima. Debido a esto, al costo de oportunidad de una restricción de demanda minima se lo llama ***costo de oportunidad encubierto***.
+Recordemos que el valor marginal de un recurso nos indica cuanto esperamos mejorar el funcional si yo "aflojo" en una unidad esa restricción (independiente del sentido de la restricción). En el caso de demanda de un producto, esto será al reducir en una unidad la demanda minima. Debido a esto, al costo de oportunidad de una restricción de demanda minima se lo llama **costo de oportunidad encubierto**.
 
 Para calcular la ganancia del intercambio, debemos tener en cuenta tres componentes:
 

@@ -21,14 +21,14 @@ El módulo del proyecto, tendrá las siguientes funcionalidades
 - **Manejo de proyectos:** dar de alta, de baja, modificar.
 - **Administración de tareas:** Cada proyecto tendrá tareas asignadas a los diversos integrantes
 - **Descomposición de riesgos en fases e iteraciones:**. Las tareas y los objetivos de proyectos podrán ser organizados en fases y iteraciones.
-- ***Administración de Riesgos:*** Se deben poder manejar los riesgos de los proyectos y la forma de lidiarlos
-- ***Integraciones con módulos relacionados:*** Como se mencionó, los módulos se comunicarán entre sí a través de las interfaces públicas que estos ofrecen.
-- ***Visibilizar estado de proyectos atrasados***
+- **Administración de Riesgos:** Se deben poder manejar los riesgos de los proyectos y la forma de lidiarlos
+- **Integraciones con módulos relacionados:** Como se mencionó, los módulos se comunicarán entre sí a través de las interfaces públicas que estos ofrecen.
+- **Visibilizar estado de proyectos atrasados**
 - **Reportes, Alertas**
 
 ### Soporte
 
-Por otro lado, tendremos un módulo de soporte. El éxito de nuestros clientes es crítico para nuestro éxito. Los que usen el módulo de soporte serán denominados ***ingenieros de soporte***.
+Por otro lado, tendremos un módulo de soporte. El éxito de nuestros clientes es crítico para nuestro éxito. Los que usen el módulo de soporte serán denominados **ingenieros de soporte**.
 
 - **Manejo de tickets:** Permite la creación de tickets para las consultas por parte de los clientes del sistema
 - **Alertas de tickets vencidos**
@@ -41,11 +41,11 @@ Por otro lado, tendremos un módulo de soporte. El éxito de nuestros clientes e
 
 La incorporación y retención del talento como máxima:
 
-- ***Manejo de recursos humanos***
+- **Manejo de recursos humanos**
 - **Sistema de carga de horas**
 - **Asignación de recursos a proyectos**
-- ***Carga de vacaciones y licencias***
-- ***Incorporación de talentos***
+- **Carga de vacaciones y licencias**
+- **Incorporación de talentos**
 
 ### Ventas
 
@@ -68,7 +68,7 @@ Debemos tener la información necesaria para saber que, donde, y cuando gastar. 
 
 Debemos poder hacer llegar nuestra solución a quienes la necesitan, y la necesitaran:
 
-- ***Omnichannel Marketing***
-- ***Campañas publicitarias***
-- ***Comunicación con analistas de marketing***
+- **Omnichannel Marketing**
+- **Campañas publicitarias**
+- **Comunicación con analistas de marketing**
 - **Integración con herramientas de SEO/SEM**
