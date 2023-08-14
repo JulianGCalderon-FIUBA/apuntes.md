@@ -56,7 +56,7 @@ duplicar(&numero);
 printf("%i", numero); //9
 ```
 
-**Operadores:**
+### Operadores
 
 `&`: Devuelve la dirección en la que se encuentra una variable.
 

@@ -32,9 +32,7 @@ Las visiones de caja negra y caja blanca hacen una gran diferencia:
 
 En el estudio e implementación de los TDA es fundamental poder separar correctamente el **qué** y el **cómo**.
 
-**Un Qué y Mil Cómos:**
-
-Este concepto hace referencia a que, para cada problema a resolver, hay infinitas maneras de hacerlo.
+**Un Qué y Mil Cómos:** Este concepto hace referencia a que, para cada problema a resolver, hay infinitas maneras de hacerlo.
 
 ### El Contrato
 
