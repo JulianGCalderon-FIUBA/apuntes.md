@@ -140,6 +140,6 @@ Otra forma de hacer un heapify, es partir del último elemento del vector y apli
 
 ### Heap Sort
 
-Es un algoritmo de ordenamiento que se aprovecha de la construcción de un heap. Para esto, primero aplicamos heapify en el vector. Luego, retiramos la raíz sucesivamente hasta que nos quedemos sin elementos. Así obtenemos un algoritmo de ordenamiento $n \log n$.
+Es un algoritmo de ordenamiento que se aprovecha de la construcción de un heap. Para esto, primero aplicamos *heapify* en el vector. Luego, retiramos la raíz sucesivamente hasta que nos quedemos sin elementos. Así obtenemos un algoritmo de ordenamiento $n \log n$.
 
 Podemos almacenar los números eliminados del heap al final del arreglo, de esta forma no usamos memoria adicional.

@@ -38,6 +38,12 @@
     "heap",
     "maximal",
     "minimal",
-    "heapify"
+    "heapify",
+    "Iteradores",
+    "hashmap",
+    "hash",
+    "Hash",
+    "Rehash",
+    "rehashear"
   ]
 }

@@ -2,16 +2,16 @@ Es un conjunto de vértices y aristas, que determinan conexiones entre los vért
 
 ## Clasificación
 
-**Según su Dirección:**
+### Según su Dirección
 
 - **Grafo no Dirigido:** Todas sus aristas son bidireccionales.
 - **Grafo Dirigido:** Tiene al menos una arista unidireccional.
 
-**Según su Peso:**
+### Según su Peso
 
 - **Grafo Pesado**: Las aristas tienen asignadas un peso, representa el costo de tomar ese camino.
 
-**Según su complejidad:**
+### Según su complejidad
 
 - **Grafo Simple:** Es aquel que no posee aristas múltiples ni lazos. Entre dos vértices, solo hay como máximo un camino posible.
 - **Grafo Denso**: Es aquel cuyo número de aristas está muy cerca del valor máximo que puede tener

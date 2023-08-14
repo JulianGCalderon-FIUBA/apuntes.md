@@ -1,6 +1,6 @@
 ## Definición
 
-Un **diccionario** es una colección de pares [clave, valor]. Se accede a los elementos mediante una clave, que funciona como índice. También es conocido como un **hashmap.**
+Un **diccionario** es una colección de pares *[clave, valor]*. Se accede a los elementos mediante una clave, que funciona como índice. También es conocido como un **hashmap.**
 
 La utilidad del diccionario es que aumenta el rendimiento a la hora de acceder a valores. En los diccionarios, no hay entradas duplicadas.
 
@@ -16,7 +16,7 @@ Un hash abierto, o de direccionamiento cerrado. Es aquel en el que el elemento s
 
 Se denomina **abierto** porque depende de una estructura externa al hash. Cada posición del hash apunta a una lista que contiene todos los valores que direccionan a esa posición.
 
-Como se utiliza una lista con nodos (cada elemento de la lista apunta al siguiente), se denomina *Chaining* o *Encadenamiento*.
+Como se utiliza una lista con nodos (cada elemento de la lista apunta al siguiente), se denomina *Chaining* o Encadenamiento.
 
 ### Hash Cerrado
 
@@ -26,9 +26,9 @@ Se denomina **cerrado** porque no depende de una estructura externa.
 
 #### Métodos de Búsqueda
 
-- **Probing Lineal:** Buscar el siguiente espacio libre inmediato
-- **Probing Cuadrático:** Utilizar un polinomio para encontrar el siguiente espacio libre
-- **Hash Doble:** Aplicar una segunda función hash a la clave cuando hay colisión
+- **Probing Lineal:** Buscar el siguiente espacio libre inmediato.
+- **Probing Cuadrático:** Utilizar un polinomio para encontrar el siguiente espacio libre.
+- **Hash Doble:** Aplicar una segunda función hash a la clave cuando hay colisión.
 
 #### Factor de Carga
 
@@ -42,7 +42,7 @@ Siendo $n$ el número de claves almacenadas actualmente y $m$ la capacidad de la
 
 #### Rehash
 
-Cuando $\alpha ≥ 0.75$, es hora de *rehashear*. Esto implica aumentar la capacidad de la tabla de hash. Podemos, por ejemplo, duplicar la capacidad.
+Cuando $\alpha ≥ 0.75$, es hora de **rehashear**. Esto implica aumentar la capacidad de la tabla de hash. Podemos, por ejemplo, duplicar la capacidad.
 
 Cómo aumentamos la capacidad, debemos reorganizar los elementos acorde a la nueva capacidad. Nuestra función hash debe ser moldeable a la capacidad de la tabla del hash.
 
@@ -50,7 +50,7 @@ Esta es una operación muy costosa, por lo que debemos minimizar la cantidad de 
 
 ### Zona de Desborde
 
-Este es un **hash** cerrado, que utiliza una porción de la tabla para los elementos con colisiones. Este método no es muy efectivo, ya que la zona de desborde se encuentra completamente desordenada.
+Este es un hash cerrado, que utiliza una porción de la tabla para los elementos con colisiones. Este método no es muy efectivo, ya que la zona de desborde se encuentra completamente desordenada.
 
 ## Operaciones de Hash Cerrado
 
