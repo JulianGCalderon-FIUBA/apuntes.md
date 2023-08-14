@@ -42,7 +42,7 @@ Definimos el **polinomio característico** de $A$ de grado $n$, $P_A(\lambda) = 
 
 Se le denomina **multiplicidad algebraica** de $\lambda_0$ a la multiplicidad de $\lambda_0$ como raíz del polinomio característico.
 
-Se le denomina **multiplicidad geométrica** de $\lambda_0$ a la dimensión del autoespacio asociado.
+Se le denomina **multiplicidad geométrica** de $\lambda_0$ a la dimensión de él autoespacio asociado.
 
 ## Diagonalización
 
@@ -114,7 +114,7 @@ Se le llama **polinomio característico** de $T$ a $P_T(\lambda) = \text{det}(\l
 - Si $T$ es una transformación lineal no inyectiva (tiene nulo), $\lambda = 0$ es autovalor de $T$, siendo su autoespacio asociado el subespacio $Nu(T)$
 - Sea $(D - \lambda I):\Bbb C^\infty \to \Bbb C^\infty$. Sabemos que $Nu(D - \lambda I) = gen\{e^{\lambda x}\}$. Entonces, aplicando la propiedad anterior, $\lambda = 0$ es autovalor de ese operador, y él autoespacio asociado es $S = gen\{e^{\lambda x}\}$
 - Sea $D:\Bbb C^\infty\to\Bbb C^\infty$, sabemos que $\lambda \in \mathbb{R}$ es autovalor de $D$, y para cada $\lambda$, su autoespacio asociado es $S = gen\{e^{\lambda x}\}$
-- Si existe una base de $\Bbb V$ formada por autovectores de $T$, entonces $T$ es diagonalizables. La matriz $[T]_B^B$ será una matriz diagonal. (propiedad de semejanza)
+- Si existe una base de $\Bbb V$ formada por autovectores de $T$, entonces $T$ es diagonalizable. La matriz $[T]_B^B$ será una matriz diagonal. (propiedad de semejanza)
 
 ## Matrices de Jordan
 

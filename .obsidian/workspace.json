@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todo.md",
+                "file": "Álgebra II/Autovalores y Autovectores.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "todo.md"
+                "file": "Álgebra II/Autovalores y Autovectores.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "todo.md",
+                "file": "Álgebra II/Autovalores y Autovectores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "todo.md",
+                "file": "Álgebra II/Autovalores y Autovectores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,12 +172,14 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
-    "Indice.md",
-    "todo.md",
+    "Álgebra II/Álgebra II.md",
+    "Álgebra II/Ejemplos de Transformaciones Lineales.md",
+    "Álgebra II/Ecuaciones Diferenciales Ordinarias.md",
     "Álgebra II/Descomposición en Valores Singulares.md",
     "Álgebra II/Coordenadas.md",
     "Álgebra II/Autovalores y Autovectores.md",
-    "Álgebra II/Álgebra II.md",
+    "todo.md",
+    "Indice.md",
     "Algoritmos I/Manejo de Archivos.md",
     "Algoritmos I/Conceptos Básicos.md",
     "Algoritmos I/Bibliotecas Personales.md",
@@ -196,8 +198,6 @@
     "Análisis Matemático II/Integrales Triples.md",
     "Análisis Matemático II/Límites.md",
     "Análisis Matemático II/Métodos de resolución.md",
-    "Análisis Matemático II/Polinomio de Taylor.md",
-    "Análisis Matemático II/Propiedades de la diferenciabilidad.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

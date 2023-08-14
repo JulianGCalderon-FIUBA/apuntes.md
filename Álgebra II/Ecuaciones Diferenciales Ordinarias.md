@@ -36,7 +36,7 @@ Una vez que tenemos las soluciones de la homogénea asociada, es momento de enco
 
 Este método consiste en proponer una forma de la función $y_p$ solución para cierto tipo de función $f$, si las raíces del polinomio característico cumplen con las condiciones especificadas.
 
-|       $f$       |            $y_p$            | $\text{Raices del polinomio característico}$ |
+|       $f$       |            $y_p$            | $\text{Raíces del polinomio característico}$ |
 |:---------------:|:---------------------------:|:--------------------------------------------:|
 |      $P_n$      |            $P_n$            |                  $r\neq 0$                   |
 |      $P_n$      |          $P_{n+1}$          |          $r=0: \text{Raíz Simple}$           |

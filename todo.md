@@ -3,4 +3,13 @@
 - [ ] Algoritmos II
 - [ ] Análisis de la Información
 - [ ] Análisis Matemático II
-- [ ] Análisis
+- [ ] Análisis Numérico
+- [ ] Estructura del Computador
+- [ ] Física I
+- [ ] Física II
+- [ ] Introducción a Sistemas Distribuidos
+- [ ] Matemática Discreta
+- [ ] Modelos y Optimización I
+- [ ] Organización de Datos
+- [ ] Probabilidad y Estadistica
+- [ ] Sistemas Operativos
