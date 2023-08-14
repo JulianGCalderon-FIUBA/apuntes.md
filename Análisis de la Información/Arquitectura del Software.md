@@ -21,7 +21,7 @@ La disponibilidad y la confianza en sí solos no son suficientes para un sistema
 
 **Pipe and Filter:** Componentes conectados a través de conectores que procesan información. Consiste en manipular los datos de forma secuencial aplicando múltiples funciones hasta llegar al resultado
 
-***N-Tier:*** Consiste en una separación física de las distintas capas de una aplicación. Relacionado con la arquitectura de separación en capas.
+**N-Tier:** Consiste en una separación física de las distintas capas de una aplicación. Relacionado con la arquitectura de separación en capas.
 
 ### Orientación a Eventos
 

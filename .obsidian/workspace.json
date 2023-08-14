@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Álgebra II/Autovalores y Autovectores.md",
+                "file": "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path: \"Análisis de la Información\" /\\*{3}.*?\\*{3}",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Álgebra II/Autovalores y Autovectores.md"
+                "file": "Análisis de la Información/Calidad de Procesos en la Industria del Software.md"
               }
             }
           },
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Álgebra II/Autovalores y Autovectores.md",
+                "file": "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Álgebra II/Autovalores y Autovectores.md",
+                "file": "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,11 +160,13 @@
   },
   "active": "114c3278ee40296f",
   "lastOpenFiles": [
+    "Análisis de la Información/Arquitectura del Software.md",
+    "Álgebra II/Autovalores y Autovectores.md",
     "Álgebra II/Álgebra II.md",
+    "Sistemas Operativos/Archivos y Directorios.md",
     "Álgebra II/Formas Cuadráticas.md",
     "Álgebra II/Coordenadas.md",
     "Álgebra II/Descomposición en Valores Singulares.md",
-    "Álgebra II/Autovalores y Autovectores.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Computer Networks and the Internet.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Delay, Loss, and Throughput in Packet-Switched N.md",
@@ -183,8 +186,6 @@
     "Sistemas Operativos/Locks.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.md",
     "Probabilidad y Estadistica/Probabilidad.md",
-    "Estructura del Computador/Micro Arquitectura.md",
-    "Física I/Energía en Ondas.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",
