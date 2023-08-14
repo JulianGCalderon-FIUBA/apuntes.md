@@ -13,14 +13,14 @@ Se separa en tres elementos
 
 - **Card**: Descripción de la intención del usuario al utilizar el sistema, registrada en una ficha
 - **Conversation**: Se debe mantener una conversación respecto a la historia para descubrir los detalles
-- ***Confirmation:*** Se deben definir criterios de aceptación para garantizar que se han cubierto todos los aspectos de la historia.
+- **Confirmation:** Se deben definir criterios de aceptación para garantizar que se han cubierto todos los aspectos de la historia.
 
 > [!note]
 > El formato para los criterios de aceptación puede ser: Dato que soy \<actor> , Cuando \<acción> entonces \<resultado>
 
 ### Epopeya
 
-Para resolver el problema del manejo de numerosas historias de usuario, aparece el concepto de é*pica* o de epopeya. Consiste en agrupar historias en relatos de mayor nivel, llamados épicas.
+Para resolver el problema del manejo de numerosas historias de usuario, aparece el concepto de **épica** o de epopeya. Consiste en agrupar historias en relatos de mayor nivel, llamados épicas.
 
 ![[Historias de Usuario 1.png|500]]
 
@@ -80,13 +80,13 @@ Técnica de planificación que tiene como propósito alinear los equipos de trab
 
 ### Proceso de Desarrollo
 
-En el proceso de desarrollo, asignaremos historias de usuario a los distintos ***releases*** del proyecto
+En el proceso de desarrollo, asignaremos historias de usuario a los distintos **releases** del proyecto
 
 ![[Historias de Usuario 4.png|500]]
 
 ### Product & Sprint Backlogs
 
-En ***SCRUM***, las historias de usuario se almacenan en el ***product backlog*** y son seleccionadas para determinados ***sprints***. Cada historia se estima utilizando una técnica llamada ***user story points,*** que nos permite analizar la complejidad de las historias de usuario. A partir de las historias seleccionadas se determinan las tareas a realizar, en el ***sprint backlog***.
+En **SCRUM**, las historias de usuario se almacenan en el *product backlog* y son seleccionadas para determinados *sprints*. Cada historia se estima utilizando una técnica llamada *user story points*, que nos permite analizar la complejidad de las historias de usuario. A partir de las historias seleccionadas se determinan las tareas a realizar, en el *sprint backlog*.
 
 ![[Historias de Usuario 5.png|375]]
 
@@ -94,7 +94,7 @@ En ***SCRUM***, las historias de usuario se almacenan en el ***product backlog**
 
 Es un sistema de planificación y organización del trabajo. Su objetivo es ayudar a darle visibilidad al trabajo y limitar el trabajo en simultáneo, mejorando el flujo de trabajo.
 
-Tendremos una tarjeta por cada historia de usuario y por cada defecto encontrado en el ***software***. Las historias de usuario se moverán por el tablero para indicar el estado de las mismas.
+Tendremos una tarjeta por cada historia de usuario y por cada defecto encontrado en el **software**. Las historias de usuario se moverán por el tablero para indicar el estado de las mismas.
 
 ![[Historias de Usuario 6.png|450]]
 

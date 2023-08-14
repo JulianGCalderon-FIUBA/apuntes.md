@@ -1,8 +1,8 @@
 Los Archivos y bases de datos nos permiten que la información del sistema persista, cuando hablamos de modelado de datos, hablamos de tres niveles:
 
-- ***Conceptual:*** Como un MDD, nos muestra las entidades y sus relaciones con otras entidades. No tiene nada que ver con la implementación, sino con el concepto
-- ***Lógico:*** Diseño lógico de la base de datos/archivos. Debemos definir las tablas, las columnas, las claves primarias y foráneas.
-- ***Físico***: Implementación de la base de datos: índices, espacios de almacenamiento, seguridad, etc.
+- **Conceptual:** Como un MDD, nos muestra las entidades y sus relaciones con otras entidades. No tiene nada que ver con la implementación, sino con el concepto
+- **Lógico:** Diseño lógico de la base de datos/archivos. Debemos definir las tablas, las columnas, las claves primarias y foráneas.
+- **Físico**: Implementación de la base de datos: índices, espacios de almacenamiento, seguridad, etc.
 
 ## Bases de Datos
 
@@ -12,16 +12,16 @@ Una base de datos es una colección ordenada de datos administrada por un sistem
 
 Existen distintos modelos conocidos de base de datos:
 
-- ***Jerárquico:*** Una fila de cabecera (master), y el detalle de los elementos de la base de datos (detail)
-- ***De Red:*** Similar, pero sin necesidad de navegar la jerarquía, se puede navegar de un registro a otro
-- ***Relacional:*** Tablas relacionadas entre sí, por otras tablas:
+- **Jerárquico:** Una fila de cabecera (master), y el detalle de los elementos de la base de datos (detail)
+- **De Red:** Similar, pero sin necesidad de navegar la jerarquía, se puede navegar de un registro a otro
+- **Relacional:** Tablas relacionadas entre sí, por otras tablas:
 	- Las claves primarias identifican las distintas filas (instancias) en una tabla
 	- Las claves foráneas referencian a claves primarias de otras tablas y son empleadas para implementar las relaciones
 
 	![[Diseno de Datos 1.png|525]]
 
-- **Orientadas a** ***Objetos:***
-- ***Orientadas a Documento:*** no estructuradas
+- **Orientadas a** **Objetos:**
+- **Orientadas a Documento:** no estructuradas
 
 ## De Modelo de Dominio a Base de Datos
 
@@ -38,13 +38,13 @@ Existen distintos modelos conocidos de base de datos:
 
 ### One-Many
 
-El lado de ***Many*** mantiene referencia al ***One*** a partir de una clave foránea
+El lado de **Many** mantiene referencia al **One** a partir de una clave foránea
 
 ![[Diseno de Datos 2.png|525]]
 
 ### One-One
 
-Decidimos una tabla como más relevante, e incluimos la ***foránea*** en la otra
+Decidimos una tabla como más relevante, e incluimos la **foránea** en la otra
 
 ### Many-Many
 

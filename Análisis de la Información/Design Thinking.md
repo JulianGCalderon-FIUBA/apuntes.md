@@ -36,7 +36,7 @@ Las técnicas que se utilizan en este método son varias:
 
 Hay tres estrategias básicas para emplear este método en el contexto de la ingeniería:
 
-- **En Estado Puro**: Utilizar únicamente ***design thinking***.
+- **En Estado Puro**: Utilizar únicamente *design thinking*.
 - **Upfront:** Para una etapa previa al desarrollo.
 - **Integración Parcial**: Incluir algunas actividades de design thinking en el proceso de ingeniería de requisitos.
-- ***Integración Total:*** Ambas disciplinas se integran totalmente.
+- **Integración Total**: Ambas disciplinas se integran totalmente.

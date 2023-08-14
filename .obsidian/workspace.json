@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
+                "file": "Análisis de la Información/Ingeniería de Requisitos.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis de la Información/Calidad de Procesos en la Industria del Software.md"
+                "file": "Análisis de la Información/Ingeniería de Requisitos.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
+                "file": "Análisis de la Información/Ingeniería de Requisitos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
+                "file": "Análisis de la Información/Ingeniería de Requisitos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,6 +160,12 @@
   },
   "active": "114c3278ee40296f",
   "lastOpenFiles": [
+    "Análisis de la Información/Historias de Usuario.md",
+    "Análisis de la Información/Historias de Dominio.md",
+    "Análisis de la Información/Gherkin.md",
+    "Análisis de la Información/Diseño de Datos.md",
+    "Análisis de la Información/Design Thinking.md",
+    "Análisis de la Información/Calidad de Procesos en la Industria del Software.md",
     "Análisis de la Información/Arquitectura del Software.md",
     "Álgebra II/Autovalores y Autovectores.md",
     "Álgebra II/Álgebra II.md",
@@ -180,12 +186,6 @@
     "Matemática Discreta/Clasificaciones.md",
     "Matemática Discreta/Álgebra de Conjuntos.md",
     "Matemática Discreta/Álgebra de Boole.md",
-    "Matemática Discreta/Alfabeto.md",
-    "Algoritmos II/Punteros.md",
-    "Álgebra II/Matrices Normales.md",
-    "Sistemas Operativos/Locks.md",
-    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
-    "Probabilidad y Estadistica/Probabilidad.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",

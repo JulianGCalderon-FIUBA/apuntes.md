@@ -10,9 +10,9 @@ Cuando no hay calidad, surgen los siguientes costos
 - **Costos de Evaluación:** Relacionados con las pruebas y las revisiones
 - **Costos de Prevención:** Relacionados con el entrenamiento y la capacitación de los empleados, el diseño de un plan de calidad, etc.
 
-Para solucionar los costos de falla **internos y externos**, debemos invertir en la ***evaluación*** y la ***prevención.***
+Para solucionar los costos de fallos **internos y externos**, debemos invertir en la **evaluación** y la **prevención.**
 
-A veces, estos costos pueden incluso causar que el sistema tenga que ser rediseñado por completo. Particularmente, atributos de ***performance***.
+A veces, estos costos pueden incluso causar que el sistema tenga que ser rediseñado por completo. Particularmente, atributos de *performance*.
 
 ## Elementos de la Calidad
 
@@ -51,9 +51,9 @@ Hay tres enfoques principales para aumentar la calidad:
 
 - **Six Sigma**: Busca reducir la variación y se centra en la resolución de problemas
 - **Lean**: Usa herramientas similares, pero busca remover el desperdicio y aumentar el flujo de trabajo.
-- ***TOC*** (Teoría de las Restricciones)***:*** Busca encontrar y resolver las restricciones del sistema, el cuello de botella del sistema.
+- **TOC (Teoría de las Restricciones)**: Busca encontrar y resolver las restricciones del sistema, el cuello de botella del sistema.
 
-La mayoría de las filosofías de día de hoy se basan en ***lean***. Lo mejor es tener ciclos de desarrollo que se van actualizando con cada iteración.
+La mayoría de las filosofías de día de hoy se basan en **Lean**. Lo mejor es tener ciclos de desarrollo que se van actualizando con cada iteración.
 
 ## Grupos de factores de Calidad
 
