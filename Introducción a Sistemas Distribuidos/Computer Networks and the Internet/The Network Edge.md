@@ -10,13 +10,13 @@ En 2015, las dos formas principales de Acceso residencial de banda ancha eran:
 
 #### DSL (Digital Subscriber Line)
 
-Una residencia usualmente obtiene este acceso de internet *DSL* del mismo proveedor de línea de telefono. Debido a esto, se usa cable de la línea de teléfono. Utilizando distintas frecuencias para transmitir tanto datos como señales telefónicas de forma simultánea:
+Una residencia usualmente obtiene este acceso de internet *DSL* del mismo proveedor de línea de teléfono. Debido a esto, se usa cable de la línea de teléfono. Utilizando distintas frecuencias para transmitir tanto datos como señales telefónicas de forma simultánea:
 
 - A high-speed downstream channel, in the 50 kHz to 1 MHz band
 - A medium-speed upstream channel, in the 4 kHz to 50 kHz band
 - An ordinary two-way telephone channel, in the 0 to 4 kHz band
 
-Desde el lado del cliente, un *splitter* separa estas frecuencias y envía los datos al módem *DSL*. Desde el lado del proveedor de internet, un DSLAM los datos de las señales de teléfono y las envía a internet. Miles de dispositivos se conectan a un mismo DSLAM.
+Desde el lado del cliente, un *splitter* separa estas frecuencias y envía los datos al módem *DSL*. Desde el lado del proveedor de internet, un *DSLAM* los datos de las señales de teléfono y las envía a internet. Miles de dispositivos se conectan a un mismo *DSLAM*.
 
 Como la descarga y la subida tienen distintas tasas, se dice que es de acceso asimétrico.
 
@@ -30,7 +30,7 @@ Desde el servidor, hay una estructura similar al DSLAM conocida como CMTS, trans
 
 #### Direct Fiber
 
-Hay múltiples tecnologías en competencia por distribución óptica a los hogares, La más simple es conocida como *direct fiber*. Es un método muy veloz que consiste en que los cables de fibra óptica lleguen a las casas de los clientes. Usualmente cada cable está compartido entre varias casas, el cual es separado utilizando *splitters.* Hay dos arquitecturas principales: **AONs Active Optical Networks** (este método es esencialmente *switched ethernet*) y **PONs Passive Optical Networks.** En este último, El splitter combina un número de casas (usualmente menor que 100) en un único cable compartido, el cual se conecta a un *Optical Line Terminator (OLT)* en la central de internet.
+Hay múltiples tecnologías en competencia por distribución óptica a los hogares, La más simple es conocida como *direct fiber*. Es un método muy veloz que consiste en que los cables de fibra óptica lleguen a las casas de los clientes. Usualmente, cada cable está compartido entre varias casas, el cual es separado utilizando *splitters.* Hay dos arquitecturas principales: **AONs Active Optical Networks** (este método es esencialmente *switched ethernet*) y **PONs Passive Optical Networks.** En este último, El splitter combina un número de casas (usualmente menor que 100) en un único cable compartido, el cual se conecta a un *Optical Line Terminator (OLT)* en la central de internet.
 
 #### Other Methods
 
@@ -78,4 +78,4 @@ Los canales de radio transmiten señales utilizando el espectro electromagnétic
 
 ### **Satellite Radio Channels**
 
-Un satélite de comunicación conecta dos receptores/emisores de microondas, conocidos como *ground stations*. El satélite recibe señales en una banda de frecuencia, y replica la señal utilizando un repetidor, en otra frecuencia. Hay dos tipos de satélites: **Geostationary Satellites** permanentemente permanecen en el mismo punto de la tierra. Al estar bastante lejos de la tierra, tienen un sustancial *delay*. Los l**ow-earth orbiting (LEO) satellites** se colocan más cerca de la tierra y rotan alrededor de ella. Proveen cobertura continua en un área, pero muchos de estos satélites tienen que ser colocados en órbita
+Un satélite de comunicación conecta dos receptores/emisores de microondas, conocidos como *ground stations*. El satélite recibe señales en una banda de frecuencia, y replica la señal utilizando un repetidor, en otra frecuencia. Hay dos tipos de satélites: **Geostationary Satellites** permanentemente permanecen en el mismo punto de la tierra. Al estar bastante lejos de la tierra, tienen un sustancial *delay*. Los **low-earth orbiting (LEO) satellites** se colocan más cerca de la tierra y rotan alrededor de ella. Proveen cobertura continua en un área, pero muchos de estos satélites tienen que ser colocados en órbita

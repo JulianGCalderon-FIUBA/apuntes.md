@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md",
+                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464.5,
-    "collapsed": true
+    "width": 464.5
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md"
+                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md"
               }
             }
           },
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md",
+                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md",
+                "file": "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,8 +160,8 @@
   "active": "114c3278ee40296f",
   "lastOpenFiles": [
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/Computer Networks and the Internet.md",
-    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
     "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md",
+    "Introducción a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
     "Introducción a Sistemas Distribuidos/Introducción a Sistemas Distribuidos.md",
     "Análisis de la Información/PSA.md",
     "Análisis de la Información/Interfaces de Usuario.md",
