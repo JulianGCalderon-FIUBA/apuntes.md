@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a62438f8da454a7c",
+        "id": "d71f6550fcc70249",
         "type": "tabs",
         "children": [
           {
-            "id": "f6c9c20f2228edef",
+            "id": "6060b098ee9aa43c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Álgebra II/Formas Cuadráticas.pdf"
+                "file": "Álgebra II/Autovalores y Autovectores.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Álgebra II/Formas Cuadráticas.pdf"
+                "file": "Álgebra II/Autovalores y Autovectores.md"
               }
             }
           },
@@ -93,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Álgebra II/Formas Cuadráticas.pdf",
+                "file": "Álgebra II/Autovalores y Autovectores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Álgebra II/Formas Cuadráticas.pdf",
+                "file": "Álgebra II/Autovalores y Autovectores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,13 +157,16 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "f6c9c20f2228edef",
+  "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
-    "Álgebra II/Formas Cuadráticas.md",
-    "Álgebra II/Formas Cuadráticas.pdf",
-    "Álgebra II/Álgebra II.pdf",
+    "Álgebra II/Descomposición en Valores Singulares.md",
+    "Álgebra II/Coordenadas.md",
     "Álgebra II/Autovalores y Autovectores.md",
     "Álgebra II/Álgebra II.md",
+    "Álgebra II/Espacios Vectoriales.md",
+    "Álgebra II/Álgebra II.pdf",
+    "Álgebra II/Formas Cuadráticas.md",
+    "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.md",
     "Matemática Discreta/Álgebra de Boole.md",
     "Álgebra II/Operaciones entre Subespacios.md",
@@ -182,8 +187,6 @@
     "Matemática Discreta/Relaciones.md",
     "Física II/Referencia del Potencial.md",
     "Organizacion de Datos/Redes Recurrentes.md",
-    "Organizacion de Datos/Redes Neuronales.md",
-    "Organizacion de Datos/Redes de Aprendizaje Profundo.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",
