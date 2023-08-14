@@ -21,7 +21,7 @@ Se deben seguir cuatro reglas fundamentales para la aplicación de la regla:
 
 ## Brainwriting 6-3-5
 
-Parecido al ***brainstorming***, pero un poco más reducido. La idea consiste en juntar a 6 miembros, cada uno escribe como mínimo 3 ideas, en al menos 5 oportunidades. Los números pueden variar
+Parecido al *brainstorming*, pero un poco más reducido. La idea consiste en juntar a 6 miembros, cada uno escribe como mínimo 3 ideas, en al menos 5 oportunidades. Los números pueden variar
 
 Una vez escritas las ideas, se pasa el papel al integrante siguiente, quien leerá las ideas y escribirá otras 3 ideas. Así hasta completar las 5 iteraciones.
 
@@ -45,7 +45,7 @@ Mediante este método se identifican atributos del producto o servicio, con la f
 
 1. Identificamos el producto.
 2. Analizamos y confeccionamos una lista de atributos.
-3. Para cada atributo, planteamos preguntas sobre como mejorar. Se puede utilizar ***SCAMPER*** en este punto.
+3. Para cada atributo, planteamos preguntas sobre como mejorar. Se puede utilizar **SCAMPER** en este punto.
 4. Las mejores ideas que hayan surgido se seleccionan para su evaluación posterior.
 
 Para cualquier software, podríamos tomar sus atributos de calidad para evaluarlo.

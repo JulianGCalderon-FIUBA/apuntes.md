@@ -12,13 +12,13 @@ Estos requisitos asientan una base para diseñar la solución, definir los casos
 ## Tipos de Requisitos
 
 - **Funcionales:** Lo que necesitamos que el sistema haga, independientemente de su implementación. También llamados requisitos esenciales,
-- ***No Funcionales:*** Propiedades, atributos o restricciones aplicables al producto o a su diseño/construcción.
+- **No Funcionales:** Propiedades, atributos o restricciones aplicables al producto o a su diseño/construcción.
 
 ## Perspectivas
 
 - **Requerimientos de Negocio:** Los objetivos y las necesidades del negocio o de la organización que dan origen a los requisitos de los usuarios.
-- ***Requisitos del usuario:*** Define lo que necesita cada uno de los usuarios del sistema a construir
-- ***Requisitos del software:*** Relevante para los desarrolladores del producto.
+- **Requisitos del usuario:** Define lo que necesita cada uno de los usuarios del sistema a construir
+- **Requisitos del software:** Relevante para los desarrolladores del producto.
 
 ## Actividades
 
@@ -58,7 +58,7 @@ Un correcto trabajo de la ingeniería de requisitos tiene múltiples ventajas:
 - Menos funcionalidad innecesaria y no utilizada
 - Reduce los cambios en los requisitos (menos caos)
 - Menos malentendidos con los clientes (debido al contacto frecuente)
-- Reducción del ***retrabajo*** del desarrollo
+- Reducción del **retrabajo** del desarrollo
 - Entrega más rápida del producto
 - Menos costos de mantenimiento
 
@@ -66,11 +66,11 @@ Un correcto trabajo de la ingeniería de requisitos tiene múltiples ventajas:
 
 Muchas veces, el cliente no forma parte del equipo. Esto dificulta la comunicación. Puede haber múltiples clientes. Si contamos con un representante con un cliente en el equipo, ya que este experto está disponible para consultarlas necesidades. No tiene que haber comunicación tan formal. Obtendremos un feedback más fluido.
 
-El ***product owner*** es un representante del usuario que trabaja junto al equipo de desarrollo y se encarga de definir el producto o servicio a desarrollar.
+El *product owner* es un representante del usuario que trabaja junto al equipo de desarrollo y se encarga de definir el producto o servicio a desarrollar.
 
 ## Disciplinas Relacionadas
 
 Hay dos disciplinas relacionadas con la ingeniería de requisitos:
 
-- **Business Analysis:** Aplicación de conocimiento, técnicas y herramientas con el propósito de identificar problemas, determinar necesidades y formular y recomendar soluciones para satisfacerlas. Las soluciones no necesariamente incluyen ***software***.
+- **Business Analysis:** Aplicación de conocimiento, técnicas y herramientas con el propósito de identificar problemas, determinar necesidades y formular y recomendar soluciones para satisfacerlas. Las soluciones no necesariamente incluyen *software*.
 - **[[Design Thinking]]**
