@@ -34,11 +34,11 @@ Para determinar una ***subnet***, se desconectan todas las interfaces de su host
 
 La estrategia de asignamiento de direcciones de internet se conoce como ***Classless Interdomain Routing (CIDR)***. La dirección **IP** se divide en dos secciones y tiene la forma `a.b.c.d/x`, donde `x` indica el número de ***bits*** en la primer parte de la dirección. Esta sección es conocida como el prefijo.
 
-Una organización suele ser asignado un rango de conexiones con un prefijo ***común. Fuera de la organización, únicamente se utilizarán los ***bits*** del prefijo para enviar el paquete. Esto reduce considerablemente el tamaño de las ***forwarding tables***. Los restantes ***bits*** serán usados dentro de la organización para distinguir las direcciones **IP,** es posible que los ***bits*** restantes a su vez estén organizados en otras estructuras de ***subredes***.
+Una organización suele ser asignado un rango de conexiones con un prefijo común. Fuera de la organización, únicamente se utilizarán los ***bits*** del prefijo para enviar el paquete. Esto reduce considerablemente el tamaño de las ***forwarding tables***. Los restantes ***bits*** serán usados dentro de la organización para distinguir las direcciones **IP,** es posible que los ***bits*** restantes a su vez estén organizados en otras estructuras de ***subredes***.
 
 La habilidad de utilizar un único prefijo para anunciar múltiples redes se conoce como ***address aggregation***.
 
-La ***IP de*** broadcast *`255.255.255.255` es utilizada cuando un* host quiere enviar un mensaje a todos los ***hosts*** de la misma ***subnet***.
+La ***IP de*** broadcast `255.255.255.255` es utilizada cuando un host quiere enviar un mensaje a todos los ***hosts*** de la misma ***subnet***.
 
 ### Obtaining a Block of Addresses
 

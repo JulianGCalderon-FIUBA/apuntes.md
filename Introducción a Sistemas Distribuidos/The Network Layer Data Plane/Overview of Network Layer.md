@@ -9,7 +9,7 @@ Podremos identificar dos funciones de capa de red importantes:
 
 Un elemento clave para la capa de red es la ***forwarding table.*** El router examina algunos campos del ***datagram*** recibidos y los utiliza para indexar esta tabla, la cual le indica a cual ***output link*** deberá enviar el paquete.
 
-Existen dos tipos principales de ***packet switches: Los*** link-layer switches ***basarán las decisiones de envió a partir de los valores del ***link-layer-frame***, mientras que los ***packet switches*** basarán las decisiones en los campos de cabecera del ***datagram***.
+Existen dos tipos principales de ***packet switches: Los*** link-layer switches basarán las decisiones de envió a partir de los valores del ***link-layer-frame***, mientras que los ***packet switches*** basarán las decisiones en los campos de cabecera del ***datagram***.
 
 ### Control Plane: The Traditional Approach
 
@@ -19,7 +19,7 @@ Los **routing algorithms** determinan el contenido de la ***forwarding table***.
 
 Otro enfoque utilizado para estos algoritmos es el de utilizar un controlador remoto, el cual calculará y distribuirá las ***forwarding tables*** a todos los ***routers***. En este caso, los ***routers*** únicamente realizan la operación de ***forwarding.***
 
-Estos controladores son implementados en un ***data center*** remoto con alta confiabilidad y redundancia, y puede ser administrado por un ISP ***o alguna otra organización. Para la comunicación entre los elementos, utilizaremos mensajes conteniendo ***forwarding tables*** y otras piezas ***de*** routing ***para comunicar los controladores con los ***routers***.
+Estos controladores son implementados en un ***data center*** remoto con alta confiabilidad y redundancia, y puede ser administrado por un ISP o alguna otra organización. Para la comunicación entre los elementos, utilizaremos mensajes conteniendo ***forwarding tables*** y otras piezas de routing para comunicar los controladores con los ***routers***.
 
 Se dice que este enfoque es de ***software-defined networking (SDN),*** debido a que las tablas computadas y la interacción entre ***routers*** se implementa en ***software***.
 

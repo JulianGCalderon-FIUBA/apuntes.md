@@ -103,13 +103,13 @@ Cuando una conexión *TCP* recibe información correcta y en secuencia, la coloc
 
 Para implementar este mecanismo, un host ***mantener la siguiente información:
 
-- ***`LastByteRead`:* El numero del ultimo byte que fue leído por la aplicación
-- ***`LastByteRcvd`:* El numero del ultimo byte que fue recibido a través de la red
-- `r***wnd`:* Tambien conocida como ***receiver window.*** Definida a partir de las anteriores variables como el espacio libre en el ***buffer***
+- ***`LastByteRead`:*** El numero del ultimo byte que fue leído por la aplicación
+- ***`LastByteRcvd`:*** El numero del ultimo byte que fue recibido a través de la red
+- *`rwnd`:* Tambien conocida como ***receiver window.*** Definida a partir de las anteriores variables como el espacio libre en el ***buffer***
 
 El host agregara este ultimo campo a los paquetes transferidos a través de la red, para comunicarle al otro ***host*** del estado actual del ***buffer***. Este a su vez deberá mantener las siguientes variables:
 
-- `LastByteSend`: ***El numero del ultimo byte que fue enviado a través de internet
+- ***`LastByteSend`:*** El numero del ultimo byte que fue enviado a través de internet
 - *`LastByteAck`:* El numero del ultimo byte que fue confirmado por el host.
 
 A partir de estos dos valores, podremos calcular la cantidad de datos sin verificar que fueron enviados. El protocolo tratara de que esta cantidad nunca sea mayor al tamaño de la ventana del receptor.
