@@ -20,10 +20,10 @@ $$
 
 ### Generalización para $m$ ecuaciones con $n$ variables
 
-$(n>m)$
+Suponemos que $n>m$, donde se cumplen las condiciones:
 
 - $F_1, F_2, \cdots, F_m$ son funciones simultáneamente $C^1$ en un entorno del punto
-- $\displaystyle \begin{cases}F_1(\vec x_0) = 0 \\F_2(\vec x_0) = 0\\\cdots\\F_m(\vec x_0) = 0\end{cases}$
+- $F_1(\vec x_0) = F_2(\vec x_0) = \cdots = F_m(\vec x_0) = 0$
 - $\displaystyle\Delta\bigg(\frac{\partial(f_1, f_2, \cdots, f_m)}{\partial(x_1, x_2, \cdots, x_m)}\bigg)\neq 0$: Determinante jacobiano de las funciones con respecto a las variables dependientes.
 
 Si se cumplen estas condiciones, las $m$ variables se pueden definir como funciones de $(n-m)$ variables
