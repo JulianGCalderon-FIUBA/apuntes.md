@@ -13,7 +13,7 @@ $$
 
 ## Exponencial
 
-Una variable aleatorio tiene distribución exponencial de parámetro $\lambda > 0$ si su funcion de densidad esta dada por:
+Una variable aleatoria tiene distribución exponencial de parámetro $\lambda > 0$ si su función de densidad está dada por:
 
 $$
 f_X(x) = \begin{cases}\lambda e^{-\lambda x} &\iff x \geq 0 \\
@@ -33,7 +33,7 @@ $$
 ### Propiedades
 
 1. Si $x \backsim \varepsilon(\lambda)$, entonces $P(x > t+s | x > t) = P(x > s)$
-2. Además, si se cumple la propiedad anterior para una variable aleatorio, sabemos que tiene distribución exponencial
+2. Además, si se cumple la propiedad anterior para una variable aleatoria, sabemos que tiene distribución exponencial
 
 ### Función Intensidad de Fallas
 

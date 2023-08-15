@@ -3,7 +3,7 @@
 - [x] Algoritmos II
 - [x] Física I
 - [x] Física II
-- [ ] Análisis Matemático II
+- [x] Análisis Matemático II
 - [ ] Probabilidad y Estadistica
 - [ ] Matemática Discreta
 - [ ] Modelos y Optimización I

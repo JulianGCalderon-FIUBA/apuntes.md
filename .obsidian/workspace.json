@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Integrales de Línea.md",
+                "file": "Probabilidad y Estadistica/Distribuciones Continuas.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Integrales de Línea.md"
+                "file": "Probabilidad y Estadistica/Distribuciones Continuas.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Integrales de Línea.md",
+                "file": "Probabilidad y Estadistica/Distribuciones Continuas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Integrales de Línea.md",
+                "file": "Probabilidad y Estadistica/Distribuciones Continuas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,12 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Probabilidad y Estadistica/Distribucion Normal.md",
+    "Probabilidad y Estadistica/Distribuciones Continuas.md",
+    "To-Do.md",
+    "Análisis Matemático II/Topología.md",
+    "Análisis Matemático II/Funciones Implícitas.md",
+    "Análisis Matemático II/Integrales de Línea.md",
     "Análisis Matemático II/Integrales de Superficie.md",
     "Análisis Matemático II/Integrales Dobles.md",
     "Análisis Matemático II/Integrales Triples.md",
@@ -181,9 +187,6 @@
     "Análisis Matemático II/Propiedades de la diferenciabilidad.md",
     "Análisis Matemático II/Rectas y Planos.md",
     "Análisis Matemático II/Teoremas Integrales.md",
-    "Análisis Matemático II/Topología.md",
-    "Análisis Matemático II/Integrales de Línea.md",
-    "Análisis Matemático II/Funciones Implícitas.md",
     "Análisis Matemático II/Funciones de varias variables.md",
     "Análisis Matemático II/Familias de Curvas.md",
     "Algoritmos II/TDA.md",
@@ -195,9 +198,6 @@
     "Análisis Matemático II/Ecuaciones Diferenciales.md",
     "Análisis Matemático II/Diferenciabilidad.md",
     "Análisis Matemático II/Derivadas.md",
-    "Análisis Matemático II/Curvas y superficies.md",
-    "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
-    "Análisis Matemático II/Cuádricas.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
