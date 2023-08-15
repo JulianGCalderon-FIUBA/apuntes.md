@@ -36,7 +36,7 @@ Observamos que se cumple:
     \nexists\lim_{n \to \inf} x_n
     $$
 
-- Si $a = 1$, tiene un comportamiento lineal (como se define en la expresión general
+- Si $a = 1$, tiene un comportamiento lineal (como se define en la expresión general)
 - Si $a = -1$, entonces $x_n$ oscila infinitamente alrededor de $x_*$
 
 Si $b$ ya no es constante, tendremos $x_{n+1} = ax_{n} + b_n$, en donde encontramos la solución general

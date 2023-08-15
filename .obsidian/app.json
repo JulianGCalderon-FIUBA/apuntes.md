@@ -85,6 +85,8 @@
     "planaridad",
     "PVI",
     "repulsor",
-    "exponenciación"
+    "exponenciación",
+    "hamiltoniano",
+    "semihamiltoniano"
   ]
 }

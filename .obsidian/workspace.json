@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática Discreta/Ecuaciones de Recurrencia.md",
+                "file": "Matemática Discreta/Grafos Orientados.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática Discreta/Ecuaciones de Recurrencia.md"
+                "file": "Matemática Discreta/Grafos Orientados.md"
               }
             }
           },
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática Discreta/Ecuaciones de Recurrencia.md",
+                "file": "Matemática Discreta/Grafos Orientados.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática Discreta/Ecuaciones de Recurrencia.md",
+                "file": "Matemática Discreta/Grafos Orientados.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,6 +173,7 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Matemática Discreta/Grafos Particulares.md",
     "Matemática Discreta/Grafos Orientados.md",
     "Matemática Discreta/Ecuaciones de Recurrencia.md",
     "Matemática Discreta/Clasificaciones.md",
@@ -198,7 +199,6 @@
     "Probabilidad y Estadistica/Estadísticos.md",
     "Probabilidad y Estadistica/Esperanza para Vectores.md",
     "Probabilidad y Estadistica/Esperanza para Variables.md",
-    "Probabilidad y Estadistica/Esperanza Condicional.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
