@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelos y Optimización I/Análisis de Sensibilidad.md",
+                "file": "Modelos y Optimización I/Modificaciones al Planteo.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modelos y Optimización I/Análisis de Sensibilidad.md"
+                "file": "Modelos y Optimización I/Modificaciones al Planteo.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelos y Optimización I/Análisis de Sensibilidad.md",
+                "file": "Modelos y Optimización I/Modificaciones al Planteo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modelos y Optimización I/Análisis de Sensibilidad.md",
+                "file": "Modelos y Optimización I/Modificaciones al Planteo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,6 +161,7 @@
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
     "Modelos y Optimización I/Modelos y Optimización I.md",
+    "Modelos y Optimización I/Análisis de Sensibilidad.md",
     "Modelos y Optimización I/Planteo Dual.md",
     "Modelos y Optimización I/Método Símplex.md",
     "Modelos y Optimización I/Coloreo de Grafos.md",
@@ -177,7 +178,6 @@
     "Algoritmos II/Algoritmos II.md",
     "Análisis Numérico/Análisis Numérico.md",
     "Matemática Discreta/Alfabeto.md",
-    "Modelos y Optimización I/Análisis de Sensibilidad.md",
     "Matemática Discreta/Grafos Particulares.md",
     "To-Do.md",
     "Matemática Discreta/Subconjuntos de Vértices y Aristas.md",
