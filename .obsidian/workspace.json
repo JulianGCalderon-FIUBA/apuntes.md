@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática Discreta/Clasificaciones.md",
+                "file": "Matemática Discreta/Ecuaciones de Recurrencia.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática Discreta/Clasificaciones.md"
+                "file": "Matemática Discreta/Ecuaciones de Recurrencia.md"
               }
             }
           },
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática Discreta/Clasificaciones.md",
+                "file": "Matemática Discreta/Ecuaciones de Recurrencia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática Discreta/Clasificaciones.md",
+                "file": "Matemática Discreta/Ecuaciones de Recurrencia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,6 +173,9 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Matemática Discreta/Grafos Orientados.md",
+    "Matemática Discreta/Ecuaciones de Recurrencia.md",
+    "Matemática Discreta/Clasificaciones.md",
     "Matemática Discreta/Caminos y Distancias.md",
     "Matemática Discreta/Algoritmos.md",
     "Matemática Discreta/Álgebra de Conjuntos.md",
@@ -196,9 +199,6 @@
     "Probabilidad y Estadistica/Esperanza para Vectores.md",
     "Probabilidad y Estadistica/Esperanza para Variables.md",
     "Probabilidad y Estadistica/Esperanza Condicional.md",
-    "Probabilidad y Estadistica/Distribuciones Importantes.md",
-    "Probabilidad y Estadistica/Distribuciones Continuas.md",
-    "Probabilidad y Estadistica/Distribución Normal.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

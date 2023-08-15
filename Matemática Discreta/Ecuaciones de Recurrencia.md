@@ -1,4 +1,4 @@
-Sea $x_{n+k} =f(x_n, x_n+1, x_n+2, \cdots, x_n+k-1)$ con conocidos $x_0, x_1, \cdots, x_{k-1}$. Es un *PVI* (problema de valor inicial) de orden $k$.
+Sea $x_{n+k} =f(x_n, x_n+1, x_n+2, \cdots, x_n+k-1)$ con conocidos $x_0, x_1, \cdots, x_{k-1}$. Es un PVI (problema de valor inicial) de orden $k$.
 
 Una función $x$ con dominio en $\mathbb{N}$ es una sucesión $(x: \mathbb{N} \to C)$ habitualmente denotada $x(n)$, aunque para abreviar, se puede definir $x_n \stackrel{\text{def}}{=} x(n)$.
 
@@ -107,97 +107,105 @@ Es decir, la solución es una sumatoria de los términos correspondientes a cada
 Proponemos una solución particular, cuya forma dependerá del término independiente $f_n$.
 
 1. Si $f_n$ es un polinomio de orden $q$, se propone un polinomio de orden $q$ si $1$ no pertenece al espectro, multiplicado por $n$ elevado a su multiplicidad de la raíz.
-2. Si $f_n$ es exponencial, se propone otra del mismo tipo si $\alpha$ no pertenece al espectro, multiplicada por $n$ elevado a su multiplicidad si si lo hace.
+2. Si $f_n$ es exponencial, se propone otra del mismo tipo si $\alpha$ no pertenece al espectro, multiplicada por $n$ elevado a su multiplicidad si lo hace.
 3. Si $f_n$ es una combinación lineal de ambas reglas, se propone una combinación lineal de las propuestas
-4. Si $f_n$ es de la forma $a\cos(n\alpha) + b\sin(n \alpha)$, entonces se propone ecuación del mismo tipo si $e^{i\alpha}$ no pertenece al espectro, multiplicada por $n$ elevado a su multiplicidad si si lo hace.
+4. Si $f_n$ es de la forma $a\cos(n\alpha) + b\sin(n \alpha)$, entonces se propone ecuación del mismo tipo si $e^{i\alpha}$ no pertenece al espectro, multiplicada por $n$ elevado a su multiplicidad si lo hace.
 
 ## Análisis Cualitativo de las Soluciones
 
 Sea la ecuación característica $x_{n+2} + ax_{n+1} + bx_n = c$, entonces debemos analizar la convergencia de $x_n$ para cualquier condición inicial.
 
-- Si $\lambda_1 \neq \lambda_2$ con $\lambda_1, \lambda_2 \neq 1$, entonces la solución particular sera $x_{np} = k$. Luego, reemplazando la solución en la ecuación encontramos que $k = \frac{c}{1 + a + b}$. Como $1$ no es raíz de la ecuación característica, sabemos que el denominador nunca podrá valer cero. Debido a que 1 no pertenece al espectro, la solución de la homogénea sera $x_{hn} = C_1\lambda_1^n + C_2\lambda_2^n$ Definimos entonces la solución general, como:
+### Si $\lambda_1 \neq \lambda_2$ con $\lambda_1, \lambda_2 \neq 1$
 
-	$$
-    x_n = C_1\lambda_1^n + C_2\lambda_2^n + \frac{c}{1 + a + b}
-    $$
+La solución particular será $x_{np} = k$. Luego, reemplazando la solución en la ecuación, encontramos que $k = \frac{c}{1 + a + b}$. Como $1$ no es raíz de la ecuación característica, sabemos que el denominador nunca podrá valer cero. Debido a que 1 no pertenece al espectro, la solución de la homogénea será $x_{hn} = C_1\lambda_1^n + C_2\lambda_2^n$ Definimos entonces la solución general, como:
 
-	Vemos que si las raíces son de módulo mayor a uno, entonces la serie diverge debido a la exponenciación.
+$$
+x_n = C_1\lambda_1^n + C_2\lambda_2^n + \frac{c}{1 + a + b}
+$$
 
-	$$
-    \lim_{n\to\infty} x_n = \frac{c}{1+a+b}, \forall x_0, x_1 \iff |\lambda_1|,|\lambda_2| <1
-    $$
+Vemos que si las raíces son de módulo mayor a uno, entonces la serie diverge debido a la exponenciación.
 
-	$$
-    \begin{cases}
-    1 + a + b \neq 0\\
-    a^2 \neq 4b
-    \end{cases}
-    $$
+$$
+\lim_{n\to\infty} x_n = \frac{c}{1+a+b}, \forall x_0, x_1 \iff |\lambda_1|,|\lambda_2| <1
+$$
 
-- Si $\lambda_1 = \lambda_2 = 1$, entonces sabemos que tanto la ecuación de característica como su derivada se anulan en $\lambda = 1$. Luego, encontramos que $a=-2$ y $b=1$. Proponemos como solución de la ecuación particular $x_{np} = kn$ debido a que $1$ pertenece al espectro. Sustituyendo en la ecuación de recurrencia, encontramos que $k_1 = c/2$. Como conocemos la raiz, definimos, la solución homogénea como $x_{hn} = C_1 + C_2n$. Definimos como solución general.
+$$
+\begin{cases}
+1 + a + b \neq 0\\
+a^2 \neq 4b
+\end{cases}
+$$
 
-	$$
-    x_n = C_1 + C_2n + \frac{c}{2}n^2
-    $$
+### Si $\lambda_1 = \lambda_2 = 1$
 
-	Vemos que el término puede divergir debido al crecimiento lineal dado por la condición inicial $C_2$.
+Sabemos que tanto la ecuación de característica como su derivada se anulan en $\lambda = 1$. Luego, encontramos que $a=-2$ y $b=1$. Proponemos como solución de la ecuación particular $x_{np} = kn$ debido a que $1$ pertenece al espectro. Sustituyendo en la ecuación de recurrencia, encontramos que $k_1 = c/2$. Como conocemos la raíz, definimos, la solución homogénea como $x_{hn} = C_1 + C_2n$. Definimos como solución general.
 
-	$$
-    \exists x_0, x_1: \nexists\lim_{n \to \infty} x_n
-    $$
+$$
+x_n = C_1 + C_2n + \frac{c}{2}n^2
+$$
 
-	Esta caso se encuentra cuando:
+Vemos que el término puede divergir debido al crecimiento lineal dado por la condición inicial $C_2$.
 
-	$$
-    \begin{cases}a=-2\\
-    b = 1
-    
-    \end{cases}
-    $$
+$$
+\exists x_0, x_1: \nexists\lim_{n \to \infty} x_n
+$$
 
-- Si $\lambda_1 \neq \lambda_2, \lambda_1 = 1$. Nuevamente, tendremos que $1 + a + b = 0$. Debido a que las raíces no pueden ser complejas, con la formula resolvente obtenemos que $a^2 > 4b$. Debido a que la raiz no es doble, también obtenemos $a \neq -2$. La solución homogénea tendrá la forma $x_{hn} = C_1 + C_2\lambda_2^n$. Proponemos la solución particular $x_{pn} = k_1n$, y a partir de sustituir en la ecuación de recurrencia, obtenemos que $k_1 = \frac{c}{2 + a}$. Como $a \neq 2$, siempre podremos despejar $k_1$. La solucioón general entonces será
+Este caso se encuentra cuando:
 
-	$$
-    x_n = C_1 + C_2\lambda_2^n + \frac{c}{2+ a}n
-    $$
+$$
+\begin{cases}a=-2\\
+b = 1
 
-	Vemos que el término únicamente converge si anulamos tanto el crecimiento exponencial como el crecimiento lineal.
+\end{cases}
+$$
 
-	$$
-    \lim_{n\to\infty} x_n = C_1, \forall x_0, x_1 \iff |\lambda_2| <1,\, c = 0
-    $$
+### Si $\lambda_1 \neq \lambda_2, \lambda_1 = 1$
 
-	Esta caso se encuentra cuando:
+Nuevamente, tendremos que $1 + a + b = 0$. Debido a que las raíces no pueden ser complejas, con la fórmula resolvente obtenemos que $a^2 > 4b$. Debido a que la raíz no es doble, también obtenemos $a \neq -2$. La solución homogénea tendrá la forma $x_{hn} = C_1 + C_2\lambda_2^n$. Proponemos la solución particular $x_{pn} = k_1n$, y a partir de sustituir en la ecuación de recurrencia, obtenemos que $k_1 = \frac{c}{2 + a}$. Como $a \neq 2$, siempre podremos despejar $k_1$. La solución general entonces será
 
-	$$
-    \begin{cases}1 +a+b=0\\
-    a \neq 2\\
-    a^2 > 4b
-    
-    \end{cases}
-    $$
+$$
+x_n = C_1 + C_2\lambda_2^n + \frac{c}{2+ a}n
+$$
 
-- Si $\lambda_1 = \lambda_2 = \lambda \neq 1$, Entonces tendremos que $1 + a + b \neq 0$. Proponemos como solución general $x_{hn} = C_1\lambda_1^n + C_2\lambda_2^n$. Para la solución particular, propondremos (como 1 no pertenece al espectro) $x_{pn} = k_1$. Si sustituimos en la ecuación de recurrencia, obtenemos que $k_1 = \frac{c}{1+a+b}$. Sabemos que el denominador no puede valer cero. Definimos entonces la solución general
+Vemos que el término únicamente converge si anulamos tanto el crecimiento exponencial como el crecimiento lineal.
 
-	$$
-    x_n = C_1\lambda^n + C_2n\lambda^n + \frac{c}{1 + a + b}
-    $$
+$$
+\lim_{n\to\infty} x_n = C_1, \forall x_0, x_1 \iff |\lambda_2| <1,\, c = 0
+$$
 
-	Vemos que el término únicamente converge si anulamos el crecimiento exponencial. Como la exponenciación converge más rápido que la linealidad, esto también anula el segundo término.
+Este caso se encuentra cuando:
 
-	$$
-    \lim_{n\to\infty} x_n = \frac{c}{1 + a + b}, \forall x_0, x_1 \iff |\lambda| <1
-    $$
+$$
+\begin{cases}1 +a+b=0\\
+a \neq 2\\
+a^2 > 4b
 
-	Esta caso se encuentra cuando:
+\end{cases}
+$$
 
-	$$
-    \begin{cases}1 +a+b\neq0\\
-    a^2 > 4b
-    \end{cases}
-    $$
+### Si $\lambda_1 = \lambda_2 = \lambda \neq 1$
 
-Vemos que si los modulos $\lambda_1, \lambda_2$ son menores a cero, entonces la solución converge siempre. (si no tomamos la solución trivial $c = 0$.
+Entonces tendremos que $1 + a + b \neq 0$. Proponemos como solución general $x_{hn} = C_1\lambda_1^n + C_2\lambda_2^n$. Para la solución particular, propondremos (como 1 no pertenece al espectro) $x_{pn} = k_1$. Si sustituimos en la ecuación de recurrencia, obtenemos que $k_1 = \frac{c}{1+a+b}$. Sabemos que el denominador no puede valer cero. Definimos entonces la solución general
+
+$$
+x_n = C_1\lambda^n + C_2n\lambda^n + \frac{c}{1 + a + b}
+$$
+
+Vemos que el término únicamente converge si anulamos el crecimiento exponencial. Como la exponenciación converge más rápido que la linealidad, esto también anula el segundo término.
+
+$$
+\lim_{n\to\infty} x_n = \frac{c}{1 + a + b}, \forall x_0, x_1 \iff |\lambda| <1
+$$
+
+Este caso se encuentra cuando:
+
+$$
+\begin{cases}1 +a+b\neq0\\
+a^2 > 4b
+\end{cases}
+$$
+
+Vemos que si los módulos $\lambda_1, \lambda_2$ son menores a cero, entonces la solución converge siempre (si no tomamos la solución trivial $c = 0$).
 
 ## Espacio de Coeficientes
 
