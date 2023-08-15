@@ -5,7 +5,7 @@ El trazado de rayos es una forma geométrica de resolver ejercicios de óptica, 
 En las superficies esféricas (espejos y dioptras) hay tres rayos que podemos trazar.
 
 1. **Centro:** Si trazamos un rayo que pase por el centro de curvatura, este no se desvía.
-2. **Foco Imagen:** Si trazamos un rayo que incide paralelamente en el dispositivo, este refleja/refracta hacia el foco imagen $f_i$
+2. **Foco Imagen:** Si trazamos un rayo que incide paralelamente en el dispositivo, este refleja/refracta hacia el foco imagen $f_i$.
 3. **Foco Objeto**: Si trazamos un rayo que pase por el foco objeto, este refleja/refracta de manera paralela al eje.
 
 ## Lentes

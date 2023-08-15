@@ -36,7 +36,7 @@ Ya que la fuerza es siempre perpendicular a la trayectoria, entonces el trabajo 
 
 #### Caso 1: $\vec v \perp \vec B$
 
-El movimiento es un **MCU**, movimiento circular uniforme. La fuerza magnética actúa como la fuerza centrípeta.
+El movimiento es un MCU o movimiento circular uniforme. La fuerza magnética actúa como la fuerza centrípeta.
 
 $$
 F_M = qv\cdot B = m \cdot a_c = m\cdot \frac{v^2}{R}
@@ -56,11 +56,11 @@ $$
 
 #### Caso 2: $\vec v \not\perp \vec B$
 
-El movimiento es compuesto, se mueve tanto en **MCU** como en **MRU**, movimiento rectilíneo uniforme. De esta forma, la trayectoria es una hélice (movimiento helicoidal).
+El movimiento es compuesto, se mueve tanto en MCU como en MRU, movimiento rectilíneo uniforme. De esta forma, la trayectoria es una hélice (movimiento helicoidal).
 
-Comparte las mismas fórmulas que el caso anterior, pero se usa la velocidad perpendicular $v_\perp$ al campo para el **MCU**.
+Comparte las mismas fórmulas que el caso anterior, pero se usa la velocidad perpendicular $v_\perp$ al campo para el MCU.
 
-Por otro lado, la velocidad paralela $v_\parallel$ al campo afecta el **MRU**. Siendo $h$ el desplazamiento en esta dirección por cada periodo
+Por otro lado, la velocidad paralela $v_\parallel$ al campo afecta el MRU. Siendo $h$ el desplazamiento en esta dirección por cada periodo
 
 $$
 h = v_\parallel\cdot T = \frac{v_\parallel\cdot 2\pi \cdot m}{q\cdot B}

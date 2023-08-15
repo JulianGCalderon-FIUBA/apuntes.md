@@ -1,7 +1,7 @@
 - [x] Álgebra II
 - [x] Algoritmos I
 - [x] Algoritmos II
-- [ ] Física I
+- [x] Física I
 - [ ] Física II
 - [ ] Análisis Matemático II
 - [ ] Probabilidad y Estadistica
@@ -13,4 +13,3 @@
 - [ ] Análisis de la Información
 - [ ] Sistemas Operativos
 - [ ] Introducción a Sistemas Distribuidos
-

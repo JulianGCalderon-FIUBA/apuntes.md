@@ -12,7 +12,7 @@ $$
 \vec F(q, \vec r) = q\cdot \vec E(\vec r)
 $$
 
-## Campo Eléctrico de una Carga Puntual.
+## Campo Eléctrico de una Carga Puntual
 
 $$
 \vec E(\vec r) = qk\cdot\frac{(\vec r-\vec r')}{\|\vec r - \vec r'\|^3}

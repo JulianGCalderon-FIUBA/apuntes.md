@@ -4,7 +4,7 @@ Para cargar ambos conductores con cargas opuestas, utilizamos una pila. La pila 
 
 ![[Capacitores 1.png|475]]
 
-La carga final del capacitor resulta proporcional a la diferencia de potencial de la pila, siendo $C$ la capacidad del capacitor. La unidad de la capacidad es el **Faradio** $[F] = C/V$
+La carga final del capacitor resulta proporcional a la diferencia de potencial de la pila, siendo $C$ la capacidad del capacitor. La unidad de la capacidad es el *Faradio* $[F] = C/V$
 
 $$
 Q = C \cdot \Delta V

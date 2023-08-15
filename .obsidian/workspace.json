@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física I/Trabajo y energía.md",
+                "file": "Física II/Capacitores.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física I/Trabajo y energía.md"
+                "file": "Física II/Capacitores.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física I/Trabajo y energía.md",
+                "file": "Física II/Capacitores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física I/Trabajo y energía.md",
+                "file": "Física II/Capacitores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,8 +172,12 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
-    "Física I/Teoría de medida.md",
+    "Física II/Campo Magnético.md",
+    "Física II/Campo Eléctrico.md",
+    "To-Do.md",
+    "Física I/Trazado de Rayos.md",
     "Física I/Trabajo y energía.md",
+    "Física I/Teoría de medida.md",
     "Física I/Superposición de Onda.md",
     "Física I/Sistema de referencia no inercial.md",
     "Física I/Sistema de partículas.md",
@@ -194,10 +198,6 @@
     "Física I/Dinámica.md",
     "Física I/Difracción.md",
     "Física I/Cinemática CR.md",
-    "Física I/Colisiones.md",
-    "Física I/Coordenadas Intrínsecas.md",
-    "Física I/Cuerpo Rígido.md",
-    "Física I/Definición Óptica.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
