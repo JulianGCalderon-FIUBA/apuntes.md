@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática Discreta/Algoritmos.md",
+                "file": "Matemática Discreta/Álgebra de Conjuntos.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática Discreta/Algoritmos.md"
+                "file": "Matemática Discreta/Álgebra de Conjuntos.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática Discreta/Algoritmos.md",
+                "file": "Matemática Discreta/Álgebra de Conjuntos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática Discreta/Algoritmos.md",
+                "file": "Matemática Discreta/Álgebra de Conjuntos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,12 +172,12 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Matemática Discreta/Algoritmos.md",
     "Matemática Discreta/Álgebra de Conjuntos.md",
     "Matemática Discreta/Álgebra de Boole.md",
-    "Matemática Discreta/Algoritmos.md",
+    "Matemática Discreta/Alfabeto.md",
     "Untitled.md",
     "Untitled 1.md",
-    "Matemática Discreta/Alfabeto.md",
     "Matemática Discreta/Matemática Discreta.md",
     "To-Do.md",
     "Probabilidad y Estadistica/Probabilidad Condicional.md",
