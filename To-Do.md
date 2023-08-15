@@ -2,7 +2,7 @@
 - [x] Algoritmos I
 - [x] Algoritmos II
 - [x] Física I
-- [ ] Física II
+- [x] Física II
 - [ ] Análisis Matemático II
 - [ ] Probabilidad y Estadistica
 - [ ] Matemática Discreta

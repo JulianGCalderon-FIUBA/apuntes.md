@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física II/Materiales Magnéticos.md",
+                "file": "To-Do.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "LIH",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física II/Materiales Magnéticos.md"
+                "file": "To-Do.md"
               }
             }
           },
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física II/Materiales Magnéticos.md",
+                "file": "To-Do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física II/Materiales Magnéticos.md",
+                "file": "To-Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,9 +172,12 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
-    "Física II/Dieléctricos.md",
-    "Física II/Materiales Magnéticos.md",
+    "To-Do.md",
+    "Física II/Trabajo de Campos.md",
+    "Física II/Referencia del Potencial.md",
     "Física II/Potencia Activa y Reactiva.md",
+    "Física II/Materiales Magnéticos.md",
+    "Física II/Dieléctricos.md",
     "Física II/Ley de Gauss.md",
     "Física II/Ley de Coulomb.md",
     "Física II/Ley de Faraday.md",
@@ -194,11 +196,8 @@
     "Física II/Capacitores.md",
     "Física II/Campo Magnético.md",
     "Física II/Campo Eléctrico.md",
-    "To-Do.md",
     "Física I/Trazado de Rayos.md",
     "Física I/Trabajo y energía.md",
-    "Física I/Teoría de medida.md",
-    "Física I/Superposición de Onda.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
