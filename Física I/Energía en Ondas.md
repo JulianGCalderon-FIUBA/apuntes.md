@@ -65,7 +65,7 @@ $$
 E_{Pel} = \frac 12K\cdot\Delta x^2
 $$
 
-Asociamos la constante elástica $K$ al módulo de *Young* $Y$, y la velocidad de la partícula a la derivada espacial de la perturbación. Así podemos calcular la densidad de energía potencial
+Asociamos la constante elástica $K$ al módulo de Young $Y$, y la velocidad de la partícula a la derivada espacial de la perturbación. Así podemos calcular la densidad de energía potencial
 
 $$
 dE_{Pel} = \frac 12v_p^2\cdot\rho

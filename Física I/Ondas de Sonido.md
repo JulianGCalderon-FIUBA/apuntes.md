@@ -60,7 +60,7 @@ $$
 f' = \frac{f\cdot(v_p - v_r)}{v_p}
 $$
 
-Si combinamos estos dos casos, llegamos a la ecuación del efecto **Doppler**
+Si combinamos estos dos casos, llegamos a la ecuación del **efecto Doppler**
 
 $$
 \boxed{f' = f\cdot\bigg(\frac{v_p - v_r}{v_p - v_f}\bigg)}

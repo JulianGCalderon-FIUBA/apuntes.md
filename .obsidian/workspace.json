@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física I/Energía en Ondas.md",
+                "file": "Física I/Ondas Mecánicas.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física I/Energía en Ondas.md"
+                "file": "Física I/Ondas Mecánicas.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física I/Energía en Ondas.md",
+                "file": "Física I/Ondas Mecánicas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física I/Energía en Ondas.md",
+                "file": "Física I/Ondas Mecánicas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,14 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Física I/Ondas de Sonido.md",
+    "Física I/Movimiento Circular.md",
+    "Física I/Movimiento armónico simple.md",
+    "Física I/Momento y Torque.md",
+    "Física I/Magnitudes escalares y vectoriales.md",
+    "Física I/Interferencia.md",
+    "Física I/Física I.md",
+    "Física I/Energía en Ondas.md",
     "Física I/Energía CR.md",
     "Física I/Dispositivos Ópticos.md",
     "Física I/Dinámica CR.md",
@@ -190,14 +198,6 @@
     "Algoritmos II/Pilas, Colas y Listas.md",
     "Algoritmos II/Memoria.md",
     "Algoritmos II/Iteradores de Lista.md",
-    "Algoritmos II/Grafos.md",
-    "Algoritmos II/Diccionario y Hash.md",
-    "Algoritmos II/Árboles Generales.md",
-    "Algoritmos II/Árboles Auto Balanceados.md",
-    "Algoritmos II/Análisis de Algoritmos.md",
-    "Algoritmos II/Algoritmos II.md",
-    "Algoritmos II/Algoritmos de Grafos.md",
-    "Algoritmos I/Recursividad.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
