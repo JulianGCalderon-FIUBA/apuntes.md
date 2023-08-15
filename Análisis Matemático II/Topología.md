@@ -6,25 +6,11 @@ $$
 
 ## Bolas en $\mathbb{R}^n$
 
-Existen tres tipos de $n$-bolas
+Existen tres tipos de $n$-bolas:
 
-- **n-bola abierta:**
-
-	$$
-	B(\vec x_0, r) = \{\vec x \in \mathbb{R}^n / d(\vec x ,\vec x_0 ) < r\}
-	$$
-
-- **n-bola cerrada:**
-
-	$$
-	B(\vec x_0, r) = \{\vec x \in \mathbb{R}^n / d(\vec x ,\vec x_0 ) \leq r\}
-	$$
-
-- **n-bola abierta reducida:**
-
-	$$
-	B(\vec x_0, r) = \{\vec x \in \mathbb{R}^n /0 < d(\vec x ,\vec x_0 ) < r\}
-	$$
+- $n-$bola abierta: $B(\vec x_0, r) = \{\vec x \in \mathbb{R}^n / d(\vec x,\vec x_0) < r\}$
+- $n$-bola cerrada: $B(\vec x_0, r) = \{\vec x \in \mathbb{R}^n / d(\vec x,\vec x_0) \leq r\}$
+- $n$-bola abierta reducida: $B(\vec x_0, r) = \{\vec x \in \mathbb{R}^n /0 < d(\vec x,\vec x_0) < r\}$
 
 ## Topología en $\mathbb{R}^n$
 
@@ -45,14 +31,14 @@ Existen tres tipos de $n$-bolas
 - $I(A)$ es el conjunto de **puntos aislados** de $A$
 - $\bar A$ es el conjunto $A \cup A^´$. Se denomina **clausura** de $A$
 
-### Tipos de conjuntos:
+### Tipos de conjuntos
 
 - $A$ es **abierto** si $A = A^0$
 - $A$ es **cerrado** si su complemento es abierto
 - $A$ es **acotado** si existe $r > 0$ tal que $A \subset B(\vec 0,r)$
 - $A$ es **compacto** si es cerrado y acotado
 
-### Según su conectividad:
+### Según su conectividad
 
 - $A$ es **convexo** si con cada par de puntos de $A$, el segmento que los une también pertenece a $A$
 - $A$ es **conexo** si está formado por una sola parte
