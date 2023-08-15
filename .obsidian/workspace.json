@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Límites.md",
-                "mode": "source",
+                "file": "Análisis Matemático II/Métodos de resolución.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Límites.md"
+                "file": "Análisis Matemático II/Métodos de resolución.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Límites.md",
+                "file": "Análisis Matemático II/Métodos de resolución.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Límites.md",
+                "file": "Análisis Matemático II/Métodos de resolución.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,7 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Análisis Matemático II/Límites.md",
     "Análisis Matemático II/Integrales Triples.md",
     "Análisis Matemático II/Integrales Dobles.md",
     "Análisis Matemático II/Integrales de Superficie.md",
@@ -197,7 +198,6 @@
     "Física II/Referencia del Potencial.md",
     "Física II/Potencia Activa y Reactiva.md",
     "Física II/Materiales Magnéticos.md",
-    "Física II/Dieléctricos.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
