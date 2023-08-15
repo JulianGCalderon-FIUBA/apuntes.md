@@ -81,6 +81,7 @@
     "disconexo",
     "partito",
     "ciclomático",
-    "Hamiltoniano"
+    "Hamiltoniano",
+    "planaridad"
   ]
 }
