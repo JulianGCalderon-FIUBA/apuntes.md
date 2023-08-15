@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física I/Difracción.md",
+                "file": "Física I/Energía en Ondas.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física I/Difracción.md"
+                "file": "Física I/Energía en Ondas.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física I/Difracción.md",
+                "file": "Física I/Energía en Ondas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física I/Difracción.md",
+                "file": "Física I/Energía en Ondas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,11 +172,16 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
-    "Física I/Definición Óptica.md",
-    "Física I/Cuerpo Rígido.md",
-    "Física I/Coordenadas Intrínsecas.md",
-    "Física I/Colisiones.md",
+    "Física I/Energía CR.md",
+    "Física I/Dispositivos Ópticos.md",
+    "Física I/Dinámica CR.md",
+    "Física I/Dinámica.md",
+    "Física I/Difracción.md",
     "Física I/Cinemática CR.md",
+    "Física I/Colisiones.md",
+    "Física I/Coordenadas Intrínsecas.md",
+    "Física I/Cuerpo Rígido.md",
+    "Física I/Definición Óptica.md",
     "todo.md",
     "Indice.md",
     "Algoritmos II/TDA.md",
@@ -193,11 +198,6 @@
     "Algoritmos II/Algoritmos II.md",
     "Algoritmos II/Algoritmos de Grafos.md",
     "Algoritmos I/Recursividad.md",
-    "Algoritmos I/Operaciones con Arreglos.md",
-    "Algoritmos I/Operaciones con archivos.md",
-    "Algoritmos I/Manejo de Archivos.md",
-    "Algoritmos I/Conceptos Básicos.md",
-    "Algoritmos I/Bibliotecas Personales.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

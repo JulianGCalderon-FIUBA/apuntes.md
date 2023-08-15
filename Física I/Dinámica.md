@@ -8,9 +8,7 @@ $$
 
 ## 2.º principio
 
-La aceleración de un objeto es proporcional a la fuerza que se le aplica
-
-$\vec p$: Cantidad de movimiento
+La aceleración de un objeto es proporcional a la fuerza que se le aplica. Definimos $\vec p$ como la cantidad de movimiento.
 
 $$
 \sum \vec F = \frac{d\vec p}{dt}\iff\vec p = m \cdot \vec v
@@ -36,9 +34,7 @@ $$
 \begin{align*}&j = \Delta p = m \cdot\Delta v\\&j = F \cdot \Delta t\end{align*}
 $$
 
----
-
-Si $F$ no es constante:
+Si $F$ no es constante, entonces utilizaremos una integral:
 
 $$
 j = \int_{t_0}^{t_1} Fdt

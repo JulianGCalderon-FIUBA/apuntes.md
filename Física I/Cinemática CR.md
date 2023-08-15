@@ -12,9 +12,9 @@ $$
 \vec a_B = \vec a_A + \underbrace{\vec\gamma\times\vec r_{B/A}}_\text{Tangencial} + \underbrace{\vec\Omega\times\vec\Omega\times\vec r_{B/A}}_\text{Centripeta}
 $$
 
-## CIR
+## Centro Instantáneo de Rotación
 
-El **Centro Instantáneo de Rotación** o CIR es el punto desde el cual el cuerpo está haciendo una rotación pura. Es decir, el punto donde su velocidad es nula.
+El **Centro Instantáneo de Rotación** es el punto desde el cual el cuerpo está haciendo una rotación pura. Es decir, el punto donde su velocidad es nula.
 
 $$
 \vec v_A = \vec\Omega \times (\vec r_A - \vec r_\text{cir})

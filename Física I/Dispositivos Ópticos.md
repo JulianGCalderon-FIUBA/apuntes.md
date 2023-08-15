@@ -14,7 +14,7 @@ En los espejos **convexos**, la imagen es virtual, a menos que el objeto se encu
 
 ## Dioptras Esféricas
 
-Una **Dioptra** es una superficie que separa dos medios de distinta densidad óptica ($n_1,n_2$)
+Una **dioptra** es una superficie que separa dos medios de distinta densidad óptica ($n_1,n_2$)
 
 ### Dioptras Convergentes
 
@@ -30,11 +30,9 @@ En las dioptras **divergentes**, los focos son virtuales.
 
 ## Lentes
 
-Una **lente** **delgada** son dos dioptras separadas infinitesimalmente. (espesor despreciable)
+Una **lente** **delgada** son dos dioptras separadas infinitesimalmente. (espesor despreciable). En **física I** se trabaja con este tipo de lentes.
 
 Una **lente gruesa** es aquella que no tiene un espesor despreciable entre sus dioptras.
-
-En **física 1** se trabaja con lentes delgadas.
 
 ![[Dispositivos Opticos 9.png|252]]
 
