@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do.md",
+                "file": "Indice.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Do.md"
+                "file": "Indice.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do.md",
+                "file": "Indice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Do.md",
+                "file": "Indice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,7 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "To-Do.md",
     "Matemática Discreta/Subconjuntos de Vértices y Aristas.md",
     "Matemática Discreta/Relaciones.md",
     "Matemática Discreta/Operaciones entre Grafos.md",
@@ -192,7 +193,6 @@
     "Matemática Discreta/Alfabeto.md",
     "Untitled.md",
     "Untitled 1.md",
-    "To-Do.md",
     "Probabilidad y Estadistica/Probabilidad Condicional.md",
     "Probabilidad y Estadistica/Probabilidad.md",
     "Probabilidad y Estadistica/Modelos Paramétricos.md",
