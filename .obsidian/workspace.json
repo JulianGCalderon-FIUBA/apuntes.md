@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física II/Corriente Continua.md",
+                "file": "Física II/Fasores Complejos.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física II/Corriente Continua.md"
+                "file": "Física II/Fasores Complejos.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física II/Corriente Continua.md",
+                "file": "Física II/Fasores Complejos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física II/Corriente Continua.md",
+                "file": "Física II/Fasores Complejos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,8 +170,13 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "3d6229aeee009af3",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
+    "Física II/Física II.md",
+    "Física II/Fasores Complejos.md",
+    "Física II/Ecuaciones de Maxwell.md",
+    "Física II/Dieléctricos.md",
+    "Física II/Corriente Continua.md",
     "Física II/Corriente Alterna.md",
     "Física II/Conductores.md",
     "Física II/Circuitos en Resonancia.md",
@@ -193,11 +198,6 @@
     "Física I/Movimiento Circular.md",
     "Física I/Movimiento armónico simple.md",
     "Física I/Momento y Torque.md",
-    "Física I/Magnitudes escalares y vectoriales.md",
-    "Física I/Interferencia.md",
-    "Física I/Física I.md",
-    "Física I/Energía en Ondas.md",
-    "Física I/Energía CR.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

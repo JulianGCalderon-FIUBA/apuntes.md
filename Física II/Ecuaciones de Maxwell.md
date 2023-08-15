@@ -12,7 +12,7 @@ $$
 \vec\nabla \times \vec H = \vec j + \color{Teal}{\frac{\partial\vec D}{\partial t}}
 $$
 
-*Maxwell* introdujo un término adicional, que corresponde a las corrientes de desplazamiento. Esto se debe a que cuando trabajamos con corrientes que dependen del tiempo, la ley de ampere es inválida. El flujo de la corriente sobre una superficie cerrada no es nulo (como indica la ley original)
+Maxwell introdujo un término adicional, que corresponde a las corrientes de desplazamiento. Esto se debe a que cuando trabajamos con corrientes que dependen del tiempo, la ley de ampere es inválida. El flujo de la corriente sobre una superficie cerrada no es nulo (como indica la ley original)
 
 ## Ley de Faraday-Maxwell
 

@@ -48,7 +48,7 @@ $$
 {\subset\!\supset} \llap{\iint}_{S} \vec E  \cdot d \vec s = \frac{Q_{enc}}{\epsilon_0}
 $$
 
-Como a *priori* no sabemos las cargas de polarización, entonces vamos a asignar a cada tipo de carga, un campo eléctrico.
+Como *a priori* no sabemos las cargas de polarización, entonces vamos a asignar a cada tipo de carga, un campo eléctrico.
 
 $$
 \begin{align*}
