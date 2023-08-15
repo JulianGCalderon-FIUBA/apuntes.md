@@ -26,7 +26,7 @@ $$
 C_6^2 = 3\text{-Cocktail}
 $$
 
-El grafo conocido $p$-Cocktail cumple que todos los vertices se conectan con todos los grafos, excepto uno (su pareja). $p$ representa el numero de parejas.
+El grafo conocido $p$-Cocktail cumple que todos los vértices se conectan con todos los grafos, excepto uno (su pareja). $p$ representa el número de parejas.
 
 ## Suma (Disjunta)
 
@@ -40,7 +40,7 @@ $$
 E(G+H) = E(G) + E(H)
 $$
 
-La suma repetida, se denota como $kG = \underbrace{G + G + \cdots + G}_\text{k veces}$
+La suma repetida se denota como $kG = \underbrace{G + G + \cdots + G}_\text{k veces}$
 
 Observemos algunos ejemplos:
 
@@ -98,11 +98,11 @@ Observemos que $n(G \times H) = n(G) \cdot n(H)$, y que $m = n(H)m(G) + n(G)m(H)
 
 Un ejemplo podría ser el de la telaraña $W_{n,m}$:
 
-![[Operaciones entre Grafos 1.png]]
+![[Operaciones entre Grafos 1.png|400]]
 
 ## Eliminación de Vértice/Arista
 
-Definimos la operación de de vertices o aristas, como $G - e_i$, o $G - v_i$. Si es indiferente que vértice se elimina, dando grafos isomorfos, se omite la identificación del vértice, en tal caso podemos anotar la igualdad con $=$ en lugar de $\cong$.
+Definimos la operación de vértices o aristas, como $G - e_i$, o $G - v_i$. Si es indiferente que vértice se elimina, dando grafos isomorfos, se omite la identificación del vértice, en tal caso podemos anotar la igualdad con $=$ en lugar de $\cong$.
 
 $$
 K_4 - v = K_3

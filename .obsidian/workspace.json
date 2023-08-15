@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática Discreta/Isomorfismos.md",
+                "file": "Matemática Discreta/Operaciones entre Grafos.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática Discreta/Isomorfismos.md"
+                "file": "Matemática Discreta/Operaciones entre Grafos.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática Discreta/Isomorfismos.md",
+                "file": "Matemática Discreta/Operaciones entre Grafos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática Discreta/Isomorfismos.md",
+                "file": "Matemática Discreta/Operaciones entre Grafos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,12 +172,15 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
-    "Matemática Discreta/Inducción.md",
-    "Matemática Discreta/Isomorfismos.md",
-    "Matemática Discreta/Grafos Particulares.md",
     "Matemática Discreta/Nociones Básicas de Grafos.md",
-    "Matemática Discreta/Grafos Particulares 1.md",
     "Matemática Discreta/Grafos Orientados.md",
+    "Matemática Discreta/Espectro de un Grafo.md",
+    "Matemática Discreta/Matemática Discreta.md",
+    "Matemática Discreta/Operaciones entre Grafos.md",
+    "Matemática Discreta/Isomorfismos.md",
+    "Matemática Discreta/Inducción.md",
+    "Matemática Discreta/Grafos Particulares.md",
+    "Matemática Discreta/Grafos Particulares 1.md",
     "Matemática Discreta/Ecuaciones de Recurrencia.md",
     "Matemática Discreta/Clasificaciones.md",
     "Matemática Discreta/Caminos y Distancias.md",
@@ -187,7 +190,6 @@
     "Matemática Discreta/Alfabeto.md",
     "Untitled.md",
     "Untitled 1.md",
-    "Matemática Discreta/Matemática Discreta.md",
     "To-Do.md",
     "Probabilidad y Estadistica/Probabilidad Condicional.md",
     "Probabilidad y Estadistica/Probabilidad.md",
@@ -196,8 +198,6 @@
     "Probabilidad y Estadistica/Intervalos de Confianza.md",
     "Probabilidad y Estadistica/Inferencia Estadística.md",
     "Probabilidad y Estadistica/Hipótesis Estadística.md",
-    "Probabilidad y Estadistica/Eventos Independientes.md",
-    "Probabilidad y Estadistica/Estimadores.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

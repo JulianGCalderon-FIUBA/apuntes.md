@@ -10,7 +10,7 @@ Por el conocido *handshaking di-lemma*, la suma de grados entrantes debe ser igu
 
 ## Conectividad
 
-Un grafo orientado se llama conexo si su sub grafo adyacente (sin orientar) se llama conexo. Un grafo se llama fuertemente conexo si para todo par de vértices $u,v$, existe un camino que los une.
+Un grafo orientado se llama conexo si su subgrafo adyacente (sin orientar) se llama conexo. Un grafo se llama fuertemente conexo si para todo par de vértices $u,v$, existe un camino que los une.
 
 Un grafo se llama orientable, si puede introducirse una orientación que lo convierta en un grafo fuertemente conexo.
 

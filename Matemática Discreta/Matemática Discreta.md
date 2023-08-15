@@ -20,4 +20,5 @@
 - [[Subconjuntos de Vértices y Aristas]]
 - [[Clasificaciones]]
 - [[Grafos Orientados]]
+- [[Espectro de un Grafo]]
 - [[Algoritmos]]
