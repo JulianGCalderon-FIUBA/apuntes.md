@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física II/Fasores Complejos.md",
+                "file": "Física II/Ley de Coulomb.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física II/Fasores Complejos.md"
+                "file": "Física II/Ley de Coulomb.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física II/Fasores Complejos.md",
+                "file": "Física II/Ley de Coulomb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física II/Fasores Complejos.md",
+                "file": "Física II/Ley de Coulomb.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,8 +170,14 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Física II/Ley de Faraday.md",
+    "Física II/Ley de Coulomb.md",
+    "Física II/Ley de Biot y Savalt.md",
+    "Física II/Ley de Ampere.md",
+    "Física II/Inductores.md",
+    "Física II/Fuerza Magnética.md",
     "Física II/Física II.md",
     "Física II/Fasores Complejos.md",
     "Física II/Ecuaciones de Maxwell.md",
@@ -192,12 +198,6 @@
     "Física I/Sistema de referencia no inercial.md",
     "Física I/Sistema de partículas.md",
     "Física I/Potencia.md",
-    "Física I/Óptica Geométrica.md",
-    "Física I/Ondas Mecánicas.md",
-    "Física I/Ondas de Sonido.md",
-    "Física I/Movimiento Circular.md",
-    "Física I/Movimiento armónico simple.md",
-    "Física I/Momento y Torque.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

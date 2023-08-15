@@ -62,7 +62,7 @@ El signo de $\pm$ varía si los bornes son homólogos $(+)$ o no homólogos $(-)
 
 ## Energía en Inductores
 
-Son componentes, capaces de almacenar energía. Esta energía será el trabajo que me cueste *energizar* ese inductor.
+Son componentes, capaces de almacenar energía. Esta energía será el trabajo que me cueste **energizar** ese inductor.
 
 $$
 U = W = \int_0^t P(t) \cdot dt = \int_0^I i(t)\cdot L \cdot di

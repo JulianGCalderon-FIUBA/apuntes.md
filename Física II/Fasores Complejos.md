@@ -62,7 +62,7 @@ $$
 
 ### Pseudo - Ley de Ohm
 
-Si desarrollamos los fasores, llegamos a la **Pseudo - Ley de Ohm**
+Si desarrollamos los fasores, llegamos a la **Pseudo-Ley de Ohm**
 
 $$
 V_0\ e^{j\phi_v} = I_0\ e^{j\phi_i} \cdot \mathbb{Z}
