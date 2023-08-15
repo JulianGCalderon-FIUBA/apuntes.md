@@ -10,7 +10,7 @@
 - [[Simulación]]
 - [[Variables Aleatorias]]
 - [[Vectores Aleatorios]]
-- [[Propiedades de V A]]
+- [[Propiedades de V.A.]]
 - [[Distribuciones Continuas]]
 
 ## Capitulo 3
@@ -37,26 +37,26 @@
 ## Capitulo 7
 
 - [[Proceso de Poisson]]
-- [[Propiedades del PP]]
+- [[Propiedades del P.P.]]
 
 ## Capitulo 8
 
-- [[Distribucion Normal]]
-- [[Teoremas Utiles]]
+- [[Distribución Normal]]
+- [[Teoremas Útiles]]
 - [[Teorema Central del Límite]]
 
 ## Capitulo 9
 
-- [[Inferencia Estadistica]]
-- [[Modelos Parametricos]]
-- [[Estadisticos]]
+- [[Inferencia Estadística]]
+- [[Modelos Paramétricos]]
+- [[Estadísticos]]
 - [[Estimadores]]
 - [[Distribuciones Importantes]]
 
 ## Capitulo 10
 
-- [[Hipotesis Estadistica]]
-- [[Test de Hipotesis]]
+- [[Hipótesis Estadística]]
+- [[Test de Hipótesis]]
 
 ## Capitulo 11
 
@@ -64,7 +64,7 @@
 
 ## Capitulo 12
 
-- [[Estimacion Bayesiana]]
+- [[Estimación Bayesiana]]
 
 ## Capítulo 1
 
@@ -88,15 +88,15 @@
 - Proceso Bernoulli
 - Proceso de Poisson
 - Propiedades del PP
-- Distribucion Normal
-- Teoremas Utiles
+- Distribución Normal
+- Teoremas Útiles
 - Teorema Central del Límite
-- Inferencia Estadistica
-- Modelos Parametricos
-- Estadisticos
+- Inferencia Estadística
+- Modelos Paramétricos
+- Estadísticos
 - Estimadores
 - Distribuciones Importantes
-- Hipotesis Estadistica
-- Test de Hipotesis
+- Hipótesis Estadística
+- Test de Hipótesis
 - Intervalos de Confianza
-- Estimacion Bayesiana
+- Estimación Bayesiana
