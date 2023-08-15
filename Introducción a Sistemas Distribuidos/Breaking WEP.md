@@ -75,7 +75,7 @@ El protocolo ***RC4*** consta de dos algoritmos, extremadamente simples, que par
 
 ## Inseguridades de RC4
 
-### Debilidad de la Invariancia
+### Debilidad de la Invarianza
 
 El primer algoritmo de, ***KSA***, expone dos inseguridades significantes. La primera es la existencia de una gran clase de ***claves débiles***, en las cuales una pequeña parte de la llave determina un gran número de ***bits*** de la permutación inicial. Además, ***PRGA*** traduce estos patrones en la permutación inicial, en patrones en el prefijo del flujo de claves.
 

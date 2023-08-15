@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilidad y Estadistica/Estimación Bayesiana.md",
+                "file": "Probabilidad y Estadistica/Estimadores.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilidad y Estadistica/Estimación Bayesiana.md"
+                "file": "Probabilidad y Estadistica/Estimadores.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilidad y Estadistica/Estimación Bayesiana.md",
+                "file": "Probabilidad y Estadistica/Estimadores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilidad y Estadistica/Estimación Bayesiana.md",
+                "file": "Probabilidad y Estadistica/Estimadores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,11 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Probabilidad y Estadistica/Eventos Independientes.md",
+    "Probabilidad y Estadistica/Hipótesis Estadística.md",
+    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
+    "Probabilidad y Estadistica/Estimadores.md",
+    "Probabilidad y Estadistica/Estimación Bayesiana.md",
     "Probabilidad y Estadistica/Estadísticos.md",
     "Probabilidad y Estadistica/Esperanza para Vectores.md",
     "Probabilidad y Estadistica/Esperanza Condicional.md",
@@ -193,11 +198,6 @@
     "Análisis Matemático II/Métodos de resolución.md",
     "Análisis Matemático II/Polinomio de Taylor.md",
     "Análisis Matemático II/Propiedades de la diferenciabilidad.md",
-    "Análisis Matemático II/Rectas y Planos.md",
-    "Análisis Matemático II/Teoremas Integrales.md",
-    "Análisis Matemático II/Funciones de varias variables.md",
-    "Análisis Matemático II/Familias de Curvas.md",
-    "Algoritmos II/TDA.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

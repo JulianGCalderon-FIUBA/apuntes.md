@@ -17,7 +17,7 @@ Definiremos función de perdida $l(\theta, d)$ como el costo de estimar $\theta$
 
 Definiremos el estimador de Bayes como aquel que minimice la perdida de Bayes. Si consideramos la función de perdida cuadrática, luego el estimador de Bayes es la media de la función a posteriori.
 
-Muchas veces no es necesario evaluar todos los elementos de la ecuación de Bayes para mezclas. Como sabemos que es una función de densidad, podremos simplemente buscar a que distribución se parece.
+Muchas veces no es necesario evaluar todos los elementos de la ecuación de Bayes para mezclas. Como sabemos que es una función de densidad, podremos simplemente buscar a qué distribución se parece.
 
 $$
 f_{\Theta| \underline X = x}(\theta) = 
@@ -27,7 +27,7 @@ $$
 
 ## Cálculo de Probabilidad
 
-Si buscamos calcular la probabilidad de un evento a partir de la estimacion, utilizaremos la fórmula de probabilidad total.
+Si buscamos calcular la probabilidad de un evento a partir de la estimación, utilizaremos la fórmula de probabilidad total.
 
 $$
 P(X_2 = x_2 | \underline X = \underline x) = \int_{-\infty}^\infty f_{X | \Theta = \theta}(x)\cdot f_{\Theta | \underline X = x}(\theta) \cdot d\theta
@@ -41,4 +41,4 @@ $$
 
 ## MAP
 
-Se deonimina moda a posteriori. En algunos casos a $\theta$ con la moda de la distribucion (punto donde se alcanza el maximo de la densidad)
+Se denomina moda *a posteriori*. En algunos casos a $\theta$ con la moda de la distribución (punto donde se alcanza el máximo de la densidad)
