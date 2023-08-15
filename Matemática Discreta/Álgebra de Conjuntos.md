@@ -182,9 +182,9 @@ A veces, demostrar una implicancia es complicada, por lo que se puede trabajar c
 $$
 \begin{CD}
 
-\text{Original}: p \to q @= \text{Contra-reciproca}: q' \to p' \\
-
-\text{Reciproca}: q \to p @= \text{Contraria}: p' \to q'
+\text{Original}: p \to q  @= \text{Contrarrecíproca}: q' \to p' \\
+           @.                           @.                      \\
+\text{Recíproca}: q \to p @= \text{Contraria}: p' \to q'
 
 \end{CD}
 
@@ -243,7 +243,7 @@ f(p, q, r) = (p + q + r)(p + q + r')(p + q' + r)\tag{Ej.}
 
 $$
 
-Nótese que la primer forma tiene 5 términos, mientras que la segunda tiene 3 términos. Sumando a un total de 8 regiones (el cardinal del dominio).
+Nótese que la primera forma tiene 5 términos, mientras que la segunda tiene 3 términos. Sumando a un total de 8 regiones (el cardinal del dominio).
 
 ## Identidades del Álgebra de Proposiciones
 
@@ -277,7 +277,7 @@ $$
 
 Nota: en sus respectivos conjuntos de igualdad se cumplen las mismas identidades.
 
-Las leyes de **De Morgan** también se cumplen para las operaciones $\uparrow$ y $\downarrow$
+Las leyes **de Morgan** también se cumplen para las operaciones $\uparrow$ y $\downarrow$
 
 $$
 
@@ -291,7 +291,7 @@ $$
 
 $$
 
-## Soluciones del Algebra de Proposiciones
+## Soluciones del Álgebra de Proposiciones
 
 En el álgebra de proposiciones, encontrar soluciones a ecuaciones no es tan directo como en los reales. Solucionar la $X$ de una ecuación implica encontrar las cotas inferiores y superiores de la misma. La solución usualmente tomará la siguiente forma.
 
@@ -304,7 +304,7 @@ $$
 ## Juegos Completos
 
 > [!note]
-> Un juego se llama completo si alcanza para fabricar cualquier elemento del conjunto donde se un juego completo
+> Un juego se llama completo si alcanza para fabricar cualquier elemento del conjunto donde es un juego completo
 
 **Teorema:** El juego $(+,\cdot, ')$ es un juego completo en el espacio de proposiciones. Podemos construir cualquier función proposicional a partir de estos elementos.
 

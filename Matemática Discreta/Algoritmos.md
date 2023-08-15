@@ -1,6 +1,6 @@
 ## DFS
 
-El algoritmo **Depth First Search** *(DFS)* es un algoritmo que busca encontrar una orientación fuertemente conexa para un grafo:
+El algoritmo **Depth First Search** (DFS) es un algoritmo que busca encontrar una orientación fuertemente conexa para un grafo:
 
 1. Se elije un vértice $v$ cualquiera, y se lo etiqueta como el primero
 2. Se toma un vértice cualquiera, adyacente al anterior.
