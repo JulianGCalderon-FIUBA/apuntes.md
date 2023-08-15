@@ -44,8 +44,6 @@ La diferencia entre soluciones de la no homogénea es solución de la homogénea
 
 La solución general (SG) de la no homogénea se obtiene como suma de la solución general de la homogénea asociada, con una solución particular (SP) de la no homogénea.
 
-### Método
-
 1. Resolver la homogénea asociada (variables separables)
 2. Encontrar una SP de la no homogénea
 	1. Proponemos como solución la de la homogénea, pero dejamos que la constante sea en función de $x$
