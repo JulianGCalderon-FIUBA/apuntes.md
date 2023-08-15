@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Funciones de varias variables.md",
+                "file": "Análisis Matemático II/Funciones Implícitas.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Funciones de varias variables.md"
+                "file": "Análisis Matemático II/Funciones Implícitas.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Funciones de varias variables.md",
+                "file": "Análisis Matemático II/Funciones Implícitas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Funciones de varias variables.md",
+                "file": "Análisis Matemático II/Funciones Implícitas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,8 +172,8 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
-    "Análisis Matemático II/Funciones Implícitas.md",
     "Análisis Matemático II/Funciones de varias variables.md",
+    "Análisis Matemático II/Funciones Implícitas.md",
     "Análisis Matemático II/Familias de Curvas.md",
     "Algoritmos II/TDA.md",
     "Algoritmos II/Recursividad.md",
