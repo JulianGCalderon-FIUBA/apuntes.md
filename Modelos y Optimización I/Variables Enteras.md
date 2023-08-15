@@ -2,8 +2,8 @@ Introduciremos al modelado, dos nuevos tipos de variables:
 
 - **Variables discretas:** Utilizadas para representar productos o recursos de valor entero (no divisibles)
 - **Variables bivalentes:** También conocidas como variables binarias:
-	- *De decisión:* Señalan alternativas posibles, el modelo erigirá un valor para determinar cierto comportamiento
-	- *Indicativas:* Marcan el estado de una variable asociada
+	- **De decisión:** Señalan alternativas posibles, el modelo erigirá un valor para determinar cierto comportamiento
+	- **Indicativas:** Marcan el estado de una variable asociada
 
 Usualmente, se acostumbra a notar las variables bivalentes con $Y_\alpha$
 
@@ -23,7 +23,7 @@ $$
 Y_q \le Y_{p_1} + Y_{p_2} + \dots + Y_{p_n} \le nY_q
 $$
 
-También, podemos simular una compuesto lógica **AND** para la variable $r$ tal que $pq = r$ de la siguiente forma:
+También, podemos simular una compuerta lógica **AND** para la variable $r$ tal que $pq = r$ de la siguiente forma:
 
 $$
 2Y_r \leq Y_p + Y_q  \leq 1 + Y_r
@@ -85,7 +85,7 @@ $$
 Y_D + Y_E + Y_= = 1
 $$
 
-Entonces, $Y_=$ tomara el valor uno únicamente si son iguales.
+Entonces, $Y_=$ tomará el valor uno únicamente si son iguales.
 
 Similarmente, podemos forzar ambas variables a ser iguales (o distintas) utilizando
 
@@ -105,7 +105,7 @@ $$
 
 ## Eliminación de Restricciones
 
-Podemos declarar restricciones que únicamente serán validas bajo cierta condición $Y = 0$.
+Podemos declarar restricciones que únicamente serán válidas bajo cierta condición $Y = 0$.
 
 $$
 g_1(X) \leq b_2 + MY_1
@@ -147,7 +147,7 @@ $$
 
 En esta situación, crearemos una estructura del tipo **represa** tal que cuando se llena el primer **dique**, se habilita el segundo. De esa forma, si $X$ pertenece al intervalo $(M_{i-1}, M_i)$. Entonces todos los $X_j$ previos a $X_i$ estarán completos. Con el valor de $X_i$ relativo a los otros diques.
 
-De esta forma, declararemos la variable $Y_i$ que valdrá uno únicamente si el intervalo apropiado esta completo.
+De esta forma, declararemos la variable $Y_i$ que valdrá uno únicamente si el intervalo apropiado está completo.
 
 $$
 M_1Y_2 \leq X_1 \leq M_1
@@ -175,7 +175,7 @@ $$
 
 ## Función de $n$ valores posibles
 
-Puedo definir una bivalente para cada valor posible de $X$. Únicamente valido si $X$ tiene un número finito de valores posibles
+Puedo definir una bivalente para cada valor posible de $X$. Únicamente válido si $X$ tiene un número finito de valores posibles
 
 $$
 X = aY_a+ bY_b + cY_c
@@ -189,19 +189,19 @@ $$
 
 Si queremos redondear una variable continua X, a una variable entera $E$ tendremos tres posibilidades.
 
-- Round: Al entero más cercano
+- **Round:** Al entero más cercano
 
 	$$
     X - 0.5 + m \le E \le X + 0.5
     $$
 
-- Floor: Al entero menor más cercano
+- **Floor:** Al entero menor más cercano
 
 	$$
     X - 1 + m \le E \le X
     $$
 
-- Ceiling: Al entero mayor más cercano
+- **Ceiling:** Al entero mayor más cercano
 
 	$$
     X + 1 - m \le E \le X

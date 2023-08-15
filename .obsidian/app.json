@@ -105,6 +105,8 @@
     "Anticlique",
     "matching",
     "slack",
-    "subperiodo"
+    "subperiodo",
+    "subtours",
+    "subtours"
   ]
 }

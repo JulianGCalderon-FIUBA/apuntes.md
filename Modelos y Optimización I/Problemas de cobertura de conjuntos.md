@@ -4,7 +4,7 @@ Sea $S$ un conjunto de elementos a cubrir, y $L$ un conjunto de subconjuntos de 
 - **Partición:** Se cubran todos los elementos de $S$ sin solapamiento
 - **Packing:** Se cubra la mayor cantidad de elementos de $S$ que se pueda sin solapamiento.
 
-Nótese que usualmente los problemas de *cobertura* y *packing* tienen solución óptima, mientras que los de **partición** pueden llegar a ser incompatibles
+Nótese que usualmente los problemas de cobertura y packing tienen solución óptima, mientras que los de partición pueden llegar a ser incompatibles
 
 ## Cobertura
 
@@ -24,7 +24,7 @@ $$
 \sum_{i:S_j \in L_i} Y_{L_i} = 1
 $$
 
-En otras palabras, además de las restricción de unión mencionada anteriormente, la intersección de todos los subconjuntos de $L$ elegidos debe ser el conjunto vacío
+En otras palabras, además de las restricciones de unión mencionada anteriormente, la intersección de todos los subconjuntos de $L$ elegidos debe ser el conjunto vacío
 
 ## Packing
 

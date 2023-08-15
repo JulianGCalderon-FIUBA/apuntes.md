@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelos y Optimización I/Patrones Comunes.md",
+                "file": "Modelos y Optimización I/Problemas Combinatorios.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modelos y Optimización I/Patrones Comunes.md"
+                "file": "Modelos y Optimización I/Problemas Combinatorios.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelos y Optimización I/Patrones Comunes.md",
+                "file": "Modelos y Optimización I/Problemas Combinatorios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modelos y Optimización I/Patrones Comunes.md",
+                "file": "Modelos y Optimización I/Problemas Combinatorios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,9 +160,14 @@
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
     "Modelos y Optimización I/Modelos y Optimización I.md",
+    "Modelos y Optimización I/Problema del Viajante.md",
+    "Modelos y Optimización I/Problemas de cobertura de conjuntos.md",
+    "Modelos y Optimización I/Variables Enteras.md",
+    "Modelos y Optimización I/Problemas Combinatorios.md",
+    "Indice.md",
+    "Modelos y Optimización I/Patrones Comunes.md",
     "Modelos y Optimización I/Programación Lineal Continua.md",
     "Modelos y Optimización I/Introducción.md",
-    "Indice.md",
     "Matemática Discreta/Matemática Discreta.md",
     "Estructura del Computador/Estructura del Computador.md",
     "Algoritmos II/Algoritmos II.md",
@@ -180,11 +185,6 @@
     "Matemática Discreta/Espectro de un Grafo.md",
     "Matemática Discreta/Isomorfismos.md",
     "Matemática Discreta/Inducción.md",
-    "Matemática Discreta/Grafos Particulares 1.md",
-    "Matemática Discreta/Ecuaciones de Recurrencia.md",
-    "Matemática Discreta/Clasificaciones.md",
-    "Matemática Discreta/Caminos y Distancias.md",
-    "Matemática Discreta/Algoritmos.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
