@@ -78,6 +78,9 @@
     "DFA",
     "Boole",
     "contrarrecíproca",
-    "disconexo"
+    "disconexo",
+    "partito",
+    "ciclomático",
+    "Hamiltoniano"
   ]
 }

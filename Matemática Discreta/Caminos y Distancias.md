@@ -45,7 +45,7 @@ $$
 
 Definimos el conjunto de aristas $S$ como un corte de $G$, y con eliminar las aristas de $S$ de $G$, entonces el grafo se vuelve disconexo. Un corte es mínimo es no existe otro corte de cardinal menor. Un corte es minimal si no otro existe un corte contenido en el mismo. El cardinal del mínimo corte se denomina **arista-conectividad**: $\lambda(G)$.
 
-De la misma forma, definimos un corte de vértices. Conjunto de vértices que, al eliminarlos, vuelve al grafo disconexo. El cardinal del mínimo corte se denomina **vertice-conectividad:** $\lambda'(G)$. Definimos la vértice-conectividad de $K_n$ como $n-1$. Esto es arbitrario, ya que no existe ningún vértice que al eliminarlo vuelva a un grafo completo, disconexo.
+De la misma forma, definimos un corte de vértices. Conjunto de vértices que, al eliminarlos, vuelve al grafo disconexo. El cardinal del mínimo corte se denomina **vértice-conectividad:** $\lambda'(G)$. Definimos la vértice-conectividad de $K_n$ como $n-1$. Esto es arbitrario, ya que no existe ningún vértice que al eliminarlo vuelva a un grafo completo, disconexo.
 
 Los cortes de vértices son más fuertes que los cortes de aristas. Esto se debe a que podremos encontrar un corte de vértices de igual tamaño que un corte de aristas, si eliminamos todos los vértices incidentes sobre estas aristas.
 
@@ -64,16 +64,16 @@ $$
 - El radio $R(G)$ será la mínima excentricidad. Más formalmente, $R(G) = \min \{e(v): v \in V(G)\}$. Se sobreentiende que no tendremos en cuenta el camino trivial.
 - El diámetro $\Phi(G)$ como la máxima excentricidad. Más formalmente, $R(G) = \max \{d(u,v): u,v \in V(G)\}$
 - El centro de un grafo $C(G)$ es el conjunto de vértices con mínima excentricidad
-- La periferia de un grafo $P(G)$ es el conjunto de vértices con maxima excentricidad
-- La cintura $g(G)$ de un grafo es del la longitud minima de sus ciclos, si es un grafo acíclico, se define como infinito.
-- La circunferencia $\text{cir}(G)$ de un grafo es del la longitud maxima de sus ciclos, si es un grafo acíclico, se define como infinito.
+- La periferia de un grafo $P(G)$ es el conjunto de vértices con máxima excentricidad
+- La cintura $g(G)$ de un grafo es de la longitud mínima de sus ciclos, si es un grafo acíclico, se define como infinito.
+- La circunferencia $\text{cir}(G)$ de un grafo es de la longitud máxima de sus ciclos, si es un grafo acíclico, se define como infinito.
 
 Un vértice puede no estar ni en el centro ni en la periferia de un grafo. En un grafo conexo, se verifica que $R(G) \leq \Phi(G) \leq 2R(G)$
 
 ## Separaciones
 
-Sea $G$ un grafo conexo y $s,t$ dos vertices del grafo, entonces dos o más $s{-}t$ paths son de arista-disjuntos si no comparten aristas. De igual forma, son vertice-disjuntos si no comparten vertices, excepto los extremos.
+Sea $G$ un grafo conexo y $s,t$ dos vértices del grafo, entonces dos o más $s{-}t$ paths son de arista-disjuntos si no comparten aristas. De igual forma, son vértice-disjuntos si no comparten vértices, excepto los extremos.
 
-Un conjunto de aristas (o vertices) separa $s$ de $t$ si su remoción destruye todo path entre $s$ y $t$.
+Un conjunto de aristas (o vértices) separa $s$ de $t$ si su remoción destruye todo path entre $s$ y $t$.
 
-La maxima cantidad de caminos **arista-disjuntos** o **vertice-disjuntos** es igual a la mínima cantidad de aristas o vertices que separan ambos vertices.
+La máxima cantidad de caminos **arista-disjuntos** o **vértice-disjuntos** es igual a la mínima cantidad de aristas o vértices que separan ambos vértices.
