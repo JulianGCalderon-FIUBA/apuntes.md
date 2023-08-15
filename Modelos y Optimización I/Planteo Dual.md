@@ -2,7 +2,7 @@ El problema dual es un problema equivalente al primal (con el mismo valor del fu
 
 ## Planteo del Problema
 
-Dada un primal de la primer forma:
+Dada un primal de la primera forma:
 
 $$
 \begin{gathered}
@@ -13,9 +13,9 @@ X \geq 0\\
 $$
 
 > [!example]- Planteo del Primal
->
+> 
 > Tendremos un problema de maximización, con tres restricciones y dos variables:
->
+> 
 > $$
 > \begin{alignat*}{2}
 > -2x_1& + 1x_2& \leq 2\\
@@ -38,9 +38,9 @@ $$
 La dimensión del vector $Y$ será la cantidad de restricciones del problema original
 
 > [!example]- Planteo del Dual
->
+> 
 > En el dual, intercambiaremos los términos independientes de las restricciones con los coeficientes del funcional, y los coeficientes de las restricciones se obtendrán transponiendo los originales
->
+> 
 > $$
 > \begin{alignat*}{2}
 > -2y_1& + 1y_2& + 1y_3& \geq 10\\
@@ -49,12 +49,12 @@ La dimensión del vector $Y$ será la cantidad de restricciones del problema ori
 > \end{alignat*}
 > $$
 
-Podremos asignar las variables del dual de modo las primeros elementos de $Y$ corresponderán a las variables *slack*, mientras que lo siguientes elementos corresponderán a las variables reales.
+Podremos asignar las variables del dual, de modo los primeros elementos de $Y$ corresponderán a las variables *slack*, mientras que lo siguientes elementos corresponderán a las variables reales.
 
 > [!example]- Asignación
->
+> 
 > En nuestro ejemplo, asignaremos:
->
+> 
 > $$
 > \begin{gathered}
 > y_1 \iff x_3\\
@@ -93,7 +93,7 @@ Podremos reconstruir la tabla del dual a partir de la tabla del primal:
 
 > [!example]- Tabla Optima del Primal
 > Partimos de la tabla óptima del primal:
->
+> 
 > | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
 > | --- | --- | --- | --- | --- | --- | --- | --- |
 > | $0$ | $x_3$ | $7.5$ | $0$ | $0$ | $1$ | $1.5$ | $0.5$ |
@@ -105,7 +105,7 @@ Podremos reconstruir la tabla del dual a partir de la tabla del primal:
 
 	> [!example]- Valor de las variables
 	> Calculamos el valor de las variables del dual:
-	>
+	> 
 	> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
 	> | --- | --- | --- | --- | --- | --- | --- | --- |
 	> | $2$ | $y_2$ | $3.5$ | | | | | |
@@ -116,7 +116,7 @@ Podremos reconstruir la tabla del dual a partir de la tabla del primal:
 
 	> [!example]- Vectores canónicos
 	> Colocamos los vectores canónicos:
-	>
+	> 
 	> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
 	> | --- | --- | --- | --- | --- | --- | --- | --- |
 	> | $2$ | $y_2$ | $3.5$ | | $1$ | $0$ | | |
@@ -127,7 +127,7 @@ Podremos reconstruir la tabla del dual a partir de la tabla del primal:
 
 	> [!example]- Valores restantes
 	> Finalmente, agregamos los valores restantes:
-	>
+	> 
 	> | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
 	> | --- | --- | --- | --- | --- | --- | --- | --- |
 	> | $2$ | $y_2$ | $3.5$ | $-1.5$ | $1$ | $0$ | $-0.5$ | $0.5$ |

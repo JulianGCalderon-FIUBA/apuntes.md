@@ -260,14 +260,14 @@ Para hallar el nuevo vértice, un vector debe salir de la base, y otro debe entr
 Para determinar que vector sale de la base, debemos calcular el coeficiente $\theta$ para cada vector de la base. Siendo $j$ el vector entrante a la base, se calculará como $\theta_i = B_i/A_{ij}$, para todas las filas de la tabla con coeficiente positivo:
 
 - Si el coeficiente es negativo, entonces la variable saliente aumentara, por lo que nunca se podrá llegar a cero (no podremos sacar a esta variable).
-- Si el coeficiente es cero, nuevamente no podremos sacar la variable ya que esto indicaria que son independientes ambas variables (al aumentar una, la otra permanece constante).
+- Si el coeficiente es cero, nuevamente no podremos sacar la variable, ya que esto indicaría que son independientes ambas variables (al aumentar una, la otra permanece constante).
 - Si el coeficiente es positivo, entonces el valor indica cuanto debo utilizar de la variable entrante para reducir la variable saliente a cero.
 
-Tendremos que elegir el menor de los tres cocientes (se toman los casos invalidos como infinito), ya que elegir uno mayor causará que las variables que tenían cocientes menores tomen valores negativos.
+Tendremos que elegir el menor de los tres cocientes (se toman los casos inválidos como infinito), ya que elegir uno mayor causará que las variables que tenían cocientes menores tomen valores negativos.
 
-> [!example]- Calculo de $\theta$
+> [!example]- Cálculo de $\theta$
 > 
-> Para este ejemplo, se ingresara el vector $A_1$
+> Para este ejemplo, se ingresará el vector $A_1$
 > 
 > | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ | $\theta$ |
 > | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -276,9 +276,9 @@ Tendremos que elegir el menor de los tres cocientes (se toman los casos invalido
 > | $0$ | $x_5$ | $801$ | $2$ | $4$ | $0$ | $0$ | $1$ | $400.5$ |
 > | | | $Z = 0$ | $-8$ | $-10$ | $0$ | $0$ | $0$ | |
 
-### ¿Como construimos la siguiente tabla?
+### ¿Cómo construimos la siguiente tabla?
 
-Inicialmente, planteamos la tabla con los valores ya conocidos. Los coeficientes y las variables a tomar valor. Ademas, las columnas de las variables de la base deben tener la base canónica. El vector entrante deberá ser reemplazado por el vector saliente.
+Inicialmente, planteamos la tabla con los valores ya conocidos. Los coeficientes y las variables a tomar valor. Además, las columnas de las variables de la base deben tener la base canónica. El vector entrante deberá ser reemplazado por el vector saliente.
 
 > [!example]- Planteo Inicial
 > Quitamos la variable $x_3$ y entramos la variable $x_1$:
@@ -294,7 +294,7 @@ En definitivamente, estaremos realizando un cambio de base para que los vectores
 Para calcular el resto de valores, utilizamos la técnica del pivote. Se llama pivote de una tabla al elemento que está en la intersección de la columna de la variable que entra y la fila de la variable que sale. El pivote lo tomaremos de la tabla anterior.
 
 1. Dividimos todos los elementos de la fila de la variable que ingresa por el valor del pivote
-2. Para cada valor restante, se forma un cuadrilátero con las esquinas en el pivote y el valor anterior de la posición que queremos calcular. El nuevo valor se calculara como, la resta entre el valor anterior de la posición que queremos calcular, y el producto de las diagonales del rectángulo dividido por el pivote.
+2. Para cada valor restante, se forma un cuadrilátero con las esquinas en el pivote y el valor anterior de la posición que queremos calcular. El nuevo valor se calculará como, la resta entre el valor anterior de la posición que queremos calcular, y el producto de las diagonales del rectángulo dividido por el pivote.
 
 $$
 \text{Valor Nuevo} = \text{Valor Anterior} - \frac{\text{Producto de las Diagonales}}{\text{Pivote}}
@@ -314,9 +314,9 @@ $$
 > 
 > Teniendo la tabla anterior, resaltamos los elementos:
 > 
-> - ***Rojo: Valor Pivote**
-> - ***Verde: Valor Anterior**
-> - ***Azul: Diagonales**
+> - ***Rojo:*** Valor Pivote
+> - ***Verde:*** Valor Anterior
+> - ***Azul:*** Diagonales
 > 
 > | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
 > | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -343,11 +343,11 @@ $$
 
 ### Finalización
 
-Esta secuencia de pasos se repite hasta que lleguemos a una solución optima.
+Esta secuencia de pasos se repite hasta que lleguemos a una solución óptima.
 
 > [!example]- Tabla Final
 > 
-> Podemos observar que no hay valores negativos en la ultima fila, por lo que nos encontramos ante un punto optimo
+> Podemos observar que no hay valores negativos en la última fila, por lo que nos encontramos ante un punto óptimo
 > 
 > | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
 > | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -374,7 +374,7 @@ $$
 x_1 - x_2 = 2
 $$
 
-Para resolverlo por el método simplex, agregamos una nueva variable
+Para resolverlo por el método Símplex, agregamos una nueva variable
 
 $$
 x_1 -x_2 + \mu_1 = 2
@@ -392,7 +392,7 @@ La razón por la que debemos agregar la variable ficticia $\mu_1$ es para permit
 
 ### Restricciones de Igualdad
 
-Tambien debemos agregar variables ficticias para que el funcional la haga valer cero
+También debemos agregar variables ficticias para que el funcional la haga valer cero
 
 $$
 x_1 = 0
@@ -412,13 +412,13 @@ De la misma forma que antes, permitimos utilizar el vértice inicial como punto 
 
 ## Casos Particulares
 
-### Soluciones Alternativas Optimas
+### Soluciones Alternativas Óptimas
 
 Cuando el $z_j - c_j = 0$, para una variable que no se encuentra en la base, entonces estaremos ante una solución alternativa. Si cambiamos la variable, veremos que en la siguiente tabla, tendremos una variable (la que acabamos de sacar de la base) con $z_j - c_j = 0$.
 
 ### Punto Degenerado
 
-Tendremos un punto donde habrá dos $\theta$ mínimos, uno de los valores de las variables ingresadas sera cero. En este caso, la próxima tabla sera la de un punto degenerado. Una vez en la nueva tabla, se puede observar que en la base, hay una variable con valor cero.
+Tendremos un punto donde habrá dos $\theta$ mínimos, uno de los valores de las variables ingresadas será cero. En este caso, la próxima tabla será la de un punto degenerado. Una vez en la nueva tabla, se puede observar que en la base, hay una variable con valor cero.
 
 El coeficiente $\theta$ de la variable con valor cero no deberá ser calculado si el coeficiente para el vector que voy a entrar próximamente es negativo (estaría realizando un paso hacia atrás algorítmicamente). En otro caso, si lo debo calcular y tendrá un valor de cero.
 
@@ -426,8 +426,8 @@ En un punto degenerado, dos tablas diferentes muestran el mismo vértice. Hay ca
 
 ### Poliedro Abierto
 
-Ocurre cuando una variable quiere entrar a la base, pero ninguna puede salir (no habrá ningún $\theta$ valido). Hay soluciones, pero ninguna es la optima.
+Ocurre cuando una variable quiere entrar a la base, pero ninguna puede salir (no habrá ningún $\theta$ válido). Hay soluciones, pero ninguna es la óptima.
 
 ### Problema Incompatible
 
-Ocurre cuando se halla una solución optima, pero una variable artificial $\mu$ se encuentra en la base. Esto indica que la supuesta solución optima es en realidad, incompatible.
+Ocurre cuando se halla una solución óptima, pero una variable artificial $\mu$ se encuentra en la base. Esto indica que la supuesta solución óptima es, en realidad, incompatible.
