@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md",
+                "file": "Modelos y Optimización I/Heurísticas para el Problema de la Mochila.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md"
+                "file": "Modelos y Optimización I/Heurísticas para el Problema de la Mochila.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md",
+                "file": "Modelos y Optimización I/Heurísticas para el Problema de la Mochila.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md",
+                "file": "Modelos y Optimización I/Heurísticas para el Problema de la Mochila.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,6 +161,7 @@
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
     "Modelos y Optimización I/Modelos y Optimización I.md",
+    "Modelos y Optimización I/Heurísticas para Coloreo de Grafos.md",
     "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md",
     "Modelos y Optimización I/Heurísticas.md",
     "Modelos y Optimización I/Resolución de P.L.E..md",
@@ -185,7 +186,6 @@
     "Matemática Discreta/Grafos Particulares.md",
     "To-Do.md",
     "Matemática Discreta/Subconjuntos de Vértices y Aristas.md",
-    "Matemática Discreta/Relaciones.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
