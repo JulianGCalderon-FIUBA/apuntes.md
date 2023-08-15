@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física II/Capacitores.md",
+                "file": "Física II/Corriente Alterna.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física II/Capacitores.md"
+                "file": "Física II/Corriente Alterna.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física II/Capacitores.md",
+                "file": "Física II/Corriente Alterna.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física II/Capacitores.md",
+                "file": "Física II/Corriente Alterna.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,11 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Física II/Conductores.md",
+    "Física II/Corriente Alterna.md",
+    "Física II/Circuitos en Resonancia.md",
+    "Física II/Circuito Eléctrico.md",
+    "Física II/Capacitores.md",
     "Física II/Campo Magnético.md",
     "Física II/Campo Eléctrico.md",
     "To-Do.md",
@@ -193,11 +198,6 @@
     "Física I/Física I.md",
     "Física I/Energía en Ondas.md",
     "Física I/Energía CR.md",
-    "Física I/Dispositivos Ópticos.md",
-    "Física I/Dinámica CR.md",
-    "Física I/Dinámica.md",
-    "Física I/Difracción.md",
-    "Física I/Cinemática CR.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

@@ -4,7 +4,7 @@ $$
 v_q(t) = v_0 \cdot \cos(wt + \phi_v)
 $$
 
-Siendo $v_0$ la amplitud *(o valor pico),* $w$ la frecuencia angular *(o pulsación)*, y $\phi_v$ la fase inicial de la corriente.
+Siendo $v_0$ la amplitud (o valor pico), $w$ la frecuencia angular (o pulsación), y $\phi_v$ la fase inicial de la corriente.
 
 ## Circuito Resistivo Puro
 

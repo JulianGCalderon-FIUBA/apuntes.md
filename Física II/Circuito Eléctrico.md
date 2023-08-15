@@ -77,7 +77,7 @@ $$
 
 Las pilas tienen una corriente y un voltaje, por lo que entregan (o absorben) potencia, dependiendo del sentido de la corriente.
 
-Las resistencias, por el otro lado, siempre tienen potencia negativa. Debido a esto, las resistencias siempre *disipan potencia*, pierden energía en forma de calor.
+Las resistencias, por el otro lado, siempre tienen potencia negativa. Debido a esto, las resistencias siempre disipan potencia, pierden energía en forma de calor.
 
 $$
 P = \frac{\Delta V^2}{R} = I^2 R
