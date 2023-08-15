@@ -1,18 +1,19 @@
 ## Chi-Cuadrado $\chi^2$
 
-la variable aleatiroa $X$ tiene distribucion $\chi^2$ de $\nu$ grados de libertar si su densidad esta dada por
+la variable aleatoria $X$ tiene distribución $\chi^2$ de $\nu$ grados de libertar si su densidad está dada por
 
 $$
 f_X(x) = \frac{1}{\Gamma(\nu / 2)} \Big(\frac{1}{2}\Big)^{\nu/2} x^{\nu/2 - 1} e^{-x/2} \cdot \mathbb I\{x > 0\}
 $$
 
-Se puede observar que conicide con la distribucion $\Gamma(\nu/2, 1/2)$. De ahi, decducimos facilmente su esperanza y su varianza
+Se puede observar que coincide con la distribución $\Gamma(\nu/2, 1/2)$. De ahí, deducimos fácilmente su esperanza y su varianza
 
-Sea $Z$ un normal estandar, entonces la variable aleatoria $X = Z^2 \sim \chi^2_1$
+Sea $Z$ un normal estándar, entonces la variable aleatoria $X = Z^2 \sim \chi^2_1$
 
-La suma de variables independientes de distribucion $\chi^2$ de $\nu_i$ grados de libertad nos da una nueva variable aleatoria $\chi^2$ de $\sum \nu_i$ grados de libertad. (al igual que con una Gamma)
+La suma de variables independientes de distribución $\chi^2$ de $\nu_i$ grados de libertad nos da una nueva variable aleatoria $\chi^2$ de $\sum \nu_i$ grados de libertad. (al igual que con una Gamma)
 
-**Corolario:** Se llama distribución $\chi^2$ con $\nu$ grados de libertad a la distribucion $U = \sum_{i=1}^\nu Z_i^2$, donde $Z_i, \cdots, Z_n \sim \mathscr N(0,1)$
+> [!tip] Corolario
+> Se llama distribución $\chi^2$ con $\nu$ grados de libertad a la distribución $U = \sum_{i=1}^\nu Z_i^2$, donde $Z_i, \cdots, Z_n \sim \mathscr N(0,1)$
 
 ## T de Student
 
@@ -22,11 +23,11 @@ $$
 \frac{Z}{\sqrt{U /N}} = T \sim t_n
 $$
 
-A medida que aumentan los grados de liberta, la funcion tiende a una normal estandar.
+A medida que aumentan los grados de liberta, la función tiende a una normal estándar.
 
 ## F de Fisher-Snedecor
 
-Sean $U,V$ dons variables aleatorias independientes con distribución $\chi^2$ de $\nu_1, \nu_2$ grados de livertad respectivamente, entonces
+Sean $U,V$ dos variables aleatorias independientes con distribución $\chi^2$ de $\nu_1, \nu_2$ grados de libertad respectivamente, entonces
 
 $$
 F = \frac{U/\nu_1}{V/\nu_2} \sim \mathscr F_{\nu_1, \nu_2}

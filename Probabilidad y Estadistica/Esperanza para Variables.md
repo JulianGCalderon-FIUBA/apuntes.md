@@ -28,6 +28,8 @@ $$
 E(h(X)) = \int_{-\infty}^{\infty} h(x) \cdot f_X(x)
 $$
 
+> [!tip] La esperanza es lineal
+
 **Propiedad: La esperanza de** $X$ "**es lineal"**
 
 Sea $X$ una V.A. con esperanza $\mu$, si $h(X) = aX + b$, entonces $E(h(X)) = a\mu + b$

@@ -20,15 +20,16 @@ Si llamamos $\varphi(x) = E[Y | X = x]$ a la esperanza de la variable condiciona
 
 Vamos a definir una variable aleatoria llamada esperanza condicional de $Y$ dado $X$, denotada por$E[Y | X]$, como $\varphi(X) = E[Y | X]$
 
-**Propiedad útil:** La esperanza de la variable $\varphi$ definida anteriormente es la esperanza de $Y$
-
-$$
-E[E[Y|X]] = E[Y]
-$$
+> [!tip] Propiedad Útil
+> La esperanza de la variable $\varphi$ definida anteriormente es la esperanza de $Y$
+> 
+> $$
+> E[E[Y|X]] = E[Y]
+> $$
 
 ### Propiedades
 
-1. Sean $X$ e $Y$ variables aleatorias, $r$ y $s$ funciones medibles tales que las variables aleatorias $r(x)s(y)$, $r(x)$, $s(y)$ tienen esperanza finita, entonces
+1. Sean $X$ e $Y$ variables aleatorias, $r$ y $s$ funciones medibles, tales que las variables aleatorias $r(x)s(y)$, $r(x)$, $s(y)$ tienen esperanza finita, entonces
 
 	$$
     E[r(X)s(Y) | X] = r(X)E[S(Y) |X]
@@ -62,7 +63,7 @@ De esta forma, la esperanza condicional de $Y$ dada $X$ es el mejor predictor de
 
 ## Esperanza de la Mezcla
 
-Sea $X$ una variable aleatoria "mezcla", y $M$ una variable aleatoria "mezcaldora. Entonces definimos la esperanza de $X$ como
+Sea $X$ una variable aleatoria "mezcla", y $M$ una variable aleatoria mezcladora. Entonces definimos la esperanza de $X$ como
 
 $$
 E[X] = \sum E[X |M = i] P_M(i)

@@ -1,6 +1,6 @@
 ## Uniforme
 
-Una variable aleatoria tiene función de densidad uniforme si todo punto tiene la misma probabilidad, su densidad esta dada por:
+Una variable aleatoria tiene función de densidad uniforme, si todo punto tiene la misma probabilidad, su densidad está dada por:
 
 $$
 \displaystyle{f_X(x) = \begin{cases}\frac{1}{b-a} &\iff x \in [a, b] \\
@@ -49,17 +49,17 @@ $$
 
 ## Gamma
 
-Se dice que una V.A $X$ tiene distribución Gamma de parámetros $\lambda$ y $k$, si su función de densidad es
+Se dice que una V.A. $X$ tiene distribución Gamma de parámetros $\lambda$ y $k$, si su función de densidad es
 
 $$
 f_X(x) = \frac{\lambda^k}{\varGamma(k)} x^{k-1} e^{-\lambda x} \cdot \mathfrak{1}\{x > 0\}
 $$
 
-Para obtener la función $\varGamma$, debo usar la tabla de resumen de la catedra.
+Para obtener la función $\varGamma$, debo usar la tabla de resumen de la cátedra.
 
 ## Normal
 
-Se dice que una V.A $X$ que toma valores $-\infty < x < \infty$ tiene una distribución normal estándar si su función de densidad es de la forma
+Se dice que una V.A. $X$ que toma valores $-\infty < x < \infty$ tiene una distribución normal estándar si su función de densidad es de la forma
 
 $$
 f_x(x) = \frac{1}{\sqrt{2\pi}} e^{-x^2/2}
