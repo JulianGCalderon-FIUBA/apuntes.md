@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do.md",
+                "file": "Probabilidad y Estadistica/Estadísticos.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Do.md"
+                "file": "Probabilidad y Estadistica/Estadísticos.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do.md",
+                "file": "Probabilidad y Estadistica/Estadísticos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Do.md",
+                "file": "Probabilidad y Estadistica/Estadísticos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,32 +172,32 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Probabilidad y Estadistica/Esperanza para Vectores.md",
+    "Probabilidad y Estadistica/Esperanza para Variables.md",
+    "Probabilidad y Estadistica/Esperanza Condicional.md",
+    "Probabilidad y Estadistica/Distribuciones Importantes.md",
+    "Probabilidad y Estadistica/Distribuciones Continuas.md",
+    "Probabilidad y Estadistica/Distribución Normal.md",
+    "Análisis Numérico/Búsqueda de Raíces.md",
+    "Física II/Campo Magnético.md",
+    "To-Do.md",
     "Álgebra II/Transformaciones Lineales.md",
     "Álgebra II/Subespacios.md",
     "Álgebra II/Sistemas de E.D. Homogéneas.md",
     "Álgebra II/Producto Interno.md",
     "Álgebra II/Matrices Normales.md",
     "Álgebra II/Descomposición en Valores Singulares.md",
-    "To-Do.md",
     "Matemática Discreta/Alfabeto.md",
     "Análisis Matemático II/Derivadas.md",
     "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
     "Matemática Discreta/Álgebra de Conjuntos.md",
     "Probabilidad y Estadistica/Estimadores.md",
-    "Probabilidad y Estadistica/Distribuciones Importantes.md",
     "Probabilidad y Estadistica/Vectores Aleatorios.md",
     "Probabilidad y Estadistica/Varianza Condicional.md",
     "Probabilidad y Estadistica/Variables Aleatorias Condicionadas.md",
     "Probabilidad y Estadistica/Variables Aleatorias.md",
     "Probabilidad y Estadistica/Test de Hipótesis.md",
     "Probabilidad y Estadistica/Teoremas Útiles.md",
-    "Probabilidad y Estadistica/Teorema Central del Límite.md",
-    "Probabilidad y Estadistica/Técnicas de Conteo.md",
-    "Probabilidad y Estadistica/Simulación.md",
-    "Probabilidad y Estadistica/Propiedades del P.P..md",
-    "Probabilidad y Estadistica/Propiedades de Variables Aleatorias.md",
-    "Probabilidad y Estadistica/Propiedades de V.A..md",
-    "Probabilidad y Estadistica/Propiedades de la Esperanza.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
