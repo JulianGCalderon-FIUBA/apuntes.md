@@ -7,7 +7,7 @@ Un tipo de dato define dos cosas importantes:
 
 Los lenguajes de programación tienen tipos de datos **primitivos**, los cuales son predefinidos por el lenguaje de programación.
 
-![[TDA 1.png|475]]
+![[TDA 1.png|525]]
 
 ## Abstracción
 
@@ -17,7 +17,7 @@ Separamos lo que nos **importa**, y nos olvidamos de lo **innecesario**
 
 ![[TDA 2.png|450]]
 
-Demostración de Picasso, del concepto de abstracción.
+En la imagen se ve una demostración de Picasso del concepto de abstracción.
 
 ## Tipo de Dato Abstracto
 
@@ -27,8 +27,8 @@ Un tipo de dato abstracto *(TDA),* es una clase de objetos abstractos, los cuale
 
 Las visiones de caja negra y caja blanca hacen una gran diferencia:
 
-- El **Qué:** Este se refiere a la funcionalidad del TDA, relacionado con ¿Qué hace esto? **CAJA NEGRA**
-- El **Cómo:** Este se refiere a como se implemente el TDA, relacionado con ¿Cómo hace esto? **CAJA BLANCA**
+- El **Qué:** Este se refiere a la funcionalidad del TDA, relacionado con ¿Qué hace esto? No le interesa como se implementa, por lo que se denomina **caja negra**.
+- El **Cómo:** Este se refiere a como se implemente el TDA, relacionado con ¿Cómo hace esto? De forma análoga, se denomina **caja blanca**.
 
 En el estudio e implementación de los TDA es fundamental poder separar correctamente el **qué** y el **cómo**.
 

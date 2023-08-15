@@ -15,7 +15,7 @@ El algoritmo de recursividad directa es aquel que se llama a sí mismo, directam
 
 ### Ámbito
 
-El ámbito de una función es la región de memoria del *stack* a la que él puede acceder. Dentro del ámbito de una función se almacenan:
+El ámbito de una función es la región de memoria del stack a la que él puede acceder. Dentro del ámbito de una función se almacenan:
 
 - Los argumentos que son pasados a la función
 - Las variables declaradas en la función

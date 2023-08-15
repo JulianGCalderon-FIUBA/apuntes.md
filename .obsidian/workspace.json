@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmos II/Pilas, Colas y Listas.md",
+                "file": "Algoritmos II/TDA.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmos II/Pilas, Colas y Listas.md"
+                "file": "Algoritmos II/TDA.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmos II/Pilas, Colas y Listas.md",
+                "file": "Algoritmos II/TDA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmos II/Pilas, Colas y Listas.md",
+                "file": "Algoritmos II/TDA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,7 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Algoritmos II/Recursividad.md",
     "Algoritmos II/Punteros.md",
     "Algoritmos II/Pilas, Colas y Listas.md",
     "Algoritmos II/Memoria.md",
@@ -197,7 +198,6 @@
     "Álgebra II/Subespacios de Matriz.md",
     "Álgebra II/Subespacios.md",
     "Álgebra II/Sistemas de E.D. Homogéneas.md",
-    "Álgebra II/Álgebra II.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

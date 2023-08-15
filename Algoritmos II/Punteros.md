@@ -14,7 +14,7 @@ Al declarar un puntero, es útil inicializarlo con el valor `NULL` para asegurar
 
 ## Múltiples Punteros
 
-Es posible crear punteros que apunten a otros punteros, como es el caso de un vector de `strings`. Los elementos de este puntero doble apuntan al primer elemento de cada *`string`*
+Es posible crear punteros que apunten a otros punteros, como es el caso de un vector de `strings`. Los elementos de este puntero doble apuntan al primer elemento de cada `string`
 
 ```c
 char strings[10][10];
@@ -54,7 +54,7 @@ Los punteros a funciones son útiles cuando tengo dos funciones con mucho códig
 
 Es útil, por ejemplo, para ordenar vectores, puedo tener la lógica de ordenar vector en una función y pasarle como parámetro una función que se ocupe de comparar los elementos.
 
-## Puntero Comodín `void*`
+## Puntero Comodín: `void*`
 
 En C, existe un tipo de puntero denominado **puntero comodín**, este puede apuntar a cualquier tipo de dato, ya que no está asociado a ninguno. El puntero comodín no puede ser desreferenciado, para acceder a su valor se debe *castear* a otro tipo de puntero.
 
