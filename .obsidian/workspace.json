@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelos y Optimización I/Planteo Dual.md",
+                "file": "Modelos y Optimización I/Análisis de Sensibilidad.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modelos y Optimización I/Planteo Dual.md"
+                "file": "Modelos y Optimización I/Análisis de Sensibilidad.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelos y Optimización I/Planteo Dual.md",
+                "file": "Modelos y Optimización I/Análisis de Sensibilidad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modelos y Optimización I/Planteo Dual.md",
+                "file": "Modelos y Optimización I/Análisis de Sensibilidad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,6 +161,7 @@
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
     "Modelos y Optimización I/Modelos y Optimización I.md",
+    "Modelos y Optimización I/Planteo Dual.md",
     "Modelos y Optimización I/Método Símplex.md",
     "Modelos y Optimización I/Coloreo de Grafos.md",
     "Modelos y Optimización I/Problemas Combinatorios.md",
@@ -185,7 +186,6 @@
     "Matemática Discreta/Nociones Básicas de Grafos.md",
     "Matemática Discreta/Grafos Orientados.md",
     "Matemática Discreta/Espectro de un Grafo.md",
-    "Matemática Discreta/Isomorfismos.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

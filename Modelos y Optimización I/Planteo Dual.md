@@ -49,7 +49,7 @@ La dimensión del vector $Y$ será la cantidad de restricciones del problema ori
 > \end{alignat*}
 > $$
 
-Podremos asignar las variables del dual, de modo los primeros elementos de $Y$ corresponderán a las variables *slack*, mientras que lo siguientes elementos corresponderán a las variables reales.
+Podremos asignar las variables del dual, de modo los primeros elementos de $Y$ corresponderán a las variables slack, mientras que los siguientes elementos corresponderán a las variables reales.
 
 > [!example]- Asignación
 > 
@@ -70,20 +70,20 @@ Podremos asignar las variables del dual, de modo los primeros elementos de $Y$ c
 - El dual tiene una variable real por cada restricción del problema primal
 - El dual tiene tantas restricciones como variables reales tiene el primar
 - El dual de un problema de maximización es un problema de minimización y viceversa
-- Los coeficientes del funcional del primal son los términos independientes de las restricciones del dual. Si en el problema original de maximización (minimización), se trataba de un restricción de mayor o igual (menor o igual), el signo se invierte. Esto se debe a que para el planteo, todas las restricciones deben ser de mismo tipo.
+- Los coeficientes del funcional del primal son los términos independientes de las restricciones del dual. Si en el problema original de maximización (minimización), se trataba de una restricción de mayor o igual (menor o igual), el signo se invierte. Esto se debe a que para el planteo, todas las restricciones deben ser del mismo tipo.
 - Toda columna de coeficientes en el primal se transforma en una fila de coeficientes en el dual
 - El sentido de las desigualdades del primal es el inverso del dual
-- Si el planteo primal tiene multiples soluciones alternativas, entonces en el planteo dual tendremos un punto degenerado (pero un único punto)
+- Si el planteo primal tiene múltiples soluciones alternativas, entonces en el planteo dual tendremos un punto degenerado (pero un único punto)
 
 ### Teorema Fundamental de la Dualidad
 
 Si el problema primal (o el dual) tiene una solución óptima finita, entonces el otro problema tiene una solución óptima finita y los valores de los dos funcionales son iguales
 
-Si cualquiera de los dos problemas tiene una solución optima no acotada, entonces el otro problema no tiene soluciones posibles.
+Si cualquiera de los dos problemas tiene una solución óptima no acotada, entonces el otro problema no tiene soluciones posibles.
 
 ### Teorema de la Holgura Complementaria
 
-Dados el problema primal y el dual correspondiente, siempre que en la $k$-ésima restricción de uno de ellos la variable *slack* tome valor distinto de cero, entonces la $k$-ésima variable del otro problema desaparece de la base.
+Dados el problema primal y el dual correspondiente, siempre que en la $k$-ésima restricción de uno de ellos la variable slack tome valor distinto de cero, entonces la $k$-ésima variable del otro problema desaparece de la base.
 
 Si la $k$-ésima variable de uno de los dos problemas es mayor que cero, en la $k$-ésima restricción del otro problema se verifica la igualdad (la *slack* es nula)
 
@@ -91,7 +91,7 @@ Si la $k$-ésima variable de uno de los dos problemas es mayor que cero, en la $
 
 Podremos reconstruir la tabla del dual a partir de la tabla del primal:
 
-> [!example]- Tabla Optima del Primal
+> [!example]- Tabla Óptima del Primal
 > Partimos de la tabla óptima del primal:
 > 
 > | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
@@ -101,7 +101,7 @@ Podremos reconstruir la tabla del dual a partir de la tabla del primal:
 > | $3$ | $x_2$ | $1.5$ | $0$ | $1$ | $0$ | $-0.5$ | $0.5$ |
 > | | | $39.5$ | $0$ | $0$ | $0$ | $3.5$ | $6.5$ |
 
-1. El valor de las variables del problema dual sera el $z_j - c_j$ de su variable relacionada al directo, el reciproco es valido también. El signo es determinado según el contexto, para el valor de las variables deberá ser siempre positivo, mientras que para el desmejoro dependerá del sentido del funcional.
+1. El valor de las variables del problema dual será el $z_j - c_j$ de su variable relacionada con el directo, el recíproco es válido también. El signo es determinado según el contexto, para el valor de las variables deberá ser siempre positivo, mientras que para el desmejoro dependerá del sentido del funcional.
 
 	> [!example]- Valor de las variables
 	> Calculamos el valor de las variables del dual:
@@ -112,7 +112,7 @@ Podremos reconstruir la tabla del dual a partir de la tabla del primal:
 	> | $5$ | $y_3$ | $6.5$ | | | | | |
 	> | | | $39.5$ | $-7.5$ | $0$ | $0$ | $-3.5$ | $-1.5$ |
 
-2. Las vectores asociados a las variables de la base deben contener los vectores canónicos, debido a que nos encontramos en una tabla *simplex.*
+2. Los vectores asociados a las variables de la base deben contener los vectores canónicos, debido a que nos encontramos en una tabla símplex.
 
 	> [!example]- Vectores canónicos
 	> Colocamos los vectores canónicos:
@@ -123,7 +123,7 @@ Podremos reconstruir la tabla del dual a partir de la tabla del primal:
 	> | $5$ | $y_3$ | $6.5$ | | $0$ | $1$ | | |
 	> | | | $39.5$ | $-7.5$ | $0$ | $0$ | $-3.5$ | $-1.5$ |
 
-3. El resto de los valores los tomaremos transponiendo las columnas de la primal e invirtiendo sus signos. Sea $A$ la matriz de la tabla del primal y $A'$ la matriz de la tabla del dual, entonces $A_{ij} = -A'_{lk}$, donde $X_i \sim Y_k, X_j \sim X_l$. Nótese que los indices se invierten, ya que los valores de la base de una tabla no estarán en la tabla del otro (transposición).
+3. El resto de los valores los tomaremos transponiendo las columnas de la primal e invirtiendo sus signos. Sea $A$ la matriz de la tabla del primal y $A'$ la matriz de la tabla del dual, entonces $A_{ij} = -A'_{lk}$, donde $X_i \sim Y_k, X_j \sim X_l$. Nótese que los índices se invierten, ya que los valores de la base de una tabla no estarán en la tabla del otro (transposición).
 
 	> [!example]- Valores restantes
 	> Finalmente, agregamos los valores restantes:

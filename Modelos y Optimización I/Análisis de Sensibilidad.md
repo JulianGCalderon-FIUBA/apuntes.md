@@ -42,12 +42,12 @@ Si en lugar de analizar los coeficientes del funcional, queremos analizar el ran
 
 Debido a que los términos independientes del planteo primal serán los coeficientes del planteo dual, podremos realizar un análisis de curva de oferta para el planteo dual.
 
-El rango de variación del coeficiente $c_j$ del problema dual, sera el rango de variación del termino independiente $b_i$ asociado en el problema primal. Recordemos que el termino independiente de la restricción $j$ del problema primal sera el coeficiente $c_j$ del problema dual.
+El rango de variación del coeficiente $c_j$ del problema dual, será el rango de variación del término independiente $b_i$ asociado en el problema primal. Recordemos que el término independiente de la restricción $j$ del problema primal será el coeficiente $c_j$ del problema dual.
 
 > [!example]- Rango de Variación
 > 
 > 
-> Partiremos de una tabla optima para un problema dado
+> Partiremos de una tabla óptima para un problema dado
 > 
 > | | | | $2$ | $2$ | $5$ | $0$ | $0$ |
 > | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -73,7 +73,7 @@ El rango de variación del coeficiente $c_j$ del problema dual, sera el rango de
 > 
 > $$ 0.5c_2 - 2.5 \leq 0 \implies c_2 \leq 5 $$
 > 
-> Luego, el rango de variación de $c_2$ sera de:
+> Luego, el rango de variación de $c_2$ será de:
 > 
 > $$ -3 \leq c_2 \leq 5$$
 > 
@@ -108,40 +108,40 @@ El rango de variación del coeficiente $c_j$ del problema dual, sera el rango de
 
 ### Curva de Oferta
 
-La curva de oferta es una grafica que muestra, a los distintos valores que puede tomar el coeficiente $c_j$ de ese producto, que cantidad de producto $x_j$ conviene fabricar.
+La curva de oferta es una gráfica que muestra, a los distintos valores que puede tomar el coeficiente $c_j$ de ese producto, qué cantidad de producto $x_j$ conviene fabricar.
 
-La forma de esta grafica será una función escalonada no decreciente (en caso de un problema de maximización). Dentro de cada rango de variación, los valores que tomarán las variables serán constantes (soluciones estructuralmente equivalentes). por lo que para cada rango, tendremos un valor fijo de $x_j$.
+La forma de esta gráfica será una función escalonada no decreciente (en caso de un problema de maximización). Dentro de cada rango de variación, los valores que tomarán las variables serán constantes (soluciones estructuralmente equivalentes). Por lo que para cada rango, tendremos un valor fijo de $x_j$.
 
 Para calcular la curva de oferta para un coeficiente $c_k$ y una variable $x_k$:
 
-1. Hallamos el rango de variación del coeficiente $c_k$ en la solución optima y el valor asociado $x_k$
+1. Hallamos el rango de variación del coeficiente $c_k$ en la solución óptima y el valor asociado $x_k$
 2. Proponemos un nuevo $c_k$ para cada valor en los extremos del rango y calculamos la tabla en la solución alternativa.
 3. Repetimos el algoritmo hasta hallar todos los rangos faltantes (debemos ocupar el rango completo de los números reales)
 4. Graficamos la curva de oferta a partir de cada rango y el valor del $x_k$ asociado.
 
-Notemos que al modificar los coeficientes, no modificamos el poliedro de soluciones factibles, sino la dirección del funcional (esto puede ocasionar que el punto optimo se mueva). Debido a esto, las cantidades máximas de producto serán constantes en cada intervalo (solo modificamos que punto será el optimo, pero no su posición)
+Notemos que al modificar los coeficientes, no modificamos el poliedro de soluciones factibles, sino la dirección del funcional (esto puede ocasionar que el punto óptimo se mueva). Debido a esto, las cantidades máximas de producto serán constantes en cada intervalo (solo modificamos que punto será el óptimo, pero no su posición)
 
-### Gráfico de VM
+### Gráfico de Valor Marginal
 
-De la misma forma que se realiza la curva de oferta, podríamos graficar a los distintos valores que puede tomar el termino independiente $b_j$ de una restricción, el valor marginal de la variable $x_j$. En caso de un problema de maximización, esta será una función escalonada no creciente. Esto se debe a que a mayor cantidad tenga de un recurso, menor sera el valor marginal del mismo.
+De la misma forma que se realiza la curva de oferta, podríamos graficar a los distintos valores que puede tomar el término independiente $b_j$ de una restricción, el valor marginal de la variable $x_j$. En caso de un problema de maximización, esta será una función escalonada no creciente. Esto se debe a que a mayor cantidad tenga de un recurso, menor será el valor marginal del mismo.
 
-Para calcular la curva, el procedimiento será el mismo pero desde la tabla optima del planteo dual. Recordemos que el termino independiente $b_j$ del problema primal, sera el coeficiente $c_j$ del problema dual, y que el $z_j - c_j$ del problema primal, sera el $y_j$ de su variable asociada en el problema dual.
+Para calcular la curva, el procedimiento será el mismo, pero desde la tabla óptima del planteo dual. Recordemos que el término independiente $b_j$ del problema primal, será el coeficiente $c_j$ del problema dual, y que el $z_j - c_j$ del problema primal, será el $y_j$ de su variable asociada en el problema dual.
 
-Notemos que al modificar los términos independientes, estamos modificando el poliedro de solucione factibles. Particularmente, estamos desplazando las restricciones de forma paralela. Debido a esto cambiara la posición de los puntos óptimos, por lo que su valor variará linealmente en el rango, lo que ocasionará que el costo de oportunidad de cada producto sea constante.
+Notemos que al modificar los términos independientes, estamos modificando el poliedro de soluciones factibles. Particularmente, estamos desplazando las restricciones de forma paralela. Debido a esto cambiará la posición de los puntos óptimos, por lo que su valor variará linealmente en el rango, lo que ocasionará que el costo de oportunidad de cada producto sea constante.
 
-En los saltos de valor marginal, se encuentran soluciones alternativas. Ambos valores marginales son validos. Si obtenemos recurso, nos quedaremos con el valor marginal inferior. Si entregamos recurso, nos quedaremos con el valor marginal superior.
+En los saltos de valor marginal, se encuentran soluciones alternativas. Ambos valores marginales son válidos. Si obtenemos recurso, nos quedaremos con el valor marginal inferior. Si entregamos recurso, nos quedaremos con el valor marginal superior.
 
-### Variación Simultanea de Dos Recursos
+### Variación Simultánea de Dos Recursos
 
 Los rangos de variación no servirán, ya que estos planteaban una sola variable y el resto de valores permanecían constantes.
 
-Tenemos la posibilidad de aumentar el termino independiente de una restricción, reduciendo el termino independiente de otra.
+Tenemos la posibilidad de aumentar el término independiente de una restricción, reduciendo el término independiente de otra.
 
 Para resolverlo, debemos (a partir de la relación entre los cambios de ambos términos) plantear genéricamente ambos términos, pero a partir de una sola variable.
 
 > [!example]- Rango de Variación
 > 
-> Sea $b_1$ el termino independiente original de la primera restricción, y $b_2$ el termino independiente original de la segunda restricción.
+> Sea $b_1$ el término independiente original de la primera restricción, y $b_2$ el término independiente original de la segunda restricción.
 > 
 > Luego, se nos ofrece intercambiar productos de $b_1$ a razón $\beta$ productos de $b_2$. Es decir, por cada unidad de $b_1$ que obtengamos, perderemos $\beta$ unidades de $b_2$.
 > 
