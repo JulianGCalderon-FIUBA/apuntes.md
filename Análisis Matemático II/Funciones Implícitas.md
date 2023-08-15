@@ -1,6 +1,6 @@
 ## Derivación de funciones escritas implícitamente
 
-**Función escrita Implícitamente:** No hay una variable despejada
+**Función escrita Implícitamente:** Expresión donde no hay una variable despejada.
 
 ### Teorema de la función implícita
 
@@ -20,13 +20,13 @@ $$
 
 ### Generalización para $m$ ecuaciones con $n$ variables
 
-Suponemos que $n>m$, donde se cumplen las condiciones:
+Si se cumplen las condiciones (para $n > m$)
 
-- $F_1, F_2, \cdots, F_m$ son funciones simultáneamente $C^1$ en un entorno del punto
-- $F_1(\vec x_0) = F_2(\vec x_0) = \cdots = F_m(\vec x_0) = 0$
-- $\displaystyle\Delta\bigg(\frac{\partial(f_1, f_2, \cdots, f_m)}{\partial(x_1, x_2, \cdots, x_m)}\bigg)\neq 0$: Determinante jacobiano de las funciones con respecto a las variables dependientes.
+- Las funciones $F_1, F_2, \cdots, F_m$ son simultáneamente $C^1$ en un entorno del punto
+- Para todas las funciones se cumple $F_i(\vec x_0) = 0$
+- Determinante jacobiano de las funciones con respecto a las variables dependientes es distinto de cero: $\displaystyle\Delta\bigg(\frac{\partial(f_1, f_2, \cdots, f_m)}{\partial(x_1, x_2, \cdots, x_m)}\bigg)\neq 0$:
 
-Si se cumplen estas condiciones, las $m$ variables se pueden definir como funciones de $(n-m)$ variables
+Entonces las $m$ variables se pueden definir como funciones de $(n-m)$ variables
 
 $$
 \begin{align*}
