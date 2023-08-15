@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática Discreta/Nociones Básicas de Grafos.md",
+                "file": "Matemática Discreta/Isomorfismos.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática Discreta/Nociones Básicas de Grafos.md"
+                "file": "Matemática Discreta/Isomorfismos.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática Discreta/Nociones Básicas de Grafos.md",
+                "file": "Matemática Discreta/Isomorfismos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática Discreta/Nociones Básicas de Grafos.md",
+                "file": "Matemática Discreta/Isomorfismos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,9 +170,12 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Matemática Discreta/Inducción.md",
+    "Matemática Discreta/Isomorfismos.md",
     "Matemática Discreta/Grafos Particulares.md",
+    "Matemática Discreta/Nociones Básicas de Grafos.md",
     "Matemática Discreta/Grafos Particulares 1.md",
     "Matemática Discreta/Grafos Orientados.md",
     "Matemática Discreta/Ecuaciones de Recurrencia.md",
@@ -195,9 +198,6 @@
     "Probabilidad y Estadistica/Hipótesis Estadística.md",
     "Probabilidad y Estadistica/Eventos Independientes.md",
     "Probabilidad y Estadistica/Estimadores.md",
-    "Probabilidad y Estadistica/Estimación Bayesiana.md",
-    "Probabilidad y Estadistica/Estadísticos.md",
-    "Probabilidad y Estadistica/Esperanza para Vectores.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

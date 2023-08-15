@@ -1,19 +1,25 @@
-> [!note]
-> $A$**, Principio del buen orden:** Todo subconjunto no vacío de $\mathbb{N}$ tiene un primer elemento
+## Principios de Inducción
 
-> [!note]
-> $B$**, Principio de inducción:** Sea $p(n)$ una proposición tal que para cada $n \in \mathbb{N}$ verifica:
-> 
-> - $\exists n_0 \in \mathbb{N}: p(n_0) \text{ es verdadera}$
-> - $n \geq n_0: p(n) \to p(n + 1) \text{ es verdadera}$
-> 
-> Entonces $p(n)$ es verdadera $\forall n \geq n_0$
+El principio de inducción parte de dos principios:
 
 Los principios no se pueden probar, por eso se llaman principios. Si tomamos uno como un axioma, entonces el otro se transforma en un teorema.
 
+### Principio del Buen Orden: $A$
+
+Todo subconjunto no vacío de $\mathbb{N}$ tiene un primer elemento
+
+### Principio de inducción: $B$
+
+Sea $p(n)$ una proposición tal que para cada $n \in \mathbb{N}$ verifica:
+
+- $\exists n_0 \in \mathbb{N}: p(n_0) \text{ es verdadera}$
+- $n \geq n_0: p(n) \to p(n + 1) \text{ es verdadera}$
+
+Entonces $p(n)$ es verdadera $\forall n \geq n_0$
+
 ## Prueba de $A \to B$
 
-Supongamos que $B$ falsa, entonces es falso que $p(n) \text{ es verdadera},\ \forall n\geq n_0$. Luego $\exists n \geq n_0: p(n) \text{es falsa}$.
+Supongamos que $B$ falsa, entonces es falso que $p(n) \text{ es verdadera},\ \forall n\geq n_0$. Luego $\exists n \geq n_0: p(n) \text{ es falsa}$.
 
 Definimos $F = \{n \in \mathbb{N}: p(n) \text{ es falsa}\} \neq \emptyset$, como suponemos $B$ falsa, entonces este conjunto no es vacío.
 
