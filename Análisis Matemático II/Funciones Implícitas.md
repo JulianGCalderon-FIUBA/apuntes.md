@@ -4,7 +4,7 @@
 
 ### Teorema de la función implícita
 
-Sea $f(x,y,z)$ una función diferenciable en un entorno del punto $(x_0, y_0, z_0)$ donde $F(x_0, y_0, z_0) = 0$ **(\*)***. Entonces, si $f'_z(x_0, y_0, z_0) \neq 0$, la expresión* **(*)** define $z=f(x,y)$ en un entorno de $(x_0, y_0)$. (Pero no se puede despejar)
+Sea $f(x,y,z)$ una función diferenciable en un entorno del punto $(x_0, y_0, z_0)$ donde $F(x_0, y_0, z_0) = 0$ **(\*)**. Entonces, si $f'_z(x_0, y_0, z_0) \neq 0$, la expresión **(\*)** define $z=f(x,y)$ en un entorno de $(x_0, y_0)$. (Pero no se puede despejar)
 
 Además, $f$ es diferenciable en $(x_0, y_0)$ y
 
