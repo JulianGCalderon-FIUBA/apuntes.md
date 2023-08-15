@@ -103,6 +103,7 @@
     "poset",
     "anticlique",
     "Anticlique",
-    "matching"
+    "matching",
+    "slack"
   ]
 }

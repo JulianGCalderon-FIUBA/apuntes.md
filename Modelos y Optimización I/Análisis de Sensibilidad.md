@@ -2,7 +2,7 @@
 
 ### Recursos Sobrantes y Saturados
 
-Cuando un recurso no tiene sobrante entonces se dice que este recurso es un recurso saturado. En otro caso, diremos que es un recurso sobrante.
+Cuando un recurso no tiene sobrante, entonces se dice que este recurso es un recurso saturado. En otro caso, diremos que es un recurso sobrante.
 
 Cuando aumentamos la disponibilidad de un recurso sobrante, podemos esperar que aumente el funcional, pero esto no ocurrirá siempre.
 
@@ -11,26 +11,26 @@ Cuando aumentamos la disponibilidad de un recurso sobrante, podemos esperar que 
 Los valores de $z_j - c_j$ tienen un significado
 
 - Si la columna le pertenece a real del problema, entonces diremos que el valor representa el costo de oportunidad del producto (CO).
-- Si la columna le pertenece a una variable slack, diremos que el representa el valor marginal del recurso (VM).
+- Si la columna le pertenece a una variable slack, diremos que él representa el valor marginal del recurso (VM).
 
 ### Costo de Oportunidad
 
-El costo de oportunidad es distinto de cero cuando la variable correspondiente al producto no esta en la base (porque vale cero)
+El costo de oportunidad es distinto de cero cuando la variable correspondiente al producto no está en la base (porque vale cero)
 
-El costo de oportunidad de un producto indica en va a desmejorar el funcional si tenemos la obligación de fabricar una unidad de ese producto.
+El costo de oportunidad de un producto índica cuanto va a desmejorar el funcional si tenemos la obligación de fabricar una unidad de ese producto.
 
-En el software *LINDO*, visualizaremos estos valores bajo la columna *reduced cost.*
+En el software LINDO, visualizaremos estos valores bajo la columna *reduced cost.*
 
 ### Valor Marginal
 
-El valor marginal es distinto de cero cuando la variable *slack* de la restricción no está en la base (porque vale cero)
+El valor marginal es distinto de cero cuando la variable slack de la restricción no está en la base (porque vale cero)
 
 El valor marginal indica cuanto va a mejorar el funcional si esa restricción se afloja en una unidad
 
 - Si la restricción es de menor o igual, aflojar la restricción implica aumentar el término independiente
-- Si la restricción es de mayor o igual, aflojar la restricción implica disminuir el termino independiente
+- Si la restricción es de mayor o igual, aflojar la restricción implica disminuir el término independiente
 
-En el software *LINDO*, visualizaremos estos valores bajo la columna *dual cost*.
+En el software LINDO, visualizaremos estos valores bajo la columna *dual cost.*
 
 ## Análisis de Sensibilidad
 

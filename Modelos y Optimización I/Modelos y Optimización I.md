@@ -6,7 +6,7 @@
 - [[Problema del Viajante]]
 - [[Problemas Combinatorios]]
 - [[Coloreo de Grafos]]
-- [[Método Simplex]]
+- [[Método Símplex]]
 - [[Planteo Dual]]
 - [[Análisis de Sensibilidad]]
 - [[Modificaciones al Planteo]]

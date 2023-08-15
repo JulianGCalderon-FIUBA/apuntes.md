@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Indice.md",
+                "file": "Modelos y Optimización I/Introducción.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Indice.md"
+                "file": "Modelos y Optimización I/Introducción.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Indice.md",
+                "file": "Modelos y Optimización I/Introducción.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Indice.md",
+                "file": "Modelos y Optimización I/Introducción.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,13 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Modelos y Optimización I/Modelos y Optimización I.md",
+    "Matemática Discreta/Alfabeto.md",
+    "Modelos y Optimización I/Análisis de Sensibilidad.md",
+    "Modelos y Optimización I/Método Símplex.md",
+    "Matemática Discreta/Grafos Particulares.md",
     "To-Do.md",
+    "Indice.md",
     "Matemática Discreta/Subconjuntos de Vértices y Aristas.md",
     "Matemática Discreta/Relaciones.md",
     "Matemática Discreta/Operaciones entre Grafos.md",
@@ -182,7 +188,6 @@
     "Matemática Discreta/Matemática Discreta.md",
     "Matemática Discreta/Isomorfismos.md",
     "Matemática Discreta/Inducción.md",
-    "Matemática Discreta/Grafos Particulares.md",
     "Matemática Discreta/Grafos Particulares 1.md",
     "Matemática Discreta/Ecuaciones de Recurrencia.md",
     "Matemática Discreta/Clasificaciones.md",
@@ -190,14 +195,9 @@
     "Matemática Discreta/Algoritmos.md",
     "Matemática Discreta/Álgebra de Conjuntos.md",
     "Matemática Discreta/Álgebra de Boole.md",
-    "Matemática Discreta/Alfabeto.md",
     "Untitled.md",
     "Untitled 1.md",
     "Probabilidad y Estadistica/Probabilidad Condicional.md",
-    "Probabilidad y Estadistica/Probabilidad.md",
-    "Probabilidad y Estadistica/Modelos Paramétricos.md",
-    "Probabilidad y Estadistica/Mezcla de Variables Aleatorias.md",
-    "Probabilidad y Estadistica/Intervalos de Confianza.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
