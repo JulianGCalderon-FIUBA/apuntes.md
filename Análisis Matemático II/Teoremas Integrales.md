@@ -45,7 +45,7 @@ Relacionan entre sí, integrales.
 
 - $\text{Gauss}$: Relaciona Flujo con una integral triple
 - $\text{Stokes}$: Relaciona Circulación con un flujo
-- $\text{Green}$: Relaciona Circulación con una integral doble **(Stokes en 2D)**
+- $\text{Green}$: Relaciona Circulación con una integral doble (Stokes en 2D)
 
 ## Teorema de Gauss
 
@@ -74,7 +74,7 @@ Sí se cumple que
 - $C,\,\text{Borde orientado respecto de la normal de S (mano derecha)}$
 
 > [!note]
-> Una superficie orientable si tiene dos caras. Un ejemplo de una superficie no orientable es la **Banda de Möbius**
+> Una superficie orientable si tiene dos caras. Un ejemplo de una superficie no orientable es la Banda de Möbius
 
 Entonces podemos aplicar el **teorema de Stokes.**
 
@@ -86,7 +86,7 @@ Este teorema permite calcular la circulación de curvas cerradas, con más facil
 
 ## Teorema de Green
 
-Sea $\vec f:D\subset \mathbb{R}^2\to\mathbb{R}^2$, y $C$ una curva cerrada plana, suave o suave a trozos, orientada en sentido contrario a las agujas del reloj (positivo), perteneciente a $D$. Entonces podemos aplicar el **teorema de Green**.
+Sea $\vec f:D\subset \mathbb{R}^2\to\mathbb{R}^2$, y $C$ una curva cerrada, plana, suave o suave a trozos, orientada en sentido contrario a las agujas del reloj (positivo), perteneciente a $D$. Entonces podemos aplicar el **teorema de Green**.
 
 El teorema de Green se utiliza para calcular la circulación en entornos de dos dimensiones. Aplicando lo mismo, pero usando una superficie que sea totalmente parte del plano. La normal en este caso sería perpendicular al plano
 
@@ -100,7 +100,7 @@ $$
 \end{gathered}
 $$
 
----
+A partir del teorema de Stokes, llegamos al teorema de Green
 
 $$
 \oint\limits_{C^+} \vec f\cdot d\vec s = \iint\limits_S \nabla\times \vec F\cdot d\vec\sigma
