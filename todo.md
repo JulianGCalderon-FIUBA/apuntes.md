@@ -1,15 +1,16 @@
 - [x] Álgebra II
 - [x] Algoritmos I
 - [x] Algoritmos II
-- [ ] Análisis de la Información
-- [ ] Análisis Matemático II
-- [ ] Análisis Numérico
-- [ ] Estructura del Computador
 - [ ] Física I
 - [ ] Física II
-- [ ] Introducción a Sistemas Distribuidos
+- [ ] Análisis Matemático II
+- [ ] Probabilidad y Estadistica
 - [ ] Matemática Discreta
 - [ ] Modelos y Optimización I
+- [ ] Análisis Numérico
+- [ ] Estructura del Computador
 - [ ] Organización de Datos
-- [ ] Probabilidad y Estadistica
+- [ ] Análisis de la Información
 - [ ] Sistemas Operativos
+- [ ] Introducción a Sistemas Distribuidos
+
