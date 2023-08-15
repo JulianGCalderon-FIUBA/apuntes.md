@@ -50,21 +50,21 @@ Los libros son bipartitos, ya que las estrellas lo son, y los vértices de cada 
 
 ## $p\text{-Cube}$
 
-Grafo con $2^p$ vértices. Los vértices se etiquetan con una cadena binaria de $p$ dígitos, con una arista si la *distancia hamming* es 1. Alternativamente, puede pensarse con el producto cartesiano de $p$ veces $K_2$
-
-La distancia *hamming* entre dos cadenas indica la cantidad de *bits* distintos
+Grafo con $2^p$ vértices. Los vértices se etiquetan con una cadena binaria de $p$ dígitos, con una arista si la distancia hamming[^1] es 1. Alternativamente, puede pensarse con el producto cartesiano de $p$ veces $K_2$
 
 ![[Grafos Particulares 10.png|500]]
 
+[^1]: La distancia *hamming* entre dos cadenas indica la cantidad de bits distintos
+
 ## $W_d(p,q)$
 
-Se define como un molino de $q$ aspas de longitud $p-1$, puede formarse con el ensamble $W_d(p,q) = N_1 * qK_{p-1}$
+Se define como un molino de $q$ aspas de longitud $p-1$, puede formarse con el ensamble $W_d(p,q) = N_1  qK_{p-1}$
 
 ![[Grafos Particulares 11.png|325]]
 
 ## $F(p,q)$
 
-El abanico se define por $F(p,q) = N_p * P_q$
+El abanico se define por $F(p,q) = N_p  P_q$
 
 ![[Grafos Particulares 12.png|500]]
 
@@ -92,16 +92,17 @@ Es el grafo simple obtenido de conectar dos copias de $k_p$ con un puente
 
 El tamaño del path en los últimos cuatro grafos es referido según su longitud, y no la cantidad de sus nodos
 
-## $K(p,q):$ **Grafo de Kneser**.
-Dado un* $p$-conjunto $H$ fijo, se define el grafo simple $G = K(p,q)$ siendo $V(G)$ = $\mathcal{P}_q(H)$ (los $q$-subconjuntos de $H$) con $uv \in E(G)$ *sii* $uv = \emptyset$. Es decir, dos vertices son adyacentes *sii* los correspondientes conjuntos son disjuntos. Genéricamente, definimos $K(p,q,s)$ donde $uv \in E(G)$ *sii* $|uv| \leq s$, y entonces particularmente $K(p,q) = K(p,q,0)$.
+## $K(p,q):$ Grafo de Kneser
 
-El miembro ilustre de la familia $K(5,2)$ es isomorfo al grafo de *Petersen.*
+Dado un $p$-conjunto $H$ fijo, se define el grafo simple $G = K(p,q)$ siendo $V(G)$ = $\mathcal{P}_q(H)$ (los $q$-subconjuntos de $H$) con $uv \in E(G)$ si y solo si $uv = \emptyset$. Es decir, dos vértices son adyacentes si y solo si los correspondientes conjuntos son disjuntos. Genéricamente, definimos $K(p,q,s)$ donde $uv \in E(G)$ si y solo si $|uv| \leq s$, y entonces particularmente $K(p,q) = K(p,q,0)$.
+
+El miembro ilustre de la familia $K(5,2)$ es isomorfo al grafo de Petersen.
 
 ![[Grafos Particulares 15.png|400]]
 
 Denotamos $ij$ al vector asociado al conjunto ${i, j}$
 
-Genéricamente, podemos hallar el tamaño del grafo de *Kneser* a partir de la cantidad de formas posibles de tomar $q$ elementos de un conjunto de $p$ elementos, es decir,
+Genéricamente, podemos hallar el tamaño del grafo de Kneser a partir de la cantidad de formas posibles de tomar $q$ elementos de un conjunto de $p$ elementos, es decir,
 
 el número combinatorio
 
@@ -109,21 +110,23 @@ $$
 n(K(p,q)) = \binom{p}{q}
 $$
 
-Para las aristas, cada vértice sera adyacente a aquellos nodos con los cuales no comparta elementos, luego esto es el numero combinatorio $\binom{p-q}{q}$, Como cada arista se contara dos veces, dividimos el numero en dos. Tendremos entonces
+Para las aristas, cada vértice será adyacente a aquellos nodos con los cuales no comparta elementos, luego esto es el número combinatorio $\binom{p-q}{q}$, Como cada arista se contara dos veces, dividimos el número en dos. Tendremos entonces
 
 $$
 m(K(p,q)) = \frac 12 \binom pq \binom {p-q}q
 $$
 
-Si $q > p$, entonces el grafo sera vacío, que es un grafo en si mismo. La función del grafo vacío se denomina función nula.
+Si $q > p$, entonces el grafo será vacío, que es un grafo en sí mismo. La función del grafo vacío se denomina función nula.
 
-Por otro lado, si $p - q < q$, entonces el grafo no tendrá aristas..
+Por otro lado, si $p - q < q$, entonces el grafo no tendrá aristas.
 
-## $J(p,q):$ **Grafo de Johnson.** Dado un $p$-conjunto $H$ fijo, se define el grafo simple $G = J(p,q)$ con $q \geq 1$, donde $V(G) = \mathcal P_q(H)$ y $uv \in E(G)$ *sii* $|uv| = q-1$. Es decir, dos vertices son adyacentes *sii* la intersección de los conjuntos asociados es de cardinalidad $q-1$. Algunas relaciones particulares son $J(p, 1) \cong J(p, p-1) \cong K_p$. El grafo de *Johnson* generalizo se define como $J(p,q,r)$ donde dos vertices son adyacentes si $|uv| = r$.
+## $J(p,q):$ Grafo de Johnson
+
+Dado un $p$-conjunto $H$ fijo, se define el grafo simple $G = J(p,q)$ con $q \geq 1$, donde $V(G) = \mathcal P_q(H)$ y $uv \in E(G)$ si y solo si $|uv| = q-1$. Es decir, dos vértices son adyacentes si y solo si la intersección de los conjuntos asociados es de cardinalidad $q-1$. Algunas relaciones particulares son $J(p, 1) \cong J(p, p-1) \cong K_p$. El grafo de Johnson generalizo se define como $J(p,q,r)$ donde dos vértices son adyacentes si $|uv| = r$.
 
 ![[Grafos Particulares 16.png|425]]
 
-Al igual que con el grafo de *Kneser*, calcularemos el tamaño del grafo a partir del numero combinatorio $\binom pq$.
+Al igual que con el grafo de Kneser, calcularemos el tamaño del grafo a partir del número combinatorio $\binom pq$.
 
 Para calcular el grado de cada nodo, sabemos que por cada elemento del conjunto asociado, podremos conectarnos con los nodos cuyo conjunto asociado difieran en únicamente ese elemento. Como difieren en únicamente ese elemento, este no debe pertenecer al propio nodo, luego $d(v) = q(p-q)$. El cardinal del grafo entonces será:
 
