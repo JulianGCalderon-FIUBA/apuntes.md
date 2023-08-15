@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilidad y Estadistica/Proceso Bernoulli.md",
+                "file": "Probabilidad y Estadistica/Propiedades de V.A..md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilidad y Estadistica/Proceso Bernoulli.md"
+                "file": "Probabilidad y Estadistica/Propiedades de V.A..md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilidad y Estadistica/Proceso Bernoulli.md",
+                "file": "Probabilidad y Estadistica/Propiedades de V.A..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilidad y Estadistica/Proceso Bernoulli.md",
+                "file": "Probabilidad y Estadistica/Propiedades de V.A..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,9 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Probabilidad y Estadistica/Propiedades de la Esperanza.md",
+    "Probabilidad y Estadistica/Proceso de Poisson.md",
+    "Probabilidad y Estadistica/Proceso Bernoulli.md",
     "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
     "Probabilidad y Estadistica/Probabilidad Condicional.md",
     "Probabilidad y Estadistica/Probabilidad.md",
@@ -195,9 +198,6 @@
     "To-Do.md",
     "Análisis Matemático II/Topología.md",
     "Análisis Matemático II/Funciones Implícitas.md",
-    "Análisis Matemático II/Integrales de Línea.md",
-    "Análisis Matemático II/Integrales de Superficie.md",
-    "Análisis Matemático II/Integrales Dobles.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

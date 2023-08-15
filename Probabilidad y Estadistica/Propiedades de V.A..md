@@ -1,6 +1,6 @@
 ## Función de Variable Aleatoria
 
-Sea $Y = g(X)$ una función de variable aleatorio, siendo $X$ una **V.A.D,** $Y$ sera discreta, con
+Sea $Y = g(X)$ una función de variable aleatorio, siendo $X$ una **V.A.D,** $Y$ será discreta, con
 
 $$
 \begin{align}
@@ -9,7 +9,7 @@ p_Y(y) = P(Y = y) = \sum_{x \in B} p_X(x) \\
 \end{align}
 $$
 
-Si mi variable aleatorio no es discreta, entonces generalizamos:
+Si mi variable aleatoria no es discreta, entonces generalizamos:
 
 $$
 F_Y(y) = P(Y \leq y) = P(g(X) \leq y)

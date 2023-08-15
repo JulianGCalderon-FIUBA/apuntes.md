@@ -28,7 +28,7 @@ $$
 
 ## Desigualdades
 
-**Desigualdad de Markov:**
+### Desigualdad de Markov
 
 Sea $h: \mathbb{R} \to \mathbb{R}^+$ tal que $h$ es par, y restringida a $\mathbb{R}^+$ es creciente, y sea $X$ una V.A. tal que $E(h(x))$ existe, entonces $\forall t \in \mathbb{R}$
 
@@ -42,7 +42,7 @@ $$
 P(X \geq a) \leq \frac{E(x)}{a}
 $$
 
-**Desigualdad de Tchevychev:**
+### Desigualdad de Tchevychev
 
 Sea $X$ una V.A. con varianza finita, $\forall k > 0$
 
@@ -51,4 +51,4 @@ P(|X - E(X)| \geq k) \leq \frac{\text{Var}(X)}{k^2}
 $$
 
 > [!note]
-> esta es la desigualdad de Markov si $Y = X - E(X)$ y $h(t) = t^2$
+> Esta es la desigualdad de Markov si $Y = X - E(X)$ y $h(t) = t^2$
