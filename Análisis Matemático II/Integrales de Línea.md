@@ -53,7 +53,7 @@ $$
 I_x = \sum m_i \cdot x_i^2
 $$
 
-Con integrales:
+Con integrales, entonces:
 
 $$
 \boxed{I_x = \int_a^b \delta\big(\gamma(t)\big)\cdot\gamma_x^2(t)\cdot\|\gamma'(t)\|\cdot dt}
@@ -83,7 +83,7 @@ $$
 $$
 
 > [!note]
-> La integral no depende de la parametrización elegida, pero si del sentido.
+> La integral no depende de la parametrización elegida, pero sí del sentido.
 
 > [!note]
 > En general, el trabajo entre $P$ y $Q$ depende de la trayectoria, a menos que se trate de campos conservativos. Para los cuales la integral es independiente de la trayectoria.

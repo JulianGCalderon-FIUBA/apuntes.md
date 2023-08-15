@@ -22,7 +22,7 @@ $$
 ![[Integrales Dobles 1.png|475]]
 
 > [!note]
-> Para regiones mas complejas, se puede pensar la integral como la suma de distintas regiones simples, con limites variables conocidos.
+> Para regiones más complejas, se puede pensar la integral como la suma de distintas regiones simples, con límites variables conocidos.
 
 ## Cambio de variable
 
