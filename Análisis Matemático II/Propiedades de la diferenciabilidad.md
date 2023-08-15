@@ -1,7 +1,7 @@
 
-- **Una suma de funciones $C^1$ es $C^1$**
-- **Un producto de función $C^1$ es $C^1$**
-- **Un cociente de funciones $C^1$ es $C^1$,** (con denominador no nulo)
+- Una suma de funciones $C^1$ es $C^1$
+- Un producto de función $C^1$ es $C^1$
+- Un cociente de funciones $C^1$ es $C^1$, (con denominador no nulo)
 
 ## Regla de la Cadena
 
@@ -13,7 +13,7 @@ $$
 D_{\vec h}(\vec x_0) = D_{\vec g}(\vec f(\vec x_0))\times D_{\vec f}(\vec x_0)
 $$
 
-$D_{\vec f}:$ Matriz Jacobiana de $\vec f$
+Donde $D_{\vec f}$ es la matriz Jacobiana de $\vec f$
 
 ## Árbol de derivación
 

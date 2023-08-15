@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Métodos de resolución.md",
+                "file": "Análisis Matemático II/Rectas y Planos.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Métodos de resolución.md"
+                "file": "Análisis Matemático II/Rectas y Planos.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Métodos de resolución.md",
+                "file": "Análisis Matemático II/Rectas y Planos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Métodos de resolución.md",
+                "file": "Análisis Matemático II/Rectas y Planos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,9 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Análisis Matemático II/Propiedades de la diferenciabilidad.md",
+    "Análisis Matemático II/Polinomio de Taylor.md",
+    "Análisis Matemático II/Métodos de resolución.md",
     "Análisis Matemático II/Límites.md",
     "Análisis Matemático II/Integrales Triples.md",
     "Análisis Matemático II/Integrales Dobles.md",
@@ -195,9 +198,6 @@
     "Análisis Matemático II/Cónicas.md",
     "To-Do.md",
     "Física II/Trabajo de Campos.md",
-    "Física II/Referencia del Potencial.md",
-    "Física II/Potencia Activa y Reactiva.md",
-    "Física II/Materiales Magnéticos.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
