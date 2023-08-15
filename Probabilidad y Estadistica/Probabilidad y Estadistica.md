@@ -65,3 +65,38 @@
 ## Capitulo 12
 
 - [[Estimacion Bayesiana]]
+
+## Capítulo 1
+
+- Probabilidad
+- Técnicas de Conteo
+- Probabilidad Condicional
+- Eventos Independientes
+- Simulación
+- Variables Aleatorias
+- Vectores Aleatorios
+- Propiedades de V A
+- Distribuciones Continuas
+- Esperanza para Variables
+- Esperanza para Vectores
+- Propiedades de la Esperanza
+- Propiedades de Variables Aleatorias
+- Variables Aleatorias Condicionadas
+- Mezcla de Variables Aleatorias
+- Esperanza Condicional
+- Varianza Condicional
+- Proceso Bernoulli
+- Proceso de Poisson
+- Propiedades del PP
+- Distribucion Normal
+- Teoremas Utiles
+- Teorema Central del Límite
+- Inferencia Estadistica
+- Modelos Parametricos
+- Estadisticos
+- Estimadores
+- Distribuciones Importantes
+- Hipotesis Estadistica
+- Test de Hipotesis
+- Intervalos de Confianza
+- Estimacion Bayesiana

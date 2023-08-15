@@ -37,13 +37,13 @@ $$
 \text{Cov}(X,Y) = E[(X-E(X)(Y-E(Y))]
 $$
 
-Como es una multiplicación, el significado del resultado lo voy a encontrar en su signo, no en su magnitud. Si tenemos una dependencia lineal creciente, entonces la covarianza resultara positiva. En caso contrario, la covarianza resultara negativa.
+Como es una multiplicación, el significado del resultado lo voy a encontrar en su signo, no en su magnitud. Si tenemos una dependencia lineal creciente, entonces la covarianza resultara positiva. En caso contrario, la covarianza resultará negativa.
 
-**Propiedades:**
+### Propiedades
 
 1. $\text{Cov}(X,Y) = E(XY) - E(X)E(Y)$
 2. Si $X,Y$ son independientes, entonces $\text{Cov}(X,Y) = 0$
-3. **Propiedad de Colinealidad:** $\text{Cov}(a + bX, c + dY) = bd \cdot \text{Cov}(X,Y)$
+3. **Colinealidad:** $\text{Cov}(a + bX, c + dY) = bd \cdot \text{Cov}(X,Y)$
 4. $\text{Cov}(X + Y, Z) = \text{Cov}(X,Z) + \text{Cov}(Y,Z)$
 5. $\text{Var}(X+Y) = \text{Var}(X) + \text{Var}(Y) + 2\text{Cov}(X,Y)$
 
