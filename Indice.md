@@ -18,7 +18,7 @@
 
 ## 2.º 2022
 
-- [[Organizacion de Datos]]
+- [[Organización de Datos]]
 - [[Sistemas Operativos]]
 
 ## 1.º 2023

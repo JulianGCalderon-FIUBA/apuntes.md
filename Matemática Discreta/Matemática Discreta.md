@@ -1,4 +1,4 @@
-## Algebra de Conjuntos
+## Álgebra de Conjuntos
 
 - [[Álgebra de Conjuntos]]
 - [[Matemática Discreta/Álgebra de Boole]]
@@ -17,7 +17,7 @@
 - [[Caminos y Distancias]]
 - [[Isomorfismos]]
 - [[Operaciones entre Grafos]]
-- [[Subconjuntos de Vertices y Aristas]]
+- [[Subconjuntos de Vértices y Aristas]]
 - [[Clasificaciones]]
 - [[Grafos Orientados]]
 - [[Algoritmos]]

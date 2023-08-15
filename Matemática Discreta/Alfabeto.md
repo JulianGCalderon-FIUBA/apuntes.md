@@ -42,7 +42,7 @@ Se designa $M=(\Sigma, Q, q_0, \Upsilon, F)$ el **autómata finito determinísti
 - $\Upsilon: Q\times \Sigma \to Q$ es la función de transición
 - $F \subset Q$ es el conjunto de aceptación
 
-Podremos representar la función de transición a partir de una tabla, o a partir de un grafo dirigido. El estado inicial suele indicarse con una flecha $\stackrel{\text{in}}{\to}$ y en rojo. Los estados que pertenecen al conjunto de aceptación se muestran en un doble circulo y en verde
+Podremos representar la función de transición a partir de una tabla, o a partir de un grafo dirigido. El estado inicial suele indicarse con una flecha $\stackrel{\text{in}}{\to}$ y en rojo. Los estados que pertenecen al conjunto de aceptación se muestran en un doble círculo y en verde
 
 Se puede crear una función de transición generalizada que toma cualquier palabra:
 
@@ -50,17 +50,16 @@ $$
 \Upsilon^*: Q \times E^* \to Q
 $$
 
-Definimos $L(M)$ como el elnguaje reconocido por el automata
+Definimos $L(M)$ como el lenguaje reconocido por él automata
 
 $$
 L(M) \stackrel{\text{def}}{=} \Big\{ x \in \Sigma^*: \Upsilon(q_0, x) \in F\Big\}
 $$
 
-> [!note]
-> Siempre existe un DFA para un lenguaje regular, y los DFA solo dan lenguajes regulares
+Siempre existe un DFA para un lenguaje regular, y los DFA solo dan lenguajes regulares
 
 > [!note]
-> Existen infinitos autómatas para un mismo lenguaje, pero solo hay uno minino (con menor cantidad de estados)
+> Existen infinitos autómatas para un mismo lenguaje, pero solo uno es mínino (con menor cantidad de estados)
 
 ### Minimización de Autómatas
 

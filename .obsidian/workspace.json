@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilidad y Estadistica/Estadísticos.md",
+                "file": "Matemática Discreta/Álgebra de Boole.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilidad y Estadistica/Estadísticos.md"
+                "file": "Matemática Discreta/Álgebra de Boole.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilidad y Estadistica/Estadísticos.md",
+                "file": "Matemática Discreta/Álgebra de Boole.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilidad y Estadistica/Estadísticos.md",
+                "file": "Matemática Discreta/Álgebra de Boole.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,20 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Matemática Discreta/Alfabeto.md",
+    "Matemática Discreta/Matemática Discreta.md",
+    "To-Do.md",
+    "Probabilidad y Estadistica/Probabilidad Condicional.md",
+    "Probabilidad y Estadistica/Probabilidad.md",
+    "Probabilidad y Estadistica/Modelos Paramétricos.md",
+    "Probabilidad y Estadistica/Mezcla de Variables Aleatorias.md",
+    "Probabilidad y Estadistica/Intervalos de Confianza.md",
+    "Probabilidad y Estadistica/Inferencia Estadística.md",
+    "Probabilidad y Estadistica/Hipótesis Estadística.md",
+    "Probabilidad y Estadistica/Eventos Independientes.md",
+    "Probabilidad y Estadistica/Estimadores.md",
+    "Probabilidad y Estadistica/Estimación Bayesiana.md",
+    "Probabilidad y Estadistica/Estadísticos.md",
     "Probabilidad y Estadistica/Esperanza para Vectores.md",
     "Probabilidad y Estadistica/Esperanza para Variables.md",
     "Probabilidad y Estadistica/Esperanza Condicional.md",
@@ -180,24 +194,10 @@
     "Probabilidad y Estadistica/Distribución Normal.md",
     "Análisis Numérico/Búsqueda de Raíces.md",
     "Física II/Campo Magnético.md",
-    "To-Do.md",
     "Álgebra II/Transformaciones Lineales.md",
     "Álgebra II/Subespacios.md",
     "Álgebra II/Sistemas de E.D. Homogéneas.md",
     "Álgebra II/Producto Interno.md",
-    "Álgebra II/Matrices Normales.md",
-    "Álgebra II/Descomposición en Valores Singulares.md",
-    "Matemática Discreta/Alfabeto.md",
-    "Análisis Matemático II/Derivadas.md",
-    "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
-    "Matemática Discreta/Álgebra de Conjuntos.md",
-    "Probabilidad y Estadistica/Estimadores.md",
-    "Probabilidad y Estadistica/Vectores Aleatorios.md",
-    "Probabilidad y Estadistica/Varianza Condicional.md",
-    "Probabilidad y Estadistica/Variables Aleatorias Condicionadas.md",
-    "Probabilidad y Estadistica/Variables Aleatorias.md",
-    "Probabilidad y Estadistica/Test de Hipótesis.md",
-    "Probabilidad y Estadistica/Teoremas Útiles.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
