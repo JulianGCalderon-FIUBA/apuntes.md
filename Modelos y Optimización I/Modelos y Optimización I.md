@@ -10,7 +10,7 @@
 - [[Planteo Dual]]
 - [[Análisis de Sensibilidad]]
 - [[Modificaciones al Planteo]]
-- [[Resolución de PLE]]
+- [[Resolución de P.L.E.]]
 - [[Heurísticas]]
 - [[Heurísticas para el Problema del Viajante]]
 - [[Heurísticas para Coloreo de Grafos]]
