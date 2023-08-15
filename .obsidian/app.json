@@ -64,6 +64,8 @@
     "Circuital",
     "cosenoidal",
     "torque",
-    "diferenciabilidad"
+    "diferenciabilidad",
+    "EDO",
+    "TDA"
   ]
 }

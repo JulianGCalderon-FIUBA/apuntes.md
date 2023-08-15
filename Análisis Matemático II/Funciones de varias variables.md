@@ -1,18 +1,18 @@
 ## Tipos de funciones
 
-- *Campo escalar:* es una función que asigna un número real $z$ a cada vector $(x_1, x_2,..., x_n)$
+- **Campo escalar:** es una función que asigna un número real $z$ a cada vector $(x_1, x_2,..., x_n)$
 
 	$$
     f(x_1, x_2, \dotsm,x_n) = z
     $$
 
-- *Campo vectorial:* es una función que asigna, de manera unívoca, un vector $(y_1, y_2, \dotsm, y_m)$ a cada punto $(x_1, x_2,..., x_n)$
+- **Campo vectorial:** es una función que asigna, de manera unívoca, un vector $(y_1, y_2, \dotsm, y_m)$ a cada punto $(x_1, x_2,..., x_n)$
 
 	$$
 	f(x_1, x_2, \dotsm, x_n) = (y_1, y_2, \dotsm, y_m)
 	$$
 
-- *Función vectorial:* es una función que asigna un vector $(y_1, y_2, \dotsm, y_m)$ a cada número real $t$
+- **Función vectorial:** es una función que asigna un vector $(y_1, y_2, \dotsm, y_m)$ a cada número real $t$
 
 	$$
 	f(t) = (y_1, y_2, \dotsm, y_m)
@@ -31,13 +31,13 @@ Para $n≥3$, no hay representación gráfica posible
 
 ### Conjuntos de nivel
 
-Para cada valor real $k \in Im(f)$, se denomina *conjunto de nivel* $k$ de un campo escalar $f$ con dominio $D \subset\mathbb{R}^n$ al siguiente subconjunto del dominio de $f$
+Para cada valor real $k \in Im(f)$, se denomina **conjunto de nivel** $k$ de un campo escalar $f$ con dominio $D \subset\mathbb{R}^n$ al siguiente subconjunto del dominio de $f$
 
 $$
 L_k = \big\lbrace(x_1, x_2, \dotsm, x_n) \in D / f(x_1, x_2, \dotsm, x_n) = k\big\rbrace
 $$
 
-Para *campos escalares* de dos variables, los conjuntos de nivel son, en general, curvas en el plano.
+Para **campos escalares** de dos variables, los conjuntos de nivel son, en general, curvas en el plano.
 
 $$
 L_k = \big\lbrace(x,y) \in D/f(x,y) = k\big\rbrace
@@ -47,7 +47,7 @@ $$
 
 ## Representación de campos vectoriales
 
-Para *campos vectoriales* de $R^2$ en $R^2$ y $R^3$ en $R^3$, se suele graficar, con origen en cada punto del dominio, un vector flecha que represente el valor vectorial del campo en ese punto
+Para **campos vectoriales** de $R^2$ en $R^2$ y $R^3$ en $R^3$, se suele graficar, con origen en cada punto del dominio, un vector flecha que represente el valor vectorial del campo en ese punto
 
 ![[Funciones de varias variables 2.png]]
 

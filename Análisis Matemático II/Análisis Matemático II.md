@@ -20,7 +20,7 @@
 
 - [[Ecuaciones Diferenciales]]
 - [[Métodos de resolución]]
-- [[Familias de Curvas]] ***
+- [[Familias de Curvas]] 
 - [[Integrales de Línea]]
 - [[Integrales Dobles]]
 - [[Integrales Triples]]

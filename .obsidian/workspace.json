@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Análisis Matemático II.md",
+                "file": "Análisis Matemático II/Funciones de varias variables.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Análisis Matemático II.md"
+                "file": "Análisis Matemático II/Funciones de varias variables.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Análisis Matemático II.md",
+                "file": "Análisis Matemático II/Funciones de varias variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Análisis Matemático II.md",
+                "file": "Análisis Matemático II/Funciones de varias variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,9 +172,13 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Análisis Matemático II/Funciones Implícitas.md",
+    "Análisis Matemático II/Funciones de varias variables.md",
     "Análisis Matemático II/Familias de Curvas.md",
-    "Análisis Matemático II/Extremos de campos escalares.md",
+    "Algoritmos II/TDA.md",
+    "Algoritmos II/Recursividad.md",
     "Análisis Matemático II/Análisis Matemático II.md",
+    "Análisis Matemático II/Extremos de campos escalares.md",
     "Análisis Matemático II/Extremos Condicionados.md",
     "Análisis Matemático II/Ecuaciones Diferenciales 2.md",
     "Análisis Matemático II/Ecuaciones Diferenciales.md",
@@ -194,10 +198,6 @@
     "Física II/Ley de Coulomb.md",
     "Física II/Ley de Faraday.md",
     "Física II/Ley de Biot y Savalt.md",
-    "Física II/Ley de Ampere.md",
-    "Física II/Inductores.md",
-    "Física II/Fuerza Magnética.md",
-    "Física II/Física II.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
