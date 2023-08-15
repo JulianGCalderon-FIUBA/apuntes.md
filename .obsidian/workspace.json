@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464.5,
-    "collapsed": true
+    "width": 464.5
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -173,8 +172,9 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
-    "Matemática Discreta/Grafos Orientados.md",
+    "Matemática Discreta/Grafos Particulares 1.md",
     "Matemática Discreta/Grafos Particulares.md",
+    "Matemática Discreta/Grafos Orientados.md",
     "Matemática Discreta/Ecuaciones de Recurrencia.md",
     "Matemática Discreta/Clasificaciones.md",
     "Matemática Discreta/Caminos y Distancias.md",
@@ -198,7 +198,6 @@
     "Probabilidad y Estadistica/Estimación Bayesiana.md",
     "Probabilidad y Estadistica/Estadísticos.md",
     "Probabilidad y Estadistica/Esperanza para Vectores.md",
-    "Probabilidad y Estadistica/Esperanza para Variables.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
