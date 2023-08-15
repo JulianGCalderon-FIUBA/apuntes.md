@@ -1,7 +1,7 @@
 ## Rectas en $\mathbb{R}^2$
 
 - **Paramétrica:** $(x,y)=\lambda(d_1,d_2)+(p_1,p_2)$
-- **Implícita: $-d_2x + d_1y = -d_2p_1 + d_2p_2$**
+- **Implícita:** $-d_2x + d_1y = -d_2p_1 + d_2p_2$**
 
 ## Rectas en $\mathbb{R}^3$
 
