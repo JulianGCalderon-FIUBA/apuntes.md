@@ -10,14 +10,14 @@ $$
 3. $\cdot: B\times B \to B,\quad xy$
 4. $': B \to B,\quad x’$
 
-Estos elementos, deben satisfacer los siguientes axiomas:
+Estos elementos deben satisfacer los siguientes axiomas:
 
 1. Conmutatividad: $\forall x,y \in B: x+y = y+x, \quad xy = yx$
 2. Distributividad: $\forall x,y,z \in B: x(y+z) = xy+xz, \quad x+yz = (x+y)(x+z)$
 3. Neutros: $\forall x \in B: x + 0_B = x, \quad x1_B = x$
 4. Complementos: $\forall X \in B: x + x’ = 1_B, \quad xx' = 0_b$
 
-A partir de los axiomas, podemos demostrar el resto de propiedades del algebra de bool:
+A partir de los axiomas, podemos demostrar el resto de propiedades del álgebra de Boole:
 
 1. Acotación: $1 + x = 1, 0x = 0$
 2. Asociativa: $(x+y)+z = x + (y + z), (xy)z = x(yz)$
@@ -26,13 +26,13 @@ A partir de los axiomas, podemos demostrar el resto de propiedades del algebra d
 5. Idempotencia: $x+x = x, xx=x$
 6. Absorción: $x + xy = x, x(x+y)=x$
 
-Decimos que un álgebra de *Boole* tiene definido un orden natural cuando $x\leq y \iff xy = x$
+Decimos que un álgebra de Boole tiene definido un orden natural cuando $x\leq y \iff xy = x$
 
 ## Pruebas de Unicidad
 
 Las pruebas de unicidad se suelen demostrar de la misma forma. Se supone que no hay unicidad y se elaboran las expresiones hasta llegar a que estos dos valores son el mismo.
 
-Cuando demostramos algo en el álgebra de *Boole*, podemos inmediatamente asumir que su dual es válido también. Esto se debe a que todos los axiomas son duales, si se intercambia $0_B$ por $1_B$ y $\cdot$ por $+$, entonces la expresión sigue siendo completamente válida.
+Cuando demostramos algo en el álgebra de Boole, podemos inmediatamente asumir que su dual es válido también. Esto se debe a que todos los axiomas son duales, si se intercambia $0_B$ por $1_B$ y $\cdot$ por $+$, entonces la expresión sigue siendo completamente válida.
 
 ## Pruebas de equivalencia
 
@@ -40,7 +40,7 @@ Se parte de una de las expresiones de la igualdad y, aplicando axiomas y propied
 
 ## Átomos
 
-En el álgebra de *Boole*, se llama **átomo** a los sucesores inmediatos del $O_B$. En otras palabras, $a \neq 0_B$ es un átomo si y sólo si
+En el álgebra de Boole, se llama **átomo** a los sucesores inmediatos del $O_B$. En otras palabras, $a \neq 0_B$ es un átomo si y solo si
 
 $$
 \forall x \in B, \quad ax = b \implies x=a \lor x=0_B
@@ -62,20 +62,20 @@ $$
 
 Donde $a_1, \cdots, a_n$ son átomos en $B$ y $\alpha_1, \cdots, \alpha_n \in \{0_B, 1_B\}$
 
-Como todos los elementos del álgebra pueden anotarse como una combinación de los átomos, entonces la cantidad de elementos del álgebra será $|B| = 2^n$, donde $n$ es la cantidad de átomos. Si un conjunto cumple los axiomas del algebra de boole, entonces esta propiedad se cumplirá.
+Como todos los elementos del álgebra pueden anotarse como una combinación de los átomos, entonces la cantidad de elementos del álgebra será $|B| = 2^n$, donde $n$ es la cantidad de átomos. Si un conjunto cumple los axiomas del álgebra de Boole, entonces esta propiedad se cumplirá.
 
 ## Cotas
 
 Sea $(A, \leq)$ un **poset** y sea $S \in A, S \ne 0$:
 
-- $m \in A$ es una cota inferior de $S$ sii $\forall x \in S, m \leq x$.
-- $M \in A$ es una cota superior de $S$ sii $\forall x \in S, x \leq M$.
+- $m \in A$ es una cota inferior de $S$ si y solo si $\forall x \in S, m \leq x$.
+- $M \in A$ es una cota superior de $S$ si y solo si $\forall x \in S, x \leq M$.
 
 Un conjunto que admite cota superior (inferior) se llama superiormente (inferiormente) acotado. Si admite ambas se llama acotado.
 
-- $x \in S$ es minimal (maximal) de $S$ sii $\forall y \in S, \color{Red}{y \leq x} \ \color{Teal}{(y \geq x)}$
-- $u \in S$ es mínimo (máximo) de $S$ sii $\forall x \in S: \color{Red}{u \leq x}\ \color{Teal}{(u \geq x)}$. Se elemento se denota comúnmente como $u = \color{Red}{\min S}\ \color{Teal}{(\max S)}$
-- $u \in A$ es el ínfimo (supremo) de $S$ sii $S$ está inferiormente (superiormente) acotado y además $u$ es la máxima (mínima) cota inferior (superior). Se denota como $u = \color{Red}{\inf S}\ \color{Teal}{(\sup S)}$
+- $x \in S$ es minimal (maximal) de $S$ si y solo si $\forall y \in S, \color{Red}{y \leq x} \ \color{Teal}{(y \geq x)}$
+- $u \in S$ es mínimo (máximo) de $S$ si y solo si $\forall x \in S: \color{Red}{u \leq x}\ \color{Teal}{(u \geq x)}$. El elemento se denota comúnmente como $u = \color{Red}{\min S}\ \color{Teal}{(\max S)}$
+- $u \in A$ es el ínfimo (supremo) de $S$ si y solo si $S$ está inferiormente (superiormente) acotado y además $u$ es la máxima (mínima) cota inferior (superior). Se denota como $u = \color{Red}{\inf S}\ \color{Teal}{(\sup S)}$
 
 > [!note]
 > Si $S$ tiene mínimo, es único. Esta observación también es análoga para el máximo.
@@ -99,4 +99,4 @@ Si se cumplen estas tres leyes, entonces podemos demostrar que se preservan tamb
 - **Orden:** $\forall x,y \in B_1: x\leq_1 y \to f(x) \leq_2 f(y)$
 - **Átomos:** Si $a$ es átomo en $B_1$, entonces $f(a)$ es átomo en $B_2$.
 
-Como cualquier elemento del álgebra de Boole se puede escribir como combinación de los átomos, entonces para definir un isomorfismo basta con definir la transformación de sus átomos. De esta forma definimos la cantidad de isomorfismos posibles entre dos algebras como $n!$, siendo $n$ la cantidad de átomos (ambas álgebras tendrán el mismo numero de átomos).
+Como cualquier elemento del álgebra de Boole se puede escribir como combinación de los átomos, entonces para definir un isomorfismo basta con definir la transformación de sus átomos. De esta forma definimos la cantidad de isomorfismos posibles entre dos álgebras como $n!$, siendo $n$ la cantidad de átomos (ambas álgebras tendrán el mismo número de átomos).

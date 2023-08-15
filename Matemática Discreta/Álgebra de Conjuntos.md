@@ -10,17 +10,16 @@ $$
 |B^A| = |B|^{|A|}
 $$
 
-Nota: En este documento se utilizará la notación $\subseteq$ para mayor claridad, sin embargo, en la materia el simbolo $\subset$ tambien denotara inclusión o igualdad. Para ser explícitos en que queremos un subconjunto que estrictamente incluido, utilizaremos la siguiente notación: $(A\subset B, A\neq B)$
-
-## Álgebra de Proposiciones
+Nota: En este documento se utilizará la notación $\subseteq$ para mayor claridad, sin embargo, en la materia el símbolo $\subset$ también denotará inclusión o igualdad. Para ser explícitos en que queremos un subconjunto que estrictamente incluido, utilizaremos la siguiente notación: $(A\subset B, A\neq B)$
 
 > [!note]
 > Si en particular $|B| = 2$, entonces $B^A = 2^{|A|}$
 
-> [!note]
-> **Proposición:** Afirmación que sólo puede tomar dos valores
+## Álgebra de Proposiciones
 
-La función proposicional del argumento $x$ escrita como $p(x)$ se convierte en una proposición $p(a)$ cuando al argumento $x$ se le asigna un valor fijo $a$, tomado de un conjunto de referencia $I$.
+Una **proposición** es una afirmación que solo puede tomar dos valores
+
+La **función proposicional** del argumento $x$ escrita como $p(x)$ se convierte en una proposición $p(a)$ cuando al argumento $x$ se le asigna un valor fijo $a$, tomado de un conjunto de referencia $I$.
 
 Sean $A, B$ proposiciones, entonces tendremos 4 funciones $f(p)$ de una variable proposicional. Podremos visualizar estas cuatro funciones en una tabla de verdad.
 
@@ -64,7 +63,7 @@ $$
 
 Algunos matemáticos dicen que $p → q$ es la proposición más importante de todas. Esta es la proposición $p$ implica $a$. Solo puede ser falsa cuando la proposición $p$ es verdadera, pero su implicación $q$ no lo es. La forma de negar un teorema de este estilo es justamente encontrar algún caso para el cual $p$ se cumple, pero $q$ no.
 
-Podemos definir las implicancias utilizando los elementos del álgebra de boole.
+Podemos definir las implicancias utilizando los elementos del álgebra de Boole.
 
 $$
 p \to q \overset{\text{def}}{=} p' + q
@@ -116,7 +115,7 @@ $$
 A-B \overset{\text{def}}{=} AB'
 $$
 
-El **or** exclusivo se simboliza con $A \oplus B$ y representa aquellos elementos que se encuentren en $A$ o en $B$, pero no en ambos. Es el complemento de si solo si.
+El **OR** exclusivo, o **XOR,** se simboliza con $A \oplus B$ y representa aquellos elementos que se encuentren en $A$ o en $B$, pero no en ambos. Es el complemento de si solo si.
 
 $$
 A \oplus B \overset{\text{def}}{=} A'B + AB'

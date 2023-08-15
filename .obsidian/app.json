@@ -75,6 +75,7 @@
     "ésimo",
     "Poisson",
     "Cuantil",
-    "DFA"
+    "DFA",
+    "Boole"
   ]
 }
