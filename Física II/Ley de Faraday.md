@@ -1,4 +1,4 @@
-Faraday notó, luego de unos experimentos, que un campo magnético puede generar corriente en un circuito cercano. Sin embargo, esta corriente es temporal. Solo surge cuando el campo no es estacionario, sino que depende del tiempo. A esta corriente, se la denomina **corriente inducida**.
+Faraday notó, luego de unos experimentos, que un campo magnético puede generar corriente en un circuito cercano. Sin embargo, esta corriente es temporal. Solo surge cuando el campo no es estacionario, sino que depende del tiempo. A esta corriente, se la denomina **corriente inducida.**
 
 ## Ley de Faraday-Lenz
 
@@ -80,5 +80,5 @@ $$
 M = k \sqrt{L_1 \cdot L_2}
 $$
 
-- Si $k = 0$, decimos que los circuitos están **desacoplados**
-- Si $k = 1$, decimos que los circuitos están en **acoplamiento perfecto**
+- Si $k = 0$ decimos que los circuitos están **desacoplados**
+- Si $k = 1$ decimos que los circuitos están en **acoplamiento perfecto**

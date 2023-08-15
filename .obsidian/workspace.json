@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física II/Ley de Coulomb.md",
+                "file": "Física II/Ley de Gauss.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física II/Ley de Coulomb.md"
+                "file": "Física II/Ley de Gauss.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física II/Ley de Coulomb.md",
+                "file": "Física II/Ley de Gauss.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física II/Ley de Coulomb.md",
+                "file": "Física II/Ley de Gauss.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,6 +173,7 @@
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
     "Física II/Ley de Faraday.md",
+    "Física II/Ley de Gauss.md",
     "Física II/Ley de Coulomb.md",
     "Física II/Ley de Biot y Savalt.md",
     "Física II/Ley de Ampere.md",
@@ -197,7 +198,6 @@
     "Física I/Superposición de Onda.md",
     "Física I/Sistema de referencia no inercial.md",
     "Física I/Sistema de partículas.md",
-    "Física I/Potencia.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
