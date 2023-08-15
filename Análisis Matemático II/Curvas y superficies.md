@@ -6,19 +6,19 @@ $$\boxed {\vec X(t) = \Big(\frac{3\cos^2t\cdot\sin t}{\cos^3 + sen^3},\frac{3\co
 
 ## Curva plana
 
-Esta totalmente contenida en un plano
+Está totalmente contenida en un plano
 
 ## Curva cerrada simple
 
-Tambien llamadas *curvas de Jordan, solo tienen en común el punto inicial y el final*
+También llamadas **curvas de Jordan**, solo tienen en común el punto inicial y el final
 
 ## Tangente a la curva (Regular)
 
 Si existe la derivada en un punto, se puede construir una recta tangente en ese punto. Si se puede derivar en todo el dominio, entonces la curva es regular.
 
-Si se cambia la parametrización de una curva, pueden cambiar las propiedades de su parametrización (tener derivada en un punto que antes no tenia)
+Si se cambia la parametrización de una curva, pueden cambiar las propiedades de su parametrización (tener derivada en un punto que antes no tenía)
 
-Se dice que es **regular a trozos** si deja de ser regular en un numero finito de puntos del intervalo $[a,b]$
+Se dice que es **regular a trozos** si deja de ser regular en un número finito de puntos del intervalo $[a,b]$
 
 ## Plano normal a la curva
 
@@ -32,9 +32,9 @@ $$
 
 ## Superficies
 
-Una superficie es la imagen de una función vectorial $\vec f(x,y):\mathbb{R}^2 \to \mathbb{R}$. continua en $A \subset \mathbb{R}^2$
+Una superficie es la imagen de una función vectorial $\vec f(x,y):\mathbb{R}^2 \to \mathbb{R}$. continúa en $A \subset \mathbb{R}^2$
 
-Si dejo constante una de las variables y vario la otra, se genera una *curva coordenada*
+Si dejo constante una de las variables y vario la otra, se genera una **curva coordenada**
 
 $$
 g(x):\mathbb{R} \to \mathbb{R} \quad h(y):\mathbb{R} \to \mathbb{R} 

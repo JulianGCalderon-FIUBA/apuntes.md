@@ -21,7 +21,7 @@ $$
 La derivada direccional es un número real que representa la pendiente de la recta tangente trazada en $(x_0, y_0, f(x_0, y_0)$ a la curva que se obtiene cortando la gráfica de $f$ con una curva cuya traza en el plano $xy$ es la recta $(x,y) = (x_0, y_0) + h\vec v$, con $h \in R$.
 
 > [!warning] Atención
-> Una función no tiene porque ser continua en $x,y$ para ser derivable. En cálculos de varias variables, estos conceptos son independientes entre si.
+> Una función no tiene por qué ser continua en $x,y$ para ser derivable. En cálculos de varias variables, estos conceptos son independientes entre sí.
 
 ## Derivadas parciales
 

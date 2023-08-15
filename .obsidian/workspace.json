@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Análisis Matemático II.md",
+                "file": "Análisis Matemático II/Extremos Condicionados.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Análisis Matemático II.md"
+                "file": "Análisis Matemático II/Extremos Condicionados.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Análisis Matemático II.md",
+                "file": "Análisis Matemático II/Extremos Condicionados.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Análisis Matemático II.md",
+                "file": "Análisis Matemático II/Extremos Condicionados.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,16 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Análisis Matemático II/Ecuaciones Diferenciales 2.md",
+    "Análisis Matemático II/Extremos Condicionados.md",
+    "Análisis Matemático II/Ecuaciones Diferenciales.md",
+    "Análisis Matemático II/Diferenciabilidad.md",
+    "Análisis Matemático II/Derivadas.md",
+    "Análisis Matemático II/Curvas y superficies.md",
+    "Análisis Matemático II/Curvas de nivel y Regla de la cadena.md",
+    "Análisis Matemático II/Cuádricas.md",
+    "Análisis Matemático II/Cónicas.md",
+    "Análisis Matemático II/Análisis Matemático II.md",
     "To-Do.md",
     "Física II/Trabajo de Campos.md",
     "Física II/Referencia del Potencial.md",
@@ -188,16 +198,6 @@
     "Física II/Física II.md",
     "Física II/Fasores Complejos.md",
     "Física II/Ecuaciones de Maxwell.md",
-    "Física II/Corriente Continua.md",
-    "Física II/Corriente Alterna.md",
-    "Física II/Conductores.md",
-    "Física II/Circuitos en Resonancia.md",
-    "Física II/Circuito Eléctrico.md",
-    "Física II/Capacitores.md",
-    "Física II/Campo Magnético.md",
-    "Física II/Campo Eléctrico.md",
-    "Física I/Trazado de Rayos.md",
-    "Física I/Trabajo y energía.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

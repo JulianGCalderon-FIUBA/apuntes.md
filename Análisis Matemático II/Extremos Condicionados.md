@@ -2,7 +2,7 @@
 
 Al limitar una función a un conjunto compacto, se generan nuevos extremos que antes no existían.
 
-**Teorema de Weierstras**: Si $f$ es continua en el conjunto $D\subset\mathbb{R}^n$ compacto, va a tener en $D$ un máximo o mínimo absoluto
+**Teorema de Weierstras:** Si $f$ es continua en el conjunto $D\subset\mathbb{R}^n$ compacto, va a tener en $D$ un máximo o mínimo absoluto
 
 ### Encontrar extremos
 

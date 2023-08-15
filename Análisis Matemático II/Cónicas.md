@@ -76,7 +76,7 @@ y = \frac{b}{a}x
 y = -\frac{b}{a}x
 $$
 
-## Parabola
+## Parábola
 
 Las distancias de un punto a un foco y una directriz son iguales
 
