@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilidad y Estadistica/Modelos Paramétricos.md",
+                "file": "Probabilidad y Estadistica/Probabilidad.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilidad y Estadistica/Modelos Paramétricos.md"
+                "file": "Probabilidad y Estadistica/Probabilidad.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilidad y Estadistica/Modelos Paramétricos.md",
+                "file": "Probabilidad y Estadistica/Probabilidad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilidad y Estadistica/Modelos Paramétricos.md",
+                "file": "Probabilidad y Estadistica/Probabilidad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,7 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Probabilidad y Estadistica/Modelos Paramétricos.md",
     "Probabilidad y Estadistica/Mezcla de Variables Aleatorias.md",
     "Probabilidad y Estadistica/Intervalos de Confianza.md",
     "Probabilidad y Estadistica/Inferencia Estadística.md",
@@ -197,7 +198,6 @@
     "Análisis Matemático II/Integrales Dobles.md",
     "Análisis Matemático II/Integrales Triples.md",
     "Análisis Matemático II/Límites.md",
-    "Análisis Matemático II/Métodos de resolución.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

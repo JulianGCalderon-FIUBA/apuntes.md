@@ -1,10 +1,10 @@
 ## Definiciones
 
-- Experimento Aleatorio: Conozco todos los posibles resultados, pero no se cual va a ocurrir
-- Espacio Muestral $\Omega$: Conjunto de resultados posibles del experimento aleatorio
-- Evento $A \in \Omega$: Resultado particular del experimento
-- Frecuencia Relativa: Cuantas veces ocurre un evento particular en un numero determinado de eventos
-- Espacio Equiprobable: Todos los elementos del espacio muestral tienen la misma probabilidad de ocurrir.
+- **Experimento Aleatorio:** Conozco todos los posibles resultados, pero no sé cuál va a ocurrir
+- **Espacio Muestral $\Omega$:** Conjunto de resultados posibles del experimento aleatorio
+- **Evento $A \in \Omega$:** Resultado particular del experimento
+- **Frecuencia Relativa:** Cuantas veces ocurre un evento particular en un número determinado de eventos
+- **Espacio Equiprobable:** Todos los elementos del espacio muestral tienen la misma probabilidad de ocurrir.
 
 $$
 P(A) = \lim_{n\to\infty} \frac{\#A}{n}
@@ -48,11 +48,11 @@ P(A \cup B \cup C) &= P(A) + P(B) + P(C) \\
 &+ P(A \cap B \cap C)
 \end{align} \tag{3}$$
 
-## Algebra de Eventos
+## Álgebra de Eventos
 
-$**\mathscr A:$ Algebra de Eventos:** Conjunto de eventos a los que le puedo calcular su probabilidad.
+**Álgebra de Eventos: $\mathscr A$:** Conjunto de eventos a los que le puedo calcular su probabilidad.
 
-Dado $\Omega$, entonces $\mathscr A$ es algebra de eventos si:
+Dado $\Omega$, entonces $\mathscr A$ es álgebra de eventos si:
 
 1. $\Omega \in \mathscr A$
 2. Si $B \in \mathscr A$, entonces $\overline B \in \mathscr A$
