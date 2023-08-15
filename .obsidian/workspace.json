@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelos y Optimización I/Complejidad de Programación Lineal.md",
+                "file": "To-Do.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modelos y Optimización I/Complejidad de Programación Lineal.md"
+                "file": "To-Do.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelos y Optimización I/Complejidad de Programación Lineal.md",
+                "file": "To-Do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modelos y Optimización I/Complejidad de Programación Lineal.md",
+                "file": "To-Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,8 +161,8 @@
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
     "Modelos y Optimización I/Modelos y Optimización I.md",
-    "Modelos y Optimización I/Complejidad de Problemas.md",
     "Modelos y Optimización I/Complejidad de Programación Lineal.md",
+    "Modelos y Optimización I/Complejidad de Problemas.md",
     "Modelos y Optimización I/Heurísticas para el Problema de la Mochila.md",
     "Modelos y Optimización I/Heurísticas para Coloreo de Grafos.md",
     "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md",
