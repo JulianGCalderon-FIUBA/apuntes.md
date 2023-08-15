@@ -61,13 +61,13 @@ $$
 4. $\rho(T_g) = \rho(T_j) = 1$
 
 > [!definition]- Matriz estrictamente diagonal dominante
-> Se dice que la matriz $A$ de $n \times n$ es **esctrictamente diagonal dominante por filas** si un elemento de la diagonal es mayor a la suma del resto de los elementos de la fila.
+> Se dice que la matriz $A$ de $n \times n$ es **estrictamente diagonal dominante por filas** si un elemento de la diagonal es mayor a la suma del resto de los elementos de la fila.
 > 
 > $$
 > |a_{ii}| > \sum_{j=1, j \neq i}^{n} |a_{ij}|
 > $$
 > 
-> Se dice que la matriz $A$ de $n \times n$ es **esctrictamente diagonal dominante por columnas** si un elemento de la diagonal es mayor a la suma del resto de los elementos de la fila.
+> Se dice que la matriz $A$ de $n \times n$ es **estrictamente diagonal dominante por columnas** si un elemento de la diagonal es mayor a la suma del resto de los elementos de la fila.
 > 
 > $$
 > |a_{ii}| > \sum_{i=1, j \neq i}^{n} |a_{ij}|

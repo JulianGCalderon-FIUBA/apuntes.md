@@ -1,4 +1,4 @@
-La factorización LU consiste en descomponer la matriz en dos matrices diagonales, por lo que su resolución sera simple.
+La factorización LU consiste en descomponer la matriz en dos matrices diagonales, por lo que su resolución será simple.
 
 $$
 Ax = LUx = L(Ux) = b
@@ -34,7 +34,7 @@ $$
 
 ## Paso 4
 
-Buscamos la $i$-esima fila de $U$, y la $i$-esima columna de $V$
+Buscamos la $i$-ésima fila de $U$, y la $i$-ésima columna de $V$
 
 $$
 u_{ij} = a_{ij} - \sum_{k=1}^{i-1} l_{ik} u_{kj}

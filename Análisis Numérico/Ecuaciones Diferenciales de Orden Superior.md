@@ -83,9 +83,9 @@ k_4 = f(x_i + h, y_i + m_3h, u_i + k_3h)\\
 \end{cases}
 $$
 
-## P.V.I. de $n$-esimo Orden
+## P.V.I. de $n$-ésimo Orden
 
-En general, puedo expresar una ecuación diferencial de $n$-esimo orden de la forma:
+En general, puedo expresar una ecuación diferencial de $n$-ésimo orden de la forma:
 
 $$
 \begin{cases}

@@ -29,7 +29,7 @@ tiene solución única en $y(t)$ para $a \leq t \leq b$
 
 Este método genera aproximaciones a la solución $y(t)$ en distintos valores, llamados **puntos de red** en el intervalo $[a,b]$. Estos puntos se seleccionan de la forma $t_i = a + ih,\ \forall i = 0, 1, 2, \cdots, N$
 
-La distancia $h$ entre los puntos recibe el nombre de **paso**.
+La distancia $h$ entre los puntos recibe el nombre de paso.
 
 Planteamos un polinomio de Taylor centrado en $t_i$, para hallar una aproximación para la solución de $y(t_{i+1}) \approx y_{i+1}$, despreciando el término del error.
 
