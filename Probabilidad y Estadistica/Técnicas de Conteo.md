@@ -49,7 +49,7 @@ En la calculadora, se puede calcular con la combinación de teclas: $n \ \boxed{
 
 ### Anagramas
 
-Tambien podemos resolver el caso con combinatoria
+También podemos resolver el caso con combinatoria
 
 $$
 \begin{align}
@@ -58,11 +58,11 @@ $$
 \end{align}
 $$
 
-Lo podemos pensar como que de las $n$ posiciones posibles, elijo $n_1$ opciones para colocar la primer letra. Luego repito la misma lógica para el resto de letras.
+Lo podemos pensar como que de las $n$ posiciones posibles, elijo $n_1$ opciones para colocar la primera letra. Luego repito la misma lógica para el resto de letras.
 
 ## Modelo Bose-Einstein
 
-Para resolver un problema del estilo urnas y bolitas indistinguibles, puedo pensar el problema como un anagrama. Separando las bolitas en urnas utilizando ceros y unos.
+Para resolver un problema del estilo, urnas y bolitas indistinguibles, puedo pensar el problema como un anagrama. Separando las bolitas en urnas utilizando ceros y unos.
 
 $$
 \underbrace{0010010100}_{7 \text{ bolitas},\ 4 \text{ urnas}}
