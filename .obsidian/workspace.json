@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelos y Optimización I/Problemas Combinatorios.md",
+                "file": "Modelos y Optimización I/Coloreo de Grafos.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464.5
+    "width": 464.5,
+    "collapsed": true
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modelos y Optimización I/Problemas Combinatorios.md"
+                "file": "Modelos y Optimización I/Coloreo de Grafos.md"
               }
             }
           },
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelos y Optimización I/Problemas Combinatorios.md",
+                "file": "Modelos y Optimización I/Coloreo de Grafos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modelos y Optimización I/Problemas Combinatorios.md",
+                "file": "Modelos y Optimización I/Coloreo de Grafos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,10 +161,10 @@
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
     "Modelos y Optimización I/Modelos y Optimización I.md",
+    "Modelos y Optimización I/Problemas Combinatorios.md",
     "Modelos y Optimización I/Problema del Viajante.md",
     "Modelos y Optimización I/Problemas de cobertura de conjuntos.md",
     "Modelos y Optimización I/Variables Enteras.md",
-    "Modelos y Optimización I/Problemas Combinatorios.md",
     "Indice.md",
     "Modelos y Optimización I/Patrones Comunes.md",
     "Modelos y Optimización I/Programación Lineal Continua.md",

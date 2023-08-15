@@ -1,4 +1,4 @@
-Los problemas combinatorios son aquellos en los cuales se desea determinar combinaciones óptimas. Se caracterizan por tener un número finito de soluciones factibles. Generalmente este número es muy grande
+Los problemas combinatorios son aquellos en los cuales se desea determinar combinaciones óptimas. Se caracterizan por tener un número finito de soluciones factibles. Generalmente, este número es muy grande
 
 ## Problema de Distribución o Transporte
 
@@ -6,7 +6,7 @@ Tenemos un conjunto de lugares, cada uno de los cuales tiene disponible una cant
 
 El objetivo es determinar la cantidad de unidades de producto que cada origen envía a cada destino, para minimizar los costos de transporte totales en un cierto periodo de tiempo.
 
-Supondremos que el producto es homogéneo (el mismo en origen y en destino), y los costos de envío son lineales (proporcionales a la cantidad de producto enviado.
+Supondremos que el producto es homogéneo (el mismo en origen y en destino), y los costos de envío son lineales (proporcionales a la cantidad de producto enviado).
 
 ### Formulación
 
@@ -30,7 +30,7 @@ Existe un teorema que demuestra que, si todas las ofertas son números enteros, 
 
 ## Problema de Transbordo
 
-En este problema, las unidades no son enviadas directamente desde los orígenes hacia los destinos, sino que las unidades van desde los orígenes hasta alguno de los centros de transbordo y desde éste a alguno de los destino.
+En este problema, las unidades no son enviadas directamente desde los orígenes hacia los destinos, sino que las unidades van desde los orígenes hasta alguno de los centros de transbordo y desde este a alguno de los destinos.
 
 ### Formulación
 
@@ -50,7 +50,7 @@ $$
 \sum_{i=1}^{n_o} XO_i T_j = \sum_{i=1}^{n_d}XT_jD_i, \quad\forall j = 0,1,\cdots,n_t
 $$
 
-Para calcular el funcional, definimos la constante $CO_iT_j$ como el costo de enviar una unidad del origen $i$ al transbordo $j$. Tambien definimos $CT_iD_j$ como el costo de enviar una unidad del transbordo $i$ al destino $j$.
+Para calcular el funcional, definimos la constante $CO_iT_j$ como el costo de enviar una unidad del origen $i$ al transbordo $j$. También definimos $CT_iD_j$ como el costo de enviar una unidad del transbordo $i$ al destino $j$.
 
 $$
 Z_{\min} \sum_{i=1}^{n_o}\sum_{j=1}^{n_t} CO_iT_j \times XO_iT_j + \sum_{i=1}^{n_t}\sum_{j=1}^{n_d} CT_iD_j \times XT_iD_j
@@ -60,7 +60,7 @@ $$
 
 Sean $A, B$, dos conjuntos con $n$ elementos. El problema de asignación consiste en encontrar el conjunto $P$ tal que cada elemento de $P$ es un par $(a,b) \in A\times B$, tal que minimice una función de costo $\sum C(a,b)$. Se debe cumplir que cada elemento de $A$ debe aparecer en $P$ exactamente una vez, y cada elemento de $B$ debe aparecer en $P$ exactamente una vez.
 
-Definimos la variable bivalente $Y_{ij}$ como positiva si el elemento $i$ de $A$ esta asignado al elemento $j$ de $B$. Luego restringimos a que cada elemento aparezca una sola vez.
+Definimos la variable bivalente $Y_{ij}$ como positiva si el elemento $i$ de $A$ está asignado al elemento $j$ de $B$. Luego restringimos a que cada elemento aparezca una sola vez.
 
 $$
 \sum_{j=1}^n Y_{ij} = 1,\quad \forall i
@@ -80,7 +80,7 @@ $$
 
 Ocurre cuando existe un costo o beneficio que se produce únicamente si se dan dos asociaciones particulares en conjunto.
 
-Sea $C_{ijkl}$ el costo asociado a el par de asociaciones $ij$ y $kl$. Entonces el funcional valdria
+Sea $C_{ijkl}$ el costo asociado al par de asociaciones $ij$ y $kl$. Entonces el funcional valdría:
 
 $$
 \sum_{i=1}^M\sum_{j=1}^M\sum_{k=1}^M\sum_{l=1}^M Y_{ij} Y_{kl} C_{ijkl}
@@ -100,7 +100,7 @@ $$
 
 ## Problema de la Mochila
 
-Este problema se caracteriza por tener una persona con una mochila con una cierta capacidad, y tiene que elegir que elemenots pondra en ella. Cada elemento aportará un valor pero también ocupara espacio en la mochila.
+Este problema se caracteriza por tener una persona con una mochila con una cierta capacidad, y tiene que elegir qué elementos pondrá en ella. Cada elemento aportará un valor, pero también ocupará espacio en la mochila.
 
 Definiendo las siguientes variables:
 
@@ -109,7 +109,7 @@ Definiendo las siguientes variables:
 - Peso del producto $i$: $W_i$
 - Cantidad de elementos constante: $N$
 
-Por ultimo, defino $Y_i$ como verdadero si llevo el elemento en la mochila. Entonces podemos plantear el modelo como:
+Por último, defino $Y_i$ como verdadero si llevo el elemento en la mochila. Entonces podemos plantear el modelo como:
 
 $$
 \sum_{i=1}^n W_iY_i \leq C
@@ -123,13 +123,13 @@ El problema es simple, pero existen múltiples variantes
 
 ### Acotado
 
-En lugar de contar con un elemento de cada tipo, podremos llevar muchos. Bastaria con utilizar variables enteras $X_i$ en lugar de las bivalentes, definiendo límites de ser necesario.
+En lugar de contar con un elemento de cada tipo, podremos llevar muchos. Bastaría con utilizar variables enteras $X_i$ en lugar de las bivalentes, definiendo límites de ser necesario.
 
 ### Suma de Subconjuntos
 
 Si el beneficio de cada elemento equivale a su peso, estamos ante un problema de suma de subconjuntos.
 
-### Multiples Mochilas
+### Múltiples Mochilas
 
 En este caso, definiremos $Y_{ij}$ si se lleva el elemento $i$ en la mochila $j$. Luego
 
@@ -141,7 +141,7 @@ $$
 Z_{\max} = \sum_{i=1}^n\sum_{j=1}^m P_iY_{ij}
 $$
 
-Cada elemento puede estar en una unica mochila
+Cada elemento puede estar en una única mochila
 
 $$
 \sum_{j=1}^m Y_{ij} \leq 1, \quad\ \forall i
@@ -149,9 +149,9 @@ $$
 
 ## Calendarización (Scheduling)
 
-Se busca encontrar una solución a la pregunta ¿En que orden deberán ejecutarse las tareas? ¿Quien deberá ejecutar cada tarea? Analicemos el caso de una fabrica.
+Se busca encontrar una solución a la pregunta ¿En qué orden deberán ejecutarse las tareas? ¿Quién deberá ejecutar cada tarea? Analicemos el caso de una fábrica.
 
-Definimos dos variables. $I_{ij}$ como el tiempo en el que empieza la tarea $i$ en la maquina $j$, y $F_{ij}$ como el tiempo en el que finaliza la tare $i$ en la maquina $j$. Si las tareas no se interrumpen, tendremos que:
+Definimos dos variables. $I_{ij}$ como el tiempo en el que empieza la tarea $i$ en la máquina $j$, y $F_{ij}$ como el tiempo en el que finaliza la tare $i$ en la máquina $j$. Si las tareas no se interrumpen, tendremos que:
 
 $$
 F_{ij} = I_{ij} + T_{ij}
@@ -159,7 +159,7 @@ $$
 
 Siendo $T_{ij}$ el tiempo constante que le toma a la máquina $j$ ejecutar la tarea $i$.
 
-Si únicamente tenemos dos tareas, y si las tareas deben ejecutarse primero en la maquina $1$ y luego en la maquina $2$, entonces debemos definir que:
+Si únicamente tenemos dos tareas, y si las tareas deben ejecutarse primero en la máquina $1$ y luego en la máquina $2$, entonces debemos definir que:
 
 $$
 F_{i1} \leq I_{i2},\quad \forall i
@@ -171,7 +171,7 @@ $$
 \text{FINAL} \geq F_{i2}, \quad \forall i
 $$
 
-Las tareas no pueden ejecutarse a la vez en cada maquina, esto se puede plantear indicar que se deben cumplir uno de dos casos. La tarea $A$ finaliza antes de que empiece la tarea $B$. La tarea $B$ finaliza antes de que empiece la tarea $A$. Planteamos entonces para cada par desordenado de tareas $i,j$ en cada maquina $k$.
+Las tareas no pueden ejecutarse a la vez en cada máquina, esto se puede plantear indicar que se deben cumplir uno de dos casos. La tarea $A$ finaliza antes de que empiece la tarea $B$. La tarea $B$ finaliza antes de que empiece la tarea $A$. Planteamos entonces para cada par desordenado de tareas $i,j$ en cada máquina $k$.
 
 $$
 \begin{gathered}
@@ -189,11 +189,11 @@ $$
 \alpha | \beta | \gamma
 $$
 
-El término $\alpha$ representa el entorno de maquinas. Una única áaquina se representa con un uno, $m$ máquinas idénticas de identifica con $P_m$.
+El término $\alpha$ representa el entorno de máquinas. Una única máquina se representa con un uno, $m$ máquinas idénticas se identifica con $P_m$.
 
-El segundo termino $\beta$ indica las caracteristicas de la tarea. $pmtn$ en este término indica que las tareas son interrumpibles
+El segundo término $\beta$ índica las características de la tarea. $pmtn$ en este término indica que las tareas son interrumpibles
 
-El último término $\gamma$ incluye la función objetivo. Minimizar el termino se denota con $\text{Cmax}$.
+El último término $\gamma$ incluye la función objetivo. Minimizar el término se denota con $\text{Cmax}$.
 
 ## Satisfacibilidad Booleana - SAT
 
@@ -213,11 +213,11 @@ Donde $f_i$ son las proposiciones cuya intersección forma la función proposici
 
 ## Uncapacitated Facility Location (UFL)
 
-Se debe decidir dónde abrir los depósitos que proporción de la demanda de los clientes satisface cada depositó abierto.
+Se debe decidir dónde abrir los depósitos, qué proporción de la demanda de los clientes satisface cada depositó abierto.
 
-Definimos $X_{ij}$ como la fracción de la demanda de la zona $j$ satisfecha por el deposito ubicado en $i$. Por otro lado, $Y_i$ valdrá $1$ cuando se establece un deposito en $i$.
+Definimos $X_{ij}$ como la fracción de la demanda de la zona $j$ satisfecha por el depósito ubicado en $i$. Por otro lado, $Y_i$ valdrá $1$ cuando se establece un depósito en $i$.
 
-Conoceremos $f_i$ como el costo anual fijo de establecer un deposito en el lugar $i$, y $c_{ij}$ como el costo de producción y distribución si el desposito que esta ubicado en $i$ le proporcionara al ciente $j$ todo lo que éste demanda.
+Conoceremos $f_i$ como el costo anual fijo de establecer un depósito en el lugar $i$, y $c_{ij}$ como el costo de producción y distribución si el depósito que está ubicado en $i$ le proporcionará al cliente $j$ todo lo que este demanda.
 
 El modelo propuesto por Erlenkotter (1978) es minimizar:
 
@@ -231,7 +231,7 @@ $$
 \sum_i x_{ij} = 1,\quad \forall j
 $$
 
-Para que una fabrica distribuya producto, deberá haber sido establecida
+Para que una fábrica distribuya producto, deberá haber sido establecida
 
 $$
 x_{ij} \leq y_i, \quad \forall i,j

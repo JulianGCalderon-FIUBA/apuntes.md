@@ -1,4 +1,4 @@
-Dado un grafo no dirigido $(G,E)$, con un conjunto $V$ de vertices y $E$ de aristas. Un coloreo valido de $G$ se corresponde a una partición de $V$ en $K$ conjuntos independientes, donde dos elementos adyacentes no pertenecen al mismo conjunto. El objetivo es minimizar $K$. Donde $\min K = \chi(G)$ es el numero cromatico del grafo.
+Dado un grafo no dirigido $(G,E)$, con un conjunto $V$ de vertices y $E$ de aristas. Un coloreo valido de $G$ se corresponde a una partición de $V$ en $K$ conjuntos independientes, donde dos elemenos adyacentes no pertenecen al mismo conjunto. El objetivo es minimizar $K$. Donde $\min K = \chi(G)$ es el numero cromatico del grafo.
 
 Un Conjunto independiente en un grafo es un conjunto de vértices tal que ninguno de
 
