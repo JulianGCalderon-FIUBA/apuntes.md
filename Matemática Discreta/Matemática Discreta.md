@@ -1,7 +1,7 @@
 ## Álgebra de Conjuntos
 
 - [[Álgebra de Conjuntos]]
-- [[Matemática Discreta/Álgebra de Boole]]
+- [[Matemática Discreta/Álgebra de Boole|Álgebra de Boole]]
 - [[Relaciones]]
 - [[Alfabeto]]
 

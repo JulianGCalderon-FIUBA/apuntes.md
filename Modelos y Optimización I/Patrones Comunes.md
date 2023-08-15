@@ -48,7 +48,7 @@ $$
 
 ## Condiciones de un modelo
 
-Las condiciones de un modelo relacionan actividades entre si o con el contexto. Existen tres tipos distintos:
+Las condiciones de un modelo relacionan actividades entre sí o con el contexto. Existen tres tipos distintos:
 
 - **Fuertes:** Deben ser cumplidas siempre
 - **Débiles:** Pueden no cumplirse a un cierto costo
@@ -63,9 +63,9 @@ X - \lim = \text{Exceso} - \text{Defecto},\quad
 \text{Exceso} \leq 0,\text{Defecto} \leq 0
 $$
 
-Si se cumple $X \leq \lim$, entonces $\text{Defecto} = \lim - X$, con $\text{Exceso} = 0$. Por el otro lado, cuando se cumple que $X > \lim$, entonces $\text{Defecto} = 0$, con $\text{Exceso} = X - \lim$.
+Sí se cumple $X \leq \lim$, entonces $\text{Defecto} = \lim - X$, con $\text{Exceso} = 0$. Por el otro lado, cuando se cumple que $X > \lim$, entonces $\text{Defecto} = 0$, con $\text{Exceso} = X - \lim$.
 
-Sin embargo, esto solo se puede realizar si la utilización de $\text{Defecto}$ es mas ventajoso que la utilización de $\text{Exceso}$, de modo que priorice primero la utilización de este. Para otros casos, necesitamos utilizar variables bivalentes.
+Sin embargo, esto solo se puede realizar si la utilización de $\text{Defecto}$ es más ventajoso que la utilización de $\text{Exceso}$, de modo que priorice primero la utilización de este. Para otros casos, necesitamos utilizar variables bivalentes.
 
 ## Problemas con varios Períodos
 
@@ -77,7 +77,7 @@ $$
 V_i + A_i = P_i + A_{i-1}
 $$
 
-Esta ecuación puede ser modificada para por ejemplo, definir un stock inicial para el primer periodo, o un stock final para el último.
+Esta ecuación puede ser modificada para, por ejemplo, definir un stock inicial para el primer periodo, o un stock final para el último.
 
 ## Programación de Tareas
 
@@ -93,7 +93,7 @@ Una vez hecha esta nueva división, podemos volver a agrupar los elementos segú
 
 ## Restricción Financiera
 
-Si en un modelo mensual cobramos el producto un tiempo después, entonces debemos tenerlo en cuenta en el funcional. Sin embargo, sin contamos con la restricción que necesitamos $\$X$ en la caja a fin del periodo, estos ingresos por venta no los puedo contar como ingreso de caja, ya que no los obtendré en el periodo a analizar.
+Si en un modelo mensual cobramos el producto un tiempo después, entonces debemos tenerlo en cuenta en el funcional. Sin embargo, si contamos con la restricción que necesitamos $\$X$ en la caja a fin del periodo, estos ingresos por venta no los puedo contar como ingreso de caja, ya que no los obtendré en el periodo a analizar.
 
 Sea $C_0$ el valor de caja inicial, $C_i$ los ingresos de caja, $C_e$ los egresos de caja, y $C_f$ el valor de caja a alcanzar. Entonces, podemos plantear la siguiente ecuación para hallar el exceso y el defecto
 

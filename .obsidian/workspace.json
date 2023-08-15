@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Indice.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d6229aeee009af3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modelos y Optimización I/Introducción.md",
+                "file": "Modelos y Optimización I/Patrones Comunes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modelos y Optimización I/Introducción.md"
+                "file": "Modelos y Optimización I/Patrones Comunes.md"
               }
             }
           },
@@ -108,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelos y Optimización I/Introducción.md",
+                "file": "Modelos y Optimización I/Patrones Comunes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modelos y Optimización I/Introducción.md",
+                "file": "Modelos y Optimización I/Patrones Comunes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,22 +157,27 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "3d6229aeee009af3",
+  "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
     "Modelos y Optimización I/Modelos y Optimización I.md",
+    "Modelos y Optimización I/Programación Lineal Continua.md",
+    "Modelos y Optimización I/Introducción.md",
+    "Indice.md",
+    "Matemática Discreta/Matemática Discreta.md",
+    "Estructura del Computador/Estructura del Computador.md",
+    "Algoritmos II/Algoritmos II.md",
+    "Análisis Numérico/Análisis Numérico.md",
     "Matemática Discreta/Alfabeto.md",
     "Modelos y Optimización I/Análisis de Sensibilidad.md",
     "Modelos y Optimización I/Método Símplex.md",
     "Matemática Discreta/Grafos Particulares.md",
     "To-Do.md",
-    "Indice.md",
     "Matemática Discreta/Subconjuntos de Vértices y Aristas.md",
     "Matemática Discreta/Relaciones.md",
     "Matemática Discreta/Operaciones entre Grafos.md",
     "Matemática Discreta/Nociones Básicas de Grafos.md",
     "Matemática Discreta/Grafos Orientados.md",
     "Matemática Discreta/Espectro de un Grafo.md",
-    "Matemática Discreta/Matemática Discreta.md",
     "Matemática Discreta/Isomorfismos.md",
     "Matemática Discreta/Inducción.md",
     "Matemática Discreta/Grafos Particulares 1.md",
@@ -193,11 +185,6 @@
     "Matemática Discreta/Clasificaciones.md",
     "Matemática Discreta/Caminos y Distancias.md",
     "Matemática Discreta/Algoritmos.md",
-    "Matemática Discreta/Álgebra de Conjuntos.md",
-    "Matemática Discreta/Álgebra de Boole.md",
-    "Untitled.md",
-    "Untitled 1.md",
-    "Probabilidad y Estadistica/Probabilidad Condicional.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

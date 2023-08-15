@@ -10,7 +10,7 @@ El poliedro se construye encontrando la región del espacio que cumple con todas
 
 ## Variables Slack
 
-Para convertir todas las restricciones a igualdades, se utilizan las variables *slack*. Aquellas variables *slack* que tomen el valor cero en la solución indican que esta restricción es limitante (si este es un recurso, entonces está agotado)
+Para convertir todas las restricciones a igualdades, se utilizan las variables *slack*. Aquellas variables slack que tomen el valor cero en la solución indican que esta restricción es limitante (si este es un recurso, entonces está agotado)
 
 $$
 g(x) \leq x \iff g(x) + S = x, S\geq 0
@@ -20,7 +20,7 @@ $$
 g(x) \geq x \iff g(x) - S = x, S\geq 0
 $$
 
-## Solución Optima
+## Solución Óptima
 
 Cuando se resuelve un modelo, se pueden presentar uno de los siguientes casos:
 
@@ -31,11 +31,11 @@ Cuando se resuelve un modelo, se pueden presentar uno de los siguientes casos:
 
 Para un modelo compatible, se puede dar que un punto óptimo se encuentre en la intersección de múltiples intersecciones. Estos se llaman **puntos degenerados.**
 
-## Supuestos Básicos de la PL Continua
+## Supuestos Básicos de la P.L. Continua
 
 Para los problemas de este tipo, se deben definir los siguientes supuestos básicos:
 
-- **Certeza**: Todos los parámetros del modelo son constantes conocidas. para poder plantear el modelo dentro de la optimización determinística, se debe cumplir este principio.
+- **Certeza**: Todos los parámetros del modelo son constantes conocidas. Para poder plantear el modelo dentro de la optimización determinística, se debe cumplir este principio.
 - **Proporcionalidad:** Tanto el beneficio como el uso de recursos son directamente proporcionales al nivel de actividad.
 - **Aditividad:** No existen interacciones entre las actividades que cambien la medida total de la efectividad o el uso total de algún recurso. No en todo los dominios se cumple esta propiedad. Por ejemplo, en el caso de la química, las interacciones no suelen ser lineales.
 - **Divisibilidad:** Las unidades de actividad pueden dividirse en niveles fraccionarios cualesquiera, de modo que pueden permitirse valores no enteros para las variables. Si este supuesto no se cumple, tendremos que trabajar con variables enteras.
@@ -54,6 +54,6 @@ La **modularidad** es la interdependencia entre los módulos.
 
 Una **estructura** es un conjunto de módulos vinculados entre sí que cumplen la condición de modularidad. Un modelo podría plantearse como una estructura.
 
-### ¿Como se plantea?
+### ¿Cómo se plantea?
 
-Lo que está dentro dentro de un módulo tiene que estar vinculado por una función común y el pasaje de variables entre módulos debe ser mínimo. Debemos respetar la heurística de la alta cohesión (todo lo que pertenece a un módulo responde a la misma función) y bajo acoplamiento (los módulos son independientes entre sí).
+Lo que está dentro de un módulo tiene que estar vinculado por una función común y el pasaje de variables entre módulos debe ser mínimo. Debemos respetar la heurística de la alta cohesión (todo lo que pertenece a un módulo responde a la misma función) y bajo acoplamiento (los módulos son independientes entre sí).
