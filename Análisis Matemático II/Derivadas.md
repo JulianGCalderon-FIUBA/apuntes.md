@@ -53,7 +53,7 @@ $$
 \begin{align*}f'(\vec r, \hat v) &= \nabla f(\vec r)\cdot \hat v\\&=\|\nabla f(\vec r)\|\cdot\underbrace{\|\hat v\|}_{=1}\cdot\cos\theta\end{align*}
 $$
 
-**La derivada es:**
+La derivada es:
 
 - Máxima $\|\nabla f(\vec r)\|$ en $\theta = 0$
 - Mínima $\|\nabla f(\vec r)\|$ en $\theta = \pi$

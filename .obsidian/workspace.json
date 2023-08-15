@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilidad y Estadistica/Vectores Aleatorios.md",
+                "file": "To-Do.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilidad y Estadistica/Vectores Aleatorios.md"
+                "file": "To-Do.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilidad y Estadistica/Vectores Aleatorios.md",
+                "file": "To-Do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilidad y Estadistica/Vectores Aleatorios.md",
+                "file": "To-Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,14 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Matemática Discreta/Alfabeto.md",
+    "To-Do.md",
+    "Análisis Matemático II/Derivadas.md",
+    "Introducción a Sistemas Distribuidos/Application Layer/DNS.md",
+    "Matemática Discreta/Álgebra de Conjuntos.md",
+    "Probabilidad y Estadistica/Estimadores.md",
+    "Probabilidad y Estadistica/Distribuciones Importantes.md",
+    "Probabilidad y Estadistica/Vectores Aleatorios.md",
     "Probabilidad y Estadistica/Varianza Condicional.md",
     "Probabilidad y Estadistica/Variables Aleatorias Condicionadas.md",
     "Probabilidad y Estadistica/Variables Aleatorias.md",
@@ -190,14 +198,6 @@
     "Probabilidad y Estadistica/Probabilidad Condicional.md",
     "Probabilidad y Estadistica/Probabilidad.md",
     "Probabilidad y Estadistica/Modelos Paramétricos.md",
-    "Probabilidad y Estadistica/Mezcla de Variables Aleatorias.md",
-    "Probabilidad y Estadistica/Intervalos de Confianza.md",
-    "Probabilidad y Estadistica/Inferencia Estadística.md",
-    "Probabilidad y Estadistica/Hipótesis Estadística.md",
-    "Probabilidad y Estadistica/Eventos Independientes.md",
-    "Probabilidad y Estadistica/Estimadores.md",
-    "Introducción a Sistemas Distribuidos/Breaking WEP.md",
-    "Probabilidad y Estadistica/Estimación Bayesiana.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

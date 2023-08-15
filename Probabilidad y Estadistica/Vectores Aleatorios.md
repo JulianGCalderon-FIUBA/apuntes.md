@@ -80,7 +80,7 @@ $$
 P(X \in A \cap Y \in B) = P(X \in A) P(Y \in B)\quad \forall A,B
 $$
 
-**Propiedades:**
+### Propiedades
 
 1. Se dice que $X_1, \cdots, X_n$ son variables aleatorias independientes si y solo si
 

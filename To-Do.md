@@ -4,7 +4,7 @@
 - [x] Física I
 - [x] Física II
 - [x] Análisis Matemático II
-- [ ] Probabilidad y Estadistica
+- [x] Probabilidad y Estadistica
 - [ ] Matemática Discreta
 - [ ] Modelos y Optimización I
 - [ ] Análisis Numérico
