@@ -36,7 +36,7 @@ $$
 > [!note]
 > La corriente del circuito va a estar desfasada $\pi/2$ con la tensión del generador. Va a variar la amplitud (en función de la capacidad)
 
-Vamos a definir la reactancia capacitiva $X_c = \frac 1{C\ w}$. La cual tendrá unidades de **Ohm**. A mayor frecuencia, tendremos menor reactancia (menor corriente). Esto se debe a que no le damos tiempo suficiente al capacitor para cargarse.
+Vamos a definir la reactancia capacitiva $X_c = \frac 1{C\ w}$. La cual tendrá unidades de Ohm. A mayor frecuencia, tendremos menor reactancia (menor corriente). Esto se debe a que no le damos tiempo suficiente al capacitor para cargarse.
 
 ## Circuito Inductivo Puro
 

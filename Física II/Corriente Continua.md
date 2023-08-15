@@ -1,8 +1,8 @@
 Hasta el momento estudiamos los campos electroestáticos, es decir, el campo generado por cargas estáticas, con velocidad nula.
 
-La corriente continua o **CC** ocurre cuando las cargas dentro de los conductores se mueven a velocidad constante, los electrones se mueven siempre en la misma dirección. Ocurre en los circuitos eléctricos
+La corriente continua o CC ocurre cuando las cargas dentro de los conductores se mueven a velocidad constante, los electrones se mueven siempre en la misma dirección. Ocurre en los circuitos eléctricos
 
-El campo eléctrico dentro del conductor es nulo solo si se encuentra en *equilibrio estático.*
+El campo eléctrico dentro del conductor es nulo solo si se encuentra en **equilibrio estático.**
 
 En los casos de corriente continua, el conductor nunca llega al estado de equilibrio, pero sí alcanza el estado estacionario. Es decir, la corriente eléctrica es constante.
 
@@ -10,7 +10,7 @@ En los casos de corriente continua, el conductor nunca llega al estado de equili
 
 El modelo de Drude fue desarrollado para explicar las propiedades de transporte de electrones en conductores.
 
-Por un lado, tenemos iones (positivos), pesados y estáticos. Por el otro lado, electrones (negativos) en movimiento que se aceleran y gana energía cinética. Estos electrones se van a chocar con los iones, se dispersan y pierden parte de su energía. Como resultado de estos choques, el electrón irá acelerando y frenando. Alcanzamos una velocidad promedio en sentido de la corriente llamada *velocidad de arrastre o deriva*.
+Por un lado, tenemos iones (positivos), pesados y estáticos. Por el otro lado, electrones (negativos) en movimiento que se aceleran y gana energía cinética. Estos electrones se van a chocar con los iones, se dispersan y pierden parte de su energía. Como resultado de estos choques, el electrón irá acelerando y frenando. Alcanzamos una velocidad promedio en sentido de la corriente llamada **velocidad de arrastre o deriva**.
 
 $$
 \vec v_a = \frac{q\,\tau}{m}\,\vec E = \mu\,\vec E \qquad\approx 10^{-4} m/s
@@ -56,7 +56,7 @@ $$
 I = {\subset\!\supset} \llap{\iint}_A \vec j(\vec r) \ dA
 $$
 
-**¿Quién Genera el Campo Eléctrico?:** El campo es uniforme a lo largo del conductor, ya que ninguno de sus parámetros cambia a lo largo del tiempo. Además, la dirección del campo eléctrico sigue el contorno del conductor.
+**¿Quién Genera el Campo Eléctrico?** El campo es uniforme a lo largo del conductor, ya que ninguno de sus parámetros cambia a lo largo del tiempo. Además, la dirección del campo eléctrico sigue el contorno del conductor.
 
 ## Ecuación de Continuidad
 
@@ -90,7 +90,7 @@ $$
 \vec J = q\cdot n\cdot \frac{q\cdot \tau}{m} \cdot \vec E
 $$
 
-Si agrupamos estos parámetros en la conductividad eléctrica $\sigma$, llegamos a la ley de Ohm, en su forma diferencial o local. *(ley de ohm microscópica)*
+Si agrupamos estos parámetros en la conductividad eléctrica $\sigma$, llegamos a la ley de Ohm, en su forma diferencial o local. También conocida como **ley de Ohm microscópica**
 
 $$
 \boxed{\vec J = \sigma \cdot \vec E}
@@ -123,7 +123,7 @@ $$
 
 La unidad de la resistencia es de Ohm $[R] = \Omega$
 
-Llegamos entonces a la ley de Ohm en su forma integral *(ley de ohm macroscópica)*. Se le llama así porque se calcula a partir de valores que podemos medir macroscópicamente.
+Llegamos entonces a la ley de Ohm en su forma integral, **ley de Ohm macroscópica**. Se le llama así porque se calcula a partir de valores que podemos medir macroscópicamente.
 
 $$
 \boxed{\Delta V = I\ R}
@@ -136,7 +136,7 @@ Notamos que a mayor longitud del cilindro o menor área, la cantidad de choques 
 
 ## Dependencia de Temperatura
 
-**A mayor temperatura:**
+A **mayor** temperatura, observamos que:
 
 - $\tau:$ Disminuye, hay más choques entre partículas.
 - $v_a:$ Disminuye, al haber más choques la velocidad es menor.
@@ -146,7 +146,7 @@ Notamos que a mayor longitud del cilindro o menor área, la cantidad de choques 
 
 Parece ser que a mayor temperatura, es peor el conductor
 
-**Materiales Conocidos:**
+En materiales conocidos, observamos:
 
 - **Conductor Ideal**: Conductividad tiene a infinito
 - **Aislante Ideal:** Conductividad tiende a nulo
