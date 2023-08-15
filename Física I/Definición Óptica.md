@@ -3,7 +3,7 @@
 - **Aproximación Paraxial:** Se considera que los rayos que inciden sobre la superficie forman un ángulo pequeño, y su radio de curvatura es grande. Esto permite simplificar y deducir la expresión General. (Ecuación de Descartes)
 - **Sentido:** El $0$ está en la superficie, positivo en sentido contrario a la propagación de la luz incidente.
 - **Objeto:** Es la fuente de rayos.
-- **Imagen:** Es la fuente *aparente* de rayos, donde se genera la imagen del objeto,
+- **Imagen:** Es la fuente aparente de rayos, donde se genera la imagen del objeto,
 - **Imagen Real:** Los rayos convergen en un punto. Este punto es una imagen real.
 - **Imagen Virtual:** Los rayos divergen, pero sus proyecciones convergen en un punto. Este punto es una imagen virtual.
 - **Aumento:** Determina la relación entre el tamaño de un objeto y su imagen, y su orientación.
@@ -65,7 +65,7 @@ $$
 $$
 
 > [!note]
-> En el caso de las Dioptras Planas, se toma $R$ como $\infty$
+> En el caso de las dioptras planas, se toma $R$ como $\infty$
 
 ## Refracción: Lentes Delgadas
 

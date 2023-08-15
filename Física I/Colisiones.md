@@ -16,7 +16,7 @@ Solo válido en una dimensión
 
 ## Clasificación
 
-- **Elástico**: Se conserva la energía cinética, $e = 1$
-- **Inelástico**: El sistema pierde energía cinética, $0 < e <  1$
+- **Elástico:** Se conserva la energía cinética, $e = 1$
+- **Inelástico:** El sistema pierde energía cinética, $0 < e <  1$
 - **Plástico:** La energía cinética que se pierde es máxima (Perfectamente Inelástico), $e = 0$
 - **Explosivo:** El sistema gana energía cinética, $e:\text{No se define}$

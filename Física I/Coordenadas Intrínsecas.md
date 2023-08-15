@@ -17,7 +17,7 @@ $$
 \boxed{\vec a = a_t \cdot \hat t + a_n \cdot \hat n}
 $$
 
-**Aceleración Tangencial**: Refiere al cambio en la rapidez del objeto, se calcula a partir de los vectores cartesianos
+**Aceleración Tangencial:** Refiere al cambio en la rapidez del objeto, se calcula a partir de los vectores cartesianos
 
 $$
 \displaystyle a_t = \frac{d|\vec v |}{dt} = \frac{d\Big(\sqrt{v_x^2 + v_y^2 + v_z^2}\Big)}{dt}

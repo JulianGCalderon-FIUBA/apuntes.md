@@ -14,9 +14,7 @@ $$
 
 ## CIR
 
-**Centro Instantáneo de Rotación**
-
-Es el punto desde el cual el cuerpo está haciendo una rotación pura. Es decir, el punto donde su velocidad es nula.
+El **Centro Instantáneo de Rotación** o CIR es el punto desde el cual el cuerpo está haciendo una rotación pura. Es decir, el punto donde su velocidad es nula.
 
 $$
 \vec v_A = \vec\Omega \times (\vec r_A - \vec r_\text{cir})
