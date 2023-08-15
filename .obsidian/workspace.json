@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilidad y Estadistica/Propiedades del P.P..md",
+                "file": "Probabilidad y Estadistica/Simulación.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilidad y Estadistica/Propiedades del P.P..md"
+                "file": "Probabilidad y Estadistica/Simulación.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilidad y Estadistica/Propiedades del P.P..md",
+                "file": "Probabilidad y Estadistica/Simulación.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilidad y Estadistica/Propiedades del P.P..md",
+                "file": "Probabilidad y Estadistica/Simulación.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,8 +172,8 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
-    "Probabilidad y Estadistica/Simulación.md",
     "Probabilidad y Estadistica/Propiedades del P.P..md",
+    "Probabilidad y Estadistica/Simulación.md",
     "Probabilidad y Estadistica/Propiedades de Variables Aleatorias.md",
     "Probabilidad y Estadistica/Propiedades de V.A..md",
     "Probabilidad y Estadistica/Propiedades de la Esperanza.md",
