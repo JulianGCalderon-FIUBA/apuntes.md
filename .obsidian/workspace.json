@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do.md",
+                "file": "Análisis Numérico/Búsqueda de Raíces.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464.5,
-    "collapsed": true
+    "width": 464.5
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Do.md"
+                "file": "Análisis Numérico/Búsqueda de Raíces.md"
               }
             }
           },
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do.md",
+                "file": "Análisis Numérico/Búsqueda de Raíces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Do.md",
+                "file": "Análisis Numérico/Búsqueda de Raíces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,6 +159,10 @@
   },
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
+    "Análisis Numérico/Bisección.md",
+    "Análisis Numérico/Análisis Numérico.md",
+    "Análisis Numérico/Ajuste.md",
+    "To-Do.md",
     "Modelos y Optimización I/Modelos y Optimización I.md",
     "Modelos y Optimización I/Complejidad de Programación Lineal.md",
     "Modelos y Optimización I/Complejidad de Problemas.md",
@@ -182,10 +185,6 @@
     "Modelos y Optimización I/Programación Lineal Continua.md",
     "Modelos y Optimización I/Introducción.md",
     "Matemática Discreta/Matemática Discreta.md",
-    "Estructura del Computador/Estructura del Computador.md",
-    "Algoritmos II/Algoritmos II.md",
-    "Análisis Numérico/Análisis Numérico.md",
-    "Matemática Discreta/Alfabeto.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
