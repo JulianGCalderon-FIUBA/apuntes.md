@@ -1,68 +1,68 @@
 - $N_n:$ Grafo nulo de orden $n$
 
-	![[Grafos Particulares 1.png]]
+	![[Grafos Particulares 1.png|325]]
 
 - $K_n:$ Grafo simple completo de orden $n$
 
-	![[Grafos Particulares 2.png]]
+	![[Grafos Particulares 2.png|325]]
 
 - $P_n:$ Camino simple de longitud $n$
 
-	![[Grafos Particulares 3.png]]
+	![[Grafos Particulares 3.png|325]]
 
 - $C_n:$ Ciclo de longitud $n$
 
-	![[Grafos Particulares 4.png]]
+	![[Grafos Particulares 4.png|325]]
 
-- $S_n:$ Estrella. Grafo simple conexo de $n$ vertices con un único vértice de grado $n-1$ que se conecta con los $n{-}1$ restantes vertices de grado $1$
+- $S_n:$ Estrella. Grafo simple conexo de $n$ vértices con un único vértice de grado $n-1$ que se conecta con los $n{-}1$ restantes vértices de grado $1$
 
-	![[Grafos Particulares 5.png]]
+	![[Grafos Particulares 5.png|325]]
 
 - $W_n:$ Rueda. Puede pensarse coloquialmente como una estrella y un ciclo en los satélites.
 
-	![[Grafos Particulares 6.png]]
+	![[Grafos Particulares 6.png|219]]
 
 - $\text{Peon}$: Este es un grafo común, utilizado para demostrar muchas propiedades:
 
-![[Grafos Particulares 7.png]]
+![[Grafos Particulares 7.png|325]]
 
-- $2p$-**Corona:** Una $2p$-corona es un bipartito $G(U, V)$ tal que $u_iv_j \in E(G) \iff i\neq j$
+- $2p\text{-Corona}$: Una $2p$-corona es un bipartito $G(U, V)$ tal que $u_iv_j \in E(G) \iff i\neq j$
 
-	![[Grafos Particulares 8.png]]
+	![[Grafos Particulares 8.png|350]]
 
-	Este grafo sera bipartito por su propia definición, pero no sera completo (podemos observarlo en la figura
+	Este grafo será bipartito por su propia definición, pero no será completo (podemos observarlo en la figura
 
-- $p$-**Book:** Definido como $p$ ciclos $C_4$ todos compartiendo una arista en común. Puede ser definida a partir de operaciones, como $B(p) = S_{p+1} \times P_2$.
+- $p\text{-Book}$ Definido como $p$ ciclos $C_4$ todos compartiendo una arista en común. Puede ser definida a partir de operaciones, como $B(p) = S_{p+1} \times P_2$.
 
-	![[Grafos Particulares 9.png]]
+	![[Grafos Particulares 9.png|550]]
 
-	Los libros son bipartitos ya que las estrellas lo son, y los vertices de cada estrella solo son adyacentes a sus análogos en la segunda estrella. De esta forma, se pueden colorear inversamente las estrellas, formando un grafo bipartito
+	Los libros son bipartitos, ya que las estrellas lo son, y los vértices de cada estrella solo son adyacentes a sus análogos en la segunda estrella. De esta forma, se pueden colorear inversamente las estrellas, formando un grafo bipartito
 
-- $**p$-Cube:** Grafo con $2^p$ vertices. Los vertices se etiquetan con una cadena binaria de $p$ digitos, con una arista si la distancia *hamming* es 1. Alternativamente, puede pensarse con el producto cartesiano de $p$ veces $K_2$
+- $p\text{-Cube}$: Grafo con $2^p$ vértices. Los vértices se etiquetan con una cadena binaria de $p$ dígitos, con una arista si la *distancia hamming* es 1. Alternativamente, puede pensarse con el producto cartesiano de $p$ veces $K_2$
 
 	La distancia *hamming* entre dos cadenas indica la cantidad de *bits* distintos
 
-	![[Grafos Particulares 10.png]]
+	![[Grafos Particulares 10.png|500]]
 
 - $W_d(p,q):$ Se define como un molino de $q$ aspas de longitud $p-1$, puede formarse con el ensamble $W_d(p,q) = N_1 * qK_{p-1}$
 
-	![[Grafos Particulares 11.png]]
+	![[Grafos Particulares 11.png|325]]
 
 - $F(p,q):$ El abanico se define por $F(p,q) = N_p * P_q$
 
-	![[Grafos Particulares 12.png]]
+	![[Grafos Particulares 12.png|500]]
 
 - $L_{p,q}:$ **Lollipop.** Es el grafo simple compuesto por el $K_p$ y el grafo $P_q$ conectados por un puente
 - $T_{p,q}:$ **Renacuajo.** Es el grafo simple resultante de conectar $C_p$ con $P_q$ mediante un puente
 
-	![[Grafos Particulares 13.png]]
+	![[Grafos Particulares 13.png|425]]
 
 	*Chupetín* a la izquierda, y Renacuajo a la derecha
 
 - $KP(p,q,l):$ **Remo.** Es el grafo simple resultante de unir el ciclo $C_p$ con el ciclo $C_q$ mediante un *path* de longitud $l$.
 - $B_p:$ **Pesa**. Es el grafo simple obtenido de conectar dos copias de $k_p$ con un puente
 
-	![[Grafos Particulares 14.png]]
+	![[Grafos Particulares 14.png|425]]
 
 	El tamaño del *path* en los últimos cuatro grafos es referido según su longitud, y no la cantidad de sus nodos
 
@@ -70,7 +70,7 @@
 
 	El miembro ilustre de la familia $K(5,2)$ es isomorfo al grafo de *Petersen.*
 
-	![[Grafos Particulares 15.png]]
+	![[Grafos Particulares 15.png|400]]
 
 	Denotamos $ij$ al vector asociado al conjunto ${i, j}$
 
@@ -92,7 +92,7 @@
 
 - $J(p,q):$ **Grafo de Johnson.** Dado un $p$-conjunto $H$ fijo, se define el grafo simple $G = J(p,q)$ con $q \geq 1$, donde $V(G) = \mathcal P_q(H)$ y $uv \in E(G)$ *sii* $|uv| = q-1$. Es decir, dos vertices son adyacentes *sii* la intersección de los conjuntos asociados es de cardinalidad $q-1$. Algunas relaciones particulares son $J(p, 1) \cong J(p, p-1) \cong K_p$. El grafo de *Johnson* generalizo se define como $J(p,q,r)$ donde dos vertices son adyacentes si $|uv| = r$.
 
-	![[Grafos Particulares 16.png]]
+	![[Grafos Particulares 16.png|425]]
 
 	Al igual que con el grafo de *Kneser*, calcularemos el tamaño del grafo a partir del numero combinatorio $\binom pq$.
 

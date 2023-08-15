@@ -6,7 +6,7 @@ Para la matriz de incidencia, definiremos con un $1$ si la arista parte del vér
 
 Para los grados de un grafo, tendremos el grado entrante $d^+$ *(indeg)* y el grado saliente $d^-$ *(outdeg)*. Esto es, el número de aristas que salen o entran a un vértice. De igual forma, definimos las sucesiones $d^+, d^-$. Estas, al igual que antes, se definen en orden no creciente.
 
-Por el conocido **handshaking di-lemma**, la suma de grados entrantes debe ser igual a la suma de grados salientes, y cada suma, a su vez, equivale a la cantidad de aristas.
+Por el conocido *handshaking di-lemma*, la suma de grados entrantes debe ser igual a la suma de grados salientes, y cada suma, a su vez, equivale a la cantidad de aristas.
 
 ## Conectividad
 

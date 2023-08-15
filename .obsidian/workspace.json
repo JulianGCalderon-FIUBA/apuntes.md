@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática Discreta/Grafos Orientados.md",
+                "file": "Matemática Discreta/Grafos Particulares.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática Discreta/Grafos Orientados.md"
+                "file": "Matemática Discreta/Grafos Particulares.md"
               }
             }
           },
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática Discreta/Grafos Orientados.md",
+                "file": "Matemática Discreta/Grafos Particulares.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática Discreta/Grafos Orientados.md",
+                "file": "Matemática Discreta/Grafos Particulares.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,8 +173,8 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
-    "Matemática Discreta/Grafos Particulares.md",
     "Matemática Discreta/Grafos Orientados.md",
+    "Matemática Discreta/Grafos Particulares.md",
     "Matemática Discreta/Ecuaciones de Recurrencia.md",
     "Matemática Discreta/Clasificaciones.md",
     "Matemática Discreta/Caminos y Distancias.md",
