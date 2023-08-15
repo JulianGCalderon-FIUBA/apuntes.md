@@ -15,8 +15,8 @@ Son técnicas que consisten en encontrar una solución a partir de sucesivas apr
 
 Existen dos tipos de métodos iterativos
 
-- *Métodos Estacionarios:* Son fáciles de implementar pero con baja eficiencia
-- *Métodos no Estacionarios:* Son más complejos pero altamente eficientes.
+- **Métodos Estacionarios:** Son fáciles de implementar pero con baja eficiencia
+- **Métodos no Estacionarios:** Son más complejos pero altamente eficientes.
 
 La velocidad a la que convergen estos métodos depende de la estructura de la matriz.
 

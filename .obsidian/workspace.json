@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Numérico/Newton-Raphson.md",
+                "file": "To-Do.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Numérico/Newton-Raphson.md"
+                "file": "To-Do.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Numérico/Newton-Raphson.md",
+                "file": "To-Do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Numérico/Newton-Raphson.md",
+                "file": "To-Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,6 +159,15 @@
   },
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
+    "Análisis Numérico/Trazador Cúbico - Spline.md",
+    "Análisis Numérico/Sistemas no Lineales.md",
+    "Análisis Numérico/Sistemas Lineales.md",
+    "Análisis Numérico/Series de Fourier.md",
+    "Análisis Numérico/Refinamiento Iterativo.md",
+    "Análisis Numérico/Punto Flotante.md",
+    "Análisis Numérico/Newton-Raphson.md",
+    "Análisis Numérico/Polinomio de Hermite.md",
+    "Análisis Numérico/Polinomio de Lagrange y Newton.md",
     "Análisis Numérico/Métodos Iterativos.md",
     "Análisis Numérico/Iteración en un Punto Fijo.md",
     "Análisis Numérico/Interpolación Polinomial.md",
@@ -176,15 +185,6 @@
     "Análisis Numérico/Bisección.md",
     "Análisis Numérico/Análisis Numérico.md",
     "Análisis Numérico/Ajuste.md",
-    "To-Do.md",
-    "Modelos y Optimización I/Modelos y Optimización I.md",
-    "Modelos y Optimización I/Complejidad de Programación Lineal.md",
-    "Modelos y Optimización I/Complejidad de Problemas.md",
-    "Modelos y Optimización I/Heurísticas para el Problema de la Mochila.md",
-    "Modelos y Optimización I/Heurísticas para Coloreo de Grafos.md",
-    "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md",
-    "Modelos y Optimización I/Heurísticas.md",
-    "Modelos y Optimización I/Resolución de P.L.E..md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

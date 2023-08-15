@@ -19,7 +19,7 @@ f(x) = P_n(x) + \frac{f^{(n+1)}(\xi(x))}{(n+1)!}(x - x_0)(x - x_1)\cdots(x - x_n
 $$
 
 > [!note]
-> La dificultad práctica con esta interpolación consiste en que el termino de error es difícil de aplicar y generalmente el grado del polinomio necesario para lograr la exactitud deseada no se conoce antes de calcular.
+> La dificultad práctica con esta interpolación consiste en que el término de error es difícil de aplicar y generalmente el grado del polinomio necesario para lograr la exactitud deseada no se conoce antes de calcular.
 
 ## Polinomio de Newton
 
@@ -41,7 +41,7 @@ $$
 f[x_i, x_{i+1}] = \frac{f[x_{i+1}] - f[x_i]}{x_{i+1} - x_i}
 $$
 
-Siguiendo esta lógica, podemos definir la $k$-esima diferencia dividida como
+Siguiendo esta lógica, podemos definir la $k$-ésima diferencia dividida como
 
 $$
 f[x_i, x_{i+1}, \cdots x_{i+k}] =
@@ -57,7 +57,7 @@ P_N(x) = f[x_0] + \sum_{k=1}^n f[x_0, x_1, \cdots, x_k](x-x_0)\cdots(x - x_{k-1}
 $$
 
 > [!note]
-> Podemos ignorar el ultimo termino de la suma, y utilizarlo como su cota de error.
+> Podemos ignorar el último término de la suma, y utilizarlo como su cota de error.
 
 ### Cálculo del Error
 

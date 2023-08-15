@@ -18,7 +18,7 @@ $$
 $$
 
 > [!note]
-> Este metodo converge para cualquier semilla perteneciente a $D$.
+> Este método converge para cualquier semilla perteneciente a $D$.
 
 ## Newton-Raphson
 
@@ -45,7 +45,7 @@ x^{(k)} = \overline x^{(k-1)} + \overline y^{(k-1)}
 $$
 
 > [!note]
-> Este metodo tiene convergencia cuadratica, al igual que para una sola variable.
+> Este método tiene convergencia cuadrática, al igual que para una sola variable.
 
 ## Métodos Cuasi Newton
 
