@@ -14,9 +14,8 @@ $$
 p_{X,Y}(x,y) = p_{Y | X = x}(y) p_X(x) = p_{X | Y = y}(x) p_Y(y)
 $$
 
-**Propiedad Útil:**
-
-Sean $X,Y$ variables aleatorias discretas tal que $p_{Y | X = x}(y) = p_Y(y)$, entonces podemos decir que $X,Y$ son independientes.
+> [!tip] Propiedad Útil
+> Sean $X,Y$ variables aleatorias discretas tal que $p_{Y | X = x}(y) = p_Y(y)$, entonces podemos decir que $X,Y$ son independientes.
 
 ## Vectores Aleatorios Continuos
 

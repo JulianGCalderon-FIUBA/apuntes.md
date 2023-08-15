@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilidad y Estadistica/Variables Aleatorias.md",
+                "file": "Probabilidad y Estadistica/Vectores Aleatorios.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilidad y Estadistica/Variables Aleatorias.md"
+                "file": "Probabilidad y Estadistica/Vectores Aleatorios.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilidad y Estadistica/Variables Aleatorias.md",
+                "file": "Probabilidad y Estadistica/Vectores Aleatorios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilidad y Estadistica/Variables Aleatorias.md",
+                "file": "Probabilidad y Estadistica/Vectores Aleatorios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,9 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Probabilidad y Estadistica/Varianza Condicional.md",
+    "Probabilidad y Estadistica/Variables Aleatorias Condicionadas.md",
+    "Probabilidad y Estadistica/Variables Aleatorias.md",
     "Probabilidad y Estadistica/Test de Hipótesis.md",
     "Probabilidad y Estadistica/Teoremas Útiles.md",
     "Probabilidad y Estadistica/Teorema Central del Límite.md",
@@ -195,9 +198,6 @@
     "Probabilidad y Estadistica/Estimadores.md",
     "Introducción a Sistemas Distribuidos/Breaking WEP.md",
     "Probabilidad y Estadistica/Estimación Bayesiana.md",
-    "Probabilidad y Estadistica/Estadísticos.md",
-    "Probabilidad y Estadistica/Esperanza para Vectores.md",
-    "Probabilidad y Estadistica/Esperanza Condicional.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

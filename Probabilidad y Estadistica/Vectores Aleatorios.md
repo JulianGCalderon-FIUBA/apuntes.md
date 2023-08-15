@@ -1,6 +1,4 @@
-Sea $(\Omega, \mathscr A, P)$
-
-  un espacio muestral, se dice que $X = (X_1, X_2, \cdots, X_n)$ es un vector aleatorio de dimensión $n$, si para cada $J = 1, \cdots, n$, $X_j: \Omega \to \mathbb{R}$ es una variable aleatoria.
+Sea $(\Omega, \mathscr A, P)$ un espacio muestral, se dice que $X = (X_1, X_2, \cdots, X_n)$ es un vector aleatorio de dimensión $n$, si para cada $J = 1, \cdots, n$, $X_j: \Omega \to \mathbb{R}$ es una variable aleatoria.
 
 Para todo $x = (x_1, \cdots, x_n) \in \mathbb{R}^n$ se tendrá que
 
@@ -12,13 +10,13 @@ Un vector aleatorio es un vector formado por variables aleatorias.
 
 ## Función de Distribución
 
-Sea $\Bbb X = (X_1, \cdots,X_n)$ un vector aleatorio continua de dimension $n$, entonces definimos la función de distribución como
+Sea $\Bbb X = (X_1, \cdots,X_n)$ un vector aleatorio continuo de dimensión $n$, entonces definimos la función de distribución como
 
 $$
 F_{\Bbb X}(x) = P(X_1 \leq x_1, \cdots, X_n \leq x_n)
 $$
 
-**Propiedades:** $\Bbb X = (X,Y)$
+### Propiedades con $\Bbb X = (X,Y)$
 
 1. $\lim\limits_{x,y \to \infty} F_{\Bbb X}(x) = 1, \lim\limits_{x \to -\infty} F_{\Bbb X}(x) = 0, \lim\limits_{y \to -\infty} F_{\Bbb X}(x) = 0$
 2. $F_{\Bbb X}(x)$ es monótona no decreciente en cada variable
@@ -53,7 +51,7 @@ $$
 
 ## Función de Densidad
 
-Para un vector aleatorio continua, se define función de densidad a una función que satisface
+Para un vector aleatorio continuo, se define función de densidad a una función que satisface
 
 1. $f_{x,y}(x,y) \geq 0$
 2. $\int_{-\infty}^\infty\int_{-\infty}^\infty f_{x,y}(x,y) dxdy = 1$
