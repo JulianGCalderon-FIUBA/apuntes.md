@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática Discreta/Operaciones entre Grafos.md",
+                "file": "Matemática Discreta/Relaciones.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática Discreta/Operaciones entre Grafos.md"
+                "file": "Matemática Discreta/Relaciones.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática Discreta/Operaciones entre Grafos.md",
+                "file": "Matemática Discreta/Relaciones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática Discreta/Operaciones entre Grafos.md",
+                "file": "Matemática Discreta/Relaciones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,11 +172,12 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Matemática Discreta/Operaciones entre Grafos.md",
+    "Matemática Discreta/Relaciones.md",
     "Matemática Discreta/Nociones Básicas de Grafos.md",
     "Matemática Discreta/Grafos Orientados.md",
     "Matemática Discreta/Espectro de un Grafo.md",
     "Matemática Discreta/Matemática Discreta.md",
-    "Matemática Discreta/Operaciones entre Grafos.md",
     "Matemática Discreta/Isomorfismos.md",
     "Matemática Discreta/Inducción.md",
     "Matemática Discreta/Grafos Particulares.md",
@@ -197,7 +198,6 @@
     "Probabilidad y Estadistica/Mezcla de Variables Aleatorias.md",
     "Probabilidad y Estadistica/Intervalos de Confianza.md",
     "Probabilidad y Estadistica/Inferencia Estadística.md",
-    "Probabilidad y Estadistica/Hipótesis Estadística.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

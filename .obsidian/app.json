@@ -89,6 +89,13 @@
     "hamiltoniano",
     "semihamiltoniano",
     "path",
-    "multiconjunto"
+    "multiconjunto",
+    "Disjunta",
+    "disjunta",
+    "subgrafos",
+    "deck",
+    "edge",
+    "reconstruible",
+    "bidual"
   ]
 }

@@ -42,15 +42,15 @@ El conjunto donde se ha introducido esa relación se llama conjunto ordenado.
 2. Antisimétrica: $\forall a,b \in A: (aRb, bRa) \to a=b$
 3. Transitiva: $\forall a,b,c \in A: (aRb, bRc) \to aRc$
 
-Se dice que $(a, R)$ es un conjunto parcialmente ordenado, o es POSET. De ahora en más, se utilizara el símbolo $\leq$ para representar una relación de orden. $aRb = a ≤ b$
+Se dice que $(a, R)$ es un conjunto parcialmente ordenado, o es poset. De ahora en más, se utilizará el símbolo $\leq$ para representar una relación de orden. $aRb = a ≤ b$
 
-Se dice orden parcial ya que no todos los elementos están en relación entre sí. La relación sólo está presente para un subconjunto de los elementos. $a \nleq b$ no implica $a \geq b$.
+Se dice orden parcial, ya que no todos los elementos están en relación entre sí. La relación solo está presente para un subconjunto de los elementos. $a \nleq b$ no implica $a \geq b$.
 
 ### Diagrama de Hasse
 
 Sea $A = \{1,2,3\}$, en $P(a)$ (todos los subconjuntos de $A$) se define la relación de orden $\subseteq$.
 
-El **diagrama de Hasse** ordena los elementos de un conjunto de forma ascendente. uniendolos con una arista si son sucesores inmediatos.
+El **diagrama de Hasse** ordena los elementos de un conjunto de forma ascendente, uniéndolos con una arista si son sucesores inmediatos.
 
 ```mermaid
 graph LR
