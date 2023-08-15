@@ -41,7 +41,7 @@ $$
 
 ## Materiales LIH
 
-Si los materiales son **LIH**, (lineales, isótropos, y homogéneos) entonces podemos encontrar una relación lineal entre los campos mencionados.
+Si los materiales son LIH (lineales, isótropos, y homogéneos), entonces podemos encontrar una relación lineal entre los campos mencionados.
 
 $$
 \vec M = X_M \cdot \vec H

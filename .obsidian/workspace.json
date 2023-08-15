@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física II/Ley de Gauss.md",
+                "file": "Física II/Materiales Magnéticos.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "LIH",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física II/Ley de Gauss.md"
+                "file": "Física II/Materiales Magnéticos.md"
               }
             }
           },
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física II/Ley de Gauss.md",
+                "file": "Física II/Materiales Magnéticos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física II/Ley de Gauss.md",
+                "file": "Física II/Materiales Magnéticos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,9 +173,12 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
-    "Física II/Ley de Faraday.md",
+    "Física II/Dieléctricos.md",
+    "Física II/Materiales Magnéticos.md",
+    "Física II/Potencia Activa y Reactiva.md",
     "Física II/Ley de Gauss.md",
     "Física II/Ley de Coulomb.md",
+    "Física II/Ley de Faraday.md",
     "Física II/Ley de Biot y Savalt.md",
     "Física II/Ley de Ampere.md",
     "Física II/Inductores.md",
@@ -182,7 +186,6 @@
     "Física II/Física II.md",
     "Física II/Fasores Complejos.md",
     "Física II/Ecuaciones de Maxwell.md",
-    "Física II/Dieléctricos.md",
     "Física II/Corriente Continua.md",
     "Física II/Corriente Alterna.md",
     "Física II/Conductores.md",
@@ -196,8 +199,6 @@
     "Física I/Trabajo y energía.md",
     "Física I/Teoría de medida.md",
     "Física I/Superposición de Onda.md",
-    "Física I/Sistema de referencia no inercial.md",
-    "Física I/Sistema de partículas.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
