@@ -1,6 +1,6 @@
-El método **Simplex**, desarrollado por *George Dantzig* en 1947, se utiliza para resolver problemas de programación lineal continua, de forma eficiente.
+El **método Símplex**, desarrollado por George Dantzig en 1947, se utiliza para resolver problemas de programación lineal continua, de forma eficiente.
 
-Una vez planteado el problema con las inecuaciones, el modelo deberá transformar las inecuaciones en igualdades utilizando las variables *slack*.
+Una vez planteado el problema con las inecuaciones, el modelo deberá transformar las inecuaciones en igualdades utilizando las variables slack.
 
 > [!example]- Planteo Del Problema
 > 
@@ -15,7 +15,7 @@ Una vez planteado el problema con las inecuaciones, el modelo deberá transforma
 > end;
 > ```
 > 
-> Automáticamente, el *software* generará las variables *slack* necesarias para convertir las desigualdades en igualdades. Además, en el funcional todas la variables deben tener un coeficiente (puede ser cero)
+> Automáticamente, el software generará las variables slack necesarias para convertir las desigualdades en igualdades. Además, en el funcional todas las variables deben tener un coeficiente (puede ser cero)
 > 
 > ```bash
 > maximize 8*X1 + 10*X2 + 0*X3 + 0*X4 + 0*X5;
@@ -39,11 +39,11 @@ $$
 
 Se definen las variables:
 
-- $c_j:$ Son los coeficientes asociados a las variables $x_j$. Las variables *slack* también seran tenidas en cuenta.
+- $c_j:$ Son los coeficientes asociados a las variables $x_j$. Las variables slack también serán tenidas en cuenta.
 - $a_{ij}:$ El coeficiente de la variable $j$ en la restricción $i$
-- $b_i:$ El termino independientes de la restricción $i$
+- $b_i:$ El término independientes de la restricción $i$
 
-Matricialmente podremos reescribir el modelo,
+Matricialmente, podremos reescribir el modelo,
 
 $$
 \begin{align*}
@@ -96,19 +96,19 @@ Análogamente, definimos, siendo $n$ la cantidad de variables, y $m$ la cantidad
 > \end{pmatrix}
 > $$
 > 
-> Notamos que debido a las restricciones *slack*, podremos hallar una matriz identidad dentro de $A$.
+> Notamos que debido a las restricciones slack, podremos hallar una matriz identidad dentro de $A$.
 
 ## Teoremas
 
 Debido a que el funcional es una función lineal, hallaremos el máximo (o el mínimo) en uno de los vértices del poliedro de soluciones factibles. Para reconocer un vértice, sabemos que la cantidad máxima de variables que pueden ser distintas de cero en un vértice es igual a la cantidad de restricciones que tiene el problema (en nuestro caso hay tres restricciones).
 
-Para desarrollar el método, *Dantzig* se basó en varios teoremas:
+Para desarrollar el método, Dantzig se basó en varios teoremas:
 
 ### Teorema 1
 
 El conjunto de todas las soluciones factibles a un problema de programación lineal es un conjunto convexo (poliedro convexo).
 
-A partir ***de este teorema, podemos concluir que cuando encontramos un óptimo local (su funcional es mayor al de todos sus vértices adyacentes), entonces estamos también ante un óptimo global.
+A partir de este teorema, podemos concluir que cuando encontramos un óptimo local (su funcional es mayor al de todos sus vértices adyacentes), entonces estamos también ante un óptimo global.
 
 ### Teorema 2
 
@@ -120,7 +120,7 @@ Si se puede encontrar en la matriz $A$ del problema un conjunto de $m$ vectores 
 
 $X$ es un vector $n$-dimensional cuyos últimos $n-k$ elementos son cero.
 
-Para encontrarse en un extremo, deben intersecar $n-k$ restricciones, por cada restriccisón, su variable *slack* debe ser 0, entonces hay por lo menos $n - k$ variables que valen cero. Luego a lo sumo tendremos $k$ variables con valor positivo.
+Para encontrarse en un extremo, deben intersecar $n-k$ restricciones, por cada restricción, su variable slack debe ser 0, entonces hay por lo menos $n - k$ variables que valen cero. Luego a lo sumo tendremos $k$ variables con valor positivo.
 
 ### Teorema 4
 
@@ -136,7 +136,7 @@ Como consecuencia, se deduce que:
 
 1. Existe un punto extremo del poliedro de $K$ soluciones factibles en el cual la función objetivo alcanza su máximo (mínimo).
 2. Cada solución factible básica corresponde a un punto extremo del poliedro solución $K$
-3. Cada punto extremo de $K$ tiene asociados, a el $m$ vectores linealmente independientes del conjunto dado de $n$ vectores asociados con el. Estos corresponderán a los asociados a las variables positivas. Las restantes variables tendran valores nulos.
+3. Cada punto extremo de $K$ tiene asociados, al $m$ vectores linealmente independientes del conjunto dado de $n$ vectores asociados con él. Estos corresponderán a los asociados a las variables positivas. Las restantes variables tendrán valores nulos.
 
 ## Resolución
 
@@ -160,7 +160,7 @@ El significado de las columnas será, para un vértice dado:
 - $B:$ Valor que toman las variables que son distintas de cero.
 - $A_j:$ Columna $j$ de la matriz $A$
 
-El método simplex elige comenzar por el vértice en el cual las variables reales son cero. Esto tiene la ventaja de que los vectores de las variables positiva son canónicos distintos y, por lo tanto, linealmente independientes:
+El método símplex elige comenzar por el vértice en el cual las variables reales son cero. Esto tiene la ventaja de que los vectores de las variables positivos son canónicos distintos y, por lo tanto, linealmente independientes:
 
 > [!example]- Vectores Iniciales
 > 
@@ -217,7 +217,7 @@ El método simplex elige comenzar por el vértice en el cual las variables reale
 > B
 > $$
 > 
-> Entonces, un punto extremo sera $X = (0, 0, 600, 600, 801)$ debido a que los vectores asociados a las componentes positivas forman la base canónica.
+> Entonces, un punto extremo será $X = (0, 0, 600, 600, 801)$ debido a que los vectores asociados a las componentes positivas forman la base canónica.
 
 > [!example]- Tabla Inicial
 > 
@@ -229,13 +229,13 @@ El método simplex elige comenzar por el vértice en el cual las variables reale
 > | 0 | $x_4$ | 600 | 0 | 4 | 0 | 1 | 0 |
 > | 0 | $x_5$ | 801 | 2 | 4 | 0 | 0 | 1 |
 
-### ¿Como sabemos si el vértice hallado es óptimo?
+### ¿Cómo sabemos si el vértice hallado es óptimo?
 
 Siendo $A$ la matriz de la tabla, se define $A_{ij}$ como la reducción de la variable $i$ por cada unidad de $j$ que aumento. Entonces $z_j$ equivale a la reducción del funcional esperada por cada unidad de $j$ que me fuerzo a producir, sin tener en cuenta la mejora de funcional que obtengo tras agregar la unidad.
 
-Debemos calcular, para cada columna $A_j$, el valor de $z_j - c_j$, siendo $z_j = C \times A_j$. Este sera el desmejoro unidad total si se introduce la variable $x_j$ a la base. Para cada tabla, se calcula el próximo funcional como $Z_{p+1} = Z_p - \theta_{\min}(z_j - c_j)$
+Debemos calcular, para cada columna $A_j$, el valor de $z_j - c_j$, siendo $z_j = C \times A_j$. Este será el desmejoro unidad total si se introduce la variable $x_j$ a la base. Para cada tabla, se calcula el próximo funcional como $Z_{p+1} = Z_p - \theta_{\min}(z_j - c_j)$
 
-> [!example]- Calculo de $z_j - c_j$
+> [!example]- Cálculo de $z_j - c_j$
 > Calculamos para cada columna:
 > 
 > | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
@@ -253,13 +253,13 @@ Si existe alguna columna $j$ de la matriz $A$ para la cual $z_j - c_j < 0$ (para
 
 Dado un $Z$ de máximo, si para una solución básica factible $X = (x_1, x_2, \cdots, x_m)$ las condiciones $z_j - c_j \geq 0$ se cumplen para todas las $j = 1, \cdots, n$, entonces $X$ es una solución factible máxima.
 
-### ¿Como encontramos el próximo vértice?
+### ¿Cómo encontramos el próximo vértice?
 
-Para hallar el nuevo vértice, un vector debe salir de la base, y otro debe entrar. Para determinar cual vector ingresa, elegimos alguno cuyo $z_j - c_j$ sea negativo.
+Para hallar el nuevo vértice, un vector debe salir de la base, y otro debe entrar. Para determinar cuál vector ingresa, elegimos alguno cuyo $z_j - c_j$ sea negativo.
 
-Para determinar que vector sale de la base, debemos calcular el coeficiente $\theta$ para cada vector de la base. Siendo $j$ el vector entrante a la base, se calculara como $\theta_i = B_i/A_{ij}$, para todas las filas de la tabla con coeficiente positivo:
+Para determinar que vector sale de la base, debemos calcular el coeficiente $\theta$ para cada vector de la base. Siendo $j$ el vector entrante a la base, se calculará como $\theta_i = B_i/A_{ij}$, para todas las filas de la tabla con coeficiente positivo:
 
-- Si el coeficiente es negativo, entonces la variable saliente aumentara por lo que nunca se podrá llegar a cero (no podremos sacar a esta variable).
+- Si el coeficiente es negativo, entonces la variable saliente aumentara, por lo que nunca se podrá llegar a cero (no podremos sacar a esta variable).
 - Si el coeficiente es cero, nuevamente no podremos sacar la variable ya que esto indicaria que son independientes ambas variables (al aumentar una, la otra permanece constante).
 - Si el coeficiente es positivo, entonces el valor indica cuanto debo utilizar de la variable entrante para reducir la variable saliente a cero.
 
@@ -368,7 +368,7 @@ $$
 x_1 \geq 2
 $$
 
-Luego de agregar las variables *slack*, tendremos:
+Luego de agregar las variables slack, tendremos:
 
 $$
 x_1 - x_2 = 2
