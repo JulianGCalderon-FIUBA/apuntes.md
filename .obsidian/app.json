@@ -96,6 +96,13 @@
     "deck",
     "edge",
     "reconstruible",
-    "bidual"
+    "bidual",
+    "disjuntas",
+    "Hadamard",
+    "Hasse",
+    "poset",
+    "anticlique",
+    "Anticlique",
+    "matching"
   ]
 }

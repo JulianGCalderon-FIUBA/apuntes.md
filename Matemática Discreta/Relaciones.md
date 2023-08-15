@@ -188,16 +188,14 @@ graph TD
 
 Podemos ver que al introducir una relación de equivalencia en un conjunto, formaremos pequeños *clústeres* aislados en el conjunto, de modo que cualquier elemento de un *clúster* está en relación todos los elementos del mismo clúster, y con ningún elemento fuera del clúster
 
-Sea $a \in A$, La clase de $a$ se denomina $[a] = \{x \in A: aRx\}$. Normalmente, se elige un representante de cada clase
+> [!definition] Definición
+> Sea $a \in A$, La clase de $a$ se denomina $[a] = \{x \in A: aRx\}$. Normalmente, se elige un representante de cada clase.
 
-> [!note]
-> Las clases no son vacías, esto es inmediato debido a la reflexividad.
+Las clases no son vacías, esto es inmediato debido a la reflexividad.
 
-> [!note]
-> Dos clases distintas son disjuntas, si un elemento pertenece a más de una clase, entonces debido a la transitividad y la reflexividad estas clases se juntarían.
+Dos clases distintas son disjuntas, si un elemento pertenece a más de una clase, entonces debido a la transitividad y la reflexividad estas clases se juntarían.
 
-> [!note]
-> La relación de equivalencia introduce una partición de clases, coloquialmente conocida como partición. Todos los elementos están en por lo menos una clase y las clases son disjuntas.
+La relación de equivalencia introduce una partición de clases, coloquialmente conocida como partición. Todos los elementos están en por lo menos una clase y las clases son disjuntas.
 
-> [!note]
-> **Definición 2:** Definimos $A/R$ como el conjunto de clases de $A$ bajo la relación de equivalencia de $R$. $A/R = \{[a]: a \in A\}$
+> [!definition] Definición
+> Definimos $A/R$ como el conjunto de clases de $A$ bajo la relación de equivalencia de $R$. $A/R = \{[a]: a \in A\}$
