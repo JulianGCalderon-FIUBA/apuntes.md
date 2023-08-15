@@ -1,6 +1,6 @@
 ## Función de Variable Aleatoria
 
-Sea $Y = g(X)$ una función de variable aleatorio, siendo $X$ una **V.A.D,** $Y$ será discreta, con
+Sea $Y = g(X)$ una función de variable aleatorio, siendo $X$ una V.A.D., $Y$ será discreta, con:
 
 $$
 \begin{align}
