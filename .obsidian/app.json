@@ -76,6 +76,7 @@
     "Poisson",
     "Cuantil",
     "DFA",
-    "Boole"
+    "Boole",
+    "contrarrecíproca"
   ]
 }

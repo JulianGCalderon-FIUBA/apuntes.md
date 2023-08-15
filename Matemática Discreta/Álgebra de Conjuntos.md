@@ -115,7 +115,7 @@ $$
 A-B \overset{\text{def}}{=} AB'
 $$
 
-El **OR** exclusivo, o **XOR,** se simboliza con $A \oplus B$ y representa aquellos elementos que se encuentren en $A$ o en $B$, pero no en ambos. Es el complemento de si solo si.
+El **OR** exclusivo, o **XOR,** se simboliza con $A \oplus B$ y representa aquellos elementos que se encuentren en $A$ o en $B$, pero no en ambos. Es el complemento de equivalencia (si y solo si).
 
 $$
 A \oplus B \overset{\text{def}}{=} A'B + AB'
@@ -148,14 +148,11 @@ $$
 
 Diremos que $P$ es el conjunto de veracidad de la función proposicional $p(x)$. Son aquellos valores de $x$ para los cuales el $p(x) = 1$. Podremos definir operaciones entre los conjuntos de veracidad:
 
-> [!note]
-> **Disyunción**: Definimos la disyunción $P\cup Q$ como el conjunto de elementos que se encuentran o en $P$, o en $Q$. De forma análoga, considerando las funciones proposicionales correspondientes $p + q$.
+**Disyunción**: Definimos la disyunción $P\cup Q$ como el conjunto de elementos que se encuentran o en $P$, o en $Q$. De forma análoga, considerando las funciones proposicionales correspondientes $p + q$.
 
-> [!note]
-> **Conjunción:** Definimos la conjunción $P\cap Q$ como el conjunto de elementos que se encuentran tanto en $P$ como en $Q$. De forma análoga, considerando las funciones proposicionales correspondientes, denotamos $pq$
+**Conjunción:** Definimos la conjunción $P\cap Q$ como el conjunto de elementos que se encuentran tanto en $P$ como en $Q$. De forma análoga, considerando las funciones proposicionales correspondientes, denotamos $pq$
 
-> [!note]
-> **Negación:** Definimos la negación $P'$ como el conjunto de elementos que no pertenecen a $P$. De forma análoga, considerando las funciones proposicionales correspondientes, denotamos $p'$
+**Negación:** Definimos la negación $P'$ como el conjunto de elementos que no pertenecen a $P$. De forma análoga, considerando las funciones proposicionales correspondientes, denotamos $p'$
 
 ## Demostraciones de Equivalencia
 
@@ -164,7 +161,7 @@ Para demostrar que dos proposiciones $p, q$ son equivalentes, debemos demostrar 
 1. $P \subseteq Q$
 2. $Q \subseteq P$
 
-Otra forma de demostrar la igualdad de dos funciones es que estas toman en el mismo valor para todo elemento del dominio. Aprovechando que las proposiciones únicamente tienen dos valores, basta con demostrar que se cumple que $v(p) = 1$ si y sólo si $q(p) = 1$. Nótese que el análisis análogo con $v(p) = 0$ también es valido.
+Otra forma de demostrar la igualdad de dos funciones es que estas toman en el mismo valor para todo elemento del dominio. Aprovechando que las proposiciones únicamente tienen dos valores, basta con demostrar que se cumple que $v(p) = 1$ si y solo si $q(p) = 1$. Nótese que el análisis análogo con $v(p) = 0$ también es válido.
 
 Para las demostraciones en los conjuntos de veracidad, usualmente será más simple si tratamos de hallar una expresión equivalente igualada al vacío. Para esto, utilizaremos la identidad
 
@@ -180,22 +177,22 @@ $$
 
 Es muy importante utilizar las definiciones, los supuestos, y las propiedades en cada paso del desarrollo, para demostrar la equivalencia de forma correcta.
 
-A veces, demostrar una implicancia es complicada, por lo que se puede trabajar con la contrarrecíproca, la cual es equivalente. A su vez, la contraria es equivalente a la reciproca
+A veces, demostrar una implicancia es complicada, por lo que se puede trabajar con la contrarrecíproca, la cual es equivalente. A su vez, la contraria es equivalente a la recíproca
 
 $$
-\text{Original}: p \to q
+\begin{theorem}
+asd
+\end{theorem}
 $$
 
-$$
-\text{Contraria}: p' \to q'
-$$
+\begin{matrix}
 
-$$
-\text{Reciproca}: q \to p
-$$
+\text{Original}: p \to q & \text{Contraria}: p' \to q' \\
 
-$$
-\text{Contra-reciproca}: q' \to p'
+\text{Reciproca}: q \to p & \text{Contra-reciproca}: q' \to p'
+
+\end{matrix}
+
 $$
 
 ## Equivalencias Útiles
@@ -218,11 +215,17 @@ Es más simple trabajar con expresiones que están igualadas al vacío (o a la i
 ## Invalidez de la Cancelación
 
 $$
+
 \begin{align*}
+
 \text{En los numeros reales }: \quad& p + q = q \implies p = 0 \\
+
 \text{En logica proposicional}: \quad& p + q = q \implies p = pq \\
+
 \text{En algebra de conjuntos}: \quad& p + q = q \implies p \subset Q
+
 \end{align*}
+
 $$
 
 En álgebra de conjuntos y de proposiciones, la **cancelación** de términos es inválida. Notemos que si bien las soluciones triviales son válidas, estas no son la solución completa.
@@ -232,13 +235,17 @@ En álgebra de conjuntos y de proposiciones, la **cancelación** de términos es
 Existen dos formas canónicas. La primera se llama forma canónica de suma de productos. Busca representar las regiones de validez a partir de productos sumados
 
 $$
+
 f(p, q, r) = pqr + pq'r + pqr' + p'qr + pq'r'\tag{Ej.}
+
 $$
 
 Otra forma es la de representar las regiones de invalidez a partir de un producto de sumas
 
 $$
+
 f(p, q, r) = (p + q + r)(p + q + r')(p + q' + r)\tag{Ej.}
+
 $$
 
 Nótese que la primer forma tiene 5 términos, mientras que la segunda tiene 3 términos. Sumando a un total de 8 regiones (el cardinal del dominio).
@@ -246,6 +253,7 @@ Nótese que la primer forma tiene 5 términos, mientras que la segunda tiene 3 t
 ## Identidades del Álgebra de Proposiciones
 
 $$
+
 \begin{align*}
 
 \text{a) Conmutatividad}&:\quad p + q = q + p,\quad pq=qp \\
@@ -269,6 +277,7 @@ $$
 \text{j) Absorcion}&:\quad p + pq = p,\quad p(p+q) = p\\
 
 \end{align*}
+
 $$
 
 Nota: en sus respectivos conjuntos de igualdad se cumplen las mismas identidades.
@@ -276,11 +285,15 @@ Nota: en sus respectivos conjuntos de igualdad se cumplen las mismas identidades
 Las leyes de **De Morgan** también se cumplen para las operaciones $\uparrow$ y $\downarrow$
 
 $$
+
 (p\uparrow q)' = p'\downarrow q'
+
 $$
 
 $$
+
 (p\downarrow q)' = p'\uparrow q'
+
 $$
 
 ## Soluciones del Algebra de Proposiciones
@@ -288,7 +301,9 @@ $$
 En el álgebra de proposiciones, encontrar soluciones a ecuaciones no es tan directo como en los reales. Solucionar la $X$ de una ecuación implica encontrar las cotas inferiores y superiores de la misma. La solución usualmente tomará la siguiente forma.
 
 $$
+
 f(X) \subseteq X \subseteq g(X)
+
 $$
 
 ## Juegos Completos
