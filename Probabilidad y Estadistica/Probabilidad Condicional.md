@@ -22,7 +22,7 @@ Decimos que los eventos $B_1, B_2, \cdots, B_k$ es una partición de $\Omega$ si
 
 Es decir, divido todo $\Omega$ en $k$ conjuntos mutuamente excluyentes dos a dos.
 
-## Formula de Probabilidad Total
+## Fórmula de Probabilidad Total
 
 Sea el conjunto de eventos $B$ una partición de $\Omega$, entonces
 
@@ -40,8 +40,8 @@ $$
 
 ## Diagrama de Árbol
 
-Un diagrama de árbol es una forma grafica de mostrar los distintos resultados del experimento aleatorio. Cada ramificación del árbol contiene a su vez, distintos eventos que pueden resultar de el.
+Un diagrama de árbol es una forma gráfica de mostrar los distintos resultados del experimento aleatorio. Cada ramificación del árbol contiene, a su vez, distintos eventos que pueden resultar de él.
 
-![[Probabilidad Condicional 1.png]]
+![[Probabilidad Condicional 1.png|450]]
 
-Podemos ver que los elementos de nuestro algebra de eventos son $A, B, C, D$. A su vez, $A,B$ es una partición de $\Omega$. Por lo que los eventos $C, D$ se pueden escribir en función de sus probabilidades respecto a $A,B$, a partir del *teorema de Bayes*.
+Podemos ver que los elementos de nuestra álgebra de eventos son $A, B, C, D$. A su vez, $A,B$ es una partición de $\Omega$. Por lo que los eventos $C, D$ se pueden escribir en función de sus probabilidades respecto a $A,B$, a partir del teorema de Bayes.

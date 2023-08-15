@@ -1,9 +1,9 @@
 ## Definiciones
 
-- **Experimento Aleatorio:** Conozco todos los posibles resultados, pero no sé cuál va a ocurrir
-- **Espacio Muestral $\Omega$:** Conjunto de resultados posibles del experimento aleatorio
-- **Evento $A \in \Omega$:** Resultado particular del experimento
-- **Frecuencia Relativa:** Cuantas veces ocurre un evento particular en un número determinado de eventos
+- **Experimento Aleatorio:** Conozco todos los posibles resultados, pero no sé cuál va a ocurrir.
+- **Espacio Muestral $\Omega$:** Conjunto de resultados posibles del experimento aleatorio.
+- **Evento $A \in \Omega$:** Resultado particular del experimento.
+- **Frecuencia Relativa:** Cuantas veces ocurre un evento particular en un número determinado de eventos.
 - **Espacio Equiprobable:** Todos los elementos del espacio muestral tienen la misma probabilidad de ocurrir.
 
 $$

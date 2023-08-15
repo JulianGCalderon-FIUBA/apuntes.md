@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilidad y Estadistica/Probabilidad.md",
+                "file": "Probabilidad y Estadistica/Proceso Bernoulli.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilidad y Estadistica/Probabilidad.md"
+                "file": "Probabilidad y Estadistica/Proceso Bernoulli.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilidad y Estadistica/Probabilidad.md",
+                "file": "Probabilidad y Estadistica/Proceso Bernoulli.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilidad y Estadistica/Probabilidad.md",
+                "file": "Probabilidad y Estadistica/Proceso Bernoulli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,9 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
+    "Probabilidad y Estadistica/Probabilidad Condicional.md",
+    "Probabilidad y Estadistica/Probabilidad.md",
     "Probabilidad y Estadistica/Modelos Paramétricos.md",
     "Probabilidad y Estadistica/Mezcla de Variables Aleatorias.md",
     "Probabilidad y Estadistica/Intervalos de Confianza.md",
@@ -186,7 +189,6 @@
     "Probabilidad y Estadistica/Esperanza Condicional.md",
     "Probabilidad y Estadistica/Distribuciones Importantes.md",
     "Probabilidad y Estadistica/Propiedades del P.P..md",
-    "Probabilidad y Estadistica/Probabilidad y Estadistica.md",
     "Probabilidad y Estadistica/Esperanza para Variables.md",
     "Probabilidad y Estadistica/Distribuciones Continuas.md",
     "Probabilidad y Estadistica/Distribución Normal.md",
@@ -196,8 +198,6 @@
     "Análisis Matemático II/Integrales de Línea.md",
     "Análisis Matemático II/Integrales de Superficie.md",
     "Análisis Matemático II/Integrales Dobles.md",
-    "Análisis Matemático II/Integrales Triples.md",
-    "Análisis Matemático II/Límites.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
