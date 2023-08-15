@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis Matemático II/Integrales Triples.md",
+                "file": "Análisis Matemático II/Límites.md",
                 "mode": "source",
                 "source": true
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análisis Matemático II/Integrales Triples.md"
+                "file": "Análisis Matemático II/Límites.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis Matemático II/Integrales Triples.md",
+                "file": "Análisis Matemático II/Límites.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis Matemático II/Integrales Triples.md",
+                "file": "Análisis Matemático II/Límites.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,7 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Análisis Matemático II/Integrales Triples.md",
     "Análisis Matemático II/Integrales Dobles.md",
     "Análisis Matemático II/Integrales de Superficie.md",
     "Análisis Matemático II/Integrales de Línea.md",
@@ -197,7 +198,6 @@
     "Física II/Potencia Activa y Reactiva.md",
     "Física II/Materiales Magnéticos.md",
     "Física II/Dieléctricos.md",
-    "Física II/Ley de Gauss.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
