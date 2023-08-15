@@ -5,7 +5,7 @@
 - [x] [[Física II]]
 - [x] [[Análisis Matemático II]]
 - [x] [[Probabilidad y Estadistica]]
-- [ ] [[Matemática Discreta]]
+- [x] [[Matemática Discreta]]
 - [ ] [[Modelos y Optimización I]]
 - [ ] [[Análisis Numérico]]
 - [ ] [[Estructura del Computador]]

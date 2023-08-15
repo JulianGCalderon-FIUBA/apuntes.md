@@ -12,7 +12,7 @@ Un clique/anticlique es maximal si no es un subconjunto de otro*.*
 
 ## Cubrimiento de vértices
 
-Sea $G$ un grafo, $S \subset V(G)$ es un cubrimiento de vértices si y solo si cualquier arista $uv \in E(G)$ tiene uno de sus extremos en $S$.
+Sea $G$ un grafo, $S \subset V(G)$ es un **cubrimiento de vértices** si y solo si cualquier arista $uv \in E(G)$ tiene uno de sus extremos en $S$.
 
 - El invariante $\beta(G)$ define el cardinal del mínimo cubrimiento
 - Un cubrimiento de vértices es minimal si este no incluye a otro cubrimiento de vértices.
@@ -25,14 +25,14 @@ Si $T$ es un conjunto independiente de vértices, no hay ninguna arista entre cu
 
 ## Dominación de vértices
 
-Sea $G$ u grafo, $S \in V(G)$ es un conjunto de vértices dominantes si y solo si $\bigcup_{v \in S}$ $\Gamma(v) = V(G)$. Este es fuertemente dominante si se cumple la propiedad con el entorno cerrado $\Gamma[v)$
+Sea $G$ u grafo, $S \in V(G)$ es un conjunto de vértices **dominantes** si y solo si $\bigcup_{v \in S}$ $\Gamma(v) = V(G)$. Este es fuertemente dominante si se cumple la propiedad con el entorno cerrado $\Gamma[v)$
 
 - Se define el número de dominancia $\gamma(G)$ como el cardinal del mínimo dominante
 - Se define el número fuerte de dominancia $\gamma_s(G)$ como el cardinal del mínimo fuertemente dominante
 
 ## Apareamiento
 
-Al igual que con los vértices, un apareamiento *(o matching)* es un conjunto independiente de aristas (dos aristas son independientes si no tienen un vértice común).
+Al igual que con los vértices, un **apareamiento** *(o matching)* es un conjunto independiente de aristas (dos aristas son independientes si no tienen un vértice común).
 
 Un apareamiento será maximal si no es subconjunto propio de otro apareamiento y es máximo si no hay otro con mayor cardinal.
 
@@ -41,7 +41,7 @@ Un apareamiento será maximal si no es subconjunto propio de otro apareamiento y
 
 ## Cubrimiento de Aristas
 
-Análogo al cubrimiento de vértices. $S$ es un cubrimiento de aristas si y solo cualquier vértice del grafo es alcanzado por una de las aristas del cubrimiento.
+Análogo al cubrimiento de vértices. $S$ es un **cubrimiento de aristas** si y solo cualquier vértice del grafo es alcanzado por una de las aristas del cubrimiento.
 
 Un cubrimiento de aristas será minimal si no incluye a otro matching y es mínimo si no hay otro con menor cardinal.
 
