@@ -18,7 +18,7 @@ $$
 $$
 
 > [!note]
-> Si en lugar de partículas son cuerpos, el cálculo se hace a partir de los *CM* de cada cuerpo
+> Si en lugar de partículas son cuerpos, el cálculo se hace a partir de los centros de masa de cada cuerpo
 
 ## Cantidad de Movimiento
 
@@ -36,7 +36,7 @@ $$
 > Si se conserva la cantidad de movimiento en un sistema, la velocidad del mismo es constante.
 
 > [!note]
-> Se tienen en cuenta solo las fuerzas externas al sistema, ya que las fuerzas internas se cancelan entre si
+> Se tienen en cuenta solo las fuerzas externas al sistema, ya que las fuerzas internas se cancelan entre sí
 
 ## Momento Cinético y Torque
 

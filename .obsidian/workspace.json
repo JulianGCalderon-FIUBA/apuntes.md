@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Física I/Ondas Mecánicas.md",
+                "file": "Física I/Trabajo y energía.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Física I/Ondas Mecánicas.md"
+                "file": "Física I/Trabajo y energía.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Física I/Ondas Mecánicas.md",
+                "file": "Física I/Trabajo y energía.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Física I/Ondas Mecánicas.md",
+                "file": "Física I/Trabajo y energía.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,14 @@
   },
   "active": "3d6229aeee009af3",
   "lastOpenFiles": [
+    "Física I/Teoría de medida.md",
+    "Física I/Trabajo y energía.md",
+    "Física I/Superposición de Onda.md",
+    "Física I/Sistema de referencia no inercial.md",
+    "Física I/Sistema de partículas.md",
+    "Física I/Potencia.md",
+    "Física I/Óptica Geométrica.md",
+    "Física I/Ondas Mecánicas.md",
     "Física I/Ondas de Sonido.md",
     "Física I/Movimiento Circular.md",
     "Física I/Movimiento armónico simple.md",
@@ -190,14 +198,6 @@
     "Física I/Coordenadas Intrínsecas.md",
     "Física I/Cuerpo Rígido.md",
     "Física I/Definición Óptica.md",
-    "todo.md",
-    "Indice.md",
-    "Algoritmos II/TDA.md",
-    "Algoritmos II/Recursividad.md",
-    "Algoritmos II/Punteros.md",
-    "Algoritmos II/Pilas, Colas y Listas.md",
-    "Algoritmos II/Memoria.md",
-    "Algoritmos II/Iteradores de Lista.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

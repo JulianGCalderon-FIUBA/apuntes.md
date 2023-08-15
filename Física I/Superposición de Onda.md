@@ -91,7 +91,7 @@ Si la frecuencia de la onda es la misma que la frecuencia natural de la caja de 
 
 ## Batidos
 
-Los batidos ocurren cuando dos ondas armónicas de igual amplitud, pero de frecuencias diferentes se propagan en el mismo medio
+Los batidos ocurren cuando dos ondas armónicas de igual amplitud, pero de frecuencias diferentes, se propagan en el mismo medio
 
 $$
 \begin{gathered}

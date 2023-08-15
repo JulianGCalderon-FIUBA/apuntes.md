@@ -1,10 +1,10 @@
-La **luz** son rayos que viajan en línea recta, en medios transparentes. Pueden desviarse.
+La luz son rayos que viajan en línea recta, en medios transparentes. Pueden desviarse.
 
 ## Postulados
 
 ### Propagación rectilínea
 
-La **luz** se propaga en línea recta, se representa con una flecha que representa su dirección y sentido.
+La luz se propaga en línea recta, se representa con una flecha que representa su dirección y sentido.
 
 ### Reflexión
 
