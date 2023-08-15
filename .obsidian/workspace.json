@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matemática Discreta/Grafos Particulares.md",
+                "file": "Matemática Discreta/Nociones Básicas de Grafos.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matemática Discreta/Grafos Particulares.md"
+                "file": "Matemática Discreta/Nociones Básicas de Grafos.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matemática Discreta/Grafos Particulares.md",
+                "file": "Matemática Discreta/Nociones Básicas de Grafos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matemática Discreta/Grafos Particulares.md",
+                "file": "Matemática Discreta/Nociones Básicas de Grafos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,10 +170,10 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "3d6229aeee009af3",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
-    "Matemática Discreta/Grafos Particulares 1.md",
     "Matemática Discreta/Grafos Particulares.md",
+    "Matemática Discreta/Grafos Particulares 1.md",
     "Matemática Discreta/Grafos Orientados.md",
     "Matemática Discreta/Ecuaciones de Recurrencia.md",
     "Matemática Discreta/Clasificaciones.md",

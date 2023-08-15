@@ -50,19 +50,19 @@ Los libros son bipartitos, ya que las estrellas lo son, y los vértices de cada 
 
 ## $p\text{-Cube}$
 
-Grafo con $2^p$ vértices. Los vértices se etiquetan con una cadena binaria de $p$ dígitos, con una arista si la distancia hamming[^1] es 1. Alternativamente, puede pensarse con el producto cartesiano de $p$ veces $K_2$
+Grafo con $2^p$ vértices. Los vértices se etiquetan con una cadena binaria de $p$ dígitos, con una arista si la distancia *hamming* es 1. Alternativamente, puede pensarse con el producto cartesiano de $p$ veces $K_2$
 
 ![[Grafos Particulares 10.png|500]]
 
-[^1]: La distancia *hamming* entre dos cadenas indica la cantidad de bits distintos
+La distancia *hamming* entre dos cadenas indica la cantidad de bits distintos
 
-## $W_d(p,q)$
+## $W_d(p,q):$ Molino
 
 Se define como un molino de $q$ aspas de longitud $p-1$, puede formarse con el ensamble $W_d(p,q) = N_1  qK_{p-1}$
 
 ![[Grafos Particulares 11.png|325]]
 
-## $F(p,q)$
+## $F(p,q):$ Abanico
 
 El abanico se define por $F(p,q) = N_p  P_q$
 

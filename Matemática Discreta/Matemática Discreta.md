@@ -12,7 +12,7 @@
 
 ## Grafos
 
-- [[Nociones Básicas]]
+- [[Nociones Básicas de Grafos]]
 - [[Grafos Particulares]]
 - [[Caminos y Distancias]]
 - [[Isomorfismos]]

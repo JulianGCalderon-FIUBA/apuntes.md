@@ -87,6 +87,7 @@
     "repulsor",
     "exponenciación",
     "hamiltoniano",
-    "semihamiltoniano"
+    "semihamiltoniano",
+    "path"
   ]
 }
