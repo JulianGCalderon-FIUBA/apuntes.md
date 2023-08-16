@@ -1,3 +1,7 @@
+---
+title: Ingeniería de Requisitos
+---
+
 Decidir exactamente lo que se tiene que desarrollar es la parte más complejo de la construcción de software. Para resolver esto, necesitamos de la ingeniería de requisitos.
 
 > [!note]

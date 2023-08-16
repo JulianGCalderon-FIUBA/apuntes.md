@@ -1,3 +1,7 @@
+---
+title: Funciones de varias variables
+---
+
 ## Tipos de funciones
 
 - **Campo escalar:** es una función que asigna un número real $z$ a cada vector $(x_1, x_2,..., x_n)$

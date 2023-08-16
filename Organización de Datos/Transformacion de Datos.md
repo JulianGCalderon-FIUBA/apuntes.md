@@ -1,3 +1,7 @@
+---
+title: Transformacion de Datos
+---
+
 Algunas tarea de estas etapas son:
 
 - **Integración de Datos:** Integración de múltiples bases de datos, archivos.

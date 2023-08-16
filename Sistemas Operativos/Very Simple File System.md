@@ -1,3 +1,7 @@
+---
+title: Very Simple File System
+---
+
 En este capítulo se introduce una implementación muy simple para un sistema de archivos, conocida como ***vsfs*** o ***Very Simple File System***. El sistema de archivos se construye puramente sobre software, sin necesidad de características del hardware.
 
 Hay dos aspectos principales a cubrir cuando hablamos de sistemas de archivos. El primero son las estructuras de datos utilizadas. El segundo aspecto importante son los métodos de acceso a este sistema.

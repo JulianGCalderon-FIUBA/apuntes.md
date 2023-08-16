@@ -1,3 +1,7 @@
+---
+title: Introducción a Paginación
+---
+
 El enfoque de separar el espacio de direcciones en piezas de tamaño variable (segmentación) puede tener dificultades, por lo que vale la pena considerar un segundo enfoque: dividir el espacio en piezas de tamaño fijo (paginación) usualmente con un tamaño de ***4kb***.
 
 En lugar de partir el espacio de direcciones, lo dividimos en unidades de tamaño fijo a las cuales llamaremos ***páginas.*** Luego, veremos la memoria física como un arreglo de espacios fijos llamados ***page frames***. Cada uno de estos contiene una sola página de memoria virtual.

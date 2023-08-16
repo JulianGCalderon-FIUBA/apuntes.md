@@ -1,3 +1,7 @@
+---
+title: Coordenadas
+---
+
 Cualquier vector perteneciente a un subespacio $S$ puede representarse como una única combinación lineal de los elementos de una base $B$ del subespacio.
 
 Se le llama coordenadas de $v$ con respecto a la base $B$ a la $n$-upla en $\Bbb K^n$ formada por los escalares $a_0, a_1, \cdots, a_n$ que participan en la combinación lineal del elemento $v$.

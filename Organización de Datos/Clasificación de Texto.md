@@ -1,3 +1,7 @@
+---
+title: Clasificación de Texto
+---
+
 Es un problema de clasificación, sirve para asignar un tópico o categoría de forma automática a algun extracto de texto.
 
 ## Métodos de Clasificación

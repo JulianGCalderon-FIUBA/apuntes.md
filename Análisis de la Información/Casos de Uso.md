@@ -1,3 +1,7 @@
+---
+title: Casos de Uso
+---
+
 > [!note]
 > Definición Una historia acerca de cómo un actor utiliza un sistema para alcanzar sus objetivos. Más formalmente, una secuencia de acciones realizadas por un sistema que generan un resultado observable de valor para un actor particular
 

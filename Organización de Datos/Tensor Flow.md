@@ -1,3 +1,7 @@
+---
+title: Tensor Flow
+---
+
 Es una biblioteca para Python desarrollada por Google que se utiliza para entrenar y construir redes neuronales. Tiene una serie de optimizaciones para mayor rendimiento.
 
 Dentro de esta biblioteca se utilizan tipos de datos particulares, denominados tensores. Con ellos podemos operar

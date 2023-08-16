@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do.md",
+                "file": "Algoritmos I/Algoritmos I.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Do.md"
+                "file": "Algoritmos I/Algoritmos I.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do.md",
+                "file": "Algoritmos I/Algoritmos I.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Do.md",
+                "file": "Algoritmos I/Algoritmos I.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,9 +159,17 @@
   },
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
+    "Algoritmos I/Argumentos del programa.md",
+    "Algoritmos I/Algoritmos I.md",
+    "Análisis Numérico/Bisección.md",
+    "Física II/Campo Magnético.md",
+    "Organización de Datos/AdaBoost.md",
+    "Sistemas Operativos/API de Threads.md",
+    "Sistemas Operativos/API de Memoria.md",
+    "_index.md",
+    "To-Do.md",
     "Análisis Numérico/Integración Numérica.md",
     "Análisis Numérico/Ecuaciones Diferenciales de Frontera.md",
-    "To-Do.md",
     "Análisis Numérico/Trazador Cúbico - Spline.md",
     "Análisis Numérico/Sistemas no Lineales.md",
     "Análisis Numérico/Sistemas Lineales.md",
@@ -177,14 +185,6 @@
     "Análisis Numérico/FFT.md",
     "Análisis Numérico/Errores.md",
     "Análisis Numérico/Error en Métodos Iterativos.md",
-    "Análisis Numérico/Ecuaciones Diferenciales de Orden Superior.md",
-    "Análisis Numérico/Ecuaciones Diferenciales Ordinarias.md",
-    "Análisis Numérico/Diferenciación Numérica.md",
-    "Análisis Numérico/Descomposición LU.md",
-    "Análisis Numérico/Descomposición de Cholesky.md",
-    "Análisis Numérico/Búsqueda de Raíces.md",
-    "Análisis Numérico/Bisección.md",
-    "Análisis Numérico/Análisis Numérico.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

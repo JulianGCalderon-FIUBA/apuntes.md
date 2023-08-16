@@ -1,3 +1,7 @@
+---
+title: Árboles Auto Balanceados
+---
+
 ## AVL
 
 Un árbol AVL o de Adelson-Velsky y Landis, es un árbol binario de búsqueda autobalanceado

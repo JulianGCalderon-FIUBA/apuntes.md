@@ -1,3 +1,7 @@
+---
+title: Difracción
+---
+
 La difracción ocurre cuando la ranura por la que pasa la luz, no es puntual. Tiene un diámetro similar a la longitud de onda $\lambda$ de la onda. Debido a esto, se puede pensar a la difracción y a la interferencia como conceptos similares, pero varía en la cantidad de ondas que se analizan.
 
 La constante o periodo de red $C$ define la cantidad de ranuras que se encuentran por unidad de longitud

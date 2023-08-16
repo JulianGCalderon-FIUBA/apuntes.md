@@ -1,3 +1,7 @@
+---
+title: Multiplexing and Demultiplexing
+---
+
 Recordemos que un proceso puede tener uno o más ***sockets***, debido a esto, la capa de transporte no tiene que enviar información directamente a los procesos, sino a un ***socket*** intermediario.
 
 Cada segmento de capa de transporte tiene un conjunto de campos para este propósito. La capa de transporte del receptor debe examinar estos campos para identificar al ***socket*** adecuado y enviarle los segmentos. Este trabajo es conocido como ***demultiplexing***. El trabajo de juntar ***data chunks*** en el ***host*** de fuente de distintos ***sockets***, encapsularlos con información de cabecera para crear segmentos y enviar estos segmentos a la capa de red se conoce como ***multiplexing***.

@@ -1,3 +1,6 @@
+---
+title: Wireless and Mobile Networks
+---
 1. [[Introduction to Wireless Networks]]
 2. [[Wireless Links and Network Characteristics]]
 3. [[WiFi 802 11 Wireless LANs]]

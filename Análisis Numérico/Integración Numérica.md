@@ -1,3 +1,7 @@
+---
+title: Integración Numérica
+---
+
 ## Newton-Cotes
 
 El método de Newton-Cotes consiste en encontrar el polinomio de Lagrange asociado a los $N+1$ puntos distribuidos en el intervalo $a,b$. Donde $h = x_{k+1} - x_k = \frac{b-a}{N}$

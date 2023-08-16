@@ -1,3 +1,7 @@
+---
+title: Polinomio de Taylor
+---
+
 El teorema de Taylor permite obtener aproximaciones polinómicas de una función de un entorno de cierto punto en el que la función sea diferenciable.
 
 Para realizar esta aproximación, se igualan las derivadas de la función original a las derivadas de la aproximación polinómica

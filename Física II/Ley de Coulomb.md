@@ -1,3 +1,7 @@
+---
+title: Ley de Coulomb
+---
+
 Los átomos tienen dos tipos de carga, **positivas y negativas**. La cantidad de protones y electrones totales es siempre la misma; sin embargo, los átomos cercanos pueden intercambiar electrones, alterando la carga eléctrica. La carga total de un sistema aislado permanece constante.
 
 Una forma de hacer alterar la carga eléctrica es frotar dos objetos entre sí.

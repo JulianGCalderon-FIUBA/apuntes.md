@@ -1,3 +1,7 @@
+---
+title: Ecuaciones Diferenciales de Frontera
+---
+
 ## Definición
 
 Si tenemos un problema de ecuación diferencial con valores en la frontera de siguiente forma, podemos encontrar una aproximación para los valores de $y$.

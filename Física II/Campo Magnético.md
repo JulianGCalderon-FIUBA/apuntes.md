@@ -1,3 +1,7 @@
+---
+title: Campo Magnético
+---
+
 Existe en una zona del espacio un campo magnético $\vec B$. Los imanes que generan estos campos tienen dos polos. Un polo norte (positivo) y un polo sur (negativo). Los polos iguales se repelen, mientras que los polos distintos se atraen.
 
 La unidad del campo magnético es de $[\vec V] = T \text{(tesla)} = N/(A\cdot m)$

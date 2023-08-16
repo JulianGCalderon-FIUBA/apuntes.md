@@ -1,3 +1,7 @@
+---
+title: Heurísticas
+---
+
 Para resolver modelos de programación lineal entera, tendremos muchos métodos. Los problemas exactos son muy costosos, ya que no se pueden resolver de forma lineal. Debido a esto, existen heurísticas para hallar soluciones aproximadas al modelo.
 
 Las **heurísticas** las utilizaremos cuando no existe un método exacto de resolución o requiere demasiado tiempo o recursos. También la utilizaremos cuando no necesitemos obtener la solución óptima y con una aproximación es suficiente, o cuando tenemos datos poco confiables. En casos, las heurísticas se utilizarán como paso intermedio antes de la aplicación de otro algoritmo.

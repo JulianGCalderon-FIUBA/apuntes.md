@@ -1,3 +1,7 @@
+---
+title: Problemas Combinatorios
+---
+
 Los problemas combinatorios son aquellos en los cuales se desea determinar combinaciones óptimas. Se caracterizan por tener un número finito de soluciones factibles. Generalmente, este número es muy grande
 
 ## Problema de Distribución o Transporte

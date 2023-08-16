@@ -22,7 +22,7 @@
     },
     "insert-yaml-attributes": {
       "enabled": false,
-      "text-to-insert": "aliases: \ntags: "
+      "text-to-insert": ""
     },
     "move-tags-to-yaml": {
       "enabled": false,
@@ -49,7 +49,7 @@
       "format": "dddd, MMMM Do YYYY, h:mm:ss a"
     },
     "yaml-title": {
-      "enabled": false,
+      "enabled": true,
       "title-key": "title",
       "mode": "first-h1-or-filename-if-h1-missing"
     },

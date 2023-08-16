@@ -1,3 +1,7 @@
+---
+title: Ecuaciones Diferenciales de Orden Superior
+---
+
 ## P.V.I. de Segundo Orden
 
 Si tenemos un problema de valores iniciales de segundo orden:

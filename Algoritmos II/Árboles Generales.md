@@ -1,3 +1,7 @@
+---
+title: Árboles Generales
+---
+
 Para cantidades grandes de datos, usamos los árboles. De esta forma, reducimos la complejidad computacional del algoritmo de búsqueda.
 
 Hay distintos **tipos** de árboles:

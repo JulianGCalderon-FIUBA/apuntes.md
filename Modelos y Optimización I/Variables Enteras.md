@@ -1,3 +1,7 @@
+---
+title: Variables Enteras
+---
+
 Introduciremos al modelado, dos nuevos tipos de variables:
 
 - **Variables discretas:** Utilizadas para representar productos o recursos de valor entero (no divisibles)

@@ -1,3 +1,7 @@
+---
+title: Introducción
+---
+
 Es una asignatura vinculada con la toma de decisiones y con la investigación operativa.
 
 - La investigación operativa es la aplicación de ciencia moderna a problemas complejos que aparecen en la dirección y administración de sistemas.

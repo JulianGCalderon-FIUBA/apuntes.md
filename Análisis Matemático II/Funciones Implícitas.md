@@ -1,3 +1,7 @@
+---
+title: Funciones Implícitas
+---
+
 ## Derivación de funciones escritas implícitamente
 
 **Función escrita Implícitamente:** Expresión donde no hay una variable despejada.

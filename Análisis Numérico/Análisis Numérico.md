@@ -1,3 +1,6 @@
+---
+title: Análisis Numérico
+---
 - [[Búsqueda de Raíces]]
 - [[Errores]]
 - [[Análisis Numérico/Punto Flotante|Punto Flotante]]

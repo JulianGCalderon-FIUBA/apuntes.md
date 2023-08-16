@@ -1,3 +1,7 @@
+---
+title: Álgebra de Boole
+---
+
 El álgebra de Boole es un espacio vectorial de forma axiomática. Se definen los siguientes elementos:
 
 $$

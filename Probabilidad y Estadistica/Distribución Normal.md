@@ -1,3 +1,7 @@
+---
+title: Distribución Normal
+---
+
 Una variable aleatoria $X$ tiene distribución normal si su función de densidad toma la siguiente forma
 
 $$

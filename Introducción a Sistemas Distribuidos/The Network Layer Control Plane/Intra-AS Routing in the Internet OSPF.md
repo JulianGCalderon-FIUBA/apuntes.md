@@ -1,3 +1,7 @@
+---
+title: Intra-AS Routing in the Internet OSPF
+---
+
 En la práctica, la idea de que todos los ***routers*** ejecutan el mismo algoritmo de ruteo es demasiado errónea por dos importantes razones:
 
 - ***Scale.*** A medida que aumenta el número de ***routers***, el costo de comunicación y cómputo se vuelve inmanejable.

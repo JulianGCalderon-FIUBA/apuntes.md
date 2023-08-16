@@ -1,3 +1,6 @@
+---
+title: Organización de Datos
+---
 - [[Introduccion]]
 - [[Ciencia de Datos]]
 - [[Modelos Comunes]]

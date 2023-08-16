@@ -1,3 +1,7 @@
+---
+title: Diseño de Datos
+---
+
 Los Archivos y bases de datos nos permiten que la información del sistema persista, cuando hablamos de modelado de datos, hablamos de tres niveles:
 
 - **Conceptual:** Como un MDD, nos muestra las entidades y sus relaciones con otras entidades. No tiene nada que ver con la implementación, sino con el concepto

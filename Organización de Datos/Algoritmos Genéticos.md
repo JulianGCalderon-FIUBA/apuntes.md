@@ -1,3 +1,7 @@
+---
+title: Algoritmos Genéticos
+---
+
 Para modelar estos algoritmos, se plantearon las siguientes definiciones:
 
 - **Fenotipo:** Problema a solucionar

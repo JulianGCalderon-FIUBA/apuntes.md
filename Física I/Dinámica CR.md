@@ -1,3 +1,7 @@
+---
+title: Dinámica CR
+---
+
 Si un cuerpo es homogéneo, el centro de masa coincide con el centro geométrico
 
 ## Momento Angular

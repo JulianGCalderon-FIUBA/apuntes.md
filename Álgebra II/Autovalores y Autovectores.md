@@ -1,3 +1,7 @@
+---
+title: Autovalores y Autovectores
+---
+
 Vamos a buscar los vectores $v$ de $\Bbb  V$ tal que $T(v) = \lambda\ v$. Es decir, las rectas que pasadas por la transformación lineal, llegan a la misma recta.
 
 Sea $A$ una matriz de $\Bbb K^{n\times n}$, y $x_0 \in \Bbb K^n$. Entonces podemos encontrar sucesiones de la forma:

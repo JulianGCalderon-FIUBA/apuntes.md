@@ -1,3 +1,7 @@
+---
+title: Refinamiento Iterativo
+---
+
 Sea $\widetilde x$ una aproximación de la solución $x$ del sistema $Ax = b$, con la propiedad de que la norma del vector residual $r = b - A\widetilde x$ es pequeña, entonces es intuitivo pensar que la norma de $\| x - \widetilde x \|$ también lo será. Esto no es necesariamente así.
 
 **Teorema:** Supongamos que $\widetilde x$ es una aproximación a la solución del sistema $Ax = b$, siendo $A$ una no singular y que $r$ es el vector residual

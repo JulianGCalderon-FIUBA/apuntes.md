@@ -1,3 +1,7 @@
+---
+title: Redes de Aprendizaje Profundo
+---
+
 Es una estrategia que creció en popularidad recientemente, se utiliza para resolver problemas más complejos.
 
 Se separa la red en distintas capas, de esta forma podemos obtener comportamientos avanzados

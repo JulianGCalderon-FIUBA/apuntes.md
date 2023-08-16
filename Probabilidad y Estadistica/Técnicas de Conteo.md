@@ -1,3 +1,7 @@
+---
+title: Técnicas de Conteo
+---
+
 ## Regla del Producto
 
 Dados dos conjuntos $A,B$ con $n_a, n_b$ elementos. La cantidad de pares ordenados que pueden formarse son

@@ -1,3 +1,7 @@
+---
+title: Corriente Continua
+---
+
 Hasta el momento estudiamos los campos electroestáticos, es decir, el campo generado por cargas estáticas, con velocidad nula.
 
 La corriente continua o CC ocurre cuando las cargas dentro de los conductores se mueven a velocidad constante, los electrones se mueven siempre en la misma dirección. Ocurre en los circuitos eléctricos

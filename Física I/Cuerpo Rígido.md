@@ -1,3 +1,7 @@
+---
+title: Cuerpo Rígido
+---
+
 ## Condición de rigidez
 
 Un cuerpo es rígido si se cumple la condición de rigidez entre todas sus partículas.

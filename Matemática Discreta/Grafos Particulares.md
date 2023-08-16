@@ -1,3 +1,7 @@
+---
+title: Grafos Particulares
+---
+
 ## $N_n:$ Grafo nulo de orden $n$
 
 ![[Grafos Particulares 1.png|325]]

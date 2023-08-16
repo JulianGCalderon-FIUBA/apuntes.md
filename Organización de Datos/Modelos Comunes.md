@@ -1,3 +1,7 @@
+---
+title: Modelos Comunes
+---
+
 ## Regresión Lineal
 
 La primer forma de regresión lineal documentada fue el método de cuadrados mínimos. Consisten en aproximar los datos con una función lineal, y luego utilizar esta función lineal para predecir variables dependientes.

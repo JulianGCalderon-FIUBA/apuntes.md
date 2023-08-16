@@ -1,3 +1,7 @@
+---
+title: Esperanza para Variables
+---
+
 ## Esperanza de una Variable Aleatoria
 
 Es el promedio ponderado de los valores que puede tomar una variable aleatoria ("centro de masa"), no necesariamente es un valor del rango. También se lo denomina $\mu_X$

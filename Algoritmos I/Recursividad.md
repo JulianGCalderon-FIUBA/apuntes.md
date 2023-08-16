@@ -1,3 +1,7 @@
+---
+title: Recursividad
+---
+
 La recursividad es un método para solucionar problemas, que consta en repetir el mismo algoritmo en situaciones cada vez más sencillas, hasta llegar a un caso base.
 
 Se divide en dos partes:

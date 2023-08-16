@@ -1,3 +1,7 @@
+---
+title: Valores Atipicos
+---
+
 Un outlier es una observación que se desvía tanto de las otras observaciones como para despertar sospecha que fue generado por un mecanismo diferente ~ *D. Haukins. Identification of Outliers (1980)*
 
 - Es un concepto subjetivo al problema.

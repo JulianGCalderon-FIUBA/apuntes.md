@@ -1,3 +1,7 @@
+---
+title: Memoria
+---
+
 ## Estructura de un Programa
 
 Un programa puede encontrarse en varias etapas:

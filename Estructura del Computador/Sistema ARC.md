@@ -1,3 +1,7 @@
+---
+title: Sistema ARC
+---
+
 Cualquier lenguaje de alto nivel es traducido a Assembly, para luego se ensambla en código de máquina, lenguaje que la computadora puede entender (ceros y unos).
 
 Cuando un programa se guarda, este se guarda en el disco rígido, pero al momento de ejecutarse, toda la información se guarda en la memoria RAM, para poder ser accedida.

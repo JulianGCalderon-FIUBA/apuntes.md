@@ -1,3 +1,7 @@
+---
+title: Recursividad
+---
+
 Un algoritmo recursivo es aquel que se llama a sí mismo, hay distintos tipos de recursividad:
 
 - Recursividad Directa

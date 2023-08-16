@@ -1,3 +1,7 @@
+---
+title: Vectores Aleatorios
+---
+
 Sea $(\Omega, \mathscr A, P)$ un espacio muestral, se dice que $X = (X_1, X_2, \cdots, X_n)$ es un vector aleatorio de dimensión $n$, si para cada $J = 1, \cdots, n$, $X_j: \Omega \to \mathbb{R}$ es una variable aleatoria.
 
 Para todo $x = (x_1, \cdots, x_n) \in \mathbb{R}^n$ se tendrá que

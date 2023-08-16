@@ -1,3 +1,7 @@
+---
+title: Inductores
+---
+
 Los inductores son bobinados, alrededor de un cierto material magnético $(\mu_r)$. Este bobinado tendrá un coeficiente de autoinducción $L_1$, una corriente $I_1$, y un número de vueltas o espiras $N$ y una longitud $l_1$
 
 Este bobinado generará un campo de inducción magnética $\vec B$, dentro del material magnético, en sentido del mismo.

@@ -1,3 +1,7 @@
+---
+title: Integrales Dobles
+---
+
 ## Regiones Rectangulares
 
 Una integral doble busca el área debajo de una función de dos variables. Se puede pensar como la suma de muchos rectángulos, con los lados tendiendo a $0$. También como la suma de muchas integrales de Análisis I.

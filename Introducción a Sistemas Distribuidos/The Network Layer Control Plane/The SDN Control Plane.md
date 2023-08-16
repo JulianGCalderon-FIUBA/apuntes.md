@@ -1,3 +1,7 @@
+---
+title: The SDN Control Plane
+---
+
 Existe cuatro características claves de la arquitectura ***SDN*** (Software Distributed Networks):
 
 - ***Flow-based forwarding***: El reenvío de paquetes puede ser basado en numerosos valores de multiples campos de cabecera tanto en la capa de transporte, como en la de red, como en la de enlace. Las reglas son especificas de una ***flow table***, la cual es computada y administrada por el ***control plane*** del ***SDN***.

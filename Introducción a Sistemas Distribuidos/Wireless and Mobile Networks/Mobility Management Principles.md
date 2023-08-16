@@ -1,3 +1,7 @@
+---
+title: Mobility Management Principles
+---
+
 Primero, consideraremos las distintas dimensiones de la movilidad, con cierto grado de detalle:
 
 - **From the network layer's standpoint, how mobile is a user?** Un usuario móvil presenta distintos desafíos para la capa de red. Si un usuario se mueve a lo largo del edificio, entonces no es móvil para la capa de red. Incluso, si se asocia con el mismo ***access point*** independiente de su ubicación, entonces ni siquiera es móvil para la perspectiva de la capa de enlace. Por otro lado, si el usuario esta viajando a altas velocidades, atravesando multiples redes de acceso inalámbrico, entonces este es un usuario medianamente móvil. Si ademas quiere mantener conexiones ***TCP*** estables, es altamente móvil.

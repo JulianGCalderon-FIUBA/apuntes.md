@@ -1,3 +1,7 @@
+---
+title: Requirement Specification vs User Stories
+---
+
 Algunos discuten que las *user stories* no son requerimientos. Pero la realidad es que las especificaciones de requisitos se realiza erróneamente y el término se ha redefinido.
 
 **Requisito (IEEE)**: Una condición necesaria por un usuario para resolver un problema o alcanzar un objetivo

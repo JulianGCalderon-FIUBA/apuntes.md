@@ -1,3 +1,7 @@
+---
+title: Teorema Central del Límite
+---
+
 Las sumas de algunas variables aleatorias independientes e idénticamente distribuidas, tienen distribuciones conocidas
 
 1. Si $X_1, \cdots, X_n \stackrel{iid}{\sim} \text{Ber}(p) \implies \sum^n X_i \sim B(n, p)$

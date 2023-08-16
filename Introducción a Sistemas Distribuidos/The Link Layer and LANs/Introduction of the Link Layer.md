@@ -1,3 +1,7 @@
+---
+title: Introduction of the Link Layer
+---
+
 Llamaremos a cualquier dispositivo que ejecuta un protocolo de capa de enlace como un nodo, y a los canales de comunicación entre nodos adyacentes como enlaces.
 
 ## 1. The Services Provided by the Link Layer

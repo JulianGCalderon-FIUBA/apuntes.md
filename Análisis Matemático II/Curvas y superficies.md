@@ -1,3 +1,7 @@
+---
+title: Curvas y superficies
+---
+
 Una curva es la imagen de una función vectorial $\vec f(t)$ continua en A, donde A es un intervalo de la recta real
 
 $$\boxed {\vec X(t) = \Big(\frac{3\cos^2t\cdot\sin t}{\cos^3 + sen^3},\frac{3\cos t\cdot\sin^2t}{\cos^3 + sen^3}\Big)}$$

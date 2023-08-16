@@ -1,3 +1,7 @@
+---
+title: Método de Gram-Schmidt
+---
+
 Es un método que nos permite encontrar una base ortogonal de cualquier subespacio, a partir de la aplicación de un mismo algoritmo de forma recursiva.
 
 Si tenemos una base $B = \{v_1, v_2, \cdots, v_n\}$, podemos construir una nueva base $B' = \{w_1, w_2, \cdots, w_n\}$, siendo $w_1, w_2, \cdots, w_n$ vectores ortogonales entre sí. De forma tal que

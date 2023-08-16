@@ -1,3 +1,7 @@
+---
+title: Cellular Internet Access
+---
+
 ## 1. An Overview of Cellular Network Architecture
 
 Para esta descripción, adoptaremos la terminología de los estándares ***Global System for Mobile Communications (GMS)***. Por lo general, las tecnologías de redes de celular pertenecen a una de varias generaciones.
@@ -42,7 +46,7 @@ Existen dos tipos de nodos en estas redes: ***Serving GPRS Support Nodes (SGSNs)
 
 La ***radio access network*** es la primera ***wireless first-hop network*** que vemos como un usuario. El ***Radio Network Controller (RNC)*** típicamente controla multiples ***BTSs,*** similar a la ***BSC*** a las que vimos en las redes ***2G.*** Un ***RNC*** conecta tanto ***circuit-switched cellular voice network*** a través de ***MSC***, y ***packet-switched internet*** a través de ***SGSN***. Mientras que los servicios de voz y de datos usan redes centrales distintas, comparten la ***radio access network*** y el ***RNC***.
 
-Un cambio significativo entre las redes 3G ***UMTS*** y las redes **2G** es que en lugar de utilizar el esquema de ***GMS*** ***FDMA/TDMA***, utiliza una técnica de ***CDMA*** conocida como **Direct Sequence Wideband CDMA (DW-WCDMA)**, dentro de slots de  **TDMA**.
+Un cambio significativo entre las redes 3G ***UMTS*** y las redes **2G** es que en lugar de utilizar el esquema de ***GMS*** ***FDMA/TDMA***, utiliza una técnica de ***CDMA*** conocida como **Direct Sequence Wideband CDMA (DW-WCDMA)**, dentro de slots de **TDMA**.
 
 ## 3. On to 4G: LTE
 

@@ -1,3 +1,7 @@
+---
+title: Integrales de Línea
+---
+
 $$
 \text{Curva }\gamma(t):\mathbb{R}\to\mathbb{R}^3
 $$

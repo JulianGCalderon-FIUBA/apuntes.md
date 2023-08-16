@@ -1,3 +1,7 @@
+---
+title: Ensambles
+---
+
 ## Bias vs. Variance
 
 - Bias: Es el debido al modelo según la diferencia entre el valor esperado del estimador y el valor real.

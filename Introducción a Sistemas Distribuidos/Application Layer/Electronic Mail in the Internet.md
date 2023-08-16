@@ -1,3 +1,7 @@
+---
+title: Electronic Mail in the Internet
+---
+
 El sistema de e-mails tiene tres componentes principales: ***user agents, mail servers,*** and the ***simple mail transfer protocol*** (SMTP). Los user agents permiten a los usuarios interactuar con los mensajes. Estos envían mensajes a los ***mail servers*** y estos se colocan en la cola de mensajes salientes del servidor. Estos son enviados al ***mail server*** de destino, el cual los coloca en el buzón adecuado. Cuando un user agent quiere recibir un mail, recupera sus mensajes del de su buzón de entrada en su mail server.
 
 ## 1. SMTP

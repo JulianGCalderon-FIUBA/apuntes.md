@@ -1,3 +1,7 @@
+---
+title: Estructuras Concurrentes
+---
+
 ## Contadores Concurrentes
 
 Una de las estructuras de datos más simples es un contador, podemos realizar un contador concurrente de forma simple utilizando lo visto en los capítulos anteriores.

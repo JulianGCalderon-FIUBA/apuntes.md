@@ -1,3 +1,7 @@
+---
+title: Manejo de Archivos
+---
+
 ## Características
 
 **Cardinalidad infinita:** El tamaño puede variar en el tiempo, y puede virtualmente contener cualquier cantidad de elementos. Su limitación está dada por el tamaño de la memoria principal de la computadora.

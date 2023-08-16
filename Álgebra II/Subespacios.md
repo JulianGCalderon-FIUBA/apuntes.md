@@ -1,3 +1,7 @@
+---
+title: Subespacios
+---
+
 Si $\Bbb V$ es un $\Bbb K$ espacio vectorial, entonces se dice que $S \subset \Bbb V$ es un subespacio de $\Bbb V$ si se cumplen las siguientes propiedades $(S \neq \emptyset)$
 
 - $\Bbb O_{\Bbb V} \in S$

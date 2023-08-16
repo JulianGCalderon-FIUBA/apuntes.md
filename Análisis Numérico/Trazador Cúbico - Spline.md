@@ -1,3 +1,7 @@
+---
+title: Trazador Cúbico - Spline
+---
+
 **Fenómeno de Runge:** Un mayor número de nodos no garantiza una mejor interpolación.
 
 El trazador cúbico es una función partida que cumple las siguientes condiciones, para el conjunto de $x_0, \dots, x_n$ nodos.

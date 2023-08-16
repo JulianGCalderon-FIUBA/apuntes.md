@@ -1,3 +1,7 @@
+---
+title: Planteo Dual
+---
+
 El problema dual es un problema equivalente al primal (con el mismo valor del funcional), pero será estructurado de forma distinta
 
 ## Planteo del Problema

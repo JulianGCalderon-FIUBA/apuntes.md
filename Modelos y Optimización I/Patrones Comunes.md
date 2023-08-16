@@ -1,3 +1,7 @@
+---
+title: Patrones Comunes
+---
+
 ## Problemas de Centros de Producción
 
 En este tipo de problemas, la producción se divide en distintos lugares físicos (llamados centros) en cada uno de los cuales se realizan distintas partes del proceso. Para modelar estas situaciones, plantearemos las variables de entrada y de salida de cada centro, relacionado con los centros siguientes.

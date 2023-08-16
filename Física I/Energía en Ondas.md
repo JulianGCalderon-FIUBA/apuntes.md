@@ -1,3 +1,7 @@
+---
+title: Energía en Ondas
+---
+
 ## Potencia
 
 La **potencia** $P$ de una onda se puede calcular como la derivada del trabajo respecto del tiempo, o la fuerza por la velocidad.

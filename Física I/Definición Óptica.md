@@ -1,3 +1,7 @@
+---
+title: Definición Óptica
+---
+
 ## Definiciones
 
 - **Aproximación Paraxial:** Se considera que los rayos que inciden sobre la superficie forman un ángulo pequeño, y su radio de curvatura es grande. Esto permite simplificar y deducir la expresión General. (Ecuación de Descartes)

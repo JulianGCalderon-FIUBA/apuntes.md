@@ -1,3 +1,7 @@
+---
+title: Diferenciabilidad
+---
+
 Sea $f:D\subset\mathbb{R}^n\to\mathbb{R}^m,A\in D^º$, se dice que $f$ es diferenciable en $\vec x_0$ si:
 
 $$

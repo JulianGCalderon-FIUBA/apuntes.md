@@ -1,3 +1,7 @@
+---
+title: Ortogonalidad
+---
+
 ## Descomposición Ortogonal
 
 Sea $w$ un vector de $\Bbb V$, siempre se va a poder descomponer en componentes ortogonales como $u = kv + w$, siendo $v\perp w$.

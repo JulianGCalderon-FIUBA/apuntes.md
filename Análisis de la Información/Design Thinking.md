@@ -1,3 +1,7 @@
+---
+title: Design Thinking
+---
+
 Método estructurado centrado en las personas que tiene como propósito resolver problemas difíciles por su naturaleza o mal definidos. Es un enfoque viable para descubrir las necesidades de los usuarios, trabaja muy bien con las metodologías ágiles. No necesariamente trabaja con productos que incluyan software.
 
 En lugar de concentrarse prematuramente en soluciones tecnologías, propone una inmersión profunda en el dominio del sistema. Es un enfoque estructurado que se base en la exploración de necesidades y creación de prototipos no tecnológicos.

@@ -1,3 +1,6 @@
+---
+title: Propiedades de la diferenciabilidad
+---
 
 - Una suma de funciones $C^1$ es $C^1$
 - Un producto de función $C^1$ es $C^1$

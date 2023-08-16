@@ -1,3 +1,7 @@
+---
+title: Potencia Activa y Reactiva
+---
+
 Partimos de las ecuaciones de corriente eléctrica, con fase inicial nulo para simplificar las cuentas.
 
 $$

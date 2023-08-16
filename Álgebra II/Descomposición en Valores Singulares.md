@@ -1,3 +1,7 @@
+---
+title: Descomposición en Valores Singulares
+---
+
 A partir de la descomposición en valores singulares (D.V.S.), podemos encontrar que toda matriz puede ser factorizada de forma que quede de forma explícita los subespacios fundamentales de la matriz.
 
 Primero, recordemos algunas propiedades:

@@ -1,3 +1,7 @@
+---
+title: Application Layer
+---
+
 Network applications are the *raison d'être* of a computer network.
 
 1. [[Principles of Network Applications]]

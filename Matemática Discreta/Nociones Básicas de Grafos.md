@@ -1,3 +1,7 @@
+---
+title: Nociones Básicas de Grafos
+---
+
 ## Definición
 
 Definimos un grafo $G = (V(G), E(G), \Psi_G)$ como una terna de un conjunto de vértices $V(G)$, un conjunto de aristas $E(G)$ y una función $\Psi_G$ que relaciona los vértices con las aristas.

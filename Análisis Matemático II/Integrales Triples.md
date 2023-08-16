@@ -1,3 +1,7 @@
+---
+title: Integrales Triples
+---
+
 Similar a las integrales dobles, las integrales triples calculan el área a partir de pequeños cubos.
 
 $$

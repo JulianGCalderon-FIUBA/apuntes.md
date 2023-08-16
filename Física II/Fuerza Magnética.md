@@ -1,3 +1,7 @@
+---
+title: Fuerza Magnética
+---
+
 Así como encontramos la fuerza magnética ejercida sobre una partícula puntual, también podemos encontrar la fuerza magnética ejercida sobre un conductor por el cual circula una corriente.
 
 $$

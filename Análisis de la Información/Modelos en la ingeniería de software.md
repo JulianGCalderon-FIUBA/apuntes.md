@@ -1,3 +1,7 @@
+---
+title: Modelos en la ingeniería de software
+---
+
 Un modelo es una simplificación de la realidad, construimos modelos para entender mejor el sistema que estamos desarrollando. Estos permiten
 
 - Visualizar un sistema

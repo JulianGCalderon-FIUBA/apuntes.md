@@ -1,3 +1,7 @@
+---
+title: Sistemas no Lineales
+---
+
 ## Teorema del Punto fijo
 
 Una función $G: D \subset \mathbb{R}^n \to \mathbb{R}^n$ tiene un punto fijo en $\overline p \in D$ si $G(\overline p) = \overline p$

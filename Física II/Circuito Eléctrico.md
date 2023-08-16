@@ -1,3 +1,7 @@
+---
+title: Circuito Eléctrico
+---
+
 Red conductora que contiene al menos una trayectoria cerrada por la que puede fluir la carga eléctrica. Las cargas eléctricas se mueven por acción del campo eléctrico dentro del conductor.
 
 En un circuito cerrado, la corriente eléctrica es constante, estacionaria. Además, la diferencia de potencial en un circuito cerrado es nulo, debemos respetar esto para diseñar circuitos cerrados.

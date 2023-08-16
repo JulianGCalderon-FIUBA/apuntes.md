@@ -1,3 +1,7 @@
+---
+title: Clases Practicas
+---
+
 ## Latencia
 
 **Latencia:** La latencia es el retardo entre un estímulo y la respuesta. Es un valor conceptual
@@ -56,7 +60,7 @@ El protocolo ***TCP*** puede tener los **siguientes parámetros**:
 - ***LW=1:*** Es el valor que toma la ventana de congestión luego de una perdida (al volver a la etapa ***slow start)***
 - ***IW:*** Es el valor que toma la ventana de congestión al inicio del protocolo
 - ***RTO:*** El tiempo establecido para los ***timer interrupts*** del ***ack*** de los paquetes.
-- **ssthresh:** Es el valor en el que el protocolo pasa a la etapa de ***congestion avoidance***. 
+- **ssthresh:** Es el valor en el que el protocolo pasa a la etapa de ***congestion avoidance***.
 - ***cwnd:*** Es el valor de la ventana de congestión. Representa la cantidad de paquetes que puede al o sumo tener en vuelo
 - ***rwnd:*** Es el valor de la ventana de recepción del ***host*** del otro lado de la conexión. Representa la cantidad de paquetes que puede al o sumo tener en vuelo
 - ***Version:*** Tahoe | Reno

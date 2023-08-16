@@ -1,3 +1,7 @@
+---
+title: Diccionario y Hash
+---
+
 ## Definición
 
 Un **diccionario** es una colección de pares *[clave, valor]*. Se accede a los elementos mediante una clave, que funciona como índice. También es conocido como un **hashmap.**

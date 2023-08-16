@@ -1,3 +1,7 @@
+---
+title: Free-Space Management
+---
+
 El manejo del espacio libre puede ser fácil cuando utilizamos paginación, ya que estamos lidiando con páginas de tamaño fijo. Donde el manejo se vuelve difícil, es cuando tratamos con memoria del usuario, donde la memoria tiene tamaño variable.
 
 Hay dos problemas a resolver cuando tratamos con este manejo:

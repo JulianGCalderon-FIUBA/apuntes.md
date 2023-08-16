@@ -1,7 +1,13 @@
+---
+title: Simulación
+---
+
 ## Simulación con Distribución Uniforme
 
 **Simular:** "Imitar o fingir que se está realizando una acción cuando en realidad no se está llevando a cabo"
- 
+
+
+
 Para simular eventos, asigno a cada evento un segmento entre $[0,1)$. Luego, al obtener un número aleatorio entre $0,1$ con una calculadora/computadora, puedo saber que evento hubiese ocurrido.
 
 > [!example] Ejemplo
