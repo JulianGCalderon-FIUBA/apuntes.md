@@ -46,6 +46,6 @@ Si $J{=}K{=}1$, Entonces $Q$ varía con una frecuencia determinada por las compu
 
 ### Flip Flop T
 
-La letra $T$ viene del término del inglés "Toggle". Es una simplificación del Flip Flop $JK$, Si $T{=}1$, entonces es lo mismo que $J{=}K{=}1$.
+La letra $T$ viene del término del inglés *"Toggle".* Es una simplificación del Flip Flop $JK$, Si $T{=}1$, entonces es lo mismo que $J{=}K{=}1$.
 
 ![[Circuitos Asincronicos 11.png]] ![[Circuitos Asincronicos 12.png]]

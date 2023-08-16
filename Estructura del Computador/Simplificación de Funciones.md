@@ -15,7 +15,7 @@ A partir de los valores de esta tabla, podemos simplificar términos. Consiste e
 
 ### Definiciones
 
-- **Adyacencias**: Dos elementos son vecinos si solo cambia una variable entre ambos elementos, se piensa el mapa como un cilindro.
+- **Adyacencias**: Dos elementos son vecinos, si solo cambia una variable entre ambos elementos, se piensa el mapa como un cilindro.
 - **Implicante Primo**: Mayor agrupación posible para un grupo de elementos
 - **Implicante Primo Esencial.** Implicante primo que no puedo omitir
 

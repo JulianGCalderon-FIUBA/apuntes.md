@@ -70,7 +70,7 @@ A la hora de incluir módulos externos, estos pueden se relocalizados para poder
 
 Para generarla, el ensamblador recorre el archivo línea por línea, Incluye su nombre en la tabla. Al encontrarlos, les asigna un valor correspondiente.
 
-Es una tabla que contiene el nombre de los símbolos, su dirección, si son *extern o global*, o si son relocalizables.
+Es una tabla que contiene el nombre de los símbolos, su dirección, si son *extern o global,* o si son relocalizables.
 
 No todos los símbolos son relocalizables, por ejemplo:
 

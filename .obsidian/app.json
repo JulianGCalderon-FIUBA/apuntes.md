@@ -134,6 +134,9 @@
     "carry",
     "Carry",
     "Overflow",
-    "overflow"
+    "overflow",
+    "Flop",
+    "Implicante",
+    "implicantes"
   ]
 }

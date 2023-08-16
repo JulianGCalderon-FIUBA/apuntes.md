@@ -42,7 +42,7 @@ Los contadores pueden ser tanto ascendentes como descendentes
 	- **Secuencia Cerrada**: Termina el último estado y vuelve al inicial
 	- **Secuencia Prohibida:** Secuencia de estados prohibidos
 
-### Sincrónico vs Asincrónico
+### Sincrónico vs. Asincrónico
 
 El contador Sincrónico tiene cada Flip-Flop conectado con el reloj, por lo que todos los Flip-Flops cambian a la vez. El retardo es menor porque todos los Flip-Flops actúan a la vez. Además, tiene más flexibilidad, ya que puedo customizar la lógica de estados como quiera, a partir del diseño de compuertas
 

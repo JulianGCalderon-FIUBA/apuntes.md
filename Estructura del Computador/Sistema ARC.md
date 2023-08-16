@@ -27,7 +27,7 @@ Los dispositivos de entrada y salida también se encuentran en el espacio direcc
 
 ## Arquitectura ARC
 
-Acrónimo: **(A Risc Computer)**
+Es un acronimo de "A Risc Computer"
 
 ### Manejo de Memoria
 
@@ -41,7 +41,7 @@ La mitad de la memoria se utiliza para los dispositivos de entrada y salida, la 
 
 ### Set de Instrucciones
 
-Es un subconjunto de SPARC. El PSR (Program Status Register) guarda los flags de ALU.
+Es un subconjunto de SPARC. El PSR *(Program Status Register)* guarda los flags de ALU.
 
 Las instrucciones ocupan 4 bytes, tenemos 32 registros de 4 bytes.
 
@@ -97,17 +97,17 @@ Una macro es una porción de código que se ejecuta antes del ensamblado. En el 
 
 ### Diferencias
 
-Las macro se accede en tiempo de ensamblado por lo que es más rápido. La subrutina es accedida por la instrucción `call` y termina con un `jmpl`, en tiempo de ejecución
+Las macro se accede en tiempo de ensamblado, por lo que es más rápido. La subrutina es accedida por la instrucción `call` y termina con un `jmpl`, en tiempo de ejecución
 
 Los parámetros de una macro son interpretados por el ensamblador, mientras que los de una subrutina es accedida por memoria o registro
 
-El código de máquina de una macro se repite tantas veces como se invoque. En el caso de la subrutina, el código se encuentra en un solo lugar y se referencia a el cuando se necesita.
+El código de máquina de una macro se repite tantas veces como se invoque. En el caso de la subrutina, el código se encuentra en un solo lugar y se referencia a él cuándo se necesita.
 
 ## Códigos de Máquina
 
 Las instrucciones son traducidas en código de máquina. Hay cinco formatos de instrucción.
 
-![[Sistema ARC 6.png]]
+![[Sistema ARC 6.png|475]]
 
 ## Modos de Direccionamientos
 
@@ -120,16 +120,16 @@ Las instrucciones son traducidas en código de máquina. Hay cinco formatos de i
 
 ## Modelos de Arquitectura
 
-- **CISC: Complex Instruction Set Computer**
+### CISC: Complex Instruction Set Computer
 
-	Tiene más instrucciones, pero las instrucciones son de tamaño variable y es más lento. Como tiene instrucciones con acceso a memoria, utiliza menos registros.
+Tiene más instrucciones, pero las instrucciones son de tamaño variable y es más lento. Como tiene instrucciones con acceso a memoria, utiliza menos registros.
 
-	Utiliza el stack de forma inmersa, con instrucciones que acceden a él. La lógica de encontrar instrucciones, decodificarlas, e interconexiones dentro del procesador es más complicada.
+Utiliza el stack de forma inmersa, con instrucciones que acceden a él. La lógica de encontrar instrucciones, decodificarlas, e interconexiones dentro del procesador es más complicada.
 
-- **RISC: Reduced Instruction Set Computer**
+### RISC: Reduced Instruction Set Computer
 
-	Todas las instrucciones ocupan el mismo espacio y es más rápido. Tiene más registros disponibles, ya que todo debe estar en ellos para operar. Para utilizar el stack, se debe hacer de forma manual. Su set de instrucciones es más reducido, no contiene instrucciones redundantes
+Todas las instrucciones ocupan el mismo espacio y es más rápido. Tiene más registros disponibles, ya que todo debe estar en ellos para operar. Para utilizar el stack, se debe hacer de forma manual. Su set de instrucciones es más reducido, no contiene instrucciones redundantes
 
-	Las operaciones aritméticas son únicamente entre registros. Para acceder a memoria, solo se puede guardar y recuperar. Los dispositivos de entrada y salida están mapeados en memoria.
+Las operaciones aritméticas son únicamente entre registros. Para acceder a memoria, solo se puede guardar y recuperar. Los dispositivos de entrada y salida están mapeados en memoria.
 
-	Esta arquitectura es mucho más rápida y simple que la de una arquitectura CISC. Por el otro lado, se requiere un poco más de trabajo por parte del programador.
+Esta arquitectura es mucho más rápida y simple que la de una arquitectura CISC. Por el otro lado, se requiere un poco más de trabajo por parte del programador.
