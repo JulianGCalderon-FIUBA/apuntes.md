@@ -1,4 +1,5 @@
-Un outlier es una observación que se desvía tanto de las otras observaciones como para despertar sospecha que fue generado por un mecanismo diferente ~ *D. Haukins. Identification of Outliers (1980)*
+> "Un outlier es una observación que se desvía tanto de las otras observaciones como para despertar sospecha que fue generado por un mecanismo diferente"
+> ~ D. Haukins. Identification of Outliers (1980)
 
 - Es un concepto subjetivo al problema.
 - Son observaciones distantes al resto de los datos.
@@ -6,7 +7,7 @@ Un outlier es una observación que se desvía tanto de las otras observaciones c
 
 La presencia de outliers puede influenciar los resultados de un análisis estadístico clásico.
 
-**¿Es necesario eliminarlos?**
+## ¿Es necesario eliminarlos?
 
 - Deben ser cuidadosamente inspeccionados
 - Pueden estar alertando anomalías, en algunas situaciones nuestra tarea de interés será encontrarlos.
@@ -19,10 +20,10 @@ Hay diferentes tipos de outliers:
 - Contextual Outlier: Los datos son anómalos debido a su contexto (temperatura alta en invierno)
 - Collective Outlier: Subgrupos dentro de un conjunto de datos.
 
-Segun las variables:
+Según las variables:
 
-- Univariados: Podemos encontrar en una sola variable, son buenos para deteccion de extremos.
-- Multivariados: Se pueden encontrar en un espacio n-dimensional. Para detectarlos es necesario ajustar un modelo.
+- Univariados: Podemos encontrar en una sola variable, son buenos para detección de extremos.
+- Multivariados: Se pueden encontrar en un espacio $n$-dimensional. Para detectarlos es necesario ajustar un modelo.
 
 Los outliers, en casos multivariados, pueden provocar dos tipos de efectos:
 
@@ -33,7 +34,7 @@ Los outliers, en casos multivariados, pueden provocar dos tipos de efectos:
 
 Para el caso de los outliers univariados, tomó información respecto a la distribución de la variable
 
-- Z-score: Realizamos esta transformación y tomamos como outliers a los valores cuyo modulo es mayor a 3.
+- Z-score: Realizamos esta transformación y tomamos como outliers a los valores cuyo módulo es mayor a 3.
 - Z-score Modificado: Tomamos una medida nueva llamada MAD (median absolute deviation). Tomamos como outliers los valores cuyo módulo es mayor a 3.5.
 - IQR: Tomamos outliers según su distancia a los cuartiles extremos (primero y tercero) de la variable. Si la distancia es $\pm 1.5\cdot IQR$ se considera un outlier moderado. Si la distancia es $\pm3.5 \cdot IQR$ se considera un outlier severo. Definimos $IQR$ como la distancia entre el primer y el tercer cuartil.
 
