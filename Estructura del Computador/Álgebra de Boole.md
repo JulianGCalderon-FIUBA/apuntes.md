@@ -32,7 +32,7 @@ Si reemplazo en una expresión todo $0$ por un $1$, y todo $+$ por un $.$, enton
 - **Elemento Absorbente:** $a+1 = 1 \quad\implies\quad a.0 = 0$
 - **Absorción:** $a + (a.b) = a \quad\implies\quad a.(a+b) = a$
 - **Asociatividad:** $a + (b + c) = (a+b) + c \quad\implies\quad a.(b.c) = (a.b).c$
-- **Complemento Único:** $\overline a$ es único
+- **Complemento Único:** $\overline a$ es único.
 - **Involución:** $\overline{\overline a} = a$
 - **En cualquier álgebra booleana**: $\overline 0 = 1\quad\implies\quad \overline 1 = 0$
 - **Leyes de Morgan:** $\overline{(a+b)} = \overline a. \overline b \quad\implies\quad \overline{(a.b)} = \overline a + \overline b$

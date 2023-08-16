@@ -2,7 +2,7 @@
 
 En un circuito simple con capacidad de memoria, transforma pulsos temporales de $S, R$ en pulsos constantes $Q, \overline Q$.
 
-![[Circuitos Asincronicos 1.png]] ![[Circuitos Asincronicos 2.png|475]]
+![[Circuitos Asincronicos 1.png|300]]![[Circuitos Asincronicos 2.png|300]]
 
 ### Diagrama de Tiempos
 

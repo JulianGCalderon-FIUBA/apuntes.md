@@ -70,11 +70,11 @@ A la hora de incluir módulos externos, estos pueden se relocalizados para poder
 
 Para generarla, el ensamblador recorre el archivo línea por línea, Incluye su nombre en la tabla. Al encontrarlos, les asigna un valor correspondiente.
 
-Es una tabla que contiene el nombre de los símbolos, su dirección, si son *extern* o *global*, o si son relocalizables.
+Es una tabla que contiene el nombre de los símbolos, su dirección, si son *extern o global*, o si son relocalizables.
 
 No todos los símbolos son relocalizables, por ejemplo:
 
-- Direcciones de entrada/salida
+- Direcciones de entrada/salida.
 - Rutinas del sistema
 
 ## Linker
@@ -102,7 +102,7 @@ Hay varias instancias
 - **Linking Loader:** Linkea en tiempo de carga. Además de relocalizar, Busca automáticamente bibliotecas, Linkea y carga el programa en memoria. De esta forma, el ejecutable no tiene que contener las bibliotecas utilizadas.
 - **Linking Loader Dinámico:** Carga rutinas únicamente cuando el programa las necesita. Utiliza *Dynamic Link Libraries (dll)*
 
-![[Compiladores y Ensambladores 1.png]]
+![[Compiladores y Ensambladores 1.png|450]]
 
 ## Archivos Objeto
 

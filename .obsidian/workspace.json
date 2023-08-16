@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelos y Optimización I/Coloreo de Grafos.md",
+                "file": "Estructura del Computador/Compiladores y Ensambladores.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464.5,
-    "collapsed": true
+    "width": 464.5
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modelos y Optimización I/Coloreo de Grafos.md"
+                "file": "Estructura del Computador/Compiladores y Ensambladores.md"
               }
             }
           },
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelos y Optimización I/Coloreo de Grafos.md",
+                "file": "Estructura del Computador/Compiladores y Ensambladores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modelos y Optimización I/Coloreo de Grafos.md",
+                "file": "Estructura del Computador/Compiladores y Ensambladores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,6 +159,15 @@
   },
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
+    "Estructura del Computador/Estructura del Computador.md",
+    "Estructura del Computador/Compiladores y Ensambladores.md",
+    "Estructura del Computador/Circuitos Sincrónicos.md",
+    "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
+    "Estructura del Computador/Circuitos Asincrónicos.md",
+    "Estructura del Computador/Circuitos.md",
+    "Estructura del Computador/Álgebra de Boole.md",
+    "To-Do.md",
+    "Modelos y Optimización I/Coloreo de Grafos.md",
     "Probabilidad y Estadistica/Probabilidad.md",
     "Modelos y Optimización I/Problemas Combinatorios.md",
     "Análisis Numérico/Métodos Iterativos.md",
@@ -168,7 +176,6 @@
     "Probabilidad y Estadistica/Esperanza Condicional.md",
     "Análisis Matemático II/Diferenciabilidad.md",
     "Análisis Matemático II/Cónicas.md",
-    "Modelos y Optimización I/Coloreo de Grafos.md",
     "Física II/Circuitos en Resonancia.md",
     "Matemática Discreta/Álgebra de Boole.md",
     "Algoritmos II/Análisis de Algoritmos.md",
@@ -177,15 +184,7 @@
     "Organización de Datos/AdaBoost.md",
     "Modelos y Optimización I/Análisis de Sensibilidad.md",
     "Indice.md",
-    "To-Do.md",
     "Análisis Numérico/Trazador Cúbico - Spline.md",
-    "Análisis Numérico/Sistemas no Lineales.md",
-    "Análisis Numérico/Sistemas Lineales.md",
-    "Análisis Numérico/Series de Fourier.md",
-    "Análisis Numérico/Refinamiento Iterativo.md",
-    "Análisis Numérico/Punto Flotante.md",
-    "Análisis Numérico/Newton-Raphson.md",
-    "Análisis Numérico/Polinomio de Hermite.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
