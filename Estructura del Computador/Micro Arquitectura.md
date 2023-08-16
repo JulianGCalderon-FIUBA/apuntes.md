@@ -84,7 +84,7 @@ Para implementar las operaciones, utiliza dos componentes:
 - **Barrel-Shifter:** Este componente permite desplazar bits a izquierda o derecha en un solo ciclo de reloj, a diferencia de un registro de desplazamiento.
 
 > [!note]
-> En la tabla no estan todas las operaciones, la operacion subcc por ejemplo se puede realizar con un complemento y un suma. De esto se encarga la unidad de control.
+> En la tabla no estan todas las operaciones, la operacion *subcc* por ejemplo se puede realizar con un complemento y un suma. De esto se encarga la unidad de control.
 
 La ALU calcula los flags de cada operación y los carga en el registro **PSR** en cada de ser necesario.
 
@@ -111,7 +111,7 @@ Para diseñarlo, se utilizan contadores que permiten indicar en que estado nos e
 - **CBL:** Está conectado con los flags y los códigos de condición y el bit 13 del registro IR. Decide que tipo de salto se debe realizar y lo envía al CS-Address-MUX.
 - **MUX A, B, C:** Estos tres multiplexores deciden si tomar el registro indicado por el MIR o por el IR, dependiendo de los correspondientes bits en el MIR.
 
-Como la lectura de memoria puede ser más lenta, se utiliza el **ACK (Acknowledge)**, por este canal se envía un 1 una vez que termino la operación en memoria. Permite indicarle a la unidad de control que puede seguir con la próxima instrucción.
+Como la lectura de memoria puede ser más lenta, se utiliza el **ACK** *(Acknowledge),* por este canal se envía un 1 una vez que termino la operación en memoria. Permite indicarle a la unidad de control que puede seguir con la próxima instrucción.
 
 #### Formato de Instrucciones MIR
 
@@ -133,9 +133,9 @@ Cada parte de la MIR tiene un propósito distinto:
 
 La instrucción **DECODE** lee la instrucción del registro IR y determina la instrucción de la ROM que se debe ejecutar.
 
-Para obtener que instrucción de la ROM se debe realizar, se utiliza el OP, seguido del OP3. Con un total de 8 bits. Como las instrucciones están en 11 bits. El primer bit siempre vale 1, mientras que los últimos dos bits siempre están en 0.
+Para obtener que instrucción de la ROM se debe realizar, se utiliza el **OP**, seguido del OP3. Con un total de 8 bits. Como las instrucciones están en 11 bits. El primer bit siempre vale 1, mientras que los últimos dos bits siempre están en 0.
 
-Para las instrucciones de Assembly que no contienen **OP3**, se le asigna a toda instrucción posible un mismo microcódigo, delegándole al mismo identificar cuál operación es. Por ejemplo, branches, sethi, call.
+Para las instrucciones de Assembly que no contienen **OP3**, se le asigna a toda instrucción posible un mismo microcódigo, delegándole al mismo identificar cuál operación es. Por ejemplo: *branches, sethi, call*.
 
 Para no repetir el microcódigo en cada instrucción, se puede utilizar la **nanoprogramación.** Consiste en remplazar la tabla de *2048 words x 41 bits* por una tabla de *2048 words x 7 bits*, donde se redirige a una nueva tabla de *100 words x 41 bits*, la cual contiene el microcódigo para cada operación.
 

@@ -14,7 +14,7 @@ El principal inconveniente del punto flotante, es que el cero y los valores cerc
 - **Mantisa:** Representa el significado del número. Por norma, empieza con $1,d_1d_2d_3 \dots d_n$
 - **Exponente:** Representa la magnitud del número (con signo). Se representa con *"exceso".* En el exponente no están permitidos los extremos del rango de representación. No admite todos ceros ni todos unos.
 
-![[Punto Flotante 1.png]]
+![[Punto Flotante 1.png|500]]
 
 Formatos típicos de los números de máquina.
 

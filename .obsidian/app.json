@@ -128,6 +128,12 @@
     "linker",
     "loader",
     "loaders",
-    "Linking"
+    "Linking",
+    "ALU",
+    "Flops",
+    "carry",
+    "Carry",
+    "Overflow",
+    "overflow"
   ]
 }

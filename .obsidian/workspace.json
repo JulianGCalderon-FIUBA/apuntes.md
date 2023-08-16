@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estructura del Computador/Compiladores y Ensambladores.md",
+                "file": "Estructura del Computador/Registros y Contadores.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estructura del Computador/Compiladores y Ensambladores.md"
+                "file": "Estructura del Computador/Registros y Contadores.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estructura del Computador/Compiladores y Ensambladores.md",
+                "file": "Estructura del Computador/Registros y Contadores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estructura del Computador/Compiladores y Ensambladores.md",
+                "file": "Estructura del Computador/Registros y Contadores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,6 +159,12 @@
   },
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
+    "Estructura del Computador/Punto Flotante.md",
+    "Estructura del Computador/Registros y Contadores.md",
+    "Estructura del Computador/Pasajes de Base.md",
+    "Estructura del Computador/Operaciones Básicas.md",
+    "Estructura del Computador/Micro Arquitectura.md",
+    "Estructura del Computador/Funciones Lógicas.md",
     "Estructura del Computador/Estructura del Computador.md",
     "Estructura del Computador/Compiladores y Ensambladores.md",
     "Estructura del Computador/Circuitos Sincrónicos.md",
@@ -179,12 +185,6 @@
     "Física II/Circuitos en Resonancia.md",
     "Matemática Discreta/Álgebra de Boole.md",
     "Algoritmos II/Análisis de Algoritmos.md",
-    "Matemática Discreta/Alfabeto.md",
-    "Análisis Numérico/Ajuste.md",
-    "Organización de Datos/AdaBoost.md",
-    "Modelos y Optimización I/Análisis de Sensibilidad.md",
-    "Indice.md",
-    "Análisis Numérico/Trazador Cúbico - Spline.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
