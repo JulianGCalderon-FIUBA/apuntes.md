@@ -1,6 +1,6 @@
 ## Data Scientist
 
-Un data scientist es capaz de obtener, interpretar, procesar y filtrar datos. Llegando a conclusiones a partir de ellos y construyendo soluciones para los problemas relacionados.
+Un **data scientist** es capaz de obtener, interpretar, procesar y filtrar datos. Llegando a conclusiones a partir de ellos y construyendo soluciones para los problemas relacionados.
 
 Un **data engineer** se enfoca en la creación de infraestructura y arquitectura para la generación, soporte y extracción de datos, mientras que el **data scientist** se enfoca en la interpretación y el análisis de los datos.
 

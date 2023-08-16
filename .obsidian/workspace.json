@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do.md",
+                "file": "Organización de Datos/Introduccion.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Do.md"
+                "file": "Organización de Datos/Introduccion.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do.md",
+                "file": "Organización de Datos/Introduccion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Do.md",
+                "file": "Organización de Datos/Introduccion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,8 +157,12 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "6060b098ee9aa43c",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
+    "Organización de Datos/K-nearest Neighbours.md",
+    "Organización de Datos/Introduccion.md",
+    "Organización de Datos/Organización de Datos.md",
+    "Organización de Datos/AdaBoost.md",
     "To-Do.md",
     "Estructura del Computador/Sistemas de Numeración.md",
     "Estructura del Computador/Sistema ARC.md",
@@ -181,10 +185,6 @@
     "Probabilidad y Estadistica/Probabilidad.md",
     "Modelos y Optimización I/Problemas Combinatorios.md",
     "Análisis Numérico/Métodos Iterativos.md",
-    "Física II/Ley de Biot y Savalt.md",
-    "Análisis Matemático II/Extremos de campos escalares.md",
-    "Probabilidad y Estadistica/Esperanza Condicional.md",
-    "Análisis Matemático II/Diferenciabilidad.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
