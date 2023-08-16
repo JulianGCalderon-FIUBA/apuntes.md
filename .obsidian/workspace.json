@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Organización de Datos/Árboles.md",
+                "file": "Organización de Datos/AdaBoost.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Organización de Datos/Árboles.md"
+                "file": "Organización de Datos/AdaBoost.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Organización de Datos/Árboles.md",
+                "file": "Organización de Datos/AdaBoost.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Organización de Datos/Árboles.md",
+                "file": "Organización de Datos/AdaBoost.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,16 +159,19 @@
   },
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
+    "Organización de Datos/Ensambles.md",
     "Organización de Datos/Organización de Datos.md",
+    "Organización de Datos/Support Vector Machines.md",
+    "Organización de Datos/K-nearest Neighbours.md",
+    "Organización de Datos/Reducción de Dimensionalidad.md",
+    "Organización de Datos/Árboles.md",
     "Organización de Datos/Modelos Comunes.md",
     "Organización de Datos/Introducción.md",
-    "Organización de Datos/Árboles.md",
     "Organización de Datos/Valores Atípicos.md",
     "Organización de Datos/Entrenamiento y Testing.md",
     "Organización de Datos/Transformación de Datos.md",
     "Organización de Datos/Ciencia de Datos.md",
     "Organización de Datos/Extracción de Datos.md",
-    "Organización de Datos/K-nearest Neighbours.md",
     "Organización de Datos/AdaBoost.md",
     "To-Do.md",
     "Estructura del Computador/Sistemas de Numeración.md",
@@ -182,9 +185,6 @@
     "Estructura del Computador/Micro Arquitectura.md",
     "Estructura del Computador/Funciones Lógicas.md",
     "Estructura del Computador/Estructura del Computador.md",
-    "Estructura del Computador/Compiladores y Ensambladores.md",
-    "Estructura del Computador/Circuitos Sincrónicos.md",
-    "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

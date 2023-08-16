@@ -2,7 +2,7 @@ Esta técnica consiste en entrenar un predictor, un clasificador base, calcular 
 
 El proceso se repite $n$ veces hasta disminuir el error. Esta técnica no puede realizarse en paralelo, por lo que es poco escalable al tener grandes volúmenes de árboles.
 
-Los árboles utilizados son stumps, árboles con un solo nodo y dos hojas
+Los árboles utilizados son *stumps*, árboles con un solo nodo y dos hojas
 
 A cada observación del dataset se le asigna un peso, este se utiliza en la creación de stumps. Inicialmente, todos tienen el mismo peso inicial $\frac 1n$
 

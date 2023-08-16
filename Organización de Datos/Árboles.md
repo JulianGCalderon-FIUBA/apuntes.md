@@ -82,8 +82,8 @@ Este algoritmo es una mejora al algoritmo de ID3:
 
 Dado un conjunto de entrenamiento $D$, de tamaño $n$, la técnica de *bagging* generará $m$ nuevos conjuntos de entrenamiento $D_1, \cdots, D_m$ cada uno de tamaño $n'$ tomando muestras aleatorias de $D$. Donde $n' \approx \frac 23 n$
 
-Ahora, entrenamos un árbol para cada uno de estos conjuntos de datos, creando una matriz de confusión para cada uno de ellos. Realizando métricas (*accuracy*) para cada matriz de confusión.
+Ahora, entrenamos un árbol para cada uno de estos conjuntos de datos, creando una matriz de confusión para cada uno de ellos. Realizando métricas *(accuracy)* para cada matriz de confusión.
 
-Luego, a partir de un conjunto de entrenamiento, nos quedamos con el mejor arbol. Repetimos este proceso $k$ veces.
+Luego, a partir de un conjunto de entrenamiento, nos quedamos con el mejor árbol. Repetimos este proceso $k$ veces.
 
-Luego tendremos un conjunto de arboles (*forest*), donde cada arbol vota. Si la mayoria de arboles devolvieron una misma categoria, nos quedamos con esa categoria.
+Luego tendremos un conjunto de árboles *(forest)*, donde cada árbol vota. Si la mayoría de árboles devolvieron una misma categoría, nos quedamos con esa categoría.
