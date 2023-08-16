@@ -12,9 +12,9 @@ Consiste en entrenar un algoritmo para que aprenda a analizar los datos, estos a
 
 ## Metodología
 
-1. Entender el problema: Hacer preguntas e identificar los problemas a resolver
-2. Recolectar los Datos: Identificar los conjuntos de datos y extraerlos en un formato usable
-3. Procesar los datos: Examinar los datos y limpiarlos
-4. Explorar los Datos: Jugar con las variables, identificar patrones. Entender el formato
-5. Analizar los Datos: Crear modelos predictivos y evaluarlos para poder predecir comportamientos
-6. Comunicar los Datos: Visualización de los datos, explicar el resultado con lenguaje de negocio.
+1. **Entender el problema:** Hacer preguntas e identificar los problemas a resolver
+2. **Recolectar los Datos:** Identificar los conjuntos de datos y extraerlos en un formato usable
+3. **Procesar los datos:** Examinar los datos y limpiarlos
+4. **Explorar los Datos:** Jugar con las variables, identificar patrones. Entender el formato
+5. **Analizar los Datos:** Crear modelos predictivos y evaluarlos para poder predecir comportamientos
+6. **Comunicar los Datos:** Visualización de los datos, explicar el resultado con lenguaje de negocio.

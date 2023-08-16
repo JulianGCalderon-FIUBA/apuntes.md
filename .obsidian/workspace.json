@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Organización de Datos/Introduccion.md",
+                "file": "Organización de Datos/Entrenamiento y Testing.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Organización de Datos/Introduccion.md"
+                "file": "Organización de Datos/Entrenamiento y Testing.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Organización de Datos/Introduccion.md",
+                "file": "Organización de Datos/Entrenamiento y Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Organización de Datos/Introduccion.md",
+                "file": "Organización de Datos/Entrenamiento y Testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,11 +157,13 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
-    "Organización de Datos/K-nearest Neighbours.md",
-    "Organización de Datos/Introduccion.md",
     "Organización de Datos/Organización de Datos.md",
+    "Organización de Datos/Modelos Comunes.md",
+    "Organización de Datos/Ciencia de Datos.md",
+    "Organización de Datos/Introduccion.md",
+    "Organización de Datos/K-nearest Neighbours.md",
     "Organización de Datos/AdaBoost.md",
     "To-Do.md",
     "Estructura del Computador/Sistemas de Numeración.md",
@@ -183,8 +185,6 @@
     "Estructura del Computador/Álgebra de Boole.md",
     "Modelos y Optimización I/Coloreo de Grafos.md",
     "Probabilidad y Estadistica/Probabilidad.md",
-    "Modelos y Optimización I/Problemas Combinatorios.md",
-    "Análisis Numérico/Métodos Iterativos.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

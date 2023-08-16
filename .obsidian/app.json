@@ -126,6 +126,8 @@
     "univariada",
     "upla",
     "Versores",
-    "void"
+    "void",
+    "usable",
+    "outliers"
   ]
 }

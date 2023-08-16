@@ -6,36 +6,36 @@ La idea es crear modelos predictivos a partir de un conjunto de datos. Los model
 	- Análisis de componentes principales
 - **Machine** **Learning**: Hacen uso de la inteligencia artificial
 	- Redes neuronales
-	- Support Vector Machines (SVM)
+	- *Support Vector Machines (SVM)*
 - Elementos que combinan ambas
-	- Algoritmo ID3 (arboles de decision)
-	- K Means (distancia euclidiana)
-	- Bayes Naive (probabilidad condicional, teorema de bayes)
+	- Algoritmo ID3 (árboles de decisión)
+	- K-Means (distancia euclidiana)
+	- Bayes Naive (probabilidad condicional, teorema de Bayes)
 
 ## Tipos de Variables
 
 - Variables Independientes: Utilizadas para entrenar el modelo (entrada)
 	- Cualitativas
 		- Texto
-			- Nominales (categorias)
+			- Nominales (categorías)
 			- Ordinales (poco, mucho)
-		- Numericas
+		- Numéricas
 			- Nominales
 			- Ordinarias
 	- Cuantitativas
 		- Discreta
 		- Continua
-- Variables dependientes (salidas, categorias)
+- Variables dependientes (salidas, categorías)
 
 ## Tipos de Problemas
 
-1. Si la variable dependiente es cualitativa, el tipo de problema es de **clasificacion**. Buscamos clasificar una observacion en funcion de sus datos de entrada
-2. Si la variable es cuantitativa, el problema es de **regresión**. Buscamos predecir un valor en funcion de otros
-3. Si no hay variables dependientes, el problema es de **agrupamiento**. Buscamos agrupar observaciones segun sus caracteristicas.
+1. Si la variable dependiente es cualitativa, el tipo de problema es de **clasificación**. Buscamos clasificar una observación en función de sus datos de entrada
+2. Si la variable es cuantitativa, el problema es de **regresión**. Buscamos predecir un valor en función de otros
+3. Si no hay variables dependientes, el problema es de **agrupamiento**. Buscamos agrupar observaciones según sus características.
 
 ## Outliers
 
-Los outliers son valores atipicos, debemos decir que hacer con estas observaciones. Hay distintas técnicas para lidiar con estos datos.
+Los **outliers** son valores atípicos, debemos decir que hacer con estas observaciones. Hay distintas técnicas para lidiar con estos datos.
 
 ## Correlación entre Variables
 
@@ -45,11 +45,11 @@ hay distintos tipos de correlación:
 - Negativa
 - Sin correlación
 
-La correlación NO implica causalidad. Pueden no tener relación entre si, o depender de una tercer variable externa.
+La correlación NO implica causalidad. Pueden no tener relación entre sí, o depender de una tercera variable externa.
 
 Las relaciones de causalidad son difíciles de encontrar y demostrar.
 
-> [!note]
+> [!note] Ejemplos de Correlaciones Inexplicables
 > [https://www.tylervigen.com/spurious-correlations](https://www.tylervigen.com/spurious-correlations)
 
 ### Varianza
