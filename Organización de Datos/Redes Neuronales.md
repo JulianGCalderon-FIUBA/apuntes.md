@@ -1,6 +1,6 @@
 Es un algoritmo de aprendizaje que busca simular la inteligencia humana. Para ello, se basa en **neuronas**.
 
-Una neurona simple, tiene una serie de entradas. Estas se multiplican por unos pesos correspondientes, luego se suma y el resultado es pasado a una función de activación, la cual determina un resultado
+Una neurona simple tiene una serie de entradas. Estas se multiplican por unos pesos correspondientes, luego se suma y el resultado es pasado a una función de activación, la cual determina un resultado
 
 ![[Redes Neuronales 1.png]]
 
@@ -22,7 +22,7 @@ $$
 w_0 = w_0 + \alpha + E
 $$
 
-El perceptrón en definitiva, crea una línea que corta el plano, esto permite generar compuertas logicas (solo las linealmente separables)
+El perceptrón en definitiva, crea una línea que corta el plano, esto permite generar compuertas lógicas (solo las linealmente separables)
 
 ## Perceptrón Multicapa
 
@@ -38,7 +38,7 @@ Separación del plano de forma compleja
 
 ## Redes SOM
 
-*Mappean* un espacio de entrada en un espacio de salida, para hacerlo se utiliza una matriz de pesos. Cada entrada, está conectada con cada nodo de salida.
+*Mappean* un espacio de entrada en un espacio de salida, para hacerlo se utiliza una matriz de pesos. Cada entrada está conectada con cada nodo de salida.
 
 Se calcula la distancia euclidiana de cada nodo, gana la neurona con la menor distancia.
 
@@ -46,11 +46,11 @@ Cuando una neurona gana, actualiza los pesos de todas las neuronas dentro de un 
 
 Estos radios disminuyen hasta que no se realicen cambios. Al final, se generan vecindarios
 
-![[Redes Neuronales 5.png]]
+![[Redes Neuronales 5.png|300]]
 
-![[Redes Neuronales 6.png]]
+![[Redes Neuronales 6.png|300]]
 
-![[Redes Neuronales 7.png]]
+![[Redes Neuronales 7.png|300]]
 
 ## Backpropagation
 
@@ -60,7 +60,7 @@ Los nodos, solo se conectan con los nodos siguientes.
 
 Pueden tanto aumentar como disminuir la cantidad de nodos en cada capa.
 
-![[Redes Neuronales 8.png]]
+![[Redes Neuronales 8.png|500]]
 
 La función de activación de este método es la función sigma
 
@@ -68,7 +68,7 @@ $$
 f(x) = \frac{1}{1+e^{-x}}
 $$
 
-En la primera iteración, se calculan los resultados con pesos aleatorios. Desde la primer capa hasta la última.
+En la primera iteración, se calculan los resultados con pesos aleatorios. Desde la primera capa hasta la última.
 
 Calculamos el error cuadrático medio de las salidas
 
@@ -88,32 +88,32 @@ Para cada derivada parcial, utilizamos la regla de la cadena. Luego movemos los 
 
 Hay distintas funciones de activación dependiendo de nuestro problema:
 
-- Regresión: Sigmoidea, Lineal, Relu, ETC
-- Clasificación de clases excluyentes: Sigmoidea
-- Clasificación de clases simultáneas: Softmax, función exponencial normalizada. Se utiliza como función de activación de la capa de salida en modelos de calcificación, interpretandola como *scoring*.
+- **Regresión:** Sigmoidea, Lineal, Relu, ETC
+- **Clasificación de clases excluyentes:** Sigmoidea
+- **Clasificación de clases simultáneas:** Utiliza Softmax, función exponencial normalizada. Se utiliza como función de activación de la capa de salida en modelos de calcificación, interpretándola como *scoring*.
 
-![[Redes Neuronales 9.png]]
+![[Redes Neuronales 9.png|500]]
 
 ## Métodos de Regularización
 
 Son métodos para prevenir el sobre modelado, a veces no son necesarios.
 
-- Regularización L1 y L2: Penalizan el valor de los pesos de la red, evite que se le dé más importancia a una característica que a otra. L1 es proporcional al módulo de los pesos, L2 es proporcional al cuadrado.
-- Dropout: Apaga activaciones aleatoriamente durante el entrenamiento, esto hace que el resultado no dependa de unas pocas neuronas
-- Early Stopping: Frena el modelo antes de que el error del set de validación empieza a aumentar.
-- Data Augmentation: Generar más datos de prueba, a partir de los datos existentes. Aplicando transformaciones, especialmente útil para las imágenes.
+- **Regularización L1 y L2:** Penalizan el valor de los pesos de la red, evite que se le dé más importancia a una característica que a otra. L1 es proporcional al módulo de los pesos, L2 es proporcional al cuadrado.
+- **Dropout:** Apaga activaciones aleatoriamente durante el entrenamiento, esto hace que el resultado no dependa de unas pocas neuronas
+- **Early Stopping:** Frena el modelo antes de que el error del set de validación empieza a aumentar.
+- **Data Augmentation:** Generar más datos de prueba, a partir de los datos existentes. Aplicando transformaciones, especialmente útil para las imágenes.
 
 ## Optimizadores
 
 Es una implementación concreta del algoritmo de backpropagation.
 
-- SGD: Stochastic Gradient Descent, algoritmo clásico.
-- Momentum: El gradiente se utiliza para la aceleración, y no para la velocidad. Utilizamos un hiper parámetro momentum que indica la fricción.
+- SGD Stochastic Gradient Descent: algoritmo clásico.
+- Momentum: El gradiente se utiliza para la aceleración, y no para la velocidad. Utilizamos un hiperparámetro momentum que indica la fricción.
 - Nesterov: En lugar de calcular el gradiente del error en el punto actual, lo calcula en la dirección del momento, avanzando un poco.
 - AdaGrad: El error descenderá por la dimensión con la pendiente más empinada, esto no necesariamente al que conduzca al mínimo global. Tiene un buen desempeño para problemas cuadráticos simples. Pero a menuda se detiene demasiado pronto en redes profundas.
-- RMSProp: Soluciona el problema de AdaGrad al ir olvidando las pendientes anteriores, a medida que avanza. SOlo acumula los gradientes de las iteraciones recientes. Tendremos un hiper parámetro $\beta$, tasa de decaimiento.
-- Adam (Adaptive Moment Estimation): Combina ideas anteriores de Momentum y RMSProp. haciendo un seguimiento de una media de decaimiento exponencial de gradientes pasados y de gradientes cuadráticos pasados.
-- AdaMax: es una modificación de Adam, adam suele dar mejores resultados
+- RMSProp: Soluciona el problema de AdaGrad al ir olvidando las pendientes anteriores, a medida que avanza. SOlo acumula los gradientes de las iteraciones recientes. Tendremos un hiperparámetro $\beta$, tasa de decaimiento.
+- Adam (Adaptive Moment Estimation): Combina ideas anteriores de Momentum y RMSProp. Haciendo un seguimiento de una media de decaimiento exponencial de gradientes pasados y de gradientes cuadráticos pasados.
+- AdaMax: es una modificación de Adam, pero Adam suele dar mejores resultados
 - AdaDelta: Es una variación de AdaGrad, en vez de calcular el escalado del factor de entrenamiento de cada dimensión, se restringe a una ventana de tamaño fijo de los últimos $n$ gradientes. Similar a RMSProp, que olvida gradientes.
 
 ## Número de Capas

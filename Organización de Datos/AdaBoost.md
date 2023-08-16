@@ -8,7 +8,7 @@ A cada observación del dataset se le asigna un peso, este se utiliza en la crea
 
 En cada iteración, se crea un tocón o stump para cada atributo, seleccionado aquel que tenga menor impureza de Gini.
 
-Para calcular el peso relativo del tocón en el clasificador final, utilizamos una métrica llamada Amount of Say.
+Para calcular el peso relativo del tocón en el clasificador final, utilizamos una métrica llamada **Amount of Say**.
 
 $$
 \text{Amount of Say} = \frac 12 \ln (\frac{1 - \text{Total Error}}{\text{Total Error}})

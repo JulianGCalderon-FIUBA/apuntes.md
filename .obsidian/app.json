@@ -138,6 +138,8 @@
     "Outlier",
     "Univariados",
     "univariados",
-    "subnodo"
+    "subnodo",
+    "Perceptrón",
+    "perceptrón"
   ]
 }

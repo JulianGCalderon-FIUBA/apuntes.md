@@ -1,9 +1,9 @@
-## Bias vs. Variance
+## Sesgo vs. Varianza
 
-- Bias: Es el debido al modelo según la diferencia entre el valor esperado del estimador y el valor real.
+- Sesgo: Es el debido al modelo según la diferencia entre el valor esperado del estimador y el valor real.
 - Varianza: Se define como cuanto varía el modelo según los datos de entrada.
 
-Se busca tener *low bias y low variance*
+Se busca tener bajo sesgo y baja varianza.
 
 ![[Ensambles 1.png|500]]
 
