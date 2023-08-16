@@ -1,7 +1,3 @@
----
-title: Algoritmos I
----
-
 - [[Conceptos Básicos]]
 - [[Bibliotecas Personales]]
 - [[Algoritmos I/Recursividad|Recursividad]]

@@ -1,7 +1,3 @@
----
-title: Corriente Alterna
----
-
 Vamos a diseñar circuitos que contengan los elementos vistos anteriormente. Además, vamos a conectar circuitos a la corriente alterna, Es decir, una corriente cuya tensión está asociada a una función cosenoidal.
 
 $$

@@ -1,7 +1,3 @@
----
-title: Iteradores de Lista
----
-
 Este TDA se encarga de recorrer secuencialmente los datos almacenados en la lista.
 
 Existen dos tipos de iteradores:

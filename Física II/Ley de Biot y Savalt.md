@@ -1,7 +1,3 @@
----
-title: Ley de Biot y Savalt
----
-
 Por la experiencia, se encontró que los campos magnéticos son generados por cargas en movimiento (corrientes). Además, se encontraron las siguientes relaciones.
 
 - $\vec B \perp I\cdot d\vec l$

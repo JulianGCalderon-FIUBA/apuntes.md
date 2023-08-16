@@ -1,7 +1,3 @@
----
-title: Operaciones Básicas
----
-
 ## Complemento
 
 Complemento de un número en base $b$ índica cuanto le falta al número para llegar a su base. Si $n > b$, entonces su complemento indica cuanto le falta al número para llegar al número de la base seguido de tantos dígitos como $n$. Es decir, su distancia a $b^d$ siendo $d$ los dígitos de $n$

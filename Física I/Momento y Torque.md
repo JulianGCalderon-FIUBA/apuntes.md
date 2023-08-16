@@ -1,7 +1,3 @@
----
-title: Momento y Torque
----
-
 ## Momento Angular
 
 El Momento angular de un sistema se conserva mientras su velocidad sea constante, es decir, mientras que la fuerza neta sea nula.

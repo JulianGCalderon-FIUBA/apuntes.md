@@ -1,7 +1,3 @@
----
-title: Circuitos Sincrónicos
----
-
 ## Flip-Flop D Sincrónico Activado por Nivel
 
 ![[Circuitos Sincronicos 1.png|500]]

@@ -1,7 +1,3 @@
----
-title: Pilas, Colas y Listas
----
-
 ## Pila
 
 Una pila es una estructura de datos, que agrupa elementos. En la pila, solo podemos leer el último elemento apilado, y no podemos leer el próximo hasta deshacernos de ese. **LIFO: "Last in, First Out"**

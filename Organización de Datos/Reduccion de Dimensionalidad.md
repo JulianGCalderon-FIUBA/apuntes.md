@@ -1,7 +1,3 @@
----
-title: Reduccion de Dimensionalidad
----
-
 Visualizamos los datos en una dimension menor a la que tenemos, preserviendo caracteristicas importantes de estas, como distancias o correlaciones.
 
 - Permite enteneder facilmente la distribucion de los datos

@@ -1,7 +1,3 @@
----
-title: What is the internet
----
-
 ¿Qué es el internet? Podemos responder esta pregunta de diversas formas. La primera sería analizar el internet desde el *software* y *hardware* básico que lo compone, pero otro enfoque podría ser describir el internet como una infraestructura que provee un servicio a las aplicaciones distribuidas.
 
 ## 1. A Nuts-and-Bolts Description

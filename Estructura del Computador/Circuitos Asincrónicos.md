@@ -1,7 +1,3 @@
----
-title: Circuitos Asincrónicos
----
-
 ## Flip Flop - RS Asincrónico
 
 En un circuito simple con capacidad de memoria, transforma pulsos temporales de $S, R$ en pulsos constantes $Q, \overline Q$.

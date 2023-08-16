@@ -1,7 +1,3 @@
----
-title: Subconjuntos de Vértices y Aristas
----
-
 ## Clique y Anticlique
 
 Un **clique** es un subconjunto de vértices tal que cualquier par de ellos está unido por una arista, también llamado **clan**.

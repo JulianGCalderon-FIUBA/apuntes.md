@@ -1,7 +1,3 @@
----
-title: Movimiento Circular
----
-
 $$
 \boxed{\vec r = R\cos\theta\hat i + R\sin \theta \hat j}
 $$

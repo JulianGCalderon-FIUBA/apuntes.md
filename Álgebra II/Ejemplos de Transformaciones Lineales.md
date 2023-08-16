@@ -1,7 +1,3 @@
----
-title: Ejemplos de Transformaciones Lineales
----
-
 ## Rotación en $\mathbb{R}^2$
 
 La siguiente transformación lineal rota un vector un ángulo $\theta$ en sentido antihorario:
@@ -47,7 +43,7 @@ Supongamos que $v \in Nu(\Pi) \cap Im(\pi)$, entonces $\underbrace{\Pi(v) = v}_{
 
 ### Definición
 
-Ya que todo vector de $\Bbb V$ se puede representar como combinación única de vectores de $Im(\Pi)$ y $Nu(\Pi)$. Entonces, si definimos ambos subespacios, siendo $S_1 = Im(\Pi)$, y $S_2 = Nu(\Pi)$, queda definida una proyección transversal que se denota como $\Pi_{S_1 S_2}$, se lee la proyección sobre $S_1$ en la dirección de $S_2$.
+Ya que todo vector de $\Bbb V$ se puede representar como combinación única de vectores de $Im(\Pi)$ y $Nu(\Pi)$. Entonces, si definimos ambos subespacios, siendo $S_1 = Im(\Pi)$, y $S_2 = Nu(\Pi)$, queda definida una proyección transversal que se denota como $\Pi_{S_1 S_2}$, se lee la proyección sobre $S_1$ en la dirección de $S_2$. 
 
 ### Propiedades
 

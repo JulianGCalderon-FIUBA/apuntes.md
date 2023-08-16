@@ -1,7 +1,3 @@
----
-title: Managing Mobility in Cellular Networks
----
-
 Al igual que ***mobile IP***, ***GSM*** adopta un enfoque de ***indirect routing***. Primero, el llamado se envía a la red local del usuario, y luego a la red visitada. En terminología de ***GSM***, la red local se conoce como **home public land mobile network (home PLMN)**. Las responsabilidades entre ambas redes son distintos:
 
 - La red local mantiene una base de datos conocida como ***home location register (HLR)***, que contiene el teléfono celular permanente de un usuario, e información de perfil sobre sus subscriptores. Ademas, contiene la dirección actual de cada uno de sus suscriptores. El ***HLR*** tiene suficiente información para obtener una dirección en la red visitada. Un ***switch especial*** es contactado en la red local, conocido como ***Gateway Mobile Services Switching Center (GMSC)***. Nos referiremos a el como el home MSC.

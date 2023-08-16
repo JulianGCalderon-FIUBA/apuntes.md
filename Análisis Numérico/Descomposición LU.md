@@ -1,7 +1,3 @@
----
-title: Descomposición LU
----
-
 La factorización LU consiste en descomponer la matriz en dos matrices diagonales, por lo que su resolución será simple.
 
 $$

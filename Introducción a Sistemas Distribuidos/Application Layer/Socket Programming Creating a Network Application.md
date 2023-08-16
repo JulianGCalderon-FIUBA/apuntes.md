@@ -1,7 +1,3 @@
----
-title: Socket Programming Creating a Network Application
----
-
 Existen dos tipos de aplicaciones de red. Aquellas que implementan una operación especificada en un estándar de protocolo, como en un RFC. Estas aplicaciones se suelen considerar ***"open"***. Por otro lado, tenés las redes que implementan un protocolo propietario, que no fue publicado de forma libre.
 
 ## 1. Socket Programming with UDP

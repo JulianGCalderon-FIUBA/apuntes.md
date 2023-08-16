@@ -1,7 +1,3 @@
----
-title: Redes Neuronales
----
-
 Es un algoritmo de aprendizaje que busca simular la inteligencia humana. Para ello, se basa en **neuronas**.
 
 Una neurona simple, tiene una serie de entradas. Estas se multiplican por unos pesos correspondientes, luego se suma y el resultado es pasado a una función de activación, la cual determina un resultado

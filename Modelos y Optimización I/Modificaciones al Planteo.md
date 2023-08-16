@@ -1,7 +1,3 @@
----
-title: Modificaciones al Planteo
----
-
 ## Agregado de Variables
 
 Se nos presenta la oportunidad de agregar una variable más al análisis, no se agregan restricciones, pero sí coeficientes en las mismas.

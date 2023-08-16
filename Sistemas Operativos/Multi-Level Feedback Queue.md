@@ -1,7 +1,3 @@
----
-title: Multi-Level Feedback Queue
----
-
 Este es uno de los enfoques más conocidos para la planificación. El problema fundamental que este enfoque trata de solucionar es minimizar tanto el ***turnaround time*** como el ***response time***. Para realizar esto, en lugar de depender de conocimiento ***a priori*** de los procesos, se observa su ejecución.
 
 ## Reglas Básicas

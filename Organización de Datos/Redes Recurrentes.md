@@ -1,7 +1,3 @@
----
-title: Redes Recurrentes
----
-
 Es una red que trabaja con secuencias. La salida de una neurona es alimentada a la siguiente de forma sucesiva
 
 ![[Redes Recurrentes 1.png]]

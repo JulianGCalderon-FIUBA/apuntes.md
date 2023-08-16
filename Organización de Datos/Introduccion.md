@@ -1,7 +1,3 @@
----
-title: Introduccion
----
-
 ## Data Scientist
 
 Un data scientist es capaz de obtener, interpretar, procesar y filtrar datos. Llegando a conclusiones a partir de ellos y construyendo soluciones para los problemas relacionados.

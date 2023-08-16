@@ -1,7 +1,3 @@
----
-title: Grafos
----
-
 Es un conjunto de vértices y aristas, que determinan conexiones entre los vértices. Es útil al estudiar las relaciones entre unidades que interactúan entre sí. Por ejemplo, una red de computadores puede representarse y estudiarse mediante un grafo.
 
 ## Clasificación

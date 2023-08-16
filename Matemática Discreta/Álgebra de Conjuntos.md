@@ -1,7 +1,3 @@
----
-title: Álgebra de Conjuntos
----
-
 Sean $A, B$ dos conjuntos, entonces definimos como $B^A$ como el conjunto de funciones posibles que van del conjunto $A$ al conjunto $B$
 
 $$

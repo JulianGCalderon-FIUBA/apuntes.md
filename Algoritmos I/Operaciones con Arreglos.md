@@ -1,7 +1,3 @@
----
-title: Operaciones con Arreglos
----
-
 ## Modificación
 
 ### Inserción Ordenada

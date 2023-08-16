@@ -1,7 +1,3 @@
----
-title: Network Management and SNMP
----
-
 El ***network management*** incluye el despliegue, integración, coordinación del ***hardware***, ***software***, y elementos humanos a monitorear, verificar, consultar, configurar, analizar, evaluar y controlar la red y los recursos necesarios para alcanzar un rendimiento operacional y en tiempo real, y los servicios de calidad necesarios a un costo razonable.
 
 ## 1. The Network Management Framework

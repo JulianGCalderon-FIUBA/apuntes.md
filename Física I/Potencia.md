@@ -1,7 +1,3 @@
----
-title: Potencia
----
-
 $$
 P = \frac W{\Delta t} 
 $$

@@ -1,7 +1,3 @@
----
-title: Heurísticas para el Problema de la Mochila
----
-
 ## Aproximación a través de coeficiente de rendimiento
 
 Un ejemplo simple de **heurística** puede ser:

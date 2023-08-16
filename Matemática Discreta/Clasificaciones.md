@@ -1,7 +1,3 @@
----
-title: Clasificaciones
----
-
 ## Particiones
 
 $G$ es $k$-partito si $V(G) = \bigcup_{i = 1}^k V_i$, con conjuntos disjuntos $\bigcap_{i=1}^k V_i = \emptyset$ tal que si $uv \in E(G)$, entonces $u,v$ no pertenecen ambos al mismo $V_i$.
@@ -66,9 +62,9 @@ Un árbol generador de un grafo $G$ es un subgrafo que contiene todos los vérti
 **Propiedad:** Si a un árbol se le quita una hoja (vértice de grado 1), el grafo resultante es un árbol. Esto se debe a que no se generan ciclos ni se pierde la conexidad.
 
 > [!proof]- Demostración de $m = n-1$:
-> 
+>
 > Para demostrar que en un árbol, $m = n-1$, utilizaremos inducción. Sea $G$ un árbol de tamaño $n$:
-> 
+>
 > - $n = 1$. Al ser simple, $m=0$.
 > - $n \geq 1$. Si $h$ es una hoja de $G$, con orden $m=n-1$, entonces $G - h$ es un árbol de tamaño $n-1$ y, por hipótesis inductiva, de tamaño $n-2$. Al agregar nuevamente $h$ no generamos ningún ciclo, y generamos un árbol de orden $n$ y tamaño $n-1$.
 
@@ -102,18 +98,18 @@ $$
 
 > [!proof]- Demostración:
 > Todo grafo conexo admite un árbol generador, esto es un subgrafo que contiene todos los vértices y es un árbol.
-> 
+>
 > Sea $T$ un grafo generador de $G$, entonces:
-> 
+>
 > $$
 > \begin{gathered}
 > n(T) - m(T) + f(T) = 12\\
 > n(G) - (n(G)-1) + 1 = 12
 > \end{gathered}
 > $$
-> 
+>
 > Se añade a ese árbol generador una a una las aristas hasta completar $G$, por cada arista agregada, crearemos un círculo y entonces, crearemos una cara
-> 
+>
 > $$
 > n(T) + (n(G) -1 - k) + f + k = 2
 > $$
@@ -135,22 +131,22 @@ $$
 A partir de este criterio, podemos demostrar por fuerza bruta que $K_5$ es el primer grafo completo no planar. Además, todos los grafos siguientes tampoco lo son.
 
 > [!proof]- Demostración
-> 
-> 
-> 
+>
+>
+>
 > Por inducción podemos probar que para todos los grafos de orden mayor a dos, se cumple que:
-> 
+>
 > $$
 > d(f_k) \geq 3, \forall k \in 0,\cdots, f
 > $$
-> 
+>
 > Intuitivamente, se puede pensar como que toda cara está delimitada por una frontera. La curva de frontera de menor longitud que podemos formar es el triángulo, de longitud tres.
 > Si utilizamos FSL, tendremos que $3f \leq 2m$. Si combinamos esta > propiedad con el teorema de Euler, tendremos un criterio de rechazo para la planaridad de un grafo
-> 
+>
 > $$
 > m \leq 3(n-2)
 > $$
-> 
+>
 > Si no se cumple esta prioridad, entonces podemos asegurar que el grafo conexo de grado mayor a dos no es planar.
 
 Si $G$ es un primo conexo sin ciclos de longitud tres, con $n(G) \geq 3$, entonces podremos demostrar análogamente criterio similar. Si no se permiten ciclos impares, entonces la mínima longitud de frontera ya no será tres, sino cuatro.
@@ -172,15 +168,15 @@ Una cota inferior del número cromático de $G$ es el número $p$ si $K_p$ es un
 Una cota superior del número cromático de $G$ es $\Delta(G) + 1$. Recordemos que se denota con $\Delta(G)$ al máximo grado. La prueba de esto es por inducción.
 
 > [!proof]- Demostración
-> 
+>
 > Buscamos probar que la cota superior del número cromático de $G$ es $\Delta(G) + 1$, para un grafo de cualquier orden. Esto es:
-> 
+>
 > $$
 > p(n): \forall G \text{ simple de orden $n$},\chi(G)\leq \Delta(G) + 1
 > $$
-> 
+>
 > Para $n = 1$, sea $G$ el grafo de orden $1$, entonces existirá la coloración trivial de un color, siendo $\chi(G) = 1 \leq \Delta(G) + 1 = 1$.
-> 
+>
 > Para $n> 1$, sea $G$ un grafo simple de orden $n$, y sea $v$ un vértice cualquiera del grafo. Luego, definimos $H = Gv$. El grafo $H$ es simple, ya que eliminar aristas no introduce vértices. $\Delta(H) \leq \Delta(G)$, ya que tomamos cualquier vértice $v$, por lo que el grado máximo puede mantenerse igual. Debido a que no introducimos aristas, este nunca podrá ser mayor. Por la hipótesis inductiva, sabremos que existe al menos una coloración $H$ con, a lo sumo, $\Delta(H) + 1 \leq\Delta(G) + 1$. Luego, existirá esa misma coloración para $G$, pero aun sin colorear el vértice eliminado $v$. Debido a que el vértice eliminado tiene, por definición, a lo sumo $\Delta(G)$ vecinos y tenemos un total de $\Delta(G) +1$ colores, siempre tendremos un color para utilizar.
 
 Se llama el índice cromático $\chi’(G)$ de un grafo al cardinal de una coloración mínima de aristas. Se consideran dos aristas adyacentes si inciden sobre el mismo vértice. Para las aristas, tendremos cotas mucho más poderosas, con el **teorema de Vizing**.

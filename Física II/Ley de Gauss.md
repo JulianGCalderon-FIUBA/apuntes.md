@@ -1,7 +1,3 @@
----
-title: Ley de Gauss
----
-
 $$
 \underbrace{\oint_S \vec F\cdot d\vec S = \int_V \nabla\cdot\vec F \cdot d\vec V}_\text{Teorema de Gauss}
 $$

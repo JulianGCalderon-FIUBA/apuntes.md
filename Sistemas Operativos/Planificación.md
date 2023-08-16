@@ -1,7 +1,3 @@
----
-title: Planificación
----
-
 Aún quedan por entender las políticas de alto nivel que emplea el **scheduler** del sistema operativo. Para empezar, realizaremos algunas suposiciones irrealistas respecto al ***workload*** de los procesos.
 
 ## Métrica: Turnaround

@@ -1,7 +1,3 @@
----
-title: Ecuaciones Diferenciales Ordinarias
----
-
 Se dice que una función $f(t,y)$ satisface una condición de Lipschitz en la variable $y$ en un conjunto $D \subset \mathbb{R}^2$ si existe una constante positiva $L$ tal que
 
 $$

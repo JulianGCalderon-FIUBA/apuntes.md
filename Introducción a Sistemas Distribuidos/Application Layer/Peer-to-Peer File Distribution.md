@@ -1,7 +1,3 @@
----
-title: Peer-to-Peer File Distribution
----
-
 Con una arquitectura ***P2P*** tendremos mínima o nula dependencia en servidores. En su lugar tendremos pares de ***hosts*** conectados, llamados ***peers,*** que se comunican entre ellos de forma directa.
 
 ## Scalability of P2P Architectures

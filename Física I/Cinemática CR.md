@@ -1,7 +1,3 @@
----
-title: Cinemática CR
----
-
 ## Ecuaciones
 
 $$

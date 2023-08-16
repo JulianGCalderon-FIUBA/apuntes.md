@@ -1,7 +1,3 @@
----
-title: Arboles
----
-
 ## ID3
 
 **Iterative Dichotomiser 3** es un algoritmo creado por *Ross Quinlan*

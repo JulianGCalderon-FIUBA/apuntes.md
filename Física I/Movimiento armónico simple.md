@@ -1,7 +1,3 @@
----
-title: Movimiento armónico simple
----
-
 $$
 \overbrace{-Cx = a_x}^{\text{Ecuación Diferencial}}
 $$

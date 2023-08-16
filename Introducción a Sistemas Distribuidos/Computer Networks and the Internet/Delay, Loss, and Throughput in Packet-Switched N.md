@@ -1,7 +1,3 @@
----
-title: Delay, Loss, and Throughput in Packet-Switched N
----
-
 ## 1. Overview of Delay in Packet-Switched Networks
 
 A medida que un paquete viaja de un nodo al siguiente, este sufre de de diversos tipos de *delays* en cada nodo a lo largo del camino. Los más importantes son: *nodal processing delay, queuing delay, transmission delay, y propagation delay*. Juntos, estos se acumulan en un único *total nodal delay*.

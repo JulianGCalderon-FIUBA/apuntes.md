@@ -1,7 +1,3 @@
----
-title: Álgebra de Boole
----
-
 El Álgebra se define a través de las operaciones que se pueden realizar sobre un conjunto de elementos.
 
 Cualquier relación numérica o lógica puede ser expresada en un circuito eléctrico utilizando el Álgebra de Boole

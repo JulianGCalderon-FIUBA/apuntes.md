@@ -1,7 +1,3 @@
----
-title: Hipótesis Estadística
----
-
 Una hipótesis es una suposición o conjetura sobra la naturaleza, cuyo valor de verdad o falsedad no se conoce. Una hipótesis estadística es una hipótesis sobre una o más poblaciones estadísticas o sobre un fenómeno aleatorio.
 
 La hipótesis estadística se refiere a la población. Sin embargo, el análisis de la hipótesis se realizará sobre una muestra

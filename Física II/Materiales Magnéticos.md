@@ -1,7 +1,3 @@
----
-title: Materiales Magnéticos
----
-
 Una partícula cargada orbita alrededor de su núcleo. Esto se puede pensar como corriente a través de una espira circular, por lo que tiene un momento angular. Este momento angular se alineará con el campo magnético en ese punto del espacio, por acción de un torque.
 
 Si el campo magnético es débil, entonces la magnetización será parcial. Si el campo magnético es intenso, la magnetización será completa.

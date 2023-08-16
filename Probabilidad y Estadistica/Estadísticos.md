@@ -1,7 +1,3 @@
----
-title: Estadísticos
----
-
 Un estadístico es cualquier función medible $T_m = T(\underline X)$ con valores en un espacio euclídeo de dimensión finita.
 
 Dado una muestra aleatoria $\underline X$, un estadístico es una función de la muestra aleatoria que, evaluada en los valores observados, debe poder resultar en un valor numérico.

@@ -1,7 +1,3 @@
----
-title: Inducción
----
-
 ## Principios de Inducción
 
 El principio de inducción parte de dos principios:

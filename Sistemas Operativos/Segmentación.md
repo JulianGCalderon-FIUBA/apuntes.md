@@ -1,7 +1,3 @@
----
-title: Segmentación
----
-
 La segmentación surgió para solucionar el problema de la fragmentación interna. La idea es simple, en lugar de tener un solo par ***Base and Bound*** para cada proceso, tendremos un par para cada segmento lógico del espacio de memoria: ***code***, ***stack***, ***heap***. De esta forma, podemos utilizar libremente la memoria que se encuentra entre estos segmentos.
 
 El hardware utiliza segmentos de registro durante la traducción. ¿Como sabe a que segmento pertenece cierta dirección de memoria virtual? Un enfoque es el enfoque **explícito**. Los primeros bits del registro se utilizan para detectar a que segmento pertenece la memoria, mientras que los otros bits representan el ***offset*** de ese segmento.

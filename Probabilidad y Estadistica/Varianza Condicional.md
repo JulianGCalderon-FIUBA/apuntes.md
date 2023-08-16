@@ -1,7 +1,3 @@
----
-title: Varianza Condicional
----
-
 Sean $X$ e $Y$ variables aleatorias con $\text{var}(Y)$ finita, la varianza de $Y|X=x$ será
 
 $$

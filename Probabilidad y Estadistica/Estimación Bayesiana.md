@@ -1,7 +1,3 @@
----
-title: Estimación Bayesiana
----
-
 El enfoque bayesiano consiste en utilizar información previa del parámetro para realizar una mejor aproximación.
 
 A priori, nosotros conoceremos la distribución $\Theta$ y la distribución de muestra $X | \Theta = \theta$. A partir de Bayes para mezclas, podemos hallar la distribución de $\Theta | \underline X = \underline x$ (distribución a posteriori del parámetro)

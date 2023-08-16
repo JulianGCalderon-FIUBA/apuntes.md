@@ -1,7 +1,3 @@
----
-title: Networks Under Attack
----
-
 El campo de la seguridad de red se trata de que formas una persona puede atacar una red de computadoras y como nosotros podemos defendernos antes estos ataques, o mejor, diseñar arquitecturas inmunes a estos ataques.
 
 ## The Bad Guys Can Put Malware into Your Host Via the Internet

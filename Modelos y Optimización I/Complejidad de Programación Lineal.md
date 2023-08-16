@@ -1,7 +1,3 @@
----
-title: Complejidad de Programación Lineal
----
-
 ## Método Símplex
 
 En la práctica, este método es eficiente. El caso promedio, se puede resolver en tiempo polinomial. Sin embargo, en el peor caso, su complejidad es exponencial. Se creía ser un problema $NP$

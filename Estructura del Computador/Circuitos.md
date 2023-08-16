@@ -1,7 +1,3 @@
----
-title: Circuitos
----
-
 Dada una expresión algebraica, buscamos simplificar para que el costo de representarla en la realidad sea lo más simple. Cuanto más simple es la expresión, necesitaremos menos compuertas y menos entradas por compuerta
 
 ## Compuertas

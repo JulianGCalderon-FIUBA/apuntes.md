@@ -1,7 +1,3 @@
----
-title: Ondas Mecánicas
----
-
 En física existen dos conceptos fundamentales. Las partículas, que responden a las leyes de Newton, y las ondas
 
 ## Clasificación

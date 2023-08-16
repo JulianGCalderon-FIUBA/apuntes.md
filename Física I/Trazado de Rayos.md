@@ -1,7 +1,3 @@
----
-title: Trazado de Rayos
----
-
 El trazado de rayos es una forma geométrica de resolver ejercicios de óptica, consiste en trazar algunos rayos ya conocidos para aproximar la posición de la imagen. Solo es necesario trazar dos rayos (no paralelos) para aproximar la posición.
 
 ## Superficies Esféricas

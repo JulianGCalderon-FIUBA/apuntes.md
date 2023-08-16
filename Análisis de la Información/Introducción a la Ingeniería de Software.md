@@ -1,7 +1,3 @@
----
-title: Introducción a la Ingeniería de Software
----
-
 > [!note]
 > **Ingeniería:** La creación de soluciones costo efectivas a problemas prácticos mediante la aplicación de conocimiento codificado para construir cosas al servicio de la humanidad
 

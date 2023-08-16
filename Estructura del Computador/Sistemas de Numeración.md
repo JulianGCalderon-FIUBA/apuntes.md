@@ -1,7 +1,3 @@
----
-title: Sistemas de Numeración
----
-
 Un sistema numérico es un conjunto de símbolos y reglas para su organización.
 
 - **Sistema Numérico Posicional:** Es relevante la posición de un símbolo en el cálculo de su peso.

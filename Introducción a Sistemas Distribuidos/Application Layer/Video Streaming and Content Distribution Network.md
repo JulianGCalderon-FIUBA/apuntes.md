@@ -1,7 +1,3 @@
----
-title: Video Streaming and Content Distribution Network
----
-
 ## 1. Internet Video
 
 En las aplicaciones de ***streaming,*** el medio son videos pre-grabados, almacenados en servidores. Los usuarios pueden enviar peticiones a los servidores para ver estos videos bajo demanda.

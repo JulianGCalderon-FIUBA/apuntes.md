@@ -1,7 +1,3 @@
----
-title: Técnicas de Descubrimiento de Requisitos
----
-
 Utilizamos la palabra descubrimiento debido a que los requisitos no están en la mente de los usuarios listos para ser recolectados, sino que tenemos que descubrirlos a través de un esfuerzo cooperativo entre los interesados y los desarrolladores.
 
 ## Dificultades

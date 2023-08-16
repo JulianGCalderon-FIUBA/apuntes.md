@@ -1,7 +1,3 @@
----
-title: Ajuste
----
-
 Si tenemos un conjunto de datos y queremos encontrar una función que aproxime el conjunto de datos, entonces buscamos una función cuyo error cuadrático medio sea el mínimo posible. Buscamos la recta de mínimos cuadrados que aproxima los datos.
 
 Desde un punto de vista algebraica, buscamos un vector que minimiza la norma del error. A partir de una proyección sobre el subespacio de funciones.

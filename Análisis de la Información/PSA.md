@@ -1,7 +1,3 @@
----
-title: PSA
----
-
 ## Visión
 
 Centralizar la información del los procesos de una organización en una única herramienta con el fin de avanzar la toma de decisiones en base a datos para mejorar los procesos internos y externos para así obtener una ventaja competitiva, pero sobre los competidores y convertir a las empresas que usen este sistema en líderes en su segmento.

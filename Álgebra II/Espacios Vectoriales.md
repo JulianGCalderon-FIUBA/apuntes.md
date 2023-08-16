@@ -1,7 +1,3 @@
----
-title: Espacios Vectoriales
----
-
 ## Definición
 
 Un espacio vectorial consta de:

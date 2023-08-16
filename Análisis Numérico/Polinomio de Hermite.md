@@ -1,7 +1,3 @@
----
-title: Polinomio de Hermite
----
-
 Es un polinomio interpolador de $f$ en los nodos $x_0, x_1, \cdots, x_n$ y la derivada del polinomio coincide con la derivada primera de la función en dichos nodos.
 
 Para calcularlo, se define la sucesión $z_0, z_1, \cdots z_n$ de la siguiente manera

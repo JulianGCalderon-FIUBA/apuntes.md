@@ -1,7 +1,3 @@
----
-title: Integrales de Superficie
----
-
 Sea $\Sigma$ una superficie parametrizada, entonces una porción infinitesimal de la superficie se puede pensar como:
 
 $$

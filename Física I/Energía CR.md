@@ -1,7 +1,3 @@
----
-title: Energía CR
----
-
 ## Energía Cinética
 
 Para un sistema de partículas, se cumple que:

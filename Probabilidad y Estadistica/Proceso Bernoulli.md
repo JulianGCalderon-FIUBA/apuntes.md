@@ -1,7 +1,3 @@
----
-title: Proceso Bernoulli
----
-
 Supongamos que defino una variable aleatoria que valga $1$ si sale un $1$ en el tiro $i$ de un dado, $0$ en otro caso.
 
 Esta variable aleatoria tendrá distribución Bernoulli de parámetro $1/6$. Si tiro el dado una y otra vez, observo.

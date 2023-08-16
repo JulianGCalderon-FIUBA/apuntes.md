@@ -1,7 +1,3 @@
----
-title: Rectas y Planos
----
-
 ## Rectas en $\mathbb{R}^2$
 
 - **Paramétrica:** $(x,y)=\lambda(d_1,d_2)+(p_1,p_2)$

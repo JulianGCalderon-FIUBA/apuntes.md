@@ -1,7 +1,3 @@
----
-title: Sistemas de E.D. Homogéneas
----
-
 Vamos a resolver sistemas que se escriban de la siguiente manera
 
 $$

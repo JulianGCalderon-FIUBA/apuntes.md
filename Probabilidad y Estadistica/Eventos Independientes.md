@@ -1,7 +1,3 @@
----
-title: Eventos Independientes
----
-
 Sea $(\Omega, \mathscr A, P)$ un espacio de probabilidad, y $A, B \in \mathscr A$, $A, B$ serán dos eventos independientes **si y solo** si:
 
 $$

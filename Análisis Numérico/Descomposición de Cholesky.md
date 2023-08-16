@@ -1,7 +1,3 @@
----
-title: Descomposición de Cholesky
----
-
 La descomposición de Cholesky es un tipo de descomposición para cuando $A$ es simétrica y definida positiva, tomamos $U = L^T$. Este algoritmo es estable y tiene un costo operacional de $O(\frac{n^2}2)$. Además, no requiere comprobar si la matriz es definida positiva, ya que la aplicación del método lo deduce.
 
 Para hallar los coeficientes, utilizamos las siguientes ecuaciones

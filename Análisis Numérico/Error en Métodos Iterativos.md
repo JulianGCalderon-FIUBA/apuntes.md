@@ -1,7 +1,3 @@
----
-title: Error en Métodos Iterativos
----
-
 Si existen constantes positivas $\alpha$ y $\lambda$ tal que se cumple la siguiente expresión, entonces podemos decir la convergencia del método es de orden $\alpha$ con constante asintótica $\alpha$
 
 $$

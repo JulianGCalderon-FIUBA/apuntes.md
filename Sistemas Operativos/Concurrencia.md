@@ -1,7 +1,3 @@
----
-title: Concurrencia
----
-
 En este capítulo, se introduce una nueva abstracción para un proceso, el ***thread*** o hilo. Un programa ***multi-threaded*** tiene más de un punto de ejecución. Se puede pensar a cada hilo como procesos separados que comparten el mismo espacio de direcciones, por lo tanto comparten información.
 
 El estado de un ***thread*** entonces, es muy similar al de un proceso. Cada uno tiene su propio conjunto privado de registros que utiliza para computar, para pasar de un hilo a otro se debe ejecutar un ***context switch***. Este cambio de contexto será muy similar al utilizado para procesos.

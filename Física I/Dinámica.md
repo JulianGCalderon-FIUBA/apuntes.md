@@ -1,7 +1,3 @@
----
-title: Dinámica
----
-
 ## 1.º principio
 
 Si el observador encuentra que un objeto cuya fuerza resultante es nula y el objeto se está moviendo a velocidad constante o está quieto, está en un marco de referencia inercial. Por lo que no puede cambiar su estado a menos que se le aplique una fuerza no nula

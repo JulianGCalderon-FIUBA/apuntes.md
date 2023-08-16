@@ -1,7 +1,3 @@
----
-title: Superposición de Onda
----
-
 Las ondas son soluciones de ecuaciones diferenciales lineales, por lo que la suma algebraica de dos ondas sigue siendo una onda.
 
 ## Ondas Estacionarias

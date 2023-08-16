@@ -1,7 +1,3 @@
----
-title: Estructura del Computador
----
-
 Breve resumen de los contenidos de la materia, consultar la bibliografía.
 
 - [[Sistemas de Numeración]]

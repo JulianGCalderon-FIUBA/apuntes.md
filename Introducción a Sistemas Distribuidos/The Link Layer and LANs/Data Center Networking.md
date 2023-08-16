@@ -1,7 +1,3 @@
----
-title: Data Center Networking
----
-
 Recientemente, muchas grandes compañías han construido ***data centers*** masivos que utilizan para almacenar mucha información y soportar de forma concurrente muchas aplicaciones nube. Cada ***data center*** tiene su propia data center network.
 
 Los ***hosts*** dentro de un data center, llamados ***blades***, son ***hosts*** que incluyen ***CPU,*** memoria, y almacenamiento de disco. Estos son apilados en racks. Por encima de los racks, hay un ***switch,*** comúnmente llamado ***Top of Rack (TOR) Switch,*** que interconecta los ***hosts*** en el rack con el resto de hosts del ***data center***. Los hosts tienen tarjeta de interfaces de red que se conectan con el ***TOR switch,*** y cada ***TOR Switch*** tiene puertos adicionales para conectarse con otros ***switches***. Cada ***host*** tiene asignada su propio **IP** interna del ***data center***.

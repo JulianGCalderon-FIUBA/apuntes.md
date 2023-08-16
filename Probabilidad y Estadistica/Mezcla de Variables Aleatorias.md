@@ -1,7 +1,3 @@
----
-title: Mezcla de Variables Aleatorias
----
-
 Diremos que $X$ es una variable aleatoria **"mezcla"** si es una mezcla de variables aleatorias, dados distintos eventos. Si $A_1, \cdots, A_n$ es una partición de $\Omega$ y $X$ una variable aleatoria, de manera que conozco las distribuciones de $X|A_i$, entonces podemos aplicar la propiedad de probabilidad total.
 
 $$

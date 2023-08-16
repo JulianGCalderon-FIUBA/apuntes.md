@@ -1,7 +1,3 @@
----
-title: DNS
----
-
 Para identificar un *host* en la red, utilizamos *IP addresses*. Estas tienen una estructura jerárquica y consisten en cuatro secciones de separadas por puntos, cada una conteniendo un número de 4 bits. Estas direcciones se escanean de izquierda a derecha, obteniendo información acerca del host.
 
 ## 1. Services Provided by DNS
@@ -21,7 +17,7 @@ Este sistema *DNS* provee algunos servicios importantes:
 El sistema *DNS* utiliza un gran número de servidores organizados de forma jerárquica y distribuidos a lo largo del mundo. Se pueden separar en tres clases:
 
 - **Root:** Es una base de datos distribuida, todos estos servidores comparten la misma información y están gestionados por 13 organizaciones distintas.
-- **Top-Level Domain (TLD):** Por cada top-level domain, tendremos un servidor (o multiples). Son los que están al final de la url. Ej:.com.ar.
+- **Top-Level Domain (TLD):** Por cada top-level domain, tendremos un servidor (o multiples). Son los que están al final de la url. Ej: .com.ar.
 - **Authoritative:** Cada organización con hosts públicos tiene que proveer registros públicos para conectar sus hostnames con la dirección IP. Entre ellos, tendremos.edu.uba. Estos pueden estar anidados, como por ejemplo "fi.uba.ar".
 - **Local:** Los servidores locales DNS no pertenecen estrictamente a la jerarquía, pero son centrales en la arquitectura. Cada ISP tiene uno. Cuando un host hace una consulta DNS, esta se le envía a su DNS local el cual se encarga de hacer la consulta.
 

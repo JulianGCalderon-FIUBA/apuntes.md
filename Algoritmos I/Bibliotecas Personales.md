@@ -1,7 +1,3 @@
----
-title: Bibliotecas Personales
----
-
 ## Header
 
 El compilador los incluye de forma automática al compilar su archivo fuente. Acá se definen las funciones, variables y constantes, que pueden ser accedidas por otro archivo.

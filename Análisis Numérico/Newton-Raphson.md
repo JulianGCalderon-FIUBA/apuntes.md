@@ -1,7 +1,3 @@
----
-title: Newton-Raphson
----
-
 Este método es una de las técnicas numéricas más poderosas de la búsqueda de raíces. Sin embargo, este método requiere de una buena raíz, ya que no converge para todo valor inicial.
 
 Para este método, se realiza una aproximación lineal de la función a analizar y se busca la raíz de dicha aproximación. Si el punto inicial es suficientemente cercano a la raíz, entonces el método converge.

@@ -1,7 +1,3 @@
----
-title: Distribuciones Importantes
----
-
 ## Chi-Cuadrado $\chi^2$
 
 la variable aleatoria $X$ tiene distribución $\chi^2$ de $\nu$ grados de libertar si su densidad está dada por

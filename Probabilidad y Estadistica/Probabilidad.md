@@ -1,7 +1,3 @@
----
-title: Probabilidad
----
-
 ## Definiciones
 
 - **Experimento Aleatorio:** Conozco todos los posibles resultados, pero no sé cuál va a ocurrir.

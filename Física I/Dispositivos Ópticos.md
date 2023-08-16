@@ -1,7 +1,3 @@
----
-title: Dispositivos Ópticos
----
-
 ## Espejos Esféricos
 
 ### Espejos Cóncavos

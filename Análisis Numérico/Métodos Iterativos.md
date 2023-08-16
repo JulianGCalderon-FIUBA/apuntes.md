@@ -1,7 +1,3 @@
----
-title: Métodos Iterativos
----
-
 Los métodos iterativos comienzan con una aproximación lineal $x^{(0)}$ y generan una sucesión de vectores que converge a $x$, siendo $x$ la solución del sistema $Ax = b$. Consiste en convertir el sistema en un sistema $Tx + c = x$, con $T$ una matriz fija y $c$ un vector fijo.
 
 ## Método de Jacobi

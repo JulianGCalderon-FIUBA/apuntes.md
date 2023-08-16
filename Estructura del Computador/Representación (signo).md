@@ -1,7 +1,3 @@
----
-title: Representación (signo)
----
-
 Un número binario en representación es aquel que indica su signo con el primer dígito. Si el primer dígito es un $0$, el número es positivo. Si el primer dígito es un $1$, el número es negativo.
 
 Si trabajando con determinado número de bits, el número obtenido luego de una suma es demasiado grande, obtendremos un **overflow**. Se indica con un cambio de signo en el primer bit. (flag V)

@@ -1,7 +1,3 @@
----
-title: The Internet Protocol (IP) IPv4, Addressing, IPv6, and More
----
-
 Existen dos versiones de **IP**. Primero examinaremos la conocida versión del protocolo, usualmente referida como ***IPv4***.
 
 ## 1. IPv4 Datagram Format

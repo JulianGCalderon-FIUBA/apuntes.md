@@ -1,7 +1,3 @@
----
-title: Física I
----
-
 ## Primer Parcial
 
 - [[Magnitudes escalares y vectoriales]]

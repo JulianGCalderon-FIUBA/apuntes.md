@@ -1,7 +1,3 @@
----
-title: Paginación Avanzada
----
-
 Ahora, abordaremos el segundo problema principal de la paginación, su gran consumo de memoria.
 
 Con una tabla de páginas lineal, asumiendo que trabajamos con un espacio de direcciones de ***32-bits*** y el tamaño de cada ***chunk*** es de ***4 KB***, tendremos entonces aproximadamente un millón de páginas virtuales, si las multiplicamos con el tamaño de una entrada en la tabla de páginas, estaremos ocupando ***4 MB*** por proceso.

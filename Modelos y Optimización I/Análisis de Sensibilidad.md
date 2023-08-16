@@ -1,7 +1,3 @@
----
-title: Análisis de Sensibilidad
----
-
 ## Conceptos Básicos
 
 ### Recursos Sobrantes y Saturados

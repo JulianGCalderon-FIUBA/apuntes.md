@@ -1,7 +1,3 @@
----
-title: WiFi 802 11 Wireless LANs
----
-
 A lo largo de los años, se desarrollaron muchas tecnologías y estándares de redes ***LAN*** inalámbricas, la clase mas utilizada es la de standards 802.11, o ***Wi-Fi***.
 
 Existen muchos estándares para esta clases, todos ellos comparten algunas características comunes. Todos utilizan el mismo protocolo de acceso al medio, ***CSMA/CA.*** Todos reducen su tasa de transmisión para llegar a mayores distancias, y todos son ***backwards compatible***. La mayor diferencia, radica en la capa física.

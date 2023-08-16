@@ -1,7 +1,3 @@
----
-title: Errores
----
-
 Los errores son una herramienta más, no deben pensarse como algo negativo. No se pueden ignorar y hay que trabajar con ellos.
 
 ## Fuente de Errores

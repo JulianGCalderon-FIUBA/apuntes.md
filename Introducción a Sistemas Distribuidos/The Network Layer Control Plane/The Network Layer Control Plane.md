@@ -1,6 +1,3 @@
----
-title: The Network Layer Control Plane
----
 1. [[Introduction to the Control Plane]]
 2. [[Routing Algorithms]]
 3. [[Intra-AS Routing in the Internet OSPF]]

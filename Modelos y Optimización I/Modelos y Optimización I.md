@@ -1,7 +1,3 @@
----
-title: Modelos y Optimización I
----
-
 - [[Modelos y Optimización I/Introducción|Introducción]]
 - [[Programación Lineal Continua]]
 - [[Patrones Comunes]]

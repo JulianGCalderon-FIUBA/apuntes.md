@@ -1,7 +1,3 @@
----
-title: Análisis de Algoritmos
----
-
 Una vez diseñado un algoritmo, es necesario analizar los recursos que consume, refiriéndose al tiempo y espacio que requiere su ejecución.
 
 Los recursos que utiliza pueden ser:

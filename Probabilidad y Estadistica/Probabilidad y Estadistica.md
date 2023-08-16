@@ -1,7 +1,3 @@
----
-title: Probabilidad y Estadistica
----
-
 ## Capítulo 1
 
 - [[Probabilidad]]

@@ -1,7 +1,3 @@
----
-title: Historias de Dominio
----
-
 También conocido como: **Domain Story Telling**
 
 Es una herramienta o medio que nos permite transformar en software conocimiento de los expertos del dominio. Nos propone una estructura de talleres para analizar y discutir estos diagramas con los expertos en el dominio. Pretenden describir como trabajan en forma conjunta las personas. Combina un lenguaje pictográfico con talleres de trabajo con participación activa de expertos en el dominio.

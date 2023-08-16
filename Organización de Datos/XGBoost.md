@@ -1,7 +1,3 @@
----
-title: XGBoost
----
-
 Fue diseñado para ser trabajado en *big data*, adaptado para volúmenes grandes de datos.
 
 1. Realizamos una predicción inicial (por defecto 0.5)

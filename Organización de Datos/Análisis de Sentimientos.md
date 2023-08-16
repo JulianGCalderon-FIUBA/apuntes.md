@@ -1,7 +1,3 @@
----
-title: Análisis de Sentimientos
----
-
 Es una tarea de clasificación de textos. Se utiliza para diversas tareas complejas.
 
 - Calcular confianza de un consumidor

@@ -1,7 +1,3 @@
----
-title: Interpolación Polinomial
----
-
 La interpolación consiste en obtener una predicción por medio de una función que corresponda a los datos disponibles.
 
 La interpolación polinomial consiste en que dicha función sea un polinomio, debido a su facilidad en la computación.

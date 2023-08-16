@@ -1,7 +1,3 @@
----
-title: Teoría de medida
----
-
 **Magnitud Física:** atributo de un cuerpo que puede determinarse cuantitativamente
 
 Separaremos un valor $x$ en su valor representativo $<x>$, y su cota de error $\Delta x$, o incerteza absoluta.

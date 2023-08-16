@@ -1,7 +1,3 @@
----
-title: Bugs de Concurrencia
----
-
 Hay dos tipos de ***bugs*** principales relacionados con la concurrencia:
 
 ## Non-Deadlock Bugs

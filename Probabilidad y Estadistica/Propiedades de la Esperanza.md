@@ -1,7 +1,3 @@
----
-title: Propiedades de la Esperanza
----
-
 ## Predicción
 
 Sea $Y$ una V.A., $\Bbb X = (X_1, \cdots, X_n)$ un vector aleatorio, existirá alguna función $g(x)$ que nos sirve para predecir a $Y$. Para encontrar dicha función se calcula el error cuadrático medio

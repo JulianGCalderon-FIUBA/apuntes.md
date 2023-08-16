@@ -1,7 +1,3 @@
----
-title: API de Memoria
----
-
 Cuando corremos un programa en C, hay dos tipos de memoria que reservamos. La primera es llamada **stack**, esta memoria se maneja automáticamente por el compilador, al utilizar variables y llamar a funciones. A veces es llamada memoria **automática.**
 
 Esta memoria no tiene larga duración, sólo dura durante el contexto en el que fue declarada. Muchas veces necesitamos memoria que viva más allá de este contexto, en estas situaciones necesitamos el segundo tipo de memoria, el **heap.**

@@ -1,7 +1,3 @@
----
-title: Métodos de resolución
----
-
 ## Método de Variables Separables
 
 $$

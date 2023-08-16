@@ -1,7 +1,3 @@
----
-title: Arquitectura del Software
----
-
 ## Atributos de Calidad
 
 Hay dos tipos de atributos de calidad:

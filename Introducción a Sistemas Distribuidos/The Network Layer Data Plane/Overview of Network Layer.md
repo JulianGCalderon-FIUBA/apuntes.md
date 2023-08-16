@@ -1,7 +1,3 @@
----
-title: Overview of Network Layer
----
-
 El principal rol del ***data plane*** es el de enviar los ***datagrams*** de un ***input link*** al ***output link*** en cada ***router*** del camino. El principal rol del ***control plane*** es el de coordinar estos envíos para que los ***datagrams*** sean transferidos ***end-to-end***, a lo largo de los caminos de routers entre los ***hosts*** en comunicación.
 
 ## 1. Forwarding and Routing: The Data and Control Planes

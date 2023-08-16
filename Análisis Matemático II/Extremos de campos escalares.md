@@ -1,7 +1,3 @@
----
-title: Extremos de campos escalares
----
-
 Sea $f: D\subset\mathbb{R}^n \to \mathbb{R}$, En $\vec x_0$ se localiza un:
 
 - Mínimo Absoluto: $f(\vec x_0) \leq f(\vec x)$ para $\vec x \in D$

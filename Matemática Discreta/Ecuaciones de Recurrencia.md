@@ -1,7 +1,3 @@
----
-title: Ecuaciones de Recurrencia
----
-
 Sea $x_{n+k} =f(x_n, x_n+1, x_n+2, \cdots, x_n+k-1)$ con conocidos $x_0, x_1, \cdots, x_{k-1}$. Es un PVI (problema de valor inicial) de orden $k$.
 
 Una función $x$ con dominio en $\mathbb{N}$ es una sucesión $(x: \mathbb{N} \to C)$ habitualmente denotada $x(n)$, aunque para abreviar, se puede definir $x_n \stackrel{\text{def}}{=} x(n)$.

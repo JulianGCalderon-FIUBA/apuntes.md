@@ -1,7 +1,3 @@
----
-title: Simplificación de Funciones
----
-
 ## Simplificación Algebraica
 
 Para simplificar un circuito, aplicamos los teoremas del álgebra de Boole para eliminar la mayor cantidad de términos que sea posible.

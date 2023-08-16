@@ -1,7 +1,3 @@
----
-title: Proportional-Share Scheduler
----
-
 A veces conocido como ***fair-share*** ***scheduler***, este es un tipo distinto de planificador. En lugar de basarse alrededor de la optimización del ***turnaround*** o ***response***, se trata de garantizar que cada proceso obtenga el mismo porcentaje de tiempo del *CPU*. Un ejemplo conocido de este tipo de planificador es: ***lottery scheduling***.
 
 Detrás de este planificador, existe un concepto muy simple: ***tickets,*** los cuales se usan para representar el porcentaje de un recurso que debe recibir un proceso. Para lograr esto, no se utiliza un enfoque determinístico, sino probabilístico. Los procesos con más tickets tienen más probabilidad de ser ejecutados.

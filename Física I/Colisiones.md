@@ -1,7 +1,3 @@
----
-title: Colisiones
----
-
 La fuerza de interacción entre las partículas durante una colisión tiene la capacidad generar un impulso significante sobre las partículas, a pesar de ocurrir en un corto periodo de tiempo.
 
 $$

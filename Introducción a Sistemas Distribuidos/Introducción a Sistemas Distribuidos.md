@@ -1,7 +1,3 @@
----
-title: Introducción a Sistemas Distribuidos
----
-
 Este apunte estará basado en la bibliografía de la materia, aunque se añadirá en los capítulos acordes los agregados vistos en clase.
 
 1. [[Computer Networks and the Internet]]

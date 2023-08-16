@@ -1,7 +1,3 @@
----
-title: Traducción de Direcciones
----
-
 Para favorecer la eficiencia, se utiliza conocido como ***hardware-based address translation.*** El hardware transforma cada dirección de memoria por la dirección de memoria física correspondiente.
 
 Aunque por supuesto, el hardware por sí solo no puede realizar esta tarea. El sistema operativo debe intervenir en momento clave para preparar el hardware. Debe manejar la memoria, teniendo en cuenta los espacios de memoria libres y los ocupados.

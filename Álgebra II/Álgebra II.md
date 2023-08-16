@@ -1,6 +1,3 @@
----
-title: Álgebra II
----
 - [[Espacios Vectoriales]]
 - [[Subespacios]]
 - [[Coordenadas]]

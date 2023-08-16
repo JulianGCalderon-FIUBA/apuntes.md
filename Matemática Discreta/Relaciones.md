@@ -1,7 +1,3 @@
----
-title: Relaciones
----
-
 ## Definición
 
 Definimos $R$ como una relación en $A$ si $R \subseteq A\times A$, utilizando el producto cartesiano. Por ejemplo, sea $A = \{1, 2, 3\}$. Podremos definir una relación $R_1 = \{(1,1), (1,2), (3,3)\}$.

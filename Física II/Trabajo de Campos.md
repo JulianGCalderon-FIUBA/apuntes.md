@@ -1,7 +1,3 @@
----
-title: Trabajo de Campos
----
-
 $$
 W_{\vec F}^{AB} = \int_A^B \vec F\cdot d\vec l = q_0\int_A^B \vec E\cdot d\vec l
 $$

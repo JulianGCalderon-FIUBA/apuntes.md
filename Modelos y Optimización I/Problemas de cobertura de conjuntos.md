@@ -1,7 +1,3 @@
----
-title: Problemas de cobertura de conjuntos
----
-
 Sea $S$ un conjunto de elementos a cubrir, y $L$ un conjunto de subconjuntos de $S$, entonces debemos elegir elementos de $L$ tal que:
 
 - **Cobertura:** Se cubran todos los elementos de $S$ con solapamiento

@@ -1,7 +1,3 @@
----
-title: Error-Detection and -Correction Techniques
----
-
 Incluso con el uso de *EDC bits (error detection and correction bits)*, un remitente puede enviar un datagrama corrupto a la capa de red, inconsciente de que los contenidos del paquete fueron corrompidos. Analizaremos tres técnicas conocidas:
 
 ## 1. Parity Checks

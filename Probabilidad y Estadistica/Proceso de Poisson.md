@@ -1,7 +1,3 @@
----
-title: Proceso de Poisson
----
-
 Un proceso puntual aleatorio es un conjunto enumerado de puntos aleatorios ubicados sobre una recta real. Si el proceso es de Poisson, se denota como $PP(\lambda)$
 
 Llamaremos $N(t)$ al número de eventos en un intervalo específico $[0, t]$

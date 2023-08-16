@@ -1,7 +1,3 @@
----
-title: Introduction to Wireless Networks
----
-
 En una red inalámbrica, podremos identificar los siguientes elementos:
 
 - ***Wireless Hosts:*** Al igual que en las redes tradicionales, los ***hosts*** son los ***end-systems*** que ejecutan aplicaciones.

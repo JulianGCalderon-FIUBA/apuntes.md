@@ -1,7 +1,3 @@
----
-title: Test de Hipótesis
----
-
 El test de hipótesis es una regla de decisión entre $H_0, H_1$, la expresamos como una función de la muestra aleatoria $\delta(\underline X)$, que toma valores entre $0, 1$. Si $\delta = 1$, se rechaza la hipótesis nula. Si $\delta = 0$, no se rechaza.
 
 Debo encontrar tests que minimicen la probabilidad de error, priorizando minimizar el error del tipo 1.

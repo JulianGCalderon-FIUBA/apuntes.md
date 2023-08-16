@@ -1,7 +1,3 @@
----
-title: Límites
----
-
 $$
 \lim_{x\to x_0} \vec f(\vec x) =
 \forall\varepsilon > 0, \exists\delta = \delta(\varepsilon) / 0 < \|\vec x - \vec x_0\| < \delta \implies \|\vec f(\vec x) - \vec L\| < \varepsilon

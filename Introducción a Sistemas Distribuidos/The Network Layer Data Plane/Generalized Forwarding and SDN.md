@@ -1,7 +1,3 @@
----
-title: Generalized Forwarding and SDN
----
-
 Previamente estudiamos el ***destination-based forwarding*** como un proceso de dos partes. La búsqueda de la dirección **ip** en una tabla ***(match)*** y el envió del paquete ***(action).*** Ahora consideremos un paradigma más general en el que el ***match*** se realiza a través de múltiples ***headers*** del ***datagram***, y ***action*** puede incluir múltiples acciones, como enviar el paquete a alguno de los puertos de salida, ***load balancing***, ***rewriting header values (NAT)***, bloqueando paquetes ***(firewall)***, enviando el paquete a un servidor especial para su procesamiento *(DPI)*
 
 Debido a que la decisiones de envió pueden hacerse utilizando la capa de red o la capa de enlace, estos dispositivos fueron llamados ***packet switches***. Estudiaremos el estándar altamente visible y exitoso conocido ***OpenFlow***, el cual fue pionero en la noción de una abstracciones ***match-plus-action***.
