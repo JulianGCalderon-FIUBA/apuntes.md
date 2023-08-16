@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do.md",
+                "file": "Modelos y Optimización I/Coloreo de Grafos.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "/\\${2}\\r\\n\\r\\n.*\\r\\n\\r\\n\\${2}",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Do.md"
+                "file": "Modelos y Optimización I/Coloreo de Grafos.md"
               }
             }
           },
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do.md",
+                "file": "Modelos y Optimización I/Coloreo de Grafos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Do.md",
+                "file": "Modelos y Optimización I/Coloreo de Grafos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,8 +158,15 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "6060b098ee9aa43c",
+  "active": "178700d707526f5b",
   "lastOpenFiles": [
+    "Física II/Circuitos en Resonancia.md",
+    "Matemática Discreta/Álgebra de Boole.md",
+    "Algoritmos II/Análisis de Algoritmos.md",
+    "Matemática Discreta/Alfabeto.md",
+    "Análisis Numérico/Ajuste.md",
+    "Organización de Datos/AdaBoost.md",
+    "Modelos y Optimización I/Análisis de Sensibilidad.md",
     "Indice.md",
     "To-Do.md",
     "Análisis Numérico/Trazador Cúbico - Spline.md",
@@ -178,13 +186,6 @@
     "Análisis Numérico/Errores.md",
     "Análisis Numérico/Error en Métodos Iterativos.md",
     "Análisis Numérico/Ecuaciones Diferenciales de Orden Superior.md",
-    "Análisis Numérico/Ecuaciones Diferenciales Ordinarias.md",
-    "Análisis Numérico/Ecuaciones Diferenciales de Frontera.md",
-    "Análisis Numérico/Diferenciación Numérica.md",
-    "Análisis Numérico/Descomposición LU.md",
-    "Análisis Numérico/Descomposición de Cholesky.md",
-    "Análisis Numérico/Búsqueda de Raíces.md",
-    "Análisis Numérico/Bisección.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
