@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estructura del Computador/Funciones Lógicas.md",
+                "file": "To-Do.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estructura del Computador/Funciones Lógicas.md"
+                "file": "To-Do.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estructura del Computador/Funciones Lógicas.md",
+                "file": "To-Do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estructura del Computador/Funciones Lógicas.md",
+                "file": "To-Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,6 +159,16 @@
   },
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
+    "Estructura del Computador/Sistemas de Numeración.md",
+    "Estructura del Computador/Sistema ARC.md",
+    "Estructura del Computador/Simplificación de Funciones.md",
+    "Estructura del Computador/Representación (signo).md",
+    "Estructura del Computador/Registros y Contadores.md",
+    "Estructura del Computador/Punto Flotante.md",
+    "Estructura del Computador/Pasajes de Base.md",
+    "Estructura del Computador/Operaciones Básicas.md",
+    "Estructura del Computador/Micro Arquitectura.md",
+    "Estructura del Computador/Funciones Lógicas.md",
     "Estructura del Computador/Estructura del Computador.md",
     "Estructura del Computador/Compiladores y Ensambladores.md",
     "Estructura del Computador/Circuitos Sincrónicos.md",
@@ -166,16 +176,6 @@
     "Estructura del Computador/Circuitos Asincrónicos.md",
     "Estructura del Computador/Circuitos.md",
     "Estructura del Computador/Álgebra de Boole.md",
-    "Estructura del Computador/Sistemas de Numeración.md",
-    "Estructura del Computador/Sistema ARC.md",
-    "Estructura del Computador/Simplificación de Funciones.md",
-    "Estructura del Computador/Representación (signo).md",
-    "Estructura del Computador/Punto Flotante.md",
-    "Estructura del Computador/Operaciones Básicas.md",
-    "Estructura del Computador/Pasajes de Base.md",
-    "Estructura del Computador/Registros y Contadores.md",
-    "Estructura del Computador/Micro Arquitectura.md",
-    "Estructura del Computador/Funciones Lógicas.md",
     "To-Do.md",
     "Modelos y Optimización I/Coloreo de Grafos.md",
     "Probabilidad y Estadistica/Probabilidad.md",

@@ -36,7 +36,7 @@ En este sistema, los dispositivos de entrada y salida están mapeados en memoria
 
 ## Arquitectura del Microprocesador
 
-Para ejecutar un programa, el microprocesador realiza el llamado **Ciclo Fetch**, o ciclo de búsqueda-ejecución.
+Para ejecutar un programa, el microprocesador realiza el llamado **ciclo fetch**, o ciclo de búsqueda-ejecución.
 
 1. Buscar en memoria la próxima instrucción a ser ejecutada
 2. Decodificar el código de operación de esa instrucción
@@ -86,7 +86,7 @@ Para implementar las operaciones, utiliza dos componentes:
 > [!note]
 > En la tabla no estan todas las operaciones, la operacion *subcc* por ejemplo se puede realizar con un complemento y un suma. De esto se encarga la unidad de control.
 
-La ALU calcula los flags de cada operación y los carga en el registro **PSR** en cada de ser necesario.
+La ALU calcula los flags de cada operación y los carga en el registro PSR en cada de ser necesario.
 
 ### Unidad de Control
 

@@ -8,7 +8,7 @@
 - [x] Matemática Discreta
 - [x] Modelos y Optimización I
 - [x] Análisis Numérico
-- [ ] Estructura del Computador
+- [x] Estructura del Computador
 - [ ] Organización de Datos
 - [ ] Análisis de la Información
 - [ ] Sistemas Operativos

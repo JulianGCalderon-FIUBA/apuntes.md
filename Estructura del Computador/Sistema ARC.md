@@ -56,7 +56,7 @@ Debido a esto, para operar con números debemos cargarlo a un registro, y a part
 
 ![[Sistema ARC 2.png|475]]
 
-- Las operaciones que terminan en **cc** alteran el contenido de los flags luego de la operación.
+- Las operaciones que terminan en *"cc"* alteran el contenido de los flags luego de la operación.
 - La **bifurcación** salta a una dirección de memoria si se cumple una condición
 - El salto por igual verifica el flag cero.
 
@@ -77,7 +77,7 @@ Debido a esto, para operar con números debemos cargarlo a un registro, y a part
 
 - Distingue mayúsculas de minúsculas
 - Números por defecto en base 10
-- Si empieza con **0x** o finaliza con **h**, se trata de hexadecimal.
+- Si empieza con *"0x"* o finaliza con *"h"*, se trata de hexadecimal.
 
 ## Directivas del Ensamblador
 
