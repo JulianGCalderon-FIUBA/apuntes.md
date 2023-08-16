@@ -107,14 +107,14 @@ Son métodos para prevenir el sobre modelado, a veces no son necesarios.
 
 Es una implementación concreta del algoritmo de backpropagation.
 
-- SGD Stochastic Gradient Descent: algoritmo clásico.
+- **SGD Stochastic Gradient Descent:** algoritmo clásico.
 - Momentum: El gradiente se utiliza para la aceleración, y no para la velocidad. Utilizamos un hiperparámetro momentum que indica la fricción.
-- Nesterov: En lugar de calcular el gradiente del error en el punto actual, lo calcula en la dirección del momento, avanzando un poco.
-- AdaGrad: El error descenderá por la dimensión con la pendiente más empinada, esto no necesariamente al que conduzca al mínimo global. Tiene un buen desempeño para problemas cuadráticos simples. Pero a menuda se detiene demasiado pronto en redes profundas.
-- RMSProp: Soluciona el problema de AdaGrad al ir olvidando las pendientes anteriores, a medida que avanza. SOlo acumula los gradientes de las iteraciones recientes. Tendremos un hiperparámetro $\beta$, tasa de decaimiento.
-- Adam (Adaptive Moment Estimation): Combina ideas anteriores de Momentum y RMSProp. Haciendo un seguimiento de una media de decaimiento exponencial de gradientes pasados y de gradientes cuadráticos pasados.
-- AdaMax: es una modificación de Adam, pero Adam suele dar mejores resultados
-- AdaDelta: Es una variación de AdaGrad, en vez de calcular el escalado del factor de entrenamiento de cada dimensión, se restringe a una ventana de tamaño fijo de los últimos $n$ gradientes. Similar a RMSProp, que olvida gradientes.
+- **Nesterov:** En lugar de calcular el gradiente del error en el punto actual, lo calcula en la dirección del momento, avanzando un poco.
+- **AdaGrad:** El error descenderá por la dimensión con la pendiente más empinada, esto no necesariamente al que conduzca al mínimo global. Tiene un buen desempeño para problemas cuadráticos simples. Pero a menuda se detiene demasiado pronto en redes profundas.
+- **RMSProp:** Soluciona el problema de AdaGrad al ir olvidando las pendientes anteriores, a medida que avanza. Sólo acumula los gradientes de las iteraciones recientes. Tendremos un hiperparámetro $\beta$, tasa de decaimiento.
+- **Adam (Adaptive Moment Estimation):** Combina ideas anteriores de Momentum y RMSProp. Haciendo un seguimiento de una media de decaimiento exponencial de gradientes pasados y de gradientes cuadráticos pasados.
+- **AdaMax:** es una modificación de Adam, pero Adam suele dar mejores resultados
+- **AdaDelta:** Es una variación de AdaGrad, en vez de calcular el escalado del factor de entrenamiento de cada dimensión, se restringe a una ventana de tamaño fijo de los últimos $n$ gradientes. Similar a RMSProp, que olvida gradientes.
 
 ## Número de Capas
 

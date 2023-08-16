@@ -9,7 +9,7 @@ Es una tarea de clasificación de textos. Se utiliza para diversas tareas comple
 - **Estado de ánimo**: Sentimiento de baja intensidad y larga duración.
 - **Postura Interpersonal**: Posición afectiva respecto a otra persona
 - **Actitudes**: Predisposición de una persona respecto a otras personas.
-- **Rasgos de Personalidad**: Tendencias del comportamiento típico de una person
+- **Rasgos de Personalidad**: Tendencias del comportamiento típico de una persona
 
 En un análisis de sentimientos, trataremos de predecir la actitud.
 
@@ -28,10 +28,10 @@ Utilizar todas las palabras da mejores resultados, en términos generales (por l
 
 **Problemas comunes:**
 
-- Lidiar con tags XML o HTML
-- Reconocer marcas de twitter, usuarios, hashtags
+- Lidiar con *tags* XML o HTML
+- Reconocer marcas de Twitter, usuarios, hashtags
 - Tener en cuenta el uso de mayúsculas.
-- Despreciar fechas y números de teléfonos
+- Despreciar fechas y números de teléfono
 - Emoticones, son útiles para detectar un sentimiento.
 - Lidiar con la negación. Una forma es reemplazar las palabras que le siguen a un no, por ejemplo: *NO_palabra*
 
@@ -43,11 +43,11 @@ Otros problemas más complejos son:
 
 - Expectativas Frustradas: El significado del texto cambia totalmente por algún comentario en particular
 
-	*"La película debería ser excelente ya que cuenta con grandes actores y una banda sonora fantástica, sin embargo es terriblemente aburrida"*
+	*"La película debería ser excelente, ya que cuenta con grandes actores y una banda sonora fantástica, sin embargo, es terriblemente aburrida"*
 
 ## Lexicón de Sentimientos
 
-Utilizar una diccionario de sentimientos, donde las palabras se categorizan según su sentimiento. Podemos usar este diccionario para clasificar un texto.
+Utilizar un diccionario de sentimientos, donde las palabras se categorizan según su sentimiento. Podemos usar este diccionario para clasificar un texto.
 
 ### Algoritmo de Hatzivassiloglou y MecKeown
 
@@ -56,22 +56,22 @@ Utilizar una diccionario de sentimientos, donde las palabras se categorizan seg�
 
 El algoritmo tiene 4 pasos:
 
-1. Contruyeron a mano un leyicon de 1336 adejtivos
-2. Buscaron en google cada uno de los adjetivos con la formula was … ans. Recolectaron la palabra que seguia a continuación
-3. Repitieron esto con was … but.
-4. De esta forma, obtuvieron muchas mas palabras, pero con algunos errores
+1. Construyeron a mano un lexicón de 1336 adjetivos
+2. Buscaron en Google cada uno de los adjetivos con la fórmula *was … and*. Recolectaron la palabra que seguía a continuación
+3. Repitieron esto con *was … but*.
+4. De esta forma, obtuvieron muchas más palabras, pero con algunos errores
 
 ### Algoritmo de Turney
 
-1. Extraer frases de opiniones y armar un lexicon
+1. Extraer frases de opiniones y armar un lexicón
 2. Aprender la polaridad de cada frase
 3. Puntuar casa críticas según el promedio de las polaridades
 
 Para extraer frases, se crearon reglas.
 
-Para encontrar la polaridad de una frase, se verifico cuan cerca aparecían las palabras de las palabras con polaridad conocida.
+Para encontrar la polaridad de una frase, se verificó cuan cerca aparecían las palabras de las palabras con polaridad conocida.
 
-**Pointwise mutual information** es una fórmula matemática que indica la probabilidad de que dos eventos estén relacionados, o que sean independientes entre si.
+**Pointwise mutual information** es una fórmula matemática que indica la probabilidad de que dos eventos estén relacionados, o que sean independientes entre sí.
 
 $$
 P(palabra) = \frac{\text{$\#$ palabra}}{\text{$\#$ totales}}
@@ -85,7 +85,7 @@ $$
 PMI(palabra1, palabra2) =Log_2 \frac{P(palabra)}{P(palabra1,palabra2)}
 $$
 
-Entonces la polaridad de la frase, se calculará como
+Entonces, la polaridad de la frase, se calculará como
 
 $$
 Polaridad(frase) = PMI(frase, "excelente") - PMI(farse, "pobre")
@@ -97,13 +97,13 @@ Debemos detectar más de un sentimiento en una sola frase.
 
 ### Método de Mingqing Hu y Bing Liu
 
-**Frecuencia:** Buscaron todas las frases frecuentes, llamaron a estas frases "aspectos", o "objetos de sentimiento".
+**Frecuencia:** Buscaron todas las frases frecuentes, llamaron a estas frases "aspectos", u "objetos de sentimiento".
 
 **Reglas:** Filtraron todas esas frases frecuentes como: Ocurre después de una palabra que indica sentimientos.
 
-Consideraciones:
+Algunas consideraciones del método:
 
-- El aspecto puede no ser mencionada
+- El aspecto puede no ser mencionado
 - Los aspectos a veces son fácilmente identificables
 - Es posible utilizar clasificación supervisada y luego entrenar un clasificador
-- Si la cantidad de criticas no esta balanceada, se puede degradar el rendimiento
+- Si la cantidad de críticas no está balanceada, se puede degradar el rendimiento

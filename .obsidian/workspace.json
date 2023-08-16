@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Organización de Datos/Redes Neuronales.md",
+                "file": "Organización de Datos/Extracción de Datos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Organización de Datos/Redes Neuronales.md"
+                "file": "Organización de Datos/Extracción de Datos.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Organización de Datos/Redes Neuronales.md",
+                "file": "Organización de Datos/Extracción de Datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Organización de Datos/Redes Neuronales.md",
+                "file": "Organización de Datos/Extracción de Datos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,9 +157,12 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "6060b098ee9aa43c",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
     "Organización de Datos/Organización de Datos.md",
+    "Organización de Datos/Análisis de Sentimientos.md",
+    "Organización de Datos/Clasificación de Texto.md",
+    "Organización de Datos/Redes Neuronales.md",
     "Organización de Datos/Ensambles.md",
     "Organización de Datos/XGBoost.md",
     "Organización de Datos/Gradient Boost.md",
@@ -182,9 +185,6 @@
     "Estructura del Computador/Representación (signo).md",
     "Estructura del Computador/Registros y Contadores.md",
     "Estructura del Computador/Punto Flotante.md",
-    "Estructura del Computador/Pasajes de Base.md",
-    "Estructura del Computador/Operaciones Básicas.md",
-    "Estructura del Computador/Micro Arquitectura.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

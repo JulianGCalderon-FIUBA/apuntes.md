@@ -131,15 +131,14 @@
     "numerosidad",
     "dataset",
     "Discretización",
-    "features",
-    "outlier",
-    "outliers",
-    "Outliers",
-    "Outlier",
     "Univariados",
     "univariados",
     "subnodo",
     "Perceptrón",
-    "perceptrón"
+    "perceptrón",
+    "Tokenización",
+    "Tokenizar",
+    "Substring",
+    "tupla"
   ]
 }

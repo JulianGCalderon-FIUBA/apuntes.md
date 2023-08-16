@@ -1,4 +1,4 @@
-Es un problema de clasificación, sirve para asignar un tópico o categoría de forma automática a algun extracto de texto.
+Es un problema de clasificación, sirve para asignar un tópico o categoría de forma automática a algún extracto de texto.
 
 ## Métodos de Clasificación
 
@@ -22,9 +22,9 @@ $$
 P(C | d) = \frac{P(d | c) P(c)}{P(d)}
 $$
 
-Si tenemos un conjunto $C$ de clases, busquemos la clase que que maximice esta probabilidad.
+Si tenemos un conjunto $C$ de clases, busquemos la clase que maximice esta probabilidad.
 
-Necesitaremos ahora, calcular estas probabilidades. Para $P(c)$, utilizaremos la fórmula de Laplace con el conjunto de documentos que tendremos para el entrenamiento.
+Necesitaremos, ahora, calcular estas probabilidades. Para $P(c)$, utilizaremos la fórmula de Laplace con el conjunto de documentos que tendremos para el entrenamiento.
 
 Usaremos un método conocido como **bag word**. Un documento será entonces una bolsa de características, o palabras. Las probabilidades de cada característica $x_1,x_2,...$ dada una clase, son independientes entre sí.
 
@@ -34,7 +34,7 @@ Ventajas:
 
 - Este algoritmo es muy rápido y requiere poco almacenamiento.
 - Es robusto ante características irrelevantes
-- Es muy bueno en dominion en donde hay muchas características y todas son importantes.
+- Es muy bueno en dominios en donde hay muchas características y todas son importantes.
 
 ### Bag Word
 
@@ -60,7 +60,7 @@ Esto soluciona el caso de que surge una palabra nueva, y la probabilidad para ca
 
 ## Redes Bayesianas
 
-Para entender o modelar el conocimiento de un clasificador de bayes naive, utilizaremos redes bayesianas. Grafos acíclicos.
+Para entender o modelar el conocimiento de un clasificador de Bayes naïve, utilizaremos redes bayesianas. Grafos acíclicos.
 
 Estas redes tienen una tabla asociada a cada nodo, con las probabilidades condicionales.
 

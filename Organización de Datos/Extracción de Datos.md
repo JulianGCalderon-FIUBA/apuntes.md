@@ -9,7 +9,7 @@ Es lo primero que se hace cuando analizamos un texto. Consiste en reconocer toda
 Para cada entidad, debemos identificar que tipo de identidad es.
 
 1. Tokenizar la información
-2. Etiquetar cada token con la clase a la que corresponda: IO/IOB - encoding
+2. Etiquetar cada token con la clase a la que corresponda: *IO/IOB - encoding*
 3. Especificar características de extracción que se adecuen a las clases y el texto que tenemos:
 	1. Basado en palabras: Actual, Adyacente, Substring de palabra, Su forma
 	2. Basado en otras inferencias: Reglas gramaticales
@@ -20,8 +20,8 @@ Para cada entidad, debemos identificar que tipo de identidad es.
 
 Es una forma de representar el conocimiento. Una forma de representarlo es a través de dos relaciones:
 
-- Hipónimo (Is-a): Recurro jerárquicamente a la categoría que lo contiene
-- Instance-of: OOP, De que clase es instancia cierto token.
+- **Hipónimo (Is-a):** Recurro jerárquicamente a la categoría que lo contiene
+- **Instance-of:** De qué clase es instancia cierto token, OOP.
 
 Esta ontología se puede generar automáticamente:
 
@@ -29,7 +29,7 @@ Esta ontología se puede generar automáticamente:
 
 - Alta precisión
 - Adaptado a dominios específicos
-- Bajo Recall
+- Bajo *Recall*
 - Implica mucho trabajo
 
 ### Aprendizaje automático supervisado
@@ -37,7 +37,7 @@ Esta ontología se puede generar automáticamente:
 - Debemos decidir que relaciones nos interesa extraer
 - Debemos decidir que tipos de entidades son pertinentes a estas relaciones
 - Necesitamos un conjunto de datos etiquetado, sus entidades y sus relaciones
-- Para cada par de entidades, hacer un bag word con sus palabras intermedias.
+- Para cada par de entidades, hacer un *bag word* con sus palabras intermedias.
 
 ### Auto-Supervisado
 
@@ -45,7 +45,7 @@ Esta ontología se puede generar automáticamente:
 	1. Para un par de entidades semilla, buscar coincidencias
 	2. Extraer el contexto de la oración, reemplazar entidades por comodines
 	3. Realizar búsquedas con esos patrones para encontrar nuevas entidades y repetir
-- **DISTANT SUPERVISION:** Combina bootstrapping con aprendizaje supervisado. En lugar de usar pocas semillas, se utiliza un gran volumen de datos.
+- **DISTANT SUPERVISION:** Combina *bootstrapping* con aprendizaje supervisado. En lugar de usar pocas semillas, se utiliza un gran volumen de datos.
 	1. Para cada relación
 	2. Para cada tupla de entidades
 	3. Encuentra sentencias en un corpus donde aparecen esas entidades
@@ -61,4 +61,4 @@ Esta ontología se puede generar automáticamente:
 
 Hay muchas mejoras a estos métodos
 
-![[Extracción de Datos 1.png]]
+![[Extraccion de Datos 1.png|500]]
