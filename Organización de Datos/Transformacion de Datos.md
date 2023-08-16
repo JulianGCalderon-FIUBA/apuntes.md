@@ -1,13 +1,13 @@
-Algunas tarea de estas etapas son:
+Algunas tareas de estas etapas son:
 
 - **Integración de Datos:** Integración de múltiples bases de datos, archivos.
 - **Limpieza de Datos:** Completar valores faltantes, eliminar el ruido. Identificar y eliminar valores atípicos y corregir incoherencias
 - **Reducción de Datos:** Reducción de dimensionalidad y numerosidad
-- **Transformación de Datos:** Normalizaciones, generación de jerarquías conceptuales (feature engineering).
+- **Transformación de Datos:** Normalizaciones, generación de jerarquías conceptuales *(feature engineering).*
 
 ## Limpieza de Datos
 
-hay muchos tipos de datos que pueden ser identificados como datos faltantes. Como datos inconsistentes, errores de tipeo, errores de escalas, entre otros.
+Hay muchos tipos de datos que pueden ser identificados como datos faltantes. Como datos inconsistentes, errores de tipeo, errores de escalas, entre otros.
 
 Algunos errores se pueden arreglar a partir del resto de observaciones del dataset.
 
