@@ -1,8 +1,8 @@
 Es una red que trabaja con secuencias. La salida de una neurona es alimentada a la siguiente de forma sucesiva
 
-![[Redes Recurrentes 1.png]]
+![[Redes Recurrentes 1.png|200]]
 
-![[Redes Recurrentes 2.png]]
+![[Redes Recurrentes 2.png|200]]
 
 Tendremos entonces un conjunto de $n$ entradas y un conjunto de $n$ salidas, estas entradas son analizadas en secuencia.
 

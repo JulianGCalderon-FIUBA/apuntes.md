@@ -8,10 +8,10 @@ Toda operación en Tensor Flow se modela como un grafo, un grafo de ejecución.
 
 Los tensores son matrices de $n$ dimensiones, de un tipo de dato particular.
 
-Con ellos podemos realizar todo tipo de operaciones, como: suma, resta, multiplicación, slicing, entre otros.
+Con ellos podemos realizar todo tipo de operaciones, como: suma, resta, multiplicación, *slicing,* entre otros.
 
 También tendremos variables, las cuales pueden cambiar de valor y se definen de forma similar a los tensores constantes.
 
 ## Keras
 
-Para abstraernos del uso de tensores, utilizaremos keras lo cual nos permite lidiar con estos datos de forma más simple. Podremos lidiar directamente con dataframes de Pandas.
+Para abstraernos del uso de tensores, utilizaremos Keras lo cual nos permite lidiar con estos datos de forma más simple. Podremos lidiar directamente con *dataframes* de Pandas.
