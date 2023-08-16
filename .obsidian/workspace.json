@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Organización de Datos/Redes Recurrentes.md",
+                "file": "To-Do.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464.5,
-    "collapsed": true
+    "width": 464.5
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Organización de Datos/Redes Recurrentes.md"
+                "file": "To-Do.md"
               }
             }
           },
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Organización de Datos/Redes Recurrentes.md",
+                "file": "To-Do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Organización de Datos/Redes Recurrentes.md",
+                "file": "To-Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,6 +160,8 @@
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
     "Organización de Datos/Organización de Datos.md",
+    "Organización de Datos/Algoritmos Genéticos.md",
+    "Organización de Datos/Redes Recurrentes.md",
     "Organización de Datos/Tensor Flow.md",
     "Organización de Datos/Redes de Aprendizaje Profundo.md",
     "Organización de Datos/Extracción de Datos.md",
@@ -184,8 +185,6 @@
     "To-Do.md",
     "Estructura del Computador/Sistemas de Numeración.md",
     "Estructura del Computador/Sistema ARC.md",
-    "Estructura del Computador/Simplificación de Funciones.md",
-    "Estructura del Computador/Representación (signo).md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",

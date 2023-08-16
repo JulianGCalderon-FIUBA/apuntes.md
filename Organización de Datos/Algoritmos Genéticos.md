@@ -3,20 +3,20 @@ Para modelar estos algoritmos, se plantearon las siguientes definiciones:
 - **Fenotipo:** Problema a solucionar
 - **Cromosoma:** Cada una de sus posibles soluciones
 - **Gen:** Cada uno de los símbolos en el cromosoma
-- **Genotipo:** Si los símbolos son binarios
+- **Genotipo:** Si los símbolos son binarios.
 - **Generación:** Cada iteración.
 
 ## Operaciones
 
 Con estos cromosomas, podemos aplicar ciertas operaciones:
 
-- **Cruza:** Combinamos distintos cromosomas para generar uno nuevo
+- **Cruza:** Combinamos distintos cromosomas para generar uno nuevo.
 - **Mutación:** Modificamos algunos símbolos del cromosoma
 - **Selección:** Probamos el cromosoma para obtener un puntaje, obtenemos el que tiene un mejor puntaje.
 
 En un algoritmo genético, tendremos las distintas variables:
 
-- **Tamaño de la población:** Si es muy excesiva el algoritmo puede volverse lento, pero si es escasa entonces la solución puede ser poco óptima
+- **Tamaño de la población:** Si es muy excesiva, el algoritmo puede volverse lento, pero si es escasa entonces la solución puede ser poco óptima
 - **Probabilidad de Cruce:** de 0 a 100%
 - **Probabilidad de Mutación:** de 0 a 100%
 
@@ -24,15 +24,15 @@ En un algoritmo genético, tendremos las distintas variables:
 
 Existen distintos tipos de codificaciones
 
-- Codificación binaria: Problema de la mochila (los genes son valores binarios)
-- Codificación por valor directo: Problema del viajante (los genes contienen el valor directo)
-- Codificación en Árbol: El cromosoma se modela como un árbol y la cruza es a nivel de nodos
+- **Codificación binaria:** Problema de la mochila (los genes son valores binarios)
+- **Codificación por valor directo:** Problema del viajante (los genes contienen el valor directo)
+- **Codificación en Árbol:** El cromosoma se modela como un árbol y la cruza es a nivel de nodos
 
 ## Selección
 
 Existen distintos tipos de métodos de selección:
 
-- **Por Ruleta:** A cada cromosoma se le asigna una probabilidad en base a su puntaje
+- **Por Ruleta:** A cada cromosoma se le asigna una probabilidad basándonos en su puntaje
 - **Selección Elitista:** Además del método anterior, se seleccionan manualmente las mejores muestras
 - **Otras Selecciones:** Jerárquica, por torneo, escalada, etc.
 
@@ -40,17 +40,17 @@ Existen distintos tipos de métodos de selección:
 
 Existen distintos métodos para la cruza:
 
-- **Crossover 1 punto:** Dividimos un cromosoma en dos, e intercambiamos cada mitad con otro cromosomas
+- **Crossover 1 punto:** Dividimos un cromosoma en dos, e intercambiamos cada mitad con otro cromosoma.
 
-	![[Algoritmos Genéticos 1.png]]
+	![[Algoritmos Geneticos 1.png|500]]
 
-- **Crossover 2 puntos:** Dividimos el cromosoma en 3
+- **Crossover 2 puntos:** Dividimos el cromosoma en tres.
 
-	![[Algoritmos Genéticos 2.png]]
+	![[Algoritmos Geneticos 2.png|500]]
 
-- **Crossover Aritmético:** Se aplica alguna operación sobre los cromosomas, como por ejemplo el operador AND
+- **Crossover Aritmético:** Se aplica alguna operación sobre los cromosomas, como por ejemplo el operador *AND*
 
-	![[Algoritmos Genéticos 3.png]]
+	![[Algoritmos Geneticos 3.png|500]]
 
 ## Mutación
 

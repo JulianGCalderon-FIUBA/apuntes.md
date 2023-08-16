@@ -9,8 +9,8 @@
 - [x] Modelos y Optimización I
 - [x] Análisis Numérico
 - [x] Estructura del Computador
-- [ ] Organización de Datos
+- [x] Organización de Datos
 - [ ] Análisis de la Información
 - [ ] Sistemas Operativos
 - [ ] Introducción a Sistemas Distribuidos
- 
+

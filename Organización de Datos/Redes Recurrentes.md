@@ -11,17 +11,15 @@ Para hacer esto, cada neurona recurrente tiene dos entradas, la entrada usual, y
 - Matriz de pesos para X
 - Matriz de pesos para Y
 - Función de activación
-- Vector de bias
+- Vector de sesgos
 
-Son también llamadas celdas de memoria, ya que …. ALGO
-
-Si solo nos interesa el resultado final, por ejemplo en clasificación de textos. Entonces podemos ignorar todas las salidas exceptuando la última.
+Si solo nos interesa el resultado final, por ejemplo, en clasificación de textos. Entonces podemos ignorar todas las salidas, exceptuando la última.
 
 También puede ser utilizada para clasificación de imagen, enviándole la misma imagen a todas las entradas.
 
 ## Entrenamiento
 
-Para entrenarla, primero debemos desplegarla en el tiempo y luego utilizar back propagation.
+Para entrenarla, primero debemos desplegarla en el tiempo y luego utilizar *backpropagation*.
 
 Solemos calcular la pérdida para las últimas $T$ salidas.
 
@@ -29,11 +27,11 @@ Solemos calcular la pérdida para las últimas $T$ salidas.
 
 Son una secuencia de números que representan valores en orden temporal. Para predecir valores $n$ pasos adelante, podemos alimentar la red recurrente con las predicciones anteriores ($n-1$). A medida que avanzamos en el tiempo perdemos precisión.
 
-Otra alternativa es que la ultima neurona tenga $n$ salidas.
+Otra alternativa es que la última neurona tenga $n$ salidas.
 
 ## Métricas
 
-El enfoque **naive** para analizar el error es comprar con el último valor de una secuencia ya conocida
+El enfoque *naive* para analizar el error es comprar con el último valor de una secuencia ya conocida
 
 ## Problemáticas
 
@@ -42,13 +40,13 @@ El enfoque **naive** para analizar el error es comprar con el último valor de u
 - Memoria a corto plazo: Cuando la secuencia es demasiado larga, pierde eficacia. No puede recordar tantas entradas. Algunas soluciones son:
 	- Celdas LSTM
 	- Celdas GRU
-	- Celldas GRU + Redes Convolucionales
+	- Celdas GRU + Redes Convolucionales
 
 ## LSTM: Long Short-Term Memory
 
-Estas celdas suelen ser mas rapidas, y con mayor memoria.
+Estas celdas suelen ser más rápidas, y con mayor memoria.
 
-![[Redes Recurrentes 3.png]]
+![[Redes Recurrentes 3.png|500]]
 
 Tiene una entrada $c$, llamada entrada a largo plazo. Permite tener más memoria debido a esta nueva entrada.
 
@@ -68,4 +66,4 @@ No tendremos una entrada a largo plazo. La puerta del olvido y de entrada se sim
 
 ## GRU + Convolucionales
 
-Utilizaremos redes convolucionales de 1D para extraer características de una secuencia de valores. Luego esto alimentará a una red GRU
+Utilizaremos redes convolucionales de una dimensión para extraer características de una secuencia de valores. Luego esto alimentará a una red GRU
