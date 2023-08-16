@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelos y Optimización I/Modelos y Optimización I.md",
+                "file": "_index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modelos y Optimización I/Modelos y Optimización I.md"
+                "file": "_index.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelos y Optimización I/Modelos y Optimización I.md",
+                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modelos y Optimización I/Modelos y Optimización I.md",
+                "file": "_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,18 +159,24 @@
   },
   "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
-    "Modelos y Optimización I/Método Símplex.md",
+    "To-Do.md",
+    "Sistemas Operativos/Los procesos.md",
+    "Análisis Matemático II/Topología.md",
+    "Análisis Matemático II/Análisis Matemático II.md",
+    "_index.md",
+    "Organización de Datos/AdaBoost.md",
+    "Modelos y Optimización I/Problema del Viajante.md",
+    "Modelos y Optimización I/Introducción.md",
+    "Modelos y Optimización I/Heurísticas para el Problema del Viajante.md",
     "Modelos y Optimización I/Modelos y Optimización I.md",
+    "Modelos y Optimización I/Método Símplex.md",
     "Modelos y Optimización I/Modificaciones al Planteo.md",
     "Algoritmos I/Algoritmos I.md",
     "Algoritmos I/Argumentos del programa.md",
     "Análisis Numérico/Bisección.md",
     "Física II/Campo Magnético.md",
-    "Organización de Datos/AdaBoost.md",
     "Sistemas Operativos/API de Threads.md",
     "Sistemas Operativos/API de Memoria.md",
-    "_index.md",
-    "To-Do.md",
     "Análisis Numérico/Integración Numérica.md",
     "Análisis Numérico/Ecuaciones Diferenciales de Frontera.md",
     "Análisis Numérico/Trazador Cúbico - Spline.md",
@@ -179,12 +185,6 @@
     "Análisis Numérico/Series de Fourier.md",
     "Análisis Numérico/Refinamiento Iterativo.md",
     "Análisis Numérico/Punto Flotante.md",
-    "Análisis Numérico/Newton-Raphson.md",
-    "Análisis Numérico/Polinomio de Hermite.md",
-    "Análisis Numérico/Polinomio de Lagrange y Newton.md",
-    "Análisis Numérico/Métodos Iterativos.md",
-    "Análisis Numérico/Iteración en un Punto Fijo.md",
-    "Análisis Numérico/Interpolación Polinomial.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
