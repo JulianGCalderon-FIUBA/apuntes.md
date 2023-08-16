@@ -81,15 +81,11 @@ $$
 Las distancias de un punto a un foco y una directriz son iguales
 
 $$
-
 d(P,F) = d(P,D)
-
 $$
 
 $$
-
 \boxed{\displaystyle y = \frac{x^2}{4p}}
-
 $$
 
 Se define $p$ como la distancia a **foco** y **directriz**

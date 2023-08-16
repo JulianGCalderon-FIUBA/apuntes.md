@@ -81,7 +81,7 @@ Sea $(A_n)_{n \geq 1}$ una sucesión eventos tal que $A_n \supset A_{n+1}$ y $A 
 
 $$
 
-P(A) = \lim_{n\to\infty}P(A_n)
+ P(A) = \lim_{n\to\infty}P(A_n)
 
 $$
 

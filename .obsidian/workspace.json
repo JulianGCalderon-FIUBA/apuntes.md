@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/\\${2}\\r\\n\\r\\n.*\\r\\n\\r\\n\\${2}",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -65,12 +65,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 464.5
+    "width": 464.5,
+    "collapsed": true
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -158,8 +158,17 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "178700d707526f5b",
+  "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
+    "Probabilidad y Estadistica/Probabilidad.md",
+    "Modelos y Optimización I/Problemas Combinatorios.md",
+    "Análisis Numérico/Métodos Iterativos.md",
+    "Física II/Ley de Biot y Savalt.md",
+    "Análisis Matemático II/Extremos de campos escalares.md",
+    "Probabilidad y Estadistica/Esperanza Condicional.md",
+    "Análisis Matemático II/Diferenciabilidad.md",
+    "Análisis Matemático II/Cónicas.md",
+    "Modelos y Optimización I/Coloreo de Grafos.md",
     "Física II/Circuitos en Resonancia.md",
     "Matemática Discreta/Álgebra de Boole.md",
     "Algoritmos II/Análisis de Algoritmos.md",
@@ -177,15 +186,6 @@
     "Análisis Numérico/Punto Flotante.md",
     "Análisis Numérico/Newton-Raphson.md",
     "Análisis Numérico/Polinomio de Hermite.md",
-    "Análisis Numérico/Polinomio de Lagrange y Newton.md",
-    "Análisis Numérico/Métodos Iterativos.md",
-    "Análisis Numérico/Iteración en un Punto Fijo.md",
-    "Análisis Numérico/Interpolación Polinomial.md",
-    "Análisis Numérico/FFT.md",
-    "Análisis Numérico/Integración Numérica.md",
-    "Análisis Numérico/Errores.md",
-    "Análisis Numérico/Error en Métodos Iterativos.md",
-    "Análisis Numérico/Ecuaciones Diferenciales de Orden Superior.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
