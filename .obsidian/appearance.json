@@ -2,10 +2,10 @@
   "accentColor": "",
   "cssTheme": "Things",
   "enabledCssSnippets": [
-    "image-center",
     "table-center",
     "table-white-border",
-    "mermaid-center"
+    "mermaid-center",
+    "image-center"
   ],
   "baseFontSize": 18,
   "theme": "obsidian"
