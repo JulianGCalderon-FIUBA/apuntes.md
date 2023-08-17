@@ -6,7 +6,7 @@ El enfoque de separar el espacio de direcciones en piezas de tamaño variable (s
 
 En lugar de partir el espacio de direcciones, lo dividimos en unidades de tamaño fijo a las cuales llamaremos ***páginas.*** Luego, veremos la memoria física como un arreglo de espacios fijos llamados ***page frames***. Cada uno de estos contiene una sola página de memoria virtual.
 
-![[Introducción a Paginación 1.png]]
+![[Introduccion a Paginación 1.png]]
 
 Este enfoque tiene un cierto número de ventajas:
 
@@ -24,7 +24,7 @@ Para traducir una dirección de memoria, primero se debe separar la dirección d
 
 Luego se busca, para el proceso actual, en que dirección de memoria se encuentra el numero de pagina virtual y realiza la traducción a el número de página física: ***PFN*** o ***physical frame number.***
 
-![[Introducción a Paginación 2.png]]
+![[Introduccion a Paginación 2.png]]
 
 ## Page Tables
 

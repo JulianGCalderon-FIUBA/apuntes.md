@@ -9,7 +9,7 @@ Breve resumen de los contenidos teóricos de la materia, consultar la bibliograf
 - [[Ejecucion Directa]]
 - [[Espacio de Direcciones]]
 - [[API de Memoria]]
-- [[Traducción de Direcciones]]
+- [[Traduccion de Direcciones]]
 - [[Segmentacion]]
 - [[Free-Space Management]]
 - [[Introduccion a Paginacion]]

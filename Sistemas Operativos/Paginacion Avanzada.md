@@ -26,7 +26,7 @@ Este enfoque es tan efectiva que inclusa se utiliza en los sistemas modernos. Co
 
 La idea principal es separar la tabla de páginas es unidades del tamaño de una página. Si la página entera es inválida, entonces no se reserva memoria para ella. Esta solución introduce una nueva estructura, ***page directory***. Esta será una tabla de punteros a tablas de páginas, más pequeñas. Indicando si una tabla es válida o no.
 
-![[Paginación Avanzada 1.png]]
+![[Paginacion Avanzada 1.png]]
 
 En esencia, la *multi-paginación* utiliza tablas de *multi-nivel.* Los directorios tienen una cantidad de ***PDE*** o ***page directory entries***. Minimalmente, estos contienen un bit de validez y un ***PFN***, el frame donde se encuentra la tabla de páginas.
 

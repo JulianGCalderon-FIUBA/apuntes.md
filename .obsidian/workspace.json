@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Do.md"
+                "file": "index.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Do.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,9 @@
   },
   "active": "505df3c08b3f2550",
   "lastOpenFiles": [
+    "Sistemas Operativos/Traduccion de Direcciones.md",
+    "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",
+    "To-Do.md",
     "Analisis Matematico II/index.md",
     "Analisis de la Informacion/index.md",
     "Analisis de la Informacion/Web Rest API.md",
@@ -196,8 +199,6 @@
     "Analisis de la Informacion/Gherkin.md",
     "Analisis de la Informacion/Diseno de Datos.md",
     "Analisis de la Informacion/Casos de Uso.md",
-    "Analisis de la Informacion/Calidad de Procesos en la Industria del Software.md",
-    "Analisis de la Informacion/Arquitectura del Software.md",
     "aa.py",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 2.png",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 1.png",
@@ -215,7 +216,6 @@
     "Física II/Attachments/Final 1.png",
     "Matematica Discreta/Attachments/Algoritmos 1.png",
     "Algoritmos I/Attachments/Recursividad 1.png",
-    "Analisis de la Informacion/Attachments/Casos de Uso 3.png",
     "Base de Datos",
     "Algoritmos II/Attachments/Machete - AAB.pdf"
   ]
