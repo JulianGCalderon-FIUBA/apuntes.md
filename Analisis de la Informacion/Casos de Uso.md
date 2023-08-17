@@ -3,10 +3,10 @@ title: Casos de Uso
 ---
 
 > [!note]
-> Definición Una historia acerca de cómo un actor utiliza un sistema para alcanzar sus objetivos. Más formalmente, una secuencia de acciones realizadas por un sistema que generan un resultado observable de valor para un actor particular
+> **Definición:** Una historia acerca de cómo un actor utiliza un sistema para alcanzar sus objetivos. Más formalmente, una secuencia de acciones realizadas por un sistema que generan un resultado observable de valor para un actor particular
 
 > [!note]
-> Actor: Una entidad con algún tipo de comportamiento que interactúa con el sistema: personas, organizaciones, otros sistemas.
+> **Actor:** Una entidad con algún tipo de comportamiento que interactúa con el sistema: personas, organizaciones, otros sistemas.
 
 Los casos de uso son tecnológicamente neutros (esenciales). No describen la solución ni aspectos de implementación. (ni siquiera aquellos relacionados con la interfaz del usuario).
 
@@ -73,7 +73,7 @@ También vamos a encontrarnos con que en los casos de uso se mencionan objetos d
 
 ## CRUD/ABMC
 
-CRUD es un concepto, y un acrónimo de *Create, Read, Update, y Delete*, o en español, *Altas, Bajas, Modificaciones, Consultas.* Consiste en agrupar operaciones bajo estas categorías.
+CRUD es un concepto, y un acrónimo de *Create, Read, Update, y Delete*, o en español, Altas, Bajas, Modificaciones, Consultas. Consiste en agrupar operaciones bajo estas categorías.
 
 Debe haber casos de uso que permitan custodiar las entidades del modelo de dominio. A veces será mostrar casos de uso independientes para el alta, la baja, la modificación, y la consulta. Otras veces, será mejor unificarlos en un único diagrama de casos de uso.
 

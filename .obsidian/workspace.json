@@ -23,8 +23,12 @@
             "id": "505df3c08b3f2550",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Analisis de la Informacion/Design Thinking.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -93,7 +97,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Analisis de la Informacion/Design Thinking.md"
+              }
             }
           },
           {
@@ -102,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Analisis de la Informacion/Design Thinking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,6 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Analisis de la Informacion/Design Thinking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,10 +172,11 @@
   },
   "active": "505df3c08b3f2550",
   "lastOpenFiles": [
+    "Analisis de la Informacion/Casos de Uso.md",
     "Analisis de la Informacion/Calidad de Procesos en la Industria del Software.md",
     "Analisis de la Informacion/Arquitectura del Software.md",
-    "To-Do.md",
     "index.md",
+    "To-Do.md",
     "Probabilidad y Estadistica/Distribucion Normal.md",
     "Fisica II/Ley de Faraday.md",
     "Fisica II/Campo Magnetico.md",
@@ -190,7 +199,6 @@
     "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
     "aa.py",
     "Modelos y Optimizacion I/index.md",
-    "Modelos y Optimizacion I/Resolucion de P.L.E..md",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 2.png",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 1.png",
     "Álgebra II/Álgebra II.pdf",

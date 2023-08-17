@@ -14,7 +14,7 @@ Cuando no hay calidad, surgen los siguientes costos
 - **Costos de Evaluación:** Relacionados con las pruebas y las revisiones
 - **Costos de Prevención:** Relacionados con el entrenamiento y la capacitación de los empleados, el diseño de un plan de calidad, etc.
 
-Para solucionar los costos de fallos **internos y externos**, debemos invertir en la **evaluación** y la **prevención.**
+Para solucionar los costos de fallos internos y externos, debemos invertir en la evaluación y la prevención.
 
 A veces, estos costos pueden incluso causar que el sistema tenga que ser rediseñado por completo. Particularmente, atributos de *performance*.
 
@@ -64,4 +64,4 @@ La mayoría de las filosofías de día de hoy se basan en **Lean**. Lo mejor es 
 Hay dos grupos que surgen de los factores la calidad:
 
 - Calidad durante el uso: Efectividad, productividad, seguridad y satisfacción.
-- Calidad interna y externa
+- Calidad interna y externa.

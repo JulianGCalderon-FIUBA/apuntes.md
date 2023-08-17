@@ -9,7 +9,7 @@ En lugar de concentrarse prematuramente en soluciones tecnologías, propone una 
 Propone un proceso iterativo y exploratorio que consta de seis etapas:
 
 1. Definición: Se define el problema a resolver y el contexto del problema
-2. Needfinding: Se identifican las necesidades de los usuarios y los clientes, ya sea de formas directas o indirectas (técnicas similares a ing. reqs.)
+2. Needfinding: Se identifican las necesidades de los usuarios y los clientes, ya sea de formas directas o indirectas (técnicas similares a ingenieria de requisitos)
 3. Synthesis: Se estructuran y analizan los resultados obtenidos
 4. Ideate: Se exploran posibles soluciones a los problemas
 5. Prototype: Estos prototipos se construyen para demostrar la funcionalidad
