@@ -1,5 +1,5 @@
 ---
-title: Taller de Analisis de Interesados
+title: Taller de Análisis de Interesados
 ---
 
 ## Stakeholders según PMBOK

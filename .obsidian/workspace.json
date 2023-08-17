@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analisis de la Informacion/Requisitos en Contexto.md",
+                "file": "Analisis de la Informacion/Tecnicas de Descubrimiento de Requisitos.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analisis de la Informacion/Requisitos en Contexto.md"
+                "file": "Analisis de la Informacion/Tecnicas de Descubrimiento de Requisitos.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analisis de la Informacion/Requisitos en Contexto.md",
+                "file": "Analisis de la Informacion/Tecnicas de Descubrimiento de Requisitos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analisis de la Informacion/Requisitos en Contexto.md",
+                "file": "Analisis de la Informacion/Tecnicas de Descubrimiento de Requisitos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,8 +172,10 @@
   },
   "active": "505df3c08b3f2550",
   "lastOpenFiles": [
-    "Analisis de la Informacion/Requirement Specification vs. User Stories.md",
+    "Analisis de la Informacion/Tecnicas de Analisis, Modelado y Especificacion.md",
+    "Analisis de la Informacion/Taller de Analisis de Interesados.md",
     "Analisis de la Informacion/Requisitos en Contexto.md",
+    "Analisis de la Informacion/Requirement Specification vs. User Stories.md",
     "Analisis de la Informacion/PSA.md",
     "Analisis de la Informacion/Prototipado y Experiencia de Usuario.md",
     "Analisis de la Informacion/Modelos en la ingenieria de Software.md",
@@ -196,8 +198,6 @@
     "To-Do.md",
     "Probabilidad y Estadistica/Distribucion Normal.md",
     "Fisica II/Ley de Faraday.md",
-    "Fisica II/Campo Magnetico.md",
-    "Organizacion de Datos/Algoritmos Geneticos.md",
     "aa.py",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 2.png",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 1.png",

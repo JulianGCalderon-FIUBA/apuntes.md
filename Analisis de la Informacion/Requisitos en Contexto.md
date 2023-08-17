@@ -43,7 +43,7 @@ Existen dos grupos principales en los métodos de estimación:
 
 ### Métodos algorítmicos
 
-- Los Cocomo/Cocomo II parten de una estimación previa de la cantidad de líneas de código que se necesitaran. En función de eso, se busca determinar la cantidad de horas del proyecto.
+- Los *Cocomo/Cocomo II* parten de una estimación previa de la cantidad de líneas de código que se necesitaran. En función de eso, se busca determinar la cantidad de horas del proyecto.
 - La técnica de puntos función busca determinar también el tamaño a partir de una definición abstracta del sistema (como los casos de uso o las historias de usuario).
 - Los *use case points* plantean algo parecido
 
@@ -57,7 +57,7 @@ Cada situación requiere un enfoque distinto, cada uno tiene sus propias problem
 
 - Desarrollo ágil
 - Evolución de un producto existente
-- Migración de un sistema a otró
+- Migración de un sistema a otro.
 - Tercerización de un servicio
 - Paquetes/SaaS
 
@@ -85,15 +85,15 @@ No hay actividades formales ni requisitos escritos. El eje se trata en programar
 
 ![[Requisitos en Contexto 7.png|500]]
 
-Se parte de una visión para generar un *product backlog*. Que detalle las funcionalidades del sistema. Se elabora un *sprint backlog* con un subconjunto del product backlog que se van a desarrollar en el release. El sprint dura de 2 a 4 semanas, con reuniones diarias. Al final del *sprint*, debería tener un producto potencialmente entregable.
+Se parte de una visión para generar un *product backlog*. Que detalle las funcionalidades del sistema. Se elabora un *sprint backlog* con un subconjunto del *product backlog* que se van a desarrollar en el *release*. El sprint dura de 2 a 4 semanas, con reuniones diarias. Al final del *sprint*, debería tener un producto potencialmente entregable.
 
 Usualmente, los requisitos se organizan en *user story mapping* y *user stories*. Estos son recordatorios de reuniones con los clientes. De ser necesaria más información, se pueden utilizar documentación complementaria.
 
-El backlog se define constantemente a medida que se conoce más acerca del producto y sus requerimientos.
+El *backlog* se define constantemente a medida que se conoce más acerca del producto y sus requerimientos.
 
 ### FDD
 
-Se desarrolla un modelo inicial a partir de la idea del producto, y una lista de *features* a desarrollar. Luego se organiza en iteraciones que toman una pequeña porción de la lista de *features*. A diferencia de otras técnicas, habla de la importancia de diseñar modelos del *software*.
+Se desarrolla un modelo inicial a partir de la idea del producto, y una lista de *features* a desarrollar. Luego se organiza en iteraciones que toman una pequeña porción de la lista de *features*. A diferencia de otras técnicas, habla de la importancia de diseñar modelos del software.
 
 ![[Requisitos en Contexto 8.png|550]]
 
@@ -156,8 +156,8 @@ Suele haber una cantidad infernal de requisitos en estos paquetes. Llevan años 
 
 En general hay dos etapas:
 
-- Evaluación y Selección del COTS: Proyecto en sí mismo con su propia lista de requisitos
-- Implementación del COTS
+- **Evaluación y Selección del COTS:** Proyecto en sí mismo con su propia lista de requisitos
+- **Implementación del COTS**
 
 Los requisitos en cada etapa se manejan con distinto nivel de detalle, en la primera etapa son más generales, mientras que después se detallan más. Se deben analizar los requisitos, determinar la prioridad de los requisitos de los mismos. No siempre hay una solución perfecta.
 

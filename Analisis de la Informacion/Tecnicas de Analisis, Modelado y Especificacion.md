@@ -1,5 +1,5 @@
 ---
-title: Tecnicas de Analisis, Modelado y Especificacion
+title: Técnicas de Analisis, Modelado y Especificación
 ---
 
 Esta ingeniería parte de una base de necesidades del usuario para generar requisitos. Los requisitos pueden ser descritos desde distintos puntos de vista:
@@ -42,17 +42,17 @@ Los modelos reflejan las abstracciones del dominio del problema, describen el si
 
 ## Atributos de Buena Especificación
 
-- Correcta: Reflejar las verdaderas necesidades de los usuarios. No debe tener ambigüedades, debe haber una única interpretación posible para cada requisito.
-- Completa: Todo lo que se supone que el software debe hacer debe estar incluido en la verificación, todas las respuestas a todas las entradas posibles están incluidas, todas las páginas del documento están numeradas y referenciadas correctamente.
-- Verificable: Hay criterios para determinar si el software una vez desarrollado satisface los requisitos
-- Consistente: No hay requisitos en la especificación que estén en conflicto entre si o con otros documentos o artefactos
-- Entendible: Debe ser entendida por terceros. Se escribirán una sola vez, pero leídos muchas veces.
-- Modificable: la estructura debe permitir modificaciones simples ante un cambio en algún requisito
-- Independiente del diseño: Describe el comportamiento del sistema, no los detalles de implementación.
-- Concisa: No debe ser innecesariamente extensa
-- Organizada: Los requisitos deben ser fáciles de localizar
-- Trazable: Se debe poder encontrar el origen de cada requisito
-- Priorizada: Los requisitos tendrá una prioridad asignada.
+- **Correcta:** Reflejar las verdaderas necesidades de los usuarios. No debe tener ambigüedades, debe haber una única interpretación posible para cada requisito.
+- **Completa:** Todo lo que se supone que el software debe hacer debe estar incluido en la verificación, todas las respuestas a todas las entradas posibles están incluidas, todas las páginas del documento están numeradas y referenciadas correctamente.
+- **Verificable:** Hay criterios para determinar si el software una vez desarrollado satisface los requisitos
+- **Consistente:** No hay requisitos en la especificación que estén en conflicto entre sí o con otros documentos o artefactos
+- **Entendible:** Debe ser entendida por terceros. Se escribirán una sola vez, pero leídos muchas veces.
+- **Modificable:** la estructura debe permitir modificaciones simples ante un cambio en algún requisito
+- **Independiente del diseño:** Describe el comportamiento del sistema, no los detalles de implementación.
+- **Concisa:** No debe ser innecesariamente extensa
+- **Organizada:** Los requisitos deben ser fáciles de localizar
+- **Trazable:** Se debe poder encontrar el origen de cada requisito
+- **Priorizada:** Los requisitos tendrá una prioridad asignada.
 
 ## Técnicas
 
@@ -61,7 +61,7 @@ Los modelos reflejan las abstracciones del dominio del problema, describen el si
 Nos permite establecer categorías para identificar y ubicar más rápidamente a los requisitos
 
 - Funcional / No Funcional
-- Funcionalidad, Usabilidad, Confiabilidad, Desempeño, Facilidad de soporte, etc (FURPS+)
+- FURPS+: Funcionalidad, Usabilidad, Confiabilidad, Desempeño, Facilidad de soporte, etc.
 - Por rol de usuario
 - Por área o proceso de negocio
 - Por evento, casos de uso o escenario.
@@ -79,11 +79,11 @@ Nos permite asegurar que el esfuerzo del equipo esté dirigido hacia el análisi
 
 Existen varias técnicas que se utilizan para esta tarea:
 
-- MoSCoW (Must/Should/Could/Won't): Se colocan los requisitos en categorías
-- Votación:
-- Timeboxing: Se decide la prioridad en función del tiempo de desarrollo disponible.
-- Análisis de Riesgo
-- Análisis de Decisiones
+- **MoSCoW (Must/Should/Could/Won't):** Se colocan los requisitos en categorías
+- **Votación**
+- **Timeboxing:** Se decide la prioridad en función del tiempo de desarrollo disponible.
+- **Análisis de Riesgo**
+- **Análisis de Decisiones**
 
 ### Escenarios
 
@@ -115,7 +115,7 @@ Es una representación visual de los objetos o clases conceptuales del dominio d
 - Objetos y conceptos del mundo real
 - Personas, roles, organizaciones
 
-Sirven para entender y analizar el contexto del sistema a analizar. Se utiliza en combinación con otras técnicas como casos de uso e historias de usuarios. Para utilizarlo, emplearemos un diagrama de clases con la notación *UML*. No representan objetos del lenguaje de programación, sino objetos de negocio. Es un modelo de análisis, no de diseño
+Sirven para entender y analizar el contexto del sistema a analizar. Se utiliza en combinación con otras técnicas como casos de uso e historias de usuarios. Para utilizarlo, emplearemos un diagrama de clases con la notación UML. No representan objetos del lenguaje de programación, sino objetos de negocio. Es un modelo de análisis, no de diseño
 
 ### Árbol de Funcionalidades (Feature Tree)
 
@@ -139,9 +139,9 @@ No solo para descubrir requisitos, también es útil para analizarlos. No se deb
 
 Pueden ser evolutivos o descartables, y hechos con papel y lápiz.
 
-### Ears (Easy Approach to Requirements Syntax)
+### EARS (Easy Approach to Requirements Syntax)
 
-Es un lineamiento para minimizar los problemas derivados de la ambigüedad cuando utilizamos lenguaje natural. *EARS* propone formatos muy específicos para describir requisitos:
+Es un lineamiento para minimizar los problemas derivados de la ambigüedad cuando utilizamos lenguaje natural. EARS propone formatos muy específicos para describir requisitos:
 
 - **Ubicuos:** Algo que el sistema debe hacer incondicionalmente. Son generales y aplican a todo el sistema.
 - **Basado en Eventos:** Algo que el sistema debe hacer en respuesta a un evento disparador
@@ -169,7 +169,7 @@ Tiene como propósito alinear los equipos de trabajo con los objetivos de la org
 
 ## Recomendaciones
 
-Algunas recomendaciones **generales**:
+### Generales
 
 - Es importante definir los límites del sistema, de no hacerlo podemos profundizar temas innecesarios
 - Debemos prepararnos para gestionar los inevitables conflictos que surgirán
@@ -178,14 +178,14 @@ Algunas recomendaciones **generales**:
 - Debemos evaluar riesgos para poder priorizar aquellos que impliquen un nivel de riesgo por encima de determinado umbral.
 - En todo caso, debemos evitar la parálisis del análisis. Debemos eventualmente concluir el análisis para continuar el proyecto.
 
-En cuanto al **modelado**:
+### En el Modelado
 
 - Definir que modelos pueden aportar al análisis, no todos son útiles en todas las situaciones. Los modelos deben mantener consistencia entre sí.
 - Debemos decidir que modelos deben ser formalizados, algunos modelos merecerán tener una versión electrónica que podamos compartir.
 - Debemos considerar diversos aspectos del sistema a modelar
 - El prototipado es una técnica muy adecuada para explorar requisitos poco claros o riesgosos.
 
-En cuanto a la **especificación**:
+### En la Especificación
 
 - Debemos determinar el nivel de formalidad de las especificaciones, dependerá del tamaño de equipo y de la dispersión geográfica. A veces bastará con historias de usuario, pero a veces necesitamos documentos más formales.
 - Definir estándares para especificar requisitos
