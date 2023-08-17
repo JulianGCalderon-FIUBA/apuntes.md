@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas Operativos/Ejecucion Directa.md",
+                "file": "Analisis de la Informacion/Historias de Usuario.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "<ac",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -86,7 +86,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -106,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operativos/Ejecucion Directa.md"
+                "file": "Analisis de la Informacion/Historias de Usuario.md"
               }
             }
           },
@@ -116,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operativos/Ejecucion Directa.md",
+                "file": "Analisis de la Informacion/Historias de Usuario.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operativos/Ejecucion Directa.md",
+                "file": "Analisis de la Informacion/Historias de Usuario.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,8 +179,9 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "178700d707526f5b",
   "lastOpenFiles": [
+    "Organizacion de Datos/index.md",
     "Analisis de la Informacion/Casos de Uso.md",
     "Matematica Discreta/Algebra de Conjuntos.md",
     "Modelos y Optimizacion I/Metodo Simplex.md",
@@ -194,7 +196,6 @@
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
     "Estructura del Computador/Funciones Logicas.md",
     "Estructura del Computador/Circuitos Asincronicos.html",
-    "Organizacion de Datos/index.md",
     "Sistemas Operativos/Traduccion de Direcciones.md",
     "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",
     "Analisis Matematico II/index.md",
