@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do.md",
+                "file": "Modelos y Optimizacion I/Metodo Simplex.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Do.md"
+                "file": "Modelos y Optimizacion I/Metodo Simplex.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do.md",
+                "file": "Modelos y Optimizacion I/Metodo Simplex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Do.md",
+                "file": "Modelos y Optimizacion I/Metodo Simplex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,10 +170,10 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "505df3c08b3f2550",
   "lastOpenFiles": [
-    "index.md",
     "To-Do.md",
+    "index.md",
     "Estructura del Computador/Circuitos Asincronicos.md",
     "Estructura del Computador/Circuitos Sincronicos.md",
     "Estructura del Computador/Circuitos con Capacidad de Memoria.md",

@@ -146,6 +146,12 @@ Como consecuencia, se deduce que:
 
 Se plantea un esquema de tabla por cada vértice, de la siguiente forma:
 
+| $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
+| --- | --- || --- | ----- | ----- | ----- | ----- | ----- |
+| -   | -   || -   | -     | -     | -     | -     | -     |
+| -   | -   | -   | -     | -     | -     | -     | -     |
+| -   | -   | -   | -     | -     | -     | -     | -      |
+
 $$
 \begin{array}{|c c c|c c c c c|}
 \hline
