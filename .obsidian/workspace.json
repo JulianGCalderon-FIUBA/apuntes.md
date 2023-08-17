@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Introduccion a Sistemas Distribuidos/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Introduccion a Sistemas Distribuidos/index.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Introduccion a Sistemas Distribuidos/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Introduccion a Sistemas Distribuidos/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,10 +159,11 @@
   },
   "active": "357de9dedd67fdee",
   "lastOpenFiles": [
+    "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
+    "index.md",
     "To-Do.md",
     "Organizacion de Datos/Ensambles.md",
     "Organizacion de Datos/Clasificacion de Texto.md",
-    "index.md",
     "aa.py",
     "Modelos y Optimizacion I/index.md",
     "Modelos y Optimizacion I/Resolucion de P.L.E..md",
@@ -177,7 +178,6 @@
     "Modelos y Optimizacion I/Complejidad de Problemas.md",
     "Modelos y Optimizacion I/Coloreo de Grafos.md",
     "Modelos y Optimizacion I/Analisis de Sensibilidad.md",
-    "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
     "Introduccion a Sistemas Distribuidos/Clases Practicas.md",
     "Introduccion a Sistemas Distribuidos/index.md",
     "Matematica Discreta/index.md",
