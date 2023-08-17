@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Do.md"
+                "file": "index.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Do.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,8 +159,11 @@
   },
   "active": "357de9dedd67fdee",
   "lastOpenFiles": [
-    "aa.py",
+    "To-Do.md",
+    "Organizacion de Datos/Ensambles.md",
+    "Organizacion de Datos/Clasificacion de Texto.md",
     "index.md",
+    "aa.py",
     "Modelos y Optimizacion I/index.md",
     "Modelos y Optimizacion I/Resolucion de P.L.E..md",
     "Modelos y Optimizacion I/Programacion Lineal Continua.md",
@@ -174,7 +177,6 @@
     "Modelos y Optimizacion I/Complejidad de Problemas.md",
     "Modelos y Optimizacion I/Coloreo de Grafos.md",
     "Modelos y Optimizacion I/Analisis de Sensibilidad.md",
-    "To-Do.md",
     "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
     "Introduccion a Sistemas Distribuidos/Clases Practicas.md",
     "Introduccion a Sistemas Distribuidos/index.md",
@@ -184,7 +186,6 @@
     "Matematica Discreta/Isomorfismos.md",
     "Matematica Discreta/Induccion.md",
     "Matematica Discreta/Espectro de un Grafo.md",
-    "Matematica Discreta/Algebra de Conjuntos.md",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 2.png",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 1.png",
     "Álgebra II/Álgebra II.pdf",

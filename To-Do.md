@@ -33,7 +33,7 @@ title: To-Do
 - [x] Modelos y Optimización I
 - [x] Análisis Numérico
 - [x] Estructura del Computador
-- [x] Organización de Datos
+- [ ] Organización de Datos
 - [ ] Análisis de la Información
 - [ ] Sistemas Operativos
 - [x] Introducción a Sistemas Distribuidos

@@ -13,7 +13,7 @@ title: Organizacion de Datos
 - [[Support Vector Machines]]
 - [[Ensambles]]
 - [[Redes Neuronales]]
-- [[Clasificación de Texto]]
+- [[Clasificacion de Texto]]
 - [[Analisis de Sentimientos]]
 - [[Extraccion de Datos]]
 - [[Redes de Aprendizaje Profundo]]
