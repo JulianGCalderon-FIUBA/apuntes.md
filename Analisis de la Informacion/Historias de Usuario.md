@@ -64,7 +64,7 @@ Marco de referencia que propone 13 atributos de calidad:
 	- **Independiente:** No debe depender de otras historias, debe ser autocontenido
 	- **Completa:** No faltan pasos
 
-Este criterio considera opcional él *¿por qué?*, aunque nosotros lo consideramos necesario.
+Este criterio considera opcional el *¿por qué?*, aunque nosotros lo consideramos necesario.
 
 ## ¿Como encontrarlas?
 

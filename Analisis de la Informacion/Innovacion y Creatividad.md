@@ -1,5 +1,5 @@
 ---
-title: Innovacion y Creatividad
+title: Innovación y Creatividad
 ---
 
 ## Brainstorming
@@ -47,10 +47,10 @@ Debemos identificar el problema o foco creativo. Luego pensamos las preguntas de
 
 Mediante este método se identifican atributos del producto o servicio, con la finalidad de considerarlos cada uno como una fuente de modificación y perfeccionamiento. Pueden ser características físicas, usos, de proceso, sociales, partes, función, tiempo, etc.
 
-1. Identificamos el producto.
-2. Analizamos y confeccionamos una lista de atributos.
-3. Para cada atributo, planteamos preguntas sobre como mejorar. Se puede utilizar **SCAMPER** en este punto.
-4. Las mejores ideas que hayan surgido se seleccionan para su evaluación posterior.
+1. **Identificamos** el producto.
+2. **Analizamos** y confeccionamos una lista de **atributos**.
+3. Para cada atributo, planteamos **preguntas** sobre como **mejorar**. Se puede utilizar SCAMPER en este punto.
+4. Las **mejores** ideas que hayan surgido se **seleccionan** para su evaluación posterior.
 
 Para cualquier software, podríamos tomar sus atributos de calidad para evaluarlo.
 
