@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analisis de la Informacion/Tecnicas de Descubrimiento de Requisitos.md",
+                "file": "Analisis Matematico II/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analisis de la Informacion/Tecnicas de Descubrimiento de Requisitos.md"
+                "file": "Analisis Matematico II/index.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analisis de la Informacion/Tecnicas de Descubrimiento de Requisitos.md",
+                "file": "Analisis Matematico II/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analisis de la Informacion/Tecnicas de Descubrimiento de Requisitos.md",
+                "file": "Analisis Matematico II/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,10 @@
   },
   "active": "505df3c08b3f2550",
   "lastOpenFiles": [
+    "Analisis de la Informacion/index.md",
+    "Analisis de la Informacion/Web Rest API.md",
+    "Analisis de la Informacion/Verificar y Validar requerimientos.md",
+    "Analisis de la Informacion/Tecnicas de Descubrimiento de Requisitos.md",
     "Analisis de la Informacion/Tecnicas de Analisis, Modelado y Especificacion.md",
     "Analisis de la Informacion/Taller de Analisis de Interesados.md",
     "Analisis de la Informacion/Requisitos en Contexto.md",
@@ -181,7 +185,6 @@
     "Analisis de la Informacion/Modelos en la ingenieria de Software.md",
     "Analisis de la Informacion/Modelados de Dominio.md",
     "Analisis de la Informacion/Introduccion al Diseno de Software.md",
-    "Analisis de la Informacion/index.md",
     "Analisis de la Informacion/Introduccion a la Ingenieria de Software.md",
     "Analisis de la Informacion/Interfaces de Usuario.md",
     "Analisis de la Informacion/Innovacion y Creatividad.md",
@@ -195,9 +198,6 @@
     "Analisis de la Informacion/Calidad de Procesos en la Industria del Software.md",
     "Analisis de la Informacion/Arquitectura del Software.md",
     "index.md",
-    "To-Do.md",
-    "Probabilidad y Estadistica/Distribucion Normal.md",
-    "Fisica II/Ley de Faraday.md",
     "aa.py",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 2.png",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 1.png",

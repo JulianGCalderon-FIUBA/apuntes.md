@@ -1,6 +1,7 @@
 ---
 title: Análisis de la Información
 ---
+
 - [[Introduccion a la Ingenieria de Software|Introducción a la Ingeniería de Software]]
 - [[Calidad de Procesos en la Industria del Software]]
 - [[Modelos en la ingenieria de Software|Modelos en la Ingeniería de Software]]

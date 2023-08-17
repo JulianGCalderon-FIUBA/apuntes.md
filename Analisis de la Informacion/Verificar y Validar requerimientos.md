@@ -26,7 +26,7 @@ La prueba de aceptación es una técnica de validación, mientras que las otras 
 
 ## Actividades de Control de Calidad
 
-Tendremos actividades dinámicas y estáticas. Las actividades dinámicas están relacionadas con las pruebas del *software*.
+Tendremos actividades dinámicas y estáticas. Las actividades dinámicas están relacionadas con las pruebas del software.
 
 ![[Verificar y Validar requerimientos 2.png|500]]
 
@@ -48,13 +48,13 @@ Son mucho más formales, hay roles, pasos, etapas, artefactos detallados. Tiene 
 
 #### Etapas
 
-1. Planificación: Dado un artefacto a inspeccionar, se asigna un moderador, quien decidirá quién participara, donde, cuando, y distribuirá la documentación necesaria.
-2. Presentación: Se realiza una Reunión corta en la que se presenta a los inspectores el material a revisar (opcional)
-3. Preparación: Los inspectores trabajan solos durante una hora y media, familiarizándose con el material y tratando de detectar potenciales defectos.
-4. Reunión de la inspección: Los inspectores presentan los supuestos defectos. El moderador confecciona una lista de defectos unificada. No está permitida la discusión en torno de la autenticidad de los defectos, ni de las posibles soluciones.
-5. "Tercer Tiempo": Los inspectores discuten con el autor posibles mejoras a los defectos encontrados (opcional)
-6. Retrabajo: El autor resuelve los defectos encontrados. Luego de esta etapa, se puede volver a la etapa de planificación.
-7. Seguimiento: El moderador verifica que se haya realizado el trabajo.
+1. **Planificación:** Dado un artefacto a inspeccionar, se asigna un moderador, quien decidirá quién participara, donde, cuando, y distribuirá la documentación necesaria.
+2. **Presentación:** Se realiza una Reunión corta en la que se presenta a los inspectores el material a revisar (opcional)
+3. **Preparación:** Los inspectores trabajan solos durante una hora y media, familiarizándose con el material y tratando de detectar potenciales defectos.
+4. **Reunión de la inspección:** Los inspectores presentan los supuestos defectos. El moderador confecciona una lista de defectos unificada. No está permitida la discusión en torno de la autenticidad de los defectos, ni de las posibles soluciones.
+5. **"Tercer Tiempo":** Los inspectores discuten con el autor posibles mejoras a los defectos encontrados (opcional)
+6. **Retrabajo:** El autor resuelve los defectos encontrados. Luego de esta etapa, se puede volver a la etapa de planificación.
+7. **Seguimiento:** El moderador verifica que se haya realizado el trabajo.
 
 ![[Verificar y Validar requerimientos 4.png|175]]
 
