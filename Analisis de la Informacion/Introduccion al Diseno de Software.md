@@ -1,3 +1,7 @@
+---
+title: Introducción al Diseño de Software
+---
+
 El diseño del software es el proceso mediante el cual definimos la arquitectura, los componentes, las interfaces y otras características de un sistema o componente. El diseño del software, también es el resultado del proceso anterior.
 
 - Es una actividad creativa. No existe una receta, aunque hay lineamientos, estándares, y patrones.
@@ -16,7 +20,7 @@ Existen dos caminos posibles:
 
 Se comienza diseñar durante la etapa de requerimientos, solapando ambas actividades. La construcción también comienza durante la etapa de requerimientos y diseño. Existe una idea y vuelta entre todas las disciplinas.
 
-![[Introduccion al Diseño de Software 1.png|550]]
+![[Introduccion al Diseno de Software 1.png|550]]
 
 A partir de los requisitos, debemos definir:
 
@@ -32,17 +36,17 @@ La transición entre los requisitos y el diseño son difíciles.
 
 A lo largo de la carrera, vimos múltiples principios de clásicos del diseño:
 
-![[Introduccion al Diseño de Software 2.png|500]]
+![[Introduccion al Diseno de Software 2.png|500]]
 
 Principios clásicos del desarrollo
 
 Desarrollar grandes productos no es lo mismo que los pequeños proyectos. Los principios son importantes.
 
-![[Introduccion al Diseño de Software 3.png|500]]
+![[Introduccion al Diseno de Software 3.png|500]]
 
 Principios importantes para el diseño de objetos
 
-![[Introduccion al Diseño de Software 4.png]]
+![[Introduccion al Diseno de Software 4.png]]
 
 Principios SOLID
 
@@ -80,19 +84,19 @@ La arquitectura tiene mucha influencia en:
 
 ### Estilos Arquitectónicos
 
-![[Introduccion al Diseño de Software 5.png|500]]
+![[Introduccion al Diseno de Software 5.png|500]]
 
 Busca aislar los cambios en la interfaz, de los cambios de la lógica, de los cambios en los datos. Es un patrón del diseño orientado a objetos
 
-![[Introduccion al Diseño de Software 6.png|500]]
+![[Introduccion al Diseno de Software 6.png|500]]
 
 La capa de presentación manejo la lógica del diálogo con el usuario. La capa de negocio maneja la lógica de la aplicación. La capa de persistencia permite el acceso a los datos, que están en la capa de base de datos.
 
-![[Introduccion al Diseño de Software 7.png|500]]
+![[Introduccion al Diseno de Software 7.png|500]]
 
 Se publica un evento en una cola de eventos. Del otro lado, tendremos componentes que escuchan de la cola y esperan que aparezcan los eventos, para realizar acciones determinadas.
 
-![[Introduccion al Diseño de Software 8.png|500]]
+![[Introduccion al Diseno de Software 8.png|500]]
 
 A través de una **API**, se accede a lógica que está en una capa más abajo.
 
