@@ -1,7 +1,3 @@
----
-title: Introduccion al Diseno de Software
----
-
 El diseño del software es el proceso mediante el cual definimos la arquitectura, los componentes, las interfaces y otras características de un sistema o componente. El diseño del software, también es el resultado del proceso anterior.
 
 - Es una actividad creativa. No existe una receta, aunque hay lineamientos, estándares, y patrones.
