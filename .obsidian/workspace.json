@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do.md",
-                "mode": "preview",
+                "file": "Estructura del Computador/Circuitos Asincronicos.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Do.md"
+                "file": "Estructura del Computador/Circuitos Asincronicos.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do.md",
+                "file": "Estructura del Computador/Circuitos Asincronicos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Do.md",
+                "file": "Estructura del Computador/Circuitos Asincronicos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,11 +172,17 @@
   },
   "active": "505df3c08b3f2550",
   "lastOpenFiles": [
+    "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
     "Estructura del Computador/Circuitos Asincronicos.md",
-    "Estructura del Computador/Circuitos Asincronicos.html",
     "Estructura del Computador/Circuitos Sincronicos.md",
-    "Organizacion de Datos/index.md",
+    "Estructura del Computador/Circuitos.md",
+    "Estructura del Computador/Algebra de Boole.md",
+    "Analisis Numerico/Biseccion.md",
+    "Analisis Numerico/Attachments/Punto Flotante 1.png",
+    "Estructura del Computador/Funciones Logicas.md",
     "To-Do.md",
+    "Estructura del Computador/Circuitos Asincronicos.html",
+    "Organizacion de Datos/index.md",
     "index.md",
     "Sistemas Operativos/Traduccion de Direcciones.md",
     "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",
@@ -195,11 +201,6 @@
     "Analisis de la Informacion/Modelados de Dominio.md",
     "Analisis de la Informacion/Introduccion al Diseno de Software.md",
     "Analisis de la Informacion/Introduccion a la Ingenieria de Software.md",
-    "Analisis de la Informacion/Interfaces de Usuario.md",
-    "Analisis de la Informacion/Innovacion y Creatividad.md",
-    "Analisis de la Informacion/Ingenieria de Requisitos.md",
-    "Analisis de la Informacion/Design Thinking.md",
-    "Analisis de la Informacion/Historias de Usuario.md",
     "aa.py",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 2.png",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 1.png",
@@ -216,7 +217,6 @@
     "Fisica II/Attachments/Potencia Activa y Reactiva 1.svg",
     "Física II/Attachments/Final 1.png",
     "Matematica Discreta/Attachments/Algoritmos 1.png",
-    "Algoritmos I/Attachments/Recursividad 1.png",
     "Base de Datos",
     "Algoritmos II/Attachments/Machete - AAB.pdf"
   ]
