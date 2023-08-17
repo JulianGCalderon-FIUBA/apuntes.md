@@ -1,7 +1,11 @@
+---
+title: Historias de Usuario
+---
+
 Una historia de usuario es una descripción de la funcionalidad esperada de un sistema, expresada desde el punto de vista del usuario:
 
 > [!note]
-> El formato más aceptado es el denominado quién-qué-porque: Como \<actor> , quiero poder \<función>, de modo que/para así \<razón>
+> El formato más aceptado es el denominado quién-qué-porque: Como \<actor> , quiero poder \<función> , de modo que/para así \<razón>
 
 No son requisitos en el sentido tradicional, sino que constituyen un recordatorio de que se debe mantener una conversación respecto al tema en cuestión.
 

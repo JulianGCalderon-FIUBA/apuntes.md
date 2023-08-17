@@ -1,4 +1,8 @@
-- [[Conceptos Basicos]]
+---
+title: Algoritmos I
+---
+
+- [[Conceptos Basicos|Conceptos Básicos]]
 - [[Bibliotecas Personales]]
 - [[Algoritmos I/Recursividad|Recursividad]]
 - [[Operaciones con Arreglos]]

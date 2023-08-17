@@ -1,3 +1,7 @@
+---
+title: Modelados de Dominio
+---
+
 Un modelo de dominio es una representación visual del vocabulario del dominio. Los construimos para entender y analizar mejor el contexto en el que operará el sistema a desarrollar.
 
 Los objetos de dominio tienen atributos, que caracterizan a los objetos, y están relacionados entre sí por cierta asociación.

@@ -1,3 +1,7 @@
+---
+title: Planificador Multiprocesador
+---
+
 A medida que avanza el tiempo, los sistemas con múltiples procesador se vuelven cada vez más comunes. La aparición de procesadores ***multicore*** son el núcleo de estos sistemas.
 
 Hay muchas problemáticas que surgen cuando tratamos de correr una aplicación en múltiples procesadores. Para poder hacer esto, debemos reescribir nuestro programa para permitir que se ejecute en **paralelo**, quizás a partir de la utilización de hilos o ***threads***.

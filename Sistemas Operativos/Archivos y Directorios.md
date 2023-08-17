@@ -1,3 +1,7 @@
+---
+title: Archivos y Directorios
+---
+
 En este capítulo, trataremos una pieza crítica para la virtualización de la computadora: **almacenamiento persistente.** Para eso, utilizaremos discos que almacenan información de forma permanente (o al menos, durante un largo tiempo).
 
 Necesitamos dos abstracciones claves para la virtualización del almacenamiento. El primero es un **archivo**, un archivo es simplemente una vector lineal de bytes. Todos los archivos tienen un nombre de bajo nivel, usualmente un número, que utilizaremos para referirnos a él. Solemos referirnos a este nombre como el ***inodo***

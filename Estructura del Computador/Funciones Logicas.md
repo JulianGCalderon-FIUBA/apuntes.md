@@ -1,3 +1,7 @@
+---
+title: Funciones Lógicas
+---
+
 Las funciones lógicas tienen dos valores posibles. $0,1$ Se pueden representar por una expresión algebraica a través de operadores lógicos $(+;.)$, o a través de tablas de verdad
 
 ## Tabla de Verdad

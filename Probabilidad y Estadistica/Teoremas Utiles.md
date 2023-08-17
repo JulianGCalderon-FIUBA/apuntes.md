@@ -1,3 +1,7 @@
+---
+title: Teoremas Útiles
+---
+
 ## Teorema de Combinación Lineal
 
 Sean $X_1, \cdots, X_n$ variables aleatorias independientes con $X_i \sim \mathcal N(\mu_i, \sigma_i^2)$, y sea $Y = \sum_{i = 1}^n a_i X_i$, entonces $Y$ tendrá distribución normal de parámetros:

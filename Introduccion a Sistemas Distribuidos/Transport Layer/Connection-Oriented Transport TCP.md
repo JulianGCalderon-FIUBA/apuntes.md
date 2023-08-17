@@ -1,3 +1,7 @@
+---
+title: Connection-Oriented Transport TCP
+---
+
 ## 1. The TCP Connections
 
 El protocolo ***TCP*** es ***connection-oriented*** debido a que antes de que una aplicación pueda comenzar a enviar datos a otra, debe primero ocurrir un saludo inicial entre ambos procesos. Las conexiones ***TCP*** no son una conexion ***end-to-end*** como la de un ***circuit-switched-network***, sino son conexiones lógicas donde el estado común reside únicamente en el ***TCP*** de los ***end systems***. Los elementos de red en el centro de la red no contienen esta información.

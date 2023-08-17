@@ -1,3 +1,7 @@
+---
+title: Intervalos de Confianza
+---
+
 A partir de una muestra nunca vamos a poder encontrar nuestro parámetro $\mu$. Por lo que vamos a intentar encontrar un intervalo $\mu \in [A, B]$ tal que la probabilidad de que el parámetro pertenezca a ese intervalo sea de $1{-}\alpha$. Donde $1{-}\alpha$ es el nivel de confianza, siendo $\alpha$ el nivel de riesgo
 
 ## Método del Pivote

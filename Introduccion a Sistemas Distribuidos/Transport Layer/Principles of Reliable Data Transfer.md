@@ -1,3 +1,7 @@
+---
+title: Principles of Reliable Data Transfer
+---
+
 La abstracción del servicio provista por las capas superiores es la de un canal viable de comunicación por la cual se puede transferir datos. Con este canal, ningún ***bit*** puede ser corrompido o perdido. Es la responsabilidad de un ***reliable data transfer protocol*** de implementar este servicio.
 
 Asumiremos a lo largo de esta discusión que los paquetes serán recibidos en el orden que fueron enviados, con algunos posiblemente siendo perdidos. Por otro lado, únicamente consideraremos el caso de ***unidirectional data transfer***, si bien el caso ***bidireccional*** no es conceptualmente más difícil, es más tedioso de explicar.

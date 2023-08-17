@@ -1,3 +1,7 @@
+---
+title: Dieléctricos
+---
+
 Los aislantes o dieléctricos no poseen electrones libres, por lo que no será posible el desplazamiento de carga a través de ellos.
 
 ## Modelo Elemental de Dieléctricos

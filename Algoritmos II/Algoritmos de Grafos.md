@@ -1,3 +1,7 @@
+---
+title: Algoritmos de Grafos
+---
+
 ## Recorridos
 
 Es una forma de atravesar el grafo, visitando cada vértice del mismo. El orden en el cual los vértices son visitados determina el tipo de recorrido.

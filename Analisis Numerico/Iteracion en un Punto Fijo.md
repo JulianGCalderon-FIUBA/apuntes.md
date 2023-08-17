@@ -1,3 +1,7 @@
+---
+title: Iteración en un Punto Fijo
+---
+
 $$
 P \text{ es punto fijo si } f(P) = P \text{ siendo } f\in\mathscr C[a,b] \text{ y } P \in [a,b]
 $$

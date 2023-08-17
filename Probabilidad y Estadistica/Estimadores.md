@@ -1,3 +1,7 @@
+---
+title: Estimadores
+---
+
 Un estimador es un estadístico cuyos valores se consideran medidas experimentales de un parámetro desconocido
 
 Es una función del estadístico que provee un valor aproximado de un parámetro o característica desconocida.

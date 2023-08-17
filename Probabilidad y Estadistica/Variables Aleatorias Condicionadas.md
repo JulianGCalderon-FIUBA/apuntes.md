@@ -1,3 +1,7 @@
+---
+title: Variables Aleatorias Condicionadas
+---
+
 Sean $X,Y$ variables aleatorias discretas con $p_X(x) > 0$. La función de probabilidad de $Y$ dado que $X = x$ es
 
 $$

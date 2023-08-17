@@ -1,3 +1,7 @@
+---
+title: Pasajes de Base
+---
+
 ## Pasaje de base $B$ a base 10
 
 La suma de los pesos de un símbolo es el número en sistema decimal. $d_{1 \to n}$ son los dígitos de $a$ en la base $b$

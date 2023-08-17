@@ -1,3 +1,7 @@
+---
+title: Micro Arquitectura
+---
+
 La tarea principal de una computadora es la de ejecutar un algoritmo, para esto utiliza operaciones muy sencillas de forma ordenada. Estas operaciones sencillas se pueden utilizar en conjunto para resolver problemas complejos.
 
 ## Arquitectura Harvard

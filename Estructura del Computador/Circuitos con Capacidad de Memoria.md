@@ -1,3 +1,7 @@
+---
+title: Circuitos con Capacidad de Memoria
+---
+
 La salida de un circuito combinacional, se realimenta como entrada al circuito con cierto retardo. Esto actúa como 'memoria'.
 
 ## Circuitos Asincrónicos

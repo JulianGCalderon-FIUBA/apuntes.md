@@ -1,3 +1,7 @@
+---
+title: Series de Fourier
+---
+
 ## Observaciones
 
 1. Las series de Fourier describen señales periódicas como combinación lineal de señales armónicas (senos y cosenos)

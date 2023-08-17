@@ -1,3 +1,7 @@
+---
+title: K-nearest Neighbours
+---
+
 Es un método de clasificación que permite identificar la clase de una observación a partir de la distancia a sus vecinos.
 
 ## Hiperparámetros

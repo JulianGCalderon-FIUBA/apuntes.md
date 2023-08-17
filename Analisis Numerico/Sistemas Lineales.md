@@ -1,3 +1,7 @@
+---
+title: Sistemas Lineales
+---
+
 Para resolver sistemas lineales de la forma $Ax = b$ grandes, tenemos dos tipos de métodos
 
 ## Métodos Directos

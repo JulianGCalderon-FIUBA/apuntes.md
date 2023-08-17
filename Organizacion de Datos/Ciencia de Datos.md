@@ -1,3 +1,7 @@
+---
+title: Ciencia de Datos
+---
+
 La idea es crear modelos predictivos a partir de un conjunto de datos. Los modelos tienen dos partes
 
 - **Datamining**: Técnicas que vienen de la estadística y fórmulas

@@ -1,3 +1,7 @@
+---
+title: Esperanza para Vectores
+---
+
 ## Esperanza para Vectores Aleatorios
 
 Sea el vector aleatorio $X, Y$, entonces definimos la esperanza de una función de las variables aleatorias como

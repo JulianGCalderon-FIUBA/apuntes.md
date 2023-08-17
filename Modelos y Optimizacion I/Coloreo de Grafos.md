@@ -1,3 +1,7 @@
+---
+title: Coloreo de Grafos
+---
+
 Dado un grafo no dirigido $(G,E)$, con un conjunto $V$ de vértices y $E$ de aristas. Un coloreo válido de $G$ se corresponde a una partición de $V$ en $K$ conjuntos independientes, donde dos elementos adyacentes no pertenecen al mismo conjunto. El objetivo es minimizar $K$. Donde $\min K = \chi(G)$ es el número cromático del grafo.
 
 Un Conjunto independiente en un grafo es un conjunto de vértices tal que ninguno de Los vértices son adyacentes a otro. Un conjunto independiente máximo es un conjunto tal que al agregarle un vértice más, deja de ser independiente.

@@ -1,3 +1,7 @@
+---
+title: Capacitores
+---
+
 Los capacitores están formados por dos conductores, de cargas opuestas e igual módulo. Entre estos capacitores podemos dibujar un campo eléctrico, que nace en las cargas positivas, y muere en las cargas negativas. Este capacitor tiene la capacidad de almacenar energía.
 
 Para cargar ambos conductores con cargas opuestas, utilizamos una pila. La pila mueve cargas de un capacitor al otro. La pila tiene asociada una diferencia de potencial $\Delta V$, la cual que permite mover las cargas, hasta que entre los dos conductores haya la misma diferencia de potencial que entre los bornes de la pila.

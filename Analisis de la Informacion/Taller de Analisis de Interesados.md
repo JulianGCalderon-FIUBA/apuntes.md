@@ -1,3 +1,7 @@
+---
+title: Taller de Analisis de Interesados
+---
+
 ## Stakeholders según PMBOK
 
 - **Project Manager:** La persona responsable por la gestión del proyecto.

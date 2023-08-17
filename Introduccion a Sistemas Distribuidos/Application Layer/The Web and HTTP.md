@@ -1,3 +1,7 @@
+---
+title: The Web and HTTP
+---
+
 La web permite que los usuarios consulten información de forma dinámica, en el momento que ellos quieren. Por otro lado, es sorprendentemente fácil para cualquier individuo publicar información en la red.
 
 ## 1. Overview of HTTP

@@ -1,3 +1,7 @@
+---
+title: Introducción a Sistemas Distribuidos
+---
+
 Este apunte estará basado en la bibliografía de la materia, aunque se añadirá en los capítulos acordes los agregados vistos en clase.
 
 1. [[Computer Networks and the Internet]]
@@ -8,6 +12,6 @@ Este apunte estará basado en la bibliografía de la materia, aunque se añadir�
 6. [[The Link Layer and LANs]]
 7. [[Wireless and Mobile Networks]]
 
-Las clases prácticas fueron resumidas en el documento: [[Clases Practicas]]
+Las clases prácticas fueron resumidas en el documento: [[Clases Practicas|Clases Prácticas]]
 
 El trabajo teórico final fue resumido en el documento: [[Breaking WEP]]

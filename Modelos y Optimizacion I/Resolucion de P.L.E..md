@@ -1,3 +1,7 @@
+---
+title: Resolución de P.L.E.
+---
+
 Para resolver problemas de programación lineal entera, tendremos distintas técnicas. Ninguna de ellas logra resolver el problema en tiempo polinomial, por lo que son muy costosas.
 
 La técnica trivial para problemas cuyas variables son bivalentes es la de enumeración o fuerza bruta. Probamos todas las posibilidades hasta hallar la óptima.

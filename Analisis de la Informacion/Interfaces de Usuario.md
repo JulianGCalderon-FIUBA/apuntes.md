@@ -1,3 +1,7 @@
+---
+title: Interfaces de Usuario
+---
+
 ## Conceptos Básicos
 
 La **usabilidad** es la medida de la calidad de la experiencia que tiene un usuario cuando interactúa con un producto o sistema. Podríamos decir que es la eficacia, eficiencia, y satisfacción, con la que un producto permite alcanzar objetivos específicos a usuarios específicos con un contexto de uso específico. Algunas características de la usabilidad son:

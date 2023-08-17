@@ -1,3 +1,7 @@
+---
+title: Biseccion
+---
+
 La bisección es un método que permite encontrar las raíces de cualquier función continua, si conocemos un intervalo $[a,b]$ tal que $f(a), f(b)$ tengan signos opuestos.
 
 Para esto, utilizamos el teorema de Bolzano

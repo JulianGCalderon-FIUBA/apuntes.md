@@ -1,3 +1,7 @@
+---
+title: Operaciones con archivos
+---
+
 ## Lectura de Archivos
 
 ```c

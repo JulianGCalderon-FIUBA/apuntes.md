@@ -1,3 +1,7 @@
+---
+title: Operaciones entre Grafos
+---
+
 Existen 257 operaciones entre grafos, pero trabajaremos únicamente con cuatro de ellas.
 
 ## Potencia

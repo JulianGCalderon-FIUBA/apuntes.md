@@ -1,3 +1,7 @@
+---
+title: Variables Aleatorias
+---
+
 Una variable aleatoria V.A. es una función $X$ que le asigna a cada uno de los elementos de $\Omega$ un número real $X(\omega)$. Para definir $X$, usamos un texto que relacione el espacio muestral con los números reales.
 
 Sea $(\Omega, \mathscr A, P)$ un E.P. y $X: \Omega \to \mathbb{R}$ una función, diremos que $X$ es una variable aleatoria si $X^{-1} (x) \in \mathscr A$. Es decir, el dominio de la función es el álgebra de eventos.

@@ -1,3 +1,7 @@
+---
+title: Locks
+---
+
 Se introduce el concepto de ***lock***, estos permiten exclusión mutua de una parte del código para prevenir condiciones de carrera. Las secciones críticas se ejecutan como si fuesen operaciones atómicas.
 
 Una lock es una variable, esta almacena su estado interno en un instante de tiempo. Permitiendo que solo un hilo pueda adquirir el ***lock***. Dentro también se puede almacenar otra información, como una cola de adquisición, o a que hilo le pertenece.

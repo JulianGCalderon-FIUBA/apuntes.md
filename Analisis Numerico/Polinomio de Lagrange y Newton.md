@@ -1,3 +1,7 @@
+---
+title: Polinomio de Lagrange y Newton
+---
+
 ## Polinomio de Lagrange
 
 La interpolación de Lagrange permite encontrar un polinomio que coincida con la función $f$ en $n+1$ puntos del espacio

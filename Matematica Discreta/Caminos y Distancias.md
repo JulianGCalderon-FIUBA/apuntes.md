@@ -1,3 +1,7 @@
+---
+title: Caminos y Distancias
+---
+
 ## Caminos
 
 Un $v_0{-}v_q$ camino es una sucesión alternada de vértices y aristas para viajar desde $v_0$ a $v_q$

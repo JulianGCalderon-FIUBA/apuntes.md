@@ -1,3 +1,7 @@
+---
+title: Isomorfismos
+---
+
 ## Isomorfismos
 
 Dos grafos se consideran iguales si coinciden los tres elementos de la terna que lo definen. En cambio, dos grafos simples son isomorfos solo si preservan todos sus *invariantes*, pero la recíproca es falsa.

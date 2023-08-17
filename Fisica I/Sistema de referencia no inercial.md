@@ -1,3 +1,7 @@
+---
+title: Sistema de referencia no inercial
+---
+
 Cuando se analiza en este sistema de referencia, las ecuaciones de Newton **no** son válidas
 
 Se usa para analizar el movimiento de un objeto en referencia a un sistema acelerado

@@ -1,3 +1,7 @@
+---
+title: Referencia del Potencial
+---
+
 Si queremos encontrar la función potencial, y no pensarla solo como una diferencia entre dos puntos, entonces tengo que encontrar un valor de referencia. Como cuando calculamos la fuerza potencial gravitatoria, que depende de un valor de referencia.
 
 ## Distribuciones Acotadas

@@ -1,3 +1,7 @@
+---
+title: Trabajo y Energía
+---
+
 ## Trabajo
 
 Se define como la energía necesaria para desplazar a un objeto

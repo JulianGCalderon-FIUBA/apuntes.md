@@ -1,3 +1,7 @@
+---
+title: Multiple Access Links and Protocols
+---
+
 Un ***point-to-point link*** consiste en un único remitente en un extremo de enlace y un único receptor en el otro extremo del enlace. Existen multiples protocolos para el envío de información a través de este enlace, entre ellos: **point-to-point protocol (PPP)** y **high-level data link control (HDLC)**.
 
 Un ***broadcast link*** puede tener múltiples remitentes y receptores, todos conectados al mismo canal compartido. Las computadoras tienen protocolos, llamados multiple access protocols, mediante los cuales se regulan las transmisiones dentro del canal compartido. Aunque técnicamente los nodos acceden mediante un adaptador, trataremos a los nodos directamente como los remitentes y receptores.

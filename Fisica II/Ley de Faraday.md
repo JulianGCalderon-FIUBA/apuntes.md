@@ -1,3 +1,7 @@
+---
+title: Ley de Faraday
+---
+
 Faraday notó, luego de unos experimentos, que un campo magnético puede generar corriente en un circuito cercano. Sin embargo, esta corriente es temporal. Solo surge cuando el campo no es estacionario, sino que depende del tiempo. A esta corriente, se la denomina **corriente inducida.**
 
 ## Ley de Faraday-Lenz

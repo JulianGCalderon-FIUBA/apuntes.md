@@ -1,3 +1,7 @@
+---
+title: Interferencia
+---
+
 Ocurre cuando tomas dos ondas armónicas de la misma frecuencia, misma longitud, pero con diferente fase. Cada onda recorre caminos distintos $x_1, x_2$.
 
 Estas ondas se denominan **coherentes** porque su diferencia de fase es constante en el tiempo. Si no trabajamos con fuentes coherentes, entonces el factor de interferencia se anula.

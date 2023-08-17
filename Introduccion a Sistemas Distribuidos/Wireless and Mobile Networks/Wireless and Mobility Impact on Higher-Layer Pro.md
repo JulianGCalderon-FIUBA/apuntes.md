@@ -1,3 +1,7 @@
+---
+title: Wireless and Mobility Impact on Higher-Layer Pro
+---
+
 Si bien los protocolos de capa de transporte como ***TCP*** o ***UDP*** pueden operar en redes inalámbricas, experimentan diferencias en el rendimiento de las redes inalámbricas de las redes cableadas.
 
 Recordemos que la ventana de congestión de ***TCP*** disminuye cuando se pierden paquetes, esto se debe a que asume que la perdida ocurre debido a la congestión de la red, y no debido a un ***handoff*** o corrupción de bits. Cuando ocurre esto, no hay una razón real para disminuir la ventana de congestión.

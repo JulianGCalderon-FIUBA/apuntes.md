@@ -1,3 +1,7 @@
+---
+title: Teoremas Integrales
+---
+
 ## Divergencia
 
 La divergencia se calcula con el producto escalar entre el operador nabla $\nabla$ y una función vectorial $f$, el resultado sería la traza de la jacobiana de $f$

@@ -1,3 +1,7 @@
+---
+title: Sistema de Partículas
+---
+
 Definimos dos tipos de fuerzas:
 
 - **Fuerzas Internas:** Par de interacción actúa dentro del sistema

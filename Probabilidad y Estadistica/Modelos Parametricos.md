@@ -1,3 +1,7 @@
+---
+title: Modelos Paramétricos
+---
+
 La distribución de $X$ pertenece a una familia de distribuciones $\mathcal F$ que dependen de un parámetro desconocido
 
 Será $\mathcal F$ una familia de distribuciones de probabilidad parametrizada por un subconjunto no vacío $M \in \mathbb{R}^p$ llamado espacio paramétrico.

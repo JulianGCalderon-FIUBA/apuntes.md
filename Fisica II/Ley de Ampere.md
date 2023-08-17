@@ -1,3 +1,7 @@
+---
+title: Ley de Ampere
+---
+
 Falta aún, calcular la circulación de un campo magnético. Ya vimos que el flujo a través de una superficie cerrada es nulo. El campo es solenoidal.
 
 Si plantemos un campo magnético generado por un hilo infinito, entonces llegamos a que la circulación por una curva cerrada está únicamente relacionada con nuestro movimiento en el sentido de las líneas de campo en $\hat \varphi$.

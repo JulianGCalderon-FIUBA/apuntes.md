@@ -1,3 +1,7 @@
+---
+title: Cuádricas
+---
+
 Es una superficie definida de la forma
 
 $$

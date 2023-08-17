@@ -1,3 +1,7 @@
+---
+title: Principles of Congestion Control
+---
+
 ## 1. The Causes and the Costs of Congestion
 
 A medida que la tasa de arribo de paquetes se acerca a la capacidad del medio, entonces se experimentan grandes ***queuing delays***.

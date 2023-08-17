@@ -1,3 +1,7 @@
+---
+title: TCP Congestion Control
+---
+
 El enfoque tomado por ***TCP*** entonces es que cada remitente limite la tasa a la cual envía trafico a través de su conexión en función de la congestión recibida.
 
 Este mecanismo mantiene una variable adicional llamada ***congestion window,*** denotada `cwnd`. La cantidad de datos sin confirmar no debe ser mayor al mínimo entre la ***congestion window y receiver window***.

@@ -1,12 +1,15 @@
+---
+title: Algoritmos II
+---
 - [[Algoritmos II/Memoria|Memoria]]
 - [[Punteros]]
-- [[Analisis de Algoritmos]]
+- [[Analisis de Algoritmos|Análisis de Algoritmos]]
 - [[Algoritmos II/Recursividad|Recursividad]]
 - [[TDA]]
 - [[Pilas, Colas y Listas]]
 - [[Iteradores de Lista]]
-- [[Arboles Generales]]
-- [[Arboles Auto Balanceados]]
+- [[Arboles Generales|Árboles Generales]]
+- [[Arboles Auto Balanceados|Árboles Auto Balanceados]]
 - [[Diccionario y Hash]]
 - [[Grafos]]
 - [[Algoritmos de Grafos]]

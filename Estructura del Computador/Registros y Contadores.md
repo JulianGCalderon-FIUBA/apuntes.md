@@ -1,3 +1,7 @@
+---
+title: Registros y Contadores
+---
+
 Los registros son bloques que permiten almacenar un dato y recuperarlo un tiempo después. Para diseñarlos, utilizamos un Flip-Flop D para cada bit a almacenar
 
 ## Registros de Almacenamiento

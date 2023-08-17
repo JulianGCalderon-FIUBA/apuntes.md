@@ -1,3 +1,7 @@
+---
+title: Heuristícas para el Problema del Viajante
+---
+
 El problema del viajante requiere, por fuerza bruta, verificar $n!$ posibles configuraciones, siendo $n$ la cantidad de ciudades. Para grandes cantidades de ciudades, esto se vuelve insostenible. Debido a esto, se utilizan heurísticas.
 
 ## Heurística del Vecino más Próximo

@@ -1,3 +1,7 @@
+---
+title: Heurísticas para Coloreo de Grafos
+---
+
 Inicialmente, se resuelve el modelo con relajación lineal. Recordemos que la solución obtenida no servirá, ya que siempre encontrará que la solución óptima será la utilización de dos colores. Todos los nodos de los grafos se colorean a la mitad, con ambos colores.
 
 > [!hint] Teorema de Appel-Hanke

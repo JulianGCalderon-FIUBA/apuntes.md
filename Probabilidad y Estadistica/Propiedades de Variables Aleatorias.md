@@ -1,3 +1,7 @@
+---
+title: Propiedades de Variables Aleatorias
+---
+
 ## Suma de Distribuciones Poisson
 
 Sean $X,Y$ dos distribuciones independientes Poisson de parámetro $\mu,\lambda$. Entonces si definimos la variable aleatoria $W = X+Y$. Podremos ver que la distribución de $W$ será una Poisson de parámetro $\mu + \lambda$.

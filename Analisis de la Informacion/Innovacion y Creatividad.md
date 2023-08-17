@@ -1,3 +1,7 @@
+---
+title: Innovacion y Creatividad
+---
+
 ## Brainstorming
 
 Es una herramienta de trabajo grupal que facilita el surgimiento de nuevas ideas sobre un tema. Se busca contrarrestar las conductas que inhiben o bloquean la generación de ideas por medio de la suspensión del juicio o evaluación diferida y liberar la imaginación.

@@ -1,3 +1,7 @@
+---
+title: Punteros
+---
+
 Los punteros son simplemente variables que poseen una dirección de memoria, estas son útiles para modificar la memoria desde cualquier parte del programa. Un vector, por ejemplo, es simplemente un puntero que apunta al primer elemento del arreglo. Nosotros a partir de esta primera posición podemos acceder al resto de elementos.
 
 ```c

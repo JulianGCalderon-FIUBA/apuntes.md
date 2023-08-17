@@ -1,3 +1,7 @@
+---
+title: Ejecucion Directa
+---
+
 Para virtualizar el procesador, el sistema operativo necesita de alguna forma compartir el procesador físico entre múltiples procesos. ***Time sharing*** es una simple idea que soluciona este problema.
 
 Hay algunos desafíos que surgen al tratar de construir esta maquinaria de virtualización. El primero es el **rendimiento**: ¿Como podemos implementar esta virtualización sin agregar excesivos gastos al sistema? El segundo problema es el ***control***: ¿Como podemos correr estos procesos sin perder el control sobre el procesador?

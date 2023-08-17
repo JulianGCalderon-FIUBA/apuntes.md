@@ -1,3 +1,7 @@
+---
+title: The Network Core
+---
+
 En esta sección, se encuentra malla densa de ***packet switches*** y ***links*** que interconecta a los ***end systems*** de internet
 
 ## 1. Packet Switching

@@ -1,3 +1,7 @@
+---
+title: Gradient Boost
+---
+
 Este método no solo sirve para clasificación, sino para regresión
 
 1. Crea una cadena de árboles de profundidad fija.

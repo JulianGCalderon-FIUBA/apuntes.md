@@ -1,3 +1,7 @@
+---
+title: Principles of Network Applications
+---
+
 ## 1. Network Application Architectures
 
 En el centro del desarrollo de aplicaciones de red está la escritura de programas que se ejecutan en distintos end systems y se comunican entre ellos a través de la red.

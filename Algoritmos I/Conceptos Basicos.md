@@ -1,3 +1,7 @@
+---
+title: Conceptos Básicos
+---
+
 ## Buenas Prácticas
 
 El software tiene **4 propiedades:**

@@ -1,3 +1,7 @@
+---
+title: Punto Flotante
+---
+
 Para representar números con valores decimales, la computadora los guarda en memoria con una terna de tres valores $(s, c, q)$ en base binaria
 
 $$

@@ -1,3 +1,7 @@
+---
+title: Inferencia Estadística
+---
+
 Una inferencia consiste en construir un modelo sobre la base de datos experimentales y extraer conclusiones
 
 Definimos **población** como la totalidad de los resultados experimentales

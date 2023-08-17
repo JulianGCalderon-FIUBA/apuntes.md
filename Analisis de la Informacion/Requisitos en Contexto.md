@@ -1,3 +1,7 @@
+---
+title: Requisitos en Contexto
+---
+
 Las técnicas de ingeniería de requisitos dependerán totalmente del contexto de la aplicación a desarrollar.
 
 Las organizaciones usualmente tienen un plan estratégico basado en lo que perciben que busca el mercado. Decide el objetivo y como se va a tratar de alcanzar. Esta estrategia se utilizará para generar ideas y oportunidades. Los clientes serán generadores de nuevas ideas y oportunidades.

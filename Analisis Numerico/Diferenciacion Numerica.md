@@ -1,3 +1,7 @@
+---
+title: Diferenciación Numérica
+---
+
 ## Aproximación por 2 puntos
 
 Son aproximaciones simples que se realizan a partir de utilizar dos puntos de la función original. Se deducen a partir del teorema de Taylor, despejando la derivada primera e ignorando las derivadas siguientes.

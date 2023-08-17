@@ -1,3 +1,7 @@
+---
+title: Routing Among the ISPs BGP
+---
+
 Cuando movemos un paquete con una dirección de envío y destino dentro del mismo **AS**, el camino que este sigue es totalmente determinado por el ***intra-AS routing protocol***. Para moverlo a través de multiples **AS**, necesitamos un ***inter-autonomous system routing protocol***. Todo el internet ejecuta el mismo ***inter-AS routing protocol***, llamado ***Border Gateway Protocol***, también conocido como ***BGP***. Es un protocolo descentralizado y asincrónico que utiliza *distance-vector routing*.
 
 ## 1. The Role of BGP

@@ -1,3 +1,7 @@
+---
+title: Optica Geométrica
+---
+
 La luz son rayos que viajan en línea recta, en medios transparentes. Pueden desviarse.
 
 ## Postulados

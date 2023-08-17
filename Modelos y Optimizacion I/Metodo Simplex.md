@@ -1,3 +1,7 @@
+---
+title: Método Símplex
+---
+
 El **método Símplex**, desarrollado por George Dantzig en 1947, se utiliza para resolver problemas de programación lineal continua, de forma eficiente.
 
 Una vez planteado el problema con las inecuaciones, el modelo deberá transformar las inecuaciones en igualdades utilizando las variables slack.

@@ -1,3 +1,7 @@
+---
+title: Producto Interno
+---
+
 ## Definición
 
 Si $\Bbb V$ es un $\Bbb K$-espacio vectorial, se dice que una función $\langle *,* \rangle: \Bbb V \times \Bbb V \to \Bbb K$ es un producto interno **(P.I.)** si cumple:

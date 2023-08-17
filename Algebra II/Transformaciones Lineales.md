@@ -1,3 +1,7 @@
+---
+title: Transformaciones Lineales
+---
+
 Sean $\Bbb V$ y $\Bbb W$ dos $\Bbb K$ espacios vectoriales, se dice que una función $T: \Bbb V \to \Bbb W$ es una transformación lineal, si cumple:
 
 - $T(u_1 + u_2) = T(u_1) + T(u_2),\quad \forall u_1,u_2 \in \Bbb V$

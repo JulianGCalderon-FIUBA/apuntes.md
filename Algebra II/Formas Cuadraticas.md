@@ -1,3 +1,7 @@
+---
+title: Formas Cuadráticas
+---
+
 ## Definición
 
 Dada una matriz $A \in \mathbb{R}^{n \times n}$ simétrica, una **forma cuadrática** en $\mathbb{R}^n$ es una función $Q: \mathbb{R}^n \to \mathbb{R}$ tal que $Q(x) = x^T Ax$

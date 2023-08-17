@@ -1,3 +1,7 @@
+---
+title: Punto Flotante
+---
+
 Cuando queremos más precisión a la hora de representar números decimales, podemos utilizar el sistema de representación de punto flotante. Utiliza la notación científica para representar números.
 
 $$

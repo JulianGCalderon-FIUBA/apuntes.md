@@ -1,3 +1,7 @@
+---
+title: Magnitudes escalares y vectoriales
+---
+
 ## Producto escalar
 
 $$

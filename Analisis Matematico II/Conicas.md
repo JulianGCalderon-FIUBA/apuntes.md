@@ -1,3 +1,7 @@
+---
+title: Cónicas
+---
+
 ## Circunferencia
 
 La distancia del centro a los bordes de la circunferencia es constante

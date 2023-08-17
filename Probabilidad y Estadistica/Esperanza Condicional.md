@@ -1,3 +1,7 @@
+---
+title: Esperanza Condicional
+---
+
 ## Función de Regresión
 
 Sea $Y | X = x$ una variable aleatoria discreta, entonces definimos su esperanza como

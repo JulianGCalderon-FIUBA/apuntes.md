@@ -1,3 +1,7 @@
+---
+title: Ecuaciones Diferenciales 2
+---
+
 ## Diferencial Exacto
 
 Si la EDO no es de variables separables, entonces puedo tratar de escribir la ecuación de la forma
