@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/index.md",
+                "file": "Organizacion de Datos/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "505df3c08b3f2550",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "To-Do.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/index.md"
+                "file": "To-Do.md"
               }
             }
           },
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/index.md",
+                "file": "To-Do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/index.md",
+                "file": "To-Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,13 +170,27 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "357de9dedd67fdee",
+  "active": "505df3c08b3f2550",
   "lastOpenFiles": [
-    "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
-    "index.md",
-    "To-Do.md",
+    "Organizacion de Datos/Algoritmos Geneticos.md",
+    "Organizacion de Datos/index.md",
+    "Organizacion de Datos/Introduccion.md",
+    "Organizacion de Datos/Valores Atipicos.md",
+    "Organizacion de Datos/Transformacion de Datos.md",
+    "Organizacion de Datos/Reduccion de Dimensionalidad.md",
+    "Organizacion de Datos/Redes de Aprendizaje Profundo.md",
+    "Organizacion de Datos/Modelos Comunes.md",
+    "Organizacion de Datos/Extraccion de Datos.md",
+    "Organizacion de Datos/Entrenamiento y Testing.md",
     "Organizacion de Datos/Ensambles.md",
     "Organizacion de Datos/Clasificacion de Texto.md",
+    "Organizacion de Datos/Ciencia de Datos.md",
+    "Organizacion de Datos/Arboles.md",
+    "Organizacion de Datos/Analisis de Sentimientos.md",
+    "To-Do.md",
+    "Introduccion a Sistemas Distribuidos/index.md",
+    "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
+    "index.md",
     "aa.py",
     "Modelos y Optimizacion I/index.md",
     "Modelos y Optimizacion I/Resolucion de P.L.E..md",
@@ -172,20 +199,6 @@
     "Modelos y Optimizacion I/Introduccion.md",
     "Modelos y Optimizacion I/Heuristicas para el Problema del Viajante.md",
     "Modelos y Optimizacion I/Heuristicas para el Problema de la Mochila.md",
-    "Modelos y Optimizacion I/Heuristicas para Coloreo de Grafos.md",
-    "Modelos y Optimizacion I/Heuristicas.md",
-    "Modelos y Optimizacion I/Complejidad de Programacion Lineal.md",
-    "Modelos y Optimizacion I/Complejidad de Problemas.md",
-    "Modelos y Optimizacion I/Coloreo de Grafos.md",
-    "Modelos y Optimizacion I/Analisis de Sensibilidad.md",
-    "Introduccion a Sistemas Distribuidos/Clases Practicas.md",
-    "Introduccion a Sistemas Distribuidos/index.md",
-    "Matematica Discreta/index.md",
-    "Matematica Discreta/Subconjuntos de Vertices y Aristas.md",
-    "Matematica Discreta/Nociones Basicas de Grafos.md",
-    "Matematica Discreta/Isomorfismos.md",
-    "Matematica Discreta/Induccion.md",
-    "Matematica Discreta/Espectro de un Grafo.md",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 2.png",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 1.png",
     "Álgebra II/Álgebra II.pdf",

@@ -1,5 +1,5 @@
 ---
-title: Transformacion de Datos
+title: Transformación de Datos
 ---
 
 Algunas tareas de estas etapas son:

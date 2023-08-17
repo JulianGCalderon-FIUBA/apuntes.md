@@ -1,5 +1,5 @@
 ---
-title: Algoritmos Geneticos
+title: Algoritmos Genéticos
 ---
 
 Para modelar estos algoritmos, se plantearon las siguientes definiciones:

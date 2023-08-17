@@ -1,5 +1,5 @@
 ---
-title: Reduccion de Dimensionalidad
+title: Reducción de Dimensionalidad
 ---
 
 Visualizamos los datos en una dimensión menor a la que tenemos, preservando características importantes de estas, como distancias o correlaciones.

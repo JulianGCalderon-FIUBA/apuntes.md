@@ -22,7 +22,7 @@ title: Indice
 
 ## 2.º 2022
 
-- [[Organizacion de Datos|Organización de Datos]]
+- [[Organizacion de Datos/index|Organización de Datos]]
 - [[Sistemas Operativos|Sistemas Operativos]]
 
 ## 1.º 2023

@@ -1,5 +1,5 @@
 ---
-title: Extraccion de Datos
+title: Extracción de Datos
 ---
 
 El objetivo de la extracción de información es capturar ciertas partes relevantes de un texto. Muchas veces en el contexto de varios documentos. Luego, generar una representación estructurada y limpia de la información.

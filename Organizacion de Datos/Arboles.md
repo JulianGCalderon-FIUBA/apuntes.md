@@ -1,5 +1,5 @@
 ---
-title: Arboles
+title: Árboles
 ---
 
 ## ID3

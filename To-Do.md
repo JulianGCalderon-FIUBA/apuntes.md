@@ -20,8 +20,6 @@ title: To-Do
 - [ ] Sistemas Operativos
 - [ ] Introducción a Sistemas Distribuidos
 
-test
-
 ## Titulos
 
 - [x] Álgebra II
@@ -35,7 +33,7 @@ test
 - [x] Modelos y Optimización I
 - [x] Análisis Numérico
 - [x] Estructura del Computador
-- [ ] Organización de Datos
+- [x] Organización de Datos
 - [ ] Análisis de la Información
 - [ ] Sistemas Operativos
 - [x] Introducción a Sistemas Distribuidos

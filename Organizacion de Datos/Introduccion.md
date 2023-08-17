@@ -1,5 +1,5 @@
 ---
-title: Introduccion
+title: Introducción
 ---
 
 ## Data Scientist

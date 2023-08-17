@@ -1,5 +1,5 @@
 ---
-title: Valores Atipicos
+title: Valores Atípicos
 ---
 
 > "Un outlier es una observación que se desvía tanto de las otras observaciones como para despertar sospecha que fue generado por un mecanismo diferente"
