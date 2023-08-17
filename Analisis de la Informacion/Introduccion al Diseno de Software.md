@@ -1,5 +1,5 @@
 ---
-title: Introduccion al Diseno de Software
+title: Introducción al Diseño de Software
 ---
 
 El diseño del software es el proceso mediante el cual definimos la arquitectura, los componentes, las interfaces y otras características de un sistema o componente. El diseño del software, también es el resultado del proceso anterior.
@@ -34,21 +34,19 @@ La transición entre los requisitos y el diseño son difíciles.
 
 ## Principios Clásicos del Diseño
 
-A lo largo de la carrera, vimos múltiples principios de clásicos del diseño:
+A lo largo de la carrera, vimos múltiples principios de clásicos del diseño. Los principios clásicos del desarrollo son:
 
 ![[Introduccion al Diseno de Software 2.png|500]]
 
-Principios clásicos del desarrollo
-
 Desarrollar grandes productos no es lo mismo que los pequeños proyectos. Los principios son importantes.
+
+Parar el diseño de objetos, tendremos principios importantes:Principios importantes para el diseño de objetos
 
 ![[Introduccion al Diseno de Software 3.png|500]]
 
-Principios importantes para el diseño de objetos
+Los conocidos principios SOLID:
 
 ![[Introduccion al Diseno de Software 4.png]]
-
-Principios SOLID
 
 ## Arquitectura
 
@@ -58,11 +56,11 @@ Refiere a la estructura de alto nivel de un sistema. Las grandes decisiones resp
 
 Es un modelo que permite visualizar la importancia de la arquitectura. Se plantea que un producto de software se puede ver con diversas vistas, cada una mostrando aspectos particulares:
 
-- Vista Lógica: Aspectos lógicos, la estructura lógica del sistema en subsistemas, submódulos, etc. Refiere a las clases.
-- Vista de Implementación: Como empaquetamos los elementos de la vista lógica en elementos ejecutables
-- Vista de Distribución: Similar a la vista de implementación.
-- Vista de Procesos: Distintos procesos a nivel del sistema operativo.
-- Vista de Escenarios: Junta las cuatro vistas anteriores. El mecanismo para visualizarla es un diagrama de secuencia o de colaboración.
+- **Vista Lógica:** Aspectos lógicos, la estructura lógica del sistema en subsistemas, submódulos, etc. Refiere a las clases.
+- **Vista de Implementación:** Como empaquetamos los elementos de la vista lógica en elementos ejecutables
+- **Vista de Distribución:** Similar a la vista de implementación.
+- **Vista de Procesos:** Distintos procesos a nivel del sistema operativo.
+- **Vista de Escenarios:** Junta las cuatro vistas anteriores. El mecanismo para visualizarla es un diagrama de secuencia o de colaboración.
 
 ### Asignación De Requisitos
 
@@ -98,7 +96,7 @@ Se publica un evento en una cola de eventos. Del otro lado, tendremos componente
 
 ![[Introduccion al Diseno de Software 8.png|500]]
 
-A través de una **API**, se accede a lógica que está en una capa más abajo.
+A través de una API, se accede a lógica que está en una capa más abajo.
 
 ### Arquitectura Corporativa
 
@@ -106,10 +104,10 @@ Son principios y prácticas para guiar a las organizaciones a través de los cam
 
 Es un método estándar para desarrollar arquitecturas corporativas. Se consideran cuatro áreas de especialización:
 
-- Arquitectura de Negocio: Estrategia, organización, procesos clave
-- Arquitectura Aplicativa: Sistemas, interacciones, relaciones con los procesos de negocio
-- Arquitectura de Datos: Diseño lógico y físico de datos
-- Arquitectura Técnica: Infraestructura de software, hardware y redes.
+- **Arquitectura de Negocio:** Estrategia, organización, procesos clave
+- **Arquitectura Aplicativa:** Sistemas, interacciones, relaciones con los procesos de negocio
+- **Arquitectura de Datos:** Diseño lógico y físico de datos
+- **Arquitectura Técnica:** Infraestructura de software, hardware y redes.
 
 Un lenguaje abierto para modelar arquitecturas corporativas, el modelado se realiza en capas:
 
@@ -125,7 +123,7 @@ Es un elemento clave del usuario, es un tema crítico. Si una aplicación es muy
 
 Debemos definir como persistirán los datos. Existen tres niveles de modelado:
 
-- **Conceptual:** Representación de los datos del dominio del problema. Usualmente, es el resultado del análisis. Puede ser un *modelo de dominio*
+- **Conceptual:** Representación de los datos del dominio del problema. Usualmente, es el resultado del análisis. Puede ser un modelo de dominio
 - **Lógico:** Diseño lógico de la base de datos, tablas, columnas, claves primarias, claves foráneas (referencian claves primarias)
 - **Físico:** Implementación de la base de datos, índices, espacios de almacenamiento, seguridad.
 

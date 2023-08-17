@@ -27,7 +27,7 @@ La **experiencia de usuario** es el conjunto de factores y elementos relativos a
 
 ## Interfaz de Usuario
 
-Medio con el que el usuario puede comunicarse con el *software*. Se conecta con el *backend* para proveer la funcionalidad esperada
+Medio con el que el usuario puede comunicarse con el software. Se conecta con el *backend* para proveer la funcionalidad esperada
 
 El flujo comienza en el área de diseño, antes de llegar al área de informática
 
@@ -44,7 +44,7 @@ Tendremos un proceso de 4 etapas dinámicas:
 
 	Libro interesante sobre pruebas de usuario: Rocket Surgery
 
-3. **Desarrollo del Diseño:** Trabajamos con el diseño concreto: temas, iconos, colores. Podremos repetir los *tests* de usuario con el diseño visual.
+3. **Desarrollo del Diseño:** Trabajamos con el diseño concreto: temas, iconos, colores. Podremos repetir las pruebas de usuario con el diseño visual.
 4. **Especificación de los Mockups:** Esta salida le permite a los desarrolladores replicar el diseño en el código.
 
 Este proceso es un proceso iterativo, se repite hasta que finalice el proyecto.

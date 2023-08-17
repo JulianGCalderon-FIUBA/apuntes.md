@@ -20,11 +20,11 @@ La ingeniería de software es una ingeniería de cosas abstractas, trabajamos co
 
 ## Producto Finalizado
 
-Convertir un programa en un producto específico implica **generalización, testing, documentación y mantenimiento**. Si el producto debe interactuar con otros programas para formar un sistema, también es necesario tener en cuenta las **interfaces** y la **integración**. El *software* siempre forma parte de un sistema mayor integrado por otros elementos.
+Convertir un programa en un producto específico implica **generalización, testing, documentación y mantenimiento**. Si el producto debe interactuar con otros programas para formar un sistema, también es necesario tener en cuenta las **interfaces** y la **integración**. El software siempre forma parte de un sistema mayor integrado por otros elementos.
 
 ## Cuerpo de Conocimiento
 
-El cuerpo de conocimiento está compuesto por un conjunto de **áreas de conocimiento.** Una descripción de cada una puede hallarse en el documento **SWEBOK**
+El cuerpo de conocimiento está compuesto por un conjunto de **áreas de conocimiento.** Una descripción de cada una puede hallarse en el documento SWEBOK
 
 ![[Introduccion a la Ingenieria de Software 1.png|500]]
 
@@ -50,11 +50,11 @@ La intensidad de cada disciplina varía según la etapa del proyecto
 
 ## SCRUM
 
-Es un modelo contemporáneo del **Agile Manifesto**, que separa el desarrollo en ciclos:
+Es un modelo contemporáneo del *Agile Manifesto*, que separa el desarrollo en ciclos:
 
-- Visión: A partir de la visión y los requisitos del producto, analizamos lo que buscamos implementar.
-- Product Backlog: Lista de las funcionalidades a implementar
-- Sprint Backlog: Definición de las actividades a llevar a cabo para implementar lo designado para ese *sprint*.
-- Daily meetings: Reuniones diarias a lo largo de 2 a 4 semanas, en las que se discute lo que se busca implementar en el día y el desarrollo general del sprint.
+- **Visión:** A partir de la visión y los requisitos del producto, analizamos lo que buscamos implementar.
+- **Product Backlog:** Lista de las funcionalidades a implementar
+- **Sprint Backlog:** Definición de las actividades a llevar a cabo para implementar lo designado para ese *sprint*.
+- **Daily meetings:** Reuniones diarias a lo largo de 2 a 4 semanas, en las que se discute lo que se busca implementar en el día y el desarrollo general del *sprint*.
 
 Al final de cada *sprint*, tendremos una versión del producto probada y estable, potencialmente entregable. También se realizará una retrospectiva para mejorar en la siguiente iteración. Por último, debemos refinar el *product backlog* para definir si hay que realizar algún cambio.
