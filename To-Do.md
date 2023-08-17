@@ -16,7 +16,7 @@ title: To-Do
 - [x] Análisis Numérico
 - [x] Estructura del Computador
 - [x] Organización de Datos
-- [ ] Análisis de la Información
+- [x] Análisis de la Información
 - [ ] Sistemas Operativos
 - [ ] Introducción a Sistemas Distribuidos
 
@@ -34,6 +34,6 @@ title: To-Do
 - [x] Análisis Numérico
 - [x] Estructura del Computador
 - [x] Organización de Datos
-- [ ] Análisis de la Información
+- [x] Análisis de la Información
 - [ ] Sistemas Operativos
 - [x] Introducción a Sistemas Distribuidos

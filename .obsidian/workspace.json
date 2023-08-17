@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analisis Matematico II/index.md",
+                "file": "To-Do.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analisis Matematico II/index.md"
+                "file": "To-Do.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analisis Matematico II/index.md",
+                "file": "To-Do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analisis Matematico II/index.md",
+                "file": "To-Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,7 @@
   },
   "active": "505df3c08b3f2550",
   "lastOpenFiles": [
+    "Analisis Matematico II/index.md",
     "Analisis de la Informacion/index.md",
     "Analisis de la Informacion/Web Rest API.md",
     "Analisis de la Informacion/Verificar y Validar requerimientos.md",
@@ -197,7 +198,6 @@
     "Analisis de la Informacion/Casos de Uso.md",
     "Analisis de la Informacion/Calidad de Procesos en la Industria del Software.md",
     "Analisis de la Informacion/Arquitectura del Software.md",
-    "index.md",
     "aa.py",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 2.png",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 1.png",
