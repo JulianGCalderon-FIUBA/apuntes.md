@@ -87,19 +87,19 @@ La operación inversa se conoce como `unlink()`, que elimina una referencia a un
 
 ### Symbolic Links
 
-Hay otro tipo de *link* que se conoce como *symbolic link* o ***soft link.*** Este tipo de links es un archivo en si mismo, que tiene referencia al ***hardlink*** del cual se genero. Si se elimina el archivo original, entonces se generan ***dangling references.***
+Hay otro tipo de *link* que se conoce como *symbolic link* o *soft link.* Este tipo de links es un archivo en sí mismo, que tiene referencia al *hardlink* del cual se generó. Si se elimina el archivo original, entonces se generan *dangling references.*
 
 ## Permisos sobre Archivos
 
 ### Bits de Permisos
 
-Los archivos son compartidos entre todos los procesos del sistema, por lo que debe existir una forma de proteger el disco. Para hacer esto, todos los archivos tienen ***permission bits***, que guardan información sobre lo que se puede hacer con los archivos. Por lo general, existe algún tipo de ***superuser*** o ***root*** que puede acceder a todos los archivos, sin importar sus privilegios.
+Los archivos son compartidos entre todos los procesos del sistema, por lo que debe existir una forma de proteger el disco. Para hacer esto, todos los archivos tienen *permission bits,* que guardan información sobre lo que se puede hacer con los archivos. Por lo general, existe algún tipo de *superuser* o *root* que puede acceder a todos los archivos, sin importar sus privilegios.
 
 Los permisos se asignan según tres grupos, cada uno con privilegios distintos sobre el archivo.
 
-- ***Owner**:* Indica los permisos que tiene el dueño del archivo sobre el mismo
-- ***Group**:* Indica los permisos que tienen los que pertenecen a un grupo.
-- ***Other**:* Indica los permisos que tiene cualquier sobre el archivo.
+- **Owner:** Indica los permisos que tiene el dueño del archivo sobre el mismo
+- **Group:** Indica los permisos que tienen los que pertenecen a un grupo.
+- **Other:** Indica los permisos que tiene cualquier sobre el archivo.
 
 Los permisos, a su vez, se separan en tres. La lectura se denota con el carácter 'r', La lectura se denota con el carácter 'r', La lectura se denota con el carácter 'r'. El dueño de un archivo puede cambiar los permisos del mismo (`chdmod`).
 
@@ -111,8 +111,8 @@ Algunos sistemas de archivos incluyen un control más sofisticado sobre los arch
 
 ## Creación y Montaje
 
-Para crear un sistema de archivos, la mayoría de sistemas proveen una herramienta ***mkfs*** (***make filesystem***) que permite esto*.*
+Para crear un sistema de archivos, la mayoría de sistemas proveen una herramienta **MKFS** *(make filesystem)* que permite esto.
 
-Una vez un sistema de archivos es creado, este debe ser montado para acceder a sus contenidos. Para hacer esto, utilizamos la ***syscall*** `mount()`. Esta rutina copia el sistema de archivos al punto de montado. Para poder ser accedidos desde el sistema de archivos padre.
+Una vez un sistema de archivos es creado, este debe ser montado para acceder a sus contenidos. Para hacer esto, utilizamos la *syscall* `mount()`. Esta rutina copia el sistema de archivos al punto de montado. Para poder ser accedidos desde el sistema de archivos padre.
 
-El montaje permite unificar muchos sistemas de archivos bajo un mismo árbol, permitiendo sistemas de archivos anidados. El usuario puede interactuar con estos archivos independientemente de su sistema, utilizando las ***syscalls*** del kernel.
+El montaje permite unificar muchos sistemas de archivos bajo un mismo árbol, permitiendo sistemas de archivos anidados. El usuario puede interactuar con estos archivos independientemente de su sistema, utilizando las *syscalls* del kernel.

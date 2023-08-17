@@ -10,14 +10,14 @@ title: To-Do
 - [x] Física I
 - [x] Física II
 - [x] Análisis Matemático II
-- [x] Probabilidad y Estadistica
+- [x] Probabilidad y Estadística
 - [x] Matemática Discreta
 - [x] Modelos y Optimización I
 - [x] Análisis Numérico
 - [x] Estructura del Computador
 - [x] Organización de Datos
 - [x] Análisis de la Información
-- [ ] Sistemas Operativos
+- [ ] Sistemas Operativos (bugs de concurrencia)
 - [ ] Introducción a Sistemas Distribuidos
 
 ## Titulos
@@ -28,7 +28,7 @@ title: To-Do
 - [x] Física I
 - [x] Física II
 - [x] Análisis Matemático II
-- [x] Probabilidad y Estadistica
+- [x] Probabilidad y Estadística
 - [x] Matemática Discreta
 - [x] Modelos y Optimización I
 - [x] Análisis Numérico
