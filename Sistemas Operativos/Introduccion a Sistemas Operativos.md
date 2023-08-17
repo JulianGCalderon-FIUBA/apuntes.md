@@ -1,5 +1,5 @@
 ---
-title: Introduccion a Sistemas Operativos
+title: Introducción a Sistemas Operativos
 ---
 
 Existe un software, responsable de hacer que los programas sean fáciles de ejecutarse, permitiendo que estos intercambien memoria e interactúen con dispositivos, entre otras cosas. Este software es conocido como ***Sistema Operativo***. En esta materia, nos vamos a centrar en ***como*** lo hace.

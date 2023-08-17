@@ -4,27 +4,27 @@ title: API de Memoria
 
 Cuando corremos un programa en C, hay dos tipos de memoria que reservamos. La primera es llamada **stack**, esta memoria se maneja automáticamente por el compilador, al utilizar variables y llamar a funciones. A veces es llamada memoria **automática.**
 
-Esta memoria no tiene larga duración, sólo dura durante el contexto en el que fue declarada. Muchas veces necesitamos memoria que viva más allá de este contexto, en estas situaciones necesitamos el segundo tipo de memoria, el **heap.**
+Esta memoria no tiene larga duración, solo dura durante el contexto en el que fue declarada. Muchas veces necesitamos memoria que viva más allá de este contexto, en estas situaciones necesitamos el segundo tipo de memoria, el **heap.**
 
-Las asignaciones y des asignaciones de memoria en esta parte se realizan de forma automática, nosotros como programadores debemos reservar y liberar esta memoria cuando sea necesario. Esta memoria nos permite utilizar una variable afuera del ambiente en el que fue declarada, lo cual muchas veces es totalmente necesario.
+Las asignaciones y desasignaciones de memoria en esta parte se realizan de forma automática, nosotros como programadores debemos reservar y liberar esta memoria cuando sea necesario. Esta memoria nos permite utilizar una variable afuera del ambiente en el que fue declarada, lo cual muchas veces es totalmente necesario.
 
-Esta memoria suele tener más capacidad que el stack, por lo que para estructuras grandes y de tamaño indefinido, debemos utilizar el *stack*.
+Esta memoria suele tener más capacidad que el stack, por lo que para estructuras grandes y de tamaño indefinido, debemos utilizar el stack.
 
-## malloc()
+## `malloc()`
 
 Es una función de la biblioteca estándar que nos reserva memoria del tamaño requerido, y nos devuelve un puntero a esta posición. Para reservar la memoria que necesitamos, utilizamos el operador `sizeof`, que resuelve los tamaños en tiempo de compilación. Muchas veces. no reserva exactamente la memoria que pedís, sino que un poco más.
 
-## free()
+## `free()`
 
-Junto con *malloc*, tendremos **free**. Estas dos funciones están fuertemente conectadas, la memoria reservará por *malloc* debe ser liberada por *free*. Estas dos funciones utilizan las mismas estructuras para poder comunicarse entre si y liberar correctamente la memoria.
+Junto con `malloc`, tendremos `free`. Estas dos funciones están fuertemente conectadas, la memoria reservará por `malloc` debe ser liberada por `free`. Estas dos funciones utilizan las mismas estructuras para poder comunicarse entre sí y liberar correctamente la memoria.
 
-Esta función sólo funciona correctamente si le pasamos punteros a memoria previamente reservada por *malloc*, como indican las *man pages*.
+Esta función solo funciona correctamente si le pasamos punteros a memoria previamente reservada por `malloc`, como indican las *man pages*.
 
-## garbage collector
+## Garbage Collector
 
 En lenguajes de programación modernos, tendremos mecanismos que se encargaran de manejar la memoria dinámica de forma simple, sin que nosotros nos tengamos que preocupar por la misma.
 
-## uninitialized read
+## ninitialized read
 
 Cuando reservamos memoria, no se inicializa con algún valor, por lo que decimos que se inicializa con **basura**. Información que no tiene ningún valor significativo para nosotros, si no que son residuos de otro proceso del sistema operativo.
 
@@ -44,6 +44,6 @@ Muchas veces nos confundimos y liberamos dos veces el mismo puntero, esto puede 
 
 Estas funciones mencionadas pertenecen a la biblioteca estándar de C, pero se construyen a partir de system calls
 
-Una de ellas es **brk**, la cual se utiliza para aumentar el tamaño del heap de nuestro programa.
+Una de ellas es `brk`, la cual se utiliza para aumentar el tamaño del heap de nuestro programa.
 
-Otra system call útil es **mmap**, se puede utilizar para reservar una región de memoria anónima dentro de tu programa.
+Otra system call útil es `mmap`, se puede utilizar para reservar una región de memoria anónima dentro de tu programa.

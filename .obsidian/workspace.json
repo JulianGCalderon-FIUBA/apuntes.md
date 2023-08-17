@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analisis de la Informacion/Historias de Usuario.md",
+                "file": "Sistemas Operativos/API de Memoria.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analisis de la Informacion/Historias de Usuario.md"
+                "file": "Sistemas Operativos/API de Memoria.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analisis de la Informacion/Historias de Usuario.md",
+                "file": "Sistemas Operativos/API de Memoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analisis de la Informacion/Historias de Usuario.md",
+                "file": "Sistemas Operativos/API de Memoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,14 +178,19 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "505df3c08b3f2550",
   "lastOpenFiles": [
+    "Sistemas Operativos/API de Threads.md",
+    "Sistemas Operativos/API de Memoria.md",
+    "Sistemas Operativos/Introduccion a Sistemas Operativos.md",
+    "index.md",
+    "To-Do.md",
+    "Sistemas Operativos/index.md",
+    "Analisis de la Informacion/Historias de Usuario.md",
     "Organizacion de Datos/index.md",
     "Analisis de la Informacion/Casos de Uso.md",
     "Matematica Discreta/Algebra de Conjuntos.md",
     "Modelos y Optimizacion I/Metodo Simplex.md",
-    "To-Do.md",
-    "index.md",
     "Estructura del Computador/Circuitos Asincronicos.md",
     "Estructura del Computador/Circuitos Sincronicos.md",
     "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
@@ -204,11 +209,6 @@
     "Analisis de la Informacion/Tecnicas de Descubrimiento de Requisitos.md",
     "Analisis de la Informacion/Tecnicas de Analisis, Modelado y Especificacion.md",
     "Analisis de la Informacion/Taller de Analisis de Interesados.md",
-    "Analisis de la Informacion/Requisitos en Contexto.md",
-    "Analisis de la Informacion/Requirement Specification vs. User Stories.md",
-    "Analisis de la Informacion/PSA.md",
-    "Analisis de la Informacion/Prototipado y Experiencia de Usuario.md",
-    "Analisis de la Informacion/Modelos en la ingenieria de Software.md",
     "aa.py",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 2.png",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 1.png",
