@@ -23,8 +23,12 @@
             "id": "505df3c08b3f2550",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Estructura del Computador/Circuitos Asincronicos.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -93,7 +97,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Estructura del Computador/Circuitos Asincronicos.md"
+              }
             }
           },
           {
@@ -102,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Estructura del Computador/Circuitos Asincronicos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,6 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Estructura del Computador/Circuitos Asincronicos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
