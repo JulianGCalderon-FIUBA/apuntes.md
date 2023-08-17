@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do.md",
+                "file": "Sistemas Operativos/Introduccion a Paginacion.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Do.md"
+                "file": "Sistemas Operativos/Introduccion a Paginacion.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do.md",
+                "file": "Sistemas Operativos/Introduccion a Paginacion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Do.md",
+                "file": "Sistemas Operativos/Introduccion a Paginacion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,34 +157,35 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "6060b098ee9aa43c",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
-    "Organización de Datos/Organización de Datos.md",
-    "Organización de Datos/Algoritmos Genéticos.md",
-    "Organización de Datos/Redes Recurrentes.md",
-    "Organización de Datos/Tensor Flow.md",
-    "Organización de Datos/Redes de Aprendizaje Profundo.md",
-    "Organización de Datos/Extracción de Datos.md",
-    "Organización de Datos/Análisis de Sentimientos.md",
-    "Organización de Datos/Clasificación de Texto.md",
-    "Organización de Datos/Redes Neuronales.md",
-    "Organización de Datos/Ensambles.md",
-    "Organización de Datos/XGBoost.md",
-    "Organización de Datos/Gradient Boost.md",
-    "Organización de Datos/AdaBoost.md",
-    "Organización de Datos/Support Vector Machines.md",
-    "Organización de Datos/K-nearest Neighbours.md",
-    "Organización de Datos/Reducción de Dimensionalidad.md",
-    "Organización de Datos/Árboles.md",
-    "Organización de Datos/Modelos Comunes.md",
-    "Organización de Datos/Introducción.md",
-    "Organización de Datos/Valores Atípicos.md",
-    "Organización de Datos/Entrenamiento y Testing.md",
-    "Organización de Datos/Transformación de Datos.md",
-    "Organización de Datos/Ciencia de Datos.md",
-    "To-Do.md",
-    "Estructura del Computador/Sistemas de Numeración.md",
-    "Estructura del Computador/Sistema ARC.md",
+    "index.md",
+    "Matematica Discreta/Subconjuntos de Vertices y Aristas.md",
+    "Fisica I/Optica Geometrica.md",
+    "Analisis de la Informacion/Introduccion a la Ingenieria de Software.md",
+    "Algebra II/Sistemas de E.D. Homogeneas.md",
+    "Analisis Matematico II/Analisis Matematico II.md",
+    "aa.py",
+    "Sistemas Operativos/Very Simple File System.md",
+    "Sistemas Operativos/Translation Lookaside Buffers.md",
+    "Sistemas Operativos/Traducción de Direcciones.md",
+    "Sistemas Operativos/Segmentacion.md",
+    "Sistemas Operativos/Planificacion.md",
+    "Sistemas Operativos/Paginacion Avanzada.md",
+    "Sistemas Operativos/Los procesos.md",
+    "Sistemas Operativos/Introduccion a Sistemas Operativos.md",
+    "Sistemas Operativos/Introduccion a Paginacion.md",
+    "Sistemas Operativos/Ejecucion Directa.md",
+    "Sistemas Operativos/API de Memoria.md",
+    "Organizacion de Datos/Reduccion de Dimensionalidad.md",
+    "Organizacion de Datos/Clasificación de Texto.md",
+    "Organizacion de Datos/Algoritmos Geneticos.md",
+    "Probabilidad y Estadistica/Test de Hipotesis.md",
+    "Probabilidad y Estadistica/Teoremas Utiles.md",
+    "Probabilidad y Estadistica/Teorema Central del Limite.md",
+    "Probabilidad y Estadistica/Técnicas de Conteo.md",
+    "Probabilidad y Estadistica/Simulacion.md",
+    "Probabilidad y Estadistica/Modelos Parametricos.md",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
@@ -192,15 +193,15 @@
     "Indice.pdf",
     "Indice.tex",
     "Untitled.canvas",
-    "Análisis de la Información/Attachments/Casos de Uso 1.png",
+    "Analisis de la Informacion/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",
-    "Física II/Attachments/Potencia Activa y Reactiva 2.svg",
-    "Física II/Attachments/Potencia Activa y Reactiva 1.svg",
+    "Fisica II/Attachments/Potencia Activa y Reactiva 2.svg",
+    "Fisica II/Attachments/Potencia Activa y Reactiva 1.svg",
     "Física II/Attachments/Final 1.png",
-    "Matemática Discreta/Attachments/Algoritmos 1.png",
+    "Matematica Discreta/Attachments/Algoritmos 1.png",
     "Algoritmos I/Attachments/Recursividad 1.png",
-    "Análisis de la Información/Attachments/Casos de Uso 3.png",
-    "Introducción a Sistemas Distribuidos/Attachments/Cellular Internet Access 2.png",
+    "Analisis de la Informacion/Attachments/Casos de Uso 3.png",
+    "Introduccion a Sistemas Distribuidos/Attachments/Cellular Internet Access 2.png",
     "Física II/Attachments/Tercer Parcial 1.svg",
     "Base de Datos",
     "Algoritmos II/Attachments/Machete - AAB.pdf"

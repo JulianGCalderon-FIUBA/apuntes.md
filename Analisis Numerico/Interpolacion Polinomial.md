@@ -12,4 +12,4 @@ La interpolación polinomial consiste en que dicha función sea un polinomio, de
 
 - [[Polinomio de Lagrange y Newton]]
 - [[Polinomio de Hermite]]
-- [[Trazador Cúbico - Spline]]
+- [[Trazador Cubico - Spline]]

@@ -10,6 +10,6 @@ $$
 
 ## Métodos de Búsqueda
 
-- [[Bisección]]
-- [[Iteración en un Punto Fijo]]
+- [[Biseccion]]
+- [[Iteracion en un Punto Fijo]]
 - [[Newton-Raphson]]

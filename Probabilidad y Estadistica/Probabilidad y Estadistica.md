@@ -7,7 +7,7 @@
 
 ## Capítulo 2
 
-- [[Simulación]]
+- [[Simulacion]]
 - [[Variables Aleatorias]]
 - [[Vectores Aleatorios]]
 - [[Propiedades de V.A.]]
@@ -41,22 +41,22 @@
 
 ## Capitulo 8
 
-- [[Distribución Normal]]
-- [[Teoremas Útiles]]
-- [[Teorema Central del Límite]]
+- [[Distribucion Normal]]
+- [[Teoremas Utiles]]
+- [[Teorema Central del Limite]]
 
 ## Capitulo 9
 
-- [[Inferencia Estadística]]
-- [[Modelos Paramétricos]]
-- [[Estadísticos]]
+- [[Inferencia Estadistica]]
+- [[Modelos Parametricos]]
+- [[Estadisticos]]
 - [[Estimadores]]
 - [[Distribuciones Importantes]]
 
 ## Capitulo 10
 
-- [[Hipótesis Estadística]]
-- [[Test de Hipótesis]]
+- [[Hipotesis Estadistica]]
+- [[Test de Hipotesis]]
 
 ## Capitulo 11
 
@@ -64,7 +64,7 @@
 
 ## Capitulo 12
 
-- [[Estimación Bayesiana]]
+- [[Estimacion Bayesiana]]
 
 ## Capítulo 1
 

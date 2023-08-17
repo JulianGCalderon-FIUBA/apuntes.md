@@ -1,4 +1,4 @@
-- [[Conceptos Básicos]]
+- [[Conceptos Basicos]]
 - [[Bibliotecas Personales]]
 - [[Algoritmos I/Recursividad|Recursividad]]
 - [[Operaciones con Arreglos]]

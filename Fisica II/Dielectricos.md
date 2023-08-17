@@ -107,7 +107,7 @@ La permitividad indica el cambio en el campo eléctrico dentro del dieléctrico,
 
 ### ¿Hay alguna relación entre los campos eléctricos?
 
-Ya que los medios materiales con los que trabajamos en Física II son [[Materiales Magnéticos#Materiales LIH|LIH]] Podemos obtener la siguiente relación.
+Ya que los medios materiales con los que trabajamos en Física II son [[Materiales Magneticos#Materiales LIH|LIH]] Podemos obtener la siguiente relación.
 
 $$
 \vec D = \varepsilon \cdot \vec E \quad\quad\quad\varepsilon = \varepsilon_0 \cdot \varepsilon_r

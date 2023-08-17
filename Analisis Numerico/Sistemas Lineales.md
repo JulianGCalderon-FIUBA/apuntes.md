@@ -6,8 +6,8 @@ Estos métodos se basan en la factorización de la matriz $A$ para convertir el 
 
 Tendremos dos métodos principales:
 
-- [[Descomposición LU]]
-- [[Descomposición de Cholesky]]
+- [[Descomposicion LU]]
+- [[Descomposicion de Cholesky]]
 
 ## Métodos Iterativos
 
@@ -22,5 +22,5 @@ La velocidad a la que convergen estos métodos depende de la estructura de la ma
 
 Tendremos dos métodos principales:
 
-- [[Métodos Iterativos]]
+- [[Metodos Iterativos]]
 - [[Refinamiento Iterativo]]

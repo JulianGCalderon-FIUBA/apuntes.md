@@ -1,23 +1,23 @@
 ## Álgebra de Conjuntos
 
-- [[Álgebra de Conjuntos]]
-- [[Matemática Discreta/Álgebra de Boole|Álgebra de Boole]]
+- [[Algebra de Conjuntos]]
+- [[Matematica Discreta/Algebra de Boole|Algebra de Boole]]
 - [[Relaciones]]
 - [[Alfabeto]]
 
 ## Inducción y Recurrencia
 
-- [[Inducción]]
+- [[Induccion]]
 - [[Ecuaciones de Recurrencia]]
 
 ## Grafos
 
-- [[Nociones Básicas de Grafos]]
+- [[Nociones Basicas de Grafos]]
 - [[Grafos Particulares]]
 - [[Caminos y Distancias]]
 - [[Isomorfismos]]
 - [[Operaciones entre Grafos]]
-- [[Subconjuntos de Vértices y Aristas]]
+- [[Subconjuntos de Vertices y Aristas]]
 - [[Clasificaciones]]
 - [[Grafos Orientados]]
 - [[Espectro de un Grafo]]
