@@ -25,10 +25,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelos y Optimizacion I/Metodo Simplex.md",
+                "file": "Matematica Discreta/Algebra de Conjuntos.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "5fef68238c2c7cfd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -61,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "array",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -78,7 +86,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modelos y Optimizacion I/Metodo Simplex.md"
+                "file": "Matematica Discreta/Algebra de Conjuntos.md"
               }
             }
           },
@@ -108,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelos y Optimizacion I/Metodo Simplex.md",
+                "file": "Matematica Discreta/Algebra de Conjuntos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modelos y Optimizacion I/Metodo Simplex.md",
+                "file": "Matematica Discreta/Algebra de Conjuntos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +181,7 @@
   },
   "active": "505df3c08b3f2550",
   "lastOpenFiles": [
+    "Modelos y Optimizacion I/Metodo Simplex.md",
     "To-Do.md",
     "index.md",
     "Estructura del Computador/Circuitos Asincronicos.md",
@@ -200,7 +210,6 @@
     "Analisis de la Informacion/Modelos en la ingenieria de Software.md",
     "Analisis de la Informacion/Modelados de Dominio.md",
     "Analisis de la Informacion/Introduccion al Diseno de Software.md",
-    "Analisis de la Informacion/Introduccion a la Ingenieria de Software.md",
     "aa.py",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 2.png",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 1.png",
