@@ -83,7 +83,7 @@ Finalmente, tiene un numero de campos de control, los mas importantes son:
 
 ## 4. Mobility in the Same IP Subnet
 
-Para incrementar el rango físico de una red inalámbrica, a veces se despliegan multiples ***BBS*** a través de multiples estaciones. Los dispositivos mobiles muchas veces se mueven a través de multiples ***BBS***. ¿Como hacen para mantener una conexión ***TCP*** durante estos cambios de red?
+Para incrementar el rango físico de una red inalámbrica, a veces se despliegan multiples ***BBS*** a través de multiples estaciones. Los dispositivos mobiles muchas veces se mueven a través de multiples ***BBS***. ¿Cómo hacen para mantener una conexión ***TCP*** durante estos cambios de red?
 
 Como las distintas ***BBS*** pertenecen a la misma subred, entonces el dispositivo puede mantener su dirección **IP** a través de las distintas estaciones.
 

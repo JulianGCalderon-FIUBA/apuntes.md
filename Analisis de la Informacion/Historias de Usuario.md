@@ -66,7 +66,7 @@ Marco de referencia que propone 13 atributos de calidad:
 
 Este criterio considera opcional el *¿por qué?*, aunque nosotros lo consideramos necesario.
 
-## ¿Como encontrarlas?
+## ¿Cómo encontrarlas?
 
 Primero debemos entender cuáles son los límites del sistema que estamos analizando y quienes lo utilizan. Luego, para cada usuario, debemos identificar sus objetivos y la funcionalidad esperada del sistema. Los objetivos pueden incluir una jerarquía de los objetivos. Al final de la jerarquía, podemos encontrar historias de usuario para cada subobjetivo.
 

@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "¿Com",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -86,8 +86,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -179,7 +178,7 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "505df3c08b3f2550",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
     "Analisis de la Informacion/Casos de Uso.md",
     "Matematica Discreta/Algebra de Conjuntos.md",
