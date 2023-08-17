@@ -25,7 +25,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do.md",
+                "file": "Analisis Matematico II/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0163705b97bde9d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analisis Matematico II/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f79c4fa0b90d49b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analisis Matematico II/Metodos de Resolucion.md",
                 "mode": "source",
                 "source": false
               }
@@ -40,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Do.md"
+                "file": "Analisis Matematico II/Metodos de Resolucion.md"
               }
             }
           },
@@ -116,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do.md",
+                "file": "Analisis Matematico II/Metodos de Resolucion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Do.md",
+                "file": "Analisis Matematico II/Metodos de Resolucion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,15 +202,18 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "505df3c08b3f2550",
+  "active": "f79c4fa0b90d49b8",
   "lastOpenFiles": [
+    "Analisis Matematico II/index.md",
+    "Analisis Matematico II/Metodos de Resolucion.md",
+    "Analisis Matematico II/Limites.md",
+    "To-Do.md",
     "Sistemas Operativos/Bugs de Concurrencia.md",
     "Sistemas Operativos/Archivos y Directorios.md",
     "Sistemas Operativos/API de Threads.md",
     "Sistemas Operativos/API de Memoria.md",
     "Sistemas Operativos/Introduccion a Sistemas Operativos.md",
     "index.md",
-    "To-Do.md",
     "Sistemas Operativos/index.md",
     "Analisis de la Informacion/Historias de Usuario.md",
     "Organizacion de Datos/index.md",
@@ -204,11 +231,8 @@
     "Estructura del Computador/Circuitos Asincronicos.html",
     "Sistemas Operativos/Traduccion de Direcciones.md",
     "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",
-    "Analisis Matematico II/index.md",
     "Analisis de la Informacion/index.md",
     "Analisis de la Informacion/Web Rest API.md",
-    "Analisis de la Informacion/Verificar y Validar requerimientos.md",
-    "Analisis de la Informacion/Tecnicas de Descubrimiento de Requisitos.md",
     "aa.py",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 2.png",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 1.png",
