@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estructura del Computador/Circuitos Asincronicos.md",
+                "file": "To-Do.md",
                 "mode": "preview",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estructura del Computador/Circuitos Asincronicos.md"
+                "file": "To-Do.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estructura del Computador/Circuitos Asincronicos.md",
+                "file": "To-Do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estructura del Computador/Circuitos Asincronicos.md",
+                "file": "To-Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,7 @@
   },
   "active": "505df3c08b3f2550",
   "lastOpenFiles": [
+    "Estructura del Computador/Circuitos Asincronicos.md",
     "Estructura del Computador/Circuitos Asincronicos.html",
     "Estructura del Computador/Circuitos Sincronicos.md",
     "Organizacion de Datos/index.md",
