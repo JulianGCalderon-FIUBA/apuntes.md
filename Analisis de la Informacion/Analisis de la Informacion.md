@@ -18,7 +18,7 @@
 - [[Gherkin]]
 - [[Innovacion y Creatividad]]
 - [[Requisitos en Contexto]]
-- [[Introduccion al Diseño de Software]]
+- [[Introduccion al Diseno de Software]]
 - [[Requirement Specification vs User Stories]]
 - [[Interfaces de Usuario]]
 - [[Diseño de Datos]]

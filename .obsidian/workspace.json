@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas Operativos/Introduccion a Paginacion.md",
+                "file": "Analisis de la Informacion/Introduccion al Diseno de Software.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operativos/Introduccion a Paginacion.md"
+                "file": "Analisis de la Informacion/Introduccion al Diseno de Software.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operativos/Introduccion a Paginacion.md",
+                "file": "Analisis de la Informacion/Introduccion al Diseno de Software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operativos/Introduccion a Paginacion.md",
+                "file": "Analisis de la Informacion/Introduccion al Diseno de Software.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,8 +157,9 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "8c1036a0b0a45e3e",
+  "active": "6060b098ee9aa43c",
   "lastOpenFiles": [
+    "Sistemas Operativos/Introduccion a Paginacion.md",
     "index.md",
     "Matematica Discreta/Subconjuntos de Vertices y Aristas.md",
     "Fisica I/Optica Geometrica.md",
@@ -174,7 +175,6 @@
     "Sistemas Operativos/Paginacion Avanzada.md",
     "Sistemas Operativos/Los procesos.md",
     "Sistemas Operativos/Introduccion a Sistemas Operativos.md",
-    "Sistemas Operativos/Introduccion a Paginacion.md",
     "Sistemas Operativos/Ejecucion Directa.md",
     "Sistemas Operativos/API de Memoria.md",
     "Organizacion de Datos/Reduccion de Dimensionalidad.md",
