@@ -18,7 +18,7 @@ Para analizar el comportamiento de la función, debo realizar un diagrama de tie
 
 Otra forma de analizar un circuito con memoria es a partir de un diagrama de estados, es como una tabla de verdad, pero depende de las variables de salida.
 
-![[Circuitos Asincronicos 4.png]] ![[Circuitos Asincronicos 5.png]]
+![[Circuitos Asincronicos 4.png|197]] ![[Circuitos Asincronicos 5.png]]
 
 ### Ecuación Característica
 
@@ -38,13 +38,13 @@ Es un diagrama que representa las transiciones entre los estados de salida de un
 
 $Q$ vale lo mismo que la entrada $D$. A primera vista no es útil, hace falta una modificación para que la memoria tenga algún efecto en el circuito.
 
-![[Circuitos Asincronicos 7.png|475]] ![[Circuitos Asincronicos 8.png]]
+![[Circuitos Asincronicos 7.png|325]] ![[Circuitos Asincronicos 8.png]]
 
 ### Flip Flop JK
 
 Similar al circuito $RS$, pero resuelve la problemática de $R{=}S{=}1$.
 
-![[Circuitos Asincronicos 9.png|300]] ![[Circuitos Asincronicos 10.png]]
+![[Circuitos Asincronicos 9.png|275]] ![[Circuitos Asincronicos 10.png|207]]
 
 Si $J{=}K{=}1$, Entonces $Q$ varía con una frecuencia determinada por las compuertas y el retardo de la retroalimentación. Es difícil determinar el valor de la frecuencia
 
@@ -52,4 +52,4 @@ Si $J{=}K{=}1$, Entonces $Q$ varía con una frecuencia determinada por las compu
 
 La letra $T$ viene del término del inglés *"Toggle".* Es una simplificación del Flip Flop $JK$, Si $T{=}1$, entonces es lo mismo que $J{=}K{=}1$.
 
-![[Circuitos Asincronicos 11.png]] ![[Circuitos Asincronicos 12.png]]
+![[Circuitos Asincronicos 11.png|183]] ![[Circuitos Asincronicos 12.png|196]]
