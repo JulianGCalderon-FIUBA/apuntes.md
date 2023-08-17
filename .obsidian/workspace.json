@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematica Discreta/Algebra de Conjuntos.md",
+                "file": "Sistemas Operativos/Ejecucion Directa.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "array",
+                "query": "¿Com",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matematica Discreta/Algebra de Conjuntos.md"
+                "file": "Sistemas Operativos/Ejecucion Directa.md"
               }
             }
           },
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematica Discreta/Algebra de Conjuntos.md",
+                "file": "Sistemas Operativos/Ejecucion Directa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matematica Discreta/Algebra de Conjuntos.md",
+                "file": "Sistemas Operativos/Ejecucion Directa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,6 +181,8 @@
   },
   "active": "505df3c08b3f2550",
   "lastOpenFiles": [
+    "Analisis de la Informacion/Casos de Uso.md",
+    "Matematica Discreta/Algebra de Conjuntos.md",
     "Modelos y Optimizacion I/Metodo Simplex.md",
     "To-Do.md",
     "index.md",
@@ -208,8 +210,6 @@
     "Analisis de la Informacion/PSA.md",
     "Analisis de la Informacion/Prototipado y Experiencia de Usuario.md",
     "Analisis de la Informacion/Modelos en la ingenieria de Software.md",
-    "Analisis de la Informacion/Modelados de Dominio.md",
-    "Analisis de la Informacion/Introduccion al Diseno de Software.md",
     "aa.py",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 2.png",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 1.png",
