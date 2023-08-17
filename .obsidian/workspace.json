@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "<ac",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -86,8 +86,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -179,7 +178,7 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "178700d707526f5b",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
     "Organizacion de Datos/index.md",
     "Analisis de la Informacion/Casos de Uso.md",
