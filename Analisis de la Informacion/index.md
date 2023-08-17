@@ -11,7 +11,7 @@ title: Análisis de la Información
 - [[Taller de Analisis de Interesados]]
 - [[Web Rest API]]
 - [[Tecnicas de Analisis, Modelado y Especificacion]]
-- [[Historias de Dominio]]
+- [[Historias de Dominio|Historias de Dominio]]
 - [[Modelados de Dominio]]
 - [[PSA]]
 - [[Historias de Usuario]]

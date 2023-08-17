@@ -5,7 +5,7 @@ title: Historias de Usuario
 Una historia de usuario es una descripción de la funcionalidad esperada de un sistema, expresada desde el punto de vista del usuario:
 
 > [!note]
-> El formato más aceptado es el denominado quién-qué-porque: Como \<actor> , quiero poder \<función> , de modo que/para así \<razón>
+> El formato más aceptado es el denominado quién-qué-porque: Como *\<actor> ,* quiero poder *\<función> ,* de modo que/para así *\<razón> *
 
 No son requisitos en el sentido tradicional, sino que constituyen un recordatorio de que se debe mantener una conversación respecto al tema en cuestión.
 
@@ -20,7 +20,7 @@ Se separa en tres elementos
 - **Confirmation:** Se deben definir criterios de aceptación para garantizar que se han cubierto todos los aspectos de la historia.
 
 > [!note]
-> El formato para los criterios de aceptación puede ser: Dato que soy \<actor> , Cuando \<acción> entonces \<resultado>
+> El formato para los criterios de aceptación puede ser: Dato que soy *\<actor> ,* Cuando *\<acción> * entonces *\<resultado> *
 
 ### Epopeya
 
@@ -84,7 +84,7 @@ Técnica de planificación que tiene como propósito alinear los equipos de trab
 
 ### Proceso de Desarrollo
 
-En el proceso de desarrollo, asignaremos historias de usuario a los distintos **releases** del proyecto
+En el proceso de desarrollo, asignaremos historias de usuario a los distintos *releases* del proyecto
 
 ![[Historias de Usuario 4.png|500]]
 
@@ -98,7 +98,7 @@ En **SCRUM**, las historias de usuario se almacenan en el *product backlog* y so
 
 Es un sistema de planificación y organización del trabajo. Su objetivo es ayudar a darle visibilidad al trabajo y limitar el trabajo en simultáneo, mejorando el flujo de trabajo.
 
-Tendremos una tarjeta por cada historia de usuario y por cada defecto encontrado en el *software*. Las historias de usuario se moverán por el tablero para indicar el estado de las mismas.
+Tendremos una tarjeta por cada historia de usuario y por cada defecto encontrado en el software. Las historias de usuario se moverán por el tablero para indicar el estado de las mismas.
 
 ![[Historias de Usuario 6.png|450]]
 
@@ -106,10 +106,10 @@ Tendremos una tarjeta por cada historia de usuario y por cada defecto encontrado
 
 Propuestos por Alistar Cockurn. Separan los objetivos en cuatro niveles:
 
-- **Cloud level:** High summary level. Objetivos de negocio, son aquellos que llevan el negocio a la dirección requerida
-- **Kite level:** Sumary level. Objetivos alcanzados por procesos de punta a punta dentro de los sistemas. Pueden tomar icho tiempo en ser alcanzados
-- **Sea level:** User goal level. Pueden ser realizados por una sola persona, contribuyen a la entrega de un objetivo completo
-- **Fish level:** Sub goal level. No son objetivos en sí, sino que se utilizan para completar los objetivos y separarlos.
+- **Cloud level - High summary level:** Objetivos de negocio, son aquellos que llevan el negocio a la dirección requerida
+- **Kite level - Sumary level:** Objetivos alcanzados por procesos de punta a punta dentro de los sistemas. Pueden tomar icho tiempo en ser alcanzados
+- **Sea level - User goal level:** Pueden ser realizados por una sola persona, contribuyen a la entrega de un objetivo completo
+- **Fish level - Sub goal level:** No son objetivos en sí, sino que se utilizan para completar los objetivos y separarlos.
 
 ## Criterios de Aceptación
 
