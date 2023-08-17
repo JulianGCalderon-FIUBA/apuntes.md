@@ -1,5 +1,6 @@
 ---
 title: Historias de Dominio
+alias: Domain
 ---
 
 También conocido como: **Domain Story Telling**
@@ -18,7 +19,7 @@ Los actores realizan actividades mediante flechas etiquetadas con verbos y tomad
 
 ## Recomendaciones/Comentarios
 
-- Mantener el formato *sujeto - predicado - objeto*
+- Mantener el formato: *sujeto - predicado - objeto*
 - No hay condicionales, debemos modelar más de un escenario en ese caso
 - No representan un flujo de actividades
 - No representan diálogos (estímulo respuesta)

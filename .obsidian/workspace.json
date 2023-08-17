@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analisis de la Informacion/Design Thinking.md",
+                "file": "Analisis de la Informacion/Historias de Dominio.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analisis de la Informacion/Design Thinking.md"
+                "file": "Analisis de la Informacion/Historias de Dominio.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analisis de la Informacion/Design Thinking.md",
+                "file": "Analisis de la Informacion/Historias de Dominio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analisis de la Informacion/Design Thinking.md",
+                "file": "Analisis de la Informacion/Historias de Dominio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +172,10 @@
   },
   "active": "505df3c08b3f2550",
   "lastOpenFiles": [
+    "Analisis de la Informacion/Gherkin.md",
+    "Analisis de la Informacion/Diseno de Datos.md",
+    "Analisis de la Informacion/index.md",
+    "Analisis de la Informacion/Design Thinking.md",
     "Analisis de la Informacion/Casos de Uso.md",
     "Analisis de la Informacion/Calidad de Procesos en la Industria del Software.md",
     "Analisis de la Informacion/Arquitectura del Software.md",
@@ -194,11 +198,7 @@
     "Organizacion de Datos/Clasificacion de Texto.md",
     "Organizacion de Datos/Ciencia de Datos.md",
     "Organizacion de Datos/Arboles.md",
-    "Organizacion de Datos/Analisis de Sentimientos.md",
-    "Introduccion a Sistemas Distribuidos/index.md",
-    "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
     "aa.py",
-    "Modelos y Optimizacion I/index.md",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 2.png",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 1.png",
     "Álgebra II/Álgebra II.pdf",

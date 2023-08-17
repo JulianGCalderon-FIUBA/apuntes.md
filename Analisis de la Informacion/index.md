@@ -24,4 +24,4 @@ title: Análisis de la Información
 - [[Introduccion al Diseno de Software]]
 - [[Requirement Specification vs User Stories]]
 - [[Interfaces de Usuario]]
-- [[Diseño de Datos]]
+- [[Diseno de Datos|Diseño de Datos]]

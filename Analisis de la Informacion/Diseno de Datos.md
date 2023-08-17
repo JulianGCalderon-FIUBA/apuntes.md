@@ -10,13 +10,13 @@ Los Archivos y bases de datos nos permiten que la información del sistema persi
 
 ## Bases de Datos
 
-Una base de datos es una colección ordenada de datos administrada por un sistema de gestión (DBMS, Database Management System)
+Una base de datos es una colección ordenada de datos administrada por un sistema de gestión DBMS *(Database Management System).*
 
 ### Modelos de Base de Datos
 
 Existen distintos modelos conocidos de base de datos:
 
-- **Jerárquico:** Una fila de cabecera (master), y el detalle de los elementos de la base de datos (detail)
+- **Jerárquico:** Una fila de cabecera *(master),* y el detalle de los elementos de la base de datos *(detail)*
 - **De Red:** Similar, pero sin necesidad de navegar la jerarquía, se puede navegar de un registro a otro
 - **Relacional:** Tablas relacionadas entre sí, por otras tablas:
 	- Las claves primarias identifican las distintas filas (instancias) en una tabla
@@ -34,23 +34,23 @@ Existen distintos modelos conocidos de base de datos:
 	- Tendremos una única tabla, con un identificador de tipo para determinar a qué subclase pertenece la entrada
 	- Una tabla por cada variante, utilizando la misma clave foránea en la subclase que refieren a la clave primaria de las primarias.
 - Implementar las asociaciones:
-	- One-Many
-	- One-One
-	- Many-Many
-	- Recursivas
-	- Asociativas
+	- Uno a Muchos.
+	- Uno a Uno.
+	- Muchos a Muchos.
+	- Recursivas.
+	- Asociativas.
 
-### One-Many
+### Uno a Muchos
 
-El lado de **Many** mantiene referencia al **One** a partir de una clave foránea
+El lado de **Muchos** mantiene referencia al **Uno** a partir de una clave foránea
 
 ![[Diseno de Datos 2.png|525]]
 
-### One-One
+### Uno a Uno
 
 Decidimos una tabla como más relevante, e incluimos la **foránea** en la otra
 
-### Many-Many
+### Muchos a Muchos
 
 Crear una tabla de correlación cuyas columnas serán las claves primarias de las tablas relacionadas. Los identificadores serán tanto claves, primarias como foráneas
 
