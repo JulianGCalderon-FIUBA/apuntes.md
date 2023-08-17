@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas Operativos/API de Memoria.md",
+                "file": "Sistemas Operativos/API de Threads.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operativos/API de Memoria.md"
+                "file": "Sistemas Operativos/API de Threads.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operativos/API de Memoria.md",
+                "file": "Sistemas Operativos/API de Threads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operativos/API de Memoria.md",
+                "file": "Sistemas Operativos/API de Threads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,8 +180,8 @@
   },
   "active": "505df3c08b3f2550",
   "lastOpenFiles": [
-    "Sistemas Operativos/API de Threads.md",
     "Sistemas Operativos/API de Memoria.md",
+    "Sistemas Operativos/API de Threads.md",
     "Sistemas Operativos/Introduccion a Sistemas Operativos.md",
     "index.md",
     "To-Do.md",

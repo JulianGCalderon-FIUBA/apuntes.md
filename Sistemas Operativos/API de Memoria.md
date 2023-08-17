@@ -24,26 +24,26 @@ Esta función solo funciona correctamente si le pasamos punteros a memoria previ
 
 En lenguajes de programación modernos, tendremos mecanismos que se encargaran de manejar la memoria dinámica de forma simple, sin que nosotros nos tengamos que preocupar por la misma.
 
-## ninitialized read
+## Uninitialized Read
 
-Cuando reservamos memoria, no se inicializa con algún valor, por lo que decimos que se inicializa con **basura**. Información que no tiene ningún valor significativo para nosotros, si no que son residuos de otro proceso del sistema operativo.
+Cuando reservamos memoria, no se inicializa con algún valor, por lo que decimos que se inicializa con **basura**. Información que no tiene ningún valor significativo para nosotros, sino que son residuos de otro proceso del sistema operativo.
 
-## memory leak
+## Memory Leak
 
 Cuando nos olvidamos de liberar memoria en un programa largo, esto es un gran problema. Olvidarse de liberar memoria implica que eventualmente nos podremos quedar sin, lentamente perdiendo memoria. Este problema se mantiene en lenguajes con *garbage collector*, ya que referencias a memoria no utilizada no son liberadas.
 
-## dangling pointer
+## Dangling Pointer
 
 Ocurre cuando liberamos memoria antes de que terminemos de utilizarla, en estos casos tendremos un *dangling pointer*, un puntero suelto. Esto puede terminar nuestro programa o encontrarse con comportamiento indefinido.
 
-## double free
+## Double Free
 
 Muchas veces nos confundimos y liberamos dos veces el mismo puntero, esto puede llevar a errores y tiene un comportamiento indefinido.
 
-## system calls
+## System Calls
 
-Estas funciones mencionadas pertenecen a la biblioteca estándar de C, pero se construyen a partir de system calls
+Estas funciones mencionadas pertenecen a la biblioteca estándar de C, pero se construyen a partir de **system calls**
 
 Una de ellas es `brk`, la cual se utiliza para aumentar el tamaño del heap de nuestro programa.
 
-Otra system call útil es `mmap`, se puede utilizar para reservar una región de memoria anónima dentro de tu programa.
+Otra *system call* útil es `mmap`, se puede utilizar para reservar una región de memoria anónima dentro de tu programa.
