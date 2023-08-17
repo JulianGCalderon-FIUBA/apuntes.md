@@ -1,5 +1,5 @@
 ---
-title: Técnicas de Analisis, Modelado y Especificación
+title: Técnicas de Análisis, Modelado y Especificación
 ---
 
 Esta ingeniería parte de una base de necesidades del usuario para generar requisitos. Los requisitos pueden ser descritos desde distintos puntos de vista:
