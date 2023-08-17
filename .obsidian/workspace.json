@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analisis Matematico II/Metodos de Resolucion.md",
+                "file": "Analisis Matematico II/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Metodos de Resolucion",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -110,7 +110,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -130,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analisis Matematico II/Metodos de Resolucion.md"
+                "file": "Analisis Matematico II/index.md"
               }
             }
           },
@@ -140,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analisis Matematico II/Metodos de Resolucion.md",
+                "file": "Analisis Matematico II/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analisis Matematico II/Metodos de Resolucion.md",
+                "file": "Analisis Matematico II/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,8 +205,8 @@
   },
   "active": "f79c4fa0b90d49b8",
   "lastOpenFiles": [
-    "Analisis Matematico II/index.md",
     "Analisis Matematico II/Metodos de Resolucion.md",
+    "Analisis Matematico II/index.md",
     "Analisis Matematico II/Limites.md",
     "To-Do.md",
     "Sistemas Operativos/Bugs de Concurrencia.md",
