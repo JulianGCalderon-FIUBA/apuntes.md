@@ -4,8 +4,7 @@
   "enabledCssSnippets": [
     "table-center",
     "table-white-border",
-    "mermaid-center",
-    "image-center"
+    "mermaid-center"
   ],
   "baseFontSize": 18,
   "theme": "obsidian"
