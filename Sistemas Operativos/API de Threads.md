@@ -15,7 +15,7 @@ pthread_create(pthread_t      *thread,
                void           *arg);
 ```
 
-El primer argumento es un puntero a una estructura de tipo `pthread_t`, la usaremos para interactuar con el *thread*. Se la pasamos a la función para inicializarla.
+El primer argumento es un puntero a una estructura de tipo `pthread_t`, la usaremos para interactuar con el hilo. Se la pasamos a la función para inicializarla.
 
 El segundo argumento se utiliza para especificar los atributos que tendrá el hilo. Estos atributos se inicializan con una llamada a `pthread_attr_init()`.
 
@@ -23,7 +23,7 @@ El tercer argumento es el más complejo, es el puntero a la función donde comen
 
 ## Finalización de Threads
 
-Muchas veces, queremos esperar a que un *thread* finalice para continuar la ejecución:
+Muchas veces, queremos esperar a que un hilo finalice para continuar la ejecución:
 
 ```c
 #include <pthread.h>
@@ -32,7 +32,7 @@ pthread_join(pthread_t      thread,
              void           **value_ptr);
 ```
 
-El primer argumento es el hilo al cual se deberá esperar, mientras que el segundo argumento es un puntero al valor de retorno que esperas recibir de la función. Estos valores de retorno no pueden ser almacenados en el stack, ya que este deja de ser válido en cuanto termina el *thread*.
+El primer argumento es el hilo al cual se deberá esperar, mientras que el segundo argumento es un puntero al valor de retorno que esperas recibir de la función. Estos valores de retorno no pueden ser almacenados en el stack, ya que este deja de ser válido en cuanto termina el hilo.
 
 ## Utilización de Locks
 

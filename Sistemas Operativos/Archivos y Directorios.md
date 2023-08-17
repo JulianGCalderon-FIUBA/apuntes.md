@@ -4,57 +4,57 @@ title: Archivos y Directorios
 
 En este capítulo, trataremos una pieza crítica para la virtualización de la computadora: **almacenamiento persistente.** Para eso, utilizaremos discos que almacenan información de forma permanente (o al menos, durante un largo tiempo).
 
-Necesitamos dos abstracciones claves para la virtualización del almacenamiento. El primero es un **archivo**, un archivo es simplemente una vector lineal de bytes. Todos los archivos tienen un nombre de bajo nivel, usualmente un número, que utilizaremos para referirnos a él. Solemos referirnos a este nombre como el ***inodo***
+Necesitamos dos abstracciones claves para la virtualización del almacenamiento. El primero es un **archivo**, un archivo es simplemente un vector lineal de bytes. Todos los archivos tienen un nombre de bajo nivel, usualmente un número, que utilizaremos para referirnos a él. Solemos referirnos a este nombre como el **inodo**
 
-La segunda abstracción necesaria es la de un ***directorio***. Un directorio también tiene un **inodo**, pero sus contenidos son específicos. Contiene una lista de pares ***user-level-name*** low-level-name. La jerarquía de directorias comienza en el directorio raíz `/.`
+La segunda abstracción necesaria es la de un **directorio**. Un directorio también tiene un **inodo**, pero sus contenidos son específicos. Contiene una lista de pares *user-level-name, low-level-name.* La jerarquía de directorias comienza en el directorio raíz `/.`
 
-Los nombres de los archivos se separan en dos partes, separadas por un punto: `name.extension`. La primer parte es el nombre, a nivel de usuario, del archivo. La segunda parte es la extensión, le indica a los usuario de que forma interpretar el archivo.
+Los nombres de los archivos se separan en dos partes, separadas por un punto: `name.extension`. La primera parte es el nombre, a nivel de usuario, del archivo. La segunda parte es la extensión, le indica a los usuarios de que forma interpretar el archivo.
 
 ## Interfaz del Sistema de Archivos
 
-Para interactuar con el sistema de archivos, el kernel provee una serie de abstracciones que permiten interactuar con el disco. Por dentro, estas syscalls son ***wrappers*** de las implementaciones de cada sistema de archivos particular.
+Para interactuar con el sistema de archivos, el kernel provee una serie de abstracciones que permiten interactuar con el disco. Por dentro, estas *syscalls* son *wrappers* de las implementaciones de cada sistema de archivos particular.
 
 ### Creación de Archivos
 
-Para crear archivos, utilizaremos la syscall `open()` con el flag `O_CREAT`. Esta función se usa para abrir un archivo, pero con los flags correctos puede abrir un archivo con las configuraciones necesarias. El flag `O_WRONLY` indica que el archivo se abre para la escritura, y el flag `O_TRUNC` indica que si el archivo existía previamente, entonces debe borrar sus contenidos.
+Para crear archivos, utilizaremos la *syscall* `open()` con el flag `O_CREAT`. Esta función se usa para abrir un archivo, pero con los flags correctos puede abrir un archivo con las configuraciones necesarias. El flag `O_WRONLY` indica que el archivo se abre para la escritura, y el flag `O_TRUNC` indica que si el archivo existía previamente, entonces debe borrar sus contenidos.
 
-Esta syscall devuelve un **file descriptor**. Este es un entero, único y privado para el proceso, mediante el cual puede interactuar con el archivo. Se puede pensar como un puntero a un archivo. Se utiliza un vector estático para llevar cuenta de los archivos abiertos por cada proceso.
+Esta *syscall* devuelve un **file descriptor**. Este es un entero, único y privado para el proceso, mediante el cual puede interactuar con el archivo. Se puede pensar como un puntero a un archivo. Se utiliza un vector estático para llevar cuenta de los archivos abiertos por cada proceso.
 
 ### Lectura y Escritura
 
-Para leer un archivo, utilizaremos la syscall `open()` con las flags `O_RDONLY` o `O_WRONLY`. Una vez abierto, podemos leer del archivo utilizando la syscall `read()` o escribir con `write()`.
+Para leer un archivo, utilizaremos la *syscall* `open()` con los flags `O_RDONLY` o `O_WRONLY`. Una vez abierto, podemos leer del archivo utilizando la *syscall* `read()` o escribir con `write()`.
 
 Una vez finalizada la operación deseada con el archivo, es necesario cerrarlo con `close()`.
 
-El sistema operativo contiene una tabla de archivos abiertos: ***ftable***, donde se guardan todos los archivos abiertos por el sistema.
+El sistema operativo contiene una tabla de archivos abiertos: *ftable*, donde se guardan todos los archivos abiertos por el sistema.
 
 #### Escritura Instantánea
 
-Cuando llamamos a `write()`, entonces estos datos se guardan en un ***buffer*** y son escritos en el futuro, por razones de rendimiento. Si queremos escribir de forma instante, utilizaremos la ***syscall*** `fsync()`.
+Cuando llamamos a `write()`, entonces estos datos se guardan en un *buffer* y son escritos en el futuro, por razones de rendimiento. Si queremos escribir de forma instante, utilizaremos la *syscall* `fsync()`.
 
 #### Secuencialidad
 
-Muchas veces queremos operar con un archivo archivo, pero no de forma secuencial. Para eso, utilizaremos la ***syscall*** `lseek()`. utilizaremos un ***offset*** que nos permitirá leer de una dirección particular. El parámetro ***whence*** nos permite determinar cómo se va a realizar este ***seek***.
+Muchas veces queremos operar con un archivo, pero no de forma secuencial. Para eso, utilizaremos la *syscall* `lseek()`. Utilizaremos un *offset* que nos permitirá leer de una dirección particular. El parámetro *whence* nos permite determinar cómo se va a realizar este *seek*.
 
-- ***SEEK_SET:*** Nos permite movernos al offset indicado.
-- ***SEEK_CUR:*** Nos permite movernos desde la posición actual del archivo.
-- ***SEEK_END:*** Nos permite movernos desde la posición final del archivo.
+- **SEEK_SET:** Nos permite movernos al offset indicado.
+- **SEEK_CUR:** Nos permite movernos desde la posición actual del archivo.
+- **SEEK_END:** Nos permite movernos desde la posición final del archivo.
 
 ### Archivos Compartidos
 
 Cuando se realiza un `fork()` con un archivo abierto, entonces no se genera una nueva entrada en la tabla de archivos. Cuando un proceso modifica el *offset*, este se modifica en los otros procesos.
 
-Para cerrar este archivo, todos los procesos que contienen la referencia a este archivo deben cerrarlo. Se utilizan ***referencias contables***.
+Para cerrar este archivo, todos los procesos que contienen la referencia a este archivo deben cerrarlo. Se utilizan **referencias contables.**
 
-Otra forma de hacerlo, es utilizando la ***syscall*** `dup()`, este clona un file descriptor, pero la referencia es la misma.
+Otra forma de hacerlo, es utilizando la *syscall* `dup()`, este clona un *file descriptor,* pero la referencia es la misma.
 
 ### Renombramiento de Archivos
 
-Para renombrar un archivo (o también moverlo de directorio), utilizaremos la ***syscall*** `rename()`. Esta operación suele realizarse de forma atómica, para evitar problemas de concurrencia.
+Para renombrar un archivo (o también moverlo de directorio), utilizaremos la *syscall* `rename()`. Esta operación suele realizarse de forma atómica, para evitar problemas de concurrencia.
 
 ### Acceso a Metadata
 
-La *syscall* `stat()` se utiliza para acceder a la ***metadata*** de un archivo. Esta tiene información sobre su inodo, tamaño, los permisos, e información sobre cuando un archivo fue accedido o modificado, entre otras cosas.
+La *syscall* `stat()` se utiliza para acceder a la metadata de un archivo. Esta tiene información sobre su inodo, tamaño, los permisos, e información sobre cuando un archivo fue accedido o modificado, entre otras cosas.
 
 ## Operaciones con Directorios
 
@@ -64,30 +64,30 @@ Como no se puede escribir o leer un directorio de la forma convencional, se prov
 
 Todos los directorios siempre se crean con dos entradas iniciales:
 
-- `.` refiere al propio directorio.
-- `..` refiere al directorio padre.
+- `.` Refiere al propio directorio.
+- `..` Refiere al directorio padre.
 
 ### Lectura de Directorios
 
-En lugar de abrirlos como un archivo regularmente, utilizaremos la ***syscall `opendir*()`. Una vez abierto, utilizaremos `readdir()` para leer secuencialmente cada entrada del directorio.
+En lugar de abrirlos como un archivo regularmente, utilizaremos la *syscall* `opendir()`. Una vez abierto, utilizaremos `readdir()` para leer secuencialmente cada entrada del directorio.
 
 ### Borrar Directorios
 
-Podemos borrar directorios utilizando la ***syscall*** `rmdir()`, aunque para que funcione, el directorio tiene que estar vacío.
+Podemos borrar directorios utilizando la *syscall* `rmdir()`, aunque para que funcione, el directorio tiene que estar vacío.
 
 ## Links
 
 ### Hard Links
 
-La **syscall** `link()` se utiliza para crear una nueva forma de referirse a un mismo archivo. Se crea una nueva entrada en el directorio que refiere al mismo ***inode number***. No se pueden generar ***hard links*** a directorios, para evitar referencias circulares.
+La *syscall* `link()` se utiliza para crear una nueva forma de referirse a un mismo archivo. Se crea una nueva entrada en el directorio que refiere al mismo *inode number*. No se pueden generar *hard links* a directorios, para evitar referencias circulares.
 
-Cuando creamos un archivo, estamos haciendo dos cosas. En primer lugar creamos una estructura ***inodo*** para tener información del archivo, luego estamos ***linkeando*** este inodo a un archivo legible por un usuario.
+Cuando creamos un archivo, estamos haciendo dos cosas. En primer lugar, creamos una estructura inodo para tener información del archivo, luego estamos *linkeando* este inodo a un archivo legible por un usuario.
 
-La operación inversa se conoce como `unlink()`, que elimina una referencia a una archivo. Cuando esta es la última referencia a un archivo, entonces este es eliminado. Para esto, utilizamos referencias contables, los archivos que están ***linkeados*** a un inodo particular.
+La operación inversa se conoce como `unlink()`, que elimina una referencia a una archivo. Cuando esta es la última referencia a un archivo, entonces este es eliminado. Para esto, utilizamos referencias contables, los archivos que están *linkeados* a un inodo particular.
 
 ### Symbolic Links
 
-Hay otro tipo de ***link*** que se conoce como ***symbolic link*** o ***soft link***. Este tipo de links es un archivo en si mismo, que tiene referencia al ***hardlink*** del cual se genero. Si se elimina el archivo original, entonces se generan ***dangling references.***
+Hay otro tipo de *link* que se conoce como *symbolic link* o ***soft link.*** Este tipo de links es un archivo en si mismo, que tiene referencia al ***hardlink*** del cual se genero. Si se elimina el archivo original, entonces se generan ***dangling references.***
 
 ## Permisos sobre Archivos
 

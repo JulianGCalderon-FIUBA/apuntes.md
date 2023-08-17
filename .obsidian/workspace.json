@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas Operativos/API de Threads.md",
+                "file": "Sistemas Operativos/Archivos y Directorios.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operativos/API de Threads.md"
+                "file": "Sistemas Operativos/Archivos y Directorios.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operativos/API de Threads.md",
+                "file": "Sistemas Operativos/Archivos y Directorios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operativos/API de Threads.md",
+                "file": "Sistemas Operativos/Archivos y Directorios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,8 +180,10 @@
   },
   "active": "505df3c08b3f2550",
   "lastOpenFiles": [
-    "Sistemas Operativos/API de Memoria.md",
+    "Sistemas Operativos/Bugs de Concurrencia.md",
+    "Sistemas Operativos/Archivos y Directorios.md",
     "Sistemas Operativos/API de Threads.md",
+    "Sistemas Operativos/API de Memoria.md",
     "Sistemas Operativos/Introduccion a Sistemas Operativos.md",
     "index.md",
     "To-Do.md",
@@ -207,8 +209,6 @@
     "Analisis de la Informacion/Web Rest API.md",
     "Analisis de la Informacion/Verificar y Validar requerimientos.md",
     "Analisis de la Informacion/Tecnicas de Descubrimiento de Requisitos.md",
-    "Analisis de la Informacion/Tecnicas de Analisis, Modelado y Especificacion.md",
-    "Analisis de la Informacion/Taller de Analisis de Interesados.md",
     "aa.py",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 2.png",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 1.png",

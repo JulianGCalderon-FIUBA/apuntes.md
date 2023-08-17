@@ -142,6 +142,10 @@
     "subcausas",
     "Retrabajo",
     "lock",
-    "locks"
+    "locks",
+    "Locks",
+    "inodo",
+    "Metadata",
+    "metadata"
   ]
 }
