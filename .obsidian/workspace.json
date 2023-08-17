@@ -25,9 +25,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estructura del Computador/Circuitos Sincronicos.md",
+                "file": "To-Do.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estructura del Computador/Circuitos Sincronicos.md"
+                "file": "To-Do.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estructura del Computador/Circuitos Sincronicos.md",
+                "file": "To-Do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estructura del Computador/Circuitos Sincronicos.md",
+                "file": "To-Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,8 +170,10 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "505df3c08b3f2550",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
+    "index.md",
+    "To-Do.md",
     "Estructura del Computador/Circuitos Asincronicos.md",
     "Estructura del Computador/Circuitos Sincronicos.md",
     "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
@@ -180,10 +182,8 @@
     "Analisis Numerico/Biseccion.md",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
     "Estructura del Computador/Funciones Logicas.md",
-    "To-Do.md",
     "Estructura del Computador/Circuitos Asincronicos.html",
     "Organizacion de Datos/index.md",
-    "index.md",
     "Sistemas Operativos/Traduccion de Direcciones.md",
     "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",
     "Analisis Matematico II/index.md",

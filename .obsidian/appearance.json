@@ -1,12 +1,7 @@
 {
   "accentColor": "",
   "cssTheme": "Things",
-  "enabledCssSnippets": [
-    "table-center",
-    "table-white-border",
-    "mermaid-center",
-    "image-grid"
-  ],
+  "enabledCssSnippets": [],
   "baseFontSize": 19,
   "theme": "obsidian"
 }
