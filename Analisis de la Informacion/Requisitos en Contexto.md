@@ -19,7 +19,7 @@ Muchas veces, no sabemos que quieren los clientes. Se dan dos situaciones en par
 - Desarrollo de productos
 - Desarrollo de clientes
 
-Investigamos que producto podemos desarrollar, creamos un *MVP*, obtenemos *feedback* de nuestros clientes.
+Investigamos que producto podemos desarrollar, creamos un MVP, obtenemos *feedback* de nuestros clientes.
 
 Este tipo de desarrollo es mucho más dinámico, ya que debemos descubrir nuestro público a medida que desarrollamos.
 
@@ -41,13 +41,13 @@ Existen dos grupos principales en los métodos de estimación:
 
 ![[Requisitos en Contexto 4.png]]
 
-Métodos algorítmicos:
+### Métodos algorítmicos
 
-- Los *Cocomo/Cocomo II* parten de una estimación previa de la cantidad de líneas de código que se necesitaran. En función de eso, se busca determinar la cantidad de horas del proyecto.
+- Los Cocomo/Cocomo II parten de una estimación previa de la cantidad de líneas de código que se necesitaran. En función de eso, se busca determinar la cantidad de horas del proyecto.
 - La técnica de puntos función busca determinar también el tamaño a partir de una definición abstracta del sistema (como los casos de uso o las historias de usuario).
 - Los *use case points* plantean algo parecido
 
-Métodos no algorítmicos:
+### Métodos no algorítmicos
 
 - *Story Points*: Muy ligados al desarrollo ágil. Es una técnica abstracta que nos muestra la complejidad relativa de cada ítem del *product backlog.* El grupo de trabajo determinará la dificultad de implementación de cada ítem. El equipo estima en conjunto y los participantes dan su estimación en simultáneo para evitar influenciar a los demás. Una técnica muy usual es el *planning poker.*
 

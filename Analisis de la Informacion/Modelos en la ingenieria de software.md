@@ -26,7 +26,7 @@ Surge de mezclar las notaciones más populares de la época. Es un lenguaje grá
 - **Diagrama de Actividad:** Muestra el flujo de actividades al o largo de un ciclo de trabajo. Describe las actividades, los objetos, las transiciones y las decisiones tomadas.
 
 > [!note]
-> El *BPMN (Business Process Modeling and Notation)* es similar al *UML*, pero busca representar un proceso de negocio.
+> El BPMN *(Business Process Modeling and Notation)* es similar al UML, pero busca representar un proceso de negocio.
 
 ## C4
 
@@ -37,4 +37,4 @@ Tiene como propósito representar la arquitectura del software. Propone una estr
 3. **Diagrama de Componentes:** Muestra cada contenedor en particular, describe la implementación del componente
 4. **Diagrama de Código:** Si es necesario, busca representar el código que forma parte un componente.
 
-Este enfoque combina una notación muy sencilla de la arquitectura, en conjunción con *UML* para los detalles de implementación, es un enfoque más simple que permite representar la abstracción completa del sistema.
+Este enfoque combina una notación muy sencilla de la arquitectura, en conjunción con UML para los detalles de implementación, es un enfoque más simple que permite representar la abstracción completa del sistema.

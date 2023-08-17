@@ -64,7 +64,7 @@ Típicamente, las asociaciones son binarias, pero puede tener **asociaciones bin
 
  En menor proporción, es posible encontrar **asociaciones ternarias** (entre tres tipos de objetos). Las asociaciones entre más de tres objetos no son habituales.
 
-Las **clases asociativa**s se comportan simultáneamente como clase y como asociaciones. Se descubren ante la necesidad de asociar un atributo a una asociación.
+Las **clases asociativas** se comportan simultáneamente como clase y como asociaciones. Se descubren ante la necesidad de asociar un atributo a una asociación.
 
 Las asociaciones de **composición y agregación** permiten modelar relaciones del tipo todo y parte. Cuando los elementos de la conexión no dependen del ciclo de vida del contenedor, estamos ante una agregación. Cuando o hacen, estamos ante una composición.
 
@@ -114,8 +114,8 @@ Además de facturas, existen notas de crédito y débito. Las notas de crédito 
 
 Propone modelar entidades y relaciones. De un modelo conceptual que sirve para luego derivar los modelos lógicos y físicos de la base de los datos. Es un antecesor del modelo de dominio. Tiene los siguientes elementos:
 
-- Entidades: Abstracciones que representan personas, osas, lugares. Atributos identificadores y descriptivos de las entidades. Algunos tipos de objetos son también relaciones (asociativos) y otro son débiles (su identificación depende de otra identidad)
-- Relaciones: Es una abstracción que representa la asociación
+- **Entidades:** Abstracciones que representan personas, osas, lugares. Atributos identificadores y descriptivos de las entidades. Algunos tipos de objetos son también relaciones (asociativos) y otro son débiles (su identificación depende de otra identidad)
+- **Relaciones:** Es una abstracción que representa la asociación
 
 Algunas diferencias importantes son:
 

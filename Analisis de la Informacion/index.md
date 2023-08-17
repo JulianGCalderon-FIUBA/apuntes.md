@@ -22,6 +22,6 @@ title: Análisis de la Información
 - [[Innovacion y Creatividad|Innovación y Creatividad]]
 - [[Requisitos en Contexto]]
 - [[Introduccion al Diseno de Software|Introducción al Diseño de Software]]
-- [[Requirement Specification vs User Stories]]
+- [[Requirement Specification vs. User Stories]]
 - [[Interfaces de Usuario]]
 - [[Diseno de Datos|Diseño de Datos]]

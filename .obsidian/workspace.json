@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analisis de la Informacion/Introduccion al Diseno de Software.md",
+                "file": "Analisis de la Informacion/Requisitos en Contexto.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analisis de la Informacion/Introduccion al Diseno de Software.md"
+                "file": "Analisis de la Informacion/Requisitos en Contexto.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analisis de la Informacion/Introduccion al Diseno de Software.md",
+                "file": "Analisis de la Informacion/Requisitos en Contexto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analisis de la Informacion/Introduccion al Diseno de Software.md",
+                "file": "Analisis de la Informacion/Requisitos en Contexto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,8 +172,14 @@
   },
   "active": "505df3c08b3f2550",
   "lastOpenFiles": [
-    "Analisis de la Informacion/index.md",
+    "Analisis de la Informacion/Requirement Specification vs. User Stories.md",
+    "Analisis de la Informacion/Requisitos en Contexto.md",
+    "Analisis de la Informacion/PSA.md",
+    "Analisis de la Informacion/Prototipado y Experiencia de Usuario.md",
+    "Analisis de la Informacion/Modelos en la ingenieria de Software.md",
+    "Analisis de la Informacion/Modelados de Dominio.md",
     "Analisis de la Informacion/Introduccion al Diseno de Software.md",
+    "Analisis de la Informacion/index.md",
     "Analisis de la Informacion/Introduccion a la Ingenieria de Software.md",
     "Analisis de la Informacion/Interfaces de Usuario.md",
     "Analisis de la Informacion/Innovacion y Creatividad.md",
@@ -192,12 +198,6 @@
     "Fisica II/Ley de Faraday.md",
     "Fisica II/Campo Magnetico.md",
     "Organizacion de Datos/Algoritmos Geneticos.md",
-    "Organizacion de Datos/index.md",
-    "Organizacion de Datos/Introduccion.md",
-    "Organizacion de Datos/Valores Atipicos.md",
-    "Organizacion de Datos/Transformacion de Datos.md",
-    "Organizacion de Datos/Reduccion de Dimensionalidad.md",
-    "Organizacion de Datos/Redes de Aprendizaje Profundo.md",
     "aa.py",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 2.png",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 1.png",
