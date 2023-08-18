@@ -12,7 +12,7 @@ Breve resumen de los contenidos teóricos de la materia, consultar la bibliograf
 - [[Traduccion de Direcciones]]
 - [[Segmentacion]]
 - [[Free-Space Management]]
-- [[Introduccion a Paginacion]]
+- [[Introduccion a Paginacion|Introducción a Paginación]]
 - [[Translation Lookaside Buffers]]
 - [[Paginacion Avanzada]]
 - [[Planificacion]]
