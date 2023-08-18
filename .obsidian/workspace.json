@@ -81,8 +81,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
-                "mode": "source",
+                "file": "Organizacion de Datos/Redes Neuronales.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -117,7 +117,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Metodos de Resolucion",
+                "query": "/!\\[\\[.*\\]\\]\\s+!",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -134,7 +134,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -154,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Organizacion de Datos/Redes Neuronales.md"
               }
             }
           },
@@ -164,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Organizacion de Datos/Redes Neuronales.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Organizacion de Datos/Redes Neuronales.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,6 +229,15 @@
   },
   "active": "752e8362b822a823",
   "lastOpenFiles": [
+    "Organizacion de Datos/Redes Recurrentes.md",
+    "Organizacion de Datos/Redes Neuronales.md",
+    "Organizacion de Datos/Support Vector Machines.md",
+    "Analisis Matematico II/Cuadricas.md",
+    "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
+    "Estructura del Computador/Circuitos Asincronicos.md",
+    "Fisica II/Circuito Electrico.md",
+    "To-Do.md",
+    "index.md",
     "Algebra II/Indice.md",
     "Algoritmos I/Indice.md",
     "Algoritmos II/Indice.md",
@@ -239,21 +249,12 @@
     "Fisica II/Indice.md",
     "Probabilidad y Estadistica/Indice.md",
     "Sistemas Operativos/Indice.md",
-    "index.md",
     "Organizacion de Datos/Indice.md",
     "Modelos y Optimizacion I/Indice.md",
     "Modelos y Optimizacion I/Planteo Dual.md",
     "Matematica Discreta/Indice.md",
     "Introduccion a Sistemas Distribuidos/Indice.md",
     "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
-    "Matematica Discreta/Subconjuntos de Vertices y Aristas.md",
-    "Analisis Matematico II/Curvas y Superficies.md",
-    "Analisis Matematico II/Derivadas.md",
-    "Analisis Matematico II/Metodos de Resolucion.md",
-    "Analisis Matematico II/Conicas.md",
-    "Analisis Matematico II/Limites.md",
-    "To-Do.md",
-    "Sistemas Operativos/Bugs de Concurrencia.md",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
     "Estructura del Computador/Circuitos Asincronicos.html",
     "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",

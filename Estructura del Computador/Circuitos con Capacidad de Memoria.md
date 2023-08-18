@@ -22,6 +22,4 @@ Todo debe estar limitado por el reloj, por lo que no trabajo a la máxima capaci
 
 Reciben un número de entradas y seleccionan una a partir de entradas de control
 
-![[Circuitos con Capacidad de Memoria 1.png|322]]
-
-![[Circuitos con Capacidad de Memoria 2.png|318]]
+![[Circuitos con Capacidad de Memoria 1.png|322]] ![[Circuitos con Capacidad de Memoria 2.png|318]]
