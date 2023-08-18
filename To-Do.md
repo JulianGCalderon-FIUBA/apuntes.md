@@ -17,7 +17,7 @@ title: To-Do
 - [x] Estructura del Computador
 - [x] Organización de Datos
 - [x] Análisis de la Información
-- [ ] Sistemas Operativos (bugs de concurrencia)
+- [ ] Sistemas Operativos (locks)
 - [ ] Introducción a Sistemas Distribuidos
 
 ## Titulos

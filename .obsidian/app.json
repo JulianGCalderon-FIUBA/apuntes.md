@@ -155,6 +155,7 @@
     "dummy",
     "headers",
     "Microkernel",
-    "microkernel"
+    "microkernel",
+    "thread"
   ]
 }
