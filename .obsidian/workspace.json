@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -157,7 +158,7 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "752e8362b822a823",
+  "active": "178700d707526f5b",
   "lastOpenFiles": [
     "Sistemas Operativos/Ejecucion Directa.md",
     "Sistemas Operativos/Indice.md",

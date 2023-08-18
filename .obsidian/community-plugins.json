@@ -8,5 +8,6 @@
   "mousewheel-image-zoom",
   "obsidian-focus-mode",
   "obsidian-pandoc",
-  "cmdr"
+  "cmdr",
+  "obsidian-regex-replace"
 ]

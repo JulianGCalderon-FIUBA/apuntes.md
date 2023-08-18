@@ -4,17 +4,17 @@ title: Espacio de Direcciones
 
 Para generar la ilusión de que un programa tiene toda la memoria de la computadora, el sistema operativo debe virtualizar, generando un espacio de direcciones virtual perteneciente al usuario.
 
-El espacio de direcciones de un proceso contiene toda la memoria del mismo: tanto el ***code***, como el ***stack*** y el ***heap***.
+El espacio de direcciones de un proceso contiene toda la memoria del mismo: tanto el *code*, como el *stack* y el *heap*.
 
-El ***heap*** y el ***stack*** son dos regiones que crecen en sentidos inversos, aunque el stack está predefinido y limitado.
+El heap y el stack son dos regiones que crecen en sentidos inversos, aunque el stack está predefinido y limitado.
 
-Con la existencia de ***threads***, el espacio de memorias se complica.
+Con la existencia de hilos, el espacio de memorias se complica.
 
-Lo que se está describiendo es la abstracciones del mapa de memoria que provee el sistema operativo a un programa corriendo.
+Lo que se está describiendo es las abstracciones del mapa de memoria que provee el sistema operativo a un programa corriendo.
 
 ![[Espacio de Direcciones 1.png]]
 
-Cuando el usuario accede a cierta dirección de memoria virtual $\text A$, el sistema operativo ***mapea*** el valor a otra dirección de memoria $\text B$, una dirección de memoria real. Si el usuario accede a una dirección de memoria virtual que no le pertenece, entonces se lanza una excepción.
+Cuando el usuario accede a cierta dirección de memoria virtual $\text A$, el sistema operativo *mapea* el valor a otra dirección de memoria $\text B$, una dirección de memoria real. Si el usuario accede a una dirección de memoria virtual que no le pertenece, entonces se lanza una excepción.
 
 ## Objetivos
 
