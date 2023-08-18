@@ -2,12 +2,5 @@
 
 p:has(img) {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 5vw);
-  grid-gap: 15px;
-}
-
-p:has(img) img {
-  object-fit: var(--image-grid-fit);
-  align-self: stretch;
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
 }
