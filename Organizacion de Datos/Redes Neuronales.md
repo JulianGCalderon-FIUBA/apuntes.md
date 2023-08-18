@@ -52,7 +52,7 @@ Estos radios disminuyen hasta que no se realicen cambios. Al final, se generan v
 
 ![[Redes Neuronales 5.png|225]] ![[Redes Neuronales 6.png|300]]
 
-![[Redes Neuronales 7.png|250]]
+![[Redes Neuronales 7.png|275]]
 
 ## Backpropagation
 
