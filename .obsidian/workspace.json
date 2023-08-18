@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Un conjunto es simplemente conexo si para toda curva cerrada contenida en",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -158,7 +157,7 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "752e8362b822a823",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
     "Organizacion de Datos/Redes Neuronales.md",
     "Fisica I/Trabajo y Energia.md",
