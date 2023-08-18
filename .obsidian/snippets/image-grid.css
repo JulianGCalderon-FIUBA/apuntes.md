@@ -2,5 +2,9 @@
 
 p:has(img) {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, auto);
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
 }
