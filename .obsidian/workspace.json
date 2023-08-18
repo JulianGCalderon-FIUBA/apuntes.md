@@ -74,9 +74,17 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "752e8362b822a823",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -141,9 +149,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Analisis Matematico II/Curvas y Superficies.md"
-              }
+              "state": {}
             }
           },
           {
@@ -152,7 +158,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analisis Matematico II/Curvas y Superficies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +174,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analisis Matematico II/Curvas y Superficies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,10 +218,10 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "8ec340ecd48e0106",
+  "active": "752e8362b822a823",
   "lastOpenFiles": [
-    "Analisis Matematico II/Derivadas.md",
     "Analisis Matematico II/Curvas y Superficies.md",
+    "Analisis Matematico II/Derivadas.md",
     "Analisis Matematico II/Metodos de Resolucion.md",
     "Analisis Matematico II/Conicas.md",
     "Analisis Matematico II/index.md",
