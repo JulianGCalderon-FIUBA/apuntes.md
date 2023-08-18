@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Organizacion de Datos/index.md",
+                "file": "Organizacion de Datos/Indice.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analisis Matematico II/index.md",
+                "file": "Analisis Matematico II/Indice.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analisis Matematico II/index.md",
+                "file": "Analisis Matematico II/Indice.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analisis Matematico II/index.md",
+                "file": "Analisis Matematico II/Indice.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,8 +79,12 @@
             "id": "752e8362b822a823",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -149,7 +153,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "index.md"
+              }
             }
           },
           {
@@ -158,6 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,33 +228,33 @@
   },
   "active": "752e8362b822a823",
   "lastOpenFiles": [
+    "Algebra II/Indice.md",
+    "Algoritmos I/Indice.md",
+    "Algoritmos II/Indice.md",
+    "Analisis de la Informacion/Indice.md",
+    "Analisis Matematico II/Indice.md",
+    "Analisis Numerico/Indice.md",
+    "Estructura del Computador/Indice.md",
+    "Fisica I/Indice.md",
+    "Fisica II/Indice.md",
+    "Probabilidad y Estadistica/Indice.md",
+    "Sistemas Operativos/Indice.md",
+    "index.md",
+    "Organizacion de Datos/Indice.md",
+    "Modelos y Optimizacion I/Indice.md",
+    "Modelos y Optimizacion I/Planteo Dual.md",
+    "Matematica Discreta/Indice.md",
+    "Introduccion a Sistemas Distribuidos/Indice.md",
+    "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
+    "Matematica Discreta/Subconjuntos de Vertices y Aristas.md",
     "Analisis Matematico II/Curvas y Superficies.md",
     "Analisis Matematico II/Derivadas.md",
     "Analisis Matematico II/Metodos de Resolucion.md",
     "Analisis Matematico II/Conicas.md",
-    "Analisis Matematico II/index.md",
     "Analisis Matematico II/Limites.md",
     "To-Do.md",
     "Sistemas Operativos/Bugs de Concurrencia.md",
-    "Sistemas Operativos/Archivos y Directorios.md",
-    "Sistemas Operativos/API de Threads.md",
-    "Sistemas Operativos/API de Memoria.md",
-    "Sistemas Operativos/Introduccion a Sistemas Operativos.md",
-    "index.md",
-    "Sistemas Operativos/index.md",
-    "Analisis de la Informacion/Historias de Usuario.md",
-    "Organizacion de Datos/index.md",
-    "Analisis de la Informacion/Casos de Uso.md",
-    "Matematica Discreta/Algebra de Conjuntos.md",
-    "Modelos y Optimizacion I/Metodo Simplex.md",
-    "Estructura del Computador/Circuitos Asincronicos.md",
-    "Estructura del Computador/Circuitos Sincronicos.md",
-    "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
-    "Estructura del Computador/Circuitos.md",
-    "Estructura del Computador/Algebra de Boole.md",
-    "Analisis Numerico/Biseccion.md",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
-    "Estructura del Computador/Funciones Logicas.md",
     "Estructura del Computador/Circuitos Asincronicos.html",
     "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",
     "aa.py",

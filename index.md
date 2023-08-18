@@ -4,30 +4,30 @@ title: Indice
 
 ## 1.º 2021
 
-- [[Analisis Matematico II/index|Análisis Matemático II]]
-- [[Fisica I/index|Física I]]
-- [[Algoritmos I/index|Algoritmos I]]
+- [[Analisis Matematico II/Indice|Análisis Matemático II]]
+- [[Fisica I/Indice|Física I]]
+- [[Algoritmos I/Indice|Algoritmos I]]
 
 ## 2.º 2021
 
-- [[Algebra II/index|Álgebra II]]
-- [[Fisica II/index|Física II]]
-- [[Algoritmos II/index|Algoritmos II]]
+- [[Algebra II/Indice|Álgebra II]]
+- [[Fisica II/Indice|Física II]]
+- [[Algoritmos II/Indice|Algoritmos II]]
 
 ## 1.º 2022
 
-- [[Probabilidad y Estadistica/index|Probabilidad y Estadística]]
-- [[Analisis Numerico/index|Análisis Numérico]]
-- [[Estructura del Computador/index|Estructura del Computador]]
+- [[Probabilidad y Estadistica/Indice|Probabilidad y Estadística]]
+- [[Analisis Numerico/Indice|Análisis Numérico]]
+- [[Estructura del Computador/Indice|Estructura del Computador]]
 
 ## 2.º 2022
 
-- [[Organizacion de Datos/index|Organización de Datos]]
-- [[Sistemas Operativos/index|Sistemas Operativos]]
+- [[Organizacion de Datos/Indice|Organización de Datos]]
+- [[Sistemas Operativos/Indice|Sistemas Operativos]]
 
 ## 1.º 2023
 
-- [[Introduccion a Sistemas Distribuidos/index|Introducción a Sistemas Distribuidos]]
-- [[Analisis de la Informacion/index|Análisis de la Información]]
-- [[Matematica Discreta/index|Matemática Discreta]]
-- [[Modelos y Optimizacion I/index|Modelos y Optimización I]]
+- [[Introduccion a Sistemas Distribuidos/Indice|Introducción a Sistemas Distribuidos]]
+- [[Analisis de la Informacion/Indice|Análisis de la Información]]
+- [[Matematica Discreta/Indice|Matemática Discreta]]
+- [[Modelos y Optimizacion I/Indice|Modelos y Optimización I]]
