@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analisis Matematico II/Metodos de Resolucion.md",
+                "file": "Analisis Matematico II/Curvas y Superficies.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,8 +122,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -143,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analisis Matematico II/Metodos de Resolucion.md"
+                "file": "Analisis Matematico II/Curvas y Superficies.md"
               }
             }
           },
@@ -153,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analisis Matematico II/Metodos de Resolucion.md",
+                "file": "Analisis Matematico II/Curvas y Superficies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analisis Matematico II/Metodos de Resolucion.md",
+                "file": "Analisis Matematico II/Curvas y Superficies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,8 +216,11 @@
   },
   "active": "8ec340ecd48e0106",
   "lastOpenFiles": [
-    "Analisis Matematico II/index.md",
+    "Analisis Matematico II/Derivadas.md",
+    "Analisis Matematico II/Curvas y Superficies.md",
     "Analisis Matematico II/Metodos de Resolucion.md",
+    "Analisis Matematico II/Conicas.md",
+    "Analisis Matematico II/index.md",
     "Analisis Matematico II/Limites.md",
     "To-Do.md",
     "Sistemas Operativos/Bugs de Concurrencia.md",
@@ -242,10 +244,7 @@
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
     "Estructura del Computador/Funciones Logicas.md",
     "Estructura del Computador/Circuitos Asincronicos.html",
-    "Sistemas Operativos/Traduccion de Direcciones.md",
     "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",
-    "Analisis de la Informacion/index.md",
-    "Analisis de la Informacion/Web Rest API.md",
     "aa.py",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 2.png",
     "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 1.png",
