@@ -43,24 +43,24 @@ Una forma de solucionarlo es adquirir los locks en un orden basado en la direcci
 
 ### Hold and Wait
 
-Otra forma de prevenir esto es nunca tener esto es obtener todos los lock al mismo tiempo, de forma atómica. Una forma de hacerlo es tener un lock de prevención que permite acceder otros ***locks*** de forma atómica. Esta solución es problemática por varias razones. Necesitamos saber de antemano todos los ***locks*** que necesitaremos, además de ser más lento (reduce concurrencia ya que los ***locks*** se adquieren al principio y no cuando realmente se necesitan).
+Otra forma de prevenir esto es nunca tener esto es obtener todos los lock al mismo tiempo, de forma atómica. Una forma de hacerlo es tener un lock de prevención que permite acceder otros locks de forma atómica. Esta solución es problemática por varias razones. Necesitamos saber de antemano todos los locks que necesitaremos, además de ser más lento (reduce concurrencia, ya que los locks se adquieren al principio y no cuando realmente se necesitan).
 
 ### No Preemption
 
-Muchas thread libraries permiten interfaces flexibles para adquirir ***locks***. Con rutinas que no bloquean un proceso, sino que continúan la ejecución si no se pudo acceder al ***lock***.
+Muchas bibliotecas de hilos permiten interfaces flexibles para adquirir locks. Con rutinas que no bloquean un proceso, sino que continúan la ejecución si no se pudo acceder al lock.
 
-Esta solución puede causar algo conocido como ***live lock***. Dos threads repiten constantemente la misma secuencia de código sin producir ningún avance. Para este problema también existen soluciones, como añadir un ***delay*** aleatorio entre ciclos.
+Esta solución puede causar algo conocido como **live lock**. Dos hilos repiten constantemente la misma secuencia de código sin producir ningún avance. Para este problema también existen soluciones, como añadir un *delay* aleatorio entre ciclos.
 
-Esta solución trae problemas de encapsulamiento, ya que un ***lock*** puede esta enterrado dentro de una rutina, y necesitaríamos saber de antemano esta información. Por otro lado, si fallamos en adquirir un ***lock***, debemos saber que ***locks*** fueron previamente accedidos por funciones anteriores, para poder liberarlos.
+Esta solución trae problemas de encapsulamiento, ya que un lock puede estar enterrado dentro de una rutina, y necesitaríamos saber de antemano esta información. Por otro lado, si fallamos en adquirir un lock, debemos saber que locks fueron previamente accedidos por funciones anteriores, para poder liberarlos.
 
 ### Mutual Exclusion
 
-Por último, podemos evitar la exclusión mutua totalmente. Para realizar esto, dependemos de poderosas instrucciones atómicas del hardware. Para poder tener estructuras concurrentes sin necesidad de ***locks***.
+Por último, podemos evitar la exclusión mutua totalmente. Para realizar esto, dependemos de poderosas instrucciones atómicas del hardware. Para poder tener estructuras concurrentes sin necesidad de locks.
 
 ### Scheduling
 
-En lugar de prevenir ***deadlocks***, podemos tratar de evitarlos. Para hacer esto, se necesita conocimiento global de los ***locks*** que cada ***thread*** puede adquirir. El planificador puede planificar los hilos de forma que se garantice que no haya ***deadlocks***.
+En lugar de prevenir deadlocks, podemos tratar de evitarlos. Para hacer esto, se necesita conocimiento global de los locks que cada hilo puede adquirir. El planificador puede planificar los hilos de forma que se garantice que no haya deadlocks.
 
 ### Detect and Recover
 
-Por último, una última estrategia para prevenir ***deadlocks*** consiste en tomar cierta acción en caso de que se detecte un ***deadlock***. Muchas bases de datos emplean esta táctica para reiniciar el sistema en caso de que se detecte una falla.
+Por último, una última estrategia para prevenir deadlocks consiste en tomar cierta acción en caso de que se detecte un deadlock. Muchas bases de datos emplean esta táctica para reiniciar el sistema en caso de que se detecte una falla.

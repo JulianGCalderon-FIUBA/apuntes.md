@@ -146,6 +146,9 @@
     "Locks",
     "inodo",
     "Metadata",
-    "metadata"
+    "metadata",
+    "deadlocks",
+    "deadlock",
+    "Deadlock"
   ]
 }
