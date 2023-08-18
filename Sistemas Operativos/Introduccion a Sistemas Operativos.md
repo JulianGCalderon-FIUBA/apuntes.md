@@ -2,15 +2,15 @@
 title: Introducción a Sistemas Operativos
 ---
 
-Existe un software, responsable de hacer que los programas sean fáciles de ejecutarse, permitiendo que estos intercambien memoria e interactúen con dispositivos, entre otras cosas. Este software es conocido como ***Sistema Operativo***. En esta materia, nos vamos a centrar en ***como*** lo hace.
+Existe un software, responsable de hacer que los programas sean fáciles de ejecutarse, permitiendo que estos intercambien memoria e interactúen con dispositivos, entre otras cosas. Este software es conocido como **Sistema Operativo**. En esta materia, nos vamos a centrar en **como** lo hace.
 
 ## Virtualización
 
-La técnica principal mediante la cual el sistema operativo realiza esto es a partir de la v**irtualización.** Debido a esto, a veces nos referimos al sistema operativo como una máquina virtual.
+La técnica principal mediante la cual el sistema operativo realiza esto es a partir de la **virtualización.** Debido a esto, a veces nos referimos al sistema operativo como una máquina virtual.
 
 El sistema operativo toma un recurso físico (procesador, memoria, disco), y lo virtualiza de forma que sea poderoso y fácil de usar para los procesos.
 
-Para que los usuarios puedan interactuar con estos recursos, el sistema operativo provee una API (***system calls***) que nos permite interactuar con ellos. Decimos que el sistema operativo provee una ***biblioteca estándar*** para las aplicaciones.
+Para que los usuarios puedan interactuar con estos recursos, el sistema operativo provee una API *(system calls) que nos permite interactuar con ellos. Decimos que el sistema operativo provee una ***biblioteca estándar*** para las aplicaciones.
 
 Las ***system utilities*** son un conjunto de programas pequeños con funciones determinadas, utilidades para el usuario. Los ***distribution packages*** administran estas utilidades del sistema.
 

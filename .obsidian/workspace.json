@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas Operativos/Introduccion a Paginacion.md",
+                "file": "Sistemas Operativos/Introduccion a Sistemas Operativos.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operativos/Introduccion a Paginacion.md"
+                "file": "Sistemas Operativos/Introduccion a Sistemas Operativos.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operativos/Introduccion a Paginacion.md",
+                "file": "Sistemas Operativos/Introduccion a Sistemas Operativos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operativos/Introduccion a Paginacion.md",
+                "file": "Sistemas Operativos/Introduccion a Sistemas Operativos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,8 +159,8 @@
   },
   "active": "752e8362b822a823",
   "lastOpenFiles": [
-    "Sistemas Operativos/Indice.md",
     "Sistemas Operativos/Introduccion a Paginacion.md",
+    "Sistemas Operativos/Indice.md",
     "index.md",
     "Sistemas Operativos/Free-Space Management.md",
     "Sistemas Operativos/Estructuras Concurrentes.md",
