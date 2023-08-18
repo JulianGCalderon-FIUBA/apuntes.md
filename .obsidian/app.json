@@ -150,6 +150,8 @@
     "deadlocks",
     "deadlock",
     "Deadlock",
-    "stacks"
+    "stacks",
+    "threads",
+    "dummy"
   ]
 }

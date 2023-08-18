@@ -6,25 +6,25 @@ El manejo del espacio libre puede ser fácil cuando utilizamos paginación, ya q
 
 Hay dos problemas a resolver cuando tratamos con este manejo:
 
-- ***Fragmentation Externa:*** Ocurre cuando el espacio libre es separado en pequeños fragmentos de distintos tamaños, esto puede ocasionar que no tengamos la memoria que necesitamos de forma contigua.
-- ***Fragmentación Interna:*** Ocurre cuando el le damos mas memoria al usuario de la que necesita, por lo que tendrá memoria sin utilizar.
+- **Fragmentation Externa:** Ocurre cuando el espacio libre es separado en pequeños fragmentos de distintos tamaños, esto puede ocasionar que no tengamos la memoria que necesitamos de forma contigua.
+- **Fragmentación Interna:** Ocurre cuando el le damos mas memoria al usuario de la que necesita, por lo que tendrá memoria sin utilizar.
 
 Nos centraremos en el primer problema por simplificación, y debido a que su análisis es más interesante.
 
 Cuando le entregamos una región de memoria a un usuario, esta no puede ser movida, le corresponde totalmente al usuario. No podemos compactar el espacio como hacíamos con el sistema operativo.
 
-Para manejar el tamaño de las regiones entregadas al usuario, la mayoría de los ***allocators*** utilizan los llamados ***headers***. Reservan un poco de memoria extra justo antes de la región para guardar información útil sobre la misma, metadata. Tanto ***malloc*** como ***free*** utilizan estos headers como lenguaje común para operar.
+Para manejar el tamaño de las regiones entregadas al usuario, la mayoría de los *allocators* utilizan los llamados *headers*. Reservan un poco de memoria extra justo antes de la región para guardar información útil sobre la misma, metadata. Tanto `malloc` como `free` utilizan estos headers como lenguaje común para operar.
 
 ## Mecanismos de Bajo Nivel
 
 Antes de investigar sobre las políticas del manejo de memoria, hay algunos mecanismos útiles que nos permitirán mejorar estas problemáticas.
 
-- ***Splitting:*** Si tenemos una región más grande de lo que el usuario pidió, entonces esta se puede partir en dos, dándole al usuario la región justa. Esto previene fragmentación interna.
-- ***Coalescing:*** Cuando liberamos una región, debemos unirla con las regiones libres contiguas para mejorar la fragmentación externa.
+- **Splitting:** Si tenemos una región más grande de lo que el usuario pidió, entonces esta se puede partir en dos, dándole al usuario la región justa. Esto previene fragmentación interna.
+- **Coalescing:** Cuando liberamos una región, debemos unirla con las regiones libres contiguas para mejorar la fragmentación externa.
 
 ## Crecimiento del Heap
 
-Cuando nos quedamos sin regiones libres del tamaño necesario para entregarle al usuario, debemos pedirle al sistema operativo más memoria. Las *system calls* ***sbrk*** y ***mmap*** cumplen este propósito. Al aumentar el tamaño del ***heap,*** tendremos más memoria disponible y podemos dársela al usuario.
+Cuando nos quedamos sin regiones libres del tamaño necesario para entregarle al usuario, debemos pedirle al sistema operativo más memoria. Las *system calls* ***sbrk*** y ***mmap*** cumplen este propósito. Al aumentar el tamaño del *heap,* tendremos más memoria disponible y podemos dársela al usuario.
 
 ## Estrategias de Búsqueda
 

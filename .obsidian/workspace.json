@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas Operativos/Espacio de Direcciones.md",
+                "file": "Sistemas Operativos/Free-Space Management.md",
                 "mode": "source",
                 "source": true
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operativos/Espacio de Direcciones.md"
+                "file": "Sistemas Operativos/Free-Space Management.md"
               }
             }
           },
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operativos/Espacio de Direcciones.md",
+                "file": "Sistemas Operativos/Free-Space Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operativos/Espacio de Direcciones.md",
+                "file": "Sistemas Operativos/Free-Space Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,8 +157,10 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "178700d707526f5b",
+  "active": "752e8362b822a823",
   "lastOpenFiles": [
+    "Sistemas Operativos/Estructuras Concurrentes.md",
+    "Sistemas Operativos/Espacio de Direcciones.md",
     "Sistemas Operativos/Ejecucion Directa.md",
     "Sistemas Operativos/Indice.md",
     "Sistemas Operativos/Concurrencia.md",
@@ -184,8 +185,6 @@
     "Algoritmos II/Indice.md",
     "Analisis de la Informacion/Indice.md",
     "Analisis Numerico/Indice.md",
-    "Estructura del Computador/Indice.md",
-    "Fisica I/Indice.md",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
     "Estructura del Computador/Circuitos Asincronicos.html",
     "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",
