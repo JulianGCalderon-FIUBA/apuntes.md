@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464.5
+    "width": 464.5,
+    "collapsed": true
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -157,7 +158,7 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "752e8362b822a823",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
     "Fisica I/Trabajo y Energia.md",
     "Organizacion de Datos/Support Vector Machines.md",
