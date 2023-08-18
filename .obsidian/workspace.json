@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas Operativos/Concurrencia.md",
+                "file": "Sistemas Operativos/Espacio de Direcciones.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operativos/Concurrencia.md"
+                "file": "Sistemas Operativos/Espacio de Direcciones.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operativos/Concurrencia.md",
+                "file": "Sistemas Operativos/Espacio de Direcciones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operativos/Concurrencia.md",
+                "file": "Sistemas Operativos/Espacio de Direcciones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,6 +159,9 @@
   },
   "active": "752e8362b822a823",
   "lastOpenFiles": [
+    "Sistemas Operativos/Ejecucion Directa.md",
+    "Sistemas Operativos/Indice.md",
+    "Sistemas Operativos/Concurrencia.md",
     "Sistemas Operativos/Bugs de Concurrencia.md",
     "To-Do.md",
     "Probabilidad y Estadistica/Indice.md",
@@ -182,9 +185,6 @@
     "Analisis Numerico/Indice.md",
     "Estructura del Computador/Indice.md",
     "Fisica I/Indice.md",
-    "Fisica II/Indice.md",
-    "Sistemas Operativos/Indice.md",
-    "Modelos y Optimizacion I/Indice.md",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
     "Estructura del Computador/Circuitos Asincronicos.html",
     "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",

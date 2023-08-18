@@ -149,6 +149,7 @@
     "metadata",
     "deadlocks",
     "deadlock",
-    "Deadlock"
+    "Deadlock",
+    "stacks"
   ]
 }

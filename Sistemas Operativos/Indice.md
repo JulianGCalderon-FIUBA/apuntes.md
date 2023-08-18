@@ -6,7 +6,7 @@ Breve resumen de los contenidos teóricos de la materia, consultar la bibliograf
 
 - [[Introduccion a Sistemas Operativos]]
 - [[Los procesos]]
-- [[Ejecucion Directa]]
+- [[Ejecucion Directa|Ejecución Directa]]
 - [[Espacio de Direcciones]]
 - [[API de Memoria]]
 - [[Traduccion de Direcciones]]

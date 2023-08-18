@@ -16,9 +16,9 @@ La segunda razón es un poco más sutil: para evitar que un programa se ralentiz
 
 ## Intercambio de Información
 
-Cuando utilizamos hilos, el resultado de la ejecución es **no determinística**, esto es debido a que el scheduler ***decide en que orden ejecutar los hilos, por lo que el resultado es **indeterminado**.
+Cuando utilizamos hilos, el resultado de la ejecución es **no determinística**, esto es debido a que el scheduler decide en que orden ejecutar los hilos, por lo que el resultado es **indeterminado.**
 
-Como no sabemos el orden en que se ejecutarán los hilos, es muy difícil manejar de forma correcta las variables compartidas entre los distintos hilos. Cuando dos hilos quieren utilizar la misma variable al mismo tiempo, se producen algo conocido como **condiciones de carrera** o *race conditions*, el resultado de la ejecución dependerá de que proceso se ejecuta antes, lo que puede ocasionar resultados inesperados.
+Como no sabemos el orden en que se ejecutarán los hilos, es muy difícil manejar de forma correcta las variables compartidas entre los distintos hilos. Cuando dos hilos quieren utilizar la misma variable al mismo tiempo, se producen algo conocido como **condiciones de carrera** o *race conditions*, el resultado de la ejecución dependerá de qué proceso se ejecuta antes, lo que puede ocasionar resultados inesperados.
 
 Las porciones de código que pueden ocasionar una condición de carrera se conocen como **secciones críticas,** una sección crítica es una porción del código que accede a una variable compartida (o cualquier recurso compartido).
 
@@ -30,4 +30,4 @@ Para obtener esto, necesitamos una técnica conocida como **atomic operation.** 
 
 Si logramos que las secciones críticas sean operaciones atómicas, entonces no tendremos condiciones de carrera. La operación una vez empieza no puede ser interrumpida, por lo que ningún cambio de contexto puede alterar el resultado.
 
-Normalmente no podremos encontrar una operación atómica para nuestra sección crítica, por lo que debemos recurrir a otra técnica: **primitivas de sincronización**. Utilizando soporte del hardware, podremos construir un programa ***multi-threaded*** que acceda a secciones criticas de forma sincronizada y controlada.
+Normalmente, no podremos encontrar una operación atómica para nuestra sección crítica, por lo que debemos recurrir a otra técnica: **primitivas de sincronización**. Utilizando soporte del hardware, podremos construir un programa *multi-threaded* que acceda a secciones críticas de forma sincronizada y controlada.

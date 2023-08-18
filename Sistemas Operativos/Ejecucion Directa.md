@@ -1,5 +1,5 @@
 ---
-title: Ejecucion Directa
+title: Ejecución Directa
 ---
 
 Para virtualizar el procesador, el sistema operativo necesita de alguna forma compartir el procesador físico entre múltiples procesos. ***Time sharing*** es una simple idea que soluciona este problema.
