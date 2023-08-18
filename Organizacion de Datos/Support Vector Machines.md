@@ -22,9 +22,7 @@ Para utilizar el margen, se puede utilizar la validación cruzada:
 
 Cuando analizamos otras dimensiones, entonces los márgenes ya no serán puntos:
 
-![[Support Vector Machines 2.png|205]]
-
-![[Support Vector Machines 3.png|207]]
+![[Support Vector Machines 2.png|230]] ![[Support Vector Machines 3.png|257]]
 
 La ventaja de este método es que puede soportar la existencia de outliers.
 

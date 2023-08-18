@@ -50,7 +50,9 @@ Cuando una neurona gana, actualiza los pesos de todas las neuronas dentro de un 
 
 Estos radios disminuyen hasta que no se realicen cambios. Al final, se generan vecindarios
 
-![[Redes Neuronales 5.png|125]] ![[Redes Neuronales 6.png|200]]![[Redes Neuronales 7.png|200]]
+![[Redes Neuronales 5.png|225]] ![[Redes Neuronales 6.png|300]]
+
+![[Redes Neuronales 7.png|250]]
 
 ## Backpropagation
 

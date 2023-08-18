@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Organizacion de Datos/Redes Neuronales.md",
+                "file": "Fisica I/Trabajo y Energia.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Organizacion de Datos/Redes Neuronales.md"
+                "file": "Fisica I/Trabajo y Energia.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Organizacion de Datos/Redes Neuronales.md",
+                "file": "Fisica I/Trabajo y Energia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Organizacion de Datos/Redes Neuronales.md",
+                "file": "Fisica I/Trabajo y Energia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,12 +160,12 @@
   },
   "active": "752e8362b822a823",
   "lastOpenFiles": [
+    "Organizacion de Datos/Support Vector Machines.md",
+    "Organizacion de Datos/Redes Neuronales.md",
     "Analisis Matematico II/Curvas y Superficies.md",
     "Analisis Matematico II/Indice.md",
     "Organizacion de Datos/Indice.md",
-    "Organizacion de Datos/Redes Neuronales.md",
     "Organizacion de Datos/Redes Recurrentes.md",
-    "Organizacion de Datos/Support Vector Machines.md",
     "Analisis Matematico II/Cuadricas.md",
     "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
     "Estructura del Computador/Circuitos Asincronicos.md",

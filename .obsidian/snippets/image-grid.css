@@ -1,10 +1,7 @@
 
 
 p:has(img) {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, auto);
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  justify-items: center;
-  align-content: center;
 }
