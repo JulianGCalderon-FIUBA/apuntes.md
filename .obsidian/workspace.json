@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/!\\[\\[.*\\]\\]\\s+!",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
