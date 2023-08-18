@@ -8,74 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "357de9dedd67fdee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Organizacion de Datos/Indice.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "505df3c08b3f2550",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analisis Matematico II/Indice.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0163705b97bde9d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analisis Matematico II/Indice.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f79c4fa0b90d49b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analisis Matematico II/Indice.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8ec340ecd48e0106",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analisis Matematico II/Curvas y Superficies.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5fef68238c2c7cfd",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "752e8362b822a823",
             "type": "leaf",
             "state": {
@@ -87,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -229,8 +160,11 @@
   },
   "active": "752e8362b822a823",
   "lastOpenFiles": [
-    "Organizacion de Datos/Redes Recurrentes.md",
+    "Analisis Matematico II/Curvas y Superficies.md",
+    "Analisis Matematico II/Indice.md",
+    "Organizacion de Datos/Indice.md",
     "Organizacion de Datos/Redes Neuronales.md",
+    "Organizacion de Datos/Redes Recurrentes.md",
     "Organizacion de Datos/Support Vector Machines.md",
     "Analisis Matematico II/Cuadricas.md",
     "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
@@ -242,19 +176,16 @@
     "Algoritmos I/Indice.md",
     "Algoritmos II/Indice.md",
     "Analisis de la Informacion/Indice.md",
-    "Analisis Matematico II/Indice.md",
     "Analisis Numerico/Indice.md",
     "Estructura del Computador/Indice.md",
     "Fisica I/Indice.md",
     "Fisica II/Indice.md",
     "Probabilidad y Estadistica/Indice.md",
     "Sistemas Operativos/Indice.md",
-    "Organizacion de Datos/Indice.md",
     "Modelos y Optimizacion I/Indice.md",
     "Modelos y Optimizacion I/Planteo Dual.md",
     "Matematica Discreta/Indice.md",
     "Introduccion a Sistemas Distribuidos/Indice.md",
-    "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
     "Estructura del Computador/Circuitos Asincronicos.html",
     "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",

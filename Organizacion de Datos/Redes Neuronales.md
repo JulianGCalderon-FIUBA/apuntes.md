@@ -32,11 +32,11 @@ El perceptrón en definitiva, crea una línea que corta el plano, esto permite g
 
 Para los problemas que no son linealmente separables, podemos utilizar múltiples capas para generar redes más complejas
 
-![[Redes Neuronales 3.png]]
+![[Redes Neuronales 3.png|419]]
 
 Ejemplo de perceptrón multicapa
 
-![[Redes Neuronales 4.png]]
+![[Redes Neuronales 4.png|325]]
 
 Separación del plano de forma compleja
 
@@ -50,7 +50,7 @@ Cuando una neurona gana, actualiza los pesos de todas las neuronas dentro de un 
 
 Estos radios disminuyen hasta que no se realicen cambios. Al final, se generan vecindarios
 
-![[Redes Neuronales 5.png|250]] ![[Redes Neuronales 6.png|200]]![[Redes Neuronales 7.png|250]]
+![[Redes Neuronales 5.png|200]] ![[Redes Neuronales 6.png|250]]![[Redes Neuronales 7.png|250]]
 
 ## Backpropagation
 
