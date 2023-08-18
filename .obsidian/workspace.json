@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "8ec340ecd48e0106",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analisis Matematico II/Metodos de Resolucion.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5fef68238c2c7cfd",
             "type": "leaf",
             "state": {
@@ -64,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -131,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analisis Matematico II/index.md"
+                "file": "Analisis Matematico II/Metodos de Resolucion.md"
               }
             }
           },
@@ -141,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analisis Matematico II/index.md",
+                "file": "Analisis Matematico II/Metodos de Resolucion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analisis Matematico II/index.md",
+                "file": "Analisis Matematico II/Metodos de Resolucion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,10 +215,10 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "f79c4fa0b90d49b8",
+  "active": "8ec340ecd48e0106",
   "lastOpenFiles": [
-    "Analisis Matematico II/Metodos de Resolucion.md",
     "Analisis Matematico II/index.md",
+    "Analisis Matematico II/Metodos de Resolucion.md",
     "Analisis Matematico II/Limites.md",
     "To-Do.md",
     "Sistemas Operativos/Bugs de Concurrencia.md",
