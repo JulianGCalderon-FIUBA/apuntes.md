@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Organizacion de Datos/Redes Neuronales.md",
+                "file": "Analisis Matematico II/Integrales de Linea.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Un conjunto es simplemente conexo",
+                "query": "Un conjunto es simplemente conexo si para toda curva cerrada contenida en",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Organizacion de Datos/Redes Neuronales.md"
+                "file": "Analisis Matematico II/Integrales de Linea.md"
               }
             }
           },
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Organizacion de Datos/Redes Neuronales.md",
+                "file": "Analisis Matematico II/Integrales de Linea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Organizacion de Datos/Redes Neuronales.md",
+                "file": "Analisis Matematico II/Integrales de Linea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,11 +158,11 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "178700d707526f5b",
+  "active": "752e8362b822a823",
   "lastOpenFiles": [
+    "Organizacion de Datos/Redes Neuronales.md",
     "Fisica I/Trabajo y Energia.md",
     "Organizacion de Datos/Support Vector Machines.md",
-    "Organizacion de Datos/Redes Neuronales.md",
     "Analisis Matematico II/Curvas y Superficies.md",
     "Analisis Matematico II/Indice.md",
     "Organizacion de Datos/Indice.md",
