@@ -2,25 +2,25 @@
 title: Locks
 ---
 
-Se introduce el concepto de ***lock***, estos permiten exclusión mutua de una parte del código para prevenir condiciones de carrera. Las secciones críticas se ejecutan como si fuesen operaciones atómicas.
+Se introduce el concepto de *lock*, estos permiten exclusión mutua de una parte del código para prevenir condiciones de carrera. Las secciones críticas se ejecutan como si fuesen operaciones atómicas.
 
-Una lock es una variable, esta almacena su estado interno en un instante de tiempo. Permitiendo que solo un hilo pueda adquirir el ***lock***. Dentro también se puede almacenar otra información, como una cola de adquisición, o a que hilo le pertenece.
+Una lock es una variable, esta almacena su estado interno en un instante de tiempo. Permitiendo que solo un hilo pueda adquirir el lock. Dentro también se puede almacenar otra información, como una cola de adquisición, o a que hilo le pertenece.
 
-El nombre de la biblioteca que usa los ***locks*** se llama ***mutex***, ya que provee ***mutual exclusión*** entre ***threads***.
+El nombre de la biblioteca que usa los locks se llama *mutex*, ya que provee *mutual exclusión* entre *threads*.
 
-La semántica de las rutinas es simple: Llamar a `lock()` para tratar de adquirir el ***lock***, si ningún otro ***thread*** lo tiene, entonces se adquiere el ***lock*** y se entra en una sección crítica. Si otro ***thread*** tiene el ***lock***, entonces se espera a que se libere. Una vez el dueño del ***lock*** lo libera, este esta libre nuevamente para que otro ***thread*** lo acceda.
+La semántica de las rutinas es simple: Llamar a `lock()` para tratar de adquirir el lock, si ningún otro thread lo tiene, entonces se adquiere el lock y se entra en una sección crítica. Si otro thread tiene el lock, entonces se espera a que se libere. Una vez el dueño del lock lo libera, este esta libre nuevamente para que otro thread lo acceda.
 
 ## Evaluación de Locks
 
-Antes de construir un ***lock,*** necesitamos entender su objetivo y como evaluar su eficacia. Existen un par de criterios para esto:
+Antes de construir un lock, necesitamos entender su objetivo y como evaluar su eficacia. Existen un par de criterios para esto:
 
-- ***Correctness***:** U*n *lock* debe poder realizar su tarea básica, proveer exclusión mutua para secciones críticas.
-- ***Fairness:*** Todos los threads que quieren acceder a un lock deben tener la misma probabilidad de hacerlo.
-- **Performance:** Obtener y liberar un ***lock*** debe ser eficiente en distintas circunstancias: un único thread corre y utiliza el lock; multiples ***threads*** compiten por el ***lock***; múltiples ***threads*** en distintos procesadores compiten por el ***lock***.
+- **Correctness**: Un lock debe poder realizar su tarea básica, proveer exclusión mutua para secciones críticas.
+- **Fairness:** Todos los threads que quieren acceder a un lock deben tener la misma probabilidad de hacerlo.
+- **Performance:** Obtener y liberar un lock debe ser eficiente en distintas circunstancias: un único thread corre y utiliza el lock; multiples threads compiten por el lock; múltiples threads en distintos procesadores compiten por el lock.
 
 ## Controlar Interrupciones
 
-Una de las formas más simples de implementar un ***lock***es a través de deshabilitar las interrupciones cuando se entra en una sección crítica. Este enfoque es simple, aunque tiene muchas desventajas.
+Una de las formas más simples de implementar un lock es a través de deshabilitar las interrupciones cuando se entra en una sección crítica. Este enfoque es simple, aunque tiene muchas desventajas.
 
 Los procesos pueden abusar este enfoque, para no ser interrumpidos y monopolizar el procesador. Además, este enfoque no funciona en multiprocesadores, ya que estos tienen sus propias interrupciones.
 
@@ -30,23 +30,23 @@ Por último, este enfoque es ineficiente. El código que deshabilita interrupcio
 
 ## Enfoque Fallido: Load/Store
 
-Se puede pensar en utilizar un ***flag*** en memoria que indique sin un ***lock*** está desbloqueado o no. Esto tiene ciertos inconvenientes. En primer lugar, se pueden dar casos en los que ambos hilos acceden al lock al mismo tiempo, seteando el flag como ***locked***. Esto provocaría comportamiento indeseado. Por otro lado, operaciones de ***spin-waiting***, esperar indefinidamente a que ocurra algo utiliza procesamiento, por lo que los ***threads*** en estado de espera estarían consumiendo procesamiento.
+Se puede pensar en utilizar un *flag* en memoria que indique sin un lock está desbloqueado o no. Esto tiene ciertos inconvenientes. En primer lugar, se pueden dar casos en los que ambos hilos acceden al lock al mismo tiempo, seteando el flag como *locked*. Esto provocaría comportamiento indeseado. Por otro lado, operaciones de *spin-waiting*, esperar indefinidamente a que ocurra algo utiliza procesamiento, por lo que los threads en estado de espera estarían consumiendo procesamiento.
 
 ## Test-And-Set
 
-La forma más simple de ***hardware support*** se conoce como la instrucción ***test-and-set (***o ***atomic exchange).*** Esta instrucción actualiza un valor en una dirección de memoria, devolviendo el valor anterior, esta operación se realiza de forma atómica. La razón del nombre es que permite verificar el valor anterior, mientras actualizar el valor nuevo.
+La forma más simple de *hardware support* se conoce como la instrucción *test-and-set (o atomic exchange).* Esta instrucción actualiza un valor en una dirección de memoria, devolviendo el valor anterior, esta operación se realiza de forma atómica. La razón del nombre es que permite verificar el valor anterior, mientras actualizar el valor nuevo.
 
-Esta simple instrucción es todo lo que necesitamos para implementar un ***spin lock***.
+Esta simple instrucción es todo lo que necesitamos para implementar un *spin lock*.
 
 ## Evaluación de Spin Lock
 
-Un ***spin lock*** es un tipo de ***lock*** donde un thread espera indefinidamente utilizando ciclos de la CPU hasta que el ***lock*** se libera. Para que esto funcione, necesitamos un *preemptive scheduler.* (para que tenga sentido, el planificador debe interrumpir ciertos hilos a través de un timer).
+Un *spin lock* es un tipo de lock donde un thread espera indefinidamente utilizando ciclos de la CPU hasta que el lock se libera. Para que esto funcione, necesitamos un *preemptive scheduler.* (para que tenga sentido, el planificador debe interrumpir ciertos hilos a través de un timer).
 
 Podemos hacer un análisis de su efectividad según los criterios mencionados anteriormente.
 
-- **C***orrectness***, el spin lock provee exclusión mutua.
-- **F***airness***, los spinlocks no proveen ninguna garantía de que un ***thread*** no va a esperar infinitamente.
-- ***Performance,*** si trabajamos con una única CPU, entonces ***s***e desperdician muchos ciclos, por lo que esta solución es extremadamente ineficiente. Con múltiples CPUs, este enfoque performa bastante bien (siempre y cuando haya aproximadamente la misma cantidad de ***threads*** que de **procesadores**).
+- **Correctness:** el spin lock provee exclusión mutua.
+- **Fairness:** los spinlocks no proveen ninguna garantía de que un thread no va a esperar infinitamente.
+- **Performance:** si trabajamos con una única CPU, entonces se desperdician muchos ciclos, por lo que esta solución es extremadamente ineficiente. Con múltiples CPUs, este enfoque performa bastante bien (siempre y cuando haya aproximadamente la misma cantidad de threads que de procesadores).
 
 ## Compare-And-Swap
 
