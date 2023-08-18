@@ -153,6 +153,8 @@
     "stacks",
     "threads",
     "dummy",
-    "headers"
+    "headers",
+    "Microkernel",
+    "microkernel"
   ]
 }

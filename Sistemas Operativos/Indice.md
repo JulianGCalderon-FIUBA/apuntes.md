@@ -4,7 +4,7 @@ title: Sistemas Operativos
 
 Breve resumen de los contenidos teóricos de la materia, consultar la bibliografía.
 
-- [[Introduccion a Sistemas Operativos]]
+- [[Introduccion a Sistemas Operativos|Introducción a Sistemas Operativos]]
 - [[Los procesos]]
 - [[Ejecucion Directa|Ejecución Directa]]
 - [[Espacio de Direcciones]]

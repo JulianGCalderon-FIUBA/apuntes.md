@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas Operativos/Introduccion a Sistemas Operativos.md",
+                "file": "Sistemas Operativos/Indice.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operativos/Introduccion a Sistemas Operativos.md"
+                "file": "Sistemas Operativos/Indice.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operativos/Introduccion a Sistemas Operativos.md",
+                "file": "Sistemas Operativos/Indice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operativos/Introduccion a Sistemas Operativos.md",
+                "file": "Sistemas Operativos/Indice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,8 +157,9 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "752e8362b822a823",
+  "active": "8c1036a0b0a45e3e",
   "lastOpenFiles": [
+    "Sistemas Operativos/Introduccion a Sistemas Operativos.md",
     "Sistemas Operativos/Introduccion a Paginacion.md",
     "Sistemas Operativos/Indice.md",
     "index.md",
@@ -184,7 +185,6 @@
     "Fisica II/Circuito Electrico.md",
     "Algebra II/Indice.md",
     "Algoritmos I/Indice.md",
-    "Algoritmos II/Indice.md",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
     "Estructura del Computador/Circuitos Asincronicos.html",
     "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",
