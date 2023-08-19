@@ -6,7 +6,7 @@ La definición simple (aunque incompleta) de un proceso es: un programa corriend
 
 ## Mecanismos
 
-Para generar la ilusión de que un sistema pueda tener cientos de programas siendo ejecutados al mismo tiempo, el sistema operativo genera abstracciones del hardware. A partir de la técnica básica **time sharing**, múltiples programas pueden compartir el procesador.
+Para generar la ilusión de que un sistema pueda tener cientos de programas siendo ejecutados al mismo tiempo, el sistema operativo genera abstracciones del hardware. A partir de la técnica básica **time sharing,** múltiples programas pueden compartir el procesador.
 
 Para lograr estas virtualizaciones, el sistema operativo necesita tanto mecanismos de bajo nivel, como inteligencia de alto nivel.
 
@@ -20,42 +20,44 @@ Por encima del hardware están las *policies*, algoritmos que toman decisiones e
 
 Llamaremos entonces un proceso, a la abstracción generada por el sistema operativo para ejecutar un programa. El *machine state* son los componentes principales que un proceso necesita:
 
-- **Address Space**: Espacio de direcciones virtual del proceso
-- **Program Counter**: Contiene la dirección a la próxima instrucción a ejecutar
-- **Stack Pointer**: Puntero al tope del stack
-- **Frame Pointer**: Se utiliza para manejar los parámetros y el retorno de funciones.
+- **Address Space:** Espacio de direcciones virtual del proceso
+- **Program Counter:** Contiene la dirección a la próxima instrucción a ejecutar
+- **Stack Pointer:** Puntero al tope del stack
+- **Frame Pointer:** Se utiliza para manejar los parámetros y el retorno de funciones.
 
 ## API del Proceso
 
 El sistema operativo debe proveer una serie de mecanismos para poder crear nuevos procesos.
 
-- ***Create**:* Debe incluir algún método para crear un proceso
-- ***Destroy**:* Así como existe la creación, también debe poder destruirse.
-- ***Wait**:* Muchas veces es útil tener algún mecanismo para hacer que un proceso espere a que otro proceso termine su ejecución
-- ***Miscellaneous Control**:* El sistema operativo suele proveer otras funciones útiles para el control de un proceso
-- ***Status:*** Se debe poder obtener el estado de un proceso, información acerca del mismo.
+- **Create:** Debe incluir algún método para crear un proceso
+- **Destroy:** Así como existe la creación, también debe poder destruirse.
+- **Wait:** Muchas veces es útil tener algún mecanismo para hacer que un proceso espere a que otro proceso termine su ejecución
+- **Miscellaneous Control:** El sistema operativo suele proveer otras funciones útiles para el control de un proceso
+- **Status:** Se debe poder obtener el estado de un proceso, información acerca del mismo.
 
 ### API de Linux
 
-En Linux, tenemos tres system calls principales para administrar procesos:
+En Linux, tenemos tres *system calls* principales para administrar procesos:
 
-- `fork()`
+#### `fork()`
 
-	Al llamarse a esta rutina, el sistema operativo crea un proceso completamente nuevo, como copia casi totalmente idéntica del proceso padre. Toda la información del proceso es clonada a otro espacio de memoria. Creando un nuevo proceso totalmente independiente. El PID o ***process identifier*** es lo único que se modifica, ya que estamos tratando con un proceso distinto.
+Al llamarse a esta rutina, el sistema operativo crea un proceso completamente nuevo, como copia casi totalmente idéntica del proceso padre. Toda la información del proceso es clonada a otro espacio de memoria. Creando un nuevo proceso totalmente independiente. El PID o ***process identifier*** es lo único que se modifica, ya que estamos tratando con un proceso distinto.
 
-	Para que el proceso conozca si es el padre o el hijo, la system call tiene dos valores de retorno. El hijo recibe un cero, mientras que el padre recibe el PID del hijo.
+Para que el proceso conozca si es el padre o el hijo, la *system call* tiene dos valores de retorno. El hijo recibe un cero, mientras que el padre recibe el PID del hijo.
 
-	Debido a que el scheduler es complejo, nunca podremos definir en que orden se ejecutarán los procesos.
+Debido a que el scheduler es complejo, nunca podremos definir en que orden se ejecutarán los procesos.
 
-- `wait()`
+#### `wait()`
 
-	Esta system call permite frenar la ejecución de un proceso hasta que alguno de sus procesos hijos termine su ejecución, recolectando la información de los procesos zombies y eliminandolos, es recomendable hacer esto siempre para no dejar procesos ***huérfanos***.
+Esta system call permite frenar la ejecución de un proceso hasta que alguno de sus procesos hijos termine su ejecución, recolectando la información de los procesos zombies y eliminandolos, es recomendable hacer esto siempre para no dejar procesos ***huérfanos***.
 
-- `exec()`
+#### `exec()`
 
-	Esta system call ejecuta un nuevo proceso, interrumpiendo totalmente el proceso anterior. Algunos datos se mantienen, como por ejemplo el *PID* y los ***file descriptors*** del proceso original. Carga el nuevo programa en memoria, y se reinicializa el *stack* y el *heap.*
+Esta system call ejecuta un nuevo proceso, interrumpiendo totalmente el proceso anterior. Algunos datos se mantienen, como por ejemplo el *PID* y los ***file descriptors*** del proceso original. Carga el nuevo programa en memoria, y se reinicializa el *stack* y el *heap.*
 
 La separación de las *system calls* `fork()` *y* `exec()` es muy útil ya que permite modificar un proceso entre el llamado a esas dos funciones. Lo que permite por ejemplo, modificar los file descriptors de un proceso.
+
+#### Algunas mas
 
 Además de estas funciones principales, existen funciones que permiten enviar señales a los procesos. `kill()` permite enviar señales a un sistema, como pausarlo o terminarlo. El sistema operativo posee un infraestructura compleja para poder entregarle eventos externos a los procesos.
 
