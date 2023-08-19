@@ -134,7 +134,7 @@ Por el otro lado, analizaremos algunas ventajas y desventajas de routers.
 
 En general, para redes pequeñas, los ***switches*** suelen ser suficientes. A medida que crece el tamaño de nuestra red, nos resultara conveniente optar por la utilización de routers.
 
-## 4. Virtual Local Area Networks (VLANs)
+## 4. Virtual Local Area Networks (VLAN)
 
 Usualmente las redes ***switched LAN*** son configuradas jerárquicamente, donde cada grupo contiene su propia ***switched LAN*** que es a su vez conectada con otros grupos a través de una jerarquía de ***switches.*** Podemos identificar tres inconvenientes principales de esta configuración:
 
@@ -152,4 +152,4 @@ Al aislar completamente los grupos, nos encontramos con un nuevo problema. Para 
 
 ¿Qué pasa si los dos grupos están situados en distintos edificios? En ese caso se utiliza la técnica de ***VLAN trunking***. Se designa un puerto, en especial en cada switch, asociado con todos los grupos, que se utilizara para conectar ambos switches. Cuando se quiere enviar un paquete a un grupo externo, se enviara a este puerto, el cual utilizará el ***VLAN tag*** (campo del header de ethernet) para determinar a qué grupo reenviar el paquete.
 
-En las ***MAC-based VLANs***, el administrador de red especifica que conjunto de direcciones MAC le pertenecen a cada grupo. También se permite que las redes VLAN se extiendan entre routers de IP, permitiendo islas de LAN interconectadas a través del mundo.
+En las ***MAC-based VLAN***, el administrador de red especifica que conjunto de direcciones MAC le pertenecen a cada grupo. También se permite que las redes VLAN se extiendan entre routers de IP, permitiendo islas de LAN interconectadas a través del mundo.

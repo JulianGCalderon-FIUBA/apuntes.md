@@ -29,7 +29,7 @@ Se dice que este enfoque es de ***software-defined networking (SDN),*** debido a
 
 ## 2. Network Service Model
 
-El modelo de servicio de red define las características del envío end-to-end entres dos ***hosts,*** estos pueden incluir:
+El modelo de servicio de red define las características del envío end-to-end entres dos hosts, estos pueden incluir:
 
 - ***Guaranteed delivery:*** Garantiza que un paquete enviado llegue eventualmente a destino
 - ***Guaranteed delivery with bounded delay:*** El paquete enviado llegara a destino dentro de un rango de ***delay*** especificado

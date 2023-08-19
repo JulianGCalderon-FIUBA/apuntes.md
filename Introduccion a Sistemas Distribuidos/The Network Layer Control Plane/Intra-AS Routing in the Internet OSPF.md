@@ -7,7 +7,7 @@ En la práctica, la idea de que todos los routers ejecutan el mismo algoritmo de
 - ***Scale.*** A medida que aumenta el número de routers, el costo de comunicación y cómputo se vuelve inmanejable.
 - ***Administrative Autonomy.*** El internet es una red interconectada de ISP, cada uno consistiendo en su propia red de routers. Usualmente los ISP querrán administrar su red de la forma que quieran, por lo que sería imposible que todos ejecuten el mismo algoritmo.
 
-Ambos problemas se solucionan al organizar los routers en autonomous systems *(ASs)*. Cada AS consiste en un grupo de routers bajo el mismo control administrativo. Usualmente los ISPs constituyen un único AS, aunque algunos ISP pueden dividir su red en múltiples de ellos. Los sistemas autónomos son identificados por su ***globally unique autonomous system number (ASN)***.
+Ambos problemas se solucionan al organizar los routers en autonomous systems *(AS)*. Cada AS consiste en un grupo de routers bajo el mismo control administrativo. Usualmente los ISP constituyen un único AS, aunque algunos ISP pueden dividir su red en múltiples de ellos. Los sistemas autónomos son identificados por su ***globally unique autonomous system number (ASN)***.
 
 Los routers dentro de un mismo AS ejecutarán el mismo algoritmo de ruteo y compartirán información entre ellos. El protocolo de ruteo se llamará ***intra-autonomous system routing protocol***.
 

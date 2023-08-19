@@ -111,7 +111,7 @@ $$
 K[I+B] = S_{I+B-1}^{-1}[\text{Out}] - j_{I+B-1} - S_{I+B-1}[I+B]
 $$
 
-Algo importante a notar, es que este ataque requiere de una gran cantidad de paquetes encriptados con distintos $\text{IVs}$, por lo que si los ***hosts,*** en lugar de utilizar valores distintos cada vez, alternan entre dos o una pequeña cantidad valores distintos, entonces el ataque deja de funcionar.
+Algo importante a notar, es que este ataque requiere de una gran cantidad de paquetes encriptados con distintos $\text{IV}$, por lo que si los hosts, en lugar de utilizar valores distintos cada vez, alternan entre dos o una pequeña cantidad valores distintos, entonces el ataque deja de funcionar.
 
 Cabe notar que si ocurre esto, la red será susceptible a otro tipo de ataques. Debido a que es posible obtener el flujo de claves a través del cifrado y el valor desencriptado, si un ataque obtiene esto podrá desencriptar fácilmente todos los paquetes provenientes del mismo vector de inicialización, incluso sin conocer la clave.
 
@@ -137,7 +137,7 @@ El segundo elemento que necesitamos, es conocer la primera palabra de los segmen
 
 ## Obtención de Paquetes
 
-Como vimos, el método requiere de, inicialmente, recolectar un gran número de paquetes cifrados con distintos $\text{IVs}$. Una opción es esperar el tiempo necesario hasta recolectar los paquetes requeridos, pero existe un truco para acelerar el proceso.
+Como vimos, el método requiere de, inicialmente, recolectar un gran número de paquetes cifrados con distintos $\text{IV}$. Una opción es esperar el tiempo necesario hasta recolectar los paquetes requeridos, pero existe un truco para acelerar el proceso.
 
 Otra opción es la de tomar un paquete ya perteneciente a la red (encriptado con el mismo algoritmo), y reenviárselo repetidamente a uno de los nodos de la red. Esto también aumentará la carga de la red.
 

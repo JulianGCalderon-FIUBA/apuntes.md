@@ -8,7 +8,7 @@ La web permite que los usuarios consulten información de forma dinámica, en el
 
 El ***HyperText Transfer Protocol (HTTP)*** es el corazón de la web, un protocolo de capa de aplicación que utiliza el protocolo de transporte TCP.
 
-Una página web consiste en un conjunto de objetos, los objetos son simplemente archivos, como un HTML o ***JPEG,*** accesibles a través de una única URL. La mayoría de las páginas web consisten en un único archivo base, y múltiples objetos referenciados.
+Una página web consiste en un conjunto de objetos, los objetos son simplemente archivos, como un HTML o JPEG, accesibles a través de una única URL. La mayoría de las páginas web consisten en un único archivo base, y múltiples objetos referenciados.
 
 El navegador implementa el lado del cliente del protocolo HTTP, mientras que los ***web servers*** implementan el lado del servidor del protocolo. Estos almacenan objetos direccionables por una ***url***.
 
@@ -46,7 +46,7 @@ Finalmente, está ***entity body***. Él contiene el contenido del mensaje.
 
 Un ***response message*** tiene una estructura similar a la del pedido. La primera línea se conoce como ***status line*** y contiene información acerca del resultado del pedido. Este tiene tres campos: la versión del protocolo, un código de estado, y el mensaje de estado correspondiente. Los códigos de error más comunes son: ***200 OK***, indicando que el pedido fue exitoso. ***301 Moved Permanently,*** indicando que el objeto no está disponible en esa dirección y indicando la nueva ***url*** en los ***headers. 400 Bad Request***, es un código de error genérico para cualquier pedido que no fue entendido. ***404 Not Found,*** indicando que el documento no existe en el servidor. y ***505 HTTP Version Not Supported,*** indicando que la versión del protocolo utilizada no es soportada por el servidor.
 
-A continuación, al igual que en el ***request***, siguen las ***header lines*** y el *entity body.* Para el caso de una respuesta a un pedido de ***GET,*** esta sección contiene el objeto en sí.
+A continuación, al igual que en el ***request***, siguen las ***header lines*** y el *entity body.* Para el caso de una respuesta a un pedido de GET, esta sección contiene el objeto en sí.
 
 Para generar las líneas de cabecera adecuadas, el navegador genera estas líneas en función de la versión del protocolo utilizada, la configuración del usuario, y el ***cache*** del host. El servidor ***web*** se comporta de la misma forma, generando automáticamente ***header lines*** según la información disponible.
 
@@ -70,7 +70,7 @@ El navegador se conecta a un ***web cache*** y le hace un pedido HTTP. Si el ***
 
 Estos ***caches*** son desplegados usualmente por un ISP, por dos razones principales. En primer lugar puede reducir sustancialmente el tiempo de respuesta de un pedido de un cliente. Por otro lado, también reduce drásticamente el tráfico del ***access link*** de una institución hacia el internet.
 
-A través del uso de ***CDNs (Content Distribution Networks)***, los ***web caches*** cada vez cumplen un rol más importante en el internet. Estas compañías instalan múltiples ***caches*** distribuidos geográficamente para localizar el tráfico de internet.
+A través del uso de ***CDN (Content Distribution Networks)***, los ***web caches*** cada vez cumplen un rol más importante en el internet. Estas compañías instalan múltiples ***caches*** distribuidos geográficamente para localizar el tráfico de internet.
 
 ### The Conditional GET
 

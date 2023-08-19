@@ -6,7 +6,7 @@ title: Clases Prácticas
 
 **Latencia:** La latencia es el retardo entre un estímulo y la respuesta. Es un valor conceptual
 
-***RTT:*** El RTT es una medida aproximada de la latencia, es el tiempo que le toma a un paquete ir a un host de destino y volver. Una forma de medirlo es a través del comando ***ping***.
+RTT: El RTT es una medida aproximada de la latencia, es el tiempo que le toma a un paquete ir a un host de destino y volver. Una forma de medirlo es a través del comando ***ping***.
 
 Tiene cuatro componentes principales:
 
@@ -55,11 +55,11 @@ El protocolo TCP utiliza paquetes ***acks*** para indicarle al otro extremo de l
 
 El protocolo TCP puede tener los **siguientes parámetros**:
 
-- ***SIZE:*** Tamaño del archivo que se debe enviar
-- ***MSS:*** Es el tamaño máximo de los paquetes. Utilizaremos este valor como unidad para el análisis, debiendo pasar todos los valores a esta unidad.
+- SIZE: Tamaño del archivo que se debe enviar
+- MSS: Es el tamaño máximo de los paquetes. Utilizaremos este valor como unidad para el análisis, debiendo pasar todos los valores a esta unidad.
 - ***LW=1:*** Es el valor que toma la ventana de congestión luego de una perdida (al volver a la etapa ***slow start)***
-- ***IW:*** Es el valor que toma la ventana de congestión al inicio del protocolo
-- ***RTO:*** El tiempo establecido para los ***timer interrupts*** del ***ack*** de los paquetes.
+- IW: Es el valor que toma la ventana de congestión al inicio del protocolo
+- RTO: El tiempo establecido para los ***timer interrupts*** del ***ack*** de los paquetes.
 - **ssthresh:** Es el valor en el que el protocolo pasa a la etapa de ***congestion avoidance***.
 - ***cwnd:*** Es el valor de la ventana de congestión. Representa la cantidad de paquetes que puede al o sumo tener en vuelo
 - ***rwnd:*** Es el valor de la ventana de recepción del host del otro lado de la conexión. Representa la cantidad de paquetes que puede al o sumo tener en vuelo
@@ -87,7 +87,7 @@ El protocolo consta de las **siguientes etapas**:
     \text{cwnd}(n+1) = \text{cwnd}(n) + \frac{\#\text{ack}}{\text{cwnd}(n)}
     $$
 
-	Es decir, cuando arriban todos los paquetes que estaban en vuelo (siempre debe ser entero el valor), entonces aumentaremos la ventana de congestión en un ***MSS.***
+	Es decir, cuando arriban todos los paquetes que estaban en vuelo (siempre debe ser entero el valor), entonces aumentaremos la ventana de congestión en un MSS.
 
 - ***Fast Retransmit:*** Al entrar en esta fase, se reenvía inmediatamente el paquete que se presume perdido. En cuanto le llega el ***ack*** correspondiente, se avanza según el tipo de protocolo.
 	- ***Tahoe:*** Realiza lo mismo que tras un RTO, se establecen los siguientes valores y se vuelve a ***Slow Start (SS):***

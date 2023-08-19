@@ -97,7 +97,7 @@ Cuando el receptor recibe tres ACK duplicados, entonces realiza un ***fast retra
 
 ### Go-Back-N or Selective Repeat
 
-Un remitente TCP debe únicamente mantener el menor numero de secuencia transmitido pero no confirmado, y el numero de secuencia del proximo ***byte*** a enviar. En este sentido, es similar a un protocolo *GBN.* Sin embargo, tiene algunas diferencias importantes: en primer lugar, muchas implementaciones de TCP almacenan paquetes recibidos correctamente pero fuera de orden; por otro lado TCP únicamente retransmite el primer paquete recibido no confirmado ante un ***interrupt,*** en lugar de todos.
+Un remitente TCP debe únicamente mantener el menor numero de secuencia transmitido pero no confirmado, y el numero de secuencia del proximo ***byte*** a enviar. En este sentido, es similar a un protocolo GBN. Sin embargo, tiene algunas diferencias importantes: en primer lugar, muchas implementaciones de TCP almacenan paquetes recibidos correctamente pero fuera de orden; por otro lado TCP únicamente retransmite el primer paquete recibido no confirmado ante un ***interrupt,*** en lugar de todos.
 
 Una posible modificación de TCP consiste en el llamado ***selective acknowledgment*** que permite a un receptor confirmar paquetes fuera de orden de forma selectiva, en lugar de utilizar ***cumulative acknowledging***. Si lo combinamos con ***selective retransmission,*** nuestro protocolo TCP se parecerá bastante a nuestro protocolo genérico SR.
 
@@ -118,14 +118,14 @@ El host agregara este ultimo campo a los paquetes transferidos a través de la r
 
 A partir de estos dos valores, podremos calcular la cantidad de datos sin verificar que fueron enviados. El protocolo tratara de que esta cantidad nunca sea mayor al tamaño de la ventana del receptor.
 
-Para permitir que un host que únicamente recibe información le comunique al otro host su ***window***, entonces este valor también se agregara a los mensajes de ***ACKs.***
+Para permitir que un host que únicamente recibe información le comunique al otro host su ***window***, entonces este valor también se agregara a los mensajes de ACK.
 
 ### 6. TCP Connection Management
 
-Cuando una aplicación quiere iniciar una conexión ***TCP,*** este le informa al cliente TCP el cual procederá a establecer una conexión con el servidor.
+Cuando una aplicación quiere iniciar una conexión TCP, este le informa al cliente TCP el cual procederá a establecer una conexión con el servidor.
 
 1. El cliente enviara un segmento especial llamado ***SYN segment***, el cual no tiene información y contiene el ***SYN bit*** en 1. Este seleccionará automáticamente un numero de secuencia
-2. El servidor recibirá el segmento, reservara las variable necesarias para la conexión y enviara el ***ack*** con el ***SYN bit en 1***. Este segmento es conocido como ***SYNACK.*** Al igual que el cliente, seleccionará un numero aleatorio para su numero de secuencia.
+2. El servidor recibirá el segmento, reservara las variable necesarias para la conexión y enviara el ***ack*** con el ***SYN bit en 1***. Este segmento es conocido como SYNACK. Al igual que el cliente, seleccionará un numero aleatorio para su numero de secuencia.
 3. El cliente al recibir el segmento, reserva las variables necesarias para la conexión y envía un ***ack*** con el ***SYN bit*** en 0 ya que la conexión ya esta establecida. Este paquete puede contener información.
 
 Debido a estos tres pasos, este procedimiento se conoce como ***three-way handshake***.

@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
-                "mode": "preview",
+                "file": "To-Do.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md"
+                "file": "To-Do.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
+                "file": "To-Do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
+                "file": "To-Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,17 +159,19 @@
   },
   "active": "752e8362b822a823",
   "lastOpenFiles": [
+    "Introduccion a Sistemas Distribuidos/Application Layer/Indice.md",
+    "Introduccion a Sistemas Distribuidos/Application Layer/Principles of Network Applications.md",
+    "To-Do.md",
+    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Delay, Loss, and Throughput in Packet-Switched N.md",
+    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
+    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Indice.md",
+    "Introduccion a Sistemas Distribuidos/The Link Layer and LANs/Indice.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/The Network Core.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Networks Under Attack.md",
-    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Indice.md",
-    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Delay, Loss, and Throughput in Packet-Switched N.md",
-    "To-Do.md",
-    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Protocol Layers and Their Service Models.md",
     "Introduccion a Sistemas Distribuidos/Wireless and Mobile Networks/Indice.md",
     "Introduccion a Sistemas Distribuidos/Indice.md",
-    "Introduccion a Sistemas Distribuidos/Application Layer/Indice.md",
     "Introduccion a Sistemas Distribuidos/Wireless and Mobile Networks/Cellular Internet Access.md",
     "Introduccion a Sistemas Distribuidos/Wireless and Mobile Networks/Mobility Management Principles.md",
     "Introduccion a Sistemas Distribuidos/The Network Layer Data Plane/Indice.md",
@@ -177,14 +179,12 @@
     "Introduccion a Sistemas Distribuidos/The Network Layer Control Plane/Network Management and SNMP.md",
     "Introduccion a Sistemas Distribuidos/Transport Layer/Indice.md",
     "Introduccion a Sistemas Distribuidos/The Network Layer Control Plane/Indice.md",
-    "Introduccion a Sistemas Distribuidos/The Link Layer and LANs/Indice.md",
     "Introduccion a Sistemas Distribuidos/The Link Layer and LANs/Introduction of the Link Layer.md",
     "Introduccion a Sistemas Distribuidos/The Link Layer and LANs/Link Virtualization A Network as a Link Layer.md",
     "index.md",
     "Algebra II/Indice.md",
     "Algoritmos I/Indice.md",
     "Algoritmos II/Indice.md",
-    "Algoritmos II/Analisis de Algoritmos.md",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
     "Estructura del Computador/Circuitos Asincronicos.html",
     "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",

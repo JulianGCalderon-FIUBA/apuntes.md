@@ -6,7 +6,7 @@ DNS es un ejemplo de una protocolo de capa de aplicación que típicamente utili
 
 - **Control fino de la información que se envía, y cuando:** En UDP, tan pronto como le proceso de aplicación pasa la información a UDP, este crea un segmento y lo envía a través de la red. Por el otro lado, TCP puede retrasar el envió debido a su mecanismo de control de congestión. Por otro lado, TCP continuará enviando el segmento si no recibe un ***acknowledge*** de su llegada. Las aplicaciones de tiempo real utilizan UDP ya que pueden aceptar cierto grado pérdida de información.
 - ***Sin establecimiento de la conexión***: TCP utiliza un ***three-way handshake*** antes de empezar a transferir información, por lo que puede generar ***delay*** adicional en el envío de información.
-- ***Sin estado de la conexión:*** TCP mantiene un estado de la conexión en los ***hosts,*** incluye ***buffers***, y una numerosa cantidad de parámetros, por lo que puede ser más pesado que la utilización de un protocolo minimalista como UDP.
+- ***Sin estado de la conexión:*** TCP mantiene un estado de la conexión en los hosts, incluye ***buffers***, y una numerosa cantidad de parámetros, por lo que puede ser más pesado que la utilización de un protocolo minimalista como UDP.
 - **Pequeño **header overhead***:** El segmento TCP tiene 20 ***bytes** de **header***, a diferencia del segmento UDP que contiene únicamente 8 ***bytes***.
 
 Existen múltiples razones por las cuales una aplicación preferiría utilizar UDP, en especial aquellas aplicaciones de multimedia. Aunque es común, la utilización de UDP es controversial y a que no contiene un mecanismo de control de congestión.

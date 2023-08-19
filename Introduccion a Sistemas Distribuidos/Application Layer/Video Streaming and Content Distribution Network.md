@@ -18,7 +18,7 @@ En DASH, cada versión del video está almacenada en una ***url*** diferente. Ad
 
 ## 3. Content Distribution Networks
 
-La mayoría de grandes compañías de ***streaming*** utilizan ***Content Distribution Networks (CDNs)***. Estas redes gestionan servidores geográficamente distribuidos y guardan copias de los videos. Estas redes también tratan de redirigir a cada cliente a una localización que provea la mejor experiencia de usuario.
+La mayoría de grandes compañías de ***streaming*** utilizan ***Content Distribution Networks (CDN)***. Estas redes gestionan servidores geográficamente distribuidos y guardan copias de los videos. Estas redes también tratan de redirigir a cada cliente a una localización que provea la mejor experiencia de usuario.
 
 Usualmente, estas redes adoptan una de dos filosofías:
 
@@ -37,4 +37,4 @@ El CDN obtiene la dirección IP del cliente a través del ***DNS look-up***. Con
 
 Una estrategia simple es la de seleccionar el ***cluster*** que esté geográficamente más cerca. Pero esto no siempre resultará en el mejor rendimiento. Esto se debe a que muchas veces este no coincide con el más cercano en número de saltos.
 
-Para determinar el mejor cluster, las CDNs realizan medidas en tiempo real del delay y la pérdida de información entre los clientes y los clusters.
+Para determinar el mejor cluster, las CDN realizan medidas en tiempo real del delay y la pérdida de información entre los clientes y los clusters.

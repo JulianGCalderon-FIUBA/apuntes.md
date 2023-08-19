@@ -12,7 +12,7 @@ Existen dos rangos frecuencias principales, ***2.4*** y ***5.8***. Las redes ***
 
 El bloque fundamental de construcción de la arquitectura de 802.11 es el ***basic service set (BSS).*** Este contiene una o mas estaciones inalámbricas, y una estación base central, conocida como ***access point (AP).*** En una red típica de hogar, hay un AP y un router, típicamente integrados en la misma unidad.
 
-Las redes LAN inalámbricas que despliegan un ***access point*** son frecuentemente referidas como ***infrastructure wireless LANs***. Las estaciones, a su vez, pueden concentrase con otras estaciones formando una red descentralizada ***(ad hoc).***
+Las redes LAN inalámbricas que despliegan un ***access point*** son frecuentemente referidas como ***infrastructure wireless LAN***. Las estaciones, a su vez, pueden concentrase con otras estaciones formando una red descentralizada ***(ad hoc).***
 
 ### Channels and Association
 
@@ -22,7 +22,7 @@ Una jungla ***Wi-Fi*** es una cualquier punto donde se reciben suficientemente f
 
 Para que los dispositivos conozcan a un dado AP, este periódicamente envía ***beacon frames***, que incluyen el SSID de la red y una MAC address. El dispositivo, escanea los 11 canales para hallar las direcciones *Wi-Fi cercanas.* Este proceso se conoce somo *passive scanning*. ***Un dispositivo también puede realizar ***active scanning***, al enviar un ***probe frame*** que será recibido por todos los access points en el rango. Los access points responderán con un probe request frame.
 
-Una vez seleccionado el AP al cual desea conectare, enviara un ***association request frame*** a dicho AP. Este responderá con un ***association response frame***. Este intercambio es necesario incluso tras un escaneo activo, debido a que los APs no saben con cual AP deseara conectarse, luego del escaneo. Una vez recibida la confirmación, el dispositivo puede pedir una dirección IP utilizando el protocolo DHCP.
+Una vez seleccionado el AP al cual desea conectare, enviara un ***association request frame*** a dicho AP. Este responderá con un ***association response frame***. Este intercambio es necesario incluso tras un escaneo activo, debido a que los AP no saben con cual AP deseara conectarse, luego del escaneo. Una vez recibida la confirmación, el dispositivo puede pedir una dirección IP utilizando el protocolo DHCP.
 
 En algunas situaciones, un host necesitará autenticarse para crear una conexión. Existen diversas formas de realizarlo. Un enfoque podría ser utilizando la dirección MAC del dispositivo, otro enfoque, mas utilizado, podría ser la utilización de usuarios y contraseñas. En general, esta autenticación se realiza a partir de un servidor de autenticación, con el protocolo RADIUS.
 
@@ -63,7 +63,7 @@ El ***payload*** de frame contiene el datagrama de IP o un paquete ARP. Típicam
 
 ### Address Fields
 
-A diferencia de ***ethernet***, se tienen cuatro direcciones ***MAC.*** La primer dirección es la de la estación inalámbrica que recibe el ***frame***. La segunda reacción es la de la estación que envía el ***frame***.
+A diferencia de ***ethernet***, se tienen cuatro direcciones MAC. La primer dirección es la de la estación inalámbrica que recibe el ***frame***. La segunda reacción es la de la estación que envía el ***frame***.
 
 La tercera dirección indica la dirección MAC del router al cual se le quiere enviar el paquete, una vez llegado a la estación. Recordemos que la BBS es parte de una subnet que se conecta con otras para ***subnets*** a través de routers. Los routers no conocen la estaciones base intermedias entre el host y ellos, ya que estas no utilizan IP.
 
@@ -115,7 +115,7 @@ Existen dos protocolos en la familia de estándares ***802*** comúnmente utiliz
 
 ### Bluetooth
 
-Es una tecnología de bajo alcance, costo, y consumo de energía. Se utiliza comúnmente para conectar periféricos con una computadora. Estas redes, llamadas 802.15.1, a veces son conocidas como ***wireless personal area networks (WPANs)***.
+Es una tecnología de bajo alcance, costo, y consumo de energía. Se utiliza comúnmente para conectar periféricos con una computadora. Estas redes, llamadas 802.15.1, a veces son conocidas como ***wireless personal area networks (WPAN)***.
 
 Operan en el rango de los *2.4Ghz*, con time slots de *625ms*. Durante cada uno de estos ***time*** slots, un remitente envía por uno de los 79 canales, siendo el canal elegido de forma psuedo-aleatoria. Esta forma de cambio de canales se conoce como ***frequency-hopping spread spectrum (FHSS).*** Puede proveer tasas de hasta ***4Mbps***.
 
@@ -129,4 +129,4 @@ Existen dos tipos de nodos en una red de ***Zigbee***. Los ***reduced-function d
 
 Este protocolo utiliza ***acknowledgements*** similares a los de ***802.11***, y protocolos de CSMA con ***binary exponential backoff***. Ademas, permite la reserva de ***timeslots*** fijos y garantizados, similar a DOCSIS.
 
-Estas redes dividen al tiempo en ***timeslots*** activos e inactivos. Durante los ***timeslots*** inactivos, todos los dispositivos duermen, para ahorrar energía. Durante los ***timeslots*** activos, se puede enviar información a través de ***CSMA.*** Algunos de los ***timesltos*** serán reservados por el controlador para algunos dispositivos seleccionados.
+Estas redes dividen al tiempo en ***timeslots*** activos e inactivos. Durante los ***timeslots*** inactivos, todos los dispositivos duermen, para ahorrar energía. Durante los ***timeslots*** activos, se puede enviar información a través de CSMA. Algunos de los ***timesltos*** serán reservados por el controlador para algunos dispositivos seleccionados.

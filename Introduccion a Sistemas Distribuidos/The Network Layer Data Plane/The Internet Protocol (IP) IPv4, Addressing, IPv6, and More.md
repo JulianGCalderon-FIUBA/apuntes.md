@@ -38,7 +38,7 @@ Para determinar una ***subnet***, se desconectan todas las interfaces de su host
 
 La estrategia de asignamiento de direcciones de internet se conoce como ***Classless Interdomain Routing (CIDR)***. La dirección IP se divide en dos secciones y tiene la forma `a.b.c.d/x`, donde `x` indica el número de bits en la primer parte de la dirección. Esta sección es conocida como el prefijo.
 
-Una organización suele ser asignado un rango de conexiones con un prefijo común. Fuera de la organización, únicamente se utilizarán los bits del prefijo para enviar el paquete. Esto reduce considerablemente el tamaño de las ***forwarding tables***. Los restantes bits serán usados dentro de la organización para distinguir las direcciones **IP,** es posible que los bits restantes a su vez estén organizados en otras estructuras de **subredes**.
+Una organización suele ser asignado un rango de conexiones con un prefijo común. Fuera de la organización, únicamente se utilizarán los bits del prefijo para enviar el paquete. Esto reduce considerablemente el tamaño de las ***forwarding tables***. Los restantes bits serán usados dentro de la organización para distinguir las direcciones IP, es posible que los bits restantes a su vez estén organizados en otras estructuras de **subredes**.
 
 La habilidad de utilizar un único prefijo para anunciar múltiples redes se conoce como ***address aggregation***.
 
@@ -79,7 +79,7 @@ Algunos pueden argumentar que los números de puerto deben ser utilizados para i
 
 Los más puristas de la arquitectura argumentan que un router debería ser de capa de red y no debería interferir con los paquetes, mucho menos sus números de puertos. Se quiera o no, NAT es un componente importante del internet así como otros llamados ***middleboxes***. Las middle boxes no realizan envío de datagramas tradicional, sino que realizan funcionan funciones como ***NAT, load balancing***, ***traffic firewalling***, y más.
 
-Existen dos mecanismos populares como defensa de ataques de paquetes maliciosos. Los ***firewalls*** los ***intrusion detection systems (IDs)***. Un ***firewall*** inspecciona los datagramas y los ***header*** ***fields***, denegando información sospechosa que pueda entrar a la red. Los ***firewalls*** pueden también bloquear paquete basados en las direcciones de destino y origen. Incluso, pueden ser configurados para registrar conexiones TCP, permitiendo que únicamente los paquetes provenientes de conexiones aprobadas entren a la red.
+Existen dos mecanismos populares como defensa de ataques de paquetes maliciosos. Los ***firewalls*** los ***intrusion detection systems (ID)***. Un ***firewall*** inspecciona los datagramas y los ***header*** ***fields***, denegando información sospechosa que pueda entrar a la red. Los ***firewalls*** pueden también bloquear paquete basados en las direcciones de destino y origen. Incluso, pueden ser configurados para registrar conexiones TCP, permitiendo que únicamente los paquetes provenientes de conexiones aprobadas entren a la red.
 
 Un IDS usualmente está situado en el borde de la red e inspecciona profundamente los paquetes, examinando no solo los headers sino el ***payload***. Utiliza una base de datos de paquetes que pueden formar parte de un ataque, esta base de datos se actualiza automáticamente a medida que paquetes son descubiertos. Si se encuentra una coincidencia, se crea una alerta. Un ***intrusion prevention system (IPS)*** es similar, ya que además de crear alertas, bloquea los paquetes.
 

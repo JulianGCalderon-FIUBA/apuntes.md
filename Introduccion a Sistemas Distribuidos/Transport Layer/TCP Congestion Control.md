@@ -6,7 +6,7 @@ El enfoque tomado por TCP entonces es que cada remitente limite la tasa a la cua
 
 Este mecanismo mantiene una variable adicional llamada ***congestion window,*** denotada `cwnd`. La cantidad de datos sin confirmar no debe ser mayor al mínimo entre la ***congestion window y receiver window***.
 
-Definiremos un ***loss event*** en un ***TCP sender*** como la ocurrencia de un ***timeout*** o la recepción de tres ***duplicate ACKs***. Cuando hay excesiva congestión, entonces se perderán paquetes a lo largo de la ruta y ocasionaran ***loss events.*** Debido a que TCP utiliza ACK (o un ***timer***) para configurar su ventana de congestión, se dice de ser ***self-clocking***.
+Definiremos un ***loss event*** en un ***TCP sender*** como la ocurrencia de un ***timeout*** o la recepción de tres ***duplicate ACK***. Cuando hay excesiva congestión, entonces se perderán paquetes a lo largo de la ruta y ocasionaran ***loss events.*** Debido a que TCP utiliza ACK (o un ***timer***) para configurar su ventana de congestión, se dice de ser ***self-clocking***.
 
 Para decidir como exactamente se modificara la ventana de congestión, se seguirán los siguiente principios:
 
@@ -15,7 +15,7 @@ Para decidir como exactamente se modificara la ventana de congestión, se seguir
 
 La estrategia de TCP entonces sera la de *bandwith probing*. La tasa de transmisión se aumentara lentamente en respuesta a los ACK recibidos y disminuirá al encontrarse con una perdida. El objetivo es alcanzar una velocidad estable que no cause perdida de paquetes.
 
-Ahora podremos definir el algoritmo de congestión de control de ***TCP,*** el cual tiene tres componentes principales: ***slow start, congestion avoidance, fast recovery***.
+Ahora podremos definir el algoritmo de congestión de control de TCP, el cual tiene tres componentes principales: ***slow start, congestion avoidance, fast recovery***.
 
 ## Slow Start
 
@@ -25,9 +25,9 @@ Si ocurre un ***timer interrupt, se asigna*** `sstresh = cwnd/2` y se vuelve a e
 
 ## Congestion Avoidance
 
-En lugar de duplicar el valor de `cwdn` cada RTT, TCP adopta un enfoque mas conservativo. Se aumenta ***1 MSS*** por cada ***RTT.***
+En lugar de duplicar el valor de `cwdn` cada RTT, TCP adopta un enfoque mas conservativo. Se aumenta ***1 MSS*** por cada RTT.
 
-Cuando ocurre un ***timer interrupt***, se realiza lo mismo que en el estado de ***slow start.*** Ante la llegada de tres *duplicate ACKs*, se toma un enfoque menos drástico, en lugar de restablecer ***`cwdn`,* se reduce a la mitad. Ante cualquier *loss event*, se ingresa al estado de *fast recovery*
+Cuando ocurre un ***timer interrupt***, se realiza lo mismo que en el estado de ***slow start.*** Ante la llegada de tres *duplicate ACK*, se toma un enfoque menos drástico, en lugar de restablecer ***`cwdn`,* se reduce a la mitad. Ante cualquier *loss event*, se ingresa al estado de *fast recovery*
 
 ## Fast Recovery
 
@@ -61,7 +61,7 @@ Si bien el algoritmo de control de congestión en la teoría es justo. En la pra
 
 ### Fairness and UDP
 
-Muchas aplicaciones de multimedia prefieren utilizar UDP para que su tasa de transmisión no se vea entorpecida por el mecanismo de control de congestión. Desde la perspectiva de ***TCP,*** estas aplicaciones multimedia no están siendo justas con el resto de usuarios.
+Muchas aplicaciones de multimedia prefieren utilizar UDP para que su tasa de transmisión no se vea entorpecida por el mecanismo de control de congestión. Desde la perspectiva de TCP, estas aplicaciones multimedia no están siendo justas con el resto de usuarios.
 
 ### Fairness and Parallel TCP Connections
 

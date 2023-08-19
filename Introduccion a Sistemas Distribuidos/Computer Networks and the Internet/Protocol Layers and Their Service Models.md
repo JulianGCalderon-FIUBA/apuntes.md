@@ -28,8 +28,8 @@ Estos protocolos se distribuyen en múltiples hosts para poder intercambiar info
 
 Esta capa se encarga de transferir los *messages* de la capa anterior entre los *endpoints.* Hay dos protocolos principales.
 
-- **TCP:** Provee un servicio orientado a conexiones. Garantiza el envío y el flujo de control del mismo desde un *end-point* al siguiente. También se encarga de separar mensajes largos en pequeños *segments* y provee mecanismos de control de congestión.
-- **UDP:** Provee un servicio no orientado a conexiones: Este servicio no provee confianza, ni ningún tipo de control.
+- TCP: Provee un servicio orientado a conexiones. Garantiza el envío y el flujo de control del mismo desde un *end-point* al siguiente. También se encarga de separar mensajes largos en pequeños *segments* y provee mecanismos de control de congestión.
+- UDP: Provee un servicio no orientado a conexiones: Este servicio no provee confianza, ni ningún tipo de control.
 
 En esta capa nos referimos a los *packets* de información como *segment.*
 

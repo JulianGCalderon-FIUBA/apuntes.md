@@ -13,11 +13,11 @@ Al igual que ***mobile IP***, GSM adopta un enfoque de ***indirect routing***. P
 
 Consideremos un escenario simple para el caso de un usuario móvil residiendo en una red extranjera:
 
-1. El correspondiente llama al usuario móvil. Los digitos son suficientes para hallar la red local de forma global. La llamada es dirigida a través del PSTN al home ***MSC.***
+1. El correspondiente llama al usuario móvil. Los digitos son suficientes para hallar la red local de forma global. La llamada es dirigida a través del PSTN al home MSC.
 2. El ***home MSC*** recibe el llamado e interroga al HRL para determinar la ubicación del usuario móvil. En el caso mas simple, devuelve el ***mobile station roaming number (MSRN),*** al cual llamaremos ***roaming number***. Si no conoce este numero, devolverá la dirección del VLR de la red visitada. Luego, consultará a la VLR para solicitar un ***roaming number*** para el usuario.
 3. Una vez obtenido el **roaming number**, el ***home MSC*** configura la segunda parte de la llamada a través de la red con el MSC en la red visitada.
 
-Cuando un dispositivo móvil entra a una red cubierta por un nuevo VLR, este debe registrarse con la red visitada. El visited VLR envía una actualización de localización al HLR del móvil. Este informará la dirección de roaming del móvil, o la dirección del ***VLR.*** Ademas, el VLR obtiene información de subscripciones del HLR sobre el móvil para determinar que servicios deben ser acordados con el usuario.
+Cuando un dispositivo móvil entra a una red cubierta por un nuevo VLR, este debe registrarse con la red visitada. El visited VLR envía una actualización de localización al HLR del móvil. Este informará la dirección de roaming del móvil, o la dirección del VLR. Ademas, el VLR obtiene información de subscripciones del HLR sobre el móvil para determinar que servicios deben ser acordados con el usuario.
 
 ## 2. Handoffs in GSM
 
@@ -28,7 +28,7 @@ Un ***handoff*** ocurre cuando una estación móvil cambia su asociación de una
 Mientras esta asociado a una estación base, un móvil periódicamente mide la fuerza de de una ***beacon signal*** desde su propia estación base, y las cercanas. Basándose en esta métrica, puede iniciarse un ***handoff***. Este proceso, se da en los siguientes pasos:
 
 1. La estación base anterior le informa a la ***visited MSC que ocurrirá un*** handoff, y el BS (o multiples) a los que se realizará el ***handoff***.
-2. El ***visited MSC*** inicia un ***path setup*** al nuevo **BS,** reservando recursos necesarios para redireccionar la llamada, e indicándole al nuevo BS que esta por ocurrir un ***handoff***
+2. El ***visited MSC*** inicia un ***path setup*** al nuevo BS, reservando recursos necesarios para redireccionar la llamada, e indicándole al nuevo BS que esta por ocurrir un ***handoff***
 3. El nuevo BS reserva los recursos y activa el canal de radio a utilizar
 4. El nuevo BS envía una señal al ***visited MSC*** y al anterior **Bs** que ya es estableció el camino ***visited-MSC-to-new-BS***. Ademas, provee toda la información que necesitará el móvil para asociarse al nuevo BS.
 5. El móvil es informado que debe realizar un *handoff*. Hasta este punto, el móvil no estaba al tanto de que la red estaba preparando un cambio.

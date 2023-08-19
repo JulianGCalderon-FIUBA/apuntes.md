@@ -21,11 +21,11 @@ El área de cubrimiento de una célula depende de muchos factores, incluyendo el
 
 Los sistemas 2G utilizaban tanto FDM como TDM***.*** Esto permitía partir el canal en multiples sub-bandas, partiendo dentro de cada banda, en ***frames*** y ***slots***.
 
-El ***base station controller (BSC)*** típicamente le daba servicio a decenas de *BTSs.* Su trabajo era el de reservar canales de radio a los BTS, realizar ***paging*** (encontrar la celda a la cual pertenecía un usuario), y realizar el ***handoff*** de los usuarios. El conjunto de controladores y estaciones se conoce como ***base station subsystem (BSS)***.
+El ***base station controller (BSC)*** típicamente le daba servicio a decenas de BTS. Su trabajo era el de reservar canales de radio a los BTS, realizar ***paging*** (encontrar la celda a la cual pertenecía un usuario), y realizar el ***handoff*** de los usuarios. El conjunto de controladores y estaciones se conoce como ***base station subsystem (BSS)***.
 
 Un ***mobile switching center (MSC)*** juega el rol central en la autorización de los usuarios, establecimiento y cierre de conexión, y ***handoff***. Usualmente, un único MSC contiene unos hasta cinco BSC.
 
-Una red de proveedor celular tiene un número de ***MSCs,*** con algunos especiales conocidos como ***MSC gateway***, que conectan la red del proveedor a la red telefónica pública.
+Una red de proveedor celular tiene un número de MSC, con algunos especiales conocidos como ***MSC gateway***, que conectan la red del proveedor a la red telefónica pública.
 
 ## 2. 3G Cellular Data Networks: Extending the Internet to Cellular Subscribers
 
@@ -37,14 +37,14 @@ Para poder transferir datos correctamente, los dispositivos debe poder mantener 
 
 Esta red conecta redes de acceso con radio al internet publico. Para hacerlo, interoperar con los componentes ya existentes de las redes de 2G. El enfoque tomado fue la de mantener la red por voz ya existente, extendiéndola para permitir servicios de datos.
 
-Existen dos tipos de nodos en estas redes: ***Serving GPRS Support Nodes (SGSNs)*** y *Gateway GPRS Supports Nodes (GGSNs). GPRS* significa ***Generalized Packet Radio Service,*** este era un servicio para servicio de datos en las redes **2G**.
+Existen dos tipos de nodos en estas redes: ***Serving GPRS Support Nodes (SGSN)*** y *Gateway GPRS Supports Nodes (GGSN). GPRS* significa ***Generalized Packet Radio Service,*** este era un servicio para servicio de datos en las redes **2G**.
 
 - Un SSGN es el responsable de recibir datagrams intercambiar datagramas entre los dispositivos móviles con los que esta relacionado. Interactúa con los MSC del area, y provee autorización y ***handoff***, manteniendo información sobre los usuarios activos. También, envía paquetes entre el GGSN y los dispositivos móviles
 - Un GGSN actúa como un ***gateway***, conectando multiples SGNS con el internet. Para el mundo exterior, un GGSN actúa como cualquier otro ***gateway router***. La movilidad de los dispositivos es transparente al mundo exterior.
 
 ### 3G Radio Access Network: The Wireless Edge
 
-La ***radio access network*** es la primera ***wireless first-hop network*** que vemos como un usuario. El ***Radio Network Controller (RNC)*** típicamente controla multiples ***BTSs,*** similar a la BSC a las que vimos en las redes ***2G.*** Un RNC conecta tanto ***circuit-switched cellular voice network*** a través de MSC, y ***packet-switched internet*** a través de SGSN. Mientras que los servicios de voz y de datos usan redes centrales distintas, comparten la ***radio access network*** y el RNC.
+La ***radio access network*** es la primera ***wireless first-hop network*** que vemos como un usuario. El ***Radio Network Controller (RNC)*** típicamente controla multiples BTS, similar a la BSC a las que vimos en las redes ***2G.*** Un RNC conecta tanto ***circuit-switched cellular voice network*** a través de MSC, y ***packet-switched internet*** a través de SGSN. Mientras que los servicios de voz y de datos usan redes centrales distintas, comparten la ***radio access network*** y el RNC.
 
 Un cambio significativo entre las redes 3G UMTS y las redes **2G** es que en lugar de utilizar el esquema de GMS ***FDMA/TDMA***, utiliza una técnica de CDMA conocida como **Direct Sequence Wideband CDMA (DW-WCDMA)**, dentro de slots de TDMA.
 

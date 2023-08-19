@@ -18,7 +18,7 @@ Los componentes claves del manejo de red son:
 
 Este es un protocolo de capa de aplicación utilizado para el manejo de red. El uso mas común el modo de ***request-response***. El servidor envía una ***request***, el ***agent*** realiza cierta acción y envía una respuesta al servidor. Usualmente las ***requests*** serán de ***(query) consulta*** o *(set)* ***establecimiento de*** MIB objects ***asociados al dispositivo.*** Un segundo uso es el notificar al servidor de un evento excepcional mediante ***un trap message.***
 
-Se definen siete tipos de mensajes, conocidos como ***protocol data units (PDUs)***.
+Se definen siete tipos de mensajes, conocidos como ***protocol data units (PDU)***.
 
 - **Get Request, Get Next Request, y Get Bulk Request**: Son utilizados por el servidor para consultar uno o mas objetos ***MIB al dispositivo.*** Estos difieren en la granularidad de las consultas. El primero puede consultar uno o mas objetos, el segundo consulta el siguiente objeto en una lista, y el ultimo consulta grandes cantidades de información, por ejemplo de una gran tabla.
 - ***Set Request*** es utilizado por un servidor para establecer uno o mas valores del dispositivo.

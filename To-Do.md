@@ -20,7 +20,7 @@ title: To-Do
 - [x] Sistemas Operativos
 - [ ] Introducción a Sistemas Distribuidos
 	- [x] Computer Networks and the Internet
-	- [ ] Application Layer
+	- [ ] Application Layer (The Web and HTTP)
 	- [ ] Transport Layer
 	- [ ] The Network Layer Data Plane
 	- [ ] The Network Layer Control Plane
