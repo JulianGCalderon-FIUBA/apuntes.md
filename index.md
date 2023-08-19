@@ -6,7 +6,7 @@ title: Índice
 
 - [[Analisis Matematico II/Indice|Análisis Matemático II]]
 - [[Fisica I/Indice|Física I]]
-- [[Algoritmos I/Indice|Algoritmos I]]
+- [[Algoritmos I/Indice|Indice]]
 
 ## 2.º 2021
 

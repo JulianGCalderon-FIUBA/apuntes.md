@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
-                "mode": "preview",
-                "source": true
+                "file": "Introduccion a Sistemas Distribuidos/The Network Layer Data Plane/The Network Layer Data Plane.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ".heap",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Breaking WEP.md"
+                "file": "Introduccion a Sistemas Distribuidos/The Network Layer Data Plane/The Network Layer Data Plane.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
+                "file": "Introduccion a Sistemas Distribuidos/The Network Layer Data Plane/The Network Layer Data Plane.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
+                "file": "Introduccion a Sistemas Distribuidos/The Network Layer Data Plane/The Network Layer Data Plane.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,32 +159,32 @@
   },
   "active": "752e8362b822a823",
   "lastOpenFiles": [
+    "Introduccion a Sistemas Distribuidos/The Network Layer Control Plane/Indice.md",
+    "Introduccion a Sistemas Distribuidos/The Link Layer and LANs/Indice.md",
+    "Introduccion a Sistemas Distribuidos/The Link Layer and LANs/Introduction of the Link Layer.md",
+    "Introduccion a Sistemas Distribuidos/The Link Layer and LANs/Link Virtualization A Network as a Link Layer.md",
+    "Introduccion a Sistemas Distribuidos/Application Layer/Indice.md",
+    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Indice.md",
+    "index.md",
     "To-Do.md",
+    "Algebra II/Indice.md",
+    "Algoritmos I/Indice.md",
+    "Algoritmos II/Indice.md",
+    "Algoritmos II/Analisis de Algoritmos.md",
+    "Analisis de la Informacion/Indice.md",
+    "Analisis Matematico II/Indice.md",
+    "Analisis Numerico/Descomposicion LU.md",
+    "Analisis Numerico/Indice.md",
+    "Analisis de la Informacion/Introduccion a la Ingenieria de Software.md",
+    "Algoritmos I/Manejo de Archivos.md",
+    "Algebra II/Metodo de Gram-Schmidt.md",
+    "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
     "Introduccion a Sistemas Distribuidos/Indice.md",
     "Sistemas Operativos/Very Simple File System.md",
     "Sistemas Operativos/Translation Lookaside Buffers.md",
     "Sistemas Operativos/Traduccion de Direcciones.md",
     "Sistemas Operativos/Segmentacion.md",
     "Sistemas Operativos/Indice.md",
-    "Sistemas Operativos/Proportional-Share Scheduler.md",
-    "Sistemas Operativos/Planificador Multiprocesador.md",
-    "Sistemas Operativos/Planificacion.md",
-    "Sistemas Operativos/Paginacion Avanzada.md",
-    "Sistemas Operativos/Introduccion a Sistemas Operativos.md",
-    "Sistemas Operativos/Introduccion a Paginacion.md",
-    "Sistemas Operativos/Multi-Level Feedback Queue.md",
-    "Sistemas Operativos/Los procesos.md",
-    "Algoritmos II/Memoria.md",
-    "Sistemas Operativos/Locks.md",
-    "index.md",
-    "Sistemas Operativos/Free-Space Management.md",
-    "Sistemas Operativos/Estructuras Concurrentes.md",
-    "Sistemas Operativos/Espacio de Direcciones.md",
-    "Sistemas Operativos/Ejecucion Directa.md",
-    "Sistemas Operativos/Concurrencia.md",
-    "Sistemas Operativos/Bugs de Concurrencia.md",
-    "Probabilidad y Estadistica/Indice.md",
-    "Analisis Matematico II/Integrales de Linea.md",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
     "Estructura del Computador/Circuitos Asincronicos.html",
     "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",
