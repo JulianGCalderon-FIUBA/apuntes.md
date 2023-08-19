@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas Operativos/Planificador Multiprocesador.md",
+                "file": "Sistemas Operativos/Proportional-Share Scheduler.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operativos/Planificador Multiprocesador.md"
+                "file": "Sistemas Operativos/Proportional-Share Scheduler.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operativos/Planificador Multiprocesador.md",
+                "file": "Sistemas Operativos/Proportional-Share Scheduler.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operativos/Planificador Multiprocesador.md",
+                "file": "Sistemas Operativos/Proportional-Share Scheduler.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,9 +159,9 @@
   },
   "active": "752e8362b822a823",
   "lastOpenFiles": [
+    "Sistemas Operativos/Planificador Multiprocesador.md",
     "Sistemas Operativos/Planificacion.md",
     "Sistemas Operativos/Paginacion Avanzada.md",
-    "Sistemas Operativos/Planificador Multiprocesador.md",
     "Sistemas Operativos/Indice.md",
     "Sistemas Operativos/Introduccion a Sistemas Operativos.md",
     "Sistemas Operativos/Introduccion a Paginacion.md",
