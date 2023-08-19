@@ -1,6 +1,6 @@
 {
   "findText": "***",
-  "replaceText": "*",
+  "replaceText": "**",
   "useRegEx": false,
   "selOnly": true,
   "caseInsensitive": false,
