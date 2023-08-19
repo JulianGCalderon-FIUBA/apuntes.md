@@ -46,11 +46,11 @@ Cuando escribimos en un archivo, a veces es necesario reservar más bloques para
 
 Las operaciones mencionadas deben realizar muchas lecturas y escrituras, por lo que muchas veces se vuelve lento. Algunos *file systems* utilizan memoria caché (DRAM) para almacenar bloques importantes.
 
-Existen dos alternativas. **static partitioning** consiste en tener una cantidad de memoria fija para almacenar bloques populares, esto puede ser innecesario ya que no siempre lo necesitaremos. Una alternativa. La otra opción es utilizar **dynamic partitioning**. La memoria puede ser reservada para el caché de forma dinámica, reduciendo así la memoria reservada innecesariamente.
+Existen dos alternativas. **static partitioning** consiste en tener una cantidad de memoria fija para almacenar bloques populares, esto puede ser innecesario, ya que no siempre lo necesitaremos. Una alternativa. La otra opción es utilizar **dynamic partitioning.** La memoria puede ser reservada para el caché de forma dinámica, reduciendo así la memoria reservada innecesariamente.
 
 Otra táctica utilizada para mejorar el rendimiento de un *file system* es a partir de los *write buffers.* Las escrituras muchas veces son retrasadas para ser enviadas de forma conjunta. Esto tiene una serie de distintos beneficios.
 
-En primer lugar algunas operaciones de I/O pueden ser reducidas a un menor número de pedidos si agrupamos los pedidos que refieren a un mismo archivo. Por otro lado, podemos ahorrarnos incluso la reserva de memoria si un archivo es eliminado recientemente luego de ser creado.
+En primer lugar, algunas operaciones de I/O pueden ser reducidas a un menor número de pedidos si agrupamos los pedidos que refieren a un mismo archivo. Por otro lado, podemos ahorrarnos incluso la reserva de memoria si un archivo es eliminado recientemente luego de ser creado.
 
 Además, los pedidos I/O parecen ser más rápidos de lo que realmente son, aumentando el tiempo de respuesta.
 
