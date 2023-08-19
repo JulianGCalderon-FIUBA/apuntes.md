@@ -14,7 +14,7 @@ Breve resumen de los contenidos teóricos de la materia, consultar la bibliograf
 - [[Free-Space Management]]
 - [[Introduccion a Paginacion|Introducción a Paginación]]
 - [[Translation Lookaside Buffers]]
-- [[Paginacion Avanzada]]
+- [[Paginacion Avanzada|Paginación Avanzada]]
 - [[Planificacion]]
 - [[Multi-Level Feedback Queue]]
 - [[Proportional-Share Scheduler]]

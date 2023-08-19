@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas Operativos/Multi-Level Feedback Queue.md",
+                "file": "Sistemas Operativos/Paginacion Avanzada.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operativos/Multi-Level Feedback Queue.md"
+                "file": "Sistemas Operativos/Paginacion Avanzada.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operativos/Multi-Level Feedback Queue.md",
+                "file": "Sistemas Operativos/Paginacion Avanzada.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operativos/Multi-Level Feedback Queue.md",
+                "file": "Sistemas Operativos/Paginacion Avanzada.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,14 +159,15 @@
   },
   "active": "752e8362b822a823",
   "lastOpenFiles": [
-    "Sistemas Operativos/Los procesos.md",
-    "Sistemas Operativos/Multi-Level Feedback Queue.md",
-    "Algoritmos II/Memoria.md",
-    "Sistemas Operativos/Locks.md",
-    "To-Do.md",
     "Sistemas Operativos/Introduccion a Sistemas Operativos.md",
     "Sistemas Operativos/Introduccion a Paginacion.md",
     "Sistemas Operativos/Indice.md",
+    "Sistemas Operativos/Paginacion Avanzada.md",
+    "Sistemas Operativos/Multi-Level Feedback Queue.md",
+    "Sistemas Operativos/Los procesos.md",
+    "Algoritmos II/Memoria.md",
+    "Sistemas Operativos/Locks.md",
+    "To-Do.md",
     "index.md",
     "Sistemas Operativos/Free-Space Management.md",
     "Sistemas Operativos/Estructuras Concurrentes.md",
@@ -184,7 +185,6 @@
     "Organizacion de Datos/Indice.md",
     "Organizacion de Datos/Redes Recurrentes.md",
     "Analisis Matematico II/Cuadricas.md",
-    "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
     "Estructura del Computador/Circuitos Asincronicos.html",
     "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",
