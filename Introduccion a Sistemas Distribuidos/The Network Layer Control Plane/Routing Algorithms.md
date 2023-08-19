@@ -2,11 +2,11 @@
 title: Routing Algorithms
 ---
 
-El objetivo de un algoritmo de ruteo es el de determinar el camino que minimice el costo entre remitentes y receptores. Se puede utilizar un grafo para formular el problema, donde los nodos serán los ***routers*** y las aristas serán los enlaces entre los ***routers***. Cada enlace tendrá un costo asociado a múltiples factores, como el largo del enlace, la velocidad del mismo, el costo monetario de utilizarlo, etc. Diremos que dos nodos son vecinos si existe una arista directa que los une. Notemos que si todas las aristas tienen el mismo costo, entonces el camino más corto se transforma en el camino más eficiente.
+El objetivo de un algoritmo de ruteo es el de determinar el camino que minimice el costo entre remitentes y receptores. Se puede utilizar un grafo para formular el problema, donde los nodos serán los routers y las aristas serán los enlaces entre los routers. Cada enlace tendrá un costo asociado a múltiples factores, como el largo del enlace, la velocidad del mismo, el costo monetario de utilizarlo, etc. Diremos que dos nodos son vecinos si existe una arista directa que los une. Notemos que si todas las aristas tienen el mismo costo, entonces el camino más corto se transforma en el camino más eficiente.
 
 Los algoritmos de rutina se pueden clasificar según si son centralizados o no:
 
-- Un algoritmo de ruteo centralizado computará los caminos de menor costo utilizando el conocimiento global de la red. Se deberán conocer todos los ***routers***, enlaces, y sus costos. Son conocidos como ***link-state (LS) algorithms.***
+- Un algoritmo de ruteo centralizado computará los caminos de menor costo utilizando el conocimiento global de la red. Se deberán conocer todos los routers, enlaces, y sus costos. Son conocidos como ***link-state (LS) algorithms.***
 - Un algoritmo descentralizado de ruteo computará los caminos de forma iterativa, ningún nodo conocerá el estado completo de la red. En su lugar, cada nodo comienza con el conocimiento de sus enlaces inmediatos, y a través de un proceso iterativo de cálculo e intercambio de información, gradualmente se calculará el camino óptimo
 
 Una segunda forma de clasificarlos se según si son estáticos o dinámicos:
@@ -24,7 +24,7 @@ El algoritmo utilizado es el algoritmo de ***Dijkstra***. Una vez finalizado el 
 
 Los algoritmos de ruteo pueden fallar, causando oscilaciones, cuando el costo de los enlaces depende de la cantidad de tráfico. Una solución es decir que el algoritmo no dependerá del tráfico, pero esta solución no es aceptable.
 
-Otra solución es la de asegurar que no todos los routers ejecutarán el algoritmo al mismo tiempo. Curiosamente, los tiempos de sincronización de los ***routers*** pueden sincronizarse con el tiempo de forma automática. Debido a esto, se podría aleatorizar el tiempo en el que envía un ***link advertisement***.
+Otra solución es la de asegurar que no todos los routers ejecutarán el algoritmo al mismo tiempo. Curiosamente, los tiempos de sincronización de los routers pueden sincronizarse con el tiempo de forma automática. Debido a esto, se podría aleatorizar el tiempo en el que envía un ***link advertisement***.
 
 ## 2. The Distance-Vector (DV) Routing Algorithm
 

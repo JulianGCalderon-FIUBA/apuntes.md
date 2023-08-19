@@ -4,7 +4,7 @@ title: Breaking WEP
 
 ## ¿Qué es WEP?
 
-El sistema ***WEP*** es un sistema de cifrado opcional incluido en el estándar ***IEEE 802.11, edición 1999.*** Para proteger la confidencialidad de los datos intercambiados a través de un medio compartido.
+El sistema WEP es un sistema de cifrado opcional incluido en el estándar ***IEEE 802.11, edición 1999.*** Para proteger la confidencialidad de los datos intercambiados a través de un medio compartido.
 
 Se utiliza una clave en común entre el remitente y el receptor. Se presume que esta clave ya fue enviada de forma segura por otro medio, independiente del ***IEEE 802.11***.
 
@@ -26,7 +26,7 @@ $$
 \text{Key Stream} = \text{RC4}(Seed)
 $$
 
-Luego, se aplica una aplicación de ***XOR*** entre el segmento de datos y el flujo de claves para hallar el segmento cifrado.
+Luego, se aplica una aplicación de XOR entre el segmento de datos y el flujo de claves para hallar el segmento cifrado.
 
 $$
 \text{Cipher} = \text{Key Stream} \oplus \text{Data}
@@ -35,12 +35,12 @@ $$
 Finalmente, se concatena el vector de inicialización $\text{IV}$ al segmento cifrado, y se envía a través del medio.
 
 $$
-\text{Sent} = \text{Cipher}\ +\ \text{IV} 
+\text{Sent} = \text{Cipher}\ +\ \text{IV}
 $$
 
 Cuando el receptor recibe el paquete, extrae el vector de inicialización del segmento y lo introduce a ***RC4,*** junto a la clave compartida, para hallar el mismo flujo de claves que utilizó el remitente.
 
-Luego, se aplica una aplicación de ***XOR*** entre el segmento cifrado y el flujo de claves, obteniendo así el segmento original.
+Luego, se aplica una aplicación de XOR entre el segmento cifrado y el flujo de claves, obteniendo así el segmento original.
 
 $$
 \text{Data} = \text{Cipher} \oplus \text{Key Stream}
@@ -81,7 +81,7 @@ El protocolo ***RC4*** consta de dos algoritmos, extremadamente simples, que par
 
 ### Debilidad de la Invarianza
 
-El primer algoritmo de, ***KSA***, expone dos inseguridades significantes. La primera es la existencia de una gran clase de ***claves débiles***, en las cuales una pequeña parte de la llave determina un gran número de ***bits*** de la permutación inicial. Además, ***PRGA*** traduce estos patrones en la permutación inicial, en patrones en el prefijo del flujo de claves.
+El primer algoritmo de, KSA, expone dos inseguridades significantes. La primera es la existencia de una gran clase de ***claves débiles***, en las cuales una pequeña parte de la llave determina un gran número de bits de la permutación inicial. Además, PRGA traduce estos patrones en la permutación inicial, en patrones en el prefijo del flujo de claves.
 
 Esta afirmación permite distinguir fácilmente flujos de ***RC4*** de segmentos de datos aleatorios, debido a que las palabras iniciales contienen patrones fácilmente reconocibles. Cuando las claves son seleccionadas bajo una distribución uniforme, esta inclinación se atenúa, pero aún permite la construcción de un diferenciador eficiente. Además, los patrones se extienden a las primeras decenas de palabras, por lo que la eficiencia del diferenciador no disminuye si se descartan las primeras palabras.
 
@@ -99,7 +99,7 @@ Si no se cumple esto, entonces los elementos volverán a participar en intercamb
 
 ## Detalles del *Known IV Attack*
 
-Debido a como funciona el algoritmo de ***WEP***, únicamente estudiaremos el escenario en el que el vector de inicialización precede a la clave secreta compartida, aunque ambas situaciones son vulnerables al mismo tipo de ataque.
+Debido a como funciona el algoritmo de WEP, únicamente estudiaremos el escenario en el que el vector de inicialización precede a la clave secreta compartida, aunque ambas situaciones son vulnerables al mismo tipo de ataque.
 
 Sea $\text{IV}$ el vector de inicialización conocido, de longitud $I$, y $\text{SK}$ la clave secreta, de longitud $l - I$, entonces construiremos la semilla para ***RC4*** como $K = \text{IV}\ +\ \ SK$, con longitud $l$. Trataremos de derivar el valor de la palabra $B$ de la clave secreta, esto es, la palabra $I + B$ de la semilla. Para que este ataque sea posible, el atacante debe poder obtener la primera palabra del flujo de claves. A esta primera palabra, la denominaremos $\text{Out}$.
 
@@ -131,7 +131,7 @@ Debemos tener en cuenta que este ataque es válida para todos los ataques que cu
 
 Necesitamos dos elementos fundamentales para la ejecución de este ataque. La primera es alguna tarjeta o adaptador de red que nos permita escuchar y enviar paquetes de redes ***802.11***. A partir de un programa conocido como ***sniffer*** o analizador de paquetes, podremos visualizar todos los paquetes que son enviados a través del medio.
 
-Estos programas configuran el adaptador de red en modo ***promiscuo***. Este permite que los ***frames*** no destinados a nuestro dispositivo (a partir de la dirección ***MAC***), no sean descartados.
+Estos programas configuran el adaptador de red en modo ***promiscuo***. Este permite que los ***frames*** no destinados a nuestro dispositivo (a partir de la dirección MAC), no sean descartados.
 
 El segundo elemento que necesitamos, es conocer la primera palabra de los segmentos de datos enviados, sin encriptar. Al conocer esto, y con el segmento cifrado, podremos determinar la primera palabra del flujo de claves.
 
@@ -145,9 +145,9 @@ Recordemos que el ataque es un ataque pasivo, por lo que este paso no es necesar
 
 ## Resultados del Ataque
 
-En ***2001***, ***Fluhrer, Mantin y Shamir*** tratarón de aplicar el ataque mencionado, para vulnerar una red con ***802.11*** autenticación ***WEP***.
+En ***2001***, ***Fluhrer, Mantin y Shamir*** tratarón de aplicar el ataque mencionado, para vulnerar una red con ***802.11*** autenticación WEP.
 
-A partir de lo mencionado, y con algunas modificaciones, pudieron vulnerar ***WEP*** utilizando un total de un millón de paquetes.
+A partir de lo mencionado, y con algunas modificaciones, pudieron vulnerar WEP utilizando un total de un millón de paquetes.
 
 ## Otras Inseguridades
 
@@ -157,4 +157,4 @@ El atacante debe conocer el contenido real de un paquete encriptado, de esta for
 
 ## Evolución de WEP
 
-A principios de 2001, se empezaron a identificar varias debilidades a partir de analistas criptográficos. Unos meses más tarde, el **IEEE** creó la corrección de seguridad ***802.11i*** para neutralizar esto. En ***2004***, finalmente, el estándar ***802.11i***, también conocido como ***WPA***, fue ratificado.
+A principios de 2001, se empezaron a identificar varias debilidades a partir de analistas criptográficos. Unos meses más tarde, el IEEE creó la corrección de seguridad ***802.11i*** para neutralizar esto. En ***2004***, finalmente, el estándar ***802.11i***, también conocido como WPA, fue ratificado.

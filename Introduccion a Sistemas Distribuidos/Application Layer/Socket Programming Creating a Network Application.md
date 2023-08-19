@@ -12,10 +12,10 @@ Cuando se crea un ***socket,*** se asocia a un identificador conocido como port 
 
 ## 2. Socket Programming with TCP
 
-El protocolo ***TCP***, por otro lado, es orientado a conexiones. Antes de que dos ***end systems*** puedan comunicarse entre sí, está la fase de ***handshake.***
+El protocolo TCP, por otro lado, es orientado a conexiones. Antes de que dos hosts puedan comunicarse entre sí, está la fase de ***handshake.***
 
-Cuando se crea una conexión ***TCP***, debe indicarse la dirección y el puerto de destino. De esta forma, para enviar información una vez creado el ***socket*** no es necesario indicar el destinatario.
+Cuando se crea una conexión TCP, debe indicarse la dirección y el puerto de destino. De esta forma, para enviar información una vez creado el ***socket*** no es necesario indicar el destinatario.
 
-Una vez creado el ***socket***, el cliente inicia un ***handshake*** de tres pasos y establece una conexión con el servidor. Primero el cliente le envía un mensaje a un servidor, que contiene un listening ***socket*** esperando a establecer conexiones con los clientes. Este, al recibir el mensaje, creará una conexión ***TCP*** particular para este cliente.
+Una vez creado el ***socket***, el cliente inicia un ***handshake*** de tres pasos y establece una conexión con el servidor. Primero el cliente le envía un mensaje a un servidor, que contiene un listening ***socket*** esperando a establecer conexiones con los clientes. Este, al recibir el mensaje, creará una conexión TCP particular para este cliente.
 
 Desde el punto de vista de la aplicación, los ***sockets*** están directamente conectados a través de una tubería.

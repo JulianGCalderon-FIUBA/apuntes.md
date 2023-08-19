@@ -6,13 +6,13 @@ El sistema de e-mails tiene tres componentes principales: ***user agents, mail s
 
 ## 1. SMTP
 
-El protocolo ***SMPT*** es un sistema mucho más antiguo que ***HTTP*** Debido a esto, el protocolo tiene algunas restricciones, como que todos los mensajes deben ser codificados en ***7-bit ascii***.
+El protocolo SMPT es un sistema mucho más antiguo que HTTP Debido a esto, el protocolo tiene algunas restricciones, como que todos los mensajes deben ser codificados en ***7-bit ascii***.
 
 Para el envío de mensaje entre servidores, primero se establece una conexión TCP. En la etapa de ***handshake*** el cliente envía la dirección del remitente y la del destinatario. A continuación, envía el mensaje en cuestión.
 
 ## 2. Comparison with HTTP
 
-En primer lugar, el protocolo HTTP es principalmente un ***pull protocol***. Por el otro lado, ***SMTP es un*** transfer protocol. Por otro lado, como fue indicado anteriormente, los mensajes *SMTP* deben ser codificados en 7-bit ascii. Por último, **HTTP** utiliza un mensaje distinto para cada objeto, mientras que ***SMTP*** utiliza un único mensaje.
+En primer lugar, el protocolo HTTP es principalmente un ***pull protocol***. Por el otro lado, ***SMTP es un*** transfer protocol. Por otro lado, como fue indicado anteriormente, los mensajes SMTP deben ser codificados en 7-bit ascii. Por último, HTTP utiliza un mensaje distinto para cada objeto, mientras que SMTP utiliza un único mensaje.
 
 ## 3. Mail Message Formats
 
@@ -22,7 +22,7 @@ Todos los ***headers*** deben contener el "***From:"***, "***To:"***. De forma o
 
 ## 4. Mail Access Protocols
 
-Usualmente, el usuario ejecuta un ***user agent*** localmente, accediendo a su buzón almacenado en un ***mail server***. Generalmente, este es mantenido por el ***ISP***.
+Usualmente, el usuario ejecuta un ***user agent*** localmente, accediendo a su buzón almacenado en un ***mail server***. Generalmente, este es mantenido por el ISP.
 
 Se utilizan protocolos de acceso especiales para transferir mensajes del servidor a la computadora local. Entre ellos, está POP3, IMAP, e incluse HTTP.
 

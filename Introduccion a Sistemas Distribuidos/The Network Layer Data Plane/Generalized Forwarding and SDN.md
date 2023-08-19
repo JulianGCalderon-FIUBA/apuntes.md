@@ -2,7 +2,7 @@
 title: Generalized Forwarding and SDN
 ---
 
-Previamente estudiamos el ***destination-based forwarding*** como un proceso de dos partes. La búsqueda de la dirección **ip** en una tabla ***(match)*** y el envió del paquete ***(action).*** Ahora consideremos un paradigma más general en el que el ***match*** se realiza a través de múltiples ***headers*** del ***datagram***, y ***action*** puede incluir múltiples acciones, como enviar el paquete a alguno de los puertos de salida, ***load balancing***, ***rewriting header values (NAT)***, bloqueando paquetes ***(firewall)***, enviando el paquete a un servidor especial para su procesamiento *(DPI)*
+Previamente estudiamos el ***destination-based forwarding*** como un proceso de dos partes. La búsqueda de la dirección IP en una tabla ***(match)*** y el envió del paquete ***(action).*** Ahora consideremos un paradigma más general en el que el ***match*** se realiza a través de múltiples ***headers*** del ***datagram***, y ***action*** puede incluir múltiples acciones, como enviar el paquete a alguno de los puertos de salida, ***load balancing***, ***rewriting header values (NAT)***, bloqueando paquetes ***(firewall)***, enviando el paquete a un servidor especial para su procesamiento *(DPI)*
 
 Debido a que la decisiones de envió pueden hacerse utilizando la capa de red o la capa de enlace, estos dispositivos fueron llamados ***packet switches***. Estudiaremos el estándar altamente visible y exitoso conocido ***OpenFlow***, el cual fue pionero en la noción de una abstracciones ***match-plus-action***.
 
@@ -21,7 +21,7 @@ La primera observación importante que la abstracciones de ***OpenFlow*** permit
 
 Las entradas de la tabla también permiten comodines, permitiendo, por ejemplo, coincidir con todas los paquetes cuya dirección de destino comience con ***128.119.*.*.*** Si un paquete coincide con múltiples entradas, se tomará aquella con la mayor prioridad.
 
-Por último, vemos que no todos los ***headers*** de **IP** pueden ser utilizados para el ***match***. Algunos ***headers*** fueron ignorados para priorizar funcionalidad por sobre complejidad.
+Por último, vemos que no todos los ***headers*** de IP pueden ser utilizados para el ***match***. Algunos ***headers*** fueron ignorados para priorizar funcionalidad por sobre complejidad.
 
 ## 2. Action
 

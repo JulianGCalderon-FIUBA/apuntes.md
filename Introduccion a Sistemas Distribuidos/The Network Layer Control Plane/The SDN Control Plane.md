@@ -2,11 +2,11 @@
 title: The SDN Control Plane
 ---
 
-Existe cuatro características claves de la arquitectura ***SDN*** (Software Distributed Networks):
+Existe cuatro características claves de la arquitectura SDN (Software Distributed Networks):
 
-- ***Flow-based forwarding***: El reenvío de paquetes puede ser basado en numerosos valores de multiples campos de cabecera tanto en la capa de transporte, como en la de red, como en la de enlace. Las reglas son especificas de una ***flow table***, la cual es computada y administrada por el ***control plane*** del ***SDN***.
-- **Separation of data plane and control plane:** El plano de datos consiste en ***switches*** simples pero veloces que ejecutan reglas ***match plus action*** a partir de sus ***flow tables.*** El plano de control consiste en multiples servidores y ***software*** que determine el manejo de estas tablas.
-- **Network Control Functions. External to Data-Plane Switches:** El plano de control consiste en dos componentes. Un controlador ***SDN*** y una serie de aplicaciones de ***network-control.*** El controlador mantiene información precisa de la red, provee esta información a las aplicaciones de control que ejecutan el ***control plane,*** y provee una forma mediante las cuales se pueden comunicar con los dispositivos de red subyacentes. El controlador es lógicamente centralizado, pero típicamente implementado en multiples servidores.
+- ***Flow-based forwarding***: El reenvío de paquetes puede ser basado en numerosos valores de multiples campos de cabecera tanto en la capa de transporte, como en la de red, como en la de enlace. Las reglas son especificas de una ***flow table***, la cual es computada y administrada por el ***control plane*** del SDN.
+- **Separation of data plane and control plane:** El plano de datos consiste en ***switches*** simples pero veloces que ejecutan reglas ***match plus action*** a partir de sus ***flow tables.*** El plano de control consiste en multiples servidores y software que determine el manejo de estas tablas.
+- **Network Control Functions. External to Data-Plane Switches:** El plano de control consiste en dos componentes. Un controlador SDN y una serie de aplicaciones de ***network-control.*** El controlador mantiene información precisa de la red, provee esta información a las aplicaciones de control que ejecutan el ***control plane,*** y provee una forma mediante las cuales se pueden comunicar con los dispositivos de red subyacentes. El controlador es lógicamente centralizado, pero típicamente implementado en multiples servidores.
 - ***A Programmable Network:*** La red es programable a través de las aplicaciones de control de red que se ejecutan en el plano de control. El controlador ofrece una interfaz que permite especificar y controlador los dispositivos del ***data plane***. Las aplicaciones pueden diversas cosas: determinar el camino de menor costo entre fuente y destino, realizar control de acceso para bloquear ciertos paquetes, ejecutar ***server load balancing***, entre otros.
 
 ## 1. The SDN Control Plane: SDN Controller and SDN Network-control Applications
@@ -21,7 +21,7 @@ Debido a que los controladores suelen ser implementados en multiples servidores,
 
 ## 2. OpenFlow Protocol
 
-Este protocolo opera entre un controlador ***SDN*** y un ***SDN-controlled*** switch, a través de ***TCP*** en el puerto por defecto ***6653.***
+Este protocolo opera entre un controlador SDN y un ***SDN-controlled*** switch, a través de TCP en el puerto por defecto ***6653.***
 
 Entre los mensajes mas importantes enviados desde el controlador al ***switch*** están:
 

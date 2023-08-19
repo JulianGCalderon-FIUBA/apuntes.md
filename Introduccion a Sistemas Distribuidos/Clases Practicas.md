@@ -6,13 +6,13 @@ title: Clases Prácticas
 
 **Latencia:** La latencia es el retardo entre un estímulo y la respuesta. Es un valor conceptual
 
-***RTT:*** El RTT es una medida aproximada de la latencia, es el tiempo que le toma a un paquete ir a un ***host*** de destino y volver. Una forma de medirlo es a través del comando ***ping***.
+***RTT:*** El RTT es una medida aproximada de la latencia, es el tiempo que le toma a un paquete ir a un host de destino y volver. Una forma de medirlo es a través del comando ***ping***.
 
 Tiene cuatro componentes principales:
 
 - ***Tiempo de Inserción:*** Es el tiempo que tarda en introducirse el paquete en el canal del enlace. Depende del tamaño del paquete y la capacidad del enlace.
 - ***Tiempo de Propagación:*** Es el tiempo que tarda en propagarse el paquete en el canal de enlace. Depende de la velocidad del enlace y de la distancia entre las interfaces.
-- ***Tiempo de Procesamiento:*** Es el tiempo que tarda el ***router*** en procesar el paquete y decidir a qué puerto de salida enviarlo. Suele ser despreciable.
+- ***Tiempo de Procesamiento:*** Es el tiempo que tarda el router en procesar el paquete y decidir a qué puerto de salida enviarlo. Suele ser despreciable.
 - ***Tiempo de Encolado:*** Es el tiempo que tarda un paquete desde que es introducido a la cola de salida hasta que es efectivamente transmitido. Depende del nivel de congestión de la red.
 
 La latencia total se calculará como la sumatoria de los tiempos mencionados para cada nodo atravesado, tanto en la idea como en la vuelta.
@@ -39,21 +39,21 @@ $$
 
 ## TCP
 
-El protocolo ***TCP*** es un protocolo de capa de transporte que implementa un protocolo de entrega confiable, esto es:
+El protocolo TCP es un protocolo de capa de transporte que implementa un protocolo de entrega confiable, esto es:
 
 - Asegura entrega de todos los paquetes serán entregados en orden
 - Provee detección de errores para la corrupción de paquetes
-- Proporciona control de flujo (para evitar enviar más paquetes de los que la aplicación del ***host*** puede recibir)
+- Proporciona control de flujo (para evitar enviar más paquetes de los que la aplicación del host puede recibir)
 - Proporciona control de congestión (para mejorar el tráfico general de la red)
 - Es un protocolo orientado a conexiones, donde se tiene un ***handshake*** y un ***close***.
 
-Por el otro lado, el protocolo ***UDP*** es un protocolo minimalista que no ofrece un servicio confiable. Únicamente ofrece detección de errores simple con ***checksum***. Es más rápido, ya que no necesita de un ***handshake*** ni de un ***close***, y tampoco tiene control de congestión.
+Por el otro lado, el protocolo UDP es un protocolo minimalista que no ofrece un servicio confiable. Únicamente ofrece detección de errores simple con ***checksum***. Es más rápido, ya que no necesita de un ***handshake*** ni de un ***close***, y tampoco tiene control de congestión.
 
-El protocolo ***TCP*** utiliza paquetes ***acks*** para indicarle al otro extremo de la conexión que recibir correctamente los paquetes. El valor del número de secuencia del ***ack*** será el próximo ***byte*** que esperará recibir. Si un servidor recibe un paquete de datos con número de secuencia $x$, entonces el servidor enviara un paquete de ***ack*** con un número de secuencia de $x+1$. Si un ***host*** recibe un paquete fuera de orden, entonces enviara un paquete de ***ack*** correspondiente al último paquete recibido en orden.
+El protocolo TCP utiliza paquetes ***acks*** para indicarle al otro extremo de la conexión que recibir correctamente los paquetes. El valor del número de secuencia del ***ack*** será el próximo ***byte*** que esperará recibir. Si un servidor recibe un paquete de datos con número de secuencia $x$, entonces el servidor enviara un paquete de ***ack*** con un número de secuencia de $x+1$. Si un host recibe un paquete fuera de orden, entonces enviara un paquete de ***ack*** correspondiente al último paquete recibido en orden.
 
 ### Parámetros del Protocolo
 
-El protocolo ***TCP*** puede tener los **siguientes parámetros**:
+El protocolo TCP puede tener los **siguientes parámetros**:
 
 - ***SIZE:*** Tamaño del archivo que se debe enviar
 - ***MSS:*** Es el tamaño máximo de los paquetes. Utilizaremos este valor como unidad para el análisis, debiendo pasar todos los valores a esta unidad.
@@ -62,7 +62,7 @@ El protocolo ***TCP*** puede tener los **siguientes parámetros**:
 - ***RTO:*** El tiempo establecido para los ***timer interrupts*** del ***ack*** de los paquetes.
 - **ssthresh:** Es el valor en el que el protocolo pasa a la etapa de ***congestion avoidance***.
 - ***cwnd:*** Es el valor de la ventana de congestión. Representa la cantidad de paquetes que puede al o sumo tener en vuelo
-- ***rwnd:*** Es el valor de la ventana de recepción del ***host*** del otro lado de la conexión. Representa la cantidad de paquetes que puede al o sumo tener en vuelo
+- ***rwnd:*** Es el valor de la ventana de recepción del host del otro lado de la conexión. Representa la cantidad de paquetes que puede al o sumo tener en vuelo
 - ***Version:*** Tahoe | Reno
 
 ### Etapas del Protocolo
@@ -90,7 +90,7 @@ El protocolo consta de las **siguientes etapas**:
 	Es decir, cuando arriban todos los paquetes que estaban en vuelo (siempre debe ser entero el valor), entonces aumentaremos la ventana de congestión en un ***MSS.***
 
 - ***Fast Retransmit:*** Al entrar en esta fase, se reenvía inmediatamente el paquete que se presume perdido. En cuanto le llega el ***ack*** correspondiente, se avanza según el tipo de protocolo.
-	- ***Tahoe:*** Realiza lo mismo que tras un ***RTO***, se establecen los siguientes valores y se vuelve a ***Slow Start (SS):***
+	- ***Tahoe:*** Realiza lo mismo que tras un RTO, se establecen los siguientes valores y se vuelve a ***Slow Start (SS):***
 
 		$$
 		\text{cwnd}(n+1) = \text{LW}
@@ -119,19 +119,19 @@ Ante la **perdida de paquetes**, el protocolo responde:
 
 Consiste de tres paquetes (de ahí su nombre)
 
-1. El cliente envía un paquete de inicio de conexión, llamado ***SYN***. El número de secuencia será tomado de forma aleatoria, para minimizar la probabilidad de utilizar un número de secuencia de un paquete aún presente en la red.
-2. El servidor acepta la conexión y le envía un paquete de ***ack*** llamado ***SYNACK***. Este paquete también tendrá un número de secuencia elegida de forma aleatoria, distinto al del cliente.
-3. El cliente envía un último ***ACK*** para finalizar el saludo inicial.
+1. El cliente envía un paquete de inicio de conexión, llamado SYN. El número de secuencia será tomado de forma aleatoria, para minimizar la probabilidad de utilizar un número de secuencia de un paquete aún presente en la red.
+2. El servidor acepta la conexión y le envía un paquete de ***ack*** llamado SYNACK. Este paquete también tendrá un número de secuencia elegida de forma aleatoria, distinto al del cliente.
+3. El cliente envía un último ACK para finalizar el saludo inicial.
 
-A partir de aca, ambos ***hosts*** están conectados y pueden intercambiar información.
+A partir de aca, ambos hosts están conectados y pueden intercambiar información.
 
 ### Secuencia de Cierre
 
 Consiste de cuatro paquetes:
 
-1. El cliente inicia el cierre de la conexión con un paquete de ***FIN***
+1. El cliente inicia el cierre de la conexión con un paquete de FIN
 2. El servidor confirma la recepción con un paquete de ***ack***
-3. El servidor le envía un paquete de cierre de conexión ***FIN***.
+3. El servidor le envía un paquete de cierre de conexión FIN.
 4. El cliente confirma la recepción con un paquete de ***ack.***
 
 Tanto el cliente como el servidor pueden iniciar el cierre de la conexión.
@@ -147,7 +147,7 @@ Existen dos definiciones importantes:
 
 En la versión más simple, una tabla de ruteo tiene dos columnas
 
-Cuando se recibe un paquete, se debe comparar con las entradas de la tabla para definir a que puerto de salida debe ir. Por ejemplo, $\text{192.168.0.1/24}$ indica que los primeros $\text{24}$ *bits* de la dirección de destino del paquete entrante debe coincidir con $\text{192.168.0.1}$.
+Cuando se recibe un paquete, se debe comparar con las entradas de la tabla para definir a que puerto de salida debe ir. Por ejemplo, $\text{192.168.0.1/24}$ indica que los primeros $\text{24}$ bits de la dirección de destino del paquete entrante debe coincidir con $\text{192.168.0.1}$.
 
 Generalmente, $/n$ indica que la máscara es un número binario de $\text{32}$ *bits,* donde los primeros $n$ bits tienen valor $\text 1$ mientras que los restantes tienen valor $\text 0$.
 
@@ -159,7 +159,7 @@ $$
 
 El paquete deberá ser enviado a la interfaz indicada por la entrada de la tabla con el prefijo más restrictivo (más largo) que coincide. Esto se debe a que si una **subred** *particular* está incluida en otra, entonces debe enviarle el paquete a la particular.
 
-***Default Gateway:*** El ***default gateway*** es el puerto configurado para cualquier entrada que no coincide con la tabla, se denota con el prefijo/mascara $\text{0.0.0.0/0}$, esto se debe a que, por lo que vimos recién, cualquier dirección **IP** coincidirá con esta entrada, pero no la preferirá por sobre cualquier otra entrada (ya que es de longitud mínima).
+***Default Gateway:*** El ***default gateway*** es el puerto configurado para cualquier entrada que no coincide con la tabla, se denota con el prefijo/mascara $\text{0.0.0.0/0}$, esto se debe a que, por lo que vimos recién, cualquier dirección IP coincidirá con esta entrada, pero no la preferirá por sobre cualquier otra entrada (ya que es de longitud mínima).
 
 ### Optimización de Tablas
 
@@ -203,7 +203,7 @@ $$
 T_a = A + R + 2
 $$
 
-Las conexiones entre los ***routers*** también son **subredes**, por lo que una conexión punto a punto entre dos ***routers*** necesitaría $2 + 2 = 4$ direcciones, mientras que una entre tres ***routers*** necesitaría $3 + 2 = 5$ direcciones.
+Las conexiones entre los routers también son **subredes**, por lo que una conexión punto a punto entre dos routers necesitaría $2 + 2 = 4$ direcciones, mientras que una entre tres routers necesitaría $3 + 2 = 5$ direcciones.
 
 Debido a como se funcionan las máscaras, solo se pueden entregar cantidades de direcciones que sean potencias de dos, por lo que si una **subred** necesita $5$ direcciones, debemos entregarle por lo menos $2^3=8$. Nos quedaremos con la menor potencia de dos que nos proporcione al menos la cantidad de redes necesarias.
 
@@ -211,11 +211,11 @@ Para evitar tener tablas mal configuradas, debemos entregar subespacios de direc
 
 ## Fragmentación
 
-El ***MTU*** (***maximum transmission unit)*** es el máximo tamaño de un paquete de datos que se puede transferir en **IP**. Si el paquete completo tiene un tamaño mayor al ***MTU***, se deberá fragmentar.
+El MTU (***maximum transmission unit)*** es el máximo tamaño de un paquete de datos que se puede transferir en IP. Si el paquete completo tiene un tamaño mayor al MTU, se deberá fragmentar.
 
-Los paquetes no son reensamblados en el camino, sino en el ***host*** de destino. Si se pierde un fragmento, **IP** descartará el paquete completo.
+Los paquetes no son reensamblados en el camino, sino en el host de destino. Si se pierde un fragmento, IP descartará el paquete completo.
 
-Los headers de **IP** tienen tres campos utilizados para la fragmentación:
+Los headers de IP tienen tres campos utilizados para la fragmentación:
 
 - ***Identification:*** Es un número de **16** bits que identifica cada paquete, permite definir de qué paquete provienen los fragmentos
 - ***Flags:*** Son tres bits, el primero no es utilizado, siempre valdrá cero.
@@ -255,15 +255,15 @@ Los headers de **IP** tienen tres campos utilizados para la fragmentación:
 
 ## NAT
 
-El NAT o *Network Address Translation* es un mecanismo mediante el cual un router traduce direcciones **IP** entre dos espacios incompatibles. Suele ser utilizado en redes locales para aprovechar el uso de direcciones **IP**.
+El NAT o *Network Address Translation* es un mecanismo mediante el cual un router traduce direcciones IP entre dos espacios incompatibles. Suele ser utilizado en redes locales para aprovechar el uso de direcciones IP.
 
-Los ***hosts*** dentro de una red local tienen asignada una **IP** únicamente dentro de esa subred. Cuando tratan de enviar un paquete a una dirección **IP** externa, el r***outer NAT*** (y ***default gateway de la red)*** modifica la dirección IP del remitente e inyecta su propia **IP** antes de reenviar el paquete, asignando un puerto específico para esa traducción. También agrega una entrada a su tabla de traducciones en las que asocia el puerto especificado con la dirección **IP** local del remitente original.
+Los hosts dentro de una red local tienen asignada una IP únicamente dentro de esa subred. Cuando tratan de enviar un paquete a una dirección IP externa, el r***outer NAT*** (y ***default gateway de la red)*** modifica la dirección IP del remitente e inyecta su propia IP antes de reenviar el paquete, asignando un puerto específico para esa traducción. También agrega una entrada a su tabla de traducciones en las que asocia el puerto especificado con la dirección IP local del remitente original.
 
-Cuando la respuesta al paquete enviado llega al ***router NAT,*** este utiliza la tabla de traducciones para averiguar el remitente original del paquete (a partir del puerto), y reenvía el paquete a dicho ***host***.
+Cuando la respuesta al paquete enviado llega al ***router NAT,*** este utiliza la tabla de traducciones para averiguar el remitente original del paquete (a partir del puerto), y reenvía el paquete a dicho host.
 
-De esta forma, se simula tener más direcciones **IP**, utilizando los puertos de un ***router.*** Desde afuera, los paquetes de toda la subred parecen provenir de un único ***host.***
+De esta forma, se simula tener más direcciones IP, utilizando los puertos de un router. Desde afuera, los paquetes de toda la subred parecen provenir de un único ***host.***
 
-Una tabla de traducción ***NAT*** mínimamente, tendría los siguientes campos:
+Una tabla de traducción NAT mínimamente, tendría los siguientes campos:
 
 | Puerto Router | Dirección Host | Puerto Host |
 | ------------- | -------------- | ----------- |
@@ -271,23 +271,23 @@ Una tabla de traducción ***NAT*** mínimamente, tendría los siguientes campos:
 | 11239         | 192.168.0.101  | 61231       |
 | 31921         | 192.168.0.53   | 40032       |
 
-El puerto del ***router*** será elegido de forma aleatoria, mientras que el puerto del *host* será, justamente, elegido por el ***host***.
+El puerto del router será elegido de forma aleatoria, mientras que el puerto del host será, justamente, elegido por el host.
 
 ## DNS
 
-El sistema ***DNS*** es el sistema mediante el cual se traducen los nombres de dominio (google.com, fiuba.com.ar), a direcciones **IP**.
+El sistema DNS es el sistema mediante el cual se traducen los nombres de dominio (google.com, fiuba.com.ar), a direcciones IP.
 
 $$
 \underbrace{\text{www}}_\text{ Subdomain }\underbrace{\text{.fiuba}}_\text{ Domain }\underbrace{\text{.com}}_\text{ Second-level domain }\underbrace{\text{.ar}}_\text{ Top-level Domain }
 $$
 
-Para resolverlo, existen ***DNS*** ***servers*** ordenados de forma jerárquica que conocen las direcciones **IP** y los nombres de dominio de otros servidores conectados directamente.
+Para resolverlo, existen DNS ***servers*** ordenados de forma jerárquica que conocen las direcciones IP y los nombres de dominio de otros servidores conectados directamente.
 
 Por encima de la jerarquía, están los servidores ***raíz*** que conocen las direcciones de los *TLD servers (top level domain)*
 
-El servidor autoritario es aquel que conoce la dirección de un dominio completo. Puede haber cualquier número de servidores ***DNS*** intermedios, desde el servidor raíz hasta el servidor autoritario.
+El servidor autoritario es aquel que conoce la dirección de un dominio completo. Puede haber cualquier número de servidores DNS intermedios, desde el servidor raíz hasta el servidor autoritario.
 
-Por otro lado, también existen los ***local DNS servers.*** Cada ***ISP*** contiene uno, que se encarga de realizar las consultas provenientes de los usuarios.
+Por otro lado, también existen los ***local DNS servers.*** Cada ISP contiene uno, que se encarga de realizar las consultas provenientes de los usuarios.
 
 Existen dos tipos de consultas, las consultas iterativas y las consultas recursivas.
 
@@ -296,4 +296,4 @@ Existen dos tipos de consultas, las consultas iterativas y las consultas recursi
 
 Usualmente, todas las consultas son iterativas, excepto la consulta al servidor local. Este realizará consultas sucesivas, comenzando por el servidor raíz hasta llegar al servidor autoritario. Una vez obtenida la dirección, finalmente se la devuelve al cliente que inicio la consulta.
 
-Los servidores utilizan ***DNS caching*** para devolver direcciones que ya fueron consultadas frecuentemente y así acelerar el proceso de consultas ***DNS***. Los registros en el caché tienen un tiempo de vida determinado y serán eliminados luego de este.
+Los servidores utilizan ***DNS caching*** para devolver direcciones que ya fueron consultadas frecuentemente y así acelerar el proceso de consultas DNS. Los registros en el caché tienen un tiempo de vida determinado y serán eliminados luego de este.

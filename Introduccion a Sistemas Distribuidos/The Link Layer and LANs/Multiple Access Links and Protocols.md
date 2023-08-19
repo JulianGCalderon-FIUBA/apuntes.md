@@ -12,9 +12,9 @@ Los protocolos se pueden separar en tres categorías: *channel partitioning prot
 
 ## 1. Channel Partitioning Protocols
 
-Un protocolo ***TDM*** divide el tiempo en ***time frames***, que a su vez son divididos en $n$ ***time slots***, siendo $n$ el número de nodos conectados al canal. Cada uno de los ***time slots*** es asignado a uno de los nodos, por lo que solo puede transmitir información en momentos seleccionados
+Un protocolo TDM divide el tiempo en ***time frames***, que a su vez son divididos en $n$ ***time slots***, siendo $n$ el número de nodos conectados al canal. Cada uno de los ***time slots*** es asignado a uno de los nodos, por lo que solo puede transmitir información en momentos seleccionados
 
-Un protocolo ***FDM*** divide el canal en $n$ rangos de frecuencia, creando efectivamente $n$ canales distintos, uno para cada nodo.
+Un protocolo FDM divide el canal en $n$ rangos de frecuencia, creando efectivamente $n$ canales distintos, uno para cada nodo.
 
 Ambos protocolos son totalmente justos, pero tienen la desventaja de limitar la tasa de transmisión cuando hay un solo nodo enviando datos.
 
@@ -40,13 +40,13 @@ Consideraremos un ***successful slot*** cuando un solo nodo transmite un mensaje
 
 ### ALOHA
 
-El primer protocolo de ***ALOHA*** era desincronizado, por lo que los nodos no esperaban al comienzo de cada ***slot para enviar un paquete***. Si el paquete no es enviado con probabilidad $p$, en lguar de esperar al comienzo del próximo, entonces se espera un tiempo predeterminado de ***frame transmission time***.
+El primer protocolo de ALOHA era desincronizado, por lo que los nodos no esperaban al comienzo de cada ***slot para enviar un paquete***. Si el paquete no es enviado con probabilidad $p$, en lguar de esperar al comienzo del próximo, entonces se espera un tiempo predeterminado de ***frame transmission time***.
 
 Si hacemos un analisis similar, encontramos que la maxima eficiencia será la de $1/2e$, exactamente la mitad de la del protocolo anterior.
 
 ### Carrier Sense Multiple Access (CSMA)
 
-El comportamiento de los nodos en ***ALOHA*** es independientemente del resto de nodos del canal, el protocolo ***CSMA*** tiene dos reglas importantes para mejorar la comunicación:
+El comportamiento de los nodos en ALOHA es independientemente del resto de nodos del canal, el protocolo CSMA tiene dos reglas importantes para mejorar la comunicación:
 
 - ***Listen before Speaking:*** En la jerga de redes, se conoce como ***carrier sensing***. Si un nodo está transmitiendo un paquete, debe esperar a que este finalice antes de enviar su propio paquete. Para esto, se introduce un tiempo de espera entre que finaliza la transmisión de otro nodo hasta que inicia la propia.
 - **If someone else begins talking at the same time, stop talking:** En la jerga de redes, se conoce como ***collision detection***. Si se detecta que un nodo está transmitiendo a la vez que el propio nodo, entonces se debe cortar la transmisión y esperar un tiempo aleatorio antes de continuar el ciclo.
@@ -57,7 +57,7 @@ La razón por la cual, siguiendo la primera regla, pueden ocurrir colisiones, es
 
 La segunda regla permite detectar las colisiones y reducir significativamente el tiempo perdido. Para determinar el tiempo de espera antes de volver a probar de transmitir, se utiliza el algoritmo de ***binary exponential backoff***.
 
-Cuando se retransmite un paquete que ya experimento $n$ colisiones, el nodo toma un valor de $k$ aleatorio entre 0 y 2$n$-1. Cuantas más colisiones ocurran, más tiempo de espera habrá. Para ***ethernet***, el tiempo de espera será de 512$k$ *bit times*. (es decir, el tiempo necesario para enviar 152$k$ *bits*)
+Cuando se retransmite un paquete que ya experimento $n$ colisiones, el nodo toma un valor de $k$ aleatorio entre 0 y 2$n$-1. Cuantas más colisiones ocurran, más tiempo de espera habrá. Para ***ethernet***, el tiempo de espera será de 512$k$ *bit times*. (es decir, el tiempo necesario para enviar 152$k$ bits)
 
 Debido al tiempo de espera creciente por colisiones, este protocolo no sirve para aplicaciones de tiempo real
 
@@ -89,10 +89,10 @@ Esta tecnología sirve para tiempo real, pero no es utilizada de esta forma hoy 
 
 ## 4. DOCSIS: The Link-Layer Protocol for Cable Internet Access
 
-Recordemos que una ***cable access network*** típicamente consiste en miles de *residential cable modems* conectados a un único cable modem termination system (CMTS). ***DOCSIS*** utiliza FDM para dividir el ***downstream*** (con el ***CMTS*** como único remitente) y el ***upstream***. Debido a que en el ***downstream*** hay un único remitente, no es necesario prevenir colisiones.
+Recordemos que una ***cable access network*** típicamente consiste en miles de *residential cable modems* conectados a un único cable modem termination system (CMTS). DOCSIS utiliza FDM para dividir el ***downstream*** (con el CMTS como único remitente) y el ***upstream***. Debido a que en el ***downstream*** hay un único remitente, no es necesario prevenir colisiones.
 
-Para el caso del ***upstream***, cada canal se divide con ***TDM*** en intervalos de tiempo, cada uno conteniendo ***mini-slots*** mediante los cuales los ***modems*** particulares pueden transmitir al ***CMTS***. En el ***downstream*** el ***CMTC*** envía mensajes de control conocidos como ***MAP*** que especifican que ***modem*** puede transmitir en cada determinado momento.
+Para el caso del ***upstream***, cada canal se divide con TDM en intervalos de tiempo, cada uno conteniendo ***mini-slots*** mediante los cuales los ***modems*** particulares pueden transmitir al CMTS. En el ***downstream*** el CMTC envía mensajes de control conocidos como MAP que especifican que ***modem*** puede transmitir en cada determinado momento.
 
-Para que el ***CMTC*** conozca qué modems quieren enviar información, estos envían ***mini-slot-request frames al CMTC*** a través de intervalos especiales dedicados a este propósito. Para compartir estos intervalos especiales, se utiliza un ***random access protocol***. Debido a que no hay confirmación de recibo, los ***requests*** son reenviados si no se recibió una respuesta en el tiempo cercano.
+Para que el CMTC conozca qué modems quieren enviar información, estos envían ***mini-slot-request frames al CMTC*** a través de intervalos especiales dedicados a este propósito. Para compartir estos intervalos especiales, se utiliza un ***random access protocol***. Debido a que no hay confirmación de recibo, los ***requests*** son reenviados si no se recibió una respuesta en el tiempo cercano.
 
 Cuando hay poco tráfico en el *upstream channel*, los ***modems*** pueden transmitir ***data frames*** a través de los ***slots*** asignados para los ***request frames***.
