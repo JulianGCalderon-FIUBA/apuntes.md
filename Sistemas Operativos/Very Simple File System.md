@@ -2,7 +2,7 @@
 title: Very Simple File System
 ---
 
-En este capítulo se introduce una implementación muy simple para un sistema de archivos, conocida como ***vsfs*** o ***Very Simple File System***. El sistema de archivos se construye puramente sobre software, sin necesidad de características del hardware.
+En este capítulo se introduce una implementación muy simple para un sistema de archivos, conocida como VSFS o **Very Simple File System.** El sistema de archivos se construye puramente sobre software, sin necesidad de características del hardware.
 
 Hay dos aspectos principales a cubrir cuando hablamos de sistemas de archivos. El primero son las estructuras de datos utilizadas. El segundo aspecto importante son los métodos de acceso a este sistema.
 
@@ -12,7 +12,7 @@ Primero debemos dividir nuestro disco en bloques, los sistemas de archivos simpl
 
 ![[Very Simple File System 1.png]]
 
-La mayor parte del sistema de archivos se utilizará para guardar información del usuario, denominaremos a esta ***user data***.
+La mayor parte del sistema de archivos se utilizará para guardar información del usuario, denominaremos a esta **user data.**
 
 El sistema de archivos tiene que guardar información acerca de la ***metadata*** de cada archivo. Para almacenar esta información, se suele utilizar una estructura conocida como un ***inodo***. También se reservaran bloques para para guardar información acerca de que bloques están libres y cuáles no. Para esto utilizaremos ***bitmaps,*** tanto de inodos como de bloques de usuario.
 
