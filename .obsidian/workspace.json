@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "To-Do.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -159,6 +159,8 @@
   },
   "active": "752e8362b822a823",
   "lastOpenFiles": [
+    "Introduccion a Sistemas Distribuidos/Indice.md",
+    "To-Do.md",
     "Sistemas Operativos/Very Simple File System.md",
     "Sistemas Operativos/Translation Lookaside Buffers.md",
     "Sistemas Operativos/Traduccion de Direcciones.md",
@@ -174,7 +176,6 @@
     "Sistemas Operativos/Los procesos.md",
     "Algoritmos II/Memoria.md",
     "Sistemas Operativos/Locks.md",
-    "To-Do.md",
     "index.md",
     "Sistemas Operativos/Free-Space Management.md",
     "Sistemas Operativos/Estructuras Concurrentes.md",
@@ -184,7 +185,6 @@
     "Sistemas Operativos/Bugs de Concurrencia.md",
     "Probabilidad y Estadistica/Indice.md",
     "Analisis Matematico II/Integrales de Linea.md",
-    "Organizacion de Datos/Redes Neuronales.md",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
     "Estructura del Computador/Circuitos Asincronicos.html",
     "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",

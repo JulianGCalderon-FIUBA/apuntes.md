@@ -19,4 +19,10 @@ title: To-Do
 - [x] Análisis de la Información
 - [x] Sistemas Operativos
 - [ ] Introducción a Sistemas Distribuidos
-	- [ ] 
+	- [ ] Computer Networks and the Internet
+	- [ ] Application Layer
+	- [ ] Transport Layer
+	- [ ] The Network Layer Data Plane
+	- [ ] The Network Layer Control Plane
+	- [ ] The Link Layer and LANs
+	- [ ] Wireless and Mobile Networks
