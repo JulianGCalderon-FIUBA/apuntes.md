@@ -30,9 +30,9 @@ Esta técnica busca atacar el problema de que los procesos lleguen a destiempo. 
 
 ## Métrica: Response Time
 
-La introducción de las máquinas **timeshare** cambio el paradigma, ya no es solo fundamental mejorar el rendimiento, sino lograr que los procesos se ejecuten en lo antes posible, teniendo en cuenta el tiempo de reacción humano. Si esto no se cumple, podría parecer que el sistema se tildó.
+La introducción de las máquinas *timeshare* cambio el paradigma, ya no es solo fundamental mejorar el rendimiento, sino lograr que los procesos se ejecuten en lo antes posible, teniendo en cuenta el tiempo de reacción humano. Si esto no se cumple, podría parecer que el sistema se tildó.
 
-Debido a esto, surge una nueva métrica llamada *response time*. Esta representa que tarda un proceso en empezar a ejecutarse, desde que llega al sistema.
+Debido a esto, surge una nueva métrica llamada **response time**. Esta representa que tarda un proceso en empezar a ejecutarse, desde que llega al sistema.
 
 $$
 T_{\text{response}} = T_{\text{firstrun}} - T_{\text{arrival}}
@@ -40,9 +40,9 @@ $$
 
 ## Round Robin
 
-Para tratar de favorecer esta técnica, surge el **round robin.** Todos los procesos corren durante un *time slice,*, un periodo determinado de tiempo. Luego, se ejecuta el próximo proceso en la cola. Esto se repite hasta que no haya más procesos por ejecutar. Muchas veces, esta técnica es conocida como ***time-slicing***. Este algoritmo es bueno cuando los procesos tardan lo mismo en ejecutarse.
+Para tratar de favorecer esta técnica, surge el **round robin.** Todos los procesos corren durante un *time slice,* un periodo determinado de tiempo. Luego, se ejecuta el próximo proceso en la cola. Esto se repite hasta que no haya más procesos por ejecutar. Muchas veces, esta técnica es conocida como **time-slicing**. Este algoritmo es bueno cuando los procesos tardan lo mismo en ejecutarse.
 
-El largo del **time-slice** es crítico, cuanto menor eso, mejor resulta la métrica de *response-time*, aunque hacerlos muy cortos es problemático, ya que se destinan muchos recursos al *context-switch*. Este costo no solo viene de cargar y guardar los registros, sino también de otros componentes, como la memoria caché.
+El largo del *time-slice* es crítico, cuanto menor eso, mejor resulta la métrica de *response-time*, aunque hacerlos muy cortos es problemático, ya que se destinan muchos recursos al *context-switch*. Este costo no solo viene de cargar y guardar los registros, sino también de otros componentes, como la memoria caché.
 
 Lamentablemente, este algoritmo es muy malo cuando analizamos la métrica *turnaround.* Todas las políticas **fair** o justas que distribuyen los procesos en una escala pequeña de tiempo, tienden a tener un peor rendimiento general en esta métrica.
 
@@ -56,4 +56,4 @@ Si esto no se hace, el procesamiento se puede tornar lento cuando algunos proces
 
 ## Última Suposición
 
-Finalmente, debemos enfrentar nuestro último supuesto. El procesador suele tener muy poca información respecto a la longitud de un proceso antes de que este se ejecute. Debido a esto, no podemos tenerlo en cuenta para nuestras politicas.
+Finalmente, debemos enfrentar nuestro último supuesto. El procesador suele tener muy poca información respecto a la longitud de un proceso antes de que este se ejecute. Debido a esto, no podemos tenerlo en cuenta para nuestras políticas.
