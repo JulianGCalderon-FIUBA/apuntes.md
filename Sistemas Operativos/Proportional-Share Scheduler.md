@@ -38,21 +38,21 @@ Este planificador apunta a ser eficiente y justo, dedicándole el menor tiempo p
 
 Para dividir el uso del CPU entre todos los procesos, este planificador utiliza una simple técnica de conteo llamada **virtual runtime**, o *vruntime*. A medida que un proceso corre, acumula *vruntime*. El planificador siempre toma el proceso con **menor vruntime.**
 
-Para definir los *time-slices* a utilizar, utiliza un parámetro llamado *sched_latency.* Se utiliza para definir que tanto deberá correr un proceso antes de considerar un *context switch*. Este número, se dividira por el numero de procesos del sistema para determinar el ***time slice*** adecuado.
+Para definir los *time-slices* a utilizar, utiliza un parámetro llamado *sched_latency.* Se utiliza para definir que tanto deberá correr un proceso antes de considerar un *context switch*. Este número, se dividirá por el número de procesos del sistema para determinar él *time slice* adecuado.
 
-Cuando tenemos muchos procesos, se harán muchos cambios de contexto, lo que reducirá el rendimiento de la CPU. Para hacer esto, se introduce un nuevo parámetro: ***min_granularity***. Es la mínima duración que tendrá un ***time slice***.
+Cuando tenemos muchos procesos, se harán muchos cambios de contexto, lo que reducirá el rendimiento de la CPU. Para hacer esto, se introduce un nuevo parámetro: *min_granularity*. Es la mínima duración que tendrá un ***t**ime slice*****.
 
 ### Niceness
 
-El parámetro ***nice*** de un proceso puede tomar cualquier valor entre -20 y 19, con un valor por defecto de 0. Se utiliza para controlar la prioridad del mismo. Los valores negativos indican una mayor prioridad.
+El parámetro **nice** de un proceso puede tomar cualquier valor entre -20 y 19, con un valor por defecto de 0. Se utiliza para controlar la prioridad del mismo. Los valores negativos indican una mayor prioridad.
 
-El planificador ***mapea*** este valor con el peso o ***weight ***de un proceso. Estos pesos se utilizan para controlar el ***time slice*** de cada proceso utilizando la siguiente fórmula
+El planificador *mapea* este valor con el peso o *weight* de un proceso. Estos pesos se utilizan para controlar el *time slice* de cada proceso utilizando la siguiente fórmula
 
 $$
 \text{time\_slice}_k = \frac{\text{weight}_k}{\sum \text{weight}_i} \times \text{sched\_latency}
 $$
 
-También, el ***vruntime*** de cada proceso debe ser adaptado para utilizar los pesos. Esto se calcula con la siguiente fórmula.
+También, el *vruntime* de cada proceso debe ser adaptado para utilizar los pesos. Esto se calcula con la siguiente fórmula.
 
 $$
 \text{vruntime}_i = \text{vruntime}_i + \frac{\text{weight}_0}{\text{weight}_i} \times \text{runtime}_i
@@ -64,4 +64,4 @@ Para encontrar el próximo proceso a correr, el planificador utiliza este tipo d
 
 ### Lidiando con procesos frenados
 
-Cuando un proceso fue frenado por un largo periodo de tiempo, su ***vruntime*** no estará ajustado y monopolizará el procesador. Para solucionar esto, el ***vruntime*** se actualiza cuando un proceso despierta. Este valor se ***setea*** al valor mínimo encontrado en el árbol.
+Cuando un proceso fue frenado por un largo periodo de tiempo, su *vruntime* no estará ajustado y monopolizará el procesador. Para solucionar esto, el *vruntime* se actualiza cuando un proceso despierta. Este valor se establece al valor mínimo encontrado en el árbol.
