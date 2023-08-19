@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistemas Operativos/Proportional-Share Scheduler.md",
+                "file": "Sistemas Operativos/Translation Lookaside Buffers.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemas Operativos/Proportional-Share Scheduler.md"
+                "file": "Sistemas Operativos/Translation Lookaside Buffers.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operativos/Proportional-Share Scheduler.md",
+                "file": "Sistemas Operativos/Translation Lookaside Buffers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operativos/Proportional-Share Scheduler.md",
+                "file": "Sistemas Operativos/Translation Lookaside Buffers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,9 +159,11 @@
   },
   "active": "752e8362b822a823",
   "lastOpenFiles": [
-    "Sistemas Operativos/Planificador Multiprocesador.md",
+    "Sistemas Operativos/Traduccion de Direcciones.md",
+    "Sistemas Operativos/Segmentacion.md",
     "Sistemas Operativos/Indice.md",
     "Sistemas Operativos/Proportional-Share Scheduler.md",
+    "Sistemas Operativos/Planificador Multiprocesador.md",
     "Sistemas Operativos/Planificacion.md",
     "Sistemas Operativos/Paginacion Avanzada.md",
     "Sistemas Operativos/Introduccion a Sistemas Operativos.md",
@@ -183,8 +185,6 @@
     "Organizacion de Datos/Redes Neuronales.md",
     "Fisica I/Trabajo y Energia.md",
     "Organizacion de Datos/Support Vector Machines.md",
-    "Analisis Matematico II/Curvas y Superficies.md",
-    "Analisis Matematico II/Indice.md",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
     "Estructura del Computador/Circuitos Asincronicos.html",
     "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",

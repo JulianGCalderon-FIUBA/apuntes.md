@@ -2,14 +2,14 @@
 title: Translation Lookaside Buffers
 ---
 
-Este método consiste en separar el espacio de direcciones en pequeños unidades (paginas) de tamaño fijo. Esta técnica requiere mucha información de ***mape***o. Por lo general esta información está almacenada en memoria física, se requiere acceder a cierta memoria extra, por cada dirección de memoria virtual. Por lo general, las páginas tienen un tamaño de ***4kb***. Aunque estos pueden variar según la implementación.
+Este método consiste en separar el espacio de direcciones en pequeños unidades (paginas) de tamaño fijo. Esta técnica requiere mucha información de *mapeo.* Por lo general esta información está almacenada en memoria física, se requiere acceder a cierta memoria extra, por cada dirección de memoria virtual. Por lo general, las páginas tienen un tamaño de *4 KB*. Aunque estos pueden variar según la implementación.
 
 Este proceso de buscar en memoria la información para realizar la traducción es un proceso lento, por lo surge la pregunta: ¿cómo podemos acelerar el proceso de traducción de direcciones, evitando utilizar memoria extra?
 
-Para esto, vamos a utilizar un elemento del hardware llamado ***TLB***, o ***translation-lookaside buffer***. Es una parte de la MMU, y es simplemente un ***caché*** de las traducciones ***virtual-física*** más populares. Un nombre más descriptivo podría ser ***address-translation cache.***
+Para esto, vamos a utilizar un elemento del hardware llamado TLB, o *translation-lookaside buffer*. Es una parte de la MMU, y es simplemente un caché de las traducciones **virtual-física** más populares. Un nombre más descriptivo podría ser *address-translation cache.*
 
 > [!note]
-> El término ***RAM*** o ***random-access memory*** indica que se puede acceder a cualquier parte de la memoria tan rápido como cualquier otro. Sin embargo, debido a algunos rasgos de la computadora (como el ***TLB***), esto no es asi.
+> El término RAM o ***random-access memory*** indica que se puede acceder a cualquier parte de la memoria tan rápido como cualquier otro. Sin embargo, debido a algunos rasgos de la computadora (como el ***TLB***), esto no es asi.
 
 ## Funcionamiento del TLB
 

@@ -38,9 +38,9 @@ Este planificador apunta a ser eficiente y justo, dedicándole el menor tiempo p
 
 Para dividir el uso del CPU entre todos los procesos, este planificador utiliza una simple técnica de conteo llamada **virtual runtime**, o *vruntime*. A medida que un proceso corre, acumula *vruntime*. El planificador siempre toma el proceso con **menor vruntime.**
 
-Para definir los *time-slices* a utilizar, utiliza un parámetro llamado *sched_latency.* Se utiliza para definir que tanto deberá correr un proceso antes de considerar un *context switch*. Este número, se dividirá por el número de procesos del sistema para determinar él *time slice* adecuado.
+Para definir los *time-slices* a utilizar, utiliza un parámetro llamado *sched_latency.* Se utiliza para definir que tanto deberá correr un proceso antes de considerar un *context switch*. Este número se dividirá por el número de procesos del sistema para determinar él *time slice* adecuado.
 
-Cuando tenemos muchos procesos, se harán muchos cambios de contexto, lo que reducirá el rendimiento de la CPU. Para hacer esto, se introduce un nuevo parámetro: *min_granularity*. Es la mínima duración que tendrá un *time slice.*
+Cuando tenemos muchos procesos, se harán muchos cambios de contexto, lo que reducirá el rendimiento de la CPU. Para hacer esto, se introduce un nuevo parámetro: *min_granularity.* Es la mínima duración que tendrá un *time slice.*
 
 ### Niceness
 
