@@ -6,7 +6,7 @@ Se introduce el concepto de *lock*, estos permiten exclusión mutua de una parte
 
 Una lock es una variable, esta almacena su estado interno en un instante de tiempo. Permitiendo que solo un hilo pueda adquirir el lock. Dentro también se puede almacenar otra información, como una cola de adquisición, o a qué hilo le pertenece.
 
-El nombre de la biblioteca que usa los locks se llama *mutex*, ya que provee *mutual exclusión* entre *threads*.
+El nombre de la biblioteca que usa los locks se llama *mutex*, ya que provee *mutual exclusión* entre threads.
 
 La semántica de las rutinas es simple: Llamar a `lock()` para tratar de adquirir el lock, si ningún otro thread lo tiene, entonces se adquiere el lock y se entra en una sección crítica. Si otro thread tiene el lock, entonces se espera a que se libere. Una vez el dueño del lock lo libera, este está libre nuevamente para que otro thread lo acceda.
 
@@ -44,9 +44,9 @@ Un *spin lock* es un tipo de lock donde un thread espera indefinidamente utiliza
 
 Podemos hacer un análisis de su efectividad según los criterios mencionados anteriormente.
 
-- **Correctness:** el spin lock provee exclusión mutua.
-- **Fairness:** los spinlocks no proveen ninguna garantía de que un thread no va a esperar infinitamente.
-- **Performance:** si trabajamos con una única CPU, entonces se desperdician muchos ciclos, por lo que esta solución es extremadamente ineficiente. Con múltiples CPUs, este enfoque performa bastante bien (siempre y cuando haya aproximadamente la misma cantidad de threads que de procesadores).
+- **Correctness:** el *spin lock* provee exclusión mutua.
+- **Fairness:** los *spin locks* no proveen ninguna garantía de que un thread no va a esperar infinitamente.
+- **Performance:** si trabajamos con una única CPU, entonces se desperdician muchos ciclos, por lo que esta solución es extremadamente ineficiente. Con múltiples CPU, este enfoque performa bastante bien (siempre y cuando haya aproximadamente la misma cantidad de threads que de procesadores).
 
 ## Compare-And-Swap
 
@@ -58,26 +58,26 @@ Esta instrucción es más poderosa que *test-and-swap*. Estudiaremos sus benefic
 
 Algunas plataformas proveen este par de instrucciones para poder construir locks. La instrucción **Load-Linked** es similar a un típico *load.* La diferencia proviene de la instrucción **store-conditional**. Esta instrucción solo se realiza si no hubo ninguna intervención desde que se realizó un *load-linked.* En caso de un *store* exitoso, se devuelve el valor 1 y se actualiza el valor.
 
-Con estas instrucciones, podemos construir nuevamente un *spinlock*.
+Con estas instrucciones, podemos construir nuevamente un *spin lock*.
 
 ## Fetch-And-Add
 
 Esta instrucción, de forma atómica, incrementa un valor, retornando el valor anterior de una dirección de memoria particular.
 
-Esta instrucción se puede utilizar para construir un **ticket lock**. Cuando un *thread* quiere adquirir un *lock*, entonces realiza un *fetch-and-add* en el valor del *ticket*. El valor es considerado como el turno de ese *thread*. Dentro del *lock*, se almacena un *turn* para indicar de quién es el turno. Para liberar el turno, se incrementa el valor de *turn* con *fetch-and-add*.
+Esta instrucción se puede utilizar para construir un **ticket lock**. Cuando un thread quiere adquirir un lock, entonces realiza un **fetch-and-add** en el valor del *ticket*. El valor es considerado como el turno de ese thread. Dentro del lock, se almacena un *turn* para indicar de quién es el turno. Para liberar el turno, se incrementa el valor de *turn* con *fetch-and-add*.
 
-Este enfoque permite cumplir el segundo criterio, se garantiza que todos los *threads* van a obtener el *lock* eventualmente.
+Este enfoque permite cumplir el segundo criterio, se garantiza que todos los threads van a obtener el lock eventualmente.
 
 ## Simple Approach: Yield
 
-El concepto detrás de este enfoque es simple: Cuando un proceso va a hacer un ***spin***, en su lugar delega el control del procesador. Este enfoque aún tiene la desventaja de que se gasta procesamiento de igual forma, cuando se realiza un ***yield***.
+El concepto detrás de este enfoque es simple: Cuando un proceso va a hacer un spin, en su lugar delega el control del procesador. Este enfoque aún tiene la desventaja de que se gasta procesamiento de igual forma, cuando se realiza un **yield**.
 
 ## Sleeping: Queues
 
-Necesitamos encontrar una forma de que los procesos que estén esperando a adquirir un ***lock*** no se planifiquen. Podemos utilizar dos rutinas: `park()`, que pone al ***thread*** que trata de adquirir un ***lock*** a dormir. y `unpark()` que despierta un hilo.
+Necesitamos encontrar una forma de que los procesos que estén esperando a adquirir un lock no se planifiquen. Podemos utilizar dos rutinas: `park()`, que pone al thread que trata de adquirir un lock a dormir, y `unpark()` que despierta un hilo.
 
-Cuando llamamos a `lock()`, el thread actual debe colocarse en la cola de espera. Cuando se realiza un `unlock()`, Entonces se debe despertar al próximo ***thread*** en la cola. Para evitar condiciones de carrera, se utiliza la instrucción atómica `set_park()`, que libera el guard y duerme el proceso.
+Cuando llamamos a `lock()`, el thread actual debe colocarse en la cola de espera. Cuando se realiza un `unlock()`, Entonces se debe despertar al próximo thread en la cola. Para evitar condiciones de carrera, se utiliza la instrucción atómica `set_park()`, que libera el *guard* y duerme el proceso.
 
 ## Two-Phase Lock
 
-Este tipo de ***locks*** tienen dos fases, una de ***spinning*** y otra de ***sleeping***. Si no se puede conseguir el ***lock*** en la etapa inicial de ***spining***, entonces se duerme hasta que se libere el ***lock.***
+Este tipo de locks tienen dos fases, una de **spinning** y otra de **sleeping**. Si no se puede conseguir el lock en la etapa inicial de *spining*, entonces se duerme hasta que se libere el lock.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do.md",
+                "file": "Sistemas Operativos/Los procesos.md",
                 "mode": "source",
                 "source": true
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464.5
+    "width": 464.5,
+    "collapsed": true
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -85,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Do.md"
+                "file": "Sistemas Operativos/Los procesos.md"
               }
             }
           },
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do.md",
+                "file": "Sistemas Operativos/Los procesos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Do.md",
+                "file": "Sistemas Operativos/Los procesos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,6 +160,7 @@
   },
   "active": "752e8362b822a823",
   "lastOpenFiles": [
+    "To-Do.md",
     "Sistemas Operativos/Locks.md",
     "Sistemas Operativos/Introduccion a Sistemas Operativos.md",
     "Sistemas Operativos/Introduccion a Paginacion.md",
@@ -170,7 +172,6 @@
     "Sistemas Operativos/Ejecucion Directa.md",
     "Sistemas Operativos/Concurrencia.md",
     "Sistemas Operativos/Bugs de Concurrencia.md",
-    "To-Do.md",
     "Probabilidad y Estadistica/Indice.md",
     "Analisis Matematico II/Integrales de Linea.md",
     "Organizacion de Datos/Redes Neuronales.md",

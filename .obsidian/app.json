@@ -156,6 +156,7 @@
     "headers",
     "Microkernel",
     "microkernel",
-    "thread"
+    "thread",
+    "performa"
   ]
 }

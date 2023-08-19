@@ -2,19 +2,19 @@
 title: Los procesos
 ---
 
-La definición simple (aunque incompleta) de un proceso es: un programa corriendo en memoria. Un programa por si solo existe en el disco, un conjunto de instrucciones esperando a ser ejecutadas. El sistema operativo se encarga de ejecutar este programa.
+La definición simple (aunque incompleta) de un proceso es: un programa corriendo en memoria. Un programa por sí solo existe en el disco, un conjunto de instrucciones esperando a ser ejecutadas. El sistema operativo se encarga de ejecutar este programa.
 
 ## Mecanismos
 
-Para generar la ilusión de que un sistema pueda tener cientos de programas siendo ejecutados al mismo tiempo, el sistema operativo genera abstracciones del hardware. A partir de la técnica básica ***time sharing***, múltiples programas pueden compartir el procesador.
+Para generar la ilusión de que un sistema pueda tener cientos de programas siendo ejecutados al mismo tiempo, el sistema operativo genera abstracciones del hardware. A partir de la técnica básica **time sharing**, múltiples programas pueden compartir el procesador.
 
 Para lograr estas virtualizaciones, el sistema operativo necesita tanto mecanismos de bajo nivel, como inteligencia de alto nivel.
 
-El *context switch* es un mecanismo del hardware que permite quitarle control a un proceso y devolverle el control al kernel, para que administre el sistema. Luego este le delegará el control a otro proceso, este ciclo se repetirá infinitamente mientras la computadora esté ejecutándose.
+El **context switch** es un mecanismo del hardware que permite quitarle control a un proceso y devolverle el control al kernel, para que administre el sistema. Luego este le delegará el control a otro proceso, este ciclo se repetirá infinitamente mientras la computadora esté ejecutándose.
 
-La contraparte del ***time sharing*** es el ***space sharing***, el sistema operativo también tiene mecanismos de hardware para poder administrar la memoria de forma concurrente entre dispositivos.
+La contraparte del *time sharing* es el **space sharing**, el sistema operativo también tiene mecanismos de hardware para poder administrar la memoria de forma concurrente entre dispositivos.
 
-Por encima del hardware están las ***policies***, algoritmos que toman decisiones en cuanto a como se ejecuta el sistema como por ejemplo: ***scheduling policy.*** La cual decide que proceso se ejecutará en cada momento, a partir de un conjunto de reglas.
+Por encima del hardware están las *policies*, algoritmos que toman decisiones en cuanto a como se ejecuta el sistema, como por ejemplo: *scheduling policy.* La cual decide que proceso se ejecutará en cada momento, a partir de un conjunto de reglas.
 
 ## Abstracción
 
