@@ -2,18 +2,20 @@
 title: Multi-Level Feedback Queue
 ---
 
-Este es uno de los enfoques más conocidos para la planificación. El problema fundamental que este enfoque trata de solucionar es minimizar tanto el ***turnaround time*** como el ***response time***. Para realizar esto, en lugar de depender de conocimiento ***a priori*** de los procesos, se observa su ejecución.
+Este es uno de los enfoques más conocidos para la planificación. El problema fundamental que este enfoque trata de solucionar es minimizar tanto el **turnaround time** como el **response time**. Para realizar esto, en lugar de depender de conocimiento *a priori* de los procesos, se observa su ejecución.
 
 ## Reglas Básicas
 
-Este algoritmo utiliza un número de colas distintas, donde cada una tiene asignada un cierto nivel de prioridad. Se utiliza un sistema de prioridad para decidir que proceso ejecutar. Cuando algunos procesos tienen la misma prioridad, entonces se utiliza el algoritmo ***round robin***.
+Este algoritmo utiliza un número de colas distintas, donde cada una tiene asignada un cierto nivel de prioridad. Se utiliza un sistema de prioridad para decidir que proceso ejecutar. Cuando algunos procesos tienen la misma prioridad, entonces se utiliza el algoritmo **round robin**.
 
-- **Regla 1:** `if priority(A) > priority(B), A runs`
-- **Regla 2:** `if priority(A) > Priority(B), A & B run in RR`
+El algoritmo tiene dos reglas:
+
+1. `if priority(A) > priority(B), A runs`
+2. `if priority(A) > Priority(B), A & B run in RR`
 
 La clave de este algoritmo reside en como se calculan estas prioridades. En lugar de darle un prioridad fija a cada proceso, esta varía según el comportamiento observado del proceso a medida que corre.
 
-Los ***time-slice*** para cada prioridad suele variar. Las colas con mayor prioridad tendrán menos tiempo de ejecución. Por otro lado, los ***time-slice*** largos suelen funcionar bien para procesos largos.
+Los **time-slice** para cada prioridad suele variar. Las colas con mayor prioridad tendrán menos tiempo de ejecución. Por otro lado, los *time-slice* largos suelen funcionar bien para procesos largos.
 
 Algunas implementaciones reservan las colas de máxima prioridad para procesos del sistema, dejando los procesos de usuario con menor prioridad.
 
@@ -23,7 +25,7 @@ Otras, permiten al usuario ayudar a configurar la prioridad de su ejecución.
 
 Para cambiar la prioridad de un proceso, se introducen nuevas reglas a nuestro algoritmo. Se tiene en cuenta nuestra carga de trabajo usual: Una mezcla de procesos cortos e interactivos, y algunos procesos largos que necesita mucho tiempo de procesamiento, donde el **response** no es tan importante.
 
-- ***Regla 3:*** Cuando un proceso llega al sistema, este se coloca en la cola de máximas prioridad
+1. Cuando un proceso llega al sistema, este se coloca en la cola de máximas prioridad
 - **Regla 4a:** Si un proceso utiliza todo su *time-slice*, su prioridad se reduce.
 - **Regla 4b:** Si un proceso delega el procesador antes de que termine su time-slice, entonces se mantiene con el mismo nivel de prioridad.
 

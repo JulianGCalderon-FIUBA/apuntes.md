@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmos II/Memoria.md",
-                "mode": "preview",
+                "file": "Sistemas Operativos/Multi-Level Feedback Queue.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ".code",
+                "query": ".heap",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmos II/Memoria.md"
+                "file": "Sistemas Operativos/Multi-Level Feedback Queue.md"
               }
             }
           },
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmos II/Memoria.md",
+                "file": "Sistemas Operativos/Multi-Level Feedback Queue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmos II/Memoria.md",
+                "file": "Sistemas Operativos/Multi-Level Feedback Queue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,6 +161,7 @@
   "lastOpenFiles": [
     "Sistemas Operativos/Los procesos.md",
     "Sistemas Operativos/Multi-Level Feedback Queue.md",
+    "Algoritmos II/Memoria.md",
     "Sistemas Operativos/Locks.md",
     "To-Do.md",
     "Sistemas Operativos/Introduccion a Sistemas Operativos.md",
@@ -185,7 +185,6 @@
     "Organizacion de Datos/Redes Recurrentes.md",
     "Analisis Matematico II/Cuadricas.md",
     "Estructura del Computador/Circuitos con Capacidad de Memoria.md",
-    "Estructura del Computador/Circuitos Asincronicos.md",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
     "Estructura del Computador/Circuitos Asincronicos.html",
     "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",

@@ -20,10 +20,10 @@ En cada una de estas etapas el programa tiene una estructura distinta.
 
 En esta etapa, el programa se divide en distintas secciones:
 
-- **Código `.code`:** En esta sección se almacena el código del programa, ya traducido por el compilador
-- **Datos `.data`:** En esta sección se almacena los datos de valores globales y literales
-- **Pila de Ejecución `.stack`:** Se almacenan las variables locales una vez se ejecuta el programa
-- **Montículo `.heap`:** Es la memoria dinámica, no existe hasta que el programa se ejecuta.
+- **Código - `.code`:** En esta sección se almacena el código del programa, ya traducido por el compilador
+- **Datos - `.data`:** En esta sección se almacena los datos de valores globales y literales
+- **Pila de Ejecución - `.stack`:** Se almacenan las variables locales una vez se ejecuta el programa
+- **Montículo - `.heap`:** Es la memoria dinámica, no existe hasta que el programa se ejecuta.
 
 ## Memoria
 
