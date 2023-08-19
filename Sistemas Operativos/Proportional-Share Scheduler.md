@@ -40,7 +40,7 @@ Para dividir el uso del CPU entre todos los procesos, este planificador utiliza 
 
 Para definir los *time-slices* a utilizar, utiliza un parámetro llamado *sched_latency.* Se utiliza para definir que tanto deberá correr un proceso antes de considerar un *context switch*. Este número, se dividirá por el número de procesos del sistema para determinar él *time slice* adecuado.
 
-Cuando tenemos muchos procesos, se harán muchos cambios de contexto, lo que reducirá el rendimiento de la CPU. Para hacer esto, se introduce un nuevo parámetro: *min_granularity*. Es la mínima duración que tendrá un ***t**ime slice*****.
+Cuando tenemos muchos procesos, se harán muchos cambios de contexto, lo que reducirá el rendimiento de la CPU. Para hacer esto, se introduce un nuevo parámetro: *min_granularity*. Es la mínima duración que tendrá un *time slice.*
 
 ### Niceness
 
