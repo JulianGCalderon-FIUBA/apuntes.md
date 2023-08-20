@@ -11,7 +11,7 @@ Los campos clave de un datagrama ***IPv4*** son:
 - ***Version number:*** Especifican la versión del protocolo IP del ***datagram***
 - ***Header length:*** Debido a que el datagrama puede contener un número variable de opciones, este campo determina dónde comienza el ***payload.***
 - ***Type of service:*** Permiten distinguir los paquetes según el tipo de servicio que ofrecen, permitiendo a las redes detectar paquetes de tiempo real del resto.
-- ***Datagram length:*** Incluye el tamaño total del ***datagram***, medido en ***bytes***.
+- ***Datagram length:*** Incluye el tamaño total del ***datagram***, medido en bytes.
 - ***Identifier, flags, fragmentation offset:*** Estos tres campos son utilizados en el conocido ***IP fragmentation***.
 - ***Time-to-live:*** Se usa para indicar cuándo tiempo podrá circular un ***datagram*** en la red, este número es decrementado por cada router que atraviesa el ***datagram***.
 - ***Protocol:*** Este campo es típicamente utilizado una vez el paquete llega a destino, para determinar que protocolo de capa de transporte específico se está utilizando.
@@ -112,6 +112,6 @@ Notamos que algunos ***headers*** ya no están presentes:
 
 El problema es que mientras que los sistemas ***IPv6*** son ***backward-compatible***, los sistemas ***IPv4*** no soportan el envío de datagrams ***IPv6***. La mayoría de los sistemas utilizan ***IPv4*** y la transición es un proceso muy costoso.
 
-Para solucionar esto se utiliza la estrategia de ***tunneling.*** Esta estrategia consiste en que si dos nodos ***IPv6*** se quieren comunicar a través de una serie de routers que implementan únicamente ***IPv4***, entonces el paquete se encapsula dentro de un paquete IPv4. Este es enviado a través de los routers intermedios hasta que llegan al otro nodo ***IPv6***, el cual extrae el paquete IPv6 del payload del paquete ***IPv4***. Para identificarlo, observa el valor *41* en el campo del número de protocolo.
+Para solucionar esto se utiliza la estrategia de ***tunneling.*** Esta estrategia consiste en que si dos nodos ***IPv6*** se quieren comunicar a través de una serie de routers que implementan únicamente ***IPv4***, entonces el paquete se encapsula dentro de un paquete IPv4. Este es enviado a través de los routers intermedios hasta que llegan al otro nodo ***IPv6***, el cual extrae el paquete IPv6 del payload del paquete ***IPv4***. Para identificarlo, observa el valor 41 en el campo del número de protocolo.
 
 Introducir protocolos de aplicación es mucho más simple de realizarse, en comparación con la introducciones que nuevos protocolos de transporte, lo cual es muy costoso de realizarse.

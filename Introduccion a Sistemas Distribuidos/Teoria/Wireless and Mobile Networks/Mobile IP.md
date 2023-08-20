@@ -20,7 +20,7 @@ Con ***agent advertisement***, un nodo extranjero o local publicita sus servicio
 - ***M, G encapsulation bits.*** Indica si una forma de encapsulación que no sea ***IP-in-IP*** es utilizada
 - ***Care-of address (COA) fields.*** Una lista de uno o mas COA provistas por el agente externo. El agente externo seleccionara una de las direccionas cuando se registra con su agente local.
 
-Con **agent solicitation**, un nodo móvil que quiere descubrir agentes puede realizarlo sin necesidad de esperar un ***broadcast*** de los mismos. Para hacerlo, realiza un ***broadcast*** de un ***agent solicitation message.*** Este es un paquete ICMP con un *type value* de *10*. Cuando un agente recibe la solicitud, este envía un ***agent advertisement*** directamente al nodo móvil (unicast).
+Con **agent solicitation**, un nodo móvil que quiere descubrir agentes puede realizarlo sin necesidad de esperar un ***broadcast*** de los mismos. Para hacerlo, realiza un ***broadcast*** de un ***agent solicitation message.*** Este es un paquete ICMP con un *type value* de 10. Cuando un agente recibe la solicitud, este envía un ***agent advertisement*** directamente al nodo móvil (unicast).
 
 ## Registration with the Home Agent
 

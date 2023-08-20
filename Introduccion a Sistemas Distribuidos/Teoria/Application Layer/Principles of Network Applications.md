@@ -24,7 +24,7 @@ En la jerga de los sistemas operativos, no son los programas los que se comunica
 
 Por cada par de procesos en comunicación, normalmente etiquetamos a uno como el **cliente** y otro como el **servidor**. En una arquitectura P2P, el que envía el archivo se denomina servidor y el que lo recibe se denomina cliente.
 
-Los procesos intercambian mensajes a través de una interfaz de software conocida como *socket*. Esta interfaz también es conocida como la API entre la aplicación y la red. El desarrollador no tiene control de lo que ocurre en esta interfaz, salvo por la elección de que protocolo usar o la configuración de algunos parámetros de la misma.
+Los procesos intercambian mensajes a través de una interfaz de software conocida como socket. Esta interfaz también es conocida como la API entre la aplicación y la red. El desarrollador no tiene control de lo que ocurre en esta interfaz, salvo por la elección de que protocolo usar o la configuración de algunos parámetros de la misma.
 
 ### Addressing Processes
 
@@ -34,7 +34,7 @@ En el internet, el host se identifica con la dirección IP, mientras que el proc
 
 ## 3. Transport Services Available to Applications
 
-Cuando desarrollamos una aplicación, debemos seleccionar el protocolo de ***transport-layer*** que queremos utilizar. Estos se pueden clasificar según los servicios que proveen.
+Cuando desarrollamos una aplicación, debemos seleccionar el protocolo de *transport-layer* que queremos utilizar. Estos se pueden clasificar según los servicios que proveen.
 
 ### Reliable Data Transfer
 
@@ -62,7 +62,7 @@ El internet usa principalmente dos protocolos de transporte. UDP y TCP.
 
 Este modelo de servicio incluye un servicio orientado a conexiones y envío confiable de información.
 
-Este protocolo consiste en un intercambio inicial de información antes de que los mensajes de aplicación se envíe, conocido como el *handshaking procedure*. Una vez finalizada esta fase, se dice que existe una conexión TCP entre los *sockets* de ambos *end points*. Esta conexión permite tanto el envío como la recepción de mensajes.
+Este protocolo consiste en un intercambio inicial de información antes de que los mensajes de aplicación se envíe, conocido como el *handshaking procedure*. Una vez finalizada esta fase, se dice que existe una conexión TCP entre los sockets de ambos *end points*. Esta conexión permite tanto el envío como la recepción de mensajes.
 
 Por otro lado, provee un servicio de envío confiable, que asegura que todos los paquetes enviados llegaran a destino en el orden correcto.
 

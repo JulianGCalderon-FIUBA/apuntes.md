@@ -41,7 +41,7 @@ En Linux, tenemos tres *system calls* principales para administrar procesos:
 
 #### `fork()`
 
-Al llamarse a esta rutina, el sistema operativo crea un proceso completamente nuevo, como copia casi totalmente idéntica del proceso padre. Toda la información del proceso es clonada a otro espacio de memoria. Creando un nuevo proceso totalmente independiente. El PID o ***process identifier*** es lo único que se modifica, ya que estamos tratando con un proceso distinto.
+Al llamarse a esta rutina, el sistema operativo crea un proceso completamente nuevo, como copia casi totalmente idéntica del proceso padre. Toda la información del proceso es clonada a otro espacio de memoria. Creando un nuevo proceso totalmente independiente. El PID o **process identifier** es lo único que se modifica, ya que estamos tratando con un proceso distinto.
 
 Para que el proceso conozca si es el padre o el hijo, la *system call* tiene dos valores de retorno. El hijo recibe un cero, mientras que el padre recibe el PID del hijo.
 

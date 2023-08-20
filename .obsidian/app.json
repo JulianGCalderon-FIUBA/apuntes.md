@@ -167,6 +167,10 @@
     "reensamblados",
     "desencriptación",
     "ruteo",
-    "particionamiento"
+    "particionamiento",
+    "socket",
+    "sockets",
+    "ACK",
+    "NAK"
   ]
 }

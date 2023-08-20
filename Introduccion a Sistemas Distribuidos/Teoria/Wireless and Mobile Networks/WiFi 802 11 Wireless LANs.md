@@ -16,7 +16,7 @@ Las redes LAN inalámbricas que despliegan un ***access point*** son frecuenteme
 
 ### Channels and Association
 
-Cuando un administrador de red instala un ***access point***, deben configurarse dos parámetros. El ***Service Set Identifier (SSID),*** y el numero de canal. Las redes de *2.4GHz operan entre 2.4GHz y 2.4835Ghz*, definiendo *11* canales parcialmente superpuestos. Dos canales no se superponen si distan a 4 o mas canales.
+Cuando un administrador de red instala un ***access point***, deben configurarse dos parámetros. El ***Service Set Identifier (SSID),*** y el numero de canal. Las redes de *2.4GHz operan entre 2.4GHz y 2.4835Ghz*, definiendo 11 canales parcialmente superpuestos. Dos canales no se superponen si distan a 4 o mas canales.
 
 Una jungla ***Wi-Fi*** es una cualquier punto donde se reciben suficientemente fuertes, señales de dos o mas ***access points***. Cuando un dispositivo se encuentra en una jungla, para obtener acceso al internet, debe asociarse con exactamente uno de estos AP**s.** Asociarse implica crear un cable virtual entre el y dicho AP.
 
@@ -39,13 +39,13 @@ Una vez que una estación comienza a transmitir, lo transmite completo. Esto pue
 
 Si un dispositivo quiere enviar un ***frame***, entonces escuchara el canal. Si no hay nadie transmitiendo, lo transmite. Si hay alguien transmitiendo, elige un valor aleatorio de ***backoff*** utilizando ***binary exponential backoff*** y comienza la cuenta regresiva (contando únicamente cuando el canal esta vacío luego del DIFS). Una vez que la cuenta finaliza, envía el ***frame***.
 
-Cuando un estación recibe un paquete completo, espera un pequeño periodo de tiempo llamado Short Inter-Frame Spacing (SIFS) y luego reenvía un ack. Si el remitente no recibe el ***ack*** en un periodo determinado, entonces entra en la siguiente etapa de ***exponential backoff*** y elige un valor aleatorio mayor para el intervalo.
+Cuando un estación recibe un paquete completo, espera un pequeño periodo de tiempo llamado Short Inter-Frame Spacing (SIFS) y luego reenvía un ACK. Si el remitente no recibe el ACK en un periodo determinado, entonces entra en la siguiente etapa de ***exponential backoff*** y elige un valor aleatorio mayor para el intervalo.
 
 ### Dealing with Hidden Terminals: RTS and CTS
 
 El protocolo incluye un opcional esquema de reservación para evitar colisiones en presencia de ***hidden*** terminals*.* Para evitar este problema el protocolo define la utilización de un pequeño ***frame*** de control ***Request to Send (RTS)*** y otro ***Clear to Send (CTS)***.
 
-Cuando un dispositivo quiere enviar información, primero envía un frame RTS al AP indicando el tiempo total requerido para la transmisión (tanto de los datos como del ***ack***). Cuando el AP lo recibe, reenvía un CTS frame. Este le indica al dispositivo que puede enviar el paquete, y al resto de dispositivos que deben esperar un tiempo determinado.
+Cuando un dispositivo quiere enviar información, primero envía un frame RTS al AP indicando el tiempo total requerido para la transmisión (tanto de los datos como del ACK). Cuando el AP lo recibe, reenvía un CTS frame. Este le indica al dispositivo que puede enviar el paquete, y al resto de dispositivos que deben esperar un tiempo determinado.
 
 Esto soluciona el problema de la terminal oculta, y limite las colisiones a los ***frames*** RTS y CTS, que son cortos. Por otro lado, introduce retrasos y consume recursos del canal. Debido a esto, solo es utilizado para el envío de paquetes largos. En muchas situaciones, incluso no es utilizado.
 
@@ -59,7 +59,7 @@ Aunque comparte muchas similitudes con el ***Ethernet frame***, tiene campos esp
 
 ### Payload and CRC Fields
 
-El ***payload*** de frame contiene el datagrama de IP o un paquete ARP. Típicamente, tiene una longitud menor a ***1500*** ***bytes***. Al igual que el ***ethernet frame***, contiene un ***32-bit cyclic redundancy check (CRC)***.
+El ***payload*** de frame contiene el datagrama de IP o un paquete ARP. Típicamente, tiene una longitud menor a 1500 bytes. Al igual que el ***ethernet frame***, contiene un ***32-bit cyclic redundancy check (CRC)***.
 
 ### Address Fields
 
@@ -103,7 +103,7 @@ Esta técnica utiliza la misma tecnología de ***probing*** que utiliza el contr
 
 La energía es un recurso preciado en los dispositivos mobiles, por lo que 802.11 provee formas para permitir que los nodos minimicen el tiempo utilizado en lectura y transmisión.
 
-Un nodo le indica al AP que entrara en modo de ***dormido*** enviándole un 1 en un campo especial del *header* de 802.11. Luego, se configura un ***timer*** para despertar al nodo justo antes de que el AP le envía un ***beacon frame*** (unos 100ms). El AP guardara los frames destinados a este dispositivo hasta que este se despierte, para enviarlos despues.
+Un nodo le indica al AP que entrara en modo de ***dormido*** enviándole un 1 en un campo especial del *header* de 802.11. Luego, se configura un *timer* para despertar al nodo justo antes de que el AP le envía un ***beacon frame*** (unos 100ms). El AP guardara los frames destinados a este dispositivo hasta que este se despierte, para enviarlos despues.
 
 Una vez se despierta el nodo, recibe de el beacon frame una lista de nodos cuyos paquetes fueron guardados. Si el propio nodo no se encuentra en la lista, puede volver a dormir. Si se encuentra en la lista, entonces puede pedir explícitamente recibir estos paquetes enviando un ***polling message***.
 
@@ -111,15 +111,15 @@ Esto permite que si el nodo no tiene nada para recibir o enviar, el *99%* del ti
 
 ## 6. Personal Area Networks: Bluetooth and Zigbee
 
-Existen dos protocolos en la familia de estándares ***802*** comúnmente utilizados:
+Existen dos protocolos en la familia de estándares 802 comúnmente utilizados:
 
 ### Bluetooth
 
 Es una tecnología de bajo alcance, costo, y consumo de energía. Se utiliza comúnmente para conectar periféricos con una computadora. Estas redes, llamadas 802.15.1, a veces son conocidas como ***wireless personal area networks (WPAN)***.
 
-Operan en el rango de los *2.4Ghz*, con time slots de *625ms*. Durante cada uno de estos ***time*** slots, un remitente envía por uno de los 79 canales, siendo el canal elegido de forma psuedo-aleatoria. Esta forma de cambio de canales se conoce como ***frequency-hopping spread spectrum (FHSS).*** Puede proveer tasas de hasta ***4Mbps***.
+Operan en el rango de los *2.4Ghz*, con time slots de *625ms*. Durante cada uno de estos time slots, un remitente envía por uno de los 79 canales, siendo el canal elegido de forma psuedo-aleatoria. Esta forma de cambio de canales se conoce como ***frequency-hopping spread spectrum (FHSS).*** Puede proveer tasas de hasta ***4Mbps***.
 
-Las redes 802.15.1 son ***ad hoc***, sin una infraestructura necesaria para conectar los dispositivos. Primero son organizados en un ***piconet*** desde hasta 8 dispositivos activos. Uno de los dispositivos sera el ***master***, mientras que el resto serán ***slaves***. Los ***masters*** pueden enviar en cada ***time slot*** impar, y los ***slaves*** solo pueden contestar al ***master*** cuando este en el ***slot anterior*** se comunico con ellos. Ademas de estos nodos activos, puede haber hasta *255* dispositivos estacionados que no pueden comunicarse hasta que se les cambie el estado a activo por el master node.
+Las redes 802.15.1 son ***ad hoc***, sin una infraestructura necesaria para conectar los dispositivos. Primero son organizados en un ***piconet*** desde hasta 8 dispositivos activos. Uno de los dispositivos sera el ***master***, mientras que el resto serán ***slaves***. Los ***masters*** pueden enviar en cada ***time slot*** impar, y los ***slaves*** solo pueden contestar al ***master*** cuando este en el ***slot anterior*** se comunico con ellos. Ademas de estos nodos activos, puede haber hasta 255 dispositivos estacionados que no pueden comunicarse hasta que se les cambie el estado a activo por el master node.
 
 ### Zigbee
 

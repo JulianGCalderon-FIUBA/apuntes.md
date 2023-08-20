@@ -52,7 +52,7 @@ Ethernet provee un servicio ***connectionless*** y no confiable a la capa de red
 
 Los ***ethernet frames*** tienen 6 campos:
 
-- ***Data Field (46 to 1500 bytes):*** El MTU de ethernet es de ***1500***, por lo cualquier paquete de mayor tamaño deberá ser fragmentado. Además, el mínimo tamaño de un ***frame*** es de **46** bytes, por lo que en caso de ser menor debe ser rellenado antes de ser enviado, para eliminarse utilizando el campo de ***length***.
+- ***Data Field (46 to 1500 bytes):*** El MTU de ethernet es de 1500, por lo cualquier paquete de mayor tamaño deberá ser fragmentado. Además, el mínimo tamaño de un ***frame*** es de 46 bytes, por lo que en caso de ser menor debe ser rellenado antes de ser enviado, para eliminarse utilizando el campo de ***length***.
 - ***Destination Address (6 bytes):*** Este campo contiene la dirección MAC del adaptador de destino.
 - ***Source Address (6 bytes)***: Este campo contiene la dirección MAC del adaptador de envío
 - ***Type Field (2 bytes):*** Debido a que la capa de enlace debe poder manejar multiples protocolos de red, se utiliza este campo para indicar a que protocolo debe ser entregado en el adaptador de destino

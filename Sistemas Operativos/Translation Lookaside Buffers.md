@@ -29,7 +29,7 @@ Anteriormente, el hardware se encargaba completamente de lidiar con estos evento
 
 Las arquitecturas modernas utilizan un **software-managed TLBs.** Cuando ocurre un *TLB miss,* el hardware lanza una excepción, el sistema operativo actualiza el caché y retorna del *trap*. Este retorno es distinto al visto anteriormente, ante una *system call,* este debe volver a la instrucción siguiente al *trap.* En el caso de la TLB, el hardware debe seguir la ejecución en la instrucción que causó el *trap*. Para esto, el hardware debe modificar el *program counter* antes de levantar la excepción.
 
-Para que no ocurra una infinita cadena de *TLB misses,* entonces existen varias soluciones. Por ejemplo, se pueden almacenar los *handlers* en memoria física, donde no necesitan ser traducidos, o reservar algunas entradas del ***caché*** para ser siempre válidas.
+Para que no ocurra una infinita cadena de *TLB misses,* entonces existen varias soluciones. Por ejemplo, se pueden almacenar los *handlers* en memoria física, donde no necesitan ser traducidos, o reservar algunas entradas del caché para ser siempre válidas.
 
 ## Context Switch
 

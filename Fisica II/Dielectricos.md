@@ -119,7 +119,7 @@ $$
 
 Siendo $\varepsilon$ la permitividad eléctrica del material, y $\varepsilon_r$ la permitividad dieléctrica relativa. $(\varepsilon_r \geq 1)$.
 
-A partir de la ***relación* constitutiva**, podemos llegar a la siguiente fórmula.
+A partir de la **relación constitutiva**, podemos llegar a la siguiente fórmula.
 
 $$
 P = \varepsilon_0 \cdot(\varepsilon_r - 1) \cdot \vec E \quad\quad\quad \varepsilon_r - 1 = X_E

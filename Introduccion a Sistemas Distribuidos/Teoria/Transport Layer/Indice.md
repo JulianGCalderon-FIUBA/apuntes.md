@@ -2,7 +2,7 @@
 title: Transport Layer
 ---
 
-Posee el rol criticó de proveer servicios de comunicación directamente a los procesos de capa de aplicación ejecutándose en diferentes hosts.
+Posee el rol crítico de proveer servicios de comunicación directamente a los procesos de capa de aplicación ejecutándose en diferentes hosts.
 
 1. [[Introduction and Transport-Layer Services]]
 2. [[Multiplexing and Demultiplexing]]

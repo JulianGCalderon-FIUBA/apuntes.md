@@ -43,11 +43,11 @@ Esta capa incluye el conocido protocolo IP (de hecho, esta capa es muchas veces 
 
 Para mover un *packet* de un nodo al siguiente, se utiliza la *link layer*. En cada nodo, *la network layer* le da el paquete a la *link layer*, el cual se encarga de enviar el mensaje al siguiente nodo. Esta capa provee confianza de envío de un nodo al siguiente.
 
-Ejemplos de algunos protocolos en esta capa son: Ethernet, Wifi, entre otros. Un mismo ***packet*** puede ser manejado por múltiples de estos protocolos a lo largo de su ruta.
+Ejemplos de algunos protocolos en esta capa son: Ethernet, Wifi, entre otros. Un mismo *packet* puede ser manejado por múltiples de estos protocolos a lo largo de su ruta.
 
 ### Physical Layer
 
-A diferencia de la capa anterior que se encarga del envío de ***packets***, el trabajo de esta capa es el del envío de bits individuales desde un nodo al siguiente.
+A diferencia de la capa anterior que se encarga del envío de *packets*, el trabajo de esta capa es el del envío de bits individuales desde un nodo al siguiente.
 
 El protocolo utilizado en esta capa dependen del medio del link utilizado
 

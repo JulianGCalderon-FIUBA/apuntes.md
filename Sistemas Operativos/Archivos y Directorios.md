@@ -60,7 +60,7 @@ La *syscall* `stat()` se utiliza para acceder a la metadata de un archivo. Esta 
 
 ### Creación de Directorios
 
-Como no se puede escribir o leer un directorio de la forma convencional, se provee una interfaz distinta para interactuar con estos. Para crearlo, se utiliza la ***syscall*** `mkdir()`
+Como no se puede escribir o leer un directorio de la forma convencional, se provee una interfaz distinta para interactuar con estos. Para crearlo, se utiliza la *syscall* `mkdir()`
 
 Todos los directorios siempre se crean con dos entradas iniciales:
 

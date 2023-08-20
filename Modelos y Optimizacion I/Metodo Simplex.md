@@ -317,9 +317,9 @@ $$
 > 
 > Teniendo la tabla anterior, resaltamos los elementos:
 > 
-> - ***Rojo:*** Valor Pivote
-> - ***Verde:*** Valor Anterior
-> - ***Azul:*** Diagonales
+> - **Rojo:** Valor Pivote
+> - **Verde:** Valor Anterior
+> - **Azul:** Diagonales
 > 
 > | $C$ | $X$ | $B$ | $A_1$ | $A_2$ | $A_3$ | $A_4$ | $A_5$ |
 > | --- | --- | --- | --- | --- | --- | --- | --- |

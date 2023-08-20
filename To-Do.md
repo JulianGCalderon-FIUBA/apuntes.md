@@ -21,7 +21,7 @@ title: To-Do
 - [ ] Introducción a Sistemas Distribuidos
 	- [x] Computer Networks and the Internet
 	- [x] Application Layer
-	- [ ] Transport Layer
+	- [x] Transport Layer
 	- [ ] The Network Layer Data Plane
 	- [ ] The Network Layer Control Plane
 	- [ ] The Link Layer and LANs
