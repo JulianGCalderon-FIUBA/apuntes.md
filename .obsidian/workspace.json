@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "10b59b4936e6729f",
+        "id": "7fb1b59d1fb31dfa",
         "type": "tabs",
         "children": [
           {
-            "id": "09f7f9d082f2a6ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Application Layer/Indice.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94bc521bd038bbf4",
+            "id": "a15864d486d515c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Introduccion a Sistemas Distribuidos/Indice.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,13 +157,16 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "94bc521bd038bbf4",
+  "active": "a15864d486d515c7",
   "lastOpenFiles": [
-    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Indice.md",
-    "Introduccion a Sistemas Distribuidos/Indice.md",
-    "Introduccion a Sistemas Distribuidos/The Network Layer Data Plane/Indice.md",
-    "Introduccion a Sistemas Distribuidos/Transport Layer/Indice.md",
     "Introduccion a Sistemas Distribuidos/Application Layer/Indice.md",
+    "Introduccion a Sistemas Distribuidos/Indice.md",
+    "Introduccion a Sistemas Distribuidos/Wireless and Mobile Networks/Indice.md",
+    "Introduccion a Sistemas Distribuidos/The Link Layer and LANs/Indice.md",
+    "Introduccion a Sistemas Distribuidos/The Network Layer Data Plane/Indice.md",
+    "Introduccion a Sistemas Distribuidos/The Network Layer Control Plane/Indice.md",
+    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Indice.md",
+    "Introduccion a Sistemas Distribuidos/Transport Layer/Indice.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
     "To-Do.md",
     "Introduccion a Sistemas Distribuidos/Application Layer/Video Streaming and Content Distribution Network.md",
@@ -189,15 +179,12 @@
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md",
     "Introduccion a Sistemas Distribuidos/Application Layer/Principles of Network Applications.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Delay, Loss, and Throughput in Packet-Switched N.md",
-    "Introduccion a Sistemas Distribuidos/The Link Layer and LANs/Indice.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/The Network Core.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Protocol Layers and Their Service Models.md",
-    "Introduccion a Sistemas Distribuidos/Wireless and Mobile Networks/Indice.md",
     "Introduccion a Sistemas Distribuidos/Wireless and Mobile Networks/Cellular Internet Access.md",
     "Introduccion a Sistemas Distribuidos/Wireless and Mobile Networks/Mobility Management Principles.md",
     "Introduccion a Sistemas Distribuidos/The Network Layer Control Plane/Introduction to the Control Plane.md",
     "Introduccion a Sistemas Distribuidos/The Network Layer Control Plane/Network Management and SNMP.md",
-    "Introduccion a Sistemas Distribuidos/The Network Layer Control Plane/Indice.md",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
     "Estructura del Computador/Circuitos Asincronicos.html",
     "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",
