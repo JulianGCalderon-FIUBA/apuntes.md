@@ -105,6 +105,9 @@ El protocolo consta de las **siguientes etapas**:
 		$$
 		\text{cwnd}(n+1) = \text{cwnd}(n)/2
 		$$
+		$$
+		\text{sstresh}(n+1) = \text{cwnd}(n)/2
+		$$
 
 		Debido a que ahora ***cwnd*** y ***ssthresh*** tienen el mismo valor, se entrará a la etapa de ***Congestion Avoidance (CA)***.
 
