@@ -2,7 +2,7 @@
 title: Introducción a Sistemas Distribuidos
 ---
 
-Este apunte esta basado en la bibliografía de la materia.
+Este apunte está basado en la bibliografía de la materia.
 
 1. [[Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Indice|Computer Networks and the Internet]]
 2. [[Introduccion a Sistemas Distribuidos/Application Layer/Indice|Application Layer]]

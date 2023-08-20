@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Clases Practicas.md",
+                "file": "Introduccion a Sistemas Distribuidos/Indice.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Clases Practicas.md"
+                "file": "Introduccion a Sistemas Distribuidos/Indice.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Clases Practicas.md",
+                "file": "Introduccion a Sistemas Distribuidos/Indice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Clases Practicas.md",
+                "file": "Introduccion a Sistemas Distribuidos/Indice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,8 +159,8 @@
   },
   "active": "a15864d486d515c7",
   "lastOpenFiles": [
-    "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
     "Introduccion a Sistemas Distribuidos/Clases Practicas.md",
+    "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
     "Introduccion a Sistemas Distribuidos/Indice.md",
     "Analisis Matematico II/Integrales de Superficie.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/The Network Core.md",
