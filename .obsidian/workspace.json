@@ -4,22 +4,107 @@
     "type": "split",
     "children": [
       {
-        "id": "9d4cdfdaf6ac6676",
+        "id": "7ce54d81dcd9df13",
         "type": "tabs",
         "children": [
           {
-            "id": "dc9ba9e6d5ce8818",
+            "id": "2cd07f49a756e440",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Clases Practicas.md",
+                "file": "Introduccion a Sistemas Distribuidos/Indice.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "facb67a1ee269865",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduccion a Sistemas Distribuidos/Practicas/DNS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4922b2d87f016dde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduccion a Sistemas Distribuidos/Practicas/NAT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be913fc8f535e429",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduccion a Sistemas Distribuidos/Practicas/Fragmentacion.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7c4ec3e6daea7a8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduccion a Sistemas Distribuidos/Practicas/Subnetting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4519964ba5926e44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduccion a Sistemas Distribuidos/Practicas/Routing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56facb7e704387c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduccion a Sistemas Distribuidos/Practicas/TCP.md",
                 "mode": "preview",
-                "source": true
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8f1ac28c3a85b45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduccion a Sistemas Distribuidos/Indice.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -85,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Clases Practicas.md"
+                "file": "Introduccion a Sistemas Distribuidos/Indice.md"
               }
             }
           },
@@ -95,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Clases Practicas.md",
+                "file": "Introduccion a Sistemas Distribuidos/Indice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Clases Practicas.md",
+                "file": "Introduccion a Sistemas Distribuidos/Indice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,34 +242,35 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "dc9ba9e6d5ce8818",
+  "active": "e8f1ac28c3a85b45",
   "lastOpenFiles": [
-    "Introduccion a Sistemas Distribuidos/Clases Practicas.md",
+    "Introduccion a Sistemas Distribuidos/Practicas/Latencia.md",
+    "Introduccion a Sistemas Distribuidos/Practicas/TCP.md",
+    "Introduccion a Sistemas Distribuidos/Practicas/Routing.md",
+    "Introduccion a Sistemas Distribuidos/Practicas/Subnetting.md",
+    "Introduccion a Sistemas Distribuidos/Practicas/Fragmentacion.md",
+    "Introduccion a Sistemas Distribuidos/Practicas/NAT.md",
+    "Introduccion a Sistemas Distribuidos/Practicas/DNS.md",
     "Introduccion a Sistemas Distribuidos/Indice.md",
+    "Introduccion a Sistemas Distribuidos/Application Layer/Indice.md",
+    "Introduccion a Sistemas Distribuidos/Application Layer/DNS.md",
+    "Introduccion a Sistemas Distribuidos/The Network Layer Control Plane/Indice.md",
+    "Introduccion a Sistemas Distribuidos/The Network Layer Data Plane/Indice.md",
+    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Indice.md",
+    "Introduccion a Sistemas Distribuidos/Transport Layer/Indice.md",
+    "Introduccion a Sistemas Distribuidos/Clases Practicas.md",
+    "To-Do.md",
+    "Introduccion a Sistemas Distribuidos/Transport Layer/TCP Congestion Control.md",
     "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
+    "Introduccion a Sistemas Distribuidos/Practicas",
+    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md",
     "Analisis Matematico II/Integrales de Superficie.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/The Network Core.md",
-    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Indice.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
-    "Introduccion a Sistemas Distribuidos/Application Layer/Indice.md",
     "Introduccion a Sistemas Distribuidos/Wireless and Mobile Networks/Indice.md",
     "Introduccion a Sistemas Distribuidos/The Link Layer and LANs/Indice.md",
-    "Introduccion a Sistemas Distribuidos/The Network Layer Data Plane/Indice.md",
-    "Introduccion a Sistemas Distribuidos/The Network Layer Control Plane/Indice.md",
-    "Introduccion a Sistemas Distribuidos/Transport Layer/Indice.md",
-    "To-Do.md",
     "Introduccion a Sistemas Distribuidos/Application Layer/Video Streaming and Content Distribution Network.md",
     "Introduccion a Sistemas Distribuidos/Application Layer/The Web and HTTP.md",
-    "Introduccion a Sistemas Distribuidos/Application Layer/Socket Programming Creating a Network Application.md",
-    "Introduccion a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md",
-    "Introduccion a Sistemas Distribuidos/Application Layer/DNS.md",
-    "Introduccion a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
-    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Networks Under Attack.md",
-    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md",
-    "Introduccion a Sistemas Distribuidos/Application Layer/Principles of Network Applications.md",
-    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Delay, Loss, and Throughput in Packet-Switched N.md",
-    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Protocol Layers and Their Service Models.md",
-    "Introduccion a Sistemas Distribuidos/Wireless and Mobile Networks/Cellular Internet Access.md",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
     "Estructura del Computador/Circuitos Asincronicos.html",
     "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",
@@ -204,7 +290,6 @@
     "Fisica II/Attachments/Potencia Activa y Reactiva 1.svg",
     "Física II/Attachments/Final 1.png",
     "Matematica Discreta/Attachments/Algoritmos 1.png",
-    "Base de Datos",
-    "Algoritmos II/Attachments/Machete - AAB.pdf"
+    "Base de Datos"
   ]
 }

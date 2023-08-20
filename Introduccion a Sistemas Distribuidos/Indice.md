@@ -2,7 +2,7 @@
 title: Introducción a Sistemas Distribuidos
 ---
 
-Este apunte está basado en la bibliografía de la materia.
+El apunte teórico está basado en la bibliografía de la materia.
 
 1. [[Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Indice|Computer Networks and the Internet]]
 2. [[Introduccion a Sistemas Distribuidos/Application Layer/Indice|Application Layer]]
@@ -12,6 +12,14 @@ Este apunte está basado en la bibliografía de la materia.
 6. [[Introduccion a Sistemas Distribuidos/The Link Layer and LANs/Indice|The Link Layer and LANs]]
 7. [[Introduccion a Sistemas Distribuidos/Wireless and Mobile Networks/Indice|Wireless and Mobile Networks]]
 
-Las clases prácticas fueron resumidas en el documento: [[Clases Practicas|Clases Prácticas]]
+Apuntes prácticos de la materia:
+
+- [[Latencia]]
+- [[TCP]]
+- [[Routing]]
+- [[Subnetting]]
+- [[Fragmentacion|Fragmentación]]
+- [[NAT]]
+- [[Introduccion a Sistemas Distribuidos/Practicas/DNS|DNS]]
 
 El trabajo teórico final fue resumido en el documento: [[Breaking WEP]]
