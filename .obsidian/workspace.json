@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do.md",
+                "file": "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Do.md"
+                "file": "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do.md",
+                "file": "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Do.md",
+                "file": "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,16 +159,17 @@
   },
   "active": "752e8362b822a823",
   "lastOpenFiles": [
+    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Networks Under Attack.md",
+    "Introduccion a Sistemas Distribuidos/Application Layer/The Web and HTTP.md",
     "Introduccion a Sistemas Distribuidos/Application Layer/Indice.md",
-    "Introduccion a Sistemas Distribuidos/Application Layer/Principles of Network Applications.md",
     "To-Do.md",
+    "Introduccion a Sistemas Distribuidos/Application Layer/Principles of Network Applications.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Delay, Loss, and Throughput in Packet-Switched N.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Indice.md",
     "Introduccion a Sistemas Distribuidos/The Link Layer and LANs/Indice.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/The Network Core.md",
-    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Networks Under Attack.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Protocol Layers and Their Service Models.md",
     "Introduccion a Sistemas Distribuidos/Wireless and Mobile Networks/Indice.md",
     "Introduccion a Sistemas Distribuidos/Indice.md",
@@ -184,7 +185,6 @@
     "index.md",
     "Algebra II/Indice.md",
     "Algoritmos I/Indice.md",
-    "Algoritmos II/Indice.md",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
     "Estructura del Computador/Circuitos Asincronicos.html",
     "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",
