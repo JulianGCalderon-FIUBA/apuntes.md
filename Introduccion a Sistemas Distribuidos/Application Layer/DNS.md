@@ -6,7 +6,7 @@ Para identificar un host en la red, utilizamos *IP addresses*. Estas tienen una 
 
 ## 1. Services Provided by DNS
 
-Necesitamos un servicio que permita traducir *hostnames* en direcciones IP. El sistema DNS es una base de datos distribuida implementada con una jerarquía de servidores, con una protocolo de capa de aplicación que permite a los hosts consultar a la base de datos.
+Necesitamos un servicio que permita traducir **hostnames** en direcciones IP. El sistema DNS es una base de datos distribuida implementada con una jerarquía de servidores, con una protocolo de capa de aplicación que permite a los hosts consultar a la base de datos.
 
 Este sistema DNS provee algunos servicios importantes:
 
@@ -21,13 +21,13 @@ Este sistema DNS provee algunos servicios importantes:
 El sistema DNS utiliza un gran número de servidores organizados de forma jerárquica y distribuidos a lo largo del mundo. Se pueden separar en tres clases:
 
 - **Root:** Es una base de datos distribuida, todos estos servidores comparten la misma información y están gestionados por 13 organizaciones distintas.
-- **Top-Level Domain (TLD):** Por cada top-level domain, tendremos un servidor (o multiples). Son los que están al final de la url. Ej:.com.ar.
-- **Authoritative:** Cada organización con hosts públicos tiene que proveer registros públicos para conectar sus hostnames con la dirección IP. Entre ellos, tendremos.edu.uba. Estos pueden estar anidados, como por ejemplo "fi.uba.ar".
-- **Local:** Los servidores locales DNS no pertenecen estrictamente a la jerarquía, pero son centrales en la arquitectura. Cada ISP tiene uno. Cuando un host hace una consulta DNS, esta se le envía a su DNS local el cual se encarga de hacer la consulta.
+- **Top-Level Domain (TLD):** Por cada *top-level domain,* tendremos un servidor (o múltiples). Son los que están al final de la URL. Ej.: `.com.ar`.
+- **Authoritative:** Cada organización con hosts públicos tiene que proveer registros públicos para conectar sus *hostnames* con la dirección IP. Entre ellos, tendremos `.edu.uba`. Estos pueden estar anidados, como por ejemplo "fi.uba.ar".
+- **Local:** Los servidores locales DNS no pertenecen estrictamente a la jerarquía, pero son centrales en la arquitectura. Cada ISP tiene uno. Cuando un host hace una consulta DNS, esta se le envía a su DNS local, el cual se encarga de hacer la consulta.
 
-Las consultas pueden ser tanto recursivas como iterativas. Por lo general, el *DNS local utiliza consultas recursivas,* mientras todo el resto utilizan consultas iterativas.
+Las consultas pueden ser tanto recursivas como iterativas. Por lo general, el *DNS* local utiliza consultas recursivas, mientras todo el resto utilizan consultas iterativas.
 
-Las consultas *recursivas* se encargan de la consulta, devolviendo la IP buscada, mientras que las consultas *iterativas* únicamente devuelven el siguiente en la cadena de *DNS look-up*
+Las consultas **recursivas** se encargan de la consulta, devolviendo la IP buscada, mientras que las consultas **iterativas** únicamente devuelven el siguiente en la cadena de *DNS look-up*
 
 ### DNS Caching
 
@@ -43,7 +43,7 @@ $$
 \text{(Name, Value, Type, TTL)}
 $$
 
-TTL representa el tiempo de vida del recurso, cuando debería ser removido del cache. El significado de *name* y *value* dependerán de *type*
+TTL representa el tiempo de vida del recurso, cuando debería ser removido del caché. El significado de *name* y *value* dependerán de *type*
 
 - **Type A:** Entonces, *name* es el *hostname* y *value* es la dirección IP.
 - **Type NS**: Entonces, *name* es el dominio, y *value* es el *hostname* de los servidores que sabe encontrar la *dirección IP* buscada.
@@ -52,11 +52,11 @@ TTL representa el tiempo de vida del recurso, cuando debería ser removido del c
 
 ### DNS Messages
 
-Tanto las *DNS queries* como los *replies* tienen el mismo formato. Los primeros 12 *bytes* son la *header section*. Estos contienen un identificador de la query, los *flags* de la misma, y contadores de ocurrencias de los tipos de datos que le siguen al *header*.
+Tanto las *DNS queries* como los *replies* tienen el mismo formato. Los primeros 12 bytes son la *header section*. Estos contienen un identificador de la *query*, los *flags* de la misma, y contadores de ocurrencias de los tipos de datos que le siguen al *header*.
 
 Luego del *header* tendremos *question section*, la cual tiene información sobre la consulta realizada. Después, la *answer section* contiene los RR de la consulta.
 
-En la **authority** section estarán los RR de otros *authoritative servers.* en *additional section* se encuentran RR útiles.
+En la **authority section** estarán los RR de otros *authoritative servers.* En *additional section* se encuentran RR útiles.
 
 ## Inserting Records into the DNS Database
 

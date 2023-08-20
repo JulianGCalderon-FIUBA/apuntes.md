@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "56f97c05ad2b6551",
+        "id": "10b59b4936e6729f",
         "type": "tabs",
         "children": [
           {
-            "id": "752e8362b822a823",
+            "id": "09f7f9d082f2a6ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md",
+                "file": "Introduccion a Sistemas Distribuidos/Application Layer/Indice.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "94bc521bd038bbf4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "To-Do.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md"
+                "file": "To-Do.md"
               }
             }
           },
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md",
+                "file": "To-Do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md",
+                "file": "To-Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,22 +170,27 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "752e8362b822a823",
+  "active": "94bc521bd038bbf4",
   "lastOpenFiles": [
-    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Networks Under Attack.md",
+    "Introduccion a Sistemas Distribuidos/Indice.md",
+    "Introduccion a Sistemas Distribuidos/Application Layer/Video Streaming and Content Distribution Network.md",
     "Introduccion a Sistemas Distribuidos/Application Layer/The Web and HTTP.md",
+    "Introduccion a Sistemas Distribuidos/Application Layer/Socket Programming Creating a Network Application.md",
     "Introduccion a Sistemas Distribuidos/Application Layer/Indice.md",
+    "Introduccion a Sistemas Distribuidos/Application Layer/Peer-to-Peer File Distribution.md",
+    "Introduccion a Sistemas Distribuidos/Application Layer/DNS.md",
+    "Introduccion a Sistemas Distribuidos/Application Layer/Electronic Mail in the Internet.md",
+    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Networks Under Attack.md",
+    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md",
     "To-Do.md",
     "Introduccion a Sistemas Distribuidos/Application Layer/Principles of Network Applications.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Delay, Loss, and Throughput in Packet-Switched N.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/What is the internet.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Indice.md",
     "Introduccion a Sistemas Distribuidos/The Link Layer and LANs/Indice.md",
-    "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/The Network Edge.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/The Network Core.md",
     "Introduccion a Sistemas Distribuidos/Computer Networks and the Internet/Protocol Layers and Their Service Models.md",
     "Introduccion a Sistemas Distribuidos/Wireless and Mobile Networks/Indice.md",
-    "Introduccion a Sistemas Distribuidos/Indice.md",
     "Introduccion a Sistemas Distribuidos/Wireless and Mobile Networks/Cellular Internet Access.md",
     "Introduccion a Sistemas Distribuidos/Wireless and Mobile Networks/Mobility Management Principles.md",
     "Introduccion a Sistemas Distribuidos/The Network Layer Data Plane/Indice.md",
@@ -180,11 +198,6 @@
     "Introduccion a Sistemas Distribuidos/The Network Layer Control Plane/Network Management and SNMP.md",
     "Introduccion a Sistemas Distribuidos/Transport Layer/Indice.md",
     "Introduccion a Sistemas Distribuidos/The Network Layer Control Plane/Indice.md",
-    "Introduccion a Sistemas Distribuidos/The Link Layer and LANs/Introduction of the Link Layer.md",
-    "Introduccion a Sistemas Distribuidos/The Link Layer and LANs/Link Virtualization A Network as a Link Layer.md",
-    "index.md",
-    "Algebra II/Indice.md",
-    "Algoritmos I/Indice.md",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
     "Estructura del Computador/Circuitos Asincronicos.html",
     "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",

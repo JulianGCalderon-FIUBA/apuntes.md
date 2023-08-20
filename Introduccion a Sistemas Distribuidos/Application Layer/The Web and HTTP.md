@@ -30,9 +30,9 @@ Si definimos el *round-trip time* que es el tiempo que le toma a un pequeño paq
 
 En las conexiones no persistentes, se debe establecer y mantener una conexión por cada objeto a pedir. En las conexiones persistentes, el servidor deja la conexión TCP abierta luego de enviar la respuesta, esto permite que los siguientes llamados se envíen a través de esta misma conexión.
 
-Además, múltiples pedidos pueden ser pedidos al mismo tiempo sin esperar a las respuestas de cada uno (pipelining), el servidor enviará las respuestas en cuanto pueda.
+Además, múltiples pedidos pueden ser pedidos al mismo tiempo sin esperar a las respuestas de cada uno *(pipelining),* el servidor enviará las respuestas en cuanto pueda.
 
-Hoy en día, la mayoría de los servidores web utilizan conexiones persistentes sin pipelining, aunque esto puede ser especificado en los mensajes HTTP.
+Hoy en día, la mayoría de los servidores web utilizan conexiones persistentes sin *pipelining,* aunque esto puede ser especificado en los mensajes HTTP.
 
 ## 3. HTTP Message Format
 
@@ -44,7 +44,7 @@ Luego, siguen una serie de **header lines,** cada una con el nombre del campo y 
 
 Finalmente, está **entity body**. Este contiene el contenido del mensaje.
 
-Un **response message** tiene una estructura similar a la del pedido. La primera línea se conoce como *status line* y contiene información acerca del resultado del pedido. Este tiene tres campos: la versión del protocolo, un código de estado, y el mensaje de estado correspondiente. Los códigos de error más comunes son: *200 OK*, indicando que el pedido fue exitoso. *301 Moved Permanently,* indicando que el objeto no está disponible en esa dirección y indicando la nueva URL en los *headers. 400 Bad Request*, es un código de error genérico para cualquier pedido que no fue entendido. *404 Not Found,* indicando que el documento no existe en el servidor. y *505 HTTP Version Not Supported,* indicando que la versión del protocolo utilizada no es soportada por el servidor.
+Un **response message** tiene una estructura similar a la del pedido. La primera línea se conoce como *status line* y contiene información acerca del resultado del pedido. Este tiene tres campos: la versión del protocolo, un código de estado, y el mensaje de estado correspondiente. Los códigos de error más comunes son: *200 OK*, indicando que el pedido fue exitoso. *301 Moved Permanently,* indicando que el objeto no está disponible en esa dirección e indicando la nueva URL en los *headers. 400 Bad Request*, es un código de error genérico para cualquier pedido que no fue entendido. *404 Not Found,* indicando que el documento no existe en el servidor, y *505 HTTP Version Not Supported,* indicando que la versión del protocolo utilizada no es soportada por el servidor.
 
 A continuación, al igual que en el *request*, siguen las *header lines* y el *entity body.* Para el caso de una respuesta a un pedido de *GET*, esta sección contiene el objeto en sí.
 
@@ -56,7 +56,7 @@ Muchas veces, es necesario que una página web pueda identificar usuarios. Para 
 
 Estas tecnologías utiliza cuatro componentes principales. Una línea de cabecera en la respuesta HTTP. Una línea de cabecera en el pedido HTTP. Un archivo de cookies que se almacena en el host del usuario y es manejado por el navegador. Y una base de datos del servidor utilizada para almacenar la información de los usuarios.
 
-Cuando un usuario se conecta a una página a la que nunca se había conectado, el servidor crea un identificador único y crea una entrada en una base de datos de los clientes, indexada por el identificador. Luego, envía este identificador en los *headers* de la respuesta al cliente a través del header *"Set-cookie"*.
+Cuando un usuario se conecta a una página a la que nunca se había conectado, el servidor crea un identificador único y crea una entrada en una base de datos de los clientes, indexada por el identificador. Luego, envía este identificador en los *headers* de la respuesta al cliente a través del *header: "Set-cookie".*
 
 El usuario recibe el identificador en la respuesta y lo guarda en su navegador. La próxima vez que el usuario se conecte a la página web, enviará este identificador en uno de los *headers* para que el servidor pueda identificar al usuario. De esta forma, el servidor puede llevar un registro de los mensajes que envía un usuario al servidor web.
 
@@ -64,11 +64,11 @@ Las *cookies* pueden usarse para crear una capa de *use session* por encima del 
 
 ## 5. Web Caching
 
-Un **web cache**, también conocido como un *proxy server*, es una entidad que satisface pedidos HTTP en nombre del servidor de origen. Usualmente, estos *web caches* son instalados por los ISP. El navegador puede ser configurado para que los pedidos HTTP se dirijan directamente el cache.
+Un **web cache**, también conocido como un *proxy server*, es una entidad que satisface pedidos HTTP en nombre del servidor de origen. Usualmente, estos *web caches* son instalados por los ISP. El navegador puede ser configurado para que los pedidos HTTP se dirijan directamente el caché.
 
 El navegador se conecta a un *web cache* y le hace un pedido HTTP. Si el *caché* tiene una copia del objeto, entonces la envia. Si no la tiene, entonces abre una conexión con el servidor de origen y envía un *request* para el objeto. Una vez recibido, guarda el objeto en su copia local y envía una copia al cliente original.
 
-Estos *caches* son desplegados usualmente por un ISP, por dos razones principales. En primer lugar puede reducir sustancialmente el tiempo de respuesta de un pedido de un cliente. Por otro lado, también reduce drásticamente el tráfico del *access link* de una institución hacia el internet.
+Estos cachés son desplegados usualmente por un ISP, por dos razones principales. En primer lugar, puede reducir sustancialmente el tiempo de respuesta de un pedido de un cliente. Por otro lado, también reduce drásticamente el tráfico del *access link* de una institución hacia el internet.
 
 A través del uso de **CDN (Content Distribution Networks)**, los *web caches* cada vez cumplen un rol más importante en el internet. Estas compañías instalan múltiples caches distribuidos geográficamente para localizar el tráfico de internet.
 
@@ -76,4 +76,4 @@ A través del uso de **CDN (Content Distribution Networks)**, los *web caches* c
 
 El caché introduce un nuevo problema, la copia del objeto que almacena puede quedar obsoleta. Para que los *web caches* puedan verificar la validez de una copia local, existe el *conditional get*. Este es un mensaje HTTP que incluye la línea de cabecera "*If-Modified-Since"*.
 
-Cuando se hace un pedido de un objeto a un caché, este le envía un pedido al servidor original con el *header* indicado. Si este no ha modificado el archivo desde la fecha indicada, devolverá un mensaje vacío con el status line *"304 Not Modified"*.
+Cuando se hace un pedido de un objeto a un caché, este le envía un pedido al servidor original con el *header* indicado. Si este no ha modificado el archivo desde la fecha indicada, devolverá un mensaje vacío con el *status line: "304 Not Modified"*.
