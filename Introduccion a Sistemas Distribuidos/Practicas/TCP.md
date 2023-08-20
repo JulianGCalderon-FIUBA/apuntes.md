@@ -28,7 +28,7 @@ El protocolo TCP puede tener los siguientes parámetros:
 
 El protocolo consta de las siguientes etapas:
 
-### Slow Start (SS):
+### Slow Start (SS)
 
 Es la etapa inicial del protocolo. Envía tantos paquetes como lo permitan las ventanas (se toma el mínimo entre la ventana de recepción y la ventana de congestión). El valor de la ventana se actualiza con la siguiente fórmula.
 
@@ -42,7 +42,7 @@ Por simplificación, únicamente aumentaremos el valor de la ventana cuando lleg
 
 En algún momento, se dará que $\text{cwnd} == \text{sstresh}$. En este momento pasamos a la etapa de **Congestion Avoidance** (CA).
 
-### Congestion Avoidance (CA):
+### Congestion Avoidance (CA)
 
 En esta etapa, la ventana de congestión se aumentará linealmente:
 
@@ -52,7 +52,7 @@ $$
 
 Es decir, cuando arriban todos los paquetes que estaban en vuelo (siempre debe ser entero el valor), entonces aumentaremos la ventana de congestión en un MSS.
 
-### Fast Retransmit:
+### Fast Retransmit
 
 Al entrar en esta fase, se reenvía inmediatamente el paquete que se presume perdido. En cuanto le llega el *ack* correspondiente, se avanza según el tipo de protocolo.
 

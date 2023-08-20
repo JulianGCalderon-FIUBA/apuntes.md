@@ -86,7 +86,7 @@
               "type": "markdown",
               "state": {
                 "file": "Introduccion a Sistemas Distribuidos/Practicas/TCP.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -97,14 +97,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Indice.md",
+                "file": "Introduccion a Sistemas Distribuidos/Practicas/Latencia.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Indice.md"
+                "file": "Introduccion a Sistemas Distribuidos/Practicas/TCP.md"
               }
             }
           },
@@ -180,9 +180,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Indice.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "file": "Introduccion a Sistemas Distribuidos/Practicas/TCP.md",
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -197,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Indice.md",
+                "file": "Introduccion a Sistemas Distribuidos/Practicas/TCP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,13 +222,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 392.5,
-    "collapsed": true
+    "width": 392.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -242,16 +240,16 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "e8f1ac28c3a85b45",
+  "active": "6b8c795d3756fc69",
   "lastOpenFiles": [
-    "Introduccion a Sistemas Distribuidos/Practicas/Latencia.md",
-    "Introduccion a Sistemas Distribuidos/Practicas/TCP.md",
     "Introduccion a Sistemas Distribuidos/Practicas/Routing.md",
     "Introduccion a Sistemas Distribuidos/Practicas/Subnetting.md",
     "Introduccion a Sistemas Distribuidos/Practicas/Fragmentacion.md",
     "Introduccion a Sistemas Distribuidos/Practicas/NAT.md",
     "Introduccion a Sistemas Distribuidos/Practicas/DNS.md",
+    "Introduccion a Sistemas Distribuidos/Practicas/Latencia.md",
     "Introduccion a Sistemas Distribuidos/Indice.md",
+    "Introduccion a Sistemas Distribuidos/Practicas/TCP.md",
     "Introduccion a Sistemas Distribuidos/Application Layer/Indice.md",
     "Introduccion a Sistemas Distribuidos/Application Layer/DNS.md",
     "Introduccion a Sistemas Distribuidos/The Network Layer Control Plane/Indice.md",
