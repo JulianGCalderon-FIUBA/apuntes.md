@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/TCP Congestion Control.md",
+                "file": "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "67eef233b2870569",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduccion a Sistemas Distribuidos/Practica/TCP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/TCP Congestion Control.md"
+                "file": "Introduccion a Sistemas Distribuidos/Breaking WEP.md"
               }
             }
           },
@@ -95,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/TCP Congestion Control.md",
+                "file": "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -112,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/TCP Congestion Control.md",
+                "file": "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,6 +170,9 @@
   },
   "active": "c3ec900c7fc37253",
   "lastOpenFiles": [
+    "Introduccion a Sistemas Distribuidos/Indice.md",
+    "Introduccion a Sistemas Distribuidos/Practica/TCP.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/TCP Congestion Control.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/Indice.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/Principles of Congestion Control.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/Connection-Oriented Transport TCP.md",
@@ -165,7 +180,6 @@
     "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/Connectionless Transport UDP.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/Multiplexing and Demultiplexing.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/Introduction and Transport-Layer Services.md",
-    "Introduccion a Sistemas Distribuidos/Indice.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Application Layer/Indice.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Application Layer/Socket Programming Creating a Network Application.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Application Layer/Video Streaming and Content Distribution Network.md",
@@ -182,8 +196,6 @@
     "Introduccion a Sistemas Distribuidos/Teoria/Computer Networks and the Internet/The Network Edge.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Computer Networks and the Internet/What is the internet.md",
     "To-Do.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/TCP Congestion Control.md",
-    "Sistemas Operativos/Ejecucion Directa.md",
     "Introduccion a Sistemas Distribuidos/Teoria",
     "Introduccion a Sistemas Distribuidos/Practica",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
