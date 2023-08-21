@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do.md",
+                "file": "Introduccion a Sistemas Distribuidos/Practica/Latencia.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Do.md"
+                "file": "Introduccion a Sistemas Distribuidos/Practica/Latencia.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do.md",
+                "file": "Introduccion a Sistemas Distribuidos/Practica/Latencia.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Do.md",
+                "file": "Introduccion a Sistemas Distribuidos/Practica/Latencia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,6 +158,9 @@
   },
   "active": "8a3105c025898c00",
   "lastOpenFiles": [
+    "Introduccion a Sistemas Distribuidos/Indice.md",
+    "index.md",
+    "To-Do.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Wireless Links and Network Characteristics.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/WiFi 802 11 Wireless LANs.md",
     "Introduccion a Sistemas Distribuidos/Teoria/The Link Layer and LANs/Multiple Access Links and Protocols.md",
@@ -170,9 +173,6 @@
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Cellular Internet Access.md",
     "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Control Plane/Indice.md",
     "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Control Plane/The SDN Control Plane.md",
-    "Introduccion a Sistemas Distribuidos/Indice.md",
-    "To-Do.md",
-    "index.md",
     "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Control Plane/Introduction to the Control Plane.md",
     "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Control Plane/Routing Algorithms.md",
     "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Control Plane/Intra-AS Routing in the Internet OSPF.md",

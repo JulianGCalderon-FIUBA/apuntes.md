@@ -23,8 +23,6 @@ $$
 T_{\text{propagación}} = \frac{D}{c}
 $$
 
-Nota: trabajar con las mismas unidades para evitar errores de cálculo
-
 Luego, para cada enlace $i$ en los enlaces atravesados $E$, calculamos su tiempo total $T_i = T_{i,\text{inserción}} +T_{i,\text{propagación}}$, luego calcularemos el tiempo total como:
 
 $$
