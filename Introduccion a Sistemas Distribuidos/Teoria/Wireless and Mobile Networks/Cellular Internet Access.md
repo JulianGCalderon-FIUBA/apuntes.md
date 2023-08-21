@@ -64,7 +64,7 @@ Existen dos importantes observaciones de la arquitectura **4G:**
 
 Los principales componentes de la arquitectura *4G* son:
 
-- El ***eNodeB*** es el descendiente lógico de una BSC de **2G** y un RNC de **3G**. Los datagramas del UE son encapsulados en el ***eNodeB*** y enviados hacia el ***P-GW*** a través de la ***all-IP enhanced packet core (EPC)*** de la red **4G**. Esta túnel es similar al de ***IPv6*** cuando busca atravesar routers ***IPv4***. Ademas, los túneles puede tener asociadas garantías de ***Quality of Service (QoS).***
+- El ***eNodeB*** es el descendiente lógico de una BSC de **2G** y un RNC de **3G**. Los datagramas del UE son encapsulados en el ***eNodeB*** y enviados hacia el ***P-GW*** a través de la ***all-IP enhanced packet core (EPC)*** de la red **4G**. Esta túnel es similar al de IPv6 cuando busca atravesar routers IPv4. Ademas, los túneles puede tener asociadas garantías de ***Quality of Service (QoS).***
 - El ***Packet Data Network Gateway (P-GW)*** reserva direcciones IP para el usuario y realiza ***QoS enforcement***. Ademas, realiza encapsulamiento y des-encapsulamiento ya que se encuentra en un extremo de la encapsulación.
 - El ***Serving Gateway (S-GW)*** es el punto de anclaje de la movilidad del ***data-plane***. Todo el trafico de los usuarios pasa por aquí, y conecta directamente con el ***P-GW***.
 - El ***mobility management entity (MME)*** realiza manejo de conexiones y movilidad para los usuarios de la celda que controla.

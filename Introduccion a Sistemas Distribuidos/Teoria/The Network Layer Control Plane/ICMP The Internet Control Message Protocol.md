@@ -14,4 +14,4 @@ El comando ***Traceroute*** es implementado con mensajes ICMP. Es envían multip
 
 A partir del ***round trip time***, se calcula el tiempo acorde a cada router. El numero de routers $n$ es determinado cuando finalmente llega un paquete al host. Debido a que el puerto no estará usado, recibirá una advertencia de puerto inalcanzable ***(type 3, code 3)***. Esto sera interpretado por ***Traceroute*** como que se alcanzo la dirección de destino.
 
-Existe una nueva versión de ICMP, definida para ***IPv6***. Esta agrega definiciones necesarias para el funcionamiento de ***IPv6***.
+Existe una nueva versión de ICMP, definida para IPv6. Esta agrega definiciones necesarias para el funcionamiento de IPv6.

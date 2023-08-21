@@ -22,7 +22,7 @@ title: To-Do
 	- [x] Computer Networks and the Internet
 	- [x] Application Layer
 	- [x] Transport Layer
-	- [ ] The Network Layer Data Plane
+	- [x] The Network Layer Data Plane
 	- [ ] The Network Layer Control Plane
 	- [ ] The Link Layer and LANs
 	- [ ] Wireless and Mobile Networks

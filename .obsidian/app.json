@@ -171,6 +171,7 @@
     "socket",
     "sockets",
     "ACK",
-    "NAK"
+    "NAK",
+    "asignamiento"
   ]
 }

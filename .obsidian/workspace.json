@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
+                "file": "To-Do.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Breaking WEP.md"
+                "file": "To-Do.md"
               }
             }
           },
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
+                "file": "To-Do.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
+                "file": "To-Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,14 @@
   },
   "active": "c3ec900c7fc37253",
   "lastOpenFiles": [
+    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Data Plane/Indice.md",
     "Introduccion a Sistemas Distribuidos/Indice.md",
+    "To-Do.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Data Plane/The Internet Protocol (IP) IPv4, Addressing, IPv6, and More.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Data Plane/Generalized Forwarding and SDN.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Data Plane/What's Inside a Router.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Data Plane/Overview of Network Layer.md",
+    "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
     "Introduccion a Sistemas Distribuidos/Practica/TCP.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/TCP Congestion Control.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/Indice.md",
@@ -189,13 +196,6 @@
     "Introduccion a Sistemas Distribuidos/Teoria/Application Layer/The Web and HTTP.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Application Layer/Principles of Network Applications.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Computer Networks and the Internet/Indice.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Computer Networks and the Internet/Networks Under Attack.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Computer Networks and the Internet/Protocol Layers and Their Service Models.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Computer Networks and the Internet/Delay, Loss, and Throughput in Packet-Switched N.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Computer Networks and the Internet/The Network Core.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Computer Networks and the Internet/The Network Edge.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Computer Networks and the Internet/What is the internet.md",
-    "To-Do.md",
     "Introduccion a Sistemas Distribuidos/Teoria",
     "Introduccion a Sistemas Distribuidos/Practica",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",

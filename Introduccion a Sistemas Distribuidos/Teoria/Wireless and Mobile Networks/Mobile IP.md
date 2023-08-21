@@ -2,7 +2,7 @@
 title: Mobile IP
 ---
 
-La arquitectura de internet y los protocolos para soportar la movilidad, conocidos como ***mobile IP***, se definen principalmente en el ***RFC 5499*** para ***IPv4***. Este estándar consiste en tres elementos importantes:
+La arquitectura de internet y los protocolos para soportar la movilidad, conocidos como ***mobile IP***, se definen principalmente en el ***RFC 5499*** para IPv4. Este estándar consiste en tres elementos importantes:
 
 - ***Agent Discovery.*** Define los protocolos a utilizar para el agente local y el agente externo, para publicitar sus servicios a los nodos móviles, y los protocolos a utilizar para que los nodos móviles soliciten servicios a los agentes locales y externos.
 - ***Registration with the Home Agent.*** Define los protocolos usados por los nodos móviles y los agentes externos para registrar y des-registrar COA con un agente local.
