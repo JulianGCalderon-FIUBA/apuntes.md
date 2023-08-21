@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0ac6715508dd34f7",
+        "id": "87d80f672bb23686",
         "type": "tabs",
         "children": [
           {
-            "id": "c3ec900c7fc37253",
+            "id": "d0c9e4394765b3dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67eef233b2870569",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Practica/TCP.md",
+                "file": "Introduccion a Sistemas Distribuidos/Indice.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "*** -path: \"Sistemas Distribuidos\"",
+                "query": "***",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -97,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Do.md"
+                "file": "Introduccion a Sistemas Distribuidos/Indice.md"
               }
             }
           },
@@ -107,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do.md",
+                "file": "Introduccion a Sistemas Distribuidos/Indice.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -124,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Do.md",
+                "file": "Introduccion a Sistemas Distribuidos/Indice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,34 +156,34 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "c3ec900c7fc37253",
+  "active": "d0c9e4394765b3dc",
   "lastOpenFiles": [
-    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Data Plane/Indice.md",
-    "Introduccion a Sistemas Distribuidos/Indice.md",
-    "To-Do.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Data Plane/The Internet Protocol (IP) IPv4, Addressing, IPv6, and More.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Data Plane/Generalized Forwarding and SDN.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Data Plane/What's Inside a Router.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Data Plane/Overview of Network Layer.md",
     "Introduccion a Sistemas Distribuidos/Breaking WEP.md",
+    "Introduccion a Sistemas Distribuidos/Indice.md",
+    "Introduccion a Sistemas Distribuidos/Practica/Latencia.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Indice.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/The Link Layer and LANs/Indice.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Control Plane/Indice.md",
     "Introduccion a Sistemas Distribuidos/Practica/TCP.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/TCP Congestion Control.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/Indice.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/Principles of Congestion Control.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/Connection-Oriented Transport TCP.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/Principles of Reliable Data Transfer.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/Connectionless Transport UDP.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/Multiplexing and Demultiplexing.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/Introduction and Transport-Layer Services.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Application Layer/Indice.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Application Layer/Socket Programming Creating a Network Application.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Application Layer/Video Streaming and Content Distribution Network.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Application Layer/Peer-to-Peer File Distribution.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Application Layer/DNS.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Application Layer/Electronic Mail in the Internet.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Application Layer/The Web and HTTP.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Application Layer/Principles of Network Applications.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Computer Networks and the Internet/Indice.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Wireless Links and Network Characteristics.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Wireless and Mobility Impact on Higher-Layer Pro.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/WiFi 802 11 Wireless LANs.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Control Plane/The SDN Control Plane.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/The Link Layer and LANs/Switched Local Area Networks.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Control Plane/Routing Algorithms.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Control Plane/Network Management and SNMP.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/Computer Networks and the Internet/The Network Core.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Control Plane/Routing Among the ISPs BGP.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/The Link Layer and LANs/Multiple Access Links and Protocols.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Mobility Management Principles.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Managing Mobility in Cellular Networks.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/The Link Layer and LANs/Link Virtualization A Network as a Link Layer.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Introduction to Wireless Networks.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Control Plane/Introduction to the Control Plane.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/The Link Layer and LANs/Introduction of the Link Layer.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Control Plane/Intra-AS Routing in the Internet OSPF.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Control Plane/ICMP The Internet Control Message Protocol.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/The Link Layer and LANs/Error-Detection and -Correction Techniques.md",
     "Introduccion a Sistemas Distribuidos/Teoria",
     "Introduccion a Sistemas Distribuidos/Practica",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",

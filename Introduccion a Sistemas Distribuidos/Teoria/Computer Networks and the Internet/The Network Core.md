@@ -54,7 +54,7 @@ Los ISP tienen inicialmente una estructura jerárquica en forma de árbol de mú
 Además de esta estructura, cuentan con algunos conceptos adicionales.
 
 - **POP (Point of Presence):** Es simplemente un grupo de routers en una misma ubicación que utilizan los clientes para conectarse con su proveedor.
-- ***Multi-Home:*** A veces, un ISP puede conectarse a más de un proveedor, para poder funcionar incluso si uno de esos dos proveedores cae.
-- ***Peer:*** Dos ISP regionales del mismo nivel pueden conectarse para que las conexiones locales pasen por ahí, en lugar de ir a sus proveedores.
+- **Multi-Home:** A veces, un ISP puede conectarse a más de un proveedor, para poder funcionar incluso si uno de esos dos proveedores cae.
+- **Peer:** Dos ISP regionales del mismo nivel pueden conectarse para que las conexiones locales pasen por ahí, en lugar de ir a sus proveedores.
 - **IXP (Internet Exchange Point):** Punto de encuentro entre distintos ISP.
-- ***content-provider networks:*** Redes específicas para una empresa que manejan el tráfico de información de la misma, pero siempre conectados al internet global. Estas redes intentan evitar los niveles más altos, conectándose directamente con los ISP de bajo nivel. De esta forma, obtienen buen rendimiento con los usuarios conectados directamente. Estas redes también se conectan con los ISP de mayor nivel, ya que muchos ISP solo pueden ser alcanzados a través de ellos.
+- **content-provider networks:** Redes específicas para una empresa que manejan el tráfico de información de la misma, pero siempre conectados al internet global. Estas redes intentan evitar los niveles más altos, conectándose directamente con los ISP de bajo nivel. De esta forma, obtienen buen rendimiento con los usuarios conectados directamente. Estas redes también se conectan con los ISP de mayor nivel, ya que muchos ISP solo pueden ser alcanzados a través de ellos.
