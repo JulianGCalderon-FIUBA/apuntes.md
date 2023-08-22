@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra II/Producto Interno.md",
+                "file": "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Wi-Fi 802 11 Wireless LANs.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "***",
+                "query": "active scanning",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464.5,
-    "collapsed": true
+    "width": 464.5
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -87,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra II/Producto Interno.md"
+                "file": "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Wi-Fi 802 11 Wireless LANs.md"
               }
             }
           },
@@ -97,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra II/Producto Interno.md",
+                "file": "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Wi-Fi 802 11 Wireless LANs.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra II/Producto Interno.md",
+                "file": "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Wi-Fi 802 11 Wireless LANs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,12 +159,13 @@
   },
   "active": "255021851050eace",
   "lastOpenFiles": [
+    "Introduccion a Sistemas Distribuidos/Indice.md",
+    "Algebra II/Producto Interno.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Wireless and Mobility Impact on Higher-Layer Pro.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Managing Mobility in Cellular Networks.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Mobile IP.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Indice.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Mobility Management Principles.md",
-    "Introduccion a Sistemas Distribuidos/Indice.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Cellular Internet Access.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Wi-Fi 802 11 Wireless LANs.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Wireless Links and Network Characteristics.md",
@@ -185,7 +185,6 @@
     "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Control Plane/Introduction to the Control Plane.md",
     "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Control Plane/Routing Algorithms.md",
     "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Control Plane/Intra-AS Routing in the Internet OSPF.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Control Plane/Routing Among the ISPs BGP.md",
     "Introduccion a Sistemas Distribuidos/Teoria",
     "Introduccion a Sistemas Distribuidos/Practica",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
