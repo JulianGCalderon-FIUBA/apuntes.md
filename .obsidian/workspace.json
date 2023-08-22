@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "e6afc5dcbf33a5e0",
+        "id": "91f8a2c084e6601e",
         "type": "tabs",
         "children": [
           {
-            "id": "255021851050eace",
+            "id": "4b9ffe1dc097aba9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Indice.md",
+                "file": "Base de Datos/Indice.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7eec815e3914b13a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diseno Conceptual.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d5f803cf6be49e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Base de Datos Relacional.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464.5
+    "width": 464.5,
+    "collapsed": true
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -85,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Indice.md"
+                "file": "Diseno Conceptual.md"
               }
             }
           },
@@ -95,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Indice.md",
+                "file": "Diseno Conceptual.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -112,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduccion a Sistemas Distribuidos/Indice.md",
+                "file": "Diseno Conceptual.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,22 +172,30 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "255021851050eace",
+  "active": "7eec815e3914b13a",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Diseno Conceptual.md",
+    "Base de Datos Relacional.md",
+    "Base de Datos/Indice.md",
+    "Analisis de la Informacion/Ingenieria de Requisitos.md",
+    "Analisis de la Informacion/Indice.md",
+    "Base de Datos",
+    "Analisis Matematico II/Rectas y Planos.md",
+    "Analisis Matematico II/Indice.md",
+    "index.md",
+    "Introduccion a Sistemas Distribuidos/Indice.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Wi-Fi 802 11 Wireless LANs.md",
     "To-Do.md",
     "Notoin a Obsidian.md",
-    "Introduccion a Sistemas Distribuidos/Indice.md",
     "Algebra II/Producto Interno.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Wireless and Mobility Impact on Higher-Layer Pro.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Managing Mobility in Cellular Networks.md",
@@ -175,15 +209,6 @@
     "Introduccion a Sistemas Distribuidos/Teoria/The Link Layer and LANs/Link Virtualization A Network as a Link Layer.md",
     "Introduccion a Sistemas Distribuidos/Teoria/The Link Layer and LANs/Switched Local Area Networks.md",
     "Introduccion a Sistemas Distribuidos/Teoria/The Link Layer and LANs/Multiple Access Links and Protocols.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/The Link Layer and LANs/Error-Detection and -Correction Techniques.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/The Link Layer and LANs/Introduction of the Link Layer.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/The Link Layer and LANs/Indice.md",
-    "Introduccion a Sistemas Distribuidos/Practica/Latencia.md",
-    "index.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Control Plane/Indice.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Control Plane/The SDN Control Plane.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Control Plane/Introduction to the Control Plane.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Control Plane/Routing Algorithms.md",
     "Introduccion a Sistemas Distribuidos/Teoria",
     "Introduccion a Sistemas Distribuidos/Practica",
     "Analisis Numerico/Attachments/Punto Flotante 1.png",
@@ -197,7 +222,6 @@
     "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
     "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
     "Indice.pdf",
-    "Indice.tex",
     "Untitled.canvas",
     "Analisis de la Informacion/Attachments/Casos de Uso 1.png",
     "Análisis Matemático II/Attachments/Cuadricas 1.png",

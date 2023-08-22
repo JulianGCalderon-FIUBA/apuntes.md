@@ -6,8 +6,5 @@
   "table-editor-obsidian",
   "obsidian-languagetool-plugin",
   "mousewheel-image-zoom",
-  "obsidian-focus-mode",
-  "obsidian-pandoc",
-  "cmdr",
-  "obsidian-regex-replace"
+  "obsidian-pandoc"
 ]

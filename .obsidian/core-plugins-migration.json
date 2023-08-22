@@ -21,7 +21,7 @@
   "outline": true,
   "word-count": true,
   "slides": false,
-  "audio-recorder": true,
+  "audio-recorder": false,
   "workspaces": false,
   "file-recovery": true,
   "publish": false,
