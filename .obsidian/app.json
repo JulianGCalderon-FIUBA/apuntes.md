@@ -172,6 +172,9 @@
     "sockets",
     "ACK",
     "NAK",
-    "asignamiento"
+    "asignamiento",
+    "particionada",
+    "interoperar",
+    "reencapsularlo"
   ]
 }

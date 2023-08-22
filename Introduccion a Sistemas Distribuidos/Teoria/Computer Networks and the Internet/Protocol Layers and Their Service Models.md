@@ -43,7 +43,7 @@ Esta capa incluye el conocido protocolo IP (de hecho, esta capa es muchas veces 
 
 Para mover un *packet* de un nodo al siguiente, se utiliza la *link layer*. En cada nodo, *la network layer* le da el paquete a la *link layer*, el cual se encarga de enviar el mensaje al siguiente nodo. Esta capa provee confianza de envío de un nodo al siguiente.
 
-Ejemplos de algunos protocolos en esta capa son: Ethernet, Wifi, entre otros. Un mismo *packet* puede ser manejado por múltiples de estos protocolos a lo largo de su ruta.
+Ejemplos de algunos protocolos en esta capa son: Ethernet, Wi-Fi, entre otros. Un mismo *packet* puede ser manejado por múltiples de estos protocolos a lo largo de su ruta.
 
 ### Physical Layer
 
@@ -64,7 +64,7 @@ Es un protocolo similar al *IP stack protocol,* con dos capas adicionales:
 
 ## 2. Encapsulation
 
-Los *packet switches* no implementan todas las capas del *protocol stack,* suelen implementar las capas inferiores. *Link-layer switches* suelen implementar las capas 1 y 2 *(physical y link),* mientras que los routers además implementan la capa 3 *(network).* En otras palabras, las *link-layer switches* no son capaces de detectar direcciones IP como los routers, sino únicamente direcciones de protocolos de capa 2 (Ethernet, Wifi). Los hosts implementan las 5 capas, esto se debe a que la mayoría de la complejidad de la red se encuentra en los extremos.
+Los *packet switches* no implementan todas las capas del *protocol stack,* suelen implementar las capas inferiores. *Link-layer switches* suelen implementar las capas 1 y 2 *(physical y link),* mientras que los routers además implementan la capa 3 *(network).* En otras palabras, las *link-layer switches* no son capaces de detectar direcciones IP como los routers, sino únicamente direcciones de protocolos de capa 2 (Ethernet, Wi-Fi). Los hosts implementan las 5 capas, esto se debe a que la mayoría de la complejidad de la red se encuentra en los extremos.
 
 Cada capa le agrega información al mensaje que luego va a ser analizada por su contraparte. El *application-layer message* con el *transport-layer header information* forman un *segment*. La *transport layer* le pasa el **segment** a la *network-layer*, la cual le agrega la *network-layer header information*, formando un *datagram*. Este a su vez es pasado a la *link-layer* la cual le agrega su propio información de cabecera. De esta forma, el mensaje en cada etapa se puede separar en *header fields* y *payload field* (este último es usualmente el *packet* de la capa anterior). Esta información agregada va a ser analizada por su contraparte en el extremo receptor del link.
 

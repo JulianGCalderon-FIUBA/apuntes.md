@@ -1,5 +1,5 @@
 {
-  "findText": "***",
+  "findText": "*",
   "replaceText": "**",
   "useRegEx": false,
   "selOnly": true,

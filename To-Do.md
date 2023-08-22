@@ -24,5 +24,5 @@ title: To-Do
 	- [x] Transport Layer
 	- [x] The Network Layer Data Plane
 	- [x] The Network Layer Control Plane
-	- [ ] The Link Layer and LANs
+	- [x] The Link Layer and LANs
 	- [ ] Wireless and Mobile Networks

@@ -34,18 +34,18 @@ Desde el servidor, hay una estructura similar al DSLAM conocida como CMTS, trans
 
 #### Direct Fiber
 
-Hay múltiples tecnologías en competencia por distribución óptica a los hogares, La más simple es conocida como *direct fiber*. Es un método muy veloz que consiste en que los cables de fibra óptica lleguen a las casas de los clientes. Usualmente, cada cable está compartido entre varias casas, el cual es separado utilizando *splitters.* Hay dos arquitecturas principales: **AON Active Optical Networks** (este método es esencialmente *switched ethernet*) y **PON Passive Optical Networks.** En este último, El splitter combina un número de casas (usualmente menor que 100) en un único cable compartido, el cual se conecta a un *Optical Line Terminator (OLT)* en la central de internet.
+Hay múltiples tecnologías en competencia por distribución óptica a los hogares, La más simple es conocida como *direct fiber*. Es un método muy veloz que consiste en que los cables de fibra óptica lleguen a las casas de los clientes. Usualmente, cada cable está compartido entre varias casas, el cual es separado utilizando *splitters.* Hay dos arquitecturas principales: **AON Active Optical Networks** (este método es esencialmente *switched Ethernet*) y **PON Passive Optical Networks.** En este último, El splitter combina un número de casas (usualmente menor que 100) en un único cable compartido, el cual se conecta a un *Optical Line Terminator (OLT)* en la central de internet.
 
 #### Other Methods
 
 Otros métodos menos utilizados son: *Satellite Links* y *Dial-up Access.* Este último es utilizado en casas tradicionales. Tiene un esquema similar al DSL, pero mucho más lento.
 
-### Access in the Enterprise (and the Home): Ethernet and WiFi
+### Access in the Enterprise (and the Home): Ethernet and Wi-Fi
 
 Para los dispositivos dentro de una casa, se utiliza una *LAN (local area network)* para proveer de internet a dispositivos cercanos. Se utilizan dos métodos principales para conectarse al *edge router*.
 
-- **Ethernet:** Se utilizan cables de cobre conectados a un *ethernet switch,* el cual a su vez está conectado al internet.
-- **Wifi:** Se utiliza para dar internet de forma inalámbrica a dispositivos cercanos a un punto de acceso.
+- **Ethernet:** Se utilizan cables de cobre conectados a un *Ethernet switch,* el cual a su vez está conectado al internet.
+- **Wi-Fi:** Se utiliza para dar internet de forma inalámbrica a dispositivos cercanos a un punto de acceso.
 
 ### Wide-Area Wireless Access: 3G and LTE
 
