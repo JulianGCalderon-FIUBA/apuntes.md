@@ -7,5 +7,6 @@
   "obsidian-languagetool-plugin",
   "mousewheel-image-zoom",
   "obsidian-pandoc",
-  "attachment-management"
+  "attachment-management",
+  "obsidian-attachment-name-formatting"
 ]
