@@ -80,7 +80,7 @@ Son aquellas que participan tres tipos de identidad. Aquí, la cardinalidad de u
 ![[Modelo Entidad-Interrelacion-4.png|475]]
 
 > [!example]
-> Dado un cantante y una ronda, ¿cuántos jurados puede haber? Muchos, luego la cardinalidad de jurado es $N$
+> Dado un cantante y una ronda, ¿cuántos jurados puede haber? Muchos, luego la cardinalidad del jurado es $N$
 
 Notemos que para dos tipos de entidad cualesquiera de una interrelación ternaria, la cardinalidad de ambos lados siempre será $N$, ya que si no fuese el caso se podría prescindir de una interrelación ternaria, y utilizar una relación binaria.
 
