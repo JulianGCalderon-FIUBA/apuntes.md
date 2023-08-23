@@ -23,7 +23,7 @@ Los atributos compuestos se componen de atributos simples, y le dan un certifica
 
 Los atributos **multi-evaluados** pueden tener más de un valor, pero esto trae problemas a nivel de implementación. Para atributos importantes, es mejor separarlo a su propio tipo de entidad. En el diagrama, se representan con un doble óvalo.
 
-![[Modelo Entidad-Interrelacion.png|450]]
+![[Modelo Entidad-Interrelacion-11.png|450]]
 
 Los atributos **derivados** son aquellos que pueden ser calculados a partir de los datos de la base de datos (de la propia entidad, o de otros elementos). En el diagrama, se representa con un óvalo punteado.
 
@@ -96,6 +96,6 @@ Participación es una entidad que representa la relación entre cantante y ronda
 
 La generalización y la especialización nos permiten representar relaciones del tipo "es un" en el modelo de datos.
 
-![[Pasted image 20230822212443.png|375]]
+![[Modelo Entidad-Interrelacion-10.png|375]]
 
 Los subtipos de entidad son subclases del tipo de entidad padre. A través de especialización, se heredan atributos y tipos de interrelaciones del tipo de entidad padre. A su vez, los subtipos de entidad pueden tener atributos propios.

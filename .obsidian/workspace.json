@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464.5,
-    "collapsed": true
+    "width": 464.5
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -157,23 +156,22 @@
   },
   "active": "75a8d2ba9762da0f",
   "lastOpenFiles": [
+    "Base de Datos/Indice.md",
+    "Base de Datos/Modelo Entidad-Interrelacion.md",
+    "Base de Datos/Attachments/Modelo Entidad-Interrelacion-11.png",
+    "Base de Datos/Attachments/Modelo Entidad-Interrelacion-10.png",
     "Base de Datos/Attachments/Modelo Entidad-Interrelacion-9.png",
     "Base de Datos/Attachments/Modelo Entidad-Interrelacion-8.png",
     "Base de Datos/Attachments/Modelo Entidad-Interrelacion-7.png",
     "Base de Datos/Attachments/Modelo Entidad-Interrelacion-6.png",
-    "Base de Datos/Attachments/Modelo Entidad-Interrelacion-5.png",
     "Base de Datos/Attachments/Modelo Entidad-Interrelacion-4.png",
     "Base de Datos/Attachments/Modelo Entidad-Interrelacion-3.png",
-    "Base de Datos/Attachments/Pasted image 20230822212443.png",
     "Base de Datos/Attachments/Modelo Entidad-Interrelacion-2.png",
-    "Base de Datos/Attachments/Modelo Entidad-Interrelacion.png",
     "Base de Datos/Attachments/Modelo Entidad-Interrelacion-1.png",
-    "Base de Datos/Modelo Entidad-Interrelacion.md",
     "Base de Datos/Base de Datos Relacional.md",
     "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
     "Tecnicas de Programacion Concurrente/Introduccion a la Concurrencia.md",
     "Tecnicas de Programacion Concurrente/Indice.md",
-    "Base de Datos/Indice.md",
     "Base de Datos/Diseno Conceptual.md",
     "Base de Datos/Attachments",
     "index.md",
