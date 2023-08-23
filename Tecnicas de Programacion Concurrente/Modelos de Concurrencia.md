@@ -1,3 +1,7 @@
+---
+title: Modelos de Concurrencia
+---
+
 Los modelos de concurrencia nos ayudan a diseñar programas concurrentes, sin mucha complejidad adicional
 
 ## Estado Mutable Compartido

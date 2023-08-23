@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tecnicas de Programacion Concurrente/Indice.md",
+                "file": "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tecnicas de Programacion Concurrente/Indice.md"
+                "file": "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tecnicas de Programacion Concurrente/Indice.md",
+                "file": "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tecnicas de Programacion Concurrente/Indice.md",
+                "file": "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,12 +156,14 @@
   },
   "active": "948ad7364e8349b5",
   "lastOpenFiles": [
-    "Tecnicas de Programacion Concurrente/Indice.md",
-    "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
     "Tecnicas de Programacion Concurrente/Abstraccion de la Concurrencia.md",
     "Tecnicas de Programacion Concurrente/Definiciones Basicas.md",
-    "Untitled.md",
+    "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
+    "Tecnicas de Programacion Concurrente/Indice.md",
     "index.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Cellular Internet Access.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Indice.md",
+    "Untitled.md",
     "2023-08-23.md",
     "Untitled 1.md",
     "templates/basic.md",
@@ -200,8 +202,6 @@
     "Base de Datos/Attachments",
     "Threads.md",
     "Modelos Comuness.md",
-    "Introduccion a Sistemas Distribuidos/Indice.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Wi-Fi 802 11 Wireless LANs.md",
     "Untitled.canvas"
   ]
 }
