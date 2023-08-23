@@ -1,5 +1,5 @@
 ---
-title: Definición de Concurrencia
+title: Definición Básicas
 ---
 
 ## Definiciones Básicas

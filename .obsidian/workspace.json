@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "c00c5ecab39cc9dd",
+        "id": "98b9a4f556e4f396",
         "type": "tabs",
         "children": [
           {
-            "id": "75a8d2ba9762da0f",
+            "id": "948ad7364e8349b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tecnicas de Programacion Concurrente/Abstraccion de la Concurrencia.md",
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00f2f6ad0854896b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464.5,
-    "collapsed": true
+    "width": 464.5
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -86,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tecnicas de Programacion Concurrente/Abstraccion de la Concurrencia.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -96,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tecnicas de Programacion Concurrente/Abstraccion de la Concurrencia.md",
+                "file": "Untitled.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tecnicas de Programacion Concurrente/Abstraccion de la Concurrencia.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,16 +167,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "75a8d2ba9762da0f",
+  "active": "00f2f6ad0854896b",
   "lastOpenFiles": [
-    "Tecnicas de Programacion Concurrente/Definicion de Concurrencia.md",
-    "Tecnicas de Programacion Concurrente/Abstraccion de la Concurrencia.md",
-    "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
+    "index.md",
+    "Untitled.md",
     "Tecnicas de Programacion Concurrente/Indice.md",
+    "Tecnicas de Programacion Concurrente/Definiciones Basicas.md",
+    "Tecnicas de Programacion Concurrente/Abstraccion de la Concurrencia.md",
+    "2023-08-23.md",
+    "Untitled 1.md",
+    "templates/basic.md",
+    "templates",
+    "New folder",
+    "Base de Datos/Indice.md",
+    "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
     "Organizacion de Datos/Algoritmos Geneticos.md",
     "Organizacion de Datos/Indice.md",
     "Organizacion de Datos/Modelos Comunes.md",
-    "Base de Datos/Indice.md",
     "Base de Datos/Modelo Entidad-Interrelacion.md",
     "Base de Datos/Diseno Conceptual.md",
     "Base de Datos/Base de Datos Relacional.md",
@@ -173,7 +192,6 @@
     "Tecnicas de Programacion Concurrente/Attachments/Introduccion a la Concurrencia 1.png",
     "Tecnicas de Programacion Concurrente/Attachments/Introduccion a la Concurrencia.png",
     "Tecnicas de Programacion Concurrente/Attachments",
-    "index.md",
     "Analisis Matematico II/Cuadricas.md",
     "Analisis Matematico II/Attachments/Cuadricas 1.png",
     "Analisis Matematico II/Attachments/Tabla de Diferenciabilidad.pdf",
@@ -195,14 +213,8 @@
     "Base de Datos/Attachments",
     "Threads.md",
     "Modelos Comuness.md",
-    "Attachments",
-    "Tecnicas de Programacion Concurrente",
     "Introduccion a Sistemas Distribuidos/Indice.md",
-    "Untitled.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Wi-Fi 802 11 Wireless LANs.md",
-    "To-Do.md",
-    "Notoin a Obsidian.md",
-    "Algebra II/Producto Interno.md",
     "Untitled.canvas"
   ]
 }
