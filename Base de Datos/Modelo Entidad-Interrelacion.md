@@ -8,7 +8,7 @@ El modelo de **Entidad-Interrelación**, en inglés conocido como *ER diagram (e
 - **Atributo:** Propiedades de una clase, tienen un valor asociado en cada identidad. Se representa con un óvalo, conectado al tipo de entidad
 - **Tipo de Interrelación:** Define una relación entre dos tipos de entidades. Se representa con un rombo conectado entre medio de ambos tipos de entidades.
 
-![[Modelo Entidad-Interrelacion_image_1.png|350]]
+![[Modelo Entidad-Interrelacion   1.png|350]]
 
 ## Atributo
 
@@ -23,11 +23,11 @@ Los atributos compuestos se componen de atributos simples, y le dan un certifica
 
 Los atributos **multi-evaluados** pueden tener más de un valor, pero esto trae problemas a nivel de implementación. Para atributos importantes, es mejor separarlo a su propio tipo de entidad. En el diagrama, se representan con un doble óvalo.
 
-![[Modelo Entidad-Interrelacion_image_2.png|450]]
+![[Modelo Entidad-Interrelacion   2.png|450]]
 
 Los atributos **derivados** son aquellos que pueden ser calculados a partir de los datos de la base de datos (de la propia entidad, o de otros elementos). En el diagrama, se representa con un óvalo punteado.
 
-![[Modelo Entidad-Interrelacion_image_3.png|450]]
+![[Modelo Entidad-Interrelacion   3.png|450]]
 
 ## Entidades
 
@@ -35,7 +35,7 @@ El **conjunto de entidades** es el conjunto de ocurrencias o instancias de un de
 
 Toda entidad almacenada en la base de datos debe tener **atributos clave** que identifiquen inequívocamente cada entidad. Esto nos asegurará que no existan dos entidades iguales, ya que, a lo sumo, diferirán en su clave. Esta restricción se conoce como restricción de **unicidad**. En el diagrama esto se representa subrayando los atributos clave.
 
-![[Modelo Entidad-Interrelacion_image_4.png|475]]
+![[Modelo Entidad-Interrelacion   4.png|475]]
 
 El conjunto de atributos clave debe ser **minimal**, aunque es posible que exista más de un conjunto de atributos clave posibles.
 
@@ -49,11 +49,11 @@ La cardinalidad es la máxima cantidad de instancias de cada tipo de entidad que
 
 La participación es la mínima cantidad de instancias de cada tipo de entidad que deben relacionarse con una instancia concreta de los tipos de entidad restante. Si una entidad $A$ debe tener un vínculo con otra entidad $B$, entonces se dice $A$ que tiene una **dependencia existencial** o **participación total** en $B$, en caso contrario, tiene **participación parcial**. En el diagrama, se indicará como $(\min, \max)$
 
-![[Modelo Entidad-Interrelacion_image_5.png|525]]
+![[Modelo Entidad-Interrelacion   5.png|525]]
 
 Las interrelaciones, a su vez, pueden contener atributos:
 
-![[Modelo Entidad-Interrelacion_image_6.png|525]]
+![[Modelo Entidad-Interrelacion   6.png|525]]
 
 En los tipos de interrelaciones también debemos identificar un conjunto de atributos clave. Solo pueden formar parte de él los atributos clave de los tipos de identidades que participan en la interrelación. La elección de atributos clave está fuertemente condicionada por la cardinalidad.
 
@@ -65,19 +65,19 @@ Para identificar una relación inequívocamente, podemos utilizar los propios mi
 
 A veces, la identificación de una identidad depende de su interrelación con otra entidad, a la cual está **subordinada**. Esto se denotará con un rectángulo que englobe tanto el tipo de entidad como la relación que lo identifican.
 
-![[Modelo Entidad-Interrelacion_image_7.png|525]]
+![[Modelo Entidad-Interrelacion   7.png|525]]
 
 Cuando una entidad depende de otra, se dice que es una entidad débil. Su clave se compone de las claves de sus entidades **identificadoras**, más algunos atributos propios, que se denominan **discriminantes**.
 
 Para modelar múltiples veces el mismo tipo de interrelación entre dos entidades, no es correcto modelarlo con múltiples interrelaciones. Debemos crear un tipo de entidad que represente esta interrelación. Luego, esta será una entidad débil que dependerá de sus participantes.
 
-![[Modelo Entidad-Interrelacion_image_8.png|600]]
+![[Modelo Entidad-Interrelacion   8.png|600]]
 
 ## Interrelaciones Ternarias
 
 Son aquellas que participan tres tipos de identidad. Aquí, la cardinalidad de un tipo de relación determina la cantidad de instancias de interrelación en que puede aparecer, fijadas las instancias de los otros dos tipos de entidades
 
-![[Modelo Entidad-Interrelacion_image_9.png|475]]
+![[Modelo Entidad-Interrelacion   9.png|475]]
 
 > [!example]
 > Dado un cantante y una ronda, ¿cuántos jurados puede haber? Muchos, luego la cardinalidad del jurado es $N$
@@ -88,7 +88,7 @@ Notemos que para dos tipos de entidad cualesquiera de una interrelación ternari
 
 En el diseño anterior, la existencia de cualquiera de las entidades es obligatoria. No puede no haber un jurado. Para permitir este comportamiento, se utilizan las agregaciones.
 
-![[Modelo Entidad-Interrelacion_image_10.png|500]]
+![[Modelo Entidad-Interrelacion   10.png|500]]
 
 Participación es una entidad que representa la relación entre cantante y ronda. Luego, esta participación puede (o no) tener jurados (y, por lo tanto, puntaje)
 
@@ -96,6 +96,6 @@ Participación es una entidad que representa la relación entre cantante y ronda
 
 La generalización y la especialización nos permiten representar relaciones del tipo "es un" en el modelo de datos.
 
-![[Modelo Entidad-Interrelacion_image_11.png|375]]
+![[Modelo Entidad-Interrelacion   11.png|375]]
 
 Los subtipos de entidad son subclases del tipo de entidad padre. A través de especialización, se heredan atributos y tipos de interrelaciones del tipo de entidad padre. A su vez, los subtipos de entidad pueden tener atributos propios.
