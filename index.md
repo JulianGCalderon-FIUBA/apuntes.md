@@ -31,3 +31,8 @@ title: Índice
 - [[Analisis de la Informacion/Indice|Análisis de la Información]]
 - [[Matematica Discreta/Indice|Matemática Discreta]]
 - [[Modelos y Optimizacion I/Indice|Modelos y Optimización I]]
+
+## 2.º 2023
+
+- [[Base de Datos/Indice|Base de Datos]]
+- [[Tecnicas de Programacion Concurrente/Indice|Técnicas de Programación Concurrente]]

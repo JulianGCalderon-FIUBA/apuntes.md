@@ -4,7 +4,7 @@ title: Organización de Datos
 
 - [[Organizacion de Datos/Introduccion|Introducción]]
 - [[Ciencia de Datos]]
-- [[Modelos Comunes]]
+- [[Modelos de Concurrencia]]
 - [[Entrenamiento y Testing]]
 - [[Transformacion de Datos|Transformación de Datos]]
 - [[Valores Atipicos|Valores Atípicos]]

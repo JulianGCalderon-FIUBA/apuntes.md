@@ -4,47 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "91f8a2c084e6601e",
+        "id": "e6afc5dcbf33a5e0",
         "type": "tabs",
         "children": [
           {
-            "id": "4b9ffe1dc097aba9",
+            "id": "255021851050eace",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Base de Datos/Indice.md",
+                "file": "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7eec815e3914b13a",
+            "id": "8c6a289c33e9694d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diseno Conceptual.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d5f803cf6be49e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Base de Datos Relacional.md",
+                "file": "Base de Datos/Modelo Entidad-Interrelacion.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464.5,
-    "collapsed": true
+    "width": 464.5
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -111,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diseno Conceptual.md"
+                "file": "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md"
               }
             }
           },
@@ -121,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diseno Conceptual.md",
+                "file": "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -138,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diseno Conceptual.md",
+                "file": "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,27 +158,45 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "7eec815e3914b13a",
+  "active": "255021851050eace",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Diseno Conceptual.md",
-    "Base de Datos Relacional.md",
+    "Tecnicas de Programacion Concurrente/Introduccion a la Concurrencia.md",
+    "Tecnicas de Programacion Concurrente/Indice.md",
+    "Base de Datos/Modelo Entidad-Interrelacion.md",
     "Base de Datos/Indice.md",
-    "Analisis de la Informacion/Ingenieria de Requisitos.md",
-    "Analisis de la Informacion/Indice.md",
-    "Base de Datos",
-    "Analisis Matematico II/Rectas y Planos.md",
-    "Analisis Matematico II/Indice.md",
+    "Base de Datos/Diseno Conceptual.md",
+    "Base de Datos/Base de Datos Relacional.md",
+    "Base de Datos/Attachments/Pasted image 20230822212443.png",
+    "Base de Datos/Attachments/Pasted image 20230822212245.png",
+    "Base de Datos/Attachments/Pasted image 20230822211921.png",
+    "Base de Datos/Attachments/Pasted image 20230822211627.png",
+    "Base de Datos/Attachments/Pasted image 20230822211305.png",
+    "Base de Datos/Attachments/Pasted image 20230822210627.png",
+    "Base de Datos/Attachments/Pasted image 20230822210401.png",
+    "Base de Datos/Attachments/Pasted image 20230822205950.png",
+    "Base de Datos/Attachments/Untitled.png",
+    "Base de Datos/Attachments/Screenshot 2023-08-22 205612.png",
+    "Base de Datos/Attachments",
     "index.md",
+    "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
+    "Threads.md",
+    "Modelos Comuness.md",
+    "Organizacion de Datos/Modelos Comunes.md",
+    "Attachments",
+    "Tecnicas de Programacion Concurrente",
     "Introduccion a Sistemas Distribuidos/Indice.md",
+    "Untitled.md",
+    "Base de Datos",
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Wi-Fi 802 11 Wireless LANs.md",
     "To-Do.md",
     "Notoin a Obsidian.md",
@@ -205,29 +209,12 @@
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Cellular Internet Access.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Wireless Links and Network Characteristics.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Introduction to Wireless Networks.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/The Link Layer and LANs/Data Center Networking.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/The Link Layer and LANs/Link Virtualization A Network as a Link Layer.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/The Link Layer and LANs/Switched Local Area Networks.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/The Link Layer and LANs/Multiple Access Links and Protocols.md",
     "Introduccion a Sistemas Distribuidos/Teoria",
     "Introduccion a Sistemas Distribuidos/Practica",
-    "Analisis Numerico/Attachments/Punto Flotante 1.png",
     "Estructura del Computador/Circuitos Asincronicos.html",
-    "Sistemas Operativos/Attachments/Introduccion a Paginación 1.png",
     "aa.py",
-    "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 2.png",
-    "Analisis de la Informacion/Attachments/Introduccion al Diseno de Software 1.png",
     "Álgebra II/Álgebra II.pdf",
     "Álgebra II/Formas Cuadráticas.pdf",
-    "Introducción a Sistemas Distribuidos/Breaking WEP.pdf",
-    "Introducción a Sistemas Distribuidos/Breaking WEP.tex",
-    "Indice.pdf",
-    "Untitled.canvas",
-    "Analisis de la Informacion/Attachments/Casos de Uso 1.png",
-    "Análisis Matemático II/Attachments/Cuadricas 1.png",
-    "Fisica II/Attachments/Potencia Activa y Reactiva 2.svg",
-    "Fisica II/Attachments/Potencia Activa y Reactiva 1.svg",
-    "Física II/Attachments/Final 1.png",
-    "Matematica Discreta/Attachments/Algoritmos 1.png"
+    "Untitled.canvas"
   ]
 }
