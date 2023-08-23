@@ -1,3 +1,7 @@
+---
+title: Base de Datos Relacional
+---
+
 ## Definición
 
 En una base de datos relacional, la información se organiza en **tablas**.
