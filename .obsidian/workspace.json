@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "00f2f6ad0854896b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
+                "file": "Tecnicas de Programacion Concurrente/Indice.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Tecnicas de Programacion Concurrente/Indice.md"
               }
             }
           },
@@ -108,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Tecnicas de Programacion Concurrente/Indice.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -125,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Tecnicas de Programacion Concurrente/Indice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,20 +154,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "00f2f6ad0854896b",
+  "active": "948ad7364e8349b5",
   "lastOpenFiles": [
-    "index.md",
-    "Untitled.md",
     "Tecnicas de Programacion Concurrente/Indice.md",
-    "Tecnicas de Programacion Concurrente/Definiciones Basicas.md",
+    "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
     "Tecnicas de Programacion Concurrente/Abstraccion de la Concurrencia.md",
+    "Tecnicas de Programacion Concurrente/Definiciones Basicas.md",
+    "Untitled.md",
+    "index.md",
     "2023-08-23.md",
     "Untitled 1.md",
     "templates/basic.md",
     "templates",
     "New folder",
     "Base de Datos/Indice.md",
-    "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
     "Organizacion de Datos/Algoritmos Geneticos.md",
     "Organizacion de Datos/Indice.md",
     "Organizacion de Datos/Modelos Comunes.md",
