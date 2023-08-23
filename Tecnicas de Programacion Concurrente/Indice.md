@@ -2,6 +2,6 @@
 title: Índice
 ---
 
-- [[Que es a la Concurrencia]]
-- [[Abstraccion de la Concurrencia]]
-- [[Modelos de Concurrencia|Modelos de Concurrencia]]
+- [[Definicion de Concurrencia|Definición de Concurrencia]]
+- [[Abstraccion de la Concurrencia|Abstracción de la Concurrencia]]
+- [[Modelos de Concurrencia]]

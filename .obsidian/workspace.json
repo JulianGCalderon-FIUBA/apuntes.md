@@ -18,18 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "48de5368e32215ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tecnicas de Programacion Concurrente/Abstraccion de la Concurrencia.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -168,14 +156,17 @@
   },
   "active": "75a8d2ba9762da0f",
   "lastOpenFiles": [
-    "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
-    "Tecnicas de Programacion Concurrente/Que es a la Concurrencia.md",
+    "Tecnicas de Programacion Concurrente/Definicion de Concurrencia.md",
     "Tecnicas de Programacion Concurrente/Indice.md",
+    "Organizacion de Datos/Algoritmos Geneticos.md",
+    "Organizacion de Datos/Indice.md",
+    "Organizacion de Datos/Modelos Comunes.md",
+    "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
+    "Base de Datos/Indice.md",
     "Tecnicas de Programacion Concurrente/Abstraccion de la Concurrencia.md",
     "Base de Datos/Modelo Entidad-Interrelacion.md",
     "Base de Datos/Diseno Conceptual.md",
     "Base de Datos/Base de Datos Relacional.md",
-    "Base de Datos/Indice.md",
     "Probabilidad y Estadistica/Probabilidad Condicional.md",
     "Probabilidad y Estadistica/Attachments/Probabilidad Condicional 1.png",
     "Tecnicas de Programacion Concurrente/Attachments/Introduccion a la Concurrencia 1.png",
@@ -203,7 +194,6 @@
     "Base de Datos/Attachments",
     "Threads.md",
     "Modelos Comuness.md",
-    "Organizacion de Datos/Modelos Comunes.md",
     "Attachments",
     "Tecnicas de Programacion Concurrente",
     "Introduccion a Sistemas Distribuidos/Indice.md",
@@ -212,8 +202,6 @@
     "To-Do.md",
     "Notoin a Obsidian.md",
     "Algebra II/Producto Interno.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Wireless and Mobility Impact on Higher-Layer Pro.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Managing Mobility in Cellular Networks.md",
     "Untitled.canvas"
   ]
 }
