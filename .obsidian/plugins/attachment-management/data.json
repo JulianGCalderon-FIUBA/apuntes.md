@@ -1,0 +1,17 @@
+{
+  "attachPath": {
+    "attachmentRoot": "",
+    "saveAttE": "obsFolder",
+    "attachmentPath": "",
+    "attachFormat": "${notename}",
+    "type": "GLOBAL"
+  },
+  "dateFormat": "YYYYMMDDHHmmssSSS",
+  "handleAll": false,
+  "excludeExtensionPattern": "",
+  "autoRenameAttachment": true,
+  "excludedPaths": "",
+  "excludePathsArray": [],
+  "excludeSubpaths": false,
+  "overridePath": {}
+}

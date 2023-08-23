@@ -4,29 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e6afc5dcbf33a5e0",
+        "id": "c00c5ecab39cc9dd",
         "type": "tabs",
         "children": [
           {
-            "id": "255021851050eace",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c6a289c33e9694d",
+            "id": "75a8d2ba9762da0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Base de Datos/Modelo Entidad-Interrelacion.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -81,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 464.5
+    "width": 464.5,
+    "collapsed": true
   },
   "right": {
     "id": "f19a445c27016a6e",
@@ -97,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md"
+                "file": "Base de Datos/Modelo Entidad-Interrelacion.md"
               }
             }
           },
@@ -107,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
+                "file": "Base de Datos/Modelo Entidad-Interrelacion.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -124,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
+                "file": "Base de Datos/Modelo Entidad-Interrelacion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,37 +147,36 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "255021851050eace",
+  "active": "75a8d2ba9762da0f",
   "lastOpenFiles": [
+    "Base de Datos/Attachments/Modelo Entidad-Interrelacion-9.png",
+    "Base de Datos/Attachments/Modelo Entidad-Interrelacion-8.png",
+    "Base de Datos/Attachments/Modelo Entidad-Interrelacion-7.png",
+    "Base de Datos/Attachments/Modelo Entidad-Interrelacion-6.png",
+    "Base de Datos/Attachments/Modelo Entidad-Interrelacion-5.png",
+    "Base de Datos/Attachments/Modelo Entidad-Interrelacion-4.png",
+    "Base de Datos/Attachments/Modelo Entidad-Interrelacion-3.png",
+    "Base de Datos/Attachments/Pasted image 20230822212443.png",
+    "Base de Datos/Attachments/Modelo Entidad-Interrelacion-2.png",
+    "Base de Datos/Attachments/Modelo Entidad-Interrelacion.png",
+    "Base de Datos/Attachments/Modelo Entidad-Interrelacion-1.png",
+    "Base de Datos/Modelo Entidad-Interrelacion.md",
+    "Base de Datos/Base de Datos Relacional.md",
+    "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
     "Tecnicas de Programacion Concurrente/Introduccion a la Concurrencia.md",
     "Tecnicas de Programacion Concurrente/Indice.md",
-    "Base de Datos/Modelo Entidad-Interrelacion.md",
     "Base de Datos/Indice.md",
     "Base de Datos/Diseno Conceptual.md",
-    "Base de Datos/Base de Datos Relacional.md",
-    "Base de Datos/Attachments/Pasted image 20230822212443.png",
-    "Base de Datos/Attachments/Pasted image 20230822212245.png",
-    "Base de Datos/Attachments/Pasted image 20230822211921.png",
-    "Base de Datos/Attachments/Pasted image 20230822211627.png",
-    "Base de Datos/Attachments/Pasted image 20230822211305.png",
-    "Base de Datos/Attachments/Pasted image 20230822210627.png",
-    "Base de Datos/Attachments/Pasted image 20230822210401.png",
-    "Base de Datos/Attachments/Pasted image 20230822205950.png",
-    "Base de Datos/Attachments/Untitled.png",
-    "Base de Datos/Attachments/Screenshot 2023-08-22 205612.png",
     "Base de Datos/Attachments",
     "index.md",
-    "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
     "Threads.md",
     "Modelos Comuness.md",
     "Organizacion de Datos/Modelos Comunes.md",
