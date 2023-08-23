@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
+                "file": "Tecnicas de Programacion Concurrente/Definicion de Concurrencia.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md"
+                "file": "Tecnicas de Programacion Concurrente/Definicion de Concurrencia.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
+                "file": "Tecnicas de Programacion Concurrente/Definicion de Concurrencia.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
+                "file": "Tecnicas de Programacion Concurrente/Definicion de Concurrencia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,13 +156,13 @@
   },
   "active": "75a8d2ba9762da0f",
   "lastOpenFiles": [
-    "Tecnicas de Programacion Concurrente/Indice.md",
     "Tecnicas de Programacion Concurrente/Abstraccion de la Concurrencia.md",
     "Tecnicas de Programacion Concurrente/Definicion de Concurrencia.md",
+    "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
+    "Tecnicas de Programacion Concurrente/Indice.md",
     "Organizacion de Datos/Algoritmos Geneticos.md",
     "Organizacion de Datos/Indice.md",
     "Organizacion de Datos/Modelos Comunes.md",
-    "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
     "Base de Datos/Indice.md",
     "Base de Datos/Modelo Entidad-Interrelacion.md",
     "Base de Datos/Diseno Conceptual.md",
