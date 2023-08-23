@@ -16,7 +16,7 @@ $$
 \lim_{(x,y)\to(x_0, y_0)}\frac{f(x,y) - \overbrace{\Big[f(x_0, y_0)+f_x'(x_0,y_0)(x-x_0) + f_y'(x_0,y_0)(y-y_0)\Big]}^z}{\sqrt{(x-x_0)^2 + (y-y_0)^2}}
 $$
 
-Ver tabla de diferenciabilidad en: [[Diferenciabilidad 1.pdf]]
+Ver tabla de diferenciabilidad en: [[Tabla de Diferenciabilidad.pdf]]
 
 ## Teoremas
 

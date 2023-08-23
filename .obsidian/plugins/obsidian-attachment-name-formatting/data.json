@@ -1,5 +1,5 @@
 {
-  "connectorOption": "Single",
+  "connectorOption": "Multiple",
   "connector": " ",
   "multipleConnectors": [
     "_",
@@ -7,8 +7,8 @@
     "_"
   ],
   "multipleConnectorsEnabled": [
-    true,
-    true,
+    false,
+    false,
     true
   ],
   "enableImage": true,
@@ -22,7 +22,7 @@
     true
   ],
   "image": " ",
-  "enableAudio": true,
+  "enableAudio": false,
   "audioExtensions": [
     true,
     true,
@@ -41,7 +41,7 @@
     true
   ],
   "video": "video",
-  "enablePdf": true,
+  "enablePdf": false,
   "pdfExtensions": [
     true
   ],

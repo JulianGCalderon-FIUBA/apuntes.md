@@ -20,7 +20,7 @@ Donde $D_{\vec f}$ es la matriz Jacobiana de $\vec f$
 
 ## Árbol de derivación
 
-![[Propiedades de la diferenciabiliad 1.png|450]]
+![[Propiedades de la diferenciabilidad 1.png|450]]
 
 $$
 h'_x = g'_u f'_x + g'_vf'_x

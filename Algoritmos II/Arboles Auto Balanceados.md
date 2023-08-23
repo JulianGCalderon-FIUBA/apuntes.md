@@ -66,7 +66,7 @@ El número de nodos negros desde el nodo raíz a un nodo es denominado la profun
 
 El camino más largo desde la raíz hasta una hoja no es más largo que dos veces el camino más corto desde la raíz a una hoja. Como resultado, el árbol está aproximadamente equilibrado
 
-[[Machete - AAB.pdf]]
+[[Machete Arbol RN.pdf]]
 
 ## Árbol B
 

@@ -22,7 +22,7 @@ $$
 \displaystyle W = \int_{x_1}^{x_2} F_x dx
 $$
 
-![[Trabajo y energia 1.png|342]] ![[Trabajo y energia 2.png|333]]
+![[Trabajo y Energia 1.png|342]] ![[Trabajo y Energia 2.png|333]]
 
 ## Energía
 

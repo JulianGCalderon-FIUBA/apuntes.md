@@ -6,7 +6,7 @@ Una curva es la imagen de una función vectorial $\vec f(t)$ continua en A, dond
 
 $$\boxed {\vec X(t) = \Big(\frac{3\cos^2t\cdot\sin t}{\cos^3 + sen^3},\frac{3\cos t\cdot\sin^2t}{\cos^3 + sen^3}\Big)}$$
 
-![[Curvas y superficies 1.png|245]]
+![[Curvas y Superficies 1.png|245]]
 
 ## Curva plana
 
@@ -48,7 +48,7 @@ El producto vectorial de los vectores tangentes de 2 curvas coordenadas en un pu
 
 Con el vector normal a la superficie y el punto, puedo encontrar el plano tangente a la superficie
 
-![[Curvas y superficies 2.png]]
+![[Curvas y Superficies 2.png]]
 
 Una superficie es normal si en cada punto de la superficie, se puede encontrar un plano normal a la misma.
 

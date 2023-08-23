@@ -30,7 +30,7 @@ Si $a = b$, es un paraboloide circular, si $a ≠ b$ y tienen el mismo signo, es
 
 Si $a$ y $b$ tienen distinto signo, se trata de un paraboloide hiperbólico
 
-![[Cuadricas 2.png|162]]![[Cuadricas 3.png|147]]
+![[Cuadricas 1.png|162]]![[Cuadricas 2.png|147]]
 
 ## Hiperboloides y Conos
 
@@ -46,16 +46,16 @@ Su forma dependerá del valor de $d$
 
 Si $d$ es positivo, se trata de un hiperboloide de una hoja
 
-![[Cuadricas 4.png]]
+![[Cuadricas 3.png]]
 
 ### Hiperboloide de dos Hojas
 
 Si $d$ es negativo, se trata de un hiperboloide de dos hojas
 
-![[Cuadricas 5.png]]
+![[Cuadricas 4.png]]
 
 ### Cono
 
 Si $d$ es cero, se trata de un cono
 
-![[Cuadricas 6.png]]
+![[Cuadricas 5.png]]

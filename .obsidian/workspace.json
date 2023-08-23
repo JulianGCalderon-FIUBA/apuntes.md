@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Base de Datos/Base de Datos Relacional.md",
+                "file": "Tecnicas de Programacion Concurrente/Abstraccion de la Programacion Concurrente.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "48de5368e32215ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tecnicas de Programacion Concurrente/Abstraccion de la Programacion Concurrente.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": ".pdf",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -85,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Base de Datos/Base de Datos Relacional.md"
+                "file": "Tecnicas de Programacion Concurrente/Abstraccion de la Programacion Concurrente.md"
               }
             }
           },
@@ -95,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Base de Datos/Base de Datos Relacional.md",
+                "file": "Tecnicas de Programacion Concurrente/Abstraccion de la Programacion Concurrente.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -112,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Base de Datos/Base de Datos Relacional.md",
+                "file": "Tecnicas de Programacion Concurrente/Abstraccion de la Programacion Concurrente.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,26 +168,38 @@
   },
   "active": "75a8d2ba9762da0f",
   "lastOpenFiles": [
-    "Base de Datos/Attachments/Modelo Entidad-Interrelacion   2.png",
-    "Base de Datos/Attachments/Modelo Entidad-Interrelacion   1.png",
-    "Base de Datos/Attachments/Modelo Entidad-Interrelacion   11.png",
-    "Base de Datos/Modelo Entidad-Interrelacion.md",
-    "Base de Datos/Attachments/Modelo Entidad-Interrelacion   3.png",
-    "Base de Datos/Indice.md",
-    "Base de Datos/Attachments/Modelo Entidad-Interrelacion   4.png",
-    "Attachments/Pasted image 20230822194722.png",
-    "Base de Datos/Base de Datos Relacional.md",
-    "Base de Datos/Attachments/Modelo Entidad-Interrelacion   10.png",
-    "Base de Datos/Attachments/Modelo Entidad-Interrelacion   9.png",
-    "Base de Datos/Attachments/Modelo Entidad-Interrelacion   7.png",
-    "Base de Datos/Attachments/Modelo Entidad-Interrelacion   8.png",
-    "Base de Datos/Attachments/Modelo Entidad-Interrelacion   5.png",
     "Tecnicas de Programacion Concurrente/Modelos de Concurrencia.md",
-    "Tecnicas de Programacion Concurrente/Introduccion a la Concurrencia.md",
     "Tecnicas de Programacion Concurrente/Indice.md",
+    "Tecnicas de Programacion Concurrente/Abstraccion de la Programacion Concurrente.md",
+    "Tecnicas de Programacion Concurrente/Introduccion a la Concurrencia.md",
+    "Tecnicas de Programacion Concurrente/Attachments/Introduccion a la Concurrencia 1.png",
+    "Tecnicas de Programacion Concurrente/Attachments/Introduccion a la Concurrencia.png",
+    "Tecnicas de Programacion Concurrente/Attachments",
+    "index.md",
+    "Analisis Matematico II/Cuadricas.md",
+    "Analisis Matematico II/Attachments/Cuadricas 1.png",
+    "Analisis Matematico II/Attachments/Tabla de Diferenciabilidad.pdf",
+    "Analisis Matematico II/Diferenciabilidad.md",
+    "Algoritmos II/Attachments/Recursividad 1.png",
+    "Algoritmos II/Attachments/Machete Arbol RN.pdf",
+    "Algoritmos II/Attachments/Arboles Auto Balanceados 4.png",
+    "Algoritmos II/Arboles Auto Balanceados.md",
+    "Algoritmos II/Arboles Generales.md",
+    "Algoritmos I/Recursividad.md",
+    "Base de Datos/Base de Datos Relacional.md",
+    "Introduccion a Sistemas Distribuidos/Teoria/The Link Layer and LANs/Attachments",
+    "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Attachments",
+    "Introduccion a Sistemas Distribuidos/Teoria/The Network Layer Data Plane/Attachments",
+    "Introduccion a Sistemas Distribuidos/Teoria/Transport Layer/Attachments",
+    "Base de Datos/Attachments/Modelo Entidad-Interrelacion 2.png",
+    "Base de Datos/Attachments/Modelo Entidad-Interrelacion 1.png",
+    "Base de Datos/Attachments/Modelo Entidad-Interrelacion 11.png",
+    "Base de Datos/Modelo Entidad-Interrelacion.md",
+    "Base de Datos/Attachments/Modelo Entidad-Interrelacion 3.png",
+    "Base de Datos/Indice.md",
+    "Base de Datos/Attachments/Modelo Entidad-Interrelacion 4.png",
     "Base de Datos/Diseno Conceptual.md",
     "Base de Datos/Attachments",
-    "index.md",
     "Threads.md",
     "Modelos Comuness.md",
     "Organizacion de Datos/Modelos Comunes.md",
@@ -183,7 +207,6 @@
     "Tecnicas de Programacion Concurrente",
     "Introduccion a Sistemas Distribuidos/Indice.md",
     "Untitled.md",
-    "Base de Datos",
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Wi-Fi 802 11 Wireless LANs.md",
     "To-Do.md",
     "Notoin a Obsidian.md",
@@ -191,17 +214,6 @@
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Wireless and Mobility Impact on Higher-Layer Pro.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Managing Mobility in Cellular Networks.md",
     "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Mobile IP.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Indice.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Mobility Management Principles.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Cellular Internet Access.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Wireless Links and Network Characteristics.md",
-    "Introduccion a Sistemas Distribuidos/Teoria/Wireless and Mobile Networks/Introduction to Wireless Networks.md",
-    "Introduccion a Sistemas Distribuidos/Teoria",
-    "Introduccion a Sistemas Distribuidos/Practica",
-    "Estructura del Computador/Circuitos Asincronicos.html",
-    "aa.py",
-    "Álgebra II/Álgebra II.pdf",
-    "Álgebra II/Formas Cuadráticas.pdf",
     "Untitled.canvas"
   ]
 }
