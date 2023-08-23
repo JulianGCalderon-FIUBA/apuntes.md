@@ -2,6 +2,6 @@
 title: Índice
 ---
 
-- [[Introduccion a la Concurrencia]]
-- [[Abstraccion de la Programacion Concurrente]]
+- [[Que es a la Concurrencia]]
+- [[Abstraccion de la Concurrencia]]
 - [[Modelos de Concurrencia|Modelos de Concurrencia]]

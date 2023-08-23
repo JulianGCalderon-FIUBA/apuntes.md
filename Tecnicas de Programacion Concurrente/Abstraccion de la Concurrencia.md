@@ -1,5 +1,5 @@
 ---
-title: Abstracción de la Programación Concurrente
+title: Abstracción de la Concurrencia
 ---
 
 ## El Rol de la Abstracción

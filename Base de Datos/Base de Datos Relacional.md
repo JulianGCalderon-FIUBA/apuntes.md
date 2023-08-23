@@ -29,7 +29,7 @@ Permiten trabajar con una base de datos de forma cómoda y segura.
 
 ### Funciones Principales
 
-Los gestores de bases de datos permiten operaciones atómicas, por lo que muchos usuarios pueden actualizarla a la vez. Resuelve problemas de concurrencia.
+Los gestores de bases de datos permiten operaciones atómicas, llamadas transacciones, por lo que muchos usuarios pueden actualizarla a la vez. Resuelve problemas de concurrencia.
 
 Ofrecen seguridad para prevenir accesos no autorizados, y herramientas para la recuperación ante fallas.
 

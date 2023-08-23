@@ -1,5 +1,5 @@
 ---
-title: Introducción a la Concurrencia
+title: Qué es la la Concurrencia
 ---
 
 ## Definiciones Básicas
