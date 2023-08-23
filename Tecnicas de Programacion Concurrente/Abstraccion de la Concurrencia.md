@@ -27,7 +27,7 @@ Es conveniente pensar la ejecución de un programa concurrente como una entidad 
 
 En un sistema **multitasking**, con un solo procesador, una sola ejecución se ejecuta a la vez. El sistema operativo se encargará de intercalar los distintos procesos (o programas). Es un requerimiento que cualquier escenario posible sea aceptable.
 
-En una computadora **multiprocesador**, se pueden ejecutar, de forma paralela, dos hilos de ejecución. Mientras no accedan a memoria compartida, no habrá ningún problema. En cuanto se acceda a memoria compartida, el hardware se encargará (para algunos tamaños de palabras) de que estos accesos sean exclusivos.
+En una computadora **multiprocesador**, se pueden ejecutar, de forma paralela, dos hilos de ejecución. Mientras no accedan a memoria compartida, no habrá ningún problema. En cuanto se acceda a memoria compartida, el hardware se encargará (para algunos tamaños de celdas de memoria) de que estos accesos sean exclusivos. En otros casos, se deben sicronizar dichos accesos.
 
 En un sistema **distribuido** está compuesto por computadores sin recursos globales, que se comunican a través de canales. En estos sistemas no existe la abstracción de intercalado, debido a que es imposible coordinar dos sistemas geográficamente distribuidos.
 
@@ -56,7 +56,9 @@ En los programas secuenciales, la definición de *correctness* no tiene sentido.
 - **Propiedades de Seguridad:** Esta propiedad debe siempre ser cierta.
 - **Propiedad de Liveness:** Esta propiedad debe eventualmente ser cierta.
 
-Estas dos propiedades son duales una a la otra, si una falta, la otra también. La definición de estas propiedades depende del dominio y del problema a resolver
+Estas dos propiedades son duales una a la otra, si una falta, la otra también. La definición de estas propiedades depende del dominio y del problema a resolver.
+
+Debido a que se debe demostrar para todos los escenarios, no se puede demostrar esta propiedad a través de las pruebas.
 
 ## Instrucciones de Código de Máquina
 
