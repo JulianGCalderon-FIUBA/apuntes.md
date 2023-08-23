@@ -27,17 +27,17 @@ Es conveniente pensar la ejecución de un programa concurrente como una entidad 
 
 En un sistema **multitasking**, con un solo procesador, una sola ejecución se ejecuta a la vez. El sistema operativo se encargará de intercalar los distintos procesos (o programas). Es un requerimiento que cualquier escenario posible sea aceptable.
 
-En una computadora **multiprocesador**, se pueden ejecutar, de forma paralela, dos hilos de ejecución. Mientras no accedan a memoria compartida, no habrá ningún problema. En cuanto se acceda a memoria compartida, el hardware se encargará (para algunos tamaños de celdas de memoria) de que estos accesos sean exclusivos. En otros casos, se deben sicronizar dichos accesos.
+En una computadora **multiprocesador**, se pueden ejecutar, de forma paralela, dos hilos de ejecución. Mientras no accedan a memoria compartida, no habrá ningún problema. En cuanto se acceda a memoria compartida, el hardware se encargará (para algunos tamaños de celdas de memoria) de que estos accesos sean exclusivos. En otros casos, se deben sincronizar dichos accesos.
 
 En un sistema **distribuido** está compuesto por computadores sin recursos globales, que se comunican a través de canales. En estos sistemas no existe la abstracción de intercalado, debido a que es imposible coordinar dos sistemas geográficamente distribuidos.
 
-Estos sistemas se consideran distintos a los sistemas distribuidos, debemos tener en cuenta la topología o la conexión del sistema. Una topología *fully-connected* es extremadamente eficiente, pero extremadamente costosa. Una topología de anillo tiene costo mínimo, pero es altamente ineficiente.
+Estos sistemas se consideran distintos a los sistemas distribuidos, debemos tener en cuenta la topología o la conexión del sistema. Una topología *fully connected* es extremadamente eficiente, pero extremadamente costosa. Una topología de anillo tiene costo mínimo, pero es altamente ineficiente.
 
 ## Intercalado Arbitrario
 
 Vamos a asumir que luego de cualquier instrucción, la próxima instrucción puede venir de cualquier proceso. Esto nos permite analizar el sistema de forma correcto y asegurar que el programa concurrente sea correcto. No vamos a tener en cuenta el tiempo entre instrucciones, sino únicamente su secuencia.
 
-Sin embargo, vamos a asumir que, si bien cualquier proceso puede ser ejecutado, todo proceso eventualmente lo será. Diremos que estos escenarios son **débilmente justos**. Vamos a asumir esto.
+Vamos a asumir que los escenarios son **débilmente justos**. Todo proceso que está continuamente habilitado, eventualmente aparecerá en el escenario.
 
 Una segunda razón para esta abstracción es que nos permite construir sistemas robustos ante la modificación del hardware o el software. Si nuestro algoritmo depende del tiempo de ejecución, entonces eventualmente este tiempo de ejecución cambiara en cuanto mejore la tecnología.
 
