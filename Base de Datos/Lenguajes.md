@@ -21,4 +21,4 @@ Existen dos tipos de DML:
 - **Procedurales:** Requieren que el usuario especifique que información necesita, y como accederla
 - **Declarativos:** Requiere que el usuario especifique que información necesita, pero sin especificar como accederla.
 
-Los lenguajes declarativos son los mas faciles de aprender, pero pueden ser mas eficientes
+Los lenguajes declarativos son los más fáciles de aprender, pero requiere que el sistema descubra una forma eficiente de acceder a la información. Una **consulta** es una petición de cierta información de la base de datos. La porción del lenguaje que se encarga de esto se conoce como **lenguaje de consultas**.
