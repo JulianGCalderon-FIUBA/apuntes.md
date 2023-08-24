@@ -1,6 +1,10 @@
 ## Copiar
 
-El comando `COPY` de SQL (PostgreSQL) permite copiar una tabla y exportarla en formato de texto plano. Es importante notar que la expresión será ejecutada desde el lado del servidor, por lo que se guardara en el sistema de archivos de la base de datos. Para hacerlo desde el lado del cliente, entonces usamos el comando de psql: `\copy`.
+El comando `COPY` de SQL (PostgreSQL) permite copiar una tabla y exportarla en (o importarla desde) formato de texto plano.
+
+Es importante notar que la expresión será ejecutada desde el lado del servidor, por lo que se guardara en el sistema de archivos de la base de datos. Para hacerlo desde el lado del cliente, entonces usamos el comando de `psql` llamado: `\copy`.
+
+Si el comando se ejecuta desde una *query tool* de pgAdmin, la importación será relativa desde la carpeta de *data* de PostgreSQL. La exportación, por otro lado, es siempre absoluta.
 
 ## Importar
 
