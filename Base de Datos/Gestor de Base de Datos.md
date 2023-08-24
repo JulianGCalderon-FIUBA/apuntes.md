@@ -6,7 +6,7 @@ Los gestores de bases de datos nos permiten evitar errores, y acceder a la base 
 
 Ofrecen seguridad para prevenir accesos no autorizados, y herramientas para la recuperación ante fallas.
 
-Tiene un lenguaje de consultas (SQL) que nos permite realizar todo tipo de consultas.
+Tiene un [[Lenguajes|lenguaje de consultas]] (SQL) que nos permite realizar todo tipo de consultas.
 
 Asegura la integridad de datos a través de restricciones, como por ejemplo, errores de tipeo al nombrar categorías.
 
