@@ -2,7 +2,7 @@ Permiten trabajar con una base de datos de forma cómoda y segura.
 
 ## Funciones Principales
 
-Los gestores de bases de datos permiten operaciones atómicas, llamadas transacciones. Nos permiten evitar errores, y acceder a la base de datos de forma concurrente, por muchos usuarios.
+Los gestores de bases de datos nos permiten evitar errores, y acceder a la base de datos por muchos usuarios, de forma concurrente.
 
 Ofrecen seguridad para prevenir accesos no autorizados, y herramientas para la recuperación ante fallas.
 
@@ -20,13 +20,19 @@ Es esencial que una operación no sea interrumpida, u ocurre totalmente, o no lo
 
 El valor retirado de una cuenta, debe ser el agregado en otra cuenta, esto se conoce como **consistencia**.
 
-Luego de una operación exitosa, los nuevos valores del balance deben persistir, a pesar de la posibilidad de una falla del sistema. Esto se co
+Luego de una operación exitosa, los nuevos valores del balance deben persistir, a pesar de la posibilidad de una falla del sistema. Esto se conoce como **durabilidad**.
+
+Una **transacción** es un conjunto de operaciones que realizan una única función lógica. Son una sola unidad, en términos de atomicidad y consistencia.
+
+Asegurar estas propiedades es trabajo del sistema de la base de datos. Debe detectar fallas y recuperar el sistema ante una. Además, estas propiedades se deben mantener incluso ante acceso concurrente a la base de datos.
+
+El **administrador de transacciones** se encargará tanto del *administrador de control de concurrencia*, y el *administrador de recuperación ante fallas*.
 
 ## Usuarios
 
 Existen distintos tipos de usuarios, cada uno con capacidades y roles distintos:
 
-- El *admin* o administrador es el usuario que puede realizar cualquier acción.
+- El administrador es el usuario que puede realizar cualquier acción.
 - El diseñador de una base de datos se encarga de diseñar su arquitectura (tablas, columnas)
 - Existen usuarios de solo lectura, o de acceso a ciertas tablas particulares.
 
