@@ -33,10 +33,15 @@ El **administrador de transacciones** se encargará tanto del *administrador de 
 Existen distintos tipos de usuarios, cada uno con capacidades y roles distintos:
 
 - Los **usuarios ingenuos** interactúan con la base de datos a través de interfaces. No necesitan tener conocimiento técnico de la base de datos para usar el sistema.
-- Los **programadores** son profesionales que desarrollan programas y las interfaces de usuario, que interactuan con la base de adtos
-- Los **usuario sofisticados**
-- El administrador es el usuario que puede realizar cualquier acción.
-- El diseñador de una base de datos se encarga de diseñar su arquitectura (tablas, columnas)
+- Los **usuarios sofisticados** interactúan con el sistema a través de consultas a la base de datos.
+
+El administrador del sistema tiene control total de la información. Algunas de las funciones del administrador son:
+
+- **Definición de Esquemas:** Crea o actualiza el esquema de la base de datos, ejecutando instrucciones en el DDL.
+- **Definición de la Estructura:** Especifica parámetros relacionados con la organización física de los datos.
+- **Autorizaciones:** Otorga autorizaciones específicas a cada usuario. Las autorizaciones pueden ser de lectura, inserción, actualización, y eliminación, asi com oacceso a partes especificas de la base de datos.
+
+Al encargado de diseñar la arquitectura de una base de datos se le suele llamar diseñador de una base de datos se encarga de diseñar su arquitectura (tablas, columnas)
 - Existen usuarios de solo lectura, o de acceso a ciertas tablas particulares.
 
 ## Historia
