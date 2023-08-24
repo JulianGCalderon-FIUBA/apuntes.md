@@ -34,33 +34,13 @@ createdb -U admin -T template0 schooldb
 
 Utilizamos `template0`, ya que `template1` puede tener información personal que no queremos en nuestra base de datos.
 
-Luego, realizamos la importación:
+Una vez creada la tabla, importamos el archivo SQL.
 
 ```bash
-pg_dump -U admin -d schooldb < schooldb.sql
+psql -U admin schooldb < schooldb.sql
 ```
 
-Si queremos exportar en archivo no de texto plano, podemos utilizar `-F`, seguido de un tipo de archivo, para indicar un formato particular:
-
-```bash
-pg_dump -U admin -d schooldb -F c > schooldb.dump
-```
-
-Para exportar en format *tar*, usamos:
-
-```bash
-pg_dump -U admin -d schooldb -F t > schooldb.tar
-```
-
-## Exportar
-
-Para exportar, basta con usar `psql` de la base de datos:
-
-```bash
-psql -U admin -d schooldb > schooldb.sql
-```
-
-Para exportar de un formato no de texto plano, entonces utilizamos `pg_restore`:
+Para importar de un formato no de texto plano, entonces utilizamos `pg_restore`:
 
 ```bash
 pg_restore -U admin -d schooldb schooldb.dump
