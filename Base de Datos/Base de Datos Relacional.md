@@ -69,6 +69,12 @@ En las bases de datos relacionales, los datos no se relacionan con punteros, sin
 
 Esto permite abstraer el programa de los datos, permitiendo cambiar los datos sin romper los programas ya existentes.
 
+## Abstracción de Datos
+
+Los desarrolladores esconden la complejidad de los usuarios a través de distintos niveles de abstracción:
+
+- **Nivel Fisico:** Es el nivel mas bajo de abstracción. Describe como los datos se almacenan 
+
 ## Arquitectura de 3 Capas: ANSI/SPARC
 
 - La primera capa es la organización física de los datos
