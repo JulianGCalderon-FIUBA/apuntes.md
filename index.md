@@ -34,7 +34,5 @@ title: Índice
 
 ## 2.º 2023
 
-- [[Base de Datos/Indice|Base de Datos]]
 - [[Tecnicas de Programacion Concurrente/Indice|Técnicas de Programación Concurrente]]
-
-
+- [[Base de Datos/Indice|Base de Datos]]
