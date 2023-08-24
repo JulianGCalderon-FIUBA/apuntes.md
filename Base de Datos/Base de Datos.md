@@ -41,5 +41,3 @@ Las bases de datos tienen distintos esquemas, separados según el nivel de abstr
 - El esquema **físico** describe el diseño de la base de datos a un nivel fisio
 - El esquema **lógico** describe el diseño de la base de datos a un nivel lógico.
 - En ocasiones, una base de datos tiene múltiples esquemas a nivel de **vista**, llamados **subesquemas**.
-
-## Lenguajes
