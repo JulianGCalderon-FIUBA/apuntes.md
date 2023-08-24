@@ -4,7 +4,25 @@ El comando `COPY` de SQL (PostgreSQL) permite copiar una tabla y exportarla en (
 
 Es importante notar que la expresión será ejecutada desde el lado del servidor, por lo que se guardara en el sistema de archivos de la base de datos. Para hacerlo desde el lado del cliente, entonces usamos el comando de `psql` llamado: `\copy`.
 
-Si el comando se ejecuta desde una *query tool* de pgAdmin, la importación será relativa desde la carpeta de *data* de PostgreSQL. La exportación, por otro lado, es siempre absoluta.
+Si el comando se ejecuta desde una *query tool* de pgAdmin, la importación será relativa desde la carpeta de *data* de PostgreSQL.
+
+```PostgreSQL
+COPY teams
+FROM 'dataset/teams.csv'
+DELIMITER ';'
+CSV HEADER
+ENCODING 'LATIN1';
+```
+
+La exportación, por otro lado, es siempre absoluta.
+
+``` PostgreSQL
+COPY teams
+TO '/var/lib/postgresql/data/dataset/teams2.csv'
+DELIMITER ';'
+CSV HEADER
+ENCODING 'LATIN1';
+```
 
 ## Importar
 
@@ -28,6 +46,12 @@ Si queremos exportar en archivo no de texto plano, podemos utilizar `-F`, seguid
 pg_dump -U admin -d schooldb -F c > schooldb.dump
 ```
 
+Para exportar en format *tar*, usamos:
+
+```bash
+pg_dump -U admin -d schooldb -F t > schooldb.tar
+```
+
 ## Exportar
 
 Para exportar, basta con usar `psql` de la base de datos:
@@ -40,4 +64,5 @@ Para exportar de un formato no de texto plano, entonces utilizamos `pg_restore`:
 
 ```bash
 pg_restore -U admin -d schooldb schooldb.dump
+pg_restore -U admin -d schooldb schooldb.tar
 ```
