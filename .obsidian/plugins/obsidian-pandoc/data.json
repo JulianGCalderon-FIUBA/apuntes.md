@@ -11,5 +11,5 @@
   "pdflatex": null,
   "outputFolder": null,
   "extraArguments": "--shift-heading-level-by=-1 --listings\n",
-  "exportFrom": "md"
+  "exportFrom": "html"
 }
