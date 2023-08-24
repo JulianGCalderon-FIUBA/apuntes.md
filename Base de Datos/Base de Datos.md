@@ -2,14 +2,12 @@
 title: Base de Datos
 ---
 
-## Definición
-
 Las bases de datos se gestionan a partir de un [[Gestor de Base de Datos]] de base de datos. Debido a esto, podemos separar la base de datos en sus *datos*, y su *gestor*. Los datos pueden no ser organizados por un gestor (aunque frecuentemente lo son)
 
 > [!definition] Base de Datos
 > Una base de datos es un conjunto de datos interrelacionados. Un dato es un hecho que puede ser representado y almacenado de alguna forma, y que tiene un sentido implícito.
 
-Por debajo, una base de datos utiliza un [[Modelo de Datos]] para organizar la informaci
+Por debajo, una base de datos utiliza un [[Modelo de Datos]] para organizar la información, accederla y modificarla.
 
 ## Predicados
 
