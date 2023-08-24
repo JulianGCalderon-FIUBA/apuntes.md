@@ -7,4 +7,18 @@ Especificamos la estructura de los datos y los métodos de acceso usados. Define
 Los sistemas de bases de datos solo implementan restricciones que puedan ser verificadas sin mucha complicación:
 
 - **Restricciones de Dominio:** Deben estar asociadas con cada atributo, al declarar un atributo como parte de un dominio particular estamos limitando los valores que puede tomar. Son el tipo más elemental de restricciones de integridad.
-- **Integridad Referencial:** Hay casos donde debemos asegurarnos de que un valor aparezca en cierta relación para un conjunto dado de atributos
+- **Integridad Referencial:** Hay casos donde debemos asegurarnos de que un valor aparezca en cierta relación para un conjunto dado de atributos. Por ejemplo: El atributo "nombre de departamento" en un curso debe coincidir con algún registro de la relación "departamento".
+- **Autorización:** Queremos restringir los distintos usuarios de la base de datos a acciones particulares, las autorizaciones más comunes son:
+	- Autorización de lectura
+	- Autorización de inserción
+	- Autorización de actualización
+	- Autorización de eliminación
+
+## Data-Manipulation Language
+
+Existen dos tipos de DML:
+
+- **Procedurales:** Requieren que el usuario especifique que información necesita, y como accederla
+- **Declarativos:** Requiere que el usuario especifique que información necesita, pero sin especificar como accederla.
+
+Los lenguajes declarativos son los mas faciles de aprender, pero pueden ser mas eficientes
