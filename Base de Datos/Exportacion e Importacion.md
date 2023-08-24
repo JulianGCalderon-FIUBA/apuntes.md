@@ -1,3 +1,7 @@
+---
+title: Exportación e Importación
+---
+
 ## Copiar
 
 El comando `COPY` de SQL (PostgreSQL) permite copiar una tabla y exportarla en (o importarla desde) formato de texto plano.

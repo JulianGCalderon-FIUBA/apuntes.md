@@ -1,3 +1,7 @@
+---
+title: Lenguajes
+---
+
 Un sistema de base de datos provee un *data-definition language* (DDL), para especificar sus esquemas, y un *data-manipulation language* (DML), para expresar consultas y actualizaciones. En la práctica no son lenguajes separados; sino un único lenguaje, como SQL.
 
 ## Data-Definition Language

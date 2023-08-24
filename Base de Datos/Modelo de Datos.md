@@ -12,4 +12,4 @@ El modelo solo representa el diseño, y no los datos en sí.
 
 En 1976, P. Chen propuso un modelo esquemático basado en entidades, interrelaciones y atributos para el modelado semántico de datos, llamado: [[Modelo Entidad-Interrelacion]]
 
-El modelo más conocido hoy en día, es él [[Modelo Relacional]]. Consiste en organizar toda la información en tablas.
+El modelo más conocido hoy en día, es él [[Modelo Relacional]]. Consiste en organizar toda la información en tablas, o relaciones.
