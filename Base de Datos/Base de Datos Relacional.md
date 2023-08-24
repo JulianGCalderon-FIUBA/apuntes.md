@@ -14,6 +14,8 @@ Las bases de datos se gestionan a partir de un **gestor** de base de datos. Debi
 > [!definition] Base de Datos
 > Una base de datos es un conjunto de datos interrelacionados. Un dato es un hecho que puede ser representado y almacenado de alguna forma, y que tiene un sentido implícito.
 
+## Predicados
+
 Los datos no se almacenan como oraciones, sino con relaciones. Separamos los datos en **sujetos** relacionados y agregamos información sobre dicha relación.
 
 Una tabla, luego, es una representación de hechos. Cada fila de la tabla nos dice algo.
@@ -73,11 +75,6 @@ Esto permite abstraer el programa de los datos, permitiendo cambiar los datos si
 
 Los desarrolladores esconden la complejidad de los usuarios a través de distintos niveles de abstracción:
 
-- **Nivel Fisico:** Es el nivel mas bajo de abstracción. Describe como los datos se almacenan 
-
-## Arquitectura de 3 Capas: ANSI/SPARC
-
-- La primera capa es la organización física de los datos
-- La segunda capa es el modelo interno de los datos
-- La tercera capa es el modelo conceptual de los datos
-- El nivel externo contiene la vistas de la base de datos, una descripción de que ve cada usuario.
+- **Nivel Físico:** Es el nivel más bajo de abstracción. Describe *cómo* los datos se almacenan, describe estructuras de bajo nivel.
+- **Nivel Lógico:** Describe *qué* información se almacena en la base de datos, y que relaciones existen en ella. No nos interesa como se almacena la información, a esto se le llama **independencia de la información física**.
+- **Nivel de Vista:** El nivel más alto de abstracción, provee vistas específicas para cada usuario, ya que no todos los usuarios necesitan conocer toda la información de la base de datos.
