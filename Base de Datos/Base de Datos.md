@@ -41,3 +41,7 @@ Las bases de datos tienen distintos esquemas, separados según el nivel de abstr
 - El esquema **físico** describe el diseño de la base de datos a un nivel fisio
 - El esquema **lógico** describe el diseño de la base de datos a un nivel lógico.
 - En ocasiones, una base de datos tiene múltiples esquemas a nivel de **vista**, llamados **subesquemas**.
+
+## Diseño de Base de Datos
+
+Un modelo de datos de alto nivel le provee al diseñador un *framework* conceptual bajo el cual especificar sus requerimientos de datos. La fase inicial del diseño es la de caracterizar completamente los requerimientos de datos de nuestros usuarios. Se debe inte
