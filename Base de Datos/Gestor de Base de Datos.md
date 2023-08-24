@@ -32,6 +32,9 @@ El **administrador de transacciones** se encargará tanto del *administrador de 
 
 Existen distintos tipos de usuarios, cada uno con capacidades y roles distintos:
 
+- Los **usuarios ingenuos** interactúan con la base de datos a través de interfaces. No necesitan tener conocimiento técnico de la base de datos para usar el sistema.
+- Los **programadores** son profesionales que desarrollan programas y las interfaces de usuario, que interactuan con la base de adtos
+- Los **usuario sofisticados**
 - El administrador es el usuario que puede realizar cualquier acción.
 - El diseñador de una base de datos se encarga de diseñar su arquitectura (tablas, columnas)
 - Existen usuarios de solo lectura, o de acceso a ciertas tablas particulares.
