@@ -16,7 +16,7 @@ Cada entidad deberá tener valores para los atributos definidos para su tipo de 
 
 Cada atributo que se coloca a una entidad tiene un **dominio**, esto es, el *tipo de dato* del atributo. Representa qué valores posibles puede tomar. Algunos atributos permiten un valor nulo.
 
-Los atributos compuestos se componen de atributos simples, y le dan un certificado particular a cada componente.
+Los atributos compuestos se componen de atributos simples, y le dan un significado particular a cada componente.
 
 > [!example] Tarjeta de Crédito
 > El número de una tarjeta de crédito puede ser separado en distintos componentes, cada uno otorgando información particular. Depende de la implementación si quiero o no separar esta información.
