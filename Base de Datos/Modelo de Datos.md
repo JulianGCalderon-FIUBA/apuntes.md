@@ -1,5 +1,5 @@
 ---
-title: Diseño Conceptual
+title: Modelo de Datos
 ---
 
 Un modelo de datos, debe incluir los siguientes elementos:
@@ -10,4 +10,6 @@ Un modelo de datos, debe incluir los siguientes elementos:
 
 El modelo solo representa el diseño, y no los datos en sí.
 
-En 1976 P. Chen propuso un modelo esquemático basado en entidades, interrelaciones y atributos para el modelado semántico de datos, llamado: [[Modelo Entidad-Interrelacion]]
+En 1976, P. Chen propuso un modelo esquemático basado en entidades, interrelaciones y atributos para el modelado semántico de datos, llamado: [[Modelo Entidad-Interrelacion]]
+
+[[Modelo Relacional]]

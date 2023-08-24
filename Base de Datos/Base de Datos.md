@@ -1,18 +1,15 @@
 ---
-title: Base de Datos Relacional
+title: Base de Datos
 ---
 
 ## Definición
-
-En una base de datos relacional, la información se organiza en **tablas**.
-
-> [!example] Contraejemplo
-> No todas las BDD son relacionales. MongoDB almacena información en documentos JSON
 
 Las bases de datos se gestionan a partir de un [[Gestor de Base de Datos]] de base de datos. Debido a esto, podemos separar la base de datos en sus *datos*, y su *gestor*. Los datos pueden no ser organizados por un gestor (aunque frecuentemente lo son)
 
 > [!definition] Base de Datos
 > Una base de datos es un conjunto de datos interrelacionados. Un dato es un hecho que puede ser representado y almacenado de alguna forma, y que tiene un sentido implícito.
+
+Por debajo, una base de datos utiliza un [[Modelo de Datos]] para organizar la informaci
 
 ## Predicados
 
@@ -43,6 +40,8 @@ El conjunto de información almacenada en una base de datos en un particular mom
 
 Las bases de datos tienen distintos esquemas, separados según el nivel de abstracción:
 
-- El esquema **fisico** describe el diseño de la base de datos a un nivel fisio
-- El esquema **logico** describe el diseño de la base de datos a un nivel lógico.
-- En ocasiones, una base de datos tiene multiples esquemas a nivel de **vista**, llamados **su**
+- El esquema **físico** describe el diseño de la base de datos a un nivel fisio
+- El esquema **lógico** describe el diseño de la base de datos a un nivel lógico.
+- En ocasiones, una base de datos tiene múltiples esquemas a nivel de **vista**, llamados **subesquemas**.
+
+## Lenguajes

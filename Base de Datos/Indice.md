@@ -2,8 +2,9 @@
 title: Índice
 ---
 
-- [[Base de Datos Relacional]]
+- [[Base de Datos]]
 - [[Gestor de Base de Datos]]
-- [[Diseno Conceptual|Diseño Conceptual]]
+- [[Modelo de Datos]]
 - [[Modelo Entidad-Interrelacion|Modelo Entidad-Interrelación]]
+- [[Modelo Relacional]]
 - [[Utilidades]]
