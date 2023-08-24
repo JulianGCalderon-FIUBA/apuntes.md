@@ -44,4 +44,11 @@ Las bases de datos tienen distintos esquemas, separados según el nivel de abstr
 
 ## Diseño de Base de Datos
 
-Un modelo de datos de alto nivel le provee al diseñador un *framework* conceptual bajo el cual especificar sus requerimientos de datos. La fase inicial del diseño es la de caracterizar completamente los requerimientos de datos de nuestros usuarios. Se debe inte
+Un modelo de datos de alto nivel le provee al diseñador un *framework* conceptual bajo el cual especificar sus requerimientos de datos. La fase inicial del diseño es la de caracterizar completamente los requerimientos de datos de nuestros usuarios. Se debe interactuar extensamente con los expertos del dominio.
+
+Luego, debemos seleccionar un modelo de datos que satisfaga nuestros requerimientos, y traducir los requerimientos en un esquema conceptual de la base de datos.
+
+La parte final del diseño consiste en mover de un esquema abstracto a la implementación de la base de datos. Consiste en dos fases:
+
+1. En la fase del diseño **lógico**, el diseñador traduce el esquema conceptual en un modelo de datos que utilizara el sistema
+2. En la fase del diseño **físico**, se especifican características físicas de la base de datos, como la organización de archivos y la estructura interna del almacenamiento.
