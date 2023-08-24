@@ -20,7 +20,7 @@ La **normalización** de una tabla es tratar de reducir la cantidad de columnas 
 Las bases de datos tradicionales almacenan datos de texto o numéricos, que pueden enunciarse a través de proposiciones. Un conjunto de proposiciones con la misma estructura puede tipificarse a través de un predicado.
 
 > [!example]
-> Dada la proposición: *"Rogerer Federer ganó el Abierto de Australia en 2018"*. Podemos abstraer un predicado: *"[jugador] ganó el [torneo] en [año]"*. Luego, podemos generar una tabla en la base de datos con esas tres columnas.
+> Dada la proposición: *"Rogerer Federer ganó el Abierto de Australia en 2018"*. Podemos abstraer un predicado: *"[jugador] ganó el [torneo] en [año]"*.
 
 El predicado puede ser pensado como una función que recibe las variables del mismo, y nos devuelve un resultado. El resultado será verdadero o falso y nos va a indicar si dicha fila se encuentra en la tabla.
 
