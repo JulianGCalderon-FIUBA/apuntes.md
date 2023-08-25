@@ -178,7 +178,10 @@
     "reencapsularlo",
     "admin",
     "Propie\n",
-    "Paratexto"
+    "Paratexto",
+    "Locucionario",
+    "Ilocucionario",
+    "Perlocucionario"
   ],
   "newFileLocation": "current"
 }
