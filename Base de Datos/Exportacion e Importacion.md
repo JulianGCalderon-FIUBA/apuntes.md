@@ -18,7 +18,7 @@ ENCODING 'LATIN1';
 
 La exportación, por otro lado, es siempre absoluta.
 
-``` PostgreSQL
+```PostgreSQL
 COPY teams
 TO '/var/lib/postgresql/data/dataset/teams2.csv'
 DELIMITER ';'
