@@ -36,4 +36,4 @@ title: Índice
 
 - [[Tecnicas de Programacion Concurrente/Indice|Técnicas de Programación Concurrente]]
 - [[Base de Datos/Indice|Base de Datos]]
-- [[Ingles]]
+- [[Ingles/Indice|Ingles]]
