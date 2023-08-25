@@ -70,7 +70,7 @@ La participación es la mínima cantidad de instancias de cada tipo de entidad q
 
 ![[Modelo Entidad-Interrelacion 5.png|525]]
 
-Las interrelaciones, a su vez, pueden contener atributos:
+Las interrelaciones, a su vez, pueden contener atributos. En las interrelaciones $1{:}N$ o $1{:}1$, estos atributos pueden pertenecer a uno de los tipos de entidad. En las interrelaciones $N{:}N$, deben obligatoriamente pertenecer al tipo de interrelación.
 
 ![[Modelo Entidad-Interrelacion 6.png|525]]
 
@@ -83,6 +83,8 @@ A veces, la identificación de una identidad depende de su interrelación con ot
 ![[Modelo Entidad-Interrelacion 7.png|525]]
 
 Cuando una entidad depende de otra, se dice que es una entidad débil. Su clave se compone de las claves de sus entidades **identificadoras**, más algunos atributos propios, que se denominan **discriminantes**.
+
+Obligatoriamente, el lado
 
 Para modelar múltiples veces el mismo tipo de interrelación entre dos entidades, no es correcto modelarlo con múltiples interrelaciones. Debemos crear un tipo de entidad que represente esta interrelación. Luego, esta será una entidad débil que dependerá de sus participantes.
 
