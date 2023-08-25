@@ -26,3 +26,13 @@ En la pragmática clásica, existen tres elementos principales:
 - **Acto Locucionario:** Es el acto de decir algo, o lo dicho al decir algo
 - **Acto Ilocucionario:** Es el acto de hacer algo al decir algo. Se realiza conforme a una convención que es distinta de las convenciones que gobiernan los significados lingüísticos.
 - **Acto Perlocucionario:** Acto de hacer algo por el hecho de decir algo, ya sea intencional o no intencionalmente.
+
+## Palabras Desconocidas
+
+Las palabras se pueden ordenar en una jerarquía según su importancia en el texto. Los adjetivos están debajo de los sustantivos.
+
+Ante una palabra desconocida, recurrimos a tres simples pasos:
+
+1. Leemos el contexto de la palabra, para entender su idioma
+2. Analizamos la morfología de la palabra. ¿Es un nombre? ¿Es un Adjetivo?, etc.
+3. Recurrimos al diccionario para entender del significado.
