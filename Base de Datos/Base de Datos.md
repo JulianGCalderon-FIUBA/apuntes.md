@@ -56,7 +56,8 @@ Las bases de datos tienen distintos esquemas, separados según el nivel de abstr
 ¿Por qué se utilizan las bases de datos, por sobre un sistema de archivos común y corriente?
 
 - **Información redundante e inconsistente:** Los distintos programadores pueden haber creado archivos con estructuras inconsistentes, o duplicar información ya existente en el sistema
-- **Dificultad de Acceso:** Una base de datos permite realizar consultas de todo tipo
+- **Dificultad de Acceso:** Una base de datos permite realizar consultas de todo tipo, sin necesidad de haberlas previsto.
+- **Información Aislada:** Una base de datos permite almacenar la información en un solo lugar, por lo que su obtención es mas facil.
 
 ## Diseño de Base de Datos
 
