@@ -3,4 +3,4 @@ title: Índice
 ---
 
 - [[Comprension de Textos]]
-- [[Tecnicas de Lectura]]
+- [[Técnicas de Lectura]]
