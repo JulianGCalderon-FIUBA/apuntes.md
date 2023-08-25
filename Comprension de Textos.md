@@ -8,7 +8,7 @@ Otro factor importante a la hora de leer y entender un texto es lo que denominam
 
 El interés también tiene mucha importancia a la hora de entender un texto, si no tenemos interés se nos dificultará la lectura y la comprensión.
 
-La imágen mental
+La imagen mental es ll que nos imaginamos al leer un texto. Nos ayuda a su comprensión
 
 ## Paratexto
 
@@ -60,3 +60,5 @@ Esta idea, por lo general, está en el comienzo del párrafo, seguido de *suppor
 En ocasiones, la primera oración del párrafo es una *supportive sentence*, pero esta nos hablará del tópico, por lo que de igual forma tendremos una idea del concepto.
 
 En ocasiones, ninguna oración será una *topic sentence*. Estaremos ante un *supportive paragraph*.
+
+Si unimos todas las *topic sentences*, formaremos un buen resumen del texto.
