@@ -24,7 +24,14 @@ Las bases de datos tradicionales almacenan datos de texto o numéricos, que pued
 
 El predicado puede ser pensado como una función que recibe las variables del mismo, y nos devuelve un resultado. El resultado será verdadero o falso y nos va a indicar si dicha fila se encuentra en la tabla.
 
-Las bases de datos modernas aprovechan estas repeticiones en la estructura de datos para poder almacenar información de forma eficiente.
+Las bases de datos modernas aprovechan estas repeticiones en la estructura de datos para poder almacenar información de forma eficiente. La clave para el manejo de la complejidad es el concepto de **abstracción**.
+
+## Modos de Uso
+
+El usuario, o cliente, puede utilizar un servicio sin estar al tanto de que existe una gran base de datos detrás. Hablando generalmente, hay dos modos de uso para las bases de datos:
+
+- El primer modo es el soporte para **procesamiento de transacciones en línea**, donde un gran número de usuarios accede a la base de datos para acceder a pequeñas piezas de información.
+- El segundo modo es el de soporte para **análisis de datos**, esto es, el procesamiento de información para llegar a conclusiones e inferir reglas.
 
 ## Abstracción de Datos
 
