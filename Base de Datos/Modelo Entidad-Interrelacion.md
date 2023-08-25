@@ -29,11 +29,17 @@ Los atributos **derivados** son aquellos que pueden ser calculados a partir de l
 
 ![[Modelo Entidad-Interrelacion 3.png|450]]
 
-En algunos casos, una entidad puede no tener ningun valor particular para un atributo. En ese caso, el atributo admite un valor **nulo**. El significado de este valor dependerá del contexto.
+En algunos casos, una entidad puede no tener ningún valor particular para un atributo. En ese caso, el atributo admite un valor **nulo**. El significado de este valor dependerá del contexto.
+
+Un atributo **complejo** es aquel que es compuesto, y a algunos de sus componentes son, a su vez, multi-evaluados.
 
 ## Entidades
 
 El **conjunto de entidades** es el conjunto de ocurrencias o instancias de un determinado tipo de entidad en un estado determinado de la base de datos.
+
+Un tipo de entidad representa el **esquema** o la intensión de un conjunto de entidades que comparten una la misma estructura.
+
+El conjunto de todas las entidades de un mismo tipo de entidad se denomina su **extensión**.
 
 Toda entidad almacenada en la base de datos debe tener **atributos clave** que identifiquen inequívocamente cada entidad. Esto nos asegurará que no existan dos entidades iguales, ya que, a lo sumo, diferirán en su clave. Esta restricción se conoce como restricción de **unicidad**. En el diagrama esto se representa subrayando los atributos clave.
 
