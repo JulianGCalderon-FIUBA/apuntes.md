@@ -30,7 +30,14 @@ Es importante notar que la expresión será ejecutada desde el lado del servidor
 
 ## Exportar
 
-Para exportar e importar, podemos usar las utilidades provistas por PostgreSQL. Si no tenemos instaladas las utilidades en nuestro sistema anfitrion, debemos abrir una consola dentro del contenedor de PostgreSQL
+Para exportar e importar, podemos usar las utilidades provistas por PostgreSQL. Estas interactúan desde el lado del cliente, por lo que podemos acceder a nuestro propio sistema de archivos.
+
+> [!note] Con Docker
+> Si no tenemos instaladas las utilidades en nuestro sistema anfitrión, tenemos que abrir una consola dentro del contenedor de PostgreSQL.
+> 
+> ```
+> docker exec -it <CONTAINER_NAME> bash
+> ```
 
 Para exportar, basta con usar `pg_dump` de la base de datos.
 
