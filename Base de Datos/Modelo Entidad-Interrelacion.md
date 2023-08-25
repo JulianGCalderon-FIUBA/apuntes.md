@@ -41,13 +41,19 @@ Un tipo de entidad representa el **esquema** o la intensión de un conjunto de e
 
 El conjunto de todas las entidades de un mismo tipo de entidad se denomina su **extensión**.
 
-Toda entidad almacenada en la base de datos debe tener **atributos clave** que identifiquen inequívocamente cada entidad. Esto nos asegurará que no existan dos entidades iguales, ya que, a lo sumo, diferirán en su clave. Esta restricción se conoce como restricción de **unicidad**. En el diagrama esto se representa subrayando los atributos clave.
+Toda entidad almacenada en la base de datos debe tener **atributos clave** que identifiquen inequívocamente cada entidad. En el diagrama esto se representa subrayando los atributos clave.
 
 ![[Modelo Entidad-Interrelacion 4.png|475]]
+
+Esto nos asegurará que no existan dos entidades iguales, ya que, a lo sumo, diferirán en su clave. Esta restricción se conoce como restricción de **unicidad**.
+
+Si hay más de un atributo clave, entonces dicha combinación de atributos clave será única.
 
 El conjunto de atributos clave debe ser **minimal**, aunque es posible que exista más de un conjunto de atributos clave posibles.
 
 ## Interrelaciones
+
+Un tipo de interrelación define un conjunto de interrelaciones entre entidades de determinados tipod
 
 La aridad o grado de una interrelación es la cantidad de tipos de identidad que participan en el mismo.
 
@@ -64,10 +70,6 @@ Las interrelaciones, a su vez, pueden contener atributos:
 ![[Modelo Entidad-Interrelacion 6.png|525]]
 
 En los tipos de interrelaciones también debemos identificar un conjunto de atributos clave. Solo pueden formar parte de él los atributos clave de los tipos de identidades que participan en la interrelación. La elección de atributos clave está fuertemente condicionada por la cardinalidad.
-
----
-
-Para identificar una relación inequívocamente, podemos utilizar los propios miembros de la relación como atributos clave. En el diagrama, esto se representa con una doble raya en la relación de la entidad-relación. Esto se conoce como **entidad débil**, ya que depende de la otra. Dependerá de un atributo externo, y algún atributo propio conocido como **discriminante**.
 
 ## Entidades Fuertes y Debiles
 
