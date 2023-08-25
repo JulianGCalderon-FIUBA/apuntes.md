@@ -15,5 +15,13 @@ Cuando leo un texto, lo primero con lo que me enfrento es el **paratexto**, esto
 - **Autor:** El reconocimiento del autor da relevancia al texto.
 - **Fecha:** Dependiendo de la asignatura, la fecha de escritura tiene un peso importante en la vigencia de sus contenidos.
 - **Disposición:** El formato del texto nos da información de la misma. Nos puede indicar su registro, el tipo de texto que es (artículo, novela, poema).
-- **Imagen:** Es lo pr
+- **Imagen:** Es lo primero que vemos.
 - **Registro:** El registro significa cuán formal es el texto. En inglés, cuanto más formal es el registro, más fácil de comprender es. Esto se debe a que utilizan más palabras de origen latín.
+
+## Pragmtica Clásica
+
+En la prágmatica clásica, existen tres elementos principales:
+
+- **Acto Locucionario:** Es el acto de decir algo, o lo dicho al decir algo
+- **Acto Ilocucionario:** Es el acto de hacer algo al decir algo. Se realiza conforme a una convención que es distinta de las convenciones que gobiernan los significados lingüísticos.
+- **Acto Perlocucionario:** Acto de hacer algo por el hecho de decir algo, ya sea intencional o no intencionalmente.
