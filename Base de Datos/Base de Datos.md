@@ -26,13 +26,6 @@ El predicado puede ser pensado como una función que recibe las variables del mi
 
 Las bases de datos modernas aprovechan estas repeticiones en la estructura de datos para poder almacenar información de forma eficiente. La clave para el manejo de la complejidad es el concepto de **abstracción**.
 
-## Modos de Uso
-
-El usuario, o cliente, puede utilizar un servicio sin estar al tanto de que existe una gran base de datos detrás. Hablando generalmente, hay dos modos de uso para las bases de datos:
-
-- El primer modo es el soporte para **procesamiento de transacciones en línea**, donde un gran número de usuarios accede a la base de datos para acceder a pequeñas piezas de información.
-- El segundo modo es el de soporte para **análisis de datos**, esto es, el procesamiento de información para llegar a conclusiones e inferir reglas.
-
 ## Abstracción de Datos
 
 Los desarrolladores esconden la complejidad de los usuarios a través de distintos niveles de abstracción:
@@ -47,6 +40,6 @@ El conjunto de información almacenada en una base de datos en un particular mom
 
 Las bases de datos tienen distintos esquemas, separados según el nivel de abstracción:
 
-- El esquema **físico** describe el diseño de la base de datos a un nivel fisio
+- El esquema **físico** describe el diseño de la base de datos a un nivel físico
 - El esquema **lógico** describe el diseño de la base de datos a un nivel lógico.
 - En ocasiones, una base de datos tiene múltiples esquemas a nivel de **vista**, llamados **subesquemas**.

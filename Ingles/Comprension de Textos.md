@@ -8,7 +8,7 @@ Otro factor importante a la hora de leer y entender un texto es lo que denominam
 
 El interés también tiene mucha importancia a la hora de entender un texto, si no tenemos interés se nos dificultará la lectura y la comprensión.
 
-La imagen mental es ll que nos imaginamos al leer un texto. Nos ayuda a su comprensión
+La **imagen mental** es lo que nos imaginamos al leer un texto, o en particular, sus ejemplos visuales. Nos ayuda a la comprensión y retención de información.
 
 ## Paratexto
 

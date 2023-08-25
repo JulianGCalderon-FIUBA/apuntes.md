@@ -8,8 +8,8 @@ Permiten trabajar con una base de datos de forma cómoda y segura.
 
 Algunas de las funciones principales de un gestor de base de datos son:
 
-- Permites accesos a la base de datos por muchos usuarios de forma concurrente.
-- Tiene operaciones atomicas que previenen errores
+- Permiten accesos a la base de datos por muchos usuarios de forma concurrente.
+- Tiene operaciones atómicas que previenen errores
 - Previene accesos no autorizados, o restringe el acceso a consultas particulares.
 - Tiene un sistema de recuperación ante fallas.
 - Tiene un [[Lenguajes|lenguaje de consultas]] (SQL)
@@ -34,10 +34,7 @@ El **administrador de transacciones** se encargará tanto del *administrador de 
 
 ## Usuarios
 
-Existen distintos tipos de usuarios, con capacidades y roles distintos:
-
-- Los **usuarios ingenuos** interactúan con la base de datos a través de interfaces. No necesitan tener conocimiento técnico de la base de datos para usar el sistema.
-- Los **usuarios sofisticados** interactúan con el sistema a través de consultas a la base de datos.
+Existen distintos tipos de usuarios, con capacidades y roles distintos.
 
 El administrador de la base de datos, o *database administrator* (DBA) tiene control total de la información. Algunas de las funciones del administrador son:
 
@@ -45,9 +42,9 @@ El administrador de la base de datos, o *database administrator* (DBA) tiene con
 - **Definición de la Estructura:** Especifica parámetros relacionados con la organización física de los datos.
 - **Autorizaciones:** Otorga autorizaciones específicas a cada usuario. Las autorizaciones pueden ser de lectura, inserción, actualización, y eliminación, así como acceso a partes específicas de la base de datos.
 - **Rutinas de Mantenimiento:** Entre ellas, se encuentra:
-	- Realizar copias de seguridad de forma periodica.
+	- Realizar copias de seguridad de forma periódica.
 	- Asegurarse de que hay suficiente espacio en el disco.
-	- Monitoriar tareas ejecutandose en la base de datos.
+	- Monitorizar tareas ejecutándose en la base de datos.
 
 Al encargado de diseñar la arquitectura de una base de datos se le suele llamar **diseñador** de la base de datos.
 
