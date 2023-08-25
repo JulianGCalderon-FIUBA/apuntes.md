@@ -49,7 +49,7 @@ Los cognados son palabra de lenguas distintas que se asemeja en forma y signific
 Los falsos cognados se asemejan en forma, pero no en significado
 
 > [!example] Falsos Cognados
-> Sensible, Embarrased, Ancient
+> Sensible, Embarrased, Ancient, Actually, Large
 
 ## Skimming
 
@@ -69,4 +69,4 @@ Este método se utiliza para buscar información específica.
 
 Si estamos buscando una fecha, entonces buscamos un número. Si estamos buscando el autor, nos fijamos en el inicio o en el final.
 
-No requiere de la lectura activa del texto, sino de buscar rapidamente elementos particulares.
+No requiere de la lectura activa del texto, sino de buscar rápidamente elementos particulares.
