@@ -48,3 +48,9 @@ Los falsos cognados se asemejan en forma, pero no en significado
 
 > [!example] Falsos Cognados
 > Sensible, Embarrased
+
+## Skimming
+
+El *skimming* es una técnica de lectura que se trata de leer solamente la primera línea de cada párrafo. En cada párrafo, hay una idea tópica, o *topic sentence*. Esta idea, por lo general está en el comienzo del párrafo, seguido de *supportive sentences*.
+
+En ocasiones, la primera oración
