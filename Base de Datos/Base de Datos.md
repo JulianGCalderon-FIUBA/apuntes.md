@@ -53,10 +53,10 @@ Las bases de datos tienen distintos esquemas, separados según el nivel de abstr
 
 ## Ventajas
 
-Por qué se utilizan las bases de datos, por sobre un sistema de archivos común y corriente:
+¿Por qué se utilizan las bases de datos, por sobre un sistema de archivos común y corriente?
 
 - **Información redundante e inconsistente:** Los distintos programadores pueden haber creado archivos con estructuras inconsistentes, o duplicar información ya existente en el sistema
-- **Dificultad de Acceso**
+- **Dificultad de Acceso:** Una base de datos permite realizar consultas de todo tipo
 
 ## Diseño de Base de Datos
 
