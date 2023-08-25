@@ -34,10 +34,6 @@ Para exportar e importar, podemos usar las utilidades provistas por PostgreSQL. 
 
 > [!note] Con Docker
 > Si no tenemos instaladas las utilidades en nuestro sistema anfitrión, tenemos que abrir una consola dentro del contenedor de PostgreSQL.
-> 
-> ```
-> docker exec -it <CONTAINER_NAME> bash
-> ```
 
 Para exportar, basta con usar `pg_dump` de la base de datos.
 
