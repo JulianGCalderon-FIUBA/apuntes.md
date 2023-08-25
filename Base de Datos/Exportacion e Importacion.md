@@ -63,7 +63,7 @@ createdb -U admin -T template0 schooldb
 
 Utilizamos `template0`, ya que `template1` puede tener información personal que no queremos en nuestra base de datos importada.
 
-Una vez creada la tabla, importamos el archivo SQL.
+Una vez creada la tabla, importamos el archivo SQL con `psql`.
 
 ```bash
 psql -U admin schooldb < schooldb.sql
