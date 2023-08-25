@@ -53,11 +53,16 @@ El conjunto de atributos clave debe ser **minimal**, aunque es posible que exist
 
 ## Interrelaciones
 
-Un tipo de interrelación define un conjunto de interrelaciones entre entidades de determinados tipod
+Un tipo de interrelación define un conjunto de interrelaciones entre entidades de determinados tipos de entidad. No pueden existir dos interrelaciones iguales entre las mismas entidades.
 
-La aridad o grado de una interrelación es la cantidad de tipos de identidad que participan en el mismo.
+La aridad o grado de una interrelación es la cantidad de tipos de identidad que participan en el mismo. En las interrelaciones binarias, participan únicamente dos tipos de entidades. En las interrelaciones ternarias, pueden participar tres. De igual forma, existen las interrelaciones $n$-arias.
 
-En las interrelaciones binarias, participan únicamente dos tipos de entidades. En las interrelaciones ternarias, pueden participar tres. De igual forma, existen las interrelaciones $n$-arias.
+Cada tipo de entidad que participa en una interrelación juega un **rol** particular en dicha interrelación. El nombre del rol nos lo indica.
+
+Los roles suelen ser útiles en las interrelaciones recursivas, estas son aquellas que relacionan dos entidades del mismo tipo de entidad.
+
+> [!example] Interrelaciones Recursivas
+> Un ejemplo de interrelación recursiva es: "[Persona] es amiga de [Persona]"
 
 La cardinalidad es la máxima cantidad de instancias de cada tipo de entidad que pueden relacionarse con una instancia concreta de los tipos de entidades restantes.
 
