@@ -30,7 +30,9 @@ Es importante notar que la expresión será ejecutada desde el lado del servidor
 
 ## Exportar
 
-Para exportar, basta con usar `pg_dump` de la base de datos:
+Para exportar e importar, podemos usar las utilidades provistas por PostgreSQL. Si no tenemos instaladas las utilidades en nuestro sistema anfitrion, debemos abrir una consola dentro del contenedor de PostgreSQL
+
+Para exportar, basta con usar `pg_dump` de la base de datos.
 
 ```bash
 pg_dump -U admin schooldb > schooldb.sql
