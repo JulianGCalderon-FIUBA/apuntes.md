@@ -36,3 +36,15 @@ Ante una palabra desconocida, recurrimos a tres simples pasos:
 1. Leemos el contexto de la palabra, para entender su idioma
 2. Analizamos la morfología de la palabra. ¿Es un nombre? ¿Es un Adjetivo?, etc.
 3. Recurrimos al diccionario para entender del significado.
+
+## Cognados
+
+Los cognados son palabra de lenguas distintas que se asemeja en forma y significado.
+
+> [!example] Cognados
+> Optical, Illusion, Astronaut, Crocodile
+
+Los falsos cognados se asemejan en forma, pero no en significado
+
+> [!example] Falsos Cognados
+> Sensible, Embarrased
