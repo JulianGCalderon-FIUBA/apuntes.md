@@ -16,7 +16,7 @@ Cada entidad deberá tener valores para los atributos definidos para su tipo de 
 
 Cada atributo que se coloca a una entidad tiene un **dominio**, esto es, el *tipo de dato* del atributo. Representa qué valores posibles puede tomar. Algunos atributos permiten un valor nulo.
 
-Los atributos compuestos se componen de atributos simples, y le dan un significado particular a cada componente.
+Los atributos compuestos se componen de atributos simples, y le dan un significado particular a cada componente. Los atributos que no son indivisibles se los denominan atributos *atómicos*.
 
 > [!example] Tarjeta de Crédito
 > El número de una tarjeta de crédito puede ser separado en distintos componentes, cada uno otorgando información particular. Depende de la implementación si quiero o no separar esta información.
@@ -28,6 +28,8 @@ Los atributos **multi-evaluados** pueden tener más de un valor, pero esto trae 
 Los atributos **derivados** son aquellos que pueden ser calculados a partir de los datos de la base de datos (de la propia entidad, o de otros elementos). En el diagrama, se representa con un óvalo punteado.
 
 ![[Modelo Entidad-Interrelacion 3.png|450]]
+
+En algunos casos, una entidad puede no tener ningun valor particular para un atributo. En ese caso, el atributo admite un valor **nulo**. El significado de este valor dependerá del contexto.
 
 ## Entidades
 
