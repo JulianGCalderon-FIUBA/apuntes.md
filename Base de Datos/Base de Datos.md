@@ -51,14 +51,6 @@ Las bases de datos tienen distintos esquemas, separados según el nivel de abstr
 - El esquema **lógico** describe el diseño de la base de datos a un nivel lógico.
 - En ocasiones, una base de datos tiene múltiples esquemas a nivel de **vista**, llamados **subesquemas**.
 
-## Ventajas
-
-¿Por qué se utilizan las bases de datos, por sobre un sistema de archivos común y corriente?
-
-- **Información redundante e inconsistente:** Los distintos programadores pueden haber creado archivos con estructuras inconsistentes, o duplicar información ya existente en el sistema
-- **Dificultad de Acceso:** Una base de datos permite realizar consultas de todo tipo, sin necesidad de haberlas previsto.
-- **Información Aislada:** Una base de datos permite almacenar la información en un solo lugar, por lo que su obtención es mas facil.
-
 ## Diseño de Base de Datos
 
 Un modelo de datos de alto nivel le provee al diseñador un *framework* conceptual bajo el cual especificar sus requerimientos de datos. La fase inicial del diseño es la de caracterizar completamente los requerimientos de datos de nuestros usuarios. Se debe interactuar extensamente con los expertos del dominio.
