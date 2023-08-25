@@ -8,6 +8,8 @@ Otro factor importante a la hora de leer y entender un texto es lo que denominam
 
 El interés también tiene mucha importancia a la hora de entender un texto, si no tenemos interés se nos dificultará la lectura y la comprensión.
 
+La imágen mental
+
 ## Paratexto
 
 Cuando leo un texto, lo primero con lo que me enfrento es el **paratexto**, esto incluye:
@@ -51,6 +53,10 @@ Los falsos cognados se asemejan en forma, pero no en significado
 
 ## Skimming
 
-El *skimming* es una técnica de lectura que se trata de leer solamente la primera línea de cada párrafo. En cada párrafo, hay una idea tópica, o *topic sentence*. Esta idea, por lo general, está en el comienzo del párrafo, seguido de *supportive sentences*. Muchas veces, encontraremos una paráfrasis de la *topic sentence*, que explica la explica de forma más clara.
+El *skimming* es una técnica de lectura que se trata de leer solamente la primera línea de cada párrafo. En cada párrafo, hay una idea tópica, o *topic sentence*.
+
+Esta idea, por lo general, está en el comienzo del párrafo, seguido de *supportive sentences*. Muchas veces, encontraremos una paráfrasis de la *topic sentence*, que explica la explica de forma más clara.
 
 En ocasiones, la primera oración del párrafo es una *supportive sentence*, pero esta nos hablará del tópico, por lo que de igual forma tendremos una idea del concepto.
+
+En ocasiones, ninguna oración será una *topic sentence*. Estaremos ante un *supportive paragraph*.
