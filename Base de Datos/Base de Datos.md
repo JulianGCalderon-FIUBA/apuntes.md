@@ -24,6 +24,8 @@ Las bases de datos tradicionales almacenan datos de texto o numéricos, que pued
 
 El predicado puede ser pensado como una función que recibe las variables del mismo, y nos devuelve un resultado. El resultado será verdadero o falso y nos va a indicar si dicha fila se encuentra en la tabla.
 
+Las bases de datos modernas aprovechan estas repeticiones en la estructura de datos para poder almacenar información de forma eficiente.
+
 ## Abstracción de Datos
 
 Los desarrolladores esconden la complejidad de los usuarios a través de distintos niveles de abstracción:
