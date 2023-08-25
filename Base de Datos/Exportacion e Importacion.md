@@ -61,7 +61,7 @@ Para importar una base de datos, primero debemos crear la base de datos en la cu
 createdb -U admin -T template0 schooldb
 ```
 
-Utilizamos `template0`, ya que `template1` puede tener información personal que no queremos en nuestra base de datos.
+Utilizamos `template0`, ya que `template1` puede tener información personal que no queremos en nuestra base de datos importada.
 
 Una vez creada la tabla, importamos el archivo SQL.
 
