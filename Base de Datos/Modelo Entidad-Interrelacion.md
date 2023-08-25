@@ -82,9 +82,9 @@ A veces, la identificación de una identidad depende de su interrelación con ot
 
 ![[Modelo Entidad-Interrelacion 7.png|525]]
 
-Cuando una entidad depende de otra, se dice que es una entidad débil. Su clave se compone de las claves de sus entidades **identificadoras**, más algunos atributos propios, que se denominan **discriminantes**.
+Cuando una entidad depende de otra, se dice que es una entidad débil. Su clave se compone de las claves de sus entidades **identificadoras**, más normalmente algunos atributos propios, que se denominan **discriminantes**.
 
-Obligatoriamente, el lado
+Obligatoriamente, la entidad identificadora debe tener una cardinalidad máxima de $1$, ya que una entidad débil no puede estar subordinada por dos tipos de entidad iguales (al menos en las interrelaciones binarias)
 
 Para modelar múltiples veces el mismo tipo de interrelación entre dos entidades, no es correcto modelarlo con múltiples interrelaciones. Debemos crear un tipo de entidad que represente esta interrelación. Luego, esta será una entidad débil que dependerá de sus participantes.
 
