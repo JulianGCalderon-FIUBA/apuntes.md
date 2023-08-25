@@ -62,3 +62,11 @@ En ocasiones, la primera oración del párrafo es una *supportive sentence*, per
 En ocasiones, ninguna oración será una *topic sentence*. Estaremos ante un *supportive paragraph*.
 
 Si unimos todas las *topic sentences*, formaremos un buen resumen del texto.
+
+## Scanning
+
+Este método se utiliza para buscar información específica.
+
+Si estamos buscando una fecha, entonces buscamos un número. Si estamos buscando el autor, nos fijamos en el inicio o en el final.
+
+No requiere de la lectura activa del texto, sino de buscar rapidamente elementos particulares.
