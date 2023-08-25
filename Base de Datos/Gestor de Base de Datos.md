@@ -39,11 +39,15 @@ Existen distintos tipos de usuarios, con capacidades y roles distintos:
 - Los **usuarios ingenuos** interactúan con la base de datos a través de interfaces. No necesitan tener conocimiento técnico de la base de datos para usar el sistema.
 - Los **usuarios sofisticados** interactúan con el sistema a través de consultas a la base de datos.
 
-El administrador del sistema tiene control total de la información. Algunas de las funciones del administrador son:
+El administrador de la base de datos, o *database administrator* (DBA) tiene control total de la información. Algunas de las funciones del administrador son:
 
 - **Definición de Esquemas:** Crea o actualiza el esquema de la base de datos, ejecutando instrucciones en el DDL.
 - **Definición de la Estructura:** Especifica parámetros relacionados con la organización física de los datos.
 - **Autorizaciones:** Otorga autorizaciones específicas a cada usuario. Las autorizaciones pueden ser de lectura, inserción, actualización, y eliminación, así como acceso a partes específicas de la base de datos.
+- **Rutinas de Mantenimiento:** Entre ellas, se encuentra:
+	- Realizar copias de seguridad de forma periodica.
+	- Asegurarse de que hay suficiente espacio en el disco.
+	- Monitoriar tareas ejecutandose en la base de datos.
 
 Al encargado de diseñar la arquitectura de una base de datos se le suele llamar **diseñador** de la base de datos.
 
