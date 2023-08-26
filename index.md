@@ -34,6 +34,6 @@ title: Índice
 
 ## 2.º 2023
 
-- [[Técnicas de Programación Concurrente]]
+- [[Técnicas de Programación Concurrente I]]
 - [[Base de Datos]]
 - [[Inglés]]
