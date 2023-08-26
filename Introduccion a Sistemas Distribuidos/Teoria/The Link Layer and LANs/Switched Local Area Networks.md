@@ -1,7 +1,3 @@
----
-title: Switched Local Area Networks
----
-
 Debido a que los *switches* operan en la capa de enlace, lidian con *link-layer* *frames* en lugar de *network-layer datagrams*. En lugar de direcciones IP, tienen dirección de capa de enlace
 
 ## 1. Link-Layer Addressing and ARP

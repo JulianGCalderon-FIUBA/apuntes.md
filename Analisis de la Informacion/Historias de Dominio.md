@@ -1,5 +1,4 @@
 ---
-title: Historias de Dominio
 alias: Domain Story Telling
 ---
 

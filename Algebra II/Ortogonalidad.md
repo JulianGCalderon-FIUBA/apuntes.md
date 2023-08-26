@@ -1,7 +1,3 @@
----
-title: Ortogonalidad
----
-
 ## Descomposición Ortogonal
 
 Sea $w$ un vector de $\Bbb V$, siempre se va a poder descomponer en componentes ortogonales como $u = kv + w$, siendo $v\perp w$.
@@ -67,7 +63,7 @@ Recordando que el producto interno canónico en $\Bbb C^n$es $\langle x,y \rangl
 
 $$
 P_S(v) = \begin{bmatrix}
-\frac{v_1}{\|v_1\|}  & \frac{v_2}{\|v_2\|} & \cdots & \frac{v_k}{\|v_k\|} 
+\frac{v_1}{\|v_1\|}  & \frac{v_2}{\|v_2\|} & \cdots & \frac{v_k}{\|v_k\|}
 \end{bmatrix} \cdot
 \begin{pmatrix}
 \frac{\overline{v_1}^T}{\|v_1\|} \\[1em]

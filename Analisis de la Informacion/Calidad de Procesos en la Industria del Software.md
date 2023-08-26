@@ -1,7 +1,3 @@
----
-title: Calidad de Procesos en la Industria del Software
----
-
 > [!note]
 > **Calidad:** Totalidad de prestaciones y características de un producto o servicio que generan su capacidad de satisfacer necesidades explícitas o implícitas
 

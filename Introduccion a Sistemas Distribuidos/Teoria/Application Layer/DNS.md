@@ -1,7 +1,3 @@
----
-title: DNS
----
-
 Para identificar un host en la red, utilizamos *IP addresses*. Estas tienen una estructura jerárquica y consisten en cuatro secciones de separadas por puntos, cada una conteniendo un número de 4 bits. Estas direcciones se escanean de izquierda a derecha, obteniendo información acerca del host.
 
 ## 1. Services Provided by DNS

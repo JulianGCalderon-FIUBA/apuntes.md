@@ -1,9 +1,5 @@
----
-title: Potencia
----
-
 $$
-P = \frac W{\Delta t} 
+P = \frac W{\Delta t}
 $$
 
 $$

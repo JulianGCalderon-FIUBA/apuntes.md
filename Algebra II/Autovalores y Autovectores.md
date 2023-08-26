@@ -1,7 +1,3 @@
----
-title: Autovalores y Autovectores
----
-
 Vamos a buscar los vectores $v$ de $\Bbb  V$ tal que $T(v) = \lambda\ v$. Es decir, las rectas que pasadas por la transformación lineal, llegan a la misma recta.
 
 Sea $A$ una matriz de $\Bbb K^{n\times n}$, y $x_0 \in \Bbb K^n$. Entonces podemos encontrar sucesiones de la forma:
@@ -150,7 +146,7 @@ Siendo:
 Si $A$ tiene un autovalor de multiplicidad algebraica $3$ y multiplicidad geométrica $1$. Llamamos $\lambda$ al único autovalor
 
 $$
-A_2 = 
+A_2 =
 Q
 \begin{bmatrix}
 \lambda & 1 & 0 \\
@@ -173,7 +169,7 @@ En este caso, debemos elegir el $V_2$ que pertenezca a la imagen de $A- \lambda 
 Si $A$ tiene un autovalor de multiplicidad algebraica $3$ y multiplicidad geométrica $2$. Llamamos $\lambda$ al único autovalor
 
 $$
-A_3 = 
+A_3 =
 Q
 \begin{bmatrix}
 \lambda & 0 & 0 \\

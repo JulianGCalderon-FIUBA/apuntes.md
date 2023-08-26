@@ -1,7 +1,3 @@
----
-title: Ondas de Sonido
----
-
 ## Presión
 
 Cuando una onda sonora viaja a través del aire, entonces las moléculas de aire cercanas a la onda se desplazan. Esto causa que la densidad se modifique y varíe la presión del aire cercana al sonido. Esta variación de presión se visualiza como una onda armónica
@@ -57,7 +53,7 @@ $$
 Al estar el observador en movimiento, tenemos que
 
 $$
-v'_p = v_p - v_r 
+v'_p = v_p - v_r
 $$
 
 $$

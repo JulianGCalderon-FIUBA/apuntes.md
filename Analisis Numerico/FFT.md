@@ -1,7 +1,3 @@
----
-title: FFT
----
-
 ## DFT
 
 Para una señal periódica cuya función no conocemos, podemos escribir la transformada discreta de Fourier como

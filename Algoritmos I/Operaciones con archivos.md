@@ -1,7 +1,3 @@
----
-title: Operaciones con archivos
----
-
 ## Lectura de Archivos
 
 ```c
@@ -49,7 +45,7 @@ while (leidos_1 == 1 && leidos_2 == 1)
 	{
 		fwrite(&buffer_1, sizeof(buffer_t), 1, mezcla);
 		leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
-	} 
+	}
 	else
 	{
 		fwrite(&buffer_2, sizeof(buffer_t), 1, mezcla);
@@ -90,9 +86,9 @@ while (leidos_1 == 1 && leidos_2 == 1)
 	{
 		fwrite(&buffer_1, sizeof(buffer_t), 1, union);
 		leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
-	} 
+	}
 	else if (buffer_1.clave > buffer_2.clave)
-	{ 
+	{
 		fwrite(&buffer_2, sizeof(buffer_t), 1, union);
 		leidos_2 = fread(&buffer_2, sizeof(buffer), 1, stream_2);
 	}
@@ -135,9 +131,9 @@ while (leidos_1 == 1 && leidos_2 == 1)
 	if (buffer_1.clave < buffer_2.clave)
 	{
 		leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
-	} 
+	}
 	else if (buffer_1.clave > buffer_2.clave)
-	{ 
+	{
 		leidos_2 = fread(&buffer_2, sizeof(buffer), 1, stream_2);
 	}
 	else
@@ -168,9 +164,9 @@ while (leidos_1 == 1 && leidos_2 == 1)
 	{
 		fwrite(&buffer_1, sizeof(buffer_t), 1, diferencia);
 		leidos_1 = fread(&buffer_1, sizeof(buffer), 1, stream_1);
-	} 
+	}
 	else if (buffer_1.clave > buffer_2.clave)
-	{ 
+	{
 		leidos_2 = fread(&buffer_2, sizeof(buffer), 1, stream_2);
 	}
 	else

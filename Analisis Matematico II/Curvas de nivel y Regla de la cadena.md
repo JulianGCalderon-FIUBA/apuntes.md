@@ -1,7 +1,3 @@
----
-title: Curvas de nivel y Regla de la cadena
----
-
 Sea $f: R^2\to R$ diferenciable y $X(x(t), y(t))$ una curva de nivel $k$ de $f$
 
 $$

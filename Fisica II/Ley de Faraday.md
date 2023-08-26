@@ -1,7 +1,3 @@
----
-title: Ley de Faraday
----
-
 Faraday notó, luego de unos experimentos, que un campo magnético puede generar corriente en un circuito cercano. Sin embargo, esta corriente es temporal. Solo surge cuando el campo no es estacionario, sino que depende del tiempo. A esta corriente, se la denomina **corriente inducida.**
 
 ## Ley de Faraday-Lenz
@@ -45,7 +41,7 @@ $$
 Podemos entonces agrupar los parámetros en un coeficiente de inducción mutuo, simplificando la ecuación.
 
 $$
-M_{21} =N_2 \cdot \frac{d\varphi_{21}}{di_1} 
+M_{21} =N_2 \cdot \frac{d\varphi_{21}}{di_1}
 $$
 
 Si ahora calculamos el flujo de este nuevo campo magnético sobre el circuito inicial, llegamos a un resultado completamente análogo. En medios lineales se cumple que:
@@ -73,7 +69,7 @@ $$
 Definimos entonces el coeficiente de autoinducción
 
 $$
-L_1 = N_1 \cdot \frac{d\phi_{11}}{di_1} 
+L_1 = N_1 \cdot \frac{d\phi_{11}}{di_1}
 $$
 
 ## Relación entre Coeficientes

@@ -1,7 +1,3 @@
----
-title: Transformaciones Lineales
----
-
 Sean $\Bbb V$ y $\Bbb W$ dos $\Bbb K$ espacios vectoriales, se dice que una función $T: \Bbb V \to \Bbb W$ es una transformación lineal, si cumple:
 
 - $T(u_1 + u_2) = T(u_1) + T(u_2),\quad \forall u_1,u_2 \in \Bbb V$
@@ -47,9 +43,9 @@ Sea $T: \Bbb V \to \Bbb W$ una transformación lineal, siendo $\Bbb V$ y $\Bbb W
 - Toda T.L. queda unívocamente determinada sobre una base.
 
 > [!theorem] Dimensión de subespacios fundamentales es una transformación lineal
-> 
+>
 > Si $\Bbb V$ es un espacio vectorial de dimensión finita y $T: \Bbb V \to \Bbb W$, entonces:
-> 
+>
 > $$
 > \text{dim}(Nu(T)) + \text{dim}(Im(T)) = \text{dim}(\Bbb V)
 > $$
@@ -81,7 +77,7 @@ x \in \Bbb V,\quad x = \alpha_1 v_1 + \cdots + \alpha_n v_n \implies T(x) = T(\a
 $$
 
 $$
-\Big[T(x)\Big]^{B'} = 
+\Big[T(x)\Big]^{B'} =
 \Big[ \big[T(v_1)\big]^{B'} \big| \cdots \big| \big[T(v_n)\big]^{B'}\Big]
 \begin{bmatrix}\alpha_1 \\ \vdots \\ \alpha_n\end{bmatrix}
 $$

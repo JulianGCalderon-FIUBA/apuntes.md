@@ -1,7 +1,3 @@
----
-title: Circuitos en Resonancia
----
-
 ## Frecuencia angular de Resonancia
 
 Yo puedo variar la pulsación de un generador de corriente alterna. Si quiero maximizar la amplitud de la corriente, entonces debo tender la frecuencia hacia un valor

@@ -1,7 +1,3 @@
----
-title: The Network Edge
----
-
 Los hosts se denominan así, ya que se encuentran en el extremo final de la red. También denominados hosts, ya que *hostean* (ejecutan) aplicaciones. Usaremos ambos términos indistintamente. Los hosts se suelen separar a su vez en **clientes** y **servidores.**
 
 ## 1. Access Networks

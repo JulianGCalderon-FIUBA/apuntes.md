@@ -1,7 +1,3 @@
----
-title: Extremos Condicionados
----
-
 ## Extremos en conjuntos compactos
 
 Al limitar una función a un conjunto compacto, se generan nuevos extremos que antes no existían.

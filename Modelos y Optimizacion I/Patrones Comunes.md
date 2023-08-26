@@ -1,7 +1,3 @@
----
-title: Patrones Comunes
----
-
 ## Problemas de Centros de Producción
 
 En este tipo de problemas, la producción se divide en distintos lugares físicos (llamados centros) en cada uno de los cuales se realizan distintas partes del proceso. Para modelar estas situaciones, plantearemos las variables de entrada y de salida de cada centro, relacionado con los centros siguientes.
@@ -63,7 +59,7 @@ Las condiciones de un modelo relacionan actividades entre sí o con el contexto.
 Para resolver condiciones débiles, utilizamos programación de metas. Esta nos permite separar una variable en dos estados. Si $X > \lim$, se impone un costo adicional.
 
 $$
-X - \lim = \text{Exceso} - \text{Defecto},\quad 
+X - \lim = \text{Exceso} - \text{Defecto},\quad
 \text{Exceso} \leq 0,\text{Defecto} \leq 0
 $$
 

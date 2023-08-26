@@ -1,7 +1,3 @@
----
-title: Matrices Normales
----
-
 ## Clasificación de Matrices
 
 Primero, algunas definiciones sobre matrices:

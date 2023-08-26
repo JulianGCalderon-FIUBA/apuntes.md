@@ -1,7 +1,3 @@
----
-title: Derivadas
----
-
 ## Funciones vectoriales
 
 $$

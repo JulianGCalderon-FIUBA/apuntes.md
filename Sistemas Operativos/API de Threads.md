@@ -1,7 +1,3 @@
----
-title: API de Threads
----
-
 ## Creación de Threads
 
 Lo primero que debemos hacer para escribir un programa *multi-threaded* es crear nuevos hilos:

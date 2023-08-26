@@ -1,7 +1,3 @@
----
-title: Complejidad de Problemas
----
-
 > Conjeturo que no hay un buen algoritmo para el problema del viajante ~ Jack Edmonds, 1967
 
 ¿Qué quiere decir un buen algoritmo? Un algoritmo es bueno si puede resolver un problema en una cantidad de tiempo que consideramos aceptable, luego, ¿Que cantidad de tiempo es aceptable? Necesitaremos entonces una clasificación para los algoritmos.

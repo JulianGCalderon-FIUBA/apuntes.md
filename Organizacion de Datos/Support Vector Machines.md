@@ -1,7 +1,3 @@
----
-title: Support Vector Machines
----
-
 Este método permite separar un conjunto de datos en dos, de forma lineal. Se dice que los datos son linealmente separables si puedo encontrar un cuerpo lineal que los separa. (punto, línea, superficie, etc.)
 
 ## Clasificador con Margen

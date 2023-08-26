@@ -1,7 +1,3 @@
----
-title: Translation Lookaside Buffers
----
-
 Este método consiste en separar el espacio de direcciones en pequeñas unidades (páginas) de tamaño fijo. Esta técnica requiere mucha información de *mapeo.* Por lo general esta información está almacenada en memoria física, se requiere acceder a cierta memoria extra, por cada dirección de memoria virtual. Por lo general, las páginas tienen un tamaño de *4 KB*. Aunque estos pueden variar según la implementación.
 
 Este proceso de buscar en memoria la información para realizar la traducción es un proceso lento, por lo que surge la pregunta: ¿cómo podemos acelerar el proceso de traducción de direcciones, evitando utilizar memoria extra?

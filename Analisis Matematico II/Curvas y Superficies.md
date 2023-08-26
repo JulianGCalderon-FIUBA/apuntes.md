@@ -1,7 +1,3 @@
----
-title: Curvas y Superficies
----
-
 Una curva es la imagen de una función vectorial $\vec f(t)$ continua en A, donde A es un intervalo de la recta real
 
 $$\boxed {\vec X(t) = \Big(\frac{3\cos^2t\cdot\sin t}{\cos^3 + sen^3},\frac{3\cos t\cdot\sin^2t}{\cos^3 + sen^3}\Big)}$$
@@ -41,7 +37,7 @@ Una superficie es la imagen de una función vectorial $\vec f(x,y):\mathbb{R}^2 
 Si dejo constante una de las variables y vario la otra, se genera una **curva coordenada**
 
 $$
-g(x):\mathbb{R} \to \mathbb{R} \quad h(y):\mathbb{R} \to \mathbb{R} 
+g(x):\mathbb{R} \to \mathbb{R} \quad h(y):\mathbb{R} \to \mathbb{R}
 $$
 
 El producto vectorial de los vectores tangentes de 2 curvas coordenadas en un punto en común, te da un vector normal a la superficie

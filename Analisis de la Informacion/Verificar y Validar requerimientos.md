@@ -1,7 +1,3 @@
----
-title: Verificar y Validar requerimientos
----
-
 ## Definiciones Importantes
 
 **Calidad (ISO)**: La totalidad de prestaciones y características de un producto o servicio que generan su capacidad de satisfacer necesidades explícitas o implícitas

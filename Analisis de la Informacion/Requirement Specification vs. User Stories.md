@@ -1,7 +1,3 @@
----
-title: Requirement Specification vs. User Stories
----
-
 Algunos discuten que las *user stories* no son requerimientos. Pero la realidad es que las especificaciones de requisitos se realiza erróneamente y el término se ha redefinido.
 
 > [!definition] Definición

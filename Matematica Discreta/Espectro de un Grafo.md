@@ -1,7 +1,3 @@
----
-title: Espectro de un Grafo
----
-
 ## Espectro de un Grafo
 
 Sea $G$ un grafo, entonces definimos su espectro $\sigma(G)$ como el espectro de su matriz de adyacencia, $\sigma(A_G)$.

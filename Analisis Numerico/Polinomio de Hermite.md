@@ -1,7 +1,3 @@
----
-title: Polinomio de Hermite
----
-
 Es un polinomio interpolador de $f$ en los nodos $x_0, x_1, \cdots, x_n$ y la derivada del polinomio coincide con la derivada primera de la función en dichos nodos.
 
 Para calcularlo, se define la sucesión $z_0, z_1, \cdots z_n$ de la siguiente manera
@@ -13,7 +9,7 @@ $$
 Ahora construimos una tabla con las diferencias divididas a partir de la sucesión $z$. Como algunas diferencias no estarán definidas (no se puede dividir por cero) entonces, tomamos la siguiente igualdad.
 
 $$
-f[z_{2i}; z_{2i +1}] = f'[x_i] 
+f[z_{2i}; z_{2i +1}] = f'[x_i]
 $$
 
 A partir de los datos de la función, definimos un polinomio de newton de grado $2n + 1$

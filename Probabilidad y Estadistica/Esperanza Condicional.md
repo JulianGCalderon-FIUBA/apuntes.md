@@ -1,7 +1,3 @@
----
-title: Esperanza Condicional
----
-
 ## Función de Regresión
 
 Sea $Y | X = x$ una variable aleatoria discreta, entonces definimos su esperanza como
@@ -26,7 +22,7 @@ Vamos a definir una variable aleatoria llamada esperanza condicional de $Y$ dado
 
 > [!tip] Propiedad Útil
 > La esperanza de la variable $\varphi$ definida anteriormente es la esperanza de $Y$
-> 
+>
 > $$
 > E[E[Y|X]] = E[Y]
 > $$

@@ -1,7 +1,3 @@
----
-title: ICMP The Internet Control Message Protocol
----
-
 El protocolo **internet control message protocol** es utilizado por hosts y routers para comunicar información de capa de red entre ellos. Uno de los usos más típicos es el de reporte de errores, como el conocido mensaje **"Destination Network Unreachable".** En algún punto del recorrido, un router no pudo encontrar un paquete, por lo que el protocolo IP envía un mensaje de error al host.
 
 Suele ser considerado como una parte de IP, pero arquitectónicamente yace por encima de IP, ya que sus mensajes están contenidos en el *payload* de los datagramas. Los mensajes contienen un campo de `type`, un campo de `code`, y los headers y los primeros 8 bytes del *datagram* que ocasionó el error.

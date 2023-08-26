@@ -1,7 +1,3 @@
----
-title: Varianza Condicional
----
-
 Sean $X$ e $Y$ variables aleatorias con $\text{var}(Y)$ finita, la varianza de $Y|X=x$ será
 
 $$
@@ -22,7 +18,7 @@ $$
 
 > [!tip] Propiedad de Pitágoras
 > Proviene de aplicar el teorema de Pitágoras
-> 
+>
 > $$
 > \text{var}(Y) = E[\text{var}(Y|X)] + \text{var}(E[Y|X])
 > $$

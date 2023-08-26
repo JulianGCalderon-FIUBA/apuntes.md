@@ -1,7 +1,3 @@
----
-title: Sistemas Lineales
----
-
 Para resolver sistemas lineales de la forma $Ax = b$ grandes, tenemos dos tipos de métodos
 
 ## Métodos Directos
@@ -10,8 +6,8 @@ Estos métodos se basan en la factorización de la matriz $A$ para convertir el 
 
 Tendremos dos métodos principales:
 
-- [[Descomposicion LU]]
-- [[Descomposicion de Cholesky]]
+- [[Descomposición LU]]
+- [[Descomposición de Cholesky]]
 
 ## Métodos Iterativos
 
@@ -26,5 +22,5 @@ La velocidad a la que convergen estos métodos depende de la estructura de la ma
 
 Tendremos dos métodos principales:
 
-- [[Metodos Iterativos]]
+- [[Métodos Iterativos]]
 - [[Refinamiento Iterativo]]

@@ -1,7 +1,3 @@
----
-title: Bugs de Concurrencia
----
-
 TODO
 
 Hay dos tipos de *bugs* principales relacionados con la concurrencia:

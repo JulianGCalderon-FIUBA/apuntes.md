@@ -1,7 +1,3 @@
----
-title: Argumentos del programa
----
-
 El `main`, como cualquier otra función, también puede recibir parámetros. Estos argumentos se envían al llamar al ejecutable.
 
 ```c

@@ -1,7 +1,3 @@
----
-title: Problema del Viajante
----
-
 El problema de determinar el mejor circuito entra varias ubicaciones fue encarado por distintas profesiones desde la prehistoria, este es conocido como el problema del viajante:
 
 - Un viajante tiene que partir de su casa y visitar una serie de clientes antes de retornar finalmente a su casa

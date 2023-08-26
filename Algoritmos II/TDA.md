@@ -1,7 +1,3 @@
----
-title: TDA
----
-
 ## Tipo de Dato
 
 Un tipo de dato define dos cosas importantes:

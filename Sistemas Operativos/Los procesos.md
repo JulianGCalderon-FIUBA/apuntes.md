@@ -1,7 +1,3 @@
----
-title: Los procesos
----
-
 La definición simple (aunque incompleta) de un proceso es: un programa corriendo en memoria. Un programa por sí solo existe en el disco, un conjunto de instrucciones esperando a ser ejecutadas. El sistema operativo se encarga de ejecutar este programa.
 
 ## Mecanismos

@@ -1,7 +1,3 @@
----
-title: Ecuaciones de Maxwell
----
-
 Maxwell cambió algunas fórmulas que vimos en la materia, para que sean más precisas. Y abarquen el caso dinámico. Considero que las leyes de Gauss ya eran válidas en el caso dinámico.
 
 > "La visión unificadora de Maxwell es la mayor alteración en nuestra concepción de la estructura de la realidad desde Newton" ~ Einstein

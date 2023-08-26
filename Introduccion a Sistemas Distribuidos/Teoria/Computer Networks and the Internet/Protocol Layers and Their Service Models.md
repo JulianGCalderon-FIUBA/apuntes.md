@@ -1,7 +1,3 @@
----
-title: Protocol Layers and Their Service Models
----
-
 ¿Cómo podemos organizar la arquitectura de redes de forma ordenada?
 
 ## 1. Layered Architecture

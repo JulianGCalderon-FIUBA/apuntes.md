@@ -1,7 +1,3 @@
----
-title: AdaBoost
----
-
 Esta técnica consiste en entrenar un predictor, un clasificador base, calcular los errores que comete, y entrenar un nuevo predictor que corrija estos errores.
 
 El proceso se repite $n$ veces hasta disminuir el error. Esta técnica no puede realizarse en paralelo, por lo que es poco escalable al tener grandes volúmenes de árboles.

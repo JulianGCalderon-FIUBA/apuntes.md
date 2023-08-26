@@ -1,7 +1,3 @@
----
-title: Teoremas Integrales
----
-
 ## Divergencia
 
 La divergencia se calcula con el producto escalar entre el operador nabla $\nabla$ y una función vectorial $f$, el resultado sería la traza de la jacobiana de $f$
@@ -19,11 +15,11 @@ Si la divergencia es nula, entonces el campo es **solenoidal**.
 El rotor se calcula con el producto vectorial entre el operador nabla $\nabla$ y una función vectorial $f$.
 
 $$
-\text{Rot}(f) = \nabla\times\vec f = 
+\text{Rot}(f) = \nabla\times\vec f =
 \begin{vmatrix}
 \hat i & \hat j &\hat k \\
 \frac{\partial}{\partial x} & \frac{\partial}{\partial y} &\frac{\partial}{\partial z} \\
-f_1 & f_2 & f_3 
+f_1 & f_2 & f_3
 \end{vmatrix} =
 \bigg(
 \frac{\partial f_3}{\partial y} - \frac{\partial f_2}{\partial z},\,

@@ -1,7 +1,3 @@
----
-title: "What's Inside a Router"
----
-
 Podemos identificar cuatro componentes principales:
 
 - **Input ports:** Ejecuta varias funciones clave. Realiza la función de capa física de terminación del enlace de entrada. También realiza funciones de capa de enlace necesarias para operar con la capa de enlace del otro lado del enlace. Consulta la *forwarding table*, para determinar el link de salida del paquete. Los *control packets* son enviados al *routing processor*.

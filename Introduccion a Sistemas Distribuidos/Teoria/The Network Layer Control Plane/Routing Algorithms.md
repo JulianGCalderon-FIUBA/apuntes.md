@@ -1,7 +1,3 @@
----
-title: Routing Algorithms
----
-
 El objetivo de un algoritmo de ruteo es el de determinar el camino que minimice el costo entre remitentes y receptores. Se puede utilizar un grafo para formular el problema, donde los nodos serán los routers y las aristas serán los enlaces entre los routers. Cada enlace tendrá un costo asociado a múltiples factores, como el largo del enlace, la velocidad del mismo, el costo monetario de utilizarlo, etc. Diremos que dos nodos son vecinos si existe una arista directa que los une. Notemos que si todas las aristas tienen el mismo costo, entonces el camino más corto se transforma en el camino más eficiente.
 
 Los algoritmos de rutina se pueden clasificar según si son centralizados o no:

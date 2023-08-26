@@ -1,7 +1,3 @@
----
-title: Ecuaciones Diferenciales Ordinarias
----
-
 Vamos a determinar todas las soluciones de ecuaciones diferenciales de orden $n$ de la forma:
 
 $$

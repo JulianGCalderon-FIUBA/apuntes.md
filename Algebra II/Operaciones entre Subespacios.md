@@ -1,7 +1,3 @@
----
-title: Operaciones entre Subespacios
----
-
 ## Intersección
 
 $$

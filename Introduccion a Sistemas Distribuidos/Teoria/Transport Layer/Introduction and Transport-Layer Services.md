@@ -1,7 +1,3 @@
----
-title: Introduction and Transport-Layer Services
----
-
 Un protocolo de cada de transporte provee comunicación lógica entre procesos ejecutándose en diferentes hosts. Con **comunicación lógica**, nos referimos a que, desde la perspectiva de la aplicación, es como si ambos hosts estén directamente conectados.
 
 ## 1. Relationship Between Transport and Network Layers

@@ -1,7 +1,3 @@
----
-title: Introduction to the Control Plane
----
-
 Existen dos enfoques posibles a la configuración de las *forwarding* y *flow tables:*
 
 - **Per-router Control:** Un algoritmo de ruteo es ejecutado en cada router, realizando tanto funciones de envío como de ruteo. Los routers tienen un componente que se comunica con otros routers para computar los valores de la tabla

@@ -1,7 +1,3 @@
----
-title: Distribuciones Importantes
----
-
 ## Chi-Cuadrado $\chi^2$
 
 la variable aleatoria $X$ tiene distribución $\chi^2$ de $\nu$ grados de libertar si su densidad está dada por
@@ -55,6 +51,6 @@ $$
 
 $$
 \begin{align}
-\text{Si: } S^2 = \sum_{i=1}^{n}\frac{(X_i - \overline X)^2}{n-1}, \\ \text{Entonces: } T = \sqrt{n} \cdot \frac{\overline X - \mu}{S} \sim t_{n-1} 
+\text{Si: } S^2 = \sum_{i=1}^{n}\frac{(X_i - \overline X)^2}{n-1}, \\ \text{Entonces: } T = \sqrt{n} \cdot \frac{\overline X - \mu}{S} \sim t_{n-1}
 \end{align} \tag 4
 $$

@@ -1,7 +1,3 @@
----
-title: Familias de Curvas
----
-
 Un haz de curvas $\varPhi(x,y,C) = 0$ puede ser solución general es una EDO de primer orden $F(x,y,y') = 0$. Derivando $\varPhi$ podemos obtener una EDO cuya solución sea el haz de curvas
 
 ## Trayectorias Ortogonales

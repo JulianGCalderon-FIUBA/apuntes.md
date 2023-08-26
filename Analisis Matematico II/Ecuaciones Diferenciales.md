@@ -1,7 +1,3 @@
----
-title: Ecuaciones Diferenciales
----
-
 ## Ecuaciones Diferenciales Ordinarias
 
 La incógnita es una función de una sola variable, las derivadas que aparecen son ordinarias (no parciales)

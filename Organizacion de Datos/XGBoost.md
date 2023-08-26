@@ -1,7 +1,3 @@
----
-title: XGBoost
----
-
 Fue diseñado para ser trabajado en *big data*, adaptado para volúmenes grandes de datos.
 
 1. Realizamos una predicción inicial (por defecto 0.5)
@@ -19,7 +15,7 @@ $$
 1. Buscamos el siguiente nodo, para ello calculamos la ganancia total. Tomamos como umbral la distancia entre un par de observaciones y seleccionamos el par con mayor ganancia.
 
 	$$
-    \text{G} = SS_{\text{izquierda}} + SS_{\text{derecha }}+ SS_{\text{raiz}} 
+    \text{G} = SS_{\text{izquierda}} + SS_{\text{derecha }}+ SS_{\text{raiz}}
     $$
 
 2. Repetimos el algoritmo anterior hasta llegar a la profundidad deseada

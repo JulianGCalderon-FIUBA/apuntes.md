@@ -1,7 +1,3 @@
----
-title: Distribuciones Continuas
----
-
 ## Uniforme
 
 Una variable aleatoria tiene función de densidad uniforme, si todo punto tiene la misma probabilidad, su densidad está dada por:
@@ -27,7 +23,7 @@ $$
 $$
 F_X(x) = \begin{cases}1 - e^{-\lambda x} &\iff x \geq 0\\
 0 &\iff x < 0
-\end{cases} 
+\end{cases}
 $$
 
 $$

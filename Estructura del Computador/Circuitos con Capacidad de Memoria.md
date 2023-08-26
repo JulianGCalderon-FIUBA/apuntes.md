@@ -1,14 +1,10 @@
----
-title: Circuitos con Capacidad de Memoria
----
-
 La salida de un circuito combinacional, se realimenta como entrada al circuito con cierto retardo. Esto actúa como 'memoria'.
 
 ## Circuitos Asincrónicos
 
 Los circuitos asincrónicos no están sincronizados con un reloj, por lo que todos los componentes trabajan a su capacidad máxima
 
-[[Circuitos Asincronicos]]
+[[Circuitos Asincrónicos]]
 
 ## Circuitos Sincrónicos
 
@@ -16,7 +12,7 @@ Todos los circuitos que son parte del sistema están completamente sincronizados
 
 Todo debe estar limitado por el reloj, por lo que no trabajo a la máxima capacidad de mis componentes.
 
-[[Circuitos Sincronicos]]
+[[Circuitos Sincrónicos]]
 
 ## Multiplexores
 

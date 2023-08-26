@@ -1,7 +1,3 @@
----
-title: Prototipado y Experiencia de Usuario
----
-
 Un prototipo de software es una implementación parcial, posible o preliminar de un nuevo producto propuesto que tiene como objetivo resolver incertidumbres tempranamente. Estos se generarán por diversas razones:
 
 ![[Prototipado y Experiencia de Usuario 1.png|362]]

@@ -1,7 +1,3 @@
----
-title: Wireless Links and Network Characteristics
----
-
 Podemos encontrar numerosas diferencias importantes entre un enlace y uno inalámbrico:
 
 - **Decreasing Signal Strength:** La radiación electromagnética es atenuada a medida que atraviesa materia (por ejemplo, una pared). Esta reducción en la fuerza de la señal se conoce como **path loss**

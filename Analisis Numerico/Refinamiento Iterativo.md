@@ -1,7 +1,3 @@
----
-title: Refinamiento Iterativo
----
-
 Sea $\widetilde x$ una aproximación de la solución $x$ del sistema $Ax = b$, con la propiedad de que la norma del vector residual $r = b - A\widetilde x$ es pequeña, entonces es intuitivo pensar que la norma de $\| x - \widetilde x \|$ también lo será. Esto no es necesariamente así.
 
 **Teorema:** Supongamos que $\widetilde x$ es una aproximación a la solución del sistema $Ax = b$, siendo $A$ una no singular y que $r$ es el vector residual
@@ -18,7 +14,7 @@ Se dice que una matriz está mal condicionada, si su número de condición es si
 Para aproximar el número de condición de una matriz, debo encontrar a la solución del sistema en el vector residual
 
 $$
-Ay = (b - A\widetilde x) \implies x = \widetilde x + \widetilde y 
+Ay = (b - A\widetilde x) \implies x = \widetilde x + \widetilde y
 $$
 
 Puedo utilizar la fórmula de error residual para aritmética de $t$ cifras significativas.

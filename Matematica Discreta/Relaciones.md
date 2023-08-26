@@ -1,7 +1,3 @@
----
-title: Relaciones
----
-
 ## Definición
 
 Definimos $R$ como una relación en $A$ si $R \subseteq A\times A$, utilizando el producto cartesiano. Por ejemplo, sea $A = \{1, 2, 3\}$. Podremos definir una relación $R_1 = \{(1,1), (1,2), (3,3)\}$.
@@ -63,7 +59,7 @@ graph LR
   1 & 3 --> 13["{1,3}"]
   2 & 3 --> 23["{2,3}"]
   12 & 13 & 23 --> 123["{1,2,3}"]
-  
+
 ```
 
 ## Relación Inversa
@@ -107,7 +103,7 @@ graph LR
   subgraph A
 		x
   end
-  
+
 	subgraph B
 		z
   end
@@ -187,7 +183,7 @@ graph TD
       f --> f
 		end
 	end
-  
+
 ```
 
 Podemos ver que al introducir una relación de equivalencia en un conjunto, formaremos pequeños *clústeres* aislados en el conjunto, de modo que cualquier elemento de un *clúster* está en relación todos los elementos del mismo clúster, y con ningún elemento fuera del clúster

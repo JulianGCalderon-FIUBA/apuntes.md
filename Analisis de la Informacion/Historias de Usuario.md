@@ -1,7 +1,3 @@
----
-title: Historias de Usuario
----
-
 Una historia de usuario es una descripción de la funcionalidad esperada de un sistema, expresada desde el punto de vista del usuario:
 
 > [!note]

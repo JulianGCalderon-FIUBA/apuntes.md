@@ -1,7 +1,3 @@
----
-title: Operaciones con Arreglos
----
-
 ## Modificación
 
 ### Inserción Ordenada
@@ -20,7 +16,7 @@ void insertar_ordenado(vector_t vector, int *tope, elemento_t elemento){
 		i--;
 	}
 	vector[i] = elemento;
-	(*tope)++;	
+	(*tope)++;
 }
 ```
 
@@ -32,7 +28,7 @@ La idea de este algoritmo es eliminar un elemento dentro de un vector, sin dejar
 /*
  * Elimina 'elemento' de 'vector', si existe.
  */
-void eliminar_ordenado(vector_t vector, int *tope, elemento_t elemento){	
+void eliminar_ordenado(vector_t vector, int *tope, elemento_t elemento){
 	int pos = -1;
 	int i = 0;
 
@@ -107,7 +103,7 @@ int busqueda_binaria(vector_t vector, int tope, elemento_t elemento_buscado){
 		if (elemento_buscado == vector[centro]){
 			pos == centro;
 		} else if (elemento_buscado < vector[centro]){
-			fin = centro-1;	
+			fin = centro-1;
 		} else {
 			inicio = centro+1;
 		}
@@ -193,12 +189,12 @@ void insercion(vector_t vector, int tope){
 La mezcla consiste en tomar todos los valores de ambos arreglos
 
 ```c
-void mezcla(vector_t vectorA, int topeA, vector_t vectorB, int topeB, 
+void mezcla(vector_t vectorA, int topeA, vector_t vectorB, int topeB,
 						vector_t vectorC, int *topeC){
 	int i = 0;
 	int j = 0;
 	*topeC = 0;
-	
+
 	while (i < topeA && j < topeB){
 		if (arregloA[i] <= arregloB[j]){
 	    resultado[*topeC] = arregloA[i];
@@ -209,13 +205,13 @@ void mezcla(vector_t vectorA, int topeA, vector_t vectorB, int topeB,
 		}
 		(*topeC)++;
 	}
-	
+
 	while (i < topeA){
 		resultado[*topeC] = arregloA[i];
 		i++;
 		(*topeC)++;
 	}
-	
+
 	while (j < topeB){
 		resultado[*topeC] = arregloB[j];
 		j++;
@@ -229,12 +225,12 @@ void mezcla(vector_t vectorA, int topeA, vector_t vectorB, int topeB,
 La unión es similar a la mezcla, pero el resultado no tendrá elementos repetidos
 
 ```c
-void union(vector_t vectorA, int topeA, vector_t vectorB, int topeB, 
+void union(vector_t vectorA, int topeA, vector_t vectorB, int topeB,
 						vector_t vectorC, int *topeC){
 	int i = 0;
 	int j = 0;
 	*topeC = 0;
-	
+
 	while (i < topeA && j < topeB){
 		if (arregloA[i] < arregloB[j]){
 	    resultado[*topeC] = arregloA[i];
@@ -249,13 +245,13 @@ void union(vector_t vectorA, int topeA, vector_t vectorB, int topeB,
 		}
 		(*topeC)++;
 	}
-	
+
 	while (i < topeA){
 		resultado[*topeC] = arregloA[i];
 		i++;
 		(*topeC)++;
 	}
-	
+
 	while (j < topeB){
 		resultado[*topeC] = arregloB[j];
 		j++;
@@ -269,12 +265,12 @@ void union(vector_t vectorA, int topeA, vector_t vectorB, int topeB,
 La diferencia entre $A$ y $B$ $(A{-}B)$, toma los valores de $A$ que no están en $B$
 
 ```c
-void diferencia(vector_t vectorA, int topeA, vector_t vectorB, int topeB, 
+void diferencia(vector_t vectorA, int topeA, vector_t vectorB, int topeB,
 						vector_t vectorC, int *topeC){
 	int i = 0;
 	int j = 0;
 	*topeC = 0;
-	
+
 	while (i < topeA && j < topeB){
 		if (arregloA[i] < arregloB[j]){
 	    resultado[*topeC] = arregloA[i];
@@ -287,7 +283,7 @@ void diferencia(vector_t vectorA, int topeA, vector_t vectorB, int topeB,
 			j++;
 		}
 	}
-	
+
 	while (i < topeA){
 		resultado[*topeC] = arregloA[i];
 		i++;
@@ -301,12 +297,12 @@ void diferencia(vector_t vectorA, int topeA, vector_t vectorB, int topeB,
 La intersección devuelve los elementos que se encuentran en ambos conjuntos
 
 ```c
-void diferencia(vector_t vectorA, int topeA, vector_t vectorB, int topeB, 
+void diferencia(vector_t vectorA, int topeA, vector_t vectorB, int topeB,
 						vector_t vectorC, int *topeC){
 	int i = 0;
 	int j = 0;
 	*topeC = 0;
-	
+
 	while (i < topeA && j < topeB){
 		if (arregloA[i] == arregloB[j]){
 	    resultado[*topeC] = arregloA[i];

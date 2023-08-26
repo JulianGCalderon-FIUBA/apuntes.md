@@ -1,7 +1,3 @@
----
-title: Fasores Complejos
----
-
 ## Circuitos Compuestos
 
 Cuando tenemos circuitos con más de un componente, vamos a tener que realizar operaciones entre cosenos para hallar una expresión para la corriente del circuito.
@@ -110,7 +106,7 @@ $$
 
 > [!note]
 > En Argentina, la red domiciliaria tiene un voltaje efectivo de $220\ V$, y una frecuencia de $50\ Hz$.
-> 
+>
 > La amplitud pico es aproximadamente $311\ V$.
 
 ### Impedancia Inductiva

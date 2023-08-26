@@ -1,7 +1,3 @@
----
-title: Ecuaciones Diferenciales de Orden Superior
----
-
 ## P.V.I. de Segundo Orden
 
 Si tenemos un problema de valores iniciales de segundo orden:
@@ -37,7 +33,7 @@ $$
 \begin{pmatrix}
 y_{i+1} \\
 u_{i+1}
-\end{pmatrix} = 
+\end{pmatrix} =
 
 \begin{pmatrix}
 y_{i} \\
@@ -56,7 +52,7 @@ $$
 \begin{pmatrix}
 y_{i+1} \\
 u_{i+1}
-\end{pmatrix} = 
+\end{pmatrix} =
 
 \begin{pmatrix}
 y_{i} \\
@@ -146,7 +142,7 @@ $$
 \begin{pmatrix}
 x_{i+1} \\
 y_{i+1}
-\end{pmatrix} = 
+\end{pmatrix} =
 
 \begin{pmatrix}
 x_{i} \\
@@ -165,7 +161,7 @@ $$
 \begin{pmatrix}
 x_{i+1} \\
 y_{i+1}
-\end{pmatrix} = 
+\end{pmatrix} =
 
 \begin{pmatrix}
 x_{i} \\

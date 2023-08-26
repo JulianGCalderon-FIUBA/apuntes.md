@@ -1,7 +1,3 @@
----
-title: Probabilidad Condicional
----
-
 Sea un espacio muestral y $A, B \in \mathscr A$ con $P(B) > 0$, la probabilidad condicional de $A$ dado que $B$ ha ocurrido está definida por
 
 $$

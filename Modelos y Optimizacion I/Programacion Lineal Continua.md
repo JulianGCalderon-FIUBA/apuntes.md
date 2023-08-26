@@ -1,7 +1,3 @@
----
-title: Programacion Lineal Continua
----
-
 En la programación lineal continua, las variables de decisión serán variables continuas, y el objetivo y las restricciones serán lineales.
 
 Este tipo de modelos no admiten relaciones de menor o mayor estricto, únicamente admiten los símbolos: $\leq, \geq, =$

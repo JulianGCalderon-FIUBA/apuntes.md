@@ -1,7 +1,3 @@
----
-title: Connectionless Transport UDP
----
-
 DNS es un ejemplo de una protocolo de capa de aplicación que típicamente utiliza UDP. Hay múltiples razones por las cuales una aplicación puede preferir este protocolo por sobre el método confiable TCP.
 
 - **Control fino de la información que se envía, y cuando:** En UDP, tan pronto como le proceso de aplicación pasa la información a UDP, este crea un segmento y lo envía a través de la red. Por el otro lado, TCP puede retrasar el envío debido a su mecanismo de control de congestión. Por otro lado, TCP continuará enviando el segmento si no recibe un *acknowledge* de su llegada. Las aplicaciones de tiempo real utilizan UDP, ya que pueden aceptar cierto grado pérdida de información.

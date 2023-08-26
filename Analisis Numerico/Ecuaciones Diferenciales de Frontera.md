@@ -1,7 +1,3 @@
----
-title: Ecuaciones Diferenciales de Frontera
----
-
 ## Definición
 
 Si tenemos un problema de ecuación diferencial con valores en la frontera de siguiente forma, podemos encontrar una aproximación para los valores de $y$.
@@ -10,7 +6,7 @@ $$
 \begin{cases}
 y'' = f(x, y, y')\qquad a \leq x \leq b\\
 y(a) = \alpha \\
-y(b) = \beta 
+y(b) = \beta
 \end{cases}
 $$
 

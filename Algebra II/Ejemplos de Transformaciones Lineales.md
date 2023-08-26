@@ -1,7 +1,3 @@
----
-title: Ejemplos de Transformaciones Lineales
----
-
 ## Rotación en $\mathbb{R}^2$
 
 La siguiente transformación lineal rota un vector un ángulo $\theta$ en sentido antihorario:

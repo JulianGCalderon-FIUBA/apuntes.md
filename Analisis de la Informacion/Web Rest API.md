@@ -1,7 +1,3 @@
----
-title: Web Rest API
----
-
 Para armar modelos de vista, el **frontend** interactúa con la API. Luego devuelve estos modelos para que el navegador lo renderice. Estos pedidos se realizan a través de un request HTTP. La respuesta suele estar en formato JSON, el cual es utilizado para armar las vistas.
 
 Para el **backend**, se suele utilizar Java con Spring Boot, este es un *framework* de Java utilizada para múltiples cosas, entre ellas aplicaciones web. Para la base de datos, existen distintos motores (MySQL)

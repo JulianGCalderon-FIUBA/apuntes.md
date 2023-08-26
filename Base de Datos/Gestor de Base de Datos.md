@@ -1,7 +1,3 @@
----
-title: Gestor de Base de Datos
----
-
 Permiten trabajar con una base de datos de forma cómoda y segura.
 
 ## Funciones Principales

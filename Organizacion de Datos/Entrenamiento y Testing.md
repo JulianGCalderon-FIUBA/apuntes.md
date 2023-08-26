@@ -1,7 +1,3 @@
----
-title: Entrenamiento y Testing
----
-
 ## Separación Entrenamiento / Test
 
 Nunca se utiliza el mismo dato para entrenar un método que para testearlo. Separamos una porción de los datos para testear (aproximadamente un $20\%$ o $30\%$)

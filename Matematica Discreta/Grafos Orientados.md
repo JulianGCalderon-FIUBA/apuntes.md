@@ -1,7 +1,3 @@
----
-title: Grafos Orientados
----
-
 En los grafos orientados, sus aristas son orientadas. Esto es, una arista del vértice $u$ al vértice $v$, no indica un camino del vértice $v$ hacia el vértice $u$. Para los grafos orientados, valen las mismas definiciones que para los grafos vistos anteriormente, con las salvedades que esta definición causa.
 
 Para la matriz de adyacencia, diremos que $u$ es adyacente a $v$ únicamente si existe una arista orientada de $u$ hacia $v$.

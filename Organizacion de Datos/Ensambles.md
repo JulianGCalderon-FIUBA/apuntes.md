@@ -1,7 +1,3 @@
----
-title: Ensambles
----
-
 ## Sesgo vs. Varianza
 
 - Sesgo: Es el debido al modelo según la diferencia entre el valor esperado del estimador y el valor real.

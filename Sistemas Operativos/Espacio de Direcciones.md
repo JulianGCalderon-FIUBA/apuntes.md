@@ -1,7 +1,3 @@
----
-title: Espacio de Direcciones
----
-
 Para generar la ilusión de que un programa tiene toda la memoria de la computadora, el sistema operativo debe virtualizar, generando un espacio de direcciones virtual perteneciente al usuario.
 
 El espacio de direcciones de un proceso contiene toda la memoria del mismo: tanto el *code*, como el *stack* y el *heap*.

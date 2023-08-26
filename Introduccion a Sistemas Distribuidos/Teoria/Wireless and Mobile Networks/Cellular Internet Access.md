@@ -1,7 +1,3 @@
----
-title: Cellular Internet Access
----
-
 ## 1. An Overview of Cellular Network Architecture
 
 Para esta descripción, adoptaremos la terminología de los estándares **Global System for Mobile Communications (GMS)**. Por lo general, las tecnologías de redes de celular pertenecen a una de varias generaciones.

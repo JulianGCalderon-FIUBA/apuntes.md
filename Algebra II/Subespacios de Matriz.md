@@ -1,7 +1,3 @@
----
-title: Subespacios de Matriz
----
-
 ## Columna
 
 Se define $\text{Col}(A)$, al subespacio formado por combinación lineal de las columnas de $A$
