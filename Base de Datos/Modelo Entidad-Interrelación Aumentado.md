@@ -46,7 +46,7 @@ La restricción de **completitud** o totalidad puede ser total, o parcial. Una *
 
 Por lo general, una superclase que fue identificada a través de la generalización es total, pues la superclase fue derivada de las subclases.
 
-### Jerarquías y Enrejados
+### Jerarquías y Redes
 
 En una **especialización jerárquica**, cada subclase participa como subclase con a lo sumo una superclase, resultando en una estructura de árbol.
 
