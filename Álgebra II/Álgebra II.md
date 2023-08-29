@@ -5,7 +5,7 @@
 - [[Operaciones entre Subespacios]]
 - [[Transformaciones Lineales]]
 - [[Ejemplos de Transformaciones Lineales]]
-- [[Algebra II/Ecuaciones Diferenciales Ordinarias|Ecuaciones Diferenciales Ordinarias]]
+- [[Álgebra II/Ecuaciones Diferenciales Ordinarias|Ecuaciones Diferenciales Ordinarias]]
 - [[Producto Interno]]
 - [[Ortogonalidad]]
 - [[Método de Gram-Schmidt]]

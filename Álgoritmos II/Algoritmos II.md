@@ -1,7 +1,7 @@
 - [[Memoria]]
 - [[Punteros]]
 - [[Análisis de Algoritmos]]
-- [[Algoritmos II/Recursividad|Recursividad]]
+- [[Álgoritmos II/Recursividad|Recursividad]]
 - [[TDA]]
 - [[Pilas, Colas y Listas]]
 - [[Iteradores de Lista]]

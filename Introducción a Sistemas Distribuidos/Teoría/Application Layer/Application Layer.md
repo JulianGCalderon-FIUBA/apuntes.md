@@ -3,7 +3,7 @@
 1. [[Principles of Network Applications]]
 2. [[The Web and HTTP]]
 3. [[Electronic Mail in the Internet]]
-4. [[Introduccion a Sistemas Distribuidos/Teoria/Application Layer/DNS|DNS]]
+4. [[Introducción a Sistemas Distribuidos/Teoría/Application Layer/DNS|DNS]]
 5. [[Peer-to-Peer File Distribution]]
 6. [[Video Streaming and Content Distribution Network]]
 7. [[Socket Programming Creating a Network Application]]

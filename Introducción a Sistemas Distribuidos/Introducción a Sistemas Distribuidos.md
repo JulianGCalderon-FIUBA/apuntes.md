@@ -16,6 +16,6 @@ Apuntes prácticos de la materia:
 - [[Subnetting]]
 - [[Fragmentación]]
 - [[NAT]]
-- [[Introduccion a Sistemas Distribuidos/Practica/DNS|DNS]]
+- [[Introducción a Sistemas Distribuidos/Práctica/DNS|DNS]]
 
 El trabajo teórico final fue resumido en el documento: [[Breaking WEP]]

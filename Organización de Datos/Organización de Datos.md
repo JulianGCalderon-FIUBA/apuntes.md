@@ -1,4 +1,4 @@
-- [[Organizacion de Datos/Introducción|Introducción]]
+- [[Organización de Datos/Introducción|Introducción]]
 - [[Ciencia de Datos]]
 - [[Modelos Comunes]]
 - [[Entrenamiento y Testing]]
