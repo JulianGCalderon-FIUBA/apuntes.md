@@ -42,6 +42,6 @@ $$
 
 Un diagrama de árbol es una forma gráfica de mostrar los distintos resultados del experimento aleatorio. Cada ramificación del árbol contiene, a su vez, distintos eventos que pueden resultar de él.
 
-![[Probabilidad Condicional 1.png|450]]
+![[Probabilidad Condicional 1693351689.png|450]]
 
 Podemos ver que los elementos de nuestra álgebra de eventos son $A, B, C, D$. A su vez, $A,B$ es una partición de $\Omega$. Por lo que los eventos $C, D$ se pueden escribir en función de sus probabilidades respecto a $A,B$, a partir del teorema de Bayes.

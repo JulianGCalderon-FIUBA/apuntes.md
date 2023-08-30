@@ -7,7 +7,7 @@ El algoritmo **Depth First Search** (DFS) es un algoritmo que busca encontrar un
 3. Se avanza en profundidad, cuidando de no crear ciclos, formando un árbol generador. Cada vértice se etiqueta en orden que se recorre.
 4. Se orienta cada arista que es parte del árbol generador, de menor a mayor. Las agregan las aristas que no son parte de árbol generador, orientándolas del vértice mayor al vértice menor, a partir de la secuencia definida previamente.
 
-![[Algoritmos 1.png|500]]
+![[Algoritmos 1693351686.png|500]]
 
 ## Prim
 

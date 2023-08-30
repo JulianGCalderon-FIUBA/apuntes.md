@@ -9,7 +9,7 @@ Para simplificar un circuito, aplicamos los teoremas del álgebra de Boole para 
 
 El mapa de Karnaugh consiste en hacer una tabla de doble entrada, donde separamos variables. Marcamos en la tabla para que valores la función binaria devuelve un $1$.
 
-![[Simplificacion de Funciones 1.png|475]]
+![[Simplificación de Funciones 1693351682.png|475]]
 
 A partir de los valores de esta tabla, podemos simplificar términos. Consiste en agrupar minitérminos y representarlos con un único termino. Notemos que este método únicamente aplica el postulado P5 de Huntington.
 

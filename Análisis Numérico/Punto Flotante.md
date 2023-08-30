@@ -18,7 +18,7 @@ Definiendo:
 
 Podemos observar en la siguiente imagen, los formatos típicos de los números de máquinas
 
-![[Punto Flotante 1.png|475]]
+![[Punto Flotante 1693351678.png|475]]
 
 ## Propiedades
 

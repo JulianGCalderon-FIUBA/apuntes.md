@@ -98,7 +98,7 @@ Observemos que $n(G \times H) = n(G) \cdot n(H)$, y que $m = n(H)m(G) + n(G)m(H)
 
 Un ejemplo podría ser el de la telaraña $W_{n,m}$:
 
-![[Operaciones entre Grafos 1.png|400]]
+![[Operaciones entre Grafos 1693351687.png|400]]
 
 ## Eliminación de Vértice/Arista
 
@@ -116,19 +116,19 @@ Si un grafo puede ser reconstruido a partir de su deck, se dice que es reconstru
 
 Dada una [[Clasificaciones#Inmersión|inmersión]] de un grafo $G$, se define su dual $G^*$ al grafo que tiene tantos vértices como caras del original, existiendo una arista entre dos vértices del dual por cada arista de frontera entre las correspondientes caras del original. El dual del dual se llama **bidual**, y se denota $G^{**}$.
 
-![[Operaciones entre Grafos 2.png|425]]
+![[Operaciones entre Grafos 1693351687-1.png|425]]
 
 Se observa que $C_3^{**} \cong C_3$$C_3^{**} = C_3$, pero en general no se puede decir que $G^{**} \cong G$. Esto ocurre si el original es conexo $(2P_2^{**} \ncong 2P_2)$
 
 Sean $G, H$ dos inmersiones isomorfas, entonces no necesariamente se cumple que $G^* \cong H^*$.
 
-![[Operaciones entre Grafos 3.png|475]]
+![[Operaciones entre Grafos 1693351687-2.png|475]]
 
 Podemos observar en este ejemplo que los grafos iniciales son isomorfos, pero los grafos duales no lo son (tienen distinto grado máximo).
 
 Curiosamente, observamos que los grafos resultantes son planares.
 
-![[Operaciones entre Grafos 4.png|475]]
+![[Operaciones entre Grafos 1693351687-3.png|475]]
 
 > [!note] Observación
 > El dual siempre es conexo, por la definición de cara.

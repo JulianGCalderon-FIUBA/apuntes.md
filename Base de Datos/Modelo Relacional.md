@@ -11,11 +11,11 @@ Cada uno de los atributos $A_i$ tiene un **dominio** $D_i$ asociado, que indica 
 
 Una **relación** $R$ con esquemas de relación $R(A_1, A_2, \cdots, A_n)$ es un subconjunto del producto cartesiano $D_1 \times D_2 \times \cdots \times D_n$
 
-A cada elemento de una relación se lo denomina **tupla**.
+A cada elemento de una relación se lo denomina **tupla**
 
 A partir de estas definiciones, podemos definir una función llamada **predicado** para cada relación que, a partir de una tupla $(D_1, D_2, \cdots, D_n)$ nos devuelva si estos se encuentran relacionados.
 
-El valor tomado por un atributo $A$ en determinada tupla $t$ se denota como $t[A]$, o $t.A$.
+El **valor** tomado por un atributo $A$ en determinada tupla $t$ se denota como $t[A]$, o $t.A$.
 
 La **cardinalidad** de una relación es la cantidad de tuplas que posee.
 
@@ -32,8 +32,6 @@ Los atributos deben ser **atómicos**. No se permiten valores compuestos.
 No puede haber dos tuplas que coincidan en los valores de todos sus atributos. Generalmente, hay un subconjunto de atributos $SK$ para el cual se cumple la condición que dos tuplas cualesquiera difieran en al menos uno de los atributos de $SK$.
 
 Cuando un subconjunto $SK$ de atributos cumple también esta prioridad, se dice que son una **superclave** de $R$. Las superclaves que son minimales se denominan **claves candidatas**. Solo una de ellas se designa como **clave primaria**.
-
-Las claves candidatas se pueden definir manualmente para imponer restricciones adicionales.
 
 Una **clave foránea** es un atributo de una tupla que refiere a una clave primaria de otra tupla (de la misma, u otra relación)
 
@@ -61,6 +59,8 @@ En las operaciones de **modificación**, si se modifica una clave foránea, se d
 
 Los tipos de entidades se transforman en una relación, con los atributos claves como claves primarias.
 
+![[Modelo Relacional 1693352989.png|475]]
+
 ### Interrelaciones
 
 Los tipos de interrelaciones se resuelven de distintas formas según las cardinalidades
@@ -69,23 +69,51 @@ Los tipos de interrelaciones se resuelven de distintas formas según las cardina
 
 Para el caso de $n$ a $n$ se transforman en una relación que contenga como claves foráneas las claves de las entidades que participan.
 
+![[Modelo Relacional 1693353077.png|475]]
+
 #### Uno a Muchos
 
-Para el caso de $1$ a $n$ se resuelven con una clave foránea en la entidad que se relaciona con una sola entidad. Sin embargo, también pueden resolverse con relaciones separadas.
+Podremos utilizar una relación adicional para la interrelación
+
+![[Modelo Relacional 1693353531.png|475]]
+
+Si hubiese participación total, entonces es mejor reutilizar la tabla de la entidad dependiente.
+
+![[Modelo Relacional 1693353627.png|475]]
 
 #### Uno a Uno
 
-Para el caso de $1$ a $1$ se pueden resolver con una clave foránea en cualquier lado de la entidad. Además, se puede declarar como clave candidata para imponer la restricción de uno a uno.
+Una opción simple es utilizar una relación adicional
 
-Al igual que en el resto de casos, se puede utilizar una tabla adicional.
+![[Modelo Relacional 1693353143.png|500]]
 
-Para las entidades con participación total, es conveniente no utilizar una tabla adicional.
+Si tenemos participación total, es recomendable colocar la clave foránea en la entidad dependiente.
+
+![[Modelo Relacional 1693353180.png|500]]
+
+Nos asegura que se cumpla la dependencia. Además, se puede declarar como clave candidata para imponer la restricción de uno a uno.
+
+Si no hay participación total, debemos admitir que la clave foránea tome valor nulo.
+
+Si ambas tienen participación total, entonces podremos unificarlas en una sola tabla
+
+![[Modelo Relacional 1693353485.png|500]]
 
 #### Ternarias
 
 Podemos generar una tabla adicional con claves foráneas a las claves principales de las entidades que participan.
 
-Para el caso de ternaria con cardinalidad $N, N, 1$, las claves primarias serán las de cardinalidad $N$. Para el caso de ternaria con cardinalidad $N, 1, 1$, las claves primarias serán la de cardinalidad $N$, y una de cardinalidad $1$.
+Para el caso de ternaria con cardinalidad $N, N, N$, las claves primarias serán todas las claves foráneas
+
+![[Modelo Relacional 1693354368.png|500]]
+
+Para el caso de ternaria con cardinalidad $N, N, 1$, las claves primarias serán las de cardinalidad $N$.
+
+![[Modelo Relacional 1693354423.png|500]]
+
+Para el caso de ternaria con cardinalidad $N, 1, 1$, las claves primarias serán la de cardinalidad $N$, y alguna otra.
+
+![[Modelo Relacional 1693354476.png|500]]
 
 ### Atributos
 
@@ -93,14 +121,26 @@ Los atributos en las interrelaciones se agregan como atributos normales en sus r
 
 Los atributos multievaluados pueden ser representados como una relación $n$ a $n$.
 
+![[Modelo Relacional 1693353045.png|475]]
+
 Los atributos compuestos pueden ser representados a partir de sus componentes atómicos.
 
 ### Entidades Débiles
 
 Las claves dependientes pueden ser registradas como claves foráneas y, a su vez, como claves primarias.
 
+![[Modelo Relacional 1693353713.png|475]]
+
 Como siempre será una dependencia total, no necesitaremos una tabla adicional.
 
 ### Especializaciones
 
-Podemos crear una clave subrogada, que refiera a la superclase. Las subclases tienen una clave foránea refiriendo a una tupla de la superclase.
+Las subclases tienen una clave foránea refiriendo a la superclase, permitiendo expandir sus atributos y relaciones.
+
+![[Modelo Relacional 1693354035.png|475]]
+
+### Uniones
+
+Para las uniones, las superclases tienen una clave subrogada, refiriendo a la subclase.
+
+![[Modelo Relacional 1693354200.png|475]]

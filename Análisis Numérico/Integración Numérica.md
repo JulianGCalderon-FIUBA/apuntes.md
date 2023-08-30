@@ -94,4 +94,4 @@ $$
 R^{(k)}(h) = \frac{4^k R^{(k-1)}(h/2) - R^{(k-1)}(h)}{4^k-1}
 $$
 
-![[Diferenciacion Numerica 1.png|425]]
+![[Diferenciación Numérica 1693351678.png|425]]

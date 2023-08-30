@@ -8,21 +8,21 @@ Una llave es una porción del circuito que se puede abrir o cerrar, también se 
 
 Los conductores ideales (cables) no tienen resistencia, en la práctica este cable no existe.
 
-![[Circuito Electrico 1.png|425]]
+![[Circuito Eléctrico 1693351685.png|425]]
 
-![[Circuito Electrico 2.png|425]]
+![[Circuito Eléctrico 1693351685-1.png|425]]
 
  Para nosotros, los siguientes significan lo mismo: Fuentes de corriente continua
 
-![[Circuito Electrico 3.png|475]]
+![[Circuito Eléctrico 1693351685-2.png|475]]
 
 Un capacitor almacena cargas, energía. Hay varios tipos distintos. Se considera un capacitor variable si podemos modificar sus propiedades. El capacitor polarizado es más barato, pero solo permite que las cargas positivas estén de un lado, si esto no se cumple el capacitor se quema.
 
-![[Circuito Electrico 4.png|475]]
+![[Circuito Eléctrico 1693351685-3.png|475]]
 
 Las resistencias imponen una diferencia de potencial sobre el circuito. Permite que los componentes no se quemen. La caída de potencial que causa la resistencia es negativa en el sentido positivo de la corriente.
 
-![[Circuito Electrico 5.png|475]]
+![[Circuito Eléctrico 1693351685-4.png|475]]
 
 ## Leyes de Kirchhoff
 

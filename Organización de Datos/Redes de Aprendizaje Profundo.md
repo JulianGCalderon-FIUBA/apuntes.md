@@ -53,7 +53,7 @@ Estas redes tienen distintas capas, son complejas:
 
 Son útiles cuando los patrones de los datos cambian con el tiempo. Pueden recibir una secuencia de valores de entrada y devolver una secuencia de valores de salida. Las capas están conectadas en secuencia, donde cada capa puede tener una o múltiples neuronas.
 
-![[Redes de Aprendizaje Profundo 1.png]]
+![[Redes de Aprendizaje Profundo 1693351688.png]]
 
 Se conoce como celdas de memoria, a la parte de una red neuronal que mantiene algún estado a lo largo de los pasos de tiempo.
 
@@ -125,7 +125,7 @@ Son redes neuronales profundas no supervisadas que generan datos nuevos:
 2. Por otro lado, tendremos un generador. Una red convolucional inversa, partimos de ruido y generamos una imagen.
 3. Aquellas imágenes generadas que no sean detectados como imagen, serán devueltos al generador para que actualice sus pesos.
 
-![[Redes de Aprendizaje Profundo 2.png|500]]
+![[Redes de Aprendizaje Profundo 1693351688-1.png|500]]
 
 ### ProGAN
 

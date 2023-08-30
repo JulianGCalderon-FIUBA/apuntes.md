@@ -7,7 +7,7 @@ Un tipo de dato define dos cosas importantes:
 
 Los lenguajes de programación tienen tipos de datos **primitivos**, los cuales son predefinidos por el lenguaje de programación.
 
-![[TDA 1.png|525]]
+![[TDA 1693351689.png|525]]
 
 ## Abstracción
 
@@ -15,7 +15,7 @@ Proviene del latín *abstractio*, y significa: separar aisladamente en la mente 
 
 Separamos lo que nos **importa**, y nos olvidamos de lo **innecesario**
 
-![[TDA 2.png|450]]
+![[TDA 1693351689-1.png|450]]
 
 En la imagen se ve una demostración de Picasso del concepto de abstracción.
 

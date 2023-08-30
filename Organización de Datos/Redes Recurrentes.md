@@ -1,6 +1,6 @@
 Es una red que trabaja con secuencias. La salida de una neurona es alimentada a la siguiente de forma sucesiva
 
-![[Redes Recurrentes 1.png|200]] ![[Redes Recurrentes 2.png|200]]
+![[Redes Recurrentes 1693351688.png|200]] ![[Redes Recurrentes 1693351688-1.png|200]]
 
 Tendremos entonces un conjunto de $n$ entradas y un conjunto de $n$ salidas, estas entradas son analizadas en secuencia.
 
@@ -44,7 +44,7 @@ El enfoque *naive* para analizar el error es comprar con el último valor de una
 
 Estas celdas suelen ser más rápidas, y con mayor memoria.
 
-![[Redes Recurrentes 3.png|500]]
+![[Redes Recurrentes 1693351688-2.png|500]]
 
 Tiene una entrada $c$, llamada entrada a largo plazo. Permite tener más memoria debido a esta nueva entrada.
 
@@ -58,7 +58,7 @@ La puerta de salida controla que partes continúan a la siguiente neurona, como 
 
 Versión simplificada de la versión anterior, pero funciona igual de bien
 
-![[Redes Recurrentes 4.png]]
+![[Redes Recurrentes 1693351688-3.png]]
 
 No tendremos una entrada a largo plazo. La puerta del olvido y de entrada se simplificaron en una sola, o bien borro recuerdos, o sumo recuerdos.
 

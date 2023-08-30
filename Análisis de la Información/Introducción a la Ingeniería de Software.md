@@ -22,7 +22,7 @@ Convertir un programa en un producto específico implica **generalización, test
 
 El cuerpo de conocimiento está compuesto por un conjunto de **áreas de conocimiento.** Una descripción de cada una puede hallarse en el documento SWEBOK
 
-![[Introducción a la Ingeniería de Software 1.png|550]]
+![[Introducción a la Ingeniería de Software 1693351679.png|550]]
 
 ## Procesos
 
@@ -42,7 +42,7 @@ Una vez finalizado el desarrollo inicia la etapa de producción. Este es un esfu
 
 La intensidad de cada disciplina varía según la etapa del proyecto
 
-![[Introducción a la Ingeniería de Software 2.png|500]]
+![[Introducción a la Ingeniería de Software 1693351679-1.png|500]]
 
 ## SCRUM
 

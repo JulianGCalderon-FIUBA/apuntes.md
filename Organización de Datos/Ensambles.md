@@ -5,13 +5,13 @@
 
 Se busca tener bajo sesgo y baja varianza.
 
-![[Ensambles 1.png|500]]
+![[Ensambles 1693351687.png|500]]
 
 ## Ensamble de Modelos
 
 A veces, un solo modelo no es suficiente para aprender un concepto completo, pero muchos modelos en conjuntos pueden aprender una gran parte del concepto
 
-![[Ensambles 2.png|500]]
+![[Ensambles 1693351687-1.png|500]]
 
 Se puede utilizar un proceso de **votación** para obtener la mejor clase, utilizando la predicción de cada modelo. Si devuelven probabilidades, se puede hacer una votación ponderada.
 

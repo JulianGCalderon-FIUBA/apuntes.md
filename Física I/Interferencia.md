@@ -28,7 +28,7 @@ $$
 
 Las fuentes $S_1,\,S_2$ son puntuales y monocromáticas. Al provenir de la misma fuente, asumimos que $\Delta \varphi = 0$
 
-![[Interferencia 1.png|475]]
+![[Interferencia 1693351684.png|475]]
 
 $$
 \Delta x = \Delta r = d\sin\theta
@@ -86,7 +86,7 @@ $n = \pm1,2,3\cdots$
 
 Le asignamos a cada onda un fasor, y calculamos la suma de las ondas para llegar a la onda resultante.
 
-![[Interferencia 2.png|475]]![[Interferencia 3.png|475]]
+![[Interferencia 1693351684-1.png|475]]![[Interferencia 1693351684-2.png|475]]
 
 $$
 \begin{gathered}

@@ -26,7 +26,7 @@ Como el protocolo UDP, el *header* de TCP contiene los puertos de destino y envi
 	- **PSH bit:** Indica que el receptor de enviar los datos a la capa de arriba de forma inmediata
 	- **URG bit:** Indica que hay información en el segmento que es marcada como segmento. La dirección del último bit de información urgente es indicado en el *urgent data pointer field*.
 
-![[Connection-Oriented Transport TCP 1.png|425]]
+![[Connection-Oriented Transport TCP 1693351685.png|425]]
 
 ### Sequence Numbers and Acknowledgment Numbers
 
@@ -137,7 +137,7 @@ Durante la vida de una conexión TCP, los hosts atraviesan distintos estados:
 
 #### Client State Diagram
 
-![[Connection-Oriented Transport TCP 2.png|425]]
+![[Connection-Oriented Transport TCP 1693351685-1.png|425]]
 
 El último estado del cliente *(time wait)* se utiliza para reenviar un ACK en caso de que este se haya perdido en la red.
 
@@ -145,4 +145,4 @@ Cuando un cliente envía un *SYN SEGMENT* a una dirección y puerto en el que no
 
 #### Server State Diagram
 
-![[Connection-Oriented Transport TCP 3.png|425]]
+![[Connection-Oriented Transport TCP 1693351686.png|425]]

@@ -56,6 +56,6 @@ Los $NP{-}\text{Completos}$ son la intersección entre los $NP$ y los $NP{-}\tex
 
 El problema del milenio $P$ vs. $NP$ es aquel que busca definir si todo algoritmo $NP$ es, también, un algoritmo $P$. Es decir, si todo algoritmo que es verificable en tiempo polinomial, también es resoluble en tiempo polinomial.
 
-![[Complejidad de Problemas 1.png]]
+![[Complejidad de Problemas 1693351687.png]]
 
 En la imagen, vemos un diagrama de Euler para las clases de dificultad, según el resultado del problema

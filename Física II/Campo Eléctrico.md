@@ -75,4 +75,4 @@ Las líneas de campo son salientes de las cargas positivas (fuentes), y entrante
 
 Las líneas de campo nunca se cruzan, ya que cada punto pertenece a una sola línea de campo.
 
-![[Campo Electrico 1.png|450]]
+![[Campo Eléctrico 1693351685.png|450]]

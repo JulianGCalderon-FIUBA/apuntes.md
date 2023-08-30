@@ -35,7 +35,7 @@ La arquitectura ARC maneja datos de 32 bits, direccionables por byte. Contiene u
 
 El mapa de memoria está especificado por el siguiente gráfico:
 
-![[Sistema ARC 1.png]]
+![[Sistema ARC 1693351682.png]]
 
 La mitad de la memoria se utiliza para los dispositivos de entrada y salida, la otra mitad se utiliza para el sistema operativo *(2048 bytes)* y para la memoria RAM.
 
@@ -54,7 +54,7 @@ Debido a esto, para operar con números debemos cargarlo a un registro, y a part
 
 ## Instrucciones ARC
 
-![[Sistema ARC 2.png|475]]
+![[Sistema ARC 1693351683.png|475]]
 
 - Las operaciones que terminan en *"cc"* alteran el contenido de los flags luego de la operación.
 - La **bifurcación** salta a una dirección de memoria si se cumple una condición
@@ -62,7 +62,7 @@ Debido a esto, para operar con números debemos cargarlo a un registro, y a part
 
 ## Registros accesibles al Programador
 
-![[Sistema ARC 3.png|475]]
+![[Sistema ARC 1693351683-1.png|475]]
 
 - Los registros `%r` son de propósito general y se pueden utilizar libremente, excepto por algunas excepciones.
 - El registro **PSR** es el que guarda los flags, pero no podemos acceder a su valor, únicamente a través de instrucciones.
@@ -73,7 +73,7 @@ Debido a esto, para operar con números debemos cargarlo a un registro, y a part
 
 ## Sintaxis
 
-![[Sistema ARC 4.png|475]]
+![[Sistema ARC 1693351683-2.png|475]]
 
 - Distingue mayúsculas de minúsculas
 - Números por defecto en base 10
@@ -81,7 +81,7 @@ Debido a esto, para operar con números debemos cargarlo a un registro, y a part
 
 ## Directivas del Ensamblador
 
-![[Sistema ARC 5.png|475]]
+![[Sistema ARC 1693351683-3.png|475]]
 
 - Indican al ensamblador como procesar una sección del programa
 - Las instrucciones son específicas de un procesador, las pseudo-instrucciones son específicas de un programa ensamblador
@@ -107,7 +107,7 @@ El código de máquina de una macro se repite tantas veces como se invoque. En e
 
 Las instrucciones son traducidas en código de máquina. Hay cinco formatos de instrucción.
 
-![[Sistema ARC 6.png|475]]
+![[Sistema ARC 1693351683-4.png|475]]
 
 ## Modos de Direccionamientos
 

@@ -22,7 +22,7 @@ Se separa en tres elementos
 
 Para resolver el problema del manejo de numerosas historias de usuario, aparece el concepto de **épica** o de epopeya. Consiste en agrupar historias en relatos de mayor nivel, llamados épicas.
 
-![[Historias de Usuario 1.png|500]]
+![[Historias de Usuario 1693351679.png|500]]
 
 Podemos dar nombres a las historias para identificarlas fácilmente
 
@@ -70,25 +70,25 @@ Primero debemos entender cuáles son los límites del sistema que estamos analiz
 
 Es un posible enfoque para descubrir historias de usuario, describe las actividades que realizan a lo largo del tiempo los usuarios de una aplicación y su descomposición en sub actividades y tareas. A partir de las tareas podemos identificar historias de usuario. Cada sub actividad tendrá al menos una tarea asociada.
 
-![[Historias de Usuario 2.png|500]]
+![[Historias de Usuario 1693351679-1.png|500]]
 
 ### Impact Mapping
 
 Técnica de planificación que tiene como propósito alinear los equipos de trabajo con los objetivos de la organización
 
-![[Historias de Usuario 3.png|500]]
+![[Historias de Usuario 1693351679-2.png|500]]
 
 ### Proceso de Desarrollo
 
 En el proceso de desarrollo, asignaremos historias de usuario a los distintos *releases* del proyecto
 
-![[Historias de Usuario 4.png|500]]
+![[Historias de Usuario 1693351679-3.png|500]]
 
 ### Product & Sprint Backlogs
 
 En **SCRUM**, las historias de usuario se almacenan en el *product backlog* y son seleccionadas para determinados *sprints*. Cada historia se estima utilizando una técnica llamada *user story points*, que nos permite analizar la complejidad de las historias de usuario. A partir de las historias seleccionadas se determinan las tareas a realizar, en el *sprint backlog*.
 
-![[Historias de Usuario 5.png|375]]
+![[Historias de Usuario 1693351679-4.png|375]]
 
 ### Kanbag
 
@@ -96,7 +96,7 @@ Es un sistema de planificación y organización del trabajo. Su objetivo es ayud
 
 Tendremos una tarjeta por cada historia de usuario y por cada defecto encontrado en el software. Las historias de usuario se moverán por el tablero para indicar el estado de las mismas.
 
-![[Historias de Usuario 6.png|450]]
+![[Historias de Usuario 1693351679-5.png|450]]
 
 ## Niveles de Objetivos
 
@@ -111,4 +111,4 @@ Propuestos por Alistar Cockurn. Separan los objetivos en cuatro niveles:
 
 Una forma de definir un criterio, es define el escenario, un contexto específico, el evento, y el resultado esperado
 
-![[Historias de Usuario 7.png|600]]
+![[Historias de Usuario 1693351679-6.png|600]]

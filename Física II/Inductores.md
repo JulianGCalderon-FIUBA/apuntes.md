@@ -34,7 +34,7 @@ Los puntos rojos (bornes homólogos) indican el sentido de la corriente, si los 
 
 Las dos líneas paralelas del medio, indican que ambos inductores están sobre un mismo material magnético
 
-![[Inductores 1.png|300]]
+![[Inductores 1693351685.png|300]]
 
 Si yo quiero calcular la diferencia de potencial de esos inductores, debo calcular:
 
@@ -99,7 +99,7 @@ El signo de $\pm$ varía si los bornes son homólogos $(+)$ o no homólogos $(-)
 
 Compuesto por un toroide de un cierto material magnético. Alrededor del toroide tiene envuelto dos solenoides de $N_1, N_2$ espiras. Podemos encontrar una relación entre el número de espiras entre $N_1$ y $N_2$, para lograr transformar el voltaje desde $\varepsilon_1$ a $\varepsilon_2$
 
-![[Inductores 2.png|375]]
+![[Inductores 1693351685-1.png|375]]
 
 $$
 \frac{\varepsilon_1}{\varepsilon_2} = \frac{N_1}{N_2}

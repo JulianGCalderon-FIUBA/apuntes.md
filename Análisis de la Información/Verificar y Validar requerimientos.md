@@ -16,7 +16,7 @@ La verificación y validación pueden tener lugar en cualquier momento del ciclo
 
 Para cada elemento, tendremos técnicas para su correcta verificación y validación:
 
-![[Verificar y Validar requerimientos 1.png|500]]
+![[Verificar y Validar requerimientos 1693351680.png|500]]
 
 La prueba de aceptación es una técnica de validación, mientras que las otras técnicas son de verificación.
 
@@ -24,11 +24,11 @@ La prueba de aceptación es una técnica de validación, mientras que las otras 
 
 Tendremos actividades dinámicas y estáticas. Las actividades dinámicas están relacionadas con las pruebas del software.
 
-![[Verificar y Validar requerimientos 2.png|500]]
+![[Verificar y Validar requerimientos 1693351680-1.png|500]]
 
 Las revisiones por pares es una familia que incluye múltiples técnicas, según la estructura y la cantidad de integrantes
 
-![[Verificar y Validar requerimientos 3.png|500]]
+![[Verificar y Validar requerimientos 1693351680-2.png|500]]
 
 Las revisiones de a pares es un tipo de revisión en el cual y un artefacto es examinado por pares (lideradas por el autor) con el propósito de encontrar defectos. No hay específicamente una técnica que se llame "revisión de pares", sino que existen varias y cada una tiene características particulares y distintivas.
 
@@ -52,7 +52,7 @@ Son mucho más formales, hay roles, pasos, etapas, artefactos detallados. Tiene 
 6. **Retrabajo:** El autor resuelve los defectos encontrados. Luego de esta etapa, se puede volver a la etapa de planificación.
 7. **Seguimiento:** El moderador verifica que se haya realizado el trabajo.
 
-![[Verificar y Validar requerimientos 4.png|175]]
+![[Verificar y Validar requerimientos 1693351680-3.png|175]]
 
 Algunas personas proponen que los autores no deberían participar en la inspección, para evitar posibles rencores generados.
 

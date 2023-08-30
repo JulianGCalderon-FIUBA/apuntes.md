@@ -36,7 +36,7 @@ En el cálculo de trabajo, el procedimiento es el mismo que en un cuerpo puntual
 
 ### Cálculo de $\Delta x$ en $A$
 
-![[Energia CR 1.png|425]]
+![[Energía CR 1693351684.png|425]]
 
 $$
 W^F = \int F\cdot dx_A

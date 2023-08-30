@@ -4,7 +4,7 @@ Los registros son bloques que permiten almacenar un dato y recuperarlo un tiempo
 
 Cada Flip-Flop D está conectado a una entrada externa, el Flip-Flop D guarda el valor recibido al recibir un pulso de reloj
 
-![[Registros y Contadores 1.png|500]]
+![[Registros y Contadores 1693351682.png|500]]
 
 Con cada ciclo de reloj, la entrada de 4 bits es copiada en la salida.
 
@@ -18,13 +18,13 @@ Cada Flip-Flop D está conectado con el siguiente, por lo que cada uno copia la 
 
 ### Carga de Datos en Serie
 
-![[Registros y Contadores 2.png|500]]
+![[Registros y Contadores 1693351682-1.png|500]]
 
 Tiene una única entrada, se debe esperar a que todos los datos estén cargados en el registro, a un pulso de reloj por vez.
 
 ### Carga de Datos en Paralelo
 
-![[Registros y Contadores 3.png|475]]
+![[Registros y Contadores 1693351682-2.png|475]]
 
 Permite que todos los datos se carguen a la vez a partir de multiplexores, además, se puede utilizar la salida en serie para convertir una entrada de datos en paralelo a una entrada de datos en serie.
 

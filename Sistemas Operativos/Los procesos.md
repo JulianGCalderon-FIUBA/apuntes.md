@@ -67,7 +67,7 @@ Para que no todos pueden terminar cualquier proceso, el concepto de **user** def
 - Una vez que el código es cargado en memoria, debe reservarse memoria para el stack del proceso (el cual es limitado). Este es utilizado constantemente en todo el código debido a su velocidad. Esta porción es conocida `.data` o `.stack`
 - El sistema operativo también debe poder reservar memoria en el heap del proceso, memoria dinámica que es administrada únicamente por el sistema operativo. Esta porción es conocida como `.heap`
 
-![[Los procesos 1.png]]
+![[Los procesos 1693351689.png]]
 
 - También debe realizar algunas tareas de inicialización, por ejemplo los *file descriptors* iniciales del proceso.
 - Una vez finalizada la creación del proceso, el sistema operativo empieza a correr el programa en el punto de entrada `main()`
@@ -80,7 +80,7 @@ Los procesos pueden tener los siguientes estados, los cuales son administrados p
 - **Ready:** El proceso está a la espera para ser ejecutado
 - **Blocked:** El proceso realizó alguna operación que lo dejo en este estado, debe esperar al sistema operativo (solicitud de entrada/salida, excepción). El proceso es bloqueado para que otros procesos puedan utilizar el procesador.
 
-![[Los procesos 2.png]]
+![[Los procesos 1693351689-1.png]]
 
 Existen otros estados en los que un proceso puede estar, pero esta es una simplificación. Los estados son: *unused, embryo, sleeping, runnable, running, zombie.*
 

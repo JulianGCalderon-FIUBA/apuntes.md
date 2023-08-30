@@ -8,7 +8,7 @@ Este árbol nos permite tomar decisiones a partir de ciertos valores de entrada.
 
 Para tomar decisiones, utiliza un concepto llamado **entropía** (de la información o de Shannon).
 
-![[Arboles 1.png]]
+![[Árboles 1693351689.png]]
 
 Algoritmo básico:
 

@@ -7,7 +7,7 @@ Se divide en dos partes:
 
 Cada vez que se llama una función, se crea un ámbito nuevo y se va apilando en el *stack* (o pila) de ejecución hasta que termine de ejecutarse la llamada.
 
-![[Álgoritmos I/Attachments/Recursividad 1.png|525]]
+![[Álgoritmos I/Attachments/Recursividad 1693351689.png|525]]
 
 Toda función iterativa puede volverse recursiva, pero no toda función recursiva puede volverse iterativa.
 

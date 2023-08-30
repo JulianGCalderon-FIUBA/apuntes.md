@@ -4,7 +4,7 @@ Las organizaciones usualmente tienen un plan estratégico basado en lo que perci
 
 Adicionalmente, con la estrategia determinaremos como gestionamos la cartera de proyectos y la cartera de productos y servicios. Los productos, a su vez, alimentan las nuevas ideas.
 
-![[Requisitos en Contexto 1.png|550]]
+![[Requisitos en Contexto 1693351680.png|550]]
 
 Las ideas no siempre se transforman en productos. Debemos saber si las ideas son factibles antes de realizar una ingeniería de requisitos completas o un análisis muy detallado. Debemos realizar un análisis de factibilidad, de orden de magnitud.
 
@@ -25,17 +25,17 @@ Es más dinámico, hay más lugar a la innovación
 
 Los requisitos no están aislados. Son la fuente para el desarrollo del producto, para definir su visión, los riesgos, la arquitectura. Cuando hablamos de trazabilidad, estamos buscando el vínculo entre los requisitos y el resto de elementos del desarrollo del software.
 
-![[Requisitos en Contexto 2.png]]
+![[Requisitos en Contexto 1693351680-1.png]]
 
 Sirven para, en buena medida, realizar una estimación de esfuerzo. ¿Cuánto trabajo nos tomará el producto?. Debemos realizar una estimación del tamaño del proyecto a desarrollar. A partir del tamaño, podemos estimar el esfuerzo y a su vez, la duración del proyecto. Del esfuerzo, también podemos estimar los recursos que necesitaremos y los costos asociados
 
-![[Requisitos en Contexto 3.png]]
+![[Requisitos en Contexto 1693351680-2.png]]
 
 ## Método de Estimación
 
 Existen dos grupos principales en los métodos de estimación:
 
-![[Requisitos en Contexto 4.png]]
+![[Requisitos en Contexto 1693351680-3.png]]
 
 ### Métodos algorítmicos
 
@@ -63,7 +63,7 @@ Cada situación requiere un enfoque distinto, cada uno tiene sus propias problem
 
 Los requisitos suceden con diverso grado de intensidad dependiendo de la fase. En las primeras fases del proyecto hay mucho análisis de requisito, y luego va disminuyendo gradualmente, pero nunca finaliza.
 
-![[Requisitos en Contexto 5.png|475]]
+![[Requisitos en Contexto 1693351680-4.png|475]]
 
 Durante la fase inicial se busca tener un pantallazo general e indagar en un porcentaje pequeño de los requisitos de mayor riesgo.
 
@@ -73,13 +73,13 @@ Una de las primeras metodologías ágiles. Plantea un enfoque de desarrollo iter
 
 Se trabaja mucho sobre las historias de usuario y la definición de los casos de prueba.
 
-![[Requisitos en Contexto 6.png|500]]
+![[Requisitos en Contexto 1693351680-5.png|500]]
 
 No hay actividades formales ni requisitos escritos. El eje se trata en programar y liberar frecuentemente. Funciona mejor con equipos pequeños y de alta experiencia.
 
 ### SCRUM
 
-![[Requisitos en Contexto 7.png|500]]
+![[Requisitos en Contexto 1693351680-6.png|500]]
 
 Se parte de una visión para generar un *product backlog*. Que detalle las funcionalidades del sistema. Se elabora un *sprint backlog* con un subconjunto del *product backlog* que se van a desarrollar en el *release*. El sprint dura de 2 a 4 semanas, con reuniones diarias. Al final del *sprint*, debería tener un producto potencialmente entregable.
 
@@ -91,7 +91,7 @@ El *backlog* se define constantemente a medida que se conoce más acerca del pro
 
 Se desarrolla un modelo inicial a partir de la idea del producto, y una lista de *features* a desarrollar. Luego se organiza en iteraciones que toman una pequeña porción de la lista de *features*. A diferencia de otras técnicas, habla de la importancia de diseñar modelos del software.
 
-![[Requisitos en Contexto 8.png|550]]
+![[Requisitos en Contexto 1693351680-7.png|550]]
 
 Tiene una estructura jerárquica para organizar las características a implementar.
 
@@ -148,7 +148,7 @@ En este caso, nos compramos un producto y debemos implementarlo. Son proyectos c
 
 Suele haber una cantidad infernal de requisitos en estos paquetes. Llevan años en desarrollarse
 
-![[Requisitos en Contexto 9.png|550]]
+![[Requisitos en Contexto 1693351680-8.png|550]]
 
 En general hay dos etapas:
 

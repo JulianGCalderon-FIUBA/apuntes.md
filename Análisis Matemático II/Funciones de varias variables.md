@@ -43,13 +43,13 @@ $$
 L_k = \big\lbrace(x,y) \in D/f(x,y) = k\big\rbrace
 $$
 
-![[Funciones de varias variables 1.png|375]]
+![[Funciones de varias variables 1693351678.png|375]]
 
 ## Representación de campos vectoriales
 
 Para **campos vectoriales** de $R^2$ en $R^2$ y $R^3$ en $R^3$, se suele graficar, con origen en cada punto del dominio, un vector flecha que represente el valor vectorial del campo en ese punto
 
-![[Funciones de varias variables 2.png]]
+![[Funciones de varias variables 1693351678-1.png]]
 
 ## Representación de funciones vectoriales
 
@@ -59,4 +59,4 @@ $$
 \vec f(t) = (t,t^2)
 $$
 
-![[Funciones de varias variables 3.png|400]]
+![[Funciones de varias variables 1693351678-2.png|400]]

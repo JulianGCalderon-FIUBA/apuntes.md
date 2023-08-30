@@ -8,7 +8,7 @@ Con la existencia de hilos, el espacio de memorias se complica.
 
 Lo que se está describiendo es las abstracciones del mapa de memoria que provee el sistema operativo a un programa corriendo.
 
-![[Espacio de Direcciones 1.png]]
+![[Espacio de Direcciones 1693351689.png]]
 
 Cuando el usuario accede a cierta dirección de memoria virtual $\text A$, el sistema operativo *mapea* el valor a otra dirección de memoria $\text B$, una dirección de memoria real. Si el usuario accede a una dirección de memoria virtual que no le pertenece, entonces se lanza una excepción.
 

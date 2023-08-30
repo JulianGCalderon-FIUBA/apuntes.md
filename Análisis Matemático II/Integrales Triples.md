@@ -57,7 +57,7 @@ $$
 K = \rho^2\sin(\varphi)\cdot  d\varphi d\theta d\rho
 $$
 
-![[Integrales Triples 1.png]]
+![[Integrales Triples 1693351678.png]]
 
 En la imagen, los parámetros varían según:
 

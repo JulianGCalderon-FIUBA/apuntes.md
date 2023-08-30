@@ -19,7 +19,7 @@ $$
 \int_a^bdy\bigg(\int_{\Psi_1(x)}^{\Psi_2(x)}f(x,y)dx\bigg)
 $$
 
-![[Integrales Dobles 1.png|475]]
+![[Integrales Dobles 1693351678.png|475]]
 
 > [!note]
 > Para regiones más complejas, se puede pensar la integral como la suma de distintas regiones simples, con límites variables conocidos.
@@ -63,4 +63,4 @@ $$
 K = r\cdot drd\theta
 $$
 
-![[Integrales Dobles 2.png|260]]
+![[Integrales Dobles 1693351678-1.png|260]]

@@ -48,7 +48,7 @@ Cuando incorporamos este elemento, debemos tener en cuenta algunas cosas. Cuando
 
 Si esto no se hace, el procesamiento se puede tornar lento cuando algunos procesos ejecutan entrada salida.
 
-![[Planificacion 1.png]]
+![[Planificación 1693351689.png]]
 
 ## Última Suposición
 

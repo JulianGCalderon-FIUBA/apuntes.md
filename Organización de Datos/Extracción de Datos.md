@@ -61,4 +61,4 @@ Esta ontología se puede generar automáticamente:
 
 Hay muchas mejoras a estos métodos
 
-![[Extraccion de Datos 1.png|500]]
+![[Extracción de Datos 1693351687.png|500]]

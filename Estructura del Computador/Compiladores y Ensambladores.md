@@ -102,7 +102,7 @@ Hay varias instancias
 - **Linking Loader:** Linkea en tiempo de carga. Además de relocalizar, Busca automáticamente bibliotecas, Linkea y carga el programa en memoria. De esta forma, el ejecutable no tiene que contener las bibliotecas utilizadas.
 - **Linking Loader Dinámico:** Carga rutinas únicamente cuando el programa las necesita. Utiliza *Dynamic Link Libraries (dll)*
 
-![[Compiladores y Ensambladores 1.png|450]]
+![[Compiladores y Ensambladores 1693351682.png|450]]
 
 ## Archivos Objeto
 

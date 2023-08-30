@@ -11,7 +11,7 @@ Para esta descripción, adoptaremos la terminología de los estándares **Global
 
 El término *celular* proviene de que las regiones cubiertas por una red celular se conocen como **celdas**. Cada celda contiene un **base transceiver station (BTS**) que transmite señal desde y hacia las estaciones móviles dentro de la celda.
 
-![[Cellular Internet Access 1.png|475]]
+![[Cellular Internet Access 1693351686.png|475]]
 
 El área de cubrimiento de una célula depende de muchos factores, incluyendo el poder de transmisión de la BTS, de los dispositivos de usuario, de los edificios que obstruyen, las antenas, etc.
 
@@ -27,7 +27,7 @@ Una red de proveedor celular tiene un número de MSC, con algunos especiales con
 
 Para poder transferir datos correctamente, los dispositivos debe poder mantener conexiones TCP estables mientras están en movimiento.
 
-![[Cellular Internet Access 2.png|450]]
+![[Cellular Internet Access 1693351686-1.png|450]]
 
 ### 3G Core Network
 
@@ -48,7 +48,7 @@ Un cambio significativo entre las redes 3G UMTS y las redes 2G es que en lugar d
 
 Hay dos innovaciones importantes que surgieron con la llegada de los sistemas 4G
 
-![[Cellular Internet Access 3.png]]
+![[Cellular Internet Access 1693351686-2.png]]
 
 ### 4G System Architecture: An All-IP Core Network
 

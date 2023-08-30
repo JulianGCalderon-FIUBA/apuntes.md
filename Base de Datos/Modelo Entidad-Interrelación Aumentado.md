@@ -6,7 +6,7 @@ Las subclases y superclases nos permiten representar relaciones del tipo "es un"
 
 A través del concepto de herencia, las subclases heredan atributos y tipos de interrelaciones de su entidad padre.
 
-![[Modelo Entidad-Interrelación Aumentado 2.png|375]]
+![[Modelo Entidad-Interrelación Aumentado 1693351680.png|375]]
 
 ### Especialización
 
@@ -42,7 +42,7 @@ La restricción de **completitud** o totalidad puede ser total, o parcial. Una *
 
 Por lo general, una superclase que fue identificada a través de la generalización es total, pues la superclase fue derivada de las subclases.
 
-![[Pasted image 20230829183839.png|375]]
+![[Modelo Entidad-Interrelación Aumentado 1693351680-1.png|375]]
 
 ### Jerarquías y Redes
 
@@ -60,7 +60,7 @@ Cuando una **subclase** tiene múltiples superclases (como es en el caso de la e
 
 La herencia de atributos funciona de forma más selectiva en el caso de las categorías. La categoría solo hereda los atributos de la superclase a la cual pertenece la entidad.
 
-![[Pasted image 20230829184203.png|450]]
+![[Modelo Entidad-Interrelación Aumentado 1693351680-2.png|450]]
 
 Una categoría puede ser **total**, involucrando a todas las entidades de sus superclases, o puede ser **parcial**, involucrando solo un subconjunto de ellas. Una categoría total se representa con una doble raya conectando la categoría con el círculo, mientras que una parcial se representa con una raya simple.
 
@@ -68,14 +68,14 @@ Una categoría puede ser **total**, involucrando a todas las entidades de sus su
 
 En una relación ternaria, no se permite que dos entidades participen en una interrelación, sin incluir a una tercera.
 
-![[Modelo Entidad-Interrelación Aumentado 3.png|473]]
+![[Modelo Entidad-Interrelación Aumentado 1693351680-3.png|473]]
 
 En este caso, todas las entrevistas deben resultar en una oferta de trabajo. Para salvar estos escenarios, se utilizan las agregaciones.
 
-![[Pasted image 20230829184104.png|475]]
+![[Modelo Entidad-Interrelación Aumentado 1693351681.png|475]]
 
 Se genera una agregación que incluye el tipo de interrelación "entrevista", y esta se interrelaciona con la oferta de trabajo.
 
 En el modelo entidad-interrelación original, esto se resuelve utilizando entidades débiles.
 
-![[Modelo Entidad-Interrelación Aumentado 4.png|474]]
+![[Modelo Entidad-Interrelación Aumentado 1693351681-1.png|474]]

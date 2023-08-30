@@ -40,4 +40,4 @@ $$
 j = \int_{t_0}^{t_1} Fdt
 $$
 
-![[Dinamica 1.png|425]]![[Dinamica 2.png|425]]
+![[Dinámica 1693351683.png|425]]![[Dinámica 1693351683-1.png|425]]

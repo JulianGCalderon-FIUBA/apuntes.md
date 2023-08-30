@@ -12,7 +12,7 @@ $$
 
 En el eje de simetría, se ubica el máximo principal $(\theta = 0)$. Los ceros y máximos secundarios se ubican hacia los costados del eje, Cada vez con menor intensidad. La cantidad de fuentes tiende al infinito, y la distancia entre las fuentes es despreciable.
 
-![[Difraccion 1.png|400]]
+![[Difracción 1693351683.png|400]]
 
 ### Mínimos
 

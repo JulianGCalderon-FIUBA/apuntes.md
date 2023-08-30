@@ -10,4 +10,4 @@ El sesgo de este modelo es muy bajo, aunque la varianza es muy alto.
 
 Para esto, cada árbol está ponderado por un factor constante llamado *learning rate.* El cual ayuda a reducir la varianza.
 
-![[Gradient Boost 1.png]]
+![[Gradient Boost 1693351687.png]]

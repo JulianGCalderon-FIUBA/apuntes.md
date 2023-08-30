@@ -6,7 +6,7 @@ Hay dos aspectos principales a cubrir cuando hablamos de sistemas de archivos. E
 
 Primero debemos dividir nuestro disco en bloques, los sistemas de archivos simples utilizan un único tamaño de bloque.
 
-![[Very Simple File System 1.png]]
+![[Very Simple File System 1693351689.png]]
 
 La mayor parte del sistema de archivos se utilizará para guardar información del usuario, denominaremos a esta **user data.**
 
@@ -14,7 +14,7 @@ El sistema de archivos tiene que guardar información acerca de la **metadata** 
 
  Por último, necesitaremos reservar un último bloque para guardar información sobre el *file system* particular.
 
-![[Very Simple File System 2.png]]
+![[Very Simple File System 1693351689-1.png]]
 
 ## El Inodo
 

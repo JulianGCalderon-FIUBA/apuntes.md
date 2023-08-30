@@ -2,7 +2,7 @@ La tarea principal de una computadora es la de ejecutar un algoritmo, para esto 
 
 ## Arquitectura Harvard
 
-![[Micro Arquitectura 1.png|500]]
+![[Micro Arquitectura 1693351682.png|500]]
 
 Este modelo corresponde a la arquitectura de las primeras computadoras, sin embargo, tiene un problema. Estas computadoras no son fácilmente programables, por lo que no pueden resolver todos los problemas.
 
@@ -10,7 +10,7 @@ Se utiliza para dispositivos automáticos que no requieren programación. Tiene 
 
 ## Arquitectura von Neumann
 
-![[Micro Arquitectura 2.png|500]]
+![[Micro Arquitectura 1693351682-1.png|500]]
 
 En este modelo, se unifica el almacenamiento de datos con las instrucciones, lo que permite cargar fácilmente un programa en memoria y ejecutarlo.
 
@@ -30,7 +30,7 @@ De esta forma, todos los dispositivos se comunican con el procesador a través d
 
 Este sistema de buses permite conectar componente de una computadora, así como varias computadoras entre sí. Los componentes electrónicos dentro de un procesador también interactúan con el bus.
 
-![[Micro Arquitectura 3.png]]
+![[Micro Arquitectura 1693351682-2.png]]
 
 En este sistema, los dispositivos de entrada y salida están mapeados en memoria. En caso de no ser así, se deberá usar un bus distinto para comunicarse con ellos.
 
@@ -49,7 +49,7 @@ Hay distintas formas de implementar este ciclo de búsqueda, y estas varían en 
 
 La unidad de datos es la parte del procesador que se encarga de realizar las operaciones y guardar los registros. Para realizar esto utiliza tres buses. Se puede realizar con menos buses, pero son soluciones más lentas, ya que requiere más ciclos de reloj para guardar los datos a usar en registros correspondientes, para luego ser usados.
 
-![[Micro Arquitectura 4.png|527]]
+![[Micro Arquitectura 1693351682-3.png|527]]
 
 - **Bus A:** Está conectado con la salida de los registros y con la primera entrada de la ALU. Además, está conectado con la línea de direcciones.
 - **Bus B:** Está conectado con la salida de los registros y con la segunda entrada de la ALU. Además, está conectado con la línea de datos.
@@ -92,7 +92,7 @@ La ALU calcula los flags de cada operación y los carga en el registro PSR en ca
 
 Hay dos formas de implementarla, con lógica micro-programada o con lógica cableada. El diseño cableado puede ser más difícil de diseñar y de modificar. El microprograma se puede grabar, mientras que el diseño cableado debe cambiar completamente. Sin embargo, es un método más rápido. Nos vamos a centrar en diseño micro-programado
 
-![[Micro Arquitectura 5.png|500]]
+![[Micro Arquitectura 1693351682-4.png|500]]
 
 Diagrama completo de la unidad de control.
 
@@ -115,7 +115,7 @@ Como la lectura de memoria puede ser más lenta, se utiliza el **ACK** *(Acknowl
 
 #### Formato de Instrucciones MIR
 
-![[Micro Arquitectura 6.png]]
+![[Micro Arquitectura 1693351682-5.png]]
 
 Cada parte de la MIR tiene un propósito distinto:
 
@@ -143,8 +143,8 @@ Para no repetir el microcódigo en cada instrucción, se puede utilizar la **nan
 
 Los códigos de condición son los siguientes
 
-![[Micro Arquitectura 7.png|375]]
+![[Micro Arquitectura 1693351682-6.png|375]]
 
 Códigos de la ALU son los siguientes
 
-![[Micro Arquitectura 8.png]]
+![[Micro Arquitectura 1693351682-7.png]]

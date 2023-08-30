@@ -12,7 +12,7 @@ Ambas técnicas consisten en incluir más muestras de una clase que de otra, con
 
 **Oversampling:** Se duplican muestras del test minoritario con el fin de obtener un set mayor de entrenamiento.
 
-![[Entrenamiento y Testing 1.png]]
+![[Entrenamiento y Testing 1693351687.png]]
 
 ## Overfitting
 
@@ -22,7 +22,7 @@ Al entrenar un método, pueden ocurrir distintos resultados:
 - **Overfitting**: El método se aprendió de memoria los datos de entrenamiento, pero no funciona de forma correcta con un set de datos nuevo
 - **Balanced**: El método se entrena correctamente y es útil para predecir.
 
-![[Entrenamiento y Testing 2.png]]
+![[Entrenamiento y Testing 1693351687-1.png]]
 
 ## Métricas
 
@@ -41,13 +41,13 @@ A partir de estos valores, podemos definir:
 - **FPR:** $\frac{FP}{FP + TN} \to$ Indica la proporción de los FP respecto al total de negativos.
 - **F1-Score:** $\frac{a}{b} \to$ Indica un balance entre *accuracy y recall.*
 
-![[Entrenamiento y Testing 3.png]]
+![[Entrenamiento y Testing 1693351687-2.png]]
 
 ## ROC
 
 A partir de modificar el modelo (cambiando los hiperparámetros) podemos obtener predicciones diferentes. Luego podemos graficar el **ROC**. Que muestra el TPR a partir del FPR
 
-![[Entrenamiento y Testing 4.png]]
+![[Entrenamiento y Testing 1693351687-3.png]]
 
 Luego, nos quedamos con los hiperparámetros que predigan mejor nuestro modelo.
 

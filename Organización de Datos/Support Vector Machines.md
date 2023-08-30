@@ -6,7 +6,7 @@ Cuando los datos están en una sola dimensión, podemos definir un umbral para s
 
 El problema es que este método es sensible a los outliers, podemos mejorarlo permitiendo clasificaciones erróneas. Estas no serán tan afectadas por los valores atípicos: **Soft Margin Classifier.**
 
-![[Support Vector Machines 1.png|500]]
+![[Support Vector Machines 1693351688.png|500]]
 
 Para utilizar el margen, se puede utilizar la validación cruzada:
 
@@ -18,7 +18,7 @@ Para utilizar el margen, se puede utilizar la validación cruzada:
 
 Cuando analizamos otras dimensiones, entonces los márgenes ya no serán puntos:
 
-![[Support Vector Machines 2.png|230]] ![[Support Vector Machines 3.png|257]]
+![[Support Vector Machines 1693351688-1.png|230]] ![[Support Vector Machines 1693351688-2.png|257]]
 
 La ventaja de este método es que puede soportar la existencia de outliers.
 
@@ -26,9 +26,9 @@ La ventaja de este método es que puede soportar la existencia de outliers.
 
 ¿Qué pasa cuando nuestro conjunto de datos no es linealmente separable? En estos casos, debemos aplicar algoritmos para llevar el conjunto de datos a otra dimensión, y poder separarlo.
 
-![[Support Vector Machines 4.png|500]]
+![[Support Vector Machines 1693351688-3.png|500]]
 
-![[Support Vector Machines 5.png|500]]
+![[Support Vector Machines 1693351688-4.png|500]]
 
 El algoritmo detrás de este método usa algo llamado **Funciones Kernel**, que sistemáticamente buscan clasificadores de tipo **Support Vector Classifiers** en dimensiones altas.
 

@@ -2,7 +2,7 @@ La carga es una propiedad de la materia, por lo que las cargas están ubicadas e
 
 Experimentalmente, podemos probar que el campo eléctrico dentro de un conductor resulta nulo. Una manera de pensar esto intuitivamente es que las cargas, inducidas por el campo, se reordenan en el conductor y modifican el campo hasta que estas se posicionan en la superficie del conductor y dejan de moverse. Anulando el campo, el campo eléctrico dentro del mismo.
 
-![[Conductores 1.png|475]]
+![[Conductores 1693351685.png|475]]
 
 **Blindaje Electroestático:** Esto ocurre cuando tenemos un conductor ahuecado que encierra una porción vacía del espacio. El conductor entonces aísla esta porción del espacio y no permite que el campo externo ingrese. En la superficie interna del conductor hueco no se distribuyen cargas.
 
@@ -26,4 +26,4 @@ $$
 Q_{ext} = Q
 $$
 
-![[Conductores 2.png|275]]
+![[Conductores 1693351685-1.png|275]]

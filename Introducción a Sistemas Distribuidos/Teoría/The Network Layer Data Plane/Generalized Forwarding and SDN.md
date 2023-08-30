@@ -6,7 +6,7 @@ Cada entrada en la tabla conocida como *flow table* incluye:
 
 - Un conjunto de valores de campos de encabezados a partir de los cuales el paquete será analizado.
 
-	![[Generalized Forwarding and SDN 1.png|500]]
+	![[Generalized Forwarding and SDN 1693351685.png|500]]
 
 - Un conjunto de contadores que serán actualizados cuando el paquete coincide con la entrada
 - Un conjunto de acciones que deben tomarse cuando un paquete coincide con la entrada de la tabla

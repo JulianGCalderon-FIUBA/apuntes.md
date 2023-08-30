@@ -76,35 +76,35 @@ Para encontrar asociaciones podemos utilizar una lista de categorías predefinid
 
 Cuando tenemos objetos con atributos comunes y otros que los diferencian, podemos utilizar la generalización y la especificación para mejorar el modelado.
 
-![[Modelados de Dominio 1.png|357]]
+![[Modelados de Dominio 1693351679.png|357]]
 
 Para modelar estructuras jerárquicas, podemos utilizar asociaciones genéricas.
 
 Existe una unidad organizacional que puede tener múltiples unidades organizacionales que le corresponden. Y cada una pertenece a un tipo particular.
 
-![[Modelados de Dominio 2.png]] ![[Modelados de Dominio 3.png]]
+![[Modelados de Dominio 1693351679-1.png]] ![[Modelados de Dominio 1693351679-2.png]]
 
 A veces, es necesario separar la descripción o especificación del producto de una instancia de dicho producto.
 
-![[Modelados de Dominio 4.png]]
+![[Modelados de Dominio 1693351679-3.png]]
 
 Muchas veces es necesario registrar movimientos y saldos de bienes y valores. Para transferir plata entre cuentas, utilizamos transacciones. Las transacciones tienen dos movimientos asociados (uno para debitar, y otro para acreditar). A veces, las cuentas agrupan cuentas de menor nivel
 
-![[Modelados de Dominio 5.png|500]]
+![[Modelados de Dominio 1693351679-4.png|500]]
 
 Muchas veces, necesitamos registrar mediciones. Separamos entonces en el objeto medido, la medición, y el tipo de medición
 
-![[Modelados de Dominio 6.png|475]]
+![[Modelados de Dominio 1693351679-5.png|475]]
 
 ## Factura
 
 Una factura es un documento que refleja la información de una operación de venta. En general, cada país tiene regulaciones que indican como deben generarse y resguardarse. En muchos países, existe la factura electrónica. Los sistemas administrativos necesitan mantener esta información.
 
-![[Modelados de Dominio 7.png|475]]
+![[Modelados de Dominio 1693351680.png|475]]
 
 Además de facturas, existen notas de crédito y débito. Las notas de crédito disponen de saldo a favor al cliente, mientras que las notas de débito reflejan un saldo a favor del vendedor.
 
-![[Modelados de Dominio 8.png|500]]
+![[Modelados de Dominio 1693351680-1.png|500]]
 
 ## Modelo de Datos
 

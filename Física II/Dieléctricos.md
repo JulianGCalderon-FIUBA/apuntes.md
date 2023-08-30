@@ -35,7 +35,7 @@ Si el dipolo se encuentra en un campo eléctrico, se produce un torque $\tau$ so
 
 El dieléctrico se polariza por acción del campo eléctrico del capacitador.
 
-![[Dieléctricos 1.jpg|350]]
+![[Dieléctricos 1693351685.jpg|350]]
 
 Entonces podemos diferenciar dos tipos de cargas
 

@@ -30,4 +30,4 @@ $$
 I_o = \sum r^2_{i/o} \cdot m_i
 $$
 
-![[Dinamica CR 1.png|475]]
+![[Dinámica CR 1693351683.png|475]]

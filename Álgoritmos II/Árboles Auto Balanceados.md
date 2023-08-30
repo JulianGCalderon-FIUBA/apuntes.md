@@ -10,25 +10,25 @@ Si el factor de balanceo de algún nodo del árbol es en módulo mayor a 1, ento
 
 	Entonces rotamos hacia la derecha el nodo desbalanceado
 
-	![[Arboles Auto Balanceados 1.png|Rotamos hacia la derecha el nodo C]]
+	![[Árboles Auto Balanceados 1693351689.png|Rotamos hacia la derecha el nodo C]]
 
 - **Rotación Simple a Izquierda:** Ocurre cuando el factor de balanceo del nodo $FE = 2$ y el factor de balanceo del hijo izquierdo $FE = 0, 1$.
 
 	Entonces rotamos hacia la izquierda el nodo desbalanceado
 
-	![[Arboles Auto Balanceados 2.png]]
+	![[Árboles Auto Balanceados 1693351689-1.png]]
 
 - **Rotación Izquierda - Derecha:** Ocurre cuando el factor de balanceo del nodo $FE = -2$ y el factor de balanceo del hijo izquierdo $FE = 1$.
 
 	Entonces rotamos hacia la izquierda el nodo hijo, y hacia la derecha el nodo desbalanceado.
 
-	![[Arboles Auto Balanceados 3.png]]
+	![[Árboles Auto Balanceados 1693351689-2.png]]
 
 - **Rotación Derecha - Izquierda:** Ocurre cuando el factor de balanceo del nodo $FE = 2$ y el factor de balanceo del hijo izquierdo $FE = -1$.
 
 	Entonces rotamos hacia la derecha el nodo hijo, y hacia la izquierda el nodo desbalanceado.
 
-	![[Arboles Auto Balanceados 4.png]]
+	![[Árboles Auto Balanceados 1693351689-3.png]]
 
 ### Inserción
 

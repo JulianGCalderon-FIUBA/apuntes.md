@@ -36,7 +36,7 @@ Algunas de las funciones expresadas son conocidas
 
 Cada función lógica tiene infinitas expresiones algebraicas que le corresponden, para eso, vamos a tratar con las expresiones canónicas. Dada la siguiente tabla de verdad, vamos a escribir su expresión algebraica de dos formas distintas.
 
-![[Funciones Logicas 1.png]]
+![[Funciones Lógicas 1693351682.png]]
 
 ### Suma de minitérminos
 

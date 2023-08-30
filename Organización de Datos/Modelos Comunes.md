@@ -6,7 +6,7 @@ $$
 Y \approx \beta_0 + \beta_1 X
 $$
 
-![[Modelos Comunes 1.png|475]]
+![[Modelos Comunes 1693351687.png|475]]
 
 ### Medidas de Error/
 
@@ -26,7 +26,7 @@ A partir de datos del problema, buscamos decidir si la muestra pertenece a una c
 
 Se utiliza la regresión logística. Donde a partir de los datos, se crea una función del estilo $\frac{1}{1 + e^{-x}}$. Para encontrar esta función se grafican los datos, con un 0 si no pertenece a la categoría, y con un 1 si pertenece.
 
-![[Modelos Comunes 2.png|500]]
+![[Modelos Comunes 1693351687-1.png|500]]
 
 Esta función asigna un valor entre 0 y 1, que indica la probabilidad de que la muestra pertenezca a la categoría. Diremos que la muestra pertenece a la categoría si $y \geq 0.5$.
 
@@ -41,7 +41,7 @@ Permite agrupar un conjunto de datos en una cantidad K de grupos:
 5. K-Menas vuelve a asignar las puntas utilizando los nuevos centroides
 6. Repite 4 y 5 hasta que los puntos no cambien de grupo
 
-![[Modelos Comunes 3.png|500]]
+![[Modelos Comunes 1693351687-2.png|500]]
 
 ### Elección del K
 
@@ -49,7 +49,7 @@ Permite agrupar un conjunto de datos en una cantidad K de grupos:
 
 Se grafica la distancia promedio al centroide de cada punto en función de la cantidad de grupos y se selecciona el número donde se "quiebra" la gráfica
 
-![[Modelos Comunes 4.png|500]]
+![[Modelos Comunes 1693351688.png|500]]
 
 #### Método Silhouette
 
@@ -63,7 +63,7 @@ $$
 s(i) = \frac{b(i) - a(i)}{\max{[a(i), b(i)]}}
 $$
 
-![[Modelos Comunes 5.png|500]]
+![[Modelos Comunes 1693351688-1.png|500]]
 
 #### Estadística de Hopkins
 
