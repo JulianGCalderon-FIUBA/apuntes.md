@@ -48,3 +48,11 @@ a_vector.par_iter().for_each(|value| {
 ```
 
 Este método crea tantos hilos como tenga nuestro procesador, para maximizar la eficiencia. Además, implementa el robo de trabajo.
+
+## Crossbeam
+
+Es otra biblioteca muy utilizada, que provee estructuras de datos y funciones para concurrencia y paralelismo.
+
+`crossbeam::scope` Crea un nuevo entorno de hilo que garantiza que los hilos terminan antes de retornar la clausura que se le pasa como argumento a esta función. Esto nos permite crear hilos sin entregar *ownership* de las variables que necesita.
+
+Posteriormente, se agregó soporte para esto en la biblioteca estándar, con `std::thread::scope`, por lo que ya no es necesario utilizar Crossbeam para esto, aunque sí para otras estructuras que provee.
