@@ -4,15 +4,15 @@ title: Índice
 
 ## 1.º 2021
 
+- [[Algoritmos I]]
 - [[Análisis Matemático II]]
 - [[Física I]]
-- [[Algoritmos I]]
 
 ## 2.º 2021
 
+- [[Algoritmos II]]
 - [[Álgebra II]]
 - [[Física II]]
-- [[Algoritmos II]]
 
 ## 1.º 2022
 
@@ -22,15 +22,15 @@ title: Índice
 
 ## 2.º 2022
 
-- [[Organización de Datos]]
 - [[Sistemas Operativos]]
+- [[Organización de Datos]]
 
 ## 1.º 2023
 
-- [[Introducción a Sistemas Distribuidos]]
-- [[Análisis de la Información]]
 - [[Matemática Discreta]]
+- [[Introducción a Sistemas Distribuidos]]
 - [[Modelos y Optimización I]]
+- [[Análisis de la Información]]
 
 ## 2.º 2023
 
