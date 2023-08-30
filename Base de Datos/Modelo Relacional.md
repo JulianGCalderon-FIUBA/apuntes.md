@@ -21,7 +21,7 @@ La **cardinalidad** de una relación es la cantidad de tuplas que posee.
 
 ## Restricciones
 
-Una restricción de **dominio** especifican que dado un atributo $A$ de una relación $R$. El valor del atributo de una tupla $t$ debe pertenecer al dominio $D$ de $A$.
+Una restricción de **dominio** especifican que dado un atributo $A$ de una relación $R$. El valor del atributo de una tupla debe pertenecer al dominio $D$ de $A$.
 
 En el modelo relacional, se permiten que algunos valores tomen un valor **nulo**.
 

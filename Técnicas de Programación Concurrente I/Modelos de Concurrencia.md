@@ -8,7 +8,7 @@ Si se está ejecutando algún procedimiento crítico, entonces cualquier otro pr
 
 ## Paralelismo Fork-Join
 
-Cuando los procesos no deben interactuar entre ellos, y el resultado final depende de la **combinación** de los resultados de aquellos procesos independientes, puedo utilizar este modelo. Espero a que todos los hilos finalicen y **combino** los resultados.
+	Cuando los procesos no deben interactuar entre ellos, y el resultado final depende de la **combinación** de los resultados de aquellos procesos independientes, puedo utilizar el [[Modelo Fork-Join]]. Espero a que todos los hilos finalicen y **combino** los resultados.
 
 ## Canales y Mensajes
 
