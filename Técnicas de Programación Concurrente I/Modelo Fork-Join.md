@@ -56,3 +56,29 @@ Es otra biblioteca muy utilizada, que provee estructuras de datos y funciones pa
 Ofrece `crossbeam::scope` para crear un nuevo entorno de hilo que garantiza que los hilos terminan antes de retornar la clausura que se le pasa como argumento a esta función. Esto nos permite crear hilos sin entregar *ownership* de las variables que necesita.
 
 Posteriormente, se agregó soporte para esto en la biblioteca estándar, con `std::thread::scope`, por lo que ya no es necesario utilizar Crossbeam para esto, aunque sí para otras estructuras que provee.
+
+## MapReduce
+
+Es un modelo de programación (con una implementación asociada) para el procesamiento y generación de grandes conjuntos de datos. El modelo consiste en:
+
+- Una función *map* que procesa pares clave-valor generando un conjunto intermedio de pares clave-valor
+- Una función *reduce* que une todos los valores intermedios con una misma clave intermedia.
+
+Un ejemplo canónico para este modelo de programación es el de un *word count*.
+
+- La función *map* toma frecuencias locales de una porción del texto.
+- La función *reduce* combina las frecuencias locales en una única tabla con todas las frecuencias
+
+## Dremel
+
+Es un sistema de consultas en tiempo casi real, expuesto al público como BigQuery. Utiliza un lenguaje de consultas similar a SQL. Puede trabajar con una gran cantidad de registros de forma simultánea, sin siquiera tener indexación de los datos.
+
+El sistema parte de archivos de tamaño definido donde se encuentran los datos. Estos archivos se distribuyen en servidores hoja. Estos archivos son inmutables.
+
+El servidor en que archivo se encuentra una clave, a partir de los *headers* de cada archivo.
+
+![[Modelo Fork-Join 1693592604.png]]
+
+El cliente realiza una consulta al servidor raíz, el cual parte la consulta en subconsultas y las distribuye a los servidores intermedios. Estos, a su vez, parten las consultas en subconsultas y las distribuye a los servidores hoja.
+
+Este sistema utiliza el modelo de Fork-Join para resolver consultas a gran escala de forma distribuida. 
