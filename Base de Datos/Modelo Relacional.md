@@ -61,6 +61,18 @@ Los tipos de entidades se transforman en una relación, con los atributos claves
 
 ![[Modelo Relacional 1693352989.png|475]]
 
+### Atributos
+
+Los atributos en las interrelaciones se agregan como atributos normales en sus respectivas tablas, o como un atributo en el lado de la entidad que contiene la clave foránea, en el caso de interrelaciones $1$ a $n$.
+
+Los atributos multievaluados pueden ser representados como una relación $n$ a $n$.
+
+![[Modelo Relacional 1693353045.png|475]]
+
+Los atributos compuestos pueden ser representados a partir de sus componentes atómicos.
+
+![[Modelo Relacional 1693433718.png|475]]
+
 ### Interrelaciones
 
 Los tipos de interrelaciones se resuelven de distintas formas según las cardinalidades
@@ -71,9 +83,11 @@ Para el caso de $n$ a $n$ se transforman en una relación que contenga como clav
 
 ![[Modelo Relacional 1693353077.png|475]]
 
+Ambas claves foráneas se denotan como claves primarias, permitiendo asociaciones muchos a muchos.
+
 #### Uno a Muchos
 
-Podremos utilizar una relación adicional para la interrelación
+Podremos utilizar una relación adicional para la interrelación. Pero a diferencia del caso anterior, solo la clave foránea del lado de cardinalidad $N$ será clave primaria.
 
 ![[Modelo Relacional 1693353531.png|475]]
 
@@ -83,13 +97,13 @@ Si hubiese participación total, entonces es mejor reutilizar la tabla de la ent
 
 #### Uno a Uno
 
-Una opción simple es utilizar una relación adicional
+Si ambas tienen participación paracial, podemos agregar una relación adicional.
 
-![[Modelo Relacional 1693353143.png|500]]
+![[Modelo Relacional 1693353143.png|475]]
 
 Si tenemos participación total, es recomendable colocar la clave foránea en la entidad dependiente.
 
-![[Modelo Relacional 1693353180.png|500]]
+![[Modelo Relacional 1693353180.png|475]]
 
 Nos asegura que se cumpla la dependencia. Además, se puede declarar como clave candidata para imponer la restricción de uno a uno.
 
@@ -97,33 +111,41 @@ Si no hay participación total, debemos admitir que la clave foránea tome valor
 
 Si ambas tienen participación total, entonces podremos unificarlas en una sola tabla
 
-![[Modelo Relacional 1693353485.png|500]]
+![[Modelo Relacional 1693353485.png|475]]
+
+Esto resultará en dos claves candidatas, una de cada entidad.
 
 #### Ternarias
 
-Podemos generar una tabla adicional con claves foráneas a las claves principales de las entidades que participan.
+Para las relaciones $n$-arias, siempre crearemos una tabla adicional, con claves foráneas a las claves principales de las entidades que participan.
 
 Para el caso de ternaria con cardinalidad $N, N, N$, las claves primarias serán todas las claves foráneas
 
-![[Modelo Relacional 1693354368.png|500]]
+![[Modelo Relacional 1693354368.png|475]]
 
 Para el caso de ternaria con cardinalidad $N, N, 1$, las claves primarias serán las de cardinalidad $N$.
 
-![[Modelo Relacional 1693354423.png|500]]
+![[Modelo Relacional 1693354423.png|475]]
 
 Para el caso de ternaria con cardinalidad $N, 1, 1$, las claves primarias serán la de cardinalidad $N$, y alguna otra.
 
-![[Modelo Relacional 1693354476.png|500]]
+![[Modelo Relacional 1693354476.png|475]]
 
-### Atributos
+Para el caso de ternarias con cardinalidad $1, 1, 1$, solo necesitaremos dos claves primarias (elegida arbitrariamente). Además, cada par de claves primarias debe ser declarado (en conjunto) como clave candidata.
 
-Los atributos en las interrelaciones se agregan como atributos normales en sus respectivas tablas, o como un atributo en el lado de la entidad que contiene la clave foránea, en el caso de interrelaciones $1$ a $n$.
+![[Modelo Relacional 1693438138.png|475]]
 
-Los atributos multievaluados pueden ser representados como una relación $n$ a $n$.
+#### Unarias
 
-![[Modelo Relacional 1693353045.png|475]]
+Se puede resolver con las mismas tácticas que los casos anteriores. Podemos pensar las relaciones unarias como relaciones binarias entre dos tipos de entidades iguales.
 
-Los atributos compuestos pueden ser representados a partir de sus componentes atómicos.
+![[Modelo Relacional 1693436724.png|475]]
+
+#### Múltiples Vínculos
+
+Si hay múltiples vínculos entre dos tipos de entidades, entonces las pensamos por separado
+
+![[Modelo Relacional 1693437219.png|475]]
 
 ### Entidades Débiles
 
@@ -137,10 +159,30 @@ Como siempre será una dependencia total, no necesitaremos una tabla adicional.
 
 Las subclases tienen una clave foránea refiriendo a la superclase, permitiendo expandir sus atributos y relaciones.
 
-![[Modelo Relacional 1693354035.png|475]]
+![[Modelo Relacional 1693434565.png|475]]
+
+Esta opción no nos asegura cumplir la restricción de totalidad ni la de disyunción.
+
+Para cumplir la totalidad, podemos unificar las tablas, eliminando la de la superclase.
+
+![[Modelo Relacional 1693434470.png|475]]
 
 ### Uniones
 
-Para las uniones, las superclases tienen una clave subrogada, refiriendo a la subclase.
+En las uniones, podemos agregar los atributos de la unión en las superclases
+
+![[Modelo Relacional 1693435127.png|475]]
+
+Otra forma de resolverlo, es a partir de una clave subrogada que relacione las superclases con la unión.
 
 ![[Modelo Relacional 1693354200.png|475]]
+
+Una clave **subrogada** es una clave independiente de los datos que utilizamos para diferenciar dos entidades. Se utiliza cuando no hay un clave primaria clave, o el conjunto de clave primaria es muy grande.
+
+### Agregación
+
+Primero, creamos una relación para el tipo de interrelación de la agregación. Luego, podemos referir a una tupla de esta relación en una nueva relación externa.
+
+![[Modelo Relacional 1693438567.png|375]]
+
+Notamos que la clave foránea incluye dos elementos, pues son una misma clave foránea que refiere a una sola relación
