@@ -7,6 +7,7 @@
 - [[Modelo Entidad-Interrelación]]
 - [[Modelo Entidad-Interrelación Aumentado]]
 - [[Modelo Relacional]]
+- [[Pasaje de Modelos]]
 
 ## Apuntes Prácticos
 

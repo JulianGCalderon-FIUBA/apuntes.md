@@ -8,4 +8,4 @@ El modelo solo representa el diseño, y no los datos en sí.
 
 En 1976, P. Chen propuso un modelo esquemático basado en entidades, interrelaciones y atributos para el modelado semántico de datos, llamado [[Modelo Entidad-Interrelación]]. Posteriormente, se propuso un modelo con más características, llamado [[Modelo Entidad-Interrelación Aumentado]]
 
-El modelo lógico más conocido hoy en día, es él [[Modelo Relacional]]. Consiste en organizar toda la información en tablas, o relaciones. Vamos a estudiar el pasaje entre el modelo conceptual anterior a este modelo lógico.
+El modelo lógico más conocido hoy en día, es él [[Modelo Relacional]]. Consiste en organizar toda la información en tablas, o relaciones. Vamos a estudiar el [[Pasaje de Modelos]] el modelo conceptual anterior a este modelo lógico.

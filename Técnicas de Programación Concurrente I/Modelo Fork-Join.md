@@ -81,4 +81,4 @@ El servidor en que archivo se encuentra una clave, a partir de los *headers* de 
 
 El cliente realiza una consulta al servidor raíz, el cual parte la consulta en subconsultas y las distribuye a los servidores intermedios. Estos, a su vez, parten las consultas en subconsultas y las distribuye a los servidores hoja.
 
-Este sistema utiliza el modelo de Fork-Join para resolver consultas a gran escala de forma distribuida. 
+Este sistema utiliza el modelo de Fork-Join para resolver consultas a gran escala de forma distribuida.
