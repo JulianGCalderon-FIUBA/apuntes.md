@@ -184,8 +184,6 @@ void insercion(vector_t vector, int tope){
 
 ## Operaciones Avanzadas entre Arreglos
 
-### Mezcla
-
 La mezcla consiste en tomar todos los valores de ambos arreglos
 
 ```c
