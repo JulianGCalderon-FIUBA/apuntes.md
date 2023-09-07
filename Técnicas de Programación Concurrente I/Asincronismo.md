@@ -95,7 +95,7 @@ La segunda forma de resolverlo es con la utilización de `spawn_blocking`. Coloc
 
 ## Pin
 
-Los tipos de datos autogenerados de `async` existen en el que implementan `Future` guardan una referencia a sí mismas. Si estos son movidos (por estar en el *stack*), estas referencias no se actualizan.
+Los tipos de datos autogenerados de `async` que implementan `Future` guardan una referencia a sí mismas. Si estos son movidos (por estar en el *stack*), estas referencias no se actualizan.
 
 Para resolver esto, se inventa el concepto de *pin*. Todos los tipos de dato por defecto implementan el *autotrait* `Unpin`. A menos que específicamente se marquen como `!Unpin`.
 
