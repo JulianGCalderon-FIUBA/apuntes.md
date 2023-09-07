@@ -3,7 +3,7 @@ En una base de datos relacional, la información se organiza en distintas **tabl
 > [!example] Contraejemplo
 > No todas las BDD hoy en dia son relacionales. MongoDB almacena información en documentos JSON
 
-Para organizar la información, se utiliza el concepto de [[Predicados|predicados]].
+Para estructurar la información, se utiliza el concepto de [[Predicados|predicados]].
 
 ## Definición Matemática
 
