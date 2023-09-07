@@ -26,7 +26,10 @@ trait Future {
 }
 ```
 
-Para no tener que indicar que una función devuelve un `Future`, podemos utilizar la palabra clave `async`. Esta permite que el compilador #todo
+Al utilizar la palabra clave `async`, el compilador traducirá nuestra función a una función asincrónica:
+
+- Cambiará el valor de retorno para que devuelva un futuro
+- Construirá el tipo de dato particular.
 
 Las siguientes dos firmas de función son equivalentes:
 
