@@ -35,6 +35,14 @@ async fn hello_world() -> String;
 
 En segundo lugar, definirá el tipo de dato particular, con toda la información necesaria para completar el pedido.
 
+## Pin
+
+Los tipos de datos autogenerados de `async` que implementan `Future` guardan una referencia a sí mismas. Si estos son movidos (por estar en el *stack*), estas referencias no se actualizan.
+
+Para resolver esto, se inventa el concepto de *pin*. Todos los tipos de dato por defecto implementan el *autotrait* `Unpin`. A menos que específicamente se marquen como `!Unpin`.
+
+Las autorreferencias se encierran en un tipo de dato `Pin<Box<T>>`. Si `T` es `!Unpin`, `Pin` evita que se mueva haciendo imposible llamar métodos que requieran `&mut T` como `mem::swap`.
+
 ## Poll
 
 El `Future` tiene un método `poll` para consultar si la operación se completó o no. El resultado tiene dos valores posibles
@@ -79,22 +87,14 @@ Todas las ejecuciones pueden realizarse en un único hilo. Una llamada asincrón
 
 La arquitectura asincrónica de Rust está diseñada para ser eficiente. Solo se llama a `poll`cuando vale la pena. Duerme el hilo hasta que pueda llamarse nuevamente a `poll`.
 
-## Tareas Asincrónicas
+### Tareas Asincrónicas
 
 Para crear tareas asincrónicas, utilizamos `spawn_local`. Este recibe un futuro y lo agrega a un *pool* que realizará el *polling* en un `block_on`. Es análogo al *spawn* de un hilo.
 
-También podemos utilizar `spawn`. Crea la tarea y la coloca en el *pool* de hilos dedicado a realizar `poll`. En este caso, no hay necesidad de ejecutar `block_on`.
+Si no queremos depender de `block_on`, podemos utilizar `spawn`. Crea la tarea y la coloca en el *pool* de hilos dedicado a realizar `poll`. En este caso, no hay necesidad de ejecutar `block_on`.
 
 El cambio de una tarea a otra ocurre únicamente en las expresiones *await* (cuando este devuelve `Pending`). Un cómputo grande en una función no daría lugar a la ejecución de otras tareas (a diferencia de utilizar *threads*). Existen dos formas de solucionarlo.
 
 Una forma de resolverlo es utilizar `yield_now`, que de forma voluntaria pasa el control a otra tarea. La primera vez que se realiza `poll` retornará `Pending`. La siguiente vez devolverá `Ready`.
 
 La segunda forma de resolverlo es con la utilización de `spawn_blocking`. Coloca la tarea en otro hilo del sistema operativo, se utiliza para realizar cómputo pesado. Esto permite que no se rompa el esquema de concurrencia colaborativa.
-
-## Pin
-
-Los tipos de datos autogenerados de `async` que implementan `Future` guardan una referencia a sí mismas. Si estos son movidos (por estar en el *stack*), estas referencias no se actualizan.
-
-Para resolver esto, se inventa el concepto de *pin*. Todos los tipos de dato por defecto implementan el *autotrait* `Unpin`. A menos que específicamente se marquen como `!Unpin`.
-
-Las autorreferencias se encierran en un tipo de dato `Pin<Box<T>>`. Si `T` es `!Unpin`, `Pin` evita que se mueva haciendo imposible llamar métodos que requieran `&mut T` como `mem::swap`.

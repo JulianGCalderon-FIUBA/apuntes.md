@@ -1,4 +1,4 @@
-Queremos realizar un cómputo "simple" sobre un conjunto grande de datos. Cada dato es independiente, o un pequeño subconjunto lo es. Para resolver esto, utilizamos Fork-Join.
+Queremos realizar un cómputo "simple" sobre un conjunto grande de datos. Cada dato es independiente, o un pequeño subconjunto lo es. Para resolver esto, podriamos utilizar Fork-Join.
 
 Lanzar una tarea tiene un costo de cómputo, por lo que no siempre utilizar concurrencia es más rápido (en particular cunado el cómputo es muy simple). Además, la cantidad de CPU es limitada
 
@@ -11,5 +11,3 @@ Al detenerse la ley de Moore, el aumento de transistores no se tradujo en un aum
 Los registros del procesador se pueden dividir en $N$ carriles (según el tamaño de los datos), y operar sobre cada uno de ellos de forma concurrente con una ALU distinta.
 
 Debido a que en las operaciones participan múltiples registros, se utilizan operaciones verticales. El primer carril del primer registro opera junto al primer carril del segundo registro.
-
-

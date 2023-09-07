@@ -3,5 +3,4 @@
 - [[Modelos de Concurrencia]]
 - [[Modelo Fork-Join]]
 - [[Asincronismo]]
-- [[Asincronismo en Rust]]
 - [[Vectorización]]
