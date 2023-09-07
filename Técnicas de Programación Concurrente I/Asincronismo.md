@@ -4,8 +4,6 @@ Para resolver esto, se utilizan **tareas asincrónicas** para intercalar tareas 
 
 Estas tareas son mucho más livianas que un hilo, son más fáciles de crear, es más eficiente de pasarle el control a ellas. Se pueden tener miles o decenas de miles de tareas, pero con la reserva de memoria para únicamente unos cuantos hilos.
 
-Sin embargo, la programación asincrónica no es útil cuando tenemos una única función con cómputo intensivo.
-
 Este modelo de programación asincrónica se conoce como concurrencia colaborativa.
 
 ## Futuros
@@ -68,3 +66,9 @@ El cambio de una tarea a otra ocurre únicamente en las expresiones *await* (cua
 Una forma de resolverlo es utilizar `yield_now`, que de forma voluntaria pasa el control a otra tarea. La primera vez que se realiza `poll` retornará `Pending`. La siguiente vez devolverá `Ready`.
 
 También existe `spawn_blocking`. Coloca la tarea en otro hilo del sistema operativo, se utiliza para realizar cómputo pesado. Esto permite que no se rompa el esquema de concurrencia colaborativa.
+
+## Casos de Uso
+
+El modelo de programación asincrónica se pensó para casos donde el procesador está mayoritariamente inactivo. Como lecturas de un archivo, consultas a una API, etc.
+
+No está pensado para programas de cómputo intensivo, como calcular el determinante de una matriz, ni para programas con estado mutable compartido (sincronización de memoria entre hilos).
