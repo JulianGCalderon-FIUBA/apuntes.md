@@ -14,7 +14,9 @@ No está pensado para programas de cómputo intensivo, como calcular el determin
 
 ## Futuros
 
-Las funciones asincrónicas no devuelven un valor en concreto, devuelven una promesa a dicho valor. En Rust, esta promesa se denomina `Future`.
+Invocar a una función asincrónica retorna inmediatamente, antes de que comience a ejecutarse el cuerpo de la función. Devuelven una promesa a dicho valor.
+
+En Rust, esta promesa implementa `Future`. Almacena toda la información necesaria para realizar el pedido hecho por la invocación.
 
 ```Rust
 trait Future {
@@ -24,22 +26,31 @@ trait Future {
 }
 ```
 
-El `Future` almacena toda la información necesaria para realizar el pedido hecho por la invocación.
+Al  la palabra clave `async` a una función, automáticamente el compilador cambia la firma de la función para que devuelva un tipo de dato que implementa el `Future`. El tipo de dato específico se genera automáticamente en tiempo de compilación.
 
-Al llamar a una operación bloqueante, no se bloqueará el hilo de ejecución. Esto se debe a que devolverá un futuro a dicho valor, y no el valor en sí.
+Las siguientes dos firmas de funcion son equivalentes:
 
-Al agregar la palabra clave `async` a una función, automáticamente el compilador cambia la firma de la función para que devuelva un tipo de dato que implementa el `Future`. El tipo de dato específico se genera automáticamente en tiempo de compilación.
+```Rust
+fn hello_world() -> impl Future<Output = String>;
+async fn hello_world() -> String;
+```
 
 ## Poll
 
-El `Future` tiene un método `poll` para consultar si la operación se completó o no. Estos tienen dos estados: `Pending`, `Ready`.
+El `Future` tiene un método `poll` para consultar si la operación se completó o no. El resultado tiene dos valores posibles
 
+```Rust
+enum Poll<T> {
+	Ready(T),
+	Pending,
+}
 ```
-```
 
-Lo único que se puede realizar con un futuro es *golpearlo* con `poll` hasta que el valor esté disponible. Esto se conoce como el **modelo piñata**. El sistema operativo provee *system calls* para que estas operaciones de consulta sean eficientes.
+Lo único que se puede realizar con un futuro es *golpearlo* con `poll` hasta que el valor esté disponible. Esto se conoce como el **modelo piñata**.
 
-Cada vez que se llama `poll` en un `Future`, la tarea avanza todo lo que puede avanzar.
+El sistema operativo provee *system calls* para que estas operaciones de consulta sean eficientes.
+
+Cada vez que se llama `poll` en un `Future`, la tarea avanza todo lo que puede avanzar. Nunca bloqueará el hilo de ejecución.
 
 ## Executor
 
@@ -49,7 +60,7 @@ La arquitectura asincrónica de Rust está diseñada para ser eficiente. Solo se
 
 ## Await
 
-Invocar a una función asincrónica retorna inmediatamente, antes de que comience a ejecutarse el cuerpo de la función. Se obtiene un `Future` del valor que contiene todo lo necesario para ejecutarse.
+Invocar a una función asincrónica retorna inmediatamente, antes de que comience a ejecutarse el cuerpo de la función.
 
 Al ejecutar `poll` por primera vez sobre el retorno, se ejecuta el cuerpo de la función hasta el primer `await`. Si la función no se completó, retorna `Pending`.
 
