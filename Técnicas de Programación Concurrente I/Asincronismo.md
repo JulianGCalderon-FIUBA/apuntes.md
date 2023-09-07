@@ -28,7 +28,7 @@ trait Future {
 
 Para no tener que indicar que una función devuelve un `Future`, podemos utilizar la palabra clave `async`. Esta permite que el compilador #todo
 
-Las siguientes dos firmas de funcion son equivalentes:
+Las siguientes dos firmas de función son equivalentes:
 
 ```Rust
 fn hello_world() -> impl Future<Output = String>;
@@ -79,9 +79,9 @@ Para evitar llamadas innecesarias, duerme el hilo hasta que pueda llamarse nueva
 
 ## Tareas Asincrónicas
 
-Para crear tareas asincrónicas, utilizamos `spawn_local`. Este recibe un Future y lo agrega a un *pool* que realizará el *polling* en un `block_on`. Es análogo al *spawn* de un hilo.
+Para crear tareas asincrónicas, utilizamos `spawn_local`. Este recibe un futuro y lo agrega a un *pool* que realizará el *polling* en un `block_on`. Es análogo al *spawn* de un hilo.
 
-También podemos utilizar `spawn`. Crea la tarea y la coloca en el *pool* de hilos dedicado a realizar `poll`. No hay necesidad de ejecutar `block_on`.
+También podemos utilizar `spawn`. Crea la tarea y la coloca en el *pool* de hilos dedicado a realizar `poll`. En este caso, no hay necesidad de ejecutar `block_on`.
 
 Los *lifetimes* de las variables deben ser *static*, pues deben poder ejecutarse hasta el final del programa.
 
