@@ -73,10 +73,9 @@ La arquitectura asincrónica de Rust está diseñada para ser eficiente. Solo se
 
 Para ejecutar funciones asincrónicas desde un entorno sincrónico, utilizamos `block_on`. Es un adaptador entre el mundo sincrónico y el mundo asincrónico.
 
-Esta función bloquea el hilo de ejecución hasta que la función asincrónica pasada por parámetro termine, y devuelve su valor:
+Esta función bloquea el hilo de ejecución hasta que la función asincrónica pasada por parámetro termine, y devuelve su valor. Debido a esto, no debe usarse desde un entorno asincrónico (se bloquearía la ejecución de todo el hilo).
 
-- No debe usarse desde un entorno asincrónico (se bloquearía la ejecución de todo el hilo).
-- Duerme el hilo hasta que pueda llamarse nuevamente a `poll`.
+Para evitar llamadas innecesarias, duerme el hilo hasta que pueda llamarse nuevamente a `poll`.
 
 ## Tareas Asincrónicas
 
@@ -96,7 +95,7 @@ También existe `spawn_blocking`. Coloca la tarea en otro hilo del sistema opera
 
 ## Pin
 
-Los tipos de datos autogenerados de `async` existen en el que implementan `Future` guardan una referencia a si mismas. Si estos son movidos (por estar en el *stack*), estas referencias no se actualizan.
+Los tipos de datos autogenerados de `async` existen en el que implementan `Future` guardan una referencia a sí mismas. Si estos son movidos (por estar en el *stack*), estas referencias no se actualizan.
 
 Para resolver esto, se inventa el concepto de *pin*. Todos los tipos de dato por defecto implementan el *autotrait* `Unpin`. A menos que específicamente se marquen como `!Unpin`.
 
