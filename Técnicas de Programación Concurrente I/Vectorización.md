@@ -1,4 +1,4 @@
-Queremos realizar un cómputo "simple" sobre un conjunto grande de datos. Cada dato es independiente, o un pequeño subconjunto lo es. Para resolver esto, podriamos utilizar Fork-Join.
+Queremos realizar un cómputo "simple" sobre un conjunto grande de datos. Cada dato es independiente, o un pequeño subconjunto lo es. Para resolver esto, podríamos utilizar Fork-Join.
 
 Lanzar una tarea tiene un costo de cómputo, por lo que no siempre utilizar concurrencia es más rápido (en particular cunado el cómputo es muy simple). Además, la cantidad de CPU es limitada
 
