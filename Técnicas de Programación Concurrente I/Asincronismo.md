@@ -1,0 +1,70 @@
+Cuando una aplicación crea muchos hilos, cada uno puede ocupar una gran cantidad de memoria. Esto puede causar problemas.
+
+Para resolver esto, se utilizan **tareas asincrónicas** para intercalar tareas en un único hilo, o un *thread pool*.
+
+Estas tareas son mucho más livianas que un hilo, son más fáciles de crear, es más eficiente de pasarle el control a ellas. Se pueden tener miles o decenas de miles de tareas, pero con la reserva de memoria para únicamente unos cuantos hilos.
+
+Sin embargo, la programación asincrónica no es útil cuando tenemos una única función con cómputo intensivo.
+
+Este modelo de programación asincrónica se conoce como concurrencia colaborativa.
+
+## Futuros
+
+Las funciones asincrónicas no devuelven un valor en concreto, devuelven una promesa a dicho valor. En Rust, esta promesa se denomina `Future`. Al llamar a una operación bloqueante, no se bloqueará el hilo de ejecución. Esto se debe a que devolverá un futuro a dicho valor, y no el valor en sí.
+
+El `Future` almacena toda la información necesaria para realizar el pedido hecho por la invocación.
+
+Al agregar la palabra clave `async` a una función, automáticamente el compilador cambia la firma de la función para que devuelva un `Future`. El tipo de dato específico se genera automáticamente en tiempo de compilación.
+
+## Poll
+
+Los `Future` tienen un método `poll` para consultar si la operación se completó o no. Estos tienen dos estados: `Pending`, `Ready`.
+
+Lo único que se puede realizar con un futuro en *golpearlo* con `poll` hasta que el valor esté disponible. Esto se conoce como el **modelo piñata**.
+
+El sistema operativo provee *system calls* para que estas operaciones de consulta sean eficientes.
+
+Cada vez que se llama `poll` en un `Future`, la tarea avanza todo lo que puede avanzar.
+
+## Executor
+
+Las tareas vivirán en un *runtime* que se asigna al inicio del programa, y se encarga de ejecutar las tareas asincrónicas y llamar a `poll`.
+
+La arquitectura asincrónica de Rust está diseñada para ser eficiente. Solo se llama a `poll`cuando vale la pena.
+
+## Await
+
+Invocar a una función asincrónica retorna inmediatamente, antes de que comience a ejecutarse el cuerpo de la función. Se obtiene un `Future` del valor que contiene todo lo necesario para ejecutarse.
+
+Al ejecutar `poll` por primera vez sobre el retorno, se ejecuta el cuerpo de la función hasta el primer `await`. Si la función no se completó, retorna `Pending`.
+
+La siguiente invocación continuará desde el punto donde estaba el *future connect*. El futuro almacena el punto donde debe retomarse en el siguiente *poll*, y el estado local.
+
+La expresión `await` toma *ownership* del futuro y llama a `poll`:
+
+- Si el futuro está en estado `Ready`, el valor final del futuro es el valor devuelto en la expresión `await`, y continúa.
+- En caso contrario, retorna `Pending` a la función que lo invocó.
+
+Debido a este comportamiento, solo se puede invocar a `await` en un entorno asincrónico. Para ejecutar funciones asincrónicas desde un entorno sincrónico, utilizamos `block_on`.
+
+Esta función bloquea el hilo de ejecución hasta que la función asincrónica pasada por parámetro termine, y devuelve su valor:
+
+- Es un adaptador entre el mundo sincrónico y el mundo asincrónico.
+- No debe usarse desde un entorno asincrónico (se bloquearía la ejecución de todo el hilo).
+- Duerme el hilo hasta que pueda llamarse nuevamente a `poll`.
+
+## Tareas Asincrónicas
+
+Para crear tareas asincrónicas, utilizamos `spawn_local`. Este recibe un Future y lo agrega a un *pool* que realizará el *polling* en un `block_on`. Es análogo al *spawn* de un hilo.
+
+También podemos utilizar `spawn`. Crea la tarea y la coloca en el *pool* de hilos dedicado a realizar `poll`. No hay necesidad de ejecutar `block_on`.
+
+Los *lifetimes* de las variables deben ser *static*, pues deben poder ejecutarse hasta el final del programa.
+
+Todas las ejecuciones pueden realizarse en un único hilo. Una llamada asincrónica ofrece la apariencia de una única llamada a una función que se ejecuta hasta que se completa, pero es realizara por una serie de llamadas sincrónicas al método `poll`, que retorna rápidamente, hasta que se completa.
+
+El cambio de una tarea a otra ocurre únicamente en las expresiones *await* (cuando este devuelve `Pending`). Un cómputo grande en una función no daría lugar a la ejecución de otras tareas (a diferencia de utilizar *threads*).
+
+Una forma de resolverlo es utilizar `yield_now`, que de forma voluntaria pasa el control a otra tarea. La primera vez que se realiza `poll` retornará `Pending`. La siguiente vez devolverá `Ready`.
+
+También existe `spawn_blocking`. Coloca la tarea en otro hilo del sistema operativo, se utiliza para realizar cómputo pesado. Esto permite que no se rompa el esquema de concurrencia colaborativa.

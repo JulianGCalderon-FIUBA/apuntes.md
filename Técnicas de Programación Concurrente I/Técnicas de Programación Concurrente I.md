@@ -2,5 +2,6 @@
 - [[Abstracción de la Concurrencia]]
 - [[Modelos de Concurrencia]]
 - [[Modelo Fork-Join]]
+- [[Asincronismo]]
 - [[Asincronismo en Rust]]
 - [[Vectorización]]

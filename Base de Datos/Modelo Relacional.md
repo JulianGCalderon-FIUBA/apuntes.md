@@ -3,6 +3,8 @@ En una base de datos relacional, la información se organiza en distintas **tabl
 > [!example] Contraejemplo
 > No todas las BDD hoy en dia son relacionales. MongoDB almacena información en documentos JSON
 
+Para organizar la información, se utiliza el concepto de [[Predicados|predicados]].
+
 ## Definición Matemática
 
 Un **nombre de relación** $R$ junto con su lista de atributos asociados se denomina esquema de relación, y se denota como $R(A_1, A_2, \cdots, A_n)$.
@@ -52,5 +54,3 @@ Las operaciones de **inserción** pueden violar restricciones de dominio, de uni
 Las operaciones de **eliminación** solo pueden violar restricciones de integridad referencial. La eliminación en cascada se encarga de eliminar todas las tuplas que refieren a la entidad a eliminar.
 
 En las operaciones de **modificación**, si se modifica una clave foránea, se debe verificar que sus nuevos valores referencien a una tupla existente de la relación referenciada. Si se modifica una clave primaria, pueden violarse cualquiera de las restricciones de integridad.
-
-[[Pasaje de Modelos]]
