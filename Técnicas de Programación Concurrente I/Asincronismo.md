@@ -14,9 +14,7 @@ No está pensado para programas de cómputo intensivo, como calcular el determin
 
 ## Futuros
 
-Invocar a una función asincrónica retorna inmediatamente, antes de que comience a ejecutarse el cuerpo de la función. Devuelven una promesa a dicho valor.
-
-En Rust, esta promesa implementa `Future`. Almacena toda la información necesaria para realizar el pedido hecho por la invocación.
+Invocar a una función asincrónica retorna inmediatamente, antes de que comience a ejecutarse el cuerpo de la función. Devuelven una promesa a dicho valor. En Rust, esta promesa implementa `Future`.
 
 ```Rust
 trait Future {
@@ -26,17 +24,16 @@ trait Future {
 }
 ```
 
-Al utilizar la palabra clave `async`, el compilador traducirá nuestra función a una función asincrónica:
+Para crear una función asincrónica, utilizaremos la sintaxis `async fn`. El compilador se encargará de dos cosas.
 
-- Cambiará el valor de retorno para que devuelva un futuro
-- Construirá el tipo de dato particular.
-
-Las siguientes dos firmas de función son equivalentes:
+En primer lugar, cambiará el valor de retorno para que devuelva un tipo de dato que implemente `Future`. Las siguientes dos firmas de función son equivalentes:
 
 ```Rust
 fn hello_world() -> impl Future<Output = String>;
 async fn hello_world() -> String;
 ```
+
+En segundo lugar, definirá el tipo de dato particular, con toda la información necesaria para completar el pedido.
 
 ## Poll
 
@@ -78,6 +75,8 @@ Para ejecutar funciones asincrónicas desde un entorno sincrónico, utilizamos `
 
 Esta función bloquea el hilo de ejecución hasta que la función asincrónica pasada por parámetro termine, y devuelve su valor. Debido a esto, no debe usarse desde un entorno asincrónico (se bloquearía la ejecución de todo el hilo).
 
+Todas las ejecuciones pueden realizarse en un único hilo. Una llamada asincrónica ofrece la apariencia de una única llamada a una función que se ejecuta hasta que se completa, pero es realizara por una serie de llamadas sincrónicas al método `poll`, que retorna rápidamente, hasta que se completa.
+
 Para evitar llamadas innecesarias, duerme el hilo hasta que pueda llamarse nuevamente a `poll`.
 
 ## Tareas Asincrónicas
@@ -87,8 +86,6 @@ Para crear tareas asincrónicas, utilizamos `spawn_local`. Este recibe un futuro
 También podemos utilizar `spawn`. Crea la tarea y la coloca en el *pool* de hilos dedicado a realizar `poll`. En este caso, no hay necesidad de ejecutar `block_on`.
 
 Los *lifetimes* de las variables deben ser *static*, pues deben poder ejecutarse hasta el final del programa.
-
-Todas las ejecuciones pueden realizarse en un único hilo. Una llamada asincrónica ofrece la apariencia de una única llamada a una función que se ejecuta hasta que se completa, pero es realizara por una serie de llamadas sincrónicas al método `poll`, que retorna rápidamente, hasta que se completa.
 
 El cambio de una tarea a otra ocurre únicamente en las expresiones *await* (cuando este devuelve `Pending`). Un cómputo grande en una función no daría lugar a la ejecución de otras tareas (a diferencia de utilizar *threads*).
 
