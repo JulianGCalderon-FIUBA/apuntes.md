@@ -65,6 +65,8 @@ La expresión `await` toma *ownership* del futuro y llama a `poll`:
 
 Debido a este comportamiento, solo se puede invocar a `await` en un entorno asincrónico.
 
+Si queremos esperar el valor de dos futuros simultáneamente, podremos utilizar la macro `join!`.
+
 ## Executor
 
 Las tareas vivirán en un *runtime* que se asigna al inicio del programa, y se encarga de ejecutar las tareas asincrónicas y llamar a `poll`.
@@ -84,8 +86,6 @@ Para evitar llamadas innecesarias, duerme el hilo hasta que pueda llamarse nueva
 Para crear tareas asincrónicas, utilizamos `spawn_local`. Este recibe un futuro y lo agrega a un *pool* que realizará el *polling* en un `block_on`. Es análogo al *spawn* de un hilo.
 
 También podemos utilizar `spawn`. Crea la tarea y la coloca en el *pool* de hilos dedicado a realizar `poll`. En este caso, no hay necesidad de ejecutar `block_on`.
-
-Los *lifetimes* de las variables deben ser *static*, pues deben poder ejecutarse hasta el final del programa.
 
 El cambio de una tarea a otra ocurre únicamente en las expresiones *await* (cuando este devuelve `Pending`). Un cómputo grande en una función no daría lugar a la ejecución de otras tareas (a diferencia de utilizar *threads*). Existen dos formas de solucionarlo.
 
