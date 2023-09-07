@@ -1,26 +1,43 @@
 Cuando una aplicación crea muchos hilos, cada uno puede ocupar una gran cantidad de memoria. Esto puede causar problemas.
 
-Para resolver esto, se utilizan **tareas asincrónicas** para intercalar tareas en un único hilo, o un *thread pool*.
+Para resolver esto, se pueden utilizan **tareas asincrónicas** para intercalar tareas en un único hilo, o un *thread pool*.
 
 Estas tareas son mucho más livianas que un hilo, son más fáciles de crear, es más eficiente de pasarle el control a ellas. Se pueden tener miles o decenas de miles de tareas, pero con la reserva de memoria para únicamente unos cuantos hilos.
 
 Este modelo de programación asincrónica se conoce como concurrencia colaborativa.
 
+## Casos de Uso
+
+El modelo de programación asincrónica se pensó para casos donde el procesador está mayoritariamente inactivo. Como lecturas de un archivo, consultas a una API, etc.
+
+No está pensado para programas de cómputo intensivo, como calcular el determinante de una matriz, ni para programas con estado mutable compartido (sincronización de memoria entre hilos).
+
 ## Futuros
 
-Las funciones asincrónicas no devuelven un valor en concreto, devuelven una promesa a dicho valor. En Rust, esta promesa se denomina `Future`. Al llamar a una operación bloqueante, no se bloqueará el hilo de ejecución. Esto se debe a que devolverá un futuro a dicho valor, y no el valor en sí.
+Las funciones asincrónicas no devuelven un valor en concreto, devuelven una promesa a dicho valor. En Rust, esta promesa se denomina `Future`.
+
+```Rust
+trait Future {
+	type Output;
+	fn poll(self: Pin<&mut Self>, cx: &mut Context<'_>) 
+		-> Poll<Self::Output>;
+}
+```
 
 El `Future` almacena toda la información necesaria para realizar el pedido hecho por la invocación.
 
-Al agregar la palabra clave `async` a una función, automáticamente el compilador cambia la firma de la función para que devuelva un `Future`. El tipo de dato específico se genera automáticamente en tiempo de compilación.
+Al llamar a una operación bloqueante, no se bloqueará el hilo de ejecución. Esto se debe a que devolverá un futuro a dicho valor, y no el valor en sí.
+
+Al agregar la palabra clave `async` a una función, automáticamente el compilador cambia la firma de la función para que devuelva un tipo de dato que implementa el `Future`. El tipo de dato específico se genera automáticamente en tiempo de compilación.
 
 ## Poll
 
-Los `Future` tienen un método `poll` para consultar si la operación se completó o no. Estos tienen dos estados: `Pending`, `Ready`.
+El `Future` tiene un método `poll` para consultar si la operación se completó o no. Estos tienen dos estados: `Pending`, `Ready`.
 
-Lo único que se puede realizar con un futuro en *golpearlo* con `poll` hasta que el valor esté disponible. Esto se conoce como el **modelo piñata**.
+```
+```
 
-El sistema operativo provee *system calls* para que estas operaciones de consulta sean eficientes.
+Lo único que se puede realizar con un futuro es *golpearlo* con `poll` hasta que el valor esté disponible. Esto se conoce como el **modelo piñata**. El sistema operativo provee *system calls* para que estas operaciones de consulta sean eficientes.
 
 Cada vez que se llama `poll` en un `Future`, la tarea avanza todo lo que puede avanzar.
 
@@ -67,8 +84,10 @@ Una forma de resolverlo es utilizar `yield_now`, que de forma voluntaria pasa el
 
 También existe `spawn_blocking`. Coloca la tarea en otro hilo del sistema operativo, se utiliza para realizar cómputo pesado. Esto permite que no se rompa el esquema de concurrencia colaborativa.
 
-## Casos de Uso
+## Pin
 
-El modelo de programación asincrónica se pensó para casos donde el procesador está mayoritariamente inactivo. Como lecturas de un archivo, consultas a una API, etc.
+Los tipos de datos autogenerados de `async` existen en el que implementan `Future` guardan una referencia a si mismas. Si estos son movidos (por estar en el *stack*), estas referencias no se actualizan.
 
-No está pensado para programas de cómputo intensivo, como calcular el determinante de una matriz, ni para programas con estado mutable compartido (sincronización de memoria entre hilos).
+Para resolver esto, se inventa el concepto de *pin*. Todos los tipos de dato por defecto implementan el *autotrait* `Unpin`. A menos que específicamente se marquen como `!Unpin`.
+
+Las autorreferencias se envuelven en un tipo `Pin`.
