@@ -26,7 +26,7 @@ trait Future {
 }
 ```
 
-Al  la palabra clave `async` a una función, automáticamente el compilador cambia la firma de la función para que devuelva un tipo de dato que implementa el `Future`. El tipo de dato específico se genera automáticamente en tiempo de compilación.
+Para no tener que indicar que una función devuelve un `Future`, podemos utilizar la palabra clave `async`. Esta permite que el compilador #todo
 
 Las siguientes dos firmas de funcion son equivalentes:
 
@@ -52,15 +52,7 @@ El sistema operativo provee *system calls* para que estas operaciones de consult
 
 Cada vez que se llama `poll` en un `Future`, la tarea avanza todo lo que puede avanzar. Nunca bloqueará el hilo de ejecución.
 
-## Executor
-
-Las tareas vivirán en un *runtime* que se asigna al inicio del programa, y se encarga de ejecutar las tareas asincrónicas y llamar a `poll`.
-
-La arquitectura asincrónica de Rust está diseñada para ser eficiente. Solo se llama a `poll`cuando vale la pena.
-
 ## Await
-
-Invocar a una función asincrónica retorna inmediatamente, antes de que comience a ejecutarse el cuerpo de la función.
 
 Al ejecutar `poll` por primera vez sobre el retorno, se ejecuta el cuerpo de la función hasta el primer `await`. Si la función no se completó, retorna `Pending`.
 
@@ -68,14 +60,21 @@ La siguiente invocación continuará desde el punto donde estaba el *future conn
 
 La expresión `await` toma *ownership* del futuro y llama a `poll`:
 
-- Si el futuro está en estado `Ready`, el valor final del futuro es el valor devuelto en la expresión `await`, y continúa.
+- Si el futuro está en estado `Ready`, el valor final del futuro es el valor devuelto en la expresión `await`. Luego, continúa la ejecución.
 - En caso contrario, retorna `Pending` a la función que lo invocó.
 
-Debido a este comportamiento, solo se puede invocar a `await` en un entorno asincrónico. Para ejecutar funciones asincrónicas desde un entorno sincrónico, utilizamos `block_on`.
+Debido a este comportamiento, solo se puede invocar a `await` en un entorno asincrónico.
+
+## Executor
+
+Las tareas vivirán en un *runtime* que se asigna al inicio del programa, y se encarga de ejecutar las tareas asincrónicas y llamar a `poll`.
+
+La arquitectura asincrónica de Rust está diseñada para ser eficiente. Solo se llama a `poll`cuando vale la pena.
+
+Para ejecutar funciones asincrónicas desde un entorno sincrónico, utilizamos `block_on`. Es un adaptador entre el mundo sincrónico y el mundo asincrónico.
 
 Esta función bloquea el hilo de ejecución hasta que la función asincrónica pasada por parámetro termine, y devuelve su valor:
 
-- Es un adaptador entre el mundo sincrónico y el mundo asincrónico.
 - No debe usarse desde un entorno asincrónico (se bloquearía la ejecución de todo el hilo).
 - Duerme el hilo hasta que pueda llamarse nuevamente a `poll`.
 
