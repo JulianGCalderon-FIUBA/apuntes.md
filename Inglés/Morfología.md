@@ -35,3 +35,13 @@ En inglés, no existe el sujeto tácito. Debido a esto, a veces se utiliza el pr
 - **Cleft Sentence:** Utilizado para enfatizar: "It was his lack of attention what bothered me". No se puede reemplazar por ningún sujeto. Se caracterizan por tener un pronombre relativo: *what*, *when*, *etc.*
 - **Anticipatory Subject:** Anticipa lo que viene después, se utiliza para dar suspenso: "It is a sunny day". Tampoco se puede reemplazar, pero es necesario por la lengua.
 - **Impersonal Passive:** No refiere a nadie en particular: "It is said that...". También existe en castellano: "Se dice que...".
+
+## Conectores
+
+Los conectores tienen distintas funciones, según su tipo:
+
+- **Adición:** Agrega información: "and", "furthermore".
+- **Contraste:** Da una nueva idea que contrasta con la anterior: "pero", "sin embargo".
+- **Causa y Efecto:** Une una causa con un efecto: "because".
+- **Condición:** Da una condición: "if", "provided", "unless".
+- 
