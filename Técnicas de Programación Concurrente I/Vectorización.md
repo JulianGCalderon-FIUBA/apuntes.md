@@ -25,6 +25,10 @@ Tendremos dos tipos de operaciones:
 
 ## CUDA
 
-En CUDA, los hilos se modelan como bloques que trabajan sobre una pequeña porción de memoria independiente, y se puede direccionar en una, dos, o tres dimensiones.
+En CUDA, los hilos se modelan en bloques que trabajan sobre una pequeña porción de memoria independiente. Estos bloques se pueden direccionar en una, dos, o tres dimensiones.
 
-Permite hasta 2048 hilos por IS
+Cada bloque trabaja con un dato particular, y es totalmente independiente del resto de bloques. Los hilos de un mismo bloque si pueden compartir información entre sí, pero la idea es que los distintos hilos sean independientes entre si.
+
+Las GPU tienen multiples *Streaming Processors*. Cada uno de ellos puede 
+
+Permite hasta 2048 hilos por
