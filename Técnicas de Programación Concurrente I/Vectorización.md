@@ -12,10 +12,13 @@ Si aun así, el rendimiento no es tan bueno como necesitamos. Podemos recurrir a
 
 ## Operaciones Vectoriales
 
-Al detenerse la ley de Moore, el aumento de transistores no se tradujo en un aumento de velocidad. Esto se debio a que el calor generador por los transistores era mayor al que fisi
+Al detenerse la ley de Moore, el aumento de transistores no se tradujo en un aumento de velocidad. Esto se debio a que el calor generador por los transistores era mayor al que fisicamente se podia disipar.
 
 En su lugar, se agregaron múltiples ALU para operar sobre los mismos registros de forma concurrente. Esto dio lugar a la introducción de juegos de instrucciones SIMD (Single Instruction Multiple Data).
 
-Los registros del procesador se pueden dividir en $N$ carriles (según el tamaño de los datos), y operar sobre cada uno de ellos de forma concurrente con una ALU distinta.
+Los registros del procesador se pueden dividir en carriles (la cantidad de carriles depende del tamaño de los registros), y operar sobre cada uno de ellos de forma concurrente con una ALU distinta.
 
-Debido a que en las operaciones participan múltiples registros, se utilizan operaciones verticales. El primer carril del primer registro opera junto al primer carril del segundo registro.
+Tendremos dos tipos de operaciones:
+
+- Operaciones **verticales** entre los mismos carriles de los distintos registros.
+- Operaciones **horizontales** reducen un vector en un escalar, pero son más lentas.
