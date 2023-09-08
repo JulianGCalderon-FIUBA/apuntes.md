@@ -43,7 +43,7 @@ En inglés, no existe el sujeto tácito. Debido a esto, a veces se utiliza el pr
 Los conectores tienen distintas funciones, según su tipo:
 
 - **Adición:** Agrega información: "and", "furthermore".
-- **Contraste:** Da una nueva idea que contrasta con la anterior: "pero", "sin embargo".
+- **Contraste:** Da una nueva idea que contrasta con la anterior: "nevertheless", "however".
 - **Causa y Efecto:** Une una causa con un efecto: "because".
 - **Clarification:** Explica algo anterior: "in other words", "that is".
 - **Condición:** Da una condición: "if", "provided", "unless".
