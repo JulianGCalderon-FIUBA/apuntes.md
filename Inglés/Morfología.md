@@ -23,6 +23,8 @@ En castellano, el género te lo indica el artículo plural. Se utiliza el artíc
 
 En inglés, existen cuatro géneros: *feminine*, *masculine*, *common gender*, *neutral*. Un género neutral no implica que sirve para cualquier género, sino que no tiene ninguna.
 
+## Pronombres no Referenciales
+
 En castellano es innecesario usar el pronombre, ya que el verbo lo provee (esto se llama inflexión).
 
 En inglés, los verbos no lo incluyen, por lo que tengo que aclararlo
@@ -43,5 +45,6 @@ Los conectores tienen distintas funciones, según su tipo:
 - **Adición:** Agrega información: "and", "furthermore".
 - **Contraste:** Da una nueva idea que contrasta con la anterior: "pero", "sin embargo".
 - **Causa y Efecto:** Une una causa con un efecto: "because".
+- **Clarification:** Explica algo anterior: "in other words", "that is".
 - **Condición:** Da una condición: "if", "provided", "unless".
-- 
+- **Ejemplificación:** Da ejemplos: "for example", "such as".
