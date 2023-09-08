@@ -160,7 +160,7 @@ $$
 
 Partimos de una relación $R(A_1, A_2, \cdots, A_n)$ y una relación $S(B_1, B_2, \cdots, B_n)$ tal que $B \subset A$. Definimos $Y = A - B$.
 
-Luego, se define la división $R \div S$ como la relación $T(Y)$, que contiene todas las tuplas $t \in \pi_Y(R)$ que cumplan que para cada tupla $t_S \in S$, existe una tupla $t_R \in R$ tal que $t_R[Y] = t$ y $t_R[B] = t_s$.
+Luego, se define la división $R \div S$ como la relación $T(Y)$, que contiene todas las tuplas $t \in \pi_Y(R)$ que cumplan que, para cada tupla $t_S \in S$, existe una tupla $t_R \in R$ tal que $t_R[Y] = t$ y $t_R[B] = t_s$.
 
 En otras palabras, $R \div S$ nos devuelve una relación con todas las tuplas de $\pi_Y(R)$ tal que su combinación con cualquier tupla de $S$ pertenezca a $R$.
 
