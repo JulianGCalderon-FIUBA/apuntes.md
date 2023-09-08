@@ -6,6 +6,7 @@
 - **Descriptivo:** No trata de convencer, únicamente describe algo desde un punto parcial.
 - **Instructivo:** Nos da instrucciones para lograr algo. Puede estar ordenado, como en una receta, o puede ser desordenado, como un manual de instrucciones.
 - **Narrativo:** Hay una secuencia lógica de acciones en el tiempo, cuenta una historia.
+- **Review:** Debe ser parcial, totalmente objetiva. Para escribirla, debemos tener conocimiento del tema.
 
 > [!note] Nota
 > Un texto argumentativo no implica que no tenga una parte narrativa. Los textos pueden compartir cualidades. Para definir que tipo de texto es, debemos analizar la intención del autor.
