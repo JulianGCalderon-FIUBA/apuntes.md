@@ -22,3 +22,9 @@ Tendremos dos tipos de operaciones:
 
 - Operaciones **verticales** entre los mismos carriles de los distintos registros.
 - Operaciones **horizontales** reducen un vector en un escalar, pero son más lentas.
+
+## CUDA
+
+En CUDA, los hilos se modelan como bloques que trabajan sobre una pequeña porción de memoria independiente, y se puede direccionar en una, dos, o tres dimensiones.
+
+Permite hasta 2048 hilos por IS
