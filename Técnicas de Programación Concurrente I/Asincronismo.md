@@ -93,6 +93,8 @@ Para crear tareas asincrónicas, utilizamos `spawn_local`. Este recibe un futuro
 
 Si no queremos depender de `block_on`, podemos utilizar `spawn`. Crea la tarea y la coloca en el *pool* de hilos dedicado a realizar `poll`. En este caso, no hay necesidad de ejecutar `block_on`.
 
+### Computo Intenso
+
 El cambio de una tarea a otra ocurre únicamente en las expresiones *await* (cuando este devuelve `Pending`). Un cómputo grande en una función no daría lugar a la ejecución de otras tareas (a diferencia de utilizar *threads*). Existen dos formas de solucionarlo.
 
 Una forma de resolverlo es utilizar `yield_now`, que de forma voluntaria pasa el control a otra tarea. La primera vez que se realiza `poll` retornará `Pending`. La siguiente vez devolverá `Ready`.
