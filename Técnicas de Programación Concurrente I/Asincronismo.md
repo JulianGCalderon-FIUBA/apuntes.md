@@ -43,8 +43,6 @@ Para resolver esto, se inventa el concepto de *pin*. Todos los tipos de dato por
 
 Las autorreferencias se encierran en un tipo de dato `Pin<Box<T>>`. Si `T` es `!Unpin`, `Pin` evita que se mueva haciendo imposible llamar métodos que requieran `&mut T` como `mem::swap`.
 
-## Context
-
 ## Poll
 
 El `Future` tiene un método `poll` para consultar si la operación se completó o no. El resultado tiene dos valores posibles
@@ -61,6 +59,14 @@ Lo único que se puede realizar con un futuro es *golpearlo* con `poll` hasta qu
 El sistema operativo provee *system calls* para que estas operaciones de consulta sean eficientes.
 
 Cada vez que se llama `poll` en un `Future`, la tarea avanza todo lo que puede avanzar. Nunca bloqueará el hilo de ejecución.
+
+## Context
+
+Los futuros necesitan una forma de notificar cuando pueden realizar algún tipo de avance, para esto se utiliza el tipo de dato `Context`.
+
+Estos proveen acceso a un valor del tipo `Waker`, que puede ser utilizado para despertar una tarea en específica.
+
+Esto permite que únicamente se llame a `Poll` cuando el futuro pueda realizar un avance, evitando llamadas innecesarias.
 
 ## Await
 
@@ -86,8 +92,6 @@ Para ejecutar funciones asincrónicas desde un entorno sincrónico, utilizamos `
 Esta función bloquea el hilo de ejecución hasta que la función asincrónica pasada por parámetro termine, y devuelve su valor. Debido a esto, no debe usarse desde un entorno asincrónico (se bloquearía la ejecución de todo el hilo).
 
 Todas las ejecuciones pueden realizarse en un único hilo. Una llamada asincrónica ofrece la apariencia de una única llamada a una función que se ejecuta hasta que se completa, pero es realizara por una serie de llamadas sincrónicas al método `poll`, que retorna rápidamente hasta que se completa.
-
-La arquitectura asincrónica de Rust está diseñada para ser eficiente. Solo se llama a `poll`cuando vale la pena. Duerme el hilo hasta que pueda llamarse nuevamente a `poll`.
 
 ### Tareas Asincrónicas
 
