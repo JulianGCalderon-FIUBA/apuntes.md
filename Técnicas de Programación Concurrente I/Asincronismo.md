@@ -43,6 +43,8 @@ Para resolver esto, se inventa el concepto de *pin*. Todos los tipos de dato por
 
 Las autorreferencias se encierran en un tipo de dato `Pin<Box<T>>`. Si `T` es `!Unpin`, `Pin` evita que se mueva haciendo imposible llamar métodos que requieran `&mut T` como `mem::swap`.
 
+## Context
+
 ## Poll
 
 El `Future` tiene un método `poll` para consultar si la operación se completó o no. El resultado tiene dos valores posibles
