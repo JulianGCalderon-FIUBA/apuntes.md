@@ -1,5 +1,5 @@
 
-[[Lenguajes de Programación]]
+- [[Lenguajes de Programación]]
 - [[Modelo Computacional]]
 - [[Modelo Declarativo]]
 - [[Sintaxis Oz]]
