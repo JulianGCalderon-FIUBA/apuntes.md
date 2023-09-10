@@ -1,4 +1,4 @@
- 
+
 - [[Lenguajes de Programación]]
 - [[Modelo Computacional]]
 - [[Lenguaje Oz]]

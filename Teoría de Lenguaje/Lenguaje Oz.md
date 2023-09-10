@@ -19,7 +19,7 @@ declare A B Var
 A = 4
 B = 5
 Var = A*B + 3
-{Browse Var} %23
+{Browse Var} % 23
 ```
 
 En un modelo declarativo, las variables pueden ser pensadas como atajos a los valores. Son inmutables y de única asignación.
@@ -39,7 +39,7 @@ local A B Var in
 	A = 4
 	B = 5
 	Var = A*B + 3
-	{Browse Var} %23
+	{Browse Var} % 23
 end
 ```
 
@@ -52,8 +52,9 @@ local A in
 	A = 4
 	local A in
 		A = 7
-		{Browse A} %7
+		{Browse A} % 7
 	end
+	{Browse A} % 4
 end
 ```
 
@@ -66,7 +67,7 @@ declare A B Var
 4 = A
 A + 1 = B
 A*B + 3 = Var
-{Browse Var} %23
+{Browse Var} % 23
 ```
 
 El orden de la ejecución, tampoco es importante. Todas las instrucciones son **declaraciones** independientes.
@@ -76,7 +77,7 @@ declare A B Var
 A + 1 = B
 A*B + 3 = Var
 4 = A
-{Browse Var} %23
+{Browse Var} % 23
 ```
 
 Para declarar números negativos, utilizamos el símbolo `~`.
@@ -100,7 +101,7 @@ end
 A = 30
 B = 20
 M = {Mayor A B}
-{Browse M} %30
+{Browse M} % 30
 ```
 
 Los lenguajes se dividen en expresiones y declaraciones. Los valores solos son expresiones. Las funciones devuelven las expresiones sueltas, sin necesidad de agregar un `return`. Solo puede haber una expresión suelta en una función.
