@@ -15,7 +15,7 @@ Breve resumen de los contenidos teóricos de la materia, consultar la bibliograf
 - [[Multi-Level Feedback Queue]]
 - [[Proportional-Share Scheduler]]
 - [[Planificador Multiprocesador]]
-- [[Concurrencia]]
+- [[Sistemas Operativos/Concurrencia]]
 - [[API de Threads]]
 - [[Locks]]
 - [[Estructuras Concurrentes]]

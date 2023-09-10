@@ -106,6 +106,9 @@ proc {Imprimir Msg}
 end
 ```
 
+## Procedimientos
+
+Los procedimientos son conceptos aún más básicos que las funciones. Se utilizan variables no ligadas como parametros.
 ## Records
 
 Los registros son estructuras de datos para agrupar referencias. Se componen de una etiqueta *(label)* y múltiples características *(features)*. Cada característica puede tener valores asociados
@@ -135,6 +138,23 @@ Numeros = numeros(3 5 2 5)
 {Browse Numeros.1} % 3
 ```
 
+## Listas
+
+Una lista es una tupla con dos elementos. Uno es el primer elemento, y el segundo es el resto de la lista. La lista se construye con `[]`, `|`, o `'|'()`
+
+```Oz
+declare L1 L2 L3
+L1 = [10 20 30]
+L2 = 10|20|30|nil
+L3 = '|'(10 '|'(20 '|'(30 nil)))
+
+{Browse L1.1}
+{Browse L1.2.1}
+{Browse L1.2.2.1}
+```
+
+La lista se recorre de forma recursiva. A esto se debe la naturaleza de su estructura
+
 ## Binding
 
 El **binding** consiste en asignarle un valor literal a una variable.
@@ -155,91 +175,3 @@ X = Y
 ```
 
 Si tratamos de ligar dos estructuras con distintas características, el programa falla.
-
-## Listas
-
-Una lista es una tupla con dos elementos. Uno es el primer elemento, y el segundo es el resto de la lista. La lista se construye con `[]`, `|`, o `'|'()`
-
-```Oz
-declare L1 L2 L3
-L1 = [10 20 30]
-L2 = 10|20|30|nil
-L3 = '|'(10 '|'(20 '|'(30 nil)))
-
-{Browse L1.1}
-{Browse L1.2.1}
-{Browse L1.2.2.1}
-```
-
-La lista se recorre de forma recursiva. A esto se debe la naturaleza de su estructura
-
-## Pattern Matching
-
-Es una manera de acceder a los campos de una estructura de datos y obtener los valores
-
-Un patrón *matchea* sobre un registro cuando coincide en su largo, etiqueta, y características.
-
-```Oz
-declare EsVacio L
-
-proc {EsVacio L}
-	case L of H|T then
-		{Browse 'No'}
-	else
-		{Browse 'Si'}
-	end
-end
-
-L = nil
-{EsVacio L} % Si
-```
-
-El *pattern matching* trata de asignar la variable al patrón. Si es posible hacerlo, entonces el patrón coincide.
-
-```Oz
-declare L H T
-L = [10 20 30] % 10|20|30|nil
-L = H|T
-{Browse H} % 10
-{Browse T} % [20, 30]
-```
-
-Esto puede ser utilizado para, por ejemplo, calcular el largo de una lista
-
-```Oz
-declare Largo L Res
-fun {Largo L}
-	case L of H|T then
-		{Largo T} + 1
-	else
-		0
-	end
-end
-
-L = [10 20 30]
-Res = {Largo L}
-{Browse Res} % 3
-```
-
-También pueden utilizarse múltiples patrones
-
-```Oz
-declare EsVacio L1 L2 L3
-fun {EsVacio L}
-	case L of H|T then
-		{Browse 'No'}
-	[] nil then
-		{Browse 'Si'}
-	else
-		{Browse 'No es una lista'}
-	end
-end
-
-L1=[10]
-L2=nil
-L3=10
-
-{EsVacio L1} % No
-{EsVacio L2} % Si
-{EsVacio L3} % No es una lista
-```
