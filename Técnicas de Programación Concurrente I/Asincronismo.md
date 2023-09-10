@@ -89,7 +89,9 @@ Si queremos esperar el valor de dos futuros simultáneamente, podremos utilizar 
 
 ## Executor
 
-Las tareas vivirán en un *runtime* que se asigna al inicio del programa, y se encarga de ejecutar las tareas asincrónicas y llamar a `poll`. Estos *runtimes* son externos a Rust, y hay varios. Los más comunes son Tokio y async-std.
+Los futuros de Rust son *lazy*, no harán nada a menos que sean activamente conducidos hasta su finalización. Los ejecutores son un conjunto de futuros de alto nivel que se encargarán de esto.
+
+Las tareas vivirán en un ejecutor que se asigna al inicio del programa, y se encarga de ejecutar las tareas asincrónicas y llamar a `poll`. Estos son externos a Rust, y hay varios. Los más comunes son Tokio y async-std.
 
 Para ejecutar funciones asincrónicas desde un entorno sincrónico, utilizamos `block_on`. Es un adaptador entre el mundo sincrónico y el mundo asincrónico.
 
