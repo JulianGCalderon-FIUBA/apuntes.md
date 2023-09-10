@@ -32,3 +32,11 @@ Notemos que, aunque el imperativo tenga más características, no significa que 
 Los lenguajes de programación declarativos se centran en el ¿qué?, mientras que los lenguajes de programación imperativos se centran en él ¿cómo?
 
 Debido a esta naturaleza, las instrucciones escritas un lenguaje declarativo son mucho más difíciles de seguir. Pueden ser pensadas como una lista de definiciones
+
+## ¿Qué nos permite estudiar?
+
+El modelo computacional nos permite estudiar tres elementos:
+
+- **Correctitud:** Nos permite estudiar matemáticamente que la ejecución de nuestro programa sea correcta.
+- **Complejidad Temporal:** Tiene que ver con expresar un orden de magnitud temporal del tiempo de ejecución de nuestro programa.
+- **Complejidad Espacial:** Tiene que ver con expresar un orden de magnitud espacial para la memoria que ocupa nuestro programa. En esta materia, vamos h
