@@ -1,8 +1,10 @@
-Es un [[Lenguajes|lenguaje]] declarativo, de más alto nivel que el álgebra relacional. Al no ser procedural, no especifica el orden de las operaciones.
+---
+draft: true
+---
 
-Es un lenguaje basado en la lógica de [[Predicados|predicados]]
+Es un [[Lenguajes|lenguaje]] de manipulación de datos declarativo, de más alto nivel que el álgebra relacional. Al no ser procedural, no especifica el orden de las operaciones.
 
-Presenta dos variantes:
+Es un lenguaje basado en la lógica de [[Predicados|predicados]], presenta dos variantes:
 
 - El cálculo relacional de tuplas
 - El cálculo relacional de dominios

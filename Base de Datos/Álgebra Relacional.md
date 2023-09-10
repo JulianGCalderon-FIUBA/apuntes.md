@@ -1,6 +1,6 @@
 Tendremos dos componentes principales: el **álgebra relacional**, y el [[Cálculo Relacional]]. El cálculo nos dirá *qué* obtener, y el álgebra nos dirá *cómo* lo obtendremos.
 
-El álgebra relacional es un [[Lenguajes|lenguaje]] procedural, mientras que el cálculo relacional será un lenguaje declarativo.
+El álgebra relacional es un [[Lenguajes|lenguaje]] de manipulación de datos procedural, mientras que el cálculo relacional será un lenguaje declarativo.
 
 ## Definiciones
 
@@ -16,7 +16,7 @@ Las operaciones del álgebra relacional pueden combinarse entre ellos para forma
 
 La **aridad** es la cantidad de operandos que toma una operación.
 
-## Operaciones Básicas
+## Operaciones Unarias
 
 ### Selección
 
@@ -72,7 +72,7 @@ Dada una relación $R(A_1, A_2, \cdots, A_n)$, un nuevo nombre de relación $S$ 
 
 Si se omiten los atributos, solo se cambia el nombre de la relación. Para cambiar el nombre de únicamente un atributo, podemos utilizar $\rho_{B_1 \leftarrow A_1}(R)$.
 
-## Operaciones de Conjuntos
+## Operaciones Binarias
 
 ### Unión
 

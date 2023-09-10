@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 Cuando una aplicación crea muchos hilos, cada uno puede ocupar una gran cantidad de memoria. Esto puede causar problemas.
 
 Para resolver esto, se pueden utilizan **tareas asincrónicas** para intercalar tareas en un único hilo, o un *thread pool*.
