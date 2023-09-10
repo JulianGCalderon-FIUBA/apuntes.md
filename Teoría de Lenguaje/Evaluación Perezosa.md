@@ -9,10 +9,10 @@ fun lazy {Ints N}
 end
 
 L = {Ints 0}
-{Browse L.2.2.2.1}
-
+{Browse L.2.2.2.1} % 3
+{Browse L} % 0|1|2|3|_
 ```
 
 Normalmente, ejecutar la función declarada rompería el programa, ya que entraría en un bucle infinito. Al agregar la palabra clave `lazy`, le indicamos al programa que queremos que la función se ejecuta de forma perezosa.
 
-
+Al imprimir la lista completa, únicamente imprimiremos hasta el último elemento calculado.
