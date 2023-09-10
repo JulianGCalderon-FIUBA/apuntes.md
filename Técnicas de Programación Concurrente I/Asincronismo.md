@@ -1,7 +1,3 @@
----
-draft: true
----
-
 Cuando una aplicación crea muchos hilos, cada uno puede ocupar una gran cantidad de memoria. Esto puede causar problemas.
 
 Para resolver esto, se pueden utilizan **tareas asincrónicas** para intercalar tareas en un único hilo, o un *thread pool*.
@@ -93,15 +89,17 @@ Los futuros de Rust son *lazy*, no harán nada a menos que sean activamente cond
 
 Las tareas vivirán en un ejecutor que se asigna al inicio del programa, y se encarga de ejecutar las tareas asincrónicas y llamar a `poll`. Estos son externos a Rust, y hay varios. Los más comunes son Tokio y async-std.
 
+### Ejecución de un Futuro
+
 Para ejecutar funciones asincrónicas desde un entorno sincrónico, utilizamos `block_on`. Es un adaptador entre el mundo sincrónico y el mundo asincrónico.
 
 Esta función bloquea el hilo de ejecución hasta que la función asincrónica pasada por parámetro termine, y devuelve su valor. Debido a esto, no debe usarse desde un entorno asincrónico (se bloquearía la ejecución de todo el hilo).
 
-Todas las ejecuciones pueden realizarse en un único hilo. Una llamada asincrónica ofrece la apariencia de una única llamada a una función que se ejecuta hasta que se completa, pero es realizara por una serie de llamadas sincrónicas al método `poll`, que retorna rápidamente hasta que se completa.
-
 ### Tareas Asincrónicas
 
 Para crear tareas asincrónicas, utilizamos `spawn_local`. Este recibe un futuro y lo agrega a un *pool* que realizará el *polling* en un `block_on`. Es análogo al *spawn* de un hilo.
+
+Todas las ejecuciones pueden realizarse en un único hilo. Una llamada asincrónica ofrece la apariencia de una única llamada a una función que se ejecuta hasta que se completa, pero es realizara por una serie de llamadas sincrónicas al método `poll`, que retorna rápidamente hasta que se completa.
 
 Si no queremos depender de `block_on`, podemos utilizar `spawn`. Crea la tarea y la coloca en el *pool* de hilos dedicado a realizar `poll`. En este caso, no hay necesidad de ejecutar `block_on`.
 
