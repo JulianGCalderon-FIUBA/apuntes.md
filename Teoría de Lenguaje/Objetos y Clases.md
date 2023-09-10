@@ -1,6 +1,6 @@
 ## Objeto
 
-Definiremos un objeto como una función con memoria interna. Esta memoria interna debe ser mutable, por lo que r
+Definiremos un objeto como una función con memoria interna. Esta memoria interna debe ser mutable, por lo que recurriremos al [[Estado Explícito]].
 
 ```Oz
 declare C Bump
