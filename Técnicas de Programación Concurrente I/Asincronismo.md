@@ -66,9 +66,9 @@ Cada vez que se llama `poll` en un `Future`, la tarea avanza todo lo que puede a
 
 ## Context
 
-Los futuros necesitan una forma de notificar cuando pueden realizar algún tipo de avance, para esto se utiliza el tipo de dato `Context`.
+Los futuros necesitan una forma de notificar cuando pueden realizar algún tipo de avance, para esto se utiliza el tipo de dato `Context`. Estos proveen acceso a un valor del tipo `Waker`, que puede ser utilizado para despertar una tarea en específica.
 
-Estos proveen acceso a un valor del tipo `Waker`, que puede ser utilizado para despertar una tarea en específica.
+Cada vez que se llama un `poll` en un futuro, esta llamada se realiza como parte de una "tarea", las tareas son futuros de primer nivel que fueron enviados a un ejecutor. El `Waker` provee un método `wake()` que puede ser utilizado para decirle al ejecutor que la tarea asociada debe ser despertada.
 
 Esto permite que únicamente se llame a `Poll` cuando el futuro pueda realizar un avance, evitando llamadas innecesarias.
 
