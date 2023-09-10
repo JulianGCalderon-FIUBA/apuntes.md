@@ -3,21 +3,21 @@ Cuando las funciones son consideradas como cualquier otro tipo de dato, se dice 
 En estos casos, podremos pasar funciones como parámetro a otras funciones. Esto permite programar en un contexto más funcional.
 
 ```Oz
-declare Seleccionar Mayor L1
-fun {Mayor A B}
-	if (A > B) then A else B end
-end
+declare Seleccionar Mayor Menor L
+fun {Mayor A B} if (A > B) then A else B end end
+fun {Menor A B} if (A < B) then A else B end end
 
 fun {Seleccionar Op L}
 	case L of H|nil then
 		H
 	[] H|T then
-		{Mayor H {Maximo OpT}}
+		{Op H {Seleccionar Op T}}
 	else
 		'Error: Se espera una lista'
 	end
 end
 
-L1 = [1 2 3 4 5 99 6 7 8 9 10]
-{Browse {Seleccionar Mayor L1}}
+L = [1 2 3 4 5 99 6 7 8 9 10]
+{Browse {Seleccionar Mayor L}} % 99
+{Browse {Seleccionar Menor L}} % 1
 ```
