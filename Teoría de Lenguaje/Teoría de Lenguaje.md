@@ -4,5 +4,5 @@
 - [[Pattern Matching]]
 - [[Asignaciones]]
 - [[Evaluación Perezosa]]
-- [[Funciones de Primera Clase]]
+- [[Programación de Alto Orden]]
 - [[Teoría de Lenguaje/Concurrencia|Concurrencia]]
