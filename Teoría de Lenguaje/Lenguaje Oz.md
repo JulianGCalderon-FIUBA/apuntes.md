@@ -108,7 +108,21 @@ end
 
 ## Procedimientos
 
-Los procedimientos son conceptos aún más básicos que las funciones. Se utilizan variables no ligadas como parametros.
+Los procedimientos son conceptos aún más básicos que las funciones. Se utilizan variables no ligadas como parámetros.
+
+Los procedimientos no devuelven un valor. El procedimiento puede ligar un valor a esa variable, y ser utilizado luego de la llamada al procedimiento.
+
+```Oz
+declare Suma A B Z in
+proc {Suma A B Z}
+	Z = A + B
+end
+A = 10
+B = 5
+{Suma A B Z}
+{Browse Z} % 15
+```
+
 ## Records
 
 Los registros son estructuras de datos para agrupar referencias. Se componen de una etiqueta *(label)* y múltiples características *(features)*. Cada característica puede tener valores asociados
