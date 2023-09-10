@@ -1,3 +1,5 @@
+El *scoping* de un lenguaje refiere a su manejo de ámbitos o *scopes*.
+
 ## Global vs. Local
 
 Podemos limitar el ambiente de variables a un entorno particular.
@@ -11,7 +13,7 @@ local A B Var in
 end
 ```
 
-En un entorno global, las variables pueden ser accedidas en todo el programa, lo cual puede traer problemas.
+En un scope global, las variables pueden ser accedidas en todo el programa, lo cual puede traer problemas.
 
 Las variables pueden ser reasignadas al definir un nuevo entorno.
 
@@ -35,6 +37,20 @@ Supongamos el siguiente código:
 ```Oz
 local P Q in
 	proc {Q X}
-		{Browse }
+		{Browse stat(X)}
+	end
+	proc {P X}
+		{Q X}
+	end
+	local Q in
+		proc {Q X}
+			{Browse dyn(X)}
+		end
+		{Q 'X'}
+	end	
 end
 ```
+
+Si el scoping del lenguaje de programación es estático, se imprimirá `stat(X)`. En caso contrario, se imprimirá `dyn(X)`. Oz es un lenguaje con scoping estático.
+
+En un lenguaje de scoping estático, las variables libres toman valor en el momento de la definición. En un lenguaje de scoping dinámico, las variables libres toman valor en el momento de la ejecución.

@@ -188,7 +188,9 @@
     "tipado",
     "Tuplas",
     "redenominación",
-    "Redenominación"
+    "Redenominación",
+    "scoping",
+    "scope"
   ],
   "newFileLocation": "current"
 }
