@@ -2,6 +2,7 @@
 - [[Lenguajes de Programación]]
 - [[Modelo Computacional]]
 - [[Sintaxis Oz]]
+- [[Definición Formal de Oz]]
 - [[Pattern Matching]]
 - [[Asignaciones]]
 - [[Evaluación Perezosa]]
