@@ -1,10 +1,8 @@
 
 - [[Lenguajes de Programación]]
 - [[Modelo Computacional]]
-- [[Sintaxis Oz]]
-- - [[Pattern Matching]]
-- [[Asignaciones]]
-- [[Definición Formal de Oz]]
+- [[Lenguaje Oz]]
+- [[Kernel de Oz]]
 - [[Evaluación Perezosa]]
 - [[Programación de Alto Orden]]
 - [[Teoría de Lenguaje/Concurrencia|Concurrencia]]
