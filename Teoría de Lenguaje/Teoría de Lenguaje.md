@@ -1,5 +1,7 @@
- 
+
+[[Lenguajes de Programación]]
 - [[Modelo Computacional]]
+- [[Modelo Declarativo]]
 - [[Sintaxis Oz]]
 - [[Pattern Matching]]
 - [[Asignaciones]]
