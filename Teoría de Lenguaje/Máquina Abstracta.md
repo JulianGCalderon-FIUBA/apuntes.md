@@ -1,3 +1,5 @@
+Nos permite definir la semántica de un lenguaje.
+
 ## Single Assignment Store
 
 El primer elemento de una máquina abstracta es la memoria. Las variables serán declarativas.
@@ -17,7 +19,7 @@ El entorno nos indicará a qué variable apunta cada identificador de variable:
 
 Tendremos dos operaciones:
 
-- **Adición:** Debemos indicar para un identificador de variable, a que variable efectiva está apuntando. `E' = E + {<x> -> x}`
+- **Adición:** Debemos indicar para un identificador de variable, a que variable efectiva está apuntando. Nos permite agregarle a un entorno, nuevas variables `E' = E + {<x> -> x}`
 - **Restricción:** `E' = E|_{<x>,..<z>}`
 
 ## Stack
