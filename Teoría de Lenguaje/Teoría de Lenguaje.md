@@ -1,11 +1,19 @@
+## Temas Centrales
+
 - [[Lenguajes de Programación]]
 - [[Modelo Computacional]]
 - [[Modelo Declarativo]]
 - [[Modelo Imperativo]]
+
+## Lenguaje Oz
+
 - [[Lenguaje Oz]]
 - [[Kernel de Oz]]
 - [[Pattern Matching]]
 - [[Asignaciones]]
+
+## Conceptos Independientes
+
 - [[Scoping]]
 - [[Abstracción Procedural]]
 - [[Evaluación Perezosa]]
