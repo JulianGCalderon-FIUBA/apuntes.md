@@ -1,4 +1,6 @@
-Nos permite definir la semántica de un lenguaje, de forma abstracta.
+La maquina abstracta es un model oteorico de una maquina virtual, que nos permite definir la semantica de un lenguaje de programación.
+
+Definimos que efecto tienen las instrucciones en nuestra maquina abstracta.
 
 ## Single Assignment Store
 

@@ -39,4 +39,4 @@ X = Y
 {Browse B} % 40
 ```
 
-Este concepto está relacionado con el [[Pattern Matching]]. Si ambos registros no comparten la misma estructura, entonces el programa fallará.
+Si ambos registros no comparten la misma estructura, entonces el programa fallará.
