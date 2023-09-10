@@ -8,3 +8,4 @@
 - [[Teoría de Lenguaje/Concurrencia|Concurrencia]]
 - [[Estado Explícito]]
 - [[Objetos y Clases]]
+- [[Indeterminismo]]
