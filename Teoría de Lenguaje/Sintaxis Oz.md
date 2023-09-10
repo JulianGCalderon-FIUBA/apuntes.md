@@ -105,15 +105,6 @@ M = {Mayor A B}
 
 Los lenguajes se dividen en expresiones y declaraciones. Los valores solos son expresiones. Las funciones devuelven las expresiones sueltas, sin necesidad de agregar un `return`. Solo puede haber una expresión suelta en una función.
 
-Una función es una expresión, debe estar asignada a algo. Para definir una función sin valor de retorno, utilizamos procedimientos.
-
-```Oz
-declare Imprimir
-proc {Imprimir Msg}
-	{Browse Msg}
-end
-```
-
 ## Procedimientos
 
 Los procedimientos son conceptos aún más básicos que las funciones. Se utilizan variables no ligadas como parámetros.
