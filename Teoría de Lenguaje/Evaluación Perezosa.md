@@ -1,5 +1,3 @@
-## Evaluación Perezosa
-
 Hay dos tipos de evaluación. La evaluación **eager** y la evaluación **lazy**.
 
 En la evaluación **lazy**, los cálculos se hacen recién al momento en que se necesitan. Por ejemplo, podremos crear un generador de enteros infinito.

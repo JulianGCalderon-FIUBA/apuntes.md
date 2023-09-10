@@ -1,5 +1,3 @@
-## Pattern Matching
-
 Es una manera de acceder a los campos de una estructura de datos y obtener los valores
 
 Un patrón *matchea* sobre un registro cuando coincide en su largo, etiqueta, y características.

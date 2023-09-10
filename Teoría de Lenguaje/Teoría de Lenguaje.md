@@ -1,6 +1,7 @@
 - [[Lenguajes de Programación]]
 - [[Modelo Computacional]]
 - [[Modelo Declarativo]]
+- [[Modelo Imperativo]]
 - [[Lenguaje Oz]]
 - [[Kernel de Oz]]
 - [[Pattern Matching]]

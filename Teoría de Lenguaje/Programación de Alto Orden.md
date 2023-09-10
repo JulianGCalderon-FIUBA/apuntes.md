@@ -1,5 +1,3 @@
-## Programación de Alto Orden
-
 Cuando las funciones son consideradas como cualquier otro tipo de dato, se dice que son ciudadanos de primera clase.
 
 En estos casos, podremos pasar funciones como parámetro a otras funciones. Esto permite programar en un contexto más funcional.

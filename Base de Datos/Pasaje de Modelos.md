@@ -112,7 +112,9 @@ Como siempre será una dependencia total, no necesitaremos una tabla adicional.
 
 Las subclases tienen una clave foránea refiriendo a la superclase, permitiendo expandir sus atributos y relaciones.
 
-Si la especialización es total, podremos eliminar la superclase
+![[Pasaje de Modelos 1694374478.png]]
+
+Si la especialización es total y disjunta, podremos eliminar la superclase
 
 ![[Pasaje de Modelos 1694374212-10.png|475]]
 

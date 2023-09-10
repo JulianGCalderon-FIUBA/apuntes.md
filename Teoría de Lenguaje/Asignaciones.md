@@ -1,5 +1,3 @@
-## Asignaciones
-
 Existen dos formas de asignarles valores a una variable.
 
 El **binding** consiste en asignarle un valor literal a una variable. Es el más simple
@@ -19,7 +17,7 @@ X = 5
 {Browse Y} % 5
 ```
 
-### Asignaciones en Registros
+## Asignaciones en Registros
 
 El **partial value** se da cuando una característica registro tiene una variable no ligada asignada a una característica. Esta variable puede ser ligada posteriormente.
 
