@@ -31,5 +31,3 @@ El cómputo es el estado de ejecución del programa. El cómputo define como se 
 $$
 (ST_0, \sigma_0) \to (ST_1, \sigma_1) \to \cdots, \to, (ST_n, \sigma_n)
 $$
-
-Se define como una secuencia de *stemantic statements*, junto al estado de cada una.
