@@ -79,6 +79,14 @@ A*B + 3 = Var
 {Browse Var} %23
 ```
 
+Para declarar números negativos, utilizamos el símbolo `~`.
+
+```Oz
+declare A
+A = ~3
+{Browse A} % ~3
+```
+
 ## Funciones
 
 Podemos definir funciones, estas deben tener un nombre y una lista de parámetros. Deben ser declaradas como variables.
