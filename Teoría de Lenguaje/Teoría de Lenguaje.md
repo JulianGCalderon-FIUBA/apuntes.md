@@ -9,8 +9,8 @@
 ## Lenguaje Oz
 
 - [[Lenguaje Oz]]
-- [[Kernel de Oz]]
-- [[Máquina de Oz]]
+- [[Sintaxis de Oz]]
+- [[Semántica de Oz]]
 - [[Pattern Matching]]
 - [[Asignaciones]]
 

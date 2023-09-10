@@ -1,10 +1,10 @@
-Para definir la semántica del lenguaje, debemos definir por cada *statement*, como se ejecutará.
+Para definir la semántica del lenguaje, debemos definir por cada *statement*, como se ejecutará. Utilizaremos una [[Máquina Abstracta]]
 
 ## Skip
 
 La instrucción `skip` se utiliza para no hacer nada dentro de un bloque.
 
-![[Máquina de Oz 1694377235.png|500]]
+![[Semántica de Oz 1694377235.png|500]]
 
 En nuestro stack tendremos la instrucción `skip`, y el resto del stack. Luego de la ejecución, tendremos el resto del stack, y nuestro estado no cambió.
 
@@ -12,7 +12,7 @@ En nuestro stack tendremos la instrucción `skip`, y el resto del stack. Luego d
 
 Cuando en el tope de la pila tenemos dos declaraciones para el mismo entorno, entonces se apila cada declaración por separado, con el mismo entorno.
 
-![[Máquina de Oz 1694377293.png|500]]
+![[Semántica de Oz 1694377293.png|500]]
 
 ## Declaración de Variable
 
@@ -23,4 +23,16 @@ Cuando en el tope tenemos el siguiente *semantic statement* `(local <x> in <s> e
 3. Se apila `(<s>, E')` al stack
 4. Se continúa con la proxima ejecución
 
-![[Máquina de Oz 1694377588.png|500]]
+![[Semántica de Oz 1694377588.png|500]]
+
+## Igualdad: Variable - Variable
+
+Se realiza un *bind* de ambas variables en el *store*.
+
+![[Semántica de Oz 1694377692.png|500]]
+
+## Igualdad: Variable - Valor
+
+Se crea el valor y se liga a la variable `<x>` en el *store*.
+
+![[Semántica de Oz 1694377710.png|500]]
