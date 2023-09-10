@@ -122,7 +122,7 @@ B = 5
 {Browse Z} % 15
 ```
 
-## Records
+## Registros
 
 Los registros son estructuras de datos para agrupar referencias. Se componen de una etiqueta *(label)* y múltiples características *(features)*. Cada característica puede tener valores asociados
 
