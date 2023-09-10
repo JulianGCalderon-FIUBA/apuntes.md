@@ -63,7 +63,7 @@ end
 
 Si el primer hilo se ejecuta primero, entonces esperará a que estén definidos los valores necesarios para continuar.
 
-## Estado Explicito
+## Estado Explícito
 
 Este concepto proviene del modelo imperativo. En algunos lenguajes, se utiliza el concepto de **función pura**. Una función pura es aquella que no tiene efectos secundarios. Únicamente devuelve un valor, sin mutar el estado ninguna variable.
 
@@ -84,7 +84,7 @@ C :== @C+10
 
 ### Objetos
 
-Definiremos un objeto como una función con memoria interna. Esta memoria interna debe ser mutable, por lo que recurriremos al [[Estado Explícito]].
+Definiremos un objeto como una función con memoria interna. Esta memoria interna debe ser mutable, por lo que recurriremos al estado explícito.
 
 ```Oz
 declare C Bump
