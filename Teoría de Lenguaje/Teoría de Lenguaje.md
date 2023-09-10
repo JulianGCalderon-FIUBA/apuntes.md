@@ -10,6 +10,7 @@
 
 - [[Lenguaje Oz]]
 - [[Kernel de Oz]]
+- [[Maquina]]
 - [[Pattern Matching]]
 - [[Asignaciones]]
 

@@ -1,5 +1,3 @@
-La máquina abstracta es una forma de definir la semántica de un lenguaje de programación.
-
 ## Single Assignment Store
 
 El primer elemento de una máquina abstracta es la memoria. Las variables serán declarativas.
@@ -18,5 +16,20 @@ El entorno nos indicará a qué variable apunta cada identificador de variable:
 - Denotamos con `E(<x>)`al valor en el *store* del identificador `<x>`, según su entorno.
 
 Tendremos dos operaciones:
-- **Adición:** `E' = E + {<x> -> x}`
-- **Restrucción:** `E' = E`
+
+- **Adición:** Debemos indicar para un identificador de variable, a que variable efectiva está apuntando. `E' = E + {<x> -> x}`
+- **Restricción:** `E' = E|_{<x>,..<z>}`
+
+## Stack
+
+El stack de nuestra ejecución es una pila de *semantic statements*. Un **semantic statement** es un par `(<s>, E)`, siendo `<s>` un *statement*.
+
+## Computo
+
+El cómputo es el estado de ejecución del programa. El cómputo define como se modifica el estado de ejecución de un programa.
+
+$$
+(ST_0, \sigma_0) \to (ST_1, \sigma_1) \to \cdots, \to, (ST_n, \sigma_n)
+$$
+
+Se define como una secuencia de *stemantic statements*, junto al estado de cada una.
