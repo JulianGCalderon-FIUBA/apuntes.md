@@ -1,4 +1,4 @@
-Nos permite definir la semántica de un lenguaje.
+Nos permite definir la semántica de un lenguaje, de forma abstracta.
 
 ## Single Assignment Store
 
@@ -20,7 +20,7 @@ El entorno nos indicará a qué variable apunta cada identificador de variable:
 Tendremos dos operaciones:
 
 - **Adición:** Debemos indicar para un identificador de variable, a que variable efectiva está apuntando. Nos permite agregarle a un entorno, nuevas variables `E' = E + {<x> -> x}`
-- **Restricción:** `E' = E|_{<x>,..<z>}`
+- **Restricción:** Nos permite descartar variables que ya no pertenecen al entorno `E' = E|_{<x>,..<z>}`
 
 ## Stack
 
