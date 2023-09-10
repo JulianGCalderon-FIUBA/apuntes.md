@@ -4,13 +4,13 @@ Definiremos dos conceptos de Oz. Las expresiones y las declaraciones.
 
 Con las siguientes definiciones, habremos definido todas las expresiones base de nuestro lenguaje
 
-![[Kernel de Oz 1694370444.png]]
+![[Kernel de Oz 1694370444.png|575]]
 
 ## Declaraciones
 
 Con las siguientes definiciones, habremos definido todas las expresiones base de nuestro lenguaje
 
-![[Kernel de Oz 1694370528.png]]
+![[Kernel de Oz 1694370528.png|575]]
 
 Una vez definidos estos dos conceptos, habremos definido la sintaxis del lenguaje completo.
 
@@ -46,4 +46,4 @@ Para realizar llamados anidados, necesitaremos una variable auxiliar.
 
 Necesitaremos una variable auxiliar para almacenar la condición.
 
-![[Kernel de Oz 1694370999.png]]
+![[Kernel de Oz 1694370999.png|500]]
