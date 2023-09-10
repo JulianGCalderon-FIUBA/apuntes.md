@@ -1,5 +1,3 @@
 - [[Comprensión de Textos]]
 - [[Técnicas de Lectura]]
-- [[Tipos de Texto]]
 - [[Morfología]]
-- 
