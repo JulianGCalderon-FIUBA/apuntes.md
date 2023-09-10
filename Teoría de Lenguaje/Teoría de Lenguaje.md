@@ -11,11 +11,11 @@
 - [[Lenguaje Oz]]
 - [[Sintaxis de Oz]]
 - [[Semántica de Oz]]
-- [[Pattern Matching]]
-- [[Asignaciones]]
 
 ## Conceptos Independientes
 
+- [[Pattern Matching]]
+- [[Variables Ligadas]]
 - [[Scoping]]
 - [[Abstracción Procedural]]
 - [[Evaluación Perezosa]]
