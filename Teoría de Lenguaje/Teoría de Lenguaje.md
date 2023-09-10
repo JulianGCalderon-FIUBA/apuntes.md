@@ -1,4 +1,4 @@
-
+ 
 - [[Modelo Computacional]]
 - [[Sintaxis Oz]]
 - [[Pattern Matching]]
