@@ -6,3 +6,4 @@
 - [[Evaluación Perezosa]]
 - [[Programación de Alto Orden]]
 - [[Teoría de Lenguaje/Concurrencia|Concurrencia]]
+- [[Estado Explícito]]
