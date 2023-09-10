@@ -9,8 +9,8 @@ Por debajo, una base de datos utiliza un [[Modelo de Datos]] para organizar la i
 
 Los desarrolladores esconden la complejidad de los usuarios a través de distintos niveles de abstracción:
 
-- **Nivel Físico:** Es el nivel más bajo de abstracción. Describe *cómo* los datos se almacenan, describe estructuras de bajo nivel.
-- **Nivel Lógico:** Describe *qué* información se almacena en la base de datos, y que relaciones existen en ella. No nos interesa como se almacena la información, a esto se le llama **independencia de la información física**.
+- **Nivel Físico:** Es el nivel más bajo de abstracción. Describe **cómo** los datos se almacenan, describe estructuras de bajo nivel.
+- **Nivel Lógico:** Describe **qué** información se almacena en la base de datos, y que relaciones existen en ella. No nos interesa como se almacena la información, a esto se le llama **independencia de la información física**.
 - **Nivel de Vista:** El nivel más alto de abstracción, provee vistas específicas para cada usuario, ya que no todos los usuarios necesitan conocer toda la información de la base de datos.
 
 ## Instancias y Esquemas

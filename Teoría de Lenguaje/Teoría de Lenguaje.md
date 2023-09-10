@@ -4,6 +4,7 @@
 - [[Modelo Computacional]]
 - [[Modelo Declarativo]]
 - [[Modelo Imperativo]]
+- [[Máquina Abstracta]]
 
 ## Lenguaje Oz
 
