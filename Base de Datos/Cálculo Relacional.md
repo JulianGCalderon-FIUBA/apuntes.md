@@ -4,13 +4,19 @@ draft: true
 
 Es un [[Lenguajes#Data-Manipulation Language|lenguaje de manipulación de datos]] declarativo, de más alto nivel que el álgebra relacional. Al no ser procedural, no especifica el orden de las operaciones. El lenguaje SQL está inspirado en el cálculo relacional.
 
-Es un lenguaje basado en la lógica de [[Predicados|predicados]]
+## Lógica de Predicados
 
-## Variantes
+La lógica de [[predicados]] de primer orden se basa en tres componentes:
 
-El cálculo relacional presenta dos variantes:
+- **Predicados:** Son funciones de una o más variables cuyo resultado es un valor de verdad (verdadero o falso).
+- **Operaciones** entre predicados: $\land$, $\lor$, $\neg$, $\to$.
+- **Cuantificadores** de variables: Existen dos cuantificadores:
+	- Cuantificador universal: $(\forall m)q(m)$. Es verdadero si para cualquier valor de $m$, el predicado $q(m)$ es verdadero
+	- Cuantificador existencial: $(\exists m)q(m)$. Es verdadero si existe al menos un valor de $m$ para el cual el predicado $q(m)$ es verdadero.
 
-### Cálculo Relacional de Tuplas
+Las operaciones entre predicados admitidas son: $\land$, $\lor$, $\neg$.
+
+## Cálculo Relacional de Tuplas
 
 En el cálculo relacional de tuplas, las variables representan **tuplas**.
 
@@ -24,8 +30,6 @@ En donde $\odot$ es un operador de comparación:
 
 - $=$, $\neq$
 - $>$, $\geq$, $<$, $\leq$ (solo para atributos cuyos dominios están ordenados)
-
-Las operaciones entre predicados admitidas son: $\land$, $\lor$, $\neg$.
 
 Una expresión del cálculo relacional de tuplas tiene la forma:
 
@@ -53,7 +57,7 @@ Una expresión **segura** es aquella que producirá una cantidad finita de resul
 > \{p.\text{name}|\neg\text{Players(p)}\}
 > $$
 
-### Cálculo Relacional de Dominios
+## Cálculo Relacional de Dominios
 
 En el cálculo relacional de dominios, las variables representan **dominios**.
 
@@ -61,9 +65,12 @@ Un **predicado simple** es una función de un conjunto de dominios, cuyo resulta
 
 - $R(x_1, x_2, \cdots, x_n)$, donde $R(A_1, A_2, \cdots, A_n)$ es una relación
 - $x_i \odot x_j$
-- $x_i \odot c$, con $c \in \text{dom}(A-i)$
+- $x_i \odot c$, con $c \in \text{dom}(A_i)$
 
-Las operaciones entre predicados admitidas son: $\land$, $\lor$, $\neg$.
+En donde $\odot$ es un operador de comparación:
+
+- $=$, $\neq$
+- $>$, $\geq$, $<$, $\leq$ (solo para atributos cuyos dominios están ordenados)
 
 Una expresión del cálculo relacional de tuplas tiene la forma:
 
