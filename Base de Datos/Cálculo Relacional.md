@@ -37,7 +37,7 @@ $$
 
 Donde $p$ es un predicado válido, $t_1, t_2, \cdots, t_n$ son variables libres, y $t_{n+1}, \cdots, t_{n+m}$ son variables ligadas.
 
-Las variables ligadas deben ser cuantificadas, y no pueden aparecer del lado izquierdo.
+Las variables libres deben aparecer del lado izquierdo de la expresión. Las variables ligadas deben ser cuantificadas, y no pueden aparecer del lado izquierdo de la expresión.
 
 > [!example] Ejemplo
 > Liste el jugador mas anciano del mundial
