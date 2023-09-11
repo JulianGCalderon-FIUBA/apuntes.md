@@ -6,7 +6,7 @@ Es un [[Lenguajes#Data-Manipulation Language|lenguaje de manipulación de datos]
 
 ## Lógica de Predicados
 
-La lógica de [[predicados]] de primer orden se basa en tres componentes:
+La lógica de [[Modelo Relacional#Predicados|predicados]] de primer orden se basa en tres componentes:
 
 - **Predicados:** Son funciones de una o más variables cuyo resultado es un valor de verdad (verdadero o falso).
 - **Operaciones** entre predicados: $\land$, $\lor$, $\neg$, $\to$.
