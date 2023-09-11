@@ -10,8 +10,6 @@ La lógica de [[Modelo Relacional#Predicados|predicados]] de primer orden se bas
 	- Cuantificador universal: $(\forall m)q(m)$. Es verdadero si para cualquier valor de $m$, el predicado $q(m)$ es verdadero
 	- Cuantificador existencial: $(\exists m)q(m)$. Es verdadero si existe al menos un valor de $m$ para el cual el predicado $q(m)$ es verdadero.
 
-Las operaciones entre predicados admitidas son: $\land$, $\lor$, $\neg$.
-
 ## Cálculo Relacional de Tuplas
 
 En el cálculo relacional de tuplas, las variables representan **tuplas**.
@@ -26,6 +24,10 @@ En donde $\odot$ es un operador de comparación:
 
 - $=$, $\neq$
 - $>$, $\geq$, $<$, $\leq$ (solo para atributos cuyos dominios están ordenados)
+
+Las operaciones entre predicados admitidas son: $\land$, $\lor$, $\neg$.
+
+### Expresión
 
 Una expresión del cálculo relacional de tuplas tiene la forma:
 
@@ -67,6 +69,8 @@ En donde $\odot$ es un operador de comparación:
 
 - $=$, $\neq$
 - $>$, $\geq$, $<$, $\leq$ (solo para atributos cuyos dominios están ordenados)
+
+Las operaciones entre predicados admitidas son: $\land$, $\lor$, $\neg$.
 
 Una expresión del cálculo relacional de tuplas tiene la forma:
 

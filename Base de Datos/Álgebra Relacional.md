@@ -1,6 +1,6 @@
 Tendremos dos componentes principales: el **álgebra relacional**, y el [[Cálculo Relacional]]. El cálculo nos dirá *qué* obtener, y el álgebra nos dirá *cómo* lo obtendremos.
 
-El álgebra relacional es un [[Lenguajes|lenguaje]] de manipulación de datos procedural, mientras que el cálculo relacional será un lenguaje declarativo.
+El álgebra relacional es un [[Lenguajes#Data-Manipulation Language|lenguaje de manipulación de datos]] procedural, mientras que el cálculo relacional será un lenguaje declarativo.
 
 ## Definiciones
 

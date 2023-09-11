@@ -1,8 +1,8 @@
 ## Apuntes Teóricos
 
 - [[Definición]]
-- [[Lenguajes]]
 - [[Gestor de Base de Datos]]
+- [[Lenguajes]]
 - [[Modelo de Datos]]
 - [[Modelo Entidad-Interrelación]]
 - [[Modelo Entidad-Interrelación Aumentado]]
