@@ -1,6 +1,7 @@
 ## Apuntes Teóricos
 
 - [[Definición]]
+- [[Predicados]]
 - [[Lenguajes]]
 - [[Gestor de Base de Datos]]
 - [[Modelo de Datos]]

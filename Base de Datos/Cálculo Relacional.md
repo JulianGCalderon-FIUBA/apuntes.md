@@ -2,28 +2,13 @@
 draft: true
 ---
 
-Es un [[Lenguajes#Data-Manipulation Language|lenguaje de manipulación de datos]] declarativo, de más alto nivel que el álgebra relacional. Al no ser procedural, no especifica el orden de las operaciones.
+Es un [[Lenguajes#Data-Manipulation Language|lenguaje de manipulación de datos]] declarativo, de más alto nivel que el álgebra relacional. Al no ser procedural, no especifica el orden de las operaciones. El lenguaje SQL está inspirado en el cálculo relacional.
 
-Es un lenguaje basado en la lógica de [[Modelo Relacional#Predicados|predicados]].
-
-El lenguaje SQL está inspirado en el cálculo relacional.
-
-## Lógica de Predicados
-
-La lógica de predicados de primer orden se basa en tres componentes:
-
-- **Predicados:** Son funciones de una o más variables cuyo resultado es un valor de verdad (verdadero o falso).
-- **Operaciones** entre predicados: $\land$, $\lor$, $\neg$, $\to$.
-- **Cuantificadores** de variables: Existen dos cuantificadores:
-	- Cuantificador universal: $(\forall m)q(m)$. Es verdadero si para cualquier valor de $m$, el predicado $q(m)$ es verdadero
-	- Cuantificador existencial: $(\exists m)q(m)$. Es verdadero si existe al menos un valor de $m$ para el cual el predicado $q(m)$ es verdadero.
+Es un lenguaje basado en la lógica de [[Predicados|predicados]]
 
 ## Variantes
 
 El cálculo relacional presenta dos variantes:
-
-- El cálculo relacional de tuplas
-- El cálculo relacional de dominios
 
 ### Cálculo Relacional de Tuplas
 
