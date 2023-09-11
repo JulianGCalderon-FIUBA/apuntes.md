@@ -20,16 +20,14 @@ Un **predicado simple** es una función de una tupla o de atributos de tuplas, c
 - $t_1.A_i \odot t_2.A_j$
 - $t.A_i \odot c$, con $c \in \text{dom}(A_i)$
 
-En donde $\odot$ es un operador de comparación:
+En donde $\odot$ es un operador de **comparación**:
 
 - $=$, $\neq$
 - $>$, $\geq$, $<$, $\leq$ (solo para atributos cuyos dominios están ordenados)
 
-Las operaciones entre predicados admitidas son: $\land$, $\lor$, $\neg$.
+Las **operaciones** entre predicados admitidas son: $\land$, $\lor$, $\neg$.
 
-### Expresión
-
-Una expresión del cálculo relacional de tuplas tiene la forma:
+Una **expresión** del cálculo relacional de tuplas tiene la forma:
 
 $$
 \{t_1.A_{11}, t_1.A_{12}, \cdots, t_1.A_{1,{k_1}}, \cdots, t_n A_{n,{k_n}}|p(t_1, t_2, \cdots, t_n, t_{n+1}, \cdots, t_{n+m})\}
@@ -65,14 +63,14 @@ Un **predicado simple** es una función de un conjunto de dominios, cuyo resulta
 - $x_i \odot x_j$
 - $x_i \odot c$, con $c \in \text{dom}(A_i)$
 
-En donde $\odot$ es un operador de comparación:
+En donde $\odot$ es un operador de **comparación**:
 
 - $=$, $\neq$
 - $>$, $\geq$, $<$, $\leq$ (solo para atributos cuyos dominios están ordenados)
 
-Las operaciones entre predicados admitidas son: $\land$, $\lor$, $\neg$.
+Las **operaciones** entre predicados admitidas son: $\land$, $\lor$, $\neg$.
 
-Una expresión del cálculo relacional de tuplas tiene la forma:
+Una **expresión** del cálculo relacional de tuplas tiene la forma:
 
 $$
 \{x_1, x_2, \cdots, x_n|p(x_1, x_2, \cdots, x_n, x_{n+1}, \cdots, x_{n+m})\}
