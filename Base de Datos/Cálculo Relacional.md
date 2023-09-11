@@ -21,6 +21,11 @@ Un **predicado simple** es una función de una tupla o de atributos de tuplas, c
 - $t_1.A_i \odot t_2.A_j$
 - $t.A_i \odot c$, con $c \in \text{dom}(A_i)$
 
+En donde $\odot$ es un operador de comparación:
+
+- $=$, $\neq$
+- $>$, $\geq$, $<$, $\leq$ (solo para atributos cuyos dominios están ordenados)
+
 Las operaciones entre predicados admitidas son: $\land$, $\lor$, $\neg$.
 
 Una expresión del cálculo relacional de tuplas tiene la forma:
