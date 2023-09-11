@@ -2,8 +2,6 @@ Los datos no se almacenan como oraciones, sino con relaciones. Separamos los dat
 
 Una tabla, luego, es una representación de hechos. Cada fila de la tabla nos dice algo.
 
-La **normalización** de una tabla es tratar de reducir la cantidad de columnas que tiene. Luego debemos ampliar esta información al recuperarla.
-
 Las bases de datos tradicionales almacenan datos de texto o numéricos, que pueden enunciarse a través de proposiciones. Un conjunto de proposiciones con la misma estructura puede tipificarse a través de un predicado.
 
 > [!example]

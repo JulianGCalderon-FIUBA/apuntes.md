@@ -9,7 +9,7 @@ Es un lenguaje basado en la lógica de [[Predicados|predicados]], presenta dos v
 - El cálculo relacional de tuplas
 - El cálculo relacional de dominios
 
-El lenguaje SQL está inspirado en el cálculo relacional
+El lenguaje SQL está inspirado en el cálculo relacional.
 
 ## Cálculo Relacional de Tuplas
 
@@ -51,9 +51,9 @@ Una expresión **segura** es aquella que producirá una cantidad finita de resul
 
 ## Cálculo Relacional de Dominios
 
-En el cálculo relacional de dominios, las variables representan dominios.
+En el cálculo relacional de dominios, las variables representan **dominios**.
 
-Un predicado simple es una función de un conjunto de dominios, cuyo resultado es un valor de verdad. Se admiten como predicados simples:
+Un **predicado simple** es una función de un conjunto de dominios, cuyo resultado es un valor de verdad. Se admiten como predicados simples:
 
 - $R(x_1, x_2, \cdots, x_n)$, donde $R(A_1, A_2, \cdots, A_n)$ es una relación
 - $x_i \odot x_j$
