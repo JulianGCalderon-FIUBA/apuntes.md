@@ -2,7 +2,7 @@
 draft: true
 ---
 
-Es un [[Lenguajes|lenguaje]] de manipulación de datos declarativo, de más alto nivel que el álgebra relacional. Al no ser procedural, no especifica el orden de las operaciones.
+Es un [[Lenguajes#Data-Manipulation Language|lenguaje de manipulación de datos]] declarativo, de más alto nivel que el álgebra relacional. Al no ser procedural, no especifica el orden de las operaciones.
 
 Es un lenguaje basado en la lógica de [[Predicados|predicados]], presenta dos variantes:
 
@@ -13,9 +13,9 @@ El lenguaje SQL está inspirado en el cálculo relacional
 
 ## Cálculo Relacional de Tuplas
 
-En el cálculo relacional de tuplas, las variables representan tuplas.
+En el cálculo relacional de tuplas, las variables representan **tuplas**.
 
-Un predicado simple es una función de una tupla o de atributos de tuplas, cuyo resultado es un valor de verdad. Se admiten como predicados simples:
+Un **predicado simple** es una función de una tupla o de atributos de tuplas, cuyo resultado es un valor de verdad. Se admiten como predicados simples:
 
 - $R(t)$, donde $R$ es una relación
 - $t_1.A_i \odot t_2.A_j$
