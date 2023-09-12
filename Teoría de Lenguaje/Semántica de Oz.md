@@ -36,3 +36,7 @@ Se realiza un *bind* de ambas variables en el *store*.
 Se crea el valor y se liga a la variable `<x>` en el *store*.
 
 ![[Semántica de Oz 1694377710.png|500]]
+
+## Procedimientos
+
+Antes de ejecutar el procedimiento, tenemos que actualizar el entorno con los nuevos identificadores (los definidos en el procedimiento).
