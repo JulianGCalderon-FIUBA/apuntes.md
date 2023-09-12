@@ -43,10 +43,12 @@ Tenemos que actualizar el entorno con los nuevos identificadores (los definidos 
 
 Debemos analizar los identificadores libres del nuevo entorno:
 
-1. Parámetros formales
-2. Referencias externas
+- Parámetros formales: `<z1>,..., <zk>`
+- Referencias externas: `<y1,..., <yn>`
 
-Definimos un nuevo entorno, que será $CE = E|_{\{<z1>,\cdots,<zk>\}}$. Siendo estas referencias externas del entorno interior.
+Definimos un nuevo entorno de contexto, que contendrá las referencias externas de el procedimiento: `CE = E|{<z1>,..., <zk>}`
+
+Luego, se guarda en el *store* el par `(proc {$ <y1>,..., <yn>} <sp> end, CE)`
 
 Como el [[Scoping]] es dinámico, entonces el entorno se captura en momento de compilación.
 
