@@ -19,9 +19,9 @@ Cuando en el tope de la pila tenemos dos declaraciones para el mismo entorno, en
 Cuando en el tope tenemos el siguiente *semantic statement* `(local <x> in <s> end, E)`, entonces:
 
 1. Se crea la variable `x` en el *store*.
-2. Se crea un ambiente `E' = E + {<x> -> x}`. Es decir, al ambiente anterior pero con el identificador `<x>` asignado a la variable recién creada
+2. Se crea un ambiente `E' = E + {<x> -> x}`. Es decir, al ambiente anterior, pero con el identificador `<x>` asignado a la variable recién creada
 3. Se apila `(<s>, E')` al stack
-4. Se continúa con la proxima ejecución
+4. Se continúa con la próxima ejecución
 
 ![[Semántica de Oz 1694377588.png|500]]
 

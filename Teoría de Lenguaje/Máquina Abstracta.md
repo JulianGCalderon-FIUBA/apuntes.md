@@ -1,6 +1,6 @@
-La maquina abstracta es un model oteorico de una maquina virtual, que nos permite definir la semantica de un lenguaje de programación.
+La máquina abstracta es un modelo teórico de una máquina virtual, que nos permite definir la semántica de un lenguaje de programación.
 
-Definimos que efecto tienen las instrucciones en nuestra maquina abstracta.
+Definimos que efecto tienen las instrucciones en nuestra máquina abstracta.
 
 ## Single Assignment Store
 
@@ -35,3 +35,11 @@ El cómputo es el estado de ejecución del programa. El cómputo define como se 
 $$
 (ST_0, \sigma_0) \to (ST_1, \sigma_1) \to \cdots, \to, (ST_n, \sigma_n)
 $$
+
+## Estados de Ejecución
+
+Tenemos tres estados de ejecución posibles:
+
+- Ejecutable
+- Terminado
+- Suspendido

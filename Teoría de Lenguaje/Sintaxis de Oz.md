@@ -18,7 +18,7 @@ Una vez definidos estos dos conceptos, habremos definido la sintaxis del lenguaj
 
 Ahora, veremos como definimos los elementos faltantes utilizando estos elementos.
 
-### Multiples Declaraciones
+### Múltiples Declaraciones
 
 Las declaraciones con más de una variable se podrán realizar anidando declaraciones de una sola variable
 
