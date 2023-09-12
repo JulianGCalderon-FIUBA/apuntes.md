@@ -10,7 +10,7 @@ Los esquemas se agrupan en catálogos, y cada catálogo contiene un esquema llam
 
 ### Tipos de Datos
 
-Para las variables numericas, tenemos:
+Para las variables numéricas, tenemos:
 
 - `INTEGER`: Entero, abreviado `INT`.
 - `SMALLINT`: Entero pequeño.
@@ -36,7 +36,7 @@ Para booleanos, tendremos:
 Otros tipos de dato:
 
 - `GLOB`: Del inglés "Character Large Object". Para documentos de texto de gran extensión.
-- `BLOB`: Del inglés "Binary Large Object". paraarchivos binarios de gran extensión.
+- `BLOB`: Del inglés "Binary Large Object". para archivos binarios de gran extensión.
 
 El usuario a su vez puede definir tipos de datos personalizados, a través del comando `CREATE DOMAIN`. Esto facilita la realización de futuros cambios
 
@@ -56,7 +56,7 @@ SQL permite que una fila esté repetida muchas veces en una tabla, este concepto
 
 ## Manipulación de Datos
 
-### Clausula SELECT
+### Cláusula SELECT
 
 El esquema básico de una consulta en SQL es
 
@@ -68,7 +68,7 @@ FROM T1, T2, ..., Tm
 
 En donde `A1, A2,..., An` es una lista de nombres de columnas, y `T1, T2,..., Tm` es una lista de nombres de tablas, y `condition` es una condición.
 
-Se puede pensar como una proyección de las columnas `Ai` del filtrado oir `condition` del producto cartesiano de las tablas `Ti`.
+Se puede pensar como una proyección de las columnas `Ai` del filtrado por `condition` del producto cartesiano de las tablas `Ti`.
 
 Las condiciones atómicas admitidas son:
 
@@ -123,3 +123,14 @@ Por último, podemos aplicar una función de agregación a cada una de las colum
 - `AVG(A)`: Calcula el promedio de los valores de `A`, descartando los valores nulos.
 - `MAX(A)`: Devuelve el máximo de la columna `A`.
 - `MIN(A)`: Devuelve el máximo de la columna `A`.
+
+La cláusula `WHERE` también permite condiciones de reconocimiento de patrones para columnas que son *strings* a través de `LIKE`. Si queremos ignorar las mayúsculas, utilizamos `ILIKE`.
+
+```SQL
+...WHERE attrib LIKE pattern;
+```
+
+Se acepta como patrón una secuencia de caracteres delimitada por comillas, combinada con los siguientes caracteres especiales:
+
+- `_`: Representa un carácter arbitrario.
+- `%`: Representa cero o más caracteres arbitrarios.
