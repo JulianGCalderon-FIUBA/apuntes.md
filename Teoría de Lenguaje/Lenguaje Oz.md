@@ -32,6 +32,17 @@ A = 7 % No está permitido
 
 Debido a esta limitación, la mayoría de los problemas se resuelven utilizando recursividad y entornos.
 
+Podemos limitar el ambiente de variables a un entorno particular. A diferencia de `declare` que las declara como variables globales.
+
+```Oz
+local A B Var in
+	A = 4
+	B = 5
+	Var = A*B + 3
+	{Browse Var} % 23
+end
+```
+
 No importa de qué lado se encuentra la variable en una asignación.
 
 ```Oz
