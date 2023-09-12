@@ -10,7 +10,32 @@ La lógica de [[Modelo Relacional#Predicados|predicados]] de primer orden se bas
 	- Cuantificador universal: $(\forall m)q(m)$. Es verdadero si para cualquier valor de $m$, el predicado $q(m)$ es verdadero
 	- Cuantificador existencial: $(\exists m)q(m)$. Es verdadero si existe al menos un valor de $m$ para el cual el predicado $q(m)$ es verdadero.
 
-## Cálculo Relacional de Tuplas
+## Conjuntos Definidos por Predicado
+
+La notación de construcción de conjuntos puede ser utilizada para definir un conjunto de valores a partir de un predicado.
+
+$$
+\{x|\Phi(x)\}
+$$
+
+La barra vertical puede ser leída como "tal que".
+
+La formula $\Phi(x)$ es denominada el predicado, y es una función cuyo resultado es un valor de verdad.
+
+El conjunto estará definido por todos los $x$ tal que el predicado tome un valor verdadero.
+
+Las variables definidas del lado izquierdo de la expresión se conocen como variables libres.
+
+Las variables que no pertenecen al lado izquierdo y son utilizadas dentro del predicado se denominan variables ligadas. Es necesario que esten acompañadas de un cuantificador.
+
+## Variantes
+
+Existen dos variantes del cálculo relacional:
+
+- Cálculo relacional de tuplas
+- Cálculo relacional de dominios
+
+### Cálculo Relacional de Tuplas
 
 En el cálculo relacional de tuplas, las variables representan **tuplas**.
 
@@ -35,8 +60,6 @@ $$
 
 Donde $p$ es un predicado válido, $t_1, t_2, \cdots, t_n$ son variables libres, y $t_{n+1}, \cdots, t_{n+m}$ son variables ligadas.
 
-Las variables libres deben aparecer del lado izquierdo de la expresión. Las variables ligadas deben ser cuantificadas, y no pueden aparecer del lado izquierdo de la expresión.
-
 > [!example] Ejemplo
 > Liste el jugador mas anciano del mundial
 > 
@@ -53,11 +76,11 @@ Una expresión **segura** es aquella que producirá una cantidad finita de resul
 > \{p.\text{name}|\neg\text{Players(p)}\}
 > $$
 
-## Cálculo Relacional de Dominios
+### Cálculo Relacional de Dominios
 
 En el cálculo relacional de dominios, las variables representan **dominios**.
 
-Un **predicado simple** es una función de un conjunto de dominios, cuyo resultado es un valor de verdad. Se admiten como predicados simples:
+Un **predicado simple** es una función de un dominio o conjunto de dominios, cuyo resultado es un valor de verdad. Se admiten como predicados simples:
 
 - $R(x_1, x_2, \cdots, x_n)$, donde $R(A_1, A_2, \cdots, A_n)$ es una relación
 - $x_i \odot x_j$
@@ -66,7 +89,7 @@ Un **predicado simple** es una función de un conjunto de dominios, cuyo resulta
 En donde $\odot$ es un operador de **comparación**:
 
 - $=$, $\neq$
-- $>$, $\geq$, $<$, $\leq$ (solo para atributos cuyos dominios están ordenados)
+- $>$, $\geq$, $<$, $\leq$ (solo para dominios ordenados)
 
 Las **operaciones** entre predicados admitidas son: $\land$, $\lor$, $\neg$.
 
