@@ -1,9 +1,13 @@
 Es un [[Lenguajes#Data-Manipulation Language|lenguaje de manipulación de datos]] declarativo, de más alto nivel que el álgebra relacional. Al no ser procedural, no especifica el orden de las operaciones. El lenguaje SQL está inspirado en el cálculo relacional.
 
-El cálculo relacional está basado en la lógica de predicados, y existen dos variaciones, según las variables que definen y los predicados que admiten:
+El cálculo relacional está basado en la lógica de predicados.
+
+Existen dos variaciones, según las variables que definen y los predicados que admiten:
 
 - Cálculo relacional de tuplas
 - Cálculo relacional de dominios
+
+En esta materia, solo vamos a estudiar el cálculo relacional de tuplas.
 
 ## Lógica de Predicados
 
@@ -90,33 +94,6 @@ Una expresión **segura** es aquella que producirá una cantidad finita de resul
 > 
 > $$
 > \{p.\text{name}|\neg\text{Players(p)}\}
-> $$
-
-## Cálculo Relacional de Dominios
-
-En el cálculo relacional de dominios, las variables representan **dominios**.
-
-Un **predicado simple** es una función de un dominio o conjunto de dominios, cuyo resultado es un valor de verdad. Se admiten como predicados simples:
-
-- $R(x_1, x_2, \cdots, x_n)$, donde $R(A_1, A_2, \cdots, A_n)$ es una relación
-- $x_i \odot x_j$
-- $x_i \odot c$, con $c \in \text{dom}(A_i)$
-
-Las **operaciones** entre predicados admitidas son: $\land$, $\lor$, $\neg$.
-
-Una **expresión** del cálculo relacional de tuplas tiene la forma:
-
-$$
-\{x_1, x_2, \cdots, x_n|p(x_1, x_2, \cdots, x_n, x_{n+1}, \cdots, x_{n+m})\}
-$$
-
-Donde $p$ es un predicado válido, $x_1, x_2, \cdots, x_n$ son variables libres, y $x_{n+1}, \cdots, x_{n+m}$ son variables ligadas.
-
-> [!example] Ejemplo
-> Liste los nombres de los jugadores nacidos antes de 1980
-> 
-> $$
-> \{\text{name}|(\exists \text{birth\_date})(\text{Player}(\text{name}, \text{birth\_date})\land \text{birth\_date} \leq 1980)\}
 > $$
 
 ## Completitud Relacional
