@@ -47,10 +47,6 @@ Las variables definidas del lado izquierdo de la expresión se conocen como vari
 
 Las variables que no pertenecen al lado izquierdo y son utilizadas dentro del predicado se denominan variables ligadas. Es necesario que estén acompañadas de un cuantificador.
 
-$$
-\{n|\}
-$$
-
 ## Cálculo Relacional de Tuplas
 
 En el cálculo relacional de tuplas, las variables representan **tuplas**.
