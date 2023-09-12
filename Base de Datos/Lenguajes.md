@@ -19,4 +19,4 @@ Existen dos tipos de DML:
 
 Los lenguajes declarativos son los más fáciles de aprender, pero requiere que el sistema descubra una forma eficiente de acceder a la información. Una **consulta** es una petición de cierta información de la base de datos. La porción del lenguaje que se encarga de esto se conoce como **lenguaje de consultas**.
 
-Los lenguajes de consultas declarativos como SQL no son tan poderosos como una máquina de Turing universal. Existen algunas computaciones que no son posibles en estos lenguajes. Para hacerlas, necesitaremos de utilizar algún lenguaje de programación, utilizando consultas de SQL de por medio.
+Los lenguajes de consultas declarativos como [[SQL]] no son tan poderosos como una máquina de Turing universal. Existen algunas computaciones que no son posibles en estos lenguajes. Para hacerlas, necesitaremos de utilizar algún lenguaje de programación, utilizando consultas de SQL de por medio.

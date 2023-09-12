@@ -8,7 +8,7 @@ Algunas de las funciones principales de un gestor de base de datos son:
 - Tiene operaciones atómicas que previenen errores
 - Previene accesos no autorizados, o restringe el acceso a consultas particulares.
 - Tiene un sistema de recuperación ante fallas.
-- Tiene un [[Lenguajes|lenguaje de consultas]] (SQL) para buscar información efectivamente.
+- Tiene un [[Lenguajes|lenguaje de consultas]] para buscar información efectivamente.
 - Asegura la integridad de datos a través de restricciones que deben satisfacer los datos.
 - Accede a la información de forma eficiente, sin necesidad de iterar.
 
