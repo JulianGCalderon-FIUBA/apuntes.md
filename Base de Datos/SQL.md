@@ -56,6 +56,8 @@ SQL permite que una fila esté repetida muchas veces en una tabla, este concepto
 
 ## Manipulación de Datos
 
+### Clausula SELECT
+
 El esquema básico de una consulta en SQL es
 
 ```SQL
@@ -106,11 +108,18 @@ SELECT Producto.precio * 0.90 AS precioDescontado...
 
 Las operaciones permitidas son:
 
-- aa #todo
-- bb
-- cc
+- `+`, `-`, `*`, `/`: Operadores matemáticos, solo para columnas numéricas.
+- `||`: Para concatenar cadenas
+- `+`, `-`: Para sumar o restar tipos de datos temporales.
+- `LN`, `EXP`, `POWER`, `LOG`, `SQRT`, `FLOOR`, `CEIL`, `ABS`, etc.
 
 Por último, podemos aplicar una función de agregación a cada una de las columnas del resultado. Las más habituales son:
 
 - `SUM(A)`: Suma los valores de la columna `A` de todas las filas.
-- `COUNT([DISTINCT] A|*)`: Cuenta la cantidad de filas con valor no nulo de `A`. Con la opción `DISTINCT` se cuenta la cantidad de valores distint
+- `COUNT([DISTINCT] A|*)`.
+	- `COUNT(A)`: Cuenta la cantidad de filas con valor no nulo de la columna `A`.
+	- `COUNT(DISTINCT A)`: Cuenta la cantidad de valores distintos (sin tener en cuenta los nulos) de la columna `A`.
+	- `COUNT(*)`: Cuenta la cantidad de filas.
+- `AVG(A)`: Calcula el promedio de los valores de `A`, descartando los valores nulos.
+- `MAX(A)`: Devuelve el máximo de la columna `A`.
+- `MIN(A)`: Devuelve el máximo de la columna `A`.
