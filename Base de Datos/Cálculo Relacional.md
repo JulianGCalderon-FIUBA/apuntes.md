@@ -1,13 +1,8 @@
 Es un [[Lenguajes#Data-Manipulation Language|lenguaje de manipulación de datos]] declarativo, de más alto nivel que el álgebra relacional. Al no ser procedural, no especifica el orden de las operaciones. El lenguaje SQL está inspirado en el cálculo relacional.
 
-El cálculo relacional está basado en la lógica de predicados.
+El cálculo relacional está basado en la **lógica de predicados**.
 
-Existen dos variaciones, según las variables que definen y los predicados que admiten:
-
-- Cálculo relacional de tuplas
-- Cálculo relacional de dominios
-
-En esta materia, solo vamos a estudiar el cálculo relacional de tuplas.
+Existen dos variaciones: **cálculo relacional de tuplas**, y cálculo relacional de dominios. Solo vamos a estudiar la primera.
 
 ## Lógica de Predicados
 
