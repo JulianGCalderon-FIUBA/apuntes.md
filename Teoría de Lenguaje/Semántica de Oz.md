@@ -40,3 +40,10 @@ Se crea el valor y se liga a la variable `<x>` en el *store*.
 ## Procedimientos
 
 Antes de ejecutar el procedimiento, tenemos que actualizar el entorno con los nuevos identificadores (los definidos en el procedimiento).
+
+Debemos analizar los identificadores libres del nuevo entorno:
+
+1. Parámetros formales
+2. Referencias externas
+
+El nuevo entorno será $CE = E|_{\{<z1>,\cdots,<zk>\}}$. Siendo estas referencias externas del entorno interior.
