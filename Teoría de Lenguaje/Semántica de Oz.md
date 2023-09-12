@@ -48,6 +48,8 @@ Debemos analizar los identificadores libres del nuevo entorno:
 
 Definimos un nuevo entorno, que será $CE = E|_{\{<z1>,\cdots,<zk>\}}$. Siendo estas referencias externas del entorno interior.
 
+Como el [[Scoping]] es dinámico, entonces el entorno se captura en momento de compilación.
+
 ## Ejecución de Procedimiento
 
 La llamada a un procedimiento es una declaración suspendible. Esto puede ocurrir cuando no está definido el procedimiento aún.
@@ -58,4 +60,10 @@ Si el procedimiento está definido, debe tener la misma aridad (en otro caso, la
 
 Se apila al stack la declaración del procedimiento, con un nuevo entorno que será definido por el entorno del procedimiento, ligando las variables a sus respetivos valores: `Ep = CE + {<z1> -> E(<y1>),..., <zn> -> E(<yn>)}`
 
+## Condicional
 
+En el tope del stack, tenemos: `(if <x> then <s1> else <s2> end, E)`
+
+También es suspendible, ya que la condición debe estar determinada.
+
+Si está determinado el valor, debe ser un booleano (en otro caso, lanza error). Si el valor del condicional es `true`, entonces apila `(<s1>, E)` la pila. Si es `false`, apila `(<s2>, E)` a la pila.
