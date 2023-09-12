@@ -89,11 +89,25 @@ Al igual que en el álgebra relacional, las tablas deben ser unión compatibles.
 
 Podemos ordenar los resultados de una consulta con `ORDER BY`. Las columnas utilizadas para ordenar deben pertenecer a dominios ordenados, y deben estar incluidas dentro de las columnas de la proyección en la cláusula `SELECT`.
 
-La paginación es la posibilidad de escoger un rango del listado de filas del resultado. Se puede resolver con `OFFSET` y `FETCH`, o en algunos gestores `LIMIT`.
+La paginación es la posibilidad de escoger un rango del listado de filas del resultado. Se puede resolver de forma estándar con `OFFSET` y `FETCH`, o en algunos gestores `LIMIT` y `OFFSET`.
 
 ```SQL
 SELECT A, B
 FROM T
 ORDER BY A ASC, B DESC
-OFFSET 10 ROWS FETCH FIRST 10 ROWS ONLY;
+OFFSET 10 ROWS FETCH NEXT 10 ROWS ONLY;
+```
+
+### Agregación
+
+La agregación colapsa tuplas que coinciden en una serie de atributos, en una única tupla que las representa a todas.
+
+Las columnas agrupadas pueden ser utilizadas en el `SELECT`, mientras que las columnas no agrupadas deben ser utilizadas con una función de agregación.
+
+La clausula `HAVING` es opcional y nos pe
+
+```SQL
+SELECT nombre_tenista, COUNT(nombre_torneo)
+FROM Campeones
+GROUP BY nombre_tenista;
 ```
