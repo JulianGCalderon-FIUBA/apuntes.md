@@ -4,9 +4,9 @@ Es tanto un [[Lenguajes|lenguaje]] de definición de datos como un lenguaje de m
 
 Es no procedural, y está basado en el cálculo relacional de tuplas.
 
-SQL es una gramática libre de contexto (context-free grammar, CFG). Esto implica que su sintaxis puede ser descrita a través de reglas de producción.
+SQL es una gramática libre de contexto (*context-free grammar*, CFG). Esto implica que su sintaxis puede ser descrita a través de reglas de producción.
 
-Una de las notaciones más conocidas para CFG es la notación de Backus-Naur (Backus-Naur form, BNF). Esta es la notación adoptada en el estándar.
+Una de las notaciones más conocidas para CFG es la notación de Backus-Naur (*Backus-Naur form*, BNF). Esta es la notación adoptada en el estándar.
 
 ## Definición de Datos
 
@@ -62,4 +62,25 @@ La cláusula `WHERE` permite condiciones de reconocimiento de patrones para cade
 
 ### Cláusula `JOIN`
 
-Al igual que el álgebre
+Al igual que el álgebra relacional, podemos realizar una junta a partir de la cláusula `JOIN`. Están implementados todos los tipos de junta.
+
+```SQL
+...FROM R INNER JOIN S ON condition...
+...FROM R INNER JOIN S ON USING(attribute)...
+...FROM R NATURAL JOIN S...
+...FROM R LEFT OUTER JOIN S ON condition...
+...FROM R RIGHT OUTER JOIN S ON condition...
+...FROM R FULL OUTER JOIN S ON condition...
+```
+
+### Operaciones de Conjuntos
+
+SQL incorpora las tres operaciones de conjuntos. Con la palabra clave `ALL`, el resultado será un multiconjunto.
+
+```SQL
+...R UNION [ALL] S...
+...R INTERSECT [ALL] S...
+...R EXCEPT [ALL] S...
+```
+
+Al igual que en el álgebra relacional, las tablas deben ser unión compatibles.
