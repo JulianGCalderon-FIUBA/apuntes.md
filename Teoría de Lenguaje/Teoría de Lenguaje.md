@@ -16,7 +16,7 @@
 
 - [[Pattern Matching]]
 - [[Variables Ligadas]]
-- [[Scoping]]
+- [[Scoping Estatico o Dinámico]]
 - [[Abstracción Procedural]]
 - [[Evaluación Perezosa]]
 - [[Programación de Alto Orden]]

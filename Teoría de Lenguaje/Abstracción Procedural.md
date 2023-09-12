@@ -19,7 +19,7 @@ end
 
 Este concepto nos permite separar la declaración de la función, de su ejecución.
 
-Debido a que el [[Scoping]] es dinámico, no necesitamos siquiera pasarle como argumento la variable a establecer
+Debido a que el [[Scoping Estatico o Dinámico]] es dinámico, no necesitamos siquiera pasarle como argumento la variable a establecer
 
 ```Oz
 local X P in

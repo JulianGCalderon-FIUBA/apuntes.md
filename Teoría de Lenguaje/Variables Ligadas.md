@@ -39,4 +39,4 @@ X = Y
 {Browse B} % 40
 ```
 
-Si ambos registros no comparten la misma estructura, entonces el programa fallará.
+Si los registros no comparten la misma estructura, entonces el programa fallará.
