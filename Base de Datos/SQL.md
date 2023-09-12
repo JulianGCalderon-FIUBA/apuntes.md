@@ -56,7 +56,7 @@ SQL permite que una fila esté repetida muchas veces en una tabla, este concepto
 
 ## Manipulación de Datos
 
-### Cláusula SELECT
+### Cláusula `SELECT`
 
 El esquema básico de una consulta en SQL es
 
@@ -74,7 +74,7 @@ Las condiciones atómicas admitidas son:
 
 - `A1 ⊙ A2`.
 - `A ⊙ c`, con `c` una constante perteneciente al dominio de `A`.
-- `A [NOT] LIKE p`, donde `A1` es un *string*, y `p` un patrón.
+- `A [NOT] LIKE p`, donde `A1` es una cadena, y `p` un patrón.
 - `(A1, A2,..., An) [NOT] IN m`, donde `m` es un conjunto o multiconjunto.
 - `A [NOT] BETWEEN a AND b`, con `a` y `b` en el dominio de `A`.
 - `A IS [NOT] NULL`.
@@ -92,6 +92,8 @@ Varias condiciones atómicas pueden unirse a través de operadores lógicos para
 
 La proyección no elimina filas repetidas, a menos que agreguemos la opción `DISTINCT`.
 
+### Alias de Tablas o Columnas
+
 En la cláusula `FROM` es posible indicar un alias para las tablas
 
 ```SQL
@@ -107,7 +109,9 @@ Es posible cambiar el nombre de las columnas en el resultado
 SELECT p1.nombre AS NPadre, p2.nombre AS NHijo
 ```
 
-Y realizar operaciones entre las columnas en el resultado
+### Operaciones por Columna
+
+Se pueden realizar operaciones entre las columnas en el resultado
 
 ```SQL
 SELECT Producto.precio * 0.90 AS precioDescontado...
@@ -120,6 +124,8 @@ Las operaciones permitidas son:
 - `+`, `-`: Para sumar o restar tipos de datos temporales.
 - `LN`, `EXP`, `POWER`, `LOG`, `SQRT`, `FLOOR`, `CEIL`, `ABS`, etc.
 
+### Agregación por Columnas
+
 Por último, podemos aplicar una función de agregación a cada una de las columnas del resultado. Las más habituales son:
 
 - `SUM(A)`: Suma los valores de la columna `A` de todas las filas.
@@ -130,6 +136,8 @@ Por último, podemos aplicar una función de agregación a cada una de las colum
 - `AVG(A)`: Calcula el promedio de los valores de `A`, descartando los valores nulos.
 - `MAX(A)`: Devuelve el máximo de la columna `A`.
 - `MIN(A)`: Devuelve el máximo de la columna `A`.
+
+### Reconocimiento de Patrones
 
 La cláusula `WHERE` también permite condiciones de reconocimiento de patrones para columnas que son *strings* a través de `LIKE`. Si queremos ignorar las mayúsculas, utilizamos `ILIKE`.
 
@@ -142,7 +150,7 @@ Se acepta como patrón una secuencia de caracteres delimitada por comillas, comb
 - `_`: Representa un carácter arbitrario.
 - `%`: Representa cero o más caracteres arbitrarios.
 
-### JOIN
+### Cláusula `JOIN`
 
 SQL también implementa las operaciones de junta a través del operador `JOIN`.
 
