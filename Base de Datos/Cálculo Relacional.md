@@ -1,6 +1,6 @@
 Es un [[Lenguajes#Data-Manipulation Language|lenguaje de manipulación de datos]] declarativo, de más alto nivel que el álgebra relacional. Al no ser procedural, no especifica el orden de las operaciones. El lenguaje SQL está inspirado en el cálculo relacional.
 
-El cálculo relacional está basado en la lógica de predicados, y existen dos variaciones, según las variables que definen:
+El cálculo relacional está basado en la lógica de predicados, y existen dos variaciones, según las variables que definen y los predicados que admiten:
 
 - Cálculo relacional de tuplas
 - Cálculo relacional de dominios
@@ -68,7 +68,7 @@ $$
 \{t_1.A_{11}, t_1.A_{12}, \cdots, t_1.A_{1,{k_1}}, \cdots, t_n A_{n,{k_n}}|p(t_1, t_2, \cdots, t_n, t_{n+1}, \cdots, t_{n+m})\}
 $$
 
-Donde $p$ es un predicado válido, $t_1, t_2, \cdots, t_n$ son variables libres, y $t_{n+1}, \cdots, t_{n+m}$ son variables ligadas.
+Donde $p$ es un predicado válido, $t_1, t_2, \cdots, t_n$ son variables libres, y $t_{n+1}, \cdots, t_{n+m}$ son variables ligadas. Notemos que el predicado únicamente es función de las variables libres. Pero son parte de la expresión.
 
 > [!example] Ejemplo
 > Liste el jugador más anciano del mundial
@@ -101,11 +101,6 @@ Un **predicado simple** es una función de un dominio o conjunto de dominios, cu
 - $R(x_1, x_2, \cdots, x_n)$, donde $R(A_1, A_2, \cdots, A_n)$ es una relación
 - $x_i \odot x_j$
 - $x_i \odot c$, con $c \in \text{dom}(A_i)$
-
-En donde $\odot$ es un operador de **comparación**:
-
-- $=$, $\neq$
-- $>$, $\geq$, $<$, $\leq$ (solo para dominios ordenados)
 
 Las **operaciones** entre predicados admitidas son: $\land$, $\lor$, $\neg$.
 
