@@ -57,3 +57,5 @@ Si el procedimiento está definido, debe tener la misma aridad (en otro caso, la
 ![[Semántica de Oz 1694536020.png|500]]
 
 Se apila al stack la declaración del procedimiento, con un nuevo entorno que será definido por el entorno del procedimiento, ligando las variables a sus respetivos valores: `Ep = CE + {<z1> -> E(<y1>),..., <zn> -> E(<yn>)}`
+
+

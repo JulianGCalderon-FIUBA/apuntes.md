@@ -30,3 +30,12 @@ B = 5
 {Suma A B Z}
 {Browse Z} % 15
 ```
+
+Para imprimir en el navegador, utilizamos el procedimiento `Browse`.
+
+```Oz
+{Browse '¡Hola Mundo!'}
+```
+
+Este procedimiento es ejecutado en un hilo distinto.
+
