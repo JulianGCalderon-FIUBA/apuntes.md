@@ -46,3 +46,8 @@ Las columnas pueden ser configuradas con valores por defecto (`DEFAULT`), o auto
 
 Podemos restringir la posibilidad de que tome un valor nulo (`NOT NULL`), o restringir aún más el conjunto de valores posibles a través de una verificación dinámica (`CHECK`).
 
+La clave primaria se indica con `PRIMARY KEY`. Si está compuesta de una única columna, puede indicarse a continuación del tipo. Con la palabra clave `UNIQUE` se indica que una columna o conjunto de columnas no puede estar repetido (es una manera de identificar claves candidatas).
+
+Las claves foráneas se especifican con `FOREIGN KEY...REFERENCES`. Con las opciones `ON DELETE` y `ON UPDATE` podemos indicar el comportamiento que tiene una clave foránea cuando la tupla a la que refiere es eliminada (o actualizada).
+
+SQL permite que una fila esté repetida muchas veces en una tabla, este concepto se conoce como *multiconjunto*.
