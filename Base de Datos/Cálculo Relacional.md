@@ -73,19 +73,17 @@ $$
 Donde $p$ es un predicado válido, $t_1, t_2, \cdots, t_n$ son variables libres, y $t_{n+1}, \cdots, t_{n+m}$ son variables ligadas.
 
 > [!example] Ejemplo
-> Liste el jugador mas anciano del mundial
+> Liste el jugador más anciano del mundial
 > 
 > $$
-> \{p.\text{name}|\text{Players}(p) \land (\nexists\theta)(\text{Players}(\theta) \land \theta.\text{birth\_date} > p.\text{birth\_date})\}
+> \{p.\text{name}|\text{Players}(p) \land (\nexists\theta)(\text{Players}(\theta) \land \theta.\text{birth\_date} < p.\text{birth\_date})\}
 > $$
 > 
-> Utilizando el cuantificador universal
-
-$$
-\{p.\text{name}|\text{Players}(p) \land (\forall\theta)(\neg\text{Players}(\theta) \lor \theta.\text{birth\_date} \leq \theta.)\}
-$$
-
-
+> También podemos usar el cuantificador universal
+> 
+> $$
+> \{p.\text{name}|\text{Players}(p) \land (\forall\theta)(\neg\text{Players}(\theta) \lor \theta.\text{birth\_date} \geq p.\text{birth\_date})\}
+> $$
 
 Una expresión **segura** es aquella que producirá una cantidad finita de resultados. No todas las expresiones válidas son seguras.
 
