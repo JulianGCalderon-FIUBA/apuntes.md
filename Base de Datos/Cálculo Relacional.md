@@ -15,19 +15,13 @@ La lógica de [[Modelo Relacional#Predicados|predicados]] de primer orden se bas
 	- Cuantificador universal: $(\forall m)q(m)$. Es verdadero si para cualquier valor de $m$, el predicado $q(m)$ es verdadero
 	- Cuantificador existencial: $(\exists m)q(m)$. Es verdadero si existe al menos un valor de $m$ para el cual el predicado $q(m)$ es verdadero.
 
-Cuando utilizamos un cuantificador universal, debemos utilizar la negación para restringir el dominio de la variable, en caso contrario, el resultado siempre será falso.
+Para restringir el dominio de la variable en un cuantificador universal, tenemos que usar la negación. En caso contrario, el resultado siempre será falso.
 
 $$
 (\forall m)(m \notin \text{Dominio} \lor \Phi(m))
 $$
 
-De esta forma, la expresión será verdadera para todas las variables del dominio que cumplen con el predicado.
-
-De forma equivalente, podemos utilizar el cuantificador existencial negado.
-
-$$
-(\nexists m)(m \in \text{Dominio} \land \neg\Phi(m))
-$$
+La expresión será verdadera para todas las variables del dominio que cumplen con el predicado $\Phi$.
 
 ### Conjuntos Definidos por Predicado
 
