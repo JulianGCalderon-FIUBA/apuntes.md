@@ -39,7 +39,7 @@ Se crea el valor y se liga a la variable `<x>` en el *store*.
 
 ## Igualdad: Variable - Procedimiento
 
-Nos encontramos en el *stack* con: `(<x> = proc {$ <y1>... <yn>} <sp> end, E)`.
+En el tope del stack, tenemos: `(<x> = proc {$ <y1>... <yn>} <sp> end, E)`.
 
 Tenemos que actualizar el entorno con los nuevos identificadores (los definidos en el procedimiento).
 
@@ -50,22 +50,23 @@ Debemos analizar los identificadores libres del nuevo entorno:
 
 Definimos un nuevo entorno de contexto, que contendrá las referencias externas del procedimiento: `CE = E|{<z1>,..., <zk>}`
 
-Luego, se guarda en el *store* el par `(proc {$ <y1>,..., <yn>} <sp> end, CE)`
+Luego, se guarda en el *store* el par de procedimiento y contexto: `<x> = (proc {$ <y1>,..., <yn>} <sp> end, CE)`
 
 > [!note] Scoping Dinámico
-> Como el *Scoping* es dnámico, el contexto se captura en momento de compilación.
+> Como el *Scoping* es dinámico, el contexto se captura en momento de compilación.
 
 ## Ejecución de Procedimiento
 
-Nos encontramos en el *stack* con: `({<x> <y1>... <yn>}, E)`.
+En el tope del stack, tenemos: `({<x> <y1>... <yn>}, E)`.
 
-La llamada a un procedimiento es una declaración suspendible. Esto puede ocurrir cuando no está definido `E(<x>)` aún. Si `E(<x>` está definido, debe tener la misma aridad (en otro caso, lanza error).
+La llamada a un procedimiento es una declaración suspendible. Esto puede ocurrir cuando no está definido `E(<x>)` aún. Si está definido, debe tener la misma aridad (en otro caso, lanza error).
 
-Se apila al stack la declaración del procedimiento: ``
+Se apila al stack la declaración del procedimiento: `(<sp>, Ep)`, definiendo el nuevo entorno como `Ep = CE + {<z1> -> E(<y1>),..., <zn> -> E(<yn>)}`.
+
 ## Condicional
 
 En el tope del stack, tenemos: `(if <x> then <s1> else <s2> end, E)`
 
-También es suspendible, ya que la condición debe estar determinada.
+También es suspendible, ya que debe estar determinado `E(<x>)`. Si está determinado, debe ser un booleano (en otro caso, lanza error).
 
-Si está determinado el valor, debe ser un booleano (en otro caso, lanza error). Si el valor del condicional es `true`, entonces apila `(<s1>, E)` la pila. Si es `false`, apila `(<s2>, E)` a la pila.
+Si `E(<x>)` tiene valor `true`, entonces apila `(<s1>, E)` la pila. Si tiene valor `false`, apila `(<s2>, E)` a la pila.
