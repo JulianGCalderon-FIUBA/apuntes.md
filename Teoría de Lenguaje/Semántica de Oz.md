@@ -39,6 +39,8 @@ Se crea el valor y se liga a la variable `<x>` en el *store*.
 
 ## Igualdad: Variable - Procedimiento
 
+Nos encontramos en el *stack* con: `(<x> = proc {$ <y1>... <yn>} <sp> end, E)`.
+
 Tenemos que actualizar el entorno con los nuevos identificadores (los definidos en el procedimiento).
 
 Debemos analizar los identificadores libres del nuevo entorno:
@@ -46,22 +48,20 @@ Debemos analizar los identificadores libres del nuevo entorno:
 - Parámetros formales: `<z1>,..., <zk>`
 - Referencias externas: `<y1,..., <yn>`
 
-Definimos un nuevo entorno de contexto, que contendrá las referencias externas de el procedimiento: `CE = E|{<z1>,..., <zk>}`
+Definimos un nuevo entorno de contexto, que contendrá las referencias externas del procedimiento: `CE = E|{<z1>,..., <zk>}`
 
 Luego, se guarda en el *store* el par `(proc {$ <y1>,..., <yn>} <sp> end, CE)`
 
-Como el [[Scoping]] es dinámico, entonces el entorno se captura en momento de compilación.
+> [!note] Scoping Dinámico
+> Como el *Scoping* es dnámico, el contexto se captura en momento de compilación.
 
 ## Ejecución de Procedimiento
 
-La llamada a un procedimiento es una declaración suspendible. Esto puede ocurrir cuando no está definido el procedimiento aún.
+Nos encontramos en el *stack* con: `({<x> <y1>... <yn>}, E)`.
 
-Si el procedimiento está definido, debe tener la misma aridad (en otro caso, lanza error).
+La llamada a un procedimiento es una declaración suspendible. Esto puede ocurrir cuando no está definido `E(<x>)` aún. Si `E(<x>` está definido, debe tener la misma aridad (en otro caso, lanza error).
 
-![[Semántica de Oz 1694536020.png|500]]
-
-Se apila al stack la declaración del procedimiento, con un nuevo entorno que será definido por el entorno del procedimiento, ligando las variables a sus respetivos valores: `Ep = CE + {<z1> -> E(<y1>),..., <zn> -> E(<yn>)}`
-
+Se apila al stack la declaración del procedimiento: ``
 ## Condicional
 
 En el tope del stack, tenemos: `(if <x> then <s1> else <s2> end, E)`
