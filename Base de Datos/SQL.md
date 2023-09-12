@@ -66,6 +66,8 @@ FROM T1, T2, ..., Tm
 
 En donde `A1, A2,..., An` es una lista de nombres de columnas, y `T1, T2,..., Tm` es una lista de nombres de tablas, y `condition` es una condición.
 
+Se puede pensar como una proyección de las columnas `Ai` del filtrado oir `condition` del producto cartesiano de las tablas `Ti`.
+
 Las condiciones atómicas admitidas son:
 
 - aa #todo
@@ -77,6 +79,38 @@ En donde ⊙ debe ser un operador de comparación:
 - `=`, `<>`.
 - `>`, `>=`, `<`. `<=`.
 
-Varias condiciones atómicas pueden unirse a través de operadores lógicos para formar una condición mas compleja. Los operadores permitidos son: `AND`, `OR`, `NOT`.
+Varias condiciones atómicas pueden unirse a través de operadores lógicos para formar una condición más compleja. Los operadores permitidos son: `AND`, `OR`, `NOT`.
 
 La proyección no elimina filas repetidas, a menos que agreguemos la opción `DISTINCT`.
+
+En la cláusula `FROM` es posible indicar un alias para las tablas
+
+```SQL
+...FROM Persona p...
+...FROM Persona AS p...
+```
+
+Cuando se selecciona una columna, si la misma es ambigua, se deberá indicar el nombre de la tabla o su alias.
+
+Es posible cambiar el nombre de las columnas en el resultado
+
+```SQL
+SELECT p1.nombre AS NPadre, p2.nombre AS NHijo
+```
+
+Y realizar operaciones entre las columnas en el resultado
+
+```SQL
+SELECT Producto.precio * 0.90 AS precioDescontado...
+```
+
+Las operaciones permitidas son:
+
+- aa #todo
+- bb
+- cc
+
+Por último, podemos aplicar una función de agregación a cada una de las columnas del resultado. Las más habituales son:
+
+- `SUM(A)`: Suma los valores de la columna `A` de todas las filas.
+- `COUNT([DISTINCT] A|*)`: Cuenta la cantidad de filas con valor no nulo de `A`. Con la opción `DISTINCT` se cuenta la cantidad de valores distint
