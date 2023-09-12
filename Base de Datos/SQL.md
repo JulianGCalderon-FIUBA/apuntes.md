@@ -1,4 +1,4 @@
-#todo
+El lenguaje SQL (por sus siglas en ingles: Structured Query Language)
 
 ## Definición de Datos
 
