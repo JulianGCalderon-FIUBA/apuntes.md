@@ -1,4 +1,12 @@
-El lenguaje SQL (por sus siglas en ingles: Structured Query Language)
+El lenguaje SQL (por sus siglas en ingles "Structured Query Language") es hoy en dia el estándar para las operaciones de base de dstos relacionales
+
+Es tanto un [[Lenguajes|lenguaje]] de definición de datos como un lenguaje de manipulación de datos.
+
+Es no procedural, y esta basado en el cálculo relacional de tuplas.
+
+SQL es una gramática libre de contexto (context-free grammar, CFG). Esto implica que su sintaxis puede ser descrita a través de reglas de producción.
+
+Una de las notaciones más conocidas para CFG's es la notación de Backus-Naur (Backus-Naur form, BNF). Esta es la notación adopata en el estandar.
 
 ## Definición de Datos
 
@@ -8,51 +16,9 @@ Cada esquema tiene un *dueño*, este será identificado con la opción `AUTHORIZ
 
 Los esquemas se agrupan en catálogos, y cada catálogo contiene un esquema llamado `INFORMATION_SCHEMA`, que describe a todos los esquemas contenidos en él.
 
-### Tipos de Datos
+SQL no obliga a definir una clave primaria, pero siempre deberiamos hacerlo. Debido a esto, permite que una fila esté repetida muchas veces en una tabla, este concepto se conoce como *multiconjunto*. Esto difiere del [[Álgebra Relacional]], ya que allí una relación es un conjunto de tuplas y, por lo tanto, no admitia repetidos.
 
-Para las variables numéricas, tenemos:
-
-- `INTEGER`: Entero, abreviado `INT`.
-- `SMALLINT`: Entero pequeño.
-- `FLOAT(n)`: Punto flotante (con aproximaciones).
-- `DOUBLE PRECISION`: Punto flotante de alta precisión.
-- `NUMERIC(i,j)`: Tipo numérico exacto, sin aproximaciones.
-
-Para las cadenas de caracteres, tendremos:
-
-- `CHARACTER(n)`: De longitud fija, abreviado `CHAR(n)`.
-- `CHARACTER VARYING(n)`: De longitud variable, abreviado `VARCHAR(n)`
-
-Para las fechas y horas, tendremos:
-
-- `DATE`: Precisión en días.
-- `TIME(i)`: Precisión de hasta microsegundos.
-- `TIMESTAMP(i)`: Combina un `DATE` y un `TIME(i)`.
-
-Para booleanos, tendremos:
-
-- `BOOLEAN`: Acepta `TRUE`, `FALSE`, `UNKNOWN`. Se emplea lógica de tres valores.
-
-Otros tipos de dato:
-
-- `GLOB`: Del inglés "Character Large Object". Para documentos de texto de gran extensión.
-- `BLOB`: Del inglés "Binary Large Object". para archivos binarios de gran extensión.
-
-El usuario a su vez puede definir tipos de datos personalizados, a través del comando `CREATE DOMAIN`. Esto facilita la realización de futuros cambios
-
-### Creación de Tablas
-
-El comando `CREATE TABLE` nos permite definir la estructura de una tabla.
-
-Las columnas pueden ser configuradas con valores por defecto (`DEFAULT`), o autoincrementales (`AUTO_INCREMENT`).
-
-Podemos restringir la posibilidad de que tome un valor nulo (`NOT NULL`), o restringir aún más el conjunto de valores posibles a través de una verificación dinámica (`CHECK`).
-
-La clave primaria se indica con `PRIMARY KEY`. Si está compuesta de una única columna, puede indicarse a continuación del tipo. Con la palabra clave `UNIQUE` se indica que una columna o conjunto de columnas no puede estar repetido (es una manera de identificar claves candidatas).
-
-Las claves foráneas se especifican con `FOREIGN KEY...REFERENCES`. Con las opciones `ON DELETE` y `ON UPDATE` podemos indicar el comportamiento que tiene una clave foránea cuando la tupla a la que refiere es eliminada (o actualizada).
-
-SQL permite que una fila esté repetida muchas veces en una tabla, este concepto se conoce como *multiconjunto*.
+Las claves primarias de una tabla nunca deberían ser `NULL`, aunque algunos motores lo permiten.
 
 ## Manipulación de Datos
 
