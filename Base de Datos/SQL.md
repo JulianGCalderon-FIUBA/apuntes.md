@@ -89,10 +89,11 @@ Al igual que en el álgebra relacional, las tablas deben ser unión compatibles.
 
 Podemos ordenar los resultados de una consulta con `ORDER BY`. Las columnas utilizadas para ordenar deben pertenecer a dominios ordenados, y deben estar incluidas dentro de las columnas de la proyección en la cláusula `SELECT`.
 
+La paginación es la posibilidad de escoger un rango del listado de filas del resultado. Se puede resolver con `OFFSET` y `FETCH`, o en algunos gestores `LIMIT`.
+
 ```SQL
 SELECT A, B
 FROM T
-ORDER BY A ASC, B DESC;
+ORDER BY A ASC, B DESC
+OFFSET 10 ROWS FETCH FIRST 10 ROWS ONLY;
 ```
-
-La paginación es la posibilidad de escoger un rango del listao de filas del resultado
