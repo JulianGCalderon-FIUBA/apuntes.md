@@ -46,7 +46,7 @@ Debemos analizar los identificadores libres del nuevo entorno:
 1. Parámetros formales
 2. Referencias externas
 
-El nuevo entorno será $CE = E|_{\{<z1>,\cdots,<zk>\}}$. Siendo estas referencias externas del entorno interior.
+Definimos un nuevo entorno, que será $CE = E|_{\{<z1>,\cdots,<zk>\}}$. Siendo estas referencias externas del entorno interior.
 
 ## Ejecución de Procedimiento
 
@@ -56,4 +56,4 @@ Si el procedimiento está definido, debe tener la misma aridad (en otro caso, la
 
 ![[Semántica de Oz 1694536020.png|500]]
 
-Se apila al stack la declaración del procedimiento, con un nuevo entorno que será definido por el entorno del procedimiento, ligando las ariables 
+Se apila al stack la declaración del procedimiento, con un nuevo entorno que será definido por el entorno del procedimiento, ligando las variables a sus respetivos valores: `Ep = CE + {<z1> -> E(<y1>),..., <zn> -> E(<yn>)}`
