@@ -88,6 +88,8 @@ En donde ⊙ debe ser un operador de comparación:
 
 Varias condiciones atómicas pueden unirse a través de operadores lógicos para formar una condición más compleja. Los operadores permitidos son: `AND`, `OR`, `NOT`.
 
+### Eliminación de Repetidos
+
 La proyección no elimina filas repetidas, a menos que agreguemos la opción `DISTINCT`.
 
 En la cláusula `FROM` es posible indicar un alias para las tablas
@@ -139,3 +141,26 @@ Se acepta como patrón una secuencia de caracteres delimitada por comillas, comb
 
 - `_`: Representa un carácter arbitrario.
 - `%`: Representa cero o más caracteres arbitrarios.
+
+### JOIN
+
+SQL también implementa las operaciones de junta a través del operador `JOIN`.
+
+```SQL
+...FROM R INNER JOIN S ON condition... 
+...FROM R INNER JOIN S USING(attribute)...
+```
+
+Si no especifico una condición o atributo, se utiliza una junta natural
+
+```SQL
+...FROM R NATURAL JOIN S...
+```
+
+Para utilizar una junta externa, utilizamos respectivamente:
+
+```SQL
+...FROM R LEFT OUTER JOIN S...
+...FROM R RIGHT OUTER JOIN S...
+...FROM R FULL OUTER JOIN S...
+```
