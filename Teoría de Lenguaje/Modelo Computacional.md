@@ -1,6 +1,6 @@
 Un modelo computacional es un sistema formal que define cómo se ejecutan los cálculos. Se define en términos de los conceptos que incluye. Un modelo computacional es una definición más precisa de un paradigma de programación.
 
-Vamos a estudiar la transición entre un [[Modelo Declarativo]] a un modelo **imperativo**, a través de agregarle características.
+Vamos a estudiar la transición entre un [[Modelo Declarativo]] a un [[Modelo Imperativo]], a través de agregarle características.
 
 Los lenguajes de programación declarativos se centran en el ¿qué?, mientras que los lenguajes de programación imperativos se centran en él ¿cómo?
 

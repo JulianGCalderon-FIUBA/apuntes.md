@@ -166,6 +166,10 @@ En otras palabras, $R \div S$ nos devuelve una relación con todas las tuplas de
 
 La relación $T$ es la de mayor cardinalidad posible contenida en $\pi_Y(R)$ y que cumple que $T \times S \subset R$.
 
+### Junta Externa
+
+La junta externa $ R ...
+
 ## Conjuntos Completos de Operadores
 
 Hemos definido una serie de operaciones básicas del álgebra relacional, pero existen subconjuntos de ellos que tienen la misma capacidad de expresión que todo el conjunto. A dichos subconjuntos se los denomina **conjuntos completos de operadores**
