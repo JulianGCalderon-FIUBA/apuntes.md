@@ -37,9 +37,9 @@ Se crea el valor y se liga a la variable `<x>` en el *store*.
 
 ![[Semántica de Oz 1694377710.png|500]]
 
-## Procedimientos
+## Igualdad: Variable - Procedimiento
 
-Antes de ejecutar el procedimiento, tenemos que actualizar el entorno con los nuevos identificadores (los definidos en el procedimiento).
+Tenemos que actualizar el entorno con los nuevos identificadores (los definidos en el procedimiento).
 
 Debemos analizar los identificadores libres del nuevo entorno:
 
@@ -47,3 +47,13 @@ Debemos analizar los identificadores libres del nuevo entorno:
 2. Referencias externas
 
 El nuevo entorno será $CE = E|_{\{<z1>,\cdots,<zk>\}}$. Siendo estas referencias externas del entorno interior.
+
+## Ejecución de Procedimiento
+
+La llamada a un procedimiento es una declaración suspendible. Esto puede ocurrir cuando no está definido el procedimiento aún.
+
+Si el procedimiento está definido, debe tener la misma aridad (en otro caso, lanza error).
+
+![[Semántica de Oz 1694536020.png|500]]
+
+Se apila al stack la declaración del procedimiento, con un nuevo entorno que será definido por el entorno del procedimiento, ligando las ariables 
