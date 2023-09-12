@@ -170,9 +170,16 @@ La relación $T$ es la de mayor cardinalidad posible contenida en $\pi_Y(R)$ y q
 
 La junta externa evita perder tuplas que no pueden ser combinadas con ningún elemento de la otra tabla. Existen tres tipos de tuplas externas:
 
-Dadas dos relaciones $R, S$ y una condición, la junta externa $R.S$ selecciona del producto cartesiano $R \times S$ las tupas que cumplen la condición, y añade:
+- Junta externa **izquierda**: $⟕$
+- Junta externa **derecha**: $⟖$
+- Junta externa **completa**: $⟗$
 
-- En la junta externa izquierda, todas las tuplas de $R$ que no apare
+Dadas dos relaciones $R, S$ y una condición, la junta externa entre $R [⟕,⟖,⟗] S$ selecciona del producto cartesiano $R \times S$ las tupas que cumplen la condición, y añade:
+
+- En la junta externa **izquierda**, todas las tuplas de $R$ que no aparecen en la proyección de los atributos de $R$ en el resultado final.
+- En la junta externa **derecha**, todas las tuplas de $R$ que no aparecen en la proyección de los atributos de $R$ en el resultado final.
+- En la junta externa **completa**, todas las tuplas de $R$ o de $S$ que no aparecen en la proyección de los atributos de $R$ o de $S$ respectivamente en el resultado final.
+
 ## Conjuntos Completos de Operadores
 
 Hemos definido una serie de operaciones básicas del álgebra relacional, pero existen subconjuntos de ellos que tienen la misma capacidad de expresión que todo el conjunto. A dichos subconjuntos se los denomina **conjuntos completos de operadores**
