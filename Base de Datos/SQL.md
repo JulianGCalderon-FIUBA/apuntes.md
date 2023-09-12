@@ -84,3 +84,15 @@ SQL incorpora las tres operaciones de conjuntos. Con la palabra clave `ALL`, el 
 ```
 
 Al igual que en el álgebra relacional, las tablas deben ser unión compatibles.
+
+### Ordenamiento y Paginación
+
+Podemos ordenar los resultados de una consulta con `ORDER BY`. Las columnas utilizadas para ordenar deben pertenecer a dominios ordenados, y deben estar incluidas dentro de las columnas de la proyección en la cláusula `SELECT`.
+
+```SQL
+SELECT A, B
+FROM T
+ORDER BY A ASC, B DESC;
+```
+
+La paginación es la posibilidad de escoger un rango del listao de filas del resultado
