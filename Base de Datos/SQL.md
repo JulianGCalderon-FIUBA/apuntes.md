@@ -172,3 +172,19 @@ Para utilizar una junta externa, utilizamos respectivamente:
 ...FROM R RIGHT OUTER JOIN S...
 ...FROM R FULL OUTER JOIN S...
 ```
+
+### Operaciones de Conjuntos
+
+SQL incorpora las tres operaciones de conjuntos:
+
+```SQL
+...R UNION [ALL] S...
+...R INTERSECT [ALL] S...
+...R EXCEPT [ALL] S...
+```
+
+Pero debemos tener en cuenta que:
+
+- Las tablas pueden provenir a su vez de una subconsulta
+- las tablas deben ser **union compatibles**.
+- Si no se agrega la palabra clave `ALL`, el resultado será un conjunto en lugar de un multiconjunto.
