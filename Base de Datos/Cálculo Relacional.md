@@ -23,6 +23,12 @@ $$
 
 La expresión será verdadera para todas las variables del dominio que cumplen con el predicado $\Phi$.
 
+De forma equivalente, podemos usar el cuantificador existencial negado
+
+$$
+(\nexists m)(m \in \text{Dominio} \land \neg\Phi(m))
+$$
+
 ### Conjuntos Definidos por Predicado
 
 La notación de construcción de conjuntos puede ser utilizada para definir un conjunto de valores a partir de un predicado.
@@ -40,6 +46,10 @@ El conjunto estará definido por todos los $x$ tal que el predicado tome un valo
 Las variables definidas del lado izquierdo de la expresión se conocen como variables libres.
 
 Las variables que no pertenecen al lado izquierdo y son utilizadas dentro del predicado se denominan variables ligadas. Es necesario que estén acompañadas de un cuantificador.
+
+$$
+\{n|\}
+$$
 
 ## Cálculo Relacional de Tuplas
 
