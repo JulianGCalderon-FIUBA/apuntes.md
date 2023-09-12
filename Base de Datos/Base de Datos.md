@@ -10,7 +10,7 @@
 - [[Pasaje de Modelos]]
 - [[Álgebra Relacional]]
 - [[Cálculo Relacional]]
-- [[Lenguaje SQL]]
+- [[SQL]]
 
 ## Apuntes Prácticos
 
