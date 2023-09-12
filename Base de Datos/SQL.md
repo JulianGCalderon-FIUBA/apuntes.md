@@ -72,9 +72,14 @@ Se puede pensar como una proyección de las columnas `Ai` del filtrado por `cond
 
 Las condiciones atómicas admitidas son:
 
-- aa #todo
-- bb
-- cc
+- `A1 ⊙ A2`.
+- `A ⊙ c`, con `c` una constante perteneciente al dominio de `A`.
+- `A [NOT] LIKE p`, donde `A1` es un *string*, y `p` un patrón.
+- `(A1, A2,..., An) [NOT] IN m`, donde `m` es un conjunto o multiconjunto.
+- `A [NOT] BETWEEN a AND b`, con `a` y `b` en el dominio de `A`.
+- `A IS [NOT] NULL`.
+- `EXISTS T`.
+- `A ⊙ [ANY|ALL] T`.
 
 En donde ⊙ debe ser un operador de comparación:
 
