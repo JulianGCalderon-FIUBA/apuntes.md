@@ -26,7 +26,7 @@ El conjunto estará definido por todos los $x$ tal que el predicado tome un valo
 
 Las variables definidas del lado izquierdo de la expresión se conocen como variables libres.
 
-Las variables que no pertenecen al lado izquierdo y son utilizadas dentro del predicado se denominan variables ligadas. Es necesario que esten acompañadas de un cuantificador.
+Las variables que no pertenecen al lado izquierdo y son utilizadas dentro del predicado se denominan variables ligadas. Es necesario que estén acompañadas de un cuantificador.
 
 ## Variantes
 
