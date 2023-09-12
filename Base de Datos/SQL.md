@@ -24,7 +24,7 @@ Las claves primarias de una tabla nunca deberían ser `NULL`, aunque algunos mot
 
 ## Manipulación de Datos
 
-### Cláusula `SELECT`
+### Cláusula `SELECT...FROM...WHERE`
 
 La consulta principal de SQL es
 
@@ -40,6 +40,8 @@ $$
 \Huge\pi_{A_1, A_2, \cdots, A_n} \sigma_\text{condition} (T_1 \times T_2, \cdots, T_m)
 $$
 
+La única diferencia es que SQL no elimina tuplas repetidas, para hacerlo, se debe utilizar `SELECT DISTINCT`.
+
 Si se combinan dos tablas con el mismo nombre, se deben renombrar (además, podemos opcionalmente renombrar las columnas)
 
 ```SQL
@@ -49,5 +51,15 @@ Si se combinan dos tablas con el mismo nombre, se deben renombrar (además, pode
 Las columnas pueden ser renombradas y modificadas a partir de una operación elemento a elemento. También se pueden aplicar funciones de agregación a cada columna.
 
 ```SQL
-Select price * 0.9 as discounted_price, SUM(price) as total
+Select price * 0.9 as discounted_price, SUM(price) as total...
 ```
+
+La cláusula `WHERE` permite condiciones de reconocimiento de patrones para cadenas a partir de `LIKE`.
+
+```SQL
+...WHERE nombre LIKE 'Ana%'; -- El nombre debe comenzar con Ana.
+```
+
+### Cláusula `JOIN`
+
+Al igual que el álgebre
