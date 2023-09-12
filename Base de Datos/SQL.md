@@ -104,10 +104,11 @@ La agregación colapsa tuplas que coinciden en una serie de atributos, en una ú
 
 Las columnas agrupadas pueden ser utilizadas en el `SELECT`, mientras que las columnas no agrupadas deben ser utilizadas con una función de agregación.
 
-La clausula `HAVING` es opcional y nos pe
+La cláusula `HAVING` es opcional y nos permite seleccionar solo algunos de los grupos del resultado, basándonos en resultados de funciones de agregación de las columnas no agregadas.
 
 ```SQL
-SELECT nombre_tenista, COUNT(nombre_torneo)
+SELECT nombre_tenista, COUNT(nombre_torneo), SUM(premio)
 FROM Campeones
-GROUP BY nombre_tenista;
+GROUP BY nombre_tenista
+HAVING SUM(premio) >= 100000
 ```
