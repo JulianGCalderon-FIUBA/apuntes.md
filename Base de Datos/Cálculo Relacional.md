@@ -1,5 +1,10 @@
 Es un [[Lenguajes#Data-Manipulation Language|lenguaje de manipulación de datos]] declarativo, de más alto nivel que el álgebra relacional. Al no ser procedural, no especifica el orden de las operaciones. El lenguaje SQL está inspirado en el cálculo relacional.
 
+El cálculo relacional está basado en la lógica de predicados, y existen dos variaciones, según las variables que definen:
+
+- Cálculo relacional de tuplas
+- Cálculo relacional de dominios
+
 ## Lógica de Predicados
 
 La lógica de [[Modelo Relacional#Predicados|predicados]] de primer orden se basa en tres componentes:
@@ -10,7 +15,7 @@ La lógica de [[Modelo Relacional#Predicados|predicados]] de primer orden se bas
 	- Cuantificador universal: $(\forall m)q(m)$. Es verdadero si para cualquier valor de $m$, el predicado $q(m)$ es verdadero
 	- Cuantificador existencial: $(\exists m)q(m)$. Es verdadero si existe al menos un valor de $m$ para el cual el predicado $q(m)$ es verdadero.
 
-## Conjuntos Definidos por Predicado
+### Conjuntos Definidos por Predicado
 
 La notación de construcción de conjuntos puede ser utilizada para definir un conjunto de valores a partir de un predicado.
 
@@ -28,14 +33,7 @@ Las variables definidas del lado izquierdo de la expresión se conocen como vari
 
 Las variables que no pertenecen al lado izquierdo y son utilizadas dentro del predicado se denominan variables ligadas. Es necesario que estén acompañadas de un cuantificador.
 
-## Variantes
-
-Existen dos variantes del cálculo relacional:
-
-- Cálculo relacional de tuplas
-- Cálculo relacional de dominios
-
-### Cálculo Relacional de Tuplas
+## Cálculo Relacional de Tuplas
 
 En el cálculo relacional de tuplas, las variables representan **tuplas**.
 
@@ -76,7 +74,7 @@ Una expresión **segura** es aquella que producirá una cantidad finita de resul
 > \{p.\text{name}|\neg\text{Players(p)}\}
 > $$
 
-### Cálculo Relacional de Dominios
+## Cálculo Relacional de Dominios
 
 En el cálculo relacional de dominios, las variables representan **dominios**.
 
