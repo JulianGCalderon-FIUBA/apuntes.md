@@ -1,3 +1,5 @@
+#todo
+
 ## Definición de Datos
 
 El comando `CREATE SCHEMA` nos permite crear un nuevo esquema de base de datos dentro de nuestro gestor.
@@ -51,3 +53,30 @@ La clave primaria se indica con `PRIMARY KEY`. Si está compuesta de una única 
 Las claves foráneas se especifican con `FOREIGN KEY...REFERENCES`. Con las opciones `ON DELETE` y `ON UPDATE` podemos indicar el comportamiento que tiene una clave foránea cuando la tupla a la que refiere es eliminada (o actualizada).
 
 SQL permite que una fila esté repetida muchas veces en una tabla, este concepto se conoce como *multiconjunto*.
+
+## Manipulación de Datos
+
+El esquema básico de una consulta en SQL es
+
+```SQL
+SELECT A1, A2, ..., An
+FROM T1, T2, ..., Tm
+[WHERE condition];
+```
+
+En donde `A1, A2,..., An` es una lista de nombres de columnas, y `T1, T2,..., Tm` es una lista de nombres de tablas, y `condition` es una condición.
+
+Las condiciones atómicas admitidas son:
+
+- aa #todo
+- bb
+- cc
+
+En donde ⊙ debe ser un operador de comparación:
+
+- `=`, `<>`.
+- `>`, `>=`, `<`. `<=`.
+
+Varias condiciones atómicas pueden unirse a través de operadores lógicos para formar una condición mas compleja. Los operadores permitidos son: `AND`, `OR`, `NOT`.
+
+La proyección no elimina filas repetidas, a menos que agreguemos la opción `DISTINCT`.
