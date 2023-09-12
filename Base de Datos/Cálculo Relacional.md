@@ -68,7 +68,7 @@ $$
 \{t_1.A_{11}, t_1.A_{12}, \cdots, t_1.A_{1,{k_1}}, \cdots, t_n A_{n,{k_n}}|p(t_1, t_2, \cdots, t_n, t_{n+1}, \cdots, t_{n+m})\}
 $$
 
-Donde $p$ es un predicado válido, $t_1, t_2, \cdots, t_n$ son variables libres, y $t_{n+1}, \cdots, t_{n+m}$ son variables ligadas. Notemos que el predicado únicamente es función de las variables libres. Pero son parte de la expresión.
+Donde $p$ es un predicado válido, $t_1, t_2, \cdots, t_n$ son variables libres, y $t_{n+1}, \cdots, t_{n+m}$ son variables ligadas. Notemos que el predicado únicamente es función de las variables libres, pero son parte de la expresión.
 
 > [!example] Ejemplo
 > Liste el jugador más anciano del mundial
@@ -102,6 +102,11 @@ Un **predicado simple** es una función de un dominio o conjunto de dominios, cu
 - $x_i \odot x_j$
 - $x_i \odot c$, con $c \in \text{dom}(A_i)$
 
+En donde $\odot$ es un operador de **comparación**:
+
+- $=$, $\neq$
+- $>$, $\geq$, $<$, $\leq$ (solo para dominios)
+
 Las **operaciones** entre predicados admitidas son: $\land$, $\lor$, $\neg$.
 
 Una **expresión** del cálculo relacional de tuplas tiene la forma:
@@ -110,7 +115,7 @@ $$
 \{x_1, x_2, \cdots, x_n|p(x_1, x_2, \cdots, x_n, x_{n+1}, \cdots, x_{n+m})\}
 $$
 
-Donde $p$ es un predicado válido, $x_1, x_2, \cdots, x_n$ son variables libres, y $x_{n+1}, \cdots, x_{n+m}$ son variables ligadas.
+Donde $p$ es un predicado válido, $x_1, x_2, \cdots, x_n$ son variables libres, y $x_{n+1}, \cdots, x_{n+m}$ son variables ligadas. Notemos que nuevamente el predicado únicamente es función de las variables libres, pero son parte de la expresión.
 
 > [!example] Ejemplo
 > Liste los nombres de los jugadores nacidos antes de 1980
