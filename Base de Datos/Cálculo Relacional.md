@@ -78,6 +78,14 @@ Donde $p$ es un predicado válido, $t_1, t_2, \cdots, t_n$ son variables libres,
 > $$
 > \{p.\text{name}|\text{Players}(p) \land (\nexists\theta)(\text{Players}(\theta) \land \theta.\text{birth\_date} > p.\text{birth\_date})\}
 > $$
+> 
+> Utilizando el cuantificador universal
+
+$$
+\{p.\text{name}|\text{Players}(p) \land (\forall\theta)(\neg\text{Players}(\theta) \lor \theta.\text{birth\_date} \leq \theta.)\}
+$$
+
+
 
 Una expresión **segura** es aquella que producirá una cantidad finita de resultados. No todas las expresiones válidas son seguras.
 
