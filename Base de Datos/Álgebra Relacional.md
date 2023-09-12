@@ -174,7 +174,7 @@ La junta externa evita perder tuplas que no pueden ser combinadas con ningún el
 - Junta externa **derecha**: $⟖$
 - Junta externa **completa**: $⟗$
 
-Dadas dos relaciones $R, S$ y una condición, la junta externa entre $R [⟕,⟖,⟗] S$ selecciona del producto cartesiano $R \times S$ las tupas que cumplen la condición, y añade:
+Dadas dos relaciones $R, S$ y una condición, la junta externa entre $R \ [⟕,⟖,⟗]_\text{cond}\ S$ selecciona del producto cartesiano $R \times S$ las tupas que cumplen la condición, y añade:
 
 - En la junta externa **izquierda**, todas las tuplas de $R$ que no aparecen en la proyección de los atributos de $R$ en el resultado final.
 - En la junta externa **derecha**, todas las tuplas de $R$ que no aparecen en la proyección de los atributos de $R$ en el resultado final.

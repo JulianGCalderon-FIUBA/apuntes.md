@@ -12,7 +12,7 @@ La lógica de [[Modelo Relacional#Predicados|predicados]] de primer orden se bas
 - **Predicados:** Son funciones de una o más variables cuyo resultado es un valor de verdad (verdadero o falso).
 - **Operaciones** entre predicados: $\land$, $\lor$, $\neg$, $\to$.
 - **Cuantificadores** de variables: Existen dos cuantificadores:
-	- Cuantificador universal: $(\forall m)q(m)$. Es verdadero si para cualquier valor de $m$, el predicado $q(m)$ es verdadero
+	- Cuantificador universal: $(\forall m)q(m)$. Es verdadero si para cualquier valor de $m$, el predicado $q(m)$ es verdadero.
 	- Cuantificador existencial: $(\exists m)q(m)$. Es verdadero si existe al menos un valor de $m$ para el cual el predicado $q(m)$ es verdadero.
 
 Para restringir el dominio de la variable en un cuantificador universal, tenemos que usar la negación. En caso contrario, el resultado siempre será falso.
@@ -37,15 +37,13 @@ $$
 \{x|\Phi(x)\}
 $$
 
-La barra vertical puede ser leída como "tal que".
+La formula $\Phi(x)$ es denominada el **predicado**, y es una función cuyo resultado es un valor de verdad.
 
-La formula $\Phi(x)$ es denominada el predicado, y es una función cuyo resultado es un valor de verdad.
+El conjunto estará definido por todos los $x$ *tal que* el predicado tome un valor verdadero.
 
-El conjunto estará definido por todos los $x$ tal que el predicado tome un valor verdadero.
+Las variables definidas del lado izquierdo de la expresión se conocen como variables **libres**.
 
-Las variables definidas del lado izquierdo de la expresión se conocen como variables libres.
-
-Las variables que no pertenecen al lado izquierdo y son utilizadas dentro del predicado se denominan variables ligadas. Es necesario que estén acompañadas de un cuantificador.
+Las variables que no pertenecen al lado izquierdo y son utilizadas dentro del predicado se denominan variables **ligadas**. Es necesario que estén acompañadas de un cuantificador.
 
 ## Cálculo Relacional de Tuplas
 
