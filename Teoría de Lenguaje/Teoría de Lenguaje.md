@@ -4,13 +4,16 @@
 - [[Modelo Computacional]]
 - [[Modelo Declarativo]]
 - [[Modelo Imperativo]]
+- [[Máquina Abstracta]]
 - [[Lenguaje Oz]]
 - [[Sintaxis de Oz]]
-- [[Máquina Abstracta]]
 - [[Semántica de Oz]]
 
-## Conceptos Independientes
+## Conceptos de Oz
 
+- [[Variables]]
+- [[Funciones]]
+- [[Registros]]
 - [[Pattern Matching]]
 - [[Variables Ligadas]]
 - [[Scoping]]
