@@ -38,4 +38,3 @@ Para imprimir en el navegador, utilizamos el procedimiento `Browse`.
 ```
 
 Este procedimiento es ejecutado en un hilo distinto.
-

@@ -22,7 +22,7 @@ El entorno nos indicará a qué variable apunta cada identificador de variable:
 Tendremos dos operaciones:
 
 - **Adición:** Debemos indicar para un identificador de variable, a que variable efectiva está apuntando. Nos permite agregarle a un entorno, nuevas variables `E' = E + {<x> -> x}`
-- **Restricción:** Nos permite descartar variables que ya no pertenecen al entorno `E' = E | {<x>,..<z>}`
+- **Restricción:** Nos permite únicamente tomar las variables que nos interesan. Se utiliza para capturar entornos en procedimientos `E' = E | {<x>,..<z>}`
 
 ## Stack
 

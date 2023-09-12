@@ -30,7 +30,7 @@ La **semántica** es el significado de un elemento del lenguaje. ¿Cómo se ejec
 
 La semántica de un lenguaje debe ser simple, y debe permitirme entender el programa en cuanto a correctitud y complejidad.
 
-Para definirla, utilizaremos el **Kernel Language Approach**. Es un conjunto mínimo de instrucciones intuitivas. El lenguaje en el que se define, puede ser el de [[Máquina Abstracta]].
+Para definirla, utilizaremos el **Kernel Language Approach**. Es un conjunto mínimo de instrucciones intuitivas.
 
 Estas deben ser fácil de razonar, con semántica formal. El resto de la sintaxis se podrá componer de este conjunto mínimo de instrucciones.
 

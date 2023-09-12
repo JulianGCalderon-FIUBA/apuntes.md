@@ -1,4 +1,6 @@
-Definiremos dos conceptos de Oz. Las expresiones y las declaraciones.
+Para definir la sintaxis de un lenguaje, definiremos unicamente la sintaxis del **kernel**. Un conjunto de instrucciones completo, a partir del cual definiremos el resto de elementos
+
+El lenguaje se separa en expresiones, y declaraciones.
 
 ## Expresiones
 
