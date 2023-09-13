@@ -1,6 +1,6 @@
 Queremos realizar un cómputo "simple" sobre un conjunto grande de datos. Cada dato es independiente, o un pequeño subconjunto lo es. Algunos ejemplos de estas tareas son: procesar sonido, imágenes, video, entrenar redes neuronales.
 
-Para resolver esto, podríamos utilizar Fork-Join. Sin embargo, existen algunos inconvenientes.
+Para resolver esto, podríamos utilizar [[Modelo Fork-Join]]. Sin embargo, existen algunos inconvenientes.
 
 Lanzar una tarea tiene un costo de cómputo, por lo que no siempre utilizar concurrencia es más rápido (en particular cunado el cómputo es muy simple). Además, la cantidad de CPU es limitada
 

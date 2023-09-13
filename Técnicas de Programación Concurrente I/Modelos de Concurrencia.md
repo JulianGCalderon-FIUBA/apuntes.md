@@ -2,7 +2,7 @@ Los modelos de concurrencia nos ayudan a diseñar programas concurrentes, sin mu
 
 ## Estado Mutable Compartido
 
-Consiste en **serializar** el acceso al estado compartido. Se utilizan estructuras conocidas como *locks* para que ciertos procedimientos **críticos** se ejecuten de forma exclusiva.
+Consiste en **serializar** el acceso al estado compartido. Se utilizan estructuras conocidas como [[Técnicas de Programación Concurrente I/Locks|Locks]] para que ciertos procedimientos **críticos** se ejecuten de forma exclusiva.
 
 Si se está ejecutando algún procedimiento crítico, entonces cualquier otro proceso que quiera ejecutarlo deberá esperar a que el *lock* sea liberado.
 
@@ -22,4 +22,4 @@ Existe un actor que recibe mensajes de distintos hilos a través de un canal y r
 
 ## Asincronismo
 
-Busca realizar concurrencia **colaborativa**. Ejecuta tareas livianas en un entorno de ejecución que maximiza su eficiencia. Busca que el programa parezca secuencial, pero que se comporte de forma concurrente.
+El [[Asincronismo]] busca realizar concurrencia **colaborativa**. Ejecuta tareas livianas en un entorno de ejecución que maximiza su eficiencia. Busca que el programa parezca secuencial, pero que se comporte de forma concurrente.
