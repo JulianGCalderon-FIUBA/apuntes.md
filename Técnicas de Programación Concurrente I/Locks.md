@@ -25,3 +25,6 @@ Para aplicar un lock a partir de un archivo abierto, tenemos tres opciones:
 - Mediante `fcntl()`: A partir de una estructura `flock`, podemos definir la región del archivo en la cual establecer el lock.
 - Mediante `flock()`.
 - Mediante `lockf()`: Es una interfaz que utiliza por debajo a `fcntl()`, pero con uso más simple, sin capacidad de especificar la región.
+
+## Locks en Rust
+
