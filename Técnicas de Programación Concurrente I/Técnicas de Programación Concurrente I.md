@@ -4,3 +4,4 @@
 - [[Modelo Fork-Join]]
 - [[Asincronismo]]
 - [[Vectorización]]
+- [[Corrección]]
