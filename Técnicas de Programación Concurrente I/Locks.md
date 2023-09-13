@@ -30,7 +30,7 @@ Para aplicar un lock a partir de un archivo abierto, tenemos tres opciones:
 
 Rust provee locks compartidos y locks exclusivos en el tipo de dato `RwLock`. No se provee una política específica, sino que es dependiente del sistema operativo. Se requiere que el tipo de dato compartido implemente los *trait markers* `Send` y `Sync`.
 
-El método `read` obtendrá un lock de acceso compartido, mientras que el método `write` obtendrá un lock de acceso exclusivo.
+El método `read` obtendrá un lock de acceso compartido, mientras que el método `write` obtendrá un lock de acceso exclusivo. El método `try_write` trata de obtener el lock, pero no bloquea el hilo de ejecución. Únicamente devuelve éxito o error, dependiendo del caso.
 
 Ambos métodos devolverán una *guarda* al elemento compartido. Esto quiere decir que el *unlock* se ejecuta automáticamente cuando la variable se va del *scope*.
 
