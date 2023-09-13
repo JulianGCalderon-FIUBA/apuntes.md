@@ -17,7 +17,7 @@ Sea $p(n)$ una proposición tal que para cada $n \in \mathbb{N}$ verifica:
 
 Entonces $p(n)$ es verdadera $\forall n \geq n_0$
 
-## Prueba de $A \to B$
+### Prueba de $A \to B$
 
 Supongamos que $B$ falsa, entonces es falso que $p(n) \text{ es verdadera},\ \forall n\geq n_0$. Luego $\exists n \geq n_0: p(n) \text{ es falsa}$.
 
