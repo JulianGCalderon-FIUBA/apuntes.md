@@ -40,4 +40,10 @@ Los tipos primitivos implementa `Sync`, y los tipos compuestos que están formad
 
 ### Locks
 
-Rust provee locks compartidos (de lectura) y locks exclusivos (de escritura). No se provee una po
+Rust provee locks compartidos y locks exclusivos en el tipo de dato `RwLock`. No se provee una política específica, sino que es dependiente del sistema operativo. Se requiere que el tipo de dato compartido implemente `Send` y `Sync`.
+
+El método `read` obtendrá un lock de acceso compartido, mientras que el método `write` obtendrá un lock de acceso exclusivo.
+
+Ambos métodos devolverán una *guarda* del elemento compartido
+
+### Locks Envenenados
