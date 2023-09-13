@@ -11,5 +11,18 @@ Para la implementación, se necesita soporte tanto del *hardware* como del siste
 
 En UNIX, los locks son un mecanismo de sincronización de acceso a un archivo. También se pueden utilizar para sincronizar el acceso a cualquier otro recurso.
 
-Son *advisory*, esto quiere decir qu
+Son *advisory*, esto quiere decir que los procesos pueden ignorarlos.
 
+Existen dos tipos de locks:
+
+- **Shared locks:** Son locks de lectura. Más de un proceso puede tener el lock. Para tomar este tipo de lock, el proceso debe esperar hasta que sean liberados todos los *exclusive locks*.
+- **Exclusive locks:** Son locks de escritura. Solo un proceso a la vez puede tener el lock. Para tomar este tipo de lock, el proceso debe esperar hasta que sean liberados todos los locks.
+
+### Establecimiento de un Lock
+
+Para establecer un lock, debemos:
+
+1. Abrir el archivo a lockear
+2. Aplicar el lock:
+	1. Mediante `fcntl()`
+		1.  Comple
