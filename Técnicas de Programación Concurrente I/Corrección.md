@@ -17,6 +17,10 @@ Existen dos principales propiedades del tipo *safety*.
 Existen dos principales propiedades del tipo *liveness*.
 
 - **Ausencia de starvation:** Todo proceso que esté listo para utilizar un recurso debe recibir dicho recurso eventualmente.
-- **Fairness:** Equidad o justicia. Un escenario es débilmente justo si en algún estado en el escenario, una instrucción que está continuamente habilitada eventualmente aparece en el escenario.
+- **Fairness:** También llamado equidad o justicia. Un escenario es débilmente justo si en algún estado en el escenario, una instrucción que está continuamente habilitada eventualmente aparece en el escenario.
 
 ## Sección Crítica
+
+La sección crítica se modeliza planteando un problema genérico, el cual luego se puede utilizar para analizar cualquier programa concurrente.
+
+Cada proceso se ejecuta en un bucle infinito cuyo código puede dividirse en parte crítica y parte no crítico. Especificamos las prop
