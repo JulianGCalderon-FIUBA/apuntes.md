@@ -17,7 +17,7 @@
 - [[Pattern Matching]]
 - [[Variables Ligadas]]
 - [[Scoping]]
-- [[Manejo de Memoria]]
+- [[Last Call Optimization]]
 - [[Abstracción Procedural]]
 - [[Evaluación Perezosa]]
 - [[Programación de Alto Orden]]
