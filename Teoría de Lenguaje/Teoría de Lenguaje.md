@@ -17,6 +17,7 @@
 - [[Pattern Matching]]
 - [[Variables Ligadas]]
 - [[Scoping]]
+- [[Recursión de Cola]]
 - [[Abstracción Procedural]]
 - [[Evaluación Perezosa]]
 - [[Programación de Alto Orden]]

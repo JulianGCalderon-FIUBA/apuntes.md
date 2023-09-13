@@ -1,4 +1,4 @@
-Para definir la semántica del lenguaje, debemos definir por cada *statement*, como se ejecutará. Utilizaremos una [[Máquina Abstracta]]
+Para definir la semántica del lenguaje, debemos definir por cada *statement* del lenguaje *kernel*, como se ejecutará. Utilizaremos una [[Máquina Abstracta]]
 
 ## Skip
 
