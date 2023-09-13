@@ -2,8 +2,8 @@ La corrección implica que el programa haga lo que tiene que hacer.
 
 Existen dos tipos de propiedades de la corrección:
 
-- **Safety:** Debe ser verdadera siempre
-- **Liveness:** Debe volverse verdadera eventualmente.
+- **Safety:** Deben ser verdaderas siempre
+- **Liveness:** Deben volverse verdaderas eventualmente.
 
 ## Safety
 
@@ -17,4 +17,6 @@ Existen dos principales propiedades del tipo *safety*.
 Existen dos principales propiedades del tipo *liveness*.
 
 - **Ausencia de starvation:** Todo proceso que esté listo para utilizar un recurso debe recibir dicho recurso eventualmente.
-- **Fairness:** Equidad o justicia. Un escenario es débilmente *fair* si en algún estado en el escenario, una instrucción que está continuamente habilitada eventualmente aparece en el escenario.
+- **Fairness:** Equidad o justicia. Un escenario es débilmente justo si en algún estado en el escenario, una instrucción que está continuamente habilitada eventualmente aparece en el escenario.
+
+## Sección Crítica
