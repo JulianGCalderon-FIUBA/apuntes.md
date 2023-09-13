@@ -43,3 +43,14 @@ Tenemos tres estados de ejecución posibles:
 - Ejecutable
 - Terminado
 - Suspendido
+
+## Manejo de Memoria
+
+Un **valor alcanzable** es un valor que es referenciado por el *stack*, o referenciado por algún otro valor que sea alcanzable.
+
+La **memoria activa** se compone por el *stack* y los valores alcanzables por el.
+
+El manejo de memoria puede ser manual, o a través de un **garbage collector**. Algunos problemas del manejo de memoria manual son:
+
+- Referencias colgadas (*dangling references*)
+- Perdidas de memoria (*memory leaks*)
