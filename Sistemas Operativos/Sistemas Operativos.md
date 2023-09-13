@@ -17,7 +17,7 @@ Breve resumen de los contenidos teóricos de la materia, consultar la bibliograf
 - [[Planificador Multiprocesador]]
 - [[Sistemas Operativos/Concurrencia]]
 - [[API de Threads]]
-- [[Locks]]
+- [[Sistemas Operativos/Locks]]
 - [[Estructuras Concurrentes]]
 - [[Bugs de Concurrencia]]
 - [[Archivos y Directorios]]
