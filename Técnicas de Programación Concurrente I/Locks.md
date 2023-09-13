@@ -28,3 +28,6 @@ Para aplicar un lock a partir de un archivo abierto, tenemos tres opciones:
 
 ## Locks en Rust
 
+El *trait marker* `Send` indica que el *ownership* del tipo que lo implementa puede ser transferido entre hilos. Casi todos los tipos de datos de Rust lo implementan.
+
+Los tipos de datos compuestos que están formados por tipos que implementan `Send`, implementan automáticamente `Send`.
