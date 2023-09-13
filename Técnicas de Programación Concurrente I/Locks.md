@@ -9,4 +9,7 @@ Para la implementación, se necesita soporte tanto del *hardware* como del siste
 
 ## Locks en UNIX
 
-En UNIX, los locks son un mecanismo de sincronización de acceso a un archivo.
+En UNIX, los locks son un mecanismo de sincronización de acceso a un archivo. También se pueden utilizar para sincronizar el acceso a cualquier otro recurso.
+
+Son *advisory*, esto quiere decir qu
+
