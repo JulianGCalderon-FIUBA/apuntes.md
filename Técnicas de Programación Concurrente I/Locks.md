@@ -18,11 +18,10 @@ Existen dos tipos de locks:
 - **Shared locks:** Son locks de lectura. Más de un proceso puede tener el lock. Para tomar este tipo de lock, el proceso debe esperar hasta que sean liberados todos los *exclusive locks*.
 - **Exclusive locks:** Son locks de escritura. Solo un proceso a la vez puede tener el lock. Para tomar este tipo de lock, el proceso debe esperar hasta que sean liberados todos los locks.
 
-### Establecimiento de un Lock
+### Utilización
 
-Para establecer un lock, debemos:
+Para aplicar un lock a partir de un archivo abierto, tenemos tres opciones:
 
-1. Abrir el archivo a lockear
-2. Aplicar el lock:
-	1. Mediante `fcntl()`
-		1.  Comple
+- Mediante `fcntl()`: A partir de una estructura `flock`, podemos definir la región del archivo en la cual establecer el lock.
+- Mediante `flock()`.
+- Mediante `lockf()`: Es una interfaz que utiliza por debajo a `fcntl()`, pero con uso más simple, sin capacidad de especificar la región.
