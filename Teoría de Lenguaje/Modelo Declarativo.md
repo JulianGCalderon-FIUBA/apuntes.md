@@ -1,3 +1,5 @@
+Los lenguajes de programación declarativos se centran en el *¿qué?*.
+
 Debido a su naturaleza, las instrucciones escritas un lenguaje declarativo son mucho más difíciles de seguir. Pueden ser pensadas como una lista de definiciones.
 
 > [!example] Receta de torta en lenguaje declarativo

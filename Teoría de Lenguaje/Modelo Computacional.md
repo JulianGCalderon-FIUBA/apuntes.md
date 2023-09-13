@@ -4,10 +4,6 @@ Vamos a estudiar la transición entre un [[Modelo Declarativo]] a un [[Modelo Im
 
 Los lenguajes de programación declarativos se centran en el ¿qué?, mientras que los lenguajes de programación imperativos se centran en él ¿cómo?
 
-Notemos que, aunque el imperativo tenga más características, no significa que es mejor que el otro.
-
-> More is not better (or worse), just different
-
 ## ¿Qué nos permite estudiar?
 
 El modelo computacional nos permite estudiar tres elementos:

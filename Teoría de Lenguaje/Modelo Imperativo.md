@@ -1,8 +1,12 @@
-El modelo imperativo detalla *cómo* se realiza una acción. La mayoria de las instrucciones que conocemos estan escritas en un lenguaje imperativo.
+Los lenguajes de programación declarativos se centran en el *¿qué?*.
+
+La mayoría de las instrucciones que conocemos están escritas en un lenguaje imperativo.
 
 > [!example] Receta de torta en lenguaje declarativo
-> - Me
-> - 
-> - Una torta es 45 minutos de 200ºC de calor aplicado a 200 mg de masa de torta final
-> - 100 mg de masa de torta final es una mezcla de 99 mg de masa de torta etapa 2 y 1 mg de sal.
-> - 99mg de masa de torta etapa 2 es una mezcla de 79 mg de harina y un huevo
+> 1. Mezclar 158 mg de harina y dos huevo
+> 2. Incorporar 2 mg de sal
+> 3. Aplicar calor a 200ºC durante 45 minutos
+
+Notemos que, aunque el imperativo tenga más características, no significa que es mejor que el otro.
+
+> More is not better (or worse), just different

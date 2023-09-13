@@ -1,4 +1,4 @@
-La asignación de variables es simple, con tipado dinámico. Es necesario que las variables comiencen con mayúscula.
+La asignación de variables es simple, con **tipado dinámico**. Es necesario que las variables comiencen con mayúscula.
 
 ```Oz
 declare A B Var
@@ -8,7 +8,7 @@ Var = A*B + 3
 {Browse Var} % 23
 ```
 
-En un modelo declarativo, las variables pueden ser pensadas como atajos a los valores. Son inmutables y de única asignación.
+En un modelo declarativo, las variables pueden ser pensadas como atajos a los valores. Son **inmutables** y de **única asignación**.
 
 ```Oz
 declare A
