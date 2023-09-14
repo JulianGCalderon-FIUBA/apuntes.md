@@ -12,7 +12,7 @@ Los atributos en las interrelaciones se agregan como atributos normales en sus r
 
 Los atributos multievaluados pueden ser representados como una relación $n$ a $n$.
 
-![[Pasaje de Modelos 1694374211-1.png|475]]
+![[Pasaje de Modelos 1694700275.png|475]]
 
 ### Atributos Compuestos
 
