@@ -113,3 +113,7 @@ FROM Campeones
 GROUP BY nombre_tenista
 HAVING SUM(premio) >= 100000
 ```
+
+### Subconsultas
+
+El resultado de una subconsulta puede ser utilizado como argumento a otras clausulas. Si tiene un solo elemento (única fila y única columna) puede ser usado como valor, si no se usa como tabla.
