@@ -1,6 +1,6 @@
 - [[Conceptos Básicos]]
 - [[Bibliotecas Personales]]
-- [[Álgoritmos I/Recursividad|Recursividad]]
+- [[Algoritmos I/Recursividad|Recursividad]]
 - [[Operaciones con Arreglos]]
 - [[Manejo de Archivos]]
 - [[Operaciones con archivos]]
