@@ -98,9 +98,9 @@ Podemos obtener la solución general como suma de solución de la homogénea má
 
 ## Ecuación de Orden Superior Homogénea
 
-Si la ecuación de recurrencia es de orden $q$, para la construcción de la solución de la homogénea se utilizan las mismas reglas que para las de orden 2. Por ejemplo, si una ecuación de recurrencia tiene el espectro.
+Si la ecuación de recurrencia es de orden $q$, para la construcción de la solución de la homogénea se utilizan las mismas reglas que para las de orden 2.
 
-Es decir, la solución es una sumatoria de los términos correspondientes a cada raíz de la ecuación característica. Si una raíz es de multiplicidad $m$, entonces se suma un término por cada multiplicidad, cada vez multiplicando por $n$ una vez más.
+Si una raíz es de multiplicidad $m$, entonces se suma un término por cada multiplicidad, cada vez multiplicando por $n$ una vez más.
 
 ## Ecuación de Orden Superior Completa
 
