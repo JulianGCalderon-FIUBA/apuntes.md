@@ -1,13 +1,49 @@
 {
   "collapse-filter": false,
   "search": "-file: \"index\" ",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
-  "collapse-display": false,
+  "colorGroups": [
+    {
+      "query": "path: \"Base de Datos\"",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path: \"Organización de Datos\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path: \"Inglés\" ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path: \"Algoritmos 1\"",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    }
+  ],
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
@@ -17,6 +53,6 @@
   "repelStrength": 13.3690221270521,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.1387322393266664,
-  "close": true
+  "scale": 0.2726859917360186,
+  "close": false
 }
