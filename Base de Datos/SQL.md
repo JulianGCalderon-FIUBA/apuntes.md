@@ -116,15 +116,17 @@ HAVING SUM(premio) >= 100000
 
 ### Subconsultas
 
-El resultado de una subconsulta puede ser utilizado como argumento a otras cláusulas.
+El resultado de una subconsulta puede ser utilizado como argumento a otras cláusulas como `JOIN`.
 
 ```SQL
-...WHERE columna IN (SELECT ... FROM ...);
+...Tabla JOIN (SELECT ... FROM ...) AS Alias...
 ```
 
-Para usarse como valor, debe tener un solo elemento (única fila y única columna), o estar acompañado de operadores como `ANY` o `ALL`.
+Para usarse en condiciones, debe tener un solo elemento (única fila y única columna), estar acompañado de operadores como `ANY`, `ALL`, `IN`, `EXISTS`.
 
 ```SQL
 ...WHERE id = (SELECT MAX(id) FROM ...);
 ...WHERE columna = ANY (SELECT ... FROM ...);
+...WHERE columna IN (SELECT ... FROM ...);
+...WHERE columna EXISTS (SELECT ... FROM ...);
 ```
