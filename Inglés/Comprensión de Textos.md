@@ -6,19 +6,6 @@ El interés también tiene mucha importancia a la hora de entender un texto, si 
 
 La **imagen mental** es lo que nos imaginamos al leer un texto, o en particular, sus ejemplos visuales. Nos ayuda a la comprensión y retención de información.
 
-## Paratexto
-
-Cuando leo un texto, lo primero con lo que me enfrento es el **paratexto**, esto incluye:
-
-- **Título:** Nos da información del tema principal del texto.
-- **Autor:** El reconocimiento del autor da relevancia al texto.
-- **Fecha:** Dependiendo de la asignatura, la fecha de escritura tiene un peso importante en la vigencia de sus contenidos.
-- **Disposición:** El formato del texto nos da información de la misma. Nos puede indicar su registro, el tipo de texto que es (artículo, novela, poema).
-- **Imagen:** Es lo primero que vemos, nos puede ayudar a comprender el texto.
-- **Registro:** El registro significa cuán formal es el texto. En inglés, cuanto más formal es el registro, más fácil de comprender es. Esto se debe a que utilizan más palabras de origen latín.
-- **Copete:** Breve resumen y anticipación del texto, generalmente en una letra distinta debajo de título.
-- **Abstract:** Reservado para *papers* o artículos de investigación. Provee un pequeño resumen del texto
-
 ## Palabras Desconocidas
 
 Las palabras se pueden ordenar en una jerarquía según su importancia en el texto. Los adjetivos están debajo de los sustantivos.
@@ -29,33 +16,6 @@ Ante una palabra desconocida, recurrimos a tres simples pasos:
 2. Analizamos la morfología de la palabra. ¿Es un nombre? ¿Es un Adjetivo?, etc.
 3. Recurrimos al diccionario para entender del significado.
 
-## Cognados
-
-Los cognados son palabra de lenguas distintas que se asemeja en forma y significado.
-
-> [!example] Cognados
-> Optical, Illusion, Astronaut, Crocodile, Common, Camera
-
-Los falsos cognados se asemejan en forma, pero no en significado
-
-> [!example] Falsos Cognados
-> Sensible, Embarrased, Ancient, Actually, Large
-
 ## Borrowing
 
 Esto ocurre cuando una palabra extranjera se vuelve parte de una lengua. Se toma la palabra prestada. En español, las palabras prestadas respetan las reglas del español. En inglés, las palabras mantienen su estructura original.
-
-## Tipos de Textos
-
-- **Científico:** Tiene datos comprobables y fuentes confiables. Debe ser serio.
-- **Expositivo:** No juzgamos ni analizamos, únicamente mostramos.
-- **Literario:** Dedicado a los textos artísticos y creativos.
-- **Informativo:** Informa objetivamente.
-- **Argumentativo:** Nos trata de convencer de algún punto, es bueno encontrar textos de posturas opuestas para poder conocer mejor el tema.
-- **Descriptivo:** No trata de convencer, únicamente describe algo desde un punto parcial.
-- **Instructivo:** Nos da instrucciones para lograr algo. Puede estar ordenado, como en una receta, o puede ser desordenado, como un manual de instrucciones.
-- **Narrativo:** Hay una secuencia lógica de acciones en el tiempo, cuenta una historia.
-- **Review:** Debe ser parcial, totalmente objetiva. Para escribirla, debemos tener conocimiento del tema.
-
-> [!note] Nota
-> Un texto argumentativo no implica que no tenga una parte narrativa. Los textos pueden compartir cualidades. Para definir que tipo de texto es, debemos analizar la intención del autor.

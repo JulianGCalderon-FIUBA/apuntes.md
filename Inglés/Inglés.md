@@ -1,3 +1,6 @@
 - [[Comprensión de Textos]]
+- [[Cognados]]
+- [[Paratexto]]
 - [[Técnicas de Lectura]]
+- [[Tipos de Textos]]
 - [[Morfología]]
