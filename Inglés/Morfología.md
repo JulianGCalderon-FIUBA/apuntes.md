@@ -48,3 +48,10 @@ Nos indican la modalidad del verbo, esto es: obligación, permiso, habilidad, vo
 Cuando una palabra extranjera se vuelve parte de una lengua, se dice que se toma la palabra **prestada**.
 
 En español, las palabras prestadas respetan las reglas del español. En inglés, las palabras mantienen su estructura original.
+
+## Sufijo "ing"
+
+Cuando una palabra en inglés finaliza con "ing", entonces puede ser:
+
+- Un verbo en *present participle* (o un gerundio en español). Son verbos en progreso. Debe ser antecedido por el verbo "to be" en algunas de sus conjugaciones.
+- Un adjetivo proveniente d
