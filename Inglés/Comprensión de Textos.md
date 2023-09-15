@@ -41,6 +41,10 @@ Los falsos cognados se asemejan en forma, pero no en significado
 > [!example] Falsos Cognados
 > Sensible, Embarrased, Ancient, Actually, Large
 
+## Borrowing
+
+Esto ocurre cuando una palabra extranjera se vuelve parte de una lengua. Se toma la palabra prestada. En español, las palabras prestadas respetan las reglas del español. En inglés, las palabras mantienen su estructura original.
+
 ## Tipos de Textos
 
 - **Científico:** Tiene datos comprobables y fuentes confiables. Debe ser serio.
