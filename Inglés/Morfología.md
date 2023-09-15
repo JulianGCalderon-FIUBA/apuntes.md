@@ -53,5 +53,6 @@ En español, las palabras prestadas respetan las reglas del español. En inglés
 
 Cuando una palabra en inglés finaliza con "ing", entonces puede ser:
 
-- Un verbo en *present participle* (o un gerundio en español). Son verbos en progreso. Debe ser antecedido por el verbo "to be" en algunas de sus conjugaciones.
-- Un adjetivo proveniente d
+- Un **verbo** en *present participle* (o un gerundio en español). Son verbos en progreso. Debe ser antecedido por el verbo "to be" en algunas de sus conjugaciones.
+- Un **adjetivo** proveniente de un verbo, como "interesting", "surprising", "boring". Esto implica que el sujeto es el causante del verbo. Si se quiere indicar el estado del sujeto, deberían terminar en "ed", como "interested", "surprised", "bored".
+- Un verboide (o en inglés: *gerund*).
