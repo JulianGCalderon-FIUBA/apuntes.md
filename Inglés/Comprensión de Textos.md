@@ -15,7 +15,3 @@ Ante una palabra desconocida, recurrimos a tres simples pasos:
 1. Leemos el contexto de la palabra, para entender su idioma
 2. Analizamos la morfología de la palabra. ¿Es un nombre? ¿Es un Adjetivo?, etc.
 3. Recurrimos al diccionario para entender del significado.
-
-## Borrowing
-
-Esto ocurre cuando una palabra extranjera se vuelve parte de una lengua. Se toma la palabra prestada. En español, las palabras prestadas respetan las reglas del español. En inglés, las palabras mantienen su estructura original.

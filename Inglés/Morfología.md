@@ -42,3 +42,9 @@ Los conectores tienen distintas funciones, según su tipo:
 Los verbos modales estan seguido por el *bare infinitive*, y el verbo modal no es el verbo principal. Algunos son: "must", "should", "can", "could", "may".
 
 Nos indican la modalidad del verbo, esto es: obligación, permiso, habilidad, voluntad, etc. En español, no existen.
+
+## Palabras Prestadas
+
+Cuando una palabra extranjera se vuelve parte de una lengua, se dice que se toma la palabra **prestada**.
+
+En español, las palabras prestadas respetan las reglas del español. En inglés, las palabras mantienen su estructura original.
