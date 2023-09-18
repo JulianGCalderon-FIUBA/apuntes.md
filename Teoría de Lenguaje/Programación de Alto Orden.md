@@ -68,23 +68,28 @@ Estas funciones se pueden generalizar en un concepto comúnmente conocido como r
 
 ```Oz
 local Sumar Multiplicar Reducir L in
-	Multiplicar = fun {$ A B} then
+	fun {Multiplicar A B}
 		A * B
 	end
 	
-	Sumar = fun {$ A B} then
+	fun {Sumar A B}
 		A + B
 	end
 	
-	Reducir = fun {$ Op L} then
+	fun {Reducir Op L}
 		case L of H|nil then
 			H
 		[] H|T then
-			{Op H Reducir {Op T}}
+			{Op H {Reducir Op T}}
 		end
 	end
-	
+
+	L = [1 2 3 4 5 6]
 	{Browse {Reducir Sumar L}}
 	{Browse {Reducir Multiplicar L}}
 end
 ```
+
+### Instanciación
+
+Devolver un procedimiento como resultado de una expresión
