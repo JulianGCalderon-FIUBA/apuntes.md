@@ -60,7 +60,7 @@ end
 
 Este concepto nos permite separar la declaración de la función, de su ejecución.
 
-Debido a que el [[scoping]] es dinámico, no necesitamos siquiera pasarle como argumento la variable a establecer
+Debido a que el [[Scoping]] es dinámico, no necesitamos siquiera pasarle como argumento la variable a establecer
 
 ```Oz
 local X P in
@@ -105,7 +105,7 @@ end
 
 Devolver un procedimiento como resultado de una expresión. A las funciones que devuelven funciones se les denomina *factories* o fabricas. Son funciones que fabrican otras funciones.
 
-Este concepto está relacionado con el [[scoping]], ya que las funciones fabricadas dependen de variables externas. De no ser el caso, todas las funciones fabricadas serían idénticas.
+Este concepto está relacionado con el [[Scoping]], ya que las funciones fabricadas dependen de variables externas. De no ser el caso, todas las funciones fabricadas serían idénticas.
 
 Siguiendo del ejemplo anterior, podemos definir:
 
@@ -132,7 +132,7 @@ end
 
 ### Embedding
 
-Los procedimientos pueden ser parte de una estructura de datos. De esta forma podemos modelar [[objetos y clases]].
+Los procedimientos pueden ser parte de una estructura de datos. De esta forma podemos modelar [[Objetos y Clases]].
 
 ## Currying
 
