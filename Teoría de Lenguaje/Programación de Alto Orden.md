@@ -22,6 +22,16 @@ L = [1 2 3 4 5 99 6 7 8 9 10]
 {Browse {Seleccionar Menor L}} % 1
 ```
 
+Una función anónima es aquella que no está ligada a un identificador de variable. A veces son llamadas funciones **lambda**. Podemos utilizar funciones anónimas para pasarlas por parámetro sin declararlas junto a un identificador. Siguiendo el anterior ejemplo:
+
+```Oz
+local Seleccionar L in
+Seleccionar = fun ...
+L = [1 2 3 4 5]
+{Browse {Seleccionar fun {$ A B} if A > B then A else B end}}
+end
+```
+
 ## Operaciones Básicas
 
 Definimos algunas operaciones básicas que se permiten en la programación de alto orden.
@@ -125,13 +135,18 @@ Los procedimientos pueden ser parte de una estructura de datos. De esta forma po
 
 ## Funciones Anónimas
 
-Una función anónima es aquella que no está ligada a un identificador de variable. A veces son llamadas funciones **lambda**.
-
 ## Currying
 
 Es una técnica mediante la cual todos los procedimientos reciben solo un parámetro. Si tiene más de un parámetro, en realidad es tomado como una función que tiene, a su vez, un solo parámetro.
 
-```Oz
-Sumar = fun {$ A}
+``` Oz
+local Sumar in
+	fun {Sumar A}
+		fun {$ B}
+			A + B
+		end
 	end
+	
+	{Browse {{Sumar A}B}}
+end
 ```
