@@ -19,7 +19,6 @@
 - [[Scoping]]
 - [[Last Call Optimization]]
 - [[Programación de Alto Orden]]
-- [[Abstracción Procedural]]
 - [[Evaluación Perezosa]]
 - [[Teoría de Lenguaje/Concurrencia|Concurrencia]]
 - [[Estado Explícito]]

@@ -94,14 +94,15 @@ end
 
 Devolver un procedimiento como resultado de una expresión. A las funciones que devuelven funciones se les denomina *factories* o fabricas. Son funciones que fabrican otras funciones.
 
-Este concepto está relacionado con el [[Scoping]], ya que las funciones fabricadas dependen de variables externas. De no ser el caso, todas las funciones fabricadas serían identicas.
+Este concepto está relacionado con el [[Scoping]], ya que las funciones fabricadas dependen de variables externas. De no ser el caso, todas las funciones fabricadas serían idénticas.
 
 Siguiendo del ejemplo anterior, podemos definir:
 
 ```Oz
-local Reducir Sumar FabricarReducir SumarLista L in
+local Reducir Sumar Multiplicar FabricarReducir SumarLista L in
 	Reducir = fun ...
 	Sumar = fun ...
+	Multiplicar = fun ...
 
 	fun {FabricarReducir Op}
 		fun {$ L}
@@ -110,9 +111,10 @@ local Reducir Sumar FabricarReducir SumarLista L in
 	end
 
 	SumarLista = {FabricarReducir Sumar}
+	MultiplicarLista = {FabricarReducir Multiplicar}
 
 	L = [1 2 3 4 5 6]
 	{Browse {SumarLista L}}
+	{Browse {MultiplicarLista L}}
 end
-
 ```
