@@ -11,3 +11,5 @@ fun {Fact X Acum}
 	end
 end
 ```
+
+La utilización de acumuladores es importante si queremos lograr algoritmos con recursividad de cola. 
