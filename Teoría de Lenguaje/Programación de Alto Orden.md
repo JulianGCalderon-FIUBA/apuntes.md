@@ -122,3 +122,16 @@ end
 ### Embedding
 
 Los procedimientos pueden ser parte de una estructura de datos. De esta forma podemos modelar [[objetos y clases]].
+
+## Funciones Anónimas
+
+Una función anónima es aquella que no está ligada a un identificador de variable. A veces son llamadas funciones **lambda**.
+
+## Currying
+
+Es una técnica mediante la cual todos los procedimientos reciben solo un parámetro. Si tiene más de un parámetro, en realidad es tomado como una función que tiene, a su vez, un solo parámetro.
+
+```Oz
+Sumar = fun {$ A}
+	end
+```
