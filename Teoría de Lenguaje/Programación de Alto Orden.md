@@ -92,4 +92,22 @@ end
 
 ### Instanciación
 
-Devolver un procedimiento como resultado de una expresión
+Devolver un procedimiento como resultado de una expresión. Este concepto se utiliza en [[objetos y clases]]. Las clases nos devuelven registros que a su vez contienen procedimientos. Cada procedimiento tiene a su vez un [[Scoping|scope]].
+
+A las funciones que devuelven funciones, se les denomina *factories* o fabricas. Son funciones que fabrican otras funciones.
+
+Siguiendo del ejemplo anterior, podemos definir 
+
+```Oz
+...
+local FabricarReducir in
+	fun {FabricarReducir Op}
+		fun {$ L}
+			{Reducir Op L}
+		end
+	end
+
+	SumarLis
+end
+...
+```
