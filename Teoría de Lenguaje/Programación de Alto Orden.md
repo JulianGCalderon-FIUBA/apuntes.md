@@ -58,3 +58,14 @@ proc {P} X = 1 end
 ```
 
 ### Genericidad
+
+Enviar procedimientos como parámetro permite realiza procedimientos genéricos.
+
+- Sumar todos los elementos de una lista
+- Multiplicar todos los elementos de una lista
+
+Estas funciones se pueden generalizar en un concepto comúnmente conocido como reducir una lista. Se aplican operaciones dos a dos hasta llegar a un solo elemento.
+
+```Oz
+local Sumar Multiplicar Reduci
+```
