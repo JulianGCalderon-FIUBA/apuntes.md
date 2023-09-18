@@ -24,6 +24,8 @@ L = [1 2 3 4 5 99 6 7 8 9 10]
 
 ## Operaciones Básicas
 
+Definimos algunas operaciones básicas que se permiten en la programación de alto orden.
+
 ### Abstracción Procedural
 
 Está relacionado con los identificadores libres. En una declaración, un identificador es libre si no está definido en el mismo.
@@ -54,3 +56,5 @@ local X P in
 proc {P} X = 1 end
 {P}
 ```
+
+### Genericidad
