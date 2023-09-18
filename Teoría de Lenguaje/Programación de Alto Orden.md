@@ -27,6 +27,7 @@ Una función anónima es aquella que no está ligada a un identificador de varia
 ```Oz
 local Seleccionar L in
 Seleccionar = fun ...
+
 L = [1 2 3 4 5]
 {Browse {Seleccionar fun {$ A B} if A > B then A else B end}}
 end
@@ -133,8 +134,6 @@ end
 
 Los procedimientos pueden ser parte de una estructura de datos. De esta forma podemos modelar [[objetos y clases]].
 
-## Funciones Anónimas
-
 ## Currying
 
 Es una técnica mediante la cual todos los procedimientos reciben solo un parámetro. Si tiene más de un parámetro, en realidad es tomado como una función que tiene, a su vez, un solo parámetro.
@@ -149,4 +148,13 @@ local Sumar in
 	
 	{Browse {{Sumar A}B}}
 end
+```
+
+## Bucles Declarativos
+
+Podemos definir bucles declarativos, normalmente conocidos como iteradores. Le aplican una función a cada elemento de una lista.
+
+```Oz
+{ForAll [1 2 3] Browse} % 1 2 3
+{For 1 3 1 Browse} % 1 2 3
 ```
