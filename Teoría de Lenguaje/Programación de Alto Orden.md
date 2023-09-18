@@ -67,5 +67,24 @@ Enviar procedimientos como parámetro permite realiza procedimientos genéricos.
 Estas funciones se pueden generalizar en un concepto comúnmente conocido como reducir una lista. Se aplican operaciones dos a dos hasta llegar a un solo elemento.
 
 ```Oz
-local Sumar Multiplicar Reduci
+local Sumar Multiplicar Reducir L in
+	Multiplicar = fun {$ A B} then
+		A * B
+	end
+	
+	Sumar = fun {$ A B} then
+		A + B
+	end
+	
+	Reducir = fun {$ Op L} then
+		case L of H|nil then
+			H
+		[] H|T then
+			{Op H Reducir {Op T}}
+		end
+	end
+	
+	{Browse {Reducir Sumar L}}
+	{Browse {Reducir Multiplicar L}}
+end
 ```
