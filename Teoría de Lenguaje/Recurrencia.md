@@ -1,12 +1,14 @@
-La recurrencia implica llamar a una función desde la propia función. En un paradigma declarativo, la mayoria de problemas se resuelven con recursión.
+La recurrencia implica llamar a una función desde la propia función. En un paradigma declarativo, la mayoría de problemas se resuelven con recursión.
+
+Podemos, por ejemplo, calcular el largo de una lista de forma recursiva.
 
 ```Oz
 fun {Length L}
-case L of _|T then
-{Length T} + 1
-else
-0
-end
+	case L of _|T then
+		{Length T} + 1
+	else
+		0
+	end
 end
 
 ```
