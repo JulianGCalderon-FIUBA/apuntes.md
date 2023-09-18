@@ -75,13 +75,15 @@ Si `E(<x>)` tiene valor `true`, entonces apila `(<s1>, E)` la pila. Si tiene val
 
 En el tope del stack, tenemos: `(case <x> of <l>(<f1>:<x1>... <fn>:<xn>) then <s1> else <s2> end, E)`
 
-Es suspendible, se activa si `E(<x>)` está definido. Si se cumpla el patrón, se apila al stack `(local <x1>=<x>.<f1>... <xn>=<x>.<fn> in <s1> end, E)`. Sino, se apila `(<s2>, E)`.
+Es suspendible, se activa si `E(<x>)` está definido. Si se cumpla el patrón, se apila al stack `(local <x1>=<x>.<f1>... <xn>=<x>.<fn> in <s1> end, E)`. Si no, se apila `(<s2>, E)`.
 
 Notemos que se agrega un `local` automáticamente, por lo que no debemos declararlo.
 
 ## Excepciones
 
-En el top del stack, tenemos: `(try <s1> catch <x> then <s2> end, E)`
+En el tope del stack, tenemos: `(try <s1> catch <x> then <s2> end, E)`
 
 1. Se apila al stack `(catch <x> then <s2> end, E)`
 2. Se apila `(<s1>, E)`
+
+En cuanto nos encontremos con `(raise <x> end, E)` en el tope del stack, se empieza a descartar elementos hasta encontrar un `catch`. Si encuentra, por ejemplo, `(catch <y> then <s> end, Ec)` encuentra, se apila `(<s>, Ec + {<y> -> E(<x>)})`.
