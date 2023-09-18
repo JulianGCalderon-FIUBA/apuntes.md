@@ -40,4 +40,4 @@ L3 = '|'(10 '|'(20 '|'(30 nil)))
 {Browse L1.2.2.1}
 ```
 
-La lista se recorre de forma recursiva. A esto se debe la naturaleza de su estructura
+La lista se recorre de forma [[Recurrencia]]. A esto se debe la naturaleza de su estructura

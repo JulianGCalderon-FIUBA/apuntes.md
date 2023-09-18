@@ -2,6 +2,8 @@
 
 Definiremos un objeto como una función con memoria interna. Esta memoria interna debe ser mutable, por lo que recurriremos al estado explícito.
 
+Las funciones capturan su entorno, a partir del concepto de [[Scoping]]
+
 ```Oz
 declare C Bump
 

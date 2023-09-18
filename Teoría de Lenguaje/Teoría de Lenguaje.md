@@ -17,7 +17,7 @@
 - [[Pattern Matching]]
 - [[Variables Ligadas]]
 - [[Scoping]]
-- [[Last Call Optimization]]
+- [[Recurrencia]]
 - [[Programación de Alto Orden]]
 - [[Evaluación Perezosa]]
 - [[Teoría de Lenguaje/Concurrencia|Concurrencia]]
