@@ -230,8 +230,11 @@ A cada atributo del `SELECT` de una consulta se le puede aplicar una función de
 Aquí no se utiliza la palabra clave `PARTITION`. El esquema básico es:
 
 ```SQL
-SELECT atletaRANK() OVER ORDER BY tiempo
+SELECT pais_origen, atleta, RANK() OVER ORDER BY tiempo
+FROM ...
 ```
+
+Este código le agrega a cada fila de una tabla, su número de fila al ordenarlo por tiempo. La función `RANK` permite empates, aunque `ROW_NUMBER` no.
 
 ## Inserciones
 
