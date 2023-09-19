@@ -7,3 +7,4 @@
 - [[Corrección]]
 - [[Técnicas de Programación Concurrente I/Locks|Locks]]
 - [[Semáforos]]
+- [[Monitores]]
