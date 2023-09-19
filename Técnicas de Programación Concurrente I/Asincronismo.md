@@ -112,3 +112,5 @@ El cambio de una tarea a otra ocurre únicamente en las expresiones *await* (cua
 Una forma de resolverlo es utilizar `yield_now`, que de forma voluntaria pasa el control a otra tarea. La primera vez que se realiza `poll` retornará `Pending`. La siguiente vez devolverá `Ready`.
 
 La segunda forma de resolverlo es con la utilización de `spawn_blocking`. Coloca la tarea en otro hilo del sistema operativo, se utiliza para realizar cómputo pesado. Esto permite que no se rompa el esquema de concurrencia colaborativa. Cuando se realiza `await`, devolverá `Pending` hasta que el otro hilo termine la ejecución.
+
+A partir del `Context`, el hilo de ejecución creado con `spawn_blocking` puede indicarle al *runtime* cuando estará listo el valor a través de los `Wakers`. Evitando llamadas a `poll` innecesarias.
