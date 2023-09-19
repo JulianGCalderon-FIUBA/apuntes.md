@@ -1,8 +1,8 @@
 El lenguaje SQL (por sus siglas en inglés "Structured Query Language") es hoy en día el estándar para las operaciones de base de datos relacionales
 
-Es tanto un [[Lenguajes|lenguaje]] de definición de datos como un lenguaje de manipulación de datos.
+Es tanto un [[Lenguajes]] de definición de datos como un lenguaje de manipulación de datos.
 
-Es no procedural, y está basado en el cálculo relacional de tuplas.
+Es un lenguaje no procedural, y está basado en el [[Cálculo Relacional]] de tuplas.
 
 SQL es una gramática libre de contexto (*context-free grammar*, CFG). Esto implica que su sintaxis puede ser descrita a través de reglas de producción.
 
