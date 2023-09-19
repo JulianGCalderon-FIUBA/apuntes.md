@@ -4,7 +4,7 @@ Para resolver esto, se pueden utilizan **tareas asincrónicas** para intercalar 
 
 Estas tareas son mucho más livianas que un hilo, son más fáciles de crear, es más eficiente de pasarle el control a ellas. Se pueden tener miles o decenas de miles de tareas, pero con la reserva de memoria para únicamente unos cuantos hilos.
 
-Este modelo de programación asincrónica se conoce como concurrencia colaborativa.
+Este modelo de programación asincrónica se conoce como concurrencia colaborativa, ya que son las mismas tareas asincrónicas las que realizan el *yield* cuando deben esperar a una operación bloqueante.
 
 ## Casos de Uso
 
