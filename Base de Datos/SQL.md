@@ -138,3 +138,24 @@ SELECT id, (SELECT nombre FROM ...) FROM ...
 Cuando una subconsulta hace referencia a un valor externo, se dice que están **correlacionadas**. El costo de este tipo de consultas es mucho más elevado, ya que debe repetir la consulta por cada tupla de la consulta padre.
 
 ## Inserciones
+
+Las inserciones se realizan con el comando `INSERT INTO`. Si no especificamos las columnas, debemos colocar todas y en el orden definido.
+
+```SQL
+INSERT INTO Tabla VALUES
+	(a1, a2, ..., an),
+	(b1, b2, ..., bn),
+	...
+
+INSERT INTO Tabla(Col1, Col2, ..., Col3) VALUES
+	(a1, a2, ..., an),
+	(b1, b2, ..., bn),
+	...
+```
+
+También, podemos insertar el resultado de una subconsulta, con
+
+```SQL
+INSERT INTO T(Col1, Col2, ..., Col3)
+SELECT ... FROM ...
+```
