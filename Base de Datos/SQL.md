@@ -229,20 +229,18 @@ Esto permite agregar información según el ordenamiento de las filas de la tabl
 
 ### Única Partición
 
-Aquí no se utiliza la palabra clave `PARTITION`. El esquema básico es:
+El esquema básico es el siguiente.
 
 ```SQL
 SELECT pais_origen, atleta, RANK() OVER(ORDER BY tiempo)
 FROM ...
 ```
 
-Este código le agrega a cada fila de una tabla, su número de fila al ordenarlo por tiempo. La función `RANK` permite empates, aunque `ROW_NUMBER` no. La estructura `OVER (ORDER BY...)`.
+Agrega a cada fila del resultado, una columna dependiente de dicha fila y su órden respecto al resto de filas. Si no se utiliza `ORDER BY` dentro de `OVER`, se tendrá un orden indefinido y probablemente, un comportamiento indeseado.
 
 A diferencia del `GROUP BY`, no agrupa. No cambiará la cantidad de filas en el resultado.
 
 La función de ventana se aplica antes del ordenamiento que pueda hacerse en la cláusula `ORDER BY`.
-
-Si no se utiliza `ORDER BY` dentro de `OVER`, se tendrá un orden indefinido y probablemente, un comportamiento indeseado.
 
 Para cada fila, las funciones de agregación dentro de la ventana aplican la agregación únicamente con las filas anteriores a ella.
 
