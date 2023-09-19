@@ -25,9 +25,11 @@ Es un algoritmo utilizado para realizar **scheduling** de tareas entre los hilos
 
 Cada hilo tiene una cola de dos extremos *(deque)* donde almacena las tareas listas por ejecutar.
 
-Cuando un hilo termina la ejecución de una tarea, coloca las subtareas creadas al final de la cola. Luego, toma la siguiente tarea a ser ejecutada del final de la cola
+Cuando un hilo termina la ejecución de una tarea, coloca las subtareas creadas al final de la cola. Luego, toma la siguiente tarea a ser ejecutada del final de la cola.
 
-Si la cola está vacía y el hilo no tiene más trabajo, trata de *robar* tareas del inicio de una cola de otro hilo (aleatoriamente). La tarea se roba del inicio para minimizar las interacciones entre los hilos, pues es más probable que las tareas grandes se encuentren al inicio.
+Si la cola está vacía y el hilo no tiene más trabajo, trata de *robar* tareas del inicio de una cola de otro hilo (aleatoriamente).
+
+La tarea se roba del inicio para minimizar las interacciones entre los hilos, pues es más probable que las tareas grandes se encuentren al inicio. Esto se debe a que en un algoritmo de "divide y conquista", las tareas grandes generan subtareas más pequeñas y, por lo tanto, se encuentran primero.
 
 ## Rayon
 
