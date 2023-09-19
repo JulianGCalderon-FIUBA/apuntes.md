@@ -225,6 +225,8 @@ Permiten aplicar un procesamiento final a los resultados de una consulta, siguie
 
 A cada atributo del `SELECT` de una consulta se le puede aplicar una función de ventana distinta, o no aplicarle función a alguna.
 
+Esto permite agregar información según el ordenamiento de las filas de la tabla.
+
 ### Única Partición
 
 Aquí no se utiliza la palabra clave `PARTITION`. El esquema básico es:
