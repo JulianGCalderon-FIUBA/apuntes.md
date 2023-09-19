@@ -130,3 +130,6 @@ Para usarse en condiciones, debe tener un solo elemento (única fila y única co
 ...WHERE columna IN (SELECT ... FROM ...);
 ...WHERE columna EXISTS (SELECT ... FROM ...);
 ```
+
+###
+
