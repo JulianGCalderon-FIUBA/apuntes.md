@@ -43,19 +43,6 @@ La tercera razón es que es simplemente imposible (o muy difícil) de repetir la
 
 Una instrucción atómica es aquella que su ejecución completa sin interrupciones es garantizada. La suposición de que todas las instrucciones son atómicas no es para nada realista, ya que las instrucciones del lenguaje de programación se descomponen en múltiples instrucciones en lenguaje de máquina.
 
-## Correctness
-
-En un programa secuencial, la reejecución de un programa garantizará el mismo resultado. Esto no ocurre en un programa concurrente debido al intercalado.
-
-En los programas secuenciales, la definición de *correctness* no tiene sentido. En los programas concurrentes, existen dos tipos de propiedades de *correctness*:
-
-- **Propiedades de Seguridad:** Esta propiedad debe siempre ser cierta.
-- **Propiedad de Liveness:** Esta propiedad debe eventualmente ser cierta.
-
-Estas dos propiedades son duales una a la otra, si una falta, la otra también. La definición de estas propiedades depende del dominio y del problema a resolver.
-
-Debido a que se debe demostrar para todos los escenarios, no se puede demostrar esta propiedad a través de las pruebas.
-
 ## Instrucciones de Código de Máquina
 
 Los registros son independientes para cada proceso, y, por lo tanto, no interfieren en la concurrencia. A su vez, cada proceso tiene su propio *stack*, por lo que esta memoria tampoco interfiere en la concurrencia.

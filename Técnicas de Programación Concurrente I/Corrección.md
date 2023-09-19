@@ -1,9 +1,13 @@
-La corrección implica que el programa haga lo que tiene que hacer.
+En un programa secuencial, la reejecución de un programa garantizará el mismo resultado. Esto no ocurre en un programa concurrente debido al intercalado.
 
-Existen dos tipos de propiedades de la corrección:
+En los programas secuenciales, la definición de *correctness* no tiene sentido. En los programas concurrentes, existen dos tipos de propiedades de *correctness*:
 
-- **Safety:** Deben ser verdaderas siempre
-- **Liveness:** Deben volverse verdaderas eventualmente.
+- **Propiedades de Seguridad:** Esta propiedad debe siempre ser cierta.
+- **Propiedad de Liveness:** Esta propiedad debe eventualmente ser cierta.
+
+Estas dos propiedades son duales una a la otra, si una falta, la otra también. La definición de estas propiedades depende del dominio y del problema a resolver.
+
+Debido a que se debe demostrar para todos los escenarios, no se puede demostrar esta propiedad a través de las pruebas.
 
 ## Safety
 
