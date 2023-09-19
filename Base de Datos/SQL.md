@@ -197,9 +197,9 @@ Dado una relación `Vuelos(codVuelo, ciudadDesde, ciudadHasta)` que indica todos
 WITH RECURSIVE CiudadesAlcanzables(nombre)
 	AS ('Paris')
 	UNION (
-		SELECT ciudadHasta as nombre
-		FROM Vuelos
-		WHERE ciudadDesde IN CiudadesAlcanzables
+		SELECT ciudadHasta
+		FROM Vuelos JOIN CiudadesAlcanzables
+			ON Vuelos.ciudadDesde = CiudadesAlcanzables.ciudad
 		)
 SELECT ciudad FROM Alcanzables;
 ```
