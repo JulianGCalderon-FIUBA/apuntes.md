@@ -229,27 +229,29 @@ Esto permite agregar información según el ordenamiento de las filas de la tabl
 
 ### Única Partición
 
-El esquema básico es el siguiente.
+El esquema básico es el siguiente, donde se puede utilizar una función de agregación `f(A)` o una función de ventana `w(A_i,...)`.
 
 ```SQL
-SELECT pais_origen, atleta, RANK() OVER(ORDER BY tiempo)
+SELECT atleta, RANK() OVER(ORDER BY tiempo DESC)
 FROM ...
 ```
 
-Agrega a cada fila del resultado, una columna dependiente de dicha fila y su órden respecto al resto de filas. Si no se utiliza `ORDER BY` dentro de `OVER`, se tendrá un orden indefinido y probablemente, un comportamiento indeseado.
+Esto agrega a cada fila del resultado, una columna dependiente de dicha fila y su orden respecto al resto de filas. Si no se utiliza `ORDER BY` dentro de `OVER`, se tendrá un orden indefinido y probablemente, un comportamiento indeseado.
+
+La función `RANK()` obtendra 
 
 A diferencia del `GROUP BY`, no agrupa. No cambiará la cantidad de filas en el resultado.
 
 La función de ventana se aplica antes del ordenamiento que pueda hacerse en la cláusula `ORDER BY`.
 
-Para cada fila, las funciones de agregación dentro de la ventana aplican la agregación únicamente con las filas anteriores a ella.
+Para el caso de las funciones de agregación, se aplica únicamente para las filas anteriores a la fila actual, según el orden propuesto.
 
 Si vamos a utilizar una misma ventana múltiples veces, podemos definirla con `WINDOW`.
 
 ```SQL
-SELECT pais_origen, atelta, RANK() OVER ventana_tiempo
+SELECT atelta, RANK() OVER ventana_tiempo
 FROM ...
-WINDOW ventana_tiempo AS (ORDER BY tiempo)
+WINDOW ventana_tiempo AS (ORDER BY tiempo DESC)
 ```
 
 ### Múltiples Particiones
@@ -257,14 +259,8 @@ WINDOW ventana_tiempo AS (ORDER BY tiempo)
 En un esquema con múltiples particiones, antes de aplicar cada ventana, se puede agrupar el resultado por el valor de un conjunto de atributos. A cada uno de estos grupos, se lo denomina partición.
 
 ```SQL
-SELECT producto,
-	RANK() OVER (
-		PARTITION BY producto 
-		ORDER BY CANTIDAD DESC
-		) AS posicion,
-	pais,
-	cantidad
-FROM Exportaciones
+SELECT pais, producto, RANK() OVER(ORDER BY ...)
+FROM ...
 ```
 
 Para cada producto, se calcula su posición respecto al resto de países, ordenando por cantidad de exportaciones. Se puede pensar como una agrupación dentro de una ventana.
