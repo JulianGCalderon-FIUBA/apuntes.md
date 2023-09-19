@@ -6,3 +6,4 @@
 - [[Vectorización]]
 - [[Corrección]]
 - [[Técnicas de Programación Concurrente I/Locks|Locks]]
+- [[Sincronización]]

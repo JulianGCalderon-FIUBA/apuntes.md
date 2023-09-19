@@ -238,7 +238,7 @@ FROM ...
 
 Esto agrega a cada fila del resultado, una columna dependiente de dicha fila y su orden respecto al resto de filas. Si no se utiliza `ORDER BY` dentro de `OVER`, se tendrá un orden indefinido y probablemente, un comportamiento indeseado.
 
-La función `RANK()` obtendra 
+Existen múltiples funciones de ventana, como `RANK`, `ROW_NUMBER`, `LAG`, etc.
 
 A diferencia del `GROUP BY`, no agrupa. No cambiará la cantidad de filas en el resultado.
 
