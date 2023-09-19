@@ -94,4 +94,33 @@ Al utilizar un *buffer* de comunicación, se presentan los siguientes problemas 
 Vamos a estudiar dos casos:
 
 1. Buffer infinito: Solo se presenta el primer problema.
+
+	Definimos un `buffer` y un semáforo `notEmpty(0)`.
+
+	Desde el productor, tendremos:
+
+	```C 
+	dataType d
+	loop forever
+		p1: append(d, buffer)
+		p2: signal(notEmpty)
+	```
+
+	Desde el consumidor, tendremos:
+
+	```C
+	dataType d
+	loop forever
+		q1: wait(notEmpty)
+		q2: d <- take(buffer)
+	```
+
 2. Buffer acotado: Se presentan ambos problemas.
+	
+	Definimos un `buffer` vacio y dos semáforos: `notEmpty(0)` y `notFull(N)`.
+	
+	Desde el produ
+
+	```
+	da
+	```
