@@ -19,3 +19,8 @@ El valor del semáforo representa la cantidad de recursos disponibles. Si el val
 
 - La operación $p$ o `wait` resta uno al contador. Si el contador no es mayor a cero, entonces el proceso se bloqueara hasta que pueda decrementar el contador.
 - La operación $v$ o `signal` suma uno al contador. Esto lo libera para que otro proceso tome el recurso.
+
+Algunas propiedades de los semáforos son:
+
+- $S.V \geq 0$
+- $S.V = k + \#\text{signal}(S) - \#\text{wait}(S)$
