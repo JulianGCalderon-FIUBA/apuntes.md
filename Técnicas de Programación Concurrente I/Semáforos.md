@@ -18,6 +18,7 @@ Se definen dos operaciones atómicas sobre un semáforo $S$:
 	if S.V > 0
 		S.V := S.V - 1
 	else
+		// siendo p el propio proceso
 		S.L add p
 		p.state := blocked
 	```
@@ -47,9 +48,13 @@ Existen dos tipos de semáforos:
 
 Un semáforo System V está compuesto por:
 
-- El valor del semáforo
-- El *process id* del último proceso que utilizó el semáforo
-- La cantidad de procesos esperando por el semáforo
-- La cantidad de procesos que está esperando que el semáforo sea cero.
+- El valor del semáforo.
+- El *process id* del último proceso que utilizó el semáforo.
+- La cantidad de procesos esperando por el semáforo.
+- La cantidad de procesos que está esperando que el semáforo sea cero. Esto permite que podamos implementar barreras.
 
 ## Semáforos en Rust
+
+Utilizaremos el crate `std-semaphore`.
+- Inicialización: `fn new(k: usize)`
+- Obtención: `fn acquire`
