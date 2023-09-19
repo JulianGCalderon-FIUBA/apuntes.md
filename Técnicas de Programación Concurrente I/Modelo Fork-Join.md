@@ -12,6 +12,8 @@ Las tareas no pueden bloquearse, excepto para esperar el final de las subtareas.
 
 Al no haber comunicación entre los distintos hilos, no existirán las condiciones de carrera. Por esta misma razón, estos programas son **determinísticos**.
 
+Debido a la misma razón, son más **eficientes**. No se debe gastar recursos en crear *locks* para sincronizar información entre los hilos.
+
 En el caso ideal, el tiempo de ejecución decrece de forma inversamente proporcional respecto al número de hilos, aunque puede variar por distintas causas:
 
 - Las diferencias en el tamaño de las tareas.
