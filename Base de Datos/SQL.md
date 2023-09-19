@@ -131,5 +131,8 @@ Para usarse en condiciones, debe tener un solo elemento (única fila y única co
 ...WHERE columna EXISTS (SELECT ... FROM ...);
 ```
 
-###
+Las subconsultas, de hecho, pueden estar en cualquier lugar. Podríamos, por ejemplo, usar una subconsulta como expresión del `SELECT`.
 
+```SQL
+SELECT id, (SELECT)
+```
