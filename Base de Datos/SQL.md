@@ -22,9 +22,7 @@ Esto difiere del [[Álgebra Relacional]], ya que allí una relación es un conju
 
 Las claves primarias de una tabla nunca deberían ser `NULL`, aunque algunos motores lo permiten.
 
-## Manipulación de Datos
-
-### Cláusula `SELECT...FROM...WHERE`
+## Cláusula `SELECT...FROM...WHERE`
 
 La consulta principal de SQL es
 
@@ -60,7 +58,7 @@ La cláusula `WHERE` permite condiciones de reconocimiento de patrones para cade
 ...WHERE nombre LIKE 'Ana%'; -- El nombre debe comenzar con Ana.
 ```
 
-### Cláusula `JOIN`
+## Cláusula `JOIN`
 
 Al igual que el álgebra relacional, podemos realizar una junta a partir de la cláusula `JOIN`. Están implementados todos los tipos de junta.
 
@@ -73,7 +71,7 @@ Al igual que el álgebra relacional, podemos realizar una junta a partir de la c
 ...FROM R FULL OUTER JOIN S ON condition...
 ```
 
-### Operaciones de Conjuntos
+## Operaciones de Conjuntos
 
 SQL incorpora las tres operaciones de conjuntos. Con la palabra clave `ALL`, el resultado será un multiconjunto.
 
@@ -85,7 +83,7 @@ SQL incorpora las tres operaciones de conjuntos. Con la palabra clave `ALL`, el 
 
 Al igual que en el álgebra relacional, las tablas deben ser unión compatibles.
 
-### Ordenamiento y Paginación
+## Ordenamiento y Paginación
 
 Podemos ordenar los resultados de una consulta con `ORDER BY`. Las columnas utilizadas para ordenar deben pertenecer a dominios ordenados, y deben estar incluidas dentro de las columnas de la proyección en la cláusula `SELECT`.
 
@@ -99,7 +97,7 @@ OFFSET 10 ROWS FETCH NEXT 10 ROWS ONLY;
 -- LIMIT 10 OFFSET 10;
 ```
 
-### Agregación
+## Agregación
 
 La agregación colapsa tuplas que coinciden en una serie de atributos, en una única tupla que las representa a todas.
 
@@ -114,7 +112,7 @@ GROUP BY nombre_tenista
 HAVING SUM(premio) >= 100000
 ```
 
-### Subconsultas
+## Subconsultas
 
 El resultado de una subconsulta puede ser utilizado como argumento a otras cláusulas como `JOIN`.
 
@@ -122,7 +120,7 @@ El resultado de una subconsulta puede ser utilizado como argumento a otras cláu
 ...Tabla JOIN (SELECT ... FROM ...) AS Alias...
 ```
 
-Para usarse en condiciones, debe tener un solo elemento (única fila y única columna), estar acompañado de operadores como `ANY`, `ALL`, `IN`, `EXISTS`.
+Para usarse en condiciones, debe tener un solo elemento (única fila y única columna), o estar acompañado de operadores como `ANY`, `ALL`, `IN`, `EXISTS`. En estos casos, debe tener misma cantidad de columnas.
 
 ```SQL
 ...WHERE id = (SELECT MAX(id) FROM ...);
@@ -131,8 +129,12 @@ Para usarse en condiciones, debe tener un solo elemento (única fila y única co
 ...WHERE columna EXISTS (SELECT ... FROM ...);
 ```
 
-Las subconsultas, de hecho, pueden estar en cualquier lugar. Podríamos, por ejemplo, usar una subconsulta como expresión del `SELECT`.
+Las subconsultas, de hecho, pueden estar en cualquier lugar. Podríamos, por ejemplo, usar una subconsulta como expresión del `SELECT`. Es importante notar que cuando se usa como un valor, debe tener un solo elemento.
 
 ```SQL
-SELECT id, (SELECT)
+SELECT id, (SELECT nombre FROM ...) FROM ...
 ```
+
+Cuando una subconsulta hace referencia a un valor externo, se dice que están **correlacionadas**. El costo de este tipo de consultas es mucho más elevado, ya que debe repetir la consulta por cada tupla de la consulta padre.
+
+## Inserciones
