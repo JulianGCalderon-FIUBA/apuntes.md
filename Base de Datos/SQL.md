@@ -187,10 +187,18 @@ Se repite la consulta hasta hallar un punto fijo de nuestra consulta. Esto es, l
 
 ```SQL
 WITH RECURSIVE Tabla(Col1, Col2, ..., Coln)
-AS (<valor inicial> UNION <subconsulta>)
+AS (<valor inicial>) UNION (<subconsulta>)
 SELECT ...
 ```
 
+Dado una relación `Vuelos(codVuelo, ciudadDesde, ciudadHasta)` que indica todos los vuelos que ofrece una aeroílnea, encuentre todas las ciudades que son alcanzables desde Paris, independientemente de la cantidad de escalas
+
+```SQL
+WITH RECURSIVE Alcanzables(ciudad)
+	AS ('Paris')
+	UNION ()
+SELECT ciudad FROM Alcanzables
+```
 ## Estructura `CASE`
 
 Nos permite agregar cierta lógica de la programación estructurada a una sentencia de SQL.
