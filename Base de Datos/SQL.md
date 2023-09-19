@@ -179,6 +179,17 @@ CREATE MATERIALIZED VIEW Tabla(Col1, Col2, ..., Coln)
 AS (SELECT ...)
 ```
 
+## Cláusula `WITH RECURSIVE`
+
+Amplia el poder expresivo de SQL, permitiendo encontrar la clausura transitiva de una consulta. Dada una tabla `T` que es entrada de una consulta, permite que el resultado de la misma sea utilizado en lugar de `T` para volver a ejecutar la misma consulta.
+
+Se repite la consulta hasta hallar un punto fijo de nuestra consulta. Esto es, la tabla `T` tal que al aplicarle la consulta, devuelva el mismo `T`.
+
+```SQL
+WITH RECURSIVE Tabla(Col1, Col2, ..., Coln)
+AS (<valor inicial> UNION)
+```
+
 ## Estructura `CASE`
 
 Nos permite agregar cierta lógica de la programación estructurada a una sentencia de SQL.
