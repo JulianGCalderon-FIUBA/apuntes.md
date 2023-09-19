@@ -158,9 +158,20 @@ Cuando una subconsulta hace referencia a un valor externo, se dice que están **
 Es opcional según el estándar, pero permite construir una tabla auxiliar temporal previo a una consulta.
 
 ```SQL
-WITH Tabla(Columna1, Col2, ..., Col3)
+WITH Tabla(Col1, Col2, ..., Coln)
 AS (SELECT ...)
 SELECT ...
+```
+
+## Estructura `CASE`
+
+Nos permite agregar cierta lógica de la programación estructurada a una sentencia de SQL.
+
+Permite seleccionar distintos valores posibles de salida en función de distintas condiciones.
+
+```SQL
+SELECT CASE WHEN ... THEN ... ELSE ... END
+FROM ...
 ```
 
 ## Inserciones
