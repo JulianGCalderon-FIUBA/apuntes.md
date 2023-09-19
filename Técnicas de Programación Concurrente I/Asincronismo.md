@@ -99,11 +99,11 @@ Esta función bloquea el hilo de ejecución hasta que la función asincrónica p
 
 ### Tareas Asincrónicas
 
-Para crear tareas asincrónicas, utilizamos `spawn_local`. Este recibe un futuro y lo agrega a un *pool* que realizará el *polling* en un `block_on`. Es análogo al *spawn* de un hilo.
+Para crear tareas asincrónicas, utilizamos `spawn_local`. Este recibe un futuro y lo agrega a un *pool* del mismo hilo que realizará el *polling* en un `block_on`. Es análogo al *spawn* de un hilo.
 
 Es irrelevante en que orden realizamos `await` de las tareas creadas, ya que una vez creadas, serán *polleadas* por el ejecutor en cuanto la tarea principal del `block_on` haya bloqueado.
 
-Si no queremos depender de `block_on`, podemos utilizar `spawn`. Crea la tarea y la coloca en el *pool* de hilos dedicado a realizar `poll`. En este caso, no hay necesidad de ejecutar `block_on`.
+Si no queremos depender de `block_on`, podemos utilizar `spawn`. Crea la tarea y la coloca en el *pool* de hilos dedicado a realizar `poll`. En este caso, no hay necesidad de ejecutar `block_on`. Debido a que la tarea se envía a un hilo distinto, el futuro debe implementar `Send`.
 
 ### Computo Intenso
 
@@ -111,4 +111,4 @@ El cambio de una tarea a otra ocurre únicamente en las expresiones *await* (cua
 
 Una forma de resolverlo es utilizar `yield_now`, que de forma voluntaria pasa el control a otra tarea. La primera vez que se realiza `poll` retornará `Pending`. La siguiente vez devolverá `Ready`.
 
-La segunda forma de resolverlo es con la utilización de `spawn_blocking`. Coloca la tarea en otro hilo del sistema operativo, se utiliza para realizar cómputo pesado. Esto permite que no se rompa el esquema de concurrencia colaborativa.
+La segunda forma de resolverlo es con la utilización de `spawn_blocking`. Coloca la tarea en otro hilo del sistema operativo, se utiliza para realizar cómputo pesado. Esto permite que no se rompa el esquema de concurrencia colaborativa. Cuando se realiza `await`, devolverá `Pending` hasta que el otro hilo termine la ejecución.
