@@ -22,6 +22,8 @@ Esto difiere del [[Álgebra Relacional]], ya que allí una relación es un conju
 
 Las claves primarias de una tabla nunca deberían ser `NULL`, aunque algunos motores lo permiten.
 
+Para eliminar una tabla, utilizamos `DROP TABLE` y `DROP SCHEMA`.
+
 ## Cláusula `SELECT...FROM...WHERE`
 
 La consulta principal de SQL es
@@ -139,7 +141,7 @@ Cuando una subconsulta hace referencia a un valor externo, se dice que están **
 
 ## Inserciones
 
-Las inserciones se realizan con el comando `INSERT INTO`. Si no especificamos las columnas, debemos colocar todas y en el orden definido.
+Las inserciones se realizan con el comando `INSERT INTO`. Si no especificamos las columnas, debemos colocar todas y en el orden definido. Se deben respetar las restricciones definidas.
 
 ```SQL
 INSERT INTO Tabla VALUES
@@ -157,5 +159,32 @@ También, podemos insertar el resultado de una subconsulta, con
 
 ```SQL
 INSERT INTO T(Col1, Col2, ..., Col3)
-SELECT ... FROM ...
+SELECT ...
 ```
+
+Si se alcanza a un error, se deshace la operación completa.
+
+## Eliminaciones
+
+El borrado se realiza con el comando `DELETE FROM`. Se deben respetar las restricciones definidas.
+
+```SQL
+DELETE FROM Tabla
+WHERE ...
+```
+
+Si se alcanza a un error, se deshace la operación completa.
+
+## Modificaciones
+
+La actualización se realiza con el comando `UPDATE`. Se deben respetar las restricciones definidas.
+
+```SQL
+UPDATE Tabla
+SET A1=c1, A2=c2, Ak=ck
+WHERE ...
+```
+
+Se pueden modificar muchas filas con un solo `UPDATE`.
+
+Si se alcanza a un error, se deshace la operación completa.
