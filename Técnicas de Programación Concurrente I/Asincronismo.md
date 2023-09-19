@@ -33,7 +33,7 @@ fn hello_world() -> impl Future<Output = String>;
 async fn hello_world() -> String;
 ```
 
-En segundo lugar, definirá el tipo de dato particular, con toda la información necesaria para completar el pedido. Esto incluye sus argumentos, sus vari
+En segundo lugar, definirá el tipo de dato particular, con toda la información necesaria para completar el pedido. Esto incluye sus argumentos, espacio para sus variables locales, etc. Se puede pensar como capturar el todo el *call's stack frame* de la función como un valor ordinario.
 
 ## Poll
 
