@@ -53,6 +53,8 @@ Un semáforo System V está compuesto por:
 - La cantidad de procesos esperando por el semáforo.
 - La cantidad de procesos que está esperando que el semáforo sea cero. Esto permite que podamos implementar barreras.
 
+Una **barrera** permite a múltiples hilos esperar hasta que todos los hilos hayan llegado a cierto punto.
+
 ## Semáforos en Rust
 
 Utilizaremos el *crate* `std-semaphore`.
@@ -61,3 +63,10 @@ Utilizaremos el *crate* `std-semaphore`.
 - Para obtener acceso, utilizamos `fn acquire(&self)`.
 - Para liberar un semáforo, utilizamos: `fn release(&self)`.
 - Para acceder con patrón RAII, utilizamos: `fn access(&self)`. Esto permite que el semáforo se libere en cuanto la variable devuelta (una guarda) se vaya del entorno.
+
+## Barreras en Rust
+
+Permiten sincroniza varios hilos en puntos determinados de un cálculo o algoritmo.
+
+- Para crear una barrera, utilizamos `fn new(n: usize)`
+- Para bloquear el hilo hasta que todos se encuentren en el punto, utilizamos `fn wait(&self)`.
