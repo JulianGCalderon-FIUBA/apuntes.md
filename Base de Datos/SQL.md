@@ -244,13 +244,32 @@ La función de ventana se aplica antes del ordenamiento que pueda hacerse en la 
 
 Si no se utiliza `ORDER BY` dentro de `OVER`, se tendrá un orden indefinido y probablemente, un comportamiento indeseado.
 
-Las funciones de agregación dentro de la ventana aplican la agregación, en cada fila, con las filas anteriores a ella.
+Las funciones de agregación dentro de la ventana aplican, para cada fila, la agregación únicamente con las filas anteriores a ella.
 
-Si vamos a utilizar una misma ventana múltiples veces, podedmos definirla con `WINDOW`
+Sí vamos a utilizar una misma ventana múltiples veces, podemos definirla con `WINDOW`.
 
 ```SQL
-SELECT pas
+SELECT pais_origen, atelta, RANK() OVER ventana_tiempo
+FROM ...
+WINDOW ventana_tiempo AS (ORDER BY tiempo)
 ```
+
+### Múltiples Particiones
+
+En un esquema con múltiples particiones, antes de aplicar cada ventana, se puede agrupar el resultado por el valor de un conjunto de atributos. A cada uno de estos grupos, se lo denomina partición.
+
+```SQL
+SELECT producto,
+	RANK() OVER (
+		PARTITION BY producto 
+		ORDER BY CANTIDAD DESC
+		) AS posicion,
+	pais,
+	cantidad
+FROM Exportaciones
+```
+
+Para cada producto, se calcula su posición respecto al resto de países ordenando por cantidad de exportaciones. Se puede pensar como una agrupación dentro de una ventana.
 
 ## Inserciones
 
