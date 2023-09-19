@@ -55,6 +55,9 @@ Un semáforo System V está compuesto por:
 
 ## Semáforos en Rust
 
-Utilizaremos el crate `std-semaphore`.
-- Inicialización: `fn new(k: usize)`
-- Obtención: `fn acquire`
+Utilizaremos el *crate* `std-semaphore`.
+
+- Para crear un semáforo, utilizamos: `fn new(k: usize)`.
+- Para obtener acceso, utilizamos `fn acquire(&self)`.
+- Para liberar un semáforo, utilizamos: `fn release(&self)`.
+- Para acceder con patrón RAII, utilizamos: `fn access(&self)`. Esto permite que el semáforo se libere en cuanto la variable devuelta (una guarda) se vaya del entorno.
