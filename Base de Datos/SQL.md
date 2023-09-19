@@ -163,6 +163,21 @@ AS (SELECT ...)
 SELECT ...
 ```
 
+## Vistas
+
+Si queremos guardar la estructura junto a las tablas, para utilizarse para múltiples consultas, entonces utilizamos `CREATE VIEW` para crear una nueva vista. Se puede hacer referencia a estas vistas como si fuesen una tabla.
+
+```SQL
+CREATE VIEW Tabla(Col1, Col2, ..., Coln)
+AS (SELECT ...)
+```
+
+Las vistas materializadas se guardan en la base de datos ya calculado, lo cual nos ahorra de calcularlo cada vez. El gestor debe actualizar la vista materializada cuando se actualiza la lista, o cada cierto tiempo.
+
+```SQL
+CREATE MATERIALIZED VIEW Tabla(Col1, Col2, ..., Coln)
+```
+
 ## Estructura `CASE`
 
 Nos permite agregar cierta lógica de la programación estructurada a una sentencia de SQL.
