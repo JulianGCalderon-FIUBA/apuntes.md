@@ -8,7 +8,7 @@ SQL es una gramática libre de contexto (*context-free grammar*, CFG). Esto impl
 
 Una de las notaciones más conocidas para CFG es la notación de Backus-Naur (*Backus-Naur form*, BNF). Esta es la notación adoptada en el estándar.
 
-## Definición de Datos
+## Creación de Esquemas
 
 El comando `CREATE SCHEMA` nos permite crear un nuevo esquema de base de datos dentro de nuestro gestor.
 
@@ -16,13 +16,27 @@ Cada esquema tiene un *dueño*, este será identificado con la opción `AUTHORIZ
 
 Los esquemas se agrupan en catálogos, y cada catálogo contiene un esquema llamado `INFORMATION_SCHEMA`, que describe a todos los esquemas contenidos en él.
 
+Para eliminar un esquema, utilizamos `DROP SCHEMA`.
+
+## Creación de Tablas
+
+El comando `CREATE TABLE` nos permite definir la estructura de una tabla
+
+```SQL
+CREATE TABLE Persona (
+dni_persona INT PRIMARY KEY
+nombre_presona VARCHAR(255)
+fecha_nacimiento DATE
+)
+```
+
 SQL no obliga a definir una clave primaria, pero siempre deberíamos hacerlo. Debido a esto, permite que una fila esté repetida muchas veces en una tabla, este concepto se conoce como *multiconjunto*.
 
 Esto difiere del [[Álgebra Relacional]], ya que allí una relación es un conjunto de tuplas y, por lo tanto, no admitía repetidos.
 
 Las claves primarias de una tabla nunca deberían ser `NULL`, aunque algunos motores lo permiten.
 
-Para eliminar una tabla, utilizamos `DROP TABLE` y `DROP SCHEMA`.
+Para eliminar una tabla, utilizamos `DROP TABLE`.
 
 ## Cláusula `SELECT...FROM...WHERE`
 
@@ -37,7 +51,7 @@ FROM T1, T2, ..., TN
 Es análogo a la siguiente expresión del álgebra relacional:
 
 $$
-\Huge\pi_{A_1, A_2, \cdots, A_n} \sigma_\text{condition} (T_1 \times T_2, \cdots, T_m)
+\large\pi_{A_1, A_2, \cdots, A_n} \sigma_\text{condition} (T_1 \times T_2, \cdots, T_m)
 $$
 
 La única diferencia es que SQL no elimina tuplas repetidas, para hacerlo, se debe utilizar `SELECT DISTINCT`.
