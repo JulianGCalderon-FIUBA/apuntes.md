@@ -172,10 +172,11 @@ CREATE VIEW Tabla(Col1, Col2, ..., Coln)
 AS (SELECT ...)
 ```
 
-Las vistas materializadas se guardan en la base de datos ya calculado, lo cual nos ahorra de calcularlo cada vez. El gestor debe actualizar la vista materializada cuando se actualiza la lista, o cada cierto tiempo.
+Las vistas materializadas se guardan en la base de datos ya calculada, lo cual nos ahorra de calcularlo cada vez. El gestor debe actualizar la vista materializada cuando se actualiza la lista, o cada cierto tiempo.
 
 ```SQL
 CREATE MATERIALIZED VIEW Tabla(Col1, Col2, ..., Coln)
+AS (SELECT ...)
 ```
 
 ## Estructura `CASE`
