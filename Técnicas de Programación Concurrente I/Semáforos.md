@@ -74,3 +74,24 @@ Permiten sincroniza varios hilos en puntos determinados de un cálculo o algorit
 El método `is_leader()` devolverá `true` en el hilo líder. Al levantar la barrera, un hilo arbitrario se designa como líder.
 
 Las barreras son reutilizables automáticamente.
+
+## Productor - Consumidor
+
+Se definen dos familias de procesos: productores y consumidores.
+
+Existen algunos requisitos, o propiedades:
+
+- No se puede consumir lo que no hay.
+- Todos los elementos producidos son eventualmente consumidos.
+- Al espacio de almacenamiento se accede de a uno.
+- Se debe respetar el orden de almacenamiento y retiro de los elementos.
+
+Al utilizar un *buffer* de comunicación, se presentan los siguientes problemas de sincronización:
+
+- No se puede consumir si el *buffer* está vacío.
+- No se puede producir si el *buffer* está lleno.
+
+Vamos a estudiar dos casos:
+
+1. Buffer infinito: Solo se presenta el primer problema.
+2. Buffer acotado: Se presentan ambos problemas.
