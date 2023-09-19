@@ -12,7 +12,7 @@ Un semáforo es un contador.
 
 Se definen dos operaciones atómicas sobre un semáforo $S$:
 
-- La operación $p(S)$ o `wait(S)` solicita un recurso. Si el contador es mayor a cero, se disminuye. Si el contador es cero, entonces se bloquea hasta que se libere un recurso.
+- La operación $p(S)$ o `wait(S)` solicita un recurso. Si el contador es mayor a cero, se disminuye. Si el contador es cero, entonces se bloquea hasta que otro proceso lo libere con `signal(S)`.
 
 	```C
 	if S.V > 0
@@ -22,7 +22,7 @@ Se definen dos operaciones atómicas sobre un semáforo $S$:
 		p.state := blocked
 	```
 
-- La operación $v(S)$ o `signal(S)` libera un recurso. Si hay procesos esperando, no hace falta aumentar el contador, ya que al mismo tiempo que un proceso libera un recurso, otro lo toma.
+- La operación $v(S)$ o `signal(S)` libera un recurso. Si hay procesos esperando, no hace falta aumentar el contador, directamente despierta un proceso en espera.
 
 	```C
 	if S.L is empty
@@ -33,7 +33,23 @@ Se definen dos operaciones atómicas sobre un semáforo $S$:
 		p.state := ready
 	```
 
-Algunas propiedades de los semáforos son:
+Los invariantes de los semáforos son:
 
-- $S.V \geq 0$
-- $S.V = k + \#\text{signal}(S) - \#\text{wait}(S)$
+- El contador es siempre no negativo: $S.V \geq 0$
+- El cambio del valor del contador únicamente depende de la cantidad de llamadas a sus operaciones básicas: $S.V = k + \#\text{signal}(S) - \#\text{wait}(S)$
+
+## Semáforos de UNIX
+
+Existen dos tipos de semáforos:
+
+- System V
+- POSIX
+
+Un semáforo System V está compuesto por:
+
+- El valor del semáforo
+- El *process id* del último proceso que utilizó el semáforo
+- La cantidad de procesos esperando por el semáforo
+- La cantidad de procesos que está esperando que el semáforo sea cero.
+
+## Semáforos en Rust
