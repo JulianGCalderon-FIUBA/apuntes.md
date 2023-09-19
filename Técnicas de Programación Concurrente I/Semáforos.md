@@ -12,8 +12,26 @@ Un semáforo es un contador.
 
 Se definen dos operaciones atómicas sobre un semáforo $S$:
 
-- La operación $p(S)$ o `wait(S)` resta uno al contador. Si el contador no es mayor a cero, entonces el proceso se bloqueara hasta que pueda decrementar el contador.
-- La operación $v(S)$ o `signal(S)` suma uno al contador. Esto lo libera para que otro proceso tome el recurso.
+- La operación $p(S)$ o `wait(S)` solicita un recurso. Si el contador es mayor a cero, se disminuye. Si el contador es cero, entonces se bloquea hasta que se libere un recurso.
+
+	```C
+	if S.V > 0
+		S.V := S.V - 1
+	else
+		S.L add p
+		p.state := blocked
+	```
+
+- La operación $v(S)$ o `signal(S)` libera un recurso. Si hay procesos esperando, no hace falta aumentar el contador, ya que al mismo tiempo que un proceso libera un recurso, otro lo toma.
+
+	```C
+	if S.L is empty
+		S.V := S.V + 1
+	else
+		// sea q un proceso arbitrario en espera
+		S.L remove q
+		p.state := ready
+	```
 
 Algunas propiedades de los semáforos son:
 
