@@ -35,14 +35,6 @@ async fn hello_world() -> String;
 
 En segundo lugar, definirá el tipo de dato particular, con toda la información necesaria para completar el pedido.
 
-## Pin
-
-Los tipos de datos autogenerados de `async` que implementan `Future` guardan una referencia a sí mismas. Si estos son movidos (por estar en el *stack*), estas referencias no se actualizan.
-
-Para resolver esto, se inventa el concepto de *pin*. Todos los tipos de dato por defecto implementan el *autotrait* `Unpin`. A menos que específicamente se marquen como `!Unpin`.
-
-Las autorreferencias se encierran en un tipo de dato `Pin<Box<T>>`. Si `T` es `!Unpin`, `Pin` evita que se mueva haciendo imposible llamar métodos que requieran `&mut T` como `mem::swap`.
-
 ## Poll
 
 El `Future` tiene un método `poll` para consultar si la operación se completó o no. El resultado tiene dos valores posibles
@@ -59,6 +51,14 @@ Lo único que se puede realizar con un futuro es *golpearlo* con `poll` hasta qu
 El sistema operativo provee *system calls* para que estas operaciones de consulta sean eficientes.
 
 Cada vez que se llama `poll` en un `Future`, la tarea avanza todo lo que puede avanzar. Nunca bloqueará el hilo de ejecución.
+
+## Pin
+
+Los tipos de datos autogenerados de `async` que implementan `Future` guardan una referencia a sí mismas. Si estos son movidos (por estar en el *stack*), estas referencias no se actualizan.
+
+Para resolver esto, se inventa el concepto de *pin*. Todos los tipos de dato por defecto implementan el *autotrait* `Unpin`. A menos que específicamente se marquen como `!Unpin`.
+
+Las autorreferencias se encierran en un tipo de dato `Pin<Box<T>>`. Si `T` es `!Unpin`, `Pin` evita que se mueva haciendo imposible llamar métodos que requieran `&mut T` como `mem::swap`.
 
 ## Context
 
