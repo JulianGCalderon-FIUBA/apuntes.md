@@ -93,34 +93,72 @@ Al utilizar un *buffer* de comunicación, se presentan los siguientes problemas 
 
 Vamos a estudiar dos casos:
 
-1. Buffer infinito: Solo se presenta el primer problema.
+### Buffer Infinito
 
-	Definimos un `buffer` y un semáforo `notEmpty(0)`.
+En este caso, solo se presenta el primer problema.
 
-	Desde el productor, tendremos:
+Inicialmente, definimos un buffer y un semáforo:
 
-	```C 
-	dataType d
-	loop forever
-		p1: append(d, buffer)
-		p2: signal(notEmpty)
-	```
+```C
+buffer := emptyQueue
+notEmpty := semaphore(0)
+```
 
-	Desde el consumidor, tendremos:
+Desde el productor, tendremos:
 
-	```C
-	dataType d
-	loop forever
-		q1: wait(notEmpty)
-		q2: d <- take(buffer)
-	```
+```C 
+dataType d
+loop forever
+	p1: append(d, buffer)
+	p2: signal(notEmpty)
+```
 
-2. Buffer acotado: Se presentan ambos problemas.
-	
-	Definimos un `buffer` vacio y dos semáforos: `notEmpty(0)` y `notFull(N)`.
-	
-	Desde el produ
+Desde el consumidor, tendremos:
 
-	```
-	da
-	```
+```C
+dataType d
+loop forever
+	q1: wait(notEmpty)
+	q2: d <- take(buffer)
+```
+
+Tenemos un solo recurso y, por lo tanto, un solo semáforo.
+
+### Buffer acotado
+
+En este caso se presentan ambos problemas.
+
+Inicialmente, definimos un buffer y dos semáforos.
+
+```C
+buffer := emptyQueue
+notEmpty := semaphore(0)
+notFull := semaphore(N)
+```
+
+Desde el productor, tendremos:
+
+```C
+dataType d
+loop forecer
+	p1: producir
+	p2: wait(notFull)
+	p3: append(d, buffer)
+	p4: signal(notEmpty)
+```
+
+Desde el consumidor, tendremos:
+
+```C
+dataType d
+loop forever
+	q1: wait(notEmpty)
+	q2: d <- take(buffer)
+	q3: signal(notFull)
+	q4: consume(d)
+```
+
+Tenemos dos recursos, en consecuencia, dos semáforos:
+
+- La cantidad de recurso disponible
+- La cantidad de espacio disponible
