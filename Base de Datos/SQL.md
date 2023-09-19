@@ -232,7 +232,7 @@ Esto permite agregar información según el ordenamiento de las filas de la tabl
 Aquí no se utiliza la palabra clave `PARTITION`. El esquema básico es:
 
 ```SQL
-SELECT pais_origen, atleta, RANK() OVER ORDER BY tiempo
+SELECT pais_origen, atleta, RANK() OVER(ORDER BY tiempo
 FROM ...
 ```
 
