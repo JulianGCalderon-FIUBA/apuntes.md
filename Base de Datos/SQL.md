@@ -191,14 +191,19 @@ AS (<valor inicial>) UNION (<subconsulta>)
 SELECT ...
 ```
 
-Dado una relación `Vuelos(codVuelo, ciudadDesde, ciudadHasta)` que indica todos los vuelos que ofrece una aeroílnea, encuentre todas las ciudades que son alcanzables desde Paris, independientemente de la cantidad de escalas
+Dado una relación `Vuelos(codVuelo, ciudadDesde, ciudadHasta)` que indica todos los vuelos que ofrece una aerolínea, encuentre todas las ciudades que son alcanzables desde París, independientemente de la cantidad de escalas.
 
 ```SQL
-WITH RECURSIVE Alcanzables(ciudad)
+WITH RECURSIVE CiudadesAlcanzables(nombre)
 	AS ('Paris')
-	UNION ()
-SELECT ciudad FROM Alcanzables
+	UNION (
+		SELECT ciudadHasta as nombre
+		FROM Vuelos
+		WHERE ciudadDesde IN CiudadesAlcanzables
+		)
+SELECT ciudad FROM Alcanzables;
 ```
+
 ## Estructura `CASE`
 
 Nos permite agregar cierta lógica de la programación estructurada a una sentencia de SQL.
