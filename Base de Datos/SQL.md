@@ -23,10 +23,10 @@ Para eliminar un esquema, utilizamos `DROP SCHEMA`.
 El comando `CREATE TABLE` nos permite definir la estructura de una tabla
 
 ```SQL
-CREATE TABLE Persona (
-dni_persona INT PRIMARY KEY
-nombre_presona VARCHAR(255)
-fecha_nacimiento DATE
+CREATE TABLE Alumno (
+	padron INT PRIMARY KEY
+	nombre VARCHAR(255)
+	facultad INT FORIEGN KEY REFERENCES Facultad(id)
 )
 ```
 
@@ -152,6 +152,16 @@ SELECT id, (SELECT nombre FROM ...) FROM ...
 ```
 
 Cuando una subconsulta hace referencia a un valor externo, se dice que están **correlacionadas**. El costo de este tipo de consultas es mucho más elevado, ya que debe repetir la consulta por cada tupla de la consulta padre.
+
+## Cláusula `WITH`
+
+Es opcional según el estándar, pero permite construir una tabla auxiliar temporal previo a una consulta.
+
+```SQL
+WITH Tabla(Columna1, Col2, ..., Col3)
+AS (SELECT ...)
+SELECT ...
+```
 
 ## Inserciones
 
