@@ -215,6 +215,24 @@ SELECT CASE WHEN ... THEN ... ELSE ... END
 FROM ...
 ```
 
+## Funciones de Ventana
+
+Permiten aplicar un procesamiento final a los resultados de una consulta, siguiendo una serie de pasos:
+
+1. Se dividen en grupos, llamados particiones
+2. Cada partición se ordena internamente
+3. Se cruza información entre las filas de cada partición
+
+A cada atributo del `SELECT` de una consulta se le puede aplicar una función de ventana distinta, o no aplicarle función a alguna.
+
+### Única Partición
+
+Aquí no se utiliza la palabra clave `PARTITION`. El esquema básico es:
+
+```SQL
+SELECT atletaRANK() OVER ORDER BY tiempo
+```
+
 ## Inserciones
 
 Las inserciones se realizan con el comando `INSERT INTO`. Si no especificamos las columnas, debemos colocar todas y en el orden definido. Se deben respetar las restricciones definidas.
