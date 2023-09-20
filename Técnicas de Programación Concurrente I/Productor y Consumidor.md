@@ -21,20 +21,17 @@ Vamos a estudiar dos casos, ambos se pueden resolver con la utilización de [[Se
 
 En este caso solo se presenta el primer problema. Debemos definir un semáforo que represente la cantidad de recurso disponible.
 
-```C
-Desde el productor, tendremos:
-
 ```C 
-dataType d
+// --- PRODUCTOR ---
+resource R
 loop forever
 	p1: append(d, buffer)
 	p2: signal(notEmpty)
 ```
 
-Desde el consumidor, tendremos:
-
 ```C
-dataType d
+// --- CONSUMIDOR ---
+resource 
 loop forever
 	q1: wait(notEmpty)
 	q2: d <- take(buffer)
