@@ -1,12 +1,28 @@
+## Definición Conceptual
+
 Los semáforos son mecanismo de sincronización entre dos o más procesos. Está compuesto por dos campos:
 
 - Un entero no negativo llamado $V$. Se inicializa con un valor $k \geq 0$.
 - Un conjunto de procesos llamado $L$. Se inicializa con el conjunto vacío $\theta$.
 
-El valor del semáforo representa la cantidad de recursos disponibles. Si el valor es cero o uno, se llaman semáforos binarios y se comportan igual que los *locks* de escritura. Un semáforo puede ser pensado como un contador.
+El valor del semáforo representa la cantidad de recursos disponibles. Puede ser pensado como un contador.
 
 - Si el contador es mayor a cero, entonces el recurso está disponible.
 - Si el contador es cero, el recurso no está disponible.
+
+### Problema de la Sección Crítica
+
+Para resolver el problema de la [[Sección Crítica]] podemos utilizar un semáforo binario. Estos se comportan igual que los *locks* de escritura.
+
+```Pseudocode
+loop forever
+	non-critical section
+	wait(S)
+	critical section
+	signal(S)
+```
+
+### Operaciones Definidas
 
 Se definen dos operaciones atómicas sobre un semáforo $S$:
 
@@ -32,12 +48,12 @@ Se definen dos operaciones atómicas sobre un semáforo $S$:
 		p.state := ready
 	```
 
-## Propiedades de Semaforos
+### Propiedades de Semáforos
 
 Los invariantes de los semáforos son:
 
-- El contador es siempre no negativo: $S.V \geq 0$
-- El cambio del valor del contador únicamente depende de la cantidad de llamadas a sus operaciones básicas: $S.V = k + \#\text{signal}(S) - \#\text{wait}(S)$
+- El contador es siempre no negativo: $S.V \geq 0$.
+- El cambio del valor del contador únicamente depende de la cantidad de llamadas a sus operaciones básicas: $S.V = k + \#\text{signal}(S) - \#\text{wait}(S)$.
 
 ## Semáforos de UNIX
 
