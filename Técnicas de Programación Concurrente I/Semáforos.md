@@ -71,7 +71,7 @@ Permiten sincroniza varios hilos en puntos determinados de un cálculo o algorit
 - Para crear una barrera, utilizamos `fn new(n: usize)`
 - Para bloquear el hilo hasta que todos se encuentren en el punto, utilizamos `fn wait(&self)`.
 
-El método `is_leader()` devolverá `true` en el hilo líder. Al levantar la barrera, un hilo arbitrario se designa como líder.
+El método `is_leader()` devolverá `true` en el hilo líder. Al levantar la barrera, el ultimo hilo en llamar `wait()` se designa como líder.
 
 Las barreras son reutilizables automáticamente.
 
