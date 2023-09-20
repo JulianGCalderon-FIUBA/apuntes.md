@@ -12,19 +12,16 @@ Al utilizar un *buffer* de comunicación, se presentan los siguientes problemas 
 1. No se puede consumir si el *buffer* está vacío.
 2. No se puede producir si el *buffer* está lleno.
 
-Vamos a estudiar dos casos, ambos se pueden resolver con la utilización de [[Semáforos]]:
+Vamos a estudiar dos casos, ambos se pueden resolver con la utilización de [[Semáforos]].
+
+- Buffer **infinito**
+- Buffer **acotado**
 
 ## Buffer Infinito
 
-En este caso, solo se presenta el primer problema. Debemos definir un semáforo que:
-
-Inicialmente, definimos un buffer y un semáforo:
+En este caso solo se presenta el primer problema. Debemos definir un semáforo que represente la cantidad de recurso disponible.
 
 ```C
-buffer := emptyQueue
-notEmpty := semaphore(0)
-```
-
 Desde el productor, tendremos:
 
 ```C 
