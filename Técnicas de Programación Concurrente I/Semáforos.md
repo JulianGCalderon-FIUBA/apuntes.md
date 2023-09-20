@@ -12,14 +12,15 @@ El valor del semáforo representa la cantidad de recursos disponibles. Puede ser
 
 ### Problema de la Sección Crítica
 
-Para resolver el problema de la [[Sección Crítica]] podemos utilizar un semáforo binario. Estos se comportan igual que los *locks* de escritura.
+Para resolver el problema de la [[Sección Crítica]] podemos utilizar un semáforo binario (donde sus valores posibles son cero o uno). Estos se comportan igual que los *locks* de escritura.
 
-```Pseudocode
-loop forever
-	non-critical section
+```C
+while true {
+	// non-critical section
 	wait(S)
-	critical section
+	// critical section
 	signal(S)
+}
 ```
 
 ### Operaciones Definidas
@@ -48,7 +49,7 @@ Se definen dos operaciones atómicas sobre un semáforo $S$:
 		p.state := ready
 	```
 
-### Propiedades de Semáforos
+### Invariantes de Semáforos
 
 Los invariantes de los semáforos son:
 
@@ -90,91 +91,3 @@ Permiten sincroniza varios hilos en puntos determinados de un cálculo o algorit
 El método `is_leader()` devolverá `true` en el hilo líder. Al levantar la barrera, el ultimo hilo en llamar `wait()` se designa como líder.
 
 Las barreras son reutilizables automáticamente.
-
-## Productor - Consumidor
-
-Se definen dos familias de procesos: productores y consumidores.
-
-Existen algunos requisitos, o propiedades:
-
-- No se puede consumir lo que no hay.
-- Todos los elementos producidos son eventualmente consumidos.
-- Al espacio de almacenamiento se accede de a uno.
-- Se debe respetar el orden de almacenamiento y retiro de los elementos.
-
-Al utilizar un *buffer* de comunicación, se presentan los siguientes problemas de sincronización:
-
-- No se puede consumir si el *buffer* está vacío.
-- No se puede producir si el *buffer* está lleno.
-
-Vamos a estudiar dos casos:
-
-### Buffer Infinito
-
-En este caso, solo se presenta el primer problema.
-
-Inicialmente, definimos un buffer y un semáforo:
-
-```C
-buffer := emptyQueue
-notEmpty := semaphore(0)
-```
-
-Desde el productor, tendremos:
-
-```C 
-dataType d
-loop forever
-	p1: append(d, buffer)
-	p2: signal(notEmpty)
-```
-
-Desde el consumidor, tendremos:
-
-```C
-dataType d
-loop forever
-	q1: wait(notEmpty)
-	q2: d <- take(buffer)
-```
-
-Tenemos un solo recurso y, por lo tanto, un solo semáforo.
-
-### Buffer acotado
-
-En este caso se presentan ambos problemas.
-
-Inicialmente, definimos un buffer y dos semáforos.
-
-```C
-buffer := emptyQueue
-notEmpty := semaphore(0)
-notFull := semaphore(N)
-```
-
-Desde el productor, tendremos:
-
-```C
-dataType d
-loop forecer
-	p1: producir
-	p2: wait(notFull)
-	p3: append(d, buffer)
-	p4: signal(notEmpty)
-```
-
-Desde el consumidor, tendremos:
-
-```C
-dataType d
-loop forever
-	q1: wait(notEmpty)
-	q2: d <- take(buffer)
-	q3: signal(notFull)
-	q4: consume(d)
-```
-
-Tenemos dos recursos, en consecuencia, dos semáforos:
-
-- La cantidad de recurso disponible.
-- La cantidad de espacio disponible.
