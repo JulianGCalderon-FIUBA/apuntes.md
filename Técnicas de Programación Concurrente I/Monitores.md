@@ -98,6 +98,7 @@ La sincronización únicamente ocurre cuando un mismo objeto se le pasa como arg
 ```Java
 public static void main(String[] args) {
 	Contador contador = new Contador();
+	
 	Thread hilo1 = new Thread(new Hilo(contador));
 	Thread hilo2 = new Thread(new Hilo(contador));
 
