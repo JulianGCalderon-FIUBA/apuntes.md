@@ -5,7 +5,10 @@ Son importantes en el mundo de la programación orientada a objetos, pues son un
 Los monitores agregan el requerimiento de que únicamente un proceso pueda ejecutar una operación sobre un objeto al mismo tiempo. Por esta misma razón, los campos de los monitores siempre son privados.
 
 ```Java
-
+class Contador {
+	void metodo() {
+	}
+}
 ```
 
 ## Variables de Condición
@@ -76,13 +79,13 @@ El funcionamiento es el siguiente:
 Un ejemplo de uso puede ser un contador:
 
 ```Java
-public void incrementar(int cantidad) {
+void incrementar(int cantidad) {
 	synchronized(this) {
 		this.valor += cantidad;
 	}
 }
 
-public synchronized void incrementar(int cantidad) {
+synchronized void incrementar(int cantidad) {
 	this.valor += cantidad;
 }
 ```
@@ -90,13 +93,13 @@ public synchronized void incrementar(int cantidad) {
 Para métodos estáticos, tendremos:
 
 ```Java
-public static void escribirMensaje(int cantidad) {
+static void escribirMensaje(int cantidad) {
 	synchronized(Contador.class) {
 		System.out.println("Mensaje del contador");
 	}
 }
 
-public static synchronized void escribirMensaje(int cantidad) {
+static synchronized void escribirMensaje(int cantidad) {
 	System.out.println("Mensaje del contador");
 }
 ```
