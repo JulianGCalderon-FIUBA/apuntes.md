@@ -6,10 +6,9 @@ Los monitores agregan el requerimiento de que únicamente un proceso pueda ejecu
 
 ```Java
 class Contador {
-	int i = 0;
-	void incrementar() {
-		int tmp = n;
-		n = tmp + 1;
+	private int i = 0;
+	public synchronized void incrementar() {
+		i += 1;
 	}
 }
 ```
