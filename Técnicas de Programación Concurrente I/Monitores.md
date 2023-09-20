@@ -30,11 +30,11 @@ Los monitores proveen exclusión mutua, además de una serie de variables de con
 - Desde dentro del monitor, los procesos pueden ejecutar una operación de `waitC`, bloqueándose y liberando el monitor hasta que otro proceso los desbloquee.
 - Desde dentro del monitor, los procesos pueden ejecutar una operación de `signalC` para liberar procesos esperando.
 
-Cuando son desbloqueados, tendremos dos procesos dentro del monitor, el que señalizo, y el que fue liberado. Esto es inválido. Se debe definir una precedencia entre los procesos liberados, los que señalizaron. Para resolver esto se creó el *immediate resumption requierement*.
+Cuando son desbloqueados, tendremos dos procesos dentro del monitor, el que señalizo, y el que fue liberado. Esto es inválido. Se debe definir una precedencia entre los procesos liberados $E$, los que señalizaron $S$, y los que están en espera $W$. Para resolver esto se creó el *immediate resumption requierement*.
 
-El IRR indica que los procesos liberados se deben ejecutar primero que los procesos recién liberados. Esto implica que la operación de `signalC` dentro de los monitores son, de cierto modo, bloqueantes.
+El IRR indica que los procesos liberados se deben ejecutar primero que los procesos que señalizan, y finalmente siguen los procesos en la cola. Es decir, $E < S < W$. Esto implica que la operación de `signalC` dentro de los monitores son, de cierto modo, bloqueantes.
 
-En Java, por otro lado, se ejecuta primero el proceso que señaliza, y luego los procesos liberados.
+En Java, por otro lado, se ejecuta primero el proceso que señaliza, y luego, sin preferencia, los procesos liberados y los procesos en la cola. Es decir, $E = W < S$.
 
 ## Estados de Procesos
 
@@ -57,12 +57,9 @@ En Java, los hilos son distintos a los hilos de Rust. Esto se debe a que no util
 
 ### Sección Crítica
 
-Para la utilización de monitores, existen los bloques `synchronized`. Estos deben recibir una variable la cual sincronizarán a partir de un *lock* exclusivo.El *lock* es reentrante. Esto implica que pueden ser interrumpidos.
+Para la utilización de monitores, existen los bloques `synchronized`. Estos deben recibir una variable la cual sincronizarán a partir de un *lock* exclusivo. El *lock* es reentrante, esto implica que pueden ser interrumpidos.
 
 Los métodos `synchronized` son aquellos bloques de código que son un método completo. La utilización de un método `synchronized` convierte automáticamente la clase en un monitor.
-
-- Cada objeto tiene un *lock* o monitor.
-- Solo un hilo a la vez puede tomar el *lock*.
 
 ### Exclusión Mutua
 
