@@ -2,7 +2,11 @@ Los monitores proveen una primitiva estructurada que se concentra la responsabil
 
 Son importantes en el mundo de la programación orientada a objetos, pues son una generalización del *objeto*.
 
-Los monitores agregan el requerimiento de que únicamente un proceso pueda ejecutar una operación sobre un o
+Los monitores agregan el requerimiento de que únicamente un proceso pueda ejecutar una operación sobre un objeto al mismo tiempo. Por esta misma razón, los campos de los monitores siempre son privados.
+
+```Java
+
+```
 
 ## Variables de Condición
 
