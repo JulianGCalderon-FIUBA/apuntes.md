@@ -31,6 +31,7 @@ Semaphore not_empty = semaphore_new(0)
 // --- PRODUCTOR ---
 Resource r
 while true {
+	r = produce()
 	append(buffer, r)
 	signal(not_empty)
 }
@@ -42,6 +43,7 @@ Resource r
 while true {
 	wait(not_empty)
 	r = take(buffer)
+	consume(r)
 }
 ```
 
@@ -49,18 +51,21 @@ Nos aseguramos de esta forma que un productor nunca tome un elemento del *buffer
 
 ## Buffer acotado
 
-En este caso se presentan ambos problemas descritos. Ademas del semáforo que representa la cantidad de recurso disponible, tendremos un semaforo mas
+En este caso se presentan ambos problemas descritos. Además del semáforo que representa la cantidad de recurso disponible, tendremos un semáforo más que representa la capacidad restante del *buffer*.
 
 ```C
 // --- DEFINITION ---
 Buffer buffer = buffer_new()
 Semaphore not_empty = semaphore_new(0)
+Semaphore not_full = semaphore_new(N)
 ```
 
 ```C 
 // --- PRODUCTOR ---
 Resource r
 while true {
+	r = produce()
+	wait(not_full)
 	append(buffer, r)
 	signal(not_empty)
 }
@@ -72,10 +77,11 @@ Resource r
 while true {
 	wait(not_empty)
 	r = take(buffer)
+	signal(not_full)
+	consume(r)
 }
 ```
 
-Tenemos dos recursos, en consecuencia, dos semáforos. Los recursos son
+No solo nos aseguramos de no tomar recurso que no existe, además nos aseguramos de no sobrepasar la capacidad del *buffer*.
 
-- La cantidad de recurso disponible.
-- La cantidad de espacio disponible.
+La técnica de tener múltiples semáforos cuyos contadores sumen a una constante fija $N$ se conoce como **split semaphores**.
