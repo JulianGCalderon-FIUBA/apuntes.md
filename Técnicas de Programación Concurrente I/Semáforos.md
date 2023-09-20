@@ -3,9 +3,7 @@ Los semáforos son mecanismo de sincronización entre dos o más procesos. Está
 - Un entero no negativo llamado $V$. Se inicializa con un valor $k \geq 0$.
 - Un conjunto de procesos llamado $L$. Se inicializa con el conjunto vacío $\theta$.
 
-El valor del semáforo representa la cantidad de recursos disponibles. Si el valor es cero o uno, se llaman semáforos binarios y se comportan igual que los *locks* de escritura.
-
-Un semáforo es un contador.
+El valor del semáforo representa la cantidad de recursos disponibles. Si el valor es cero o uno, se llaman semáforos binarios y se comportan igual que los *locks* de escritura. Un semáforo puede ser pensado como un contador.
 
 - Si el contador es mayor a cero, entonces el recurso está disponible.
 - Si el contador es cero, el recurso no está disponible.
@@ -23,7 +21,7 @@ Se definen dos operaciones atómicas sobre un semáforo $S$:
 		p.state := blocked
 	```
 
-- La operación $v(S)$ o `signal(S)` libera un recurso. Si hay procesos esperando, no hace falta aumentar el contador, directamente despierta un proceso en espera.
+- La operación $v(S)$ o `signal(S)` libera un recurso. Si no hay procesos esperando, decrementa el contador. Si no, directamente despierta un proceso en espera.
 
 	```C
 	if S.L is empty
@@ -33,6 +31,8 @@ Se definen dos operaciones atómicas sobre un semáforo $S$:
 		S.L remove q
 		p.state := ready
 	```
+
+## Propiedades de Semaforos
 
 Los invariantes de los semáforos son:
 
