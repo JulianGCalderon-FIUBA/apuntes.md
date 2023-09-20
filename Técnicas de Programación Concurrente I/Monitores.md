@@ -20,7 +20,7 @@ Los monitores agregan el requerimiento de que únicamente un proceso pueda ejecu
 class Contador {
 	private int i = 0;
 	public synchronized void incrementar() {
-		i += 1;
+		this.i += 1;
 	}
 }
 ```
@@ -33,6 +33,8 @@ Los monitores proveen exclusión mutua, además de una serie de variables de con
 Cuando son desbloqueados, tendremos dos procesos dentro del monitor, el que señalizo, y el que fue liberado. Esto es inválido. Se debe definir una precedencia entre los procesos liberados, los que señalizaron. Para resolver esto se creó el *immediate resumption requierement*.
 
 El IRR indica que los procesos liberados se deben ejecutar primero que los procesos recién liberados. Esto implica que la operación de `signalC` dentro de los monitores son, de cierto modo, bloqueantes.
+
+En Java, por otro lado, se ejecuta primero el proceso que señaliza, y luego los procesos liberados.
 
 ## Estados de Procesos
 
@@ -53,12 +55,14 @@ En Java, los hilos son distintos a los hilos de Rust. Esto se debe a que no util
 - Heredando la clase `Thread`.
 - Implementando la interfaz `Runnable`.
 
+### Sección Crítica
+
 Para la utilización de monitores, existen los bloques `synchronized`. Estos tienen dos partes:
 
 - Un objeto que servirá como *lock*
 - Un bloque de código a ejecutar en forma atómica
 
-Los métodos `synchronized` son aquellos bloques de código que son un método funciono.
+Los métodos `synchronized` son aquellos bloques de código que son un método completo.
 
 El funcionamiento es el siguiente:
 
@@ -75,6 +79,8 @@ void incrementar(int cantidad) {
 	}
 }
 
+// o, con métodos synchronized:
+
 synchronized void incrementar(int cantidad) {
 	this.valor += cantidad;
 }
@@ -83,13 +89,15 @@ synchronized void incrementar(int cantidad) {
 Para métodos estáticos, tendremos:
 
 ```Java
-static void escribirMensaje(int cantidad) {
+void escribirMensaje(int cantidad) {
 	synchronized(Contador.class) {
 		System.out.println("Mensaje del contador");
 	}
 }
 
-static synchronized void escribirMensaje(int cantidad) {
+// o, con métodos synchronized:
+
+synchronized void escribirMensaje(int cantidad) {
 	System.out.println("Mensaje del contador");
 }
 ```
@@ -115,7 +123,7 @@ public static void main(String[] args) {
 Se debe tener el monitor adquirido para poder llamar a los siguientes métodos:
 
 - Método `wait()`: Libera el monitor adquirido y suspende el hilo, hasta que otro hilo llame a `notify()` o `notifyAll()`.
-- Método `notify()`: Despierta alguno de los hilos que espera por el monitor
+- Método `notify()`: Despierta alguno de los hilos que espera por el monitor, el cual podrán efectivamente en cuanto el hilo actual salga del monitor.
 - Método `notifyAll()`: Despierta todos los hilos que esperan por el monitor.
 
 ## Variables Volátiles
