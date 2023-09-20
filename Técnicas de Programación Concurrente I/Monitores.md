@@ -1,15 +1,3 @@
-## Variables de Condición
-
-Un variable de condición es un mecanismo de sincronización que no guarda ningún valor, sino que tiene asociado una cola.
-
-Una variable de condición `C` consta de tres operaciones atómicas:
-
-- La operación de `waitC(C)` siempre bloquea el proceso hasta que sea desbloqueado con `signalC(C)`. El proceso es agregado a una cola.
-- La operación `signalC(C)` desbloquea el último proceso de la cola. Si está vacía, no tiene ningún efecto.
-- La operación `empty(C)` nos permite verificar si la condición es cierta sin necesidad de bloquear el proceso. Esto es necesario, ya que si la condición es cierta, el proceso se bloquea igualmente.
-
-## Monitores
-
 Los monitores proveen una primitiva estructurada que se concentra la responsabilidad de la corrección de sus módulos. Son más fáciles de utilizar que los [[Semáforos]].
 
 Son importantes en el mundo de la programación orientada a objetos, pues son una generalización del *objeto*.
@@ -52,14 +40,16 @@ Los procesos pueden tomar distintos estados frente a un monitor:
 
 ### Hilos
 
-En Java, los hilos son distintos a los hilos de Rust. Esto se debe a que no utilizan al sistema operativo. Están implementados por el propio lenguaje. Hay dos formas de crear hilos:
+En Java, los hilos no utilizan al sistema operativo. Son conocidos como *green threads* y están implementados por el propio lenguaje. Hay dos formas de crear hilos:
 
 - Heredando la clase `Thread`.
 - Implementando la interfaz `Runnable`.
 
 ### Sección Crítica
 
-Para la utilización de monitores, existen los bloques `synchronized`. Estos deben recibir una variable la cual sincronizarán a partir de un *lock* exclusivo. El *lock* es reentrante, esto implica que pueden ser interrumpidos.
+Para la utilización de monitores, existen los bloques `synchronized`. Estos deben recibir una variable la cual sincronizarán a partir de un *lock* exclusivo.
+
+Solo un proceso puede estar dentro de un bloque `synchronized`. El *lock* es reentrante, esto implica que pueden ser interrumpidos.
 
 Los métodos `synchronized` son aquellos bloques de código que son un método completo. La utilización de un método `synchronized` convierte automáticamente la clase en un monitor.
 
