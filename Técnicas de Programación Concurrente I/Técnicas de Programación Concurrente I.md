@@ -8,5 +8,5 @@
 - [[Sección Crítica]]
 - [[Técnicas de Programación Concurrente I/Locks|Locks]]
 - [[Semáforos]]
-- [[Productor - Consumidor]]
+- [[Productor y Consumidor]]
 - [[Monitores]]

@@ -9,10 +9,10 @@ Existen algunos requisitos, o propiedades:
 
 Al utilizar un *buffer* de comunicación, se presentan los siguientes problemas de sincronización:
 
-- No se puede consumir si el *buffer* está vacío.
-- No se puede producir si el *buffer* está lleno.
+1. No se puede consumir si el *buffer* está vacío.
+2. No se puede producir si el *buffer* está lleno.
 
-Vamos a estudiar dos casos, ambos se pueden resolver con la utilización de semaforos:
+Vamos a estudiar dos casos, ambos se pueden resolver con la utilización de [[Semáforos]]:
 
 ## Buffer Infinito
 
@@ -47,7 +47,7 @@ Tenemos un solo recurso y, por lo tanto, un solo semáforo.
 
 ## Buffer acotado
 
-En este caso se presentan ambos problemas.
+En este caso se presentan ambos problemas descritos.
 
 Inicialmente, definimos un buffer y dos semáforos.
 
@@ -82,4 +82,4 @@ loop forever
 Tenemos dos recursos, en consecuencia, dos semáforos:
 
 - La cantidad de recurso disponible.
-- La cantidad de espa
+- La cantidad de espacio disponible.
