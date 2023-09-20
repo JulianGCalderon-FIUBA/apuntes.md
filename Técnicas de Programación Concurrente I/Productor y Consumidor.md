@@ -16,7 +16,7 @@ Vamos a estudiar dos casos, ambos se pueden resolver con la utilización de [[Se
 
 ## Buffer Infinito
 
-En este caso, solo se presenta el primer problema.
+En este caso, solo se presenta el primer problema. Debemos definir un semáforo que
 
 Inicialmente, definimos un buffer y un semáforo:
 
@@ -79,7 +79,7 @@ loop forever
 	q4: consume(d)
 ```
 
-Tenemos dos recursos, en consecuencia, dos semáforos:
+Tenemos dos recursos, en consecuencia, dos semáforos. Los recursos son
 
 - La cantidad de recurso disponible.
 - La cantidad de espacio disponible.
