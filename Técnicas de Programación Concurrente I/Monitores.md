@@ -30,11 +30,11 @@ Los monitores proveen exclusión mutua, además de una serie de variables de con
 - Desde dentro del monitor, los procesos pueden ejecutar una operación de `waitC`, bloqueándose y liberando el monitor hasta que otro proceso los desbloquee.
 - Desde dentro del monitor, los procesos pueden ejecutar una operación de `signalC` para liberar procesos esperando.
 
-Cuando son desbloqueados, tendremos dos procesos dentro del monitor, el que señalizo, y el que fue liberado. Esto es inválido. Se debe definir una precedencia entre los procesos liberados $E$, los que señalizaron $S$, y los que están en espera $W$. Para resolver esto se creó el *immediate resumption requierement*.
+Cuando son desbloqueados, tendremos dos procesos dentro del monitor, el que señalizo, y el que fue liberado. Esto es inválido. Se debe definir una precedencia entre los procesos liberados $W$, los que señalizaron $S$, y los que están en espera de la entrada del monitor $E$. Para resolver esto se creó el *immediate resumption requierement*.
 
-El IRR indica que los procesos liberados se deben ejecutar primero que los procesos que señalizan, y finalmente siguen los procesos en la cola. Es decir, $E < S < W$. Esto implica que la operación de `signalC` dentro de los monitores son, de cierto modo, bloqueantes.
+El IRR indica que los procesos se ejecutan según $W > S > E$. Los liberados se deben ejecutar primero, luego el proceso que señalizo, y finalmente siguen los procesos en la cola. Esto implica que la operación de `signalC` dentro de los monitores son, de cierto modo, bloqueantes.
 
-En Java, por otro lado, se ejecuta primero el proceso que señaliza, y luego, sin preferencia, los procesos liberados y los procesos en la cola. Es decir, $E = W < S$.
+En Java, por otro lado, se ejecutan según $S > W = E$. Primero continua proceso que señaliza, y luego, sin preferencia, los procesos liberados y los procesos en la cola del monitor.
 
 ## Estados de Procesos
 
@@ -49,6 +49,8 @@ Los procesos pueden tomar distintos estados frente a un monitor:
 ![[Monitores 1695234944.png]]
 
 ## Monitores en Java
+
+### Hilos
 
 En Java, los hilos son distintos a los hilos de Rust. Esto se debe a que no utilizan al sistema operativo. Están implementados por el propio lenguaje. Hay dos formas de crear hilos:
 
