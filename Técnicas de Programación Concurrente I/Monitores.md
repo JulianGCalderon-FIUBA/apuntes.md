@@ -27,6 +27,12 @@ class Contador {
 
 Los monitores proveen exclusión mutua, además de una serie de variables de condición que permiten sincronizar los distintos hilos. Tienen un mecanismo para señalizar otros hilos cuando su condición se cumple.
 
+Desde dentro del monitor, los procesos pueden ejecutar una operación de `waitC` para liberar el monitor hasta que otro proceso los desbloquee (desde dentro del monitor).
+
+Cuando son desbloqueados, tendremos dos procesos dentro del monitor, el que señalizo, y el que fue liberado. Esto es inválido. Se debe definir una precedencia entre los procesos liberados, los que señalizaron. Para resolver esto se creó el *immediate resumption requierement*.
+
+El IRR indica que los procesos liberados se deben ejecutar primero que los procesos recién liberados.
+
 ## Estados de Procesos
 
 Los procesos pueden tomar distintos estados frente a un monitor:
