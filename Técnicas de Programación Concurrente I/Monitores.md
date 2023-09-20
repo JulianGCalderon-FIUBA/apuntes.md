@@ -49,3 +49,32 @@ En Java, los hilos son distintos a los hilos de Rust. Esto se debe a que no util
 - Implementando la interfaz `Runnable`.
 
 ### Secciones Críticas
+
+Para la utilización de monitores, existen los bloques `synchronized`. Estos tienen dos partes:
+
+- Un objeto que servirá como *lock*
+- Un bloque de código a ejecutar en forma atómica
+
+Los métodos `synchronized` son aquellos bloques de código que son un método funciono.
+
+El funcionamiento es el siguiente:
+
+- Cada objeto tiene un *lock* o monitor
+- Solo un hilo a la vez puede tomar el *lock*
+- El *lock* es reentrante. Esto implica que #todo
+
+Un ejemplo de uso, es:
+
+```Java
+public static void incrementar(int cantidad) {
+	synchronized(this) {
+		this.valor += cantidad;
+	}
+}
+
+public synchronized void incrementar(int cantidad) {
+	this.valor += cantidad;
+}
+```
+
+Para método estáticos, tend
