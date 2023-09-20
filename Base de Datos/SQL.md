@@ -8,7 +8,9 @@ SQL es una gramática libre de contexto (*context-free grammar*, CFG). Esto impl
 
 Una de las notaciones más conocidas para CFG es la notación de Backus-Naur (*Backus-Naur form*, BNF). Esta es la notación adoptada en el estándar.
 
-## Creación de Esquemas
+## Definición de Datos
+
+### Creación de Esquemas
 
 El comando `CREATE SCHEMA` nos permite crear un nuevo esquema de base de datos dentro de nuestro gestor.
 
@@ -18,7 +20,7 @@ Los esquemas se agrupan en catálogos, y cada catálogo contiene un esquema llam
 
 Para eliminar un esquema, utilizamos `DROP SCHEMA`.
 
-## Creación de Tablas
+### Creación de Tablas
 
 El comando `CREATE TABLE` nos permite definir la estructura de una tabla
 
@@ -38,7 +40,7 @@ Las claves primarias de una tabla nunca deberían ser `NULL`, aunque algunos mot
 
 Para eliminar una tabla, utilizamos `DROP TABLE`.
 
-## Cláusula `SELECT...FROM...WHERE`
+## Visualización de Datos
 
 La consulta principal de SQL es
 
@@ -74,7 +76,7 @@ La cláusula `WHERE` permite condiciones de reconocimiento de patrones para cade
 ...WHERE nombre LIKE 'Ana%'; -- El nombre debe comenzar con Ana.
 ```
 
-## Cláusula `JOIN`
+### Cláusula `JOIN`
 
 Al igual que el álgebra relacional, podemos realizar una junta a partir de la cláusula `JOIN`. Están implementados todos los tipos de junta.
 
@@ -87,7 +89,7 @@ Al igual que el álgebra relacional, podemos realizar una junta a partir de la c
 ...FROM R FULL OUTER JOIN S ON condition...
 ```
 
-## Operaciones de Conjuntos
+### Operaciones de Conjuntos
 
 SQL incorpora las tres operaciones de conjuntos. Con la palabra clave `ALL`, el resultado será un multiconjunto.
 
@@ -99,7 +101,7 @@ SQL incorpora las tres operaciones de conjuntos. Con la palabra clave `ALL`, el 
 
 Al igual que en el álgebra relacional, las tablas deben ser unión compatibles.
 
-## Ordenamiento y Paginación
+### Ordenamiento y Paginación
 
 Podemos ordenar los resultados de una consulta con `ORDER BY`. Las columnas utilizadas para ordenar deben pertenecer a dominios ordenados, y deben estar incluidas dentro de las columnas de la proyección en la cláusula `SELECT`.
 
@@ -113,7 +115,7 @@ OFFSET 10 ROWS FETCH NEXT 10 ROWS ONLY;
 -- LIMIT 10 OFFSET 10;
 ```
 
-## Agregación
+### Agregación
 
 La agregación colapsa tuplas que coinciden en una serie de atributos, en una única tupla que las representa a todas.
 
@@ -191,7 +193,7 @@ AS (<valor inicial>) UNION (<subconsulta>)
 SELECT ...
 ```
 
-Dado una relación `Vuelos(codVuelo, ciudadDesde, ciudadHasta)` que indica todos los vuelos que ofrece una aerolínea, encuentre todas las ciudades que son alcanzables desde París, independientemente de la cantidad de escalas.
+Dada una relación `Vuelos(codVuelo, ciudadDesde, ciudadHasta)` que indica todos los vuelos que ofrece una aerolínea, podemos encontrar todas las ciudades que son alcanzables desde París, independientemente de la cantidad de escalas.
 
 ```SQL
 WITH RECURSIVE CiudadesAlcanzables(nombre)
@@ -236,15 +238,13 @@ SELECT atleta, RANK() OVER(ORDER BY tiempo DESC)
 FROM ...
 ```
 
-Esto agrega a cada fila del resultado, una columna dependiente de dicha fila y su orden respecto al resto de filas. Si no se utiliza `ORDER BY` dentro de `OVER`, se tendrá un orden indefinido y probablemente, un comportamiento indeseado.
+Esto agrega a cada fila del resultado, una columna dependiente de dicha fila y su orden respecto al resto de filas. Si no se utiliza `ORDER BY` dentro de `OVER`, se tendrá un orden indefinido.
 
-Existen múltiples funciones de ventana, como `RANK`, `ROW_NUMBER`, `LAG`, etc.
+Existen múltiples funciones de ventana, como `RANK`, `ROW_NUMBER`, `LAG`, etc. También se pueden utilizar funciones de agregación como `SUM` y `AVG`. Para este caso, se aplica únicamente para las filas anteriores a la fila actual, según el orden propuesto.
 
 A diferencia del `GROUP BY`, no agrupa. No cambiará la cantidad de filas en el resultado.
 
 La función de ventana se aplica antes del ordenamiento que pueda hacerse en la cláusula `ORDER BY`.
-
-Para el caso de las funciones de agregación, se aplica únicamente para las filas anteriores a la fila actual, según el orden propuesto.
 
 Si vamos a utilizar una misma ventana múltiples veces, podemos definirla con `WINDOW`.
 
