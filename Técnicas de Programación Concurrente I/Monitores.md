@@ -34,7 +34,7 @@ Los procesos pueden tomar distintos estados:
 
 ### Diferencias con un Semáforo
 
-Algunas diferencias con los semaforos son:
+Algunas diferencias con los semáforos son:
 
 - La operación `waitC` siempre bloquea, a diferencia de `wait` que puede hacerlo o no.
 - La operación `signalC` no tiene efecto si la cola está vacía, a diferencia de `signal` que en caso de no haber procesos en la cola, incrementa el contador.
@@ -47,3 +47,5 @@ En Java, los hilos son distintos a los hilos de Rust. Esto se debe a que no util
 
 - Heredando la clase `Thread`.
 - Implementando la interfaz `Runnable`.
+
+### Secciones Críticas
