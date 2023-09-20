@@ -27,11 +27,12 @@ class Contador {
 
 Los monitores proveen exclusión mutua, además de una serie de variables de condición que permiten sincronizar los distintos hilos. Tienen un mecanismo para señalizar otros hilos cuando su condición se cumple.
 
-Desde dentro del monitor, los procesos pueden ejecutar una operación de `waitC` para liberar el monitor hasta que otro proceso los desbloquee (desde dentro del monitor).
+- Desde dentro del monitor, los procesos pueden ejecutar una operación de `waitC`, bloqueándose y liberando el monitor hasta que otro proceso los desbloquee.
+- Desde dentro del monitor, los procesos pueden ejecutar una operación de `signalC` para liberar procesos esperando.
 
 Cuando son desbloqueados, tendremos dos procesos dentro del monitor, el que señalizo, y el que fue liberado. Esto es inválido. Se debe definir una precedencia entre los procesos liberados, los que señalizaron. Para resolver esto se creó el *immediate resumption requierement*.
 
-El IRR indica que los procesos liberados se deben ejecutar primero que los procesos recién liberados.
+El IRR indica que los procesos liberados se deben ejecutar primero que los procesos recién liberados. Esto implica que la operación de `signalC` dentro de los monitores son, de cierto modo, bloqueantes.
 
 ## Estados de Procesos
 
@@ -39,18 +40,18 @@ Los procesos pueden tomar distintos estados frente a un monitor:
 
 - Esperando para entrar al monitor.
 - Ejecutando el monitor (solo un proceso a la vez puede, hay exclusión mutua).
-- Bloqueada en la cola de variables de condición.
-- Recién liberado de la cola.
-- Recién completó una operación `signalC`.
+- Bloqueada en la cola de variables de condición, tras un `waitC`.
+- Recién liberado de la cola, esperando a continuar su ejecución.
+- Recién completó una operación `signalC`, esperando a continuar su ejecución.
 
-## Java
+![[Monitores 1695234944.png]]
+
+## Monitores en Java
 
 En Java, los hilos son distintos a los hilos de Rust. Esto se debe a que no utilizan al sistema operativo. Están implementados por el propio lenguaje. Hay dos formas de crear hilos:
 
 - Heredando la clase `Thread`.
 - Implementando la interfaz `Runnable`.
-
-### Secciones Críticas
 
 Para la utilización de monitores, existen los bloques `synchronized`. Estos tienen dos partes:
 
