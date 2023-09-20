@@ -6,7 +6,10 @@ Los monitores agregan el requerimiento de que únicamente un proceso pueda ejecu
 
 ```Java
 class Contador {
-	void metodo() {
+	int i = 0;
+	void incrementar() {
+		int tmp = n;
+		n = tmp + 1;
 	}
 }
 ```
