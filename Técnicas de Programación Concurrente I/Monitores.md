@@ -2,11 +2,11 @@
 
 Un variable de condición es un mecanismo de sincronización que no guarda ningún valor, sino que tiene asociado una cola.
 
-Consta de tres operaciones atómicas:
+Una variable de condición `C` consta de tres operaciones atómicas:
 
-- La operación de `waitC(cond)` siempre bloquea el proceso hasta que sea desbloqueado con `signalC(cond)`. El proceso es agregado a una cola.
-- La operación `signalC(cond)` desbloquea el último proceso de la cola. Si está vacía, no tiene ningún efecto.
-- La operación `empty(cond)` nos permite verificar si la condición es cierta sin necesidad de bloquear el proceso. Esto es necesario, ya que si la condición es cierta, el proceso se bloquea igualmente.
+- La operación de `waitC(C)` siempre bloquea el proceso hasta que sea desbloqueado con `signalC(C)`. El proceso es agregado a una cola.
+- La operación `signalC(C)` desbloquea el último proceso de la cola. Si está vacía, no tiene ningún efecto.
+- La operación `empty(C)` nos permite verificar si la condición es cierta sin necesidad de bloquear el proceso. Esto es necesario, ya que si la condición es cierta, el proceso se bloquea igualmente.
 
 ## Monitores
 
@@ -57,50 +57,12 @@ En Java, los hilos son distintos a los hilos de Rust. Esto se debe a que no util
 
 ### Sección Crítica
 
-Para la utilización de monitores, existen los bloques `synchronized`. Estos tienen dos partes:
+Para la utilización de monitores, existen los bloques `synchronized`. Estos deben recibir una variable la cual sincronizarán a partir de un *lock* exclusivo.El *lock* es reentrante. Esto implica que pueden ser interrumpidos.
 
-- Un objeto que servirá como *lock*
-- Un bloque de código a ejecutar en forma atómica
+Los métodos `synchronized` son aquellos bloques de código que son un método completo. La utilización de un método `synchronized` convierte automáticamente la clase en un monitor.
 
-Los métodos `synchronized` son aquellos bloques de código que son un método completo.
-
-El funcionamiento es el siguiente:
-
-- Cada objeto tiene un *lock* o monitor
-- Solo un hilo a la vez puede tomar el *lock*
-- El *lock* es reentrante. Esto implica que pueden ser interrumpidos.
-
-Un ejemplo de uso puede ser un contador:
-
-```Java
-void incrementar(int cantidad) {
-	synchronized(this) {
-		this.valor += cantidad;
-	}
-}
-
-// o, con métodos synchronized:
-
-synchronized void incrementar(int cantidad) {
-	this.valor += cantidad;
-}
-```
-
-Para métodos estáticos, tendremos:
-
-```Java
-void escribirMensaje(int cantidad) {
-	synchronized(Contador.class) {
-		System.out.println("Mensaje del contador");
-	}
-}
-
-// o, con métodos synchronized:
-
-synchronized void escribirMensaje(int cantidad) {
-	System.out.println("Mensaje del contador");
-}
-```
+- Cada objeto tiene un *lock* o monitor.
+- Solo un hilo a la vez puede tomar el *lock*.
 
 ### Exclusión Mutua
 
