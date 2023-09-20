@@ -19,9 +19,9 @@ Un variable de condición es un mecanismo de sincronización que no guarda ning�
 
 Consta de tres operaciones atómicas:
 
-- La operación de `waitC(cond)` bloquea el proceso hasta que la variable de condición sea cierta. Lo agrega a una cola de procesos.
-- La operación `signalC(cond)` desbloquea el último proceso de la cola.
-- La operación `empty(cond)` nos permite verificar si la condición es cierta sin
+- La operación de `waitC(cond)` siempre bloquea el proceso hasta que sea desbloqueado con `signalC(cond)`. El proceso es agregado a una cola.
+- La operación `signalC(cond)` desbloquea el último proceso de la cola. Si está vacía, no tiene ningún efecto.
+- La operación `empty(cond)` nos permite verificar si la condición es cierta sin necesidad de bloquear el proceso.
 
 ## Monitores
 
@@ -43,15 +43,6 @@ Los procesos pueden tomar distintos estados:
 - Bloqueada en la cola de variables de condición.
 - Recién liberado de la cola.
 - Recién completó una operación `signalC`.
-
-### Diferencias con un Semáforo
-
-Algunas diferencias con los semáforos son:
-
-- La operación `waitC` siempre bloquea, a diferencia de `wait` que puede hacerlo o no.
-- La operación `signalC` no tiene efecto si la cola está vacía, a diferencia de `signal` que en caso de no haber procesos en la cola, incrementa el contador.
-- Si no está vacía la cola, `signalC` desbloquea el proceso del tope de la cola. `signal` por el otro lado desbloquea un proceso arbitrario.
-- Un proceso desbloqueado con `signalC` debe esperar que el proceso señalizador deje el monitor.
 
 ## Java
 
