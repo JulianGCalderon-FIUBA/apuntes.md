@@ -16,7 +16,7 @@ Vamos a estudiar dos casos, ambos se pueden resolver con la utilización de [[Se
 
 ## Buffer Infinito
 
-En este caso, solo se presenta el primer problema. Debemos definir un semáforo que
+En este caso, solo se presenta el primer problema. Debemos definir un semáforo que:
 
 Inicialmente, definimos un buffer y un semáforo:
 
