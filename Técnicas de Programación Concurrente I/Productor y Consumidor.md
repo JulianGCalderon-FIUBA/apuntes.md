@@ -21,56 +21,58 @@ Vamos a estudiar dos casos, ambos se pueden resolver con la utilización de [[Se
 
 En este caso solo se presenta el primer problema. Debemos definir un semáforo que represente la cantidad de recurso disponible.
 
+```C
+// --- DEFINITION ---
+Buffer buffer = buffer_new()
+Semaphore not_empty = semaphore_new(0)
+```
+
 ```C 
 // --- PRODUCTOR ---
-resource R
-loop forever
-	p1: append(d, buffer)
-	p2: signal(notEmpty)
+Resource r
+while true {
+	append(buffer, r)
+	signal(not_empty)
+}
 ```
 
 ```C
 // --- CONSUMIDOR ---
-resource 
-loop forever
-	q1: wait(notEmpty)
-	q2: d <- take(buffer)
+Resource r
+while true {
+	wait(not_empty)
+	r = take(buffer)
+}
 ```
 
-Tenemos un solo recurso y, por lo tanto, un solo semáforo.
+Nos aseguramos de esta forma que un productor nunca tome un elemento del *buffer* cuando este está vacío, gracias a la utilización de un semáforo.
 
 ## Buffer acotado
 
-En este caso se presentan ambos problemas descritos.
-
-Inicialmente, definimos un buffer y dos semáforos.
+En este caso se presentan ambos problemas descritos. Ademas del semáforo que representa la cantidad de recurso disponible, tendremos un semaforo mas
 
 ```C
-buffer := emptyQueue
-notEmpty := semaphore(0)
-notFull := semaphore(N)
+// --- DEFINITION ---
+Buffer buffer = buffer_new()
+Semaphore not_empty = semaphore_new(0)
 ```
 
-Desde el productor, tendremos:
-
-```C
-dataType d
-loop forecer
-	p1: producir
-	p2: wait(notFull)
-	p3: append(d, buffer)
-	p4: signal(notEmpty)
+```C 
+// --- PRODUCTOR ---
+Resource r
+while true {
+	append(buffer, r)
+	signal(not_empty)
+}
 ```
 
-Desde el consumidor, tendremos:
-
 ```C
-dataType d
-loop forever
-	q1: wait(notEmpty)
-	q2: d <- take(buffer)
-	q3: signal(notFull)
-	q4: consume(d)
+// --- CONSUMIDOR ---
+Resource r
+while true {
+	wait(not_empty)
+	r = take(buffer)
+}
 ```
 
 Tenemos dos recursos, en consecuencia, dos semáforos. Los recursos son
