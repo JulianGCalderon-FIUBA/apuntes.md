@@ -1,3 +1,9 @@
+Los monitores proveen una primitiva estructurada que se concentra la responsabilidad de la corrección de sus módulos. Son más fáciles de utilizar que los [[Semáforos]].
+
+Son importantes en el mundo de la programación orientada a objetos, pues son una generalización del *objeto*.
+
+Los monitores agregan el requerimiento de que únicamente un proceso pueda ejecutar una operación sobre un o
+
 ## Variables de Condición
 
 Un variable de condición tiene las siguientes propiedades:
