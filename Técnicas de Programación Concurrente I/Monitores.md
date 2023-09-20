@@ -61,12 +61,12 @@ El funcionamiento es el siguiente:
 
 - Cada objeto tiene un *lock* o monitor
 - Solo un hilo a la vez puede tomar el *lock*
-- El *lock* es reentrante. Esto implica que #todo
+- El *lock* es reentrante.
 
-Un ejemplo de uso, es:
+Un ejemplo de uso puede ser un contador:
 
 ```Java
-public static void incrementar(int cantidad) {
+public void incrementar(int cantidad) {
 	synchronized(this) {
 		this.valor += cantidad;
 	}
@@ -77,4 +77,39 @@ public synchronized void incrementar(int cantidad) {
 }
 ```
 
-Para método estáticos, tend
+Para métodos estáticos, tendremos:
+
+```Java
+public static void escribirMensaje(int cantidad) {
+	synchronized(Contador.class) {
+		System.out.println("Mensaje del contador");
+	}
+}
+
+public static synchronized void escribirMensaje(int cantidad) {
+	System.out.println("Mensaje del contador");
+}
+```
+
+### Exclusión Mutua
+
+La sincronización únicamente ocurre cuando un mismo objeto se le pasa como argumento a dos hilos distintos. Por ejemplo:
+
+```Java
+public static void main(String[] args) {
+	Contador contador = new Contador();
+	Thread hilo1 = new Thread(new Hilo(contador));
+	Thread hilo2 = new Thread(new Hilo(contador));
+
+	hilo1.start()
+	hilo2.start()
+}
+```
+
+### Señalización
+
+Se debe tener el monitor adquirido para poder llamar a los siguientes métodos:
+
+- Método `wait()`: Libera el monitor adquirido y suspende el hilo, hasta que otro hilo llame a `notify()` o `notifyAll()`.
+- Método `notify()`: Despierta alguno de los hilos que espera por el monitor
+- Método `notifyAll()`: Despierta todos los hilos que esperan por el monitor.
