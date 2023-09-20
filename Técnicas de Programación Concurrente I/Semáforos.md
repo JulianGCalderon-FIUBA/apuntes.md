@@ -160,5 +160,5 @@ loop forever
 
 Tenemos dos recursos, en consecuencia, dos semáforos:
 
-- La cantidad de recurso disponible
-- La cantidad de espacio disponible
+- La cantidad de recurso disponible.
+- La cantidad de espacio disponible.

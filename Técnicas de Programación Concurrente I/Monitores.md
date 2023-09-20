@@ -61,7 +61,7 @@ El funcionamiento es el siguiente:
 
 - Cada objeto tiene un *lock* o monitor
 - Solo un hilo a la vez puede tomar el *lock*
-- El *lock* es reentrante.
+- El *lock* es reentrante. Esto implica que pueden ser interrumpidos.
 
 Un ejemplo de uso puede ser un contador:
 
