@@ -15,16 +15,13 @@ class Contador {
 
 ## Variables de Condición
 
-Un variable de condición tiene las siguientes propiedades:
-
-- No guarda ningún valor
-- Tiene asociado una cola
+Un variable de condición es un mecanismo de sincronización que no guarda ningún valor, sino que tiene asociado una cola.
 
 Consta de tres operaciones atómicas:
 
-- `waitC(cond)`
-- `signalC(cond)`
-- `empty(cond)`
+- La operación de `waitC(cond)` bloquea el proceso hasta que la variable de condición sea cierta. Lo agrega a una cola de procesos.
+- La operación `signalC(cond)` desbloquea el último proceso de la cola.
+- La operación `empty(cond)` nos permite verificar si la condición es cierta sin
 
 ## Monitores
 
