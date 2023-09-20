@@ -1,3 +1,15 @@
+## Variables de Condición
+
+Un variable de condición es un mecanismo de sincronización que no guarda ningún valor, sino que tiene asociado una cola.
+
+Consta de tres operaciones atómicas:
+
+- La operación de `waitC(cond)` siempre bloquea el proceso hasta que sea desbloqueado con `signalC(cond)`. El proceso es agregado a una cola.
+- La operación `signalC(cond)` desbloquea el último proceso de la cola. Si está vacía, no tiene ningún efecto.
+- La operación `empty(cond)` nos permite verificar si la condición es cierta sin necesidad de bloquear el proceso. Esto es necesario, ya que si la condición es cierta, el proceso se bloquea igualmente.
+
+## Monitores
+
 Los monitores proveen una primitiva estructurada que se concentra la responsabilidad de la corrección de sus módulos. Son más fáciles de utilizar que los [[Semáforos]].
 
 Son importantes en el mundo de la programación orientada a objetos, pues son una generalización del *objeto*.
@@ -13,21 +25,11 @@ class Contador {
 }
 ```
 
-## Variables de Condición
+Los monitores proveen exclusión mutua, además de una serie de variables de condición que permiten sincronizar los distintos hilos. Tienen un mecanismo para señalizar otros hilos cuando su condición se cumple.
 
-Un variable de condición es un mecanismo de sincronización que no guarda ningún valor, sino que tiene asociado una cola.
+## Estados de Procesos
 
-Consta de tres operaciones atómicas:
-
-- La operación de `waitC(cond)` siempre bloquea el proceso hasta que sea desbloqueado con `signalC(cond)`. El proceso es agregado a una cola.
-- La operación `signalC(cond)` desbloquea el último proceso de la cola. Si está vacía, no tiene ningún efecto.
-- La operación `empty(cond)` nos permite verificar si la condición es cierta sin necesidad de bloquear el proceso. Esto es necesario, ya que si la condición es cierta, el proceso se bloquea igualmente.
-
-## Estados de Po
-
-Nos permite sincronizar hilos con exclusión mutua y la posibilidad de esperar a que una condición se vuelva falsa. Tienen un mecanismo para señalizar otros hilos cuando su condición se cumple.
-
-Los procesos pueden tomar distintos estados:
+Los procesos pueden tomar distintos estados frente a un monitor:
 
 - Esperando para entrar al monitor.
 - Ejecutando el monitor (solo un proceso a la vez puede, hay exclusión mutua).
