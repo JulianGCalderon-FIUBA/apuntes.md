@@ -21,20 +21,11 @@ Consta de tres operaciones atómicas:
 
 - La operación de `waitC(cond)` siempre bloquea el proceso hasta que sea desbloqueado con `signalC(cond)`. El proceso es agregado a una cola.
 - La operación `signalC(cond)` desbloquea el último proceso de la cola. Si está vacía, no tiene ningún efecto.
-- La operación `empty(cond)` nos permite verificar si la condición es cierta sin necesidad de bloquear el proceso.
+- La operación `empty(cond)` nos permite verificar si la condición es cierta sin necesidad de bloquear el proceso. Esto es necesario, ya que si la condición es cierta, el proceso se bloquea igualmente.
 
-## Monitores
+## Estados de Po
 
 Nos permite sincronizar hilos con exclusión mutua y la posibilidad de esperar a que una condición se vuelva falsa. Tienen un mecanismo para señalizar otros hilos cuando su condición se cumple.
-
-Un monitor consiste en:
-
-- Un nombre
-- Variables internas
-- Procedimientos del monitor: rutinas que acceden directamente a las variables internas
-- Una interfaz pública para que los procesos puedan acceder a las variables internas
-- Inicialización de las variables internas
-- Un conjunto de variables de condición que incorporan sincronismo al monitor.
 
 Los procesos pueden tomar distintos estados:
 
