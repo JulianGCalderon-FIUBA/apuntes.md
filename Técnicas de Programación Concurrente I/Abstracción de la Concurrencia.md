@@ -48,9 +48,3 @@ Una instrucción atómica es aquella que su ejecución completa sin interrupcion
 Los registros son independientes para cada proceso, y, por lo tanto, no interfieren en la concurrencia. A su vez, cada proceso tiene su propio *stack*, por lo que esta memoria tampoco interfiere en la concurrencia.
 
 Se dice que la ocurrencia de una variable $v$ es *crítica* si fue asignada por un proceso, y tiene ocurrencia en otro proceso. Un programa satisface la restricción *limited-critical-reference (LCR)* si cada declaración contiene a lo sumo una referencia crítica. El uso de variables locales temporales ayudará a satisfacer esta restricción.
-
-## Variables Volátiles y No Atómicas
-
-Debido a optimizaciones del compilador, a veces las operaciones no usan el valor más reciente de una variable, sino el cargado en un registro. Esto no tiene efecto en programas secuenciales, pero sí en programas concurrentes. Si se especifica una variable como **volátil**, se le indica al compilador que debe guardar y cargar su valor en cada uso.
-
-Cuando el procesador no puede asegurar la **atomicidad** de un tipo del acceso a una variable, entonces deben utilizarse primitivas de **sincronización**.

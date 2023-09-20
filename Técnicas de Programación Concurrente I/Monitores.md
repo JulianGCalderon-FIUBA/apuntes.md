@@ -113,3 +113,11 @@ Se debe tener el monitor adquirido para poder llamar a los siguientes métodos:
 - Método `wait()`: Libera el monitor adquirido y suspende el hilo, hasta que otro hilo llame a `notify()` o `notifyAll()`.
 - Método `notify()`: Despierta alguno de los hilos que espera por el monitor
 - Método `notifyAll()`: Despierta todos los hilos que esperan por el monitor.
+
+## Variables Volátiles
+
+Los hilos guardan los valores de las variables compartidas en su memoria caché. Esto es más eficiente, pero implica que no siempre se obtendrá el valor más reciente.
+
+La palabra clave `volatile` le indica al compilador que el valor de la variable no debe cachearse y debe leerse siempre de la memoria principal. De esta forma los hilos siempre verán el valor más actualizado de la variable.
+
+La declaración de una variable como volátil no realiza ningún *lockeo* en dicha variable.
