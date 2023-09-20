@@ -13,7 +13,7 @@ class Contador {
 }
 ```
 
-Los monitores proveen exclusión mutua, además de una serie de variables de condición que permiten sincronizar los distintos hilos. Tienen un mecanismo para señalizar otros hilos cuando su condición se cumple.
+Los monitores proveen exclusión mutua, además de una serie de [[Variables de Condición]] que permiten sincronizar los distintos hilos. Tienen un mecanismo para señalizar otros hilos cuando su condición se cumple.
 
 - Desde dentro del monitor, los procesos pueden ejecutar una operación de `waitC`, bloqueándose y liberando el monitor hasta que otro proceso los desbloquee.
 - Desde dentro del monitor, los procesos pueden ejecutar una operación de `signalC` para liberar procesos esperando.

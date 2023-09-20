@@ -1,5 +1,3 @@
-## Definiciones Básicas
-
 Un **programa** es un conjunto de datos, asignaciones e instrucciones de control de flujo que compilan a instrucciones de máquina, las cuales se ejecutan secuencialmente en un procesador y acceden a datos almacenados en memoria principal o memorias secundarias.
 
 Un **programa concurrente** es un conjunto de programas secuenciales que pueden ejecutarse en paralelo. Esto implica que no necesariamente se ejecutaran en paralelo, como por ejemplo, cuando contamos con un solo procesador (con un solo hilo de ejecución). Consiste en un conjunto finito de procesos secuenciales.
