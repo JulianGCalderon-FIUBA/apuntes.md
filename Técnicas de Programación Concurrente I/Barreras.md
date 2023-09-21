@@ -1,5 +1,9 @@
 Una barrera es una estructura similar a un semáforo. Permite a múltiples hilos sincronizarse temporalmente para que los hilos esperen a que todos los hilos hayan llegado a cierto punto del código.
 
+Se puede pensar como un semáforo, en el que el `wait` en lugar de esperar a que haya recurso disponible, espera a que no haya recurso disponible.
+
+Luego, si todos $n$ hilos realizan `wait` de un semáforo con capacidad `n`, entonces se liberarán una vez todos hayan hecho `wait`. Para poder reutilizar el semáforo, se debe realizar `signal` inmediatamente despues del `wait`.
+
 ## Barreras en Rust
 
 Permiten sincroniza varios hilos en puntos determinados de un cálculo o algoritmo.

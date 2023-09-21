@@ -13,5 +13,6 @@
 - [[Problema del Productor y Consumidor]]
 - [[Problema del Barbero]]
 - [[Problema de los Filósofos]]
+- [[Problema de los Fumadores]]
 - [[Variables de Condición]]
 - [[Monitores]]
