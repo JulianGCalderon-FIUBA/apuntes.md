@@ -3,3 +3,11 @@ Cinco filósofos se sientan alrededor de una mesa y pasan su vida cenando y pens
 Para comer los fideos son necesarios dos palitos, y cada filósofo solo puede tomar los que están a su izquierda y derecha.
 
 Si cualquier filósofo toma un palito y el otro está ocupado, se quedará esperando, con el palito en la mano, hasta que pueda tomar el otro palito, para luego empezar a comer.
+
+## Solución con Locks
+
+Si cada filósofo toma los palitos en cualquier orden, entonces se puede llegar a un *deadlock*. Por ejemplo: todos los filósofos toman el palito de la derecha.
+
+La forma de resolverlo es imponiendo un orden específico. Numeramos los palitos del uno al cinco, y cada filósofo toma los palitos cercanos en orden numérico.
+
+Esto nos asegura nunca llegar a un *deadlock*, pues si el filósofo $A$ necesita el palito $5$ y el palito $2$, se puede ase
