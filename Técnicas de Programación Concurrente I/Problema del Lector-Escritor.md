@@ -24,10 +24,10 @@ Esta solución es la más práctica y la que más se usa.
 
 ### Escenario Justo
 
-Para crear una solución justa debemos utilizar una cola. Una solución siempre involucraría agregar un contador de *cola*, indicando la última posición, y un contador de *siguiente*, indicando el número del próximo a atender.
+Para crear una solución justa debemos utilizar una cola. Una solución siempre involucraría agregar un contador de *cola*, indicando la última posición de la cola, y un contador de *siguiente*, indicando el número del próximo a atender.
 
 Al entrar por primera vez a la cola obtendrán un número propio de cola basándose en el contador de cola, y aumentarán el contador.
 
-Luego, continuaran verificando que su número propio sea igual al contador de siguiente. Si es el caso, acceden al recurso.
+Luego, continuaran verificando que su número propio sea igual al contador de siguiente. Si es el caso, acceden al recurso. Luego, incrementan el contador de cola.
 
-Antes de liberar el recurso, aumentan el contador de *siguiente* para darle paso al próximo.<
+Estas verificaciones deben estar acompañadas de las verificaciones del escenario simple, para asegurar el acceso concurrente entre lectores.
