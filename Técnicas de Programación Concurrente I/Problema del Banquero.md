@@ -18,7 +18,7 @@ Cada inversor puede reinvertir el capital y hasta 50% de la ganancia propia de l
 
 Las inversiones, además, deberán ser menos riesgosas, pudieron dejar de -10% a +10%.
 
-## Solución con Locks
+### Solución con Locks
 
 Para resolver el problema con *locks*, debemos utilizar el segundo problema, pues no podríamos sincronizar el envío y recepción de dinero.
 
@@ -28,4 +28,11 @@ Al inicio de la semana, los inversores toman el dinero que le corresponde y lueg
 
 La forma más simple se calcula el inicio de semana puede ser con un `sleep`, aunque esto no garantiza el funcionamiento correcto, pues puede ocurrir desfasaje luego de muchas operaciones.
 
-## Soluci
+### Solución con Barreras
+
+Para resolver el segundo problema, necesitaremos dos barreras:
+
+- La primera barrera sincroniza el acceso a la cuenta, para definir cuanto dinero debe sacar cada inversor
+- La segunda barrera sincroniza la modificación del saldo de la cuenta.
+
+
