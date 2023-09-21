@@ -10,6 +10,7 @@
 - [[Semáforos]]
 - [[Barreras]]
 - [[Problema del Banquero]]
+- [[Problema del Barbero]]
 - [[Problema del Productor y Consumidor]]
 - [[Variables de Condición]]
 - [[Monitores]]
