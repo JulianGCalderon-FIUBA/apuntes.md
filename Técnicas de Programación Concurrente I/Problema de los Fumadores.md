@@ -12,7 +12,7 @@ Este problema surgió para desmentir que todos los problemas de concurrencia pod
 
 Utilizamos un solo semáforo binario que sincronice a todos los ingredientes a la vez. De esta forma, los fumadores accederán a la mesa periódicamente para verificar que estén los ingredientes que necesita y los toma.
 
-Esta solución tiene la desventaja de que como estamos utilizando el semáforo como un lock, ya perdemos su capacidad de señalizar que necesitamos para que el agente notifique a los fumadores que están los ingredientes en la mesa.
+Esta solución tiene la desventaja de que como estamos utilizando el semáforo como un lock, ya perdemos su capacidad de señalizar que necesitamos para que el agente notifique a los fumadores que están los ingredientes en la mesa. Estaremos ante un *busy wait*.
 
 Para aislar la capacidad de señalización del contenido de un lock podemos utilizar las variables de condición.
 
