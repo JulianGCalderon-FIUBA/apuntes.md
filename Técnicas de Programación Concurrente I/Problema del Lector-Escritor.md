@@ -6,6 +6,10 @@ Mientras que un proceso está leyendo, otros también pueden leerlo. Mientras qu
 
 Tenemos una variable de condición asociada a un *lock*. Este lock mantendrá un contador, indicando la cantidad de escritores, y una bandera, indicando si hay un escritor.
 
-En cuanto un proceso quiere escribir, realiza un `wait_while` de la variable de condición, esperando a que no haya ningún escritor. Si la condición se cumple, aumenta en uno la cantidad de lectores y libera el *lock*.
+En cuanto un proceso quiere leer, realiza un `wait_while` de la variable de condición, esperando a que no haya ningún escritor. Si la condición se cumple, aumenta en uno la cantidad de lectores y libera el *lock*.
 
-Una vez finaliza de escribir, accede al *lock* nuevamente 
+Una vez finaliza de leer, accede al *lock* nuevamente, decrementa en uno la cantidad de lectores y realiza un `notify_all` para indicarle a los hilos esperando que cambio el estado interno. Luego libera el *lock*.
+
+En cuanto un proceso quiere escribir, realiza un `wait_while` de la variable de condición, esperando a que no haya ningún lector (ni escritor). Si la condición se cumple, establece la bandera indicando que hay un escritor y libera el lock.
+
+Una vez finaliza de escribir, accede al *lock* nuevamente, establece la bandera indicando que no hay ningún escritor y realiza un `notify_all` para indicarle a los hilos esperando que cambio el estado interno. Luego libera el *lock*.
