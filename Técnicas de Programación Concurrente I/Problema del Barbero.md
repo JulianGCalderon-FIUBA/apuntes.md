@@ -8,7 +8,7 @@ Este problema es del estilo del [[Problema del Productor y Consumidor]].
 
 ## Solución con Semáforos
 
-Se necesitan tres semáforos, todos inicializados en cero.
+Se necesitan tres [[Semáforos]], todos inicializados en cero.
 
 - Cola de clientes.
 - Barbero listo.

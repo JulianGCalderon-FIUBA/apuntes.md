@@ -31,7 +31,7 @@ Las inversiones, además, deberán ser menos riesgosas, pudieron dejar de -10% a
 
 ### Solución con Locks
 
-Para resolver el problema con *locks*, debemos utilizar el segundo problema, pues no podríamos sincronizar el envío y recepción de dinero.
+Para resolver el problema con [[Técnicas de Programación Concurrente I/Locks|Locks]], debemos utilizar el segundo problema, pues no podríamos sincronizar el envío y recepción de dinero.
 
 Podríamos tener una estructura compartida "cuenta" que esté distribuida entre hilos y utilice locks para garantizar un acceso seguro. Para realizar esto es necesario envolverla en un `Rwlock` y luego en un `Arc`.
 
