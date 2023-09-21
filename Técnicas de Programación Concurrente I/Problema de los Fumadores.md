@@ -6,6 +6,10 @@ Existe además una gente que pone aleatoriamente dos ingredientes en la mesa. El
 
 Se puede pensar como el [[Problema de los Filósofos]], en el caso donde no todos los recursos están disponibles al mismo tiempo. Es decir, falta uno de los palitos chinos.
 
-Este problema surgió para desmentir que todos los problemas de concurrencia podían resolver con [[Semáforos]]. Existe una solución, pero no 
+Este problema surgió para desmentir que todos los problemas de concurrencia podían resolver con [[Semáforos]]. Existe una solución, pero no es lo suficientemente eficiente.
+
+## Solución con [[Semáforos]]
+
+Utilizamos un solo semáforo binario que incluya a todos los ingredientes. De esta forma,
 
 ## Solución con [[Variables de Condición]]
