@@ -9,6 +9,7 @@
 - [[Técnicas de Programación Concurrente I/Locks|Locks]]
 - [[Problema del Banquero]]
 - [[Semáforos]]
+- [[Barreras]]
 - [[Problema del Productor y Consumidor]]
 - [[Variables de Condición]]
 - [[Monitores]]

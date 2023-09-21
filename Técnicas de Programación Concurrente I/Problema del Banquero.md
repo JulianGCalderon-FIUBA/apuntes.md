@@ -8,6 +8,17 @@ Al inicio de cada semana, les envía por correo el dinero para invertir a sus am
 
 A todos los amigos les envía el mismo monto, y el dinero resultante lo vuelve a invertir la próxima semana.
 
+### Solución con Barreras
+
+Para resolver este problema con [[Barreras]], necesitaremos dos barreras:
+
+- La primera barrera sincroniza el acceso a la cuenta, para definir cuanto dinero debe sacar cada inversor.
+- La segunda barrera sincroniza la modificación del saldo de la cuenta.
+
+Este tiempo entre ambas barreras donde se intercambia la información se suele denominar *rendezvous*.
+
+Notemos que para la modificación del valor en sí, necesitaremos [[Técnicas de Programación Concurrente I/Locks|Locks]].
+
 ## 2º. Problema
 
 Al tiempo el señor fallece, y los hijos deciden que los inversores sigan trabajando el dinero pero con algunas condiciones extra.
@@ -27,12 +38,3 @@ Podríamos tener una estructura compartida "cuenta" que esté distribuida entre 
 Al inicio de la semana, los inversores toman el dinero que le corresponde y luego lo devuelven.
 
 La forma más simple se calcula el inicio de semana puede ser con un `sleep`, aunque esto no garantiza el funcionamiento correcto, pues puede ocurrir desfasaje luego de muchas operaciones.
-
-### Solución con Barreras
-
-Para resolver el segundo problema, necesitaremos dos barreras:
-
-- La primera barrera sincroniza el acceso a la cuenta, para definir cuanto dinero debe sacar cada inversor
-- La segunda barrera sincroniza la modificación del saldo de la cuenta.
-
-
