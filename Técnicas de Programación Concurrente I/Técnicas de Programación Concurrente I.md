@@ -18,7 +18,8 @@
 
 - [[Problema de Sección Crítica]]
 - [[Problema del Banquero]]
-- [[Problema del Productor y Consumidor]]
+- [[Problema del Productor-Consumidor]]
 - [[Problema del Barbero]]
 - [[Problema de los Filósofos]]
 - [[Problema de los Fumadores]]
+- [[Problema del Lector-Escritor]]

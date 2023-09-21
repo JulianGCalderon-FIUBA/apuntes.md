@@ -4,7 +4,7 @@ Si un cliente entra y el barbero está atendiendo, se sienta en una de las silla
 
 El cliente espera a que le corten el pelo.
 
-Este problema es del estilo del [[Problema del Productor y Consumidor]].
+Este problema es del estilo del [[Problema del Productor-Consumidor]].
 
 ## Solución con [[Semáforos]]
 
