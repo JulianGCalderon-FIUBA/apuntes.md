@@ -10,4 +10,4 @@ Si cada filósofo toma los palitos en cualquier orden, entonces se puede llegar 
 
 La forma de resolverlo es imponiendo un orden específico. Numeramos los palitos del uno al cinco, y cada filósofo toma los palitos cercanos en orden numérico.
 
-Esto nos asegura nunca llegar a un *deadlock*, pues si el filósofo $A$ necesita el palito $5$ y el palito $2$, se puede ase
+Esto nos asegura nunca llegar a un *deadlock*, pues nunca se tendrá que todos los filósofos tomen el palito de la derecha, ya que uno tomará el palito de la izquierda.
