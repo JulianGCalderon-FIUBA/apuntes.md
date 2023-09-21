@@ -8,9 +8,9 @@ Al inicio de cada semana, les envía por correo el dinero para invertir a sus am
 
 A todos los amigos les envía el mismo monto, y el dinero resultante lo vuelve a invertir la próxima semana.
 
-### Solución con Barreras
+### Solución con [[Barreras]]
 
-Para resolver este problema con [[Barreras]], necesitaremos dos barreras:
+Nnecesitaremos dos barreras:
 
 - La primera barrera sincroniza el acceso a la cuenta, para definir cuanto dinero debe sacar cada inversor.
 - La segunda barrera sincroniza la modificación del saldo de la cuenta.
@@ -29,9 +29,9 @@ Cada inversor puede reinvertir el capital y hasta 50% de la ganancia propia de l
 
 Las inversiones, además, deberán ser menos riesgosas, pudieron dejar de -10% a +10%.
 
-### Solución con Locks
+### Solución con [[Locks]]
 
-Para resolver el problema con [[Técnicas de Programación Concurrente I/Locks|Locks]], debemos utilizar el segundo problema, pues no podríamos sincronizar el envío y recepción de dinero.
+Para resolver el problema con locks, debemos utilizar el segundo problema, pues no podríamos sincronizar el envío y recepción de dinero.
 
 Podríamos tener una estructura compartida "cuenta" que esté distribuida entre hilos y utilice locks para garantizar un acceso seguro. Para realizar esto es necesario envolverla en un `Rwlock` y luego en un `Arc`.
 

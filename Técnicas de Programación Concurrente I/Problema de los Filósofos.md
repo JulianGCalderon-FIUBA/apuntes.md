@@ -4,10 +4,10 @@ Para comer los fideos son necesarios dos palitos, y cada filósofo solo puede to
 
 Si cualquier filósofo toma un palito y el otro está ocupado, se quedará esperando, con el palito en la mano, hasta que pueda tomar el otro palito, para luego empezar a comer.
 
-## Solución con Locks
+## Solución con [[Locks]]
 
 Si cada filósofo toma los palitos en cualquier orden, entonces se puede llegar a un *deadlock*. Por ejemplo: todos los filósofos toman el palito de la derecha.
 
-La forma de resolverlo con [[Técnicas de Programación Concurrente I/Locks|Locks]] es imponiendo un orden específico. Numeramos los palitos del uno al cinco, y cada filósofo toma los palitos cercanos en orden numérico.
+La forma de resolverlo es imponiendo un orden específico. Numeramos los palitos del uno al cinco, y cada filósofo toma los palitos cercanos en orden numérico.
 
 Esto nos asegura nunca llegar a un *deadlock*, pues nunca se tendrá que todos los filósofos tomen el palito de la derecha, ya que uno tomará el palito de la izquierda.

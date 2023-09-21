@@ -6,9 +6,9 @@ El cliente espera a que le corten el pelo.
 
 Este problema es del estilo del [[Problema del Productor y Consumidor]].
 
-## Solución con Semáforos
+## Solución con [[Semáforos]]
 
-Se necesitan tres [[Semáforos]], todos inicializados en cero.
+Se necesitan tres semáforos, todos inicializados en cero.
 
 - Cola de clientes.
 - Barbero listo.
