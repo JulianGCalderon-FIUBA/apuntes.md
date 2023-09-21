@@ -8,11 +8,7 @@ Al inicio de cada semana, les envía por correo el dinero para invertir a sus am
 
 A todos los amigos les envía el mismo monto, y el dinero resultante lo vuelve a invertir la próxima semana.
 
-## Solución con Locks
-
-Para resolver el problema con *locks*, debemos modificar levemente el enunciado, pues no podriamos sincronizar el envío y recepción de dinero.
-
-### Modificación del Problema
+## 2º. Problema
 
 Al tiempo el señor fallece, y los hijos deciden que los inversores sigan trabajando el dinero pero con algunas condiciones extra.
 
@@ -22,10 +18,14 @@ Cada inversor puede reinvertir el capital y hasta 50% de la ganancia propia de l
 
 Las inversiones, además, deberán ser menos riesgosas, pudieron dejar de -10% a +10%.
 
-### Solución
+## Solución con Locks
 
-Para resolverlo podríamos tener una estructura compartida "cuenta" que esté distribuida entre hilos y utilice locks para garantizar un acceso seguro. Para realizar esto es necesario envolverla en un `Rwlock` y luego en un `Arc`.
+Para resolver el problema con *locks*, debemos utilizar el segundo problema, pues no podríamos sincronizar el envío y recepción de dinero.
+
+Podríamos tener una estructura compartida "cuenta" que esté distribuida entre hilos y utilice locks para garantizar un acceso seguro. Para realizar esto es necesario envolverla en un `Rwlock` y luego en un `Arc`.
 
 Al inicio de la semana, los inversores toman el dinero que le corresponde y luego lo devuelven.
 
-El único inconveniente podría ser que no podemo
+La forma más simple se calcula el inicio de semana puede ser con un `sleep`, aunque esto no garantiza el funcionamiento correcto, pues puede ocurrir desfasaje luego de muchas operaciones.
+
+## Soluci
