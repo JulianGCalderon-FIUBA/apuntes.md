@@ -10,6 +10,12 @@ Este problema surgió para desmentir que todos los problemas de concurrencia pod
 
 ## Solución con [[Semáforos]]
 
-Utilizamos un solo semáforo binario que incluya a todos los ingredientes. De esta forma,
+Utilizamos un solo semáforo binario que sincronice a todos los ingredientes a la vez. De esta forma, los fumadores accederán a la mesa periódicamente para verificar que estén los ingredientes que necesita y los toma.
+
+Esta solución tiene la desventaja de que como estamos utilizando el semáforo como un lock, ya perdemos su capacidad de señalizar que necesitamos para que el agente notifique a los fumadores que están los ingredientes en la mesa.
+
+Para aislar la capacidad de señalización del contenido de un lock podemos utilizar las variables de condición.
 
 ## Solución con [[Variables de Condición]]
+
+Tendremos un lock que sincronice el acceso a todos los ingredientes a la vez, y una variable de condición que utilizará el agente para notificar
