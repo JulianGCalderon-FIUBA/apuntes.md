@@ -4,6 +4,8 @@ Si un cliente entra y el barbero está atendiendo, se sienta en una de las silla
 
 El cliente espera a que le corten el pelo.
 
+Este problema es del estilo del [[Problema del Productor y Consumidor]].
+
 ## Solución con Semáforos
 
 Se necesitan tres semáforos, todos inicializados en cero.
@@ -24,4 +26,21 @@ El cliente despierta para ser atendido, y realiza un `wait` del semáforo de cor
 
 Una vez el barbero finaliza el corte del pelo, realiza un `signal` en el semáforo del corte de pelo listo, liberando el cliente.
 
-Luego, el barbero realiza un `wait` del semáforo de cola de clientes. Si hay clientes en la cola continuará su ejecución con un `signal`  del semáforo que indica que está listo para atender. De no ser el caso, 
+Luego, el barbero realiza un `wait` del semáforo de cola de clientes. Si hay clientes en la cola, continuará su ejecución con un `signal` del semáforo que indica que está listo para atender.
+
+```C
+// BARBERO
+while true {
+	wait(cola_de_clientes)
+	release(barbero_listo)
+	cortar_pelo()
+	release(corte_de_pelo_listo)
+}
+```
+
+```C
+// CLIENTE
+release(cola_de_clientes)
+wait(barbero_listo)
+wait(corte_de_pelo_listo)
+```
