@@ -18,4 +18,6 @@ Para aislar la capacidad de señalización del contenido de un lock podemos util
 
 ## Solución con [[Variables de Condición]]
 
-Tendremos un lock que sincronice el acceso a todos los ingredientes a la vez, y una variable de condición que utilizará el agente para notificar
+Tendremos un lock que sincronice el acceso a todos los ingredientes a la vez, y una variable de condición que utilizará el agente para notificar a los fumadores que ya se colocaron los ingredientes en la mesa.
+
+Los fumadores se despertarán uno a uno y verificarán la mesa para ver si tiene los elementos que necesita. Si los tiene, los consumirá y le notificará al agente a través de un semáforo u otra variable de condición.
