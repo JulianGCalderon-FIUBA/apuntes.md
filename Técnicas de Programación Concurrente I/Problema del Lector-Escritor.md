@@ -1,5 +1,9 @@
-Un estado se comparte entre varios procesos. 
+Un estado se comparte entre varios procesos. Algunos procesos necesitan actualizar dicho estado, mientras que otros solo necesitan leerlo.
 
-Algunos procesos necesitan actualizar dicho estado, mientras que otros solo necesitan leerlo.
+Mientras que un proceso está leyendo, otros también pueden leerlo. Mientras que un proceso está modificando, ningún otro puede leerlo ni modificarlo.
 
-Mientras 
+## Solución con [[Variables de Condición]]
+
+Tenemos una variable de condición asociada a un *lock*. Este lock mantend
+
+
