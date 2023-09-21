@@ -1,5 +1,3 @@
-## Sección Crítica
-
 La sección crítica se modeliza planteando un problema genérico, el cual luego se puede utilizar para analizar cualquier programa concurrente.
 
 Cada proceso se ejecuta en un bucle infinito cuyo código puede dividirse en parte crítica y parte no crítico.

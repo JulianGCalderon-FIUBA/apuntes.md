@@ -12,7 +12,7 @@ El valor del semáforo representa la cantidad de recursos disponibles. Puede ser
 
 ### Problema de la Sección Crítica
 
-Para resolver el problema de la [[Sección Crítica]] podemos utilizar un semáforo binario (donde sus valores posibles son cero o uno). Estos se comportan igual que los *locks* de escritura.
+Para resolver el problema de la [[Problema de Sección Crítica]] podemos utilizar un semáforo binario (donde sus valores posibles son cero o uno). Estos se comportan igual que los *locks* de escritura.
 
 ```C
 while true {

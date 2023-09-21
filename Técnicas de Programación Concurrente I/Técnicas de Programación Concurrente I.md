@@ -5,14 +5,20 @@
 - [[Asincronismo]]
 - [[Vectorización]]
 - [[Corrección]]
-- [[Sección Crítica]]
+
+## Primitivas de Sincronización
+
+- [[Monitores]]
 - [[Técnicas de Programación Concurrente I/Locks|Locks]]
 - [[Semáforos]]
 - [[Barreras]]
+- [[Variables de Condición]]
+
+## Problemas Conocidos
+
+- [[Problema de Sección Crítica]]
 - [[Problema del Banquero]]
 - [[Problema del Productor y Consumidor]]
 - [[Problema del Barbero]]
 - [[Problema de los Filósofos]]
 - [[Problema de los Fumadores]]
-- [[Variables de Condición]]
-- [[Monitores]]
