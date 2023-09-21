@@ -17,7 +17,7 @@ Para resolver este problema con [[Barreras]], necesitaremos dos barreras:
 
 Este tiempo entre ambas barreras donde se intercambia la información se suele denominar *rendezvous*.
 
-Notemos que para la modificación del valor en sí, necesitaremos [[Técnicas de Programación Concurrente I/Locks|Locks]].
+Notemos que para la modificación del valor en sí, necesitaremos de igual forma utilizar [[Técnicas de Programación Concurrente I/Locks|Locks]].
 
 ## 2º. Problema
 
