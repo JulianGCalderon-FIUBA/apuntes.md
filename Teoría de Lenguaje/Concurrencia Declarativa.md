@@ -22,4 +22,4 @@ Hay tres tipos de hilos:
 
 - Los hilos pesados son diferentes procesos a nivel del sistema operativo
 - Los hilos medianos pertenecen al mismo proceso, son definidos a nivel del kernel.
-- Los hilos livianos, o *green threads* son a nivel de usuario. Se pueden
+- Los hilos livianos, o *green threads* son a nivel de usuario. Se pueden implementar a nivel del lenguaje de programación.
