@@ -20,7 +20,7 @@
 - [[Recurrencia]]
 - [[Programación de Alto Orden]]
 - [[Evaluación Perezosa]]
-- [[Teoría de Lenguaje/Concurrencia|Concurrencia]]
+- [[Concurrencia Declarativa|Concurrencia Declarativa]]
 - [[Estado Explícito]]
 - [[Objetos y Clases]]
 - [[Indeterminismos y Atomicidad]]
