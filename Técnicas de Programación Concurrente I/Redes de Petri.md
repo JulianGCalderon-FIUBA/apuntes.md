@@ -10,8 +10,25 @@ Donde tenemos:
 - Un conjunto de nodos $P = p_1, p_2,..., p_n$ llamados lugares
 - Un conjunto de arcos $A \subseteq (T\times P)\cup(P\times T)$
 
-Un ejemplo sencillo puede ser:
+Mostramos un ejemplo sencillo, a partir del cual explicaremos los distintos conceptos
 
 ![[Redes de Petri 1695766606.png|500]]
 
-Donde $p_i$ son los estados de un sitema, y $t_i$ son los eventos que ocasionan los cambios de estado.
+Donde $p_i$ son los estados de un sistema, y $t_i$ son los eventos que ocasionan los cambios de estado.
+
+## Función de Marca
+
+Se define la función de marca $M$ como la cantidad de *tokens* que hay en cada uno de los lugares de la red de Petri.
+
+$$
+M : P \to N_0
+$$
+
+Cuando hay un único *token* que está en el lugar $p_1$, entonces $M(p_1) = 1$, y $M(p_2) = 0$. Por lo tanto, $M_0 = (1,0)$.
+
+## Funciones de Entrada y Salida
+
+Sea $t$ una transición perteneciente a la red de Petri.
+
+- Se define la función $I(t)$ como la entrada de la transición $t$. El conjunto de lugares que pueden derivar en esa transición.
+- Se define la función $O(t)$ como la salida de la transición $t$. El conjunto de lugares al que puedo derivar a través de la transición $t$.
