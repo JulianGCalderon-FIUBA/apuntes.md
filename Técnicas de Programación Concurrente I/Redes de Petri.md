@@ -44,3 +44,9 @@ A partir de una red de Petri cualquiera:
 Podemos diagramar su grafo de alcance:
 
 ![[Redes de Petri 1695767438.png|450]]
+
+Si encontramos que un estado del grafo de alcance no tiene ninguna arista saliente, diremos que estamos en un *deadlock*.
+
+## Utilidades
+
+Las redes de Petri nos permiten realizar un análisis estático del sistema, para detectar la existencia de *deadlocks*.
