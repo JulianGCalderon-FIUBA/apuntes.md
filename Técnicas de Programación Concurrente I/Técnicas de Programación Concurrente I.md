@@ -5,6 +5,7 @@
 - [[Asincronismo]]
 - [[Vectorización]]
 - [[Corrección]]
+- [[Redes de Petri]]
 
 ## Primitivas de Sincronización
 
