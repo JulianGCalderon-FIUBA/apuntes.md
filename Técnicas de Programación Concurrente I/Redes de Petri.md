@@ -30,5 +30,5 @@ Cuando hay un único *token* que está en el lugar $p_1$, entonces $M(p_1) = 1$,
 
 Sea $t$ una transición perteneciente a la red de Petri.
 
-- Se define la función $I(t)$ como la entrada de la transición $t$. El conjunto de lugares que pueden derivar en esa transición.
-- Se define la función $O(t)$ como la salida de la transición $t$. El conjunto de lugares al que puedo derivar a través de la transición $t$.
+- Se define la función $I(t) = \{p \in P | (p,t) \in A\}$ como la entrada de la transición $t$. El conjunto de lugares que pueden derivar en esa transición.
+- Se define la función $O(t) = \{p \in P | (p,t) \in A\}$ como la salida de la transición $t$. El conjunto de lugares al que se deriva un *token* a través de la transición $t$. Se genera un *token* para cada salida de una transición.
