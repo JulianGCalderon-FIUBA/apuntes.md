@@ -1,4 +1,4 @@
-Una red de Petri es un grafo dirigido bipartito, que cumple con:
+Una red ordinaria de Petri es un grafo dirigido bipartito, que cumple con:
 
 $$
 PN = (T,P,A)
@@ -12,7 +12,7 @@ Donde tenemos:
 
 Mostramos un ejemplo sencillo
 
-![[Redes de Petri 1695766606.png|500]]
+![[Redes Ordinarias de Petri 1695766606.png|500]]
 
 Donde $p_i$ son los estados de un sistema, y $t_i$ son los eventos que ocasionan los cambios de estado.
 
@@ -39,11 +39,11 @@ Un grafo de alcance determina la función de marca para cada estado de la ejecuc
 
 A partir de una red de Petri cualquiera:
 
-![[Redes de Petri 1695767416.png|450]]
+![[Redes Ordinarias de Petri 1695767416.png|450]]
 
 Podemos diagramar su grafo de alcance:
 
-![[Redes de Petri 1695767438.png|450]]
+![[Redes Ordinarias de Petri 1695767438.png|450]]
 
 Si encontramos que un estado del grafo de alcance no tiene ninguna arista saliente, diremos que estamos en un *deadlock*.
 
