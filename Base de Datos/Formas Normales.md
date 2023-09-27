@@ -43,12 +43,11 @@ Para solucionarlo, debo generar una nueva tabla que permita abstraer esta inform
 
 ## Tercera Forma Normal
 
-Una dependencia formal $X \to Y$ es **transitiva** si existe un $Z$ tal que $X \to Z$ y $Z \to Y$. Siendo $Z \to Y$ no trivial, $X \to Y$ no trivial, y $ Z \not\to X$.
+Una dependencia formal $X \to Y$ es **transitiva** si existe un $Z$ tal que $X \to Z$ y $Z \to Y$. Siendo $Z \to Y$ no trivial, $X \to Y$ no trivial, y $Z \cancel\to X$.
+
 Todas las dependencias funcionales parciales no triviales son transitivas.
 
-Decimos que una relación está en 3FN cuando todos sus atributos no primos tienen dependencia funcional transitiva de las claves candidatas.
-
-Una definición equivalente es que para toda dependencia funcional no trivial $X \to Y$, o bien $X$ es superclave, o bien $Y - X$ solo contiene atributos primos.
+Decimos que una relación está en 3FN cuando todos sus atributos no primos tienen dependencia funcional transitiva de las claves candidatas. Una definición equivalente es que para toda dependencia funcional no trivial $X \to Y$, o bien $X$ es superclave, o bien $Y - X$ solo contiene atributos primos.
 
 Sea $R$ una relación que no está en 3FN. Luego, tendrá un conjunto de atributos $A$ no primos, tal que este tiene dependencia completa de $B$, donde $B$ es un conjunto de atributos no perteneciente a una clave candidata, pero que tiene dependencia funcional de una clave candidata $C$. Esto nos obliga a incluir $A$ cada vez que está $B$, incluso si se repite en múltiples tuplas.
 
