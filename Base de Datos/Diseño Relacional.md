@@ -54,4 +54,6 @@ Si no es el caso, y el esquema tiene atributos multivaluados, entonces tendremos
 
 Una dependencia formal $X \to Y$ es **parcial** cuando existe un subconjunto propio $A \subset X, A \neq X$, para el cual $A \to Y$. Una dependencia funcional es **completa** si y sólo si no es parcial.
 
+Un atributo primo de una relación es aquel que es parte de alguna clave candidata de la relación. Decimos que una relación está en 2FN cuando todos sus atributos no primos tienen dependencia funcional completa de las claves candidatas.
 
+Esto genera redundancia, ya que debemos crear
