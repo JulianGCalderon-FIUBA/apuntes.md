@@ -62,3 +62,5 @@ Dicho de otra forma, para todas las dependencias funcionales $X \to Y$, entonces
 Sea $R$ una relación que no está en FNBC. Luego, tendrá un conjunto de atributos $A$, tal que $C \to A$ es transitiva a través de $B$. Esto nos obliga a incluir $A$ cada vez que está $B$, incluso si se repite en múltiples tuplas.
 
 Para resolverlo, debemos generar una nueva relación $S$ con clave primaria $B$ y atributos $A \cup B$, y eliminar $A$ de la relación $R$.
+
+Este tipo de descomposiciones no nos asegura conservar la dependencia funcional.
