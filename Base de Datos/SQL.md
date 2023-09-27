@@ -187,9 +187,9 @@ SELECT atleta, RANK() OVER(ORDER BY tiempo DESC)
 FROM ...
 ```
 
-Esto agrega a cada fila del resultado, una columna dependiente de dicha fila y su orden respecto al resto de filas. Si no se utiliza `ORDER BY` dentro de `OVER`, se tendrá un orden indefinido.
+Esto agrega a cada fila del resultado, una columna dependiente de dicha fila y su orden respecto al resto de filas. Si no se utiliza `ORDER BY` dentro de `OVER`, se tendrá un orden indefinido. Existen múltiples funciones de ventana, como `RANK`, `ROW_NUMBER`, `LAG`, etc.
 
-Existen múltiples funciones de ventana, como `RANK`, `ROW_NUMBER`, `LAG`, etc. También se pueden utilizar funciones de agregación como `SUM` y `AVG`. Para este caso, se aplica únicamente para las filas anteriores a la fila actual, según el orden propuesto.
+También se pueden utilizar funciones de agregación como `SUM` y `AVG`. Para este caso, se aplica únicamente para las filas anteriores a la fila actual, según el orden propuesto. Si no se aplica un orden, el comportamiento de las funciones de agregación es el normal.
 
 A diferencia del `GROUP BY`, no agrupa. No cambiará la cantidad de filas en el resultado.
 
