@@ -195,7 +195,9 @@
     "subconsulta",
     "verboide",
     "subconsultas",
-    "Subconsultas"
+    "Subconsultas",
+    "multivaluados",
+    "monovaluados"
   ],
   "newFileLocation": "current"
 }

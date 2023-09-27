@@ -46,4 +46,8 @@ Si no es el caso, y el esquema tiene atributos multivaluados, entonces tendremos
 
 1. Colocar una tupla nueva por cada valor, repitiendo los otros atributos.
 2. Suponer un máximo de valores, y colocar un atributo por cada uno.
-3. Crear una nueva tabla que relacione las tuplas
+3. Crear una nueva relación $1-n$, que relacione la tupla original con cada uno de los valores.
+
+### Segunda Forma Normal
+
+
