@@ -5,6 +5,6 @@ El diseño relacional consiste en construir un esquema de base de datos del [[Mo
 
 Cuando se parte de un correcto diseño conceptual y se hace un correcto pasaje al modelo lógico, se obtiene un esquema sin redundancia y se preserva toda la información del mundo real que se quería modelar.
 
-Para verificar y corregir un esquema relacional, la teoría de diseño relacional formaliza estos requisitos a través de las formas normales.
+Para verificar y corregir un esquema relacional, la teoría de diseño relacional formaliza estos requisitos a través de las **formas normales**.
 
 ## Dependencias Funcionales
