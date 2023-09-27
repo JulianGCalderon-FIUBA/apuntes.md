@@ -60,3 +60,9 @@ Sea $R$ una relación que no está en FNBC. Luego, tendrá un conjunto de atribu
 Para resolverlo, debemos generar una nueva relación $S$ con clave primaria $B$ y atributos $A \cup B$, y eliminar $A$ de la relación $R$.
 
 Este tipo de descomposiciones no nos asegura conservar la dependencia funcional.
+
+## Cuarta Forma Normal
+
+Una relación $R$ está en 4FN cuando para toda dependencia multivaluada no trivial $X \to\to Y$, $X$ es clave (o superclave).
+
+Es común que las dependencias multivaluadas provengan de la existencia de atributos multivaluados en el modelo conceptual, o de interrelaciones $N-N$ no capturadas

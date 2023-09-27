@@ -199,7 +199,10 @@
     "multivaluados",
     "monovaluados",
     "implicante",
-    "monovaludados"
+    "monovaludados",
+    "multivaluada",
+    "multivaluadas",
+    "Multivaluada"
   ],
   "newFileLocation": "current"
 }

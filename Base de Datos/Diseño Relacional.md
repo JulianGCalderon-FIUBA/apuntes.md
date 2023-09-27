@@ -38,6 +38,10 @@ Dada una relación $R(A)$, la **dependencia multivaluada** $X \to\to Y$ es una r
 - $t_1[A - X \cup Y] = t_3[A - X \cup Y]$
 - $t_2[A - X \cup Y] = t_4[A - X \cup Y]$
 
+Por una cuestión de simetría, si $X \to\to Y$, entonces también vale que $X \to\to A - X \cup Y$.
+
+Las dependencias multivaluadas en las que $X \cup Y = A$, o $Y \subset X$ son triviales.
+
 ## Descomposición
 
 Partimos del concepto de la relación universal $R(\overline A)$. Esta engloba todos los atributos del mundo real que nuestro modelo representa.
