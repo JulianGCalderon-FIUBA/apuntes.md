@@ -31,3 +31,19 @@ Las formas normales clásicas son:
 - Quinta forma normal: **5FN**
 
 Cada forma normal es más fuerte que las anteriores. El cumplimiento de cualquier forma implica el cumplimiento de las anteriores.
+
+En 1972, E. Codd propuso el concepto de normalización como el proceso a través del cual se convierte un esquema de base de datos en uno equivalente, y que cumple con una determinada forma normal.
+
+Para normalizar, debemos partir de un conjunto de dependencias funcionales que supondremos definido por el diseñador de la base de datos.
+
+### Primera Forma Normal
+
+Un esquema de base de datos está en 1FN cuando los dominios de todos sus atributos solo permiten valores atómicos y monovaluados.
+
+Actualmente, se considera que en el modelo relacional todos los atributos deben ser monovaludados y atómicos. Con este criterio, todo esquema relacional está ya en 1FN.
+
+Si no es el caso, y el esquema tiene atributos multivaluados, entonces tendremos tres soluciones:
+
+1. Colocar una tupla nueva por cada valor, repitiendo los otros atributos.
+2. Suponer un máximo de valores, y colocar un atributo por cada uno.
+3. Crear una nueva tabla que relacione las tuplas
