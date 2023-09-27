@@ -20,3 +20,14 @@ Cuando $Y \subset X$, entonces decimos que $X \to Y$ es una dependencia **trivia
 ## Formas Normales
 
 Las formas normales son una serie de estructuras con las que un esquema de base de datos puede cumplir o no.
+
+Las formas normales clásicas son:
+
+- Primera forma normal: **1FN**
+- Segunda forma normal: **2FN**
+- Tercera forma normal: **3FN**
+- Forma normal Boyce-Codd: **FNBC**
+- Cuarta forma normal: **4FN**
+- Quinta forma normal: **5FN**
+
+Cada forma normal es más fuerte que las anteriores. El cumplimiento de cualquier forma implica el cumplimiento de las anteriores.
