@@ -36,7 +36,7 @@ Cada forma normal es más fuerte que las anteriores. El cumplimiento de cualquie
 
 En 1972, E. Codd propuso el concepto de normalización como el proceso a través del cual se convierte un esquema de base de datos en uno equivalente, y que cumple con una determinada forma normal.
 
-Para normalizar, debemos partir de un conjunto de dependencias funcionales que supondremos definido por el diseñador de la base de datos.
+Para normalizar una nueva relación, debemos partir de un conjunto de dependencias funcionales asociado que supondremos definido por el diseñador de la base de datos. Normalmente, este conjunto se denota con $F$.
 
 ### Primera Forma Normal
 
