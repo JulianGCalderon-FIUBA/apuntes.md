@@ -52,3 +52,4 @@ Si no es el caso, y el esquema tiene atributos multivaluados, entonces tendremos
 
 Una dependencia formal $X \to Y$ es **parcial** cuando existe un subconjunto propio $A \subset X, A \neq X$, para el cual $A \to Y$. Una dependencia funcional es **completa** si y sólo si no es parcial.
 
+ 
