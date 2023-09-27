@@ -52,3 +52,7 @@ Decimos que una relación está en 3FN cuando todos sus atributos no primos tien
 Sea $R$ una relación que no está en 3FN. Luego, tendrá un conjunto de atributos $A$ no primos, tal que este tiene dependencia completa de $B$, donde $B$ es un conjunto de atributos no perteneciente a una clave candidata, pero que tiene dependencia funcional de una clave candidata $C$. Esto nos obliga a incluir $A$ cada vez que está $B$, incluso si se repite en múltiples tuplas.
 
 Para resolverlo, debemos generar una nueva relación $S$ con clave primaria $B$ y atributos $A \cup B$, y eliminar $A$ de la relación $R$.
+
+## Forma Normal Boyce-Codd
+
+Decimos que una relación esta en FNBC si no 
