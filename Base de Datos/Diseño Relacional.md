@@ -56,4 +56,4 @@ Una dependencia formal $X \to Y$ es **parcial** cuando existe un subconjunto pro
 
 Un atributo primo de una relación es aquel que es parte de alguna clave candidata de la relación. Decimos que una relación está en 2FN cuando todos sus atributos no primos tienen dependencia funcional completa de las claves candidatas.
 
-Esto genera redundancia, ya que debemos crear
+Supongamos una tabla $\text{Docencia}(\text{Asignatura}, \text{Profesor}, \text{Departamento})$, donde la asignatura y el profesor son claves primarias, y el departamento depende de forma completa de la asignatura. Si yo quiero representar que un nuevo profesor da una asignatura, debo incluir el departamento (información redundante, ya que ya es)
