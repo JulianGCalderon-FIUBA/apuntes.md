@@ -43,6 +43,12 @@ Para solucionarlo, debo generar una nueva tabla que permita abstraer esta inform
 
 ## Tercera Forma Normal
 
-Decimos que una relación está en 3FN cuando ninguno de sus atributos no primos tienen dependencia funcional completa de otros atributos no primos.
+Una dependencia formal $X \to Y$ es **transitiva** si existe un $Z$ tal que $X \to Z$ y $Z \to Y$. Todas las dependencias funcionales parciales no triviales son transitivas.
 
-Sea $R$ una relación que no está en 3FN. Luego, tendrá un conjunto de atributos $A$ no primos, tal que este tiene dependencia funcional completa de $B$, donde $B$ es un conjunto de atributos no pertene
+Decimos que una relación está en 3FN cuando todos sus atributos no primos tienen dependencia funcional transitiva de las claves candidatas.
+
+Una definición equivalente es que para toda dependencia funcional no trivial $X \to Y$, o bien $X$ es superclave,
+
+Sea $R$ una relación que no está en 3FN. Luego, tendrá un conjunto de atributos $A$ no primos, tal que este tiene dependencia funcional completa de $B$, donde $B$ es un conjunto de atributos no perteneciente a una clave candidata. Esto nos obliga a incluir $A$ cada vez que está $B$, incluso si se repite en múltiples tuplas.
+
+Para resolverlo, debemos generar una nueva relación $S$ con clave primaria $B$ y atributos $A \cup B$, y eliminar $A$ de la relación $R$.
