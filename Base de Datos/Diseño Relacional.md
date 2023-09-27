@@ -68,4 +68,12 @@ Para solucionarlo, debo generar una nueva tabla que permita abstraer esta inform
 
 Partimos del concepto de la relación universal $R(\overline A)$. Esta engloba todos los atributos del mundo real que nuestro modelo representa.
 
-Dada una relación universal $R$ y un conjunto de dependencias funcionales $F$ asociado, decimos que el conjunto de relaciones $\{ R_1()}
+Dada una relación universal $R$ y un conjunto de dependencias funcionales $F$ asociado, decimos que el conjunto de relaciones $\{ R_1(\overline B_1), \cdots, R_n(\overline B_n)\}$ es una descomposición de $R$ cuando todos los atributos de la relación $R$ se conservan.
+
+$$
+\bigcup_{i=1}^n A_i = \bigcup_{i=1}^m\bigcup_{j=1}^{n_i} B_{ij}
+$$
+
+Si una descomposición cumple que para toda instancia posible de $R$, la junta de las proyecciones sobre $R_i$ permite recuperar la misma instancia de relación, entonces decimos que la descomposición **preserva la información**.
+
+Diremos que la descomposición **preserva las dependencias funcionales** cuando toda dependencia funcional puede inferirse a partir de las dependencias funcionales definidas en los $R_i$.
