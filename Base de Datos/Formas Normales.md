@@ -1,5 +1,3 @@
-## Formas Normales
-
 Las formas normales son una serie de estructuras con las que un esquema de base de datos puede cumplir o no.
 
 Las formas normales clásicas son:
@@ -17,7 +15,7 @@ En 1972, E. Codd propuso el concepto de normalización como el proceso a través
 
 Para normalizar una nueva relación, debemos partir de un conjunto de dependencias funcionales asociado que supondremos definido por el diseñador de la base de datos. Normalmente, este conjunto se denota con $F$.
 
-### Primera Forma Normal
+## Primera Forma Normal
 
 Un esquema de base de datos está en 1FN cuando los dominios de todos sus atributos solo permiten valores atómicos y monovaluados.
 
@@ -29,7 +27,7 @@ Si no es el caso, y el esquema tiene atributos multivaluados, entonces tendremos
 2. Suponer un máximo de valores, y colocar un atributo por cada uno.
 3. Crear una nueva relación $1-n$, que relacione la tupla original con cada uno de los valores.
 
-### Segunda Forma Normal
+## Segunda Forma Normal
 
 Una dependencia formal $X \to Y$ es **parcial** cuando existe un subconjunto propio $A \subset X, A \neq X$, para el cual $A \to Y$. Una dependencia funcional es **completa** si y solo si no es parcial.
 
@@ -42,3 +40,9 @@ Para resolverlo, debemos generar una nueva relación $S$ con clave primaria $B$ 
 Supongamos una tabla $\text{Docencia}(\text{Asignatura}, \text{Profesor}, \text{Departamento})$, donde la asignatura y el profesor son claves primarias, y el departamento depende de forma completa de la asignatura. Si yo quiero representar que un nuevo profesor da una asignatura, debo incluir el departamento (información redundante, ya que ya está en otras tuplas de la misma relación).
 
 Para solucionarlo, debo generar una nueva tabla que permita abstraer esta información: $\text{Asignaturas}(Asignatura, Departamento)$. Luego, la tabla de docencia se vería como $\text{Docencia}(\text{Asignatura}, \text{Profesor})$. Para agregar un nuevo profesor a una materia, ahora no debo repetir el departamento.
+
+## Tercera Forma Normal
+
+Decimos que una relación está en 3FN cuando ninguno de sus atributos no primos tienen dependencia funcional completa de otros atributos no primos.
+
+Sea $R$ una relación que no está en 3FN. Luego, tendrá un conjunto de atributos $A$ no primos, tal que este tiene dependencia funcional completa de $B$, donde $B$ es un conjunto de atributos no pertene
