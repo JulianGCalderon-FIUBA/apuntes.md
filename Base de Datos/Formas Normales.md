@@ -29,8 +29,6 @@ Si no es el caso, y el esquema tiene atributos multivaluados, entonces tendremos
 
 ## Segunda Forma Normal
 
-Una dependencia formal $X \to Y$ es **parcial** cuando existe un subconjunto propio $A \subset X, A \neq X$, para el cual $A \to Y$. Una dependencia funcional es **completa** si y solo si no es parcial.
-
 Un atributo primo de una relación es aquel que es parte de alguna clave candidata de la relación. Decimos que una relación está en 2FN cuando todos sus atributos no primos tienen dependencia funcional completa de las claves candidatas.
 
 Sea $R$ una relación que no está en 2FN. Luego, tendrá un conjunto de atributos $A$ no primos, tal que este tiene dependencia funcional completa de $B$, donde $B$ es un subconjunto de una clave candidata $C$. Esto nos obliga a incluir $A$ cada vez que está $B$, incluso si esto se repite en múltiples tuplas.
@@ -42,8 +40,6 @@ Supongamos una tabla $\text{Docencia}(\text{Asignatura}, \text{Profesor}, \text{
 Para solucionarlo, debo generar una nueva tabla que permita abstraer esta información: $\text{Asignaturas}(Asignatura, Departamento)$. Luego, la tabla de docencia se vería como $\text{Docencia}(\text{Asignatura}, \text{Profesor})$. Para agregar un nuevo profesor a una materia, ahora no debo repetir el departamento.
 
 ## Tercera Forma Normal
-
-Una dependencia formal $X \to Y$ es **transitiva** si existe un $Z$ tal que $X \to Z$ y $Z \to Y$. Siendo $Z \to Y$ no trivial, $X \to Y$ no trivial, y $Z \cancel\to X$. Todas las dependencias funcionales parciales no triviales son transitivas.
 
 Decimos que una relación está en 3FN cuando todos sus atributos no primos tienen dependencia funcional transitiva de las claves candidatas.
 

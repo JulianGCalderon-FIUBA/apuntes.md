@@ -5,7 +5,7 @@ El diseño relacional consiste en construir un esquema de base de datos del [[Mo
 
 Cuando se parte de un correcto diseño conceptual y se hace un correcto pasaje al modelo lógico, se obtiene un esquema sin redundancia y se preserva toda la información del mundo real que se quería modelar.
 
-Para verificar y corregir un esquema relacional, la teoría de diseño relacional formaliza estos requisitos a través de las **formas normales**.
+Para verificar y corregir un esquema relacional, la teoría de diseño relacional formaliza estos requisitos a través de las [[Formas Normales]].
 
 ## Dependencias Funcionales
 
@@ -17,9 +17,17 @@ $$
 
 Cuando $Y \subset X$, entonces decimos que $X \to Y$ es una dependencia **trivial**. Las dependencias funcionales se definen a partir de la semántica de los datos. No es posible inferirlas viendo los datos.
 
+### Parcialidad
+
+Una dependencia formal $X \to Y$ es **parcial** cuando existe un subconjunto propio $A \subset X, A \neq X$, para el cual $A \to Y$.
+
+Una dependencia funcional es **completa** si y solo si no es parcial.
+
 ### Dependencia Transitiva
 
 Se puede aplicar la **transitividad**, de modo que dada una relación $R(\overline A)$, entonces si $A, B, C \in \overline A$, con las dependencias $A \to B$, y $B \to C$, entonces también se cumple que $A \to C$.
+
+Una dependencia formal $X \to Y$ es **transitiva** si existe un $Z$ tal que $X \to Z$ y $Z \to Y$. Siendo $Z \to Y$ no trivial, $X \to Y$ no trivial, y $Z \cancel\to X$. Todas las dependencias funcionales parciales no triviales son transitivas.
 
 ### Dependencia Multivaluada
 
