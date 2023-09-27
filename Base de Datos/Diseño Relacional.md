@@ -31,7 +31,12 @@ Una dependencia formal $X \to Y$ es **transitiva** si existe un $Z$ tal que $X \
 
 ### Dependencia Multivaluada
 
-Dada una relación $R(A)$, la **dependencia multivaluada** $X \to\to Y$ es una restricción sobre las posibles tuplas de $R$ que implica que para todo par de tuplas $t_1, t_2$ tales que $t_1[X] = t_2[X]$, deberían existir otras dos tuplas $t_3, t_4$ que resultan de intercambiar los valores de $Y$ entre $t1$ y $t2$.
+Dada una relación $R(A)$, la **dependencia multivaluada** $X \to\to Y$ es una restricción sobre las posibles tuplas de $R$ que implica que para todo par de tuplas $t_1, t_2$ tales que $t_1[X] = t_2[X]$, deberían existir otras dos tuplas $t_3, t_4$ que resultan de intercambiar los valores de $Y$ entre $t1$ y $t2$. Es decir:
+
+- $t_1[X] = t_2[X] = t_3[X] = t_4[X]$
+- $t_1[Y] = t_4[Y]$ y $t_2[Y] = t_3[Y]$
+- $t_1[A - X \cup Y] = t_3[A - X \cup Y]$
+- $t_2[A - X \cup Y] = t_4[A - X \cup Y]$
 
 ## Descomposición
 
