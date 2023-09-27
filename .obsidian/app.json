@@ -197,7 +197,9 @@
     "subconsultas",
     "Subconsultas",
     "multivaluados",
-    "monovaluados"
+    "monovaluados",
+    "implicante",
+    "monovaludados"
   ],
   "newFileLocation": "current"
 }
