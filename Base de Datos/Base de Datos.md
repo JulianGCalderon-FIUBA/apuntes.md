@@ -12,6 +12,7 @@
 - [[Cálculo Relacional]]
 - [[SQL]]
 - [[Diseño Relacional]]
+- [[Formas Normales]]
 
 ## Apuntes Prácticos
 
