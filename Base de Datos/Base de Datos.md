@@ -11,6 +11,7 @@
 - [[Álgebra Relacional]]
 - [[Cálculo Relacional]]
 - [[SQL]]
+- [[Diseño Relacional]]
 
 ## Apuntes Prácticos
 
