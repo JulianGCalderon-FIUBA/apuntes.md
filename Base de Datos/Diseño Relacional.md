@@ -12,7 +12,11 @@ Para verificar y corregir un esquema relacional, la teoría de diseño relaciona
 Dada una relación $R(\overline A)$, una dependencia funcional $X \to Y$, con $X, Y \subset \overline A$ es una restricción sobre las posibles tuplas de $R$ que implica que dos tuplas con igual valor del conjunto de atributos $X$ deben también tener igual valor del conjunto de atributos $Y$.
 
 $$
-$\forall s,t \in R: s[X] = t[X] \implies s[Y] = t[Y]
+\forall s,t \in R: s[X] = t[X] \implies s[Y] = t[Y]
 $$
 
 Cuando $Y \subset X$, entonces decimos que $X \to Y$ es una dependencia **trivial**. Las dependencias funcionales se definen a partir de la semántica de los datos. No es posible inferirlas viendo los datos.
+
+## Formas Normales
+
+Las formas normales son una serie de estructuras con las que un esquema de base de datos puede cumplir o no.
