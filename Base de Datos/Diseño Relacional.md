@@ -17,6 +17,8 @@ $$
 
 Cuando $Y \subset X$, entonces decimos que $X \to Y$ es una dependencia **trivial**. Las dependencias funcionales se definen a partir de la semántica de los datos. No es posible inferirlas viendo los datos.
 
+Se puede aplicar la **transitividad**, de modo que dada una relación $R(\overline A)$, entonces si $A, B, C \in \overline A$, con las dependencias $A \to B$, y $B \to C$, entonces también se cumple que $A \to C$.
+
 ## Formas Normales
 
 Las formas normales son una serie de estructuras con las que un esquema de base de datos puede cumplir o no.
@@ -52,4 +54,4 @@ Si no es el caso, y el esquema tiene atributos multivaluados, entonces tendremos
 
 Una dependencia formal $X \to Y$ es **parcial** cuando existe un subconjunto propio $A \subset X, A \neq X$, para el cual $A \to Y$. Una dependencia funcional es **completa** si y sólo si no es parcial.
 
- 
+
