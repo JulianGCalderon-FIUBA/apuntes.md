@@ -65,4 +65,12 @@ Este tipo de descomposiciones no nos asegura conservar la dependencia funcional.
 
 Una relación $R$ está en 4FN cuando para toda dependencia multivaluada no trivial $X \to\to Y$, $X$ es clave (o superclave).
 
+Para resolverlo, debemos generar una nueva relación $S$ con clave primaria $X$ tal que esté relacionada con cada elemento distinto de $Y$ con el cual se relaciona en alguna tupla.
+
 Es común que las dependencias multivaluadas provengan de la existencia de atributos multivaluados en el modelo conceptual, o de interrelaciones $N-N$ no capturadas
+
+Las relaciones en 4FN están automáticamente en FMBC, pues todas las dependencias multivaluadas son, a su vez, dependencias funcionales. Esto se debe a que las dependencias multivaluadas son un caso genérico de las dependencias funcionales.
+
+$$
+X \to Y \implies X \to\to Y
+$$
