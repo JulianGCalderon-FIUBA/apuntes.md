@@ -12,7 +12,7 @@ Donde tenemos:
 
 Mostramos un ejemplo sencillo
 
-![[Redes Ordinarias de Petri 1695766606.png|500]]
+![[Redes de Petri 1695766606.png|500]]
 
 Donde $p_i$ son los estados de un sistema, y $t_i$ son los eventos que ocasionan los cambios de estado.
 
@@ -39,14 +39,39 @@ Un grafo de alcance determina la función de marca para cada estado de la ejecuc
 
 A partir de una red de Petri cualquiera:
 
-![[Redes Ordinarias de Petri 1695767416.png|450]]
+![[Redes de Petri 1695767416.png|450]]
 
 Podemos diagramar su grafo de alcance:
 
-![[Redes Ordinarias de Petri 1695767438.png|450]]
+![[Redes de Petri 1695767438.png|450]]
 
 Si encontramos que un estado del grafo de alcance no tiene ninguna arista saliente, diremos que estamos en un *deadlock*.
 
 ## Utilidades
 
 Las redes de Petri nos permiten realizar un análisis estático del sistema, para detectar la existencia de *deadlocks*.
+
+## Redes Generales de Petri
+
+Una red general de Petri es un grafo dirigido bipartito, que cumple con:
+
+$$
+PN = (T, P, A, W, M_0)
+$$
+
+Donde tenemos:
+
+- Un conjunto de nodos $T = t_1, t_2,..., t_n$ llamados transiciones
+- Un conjunto de nodos $P = p_1, p_2,..., p_n$ llamados lugares
+- Un conjunto de arcos $A \subseteq (T\times P)\cup(P\times T)$
+- Una función de peso $W: A \to \Bbb{N}$
+- Una función de mara inicial $M_0: P \to N_0$
+
+### Transiciones
+
+El peso de un arco nos indica la cantidad de *tokens* que consume (entrada) o produce (salida) la utilización del arco (y de su transición).
+
+La transición $t$ está habilitada si y solo si $M(p) \geq W(p,t) \forall p \in I(t)$. Cuando $t$ se dispara:
+
+- $\forall p \in I(t): M(p) \leftarrow M(p) - W(p, t)$
+- $\forall p \in O(t): M(p) \leftarrow M(p) + W(p, t)$
