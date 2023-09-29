@@ -75,3 +75,19 @@ La transición $t$ está habilitada si y solo si $M(p) \geq W(p,t) \forall p \in
 
 - $\forall p \in I(t): M(p) \leftarrow M(p) - W(p, t)$
 - $\forall p \in O(t): M(p) \leftarrow M(p) + W(p, t)$
+
+## Arco Inhibidor
+
+Un arco inhibidor es aquel que solo permite una transición cuando el lugar no tiene ningún token.
+
+![[Redes de Petri 1695945845.png|300]]
+
+Esto permite modelar problemas más complejos como locks de lectura compartida y escritura excluyente.
+
+![[Redes de Petri 1695945900.png|400]]
+
+Donde los lugares representan:
+
+- En P0 están los lectores a la espera de acceder a la sección crítica.
+- En P1 están los lectores en la sección crítica. Si hay lectores, se inhibe la transición T2 de los escritores.
+- En P3 
