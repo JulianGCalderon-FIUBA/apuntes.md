@@ -82,12 +82,17 @@ Un arco inhibidor es aquel que solo permite una transición cuando el lugar no t
 
 ![[Redes de Petri 1695945845.png|300]]
 
-Esto permite modelar problemas más complejos como locks de lectura compartida y escritura excluyente.
+Esto permite modelar problemas más complejos como el [[Problema del Lector-Escritor]].
 
 ![[Redes de Petri 1695945900.png|400]]
 
 Donde los lugares representan:
 
-- En P0 están los lectores a la espera de acceder a la sección crítica.
-- En P1 están los lectores en la sección crítica. Si hay lectores, se inhibe la transición T2 de los escritores.
-- En P3 
+- En $P0$ están los lectores a la espera de acceder a la sección crítica.
+- La transición $T0$ representa la entrada a la sección crítica de los lectores.
+- En $P1$ están los lectores en la sección crítica. Si hay lectores, se inhibe la transición $T2$ de los escritores.
+- La transición $T1$ representa la salida de la sección crítica de los lectores.
+- En $P3$ están los escritores a la espera de acceder a la sección crítica.
+- La transición $T2$ representa la entrada a la sección crítica de los escritores.
+- En $P4$ están los escritores en la sección crítica. Si hay escritores, se inhibe la transición $T2$ de los escritores, y la entrada $T0$ de los lectores.
+- La transición $T3$ representa la salida de la sección crítica de los escritores.
