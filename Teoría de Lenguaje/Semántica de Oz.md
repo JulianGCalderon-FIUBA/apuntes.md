@@ -88,4 +88,14 @@ En el tope del stack, tenemos: `(try <s1> catch <x> then <s2> end, E)`
 
 En cuanto nos encontremos con `(raise <x> end, E)` en el tope del stack, se empieza a descartar elementos hasta encontrar un `catch`. Si encuentra, por ejemplo, `(catch <y> then <s> end, Ec)` encuentra, se apila `(<s>, Ec + {<y> -> E(<x>)})`.
 
-## S
+## Semántica
+
+Para modelar esto con una máquina abstracta, necesitaremos un *multistack*. Un conjunto de *stacks*. Entonces pasaremos de `(ST, E)` a `(MST, E)`, donde `MST = {ST1, ST2,..., STN}`.
+
+En el tope del stack, tenemos: `(thread <s> end, E)`. Debemos crear un nuevo *stack* y agregar `<s>` en su tope.
+
+![[Semántica de Oz 1696034821.png]]
+
+Para el caso de memoria, empezaremos a hablar de stacks *bloqueados*. Un stack finalizado puede ser eliminado, y un stack bloqueado puede ser eliminado si la condición de activación es inalcanzable.
+
+Este tipo de concurrencia es muy barata. Levantar muchos hilos no consume mucho.
