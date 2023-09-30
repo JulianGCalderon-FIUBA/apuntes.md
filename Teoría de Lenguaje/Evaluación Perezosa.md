@@ -17,6 +17,8 @@ Normalmente, ejecutar la función declarada rompería el programa, ya que entrar
 
 Al imprimir la lista completa, únicamente imprimiremos hasta el último elemento calculado.
 
+## Funcionamiento
+
 En realidad, `lazy` es un *syntax sugar* de un *trigger*. La sintaxis real será `{ByNeed <x> <y>}`. Cuando se necesite `<y>`, se ejecutará `<x>` de la siguiente forma: `thread {<x> <y>} end`. Para realizar esto, `<x>` debe recibir `<y>` como primer argumento.
 
 Las siguientes dos bloques son equivalentes.

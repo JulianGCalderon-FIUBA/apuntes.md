@@ -102,3 +102,9 @@ Este tipo de concurrencia es muy **barata**. Levantar muchos hilos únicamente r
 
 ## Lazy
 
+Para modelar esto, necesitamos además del *single-assignment store* `E`, un *trigger store* `T`.
+
+En el tope del stack, tenemos: `({ByNeed <x> <y>}, E)`.
+
+- Si `E(<y>)` no está determinada, se agrega el par `trig(E(<x>), E(<y>))` a `T`.
+- Si `E(<y>)` está determinada, se crea un nuevo hilo con el siguiente 
