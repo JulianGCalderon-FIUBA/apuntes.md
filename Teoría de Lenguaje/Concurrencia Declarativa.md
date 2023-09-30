@@ -30,3 +30,7 @@ Los hilos se ejecutan de forma intercalada (*interleaving*). Los cómputos no se
 
 - **Orden total:** Cuando no hay ninguna dependencia del orden de las ejecuciones
 - **Orden causal:** Cuando la ejecución de cierto cómputo depende de otro, por lo que debe ocurrir después.
+
+## Streams
+
+Un *stream* es una lista cuyo último elemento aún no está definido. Es una lista sin fin. Esta técnica permite modelar el problema del productor-consumidor, donde un hilo va agregando valores a una lista, y otro hilo va 
