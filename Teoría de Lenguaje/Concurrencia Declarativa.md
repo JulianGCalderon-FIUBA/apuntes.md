@@ -31,6 +31,6 @@ Los hilos se ejecutan de forma intercalada (*interleaving*). Los cómputos no se
 - **Orden total:** Cuando no hay ninguna dependencia del orden de las ejecuciones
 - **Orden causal:** Cuando la ejecución de cierto cómputo depende de otro, por lo que debe ocurrir después.
 
-## Corutinas
+## Corrutinas
 
-Las corrutinas son *non preemtive threads*. Esto implica que no son interrumpidas. Las corrutinas tienen la responsabilidad 
+Las corrutinas son *non preemtive threads*. Esto implica que no son interrumpidas. Las corrutinas tienen la responsabilidad de delegar el control. Existirán palabras claves como `yield`, `pause`, y `resume`.
