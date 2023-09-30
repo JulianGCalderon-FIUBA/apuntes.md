@@ -107,4 +107,9 @@ Para modelar esto, necesitamos además del *single-assignment store* `E`, un *tr
 En el tope del stack, tenemos: `({ByNeed <x> <y>}, E)`.
 
 - Si `E(<y>)` no está determinada, se agrega el par `trig(E(<x>), E(<y>))` a `T`.
-- Si `E(<y>)` está determinada, se crea un nuevo hilo con el siguiente 
+- Si `E(<y>)` está determinada, se crea un nuevo hilo con la siguiente declaración en el tope `({<x> <y>}, E)`.
+
+En cuanto existe un par en `T` con la forma `trig(x, y)`, y se detecta la necesidad de `y`.
+
+1. Se saca el *trigger* de `T`.
+2. Se crea un nuevo hilo con `({<x> <y>}, {<x> -> x, <y> -> y})` en el tope.
