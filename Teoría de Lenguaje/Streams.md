@@ -40,4 +40,4 @@ end
 
 ## Productor a Demanda
 
-Esto puede traer la desve
+Esto puede traer la desventaja de que el consumidor no tome recurso a la misma velocidad que se produce. Para solucionar esto, podemos hacer que el consumidor le indique al productor cuando producir. El consumidor agranda la lista, y el productor define el nuevo elemento.
