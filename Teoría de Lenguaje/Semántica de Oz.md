@@ -98,4 +98,4 @@ En el tope del stack, tenemos: `(thread <s> end, E)`. Debemos crear un nuevo *st
 
 Para el caso de memoria, empezaremos a hablar de stacks *bloqueados*. Un stack finalizado puede ser eliminado, y un stack bloqueado puede ser eliminado si la condición de activación es inalcanzable.
 
-Este tipo de concurrencia es muy barata. Levantar muchos hilos no consume mucho.
+Este tipo de concurrencia es muy **barata**. Levantar muchos hilos unicamente requiere de la creación de un *stack*.
