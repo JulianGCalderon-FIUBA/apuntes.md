@@ -9,3 +9,11 @@ end
 ```
 
 Esto puede ser utilizado para comunicar hilos. Un hilo expande progresivamente una lista, mientras que otro hilo tome los valores a medida que se van generando.
+
+```Oz
+local Produce Consume L in
+Producer = proc {$ Start End L} 
+	if Start <
+thread
+end
+```
