@@ -33,4 +33,4 @@ Los hilos se ejecutan de forma intercalada (*interleaving*). Los cómputos no se
 
 ## Corutinas
 
-Las corrutinas son *non preemtive threads*. Pue
+Las corrutinas son *non preemtive threads*. Esto implica que no son interrumpidas. Las corrutinas tienen la responsabilidad 

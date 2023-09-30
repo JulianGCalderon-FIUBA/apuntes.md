@@ -38,6 +38,12 @@ local Produce Consume L in
 end
 ```
 
-## Productor a Demanda
+## Demand Driven Concurreny
 
-Esto puede traer la desventaja de que el consumidor no tome recurso a la misma velocidad que se produce. Para solucionar esto, podemos hacer que el consumidor le indique al productor cuando producir. El consumidor agranda la lista, y el productor define el nuevo elemento.
+En el problema anterior, puede surgir el problema de que el consumidor no tome recurso a la misma velocidad que se produce.
+
+Para solucionar esto, podemos hacer que el consumidor le indique al productor cuando producir. El consumidor crea un nuevo elemento vacío, y el productor le da un valor.
+
+## Bounded Buffer
+
+El productor produce elementos, pero con un límite. No debe esperar a que el productor necesite un elemento, pero tampoco puede producir indefinidamente.
