@@ -16,3 +16,5 @@ L = {Ints 0}
 Normalmente, ejecutar la función declarada rompería el programa, ya que entraría en un bucle infinito. Al agregar la palabra clave `lazy`, le indicamos al programa que queremos que la función se ejecuta de forma perezosa.
 
 Al imprimir la lista completa, únicamente imprimiremos hasta el último elemento calculado.
+
+En realidad, `lazy` es un *syntax sugar*_ 
