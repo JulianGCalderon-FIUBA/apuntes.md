@@ -8,12 +8,36 @@ local A B C in
 end
 ```
 
+## Productor Consumidor
+
 Esto puede ser utilizado para comunicar hilos. Un hilo expande progresivamente una lista, mientras que otro hilo tome los valores a medida que se van generando.
 
 ```Oz
 local Produce Consume L in
-Producer = proc {$ Start End L} 
-	if Start <
-thread
+	Produce = proc {$ N Limit L}
+		{Time.delay 500}
+		if N < Limit then
+			local T in
+				L = N|T
+				{Produce N+1 Limit T}
+			end
+		end
+	end
+	
+	Consume = proc {$ L}
+		case L of H|T then
+			if H mod 2 == 0 then
+				{Browse H}
+			end
+				{Consume T}
+			end
+	end
+	
+	thread {Produce 0 10 L} end
+	thread {Consume L} end
 end
 ```
+
+## Productor a Demanda
+
+Esto puede traer la desve
