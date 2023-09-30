@@ -87,3 +87,5 @@ En el tope del stack, tenemos: `(try <s1> catch <x> then <s2> end, E)`
 2. Se apila `(<s1>, E)`
 
 En cuanto nos encontremos con `(raise <x> end, E)` en el tope del stack, se empieza a descartar elementos hasta encontrar un `catch`. Si encuentra, por ejemplo, `(catch <y> then <s> end, Ec)` encuentra, se apila `(<s>, Ec + {<y> -> E(<x>)})`.
+
+## S

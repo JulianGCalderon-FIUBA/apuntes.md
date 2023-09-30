@@ -26,7 +26,7 @@ Hay tres tipos de hilos:
 
 ## Interleaving
 
-Los hilos se ejecutan de forma intercalada (*interleaving*). Los cómputos no se solapan (a menos que se tengan múltiples procesadores).
+Los hilos se ejecutan de forma intercalada (*interleaving*). Los cómputos no se solapan (a menos que se tengan múltiples procesadores). Hablamos de dos tipos de orden:
 
-- Orden total: Hablamos de este tipo de orden cuando todas las ejecuciones están ordenadas. Cuando no hay diferentes caminos.
-- Orden causal: Hablamos de este tipo de orden cuando a partir de una causa, 
+- **Orden total:** Cuando no hay ninguna dependencia del orden de las ejecuciones
+- **Orden causal:** Cuando la ejecución de cierto cómputo depende de otro, por lo que debe ocurrir después.
