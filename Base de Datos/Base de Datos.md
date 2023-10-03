@@ -14,8 +14,6 @@
 - [[Diseño Relacional]]
 - [[Dependencias Funcionales]]
 - [[Formas Normales]]
-- [[Algoritmos de Normalización]]
-
 ## Apuntes Prácticos
 
 - [[Exportación e Importación]]

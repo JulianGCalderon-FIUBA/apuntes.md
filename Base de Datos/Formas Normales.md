@@ -29,6 +29,8 @@ Si una descomposición cumple que para toda instancia posible de $R$, la junta d
 
 Diremos que la descomposición **preserva las dependencias funcionales** cuando toda dependencia funcional puede inferirse a partir de las dependencias funcionales definidas en los $R_i$.
 
+### Proyección de Dependencias Funcionales
+
 ## Primera Forma Normal
 
 Un esquema de base de datos está en 1FN cuando los dominios de todos sus atributos solo permiten valores atómicos y monovaluados.
