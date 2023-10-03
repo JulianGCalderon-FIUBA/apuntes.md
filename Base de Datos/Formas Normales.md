@@ -45,7 +45,7 @@ Para solucionarlo, debo generar una nueva tabla que permita abstraer esta inform
 
 Decimos que una relación está en 3FN cuando todos sus atributos no primos tienen dependencia funcional [[Dependencias Funcionales#Transitividad|transitiva]] de las claves candidatas. Es decir, no existen atributos no primos que dependen de un conjunto de atributos que no son clave candidata.
 
-Una definición equivalente es que para toda dependencia funcional no trivial $X \to Y$, o bien $X$ es superclave, o bien $Y - X$ solo contiene atributos primos. Esta se conoce como una definición operativa.
+Una definición equivalente es que para toda dependencia funcional no trivial $X \to Y$, o bien $X$ es superclave, o bien $Y - X$ solo contiene atributos primos.
 
 Sea $R$ una relación que no está en 3FN. Luego, tendrá un conjunto de atributos $A$ no primos, tal que $C \to A$ es transitiva a través de $B$. Esto nos obliga a incluir $A$ cada vez que está $B$, incluso si se repite en múltiples tuplas.
 
