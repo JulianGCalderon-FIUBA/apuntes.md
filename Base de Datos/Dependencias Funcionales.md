@@ -33,6 +33,14 @@ Por una cuestión de simetría, si $X \to\to Y$, entonces también vale que $X \
 
 Las dependencias multivaluadas en las que $X \cup Y = A$, o $Y \subset X$ son triviales.
 
+## Dependencia de Junta
+
+Siempre que en una relación $R$ haya una dependencia multivaluada $X \to\to Y$, entonces $R$ puede ser descompuesta sin perdida en $R'(X, Y)$, eliminando $Y$ de $R$.
+
+Sin embargo, existen relaciones que pueden ser descompuestas en más de dos relaciones, también sin perdida. Cuando esto ocurre, decimos que hay una dependencia de junta.
+
+Dada una relación $R(A)$, y una serie de subconjuntos de atributos $X_1, X_2, \cdots, X_n$, decimos que $(X_1, X_2, \cdots, X_n)$ es una dependencia de junta cuando la descomposición de $R$ en $\pi_{X_1}(R) * \pi_{X_2}(R) * \cdots * \pi_{X_n}(R)$ es sin perdida de información.
+
 ## Descomposición
 
 Partimos del concepto de la relación universal $R(\overline A)$. Esta engloba todos los atributos del mundo real que nuestro modelo representa.
