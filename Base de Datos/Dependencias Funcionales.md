@@ -28,7 +28,7 @@ $$
 F^+ = \{X \to Y|F \vDash X \to Y\}
 $$
 
-La clausura de un atributo son todos los atributos que puedo inferir de dicho atributo (a partir de $F$).
+La clausura de un atributo son todos los atributos que puedo inferir de dicho atributo, a partir de un conjunto de dependencias funcinoales $F$.
 
 $$
 X_F^+ = \{A_i|F \vDash X \to A_i\}
@@ -40,7 +40,11 @@ A partir de esto, podemos definir una clave candidata como cualquier conjunto de
 
 ## Cubrimiento y Equivalencia
 
-Dados dos conjuntos de dependencias funcionales $F, G$, decimos que $F$ cubre a $G$ si $G^+ \subset F^+$.
+Dados dos conjuntos de dependencias funcionales $F, G$, decimos que $F$ cubre a $G$ si $G^+ \subset F^+$. Es decir:
+
+$$
+	
+$$
 
 Dados dos conjuntos de dependencias funcionales $F, G$, decimos que son equivalentes si $F^+ = G^+$. Lo simbolizaremos con $F \equiv G$.
 
