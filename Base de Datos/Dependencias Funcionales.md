@@ -40,13 +40,29 @@ A partir de esto, podemos definir una clave candidata como cualquier conjunto de
 
 ## Cubrimiento y Equivalencia
 
-Dados dos conjuntos de dependencias funcionales $F, G$, decimos que $F$ cubre a $G$ si $G^+ \subset F^+$. Es decir:
+Dados dos conjuntos de dependencias funcionales $F, G$, decimos que $F$ **cubre** a $G$ si $G^+ \subset F^+$. Esto implica que cualquier dependencia funcional de $G$ puede ser inferida por $F$.
 
 $$
 	
 $$
 
-Dados dos conjuntos de dependencias funcionales $F, G$, decimos que son equivalentes si $F^+ = G^+$. Lo simbolizaremos con $F \equiv G$.
+Dados dos conjuntos de dependencias funcionales $F, G$, decimos que son **equivalentes** si $F^+ = G^+$. Lo simbolizaremos con $F \equiv G$. Esto implica que tanto $F$ cubre a $G$, y $G$ cubre a $F$.
+
+## Cubrimiento Minimal
+
+Dado un conjunto de dependencias funcionales $F$, trataremos de encontrar un conjunto equivalente $G$ que cumpla con ciertas reglas:
+
+1. No haya atributos innecesarios del lado izquierdo de alguna dependencia, tal que al sacarlos el conjunto de dependencias sea equivalente.
+	$$
+	\forall (X \to Y) \in G: \nexists (Z \to Y) \in G, Z \subset X, Z \neq X
+	$$
+
+1. No haya dependencias redundantes, tal que al sacarlas el conjunto de dependencias sea equivalente.
+	$$
+	$\notexists
+	$$
+
+Este conjunto $G$ se llamara cubrimiento minimal de $F$.
 
 ## Trivialidad
 
