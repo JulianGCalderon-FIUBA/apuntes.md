@@ -20,6 +20,22 @@ Las siguientes tres reglas se deducen de los axiomas
 - Regla de pseudo transitividad: $\forall W: X\to Y \land YW \to Z \implies XW \to Z$.
 - Regla de descomposición: $X \to YZ \implies X \to Y \land X \to Z$
 
+## Clausura
+
+Sea $F$ un conjunto de dependencias funcionales, entonces $F^+$ se conoce como clausura de $F$ y contiene el conjunto de todas las dependencias funcionales que pueden inferirse de $F$. Esto es:
+
+$$
+F^+ = \{X \to Y|F \vDash X \to Y\}
+$$
+
+La clausura de un atributo son todos los atributos que puedo inferir de dicho atributo (a partir de $F$).
+
+$$
+X_F^+ = \{A_i|F \vDash X \to A_i\}
+$$
+
+Las clausuras de todos los atributos de una relación son una forma ordenada de construir su clausura.
+
 
 ## Trivialidad
 
