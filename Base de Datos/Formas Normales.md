@@ -76,3 +76,7 @@ Las relaciones en 4FN están automáticamente en FMBC, pues todas las dependenci
 $$
 X \to Y \implies X \to\to Y
 $$
+## Quinta Forma Normal
+
+Siempre que en una relación $R$ haya una dependencia multivaluada $X \to\to Y$, entonces $R$ puede ser descompuesta sin perdida en $R'(X, Y)$, eliminando $Y$ de $R$.
+
