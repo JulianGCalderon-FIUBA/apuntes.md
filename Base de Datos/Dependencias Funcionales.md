@@ -4,6 +4,15 @@ $$
 \forall s,t \in R: s[X] = t[X] \implies s[Y] = t[Y]
 $$
 
+## Axiomas
+
+Hay tres axiomas que sirven para inferir dependencias funcionales:
+
+- Axioma de reflexividad: $Y \subset X \implies X \to Y$
+- Axioma de aumento: $\forall W: X \to Y \implies XW \to YW$
+- Axioma de transitividad: $X \to Y \land Y \to Z \implies X \to Z$
+
+La notación $F {|=} X \to Y$ implica
 ## Trivialidad
 
 Cuando $Y \subset X$, entonces decimos que $X \to Y$ es una dependencia **trivial**. Las dependencias funcionales se definen a partir de la semántica de los datos. No es posible inferirlas viendo los datos.

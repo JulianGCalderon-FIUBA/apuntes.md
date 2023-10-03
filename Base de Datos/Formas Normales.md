@@ -78,3 +78,5 @@ X \to Y \implies X \to\to Y
 $$
 
 ## Quinta Forma Normal
+
+Una relación $R(A)$ está en #todo
