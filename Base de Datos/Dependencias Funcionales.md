@@ -34,8 +34,9 @@ $$
 X_F^+ = \{A_i|F \vDash X \to A_i\}
 $$
 
-Las clausuras de todos los atributos de una relación son una forma ordenada de construir su clausura.
+Las clausuras de todos los atributos de una relación son una forma ordenada de construir su $F^+$.
 
+A partir de esto, podemos definir una clave candidata como cualquier conjunto de atributos tal que su clausura contiene todos los atributos de la relación.
 
 ## Trivialidad
 
