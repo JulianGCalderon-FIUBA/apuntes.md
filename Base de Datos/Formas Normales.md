@@ -31,6 +31,8 @@ Si no es el caso, y el esquema tiene atributos multivaluados, entonces tendremos
 
 Un atributo primo de una relación es aquel que es parte de alguna clave candidata de la relación. Decimos que una relación está en 2FN cuando todos sus atributos no primos tienen dependencia funcional [[Dependencias Funcionales#Parcialidad|completa]] de las claves candidatas.
 
+Las claves candidatas son aquellos conjuntos de atributos que implican a todo el resto de atributos. De esta forma, la repetición de dos elementos con los mismos atributos en una clave candidata implicaría que el resto de atributos también serían iguales, por lo que no afectaría la relación.
+
 Sea $R$ una relación que no está en 2FN. Luego, tendrá un conjunto de atributos $A$ no primos, tal que este tiene dependencia funcional completa de $B$, donde $B$ es un subconjunto de una clave candidata $C$. Esto nos obliga a incluir $A$ cada vez que está $B$, incluso si esto se repite en múltiples tuplas.
 
 Para resolverlo, debemos generar una nueva relación $S$ con clave primaria $B$ y atributos $A \cup B$, y eliminar $A$ de la relación $R$.
