@@ -38,6 +38,12 @@ Las clausuras de todos los atributos de una relación son una forma ordenada de 
 
 A partir de esto, podemos definir una clave candidata como cualquier conjunto de atributos tal que su clausura contiene todos los atributos de la relación.
 
+## Cubrimiento y Equivalencia
+
+Dados dos conjuntos de dependencias funcionales $F, G$, decimos que $F$ cubre a $G$ si $G^+ \subset F^+$.
+
+Dados dos conjuntos de dependencias funcionales $F, G$, decimos que son equivalentes si $F^+ = G^+$. Lo simbolizaremos con $F \equiv G$.
+
 ## Trivialidad
 
 Cuando $Y \subset X$, entonces decimos que $X \to Y$ es una dependencia **trivial**. Las dependencias funcionales se definen a partir de la semántica de los datos. No es posible inferirlas viendo los datos.
