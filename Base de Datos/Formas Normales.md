@@ -15,6 +15,20 @@ En 1972, E. Codd propuso el concepto de normalización como el proceso a través
 
 Para normalizar una nueva relación, debemos partir de un conjunto de [[Dependencias Funcionales]] asociado que supondremos definido por el diseñador de la base de datos. Normalmente, este conjunto se denota con $F$.
 
+## Descomposición
+
+Partimos del concepto de la relación universal $R(\overline A)$. Esta engloba todos los atributos del mundo real que nuestro modelo representa.
+
+Dada una relación universal $R$ y un conjunto de dependencias funcionales $F$ asociado, decimos que el conjunto de relaciones $\{ R_1(\overline B_1), \cdots, R_n(\overline B_n)\}$ es una descomposición de $R$ cuando todos los atributos de la relación $R$ se conservan.
+
+$$
+\bigcup_{i=1}^n A_i = \bigcup_{i=1}^m\bigcup_{j=1}^{n_i} B_{ij}
+$$
+
+Si una descomposición cumple que para toda instancia posible de $R$, la junta de las proyecciones sobre $R_i$ permite recuperar la misma instancia de relación, entonces decimos que la descomposición **preserva la información**. Cuando una descomposición no preserva la información, siempre su reconstrucción genera tuplas de más (nunca de menos, pues siempre podemos realizar un producto cartesiano).
+
+Diremos que la descomposición **preserva las dependencias funcionales** cuando toda dependencia funcional puede inferirse a partir de las dependencias funcionales definidas en los $R_i$.
+
 ## Primera Forma Normal
 
 Un esquema de base de datos está en 1FN cuando los dominios de todos sus atributos solo permiten valores atómicos y monovaluados.
@@ -29,7 +43,7 @@ Si no es el caso, y el esquema tiene atributos multivaluados, entonces tendremos
 
 ## Segunda Forma Normal
 
-Un atributo primo de una relación es aquel que es parte de alguna clave candidata de la relación. Decimos que una relación está en 2FN cuando todos sus atributos no primos tienen dependencia funcional [[Dependencias Funcionales#Parcialidad|completa]] de las claves candidatas.
+Un atributo primo de una relación es aquel que es parte de alguna clave candidata de la relación. Decimos que una relación está en 2FN cuando todos sus atributos no primos tienen dependencia funcional [[Dependencias Funcionales#Dependencia Parcial|completa]] de las claves candidatas.
 
 Las claves candidatas son aquellos conjuntos de atributos que implican a todo el resto de atributos. De esta forma, la repetición de dos elementos con los mismos atributos en una clave candidata implicaría que el resto de atributos también serían iguales, por lo que no afectaría la relación.
 
@@ -43,7 +57,7 @@ Para solucionarlo, debo generar una nueva tabla que permita abstraer esta inform
 
 ## Tercera Forma Normal
 
-Decimos que una relación está en 3FN cuando todos sus atributos no primos tienen dependencia funcional [[Dependencias Funcionales#Transitividad|transitiva]] de las claves candidatas. Es decir, no existen atributos no primos que dependen de un conjunto de atributos que no son clave candidata.
+Decimos que una relación está en 3FN cuando todos sus atributos no primos tienen dependencia funcional [[Dependencias Funcionales#Dependencia Transitiva|transitiva]] de las claves candidatas. Es decir, no existen atributos no primos que dependen de un conjunto de atributos que no son clave candidata.
 
 Una definición equivalente es que para toda dependencia funcional no trivial $X \to Y$, o bien $X$ es superclave, o bien $Y - X$ solo contiene atributos primos.
 

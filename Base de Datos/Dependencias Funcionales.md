@@ -53,28 +53,38 @@ Dados dos conjuntos de dependencias funcionales $F, G$, decimos que son **equiva
 Dado un conjunto de dependencias funcionales $F$, trataremos de encontrar un conjunto equivalente $G$ que cumpla con ciertas reglas:
 
 1. No haya atributos innecesarios del lado izquierdo de alguna dependencia, tal que al sacarlos el conjunto de dependencias sea equivalente.
+
 	$$
 	\forall (X \to Y) \in G: \nexists (Z \to Y) \in G, Z \subset X, Z \neq X
 	$$
 
-1. No haya dependencias redundantes, tal que al sacarlas el conjunto de dependencias sea equivalente.
+2. No haya dependencias redundantes, tal que al sacarlas el conjunto de dependencias sea equivalente.
+
 	$$
-	$\notexists
+	\nexists(X \to Y) \in G: G - \{X \to Y\} \equiv G
 	$$
 
-Este conjunto $G$ se llamara cubrimiento minimal de $F$.
+Este conjunto $G$ se llamará cubrimiento minimal de $F$.
+
+### Algoritmo de Cubrimiento Minimal
+
+Para hallar un cubrimiento minimal, tomaremos tres pasos:
+
+1. Pasar las dependencias funcionales a forma canónica. Esto quiere decir que del lado derecho solo puede haber un atributo.
+2. Eliminar los atributos innecesarios del lado izquierdo de cada dependencia funcional.
+3. Eliminar las dependencias funcionales redundantes.
 
 ## Trivialidad
 
 Cuando $Y \subset X$, entonces decimos que $X \to Y$ es una dependencia **trivial**. Las dependencias funcionales se definen a partir de la semántica de los datos. No es posible inferirlas viendo los datos.
 
-## Parcialidad
+## Dependencia Parcial
 
 Una dependencia formal $X \to Y$ es **parcial** cuando existe un subconjunto propio $A \subset X, A \neq X$, para el cual $A \to Y$.
 
 Una dependencia funcional es **completa** si y solo si no es parcial.
 
-## Transitividad
+## Dependencia Transitiva
 
 Se puede aplicar la **transitividad**, de modo que dada una relación $R(\overline A)$, entonces si $A, B, C \in \overline A$, con las dependencias $A \to B$, y $B \to C$, entonces también se cumple que $A \to C$.
 
@@ -100,17 +110,3 @@ Siempre que en una relación $R$ haya una dependencia multivaluada $X \to\to Y$,
 Sin embargo, existen relaciones que pueden ser descompuestas en más de dos relaciones, también sin perdida. Cuando esto ocurre, decimos que hay una dependencia de junta.
 
 Dada una relación $R(A)$, y una serie de subconjuntos de atributos $X_1, X_2, \cdots, X_n$, decimos que $(X_1, X_2, \cdots, X_n)$ es una dependencia de junta cuando la descomposición de $R$ en $\pi_{X_1}(R) * \pi_{X_2}(R) * \cdots * \pi_{X_n}(R)$ es sin perdida de información.
-
-## Descomposición
-
-Partimos del concepto de la relación universal $R(\overline A)$. Esta engloba todos los atributos del mundo real que nuestro modelo representa.
-
-Dada una relación universal $R$ y un conjunto de dependencias funcionales $F$ asociado, decimos que el conjunto de relaciones $\{ R_1(\overline B_1), \cdots, R_n(\overline B_n)\}$ es una descomposición de $R$ cuando todos los atributos de la relación $R$ se conservan.
-
-$$
-\bigcup_{i=1}^n A_i = \bigcup_{i=1}^m\bigcup_{j=1}^{n_i} B_{ij}
-$$
-
-Si una descomposición cumple que para toda instancia posible de $R$, la junta de las proyecciones sobre $R_i$ permite recuperar la misma instancia de relación, entonces decimos que la descomposición **preserva la información**. Cuando una descomposición no preserva la información, siempre su reconstrucción genera tuplas de más (nunca de menos, pues siempre podemos realizar un producto cartesiano).
-
-Diremos que la descomposición **preserva las dependencias funcionales** cuando toda dependencia funcional puede inferirse a partir de las dependencias funcionales definidas en los $R_i$.
