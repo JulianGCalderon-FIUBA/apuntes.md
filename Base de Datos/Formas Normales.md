@@ -13,7 +13,7 @@ Cada forma normal es más fuerte que las anteriores. El cumplimiento de cualquie
 
 En 1972, E. Codd propuso el concepto de normalización como el proceso a través del cual se convierte un esquema de base de datos en uno equivalente, y que cumple con una determinada forma normal.
 
-Para normalizar una nueva relación, debemos partir de un conjunto de dependencias funcionales asociado que supondremos definido por el diseñador de la base de datos. Normalmente, este conjunto se denota con $F$.
+Para normalizar una nueva relación, debemos partir de un conjunto de [[Dependencias Funcionales]] asociado que supondremos definido por el diseñador de la base de datos. Normalmente, este conjunto se denota con $F$.
 
 ## Primera Forma Normal
 
@@ -29,7 +29,7 @@ Si no es el caso, y el esquema tiene atributos multivaluados, entonces tendremos
 
 ## Segunda Forma Normal
 
-Un atributo primo de una relación es aquel que es parte de alguna clave candidata de la relación. Decimos que una relación está en 2FN cuando todos sus atributos no primos tienen dependencia funcional completa de las claves candidatas.
+Un atributo primo de una relación es aquel que es parte de alguna clave candidata de la relación. Decimos que una relación está en 2FN cuando todos sus atributos no primos tienen dependencia funcional completa de las claves candidatas. Ver .
 
 Sea $R$ una relación que no está en 2FN. Luego, tendrá un conjunto de atributos $A$ no primos, tal que este tiene dependencia funcional completa de $B$, donde $B$ es un subconjunto de una clave candidata $C$. Esto nos obliga a incluir $A$ cada vez que está $B$, incluso si esto se repite en múltiples tuplas.
 
