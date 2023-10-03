@@ -36,7 +36,13 @@ $$
 
 Las clausuras de todos los atributos de una relación son una forma ordenada de construir su $F^+$.
 
-A partir de esto, podemos definir una clave candidata como cualquier conjunto de atributos tal que su clausura contiene todos los atributos de la relación.
+## Claves Candidatas
+
+Podemos definir una clave candidata como cualquier conjunto de atributos tal que su clausura contiene todos los atributos de la relación.
+
+### Algoritmo de Búsqueda de Claves Candidatas
+
+
 
 ## Cubrimiento y Equivalencia
 

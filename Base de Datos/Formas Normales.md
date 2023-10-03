@@ -31,7 +31,7 @@ Diremos que la descomposición **preserva las dependencias funcionales** cuando 
 
 ### Proyección de Dependencias Funcionales
 
-Al descomponer una relación con un conjunto de dependencias funcionales $F$ en $D = (R_1(Z_1), R_2(Z_2), \cdots, R_n(Z_n))$, es necesario saber qué dependencias funcionales se preservan.
+Al descomponer una relación $R$ con un conjunto de dependencias funcionales $F$ en $D = (R_1(Z_1), R_2(Z_2), \cdots, R_n(Z_n))$, es necesario saber qué dependencias funcionales se preservan.
 
 Las dependencias funcionales que se preservan son las que surgen de la proyección de $F$ sobre los atributos $Z_i$ de cada relación $R_1$. Donde el conjunto de dependencias funcionales de $D$ será la unión de cada proyección.
 
