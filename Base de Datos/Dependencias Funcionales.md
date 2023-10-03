@@ -28,7 +28,7 @@ $$
 F^+ = \{X \to Y|F \vDash X \to Y\}
 $$
 
-La clausura de un atributo son todos los atributos que puedo inferir de dicho atributo, a partir de un conjunto de dependencias funcinoales $F$.
+La clausura de un atributo son todos los atributos que puedo inferir de dicho atributo, a partir de un conjunto de dependencias funcionales $F$.
 
 $$
 X_F^+ = \{A_i|F \vDash X \to A_i\}
@@ -74,7 +74,7 @@ Para hallar un cubrimiento minimal, tomaremos tres pasos:
 2. Eliminar los atributos innecesarios del lado izquierdo de cada dependencia funcional.
 3. Eliminar las dependencias funcionales redundantes.
 
-## Trivialidad
+## Dependencia Trivial
 
 Cuando $Y \subset X$, entonces decimos que $X \to Y$ es una dependencia **trivial**. Las dependencias funcionales se definen a partir de la semántica de los datos. No es posible inferirlas viendo los datos.
 
