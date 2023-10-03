@@ -29,7 +29,7 @@ Si no es el caso, y el esquema tiene atributos multivaluados, entonces tendremos
 
 ## Segunda Forma Normal
 
-Un atributo primo de una relación es aquel que es parte de alguna clave candidata de la relación. Decimos que una relación está en 2FN cuando todos sus atributos no primos tienen dependencia funcional completa de las claves candidatas. Ver .
+Un atributo primo de una relación es aquel que es parte de alguna clave candidata de la relación. Decimos que una relación está en 2FN cuando todos sus atributos no primos tienen dependencia funcional [[Dependencias Funcionales#Parcialidad|completa]] de las claves candidatas.
 
 Sea $R$ una relación que no está en 2FN. Luego, tendrá un conjunto de atributos $A$ no primos, tal que este tiene dependencia funcional completa de $B$, donde $B$ es un subconjunto de una clave candidata $C$. Esto nos obliga a incluir $A$ cada vez que está $B$, incluso si esto se repite en múltiples tuplas.
 
@@ -41,7 +41,7 @@ Para solucionarlo, debo generar una nueva tabla que permita abstraer esta inform
 
 ## Tercera Forma Normal
 
-Decimos que una relación está en 3FN cuando todos sus atributos no primos tienen dependencia funcional transitiva de las claves candidatas.
+Decimos que una relación está en 3FN cuando todos sus atributos no primos tienen dependencia funcional [[Dependencias Funcionales#Transitividad|transitiva]] de las claves candidatas.
 
 Una definición equivalente es que para toda dependencia funcional no trivial $X \to Y$, o bien $X$ es superclave, o bien $Y - X$ solo contiene atributos primos.
 
@@ -63,7 +63,7 @@ Este tipo de descomposiciones no nos asegura conservar la dependencia funcional.
 
 ## Cuarta Forma Normal
 
-Una relación $R$ está en 4FN cuando para toda dependencia multivaluada no trivial $X \to\to Y$, $X$ es clave (o superclave).
+Una relación $R$ está en 4FN cuando para toda dependencia [[Dependencias Funcionales#Dependencia Multivaluada|multivaluada]] no trivial $X \to\to Y$, $X$ es clave (o superclave).
 
 Para resolverlo, debemos generar una nueva relación $S$ con clave primaria $X$ tal que esté relacionada con cada elemento distinto de $Y$ con el cual se relaciona en alguna tupla.
 

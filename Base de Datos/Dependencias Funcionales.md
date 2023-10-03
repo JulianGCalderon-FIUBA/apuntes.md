@@ -4,6 +4,8 @@ $$
 \forall s,t \in R: s[X] = t[X] \implies s[Y] = t[Y]
 $$
 
+## Trivialidad
+
 Cuando $Y \subset X$, entonces decimos que $X \to Y$ es una dependencia **trivial**. Las dependencias funcionales se definen a partir de la semántica de los datos. No es posible inferirlas viendo los datos.
 
 ## Parcialidad
@@ -12,7 +14,7 @@ Una dependencia formal $X \to Y$ es **parcial** cuando existe un subconjunto pro
 
 Una dependencia funcional es **completa** si y solo si no es parcial.
 
-## Dependencia Transitiva
+## Transitividad
 
 Se puede aplicar la **transitividad**, de modo que dada una relación $R(\overline A)$, entonces si $A, B, C \in \overline A$, con las dependencias $A \to B$, y $B \to C$, entonces también se cumple que $A \to C$.
 
