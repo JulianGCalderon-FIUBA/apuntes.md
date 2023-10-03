@@ -12,7 +12,15 @@ Hay tres axiomas que sirven para inferir dependencias funcionales:
 - Axioma de aumento: $\forall W: X \to Y \implies XW \to YW$
 - Axioma de transitividad: $X \to Y \land Y \to Z \implies X \to Z$
 
-La notación $F {|=} X \to Y$ implica
+La notación $F \vDash X \to Y$ implica que $X \to Y$ puede ser deducido del conjunto de dependencias funcionales $F$.
+
+Las siguientes tres reglas se deducen de los axiomas
+
+- Regla de unión: $X \to Y \land X \to Z \implies X \to YZ$
+- Regla de pseudo transitividad: $\forall W: X\to Y \land YW \to Z \implies XW \to Z$.
+- Regla de descomposición: $X \to YZ \implies X \to Y \land X \to Z$
+
+
 ## Trivialidad
 
 Cuando $Y \subset X$, entonces decimos que $X \to Y$ es una dependencia **trivial**. Las dependencias funcionales se definen a partir de la semántica de los datos. No es posible inferirlas viendo los datos.
