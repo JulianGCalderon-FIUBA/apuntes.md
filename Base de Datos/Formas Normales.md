@@ -83,3 +83,4 @@ Siempre que en una relación $R$ haya una dependencia multivaluada $X \to\to Y$,
 
 Sin embargo, existen relaciones que pueden ser descompuestas en más de dos relaciones, también sin perdida. Cuando esto ocurre, decimos que hay una dependencia de junta.
 
+Dada una relación $R(A)$, y una serie de subconjuntos de atributos $X_i$, decimos que 
