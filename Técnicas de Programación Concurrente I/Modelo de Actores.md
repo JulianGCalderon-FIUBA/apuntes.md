@@ -55,6 +55,10 @@ Un actor es referenciado por su dirección, la cual se devuelve luego de ejecuta
 
 Los mensajes deben implementar `trait Message`. Para enviar mensajes, necesitaremos la dirección.
 
-- `Addr::do_send(M)`: Ignore los errores en el envío del mensaje. Si la casilla de mensaje está cerrada, se descarta. No retorna resultado
-- `Addr::try_send(M)`: Trata de enviar el mensaje inmediatamente. Si la casilla de mensajes esta llena o cerrada, retorna `SendError`.
-- `Addr::send(M)`: Retorna un futuro que devuelve como el resultado del proceso de 
+- `Addr::do_send(M)`: Ignora los errores en el envío del mensaje. Si la casilla de mensaje está cerrada, se descarta. No retorna resultado.
+- `Addr::try_send(M)`: Trata de enviar el mensaje inmediatamente. Si la casilla de mensajes está llena o cerrada, retorna `SendError`.
+- `Addr::send(M)`: Retorna un futuro que devuelve como el resultado del proceso de manejo de mensaje.
+
+### Contexto
+
+Los actores mantienen el contexto interno de ejecución, o estado. Permite al actor determinar su dirección, cambiar los límites de la casilla de mensajes, o detenerse. Los mensajes llegan a la casilla primero, luego el contexto de ejecución llama al *handler* especifico.
