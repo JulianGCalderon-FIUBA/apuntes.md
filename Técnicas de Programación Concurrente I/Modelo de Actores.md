@@ -19,7 +19,7 @@ Los actores se comunican entre ellos solamente usando mensajes. Estos son proces
 
 Usa *tokio* y *futures* como *runtime* de sustento. Se ejecutan dentro del sistema de actores.
 
-### Arbitrer
+### Arbitro
 
 El núcleo es de tipo *Arbitrer*. Un hilo que crea un *event loop* por debajo y provee un *handler*.
 
@@ -29,4 +29,20 @@ El núcleo es de tipo *Arbitrer*. Un hilo que crea un *event loop* por debajo y 
 
 ### Creación de un Actor
 
-Debemos crear un tipo de dato que implemente el *
+Primero, debemos crear un tipo de dato que implemente `trait Actor`.
+
+Luego, definimos un mensaje e implementamos `trait Handler<M>` para ese tipo del actor.
+
+Finalmente creamos un actor y hacemos *spawn* en uno de los árbitros.
+
+### Ciclo de Vida del Actor
+
+Tendremos los siguientes estados:
+
+- **Iniciado (Started):** Con el método `start()`
+- **En ejecución (Running):** Es el estado siguiente a la ejecución de `started()`. Puede estar en este estado de forma indefinida.
+- **Parando (Stopping):** Puede pasar a este estado en las siguientes situaciones:
+	- Llamando `Context::stop` en el mismo actor
+	- Ningún otro actor lo referencia
+	- No hay objetos registrados en el contexto
+- **Detenido (Stopped)**: Desde el estado anterior no modificó su situación. Es el último estado de ejecución.
