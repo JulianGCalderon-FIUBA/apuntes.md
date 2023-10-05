@@ -3,6 +3,22 @@ Los canales conectan un proceso emisor con un proceso receptor, y tienen un nomb
 - Son sincrónicos
 - Son unidireccionales
 
+Podremos implementar el problema del productor consumidor facilmente. Al tener un canal `ch`, podemos enviar mensajes:
+
+```
+loop
+	Produce(I);
+	ch <- I
+```
+
+Desde el otro extremo, podemos recibirlos:
+
+```
+loop
+	ch -> I
+	Consume(I)
+```
+
 ## Selective Input
 
 Es una sintaxis permitida por los lenguajes que soportan canales, y permite escuchar en varios canales de forma bloqueante y desbloquearse con el primero que recibe un mensaje
@@ -15,3 +31,7 @@ or
 or
 	ch3 => var3
 ```
+
+## Fliósofos Comensales
+
+Tendremos 
