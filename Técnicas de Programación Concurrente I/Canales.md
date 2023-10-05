@@ -39,5 +39,17 @@ Modelaremos los cinco tenedores con cinco canales. No es relevante el elemento q
 ```
 loop
 	Think;
-	for
+	forks[i] -> dummy;
+	forks[i+1] -> dummy;
+	Eat;
+	forks[i] <- true;
+	forks[i+1] <- true;
+```
+
+También necesitaremos un proceso por cada tenedor, que lo administre
+
+```
+loop
+	forks[i] -> true;
+	forks[i] <- dummy;
 ```
