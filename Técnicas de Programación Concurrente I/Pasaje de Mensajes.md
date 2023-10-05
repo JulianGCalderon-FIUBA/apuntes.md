@@ -6,4 +6,12 @@ Existen distintos de comunicación respecto al pasaje de mensajes. Se pueden cat
 Según el modo de direccionamiento.
 
 - Simétrico: Hay una única dirección de origen y destino
-- Asimétrico: Hay una única dirección de destino, pero muchas direcciones de origen *(multiple consumer sing*
+- Asimétrico: Hay una única dirección de destino, pero muchas direcciones de origen *(multiple producer single consumer)*
+- Sin direccionamiento: Quien lo recibe dependerá de la estructura del mensaje *(matching)*.
+
+Según el flujo de datos:
+
+- Unidireccional
+- Bidireccional.
+
+Para envíar mensajes entre procesos, se utilizan los [[Canales]]
