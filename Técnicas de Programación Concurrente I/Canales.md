@@ -67,3 +67,9 @@ El *parameter marshaling* es la forma en la que se convierten los argumentos de 
 UNIX provee canales a partir de *pipes*, y *FIFOs*, para conectar dos procesos independientes. Son orientados a bytes y unidireccionales.
 
 Los FIFOs tienen una representación en el sistema de archivos. Son pensados como archivos. Los pipes se comparten entre procesos a partir de realizar `fork()`.
+
+UNIX también provee colas de mensajes *(message queues)* orientados a mensajes como unidades independientes. De esta forma, no se lee una determinada cantidad de bytes, sino que se lee de a unidades independientes.
+
+También existen los *flags* de prioridad. Se pueden recibir mensajes con determinada prioridad para ignorar mensajes que no nos interesan.
+
+## Canales en Rust
