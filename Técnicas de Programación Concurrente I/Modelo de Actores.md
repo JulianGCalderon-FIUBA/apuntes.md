@@ -39,10 +39,22 @@ Finalmente creamos un actor y hacemos *spawn* en uno de los árbitros.
 
 Tendremos los siguientes estados:
 
-- **Iniciado (Started):** Con el método `start()`
+- **Iniciado (Started):** Se inicia con el método `started()`.
 - **En ejecución (Running):** Es el estado siguiente a la ejecución de `started()`. Puede estar en este estado de forma indefinida.
 - **Parando (Stopping):** Puede pasar a este estado en las siguientes situaciones:
 	- Llamando `Context::stop` en el mismo actor
 	- Ningún otro actor lo referencia
 	- No hay objetos registrados en el contexto
 - **Detenido (Stopped)**: Desde el estado anterior no modificó su situación. Es el último estado de ejecución.
+
+### Dirección
+
+Un actor es referenciado por su dirección, la cual se devuelve luego de ejecutar `.start()` sobre un actor.
+
+### Mensaje
+
+Los mensajes deben implementar `trait Message`. Para enviar mensajes, necesitaremos la dirección.
+
+- `Addr::do_send(M)`: Ignore los errores en el envío del mensaje. Si la casilla de mensaje está cerrada, se descarta. No retorna resultado
+- `Addr::try_send(M)`: Trata de enviar el mensaje inmediatamente. Si la casilla de mensajes esta llena o cerrada, retorna `SendError`.
+- `Addr::send(M)`: Retorna un futuro que devuelve como el resultado del proceso de 
