@@ -6,7 +6,8 @@
 - [[Vectorización]]
 - [[Corrección]]
 - [[Redes de Petri]]
-- [[Pasaje de Mensajes]]
+- [[Pasaje de Mensajes
+- [[Modelo de Actores]]]]
 
 ## Primitivas de Sincronización
 
