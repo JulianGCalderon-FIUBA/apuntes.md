@@ -58,4 +58,12 @@ loop
 
 También conocido como RPC, es una forma primitiva de invocar una función en otro servidor. Hoy en dia no se realiza de esta forma.
 
-Se requiere la implementación de *stubs* en ambos extremos. Estos conforman interfaces remotas utilizadas para compilar el cliente y el servidor. Contiene la implementación para convertir el llamado a la función en 
+Se requiere la implementación de *stubs* en ambos extremos. Estos conforman interfaces remotas utilizadas para comunicar el cliente y el servidor.
+
+El *parameter marshaling* es la forma en la que se convierten los argumentos de la función para ser enviados al otro servidor.
+
+## Canales en UNIX
+
+UNIX provee canales a partir de *pipes*, y *FIFOs*, para conectar dos procesos independientes. Son orientados a bytes y unidireccionales.
+
+Los FIFOs tienen una representación en el sistema de archivos. Son pensados como archivos. Los pipes se comparten entre procesos a partir de realizar `fork()`.

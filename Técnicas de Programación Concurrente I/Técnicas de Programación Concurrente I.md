@@ -15,6 +15,7 @@
 - [[Semáforos]]
 - [[Barreras]]
 - [[Variables de Condición]]
+- [[Canales]]
 
 ## Problemas Conocidos
 
