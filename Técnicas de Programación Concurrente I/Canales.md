@@ -32,28 +32,6 @@ or
 	ch3 => var3
 ```
 
-## Problema de los Filósofos
-
-Modelaremos los cinco tenedores con cinco canales. No es relevante el elemento que se envía, sino el hecho de enviarlo.
-
-```
-loop
-	Think;
-	forks[i] -> dummy;
-	forks[i+1] -> dummy;
-	Eat;
-	forks[i] <- true;
-	forks[i+1] <- true;
-```
-
-También necesitaremos un proceso por cada tenedor, que lo administre
-
-```
-loop
-	forks[i] -> true;
-	forks[i] <- dummy;
-```
-
 ## Remote Procedure Calls
 
 También conocido como RPC, es una forma primitiva de invocar una función en otro servidor. Hoy en dia no se realiza de esta forma.

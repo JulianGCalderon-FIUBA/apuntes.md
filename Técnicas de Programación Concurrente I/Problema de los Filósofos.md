@@ -11,3 +11,25 @@ Si cada filósofo toma los palitos en cualquier orden, entonces se puede llegar 
 La forma de resolverlo es imponiendo un orden específico. Numeramos los palitos del uno al cinco, y cada filósofo toma los palitos cercanos en orden numérico.
 
 Esto nos asegura nunca llegar a un *deadlock*, pues nunca se tendrá que todos los filósofos tomen el palito de la derecha, ya que uno tomará el palito de la izquierda.
+
+## Solución con [[Canales]]
+
+Modelaremos los cinco tenedores con cinco canales. No es relevante el elemento que se envía, sino el hecho de enviarlo.
+
+```
+loop
+	Think;
+	forks[i] -> dummy;
+	forks[i+1] -> dummy;
+	Eat;
+	forks[i] <- true;
+	forks[i+1] <- true;
+```
+
+También necesitaremos un proceso por cada tenedor, que lo administre
+
+```
+loop
+	forks[i] -> true;
+	forks[i] <- dummy;
+```
