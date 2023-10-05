@@ -15,9 +15,9 @@ Los actores son aislados de otros actores, no comparten memoria.
 
 Los actores se comunican entre ellos solamente usando mensajes. Estos son procesados de forma asincrónica y de uno a la vez. Esto resuelve muchos problemas de concurrencia.
 
-## Actores en Rust - Actix
+## Actores en Rust
 
-Usa *tokio* y *futures* como *runtime* de sustento. Se ejecutan dentro del sistema de actores.
+Para la implementación de actores, se utiliza el *framework Actix*, este utiliza *tokio* y *futures* como *runtime* de sustento. Se ejecutan dentro del sistema de actores.
 
 ### Arbitro
 
@@ -37,9 +37,7 @@ Luego, definimos un mensaje e implementamos `trait Handler<M>` para ese tipo del
 
 Finalmente creamos un actor y hacemos *spawn* en uno de los árbitros.
 
-### Ciclo de Vida del Actor
-
-Tendremos los siguientes estados:
+Tendremos los siguientes estados demtrp del ciclo de vida de un actor:
 
 - **Iniciado (Started):** Se inicia con el método `started()`.
 - **En ejecución (Running):** Es el estado siguiente a la ejecución de `started()`. Puede estar en este estado de forma indefinida.
@@ -64,7 +62,3 @@ Los mensajes deben implementar `trait Message`. Para enviar mensajes, necesitare
 ### Contexto
 
 Los actores mantienen el contexto interno de ejecución, o estado. Permite al actor determinar su dirección, cambiar los límites de la casilla de mensajes, o detenerse. Los mensajes llegan a la casilla primero, luego el contexto de ejecución llama al *handler* especifico.
-
-### Arbitro
-
-El arbitro provee
