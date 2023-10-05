@@ -34,4 +34,10 @@ or
 
 ## Fliósofos Comensales
 
-Tendremos 
+Modelaremos los cinco tenedores con cinco canales. No es relevante el elemento que se envía, sino el hecho de enviarlo.
+
+```
+loop
+	Think;
+	for
+```
