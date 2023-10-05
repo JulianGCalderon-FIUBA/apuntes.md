@@ -3,7 +3,7 @@ Los canales conectan un proceso emisor con un proceso receptor, y tienen un nomb
 - Son sincrónicos
 - Son unidireccionales
 
-Podremos implementar el problema del productor consumidor facilmente. Al tener un canal `ch`, podemos enviar mensajes:
+Podremos implementar el problema del productor consumidor fácilmente. Al tener un canal `ch`, podemos enviar mensajes:
 
 ```
 loop
@@ -32,7 +32,7 @@ or
 	ch3 => var3
 ```
 
-## Fliósofos Comensales
+## Problema de los Filósofos
 
 Modelaremos los cinco tenedores con cinco canales. No es relevante el elemento que se envía, sino el hecho de enviarlo.
 
@@ -53,3 +53,9 @@ loop
 	forks[i] -> true;
 	forks[i] <- dummy;
 ```
+
+## Remote Procedure Calls
+
+También conocido como RPC, es una forma primitiva de invocar una función en otro servidor. Hoy en dia no se realiza de esta forma.
+
+Se requiere la implementación de *stubs* en ambos extremos. Estos conforman interfaces remotas utilizadas para compilar el cliente y el servidor. Contiene la implementación para convertir el llamado a la función en 
