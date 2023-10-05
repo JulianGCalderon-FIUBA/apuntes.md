@@ -6,6 +6,7 @@
 - [[Vectorización]]
 - [[Corrección]]
 - [[Redes de Petri]]
+- [[Pasaje de Mensajes]]
 
 ## Primitivas de Sincronización
 
