@@ -27,6 +27,8 @@ El núcleo es de tipo *Arbitrer*. Un hilo que crea un *event loop* por debajo y 
 - El handler se usa para enviar mensajes al actor
 - Se ejecutan en un contexto de ejecución `Context<A>` separado para cada uno.
 
+Provee el contexto de ejecución asincrónica para los actores, funciones, y futuros. Alojan el entorno donde se ejecuta el actor.
+
 ### Creación de un Actor
 
 Primero, debemos crear un tipo de dato que implemente `trait Actor`.
@@ -62,3 +64,7 @@ Los mensajes deben implementar `trait Message`. Para enviar mensajes, necesitare
 ### Contexto
 
 Los actores mantienen el contexto interno de ejecución, o estado. Permite al actor determinar su dirección, cambiar los límites de la casilla de mensajes, o detenerse. Los mensajes llegan a la casilla primero, luego el contexto de ejecución llama al *handler* especifico.
+
+### Arbitro
+
+El arbitro provee
