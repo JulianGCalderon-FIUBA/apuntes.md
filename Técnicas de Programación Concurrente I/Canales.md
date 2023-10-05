@@ -73,3 +73,10 @@ UNIX también provee colas de mensajes *(message queues)* orientados a mensajes 
 También existen los *flags* de prioridad. Se pueden recibir mensajes con determinada prioridad para ignorar mensajes que no nos interesan.
 
 ## Canales en Rust
+
+Los canales tienen dos extremos: un emisor y un receptor.
+
+- Desde el extremo emisor se pueden enviar mensajes (objetos independientes). Se debe transferir el *ownership* del objeto enviado. Este extremo se puede clonar.
+- Desde el extremo receptor se pueden recibir mensajes. No se puede clonar, por lo que es único.
+
+Los canales son asimétricos y unidireccionales. Hay un solo consumidor, y muchos productores.
