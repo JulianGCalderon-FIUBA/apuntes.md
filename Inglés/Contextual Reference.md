@@ -1,5 +1,3 @@
-## Contextual Reference
-
 Es el uso de los pronombres. Permite referenciar a un sujeto de la oración a partir de un pronombre.
 
 Esta referencia puede ser catafórica o anafórica. Una referencia catafórica hace referencia a un objeto que aún no fue mencionado. Es normalmente utilizado en los textos poéticos, se utiliza para generar suspenso.
