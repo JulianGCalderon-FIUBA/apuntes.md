@@ -101,7 +101,13 @@ Este tipo de descomposiciones no nos asegura conservar la dependencia funcional.
 
 ### Algoritmo de FNBC
 
-
+1. Definimos el conjunto de esquemas $D$ inicialmente con $R$
+2. Mientras que existe una relación $R_i(Z)$ en el conjunto de esquemas que no esté en FNBC, entonces:
+	1. Encontramos una dependencia funcional $X\to Y$ contenida en $R_i$ que viola la FNBC.
+	2. Calculamos su clausura $X^+$.
+	3. Eliminamos la relación: $D = D - \{R_i(Z)\}$.
+	4. Agregamos una nueva relación para representar la dependencia funcional y sus atributos implicados: $D = D + \{R_{i1}(X^+)\}$.
+	5. Agregamos una nueva sin los atributos implicados por $X$.
 
 ## Cuarta Forma Normal
 
