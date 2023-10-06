@@ -77,6 +77,8 @@ Sea $R$ una relación que no está en 3FN. Luego, tendrá un conjunto de atribut
 
 Para resolverlo, debemos generar una nueva relación $S$ con clave primaria $B$ y atributos $A \cup B$, y eliminar $A$ de la relación $R$.
 
+### Algoritmo de 3FN
+
 ## Forma Normal Boyce-Codd
 
 Decimos que una relación está en FNBC si no existen relaciones transitivas. Sin importar si incluye atributos primos o no. Esta forma nos permite resolver situaciones donde tendremos múltiples claves candidatas que se solapan.
@@ -89,9 +91,11 @@ Para resolverlo, debemos generar una nueva relación $S$ con clave primaria $B$ 
 
 Este tipo de descomposiciones no nos asegura conservar la dependencia funcional.
 
+### Algoritmo de FNBC
+
 ## Cuarta Forma Normal
 
-Una relación $R$ está en 4FN cuando para toda dependencia [[Dependencias Funcionales#Dependencia Multivaluada|multivaluada]] no trivial $X \to\to Y$, $X$ es clave (o superclave).
+Una relación $R$ está en 4FN cuando para toda [[Dependencias Funcionales#Dependencia Multivaluada|dependencia multivaluada]] no trivial $X \to\to Y$, $X$ es clave (o superclave).
 
 Para resolverlo, debemos generar una nueva relación $S$ con clave primaria $X$ tal que esté relacionada con cada elemento distinto de $Y$ con el cual se relaciona en alguna tupla.
 
@@ -105,4 +109,8 @@ $$
 
 ## Quinta Forma Normal
 
-Una relación $R(A)$ está en #todo
+Una relación $R(A)$ está en 5FN si y solo si para toda [[Dependencias Funcionalesdependencia de junta]] $(X_1, X_2, \cdots, X_n)$ no trivial (tal que ningún $X_i = A$) todos los $X_i$ son superclaves.
+
+Observemos que una dependencia de junta implica una dependencia multivaluada, que implica una dependencia funcional.
+
+

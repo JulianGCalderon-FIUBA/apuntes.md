@@ -17,7 +17,3 @@
 ## Apuntes Prácticos
 
 - [[Exportación e Importación]]
-
-## Resumen
-
-- [[Primer Parcial]]
