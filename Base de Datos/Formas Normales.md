@@ -83,9 +83,9 @@ Para resolverlo, debemos generar una nueva relación $S$ con clave primaria $B$ 
 2. Primero, debemos encontrar un cubrimiento minimal de $F_\min$ para $F$.
 3. Por cada dependencia funcional con conjunto $X$ del lado izquierdo:
 	1. Creamos un esquema de relación $R_X(X, A_1, A_2, \cdots, A_k)$ donde $X \to A_i$ son las únicas dependencias funcionales en $F_\min$ con el conjunto $X$ del lado izquierdo.
-	2. Ampliamos el conjunto de esquemas $D = D \cup R_X$
-
-#todo
+	2. Ampliamos el conjunto de esquemas $D = D + \{R_X\}$
+4. Hallamos todas las claves candidatas de $R$. Si ningún esquema contiene una clave candidata de $R$, entonces tomamos una de las claves candidatas $CK$ y ampliamos el conjunto de esquemas con $D = D \cup \{R_{CK}\}$
+5. Si los atributos de una relación están totalmente incluidos en los de otra relación, entonces es redundante (por lo que podemos eliminarla). Mientras haya relaciones redundantes en $D$, entonces la quitamos con $D = D - \{R_i\}$
 
 ## Forma Normal Boyce-Codd
 
@@ -101,7 +101,7 @@ Este tipo de descomposiciones no nos asegura conservar la dependencia funcional.
 
 ### Algoritmo de FNBC
 
-#todo
+
 
 ## Cuarta Forma Normal
 
