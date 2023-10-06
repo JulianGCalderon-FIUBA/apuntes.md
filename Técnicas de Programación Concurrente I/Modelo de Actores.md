@@ -1,4 +1,4 @@
-Fue desarrollado por Carl Hewitt en 1973, y popularizado por el lenguaje Erlang.
+El modelo de actores fue desarrollado por Carl Hewitt en 1973, y popularizado por el lenguaje Erlang.
 
 El **actor** es la primitiva principal del modelo. Son livianos, se pueden crear miles. Estos encapsulan comportamiento y un estado. Están compuestos por:
 
