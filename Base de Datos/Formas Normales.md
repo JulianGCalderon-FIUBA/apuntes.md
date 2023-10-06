@@ -69,15 +69,23 @@ Para solucionarlo, debo generar una nueva tabla que permita abstraer esta inform
 
 ## Tercera Forma Normal
 
-Decimos que una relación está en 3FN cuando todos sus atributos no primos tienen dependencia funcional [[Dependencias Funcionales#Dependencia Transitiva|transitiva]] de las claves candidatas. Es decir, no existen atributos no primos que dependen de un conjunto de atributos que no son clave candidata.
+Decimos que una relación está en 3FN cuando todos sus atributos no primos tienen [[Dependencias Funcionales#Dependencia Transitiva|dependencia funcional transitiva]] de las claves candidatas. Es decir, no existen atributos no primos que dependen de un conjunto de atributos que no son clave candidata.
 
-Una definición equivalente es que para toda dependencia funcional no [[Dependencias Funcionales#Dependencia Trivial|trivial]] $X \to Y$, o bien $X$ es superclave, o bien $Y - X$ solo contiene atributos primos.
+Una definición equivalente es que para toda [[Dependencias Funcionales#Dependencia Trivial|dependencia funcional no trivial]] $X \to Y$, o bien $X$ es superclave, o bien $Y - X$ solo contiene atributos primos.
 
 Sea $R$ una relación que no está en 3FN. Luego, tendrá un conjunto de atributos $A$ no primos, tal que $C \to A$ es transitiva a través de $B$. Esto nos obliga a incluir $A$ cada vez que está $B$, incluso si se repite en múltiples tuplas.
 
 Para resolverlo, debemos generar una nueva relación $S$ con clave primaria $B$ y atributos $A \cup B$, y eliminar $A$ de la relación $R$.
 
 ### Algoritmo de 3FN
+
+1. Definimos el conjunto de esquemas $D$ inicialmente vacío
+2. Primero, debemos encontrar un cubrimiento minimal de $F_\min$ para $F$.
+3. Por cada dependencia funcional con conjunto $X$ del lado izquierdo:
+	1. Creamos un esquema de relación $R_X(X, A_1, A_2, \cdots, A_k)$ donde $X \to A_i$ son las únicas dependencias funcionales en $F_\min$ con el conjunto $X$ del lado izquierdo.
+	2. Ampliamos el conjunto de esquemas $D = D \cup R_X$
+
+#todo
 
 ## Forma Normal Boyce-Codd
 
@@ -92,6 +100,8 @@ Para resolverlo, debemos generar una nueva relación $S$ con clave primaria $B$ 
 Este tipo de descomposiciones no nos asegura conservar la dependencia funcional.
 
 ### Algoritmo de FNBC
+
+#todo
 
 ## Cuarta Forma Normal
 
@@ -109,8 +119,6 @@ $$
 
 ## Quinta Forma Normal
 
-Una relación $R(A)$ está en 5FN si y solo si para toda [[Dependencias Funcionalesdependencia de junta]] $(X_1, X_2, \cdots, X_n)$ no trivial (tal que ningún $X_i = A$) todos los $X_i$ son superclaves.
+Una relación $R(A)$ está en 5FN si y solo si para toda [[Dependencias Funcionales#Dependencia de Junta|dependencia de junta]] $(X_1, X_2, \cdots, X_n)$ no trivial (tal que ningún $X_i = A$) todos los $X_i$ son superclaves.
 
 Observemos que una dependencia de junta implica una dependencia multivaluada, que implica una dependencia funcional.
-
-
