@@ -107,7 +107,9 @@ Este tipo de descomposiciones no nos asegura conservar la dependencia funcional.
 	2. Calculamos su clausura $X^+$.
 	3. Eliminamos la relación: $D = D - \{R_i(Z)\}$.
 	4. Agregamos una nueva relación para representar la dependencia funcional y sus atributos implicados: $D = D + \{R_{i1}(X^+)\}$.
-	5. Agregamos una nueva sin los atributos implicados por $X$.
+	5. Agregamos una nueva sin los atributos implicados por $X$, para no perder ninguna dependencia funcional. $D = D + \{R_{i2}(Z-(X^+ - X))\}$
+	6. Debemos proyectar las dependencias funcionales de $R_i$ en ambas nuevas relaciones, para preservar las dependencias funcionales
+3. Todos los esquemas de $D$ estarán en FNBC, y se podrán juntar para preservar la información original.
 
 ## Cuarta Forma Normal
 
