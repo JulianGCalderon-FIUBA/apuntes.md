@@ -14,6 +14,7 @@
 - [[Diseño Relacional]]
 - [[Dependencias Funcionales]]
 - [[Formas Normales]]
+
 ## Apuntes Prácticos
 
 - [[Exportación e Importación]]

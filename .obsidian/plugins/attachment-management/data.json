@@ -9,7 +9,7 @@
   "dateFormat": "X",
   "handleAll": false,
   "excludeExtensionPattern": "",
-  "autoRenameAttachment": true,
+  "autoRenameAttachment": false,
   "excludedPaths": "",
   "excludePathsArray": [],
   "excludeSubpaths": false,
