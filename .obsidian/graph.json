@@ -2,7 +2,7 @@
   "collapse-filter": false,
   "search": "-file: \"index\" ",
   "showTags": false,
-  "showAttachments": false,
+  "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
@@ -11,12 +11,12 @@
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 0.1,
+  "lineSizeMultiplier": 1,
   "collapse-forces": false,
   "centerStrength": 0.518713248970312,
-  "repelStrength": 13.3690221270521,
+  "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.1825800645906911,
-  "close": true
+  "scale": 0.294414600378897,
+  "close": false
 }
