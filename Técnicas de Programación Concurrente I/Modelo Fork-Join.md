@@ -1,6 +1,6 @@
 Es un estilo de paralelización donde la tarea *(task)* es partida en subtareas menores *(subtasks)*. Los resultados de estos se unen *(join)* para construir la solución al cómputo inicial.
 
-La división de tareas en subtareas se realiza de forma recursiva. Si las subtareas son independientes, entonces la tarea se puede ejecutar en paralela.
+La división de tareas en subtareas se realiza de forma recursiva. Las subtareas son independientes, por lo que se pueden ejecutar en paralelo.
 
 Las subtareas se pueden crear en cualquier momento de la ejecución de la tarea.
 
