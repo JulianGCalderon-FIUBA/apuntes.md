@@ -61,11 +61,11 @@ Ofrece `crossbeam::scope` para crear un nuevo entorno de hilo que garantiza que 
 
 Posteriormente, se agregó soporte para esto en la biblioteca estándar, con `std::thread::scope`, por lo que ya no es necesario utilizar Crossbeam para esto, aunque sí para otras estructuras que provee.
 
-## MapReduce
+## Map Reduce
 
 Es un modelo de programación (con una implementación asociada) para el procesamiento y generación de grandes conjuntos de datos. El modelo consiste en:
 
-- Una función *map* que procesa pares clave-valor generando un conjunto intermedio de pares clave-valor
+- Una función *map* que procesa pares clave-valor generando un conjunto intermedio de pares clave-valor.
 - Una función *reduce* que une todos los valores intermedios con una misma clave intermedia.
 
 Un ejemplo canónico para este modelo de programación es el de un *word count*.
