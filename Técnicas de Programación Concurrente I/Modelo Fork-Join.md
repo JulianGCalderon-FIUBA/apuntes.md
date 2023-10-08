@@ -71,7 +71,7 @@ Es un modelo de programación (con una implementación asociada) para el procesa
 Un ejemplo canónico para este modelo de programación es el de un *word count*.
 
 - La función *map* toma frecuencias locales de una porción del texto.
-- La función *reduce* combina las frecuencias locales en una única tabla con todas las frecuencias
+- La función *reduce* combina las frecuencias locales en una única tabla con todas las frecuencias.
 
 ## Dremel
 
