@@ -10,7 +10,7 @@ A todos los amigos les envía el mismo monto, y el dinero resultante lo vuelve a
 
 ### Solución con [[Barreras]]
 
-Nnecesitaremos dos barreras:
+Necesitaremos dos barreras:
 
 - La primera barrera sincroniza el acceso a la cuenta, para definir cuanto dinero debe sacar cada inversor.
 - La segunda barrera sincroniza la modificación del saldo de la cuenta.
