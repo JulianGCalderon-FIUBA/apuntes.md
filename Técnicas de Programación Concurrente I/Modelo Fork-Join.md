@@ -2,7 +2,7 @@ Es un estilo de paralelización donde la tarea *(task)* es partida en subtareas 
 
 La división de tareas en subtareas se realiza de forma recursiva. Las subtareas son independientes, por lo que se pueden ejecutar en paralelo.
 
-Las subtareas se pueden crear en cualquier momento de la ejecución de la tarea.
+Las subtareas se pueden crear en cualquier momento de la ejecución de la tarea. Estas se crean con toda la información necesaria para ejecutarse.
 
 Las tareas no pueden bloquearse, excepto para esperar el final de las subtareas.
 
