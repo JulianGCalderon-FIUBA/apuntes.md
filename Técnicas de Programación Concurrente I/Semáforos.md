@@ -10,19 +10,6 @@ El valor del semáforo representa la cantidad de recursos disponibles. Puede ser
 - Si el contador es mayor a cero, entonces el recurso está disponible.
 - Si el contador es cero, el recurso no está disponible.
 
-### Problema de la Sección Crítica
-
-Para resolver el problema de la [[Problema de Sección Crítica]] podemos utilizar un semáforo binario (donde sus valores posibles son cero o uno). Estos se comportan igual que los *locks* de escritura.
-
-```C
-while true {
-	// non-critical section
-	wait(S)
-	// critical section
-	signal(S)
-}
-```
-
 ### Operaciones Definidas
 
 Se definen dos operaciones atómicas sobre un semáforo $S$:

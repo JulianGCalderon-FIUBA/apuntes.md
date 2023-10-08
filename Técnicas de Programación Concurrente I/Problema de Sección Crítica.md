@@ -12,3 +12,16 @@ Además, tendremos:
 
 - La sección crítica debe progresar (finalizar eventualmente)
 - La sección no-crítica no requiere progreso (puede terminar o entrar en un loop infinito).
+
+## Solución con [[Semáforos]]
+
+Podemos utilizar un semáforo binario (donde sus valores posibles son cero o uno). Estos se comportan igual que los *locks* de escritura.
+
+```C
+while true {
+	// non-critical section
+	wait(S)
+	// critical section
+	signal(S)
+}
+```
