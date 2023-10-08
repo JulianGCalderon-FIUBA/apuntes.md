@@ -11,11 +11,11 @@
 
 ## Primitivas de Sincronización
 
-- [[Monitores]]
-- [[Técnicas de Programación Concurrente I/Locks|Locks]]
 - [[Semáforos]]
-- [[Barreras]]
+- [[Técnicas de Programación Concurrente I/Locks|Locks]]
 - [[Variables de Condición]]
+- [[Monitores]]
+- [[Barreras]]
 - [[Canales]]
 
 ## Problemas Conocidos
