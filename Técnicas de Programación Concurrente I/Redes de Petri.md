@@ -10,7 +10,7 @@ Donde tenemos:
 - Un conjunto de nodos $P = p_1, p_2,..., p_n$ llamados lugares
 - Un conjunto de arcos $A \subseteq (T\times P)\cup(P\times T)$
 
-Mostramos un ejemplo sencillo
+Mostramos un ejemplo sencillo:
 
 ![[Redes de Petri 1695766606.png|500]]
 
