@@ -51,7 +51,7 @@ a_vector.par_iter().for_each(|value| {
 })
 ```
 
-Este método crea tantos hilos como tenga nuestro procesador, para maximizar la eficiencia. Además, implementa el robo de trabajo.
+Este método crea tantos hilos como tenga nuestro procesador para maximizar la eficiencia. Además, implementa el robo de trabajo.
 
 ## Crossbeam
 
