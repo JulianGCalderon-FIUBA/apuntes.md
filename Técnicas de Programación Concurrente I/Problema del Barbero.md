@@ -32,15 +32,15 @@ Luego, el barbero realiza un `wait` del semáforo de cola de clientes. Si hay cl
 // BARBERO
 while true {
 	wait(cola_de_clientes)
-	release(barbero_listo)
+	signal(barbero_listo)
 	cortar_pelo()
-	release(corte_de_pelo_listo)
+	signal(corte_de_pelo_listo)
 }
 ```
 
 ```C
 // CLIENTE
-release(cola_de_clientes)
+signal(cola_de_clientes)
 wait(barbero_listo)
 wait(corte_de_pelo_listo)
 ```
