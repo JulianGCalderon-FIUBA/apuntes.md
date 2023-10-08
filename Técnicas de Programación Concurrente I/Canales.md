@@ -5,7 +5,7 @@ Los canales conectan un proceso emisor con un proceso receptor, y tienen un nomb
 
 Podremos implementar el problema del productor consumidor fácilmente. Al tener un canal `ch`, podemos enviar mensajes:
 
-```
+```C
 loop
 	Produce(I);
 	ch <- I
@@ -13,7 +13,7 @@ loop
 
 Desde el otro extremo, podemos recibirlos:
 
-```
+```C
 loop
 	ch -> I
 	Consume(I)
