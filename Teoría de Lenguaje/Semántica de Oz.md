@@ -94,7 +94,7 @@ Para modelar esto con una máquina abstracta, necesitaremos un *multistack*. Un 
 
 En el tope del stack, tenemos: `(thread <s> end, E)`. Debemos crear un nuevo *stack* y agregar `<s>` en su tope.
 
-![[Semántica de Oz 1696710241.png]]
+![[Semántica de Oz 1696788002.png]]
 
 Para el caso de memoria, empezaremos a hablar de stacks *bloqueados*. Un stack finalizado puede ser eliminado, y un stack bloqueado puede ser eliminado si la condición de activación es inalcanzable.
 
