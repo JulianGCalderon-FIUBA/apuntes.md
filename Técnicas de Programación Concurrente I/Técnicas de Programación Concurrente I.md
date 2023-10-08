@@ -11,8 +11,8 @@
 
 ## Primitivas de Sincronización
 
-- [[Semáforos]]
 - [[Técnicas de Programación Concurrente I/Locks|Locks]]
+- [[Semáforos]]
 - [[Variables de Condición]]
 - [[Monitores]]
 - [[Barreras]]
