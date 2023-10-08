@@ -16,7 +16,7 @@ Esto nos asegura nunca llegar a un *deadlock*, pues nunca se tendrá que todos l
 
 Modelaremos los cinco tenedores con cinco canales. No es relevante el elemento que se envía, sino el hecho de enviarlo.
 
-```
+```C
 loop
 	Think;
 	forks[i] -> dummy;
@@ -28,7 +28,7 @@ loop
 
 También necesitaremos un proceso por cada tenedor, que lo administre
 
-```
+```C
 loop
 	forks[i] -> true;
 	forks[i] <- dummy;
