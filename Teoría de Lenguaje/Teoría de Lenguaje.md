@@ -22,6 +22,7 @@
 - [[Concurrencia Declarativa|Concurrencia Declarativa]]
 - [[Streams]]
 - [[Evaluación Perezosa]]
+- [[Mensajes]]
 - [[Estado Explícito]]
 - [[Objetos y Clases]]
 - [[Indeterminismos y Atomicidad]]
