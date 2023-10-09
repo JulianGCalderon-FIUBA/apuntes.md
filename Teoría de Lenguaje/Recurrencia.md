@@ -11,6 +11,9 @@ fun {Length L}
 	end
 end
 
+def length([]) do
+
+
 ```
 
 ## Last Call Optimization
