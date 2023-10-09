@@ -24,3 +24,19 @@ local Puerto Stream Recibir Enviar in
 	thread {Recibir Stream} end % Ej: 1 2 5 3 6 7 8 4 9
 end
 ```
+
+## Port Object
+
+Definimos un `NewPortObject` como un puerto con estado interno. Se ejecuta la función `Fun` pasada por parametro com cada mensaje enviado al puerto
+
+```Oz
+fun {NewPortObject Init Fun}
+	local MsgLoop Sin in
+		proc {MsgLoop S1 State}
+			case S1 of Msg|S2 then
+				{MsgLoop S2 {Fun Msg State}}
+			end
+		end
+		thread {MsgLoop Sin Init} end
+		{NewPort Sin}
+```
