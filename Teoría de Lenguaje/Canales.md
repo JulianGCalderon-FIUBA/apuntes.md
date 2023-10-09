@@ -39,6 +39,8 @@ fun {NewPortObject Init Fun}
 		end
 		thread {MsgLoop Sin Init} end
 		{NewPort Sin}
+	end
+end
 ```
 
 Si no hace falta un estado interno (acumulador), entonces podríamos definir `NewPortObject2`. Ahora la función es un procedimiento, pues no se actualiza su estado interno.
@@ -53,4 +55,5 @@ fun {NewPortObject2 Proc}
 		end
 		{NewPort Sin}
 	end
+end
 ```
