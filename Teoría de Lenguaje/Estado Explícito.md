@@ -18,3 +18,21 @@ C := @C+1
 C :== @C+10
 {Browse @C} % 11
 ```
+
+## Sharing
+
+Esto ocurre cuando dos identificadores refieren a la misma celda. A veces es conocido como aliasing. Se cambia el valor de una celda, cambian ambos.
+
+```Oz
+declare A B C
+A = {NewCell 0}
+B = {NewCell 0}
+C = A
+{Browse A==B} % false - Apuntan a celdas distintas
+{Browse @A=@B} % true - El valor que contienen es el mismo
+{Browse A==C} % true - Apuntan a la misma celda (sharing)
+```
+
+## Equality
+
+Si dos valores tienen la misma estructura y valores en todas sus partes, entonces son iguales
