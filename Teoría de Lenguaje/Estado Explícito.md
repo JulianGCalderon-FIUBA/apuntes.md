@@ -1,3 +1,7 @@
+Cuando hablamos del estado, este puede ser implícito o explicito. En un estado implícito (declarativo) está compuesto por los argumentos de la función y las variables libres que definimos. El estado está dado por el entorno de nuestra clausura.
+
+El estado explícito
+
 Este concepto proviene del [[Modelo Imperativo]]. En algunos lenguajes, se utiliza el concepto de **función pura**. Una función pura es aquella que no tiene efectos secundarios. Únicamente devuelve un valor, sin mutar el estado ninguna variable.
 
 En la programación funcional, no existe el estado. Cuando se habla del estado, entonces estaremos hablando de variables mutables. En la programación funcional, hablamos de la programación determinística. No existe el estado, siempre se devuelve la misma salida ante la misma entrada de datos.
