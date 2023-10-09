@@ -50,4 +50,4 @@ El productor produce elementos, pero con un límite. No debe esperar a que el pr
 
 ## Múltiples Productores
 
-Si queremos tener múltiples productores, entonces puede haber problemas de concurrencia. Para resolverlo, necesitaremos [[Mensajes]]
+Si queremos tener múltiples productores, entonces puede haber problemas de concurrencia. Para resolverlo, necesitaremos [[Teoría de Lenguaje/Canales]]

@@ -14,4 +14,4 @@ Según el flujo de datos:
 - Unidireccional
 - Bidireccional.
 
-Para envíar mensajes entre procesos, se utilizan los [[Canales]]
+Para envíar mensajes entre procesos, se utilizan los [[Técnicas de Programación Concurrente I/Canales]]

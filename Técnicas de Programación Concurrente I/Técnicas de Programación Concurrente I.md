@@ -16,7 +16,7 @@
 - [[Variables de Condición]]
 - [[Monitores]]
 - [[Barreras]]
-- [[Canales]]
+- [[Técnicas de Programación Concurrente I/Canales]]
 
 ## Problemas Conocidos
 
