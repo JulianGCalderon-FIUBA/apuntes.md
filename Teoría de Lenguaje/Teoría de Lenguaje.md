@@ -6,8 +6,6 @@
 - [[Modelo Imperativo]]
 - [[Máquina Abstracta]]
 - [[Lenguaje Oz]]
-- [[Sintaxis de Oz]]
-- [[Semántica de Oz]]
 
 ## Conceptos de Oz
 
