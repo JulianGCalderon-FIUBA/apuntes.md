@@ -57,3 +57,9 @@ fun {NewPortObject2 Proc}
 	end
 end
 ```
+
+## Actores
+
+El modelo de actores puede ser utilizado para resolver problemas de concurrencia de forma eficiente. Tendremos hilos que encapsulan un estado interno y se comunican entre ellos a través de recibir y enviar mensajes.
+
+Los actores resuelven los pedidos de los clientes secuencialmente, por lo que se resuelve el problema de la sección crítica.
