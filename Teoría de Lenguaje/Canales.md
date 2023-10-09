@@ -27,7 +27,7 @@ end
 
 ## Port Object
 
-Definimos un `NewPortObject` como un puerto con estado interno. Se ejecuta la función `Fun` pasada por parametro com cada mensaje enviado al puerto
+Definimos un `NewPortObject` como un puerto con estado interno. Realiza un `reduce` con todos los elementos enviados al puerto, aplicando la función `Fun` con un acumulador inicial `Init`.
 
 ```Oz
 fun {NewPortObject Init Fun}
