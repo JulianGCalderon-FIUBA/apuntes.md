@@ -10,10 +10,15 @@ fun {Length L}
 		0
 	end
 end
+```
 
-def length([]) do
-
-
+```Elixir
+def length(L) do
+	case L do
+		[H|T] -> length(T) + 1
+		[] -> 0
+	end
+end
 ```
 
 ## Last Call Optimization
