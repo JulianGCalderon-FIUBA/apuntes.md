@@ -27,10 +27,10 @@ __export(main_exports, {
   default: () => AttachmentManagementPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian10 = require("obsidian");
+var import_obsidian11 = require("obsidian");
 
 // src/settings/settings.ts
-var import_obsidian = require("obsidian");
+var import_obsidian3 = require("obsidian");
 
 // src/lib/constant.ts
 var RENAME_EVENT_TYPE_FOLDER = "RENAME_EVENT_TYPE_FOLDER";
@@ -40,6 +40,7 @@ var SETTINGS_VARIABLES_NOTEPATH = "${notepath}";
 var SETTINGS_VARIABLES_NOTENAME = "${notename}";
 var SETTINGS_VARIABLES_NOTEPARENT = "${parent}";
 var SETTINGS_VARIABLES_ORIGINALNAME = "${originalname}";
+var SETTINGS_VARIABLES_MD5 = "${md5}";
 var SETTINGS_ROOT_OBSFOLDER = "obsFolder";
 var SETTINGS_ROOT_INFOLDER = "inFolderBelow";
 var SETTINGS_ROOT_NEXTTONOTE = "nextToNote";
@@ -54,6 +55,576 @@ function debugLog(...args) {
   }
 }
 
+// src/model/extensionOverride.ts
+var import_obsidian2 = require("obsidian");
+
+// src/utils.ts
+var import_obsidian = require("obsidian");
+
+// node_modules/ts-md5/dist/esm/md5.js
+var Md5 = class {
+  constructor() {
+    this._dataLength = 0;
+    this._bufferLength = 0;
+    this._state = new Int32Array(4);
+    this._buffer = new ArrayBuffer(68);
+    this._buffer8 = new Uint8Array(this._buffer, 0, 68);
+    this._buffer32 = new Uint32Array(this._buffer, 0, 17);
+    this.start();
+  }
+  static hashStr(str, raw = false) {
+    return this.onePassHasher.start().appendStr(str).end(raw);
+  }
+  static hashAsciiStr(str, raw = false) {
+    return this.onePassHasher.start().appendAsciiStr(str).end(raw);
+  }
+  static _hex(x) {
+    const hc = Md5.hexChars;
+    const ho = Md5.hexOut;
+    let n;
+    let offset;
+    let j;
+    let i;
+    for (i = 0; i < 4; i += 1) {
+      offset = i * 8;
+      n = x[i];
+      for (j = 0; j < 8; j += 2) {
+        ho[offset + 1 + j] = hc.charAt(n & 15);
+        n >>>= 4;
+        ho[offset + 0 + j] = hc.charAt(n & 15);
+        n >>>= 4;
+      }
+    }
+    return ho.join("");
+  }
+  static _md5cycle(x, k) {
+    let a = x[0];
+    let b = x[1];
+    let c = x[2];
+    let d = x[3];
+    a += (b & c | ~b & d) + k[0] - 680876936 | 0;
+    a = (a << 7 | a >>> 25) + b | 0;
+    d += (a & b | ~a & c) + k[1] - 389564586 | 0;
+    d = (d << 12 | d >>> 20) + a | 0;
+    c += (d & a | ~d & b) + k[2] + 606105819 | 0;
+    c = (c << 17 | c >>> 15) + d | 0;
+    b += (c & d | ~c & a) + k[3] - 1044525330 | 0;
+    b = (b << 22 | b >>> 10) + c | 0;
+    a += (b & c | ~b & d) + k[4] - 176418897 | 0;
+    a = (a << 7 | a >>> 25) + b | 0;
+    d += (a & b | ~a & c) + k[5] + 1200080426 | 0;
+    d = (d << 12 | d >>> 20) + a | 0;
+    c += (d & a | ~d & b) + k[6] - 1473231341 | 0;
+    c = (c << 17 | c >>> 15) + d | 0;
+    b += (c & d | ~c & a) + k[7] - 45705983 | 0;
+    b = (b << 22 | b >>> 10) + c | 0;
+    a += (b & c | ~b & d) + k[8] + 1770035416 | 0;
+    a = (a << 7 | a >>> 25) + b | 0;
+    d += (a & b | ~a & c) + k[9] - 1958414417 | 0;
+    d = (d << 12 | d >>> 20) + a | 0;
+    c += (d & a | ~d & b) + k[10] - 42063 | 0;
+    c = (c << 17 | c >>> 15) + d | 0;
+    b += (c & d | ~c & a) + k[11] - 1990404162 | 0;
+    b = (b << 22 | b >>> 10) + c | 0;
+    a += (b & c | ~b & d) + k[12] + 1804603682 | 0;
+    a = (a << 7 | a >>> 25) + b | 0;
+    d += (a & b | ~a & c) + k[13] - 40341101 | 0;
+    d = (d << 12 | d >>> 20) + a | 0;
+    c += (d & a | ~d & b) + k[14] - 1502002290 | 0;
+    c = (c << 17 | c >>> 15) + d | 0;
+    b += (c & d | ~c & a) + k[15] + 1236535329 | 0;
+    b = (b << 22 | b >>> 10) + c | 0;
+    a += (b & d | c & ~d) + k[1] - 165796510 | 0;
+    a = (a << 5 | a >>> 27) + b | 0;
+    d += (a & c | b & ~c) + k[6] - 1069501632 | 0;
+    d = (d << 9 | d >>> 23) + a | 0;
+    c += (d & b | a & ~b) + k[11] + 643717713 | 0;
+    c = (c << 14 | c >>> 18) + d | 0;
+    b += (c & a | d & ~a) + k[0] - 373897302 | 0;
+    b = (b << 20 | b >>> 12) + c | 0;
+    a += (b & d | c & ~d) + k[5] - 701558691 | 0;
+    a = (a << 5 | a >>> 27) + b | 0;
+    d += (a & c | b & ~c) + k[10] + 38016083 | 0;
+    d = (d << 9 | d >>> 23) + a | 0;
+    c += (d & b | a & ~b) + k[15] - 660478335 | 0;
+    c = (c << 14 | c >>> 18) + d | 0;
+    b += (c & a | d & ~a) + k[4] - 405537848 | 0;
+    b = (b << 20 | b >>> 12) + c | 0;
+    a += (b & d | c & ~d) + k[9] + 568446438 | 0;
+    a = (a << 5 | a >>> 27) + b | 0;
+    d += (a & c | b & ~c) + k[14] - 1019803690 | 0;
+    d = (d << 9 | d >>> 23) + a | 0;
+    c += (d & b | a & ~b) + k[3] - 187363961 | 0;
+    c = (c << 14 | c >>> 18) + d | 0;
+    b += (c & a | d & ~a) + k[8] + 1163531501 | 0;
+    b = (b << 20 | b >>> 12) + c | 0;
+    a += (b & d | c & ~d) + k[13] - 1444681467 | 0;
+    a = (a << 5 | a >>> 27) + b | 0;
+    d += (a & c | b & ~c) + k[2] - 51403784 | 0;
+    d = (d << 9 | d >>> 23) + a | 0;
+    c += (d & b | a & ~b) + k[7] + 1735328473 | 0;
+    c = (c << 14 | c >>> 18) + d | 0;
+    b += (c & a | d & ~a) + k[12] - 1926607734 | 0;
+    b = (b << 20 | b >>> 12) + c | 0;
+    a += (b ^ c ^ d) + k[5] - 378558 | 0;
+    a = (a << 4 | a >>> 28) + b | 0;
+    d += (a ^ b ^ c) + k[8] - 2022574463 | 0;
+    d = (d << 11 | d >>> 21) + a | 0;
+    c += (d ^ a ^ b) + k[11] + 1839030562 | 0;
+    c = (c << 16 | c >>> 16) + d | 0;
+    b += (c ^ d ^ a) + k[14] - 35309556 | 0;
+    b = (b << 23 | b >>> 9) + c | 0;
+    a += (b ^ c ^ d) + k[1] - 1530992060 | 0;
+    a = (a << 4 | a >>> 28) + b | 0;
+    d += (a ^ b ^ c) + k[4] + 1272893353 | 0;
+    d = (d << 11 | d >>> 21) + a | 0;
+    c += (d ^ a ^ b) + k[7] - 155497632 | 0;
+    c = (c << 16 | c >>> 16) + d | 0;
+    b += (c ^ d ^ a) + k[10] - 1094730640 | 0;
+    b = (b << 23 | b >>> 9) + c | 0;
+    a += (b ^ c ^ d) + k[13] + 681279174 | 0;
+    a = (a << 4 | a >>> 28) + b | 0;
+    d += (a ^ b ^ c) + k[0] - 358537222 | 0;
+    d = (d << 11 | d >>> 21) + a | 0;
+    c += (d ^ a ^ b) + k[3] - 722521979 | 0;
+    c = (c << 16 | c >>> 16) + d | 0;
+    b += (c ^ d ^ a) + k[6] + 76029189 | 0;
+    b = (b << 23 | b >>> 9) + c | 0;
+    a += (b ^ c ^ d) + k[9] - 640364487 | 0;
+    a = (a << 4 | a >>> 28) + b | 0;
+    d += (a ^ b ^ c) + k[12] - 421815835 | 0;
+    d = (d << 11 | d >>> 21) + a | 0;
+    c += (d ^ a ^ b) + k[15] + 530742520 | 0;
+    c = (c << 16 | c >>> 16) + d | 0;
+    b += (c ^ d ^ a) + k[2] - 995338651 | 0;
+    b = (b << 23 | b >>> 9) + c | 0;
+    a += (c ^ (b | ~d)) + k[0] - 198630844 | 0;
+    a = (a << 6 | a >>> 26) + b | 0;
+    d += (b ^ (a | ~c)) + k[7] + 1126891415 | 0;
+    d = (d << 10 | d >>> 22) + a | 0;
+    c += (a ^ (d | ~b)) + k[14] - 1416354905 | 0;
+    c = (c << 15 | c >>> 17) + d | 0;
+    b += (d ^ (c | ~a)) + k[5] - 57434055 | 0;
+    b = (b << 21 | b >>> 11) + c | 0;
+    a += (c ^ (b | ~d)) + k[12] + 1700485571 | 0;
+    a = (a << 6 | a >>> 26) + b | 0;
+    d += (b ^ (a | ~c)) + k[3] - 1894986606 | 0;
+    d = (d << 10 | d >>> 22) + a | 0;
+    c += (a ^ (d | ~b)) + k[10] - 1051523 | 0;
+    c = (c << 15 | c >>> 17) + d | 0;
+    b += (d ^ (c | ~a)) + k[1] - 2054922799 | 0;
+    b = (b << 21 | b >>> 11) + c | 0;
+    a += (c ^ (b | ~d)) + k[8] + 1873313359 | 0;
+    a = (a << 6 | a >>> 26) + b | 0;
+    d += (b ^ (a | ~c)) + k[15] - 30611744 | 0;
+    d = (d << 10 | d >>> 22) + a | 0;
+    c += (a ^ (d | ~b)) + k[6] - 1560198380 | 0;
+    c = (c << 15 | c >>> 17) + d | 0;
+    b += (d ^ (c | ~a)) + k[13] + 1309151649 | 0;
+    b = (b << 21 | b >>> 11) + c | 0;
+    a += (c ^ (b | ~d)) + k[4] - 145523070 | 0;
+    a = (a << 6 | a >>> 26) + b | 0;
+    d += (b ^ (a | ~c)) + k[11] - 1120210379 | 0;
+    d = (d << 10 | d >>> 22) + a | 0;
+    c += (a ^ (d | ~b)) + k[2] + 718787259 | 0;
+    c = (c << 15 | c >>> 17) + d | 0;
+    b += (d ^ (c | ~a)) + k[9] - 343485551 | 0;
+    b = (b << 21 | b >>> 11) + c | 0;
+    x[0] = a + x[0] | 0;
+    x[1] = b + x[1] | 0;
+    x[2] = c + x[2] | 0;
+    x[3] = d + x[3] | 0;
+  }
+  /**
+   * Initialise buffer to be hashed
+   */
+  start() {
+    this._dataLength = 0;
+    this._bufferLength = 0;
+    this._state.set(Md5.stateIdentity);
+    return this;
+  }
+  // Char to code point to to array conversion:
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt
+  // #Example.3A_Fixing_charCodeAt_to_handle_non-Basic-Multilingual-Plane_characters_if_their_presence_earlier_in_the_string_is_unknown
+  /**
+   * Append a UTF-8 string to the hash buffer
+   * @param str String to append
+   */
+  appendStr(str) {
+    const buf8 = this._buffer8;
+    const buf32 = this._buffer32;
+    let bufLen = this._bufferLength;
+    let code;
+    let i;
+    for (i = 0; i < str.length; i += 1) {
+      code = str.charCodeAt(i);
+      if (code < 128) {
+        buf8[bufLen++] = code;
+      } else if (code < 2048) {
+        buf8[bufLen++] = (code >>> 6) + 192;
+        buf8[bufLen++] = code & 63 | 128;
+      } else if (code < 55296 || code > 56319) {
+        buf8[bufLen++] = (code >>> 12) + 224;
+        buf8[bufLen++] = code >>> 6 & 63 | 128;
+        buf8[bufLen++] = code & 63 | 128;
+      } else {
+        code = (code - 55296) * 1024 + (str.charCodeAt(++i) - 56320) + 65536;
+        if (code > 1114111) {
+          throw new Error("Unicode standard supports code points up to U+10FFFF");
+        }
+        buf8[bufLen++] = (code >>> 18) + 240;
+        buf8[bufLen++] = code >>> 12 & 63 | 128;
+        buf8[bufLen++] = code >>> 6 & 63 | 128;
+        buf8[bufLen++] = code & 63 | 128;
+      }
+      if (bufLen >= 64) {
+        this._dataLength += 64;
+        Md5._md5cycle(this._state, buf32);
+        bufLen -= 64;
+        buf32[0] = buf32[16];
+      }
+    }
+    this._bufferLength = bufLen;
+    return this;
+  }
+  /**
+   * Append an ASCII string to the hash buffer
+   * @param str String to append
+   */
+  appendAsciiStr(str) {
+    const buf8 = this._buffer8;
+    const buf32 = this._buffer32;
+    let bufLen = this._bufferLength;
+    let i;
+    let j = 0;
+    for (; ; ) {
+      i = Math.min(str.length - j, 64 - bufLen);
+      while (i--) {
+        buf8[bufLen++] = str.charCodeAt(j++);
+      }
+      if (bufLen < 64) {
+        break;
+      }
+      this._dataLength += 64;
+      Md5._md5cycle(this._state, buf32);
+      bufLen = 0;
+    }
+    this._bufferLength = bufLen;
+    return this;
+  }
+  /**
+   * Append a byte array to the hash buffer
+   * @param input array to append
+   */
+  appendByteArray(input) {
+    const buf8 = this._buffer8;
+    const buf32 = this._buffer32;
+    let bufLen = this._bufferLength;
+    let i;
+    let j = 0;
+    for (; ; ) {
+      i = Math.min(input.length - j, 64 - bufLen);
+      while (i--) {
+        buf8[bufLen++] = input[j++];
+      }
+      if (bufLen < 64) {
+        break;
+      }
+      this._dataLength += 64;
+      Md5._md5cycle(this._state, buf32);
+      bufLen = 0;
+    }
+    this._bufferLength = bufLen;
+    return this;
+  }
+  /**
+   * Get the state of the hash buffer
+   */
+  getState() {
+    const s = this._state;
+    return {
+      buffer: String.fromCharCode.apply(null, Array.from(this._buffer8)),
+      buflen: this._bufferLength,
+      length: this._dataLength,
+      state: [s[0], s[1], s[2], s[3]]
+    };
+  }
+  /**
+   * Override the current state of the hash buffer
+   * @param state New hash buffer state
+   */
+  setState(state) {
+    const buf = state.buffer;
+    const x = state.state;
+    const s = this._state;
+    let i;
+    this._dataLength = state.length;
+    this._bufferLength = state.buflen;
+    s[0] = x[0];
+    s[1] = x[1];
+    s[2] = x[2];
+    s[3] = x[3];
+    for (i = 0; i < buf.length; i += 1) {
+      this._buffer8[i] = buf.charCodeAt(i);
+    }
+  }
+  /**
+   * Hash the current state of the hash buffer and return the result
+   * @param raw Whether to return the value as an `Int32Array`
+   */
+  end(raw = false) {
+    const bufLen = this._bufferLength;
+    const buf8 = this._buffer8;
+    const buf32 = this._buffer32;
+    const i = (bufLen >> 2) + 1;
+    this._dataLength += bufLen;
+    const dataBitsLen = this._dataLength * 8;
+    buf8[bufLen] = 128;
+    buf8[bufLen + 1] = buf8[bufLen + 2] = buf8[bufLen + 3] = 0;
+    buf32.set(Md5.buffer32Identity.subarray(i), i);
+    if (bufLen > 55) {
+      Md5._md5cycle(this._state, buf32);
+      buf32.set(Md5.buffer32Identity);
+    }
+    if (dataBitsLen <= 4294967295) {
+      buf32[14] = dataBitsLen;
+    } else {
+      const matches = dataBitsLen.toString(16).match(/(.*?)(.{0,8})$/);
+      if (matches === null) {
+        return;
+      }
+      const lo = parseInt(matches[2], 16);
+      const hi = parseInt(matches[1], 16) || 0;
+      buf32[14] = lo;
+      buf32[15] = hi;
+    }
+    Md5._md5cycle(this._state, buf32);
+    return raw ? this._state : Md5._hex(this._state);
+  }
+};
+Md5.stateIdentity = new Int32Array([1732584193, -271733879, -1732584194, 271733878]);
+Md5.buffer32Identity = new Int32Array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
+Md5.hexChars = "0123456789abcdef";
+Md5.hexOut = [];
+Md5.onePassHasher = new Md5();
+if (Md5.hashStr("hello") !== "5d41402abc4b2a76b9719d911017c592") {
+  throw new Error("Md5 self test failed.");
+}
+
+// src/utils.ts
+var PASTED_IMAGE_PREFIX = "Pasted image ";
+var ImageExtensionRegex = /^(jpe?g|png|gif|svg|bmp|eps|webp)$/i;
+function isMarkdownFile(extension) {
+  return extension === "md";
+}
+function isCanvasFile(extension) {
+  return extension === "canvas";
+}
+function isPastedImage(file) {
+  if (file instanceof import_obsidian.TFile) {
+    if (file.name.startsWith(PASTED_IMAGE_PREFIX)) {
+      return true;
+    }
+  }
+  return false;
+}
+function isImage(extension) {
+  const match = extension.match(ImageExtensionRegex);
+  if (match !== null) {
+    return true;
+  }
+  return false;
+}
+function stripPaths(src, dst) {
+  if (src === dst) {
+    return { stripedSrc: src, stripedDst: dst };
+  }
+  const srcParts = src.split("/");
+  const dstParts = dst.split("/");
+  if (srcParts.length !== dstParts.length) {
+    return { stripedSrc: src, stripedDst: dst };
+  }
+  for (let i = 0; i < srcParts.length; i++) {
+    const srcPart = srcParts[i];
+    const dstPart = dstParts[i];
+    if (srcPart !== dstPart) {
+      return {
+        stripedSrc: srcParts.slice(0, i + 1).join("/"),
+        stripedDst: dstParts.slice(0, i + 1).join("/")
+      };
+    }
+  }
+  return { stripedSrc: "", stripedDst: "" };
+}
+function matchExtension(extension, pattern) {
+  if (!pattern || pattern === "")
+    return false;
+  return new RegExp(pattern).test(extension);
+}
+function isAttachment(settings, filePath) {
+  let file = null;
+  if (filePath instanceof import_obsidian.TAbstractFile) {
+    file = filePath;
+  } else {
+    file = this.app.vault.getAbstractFileByPath(filePath);
+  }
+  if (file === null || !(file instanceof import_obsidian.TFile)) {
+    return false;
+  }
+  if (isMarkdownFile(file.extension) || isCanvasFile(file.extension)) {
+    return false;
+  }
+  return !matchExtension(file.extension, settings.excludeExtensionPattern);
+}
+function attachRenameType(setting) {
+  let ret = "BOTH" /* BOTH */;
+  if (setting.attachFormat.includes(SETTINGS_VARIABLES_NOTENAME)) {
+    if (setting.attachmentPath.includes(SETTINGS_VARIABLES_NOTENAME) || setting.attachmentPath.includes(SETTINGS_VARIABLES_NOTEPATH) || setting.attachmentPath.includes(SETTINGS_VARIABLES_NOTEPARENT)) {
+      ret = "BOTH" /* BOTH */;
+    } else {
+      ret = "FILE" /* FILE */;
+    }
+  } else if (setting.attachmentPath.includes(SETTINGS_VARIABLES_NOTENAME) || setting.attachmentPath.includes(SETTINGS_VARIABLES_NOTEPATH) || setting.attachmentPath.includes(SETTINGS_VARIABLES_NOTEPARENT)) {
+    ret = "FOLDER" /* FOLDER */;
+  }
+  return ret;
+}
+async function MD5(adapter, file) {
+  const md5 = new Md5();
+  if (!adapter.exists(file.path, true)) {
+    return "";
+  }
+  const content = await adapter.readBinary(file.path);
+  md5.appendByteArray(new Uint8Array(content));
+  const ret = md5.end();
+  return ret.toUpperCase();
+}
+function validateExtensionEntry(setting, plugin) {
+  const wrongIndex = [];
+  if (setting.extensionOverride !== void 0) {
+    const extOverride = setting.extensionOverride;
+    if (extOverride.some((ext) => ext.extension === "")) {
+      wrongIndex.push({ type: "empty", index: extOverride.findIndex((ext) => ext.extension === "") });
+    }
+    const duplicate = extOverride.map((ext) => ext.extension).filter((value, index, self) => self.indexOf(value) !== index);
+    if (duplicate.length > 0) {
+      duplicate.forEach((dupli) => {
+        wrongIndex.push({ type: "duplicate", index: extOverride.findIndex((ext) => dupli === ext.extension) });
+      });
+    }
+    const markdown = extOverride.filter((ext) => ext.extension === "md");
+    if (markdown.length > 0) {
+      wrongIndex.push({ type: "md", index: extOverride.findIndex((ext) => ext.extension === "md") });
+    }
+    const canvas = extOverride.filter((ext) => ext.extension === "canvas");
+    if (canvas.length > 0) {
+      wrongIndex.push({ type: "canvas", index: extOverride.findIndex((ext) => ext.extension === "canvas") });
+    }
+    const excludedFromSettings = plugin.excludeExtensionPattern.split("|");
+    const excluded = extOverride.filter((ext) => excludedFromSettings.includes(ext.extension));
+    if (excluded.length > 0) {
+      wrongIndex.push({
+        type: "excluded",
+        index: extOverride.findIndex((ext) => excludedFromSettings.includes(ext.extension))
+      });
+    }
+  }
+  return wrongIndex;
+}
+function generateErrorExtensionMessage(type) {
+  if (type === "canvas") {
+    new import_obsidian.Notice("Canvas is not supported as an extension override.");
+  } else if (type === "md") {
+    new import_obsidian.Notice("Markdown is not supported as an extension override.");
+  } else if (type === "empty") {
+    new import_obsidian.Notice("Extension override cannot be empty.");
+  } else if (type === "duplicate") {
+    new import_obsidian.Notice("Duplicate extension override.");
+  } else if (type === "excluded") {
+    new import_obsidian.Notice("Extension override cannot be an excluded extension.");
+  }
+}
+
+// src/model/extensionOverride.ts
+function getExtensionOverrideSetting(extension, settings) {
+  if (settings.extensionOverride === void 0 || settings.extensionOverride.length === 0) {
+    return { extSetting: void 0 };
+  }
+  for (let i = 0; i < settings.extensionOverride.length; i++) {
+    if (matchExtension(extension, settings.extensionOverride[i].extension)) {
+      debugLog("getExtensionOverrideSetting - ", settings.extensionOverride[i].extension, settings.extensionOverride[i]);
+      return { extSetting: settings.extensionOverride[i] };
+    }
+  }
+  return { extSetting: void 0 };
+}
+var OverrideExtensionModal = class extends import_obsidian2.Modal {
+  constructor(plugin, settings, onSubmit) {
+    super(plugin.app);
+    this.plugin = plugin;
+    this.settings = settings;
+    this.onSubmit = onSubmit;
+  }
+  displaySw(cont) {
+    cont.findAll(".setting-item").forEach((el) => {
+      var _a;
+      if ((_a = el.getAttr("class")) == null ? void 0 : _a.includes("override_root_folder_set")) {
+        if (this.settings.saveAttE === "obsFolder") {
+          el.hide();
+        } else {
+          el.show();
+        }
+      }
+    });
+  }
+  onOpen() {
+    const { contentEl } = this;
+    contentEl.empty();
+    contentEl.createEl("h3", {
+      text: `Extension settings for ${this.settings.extension}`
+    });
+    new import_obsidian2.Setting(contentEl).setName("Root path to save new attachments").setDesc("Select root path for all new attachments").addDropdown(
+      (text) => text.addOption(`${SETTINGS_ROOT_OBSFOLDER}`, "Copy Obsidian settings").addOption(`${SETTINGS_ROOT_INFOLDER}`, "In the folder specified below").addOption(`${SETTINGS_ROOT_NEXTTONOTE}`, "Next to note in folder specified below").setValue(this.settings.saveAttE).onChange(async (value) => {
+        this.settings.saveAttE = value;
+        this.displaySw(contentEl);
+        this.onOpen();
+      })
+    );
+    if (this.settings.saveAttE !== "obsFolder") {
+      new import_obsidian2.Setting(contentEl).setName("Root folder").setClass("override_root_folder_set").addText(
+        (text) => text.setPlaceholder(DEFAULT_SETTINGS.attachPath.attachmentRoot).setValue(this.settings.attachmentRoot).onChange(async (value) => {
+          this.settings.attachmentRoot = value;
+        })
+      );
+    }
+    new import_obsidian2.Setting(contentEl).setName("Attachment path").setDesc(
+      `Path of new attachment in root folder, available variables ${SETTINGS_VARIABLES_NOTEPATH}, ${SETTINGS_VARIABLES_NOTENAME} and ${SETTINGS_VARIABLES_NOTEPARENT}`
+    ).addText(
+      (text) => text.setPlaceholder(DEFAULT_SETTINGS.attachPath.attachmentPath).setValue(this.settings.attachmentPath).onChange(async (value) => {
+        this.settings.attachmentPath = value;
+      })
+    );
+    new import_obsidian2.Setting(contentEl).setName("Attachment format").setDesc(
+      `Define how to name the attachment file, available variables ${SETTINGS_VARIABLES_DATES} and ${SETTINGS_VARIABLES_NOTENAME}`
+    ).addText(
+      (text) => text.setPlaceholder(DEFAULT_SETTINGS.attachPath.attachFormat).setValue(this.settings.attachFormat).onChange(async (value) => {
+        this.settings.attachFormat = value;
+      })
+    );
+    new import_obsidian2.Setting(contentEl).addButton(
+      (button) => button.setButtonText("Save").onClick(async () => {
+        this.onSubmit(this.settings);
+        this.close();
+      })
+    );
+  }
+  onClose() {
+    const { contentEl } = this;
+    contentEl.empty();
+  }
+};
+
 // src/settings/settings.ts
 var DEFAULT_SETTINGS = {
   attachPath: {
@@ -64,7 +635,6 @@ var DEFAULT_SETTINGS = {
     type: "GLOBAL" /* GLOBAL */
   },
   dateFormat: "YYYYMMDDHHmmssSSS",
-  handleAll: false,
   excludeExtensionPattern: "",
   autoRenameAttachment: true,
   excludedPaths: "",
@@ -72,23 +642,16 @@ var DEFAULT_SETTINGS = {
   excludeSubpaths: false,
   overridePath: {}
 };
-var SettingTab = class extends import_obsidian.PluginSettingTab {
+var SettingTab = class extends import_obsidian3.PluginSettingTab {
   constructor(app2, plugin) {
     super(app2, plugin);
     this.plugin = plugin;
   }
   displaySw(cont) {
     cont.findAll(".setting-item").forEach((el) => {
-      var _a, _b;
+      var _a;
       if ((_a = el.getAttr("class")) == null ? void 0 : _a.includes("root_folder_set")) {
         if (this.plugin.settings.attachPath.saveAttE === "obsFolder") {
-          el.hide();
-        } else {
-          el.show();
-        }
-      }
-      if ((_b = el.getAttr("class")) == null ? void 0 : _b.includes("exclude_extension_pattern")) {
-        if (!this.plugin.settings.handleAll) {
           el.hide();
         } else {
           el.show();
@@ -107,21 +670,21 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    new import_obsidian.Setting(containerEl).setName("Root path to save new attachments").setDesc("Select root path for all new attachments").addDropdown(
+    new import_obsidian3.Setting(containerEl).setName("Root path to save new attachments").setDesc("Select root path for all new attachments").addDropdown(
       (text) => text.addOption(`${SETTINGS_ROOT_OBSFOLDER}`, "Copy Obsidian settings").addOption(`${SETTINGS_ROOT_INFOLDER}`, "In the folder specified below").addOption(`${SETTINGS_ROOT_NEXTTONOTE}`, "Next to note in folder specified below").setValue(this.plugin.settings.attachPath.saveAttE).onChange(async (value) => {
         this.plugin.settings.attachPath.saveAttE = value;
         this.displaySw(containerEl);
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian.Setting(containerEl).setName("Root folder").setDesc("Root folder of new attachment").setClass("root_folder_set").addText(
+    new import_obsidian3.Setting(containerEl).setName("Root folder").setDesc("Root folder of new attachment").setClass("root_folder_set").addText(
       (text) => text.setPlaceholder(DEFAULT_SETTINGS.attachPath.attachmentRoot).setValue(this.plugin.settings.attachPath.attachmentRoot).onChange(async (value) => {
         debugLog("setting - attachment root:" + value);
         this.plugin.settings.attachPath.attachmentRoot = value;
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian.Setting(containerEl).setName("Attachment path").setDesc(
+    new import_obsidian3.Setting(containerEl).setName("Attachment path").setDesc(
       `Path of new attachment in root folder, available variables ${SETTINGS_VARIABLES_NOTEPATH}, ${SETTINGS_VARIABLES_NOTENAME}, ${SETTINGS_VARIABLES_NOTEPARENT}`
     ).addText(
       (text) => text.setPlaceholder(DEFAULT_SETTINGS.attachPath.attachmentPath).setValue(this.plugin.settings.attachPath.attachmentPath).onChange(async (value) => {
@@ -130,7 +693,7 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian.Setting(containerEl).setName("Attachment format").setDesc(
+    new import_obsidian3.Setting(containerEl).setName("Attachment format").setDesc(
       `Define how to name the attachment file, available variables ${SETTINGS_VARIABLES_DATES}, ${SETTINGS_VARIABLES_NOTENAME} and ${SETTINGS_VARIABLES_ORIGINALNAME}.`
     ).addText(
       (text) => text.setPlaceholder(DEFAULT_SETTINGS.attachPath.attachFormat).setValue(this.plugin.settings.attachPath.attachFormat).onChange(async (value) => {
@@ -139,7 +702,7 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian.Setting(containerEl).setName("Date format").setDesc(
+    new import_obsidian3.Setting(containerEl).setName("Date format").setDesc(
       createFragment((frag) => {
         frag.appendText("Moment date format to use ");
         frag.createEl("a", {
@@ -154,25 +717,7 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("Handle all attachments").setDesc(
-      "By default, only auto-rename the image file, if enable this option, all created file (except 'md' or 'canvas') will be renamed automatically"
-    ).addToggle(
-      (toggle) => toggle.setValue(this.plugin.settings.handleAll).onChange(async (value) => {
-        debugLog("setting - handle all attachment:" + value);
-        this.plugin.settings.handleAll = value;
-        this.displaySw(containerEl);
-        await this.plugin.saveSettings();
-      })
-    );
-    new import_obsidian.Setting(containerEl).setName("Exclude extension pattern").setDesc(
-      `This option is only useful when "Handle all attachments" is enabled.	Write a Regex pattern to exclude certain extensions from being handled.`
-    ).setClass("exclude_extension_pattern").setClass("attach_management_sub_setting").addText(
-      (text) => text.setPlaceholder("pdf|docx?|xlsx?|pptx?|zip|rar").setValue(this.plugin.settings.excludeExtensionPattern).onChange(async (value) => {
-        this.plugin.settings.excludeExtensionPattern = value;
-        await this.plugin.saveSettings();
-      })
-    );
-    new import_obsidian.Setting(containerEl).setName("Automatically rename attachment").setDesc(
+    new import_obsidian3.Setting(containerEl).setName("Automatically rename attachment").setDesc(
       "Automatically rename the attachment folder/filename when you rename the folder/filename where the corresponding md/canvas file be placed."
     ).addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.autoRenameAttachment).onChange(async (value) => {
@@ -181,7 +726,68 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian.Setting(containerEl).setName("Excluded paths").setDesc(
+    new import_obsidian3.Setting(containerEl).addButton((btn) => {
+      btn.setButtonText("Add extension overrides").onClick(async () => {
+        if (this.plugin.settings.attachPath.extensionOverride === void 0) {
+          this.plugin.settings.attachPath.extensionOverride = [];
+        }
+        this.plugin.settings.attachPath.extensionOverride.push({
+          extension: "",
+          attachmentRoot: this.plugin.settings.attachPath.attachmentRoot,
+          saveAttE: this.plugin.settings.attachPath.saveAttE,
+          attachmentPath: this.plugin.settings.attachPath.attachmentPath,
+          attachFormat: this.plugin.settings.attachPath.attachFormat
+        });
+        await this.plugin.saveSettings();
+        this.display();
+      });
+    });
+    if (this.plugin.settings.attachPath.extensionOverride !== void 0) {
+      this.plugin.settings.attachPath.extensionOverride.forEach((ext) => {
+        new import_obsidian3.Setting(containerEl).setName("Extension").setDesc("Extension to override").setClass("override_extension_set").addText(
+          (text) => text.setPlaceholder("pdf").setValue(ext.extension).onChange(async (value) => {
+            ext.extension = value;
+          })
+        ).addButton((btn) => {
+          btn.setIcon("trash").setTooltip("Remove extension override").onClick(async () => {
+            var _a, _b, _c;
+            const index = (_b = (_a = this.plugin.settings.attachPath.extensionOverride) == null ? void 0 : _a.indexOf(ext)) != null ? _b : -1;
+            (_c = this.plugin.settings.attachPath.extensionOverride) == null ? void 0 : _c.splice(index, 1);
+            await this.plugin.saveSettings();
+            this.display();
+          });
+        }).addButton((btn) => {
+          btn.setIcon("pencil").setTooltip("Edit extension override").onClick(async () => {
+            new OverrideExtensionModal(this.plugin, ext, (result) => {
+              ext = result;
+            }).open();
+          });
+        }).addButton((btn) => {
+          btn.setIcon("check").setTooltip("Save extension override").onClick(async () => {
+            const wrongIndex = validateExtensionEntry(this.plugin.settings.attachPath, this.plugin.settings);
+            if (wrongIndex.length > 0) {
+              for (const i of wrongIndex) {
+                const resIndex = i.index < 0 ? 0 : i.index;
+                const wrongSetting = containerEl.getElementsByClassName("override_extension_set")[resIndex];
+                wrongSetting.getElementsByTagName("input")[0].style.border = "1px solid var(--color-red)";
+                generateErrorExtensionMessage(i.type);
+              }
+              return;
+            }
+            await this.plugin.saveSettings();
+            this.display();
+            new import_obsidian3.Notice("Saved extension override");
+          });
+        });
+      });
+    }
+    new import_obsidian3.Setting(containerEl).setName("Exclude extension pattern").setDesc(`Regex pattern to exclude certain extensions from being handled.`).addText(
+      (text) => text.setPlaceholder("pdf|docx?|xlsx?|pptx?|zip|rar").setValue(this.plugin.settings.excludeExtensionPattern).onChange(async (value) => {
+        this.plugin.settings.excludeExtensionPattern = value;
+        await this.plugin.saveSettings();
+      })
+    );
+    new import_obsidian3.Setting(containerEl).setName("Excluded paths").setDesc(
       `Provide the full path of the folder names (case sensitive and without leading slash '/') divided by semicolon (;) to be excluded from renaming.`
     ).addTextArea((component) => {
       component.setValue(this.plugin.settings.excludedPaths).onChange(async (value) => {
@@ -192,7 +798,7 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian.Setting(containerEl).setName("Exclude subpaths").setDesc("Turn on this option if you want to also exclude all subfolders of the folder paths provided above.").addToggle(
+    new import_obsidian3.Setting(containerEl).setName("Exclude subpaths").setDesc("Turn on this option if you want to also exclude all subfolders of the folder paths provided above.").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.excludeSubpaths).onChange(async (value) => {
         debugLog("setting - excluded subpaths:" + value);
         this.plugin.settings.excludeSubpaths = value;
@@ -204,8 +810,8 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
 };
 
 // src/model/override.ts
-var import_obsidian2 = require("obsidian");
-var OverrideModal = class extends import_obsidian2.Modal {
+var import_obsidian4 = require("obsidian");
+var OverrideModal = class extends import_obsidian4.Modal {
   constructor(plugin, file, setting) {
     super(plugin.app);
     this.plugin = plugin;
@@ -230,19 +836,19 @@ var OverrideModal = class extends import_obsidian2.Modal {
     contentEl.createEl("h3", {
       text: "Overriding Settings"
     });
-    new import_obsidian2.Setting(contentEl).setName("Root path to save new attachments").setDesc("Select root path for all new attachments").addDropdown(
+    new import_obsidian4.Setting(contentEl).setName("Root path to save new attachments").setDesc("Select root path for all new attachments").addDropdown(
       (text) => text.addOption(`${SETTINGS_ROOT_OBSFOLDER}`, "Copy Obsidian settings").addOption(`${SETTINGS_ROOT_INFOLDER}`, "In the folder specified below").addOption(`${SETTINGS_ROOT_NEXTTONOTE}`, "Next to note in folder specified below").setValue(this.setting.saveAttE).onChange(async (value) => {
         this.setting.saveAttE = value;
         this.displaySw(contentEl);
       })
     );
-    new import_obsidian2.Setting(contentEl).setName("Root folder").setClass("override_root_folder_set").addText(
+    new import_obsidian4.Setting(contentEl).setName("Root folder").setClass("override_root_folder_set").addText(
       (text) => text.setPlaceholder(DEFAULT_SETTINGS.attachPath.attachmentRoot).setValue(this.setting.attachmentRoot).onChange(async (value) => {
         debugLog("override - attachment root:" + value);
         this.setting.attachmentRoot = value;
       })
     );
-    new import_obsidian2.Setting(contentEl).setName("Attachment path").setDesc(
+    new import_obsidian4.Setting(contentEl).setName("Attachment path").setDesc(
       `Path of new attachment in root folder, available variables ${SETTINGS_VARIABLES_NOTEPATH}, ${SETTINGS_VARIABLES_NOTENAME} and ${SETTINGS_VARIABLES_NOTEPARENT}`
     ).addText(
       (text) => text.setPlaceholder(DEFAULT_SETTINGS.attachPath.attachmentPath).setValue(this.setting.attachmentPath).onChange(async (value) => {
@@ -250,33 +856,70 @@ var OverrideModal = class extends import_obsidian2.Modal {
         this.setting.attachmentPath = value;
       })
     );
-    new import_obsidian2.Setting(contentEl).setName("Attachment format").setDesc(
-      `Define how to name the attachment file, available variables ${SETTINGS_VARIABLES_DATES} and ${SETTINGS_VARIABLES_NOTENAME}`
-    ).addText(
+    new import_obsidian4.Setting(contentEl).setName("Attachment format").setDesc(`Define how to name the attachment file, available variables ${SETTINGS_VARIABLES_DATES} and ${SETTINGS_VARIABLES_NOTENAME}`).addText(
       (text) => text.setPlaceholder(DEFAULT_SETTINGS.attachPath.attachFormat).setValue(this.setting.attachFormat).onChange(async (value) => {
         debugLog("override - attachment format:" + value);
         this.setting.attachFormat = value;
       })
     );
-    new import_obsidian2.Setting(contentEl).addButton((btn) => {
+    new import_obsidian4.Setting(contentEl).addButton((btn) => {
+      btn.setButtonText("Add extension overrides").onClick(async () => {
+        if (this.setting.extensionOverride === void 0) {
+          this.setting.extensionOverride = [];
+        }
+        this.setting.extensionOverride.push({
+          extension: "",
+          saveAttE: this.setting.saveAttE,
+          attachmentRoot: this.setting.attachmentRoot,
+          attachmentPath: this.setting.attachmentPath,
+          attachFormat: this.setting.attachFormat
+        });
+        console.log(this.setting.extensionOverride);
+        this.onOpen();
+      });
+    });
+    if (this.setting.extensionOverride !== void 0) {
+      this.setting.extensionOverride.forEach((ext) => {
+        new import_obsidian4.Setting(contentEl).setName("Extension").setDesc("Extension to override").setClass("override_extension_set").addText(
+          (text) => text.setPlaceholder("pdf").setValue(ext.extension).onChange(async (value) => {
+            ext.extension = value;
+          })
+        ).addButton((btn) => {
+          btn.setIcon("trash").onClick(async () => {
+            var _a, _b, _c;
+            const index = (_b = (_a = this.setting.extensionOverride) == null ? void 0 : _a.indexOf(ext)) != null ? _b : -1;
+            (_c = this.setting.extensionOverride) == null ? void 0 : _c.splice(index, 1);
+            this.onOpen();
+          });
+        }).addButton((btn) => {
+          btn.setIcon("pencil").onClick(async () => {
+            new OverrideExtensionModal(this.plugin, ext, (result) => {
+              ext = result;
+            }).open();
+          });
+        });
+      });
+    }
+    new import_obsidian4.Setting(contentEl).addButton((btn) => {
       btn.setButtonText("Reset").onClick(async () => {
         this.setting = this.plugin.settings.attachPath;
         delete this.plugin.settings.overridePath[this.file.path];
         await this.plugin.saveSettings();
         await this.plugin.loadSettings();
-        new import_obsidian2.Notice(`Reset attachment setting of ${this.file.path}`);
+        new import_obsidian4.Notice(`Reset attachment setting of ${this.file.path}`);
         this.close();
       });
     }).addButton(
       (btn) => btn.setButtonText("Submit").setCta().onClick(async () => {
-        if (this.file instanceof import_obsidian2.TFile) {
+        if (this.file instanceof import_obsidian4.TFile) {
           this.setting.type = "FILE" /* FILE */;
-        } else if (this.file instanceof import_obsidian2.TFolder) {
+        } else if (this.file instanceof import_obsidian4.TFolder) {
           this.setting.type = "FOLDER" /* FOLDER */;
         }
         this.plugin.settings.overridePath[this.file.path] = this.setting;
         await this.plugin.saveSettings();
         debugLog("override - overriding settings:", this.file.path, this.setting);
+        new import_obsidian4.Notice(`Overridden attachment setting of ${this.file.path}`);
         this.close();
       })
     );
@@ -336,13 +979,19 @@ var path = {
 };
 
 // src/commons.ts
-var import_obsidian3 = require("obsidian");
+var import_obsidian5 = require("obsidian");
 function getActiveFile(app2) {
   const view = getActiveView(app2);
-  return view == null ? void 0 : view.file;
+  if (view == null) {
+    return void 0;
+  } else if (view.file == null) {
+    return void 0;
+  } else {
+    return view.file;
+  }
 }
 function getActiveView(app2) {
-  return app2.workspace.getActiveViewOfType(import_obsidian3.TextFileView);
+  return app2.workspace.getActiveViewOfType(import_obsidian5.TextFileView);
 }
 function getRootPath(notePath, setting) {
   let root;
@@ -365,93 +1014,11 @@ function getRootPath(notePath, setting) {
         root = obsmediadir;
       }
   }
-  return root === "/" ? root : (0, import_obsidian3.normalizePath)(root);
+  return root === "/" ? root : (0, import_obsidian5.normalizePath)(root);
 }
 
 // src/override.ts
-var import_obsidian5 = require("obsidian");
-
-// src/utils.ts
-var import_obsidian4 = require("obsidian");
-var PASTED_IMAGE_PREFIX = "Pasted image ";
-var ImageExtensionRegex = /^(jpe?g|png|gif|svg|bmp|eps|webp)$/i;
-function isMarkdownFile(extension) {
-  return extension === "md";
-}
-function isCanvasFile(extension) {
-  return extension === "canvas";
-}
-function isPastedImage(file) {
-  if (file instanceof import_obsidian4.TFile) {
-    if (file.name.startsWith(PASTED_IMAGE_PREFIX)) {
-      return true;
-    }
-  }
-  return false;
-}
-function isImage(extension) {
-  const match = extension.match(ImageExtensionRegex);
-  if (match !== null) {
-    return true;
-  }
-  return false;
-}
-function stripPaths(src, dst) {
-  if (src === dst) {
-    return { stripedSrc: src, stripedDst: dst };
-  }
-  const srcParts = src.split("/");
-  const dstParts = dst.split("/");
-  if (srcParts.length !== dstParts.length) {
-    return { stripedSrc: src, stripedDst: dst };
-  }
-  for (let i = 0; i < srcParts.length; i++) {
-    const srcPart = srcParts[i];
-    const dstPart = dstParts[i];
-    if (srcPart !== dstPart) {
-      return {
-        stripedSrc: srcParts.slice(0, i + 1).join("/"),
-        stripedDst: dstParts.slice(0, i + 1).join("/")
-      };
-    }
-  }
-  return { stripedSrc: "", stripedDst: "" };
-}
-function testExcludeExtension(extension, pattern) {
-  if (!pattern || pattern === "")
-    return false;
-  return new RegExp(pattern).test(extension);
-}
-function isAttachment(settings, filePath) {
-  let file = null;
-  if (filePath instanceof import_obsidian4.TAbstractFile) {
-    file = filePath;
-  } else {
-    file = this.app.vault.getAbstractFileByPath(filePath);
-  }
-  if (file === null || !(file instanceof import_obsidian4.TFile)) {
-    return false;
-  }
-  if (isMarkdownFile(file.extension) || isCanvasFile(file.extension)) {
-    return false;
-  }
-  return isImage(file.extension) || settings.handleAll && !testExcludeExtension(file.extension, settings.excludeExtensionPattern);
-}
-function attachRenameType(setting) {
-  let ret = "BOTH" /* BOTH */;
-  if (setting.attachFormat.includes(SETTINGS_VARIABLES_NOTENAME)) {
-    if (setting.attachmentPath.includes(SETTINGS_VARIABLES_NOTENAME) || setting.attachmentPath.includes(SETTINGS_VARIABLES_NOTEPATH) || setting.attachmentPath.includes(SETTINGS_VARIABLES_NOTEPARENT)) {
-      ret = "BOTH" /* BOTH */;
-    } else {
-      ret = "FILE" /* FILE */;
-    }
-  } else if (setting.attachmentPath.includes(SETTINGS_VARIABLES_NOTENAME) || setting.attachmentPath.includes(SETTINGS_VARIABLES_NOTEPATH) || setting.attachmentPath.includes(SETTINGS_VARIABLES_NOTEPARENT)) {
-    ret = "FOLDER" /* FOLDER */;
-  }
-  return ret;
-}
-
-// src/override.ts
+var import_obsidian6 = require("obsidian");
 function getOverrideSetting(settings, file, oldPath = "") {
   if (Object.keys(settings.overridePath).length === 0) {
     return { settingPath: "", setting: settings.attachPath };
@@ -459,8 +1026,8 @@ function getOverrideSetting(settings, file, oldPath = "") {
   const candidates = {};
   let fileType;
   let filePath;
-  fileType = file instanceof import_obsidian5.TFile;
-  fileType = !(file instanceof import_obsidian5.TFolder);
+  fileType = file instanceof import_obsidian6.TFile;
+  fileType = !(file instanceof import_obsidian6.TFolder);
   if (oldPath === "") {
     filePath = file.path;
   } else {
@@ -525,7 +1092,7 @@ function getRenameOverrideSetting(settings, file, oldPath) {
     } else if (l < r) {
       return { settingPath: op, setting: os };
     } else if (l === r) {
-      return { settingPath: "", setting: settings.attachPath };
+      return { settingPath: "", setting: os };
     }
   }
   return { settingPath: "", setting: settings.attachPath };
@@ -556,6 +1123,7 @@ function updateOverrideSetting(settings, file, oldPath) {
 function deleteOverrideSetting(settings, file) {
   const keys = Object.keys(settings.overridePath);
   for (const key of keys) {
+    debugLog("deleteOverrideSetting - key:", key, file.path);
     if (file.path === key) {
       delete settings.overridePath[key];
       return true;
@@ -565,7 +1133,7 @@ function deleteOverrideSetting(settings, file) {
 }
 
 // src/arrange.ts
-var import_obsidian7 = require("obsidian");
+var import_obsidian8 = require("obsidian");
 
 // src/lib/linkDetector.ts
 var getAllLinkMatchesInFile = async (mdFile, app2, fileText) => {
@@ -700,9 +1268,9 @@ async function deduplicateNewName(newName, file) {
 }
 
 // src/metadata.ts
-var import_obsidian6 = require("obsidian");
+var import_obsidian7 = require("obsidian");
 var Metadata = class {
-  constructor(path2, name, basename, extension, parentPath, parentName) {
+  constructor(path2, name, basename, extension, parentPath, parentName, attachmentFile) {
     /** parent path of file */
     this.parentPath = "";
     /** parent path basename of file */
@@ -713,6 +1281,7 @@ var Metadata = class {
     this.extension = extension;
     this.parentPath = parentPath;
     this.parentName = parentName;
+    this.attachmentFile = attachmentFile;
   }
   /**
    * Returns a formatted attachment file name according to the provided settings.
@@ -723,16 +1292,27 @@ var Metadata = class {
    * @param {string} [linkName] - optional name for the attachment link
    * @return {string} the formatted attachment file name
    */
-  getAttachFileName(setting, dateFormat, originalName, linkName) {
+  async getAttachFileName(setting, dateFormat, originalName, adapter, linkName) {
     const dateTime = window.moment().format(dateFormat);
-    if (setting.attachFormat.includes(SETTINGS_VARIABLES_ORIGINALNAME)) {
+    let md5 = "";
+    let attachFormat = "";
+    if (this.attachmentFile !== void 0) {
+      md5 = await MD5(adapter, this.attachmentFile);
+      const { extSetting } = getExtensionOverrideSetting(this.attachmentFile.extension, setting);
+      if (extSetting !== void 0) {
+        attachFormat = extSetting.attachFormat;
+      } else {
+        attachFormat = setting.attachFormat;
+      }
+    }
+    if (attachFormat.includes(SETTINGS_VARIABLES_ORIGINALNAME)) {
       if (originalName === "" && linkName != void 0) {
         return linkName;
       } else {
-        return setting.attachFormat.replace(`${SETTINGS_VARIABLES_DATES}`, dateTime).replace(`${SETTINGS_VARIABLES_NOTENAME}`, this.basename).replace(`${SETTINGS_VARIABLES_ORIGINALNAME}`, originalName);
+        return attachFormat.replace(`${SETTINGS_VARIABLES_DATES}`, dateTime).replace(`${SETTINGS_VARIABLES_NOTENAME}`, this.basename).replace(`${SETTINGS_VARIABLES_ORIGINALNAME}`, originalName).replace(`${SETTINGS_VARIABLES_MD5}`, md5);
       }
     }
-    return setting.attachFormat.replace(`${SETTINGS_VARIABLES_DATES}`, dateTime).replace(`${SETTINGS_VARIABLES_NOTENAME}`, this.basename);
+    return attachFormat.replace(`${SETTINGS_VARIABLES_DATES}`, dateTime).replace(`${SETTINGS_VARIABLES_NOTENAME}`, this.basename).replace(`${SETTINGS_VARIABLES_MD5}`, md5);
   }
   /**
    * Returns the attachment path based on the given AttachmentPathSettings object.
@@ -741,21 +1321,34 @@ var Metadata = class {
    * @return {string} The normalized attachment path.
    */
   getAttachmentPath(setting) {
-    const root = getRootPath(this.parentPath, setting);
-    const attachPath = path.join(
+    let root = "";
+    let attachPath = "";
+    if (this.attachmentFile !== void 0) {
+      const { extSetting } = getExtensionOverrideSetting(this.attachmentFile.extension, setting);
+      if (extSetting !== void 0) {
+        root = getRootPath(this.parentPath, extSetting);
+        attachPath = path.join(
+          root,
+          extSetting.attachmentPath.replace(`${SETTINGS_VARIABLES_NOTEPATH}`, this.parentPath).replace(`${SETTINGS_VARIABLES_NOTENAME}`, this.basename).replace(`${SETTINGS_VARIABLES_NOTEPARENT}`, this.parentName)
+        );
+        return (0, import_obsidian7.normalizePath)(attachPath);
+      }
+    }
+    root = getRootPath(this.parentPath, setting);
+    attachPath = path.join(
       root,
       setting.attachmentPath.replace(`${SETTINGS_VARIABLES_NOTEPATH}`, this.parentPath).replace(`${SETTINGS_VARIABLES_NOTENAME}`, this.basename).replace(`${SETTINGS_VARIABLES_NOTEPARENT}`, this.parentName)
     );
-    return (0, import_obsidian6.normalizePath)(attachPath);
+    return (0, import_obsidian7.normalizePath)(attachPath);
   }
 };
-function getMetadata(file) {
+function getMetadata(file, attach) {
   const parentPath = path.dirname(file);
   const parentName = path.basename(parentPath);
   const name = path.basename(file);
   const extension = path.extname(file);
   const basename = path.basename(file, extension);
-  return new Metadata(file, name, basename, extension, parentPath, parentName);
+  return new Metadata(file, name, basename, extension, parentPath, parentName, attach);
 }
 
 // src/exclude.ts
@@ -801,7 +1394,7 @@ var ArrangeHandler = class {
     debugLog("rearrangeAttachment - attachments:", Object.keys(attachments).length, Object.entries(attachments));
     for (const obNote of Object.keys(attachments)) {
       const innerFile = this.app.vault.getAbstractFileByPath(obNote);
-      if (!(innerFile instanceof import_obsidian7.TFile) || isAttachment(this.settings, innerFile)) {
+      if (!(innerFile instanceof import_obsidian8.TFile) || isAttachment(this.settings, innerFile)) {
         debugLog(`rearrangeAttachment - ${obNote} not exists or is attachment, skipped`);
         continue;
       }
@@ -811,8 +1404,6 @@ var ArrangeHandler = class {
         debugLog("rearrangeAttachment - no variable use, skipped");
         return;
       }
-      const metadata = getMetadata(obNote);
-      const attachPath = metadata.getAttachmentPath(setting);
       for (let link of attachments[obNote]) {
         try {
           link = decodeURI(link);
@@ -822,14 +1413,17 @@ var ArrangeHandler = class {
         }
         debugLog(`rearrangeAttachment - article: ${obNote} links: ${link}`);
         const linkFile = this.app.vault.getAbstractFileByPath(link);
-        if (linkFile === null) {
+        if (linkFile === null || !(linkFile instanceof import_obsidian8.TFile)) {
           debugLog(`${link} not exists, skipped`);
           continue;
         }
-        const attachName = metadata.getAttachFileName(
+        const metadata = getMetadata(obNote, linkFile);
+        const attachPath = metadata.getAttachmentPath(setting);
+        const attachName = await metadata.getAttachFileName(
           setting,
           this.settings.dateFormat,
           "",
+          this.app.vault.adapter,
           path.basename(link, path.extname(link))
         );
         if (!this.needToRename(setting, attachPath, attachName, metadata.basename, link)) {
@@ -879,7 +1473,7 @@ var ArrangeHandler = class {
       if (file) {
         if (file.parent && isExcluded(file.parent.path, this.settings) || isAttachment(this.settings, file)) {
           allFiles = [];
-          new import_obsidian7.Notice(`${file.path} was excluded, skipped`);
+          new import_obsidian8.Notice(`${file.path} was excluded, skipped`);
         } else {
           debugLog("getAttachmentsInVaultByLinks - active file:", file.path);
           allFiles = [file];
@@ -1012,7 +1606,7 @@ var ArrangeHandler = class {
 };
 
 // src/create.ts
-var import_obsidian8 = require("obsidian");
+var import_obsidian9 = require("obsidian");
 var CreateHandler = class {
   constructor(app2, settings) {
     this.app = app2;
@@ -1031,21 +1625,32 @@ var CreateHandler = class {
     var _a;
     const activeFile = getActiveFile(this.app);
     if (activeFile === void 0) {
-      new import_obsidian8.Notice("Error: no active file found.");
+      new import_obsidian9.Notice("Error: no active file found.");
       return;
     }
     debugLog("processAttach - parent:", (_a = activeFile.parent) == null ? void 0 : _a.path);
     if (activeFile.parent && isExcluded(activeFile.parent.path, this.settings)) {
       debugLog("processAttach - not a file or exclude path:", activeFile.path);
-      new import_obsidian8.Notice(`${activeFile.path} was excluded, skipped`);
+      new import_obsidian9.Notice(`${activeFile.path} was excluded, skipped`);
       return;
     }
     const { setting } = getOverrideSetting(this.settings, activeFile);
+    const { extSetting } = getExtensionOverrideSetting(file.extension, setting);
+    debugLog("processAttach - file.extension:", file.extension);
+    if (extSetting === void 0 && !isImage(file.extension) && !isPastedImage(file)) {
+      debugLog("renameFiles - no handle extension:", file.extension);
+      return;
+    }
     debugLog("processAttach - active file path", activeFile.path);
-    const metadata = getMetadata(activeFile.path);
+    const metadata = getMetadata(activeFile.path, file);
     debugLog("processAttach - metadata:", metadata);
     const attachPath = metadata.getAttachmentPath(setting);
-    const attachName = metadata.getAttachFileName(setting, this.settings.dateFormat, file.basename) + "." + file.extension;
+    const attachName = await metadata.getAttachFileName(
+      setting,
+      this.settings.dateFormat,
+      file.basename,
+      this.app.vault.adapter
+    ) + "." + file.extension;
     if (!await this.app.vault.adapter.exists(attachPath, true)) {
       await this.app.vault.adapter.mkdir(attachPath);
       debugLog("processAttach - create path:", attachPath);
@@ -1065,13 +1670,13 @@ var CreateHandler = class {
    * @returns - none
    */
   async renameCreateFile(file, attachPath, attachName, activeFile, updateLink) {
-    const dst = (0, import_obsidian8.normalizePath)(path.join(attachPath, attachName));
+    const dst = (0, import_obsidian9.normalizePath)(path.join(attachPath, attachName));
     debugLog("renameFile - ", file.path, " to ", dst);
     const oldLinkText = this.app.fileManager.generateMarkdownLink(file, activeFile.path);
     const oldPath = file.path;
     const oldName = file.name;
     await this.app.vault.adapter.rename(file.path, dst);
-    new import_obsidian8.Notice(`Renamed ${oldName} to ${attachName}.`);
+    new import_obsidian9.Notice(`Renamed ${oldName} to ${attachName}.`);
     if (!updateLink) {
       return;
     }
@@ -1079,7 +1684,7 @@ var CreateHandler = class {
     debugLog("renameFile - replace text:", oldLinkText, newLinkText);
     const view = getActiveView(this.app);
     if (view === null) {
-      new import_obsidian8.Notice(`Failed to update link in ${activeFile.path}: no active view`);
+      new import_obsidian9.Notice(`Failed to update link in ${activeFile.path}: no active view`);
       return;
     }
     const content = view.getViewData();
@@ -1093,29 +1698,34 @@ var CreateHandler = class {
         break;
     }
     view.setViewData(val, false);
-    new import_obsidian8.Notice(`Updated 1 link in ${activeFile.path}`);
+    new import_obsidian9.Notice(`Updated 1 link in ${activeFile.path}`);
   }
 };
 
 // src/rename.ts
-var import_obsidian9 = require("obsidian");
+var import_obsidian10 = require("obsidian");
 var RenameHandler = class {
-  constructor(app2, settings) {
+  constructor(app2, settings, overrideSetting) {
     this.app = app2;
     if (settings === void 0) {
       this.settings = DEFAULT_SETTINGS;
     } else {
       this.settings = settings;
     }
+    if (overrideSetting === void 0) {
+      this.overrideSetting = DEFAULT_SETTINGS.attachPath;
+    } else {
+      this.overrideSetting = overrideSetting;
+    }
   }
-  async onRename(file, oldPath, eventType, attachRenameType2 = "NULL" /* NULL */, setting) {
+  async onRename(file, oldPath, eventType, attachRenameType2 = "NULL" /* NULL */) {
     const rf = file;
     const oldMetadata = getMetadata(oldPath);
     const newMetadata = getMetadata(file.path);
     debugLog("onRename - old metadata:", oldMetadata);
     debugLog("onRename - new metadata:", newMetadata);
-    const oldAttachPath = oldMetadata.getAttachmentPath(setting);
-    const newAttachPath = newMetadata.getAttachmentPath(setting);
+    const oldAttachPath = oldMetadata.getAttachmentPath(this.overrideSetting);
+    const newAttachPath = newMetadata.getAttachmentPath(this.overrideSetting);
     debugLog("onRename - old attachment path:", oldAttachPath);
     debugLog("onRename - new attachment path:", newAttachPath);
     if (!await this.app.vault.adapter.exists(oldAttachPath, true)) {
@@ -1191,19 +1801,29 @@ var RenameHandler = class {
     }
     debugLog("renameFiles - attachmentFiles:", attachmentFiles);
     for (const filePath of attachmentFiles.files) {
-      let fileName = path.basename(filePath);
+      const fileName = path.basename(filePath);
       const fileExtension = path.extname(fileName);
-      if (this.settings.handleAll && testExcludeExtension(fileExtension, this.settings.excludeExtensionPattern) || !this.settings.handleAll && !isImage(fileExtension)) {
-        debugLog("renameFiles - no handle extension:", fileExtension);
+      let baseName = path.basename(fileName, fileExtension);
+      const { extSetting } = getExtensionOverrideSetting(fileExtension, this.overrideSetting);
+      if (matchExtension(fileExtension, this.settings.excludeExtensionPattern) || extSetting === void 0 && !isImage(fileExtension)) {
+        debugLog("renameFiles - excluded file by extension:", fileExtension);
         continue;
       }
-      fileName = fileName.replace(oldName, newName);
-      debugLog("renameFiles - fileName:", fileName);
-      if (filePath === (0, import_obsidian9.normalizePath)(path.join(dstPath, fileName))) {
+      if (!exists && extSetting !== void 0 && !extSetting.attachFormat.includes(SETTINGS_VARIABLES_NOTENAME)) {
+        debugLog(`renameFiles - no ${SETTINGS_VARIABLES_NOTENAME} used:`, this.overrideSetting);
+        continue;
+      } else if (!exists && extSetting === void 0 && !this.overrideSetting.attachFormat.includes(SETTINGS_VARIABLES_NOTENAME)) {
+        debugLog(`renameFiles - no ${SETTINGS_VARIABLES_NOTENAME} used global:`, this.overrideSetting);
+        continue;
+      }
+      debugLog("renameFiles - fileName:", oldName, newName);
+      baseName = baseName.replace(oldName, newName) + "." + fileExtension;
+      debugLog("renameFiles - fileName:", baseName);
+      if (filePath === (0, import_obsidian10.normalizePath)(path.join(dstPath, baseName))) {
         debugLog("renameFiles - same src and dst:", filePath);
         continue;
       }
-      const dstFolder = this.app.vault.getAbstractFileByPath(dstPath), { name } = await deduplicateNewName(fileName, dstFolder), newFilePath = (0, import_obsidian9.normalizePath)(path.join(dstPath, name)), src = this.app.vault.getAbstractFileByPath(filePath);
+      const dstFolder = this.app.vault.getAbstractFileByPath(dstPath), { name } = await deduplicateNewName(baseName, dstFolder), newFilePath = (0, import_obsidian10.normalizePath)(path.join(dstPath, name)), src = this.app.vault.getAbstractFileByPath(filePath);
       debugLog("renameFiles - new file path:", newFilePath);
       if (src === null) {
         continue;
@@ -1214,7 +1834,7 @@ var RenameHandler = class {
 };
 
 // src/main.ts
-var AttachmentManagementPlugin = class extends import_obsidian10.Plugin {
+var AttachmentManagementPlugin = class extends import_obsidian11.Plugin {
   async onload() {
     await this.loadSettings();
     console.log(`Plugin loading: ${this.manifest.name} v.${this.manifest.version}`);
@@ -1223,7 +1843,7 @@ var AttachmentManagementPlugin = class extends import_obsidian10.Plugin {
       name: "Rearrange all linked attachments",
       callback: () => {
         new ArrangeHandler(this.settings, this.app).rearrangeAttachment("links");
-        new import_obsidian10.Notice("Arrange completed");
+        new import_obsidian11.Notice("Arrange completed");
       }
     });
     this.addCommand({
@@ -1231,7 +1851,7 @@ var AttachmentManagementPlugin = class extends import_obsidian10.Plugin {
       name: "Rearrange linked attachments",
       callback: () => {
         new ArrangeHandler(this.settings, this.app).rearrangeAttachment("active");
-        new import_obsidian10.Notice("Arrange completed");
+        new import_obsidian11.Notice("Arrange completed");
       }
     });
     this.addCommand({
@@ -1241,12 +1861,12 @@ var AttachmentManagementPlugin = class extends import_obsidian10.Plugin {
         const file = getActiveFile(this.app);
         if (file) {
           if (isAttachment(this.settings, file)) {
-            new import_obsidian10.Notice(`${file.path} is an attachment, skipped`);
+            new import_obsidian11.Notice(`${file.path} is an attachment, skipped`);
             return true;
           }
           if (!checking) {
             if (file.parent && isExcluded(file.parent.path, this.settings)) {
-              new import_obsidian10.Notice(`${file.path} was excluded, skipped`);
+              new import_obsidian11.Notice(`${file.path} was excluded, skipped`);
               return true;
             }
             const { setting } = getOverrideSetting(this.settings, file);
@@ -1265,17 +1885,17 @@ var AttachmentManagementPlugin = class extends import_obsidian10.Plugin {
         const file = getActiveFile(this.app);
         if (file) {
           if (isAttachment(this.settings, file)) {
-            new import_obsidian10.Notice(`${file.path} is an attachment, skipped`);
+            new import_obsidian11.Notice(`${file.path} is an attachment, skipped`);
             return true;
           }
           if (!checking) {
             if (file.parent && isExcluded(file.parent.path, this.settings)) {
-              new import_obsidian10.Notice(`${file.path} was excluded, skipped`);
+              new import_obsidian11.Notice(`${file.path} was excluded, skipped`);
               return true;
             }
             delete this.settings.overridePath[file.path];
             this.saveSettings();
-            new import_obsidian10.Notice(`Reset attachment setting of ${file.path}`);
+            new import_obsidian11.Notice(`Reset attachment setting of ${file.path}`);
           }
           return true;
         }
@@ -1300,7 +1920,7 @@ var AttachmentManagementPlugin = class extends import_obsidian10.Plugin {
       // not working while drop file to text view
       this.app.vault.on("create", async (file) => {
         debugLog("on create event - file:", file.path);
-        if (!(file instanceof import_obsidian10.TFile)) {
+        if (!(file instanceof import_obsidian11.TFile)) {
           return;
         }
         this.app.workspace.onLayoutReady(async () => {
@@ -1312,19 +1932,12 @@ var AttachmentManagementPlugin = class extends import_obsidian10.Plugin {
             return;
           }
           const processor = new CreateHandler(this.app, this.settings);
-          if (isImage(file.extension) || isPastedImage(file)) {
-            debugLog("create - image", file);
-            await processor.processAttach(file);
-          } else {
-            if (this.settings.handleAll) {
-              debugLog("create - handleAll for file", file);
-              if (testExcludeExtension(file.extension, this.settings.excludeExtensionPattern)) {
-                debugLog("create - excluded file by extension", file);
-                return;
-              }
-              await processor.processAttach(file);
-            }
+          if (matchExtension(file.extension, this.settings.excludeExtensionPattern)) {
+            debugLog("create - excluded file by extension", file);
+            return;
           }
+          debugLog("create - image", file);
+          await processor.processAttach(file);
         });
       })
     );
@@ -1344,20 +1957,15 @@ var AttachmentManagementPlugin = class extends import_obsidian10.Plugin {
           debugLog("rename - auto rename not enabled:", this.settings.autoRenameAttachment);
           return;
         }
-        const type = attachRenameType(setting);
+        const type = "BOTH" /* BOTH */;
         debugLog("rename - attachRenameType:", type);
-        if (type === "NULL" /* NULL */) {
-          debugLog("rename - no variable use, skipped");
-          return;
-        }
-        if (file instanceof import_obsidian10.TFile) {
+        if (file instanceof import_obsidian11.TFile) {
           if (file.parent && isExcluded(file.parent.path, this.settings)) {
             debugLog("rename - exclude path:", file.parent.path);
-            new import_obsidian10.Notice(`${file.path} was excluded, skipped`);
+            new import_obsidian11.Notice(`${file.path} was excluded, skipped`);
             return;
           }
-          const flag = isAttachment(this.settings, file);
-          if (flag) {
+          if (isAttachment(this.settings, file)) {
             debugLog("rename - not processing rename on attachment:", file.path);
             return;
           }
@@ -1369,9 +1977,9 @@ var AttachmentManagementPlugin = class extends import_obsidian10.Plugin {
             eventType = RENAME_EVENT_TYPE_FILE;
             debugLog("rename - RENAME_EVENT_TYPE:", RENAME_EVENT_TYPE_FILE);
           }
-          const processor = new RenameHandler(this.app, this.settings);
-          await processor.onRename(file, oldPath, eventType, type, setting);
-        } else if (file instanceof import_obsidian10.TFolder) {
+          const processor = new RenameHandler(this.app, this.settings, setting);
+          await processor.onRename(file, oldPath, eventType, type);
+        } else if (file instanceof import_obsidian11.TFolder) {
           return;
         }
       })
@@ -1384,7 +1992,9 @@ var AttachmentManagementPlugin = class extends import_obsidian10.Plugin {
           return;
         }
         if (deleteOverrideSetting(this.settings, file)) {
-          new import_obsidian10.Notice("Removed override setting of " + file.path);
+          await this.saveSettings();
+          await this.loadSettings();
+          new import_obsidian11.Notice("Removed override setting of " + file.path);
         }
       })
     );

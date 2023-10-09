@@ -4,14 +4,15 @@
     "saveAttE": "obsFolder",
     "attachmentPath": ".",
     "attachFormat": "${notename} ${date}",
-    "type": "GLOBAL"
+    "type": "GLOBAL",
+    "extensionOverride": []
   },
   "dateFormat": "X",
-  "handleAll": false,
   "excludeExtensionPattern": "",
-  "autoRenameAttachment": false,
+  "autoRenameAttachment": true,
   "excludedPaths": "",
   "excludePathsArray": [],
   "excludeSubpaths": false,
-  "overridePath": {}
+  "overridePath": {},
+  "handleAll": false
 }
