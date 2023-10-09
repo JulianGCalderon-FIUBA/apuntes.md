@@ -23,4 +23,3 @@
 - [[Teoría de Lenguaje/Canales|Canales]]
 - [[Estado Explícito]]
 - [[Objetos y Clases]]
-- [[Indeterminismos y Atomicidad]]

@@ -27,7 +27,7 @@ end
 
 ## Port Object
 
-Definimos un `NewPortObject` como un puerto con estado interno. Realiza un `reduce` con todos los elementos enviados al puerto, aplicando la función `Fun` con un acumulador inicial `Init`.
+Definimos un `NewPortObject` como un puerto con estado interno. Realiza algo similar a un `reduce` con todos los elementos enviados al puerto, aplicando la función `Fun` con el elemento actual y un acumulador inicial `Init` (el cual luego se actualizará con el retorno de la función).
 
 ```Oz
 fun {NewPortObject Init Fun}
@@ -39,4 +39,18 @@ fun {NewPortObject Init Fun}
 		end
 		thread {MsgLoop Sin Init} end
 		{NewPort Sin}
+```
+
+Si no hace falta un estado interno (acumulador), entonces podríamos definir `NewPortObject2`. Ahora la función es un procedimiento, pues no se actualiza su estado interno.
+
+```Oz
+fun {NewPortObject2 Proc}
+	local Sin in
+		thread
+			for Msg in Sin do
+				{Proc Msg}
+			end
+		end
+		{NewPort Sin}
+	end
 ```
