@@ -12,15 +12,6 @@ fun {Length L}
 end
 ```
 
-```Elixir
-def length(L) do
-	case L do
-		[H|T] -> length(T) + 1
-		[] -> 0
-	end
-end
-```
-
 ## Last Call Optimization
 
 Es una optimización muy utilizada en la programación funcional. Cuando la última instrucción de una función recursiva es la propia llamada recursiva, el compilador puede deshacerse de las variables del *stack* del ambiente actual. Esto permite que el *stack* no crezca con cada recursión.
