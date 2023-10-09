@@ -11,12 +11,16 @@ local Puerto Stream Recibir Enviar in
 		end
 	end
 	
-	proc {Enviar }
+	proc {Enviar Puerto From To}
+		if From < To then
+			{Send Puerto From}
+			{Enviar Puerto From+1 To}
+		end
+	end
 	
 	Puerto = {NewPort Stream}
-	thread {Recibir Stream} end
-	
-	{Send P 'Mensaje 1'}
-	{Send P 'Mensaje 2'}
-	
+	thread {Enviar Stream 1 5} end
+	thread {Enviar Stream 5 10} end
+	thread {Recibir Stream} end % Ej: 1 2 5 3 6 7 8 4 9
+end
 ```

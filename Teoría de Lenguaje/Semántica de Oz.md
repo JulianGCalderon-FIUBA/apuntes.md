@@ -113,3 +113,12 @@ En cuanto existe un par en `T` con la forma `trig(x, y)`, y se detecta la necesi
 
 1. Se saca el *trigger* de `T`.
 2. Se crea un nuevo hilo con `({<x> <y>}, {<x> -> x, <y> -> y})` en el tope.
+
+## Puertos
+
+Necesitamos agregar un nuevo *store*. Aparece el *mutable store* `U`.
+
+En el tope del stack, tenemos: `({NewPort <x> <y>}, E)`.
+
+1. Se crea un puerto con nombre `n`
+2. Se hace bind
