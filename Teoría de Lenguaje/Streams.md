@@ -47,3 +47,7 @@ Para solucionar esto, podemos hacer que el consumidor le indique al productor cu
 ## Bounded Buffer
 
 El productor produce elementos, pero con un límite. No debe esperar a que el productor necesite un elemento, pero tampoco puede producir indefinidamente.
+
+## Múltiples Productores
+
+Si queremos tener múltiples productores, entonces puede haber problemas de concurrencia.
