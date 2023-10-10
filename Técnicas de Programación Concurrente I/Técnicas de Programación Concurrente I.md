@@ -16,7 +16,7 @@
 - [[Variables de Condición]]
 - [[Monitores]]
 - [[Barreras]]
-- [[Técnicas de Programación Concurrente I/Canales]]
+- [[Técnicas de Programación Concurrente I/Canales|Canales]]
 
 ## Problemas Conocidos
 
@@ -27,4 +27,4 @@
 - [[Problema de los Filósofos]]
 - [[Problema de los Fumadores]]
 - [[Problema del Lector-Escritor]]
- 
+
