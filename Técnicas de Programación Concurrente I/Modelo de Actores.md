@@ -1,15 +1,13 @@
-El modelo de actores fue desarrollado por Carl Hewitt en 1973, y popularizado por el lenguaje Erlang. 
+El modelo de actores fue desarrollado por Carl Hewitt en 1973, y popularizado por el lenguaje Erlang.
 
 El **actor** es la primitiva principal del modelo. Son livianos, se pueden crear miles. Estos encapsulan comportamiento y un estado. Están compuestos por:
 
 - **Dirección:** Lugar a donde enviarle mensajes. En un sistema distribuido, la dirección del actor puede ser una dirección remota.
-- **Casilla de correo:** Un FIFO de los últimos mensajes recibidos.
+- **Casilla de correo:** Una estructura FIFO de los últimos mensajes recibidos.
 
-El actor **supervisor** puede crear otros actores hijos. Erlang se basa en una filosofía *Let It Crash*, que consiste en dejar que los actores fallen, y 
+El actor **supervisor** puede crear otros actores hijos. Erlang se basa en una filosofía *Let It Crash*, que consiste en dejar que los actores fallen, y levantarlos de nuevo a partir de los supervisores.
 
-Los actores son aislados de otros actores, no comparten memoria.
-
-Los actores se comunican entre ellos solamente usando mensajes. Estos son procesados de forma asincrónica y de uno a la vez. Esto resuelve muchos problemas de concurrencia.
+Los actores son aislados de otros actores, no comparten memoria. Los actores se comunican entre ellos solamente usando mensajes. Estos son procesados de forma asincrónica y de uno a la vez. Esto resuelve muchos problemas de concurrencia.
 
 ## Actores en Rust
 
@@ -31,9 +29,9 @@ Primero, debemos crear un tipo de dato que implemente `trait Actor`.
 
 Luego, definimos un mensaje e implementamos `trait Handler<M>` para ese tipo del actor.
 
-Finalmente creamos un actor y hacemos *spawn* en uno de los árbitros.
+Finalmente, creamos un actor y hacemos *spawn* en uno de los árbitros.
 
-Tendremos los siguientes estados demtrp del ciclo de vida de un actor:
+Tendremos los siguientes estados dentro del ciclo de vida de un actor:
 
 - **Iniciado (Started):** Se inicia con el método `started()`.
 - **En ejecución (Running):** Es el estado siguiente a la ejecución de `started()`. Puede estar en este estado de forma indefinida.
