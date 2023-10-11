@@ -41,11 +41,14 @@ $$
 P(A \cup B) = P(A) + P(B) - P(A\cap B) \tag{2}
 $$
 
-%%\begin{align}
+$$
+\begin{align}
 P(A \cup B \cup C) &= P(A) + P(B) + P(C) \\
 &- P(A\cap B) - P(A\cap C) - P(B\cap C) \\
 &+ P(A \cap B \cap C)
-\end{align} \tag{3}%%
+\end{align} \tag{3}
+$$
+
 ## Álgebra de Eventos
 
 **Álgebra de Eventos: $\mathscr A$:** Conjunto de eventos a los que le puedo calcular su probabilidad.
