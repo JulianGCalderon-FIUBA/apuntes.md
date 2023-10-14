@@ -19,6 +19,10 @@ Este tiempo entre ambas barreras donde se intercambia la información se suele d
 
 Notemos que para la modificación del valor en sí, necesitaremos de igual forma utilizar [[Técnicas de Programación Concurrente I/Locks|Locks]].
 
+### Solución con [[Técnicas de Programación Concurrente I/Canales|Canales]]
+
+Necesitaremos un canal único a través del cual los inversores le envían el dinero al banquero al final de la semana. Por otro lado, cada inversor tendrá un canal a través del cual el banquero le envía el dinero al comienzo de la semana.
+
 ## 2º. Problema
 
 Al tiempo el señor fallece, y los hijos deciden que los inversores sigan trabajando el dinero pero con algunas condiciones extra.
@@ -30,8 +34,6 @@ Cada inversor puede reinvertir el capital y hasta 50% de la ganancia propia de l
 Las inversiones, además, deberán ser menos riesgosas, pudieron dejar de -10% a +10%.
 
 ### Solución con [[Locks]]
-
-Para resolver el problema con locks, debemos utilizar el segundo problema, pues no podríamos sincronizar el envío y recepción de dinero.
 
 Podríamos tener una estructura compartida "cuenta" que esté distribuida entre hilos y utilice locks para garantizar un acceso seguro. Para realizar esto es necesario envolverla en un `Rwlock` y luego en un `Arc`.
 
