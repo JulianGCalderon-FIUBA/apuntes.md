@@ -7,7 +7,6 @@
 - [[Corrección]]
 - [[Redes de Petri]]
 - [[Pasaje de Mensajes]]
-- [[Modelo de Actores]]
 
 ## Primitivas de Sincronización
 
@@ -17,6 +16,7 @@
 - [[Monitores]]
 - [[Barreras]]
 - [[Técnicas de Programación Concurrente I/Canales|Canales]]
+- [[Actores]]
 
 ## Problemas Conocidos
 
@@ -27,4 +27,3 @@
 - [[Problema de los Filósofos]]
 - [[Problema de los Fumadores]]
 - [[Problema del Lector-Escritor]]
-
