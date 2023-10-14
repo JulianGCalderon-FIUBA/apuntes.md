@@ -19,6 +19,8 @@ loop
 	Consume(I)
 ```
 
+En casi todos los lugares donde se utilizan [[Técnicas de Programación Concurrente I/Locks|locks]], podremos resolverlo de otra forma utilizando canales.
+
 ## Selective Input
 
 Es una sintaxis permitida por los lenguajes que soportan canales, y permite escuchar en varios canales de forma bloqueante y desbloquearse con el primero que recibe un mensaje
