@@ -92,3 +92,9 @@ El problema de control de concurrencia en vistas de garantizar el aislamiento ti
 	- Control de concurrencia basado en *timestamps*.
 	- *Snapshot Isolation*: Cada transacción tiene un *snapshot* o copia local, funciona mucho mejor en contextos optimistas.
 	- Control de concurrencia multiversión.
+
+### Basado en Locks
+
+El gestor utiliza locks para bloquear a los recursos y no permitir que mas de una transacción los use en forma simultánea. Los locks son insertados por el gestor como instrucciones espceiales en medio de la transacción.
+
+Es posible garantizar el aislamiento a partir de la utilización de locks (no es trivial, requiere mas que simplemente bloquear antes de acceder a una variable).
