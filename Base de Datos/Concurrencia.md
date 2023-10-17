@@ -16,4 +16,12 @@ Antes de existir multitasking, las transacciones se serializaban. Hasta tanto no
 
 Si dos transaccioens utilizan conjuntos de datos distintos, debería poder ejecutarse concurrentemente en distintos procesadores.
 
-Las transacciones comparten recursos (tablas) entre si.
+Las transacciones comparten recursos (tablas) entre si. Esto es un problema importante para le ejecución concurrente.
+
+## Modelo de Concurrencia
+
+Utilizaremos el modelo de concurrencia solapada (interleaved concurreny), que considera las siguientes hiótesis:
+
+1. Disponemos de un único procesador que puede ejecutar múltiples transacciones simultáneamente
+2. Cada transacción esta formada por una secuencia de instrucciones atómicas, que el procesador ejecuta de a una a la vez.
+3. En cualquier momento el *scheduler* puede suspender la ejecución de una transacción, e iniciar o retomar la ejecución de otra.
