@@ -98,3 +98,12 @@ El problema de control de concurrencia en vistas de garantizar el aislamiento ti
 El gestor utiliza locks para bloquear a los recursos y no permitir que mas de una transacción los use en forma simultánea. Los locks son insertados por el gestor como instrucciones espceiales en medio de la transacción.
 
 Es posible garantizar el aislamiento a partir de la utilización de locks (no es trivial, requiere mas que simplemente bloquear antes de acceder a una variable).
+
+El protocolo mas común es el conocido protocolo de lock de dos fases (2PL; two-phase lock): Una transacción no puede adquirir un lock luego de liberar un lock que habia adquirido.
+
+La regla naturalmente divide la ejecución en dos fases:
+
+1. Fase de adquisisión de locks, en la que la cantidad de locks adquiridos crece
+2. Fase de liberación de locks, en la que la cantidad de locks decrece.
+
+El cumplimiento de este protocolo es condición suficiente para garantizar que cualquier orden de ejecución de un conjunto de transaciónes sea serializable.
