@@ -40,4 +40,16 @@ Un item puede representar:
 - Un bloque del disco
 - Una tabla
 
-En el único momento en el que la CPU interactura con la base de datos,
+En el único momento en el que la CPU interactura con la base de datos, es cuando ejecuta alguna de las dos operaciones vistas. Cualquier otra operación (manipulación de datos en memoria) es independiente del resto de transacciones.
+
+> [!note] Nota
+> Ordenar escribir no es lo mismo que efectivamente escribir. El nuevo valor podría quedar temporalmente en un *buffer* en memoría.
+
+## Propiedades ACID
+
+La ejecución de transacciones por un SGBD deben cumplir cuatro propiedades deseables:
+
+- Atomicidad: Desde el punto de vista del usuario, las transacciones deben ser ejecutadas de forma atómica. Esto quiere decir que, o se ejecutan por completa, o no se ejecutan
+- Consistencia:
+- Aislamiento:
+- Durabilidad:
