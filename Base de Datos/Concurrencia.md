@@ -106,4 +106,6 @@ La regla naturalmente divide la ejecución en dos fases:
 1. Fase de adquisisión de locks, en la que la cantidad de locks adquiridos crece
 2. Fase de liberación de locks, en la que la cantidad de locks decrece.
 
-El cumplimiento de este protocolo es condición suficiente para garantizar que cualquier orden de ejecución de un conjunto de transaciónes sea serializable.
+El cumplimiento de este protocolo es condición suficiente para garantizar que cualquier orden de ejecución de un conjunto de transaciónes sea serializable. Por otro lado, nos prohibe muchos solapamientos que hubiesen sido validos, por lo que el código es menos eficiente.
+
+La utilización de locks nos trae problemas que antes no teniamos, como la aparición de *deadlocks* y *livelocks*. Para detectar un *deadlock*, podemos utilizar un mecanismo de detección de basado en un grafo de alocación de recursos.
