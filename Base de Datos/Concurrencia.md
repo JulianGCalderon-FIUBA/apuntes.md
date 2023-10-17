@@ -25,3 +25,19 @@ Utilizaremos el modelo de concurrencia solapada (interleaved concurreny), que co
 1. Disponemos de un único procesador que puede ejecutar múltiples transacciones simultáneamente
 2. Cada transacción esta formada por una secuencia de instrucciones atómicas, que el procesador ejecuta de a una a la vez.
 3. En cualquier momento el *scheduler* puede suspender la ejecución de una transacción, e iniciar o retomar la ejecución de otra.
+
+## Instrucciones Atómicas
+
+Las instruccines atómicas básicas de una transacción son:
+
+- `leer_item(X)`: Lee el valor del item X, cargandolo en una variable en memoria
+- `escribir_item(X)`: Ordena escribir el valor que está en memoria del item X en la base de datos.
+
+Un item puede representar:
+
+- El valor de un atributo en una fila determinada
+- Una fila de una tabla
+- Un bloque del disco
+- Una tabla
+
+En el único momento en el que la CPU interactura con la base de datos,
