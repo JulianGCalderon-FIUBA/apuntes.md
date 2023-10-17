@@ -49,7 +49,7 @@ En el único momento en el que la CPU interactura con la base de datos, es cuand
 
 La ejecución de transacciones por un SGBD deben cumplir cuatro propiedades deseables:
 
-- Atomicidad: Desde el punto de vista del usuario, las transacciones deben ser ejecutadas de forma atómica. Esto quiere decir que, o se ejecutan por completa, o no se ejecutan
-- Consistencia:
-- Aislamiento:
-- Durabilidad:
+- **Atomicidad:** Desde el punto de vista del usuario, las transacciones deben ser ejecutadas de forma atómica. Esto quiere decir que, o se ejecutan de forma completa, o no se ejecutan. En algun lado, el gestor debe tener un *log* de todas las operaciones que ejecuta.
+- **Consistencia:** Cada ejecución, por si misma, debe preservar la consistencia de la base de datos. La consistencia se define a partir de las reglas de integridad.
+- **Aislamiento:** El resultado de la ejecución concurrente de las transacciones debe ser el mismo que si las transacciones se ejecutaran de forma aislada. Debe ser equivalente a alguna ejecución serial.
+- **Durabilidad:** Una vez que el gestor informa que la transacción fue completada, debe asegurar la persistencia de la misma, independiente
