@@ -54,10 +54,13 @@ La ejecución de transacciones por un SGBD deben cumplir cuatro propiedades dese
 - **Aislamiento:** El resultado de la ejecución concurrente de las transacciones debe ser el mismo que si las transacciones se ejecutaran de forma aislada. Debe ser equivalente a alguna ejecución serial.
 - **Durabilidad:** Una vez que el gestor informa que la transacción fue completada, debe asegurar la persistencia de la misma, independiente de toda falla que pueda ocurrir.
 
-Para garantizar estas propiedades, los gestores disponen de mecanismos de recuperación para deshacer las opeaciones realizadas.
+Para garantizar estas propiedades, los gestores disponen de mecanismos de recuperación para deshacer las opeaciones realizadas. En algun lado, el gestor debe tener un *log* de todas las operaciones que ejecuta. Este *log* debe estar en disco para asegura rque vamos a poder recuperarnos de cualquier falla.
 
-Para ello, es necesario agregar a la secuencia de instrucciones de cada transaccion, algunas instrucciones especiales. En algun lado, el gestor debe tener un *log* de todas las operaciones que ejecuta.
+El gestor a veces utiliza el *log* no solo para deshacer transacciones, sino para rehacerlas. Esto nos permite satisfacer la propiedad de *durabilidad*.
 
-- `begin`: Indica el comienzo de una transacción
-- `commit`: Indica que la transacción ha terminado exitosamente, y se espera que su resultado haya sido efectivamente almacenado de forma persistente
+Para ello, es necesario agregar a la secuencia de instrucciones de cada transaccion, algunas instrucciones especiales.
+
+- `begin`: Indica el comienzo de una transacción.
+- `commit`: Indica que la transacción ha terminado exitosamente, y se espera que su resultado haya sido efectivamente almacenado de forma persistente.
 - `abort`: Indica que se produjo un error o falla, y que por lo tanto todos los efectos de la transacción deben ser deshechos (rolled back).
+
