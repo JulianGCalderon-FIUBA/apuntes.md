@@ -68,4 +68,4 @@ Para ello, es necesario agregar a la secuencia de instrucciones de cada transacc
 
 La anomalía de la **lectura sucia** ocurre cuando una transacción $T_2$ lee lo que ha sido modificado por otra transacción $T_1$. Si luego $T_1$ debe ser deshecha, entonces la lectura de $T_2$ no fue valida, esto implica que $T_2$ también debe ser deshecha. Si cuando se debe deshacer $T_2$, encontramos que ya se habia realizado *commit*, entonces estaremos ante un error.
 
-
+La anomalia de la **actualización perdida** ocurre cuando una transacción modifica un item que fue leído anteriormente por una primera transacción que aún no terminó.
