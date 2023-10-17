@@ -81,3 +81,14 @@ Si en cambio la primera transacción volvería a leer el item luego de que la se
 La anomalía de **escritura sucia** ocurre cuando una transacción $T_2$ escribe un item que ya habia sido escrito por otra transacción $T_1$. Si $T_1$ luego aborta, se deshacera el cambio de $T_2$ también.
 
 La anomalía del **fantasma**, se produce cuando una transacción $T_1$ observa un conjunto de items que cumplen determinada condición, y luego dicho conjunto cambia porque algunos de sus items son modificados/creados/eliminados por otra transacción $T_2$.
+
+## Control de Concurrencia
+
+El problema de control de concurrencia en vistas de garantizar el aislamiento tiene dos enfoques:
+
+- Enfoque pesimista: Busca garantizar que no se produzcan conflictos
+	- Control de concurrencia basado en *locks*
+- Enfoque optimista: Consiste en "dejar hacer" a las transacciones y deshacer (rollback) una de ellas si en fasede validación se descubre un conflicto. Es conveniente cuando la probabilidad de error es baja.
+	- Control de concurrencia basado en *timestamps*.
+	- *Snapshot Isolation*: Cada transacción tiene un *snapshot* o copia local, funciona mucho mejor en contextos optimistas.
+	- Control de concurrencia multiversión.
