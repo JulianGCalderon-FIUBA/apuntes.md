@@ -14,7 +14,7 @@
 - [[Diseño Relacional]]
 - [[Dependencias Funcionales]]
 - [[Formas Normales]]
-- [[Sistemas Operativos/Concurrencia]]
+- [[Base de Datos/Concurrencia|Concurrencia]]
 
 ## Apuntes Prácticos
 
