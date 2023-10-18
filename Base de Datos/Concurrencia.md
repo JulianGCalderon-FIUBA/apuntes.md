@@ -14,44 +14,6 @@ Utilizaremos el modelo de concurrencia solapada (interleaved concurreny), que co
 2. Cada transacción esta formada por una secuencia de instrucciones atómicas, que el procesador ejecuta de a una a la vez.
 3. En cualquier momento el *scheduler* puede suspender la ejecución de una transacción, e iniciar o retomar la ejecución de otra.
 
-## Instrucciones Atómicas
-
-Las instruccines atómicas básicas de una transacción son:
-
-- `leer_item(X)`: Lee el valor del item X, cargandolo en una variable en memoria
-- `escribir_item(X)`: Ordena escribir el valor que está en memoria del item X en la base de datos.
-
-Un item puede representar:
-
-- El valor de un atributo en una fila determinada
-- Una fila de una tabla
-- Un bloque del disco
-- Una tabla
-
-En el único momento en el que la CPU interactura con la base de datos, es cuando ejecuta alguna de las dos operaciones vistas. Cualquier otra operación (manipulación de datos en memoria) es independiente del resto de transacciones.
-
-> [!note] Nota
-> Ordenar escribir no es lo mismo que efectivamente escribir. El nuevo valor podría quedar temporalmente en un *buffer* en memoría.
-
-## Propiedades ACID
-
-La ejecución de transacciones por un SGBD deben cumplir cuatro propiedades deseables:
-
-- **Atomicidad:** Desde el punto de vista del usuario, las transacciones deben ser ejecutadas de forma atómica. Esto quiere decir que, o se ejecutan de forma completa, o no se ejecutan.
-- **Consistencia:** Cada ejecución, por si misma, debe preservar la consistencia de la base de datos. La consistencia se define a partir de las reglas de integridad.
-- **Aislamiento:** El resultado de la ejecución concurrente de las transacciones debe ser el mismo que si las transacciones se ejecutaran de forma aislada. Debe ser equivalente a alguna ejecución serial.
-- **Durabilidad:** Una vez que el gestor informa que la transacción fue completada, debe asegurar la persistencia de la misma, independiente de toda falla que pueda ocurrir.
-
-Para garantizar estas propiedades, los gestores disponen de mecanismos de recuperación para deshacer las opeaciones realizadas. En algun lado, el gestor debe tener un *log* de todas las operaciones que ejecuta. El gestor a veces utiliza el *log* no solo para deshacer transacciones, sino para rehacerlas. Esto nos permite satisfacer la propiedad de *durabilidad*.
-
-Este *log* debe estar en disco para asegurar que vamos a poder recuperarnos de cualquier falla. En el disco del *log* se puede aprovechar la estructura secuencial, que es mucho mas rapida que una escritura de acceso aleatorio (como ocurriria con un disco normal).
-
-Para ello, es necesario agregar a la secuencia de instrucciones de cada transaccion, algunas instrucciones especiales.
-
-- `begin`: Indica el comienzo de una transacción.
-- `commit`: Indica que la transacción ha terminado exitosamente, y se espera que su resultado haya sido efectivamente almacenado de forma persistente.
-- `abort`: Indica que se produjo un error o falla, y que por lo tanto todos los efectos de la transacción deben ser deshechos (rolled back).
-
 ## Anomalias de Ejecución Concurrente
 
 Cuando se ejecutan transacciones en forma concurrente se da lugar a distintas situaciones anómalas que pueden violar las propiedades ACID.

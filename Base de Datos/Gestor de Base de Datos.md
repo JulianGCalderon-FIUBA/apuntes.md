@@ -5,28 +5,12 @@ Permiten trabajar con una base de datos de forma cómoda y segura.
 Algunas de las funciones principales de un gestor de base de datos son:
 
 - Permiten accesos a la base de datos por muchos usuarios de forma concurrente.
-- Tiene operaciones atómicas que previenen errores
+- Tiene operaciones atómicas, o [[Transacción|transacciones]], que previenen errores
 - Previene accesos no autorizados, o restringe el acceso a consultas particulares.
 - Tiene un sistema de recuperación ante fallas.
 - Tiene un [[Lenguajes|lenguaje de consultas]] para buscar información efectivamente.
 - Asegura la integridad de datos a través de restricciones que deben satisfacer los datos.
 - Accede a la información de forma eficiente, sin necesidad de iterar.
-
-## Transacciones
-
-Supongamos que en nuestra base de datos tenemos cuentas de banco, y queremos realizar un depósito en una cuenta, y una extracción en otra.
-
-Es esencial que una operación no sea interrumpida, u ocurre totalmente, o no lo hace. Esta característica de *todo o nada* se conoce como **atomicidad**.
-
-El valor retirado de una cuenta, debe ser el agregado en otra cuenta, esto se conoce como **consistencia**.
-
-Luego de una operación exitosa, los nuevos valores del balance deben persistir, a pesar de la posibilidad de una falla del sistema. Esto se conoce como **durabilidad**.
-
-Una **transacción** es un conjunto de operaciones que realizan una única función lógica. Son una sola unidad, en términos de atomicidad y consistencia.
-
-Asegurar estas propiedades es trabajo del sistema de la base de datos. Debe detectar fallas y recuperar el sistema ante una. Además, estas propiedades se deben mantener incluso ante acceso concurrente a la base de datos.
-
-El **administrador de transacciones** se encargará tanto del *administrador de control de concurrencia*, y el *administrador de recuperación ante fallas*.
 
 ## Usuarios
 
