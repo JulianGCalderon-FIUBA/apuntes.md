@@ -105,13 +105,13 @@ Al utilizar esta mejora no queda garantizada la serializabilidad por conflictos,
 
 En este método, cada transacción ve una *snapshot* de la base de datos correspondiente al instante de su inicio.
 
-Este método permite mayor solapamiento, ya que sus lecturas que hubieran sido bloqueadas utilizando locks, ahora siempre pueden realizarse.
+Este método permite mayor solapamiento, ya que las lecturas que hubieran sido bloqueadas utilizando locks, ahora siempre pueden realizarse.
 
-Requiere de mayor espacio en disco o memoria, al tener que mantener múltiples versiones de los mismos items.
+Requiere de mayor espacio en disco o memoria, al tener que mantener múltiples versiones de los mismos ítems.
 
 Cuando ocurren conflictos de tipo $WW$ entre transacciones, obliga a deshacer una de ellas. Esto se conoce como *first-commiter-wins*.
 
-Este método por si solo no alcanza para garantizar la serializabilidad, debe combinarse con dos elementos más:
+Este método por sí solo no alcanza para garantizar la serializabilidad, debe combinarse con dos elementos más:
 
 - Validación permanente con el grafo de precedencias buscando ciclos de conflictos $RW$.
 - Locks de predicados en el proceso de detección de conflictos para detectar precedencias.
