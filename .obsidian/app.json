@@ -204,7 +204,9 @@
     "multivaluadas",
     "Multivaluada",
     "corrutinas",
-    "multitasking"
+    "multitasking",
+    "serializabilidad",
+    "serializables"
   ],
   "newFileLocation": "current"
 }

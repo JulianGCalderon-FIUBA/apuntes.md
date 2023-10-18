@@ -28,9 +28,9 @@ $$
 
 ## Escritura Sucia
 
-La anomalía de **escritura sucia** ocurre cuando una transacción $T_2$ escribe un item que ya habia sido escrito por otra transacción $T_1$.
+La anomalía de **escritura sucia** ocurre cuando una transacción $T_2$ escribe un ítem que ya había sido escrito por otra transacción $T_1$.
 
-Si $T_1$ luego aborta, se deshacera el cambio de $T_2$ también. También se conoce con el nombre de *overwrite uncommited*.
+Si $T_1$ luego aborta, se va a deshacer el cambio de $T_2$ también. También se conoce con el nombre de *overwrite uncommited*.
 
 Esta anomalía es un conflicto del tipo $WW$.
 
@@ -40,9 +40,9 @@ $$
 
 ## Fantasma
 
-La anomalía del **fantasma**, se produce cuando una transacción $T_1$ observa un conjunto de items que cumplen determinada condición, y luego dicho conjunto cambia porque algunos de sus items son modificados/creados/eliminados por otra transacción $T_2$.
+La anomalía del **fantasma**, se produce cuando una transacción $T_1$ observa un conjunto de ítems que cumplen determinada condición, y luego dicho conjunto cambia porque algunos de sus ítems son modificados/creados/eliminados por otra transacción $T_2$.
 
-Si esta modificación se hace mientras $T_1$ aún se esta ejecutando, $T_1$ podría encontrarse con que el conjunto de ítems que cumplen la condición cambío. Esta condición atenta contra la serializabilidad.
+Si esta modificación se hace mientras $T_1$ aún se está ejecutando, $T_1$ podría encontrarse con que el conjunto de ítems que cumplen la condición cambio. Esta condición atenta contra la serializabilidad.
 
 Se puede caracterizar como:
 
