@@ -25,8 +25,8 @@ Este *log* debe estar en disco para asegurar que vamos a poder recuperarnos de c
 
 Las instruccines atómicas básicas de una transacción son:
 
-- `leer_item(X)`: Lee el valor del item X, cargandolo en una variable en memoria. Se deonta como $R(X)$
-- `escribir_item(X)`: Ordena escribir el valor que está en memoria del item X en la base de datos. Se debita como $W(X)$
+- `leer_item(X)`: Lee el valor del item X, cargandolo en una variable en memoria. Se deonta como $R_T(X)$
+- `escribir_item(X)`: Ordena escribir el valor que está en memoria del item X en la base de datos. Se debita como $W_T(X)$
 
 Un item puede representar:
 
@@ -44,20 +44,16 @@ En el único momento en el que la CPU interactura con la base de datos, es cuand
 
 Para ello, es necesario agregar a la secuencia de instrucciones de cada transaccion, algunas instrucciones especiales.
 
-- `begin`: Indica el comienzo de una transacción. Se denota como $b$
-- `commit`: Indica que la transacción ha terminado exitosamente, y se espera que su resultado haya sido efectivamente almacenado de forma persistente. Se denota como $c$
-- `abort`: Indica que se produjo un error o falla, y que por lo tanto todos los efectos de la transacción deben ser deshechos (rolled back). Se denota como $a$.
+- `begin`: Indica el comienzo de una transacción. Se denota como $b_T$
+- `commit`: Indica que la transacción ha terminado exitosamente, y se espera que su resultado haya sido efectivamente almacenado de forma persistente. Se denota como $c_T$
+- `abort`: Indica que se produjo un error o falla, y que por lo tanto todos los efectos de la transacción deben ser deshechos (rolled back). Se denota como $a_T$.
 
 ## Notación
 
-A partir de las operaciones definidas, podemos denotar una transacción como una secuencia de estas operaciones, para una dada transacción $T$.
+A partir de las operaciones definidas, podemos denotar una transacción $T$ como una secuencia de $m(T)$ operaciones:
+
+$$ {I_T^1; I_T^2; \dots;}
 
 $$
 b_T\dots R_T(X)\dots W_T(X)\dots c_T
-$$
-
-Dado un conjunto de transacciones, podemos denotar de la misma forma a un solapamiento posible, como por ejemplo:
-
-$$
-b_{T_1}b_{T_2}\dots R_{T_1}(X)\dots W_{T_2}(X)\dots c_{T_1}c_{T_2}
 $$

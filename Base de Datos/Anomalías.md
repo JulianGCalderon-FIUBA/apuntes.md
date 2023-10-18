@@ -47,5 +47,5 @@ Si esta modificación se hace mientras $T_1$ aún se esta ejecutando, $T_1$ podr
 Se puede caracterizar como:
 
 $$
-R_{T_1}(\{X|\text{cond}\})\dots W_{T_2}
+R_{T_1}(\{X|\text{cond}\})\dots W_{T_2}(X_\text{cond})\dots(a_{T_1} \lor c_{T_1})
 $$
