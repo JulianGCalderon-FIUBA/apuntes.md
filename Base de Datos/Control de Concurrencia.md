@@ -67,3 +67,21 @@ A partir de las reglas anteriores, podemos proponer el siguiente protocolo para 
 1. Comenzar obteniendo un lock sobre el nodo raíz
 2. Hasta llegar a los nodos deseados, adquirir un lock sobre los hijos que se quiere acceder, y liberar el lock sobre el padre si los nodos hijos son seguros (es decir, el nodo hijo no está lleno si estamos haciendo una inserción, ni está justo por la mitad en el caso de una eliminación).
 3. Una vez terminada la operación, deslockear todos los nodos.
+
+## Basado en Timestamps
+
+Se asigna a cada transacción $T_i$ un *timestamp* $TS(T_i)$.
+
+Los *timestamps* deben ser únicos, y determinarán el orden serial respecto al cual el solapamiento deberá ser equivalente.
+
+Se permite la ocurrencia de conflictos, pero siempre que las transacciones de cada conflicto aparezcan de acuerdo al orden serial equivalente.
+
+$$
+(W_{T_i}(X), R_{T_j}(X)) \to TS(T_i) < TS(T_j)
+$$
+
+Este método no utiliza locks, por lo que está exento de *deadlocks*.
+
+Se debe mantener en todo instante, para cada ítem $X$, la siguiente información:
+
+- `read_TS(X)`: Es 
