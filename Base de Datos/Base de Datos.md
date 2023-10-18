@@ -15,6 +15,7 @@
 - [[Dependencias Funcionales]]
 - [[Formas Normales]]
 - [[Base de Datos/Concurrencia|Concurrencia]]
+- [[Transacción]]
 
 ## Apuntes Prácticos
 

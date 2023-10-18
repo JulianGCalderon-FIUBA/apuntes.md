@@ -6,18 +6,6 @@ En un sistema multiprocesador, se disponen de varias unidades de procesamiento q
 
 La concurrencia es la posibilidad de ejecutar múltiples transacciones en forma simultánea.
 
-## Transacción
-
-Una transacción es una unidad logica de trabajo. También puede ser pensado como una secuencia ordenada de instrucciones atómicas.
-
-Una misma transaccion puede realizar varias operaciones de consulta/AMB durante su ejecución.
-
-Antes de existir multitasking, las transacciones se serializaban. Hasta tanto no se terminara una, no se iniciaba la siguiente. Esto no es una buena idea, nos gustaria poder ejecutar las transacciones simultaneamente. No es deseable que la ejecución de una transacción lenta demore a otras de ejecución rápida.
-
-Si dos transaccioens utilizan conjuntos de datos distintos, debería poder ejecutarse concurrentemente en distintos procesadores.
-
-Las transacciones comparten recursos (tablas) entre si. Esto es un problema importante para le ejecución concurrente.
-
 ## Modelo de Concurrencia
 
 Utilizaremos el modelo de concurrencia solapada (interleaved concurreny), que considera las siguientes hiótesis:
@@ -66,13 +54,23 @@ Para ello, es necesario agregar a la secuencia de instrucciones de cada transacc
 
 ## Anomalias de Ejecución Concurrente
 
-La anomalía de la **lectura sucia** ocurre cuando una transacción $T_2$ lee lo que ha sido modificado por otra transacción $T_1$. Si luego $T_1$ debe ser deshecha, entonces la lectura de $T_2$ no fue valida, esto implica que $T_2$ también debe ser deshecha. Si cuando se debe deshacer $T_2$, encontramos que ya se habia realizado *commit*, entonces estaremos ante un error.
+Cuando se ejecutan transacciones en forma concurrente se da lugar a distintas situaciones anómalas que pueden violar las propiedades ACID.
+
+### Lectura Sucia
+
+La anomalía de la **lectura sucia** ocurre cuando una transacción $T_2$ lee lo que ha sido modificado por otra transacción $T_1$.
+
+Si luego $T_1$ debe ser deshecha, entonces la lectura de $T_2$ no fue valida, esto implica que $T_2$ también debe ser deshecha. Si cuando se debe deshacer $T_2$, encontramos que ya se habia realizado *commit*, entonces estaremos ante un error.
+
+Esta anomalía también se la conoce con el nombre de *temporary update* o *read uncommited data*.
 
 Esta anomalía es un conflicto del tipo:
 
 $$
 WR: W_{T_1}(X)\dots R_{T_2}(X)\dots (a_{T_1} \lor c_{T_1})
 $$
+
+### Actualización perdida
 
 La anomalia de la **actualización perdida** ocurre cuando una transacción $T_2$ modifica un item que fue leído anteriormente por una primera transacción $T_1$ que aún no terminó. Si la primera transacción luego modifica, lo hará en base al valor leido inicialmente, y la modificación de $T_2$ se perderá.
 
