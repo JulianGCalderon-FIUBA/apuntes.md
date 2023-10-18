@@ -115,3 +115,7 @@ Este método por sí solo no alcanza para garantizar la serializabilidad, debe c
 
 - Validación permanente con el grafo de precedencias buscando ciclos de conflictos $RW$.
 - Locks de predicados en el proceso de detección de conflictos para detectar precedencias.
+
+## Solución a la Anomalía del Fantasma
+
+#todo
