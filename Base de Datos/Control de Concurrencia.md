@@ -46,4 +46,24 @@ Cuando se detecta un ciclo en este grafo, se aborta una de las transacciones inv
 
 La inanición o *livelock* es una condición vinculada con el *deadlock*, y ocurre cuando una transacción no logra ejecutarse por un periodo de tiempo indefinido. Puede ocurrir, por ejemplo, cuando ante un deadlock se elige siempre a la misma transacción para ser abortada.
 
-La solución más común consiste en encolar los pedidos de *locks* de manera que las transacciones que esperan d
+La solución más común consiste en encolar los pedidos de *locks* de manera que las transacciones que esperan desde hace más tiempo por un recurso tengan prioridad en la adquisición de su *lock*.
+
+### Acceso a Estructuras de Arbol
+
+Generalmente, los gestores de bases de datos cuentan con estructuras de búsqueda de tipo árbol B+, tales que los bloques de datos se encuentran en las hojas.
+
+A los locks que se aplican sobre los nodos de un índice se los denomina *index locks*.
+
+Para mantener la serializabilidad en el acceso a estas estructuras, es necesario seguir las siguientes reglas:
+
+- Todos los nodos accedidos deben ser lockeados
+- Cualquier nodo puede ser el primero en ser lockeado por la transacción (aunque generalmente es la raíz)
+- Cada nodo subsecuente puede ser lockeado solo si se posee un lock sobre su nodo padre.
+- Los nodos pueden ser deslockeados en cualquier momento
+- Un nodo que fue deslockeado no puede volver a ser lockeado.
+
+A partir de las reglas anteriores, podemos proponer el siguiente protocolo para el acceso concurrente a estructuras de árbol, conocido como **protocolo de cangrejo** (*grabbing protocol*):
+
+1. Comenzar obteniendo un lock sobre el nodo raíz
+2. Hasta llegar a los nodos deseados, adquirir un lock sobre los hijos que se quiere acceder, y liberar el lock sobre el padre si los nodos hijos son seguros (es decir, el nodo hijo no está lleno si estamos haciendo una inserción, ni está justo por la mitad en el caso de una eliminación).
+3. Una vez terminada la operación, deslockear todos los nodos.
