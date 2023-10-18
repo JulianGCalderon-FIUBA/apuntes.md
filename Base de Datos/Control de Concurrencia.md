@@ -82,11 +82,23 @@ $$
 
 Este método no utiliza locks, por lo que está exento de *deadlocks*.
 
+### Implementación
+
 Se debe mantener en todo instante, para cada ítem $X$, la siguiente información:
 
 - `read_TS(X)`: Es el $TS(T)$ correspondiente a la transacción más joven que leyó el ítem $X$.
-- `write_TS(X)`: Es el $TS(T)$ correspondiente a la transacción más joven que escribio el item $X$.
+- `write_TS(X)`: Es el $TS(T)$ correspondiente a la transacción más joven que escribió el ítem $X$.
 
-Cuando una transacción $T_i$ quiere ejecutar $R(X)$, si una transacción posterior $T_j$ modificó el ítem, $T_i$ deberá ser abortada. De lo contrario, se actualiza `read_TS(X)`
+Cuando una transacción $T_i$ quiere ejecutar $R(X)$, si una transacción posterior $T_j$ modificó el ítem, $T_i$ deberá ser abortada (*read to late*). De lo contrario, se actualiza `read_TS(X)`
 
-Cuando una transacción $T_i$ quiere ejecutar $W(X)$, si una transacción posterior $T_j$ leyó o escribió el ítem, entonces $T_i$ deberá ser abortada.
+Cuando una transacción $T_i$ quiere ejecutar $W(X)$, si una transacción posterior $T_j$ leyó o escribió el ítem, entonces $T_i$ deberá ser abortada (*write to late*). De lo contrario, se actualiza `write_TS(X)`
+
+### Thomas's Write Rule
+
+La lógica en el caso de ejecutar una escritura puede ser mejorado, utilizando la regla conocida como *Thomas's Write rule*:
+
+Si cuando $T_i$ intenta escribir un ítem encuentra que una transacción posterior $T_j$ ya lo escribió, entonces $T_i$ puede descartar su actualización sin riesgos, siempre y cuando el ítem no haya sido leído por ninguna transacción posterior a $T_i$.
+
+Al utilizar esta mejora no queda garantizada la serializabilidad por conflictos, pero si la serializabilidad por vistas.
+
+## Snapshot Isolation
