@@ -7,10 +7,8 @@
 - [[Modelo Entidad-Interrelación]]
 - [[Modelo Entidad-Interrelación Aumentado]]
 - [[Modelo Relacional]]
-- [[Pasaje de Modelos]]
 - [[Álgebra Relacional]]
 - [[Cálculo Relacional]]
-- [[SQL]]
 - [[Diseño Relacional]]
 - [[Dependencias Funcionales]]
 - [[Formas Normales]]
@@ -22,3 +20,5 @@
 ## Apuntes Prácticos
 
 - [[Exportación e Importación]]
+- [[Pasaje de Modelos]]
+- [[Lenguaje SQL]]

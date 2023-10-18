@@ -1,4 +1,4 @@
-Es un [[Lenguajes#Data-Manipulation Language|lenguaje de manipulación de datos]] declarativo, de más alto nivel que el álgebra relacional. Al no ser procedural, no especifica el orden de las operaciones. [[SQL]] está inspirado en el cálculo relacional.
+Es un [[Lenguajes#Data-Manipulation Language|lenguaje de manipulación de datos]] declarativo, de más alto nivel que el álgebra relacional. Al no ser procedural, no especifica el orden de las operaciones. El [[Lenguaje SQL]] está inspirado en el cálculo relacional.
 
 El cálculo relacional está basado en la **lógica de predicados**.
 
