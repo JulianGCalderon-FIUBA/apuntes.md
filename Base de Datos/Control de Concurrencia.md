@@ -84,4 +84,9 @@ Este método no utiliza locks, por lo que está exento de *deadlocks*.
 
 Se debe mantener en todo instante, para cada ítem $X$, la siguiente información:
 
-- `read_TS(X)`: Es 
+- `read_TS(X)`: Es el $TS(T)$ correspondiente a la transacción más joven que leyó el ítem $X$.
+- `write_TS(X)`: Es el $TS(T)$ correspondiente a la transacción más joven que escribio el item $X$.
+
+Cuando una transacción $T_i$ quiere ejecutar $R(X)$, si una transacción posterior $T_j$ modificó el ítem, $T_i$ deberá ser abortada. De lo contrario, se actualiza `read_TS(X)`
+
+Cuando una transacción $T_i$ quiere ejecutar $W(X)$, si una transacción posterior $T_j$ leyó o escribió el ítem, entonces $T_i$ deberá ser abortada.
