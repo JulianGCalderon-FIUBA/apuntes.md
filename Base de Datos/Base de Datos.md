@@ -14,9 +14,10 @@
 - [[Diseño Relacional]]
 - [[Dependencias Funcionales]]
 - [[Formas Normales]]
-- [[Base de Datos/Concurrencia|Concurrencia]]
 - [[Transacción]]
+- [[Base de Datos/Concurrencia|Concurrencia]]
 - [[Anomalías]]
+- [[Control de Concurrencia]]
 
 ## Apuntes Prácticos
 

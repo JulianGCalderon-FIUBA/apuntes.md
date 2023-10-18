@@ -52,7 +52,11 @@ Para ello, es necesario agregar a la secuencia de instrucciones de cada transacc
 
 A partir de las operaciones definidas, podemos denotar una transacción $T$ como una secuencia de $m(T)$ operaciones:
 
-$$ {I_T^1; I_T^2; \dots;}
+$$
+\{I_T^1; I_T^2; \dots; I_T^{m(T)}\}
+$$
+
+Por ejemplo, una transacción puede ser escrita como:
 
 $$
 b_T\dots R_T(X)\dots W_T(X)\dots c_T
