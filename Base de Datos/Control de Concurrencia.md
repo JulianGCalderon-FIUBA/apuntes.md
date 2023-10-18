@@ -1,11 +1,11 @@
 El problema de control de concurrencia en vistas de garantizar el aislamiento tiene dos enfoques:
 
 - Enfoque **pesimista**: Busca garantizar que no se produzcan conflictos
-	- Control de concurrencia basado en *locks*
+	- [[Control de Concurrencia#Basado en Locks|Basado en Locks]]
 - Enfoque **optimista**: Consiste en "dejar hacer" a las transacciones y deshacer (*rollback*) una de ellas si en fase de validación se descubre un conflicto. Es conveniente cuando la probabilidad de error es baja.
-	- Control de concurrencia basado en *timestamps*.
-	- *Snapshot Isolation*: Cada transacción tiene un *snapshot* o copia local, funciona mucho mejor en contextos optimistas.
-	- Control de concurrencia multiversión.
+	- [[Control de Concurrencia#Basado en Timestamps|Basado en Timestamps]].
+	- [[Control de Concurrencia#Snapshot Isolation|Snapshot Isolation]]
+	- Control de concurrencia multiversión (MVCC).
 
 ## Basado en Locks
 
@@ -13,7 +13,7 @@ El gestor utiliza locks para bloquear a los recursos y no permitir que más de u
 
 Es posible garantizar el aislamiento a partir de la utilización de locks (no es trivial, requiere más que simplemente bloquear antes de acceder a una variable).
 
-El protocolo más común es el conocido protocolo de lock de dos fases (2PL; two-phase lock): Una transacción no puede adquirir un lock luego de liberar un lock que había adquirido.
+El protocolo más común es el conocido protocolo de lock de dos fases (*2PL; two-phase lock*): Una transacción no puede adquirir un lock luego de liberar un lock que había adquirido.
 
 La regla naturalmente divide la ejecución en dos fases:
 
@@ -102,3 +102,16 @@ Si cuando $T_i$ intenta escribir un ítem encuentra que una transacción posteri
 Al utilizar esta mejora no queda garantizada la serializabilidad por conflictos, pero si la serializabilidad por vistas.
 
 ## Snapshot Isolation
+
+En este método, cada transacción ve una *snapshot* de la base de datos correspondiente al instante de su inicio.
+
+Este método permite mayor solapamiento, ya que sus lecturas que hubieran sido bloqueadas utilizando locks, ahora siempre pueden realizarse.
+
+Requiere de mayor espacio en disco o memoria, al tener que mantener múltiples versiones de los mismos items.
+
+Cuando ocurren conflictos de tipo $WW$ entre transacciones, obliga a deshacer una de ellas. Esto se conoce como *first-commiter-wins*.
+
+Este método por si solo no alcanza para garantizar la serializabilidad, debe combinarse con dos elementos más:
+
+- Validación permanente con el grafo de precedencias buscando ciclos de conflictos $RW$.
+- Locks de predicados en el proceso de detección de conflictos para detectar precedencias.
