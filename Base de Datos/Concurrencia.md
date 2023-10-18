@@ -73,3 +73,12 @@ Todo par de instrucciones consecutivas de un solapamiento que no constituye un c
 ## Grafo de Precedencias
 
 Una serializabilidad por conflictos puede ser evaluada a través del grafo de precedencias.
+
+Dado un conjunto de transacciones $T_1, T_2, \dots, T_n$ que acceden a determinados ítems $X_1, X_2, \dots, X_p$, el grafo de precedencias es un grafo dirigido simple que se construye de la siguiente forma:
+
+- Se crea un nodo por cada transacción
+- Se agrega un arco entre los nodos $T_i, T_j$ (en ese orden) si y solo si existe algún conflicto entre dos instrucciones $I_{T_i}, I_{T_j}$.
+
+Cada arco $(T_i, T_j)$ en el grafo representa una precedencia entre $T_i, T_j$ e indica que para que el resultado sea equivalente por conflictos a una ejecución serial, entonces en $T_i$ debe preceder a $T_j$. Por la misma razón, si el grafo tiene un ciclo, entonces el solapamiento no es equivalente al de una ejecución serial (tendríamos una contradicción).
+
+
