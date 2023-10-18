@@ -22,4 +22,13 @@ La regla naturalmente divide la ejecución en dos fases:
 
 El cumplimiento de este protocolo es condición suficiente para garantizar que cualquier orden de ejecución de un conjunto de transacciones sea serializable. Por otro lado, nos prohíbe muchos solapamientos que hubiesen sido válidos, por lo que el código es menos eficiente.
 
-La utilización de locks nos trae problemas que antes no teníamos, como la aparición de *deadlocks* y *livelocks*. Para detectar un *deadlock*, podemos utilizar un mecanismo de detección de basado en un grafo de alocación de recursos.
+### Deadlocks t
+
+La utilización de locks nos trae problemas que antes no teníamos, como la aparición de *deadlocks* y *livelocks*. Para prevenir los *deadlocks*, tendremos distintos mecanismos.
+
+- Cada transacción adquiera todos los locks que necesita antes de comenzar su primera instrucción, de forma simultánea,
+- Definir un ordenamiento de los recursos, y obligar a que luego todas las transacciones respeten dicho ordenamiento en la adquisición de locks.
+
+Estos métodos no son óptimos, ya que requieren de saber los recursos que necesitaremos de antemano.
+
+Otra forma de resolver esto es a partir de mecanismos de
