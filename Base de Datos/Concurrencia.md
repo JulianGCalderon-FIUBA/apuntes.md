@@ -29,3 +29,15 @@ A partir de la [[Transacción#Notación|notación]] de las transacciones, podemo
 $$
 b_{T_1}b_{T_2}\dots R_{T_1}(X)\dots W_{T_2}(X)\dots c_{T_1}c_{T_2}
 $$
+
+## Ejecución Serial
+
+Dado un conjunto de transacciones $T_1, T_2, \dots, T_n$, una ejecución serial es aquella en la que las transaccines se ejecutan por completo una detrás de otra, en base a algún orden dado.
+
+Podemos calcular la cantidad de ejecuciones seriales distintas existen entre $n$ transacciones, tendremos $n!$
+
+## Serializabilidad
+
+Decimos que un solapamiento de un conjunto de transacciones $T_1, T_2, \dots, T_n$ es **serializable** cuando la ejecución de sus instrucciones en dicho orden deja la base de datos en un estado equivalente a aquel en que la hubiera dejado alguna ejecución serial.
+
+Nos interesa q
