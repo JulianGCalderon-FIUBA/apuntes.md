@@ -6,7 +6,7 @@ En un sistema multiprocesador, se disponen de varias unidades de procesamiento q
 
 La concurrencia es la posibilidad de ejecutar múltiples transacciones en forma simultánea.
 
-## Modelo de Concurrencia
+## Modelo de concurrencia
 
 Utilizaremos el modelo de concurrencia solapada (*interleaved concurrency*), que considera las siguientes hipótesis:
 

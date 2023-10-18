@@ -1,6 +1,6 @@
 Cuando se ejecutan [[Transacción|transacciones]] en forma [[Base de Datos/Concurrencia|concurrente]] se da lugar a distintas situaciones anómalas que pueden violar las [[Transacción#Propiedades ACID|propiedades ACID]].
 
-## Lectura Sucia
+## Lectura sucia
 
 La anomalía de la **lectura sucia** ocurre cuando una transacción $T_2$ lee lo que ha sido modificado por otra transacción $T_1$.
 
@@ -18,6 +18,8 @@ $$
 
 La anomalía de la **actualización perdida** ocurre cuando una transacción $T_1$ lee un valor que es luego modificado por $T_2$. Si la primera transacción luego modifica el valor, lo hará en base al valor leído inicialmente, y la modificación de $T_2$ se perderá.
 
+## Lectura no repetible
+
 Si, en cambio, la primera transacción volvería a leer el ítem luego de que la segunda la escribiera, se encontraría un valor distinto. Este caso se conoce como **lectura no repetible** (*unrepeatable read*)
 
 Esta anomalía es un conflicto del tipo $RW$, seguido por otro de tipo $WW$ o $WR$.
@@ -26,7 +28,7 @@ $$
 R_{T_1}(X)\dots W_{T_2}(X)\dots(a_{T_1} \lor c_{T_1})
 $$
 
-## Escritura Sucia
+## Escritura sucia
 
 La anomalía de **escritura sucia** ocurre cuando una transacción $T_2$ escribe un ítem que ya había sido escrito por otra transacción $T_1$.
 
