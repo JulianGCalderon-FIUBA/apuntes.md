@@ -22,13 +22,28 @@ La regla naturalmente divide la ejecución en dos fases:
 
 El cumplimiento de este protocolo es condición suficiente para garantizar que cualquier orden de ejecución de un conjunto de transacciones sea serializable. Por otro lado, nos prohíbe muchos solapamientos que hubiesen sido válidos, por lo que el código es menos eficiente.
 
-### Deadlocks t
+### Deadlocks
 
-La utilización de locks nos trae problemas que antes no teníamos, como la aparición de *deadlocks* y *livelocks*. Para prevenir los *deadlocks*, tendremos distintos mecanismos.
+La utilización de locks nos trae problemas que antes no teníamos, como la aparición de *deadlocks*. Para prevenirlos tendremos distintos mecanismos.
 
 - Cada transacción adquiera todos los locks que necesita antes de comenzar su primera instrucción, de forma simultánea,
 - Definir un ordenamiento de los recursos, y obligar a que luego todas las transacciones respeten dicho ordenamiento en la adquisición de locks.
 
 Estos métodos no son óptimos, ya que requieren de saber los recursos que necesitaremos de antemano.
 
-Otra forma de resolver esto es a partir de mecanismos de
+Otra forma de resolver esto es a partir de mecanismos de detección de *deadlocks*:
+
+- Con la utilización del **grafo de alocación de recursos**.
+- Definir un *timeout* para la adquisición del lock, despues del cual se aborta la transacción.
+
+### Grafo de Alocación de Recursos
+
+Es un grafo dirigido que posee a las transacciones y los recursos como nodos, y en el cual se coloca un arco de una transacción a un recurso cada vez que una transacción espera por un recurso, y un arco de un recurso a una transacción cada vez que la transacción posee el *lock* de dicho recurso.
+
+Cuando se detecta un ciclo en este grafo, se aborta una de las transacciones involucradas.
+
+### Inanición
+
+La inanición o *livelock* es una condición vinculada con el *deadlock*, y ocurre cuando una transacción no logra ejecutarse por un periodo de tiempo indefinido. Puede ocurrir, por ejemplo, cuando ante un deadlock se elige siempre a la misma transacción para ser abortada.
+
+La solución más común consiste en encolar los pedidos de *locks* de manera que las transacciones que esperan d
