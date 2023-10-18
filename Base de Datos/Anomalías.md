@@ -4,7 +4,7 @@ Cuando se ejecutan [[Transacción|transacciones]] en forma [[Base de Datos/Concu
 
 La anomalía de la **lectura sucia** ocurre cuando una transacción $T_2$ lee lo que ha sido modificado por otra transacción $T_1$.
 
-Si luego $T_1$ debe ser deshecha, entonces la lectura de $T_2$ no fue valida, esto implica que $T_2$ también debe ser deshecha. Si cuando se debe deshacer $T_2$, encontramos que ya se habia realizado *commit*, entonces estaremos ante un error.
+Si luego $T_1$ debe ser deshecha, entonces la lectura de $T_2$ no fue válida, esto implica que $T_2$ también debe ser deshecha. Si cuando se debe deshacer $T_2$, encontramos que ya se había realizado *commit*, entonces estaremos ante un error.
 
 Esta anomalía también se la conoce con el nombre de *temporary update* o *read uncommited data*.
 
@@ -16,9 +16,9 @@ $$
 
 ## Actualización perdida
 
-La anomalia de la **actualización perdida** ocurre cuando una transacción $T_1$ lee un valor que es luego modificado por $T_2$. Si la primera transacción luego modifica el valor, lo hará en base al valor leido inicialmente, y la modificación de $T_2$ se perderá.
+La anomalía de la **actualización perdida** ocurre cuando una transacción $T_1$ lee un valor que es luego modificado por $T_2$. Si la primera transacción luego modifica el valor, lo hará en base al valor leído inicialmente, y la modificación de $T_2$ se perderá.
 
-Si en cambio la primera transacción volvería a leer el item luego de que la segunda la escribiera, se encontraría un valor distinto. Este caso se conoce como **lectura no repetible** (*unrepeatable read*)
+Si, en cambio, la primera transacción volvería a leer el ítem luego de que la segunda la escribiera, se encontraría un valor distinto. Este caso se conoce como **lectura no repetible** (*unrepeatable read*)
 
 Esta anomalía es un conflicto del tipo $RW$, seguido por otro de tipo $WW$ o $WR$.
 

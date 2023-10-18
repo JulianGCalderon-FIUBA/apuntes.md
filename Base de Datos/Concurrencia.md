@@ -56,6 +56,10 @@ Cuando, dado un estado inicial particular, ambos órdenes de ejecución dejan a 
 
 Cuando ambos órdenes de ejecución poseen los mismos conflictos entre instrucciones, diremos que estamos ante equivalencia de conflictos.
 
+Esta noción es interesante, pues no depende del estado inicial de la base de datos. La equivalencia de conflictos implica equivalencia de resultados.
+
 ### Equivalencia de Vistas
 
-Cuando en cada orden de ejecución, cada lectura $R_{T_i}(X)$ lee el valor escrito por la misma transacción $j$, 
+Cuando en cada orden de ejecución, cada lectura $R_{T_i}(X)$ lee el valor escrito por la misma transacción $j$, $W_{T_j}(X)$.
+
+Además, se pide que en ambos órdenes la última modificación de cada ítem $X$ haya sido hecha por la misma transacción.
