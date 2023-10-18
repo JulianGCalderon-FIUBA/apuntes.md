@@ -206,7 +206,9 @@
     "corrutinas",
     "multitasking",
     "serializabilidad",
-    "serializables"
+    "serializables",
+    "serializable",
+    "multiversión"
   ],
   "newFileLocation": "current"
 }

@@ -66,19 +66,23 @@ Además, se pide que en ambos órdenes la última modificación de cada ítem $X
 
 ## Conflictos
 
-Dado un orden de ejecución, un conflicto es un par de instrucciones $(I_1, I_2)$ ejecutadas por dos transacciones distintas $T_i$ y $T_j$, sobre un mismo ítem $X$ tales que $I_2$ se encuentra más tarde que $I_1$, y al menos una de las dos instrucciones es una escritura.
+Dado un orden de ejecución, un **conflicto** es un par de instrucciones $(I_1, I_2)$ ejecutadas por dos transacciones distintas $T_i$ y $T_j$, sobre un mismo ítem $X$ tales que $I_2$ se encuentra más tarde que $I_1$, y al menos una de las dos instrucciones es una **escritura**.
 
-Todo par de instrucciones consecutivas de un solapamiento que no constituye un conflicto puede ser invertido en su ejecución. Esto obtiene un solapamiento equivalente por conflictos al inicial.
+Todo par de instrucciones consecutivas de un solapamiento que no constituye un conflicto puede ser **invertido** en su ejecución. Esto obtiene un solapamiento equivalente por conflictos al inicial.
 
 ## Grafo de Precedencias
 
-Una serializabilidad por conflictos puede ser evaluada a través del grafo de precedencias.
+Una serializabilidad por conflictos puede ser evaluada a través del **grafo de precedencias**.
 
 Dado un conjunto de transacciones $T_1, T_2, \dots, T_n$ que acceden a determinados ítems $X_1, X_2, \dots, X_p$, el grafo de precedencias es un grafo dirigido simple que se construye de la siguiente forma:
 
 - Se crea un nodo por cada transacción
 - Se agrega un arco entre los nodos $T_i, T_j$ (en ese orden) si y solo si existe algún conflicto entre dos instrucciones $I_{T_i}, I_{T_j}$.
 
-Cada arco $(T_i, T_j)$ en el grafo representa una precedencia entre $T_i, T_j$ e indica que para que el resultado sea equivalente por conflictos a una ejecución serial, entonces en $T_i$ debe preceder a $T_j$. Por la misma razón, si el grafo tiene un ciclo, entonces el solapamiento no es equivalente al de una ejecución serial (tendríamos una contradicción).
+Opcionalmente, podemos etiquetar el arco con el nombre del recurso que causa el conflicto.
 
+Cada arco $(T_i, T_j)$ en el grafo representa una precedencia entre $T_i, T_j$ e indica que para que el resultado sea equivalente por conflictos a una ejecución serial, entonces en $T_i$ debe **preceder** a $T_j$.
 
+Un orden de ejecución es serializable por conflictos si y solo si su grafo de precedencias es **acíclico**.
+
+Si un orden de ejecución es serializable por conflictos, el orden de ejecución serial equivalente puede ser calculado a partir del grafo de precedencias, utilizando el algoritmo de **ordenamiento topológico**.
