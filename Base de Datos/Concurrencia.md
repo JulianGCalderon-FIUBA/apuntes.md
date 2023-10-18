@@ -32,7 +32,7 @@ $$
 
 ## Ejecución Serial
 
-Dado un conjunto de transacciones $T_1, T_2, \dots, T_n$, una ejecución serial es aquella en la que las transaccines se ejecutan por completo una detrás de otra, en base a algún orden dado.
+Dado un conjunto de transacciones $T_1, T_2, \dots, T_n$, una **ejecución serial** es aquella en la que las transaccines se ejecutan por completo una detrás de otra, en base a algún orden dado.
 
 Podemos calcular la cantidad de ejecuciones seriales distintas existen entre $n$ transacciones, tendremos $n!$
 
@@ -40,4 +40,22 @@ Podemos calcular la cantidad de ejecuciones seriales distintas existen entre $n$
 
 Decimos que un solapamiento de un conjunto de transacciones $T_1, T_2, \dots, T_n$ es **serializable** cuando la ejecución de sus instrucciones en dicho orden deja la base de datos en un estado equivalente a aquel en que la hubiera dejado alguna ejecución serial.
 
-Nos interesa q
+Nos interesa que los solapamientos producidos sean serializables, porque ellos garantizar la propiedad de aislamiento.
+
+Deberíamos no sólo mirar nuestra base de datos actual, sino cualquier estado inicial posible.
+
+## Equivalencia de Solapamientos
+
+Definimos la equivalencia a partir de un conjunto de solapamientos distntos del mismo conjunto de transacciones.
+
+### Equivalencia de Resultados
+
+Cuando, dado un estado inicial particular, ambos órdenes de ejecución dejan a la base de datos en el mismo estado, diremos que estamos ante equivalencia de resultados.
+
+### Equivalencia de Conflictos
+
+Cuando ambos órdenes de ejecución poseen los mismos conflictos entre instrucciones, diremos que estamos ante equivalencia de conflictos.
+
+### Equivalencia de Vistas
+
+Cuando en cada orden de ejecución, cada lectura $R_{T_i}(X)$ lee el valor escrito por la misma transacción $j$, 
