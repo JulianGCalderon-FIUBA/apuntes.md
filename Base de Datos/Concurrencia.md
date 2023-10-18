@@ -65,3 +65,5 @@ Cuando en cada orden de ejecución, cada lectura $R_{T_i}(X)$ lee el valor escri
 Además, se pide que en ambos órdenes la última modificación de cada ítem $X$ haya sido hecha por la misma transacción.
 
 ## Conflictos
+
+Dado un orden de ejecución, un conflicto es un par de instrucciones $(I_1, I_2)$ ejecutadas por dos transacciones distintas $T_i$ y $T_j$, sobre un mismo ítem $X$ tales que $I_2$ se encuentra más tarde que $I_1$, y al menos una de las dos instrucciones es una escritura
