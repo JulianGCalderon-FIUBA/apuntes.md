@@ -59,5 +59,5 @@ $$
 Dado un conjunto de transacciones, podemos denotar de la misma forma a un solapamiento posible, como por ejemplo:
 
 $$
-b_{T_1}b_{T_2}\dots R_{T_}(X)\dots W_{T_2}(X)\dots c_{T_1}c_{T_2}
+b_{T_1}b_{T_2}\dots R_{T_1}(X)\dots W_{T_2}(X)\dots c_{T_1}c_{T_2}
 $$

@@ -16,6 +16,7 @@
 - [[Formas Normales]]
 - [[Base de Datos/Concurrencia|Concurrencia]]
 - [[Transacción]]
+- [[Anomalías]]
 
 ## Apuntes Prácticos
 
