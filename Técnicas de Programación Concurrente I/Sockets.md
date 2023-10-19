@@ -100,4 +100,33 @@ Retorna el *file descriptor* del cliente en caso de éxito, el cual se utilizar�
 
 ### Dirección de Socket
 
-La dirección de un *sc*
+La dirección de un *socket* se define  de forma genérica con la estructura `sockaddr`.
+
+```C
+struct sockaddr {
+	unsigned short sa_familty;
+	char sa_data[14];
+}
+```
+
+En `sa_family` se guarda la familia del protocolo. En `sa_data` se guarda tanto la dirección como el puerto
+
+Por otro lado, tendremos `sockaddr_in` para cuando utilizamos IP.
+
+```C
+struct sockaddr_in {
+	short int sin_family;
+	unsigned short int sin_port;
+	struct in_addr sin_addr;
+	unsigned char sin_zero[8];
+}
+```
+
+Finalmente, guardamos la dirección en
+
+```C
+typedef uint32_t in_addr_t;
+struct in_addr {
+	in_addr_t s_addr;
+}
+```
