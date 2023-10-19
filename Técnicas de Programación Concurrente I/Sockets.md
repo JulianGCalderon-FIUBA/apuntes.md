@@ -83,3 +83,11 @@ int listen(int sockfd, int backlog);
 Recibe por parámetro el `backlog` que es la longitud máxima de la cola de conexiones pendientes que puede tener el servidor. Retorna 0 en caso de éxito, y -1 en caso de error (y establece la variable externa `errno`).
 
 Distintas implementaciones de los distintos sistemas operativos toman el número `backlog` de forma distinta.
+
+### Aceptación de Conexiónes
+
+Para tomar una conexión entrante de un cliente, utilizamos `accept()`.
+
+```C
+int accept(int sockfd, struct sockaddr *cliaddr, socklen_t *addrlen*);
+```
