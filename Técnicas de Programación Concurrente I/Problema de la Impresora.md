@@ -19,6 +19,14 @@ De esta forma, estamos manejando un *lock* de forma remota.
 Como debemos tener una conexión con todos, entonces utilizaremos UDP. Cada cliente tendrá:
 
 - Un socket UDP
-- Una cola de clientes que hayan pedido el Socket (y aún no les dio OK)
-- Un timestamp de cuando pidio el Socket (si es que lo pidio)
+- Una cola de clientes que hayan pedido el *socket* (y aún no les dio OK)
+- Un *timestamp* de cuando pidió el *socket* (si es que lo pidió)
 - Una lista de clientes que ya me dieron el OK.
+
+Cuando el cliente quiere entrar a la sección crítica, entonces guarda el *timestamp* y le envía un mensaje a cada uno de los clientes restantes.
+
+Por cada mensaje de OK recibido, agrega al cliente a la lista de clientes que le enviaron el OK.
+
+Una vez recibió el OK de todos los clientes, entonces puede entrar en la sección crítica (para implementar esto, se puede utilizar una variable de condición).
+
+Cuando el cliente quiere salir de la sección crítica, entonces debo drenar la cola de clientes que pidieron el *socket* y enviar un OK a cada uno.
