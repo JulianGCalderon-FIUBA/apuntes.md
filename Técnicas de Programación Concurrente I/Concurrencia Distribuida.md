@@ -45,8 +45,4 @@ Existen dos tipos de servidor, según su forma de resolver pedidos:
 - Iterativo: Atiende las peticiones de a una a la vez.
 - Concurrente: Puede atender varias peticiones a la vez.
 
-## Sockets
-
-Son una herramienta del sistema operativo que permiten hacer comunicación entre dos procesos que estén, o bien en la misma computadora, o bien en computadoras distintas. Se utilizan para implementar un modelo de cliente-servidor:
-
-
+[[Sockets]]
