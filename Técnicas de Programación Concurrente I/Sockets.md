@@ -75,3 +75,4 @@ int bind(int sockfd, struct sockaddr *my_addr, int addrlen);
 Esta asigna una dirección local al *socket*, para que pueda recibir conexiones de clientes.
 
 Retorna 0 en caso de éxito, y -1 en caso de error (y establece la variable externa `errno`).
+
