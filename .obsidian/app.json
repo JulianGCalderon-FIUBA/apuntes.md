@@ -203,7 +203,12 @@
     "multivaluada",
     "multivaluadas",
     "Multivaluada",
-    "corrutinas"
+    "corrutinas",
+    "multitasking",
+    "serializabilidad",
+    "serializables",
+    "serializable",
+    "multiversión"
   ],
   "newFileLocation": "current"
 }
