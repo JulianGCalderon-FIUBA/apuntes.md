@@ -7,7 +7,6 @@
 - [[Corrección]]
 - [[Redes de Petri]]
 - [[Pasaje de Mensajes]]
-- [[Concurrencia Distribuida]]
 - [[Exclusión Mutua Distribuida]]
 - [[Modelo Cliente Servidor]]
 
