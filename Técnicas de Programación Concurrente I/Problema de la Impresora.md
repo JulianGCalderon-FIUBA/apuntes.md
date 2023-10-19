@@ -16,4 +16,9 @@ De esta forma, estamos manejando un *lock* de forma remota.
 
 ## Solución con [[Exclusión Mutua Distribuida#Algoritmo Distribuido|Mutex Distribuido]]
 
-Como debemos tener una conexión con todos, entonces utilizaremos UDP.
+Como debemos tener una conexión con todos, entonces utilizaremos UDP. Cada cliente tendrá:
+
+- Un socket UDP
+- Una cola de clientes que hayan pedido el Socket (y aún no les dio OK)
+- Un timestamp de cuando pidio el Socket (si es que lo pidio)
+- Una lista de clientes que ya me dieron el OK.
