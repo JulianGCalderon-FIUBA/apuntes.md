@@ -33,7 +33,7 @@ Esto crea el *file descriptor* del *socket*, recibe por parámetro:
 - `type`: Permite elegir el tipo de socket a crear: Stream/Datagram Socket.
 - `protocolo`: Normalmente, se deja un valor de 0, ya que existe un único protocolo para cada tipo de *socket*.
 
-Retorna el *file descriptor*, o un -1 en caso de error (y estavlece la variable externa `errno`).
+Retorna el *file descriptor*, o un -1 en caso de error (y establece la variable externa `errno`).
 
 ### Conexión
 
@@ -94,8 +94,10 @@ int accept(int sockfd,
 					 socklen_t *addrlen);
 ```
 
-Esta función extrae una conexión establecida de la cola de conexiones. Escribe en `cliaddr` la dirección del cliente con el que se conectó. Si todavía no hay ningúna conexión, entonces 
+Esta función extrae una conexión establecida de la cola de conexiones. Escribe en `cliaddr` la dirección del cliente con el que se conectó. Si todavía no hay ninguna conexión, entonces el proceso se bloquea hasta que llegue una conexión.
 
 Retorna el *file descriptor* del cliente en caso de éxito, el cual se utilizará para comunicarse con él. En caso de error, retorna -1 (y establece la variable externa `errno`).
 
+### Dirección de Socket
 
+La dirección de un *sc*
