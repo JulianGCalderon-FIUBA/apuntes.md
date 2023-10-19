@@ -22,8 +22,8 @@ Cuando un proceso quiere entrar en una sección crítica, construye un mensaje c
 
 ### Algoritmo Token Ring
 
-Se conforma un anillo mediante conexiones punto a punto. Al inicializar, el proceso 0 recibe un token que va circulando por el anillo.
+Se conforma un anillo mediante conexiones punto a punto. Al inicializar, el proceso 0 recibe un token que va circulando por el anillo (de forma ordenada).
 
 Solo el proceso que tiene el token puede entrar a la sección crítica. Cuando el proceso dale de la sección crítica, continúa circulando el *token*.
 
-El proceso no puede entrar a otra sección crítica con el mismo token
+El proceso no puede entrar a otra sección crítica con el mismo token. Esto permite que el sistema sea justo.
