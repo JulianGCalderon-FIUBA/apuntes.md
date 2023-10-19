@@ -28,4 +28,4 @@ Solo el proceso que tiene el token puede entrar a la sección crítica. Cuando e
 
 El proceso no puede entrar a otra sección crítica con el mismo token. Esto permite que el sistema sea justo.
 
-## Modelo Cliente Servidor
+## Modelo Cliente Servidor 
