@@ -60,12 +60,18 @@ De forma genérica, utilizamos:
 - La función `read()` lee bytes del *socket*
 - La función `write()` escribe bytes en el *socket*
 
-Si estamos utilizando *stream sockets*, utilizamos las funciones:
+Si estamos utilizando *stream sockets*, utilizamos las funciones `send()` y `recv()`. No hace falta indicar la dirección, ya que es un protocolo con conexión
 
-- `send()`
-- `recv()`.
+Si estamos utilizando *datagram sockets*, utilizamos las funciones `sendto()` y`readfrom()`. Debemos indicar la dirección de destino, puesto que estamos utilizando un protocolo sin conexión.
 
-Si estamos utilizando *datagram sockets*, utilizamos las funciones:
+### Conexión Pasiva
 
-- `sendto()`: Debemos indicar la dirección de destino, ya que estamos utilizando un protocolo sin conexión.
-- `readfrom()`: Debemos indicar la dirección de destino, ya que estamos utilizando un protocolo sin conexión.
+Para crear una conexión pasiva (desde un servidor), utilizamos `bind()`.
+
+```c
+int bind(int sockfd, struct sockaddr *my_addr, int addrlen);
+```
+
+Esta asigna una dirección local al *socket*, para que pueda recibir conexiones de clientes.
+
+Retorna 0 en caso de éxito, y -1 en caso de error (y establece la variable externa `errno`).
