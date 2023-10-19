@@ -19,7 +19,7 @@ Existen distintos tipos de sockets, según los servicios que proveen:
 
 ## Sockets en C
 
-### Creación
+### Creación
 
 Utilizamos la función `socket()`, definida como:
 
@@ -100,7 +100,7 @@ Retorna el *file descriptor* del cliente en caso de éxito, el cual se utilizar�
 
 ### Dirección de Socket
 
-La dirección de un *socket* se define  de forma genérica con la estructura `sockaddr`.
+La dirección de un *socket* se define de forma genérica con la estructura `sockaddr`.
 
 ```C
 struct sockaddr {
