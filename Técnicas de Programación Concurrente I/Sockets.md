@@ -17,7 +17,7 @@ Existen distintos tipos de sockets, según los servicios que proveen:
 - **Raw sockets:** Permiten a las aplicaciones enviar paquetes IP. Este también es un servicio sin conexión.
 - **Sequenced Packet Sockets:** Similares a los *stream sockets*, pero preservan los delimitadores de registro. Utilizan el protocolo SSP *(Sequenced Packet Protocol)*. Hoy en día, no se utilizan.
 
-## Sockets en UNIX
+## Sockets en C
 
 ### Creación
 
@@ -72,7 +72,14 @@ Para crear una conexión pasiva (desde un servidor), utilizamos `bind()`.
 int bind(int sockfd, struct sockaddr *my_addr, int addrlen);
 ```
 
-Esta asigna una dirección local al *socket*, para que pueda recibir conexiones de clientes.
+Esta asigna una dirección local al *socket*, para que pueda recibir conexiones de clientes. Retorna 0 en caso de éxito, y -1 en caso de error (y establece la variable externa `errno`).
 
-Retorna 0 en caso de éxito, y -1 en caso de error (y establece la variable externa `errno`).
+Luego de esto, debemos utilizar la función `listen()` para convertirlo en un *socket*pasivo.
 
+```c
+int listen(int sockfd, int backlog);
+```
+
+Recibe por parámetro el `backlog` que es la longitud máxima de la cola de conexiones pendientes que puede tener el servidor. Retorna 0 en caso de éxito, y -1 en caso de error (y establece la variable externa `errno`).
+
+Distintas implementaciones de los distintos sistemas operativos toman el número `backlog` de forma distinta.
