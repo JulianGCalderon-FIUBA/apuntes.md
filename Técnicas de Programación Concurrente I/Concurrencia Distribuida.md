@@ -28,4 +28,13 @@ Solo el proceso que tiene el token puede entrar a la sección crítica. Cuando e
 
 El proceso no puede entrar a otra sección crítica con el mismo token. Esto permite que el sistema sea justo.
 
-## Modelo Cliente Servidor 
+## Modelo Cliente Servidor
+
+### Sockets
+
+Son una herramienta del sistema operativo que permiten hacer comunicación entre dos procesos que estén, o bien en la misma computadora, o bien en computadoras distintas.
+
+Se utilizan para implementar un modelo de cliente-servidor:
+
+- El cliente es activo porque inicia la interacción con el servidor
+- El servidor es pasivo, existe previo a la existencia del cliente y espera a recibir los pedidos de los clientes.
