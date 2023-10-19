@@ -8,6 +8,8 @@
 - [[Redes de Petri]]
 - [[Pasaje de Mensajes]]
 - [[Concurrencia Distribuida]]
+- [[Exclusión Mutua Distribuida]]
+- [[Modelo Cliente Servidor]]
 
 ## Primitivas de Sincronización
 
@@ -18,6 +20,7 @@
 - [[Barreras]]
 - [[Técnicas de Programación Concurrente I/Canales|Canales]]
 - [[Actores]]
+- [[Sockets]]
 
 ## Problemas Conocidos
 
