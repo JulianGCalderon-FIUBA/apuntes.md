@@ -23,7 +23,7 @@ Como debemos tener una conexión con todos, entonces utilizaremos UDP. Cada clie
 - Un *timestamp* de cuando pidió el *socket* (si es que lo pidió)
 - Una lista de clientes que ya me dieron el OK.
 
-Tendremos
+Tendremos que crear un hilo que lea constantemente del *socket* y realiza las acciones necesarias, según el contexto.
 
 ### Entrada a la Sección Crítica
 
