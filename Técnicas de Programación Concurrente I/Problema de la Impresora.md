@@ -23,10 +23,22 @@ Como debemos tener una conexión con todos, entonces utilizaremos UDP. Cada clie
 - Un *timestamp* de cuando pidió el *socket* (si es que lo pidió)
 - Una lista de clientes que ya me dieron el OK.
 
-Cuando el cliente quiere entrar a la sección crítica, entonces guarda el *timestamp* y le envía un mensaje a cada uno de los clientes restantes.
+Tendremos
 
-Por cada mensaje de OK recibido, agrega al cliente a la lista de clientes que le enviaron el OK.
+### Entrada a la Sección Crítica
+
+Cuando el cliente quiere entrar a la sección crítica, entonces guarda el *timestamp* y le envía un mensaje a cada uno de los clientes restantes.
 
 Una vez recibió el OK de todos los clientes, entonces puede entrar en la sección crítica (para implementar esto, se puede utilizar una variable de condición).
 
+### Salida de la Sección Crítica
+
 Cuando el cliente quiere salir de la sección crítica, entonces debo drenar la cola de clientes que pidieron el *socket* y enviar un OK a cada uno.
+
+### Recepción de Mensajes
+
+Por cada mensaje de OK recibido, agrega al cliente a la lista de clientes que le enviaron el OK. (y hace un *notify* de la variable de condición)
+
+Por cada mensaje de *timestamp* recibido, cuando el propio cliente no tiene un *timestamp* asociado, entonces sabremos que no está queriendo entrar a la sección crítica. Luego, puede enviar el OK.
+
+Si tiene un *timestamp* asociado, y si el propio es mayor, envía un OK. En caso contrario, encola el cliente.
