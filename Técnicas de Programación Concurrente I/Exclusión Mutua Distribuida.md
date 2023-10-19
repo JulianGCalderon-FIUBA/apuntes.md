@@ -14,7 +14,9 @@ Cuando un proceso quiere entrar en una sección crítica, construye un mensaje c
 
 - Si no está en la sección crítica y no quiere entrar, envía OK
 - Si está en la sección crítica, no responde y encola el mensaje. Cuando sale, envía OK.
-- Si quiere entrar en la sección crítica, compara el *timestamp*, y gana el menor (más antiguo)
+- Si quiere entrar en la sección crítica, compara el *timestamp*, si el propio es menor, encola el mensaje y cuando sale de la sección crítica, envía el OK. Si el propio es mayor, entonces envía OK.
+
+Una vez el proceso recibe el OK de todos, puede entrar a la sección crítica.
 
 ## Algoritmo Token Ring
 

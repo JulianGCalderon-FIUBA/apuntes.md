@@ -9,8 +9,11 @@ El coordinador tendrá que levantar un servidor y un hilo por cada conexión ent
 Además de los hilos, tendremos un *mutex* local, al cual accederán los hilos.
 
 1. Cuando un hilo recibe una petición de *lock*, entonces trata de obtener el *lock* local:
-2. En cuanto lo obtiene, le da el OK al cliente.
+2. En cuanto lo obtiene, le da el OK al cliente. Luego se queda esperando a que el cliente finalice.
 3. Una vez el cliente indica que ya salió de la sección crítica, entonces realiza el *unlock*.
 
 De esta forma, estamos manejando un *lock* de forma remota.
- 
+
+## Solución con [[Exclusión Mutua Distribuida#Algoritmo Distribuido|Mutex Distribuido]]
+
+Como debemos tener una conexión con todos, entonces utilizaremos UDP.
