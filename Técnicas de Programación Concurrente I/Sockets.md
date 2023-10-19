@@ -9,3 +9,10 @@ Los protocolos de red pueden proveer distintos servicios:
 - **Con conexión:** Tiene tres fases: Un establecimiento de la conexión, intercambio de datos, y cierre de la conexión. Hay control de flujo y de errores. Por ejemplo: TCP.
 
 ## Tipos de Sockets
+
+Existen distintos tipos de sockets, según los servicios que proveen:
+
+- **Stream Sockets:** Proveen un servicio con conexión, utilizan el protocolo TCP.
+- **Datagram Sockets:** Proveen un servicio sin conexión, utilizan el protocolo UDP.
+- **Raw sockets:** Permiten a las aplicaciones enviar paquetes IP. Este también es un servicio sin conexión.
+- **Sequenced Packet Sockets:** Similares a los *stream sockets*, pero preservan los delimitadores de registro. Utilizan el protocolo SSP *(Sequenced Packet Protocol)*.
