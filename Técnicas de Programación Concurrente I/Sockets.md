@@ -74,7 +74,7 @@ int bind(int sockfd, struct sockaddr *my_addr, int addrlen);
 
 Esta asigna una dirección local al *socket*, para que pueda recibir conexiones de clientes. Retorna 0 en caso de éxito, y -1 en caso de error (y establece la variable externa `errno`).
 
-Luego de esto, debemos utilizar la función `listen()` para convertirlo en un *socket*pasivo.
+Luego de esto, debemos utilizar la función `listen()` para convertirlo en un *socket* pasivo.
 
 ```c
 int listen(int sockfd, int backlog);
@@ -82,12 +82,20 @@ int listen(int sockfd, int backlog);
 
 Recibe por parámetro el `backlog` que es la longitud máxima de la cola de conexiones pendientes que puede tener el servidor. Retorna 0 en caso de éxito, y -1 en caso de error (y establece la variable externa `errno`).
 
-Distintas implementaciones de los distintos sistemas operativos toman el número `backlog` de forma distinta.
+Distintas implementaciones de los distintos sistemas operativos toman el número `backlog` de forma distinta. Algunas implementaciones lo toman como la cantidad total de conexiones ya establecidas, y otras implementaciones como la cantidad total de conexiones (las pendientes y las establecidas).
 
-### Aceptación de Conexiónes
+### Conexiones Entrantes
 
 Para tomar una conexión entrante de un cliente, utilizamos `accept()`.
 
 ```C
-int accept(int sockfd, struct sockaddr *cliaddr, socklen_t *addrlen*);
+int accept(int sockfd, 
+					 struct sockaddr *cliaddr, 
+					 socklen_t *addrlen);
 ```
+
+Esta función extrae una conexión establecida de la cola de conexiones. Escribe en `cliaddr` la dirección del cliente con el que se conectó. Si todavía no hay ningúna conexión, entonces 
+
+Retorna el *file descriptor* del cliente en caso de éxito, el cual se utilizará para comunicarse con él. En caso de error, retorna -1 (y establece la variable externa `errno`).
+
+
