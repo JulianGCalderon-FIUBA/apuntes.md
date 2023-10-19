@@ -7,6 +7,7 @@
 - [[Corrección]]
 - [[Redes de Petri]]
 - [[Pasaje de Mensajes]]
+- [[Concurrencia Distribuida]]
 
 ## Primitivas de Sincronización
 
