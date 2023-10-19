@@ -42,3 +42,15 @@ Por cada mensaje de OK recibido, agrega al cliente a la lista de clientes que le
 Por cada mensaje de *timestamp* recibido, cuando el propio cliente no tiene un *timestamp* asociado, entonces sabremos que no está queriendo entrar a la sección crítica. Luego, puede enviar el OK.
 
 Si tiene un *timestamp* asociado, y si el propio es mayor, envía un OK. En caso contrario, encola el cliente.
+
+## Solución con [[Exclusión Mutua Distribuida#Algoritmo Token Ring|Token Ring]]
+
+Como debemos tener una conexión con nuestros vecinos, entonces utilizaremos UDP. Cada cliente tendrá:
+
+- Una bandera para saber si tiene el *token*
+- Una bandera para saber si necesita el *token*
+- Una variable de condición para esperar
+
+### Entrada a la Sección Crítica
+
+Para obtener el *lock*, entonces levanta la bandera de necesidad del *token*.
