@@ -21,6 +21,6 @@ Tendremos dos tipos de arquitecturas
 
 Los protocolos de internet suelen ser ordenados en capas. Las capas le ofrecen servicios a sus capas superiores, y utilizan los servicios de las capas inferiores. Las capas de igual número en distintas computadoras se comunican virtualmente a partir del protocolo.
 
-![[Sockets 1697723178.png|447]]
+![[Modelo Cliente Servidor 1697806371.png]]
 
 Este modelo se conoce como protocolo de capa $N$.
