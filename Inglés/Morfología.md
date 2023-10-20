@@ -49,7 +49,7 @@ Cuando una palabra extranjera se vuelve parte de una lengua, se dice que se toma
 
 En español, las palabras prestadas respetan las reglas del español. En inglés, las palabras mantienen su estructura original.
 
-## Sufijo "ing"
+## Sufijo -ing
 
 Cuando una palabra en inglés finaliza con "ing", entonces pueden tener distintos roles:
 

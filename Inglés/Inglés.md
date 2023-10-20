@@ -5,3 +5,4 @@
 - [[Tipos de Textos]]
 - [[Contextual Reference]]
 - [[Morfología]]
+- [[Adjetivos Compuestos]]
