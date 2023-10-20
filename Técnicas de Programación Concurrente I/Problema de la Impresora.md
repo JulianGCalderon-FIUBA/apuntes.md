@@ -49,8 +49,19 @@ Como debemos tener una conexión con nuestros vecinos, entonces utilizaremos UDP
 
 - Una bandera para saber si tiene el *token*
 - Una bandera para saber si necesita el *token*
-- Una variable de condición para esperar
+- Una variable de condición
 
 ### Entrada a la Sección Crítica
 
-Para obtener el *lock*, entonces levanta la bandera de necesidad del *token*.
+Para obtener el *lock*, entonces levanta la bandera de necesidad del *token*. Luego, se queda esperando a que obtenga el *token* (con la variable de condición)
+
+### Salida a la Sección Crítica
+
+Para liberar el *lock*, entonces baja la bandera de necesidad de *token*, y realiza un *notify* en la variable de condición (para indicarle al hilo de recepcion de mensajes que ya puede devolver el *token*).
+
+### Recepción de Mensajes
+
+Cuando recibe el un mensaje del token, entonces:
+
+- Si necesita el *token*, establece la bandera de obtención de *token* (y realiza un *notify* en la variable de condición). Luego, se queda esperando a que la bandera de necesidad de *token* baje.
+- Si no necesita el *token*, entonces simplemente reenvia el mensaje.
