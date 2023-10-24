@@ -52,9 +52,9 @@ La solución más común consiste en encolar los pedidos de *locks* de manera qu
 
 Generalmente, los gestores de bases de datos cuentan con estructuras de búsqueda de tipo árbol B+, tales que los bloques de datos se encuentran en las hojas.
 
-Esto nos permite separar el árbol según distintos atributos, dependiendo de las consultas más frecuentes.
+Esto nos permite separar el árbol según distintas condiciones, dependiendo de las consultas más frecuentes y la forma de los datos.
 
-Un motivo importante por el cual se prefieren árboles con muchos elementos por nodo, a un árbol binario, es debido a que la gran cantidad de datos que puede tener una base de datos implicaría que esta información deba estar en disco, no en memoria. Esto nos permite reservar páginas completas para almacenar los datos, y que los datos estén contiguos en memoria.
+Un motivo importante por el cual se prefieren árboles con muchos elementos por nodo, a un árbol binario, es debido a que la gran cantidad de datos que puede tener una base de datos implicaría que esta información deba estar en disco, no en memoria. Luego, podríamos reservar páginas completas para cada nodo del árbol.
 
 A los locks que se aplican sobre los nodos de un índice se los denomina *index locks*.
 
