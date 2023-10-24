@@ -1,6 +1,6 @@
-La seriabilidad de las transacciones ya nos asegura la propiedad de aislamiento. Nos interesa ahora asegurar que una vez que una transacción commiteó, la misma no deba ser deshecha. Esto nos ayudará a implementar de una forma sencilla la propiedad de durabilidad.
+La [[Base de Datos/Concurrencia#Serializabilidad|serializabilidad]] de las transacciones ya nos asegura la propiedad de aislamiento. Nos interesa ahora asegurar que una vez que una transacción commiteó, la misma no deba ser deshecha. Esto nos ayudará a implementar de una forma sencilla la propiedad de durabilidad.
 
-Un solapamiento es **recuperable** si y solo si ninguna transacción $T$ realiza el *commit* hasta tanto todas las transacciones que escribieron datos antes de que $T$ los leyera hayan commiteado.
+Un [[Base de Datos/Concurrencia#Solapamiento|solapamiento]] es **recuperable** si y solo si ninguna transacción $T$ realiza el *commit* hasta tanto todas las transacciones que escribieron datos antes de que $T$ los leyera hayan commiteado.
 
 Un gestor nunca debería permitir un solapamiento no recuperable, ya que debe asegurar la propiedad de durabilidad. Si se informó al usuario que se completó la transacción, debe persistir.
 
@@ -13,7 +13,7 @@ Dado un solapamiento recuperable, puede ser necesario deshacer (abortar) una tra
 
 El *log* almacena los siguientes registros:
 
-- `(BEGIN, Tid):` Indica que la transacción $T_{id}$ comenzó.
+- $(BEGIN, Tid)$:` Indica que la transacción $T_{id}$ comenzó.
 - `(WRITE, Tid, X, Xold, Xnew):` Indica que la transacción $T_{id}$ escribió el ítem $X$, cambiando su viejo valor $x_{old}$ por su nuevo valor $x_{new}$
 - `(READ, Tid, X):` Indica que la transacción $T_{id}$ leyó el ítem $X$.
 - `(COMMIT, Tid):` Indica que la transacción $T_{id}$ commiteó.

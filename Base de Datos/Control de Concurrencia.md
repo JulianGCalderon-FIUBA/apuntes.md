@@ -34,7 +34,7 @@ Estos métodos no son óptimos, ya que requieren de saber los recursos que neces
 Otra forma de resolver esto es a partir de mecanismos de detección de *deadlocks*:
 
 - Con la utilización del **grafo de alocación de recursos**.
-- Definir un *timeout* para la adquisición del lock, despues del cual se aborta la transacción.
+- Definir un *timeout* para la adquisición del lock, después del cual se aborta la transacción.
 
 ### Grafo de Alocación de Recursos
 
@@ -101,12 +101,12 @@ Este método no utiliza locks, por lo que está exento de *deadlocks*.
 
 Se debe mantener en todo instante, para cada ítem $X$, la siguiente información:
 
-- $\text{read_{TS}(X):$ Es el $TS(T)$ correspondiente a la transacción más joven que leyó el ítem $X$.
-- `write_TS(X)`: Es el $TS(T)$ correspondiente a la transacción más joven que escribió el ítem $X$.
+- $RTS(X)$: Es el $TS(T)$ correspondiente a la transacción más joven que leyó el ítem $X$.
+- $WTS(X)$: Es el $TS(T)$ correspondiente a la transacción más joven que escribió el ítem $X$.
 
-Cuando una transacción $T_i$ quiere ejecutar $R(X)$, si una transacción posterior $T_j$ modificó el ítem, $T_i$ deberá ser abortada (*read to late*). De lo contrario, se actualiza `read_TS(X)`
+Cuando una transacción $T_i$ quiere ejecutar $R(X)$, si una transacción posterior $T_j$ modificó el ítem, $T_i$ deberá ser abortada (*read to late*). De lo contrario, se actualiza $RTS(X)$.
 
-Cuando una transacción $T_i$ quiere ejecutar $W(X)$, si una transacción posterior $T_j$ leyó o escribió el ítem, entonces $T_i$ deberá ser abortada (*write to late*). De lo contrario, se actualiza `write_TS(X)`
+Cuando una transacción $T_i$ quiere ejecutar $W(X)$, si una transacción posterior $T_j$ leyó o escribió el ítem, entonces $T_i$ deberá ser abortada (*write to late*). De lo contrario, se actualiza $WTS(X)$.
 
 ### Thomas's Write Rule
 
@@ -118,7 +118,7 @@ Al utilizar esta mejora no queda garantizada la serializabilidad por conflictos,
 
 ### Solución a la [[Anomalías#Fantasma|Anomalía del Fantasma]]
 
-Podemos utilizar índices de tipo árbol, y mantener registros `read_TS(I)` y `write_TS(I)` también para los nodos del árbol.
+Podemos utilizar índices de tipo árbol, y mantener registros $RTS(I)$ y $WTS(I)$ también para los nodos del árbol.
 
 ## Snapshot Isolation
 
