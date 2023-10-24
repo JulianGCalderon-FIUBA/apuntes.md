@@ -2,11 +2,16 @@ La seriabilidad de las transacciones ya nos asegura la propiedad de aislamiento.
 
 Un solapamiento es **recuperable** si y solo si ninguna transacción $T$ realiza el *commit* hasta tanto todas las transacciones que escribieron datos antes de que $T$ los leyera hayan commiteado.
 
-## Bitacora (Log)
+## Bitácora (Log)
 
-Dado un solapamiento recuperable, puede ser necesario deshacer (abortar) una transacción antes de llegado su *commit*, para ello el gestor deberá contar con una serie de información que es almacenada por su gestor de recuperación en un *log* (bitacora).
+Dado un solapamiento recuperable, puede ser necesario deshacer (abortar) una transacción antes de llegado su *commit*, para ello el gestor deberá contar con una serie de información que es almacenada por su gestor de recuperación en un *log* (bitácora).
 
 El *log* almacena los siguientes registros:
+
+- sa
+- asd
+- asd
+- asd
 
 En particular, los valores viejos de cada ítem almacenados en los registros del *log* son los que permitirán deshacer los efectos de la transacción en el momento de hacer *rollback*.
 
@@ -28,6 +33,4 @@ Esta definición implica que quedan prohibidos los conflictos de la forma $(W_{T
 
 El protocolo de lock de dos fases no asegura la recuperabilidad. Para asegurarla, debemos utilizar el protocolo de dos fases *estricto*. Este dice que solo puedo liberar un *lock* de escritura después del *commit*.
 
-Si los locks (de cualquier tipo) solo pueden ser liberados despues del commit, se llama protocolo de lock de dos fases riguroso. Este protocolo asegura que no se producirán 
-
-S
+Si los locks (de cualquier tipo) solo pueden ser liberados después del commit, se llama protocolo de lock de dos fases riguroso. Este protocolo asegura que no se producirán *rollbacks* en cascada.
