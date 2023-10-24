@@ -59,7 +59,7 @@ Cuando el sistema reinicia, se siguen los siguientes pasos:
 2. Se recorre el *log* de atrás hacia adelante, volviendo a aplicar cada uno de los $\text{WRITE}$ de las transacciones que *commitearon*.
 3. Luego, por cada transacción de la que no sé encontró el $\text{COMMIT}$, se escribe $(\text{ABORT}, T)$ en el *log* y se vuelca a disco.
 
-Este algoritmo nos **obliga** a que nos volquemos los datos a disco hasta despues de realizar el *commit*. Esto es un problema.
+Este algoritmo nos **obliga** a que nos volquemos los datos a disco hasta después de realizar el *commit*. Esto es un problema.
 
 ### Algoritmo UNDO/REDO
 
@@ -89,4 +89,11 @@ La presencia de un *checkpoint* en el *log* implica que todas las transacciones 
 
 Los *checkpoints* inactivos *(quiescent checkpoints)* tienen un único tipo de registro: $\text{CKPT}$.
 
-L
+La creación de un *checkpoint* inactivo en el *log* implica la suspensión momentánea de todas las transacciones para hacer el volcado de todos los *buffers* en memoria a disco.
+
+Para aminorar la perdida de tiempo de ejecución en el volcado a disco, puede utilizarse una técnica conocida como *checkpoining* activo (*non-quiescent* o *fuzzy checkpointing*). Esta utiliza dos tipos de registros de *checkpoint*: $(\text{BEGIN CKPT}, t_{act}$) y $(\text{END CKPT})$, en donde $t_{act}$ es un listado de todas las transacciones que se encuentran activas.
+
+### Algoritmo UNDO
+
+En este algoritmo, el procedimiento de un *checkpointing inactivo* se realiza de la siguiente manera:
+- Dejar d
