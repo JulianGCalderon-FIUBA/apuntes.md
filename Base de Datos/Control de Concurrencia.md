@@ -81,9 +81,7 @@ Hay dos métodos para solucionar esta anomalía.
 
 La implementación más común de los locks de predicados es el concepto de *range lock (lock por rango)*, utilizando un índice de tipo árbol.
 
-Para tomar un *lock* por rango se suele tomar un *index lock* sobre todos los nodos del árbol que están dentro del rango, más un *lock* sobre el *item* inmediato posterior (*next-key lock*).
-
-Esto evitará que puedan hacerse inserciones de nuevos ítems que cumplan con la condición (estén dentro del rango).
+Para tomar un *lock* por rango se suele tomar un *index lock* sobre todos los nodos del árbol que están dentro del rango, más un *lock* sobre el *item* inmediato posterior (*next-key lock*). Esto evitará que puedan hacerse inserciones de nuevos ítems que cumplan con la condición (estén dentro del rango).
 
 ## Basado en Timestamps
 
@@ -103,7 +101,7 @@ Este método no utiliza locks, por lo que está exento de *deadlocks*.
 
 Se debe mantener en todo instante, para cada ítem $X$, la siguiente información:
 
-- `read_TS(X)`: Es el $TS(T)$ correspondiente a la transacción más joven que leyó el ítem $X$.
+- $\text{read_{TS}(X):$ Es el $TS(T)$ correspondiente a la transacción más joven que leyó el ítem $X$.
 - `write_TS(X)`: Es el $TS(T)$ correspondiente a la transacción más joven que escribió el ítem $X$.
 
 Cuando una transacción $T_i$ quiere ejecutar $R(X)$, si una transacción posterior $T_j$ modificó el ítem, $T_i$ deberá ser abortada (*read to late*). De lo contrario, se actualiza `read_TS(X)`

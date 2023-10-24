@@ -13,11 +13,11 @@ Dado un solapamiento recuperable, puede ser necesario deshacer (abortar) una tra
 
 El *log* almacena los siguientes registros:
 
-- `(BEGIN, T_id):` Indica que la transacción $T_{id}$ comenzó.
-- `(WRITE, T_id, X, X_old, X_new):` Indica que la transacción $T_{id}$ escribió el ítem $X$, cambiando su viejo valor $x_{old}$ por su nuevo valor $x_{new}$
-- `(READ, T_id, X):` Indica que la transacción $T_{id}$ leyó el ítem $X$.
-- `(COMMIT, T_id):` Indica que la transacción $T_{id}$ commiteó.
-- `(ABORT, T_id):` Indica que la transacción $T_{id}$ abortó.
+- `(BEGIN, Tid):` Indica que la transacción $T_{id}$ comenzó.
+- `(WRITE, Tid, X, Xold, Xnew):` Indica que la transacción $T_{id}$ escribió el ítem $X$, cambiando su viejo valor $x_{old}$ por su nuevo valor $x_{new}$
+- `(READ, Tid, X):` Indica que la transacción $T_{id}$ leyó el ítem $X$.
+- `(COMMIT, Tid):` Indica que la transacción $T_{id}$ commiteó.
+- `(ABORT, Tid):` Indica que la transacción $T_{id}$ abortó.
 
 En particular, los valores viejos de cada ítem almacenados en los registros del `WRITE` son los que permitirán deshacer los efectos de la transacción en el momento de hacer *rollback*.
 
