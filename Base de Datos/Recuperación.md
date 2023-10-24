@@ -51,9 +51,20 @@ Este algoritmo trabaja bajo la técnica de volcado de actualización diferida. D
 - **Regla WAL:** Cuando una transacción $T_i$ modifica el ítem $X$ reemplazando el valor viejo por $v$, se escribe $(\text{WRITE}, T_i, X, v)$ en el *log* y se vuelca al disco.
 - **Regla FLC:** Cuando una transacción $T_i$ hace *commit*, se escribe $(\text{COMMIT}, T_i)$ en el *log* y se vuelca al disco.
 
-CUando el sistema reinicia, se siguen los siguientes pasos:
-1. 
+Cuando el sistema reinicia, se siguen los siguientes pasos:
 
-Si la transacción falla antes del *commit*, no será necesario deshacer nada, ya que los cambios siguen en memoria. (por estar en actualización diferida). Sin embargo, tenemos que escribir $(\text{ABORT}, T)$ en el *log* y volcarlo a disco.
+1. Se recorre el *log* de adelante hacia atrás, y por cada transacción de la que no se encuentra el $\text{COMMIT}$, tenemos que escribir $(\text{ABORT}, T)$ en el *log* y volcarlo a disco.
+2. Luego, por cada transacción de la que no sé el $\text{COMMIT}$, se recorre el *log* de atrás hacia adelante, volviendo a aplicar cada una de las escrituras, para asegurar que quede actualizado el valor de cada *item*.
 
-Si, en cambio, falla después de haber escrito el *commit* en disco, la transacción será rehecha al iniciar. Se debe leer el *log* desde el inicio al final.
+Este algoritmo nos **obliga** a que nos volquemos los datos a disco hasta despues de realizar el *commit*. Esto es un problema.
+
+### Algoritmo UNDO/REDO
+
+Este algoritmo nos permite volcar a disco en cualquier momento, no es necesario respetar alguna de las técnicas de volcado.
+
+- **Regla WAL:** Antes de que una transacción $T_i$ modifique el ítem $X$ reemplazando un valor $v_{old}$ por $v$, se escribe $(\text{WRITE}, T_i, X, v_{old}, v)$ en el *log* y se vuelca a disco.
+- **Regla FLC:** Cuando $T_i$ hace *commit*, se escribe $(\text{COMMIT}, T_i)$ en el *log* y se vuelca a disco.
+- Los ítems modificados pueden ser guardados en disco antes o después de hacer *commit*.
+
+Cuando el sistema reinicia, se siguen los siguientes pasos:
+- Se recorre el *log* de adelante hacia atrás, y por cada transacción de la que no se encuentra el ``
