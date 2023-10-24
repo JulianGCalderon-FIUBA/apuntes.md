@@ -8,4 +8,16 @@ Dado un solapamiento recuperable, puede ser necesario deshacer (abortar) una tra
 
 El *log* almacena los siguientes registros:
 
-En particular, los valores viejos de cada item almacenados en los registros del *log* son los que permitirán deshacer los efe
+En particular, los valores viejos de cada ítem almacenados en los registros del *log* son los que permitirán deshacer los efectos de la transacción en el momento de hacer *rollback*.
+
+Es necesario que este *log* se encuentre en disco (para asegurar la consistencia y la durabilidad), debido a esto podemos aprovecharnos de realizar una escritura secuencial, lo que ofrece grandes ventajas en términos de eficiencia.
+
+## Rollback
+
+Para deshacer los efectos de una transacción $T_j$ que hay que abortar, entonces si las modificaciones hechas por $T_j$ no fueron leídas por nadie, entonces basta con procesar el *log* de $T_j$ en forma inversa para deshacer sus efectos.
+
+Si una transacción $T_i$ leyó un dato modificado por $T_j$, entonces será necesario hacer *rollback* de $T_i$ para volverla a ejecutar.
+
+Para evitar *rollbacks* en cascada, es necesario que una transacción no lea valores que aún no fueron commiteados. Esto es más fuerte que la condición de recuperabilidad.
+
+Esta definición implica que quedan prohibidos los conflictos de la forma $(W_{T_i}(X); R_{T_j}(X))$ sin que exista en el medio un commit $c_{T_i}$. Esta regla nos evita la anomalía de la lectura sucia.
