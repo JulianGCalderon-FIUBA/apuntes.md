@@ -51,3 +51,14 @@ Se puede caracterizar como:
 $$
 R_{T_1}(\{X|\text{cond}\})\dots W_{T_2}(X_\text{cond})\dots(a_{T_1} \lor c_{T_1})
 $$
+
+## Niveles de Aislamiento
+
+El [[Lenguaje SQL]] nos permite definir el tipo de aislamiento a utilizar en las transacciones, entre:
+
+- `READ UNCOMMITED`: Es la carencia total de aislamiento. No se emplean locks, y se accede a los items sin ninguna precaución.
+- `READ COMMITED`: Evita la anomalía de la lectura sucia.
+- `REPEATABLE READ`: Evita la lectura no repetible y la lectura sucia.
+- `SERIALIZABLE`: Evita todas las anomalías, y asegura un solapamiento serial.
+
+De acuerdo con el nivel de aislamiento elegido, pueden producirse o no ciertas anomalías. La anomalía de la escritura sucia es evitada por todos los tipos de 
