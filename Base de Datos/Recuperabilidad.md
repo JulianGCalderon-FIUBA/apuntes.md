@@ -18,6 +18,16 @@ Para deshacer los efectos de una transacción $T_j$ que hay que abortar, entonce
 
 Si una transacción $T_i$ leyó un dato modificado por $T_j$, entonces será necesario hacer *rollback* de $T_i$ para volverla a ejecutar.
 
-Para evitar *rollbacks* en cascada, es necesario que una transacción no lea valores que aún no fueron commiteados. Esto es más fuerte que la condición de recuperabilidad.
+Para evitar *rollbacks* en cascada, es necesario que una transacción no lea valores que aún no fueron commiteados. Esto es más fuerte que la condición de recuperabilidad: si evita *rollbacks* en cascada, entonces es recuperable, por otro lado, no es necesario serializable.
+
+Esta condición no evita la actualización perdida, ya que es posible que la transacción que la actualiza *comitee* antes de que yo lea dato.
 
 Esta definición implica que quedan prohibidos los conflictos de la forma $(W_{T_i}(X); R_{T_j}(X))$ sin que exista en el medio un commit $c_{T_i}$. Esta regla nos evita la anomalía de la lectura sucia.
+
+### Protocolo de Lock de Dos Fases Estricto
+
+El protocolo de lock de dos fases no asegura la recuperabilidad. Para asegurarla, debemos utilizar el protocolo de dos fases *estricto*. Este dice que solo puedo liberar un *lock* de escritura después del *commit*.
+
+Si los locks (de cualquier tipo) solo pueden ser liberados despues del commit, se llama protocolo de lock de dos fases riguroso. Este protocolo asegura que no se producirán 
+
+S
