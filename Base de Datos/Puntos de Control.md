@@ -36,5 +36,5 @@ El procedimiento de un *checkpointing* activo se realiza de la siguiente manera:
 
 En la recuperación, se dan dos situaciones:
 
-- Que encontramos primero un registro $\text{END CKPT}$: en ese caso solo debemos retroceder hasta el $\text{BEGIN CKPT}$ durante el *rollback*, porque ninguna transacción incompleta puede haber comenzado antes.
-- Que encontremos primero un registro $\text{BEGIN CKPT}$. Esto implica que el sistema cayó sin asegurar los commits del listado de transacciones. Deberemos volver hacia atrás, pero solo hasta el inicio de la más antigua del listado.
+- Si encontramos primero un registro $\text{END CKPT}$, solo debemos retroceder hasta el $\text{BEGIN CKPT}$ durante el *rollback*, porque ninguna transacción incompleta puede haber comenzado antes.
+- Si encontramos primero un registro $\text{BEGIN CKPT}$, implica que el sistema cayó sin asegurar los *commits* del listado de transacciones. Deberemos volver hacia atrás, pero solo hasta el inicio de la más antigua del listado.
