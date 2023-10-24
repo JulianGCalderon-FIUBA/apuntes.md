@@ -2,18 +2,24 @@ La seriabilidad de las transacciones ya nos asegura la propiedad de aislamiento.
 
 Un solapamiento es **recuperable** si y solo si ninguna transacción $T$ realiza el *commit* hasta tanto todas las transacciones que escribieron datos antes de que $T$ los leyera hayan commiteado.
 
+Un gestor nunca debería permitir un solapamiento no recuperable, ya que debe asegurar la propiedad de durabilidad. Si se informó al usuario que se completó la transacción, debe persistir.
+
+> [!note] Nota
+> La recuperabildiad no implica serializabilidad, ni viceversa.
+
 ## Bitácora (Log)
 
 Dado un solapamiento recuperable, puede ser necesario deshacer (abortar) una transacción antes de llegado su *commit*, para ello el gestor deberá contar con una serie de información que es almacenada por su gestor de recuperación en un *log* (bitácora).
 
 El *log* almacena los siguientes registros:
 
-- sa
-- asd
-- asd
-- asd
+- `(BEGIN, T_id):` Indica que la transacción $T_{id}$ comenzó.
+- `(WRITE, T_id, X, X_old, X_new):` Indica que la transacción $T_{id}$ escribió el ítem $X$, cambiando su viejo valor $x_{old}$ por su nuevo valor $x_{new}$
+- `(READ, T_id, X):` Indica que la transacción $T_{id}$ leyó el ítem $X$.
+- `(COMMIT, T_id):` Indica que la transacción $T_{id}$ commiteó.
+- `(ABORT, T_id):` Indica que la transacción $T_{id}$ abortó.
 
-En particular, los valores viejos de cada ítem almacenados en los registros del *log* son los que permitirán deshacer los efectos de la transacción en el momento de hacer *rollback*.
+En particular, los valores viejos de cada ítem almacenados en los registros del `WRITE` son los que permitirán deshacer los efectos de la transacción en el momento de hacer *rollback*.
 
 Es necesario que este *log* se encuentre en disco (para asegurar la consistencia y la durabilidad), debido a esto podemos aprovecharnos de realizar una escritura secuencial, lo que ofrece grandes ventajas en términos de eficiencia.
 
