@@ -41,7 +41,7 @@ El protocolo de lock de dos fases no asegura la recuperabilidad. Para asegurarla
 
 Si los locks (de cualquier tipo) solo pueden ser liberados después del commit, se llama protocolo de lock de dos fases riguroso. Este protocolo asegura que no se producirán *rollbacks* en cascada.
 
-## Recuperabilidiad con Timestamps
+## Recuperabilidad con Timestamps
 
 En este método, cuando se aborta una transacción $T_i$, cualquier transacción que haya usado datos que $T_i$ modificó debe ser abortada en cascada.
 

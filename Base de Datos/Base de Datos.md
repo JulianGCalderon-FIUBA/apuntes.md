@@ -17,6 +17,7 @@
 - [[Anomalías]]
 - [[Control de Concurrencia]]
 - [[Recuperabilidad]]
+- [[Recuperación]]
 
 ## Apuntes Prácticos
 
