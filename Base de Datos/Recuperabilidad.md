@@ -37,9 +37,9 @@ Esta definición implica que quedan prohibidos los conflictos de la forma $(W_{T
 
 ### Protocolo de [[Control de Concurrencia#Basado en Locks|Lock de Dos Fases]] Estricto
 
-El protocolo de lock de dos fases no asegura la recuperabilidad. Para asegurarla, debemos utilizar el protocolo de dos fases *estricto*. Este dice que solo puedo liberar un *lock* de escritura después del *commit*.
+El protocolo de lock de dos fases no asegura la recuperabilidad. Para asegurarla, debemos utilizar el protocolo de dos fases **estricto**. Este dice que solo puedo liberar un *lock* de escritura después del *commit*.
 
-Si los locks (de cualquier tipo) solo pueden ser liberados después del commit, se llama protocolo de lock de dos fases riguroso. Este protocolo asegura que no se producirán *rollbacks* en cascada.
+Si los locks (de cualquier tipo) solo pueden ser liberados después del commit, se llama protocolo de lock de dos fases **riguroso**. Este protocolo asegura que no se producirán *rollbacks* en cascada.
 
 ## Recuperabilidad con [[Control de Concurrencia#Basado en Timestamps|Timestamps]]
 
