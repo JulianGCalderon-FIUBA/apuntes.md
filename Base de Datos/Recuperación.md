@@ -36,6 +36,7 @@ Este algoritmo trabaja bajo la técnica de volcado de actualización inmediata. 
 
 - **Regla WAL:** Antes de que una transacción $T_i$ modifique el ítem $X$ remplazando $v_{old}$ por $v$, se escribe $(\text{WRITE}, T_i, X, v_{old})$ en el *log* y se vuelca al disco.
 - **Regla FLC:** Antes de que $T_i$ haga *commit*, se escribe $(\text{COMMIT}, T_i)$ en el *log* y se vuelca al disco.
+- Los ítems modificados debem ser guardados en disco antes de hacer *commit*.
 
 Cuando el sistema reinicia, se siguen los siguientes dos pasos:
 
@@ -50,11 +51,13 @@ Este algoritmo trabaja bajo la técnica de volcado de actualización diferida. D
 
 - **Regla WAL:** Cuando una transacción $T_i$ modifica el ítem $X$ reemplazando el valor viejo por $v$, se escribe $(\text{WRITE}, T_i, X, v)$ en el *log* y se vuelca al disco.
 - **Regla FLC:** Cuando una transacción $T_i$ hace *commit*, se escribe $(\text{COMMIT}, T_i)$ en el *log* y se vuelca al disco.
+- Los ítems modificados deben ser guardados en disco después de hacer *commit*.
 
 Cuando el sistema reinicia, se siguen los siguientes pasos:
 
-1. Se recorre el *log* de adelante hacia atrás, y por cada transacción de la que no se encuentra el $\text{COMMIT}$, tenemos que escribir $(\text{ABORT}, T)$ en el *log* y volcarlo a disco.
-2. Luego, por cada transacción de la que no sé el $\text{COMMIT}$, se recorre el *log* de atrás hacia adelante, volviendo a aplicar cada una de las escrituras, para asegurar que quede actualizado el valor de cada *item*.
+1. Se analiza cuáles son las transacciones de las que está registrado el $\text{COMMIT}$.
+2. Se recorre el *log* de atrás hacia adelante, volviendo a aplicar cada uno de los $\text{WRITE}$ de las transacciones que *commitearon*.
+3. Luego, por cada transacción de la que no sé encontró el $\text{COMMIT}$, se escribe $(\text{ABORT}, T)$ en el *log* y se vuelca a disco.
 
 Este algoritmo nos **obliga** a que nos volquemos los datos a disco hasta despues de realizar el *commit*. Esto es un problema.
 
@@ -67,4 +70,7 @@ Este algoritmo nos permite volcar a disco en cualquier momento, no es necesario 
 - Los ítems modificados pueden ser guardados en disco antes o después de hacer *commit*.
 
 Cuando el sistema reinicia, se siguen los siguientes pasos:
-- Se recorre el *log* de adelante hacia atrás, y por cada transacción de la que no se encuentra el ``
+
+- Se recorre el *log* de adelante hacia atrás, y por cada transacción de la que no se encuentra el *commit*, se aplica cada una de las escrituras para restaurar el valor anterior a la misma a disco.
+- Luego, se recorre de tras hacia adelante, volviendo a aplicar cada una de las escrituras de las transacciones que commitearon, para asegurar que quede asignado el nuevo valor de cada ítem.
+- Finalmente, por cada transacción de la que no se encontró el *commit*, se escribe $(\text{ABORT}, T)$ en el *log* y se vuelca a disco.
