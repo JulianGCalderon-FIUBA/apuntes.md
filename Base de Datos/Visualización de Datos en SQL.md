@@ -1,15 +1,3 @@
-El lenguaje SQL (por sus siglas en inglés "Structured Query Language") es hoy en día el estándar para las operaciones de base de datos relacionales
-
-Es tanto un [[Lenguajes]] de definición de datos como un lenguaje de manipulación de datos.
-
-Es un lenguaje no procedural, y está basado en el [[Cálculo Relacional]] de tuplas.
-
-SQL es una gramática libre de contexto (*context-free grammar*, CFG). Esto implica que su sintaxis puede ser descrita a través de reglas de producción.
-
-Una de las notaciones más conocidas para CFG es la notación de Backus-Naur (*Backus-Naur form*, BNF). Esta es la notación adoptada en el estándar.
-
-## Visualización de Datos
-
 La consulta principal de SQL es
 
 ```SQL
@@ -44,7 +32,7 @@ La cláusula `WHERE` permite condiciones de reconocimiento de patrones para cade
 ...WHERE nombre LIKE 'Ana%'; -- El nombre debe comenzar con Ana.
 ```
 
-### Cláusula `JOIN`
+## Cláusula `JOIN`
 
 Al igual que el álgebra relacional, podemos realizar una junta a partir de la cláusula `JOIN`. Están implementados todos los tipos de junta.
 
@@ -57,7 +45,7 @@ Al igual que el álgebra relacional, podemos realizar una junta a partir de la c
 ...FROM R FULL OUTER JOIN S ON condition...
 ```
 
-### Operaciones de Conjuntos
+## Operaciones de Conjuntos
 
 SQL incorpora las tres operaciones de conjuntos. Con la palabra clave `ALL`, el resultado será un multiconjunto.
 
@@ -69,7 +57,7 @@ SQL incorpora las tres operaciones de conjuntos. Con la palabra clave `ALL`, el 
 
 Al igual que en el álgebra relacional, las tablas deben ser unión compatibles.
 
-### Ordenamiento y Paginación
+## Ordenamiento y Paginación
 
 Podemos ordenar los resultados de una consulta con `ORDER BY`. Las columnas utilizadas para ordenar deben pertenecer a dominios ordenados, y deben estar incluidas dentro de las columnas de la proyección en la cláusula `SELECT`.
 
@@ -83,7 +71,7 @@ OFFSET 10 ROWS FETCH NEXT 10 ROWS ONLY;
 -- LIMIT 10 OFFSET 10;
 ```
 
-### Agregación
+## Agregación
 
 La agregación colapsa tuplas que coinciden en una serie de atributos, en una única tupla que las representa a todas.
 
@@ -98,7 +86,7 @@ GROUP BY nombre_tenista
 HAVING SUM(premio) >= 100000
 ```
 
-### Subconsultas
+## Subconsultas
 
 El resultado de una subconsulta puede ser utilizado como argumento a otras cláusulas como `JOIN`.
 
@@ -123,7 +111,7 @@ SELECT id, (SELECT nombre FROM ...) FROM ...
 
 Cuando una subconsulta hace referencia a un valor externo, se dice que están **correlacionadas**. El costo de este tipo de consultas es mucho más elevado, ya que debe repetir la consulta por cada tupla de la consulta padre.
 
-### Estructura `CASE`
+## Estructura `CASE`
 
 Nos permite agregar cierta lógica de la programación estructurada a una sentencia de SQL.
 
@@ -133,15 +121,3 @@ Permite seleccionar distintos valores posibles de salida en función de distinta
 SELECT CASE WHEN ... THEN ... ELSE ... END
 FROM ...
 ```
-
-## Funciones de Ventana
-
-Permiten aplicar un procesamiento final a los resultados de una consulta, siguiendo una serie de pasos:
-
-1. Se dividen en grupos, llamados particiones
-2. Cada partición se ordena internamente
-3. Se cruza información entre las filas de cada partición
-
-A cada atributo del `SELECT` de una consulta se le puede aplicar una función de ventana distinta, o no aplicarle función a alguna.
-
-Esto permite agregar información según el ordenamiento de las filas de la tabla.

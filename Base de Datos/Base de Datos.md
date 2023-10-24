@@ -9,6 +9,7 @@
 - [[Modelo Relacional]]
 - [[Álgebra Relacional]]
 - [[Cálculo Relacional]]
+- [[Lenguaje SQL]]
 - [[Diseño Relacional]]
 - [[Dependencias Funcionales]]
 - [[Formas Normales]]
@@ -24,4 +25,11 @@
 
 - [[Exportación e Importación]]
 - [[Pasaje de Modelos]]
-- [[Lenguaje SQL]]
+
+## Sintaxis de SQL
+
+- [[Definición de Datos en SQL]]
+- [[Visualización de Datos en SQL]]
+- [[Manipulación de Datos en SQL]]
+- [[Reutilización de Consultas en SQL]]
+- [[Funciones de Ventana en SQL]]
