@@ -38,13 +38,14 @@ Como evito *rolbacks* en cascada, entonces no se permiten lecturas no *commitead
 Este algoritmo trabaja bajo la técnica de volcado de actualización inmediata. Debemos respetar las reglas:
 
 - **Regla WAL:** Antes de que una transacción $T_i$ modifique el ítem $X$ remplazando $v_{old}$ por $v$, se escribe $(\text{WRITE}, T_i, X, v_\text{old})$ en el *log* y se vuelca al disco.
-- **Regla FLC:** Antes de que $T_i$ haga *commit*, se escribe $(\text{COMMIT}, T_i)$ en el *log* y se vuelca al disco.
 - **Actualización Inmediata:** Los ítems modificados deben ser guardados en disco antes de hacer *commit*.
+- **Regla FLC:** Antes de que $T_i$ haga *commit*, se escribe $(\text{COMMIT}, T_i)$ en el *log* y se vuelca al disco.
 
 Cuando el sistema reinicia, se siguen los siguientes dos pasos:
 
-1. Se recorre el *log* de adelante hacia atrás, y por cada transacción para la cual no se encuentra el $\text{COMMIT}$ se aplica cada uno de los $\text{WRITE}$ de forma inversa para restaurar el valor anterior a la misma en disco. Esto se debe a que ya sabemos que todas las transacciones que ya commitearon volcaron todos sus cambios en el disco.
-2. Luego, por cada transacción de la que no se encontró el $\text{COMMIT}$, se escribe $(\text{ABORT}, T)$ en el *log* y se vuelca a disco.
+1. Se analiza cuáles son las transacciones de las que no está registrado el $\text{COMMIT}$.
+2. Se recorre el *log* de adelante hacia atrás, y se aplica cada uno de los $\text{WRITE}$ de las transacciones que no *commitearon* de forma inversa para restaurar el valor anterior a la misma en disco.
+3. Luego, por cada transacción qse escribe $(\text{ABORT}, T)$ en el *log* y se vuelca a disco.
 
 Si ocurre una falla durante el reinicio, esto no es un problema porque el procedimiento de reinicio es **idempotente**. Si se ejecuta más de una vez, no cambiará el resultado.
 
