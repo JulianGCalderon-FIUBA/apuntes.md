@@ -95,5 +95,14 @@ Para aminorar la perdida de tiempo de ejecución en el volcado a disco, puede ut
 
 ### Algoritmo UNDO
 
+#### Checkpointing Inactivo
+
 En este algoritmo, el procedimiento de un *checkpointing inactivo* se realiza de la siguiente manera:
-- Dejar d
+
+1. Dejar de aceptar nuevas transacciones.
+2. Esperar a que todas las transacciones hagan su *commit*.
+3. Escribir $\text{CKPT}$ en el *log* y volcarlo a disco.
+
+Durante la recuperación solo debemos deshacer las transacciones que no hayan hecho *commit*, hasta el momento en que encontremos un registro de tipo $\text{CKPT}$. De hecho, todo el archivo de *log* anterior podria ser eliminado.
+
+#### Checkpointing Activo
