@@ -52,16 +52,18 @@ La solución más común consiste en encolar los pedidos de *locks* de manera qu
 
 Generalmente, los gestores de bases de datos cuentan con estructuras de búsqueda de tipo árbol B+, tales que los bloques de datos se encuentran en las hojas.
 
+Esto nos permite separar el árbol según distintos atributos, dependiendo de las consultas más frecuentes.
+
 Un motivo importante por el cual se prefieren árboles con muchos elementos por nodo, a un árbol binario, es debido a que la gran cantidad de datos que puede tener una base de datos implicaría que esta información deba estar en disco, no en memoria. Esto nos permite reservar páginas completas para almacenar los datos, y que los datos estén contiguos en memoria.
 
 A los locks que se aplican sobre los nodos de un índice se los denomina *index locks*.
 
 Para mantener la serializabilidad en el acceso a estas estructuras, es necesario seguir las siguientes reglas:
 
-- Todos los nodos accedidos deben ser *deslockeados*
-- Cualquier nodo puede ser el primero en ser *lockeado* por la transacción (aunque generalmente es la raíz)
+- Todos los nodos accedidos deben ser *lockeados*
+- Cualquier nodo puede ser el primero en ser lockeado por la transacción (aunque generalmente es la raíz)
 - Cada nodo subsecuente puede ser lockeado solo si se posee un lock sobre su nodo padre.
-- Los nodos pueden ser deslockeados en cualquier momento
+- Los nodos pueden ser *deslockeados* en cualquier momento.
 - Un nodo que fue deslockeado no puede volver a ser lockeado.
 
 A partir de las reglas anteriores, podemos proponer el siguiente protocolo para el acceso concurrente a estructuras de árbol, conocido como **protocolo de cangrejo** (*grabbing protocol*):
