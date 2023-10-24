@@ -34,4 +34,9 @@ Como evito *rolbacks* en cascada, entonces no se permiten lecturas no *commitead
 
 Antes de que una modificación sobre un ítem $X \leftarrow v_{new}$ por parte de una transacción no *commiteada* sea guardada en disco, se debe salvaguardar en el *log* en disco el último valor commiteado $v_{old}$ de ese ítem.
 
-Cuando una transacción modifica el ítem 
+Cuando una transacción modifica el ítem $X$ remplazando un valor $v_{old}$ por $v$, se escribe $(\text{WRITE}, T_i, X, v_{old})$ en el log y se hace *flush* del log a disco, antes de escribir el nuevo valor de $X$ en disco.
+
+Cuando $T_i$ hace *commit*, se escribe $(\text{COMMIT}, T_i)$ en el *log* y se hace *flush* del log a disco.
+
+Cuando el sistema reinicia, se siguen los siguientes dos pasos:
+1. Se recorre el *log* de adelante hacia atrás, y por cada transacción de la que no se encuentra el $\text{COMMIT}$ se aplica cada uno de los $\text{WRITE}$ para restaurar el valor ante
