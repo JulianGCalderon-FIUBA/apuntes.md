@@ -215,7 +215,13 @@
     "commit",
     "commiteados",
     "recuperabilidad",
-    "commitearon"
+    "commitearon",
+    "rollback",
+    "rollbacks",
+    "log",
+    "Recuperabilidad",
+    "Rollback",
+    "Log"
   ],
   "newFileLocation": "current",
   "focusNewTab": true

@@ -1,4 +1,4 @@
-La [[Base de Datos/Concurrencia#Serializabilidad|serializabilidad]] de las transacciones ya nos asegura la propiedad de aislamiento. Nos interesa ahora asegurar que una vez que una transacción commiteó, la misma no deba ser deshecha. Esto nos ayudará a implementar de una forma sencilla la propiedad de durabilidad.
+La [[Base de Datos/Concurrencia#Serializabilidad|serializabilidad]] de las [[Transacción|transacciones]] ya nos asegura la propiedad de aislamiento. Nos interesa ahora asegurar que una vez que una transacción commiteó, la misma no deba ser deshecha. Esto nos ayudará a implementar de una forma sencilla la propiedad de durabilidad.
 
 Un [[Base de Datos/Concurrencia#Solapamiento|solapamiento]] es **recuperable** si y solo si ninguna transacción $T$ realiza el *commit* hasta tanto todas las transacciones que escribieron datos antes de que $T$ los leyera hayan commiteado.
 
@@ -13,13 +13,13 @@ Dado un solapamiento recuperable, puede ser necesario deshacer (abortar) una tra
 
 El *log* almacena los siguientes registros:
 
-- $(BEGIN, Tid)$:` Indica que la transacción $T_{id}$ comenzó.
-- `(WRITE, Tid, X, Xold, Xnew):` Indica que la transacción $T_{id}$ escribió el ítem $X$, cambiando su viejo valor $x_{old}$ por su nuevo valor $x_{new}$
-- `(READ, Tid, X):` Indica que la transacción $T_{id}$ leyó el ítem $X$.
-- `(COMMIT, Tid):` Indica que la transacción $T_{id}$ commiteó.
-- `(ABORT, Tid):` Indica que la transacción $T_{id}$ abortó.
+- $(\text{BEGIN}, T_{\text{id}}):$ Indica que la transacción $T_\text{id}$ comenzó.
+- $(\text{WRITE}, T_\text{id}, X, x_\text{old}, x_\text{new}):$ Indica que la transacción $T_\text{id}$ escribió el ítem $X$, cambiando su viejo valor $x_\text{old}$ por su nuevo valor $x_\text{new}$
+- $(\text{READ}, T_\text{id}, X):$ Indica que la transacción $T_\text{id}$ leyó el ítem $X$.
+- $(\text{COMMIT}, T_\text{id}):$ Indica que la transacción $T_\text{id}$ commiteó.
+- $(\text{ABORT}, T_\text{id}):$ Indica que la transacción $T_\text{id}$ abortó.
 
-En particular, los valores viejos de cada ítem almacenados en los registros del `WRITE` son los que permitirán deshacer los efectos de la transacción en el momento de hacer *rollback*.
+En particular, los valores viejos de cada ítem almacenados en los registros del $\text{WRITE}$ son los que permitirán deshacer los efectos de la transacción en el momento de hacer *rollback*.
 
 Es necesario que este *log* se encuentre en disco (para asegurar la consistencia y la durabilidad), debido a esto podemos aprovecharnos de realizar una escritura secuencial, lo que ofrece grandes ventajas en términos de eficiencia.
 
@@ -31,17 +31,17 @@ Si una transacción $T_i$ leyó un dato modificado por $T_j$, entonces será nec
 
 Para evitar *rollbacks* en cascada, es necesario que una transacción no lea valores que aún no fueron commiteados. Esto es más fuerte que la condición de recuperabilidad: si evita *rollbacks* en cascada, entonces es recuperable, por otro lado, no es necesario serializable.
 
-Esta condición no evita la actualización perdida, ya que es posible que la transacción que la actualiza *comitee* antes de que yo lea dato.
+Esta condición no evita la actualización perdida, ya que es posible que la transacción que la actualiza haga *commit* antes de que yo lea dato.
 
 Esta definición implica que quedan prohibidos los conflictos de la forma $(W_{T_i}(X); R_{T_j}(X))$ sin que exista en el medio un commit $c_{T_i}$. Esta regla nos evita la anomalía de la lectura sucia.
 
-### Protocolo de Lock de Dos Fases Estricto
+### Protocolo de [[Control de Concurrencia#Basado en Locks|Lock de Dos Fases]] Estricto
 
 El protocolo de lock de dos fases no asegura la recuperabilidad. Para asegurarla, debemos utilizar el protocolo de dos fases *estricto*. Este dice que solo puedo liberar un *lock* de escritura después del *commit*.
 
 Si los locks (de cualquier tipo) solo pueden ser liberados después del commit, se llama protocolo de lock de dos fases riguroso. Este protocolo asegura que no se producirán *rollbacks* en cascada.
 
-## Recuperabilidad con Timestamps
+## Recuperabilidad con [[Control de Concurrencia#Basado en Timestamps|Timestamps]]
 
 En este método, cuando se aborta una transacción $T_i$, cualquier transacción que haya usado datos que $T_i$ modificó debe ser abortada en cascada.
 
