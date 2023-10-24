@@ -36,7 +36,7 @@ Este algoritmo trabaja bajo la técnica de volcado de actualización inmediata. 
 
 - **Regla WAL:** Antes de que una transacción $T_i$ modifique el ítem $X$ remplazando $v_{old}$ por $v$, se escribe $(\text{WRITE}, T_i, X, v_{old})$ en el *log* y se vuelca al disco.
 - **Regla FLC:** Antes de que $T_i$ haga *commit*, se escribe $(\text{COMMIT}, T_i)$ en el *log* y se vuelca al disco.
-- Los ítems modificados debem ser guardados en disco antes de hacer *commit*.
+- Los ítems modificados deben ser guardados en disco antes de hacer *commit*.
 
 Cuando el sistema reinicia, se siguen los siguientes dos pasos:
 
@@ -74,3 +74,19 @@ Cuando el sistema reinicia, se siguen los siguientes pasos:
 - Se recorre el *log* de adelante hacia atrás, y por cada transacción de la que no se encuentra el *commit*, se aplica cada una de las escrituras para restaurar el valor anterior a la misma a disco.
 - Luego, se recorre de tras hacia adelante, volviendo a aplicar cada una de las escrituras de las transacciones que commitearon, para asegurar que quede asignado el nuevo valor de cada ítem.
 - Finalmente, por cada transacción de la que no se encontró el *commit*, se escribe $(\text{ABORT}, T)$ en el *log* y se vuelca a disco.
+
+## Puntos de Control
+
+Cuando reiniciamos el sistema, no sabemos hasta donde tenemos que retroceder en el archivo de *log*. Aunque muchas transacciones antiguas ya *commiteadas* seguramente tendrán sus datos guardados ya en disco.
+
+Para evitar este retroceso hasta el inicio del sistema y el crecimiento ilimitado de los archivos de *log* se utilizan puntos de control.
+
+Un punto de control (*checkpoint*) es un registro especial en el archivo de *log* que indica que todos los ítems modificados hasta ese punto han sido almacenados en disco.
+
+La presencia de un *checkpoint* en el *log* implica que todas las transacciones cuyo registro de *commit* aparece con anterioridad tienen todos sus *items* guardados de forma persistente, y, por lo tanto, ya no deberán ser deshechas ni rehechas.
+
+### Checkpoints Inactivos vs. Activos
+
+Los *checkpoints* inactivos *(quiescent checkpoints)* tienen un único tipo de registro: $\text{CKPT}$.
+
+L
