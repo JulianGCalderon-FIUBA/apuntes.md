@@ -1,8 +1,8 @@
-Cuando reiniciamos el sistema, no sabemos hasta donde tenemos que retroceder en el archivo de *log*. Aunque muchas transacciones antiguas ya *commiteadas* seguramente tendrán sus datos guardados ya en disco.
+Cuando reiniciamos el sistema, no sabemos hasta donde tenemos que retroceder en el archivo de [[Recuperabilidad#Bitácora (Log)|log]]. Aunque muchas transacciones antiguas ya *commiteadas* seguramente tendrán sus datos guardados ya en disco.
 
 Para evitar este retroceso hasta el inicio del sistema y el crecimiento ilimitado de los archivos de *log* se utilizan puntos de control.
 
-Un punto de control (*checkpoint*) es un registro especial en el archivo de *log* que indica que todos los ítems modificados hasta ese punto han sido almacenados en disco.
+Un punto de control, o*checkpoint*, es un registro especial en el archivo de *log* que indica que todos los ítems modificados hasta ese punto han sido almacenados en disco.
 
 La presencia de un *checkpoint* en el *log* implica que todas las transacciones cuyo registro de *commit* aparece con anterioridad tienen todos sus *items* guardados de forma persistente, y, por lo tanto, ya no deberán ser deshechas ni rehechas.
 

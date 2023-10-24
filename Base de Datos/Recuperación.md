@@ -7,7 +7,7 @@ Los sistemas reales sufren múltiples tipos de fallas:
 
 En situaciones catastróficas como los últimos dos, es necesario contar con mecanismo de *backup* para recuperar la información.
 
-Nosotros estudiaremos como resolver perdidas de datos en memoria, en situaciones no catastroficas (como las primeras dos). Para ello, es necesario mantener información en el *log* acerca de los cambios que la transacción fue realizando.
+Nosotros estudiaremos como resolver perdidas de datos en memoria, en situaciones no catastróficas (como las primeras dos). Para ello, es necesario mantener información en el [[Recuperabilidad#Bitácora (Log)|log]] acerca de los cambios que la transacción fue realizando.
 
 ## Técnicas de Volcado
 
@@ -25,7 +25,7 @@ El gestor de *logs* se guía por dos reglas básicas:
 - **WAL (Write Ahead Log):** Indica que antes de guardar un ítem modificado en disco, se debe escribir el registro de *log* correspondiente, en disco.
 - **FLC (Force Log at Commit):** Indica que antes de realizar el commit el *log* debe ser volcado a disco.
 
-Esto implica que una vez está hecho el *commit*, toda la transacción fue registrada correctamente. No necesariamente el cambio estara reflejado en el disco, pero al menos la operación fue registrada en el *log*.
+Esto implica que una vez está hecho el *commit*, toda la transacción fue registrada correctamente. No necesariamente el cambio estará reflejado en el disco, pero al menos la operación fue registrada en el *log*.
 
 ## Algoritmos de Recuperación
 
@@ -45,9 +45,8 @@ Notemos que no debemos rehacer las transacciones que ya *commitearon*, pues volc
 
 Cuando el sistema reinicia, se siguen los siguientes dos pasos:
 
-1. Se analiza cuáles son las transacciones de las que no está registrado el $\text{COMMIT}$.
-2. Se recorre el *log* de adelante hacia atrás, y se aplica cada uno de los $\text{WRITE}$ de las transacciones que no *commitearon* de forma inversa para restaurar el valor anterior a la misma en disco.
-3. Luego, por cada transacción $T_i$ que no *commiteo* se escribe $(\text{ABORT}, T_i)$ en el *log* y se vuelca a disco.
+1. Se recorre el *log* de adelante hacia atrás, y por cada transacción de la que no se encuentra el $\text{COMMIT}$, se aplica cada uno de los $\text{WRITE}$ de forma inversa para restaurar el valor anterior a la misma en disco.
+2. Luego, por cada transacción $T_i$ que no *commiteo* se escribe $(\text{ABORT}, T_i)$ en el *log* y se vuelca a disco.
 
 Si ocurre una falla durante el reinicio, esto no es un problema porque el procedimiento de reinicio es **idempotente**. Si se ejecuta más de una vez, no cambiará el resultado.
 
@@ -81,7 +80,6 @@ Notemos que con este algoritmo, debemos tanto rehacer transacciones *commiteadas
 
 Cuando el sistema reinicia, se siguen los siguientes pasos:
 
-- Se analiza cuáles son las transacciones de las que está registrado el $\text{COMMIT}$.
 - Se recorre el *log* de adelante hacia atrás, y por cada transacción de la que no se encuentra el *commit*, se aplica cada una de las escrituras para restaurar el valor anterior a la misma a disco.
-- Luego, se recorre de tras hacia adelante, volviendo a aplicar cada una de las escrituras de las transacciones que commitearon, para asegurar que quede asignado el nuevo valor de cada ítem.
+- Luego, se recorre de atrás hacia adelante, volviendo a aplicar cada una de las escrituras de las transacciones que *commitearon*, para asegurar que quede asignado el nuevo valor de cada ítem.
 - Finalmente, por cada transacción de la que no se encontró el *commit*, se escribe $(\text{ABORT}, T)$ en el *log* y se vuelca a disco.
