@@ -8,9 +8,26 @@ En situaciones catastróficas como los últimos dos, es necesario contar con mec
 
 Si un sistema falla y se reinicia en medio de una transacción, la base de datos deberá ser llevada al estado inmediato anterior al comienzo de la transacción. Para ello, es necesario mantener información en el *log* acerca de los cambios que la transacción fue realizando.
 
-Para cada instrucción de escritura, primero se guarda en un *buffer*, y luego en disco.
+## Técnicas de Volcado
 
-Tendremos dos tecnicas de volcado:
+Para cada instrucción de escritura, primero se guarda en un *buffer*, y luego en disco. Tendremos dos técnicas de volcado:
 
-- Actualización inmediata: Losdatos se guardan en disco lo antes posible, antes del commit de la transacción
-- Actualización diferida: Los dtos se guardan en disco despues del commit de la transacción.
+- **Actualización inmediata:** Los datos se guardan en disco lo antes posible, antes del commit de la transacción
+- **Actualización diferida:** Los dos se guardan en disco después del commit de la transacción.
+
+## Reglas WAL y FLC
+
+El gestor de *logs* se guía por dos reglas básicas:
+
+- **WAL (Write Ahead Log):** Indica que antes de guardar un ítem modificado en disco, se debe escribir el registro de *log* correspondiente, en disco.
+- **FLC (Force Log at Commit):** Indica que antes de realizar el commit el *log* debe ser volcado a disco.
+
+Esto implica que una vez está hecho el *commit*, toda la transacción fue registrada correctamente.
+
+## Algoritmos de Recuperación
+
+En los tres algoritmos, se asume que los solapamientos de transacción son recuperables y, es más, evitan *rollbacks* en cascada.
+
+Como evito *rolblacks*
+
+
