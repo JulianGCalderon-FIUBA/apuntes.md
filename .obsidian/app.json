@@ -216,5 +216,6 @@
     "commiteados",
     "recuperabilidad"
   ],
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "focusNewTab": true
 }
