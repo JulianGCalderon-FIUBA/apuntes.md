@@ -28,8 +28,9 @@
 
 ## Sintaxis de SQL
 
-- [[Definición de Datos en SQL]]
-- [[Visualización de Datos en SQL]]
-- [[Manipulación de Datos en SQL]]
-- [[Reutilización de Consultas en SQL]]
-- [[Funciones de Ventana en SQL]]
+- [[Definición de Datos]]
+- [[Visualización de Datos]]
+- [[Manipulación de Datos]]
+- [[Reutilización de Consultas]]
+- [[Funciones de Ventana]]
+- [[Transacciones]]
