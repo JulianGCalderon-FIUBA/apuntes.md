@@ -18,6 +18,7 @@
 - [[Control de Concurrencia]]
 - [[Recuperabilidad]]
 - [[Recuperación]]
+- [[Puntos de Control]]
 
 ## Apuntes Prácticos
 
