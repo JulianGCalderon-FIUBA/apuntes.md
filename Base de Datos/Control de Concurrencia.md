@@ -48,7 +48,7 @@ La inanición o *livelock* es una condición vinculada con el *deadlock*, y ocur
 
 La solución más común consiste en encolar los pedidos de *locks* de manera que las transacciones que esperan desde hace más tiempo por un recurso tengan prioridad en la adquisición de su *lock*.
 
-### Acceso a Estructuras de Arbol
+### Acceso a Estructuras de Árbol
 
 Generalmente, los gestores de bases de datos cuentan con estructuras de búsqueda de tipo árbol B+, tales que los bloques de datos se encuentran en las hojas.
 
@@ -56,8 +56,8 @@ A los locks que se aplican sobre los nodos de un índice se los denomina *index 
 
 Para mantener la serializabilidad en el acceso a estas estructuras, es necesario seguir las siguientes reglas:
 
-- Todos los nodos accedidos deben ser lockeados
-- Cualquier nodo puede ser el primero en ser lockeado por la transacción (aunque generalmente es la raíz)
+- Todos los nodos accedidos deben ser *deslockeados*
+- Cualquier nodo puede ser el primero en ser *lockeado* por la transacción (aunque generalmente es la raíz)
 - Cada nodo subsecuente puede ser lockeado solo si se posee un lock sobre su nodo padre.
 - Los nodos pueden ser deslockeados en cualquier momento
 - Un nodo que fue deslockeado no puede volver a ser lockeado.
@@ -72,8 +72,14 @@ A partir de las reglas anteriores, podemos proponer el siguiente protocolo para 
 
 Hay dos métodos para solucionar esta anomalía.
 
-- El primer método es con un bloqueo de tabla completa cuando se produce un $R(\{X|\text{cond}\})$. Esta es una solución trivial, y poco eficiente.
-- El segundo método consiste en bloquear todas aquellas tuplas que podrían cumplir la condición, evitando incluso futuras inserciones de tuplas que también la cumplan.
+- **Locks de Tablas:** Consiste en un bloqueo de tabla completa cuando se produce un $R(\{X|\text{cond}\})$. Esta es una solución trivial, y poco eficiente.
+- **Locks de predicados:** Consiste en bloquear todas aquellas tuplas que podrían cumplir la condición, evitando incluso futuras inserciones de tuplas que también la cumplan.
+
+La implementación más común de los locks de predicados es el concepto de *range lock (lock por rango)*, utilizando un índice de tipo árbol.
+
+Para tomar un *lock* por rango se suele tomar un *index lock* sobre todos los nodos del árbol que están dentro del rango, más un *lock* sobre el *item* inmediato posterior (*next-key lock*).
+
+Esto evitará que puedan hacerse inserciones de nuevos ítems que cumplan con la condición (estén dentro del rango).
 
 ## Basado en Timestamps
 
@@ -106,7 +112,7 @@ La lógica en el caso de ejecutar una escritura puede ser mejorado, utilizando l
 
 Si cuando $T_i$ intenta escribir un ítem encuentra que una transacción posterior $T_j$ ya lo escribió, entonces $T_i$ puede descartar su actualización sin riesgos, siempre y cuando el ítem no haya sido leído por ninguna transacción posterior a $T_i$.
 
-Al utilizar esta mejora no queda garantizada la serializabilidad por conflictos, pero si la serializabilidad por vistas.
+Al utilizar esta mejora no queda garantizada la serializabilidad por conflictos, pero sí la serializabilidad por vistas.
 
 ### Solución a la Anomalía del Fantasma
 
@@ -126,3 +132,7 @@ Este método por sí solo no alcanza para garantizar la serializabilidad, debe c
 
 - Validación permanente con el grafo de precedencias buscando ciclos de conflictos $RW$.
 - Locks de predicados en el proceso de detección de conflictos para detectar precedencias.
+
+### Solución a la Anomalía del Fantasma
+
+Esta anomalía no puede ocurrir, ya que la transacción ve la misma *snapshot* a lo largo de su ejecución.
