@@ -70,9 +70,10 @@ A partir de las reglas anteriores, podemos proponer el siguiente protocolo para 
 
 ### Solución a la Anomalía del Fantasma
 
-Hay dos métodos para solucionar esta anomalíal.
+Hay dos métodos para solucionar esta anomalía.
 
-
+- El primer método es con un bloqueo de tabla completa cuando se produce un $R(\{X|\text{cond}\})$. Esta es una solución trivial, y poco eficiente.
+- El segundo método consiste en bloquear todas aquellas tuplas que podrían cumplir la condición, evitando incluso futuras inserciones de tuplas que también la cumplan.
 
 ## Basado en Timestamps
 
@@ -106,6 +107,10 @@ La lógica en el caso de ejecutar una escritura puede ser mejorado, utilizando l
 Si cuando $T_i$ intenta escribir un ítem encuentra que una transacción posterior $T_j$ ya lo escribió, entonces $T_i$ puede descartar su actualización sin riesgos, siempre y cuando el ítem no haya sido leído por ninguna transacción posterior a $T_i$.
 
 Al utilizar esta mejora no queda garantizada la serializabilidad por conflictos, pero si la serializabilidad por vistas.
+
+### Solución a la Anomalía del Fantasma
+
+Podemos utilizar índices de tipo árbol, y mantener registros `read_TS(I)` y `write_TS(I)` también para los nodos del árbol.
 
 ## Snapshot Isolation
 
