@@ -22,9 +22,9 @@ En este algoritmo, el procedimiento con un *checkpointing* inactivo se realiza d
 
 1. Dejar de aceptar nuevas transacciones.
 2. Esperar a que todas las transacciones hagan su *commit*.
-3. Escribir $\text{CKPT}$ en el *log* y volcarlo a disco.
+3. Escribir $(\text{CKPT})$ en el *log* y volcarlo a disco.
 
-Durante la recuperación solo debemos deshacer las transacciones que no hayan hecho *commit*, hasta el momento en que encontremos un registro de tipo $\text{CKPT}$. De hecho, todo el archivo de *log* anterior podría ser eliminado.
+Durante la recuperación solo debemos deshacer las transacciones que no hayan hecho *commit*, hasta el momento en que encontremos un registro $(\text{CKPT})$. De hecho, todo el archivo de *log* anterior podría ser eliminado.
 
 ### Checkpointing Activo
 
@@ -36,9 +36,18 @@ El procedimiento de un *checkpointing* activo se realiza de la siguiente manera:
 
 En la recuperación, se dan dos situaciones:
 
-- Si encontramos primero un registro $\text{END CKPT}$, solo debemos retroceder hasta el $\text{BEGIN CKPT}$ durante el *rollback*, porque ninguna transacción incompleta puede haber comenzado antes.
-- Si encontramos primero un registro $\text{BEGIN CKPT}$, implica que el sistema cayó sin asegurar los *commits* del listado de transacciones. Deberemos volver hacia atrás, pero solo hasta el inicio de la más antigua del listado.
+- Si encontramos primero un registro $(\text{END CKPT})$, solo debemos retroceder hasta el $(\text{BEGIN CKPT})$ durante el *rollback*, porque ninguna transacción incompleta puede haber comenzado antes.
+- Si encontramos primero un registro $(\text{BEGIN CKPT})$, implica que el sistema cayó sin asegurar los *commits* del listado de transacciones. Deberemos volver hacia atrás, pero solo hasta el inicio de la más antigua del listado.
 
 ## Algoritmo [[Recuperación#Algoritmo REDO|REDO]]
 
 En este algoritmo, el procedimiento con un *checkpointing* activo se realiza de la siguiente manera:
+
+1. Escribir un registro $(\text{BEGIN CKPT}, t_\text{act})$ con el listado de todas las transacciones activas hasta el momento, y volcar el *log* a disco.
+2. Hacer el volcado a disco de todos los *ítems* que hayan sido modificados por transacciones que ya *commitearon*.
+3. Escribir $(\text{END CKPT})$ en el *log* y volcarlo a disco.
+
+En la recuperación, se dan dos situaciones:
+
+- Si encontramos primero un registro $(\text{END CKPT})$, deberemos retroceder hasta el $(\text{BEGIN}, T_x)$ de la transacción más antigua del listado que figure en el $(\text{BEGIN CKPT})$.
+- Si encontramos primero un registro $(\text{BEGIN CKPT})$, entonces debemos retroceder
