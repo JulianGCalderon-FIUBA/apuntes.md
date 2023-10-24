@@ -28,6 +28,10 @@ Esto implica que una vez está hecho el *commit*, toda la transacción fue regis
 
 En los tres algoritmos, se asume que los solapamientos de transacción son recuperables y, es más, evitan *rollbacks* en cascada.
 
-Como evito *rolblacks*
+Como evito *rolbacks* en cascada, entonces no se permiten lecturas no *commiteadas*. Luego, no necesitaremos los registros de lectura `(READ, T, X, v)`.
 
+### Algoritmo UNDO
 
+Antes de que una modificación sobre un ítem $X \leftarrow v_{new}$ por parte de una transacción no *commiteada* sea guardada en disco, se debe salvaguardar en el *log* en disco el último valor commiteado $v_{old}$ de ese ítem.
+
+Cuando una transacción modifica el ítem 
