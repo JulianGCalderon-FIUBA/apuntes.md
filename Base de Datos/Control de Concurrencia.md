@@ -72,7 +72,7 @@ A partir de las reglas anteriores, podemos proponer el siguiente protocolo para 
 2. Hasta llegar a los nodos deseados, adquirir un lock sobre los hijos que se quiere acceder, y liberar el lock sobre el padre si los nodos hijos son seguros (es decir, el nodo hijo no está lleno si estamos haciendo una inserción, ni está justo por la mitad en el caso de una eliminación).
 3. Una vez terminada la operación, deslockear todos los nodos.
 
-### Solución a la Anomalía del Fantasma
+### Solución a la [[Anomalías#Fantasma|Anomalía del Fantasma]]
 
 Hay dos métodos para solucionar esta anomalía.
 
@@ -118,7 +118,7 @@ Si cuando $T_i$ intenta escribir un ítem encuentra que una transacción posteri
 
 Al utilizar esta mejora no queda garantizada la serializabilidad por conflictos, pero sí la serializabilidad por vistas.
 
-### Solución a la Anomalía del Fantasma
+### Solución a la [[Anomalías#Fantasma|Anomalía del Fantasma]]
 
 Podemos utilizar índices de tipo árbol, y mantener registros `read_TS(I)` y `write_TS(I)` también para los nodos del árbol.
 
@@ -137,6 +137,6 @@ Este método por sí solo no alcanza para garantizar la serializabilidad, debe c
 - Validación permanente con el grafo de precedencias buscando ciclos de conflictos $RW$.
 - Locks de predicados en el proceso de detección de conflictos para detectar precedencias.
 
-### Solución a la Anomalía del Fantasma
+### Solución a la [[Anomalías#Fantasma|Anomalía del Fantasma]]
 
 Esta anomalía no puede ocurrir, ya que la transacción ve la misma *snapshot* a lo largo de su ejecución.
