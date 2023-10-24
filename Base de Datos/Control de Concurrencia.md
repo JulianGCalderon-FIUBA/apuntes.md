@@ -68,6 +68,12 @@ A partir de las reglas anteriores, podemos proponer el siguiente protocolo para 
 2. Hasta llegar a los nodos deseados, adquirir un lock sobre los hijos que se quiere acceder, y liberar el lock sobre el padre si los nodos hijos son seguros (es decir, el nodo hijo no está lleno si estamos haciendo una inserción, ni está justo por la mitad en el caso de una eliminación).
 3. Una vez terminada la operación, deslockear todos los nodos.
 
+### Solución a la Anomalía del Fantasma
+
+Hay dos métodos para solucionar esta anomalíal.
+
+
+
 ## Basado en Timestamps
 
 Se asigna a cada transacción $T_i$ un *timestamp* $TS(T_i)$.
@@ -115,7 +121,3 @@ Este método por sí solo no alcanza para garantizar la serializabilidad, debe c
 
 - Validación permanente con el grafo de precedencias buscando ciclos de conflictos $RW$.
 - Locks de predicados en el proceso de detección de conflictos para detectar precedencias.
-
-## Solución a la Anomalía del Fantasma
-
-#todo
