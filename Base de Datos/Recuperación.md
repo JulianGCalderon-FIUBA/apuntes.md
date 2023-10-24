@@ -46,11 +46,14 @@ Si ocurre una falla durante el reinicio, esto no es un problema porque el proced
 
 ### Algoritmo REDO
 
-Este algoritmo trabaja bajo la técnica de volcado de actualización diferida.
+Este algoritmo trabaja bajo la técnica de volcado de actualización diferida. Debemos respetar las reglas:
 
 - **Regla WAL:** Cuando una transacción $T_i$ modifica el ítem $X$ reemplazando el valor viejo por $v$, se escribe $(\text{WRITE}, T_i, X, v)$ en el *log* y se vuelca al disco.
-- **Regla FLC:** Antes de que $T_i$ haga *commit*, se escribe $(\text{COMMIT}, T_i)$ en el *log* y se vuelca al disco.
+- **Regla FLC:** Cuando una transacción $T_i$ hace *commit*, se escribe $(\text{COMMIT}, T_i)$ en el *log* y se vuelca al disco.
 
-Si la transacción falla antes del *commit*, no será necesario deshacer nada, ya que los cambios siguen en memoria.
+CUando el sistema reinicia, se siguen los siguientes pasos:
+1. 
 
-Si en cambio falla despues de haber escrito el *commit* en disco, la transacción será rehecha al iniciar.
+Si la transacción falla antes del *commit*, no será necesario deshacer nada, ya que los cambios siguen en memoria. (por estar en actualización diferida). Sin embargo, tenemos que escribir $(\text{ABORT}, T)$ en el *log* y volcarlo a disco.
+
+Si, en cambio, falla después de haber escrito el *commit* en disco, la transacción será rehecha al iniciar. Se debe leer el *log* desde el inicio al final.
