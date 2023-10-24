@@ -16,6 +16,7 @@
 - [[Base de Datos/Concurrencia|Concurrencia]]
 - [[Anomalías]]
 - [[Control de Concurrencia]]
+- [[Recuperabilidad]]
 
 ## Apuntes Prácticos
 
