@@ -32,11 +32,15 @@ Como evito *rolbacks* en cascada, entonces no se permiten lecturas no *commitead
 
 ### Algoritmo UNDO
 
-Antes de que una modificación sobre un ítem $X \leftarrow v_{new}$ por parte de una transacción no *commiteada* sea guardada en disco, se debe salvaguardar en el *log* en disco el último valor commiteado $v_{old}$ de ese ítem.
+Este algoritmo trabaja bajo la técnica de volcado de actualización inmediata.
 
-Cuando una transacción modifica el ítem $X$ remplazando un valor $v_{old}$ por $v$, se escribe $(\text{WRITE}, T_i, X, v_{old})$ en el log y se hace *flush* del log a disco, antes de escribir el nuevo valor de $X$ en disco.
+- Antes de que una transacción $T_i$ modifique el ítem $X$ remplazando un - valor $v_{old}$ por $v$, se escribe $(\text{WRITE}, T_i, X, v_{old})$ en el *log* y se hace *flush* del *log* a disco.
 
-Cuando $T_i$ hace *commit*, se escribe $(\text{COMMIT}, T_i)$ en el *log* y se hace *flush* del log a disco.
+Antes de que $T_i$ haga *commit*, se escribe $(\text{COMMIT}, T_i)$ en el *log* y se hace *flush* del *log* a disco.
 
 Cuando el sistema reinicia, se siguen los siguientes dos pasos:
-1. Se recorre el *log* de adelante hacia atrás, y por cada transacción de la que no se encuentra el $\text{COMMIT}$ se aplica cada uno de los $\text{WRITE}$ para restaurar el valor ante
+
+1. Se recorre el *log* de adelante hacia atrás, y por cada transacción de la que no se encuentra el $\text{COMMIT}$ se aplica cada uno de los $\text{WRITE}$ para restaurar el valor anterior a la misma en disco. Esto se debe a que ya sabemos que todas las transacciones que ya commitearon volcaron todos sus cambios en el disco.
+2. Luego, por cada transacción de la que no se encontró el $\text{COMMIT}$, se escribe $(\text{ABORT}, T)$ en el *log* y se hace *flush* del *log* a disco.
+
+Sí ocurre una falla durante el reinicio, esto no es un problema porque el procedimiento de reinicio es `IDEMPOTENTE`. Si se ejecuta más de una vez, no cambiará el resultado.
