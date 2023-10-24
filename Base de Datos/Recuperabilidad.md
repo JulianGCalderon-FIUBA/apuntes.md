@@ -40,3 +40,13 @@ Esta definición implica que quedan prohibidos los conflictos de la forma $(W_{T
 El protocolo de lock de dos fases no asegura la recuperabilidad. Para asegurarla, debemos utilizar el protocolo de dos fases *estricto*. Este dice que solo puedo liberar un *lock* de escritura después del *commit*.
 
 Si los locks (de cualquier tipo) solo pueden ser liberados después del commit, se llama protocolo de lock de dos fases riguroso. Este protocolo asegura que no se producirán *rollbacks* en cascada.
+
+## Recuperabilidiad con Timestamps
+
+En este método, cuando se aborta una transacción $T_i$, cualquier transacción que haya usado datos que $T_i$ modificó debe ser abortada en cascada.
+
+Para garantizar la recuperabilidad, se debe escoger entre varias opciones:
+
+- No hacer el *commit* de una transacción hasta que todas aquellas transacciones que modificaron datos que ella leyó hayan hecho su commit
+- Bloquear a la transacción lectora hasta tanto el escritor haya hecho su commit (esto evita *rollbacks* en cascada)
+- Hacer todas las escrituras durante el commit, manteniendo una copia paralela de cada **ítem** para cada transacción. Para esto, la escritura de los ítems en el *commit* debe ser centralizada y atómica.
