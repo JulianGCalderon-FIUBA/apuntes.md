@@ -14,3 +14,12 @@ Cuando un proceso $P$ nota que el coordinador no responde (no hay ninguno, u ocu
 4. El nuevo coordinador se anuncia con un mensaje `COORDINATOR`.
 
 En este algoritmo, siempre gana el proceso con mayor número.
+
+![[Elección de Lider - Algoritmo Bully 1698248429.png|500]]
+
+## Algoritmo Ring
+
+Los procesos están ordenados lógicamente, cada uno conoce a su sucesor. Cuando un proceso nota que el coordinador falló, entonces:
+
+1. Cuando un proceso nota que el coordinador falló, entonces arma un mensaje `ELECTION` que contiene su número de proceso y lo envía al sucesor.
+2. El procesoque recibe el menaaje, a
