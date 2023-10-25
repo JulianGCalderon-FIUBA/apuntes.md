@@ -156,6 +156,10 @@ fn write(&mut self, buf: &mut [u8]) -> Result<usize>
 
 El método `flush` realiza una espera, previniendo que el programa continúe sin haber escrito en la conexión todos los *bytes*.
 
+```Rust
+fn flush(&mut self) -> Result<()>;
+```
+
 ### Conexión Pasiva
 
 Para asociar un socket a una dirección, utilizamos la función `connect` que crea un nuevo `TcpListener` y lo asocia a una dirección.
@@ -184,8 +188,9 @@ pub fn accept(&self) -> Result<(TcpStream, SocketAddr)>
 
 El cierre de la conexión TCP puede ser realizado de forma individual. La conexión establecida con `TcpStream` se cierra automáticamente cuando el valor ejecuta `drop`.
 
-Para cerrar el extremo de escritura, lectura, o ambos, podemos utilizar la método `shutdown`.
+Para cerrar el extremo de escritura, lectura, o ambos, podemos utilizar el método `shutdown`.
 
 ```Rust
-pub fn shutdown(&self, how. )
+pub fn shutdown(&self, how: Shutdown) -> Result<()>
 ```
+ 
