@@ -5,3 +5,12 @@ Se asume que todos los procesos tienen un identificador único, se ejecuta un pr
 Al finalizar la elección, se debe concluir en un único lider, conocido por todos.
 
 ## Algoritmo Bully
+
+Cuando un proceso $P$ nota que el coordinador no responde (no hay ninguno, u ocurrió un problema con el líder), inicia el proceso de elección:
+
+1. $P$ envía el mensaje `ELECTION` a todos los proceso que tengan número mayor.
+2. Si nadie responde, $P$ gana la elección y es el nuevo coordinador.
+3. Si contesta algún proceso con número mayor, este continúa con el proceso y $P$ finaliza.
+4. El nuevo coordinador se anuncia con un mensaje `COORDINATOR`.
+
+En este algoritmo, siempre gana el proceso con mayor número.
