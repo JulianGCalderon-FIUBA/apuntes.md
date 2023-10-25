@@ -21,5 +21,9 @@ En este algoritmo, siempre gana el proceso con mayor número.
 
 Los procesos están ordenados lógicamente, cada uno conoce a su sucesor. Cuando un proceso nota que el coordinador falló, entonces:
 
-1. Cuando un proceso nota que el coordinador falló, entonces arma un mensaje `ELECTION` que contiene su número de proceso y lo envía al sucesor.
-2. El procesoque recibe el menaaje, a
+1. Cuando un proceso nota que el coordinador falló, entonces arma un mensaje `ELECTION` que contiene su número de procesos y lo envía al sucesor.
+2. El proceso que recibe el mensaje, agrega su número de proceso a la lista dentro del mensaje y lo envía al sucesor.
+3. Cuando el proceso original recibe el mensaje, lo cambia a `COORDINATOR` y lo envía. El nuevo coordinador es el proceso de mayor número de la lista. La lista se mantiene para informar el nuevo anillo.
+4. Cuando este mensaje finaliza la circulación, se elimina del anillo.
+
+![[Elección de Lider - Algoritmo Ring 1698248871.png]]
