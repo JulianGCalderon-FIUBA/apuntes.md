@@ -9,6 +9,7 @@
 - [[Pasaje de Mensajes]]
 - [[Exclusión Mutua Distribuida]]
 - [[Modelo Cliente Servidor]]
+- [[Elección de Lider]]
 
 ## Primitivas de Sincronización
 
