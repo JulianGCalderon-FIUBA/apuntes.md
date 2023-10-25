@@ -147,4 +147,25 @@ El *listener* retornado está listo para aceptar conexiones.
 
 ### Conexiones Entrantes
 
-El método `incoming` retorna un iterador que devuelva una secuencia 
+El método `incoming` retorna un iterador que devuelva una secuencia de conexiones de tipo `TcpStream`. La iteración es sobre *intentos* de conexiones (puede devolver error).
+
+```Rust
+pub fn incoming(&self) -> Incoming<'_>
+```
+
+Cada *stream* representa una conexión abierta entre el cliente y el servidor.
+
+Si se quiere aceptar una única conexión, podemos utilizar el método `accept`, que bloquea el hilo hasta que surja una conexión establecida.
+
+```Rust
+pub fn accept(&self) -> Result<(TcpStream, SocketAddr)>
+```
+
+### Lectura / Escritura
+
+Un `TcpStream` implementa tanto el *trait* `std::io::Read` como el *trait* `std::io::Write`, por lo que tendremos disponibles los métodos de escritura y lectura de *bytes*.
+
+```Rust
+fn read(&mut self, buf: &mut [u8]) -> Result<usize>
+fn write(&mut self, buf: &mut [u8]) -> Result<usize>
+```
