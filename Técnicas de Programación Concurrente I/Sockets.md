@@ -130,3 +130,21 @@ struct in_addr {
 	in_addr_t s_addr;
 }
 ```
+
+## Sockets en Rust
+
+El módulo de `std::net` nos ofrece estructuras para el manejo de la red.
+
+### Conexión Pasiva
+
+Para asociar un socket a una dirección, utilizamos la función `BIND` que crea un nuevo `TcpListener` y lo asocia a una dirección.
+
+```Rust
+pub fn bind<A: ToSocketAddrs>(addr: A) -> Result<TcpListener>
+```
+
+El *listener* retornado está listo para aceptar conexiones.
+
+### Conexiones Entrantes
+
+El método `incoming` retorna un iterador que devuelva una secuencia 
