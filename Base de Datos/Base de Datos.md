@@ -6,6 +6,9 @@
 - [[Modelo de Datos]]
 - [[Modelo Entidad-Interrelación]]
 - [[Modelo Entidad-Interrelación Aumentado]]
+
+### Modelo Relacional
+
 - [[Modelo Relacional]]
 - [[Álgebra Relacional]]
 - [[Cálculo Relacional]]
@@ -13,12 +16,15 @@
 - [[Diseño Relacional]]
 - [[Dependencias Funcionales]]
 - [[Formas Normales]]
+
+### Concurrencia
+
 - [[Transacción]]
 - [[Base de Datos/Concurrencia|Concurrencia]]
 - [[Anomalías]]
 - [[Control de Concurrencia]]
-- [[Recuperabilidad]]
-- [[Recuperación]]
+- [[Solapamientos Recuperables]]
+- [[Recuperación ante Fallas]]
 - [[Puntos de Control]]
 
 ## Apuntes Prácticos

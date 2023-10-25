@@ -7,7 +7,7 @@ Los sistemas reales sufren múltiples tipos de fallas:
 
 En situaciones catastróficas como los últimos dos, es necesario contar con mecanismo de *backup* para recuperar la información.
 
-Nosotros estudiaremos como resolver perdidas de datos en memoria, en situaciones no catastróficas (como las primeras dos). Para ello, es necesario mantener información en el [[Recuperabilidad#Bitácora (Log)|log]] acerca de los cambios que la transacción fue realizando.
+Nosotros estudiaremos como resolver perdidas de datos en memoria, en situaciones no catastróficas (como las primeras dos). Para ello, es necesario mantener información en el [[Solapamientos Recuperables#Bitácora (Log)|log]] acerca de los cambios que la transacción fue realizando.
 
 ## Técnicas de Volcado
 

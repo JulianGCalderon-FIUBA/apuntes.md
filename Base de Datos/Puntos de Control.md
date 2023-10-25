@@ -1,4 +1,4 @@
-Cuando [[Recuperación|reiniciamos]] el sistema, no sabemos hasta donde tenemos que retroceder en el archivo de [[Recuperabilidad#Bitácora (Log)|log]]. Aunque muchas transacciones antiguas ya *commiteadas* seguramente tendrán sus datos guardados ya en disco.
+Cuando [[Recuperación ante Fallas|reiniciamos]] el sistema, no sabemos hasta donde tenemos que retroceder en el archivo de [[Solapamientos Recuperables#Bitácora (Log)|log]]. Aunque muchas transacciones antiguas ya *commiteadas* seguramente tendrán sus datos guardados ya en disco.
 
 Para evitar este retroceso hasta el inicio del sistema y el crecimiento ilimitado de los archivos de *log* se utilizan puntos de control.
 
@@ -14,7 +14,7 @@ La creación de un *checkpoint* inactivo en el *log* implica la suspensión mome
 
 Para aminorar la perdida de tiempo de ejecución en el volcado a disco, puede utilizarse una técnica conocida como *checkpoining* activo (*non-quiescent* o *fuzzy checkpointing*). Esta utiliza dos tipos de registros de *checkpoint*: $(\text{BEGIN CKPT}, t_\text{act}$) y $(\text{END CKPT})$, en donde $t_\text{act}$ es un listado de todas las transacciones que se encuentran activas.
 
-## Algoritmo [[Recuperación#Algoritmo UNDO|UNDO]]
+## Algoritmo [[Recuperación ante Fallas#Algoritmo UNDO|UNDO]]
 
 ### Checkpointing Inactivo
 
@@ -39,7 +39,7 @@ En la recuperación, se dan dos situaciones:
 - Si encontramos primero un registro $(\text{END CKPT})$, solo debemos retroceder hasta el $(\text{BEGIN CKPT})$ durante el *rollback*, porque ninguna transacción incompleta puede haber comenzado antes.
 - Si encontramos primero un registro $(\text{BEGIN CKPT})$, implica que el sistema cayó sin asegurar los *commits* del listado de transacciones. Deberemos volver hacia atrás, pero solo hasta el inicio de la más antigua del listado.
 
-## Algoritmo [[Recuperación#Algoritmo REDO|REDO]]
+## Algoritmo [[Recuperación ante Fallas#Algoritmo REDO|REDO]]
 
 En este algoritmo, el procedimiento con un *checkpointing* activo se realiza de la siguiente manera:
 
@@ -51,7 +51,7 @@ En la recuperación, deberemos retroceder hasta el $(\text{BEGIN}, T_x)$ de la t
 
 Si encontramos primero un registro $(\text{BEGIN CKPT})$, entonces no nos sirve, y debemos buscar un *checkpoint* anterior en el log.
 
-## Algoritmo [[Recuperación#Algoritmo UNDO/REDO|UNDO/REDO]]
+## Algoritmo [[Recuperación ante Fallas#Algoritmo UNDO/REDO|UNDO/REDO]]
 
 En este algoritmo, el procedimiento con un *checkpointing* activo se realiza de la siguiente manera:
 
