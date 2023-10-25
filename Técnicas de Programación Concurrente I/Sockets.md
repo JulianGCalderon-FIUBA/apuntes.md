@@ -135,9 +135,30 @@ struct in_addr {
 
 El módulo de `std::net` nos ofrece estructuras para el manejo de la red.
 
+### Conexión Activa
+
+Para conectarse a un servidor, el cliente ejecuta el método `connect`, que crea un `TcpStream`. Un *stream* representa una conexión abierta entre el cliente y el servidor.
+
+```Rust
+pub fn connect<A: ToSocketAddrs>(addr: A) -> Result<TcpStream>
+```
+
+Se le puede enviar un iterador de direcciones, intentando ocnectarse a cada una, hasta lograrlo.
+
+### Lectura / Escritura
+
+Un `TcpStream` implementa tanto el *trait* `std::io::Read` como el *trait* `std::io::Write`, por lo que tendremos disponibles los métodos de escritura y lectura de *bytes*.
+
+```Rust
+fn read(&mut self, buf: &mut [u8]) -> Result<usize>
+fn write(&mut self, buf: &mut [u8]) -> Result<usize>
+```
+
+El método `flush` realiza una espera, previniendo que el programa continúe sin haber escrito en la conexión todos los *bytes*.
+
 ### Conexión Pasiva
 
-Para asociar un socket a una dirección, utilizamos la función `BIND` que crea un nuevo `TcpListener` y lo asocia a una dirección.
+Para asociar un socket a una dirección, utilizamos la función `connect` que crea un nuevo `TcpListener` y lo asocia a una dirección.
 
 ```Rust
 pub fn bind<A: ToSocketAddrs>(addr: A) -> Result<TcpListener>
@@ -153,19 +174,18 @@ El método `incoming` retorna un iterador que devuelva una secuencia de conexion
 pub fn incoming(&self) -> Incoming<'_>
 ```
 
-Cada *stream* representa una conexión abierta entre el cliente y el servidor.
-
 Si se quiere aceptar una única conexión, podemos utilizar el método `accept`, que bloquea el hilo hasta que surja una conexión establecida.
 
 ```Rust
 pub fn accept(&self) -> Result<(TcpStream, SocketAddr)>
 ```
 
-### Lectura / Escritura
+### Cierre de Conexión
 
-Un `TcpStream` implementa tanto el *trait* `std::io::Read` como el *trait* `std::io::Write`, por lo que tendremos disponibles los métodos de escritura y lectura de *bytes*.
+El cierre de la conexión TCP puede ser realizado de forma individual. La conexión establecida con `TcpStream` se cierra automáticamente cuando el valor ejecuta `drop`.
+
+Para cerrar el extremo de escritura, lectura, o ambos, podemos utilizar la método `shutdown`.
 
 ```Rust
-fn read(&mut self, buf: &mut [u8]) -> Result<usize>
-fn write(&mut self, buf: &mut [u8]) -> Result<usize>
+pub fn shutdown(&self, how. )
 ```
