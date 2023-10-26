@@ -11,16 +11,19 @@ Para resolver el problema, necesitaremos utilizar alguno de los algoritmos de el
 ```Go
 for online() {
 	if is_leader() {
-		if tired() {}
-		peer := recv("request")
+		peer := recv_blocking("request")
 		send(peer, "task")
+		
+		if tired() {
+			disconnect()
+		}
 	} else {
 		leader := get_leader()
 		send(leader, "request")
 		
-		err != recv("task") // with timeout
+		err != recv_timeout(leader, "task")
 		if err == "timeout" {
-			find_new_leader()
+			find_new_leader() // blocks until election
 		}
 	}
 }
