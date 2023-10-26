@@ -6,4 +6,17 @@ Cada cierto tiempo, el **Scrum Master** se cansa de atender a su equipo, y decid
 
 ## Solución con Algoritmo de [[Elección de Lider]]
 
-Para resolver el problema, necesitaremos utilizar alguno de los algoritmos de elección de *lider*.
+Para resolver el problema, necesitaremos utilizar alguno de los algoritmos de elección de *lider*. El código a alto nivel será idéntico, independiente del algoritmo utilizado.
+
+```Go
+for online() {
+	if is_leader() {
+		recv("request")
+		send("task")
+	}
+	else {
+		leader := get_leader()
+		send("task")
+	}
+}
+```
