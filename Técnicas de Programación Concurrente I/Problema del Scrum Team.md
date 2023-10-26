@@ -6,24 +6,26 @@ Cada cierto tiempo, el **Scrum Master** se cansa de atender a su equipo, y decid
 
 ## Solución con Algoritmo de [[Elección de Lider]]
 
-Para resolver el problema, necesitaremos utilizar alguno de los algoritmos de elección de *lider*. El código a alto nivel será idéntico, independiente del algoritmo utilizado.
+Para resolver el problema, necesitaremos utilizar alguno de los algoritmos de elección de líder. El código a alto nivel será idéntico, independiente del algoritmo utilizado.
 
 ```Go
-for online() {
-	if is_leader() {
+for online(...) {
+	if is_leader(...) {
 		peer := recv_blocking("request")
-		send(peer, "task")
+		send_task(peer)
 		
-		if tired() {
-			disconnect()
+		if tired(...) {
+			disconnect(...)
 		}
 	} else {
-		leader := get_leader()
-		send(leader, "request")
+		leader := get_leader(...)
+		send_request(leader)
 		
-		err != recv_timeout(leader, "task")
-		if err == "timeout" {
-			find_new_leader() // blocks until election
+		task, timeout := recv_task(leader)
+		if timeout {
+			find_new_leader(...) // blocks until election
+		} else {
+			complete(task)
 		}
 	}
 }
