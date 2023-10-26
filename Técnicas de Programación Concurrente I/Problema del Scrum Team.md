@@ -11,12 +11,17 @@ Para resolver el problema, necesitaremos utilizar alguno de los algoritmos de el
 ```Go
 for online() {
 	if is_leader() {
-		recv("request")
-		send("task")
-	}
-	else {
+		if tired() {}
+		peer := recv("request")
+		send(peer, "task")
+	} else {
 		leader := get_leader()
-		send("task")
+		send(leader, "request")
+		
+		err != recv("task") // with timeout
+		if err == "timeout" {
+			find_new_leader()
+		}
 	}
 }
 ```
