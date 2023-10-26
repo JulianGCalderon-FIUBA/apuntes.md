@@ -193,4 +193,3 @@ Para cerrar el extremo de escritura, lectura, o ambos, podemos utilizar el méto
 ```Rust
 pub fn shutdown(&self, how: Shutdown) -> Result<()>
 ```
- 
