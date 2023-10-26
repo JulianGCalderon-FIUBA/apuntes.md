@@ -30,3 +30,5 @@ for online(...) {
 	}
 }
 ```
+
+Ademas de implementar las funciones indicadas en el codigo de arriba, es necesario tener un hilo que constantemente escuche mensajes nuevos, para poder implementar el algoritmo.
