@@ -20,4 +20,10 @@ Hay tres tipos:
 - Sufijo: Aparecen detrás de la palabra.
 - Interfijo (no existen en inglés, excepto en situaciones muy coloquiales): "Cali-fucking-fornia".
 
-El sufijo -ment convierte los verbos en sustantivos: "D"
+### Sufijos
+
+Algunos ejemplos son:
+
+- El sufijo -ment convierte los verbos en sustantivos: "Development", "Establishment".
+- El sufijo -ity convierte los adjetivos en adverbios: "Durability".
+- El sufijo -ness convierte sustantivos en sustantivos: "Lioness". Le cambia el género a la palabra.
