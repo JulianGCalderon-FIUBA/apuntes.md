@@ -22,11 +22,18 @@ Hay tres tipos:
 
 ### Sufijos
 
-Algunos ejemplos son:
+Algunos ejemplos de sufijos que crean sustantivos son:
 
 - El sufijo -ment convierte los verbos en sustantivos: "Development", "Establishment".
-- El sufijo -ity convierte los adjetivos en adverbios: "Durability".
+- El sufijo -ity convierte los adjetivos en sustantivos: "Durability".
 - El sufijo -ness le cambia el significado a los sutantivos: "Lioness". Le cambia el género a la palabra. Con las corrientes de igualdad de género, cayó en desuso. Se buscan palabras alternativas o se quita el sufijo.
 - Los sufijo -sion y -tion, que convierten verbos en sustantivos. "Explosion", "Television", "Polution".
 - El sufijos -ism, que convierte un adjetivo en un sustantivo: "Cristhianism", le da un nuevo significado (pasa a ser un movimiento).
-- sufijo -ship 
+- Los sufijos -ship y -hood le cambia el significado a un sustantivo: "Motherhood", "Childhood".
+- Los sufijos -or, -er y -ee cambian de verbo a sustantivo, y le dan significados distintos: "Trainer", "Trainee".
+
+Algunos ejemplos de sufijos que crean adjetivos son:
+
+- El sufjo -al: convierte de sustantivo a adjetivo "Chemical"
+- El sufijo -ful: ""
+- 
