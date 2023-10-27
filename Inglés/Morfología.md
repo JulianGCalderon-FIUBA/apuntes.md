@@ -26,4 +26,7 @@ Algunos ejemplos son:
 
 - El sufijo -ment convierte los verbos en sustantivos: "Development", "Establishment".
 - El sufijo -ity convierte los adjetivos en adverbios: "Durability".
-- El sufijo -ness convierte sustantivos en sustantivos: "Lioness". Le cambia el género a la palabra.
+- El sufijo -ness le cambia el significado a los sutantivos: "Lioness". Le cambia el género a la palabra. Con las corrientes de igualdad de género, cayó en desuso. Se buscan palabras alternativas o se quita el sufijo.
+- Los sufijo -sion y -tion, que convierten verbos en sustantivos. "Explosion", "Television", "Polution".
+- El sufijos -ism, que convierte un adjetivo en un sustantivo: "Cristhianism", le da un nuevo significado (pasa a ser un movimiento).
+- sufijo -ship 
