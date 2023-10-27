@@ -29,6 +29,6 @@ El orden de los adjetivos está definido, y debe respetar:
 
 > I bought a pair of cheap new black & white brazilian leather trainers
 
-Al traducirlo al español, comenzaremos por los *determiners*, luego seguimos por el nucleo de la frase nominal, y finalmente agregamos los adjetivos en el orden inverso.
+Al traducirlo al español, comenzaremos por los *determiners*, luego seguimos por el núcleo de la frase nominal, y finalmente agregamos los adjetivos en el orden inverso.
 
 Si luego del núcleo sigue una preposición, suele seguir otra frase nominal.
