@@ -4,6 +4,29 @@ En las frases nominales, es importante definir cuál es el núcleo de la oració
 
 El núcleo de una frase nominal es el último sustantivo de la frase, a menos que haya una proposición; en este caso es el último sustantivo antes de una preposición.
 
-Todo lo que antecede al núcleos serán los *pre-modifiers*, o modificadores directos. En órden, estarán:
+## Pre-Modifiers
 
-- Determiners:
+Todo lo que antecede al núcleo serán los *pre-modifiers*, o modificadores directos. En orden, estarán:
+
+Los *determiners* que pueden ser:
+
+- Articles: a/the/etc.
+- Numbers
+- Quantifiers
+- Possessive
+- This/That/etc.
+
+Se mantienen en primer lugar cuando traducimos al castellano, seguidos del núcleo de la frase nominal.
+
+Luego de los *determiners*, encontraremos los adjetivos (también encontraremos sustantivos que cumplen el rol de adjetivos).
+
+El orden de los adjetivos está definido, y debe respetar:
+
+- *Opinion*
+- *Size*
+- *Shape*
+- *Age*
+- *Colour*
+- *Origin*
+- *Material*
+- *Purpose*
