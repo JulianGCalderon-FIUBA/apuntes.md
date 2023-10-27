@@ -11,6 +11,7 @@ Las distintas inflexiones son pocas:
 - El -ed del *past simple*: "He walked"
 - Los -ed o -en del *past participle*: "He was awoken"
 - El -er del comparativo: "Smaller than"
+- El -ly del adverbio.
 
 ## Afijos
 
@@ -38,4 +39,9 @@ Algunos ejemplos de sufijos que crean adjetivos son:
 - El sufijo -ful convierte verbos a adjetivos: "Thoughtful".
 - El sufijo -less convierte verbos a adjetivos: "Careless".
 - El sufijo -ish convierte sustantivos a adjetivos: "Redish", "Childish".
-- 
+- El sufijo -able convierte verbos a adjetivos: "Suitable", "Durable".
+
+ALgunos ejemplos de sufijos que crean verbos son:
+
+- El sufijo -en convierte adjetivos a verbos: "Widen", "Enlarge" (también pueden estar como prefijos).
+- El sufijo 
