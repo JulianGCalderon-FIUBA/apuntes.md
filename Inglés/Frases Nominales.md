@@ -16,8 +16,6 @@ Los *determiners* que pueden ser:
 - *Possessive*
 - *Pronouns*: "this", "that", etc.
 
-Se mantienen en primer lugar cuando traducimos al castellano, seguidos del núcleo de la frase nominal.
-
 Luego de los *determiners*, encontraremos los adjetivos (también encontraremos sustantivos que cumplen el rol de adjetivos).
 
 El orden de los adjetivos está definido, y debe respetar:
@@ -27,6 +25,10 @@ El orden de los adjetivos está definido, y debe respetar:
 - *Shape*: "Circular"
 - *Age*: "Old", "Six-year-old"
 - *Colour*: "Redish"
-- *Origin*: "Brasilian"
+- *Origin*: "Brazilian"
 - *Material*: "Plastic"
-- *Purpose*: Generalmente, es un sustantivo, indica el proposito ""
+- *Purpose*: Generalmente es un sustantivo, indica el propósito: "table".
+
+> I bought a pair of cheap new black & white brazilian leather trainers
+
+Al traducirlo al eSe mantienen en primer lugar cuando traducimos al castellano, seguidos del núcleo de la frase nominal.
