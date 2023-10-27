@@ -37,4 +37,5 @@ Algunos ejemplos de sufijos que crean adjetivos son:
 - El sufijo -al convierte de sustantivo a adjetivo: "Chemical".
 - El sufijo -ful convierte verbos a adjetivos: "Thoughtful".
 - El sufijo -less convierte verbos a adjetivos: "Careless".
-- El sufijo -ish convierte sustantivos a adjetivos: "Redish".
+- El sufijo -ish convierte sustantivos a adjetivos: "Redish", "Childish".
+- 
