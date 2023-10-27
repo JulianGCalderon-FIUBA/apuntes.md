@@ -25,7 +25,7 @@ El orden de los adjetivos está definido, y debe respetar:
 - *Colour*: "Redish"
 - *Origin*: "Brazilian"
 - *Material*: "Plastic"
-- *Purpose*: Generalmente es un sustantivo, indica el propósito: "table".
+- *Purpose*: Generalmente es un sustantivo, indica el propósito: "Table".
 
 > I bought a pair of cheap new black & white brazilian leather trainers
 
