@@ -41,7 +41,7 @@ Algunos ejemplos de sufijos que crean adjetivos son:
 - El sufijo -ish convierte sustantivos a adjetivos: "Redish", "Childish".
 - El sufijo -able convierte verbos a adjetivos: "Suitable", "Durable".
 
-ALgunos ejemplos de sufijos que crean verbos son:
+Algunos ejemplos de sufijos que crean verbos son:
 
 - El sufijo -en convierte adjetivos a verbos: "Widen", "Enlarge" (también pueden estar como prefijos).
-- El sufijo 
+- El sufijo -fy convierte adjetivos a verbos: "Simplify", "Clarify".
