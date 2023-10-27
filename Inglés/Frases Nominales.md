@@ -31,4 +31,4 @@ El orden de los adjetivos está definido, y debe respetar:
 
 Al traducirlo al español, comenzaremos por los *determiners*, luego seguimos por el nucleo de la frase nominal, y finalmente agregamos los adjetivos en el orden inverso.
 
-Si luego del nucleo sigue una preposición, suele seguir otra frase nominal.
+Si luego del núcleo sigue una preposición, suele seguir otra frase nominal.
