@@ -4,7 +4,6 @@
 - [[Técnicas de Lectura]]
 - [[Tipos de Textos]]
 - [[Palabras Prestadas]]
-- [[Frases Nominales]]
 - [[Contextual Reference]]
 - [[Conectores]]
 - [[Adverbios]]
@@ -12,3 +11,4 @@
 - [[Pronombres no Referenciales]]
 - [[Sufijo ing]]
 - [[Adjetivos Compuestos]]
+- [[Frases Nominales]]
