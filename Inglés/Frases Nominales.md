@@ -10,11 +10,11 @@ Todo lo que antecede al núcleo serán los *pre-modifiers*, o modificadores dire
 
 Los *determiners* que pueden ser:
 
-- Articles: a/the/etc.
-- Numbers
-- Quantifiers
-- Possessive
-- This/That/etc.
+- *Articles*: "a", "the", etc.
+- *Numbers*
+- *Quantifiers*
+- *Possessive*
+- *Pronouns*: "this", "that", etc.
 
 Se mantienen en primer lugar cuando traducimos al castellano, seguidos del núcleo de la frase nominal.
 
@@ -22,11 +22,11 @@ Luego de los *determiners*, encontraremos los adjetivos (también encontraremos 
 
 El orden de los adjetivos está definido, y debe respetar:
 
-- *Opinion*
-- *Size*
-- *Shape*
-- *Age*
-- *Colour*
-- *Origin*
-- *Material*
-- *Purpose*
+- *Opinion*: "Ugly"
+- *Size*: "Huge"
+- *Shape*: "Circular"
+- *Age*: "Old", "Six-year-old"
+- *Colour*: "Redish"
+- *Origin*: "Brasilian"
+- *Material*: "Plastic"
+- *Purpose*: Generalmente, es un sustantivo, indica el proposito ""
