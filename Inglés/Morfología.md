@@ -5,7 +5,7 @@ Tendremos que diferenciar las inflexiones de los afijos. Una inflexión no le ca
 Las distintas inflexiones son pocas:
 
 - La -s y -es del plural: "Pencils".
-- La -s y -es del *prese*: "She studies".
+- La -s y -es del *present simple*: "She studies".
 - 's *genitive case*: "Tom's house".
 - El -ing del *present participle*: "He is studying".
 - El -ed del *past simple*: "He walked"
