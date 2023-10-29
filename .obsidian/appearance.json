@@ -4,6 +4,6 @@
   "enabledCssSnippets": [
     "image-grid"
   ],
-  "baseFontSize": 19,
+  "baseFontSize": 16,
   "theme": "obsidian"
 }
