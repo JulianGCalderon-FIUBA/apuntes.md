@@ -29,3 +29,13 @@ La fragmentación es el proceso por el cual se almacenan múltiples copias de un
 Cuando las réplicas solo funcionan como mecanismo de *backup* se denominan réplicas secundarias. Cuando también pueden hacer procesamiento, se las conoce como réplicas primarias.
 
 La replicación nos genera un nuevo problema a resolver: la consistencia de los datos. Puede darse la situación de que distintas réplicas almacenen (al menos, temporalmente) distintos valores para un mismo dato.
+
+## Búsqueda
+
+Debemos tener tablas de hash distribuidas (DHT's) que permiten definir en que nodo se encontrará cierta información particular.
+
+Este método no requiere de
+
+## Consistencia
+
+#TODO

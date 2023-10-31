@@ -3,7 +3,7 @@ La necesidad de diseñar un [[Gestor de Base de Datos]] no relacional surgió en
 - **Mayor escalabilidad** para trabajar con grandes volúmenes de datos. Fue uno de los objetivos principales en el desarrollo de *BigTable* (Google, 2005)
 - **Mayor performance** en las aplicaciones WEB. Se buscaban formatos que fueran fáciles de serializar, como XML y JSON.
 - **Mayor flexibilidad** sobre las estructuras de datos. Queremos permitir una estructura que facilite la evolución de datos. En un modelo relacional, el sistema es muy rígido. El desarrollo WEB busca darle mayor libertad al desarrollador para organizar los datos.
-- **Mayor capacidad de [[Base de Datos Distribuida|distribución]]**. El modelo relacional no fue pensado como esto en mente. Se busca tener mayor disponibilidad y tolerancia a fallas. Para ello, se requieren mecanismos de replicación y fragmentación automática de los datos. Se prioriza la capacidad de procesamiento distribuido.
+- **Mayor capacidad de [[Base de Datos Distribuida|distribución]]**. Se busca tener mayor disponibilidad y tolerancia a fallas. Para ello, se requieren mecanismos de replicación y fragmentación automática de los datos. Se prioriza la capacidad de procesamiento distribuido.
 
 Tendremos cuatro tipos principales de bases de datos no relacionales:
 
