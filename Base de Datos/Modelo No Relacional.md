@@ -18,3 +18,19 @@ En cada uno de ellos cambia la definición de *agregado*, es decir, de como conj
 
 > [!note] Nota
 > En el caso de una base de datos orientada a documentos, los documentos serán los agregados.
+
+## Clave/Valor
+
+Este tipo de bases de datos tiene cuatro operaciones elementales:
+
+- Insertar un nuevo par: `put`
+- Eliminar un par existente: `delete`
+- Actualizar el valor de un par: `update`
+- Encontrar un par asociado a una clave particular: `get`
+
+Sus ventajas son:
+
+- **Simplicidad:** no se define un esquema, [[Lenguajes#Data-Definition Language|DDL]], restricciones de integriad, ni dominios. El agregadoes mínimo, y esta limitado al par. El objetivo es guardar y consultar grandes cantidades de datos, pero no de interrelaciones entre los datos.
+- **Velocidad:** Ya que prioriza la eficiencia de acceso, por sobre la integridad de los datos.
+- **Escalabilidad:** Generalmente proveen replicación (ya sea maestro-esclavo o distribuida), y permiten repartir las consultas entre los nodos.
+- 
