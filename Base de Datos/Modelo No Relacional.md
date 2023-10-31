@@ -68,3 +68,5 @@ Basada en *hashes* para identificar objetos. No utiliza esquemas, ni existe un D
 Los documentos tienen un formato JSON, por lo que almacena pares de clave/valor.
 
 Organiza los datos de una base de datos en colecciones, que contienen documentos. Los documentos a su vez tienen múltiples campos.
+
+#todo
