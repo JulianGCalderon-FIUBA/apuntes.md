@@ -9,5 +9,11 @@ En un [[Modelo Relacional]], las operaciones de junta entre datos que se encuent
 
 Desde los últimos años, la velocidad de las redes y la capacidad de almacenamiento aumenta, mientras que el procesamiento se mantiene estancado. Debido a esto, las bases de datos *"noSQL"* no fragmentarán los datos, sino que los replicaran. Esto permite que las bases de datos no se sincronicen.
 
-Tendremos cuatri tipos principales de bases de datos no relacionales:
-- Clave/Valor
+Tendremos cuatro tipos principales de bases de datos no relacionales:
+
+- **Clave/Valor:** Permiten guardar información en 
+- **Orientadas a documentos:** Permiten guardar documentos como JSON o XML.
+- **Wide Column:** Tienen diccionarios con columnas que permiten ser extendidas, pero con ciertas reglas. Tienen una serie de "columnas" que se repiten.
+- **Basadas en grafos:**
+
+En cada uno de ellos cambia la definición de *agregado*. De como conjuntos de objetos relacionados se agrupan en colecciones para ser tratados como una unidad. Las bases de datos relacionales y las basadas en grafos carecen de la noción de agregado.
