@@ -25,9 +25,9 @@ Almacenan vectores asociativos o diccionarios, es decir, conjuntos formados por 
 
 Las claves son únicas, y el único requisito sobre su dominio es que sea comparable por igual. Algunos ejemplos son:
 
-- Berkeley DB
-- Dynamo
-- Redis
+- **Berkeley DB**
+- **Dynamo**
+- **Redis**
 
 Este tipo de bases de datos tiene cuatro operaciones elementales:
 
@@ -52,9 +52,19 @@ En las bases de datos orientadas a documentos, un documento es un agregado, que 
 
 Sin necesidad de definir un esquema rígido para la estructura del documento, estas bases de datos ofrecen la posibilidad de manejar estructuras un poco más complejas que un par `(clave, valor)`
 
-Generalmente, un documento se define como un conjunto de pares `(clave, valor)` que representan los atributos del documento y sus valores. Se admiten atributos multivaluados, y tambien se admite que el valor de un atributo sea a su vez un documento
+Generalmente, un documento se define como un conjunto de pares `(clave, valor)` que representan los atributos del documento y sus valores. Se admiten atributos multivaluados, y también se admite que el valor de un atributo sea a su vez un documento
 
-Comparten algunas características con las bases de datos realcionales, como hacer consulta de selección o agregar datos. Algunos ejemplos son:
+Comparten algunas características con las bases de datos relacionales, como hacer consulta de selección o agregar datos. Algunos ejemplos son:
 
-- MondoDB
-- Rethink
+- **MondoDB**
+- **RethinkDB**
+- **CouchDB**
+- **RavenDB**
+
+### MondoDB
+
+Basada en *hashes* para identificar objetos. No utiliza esquemas, ni existe un DLL.
+
+Los documentos tienen un formato JSON, por lo que almacena pares de clave/valor.
+
+Organiza los datos de una base de datos en colecciones, que contienen documentos. Los documentos a su vez tienen múltiples campos.
