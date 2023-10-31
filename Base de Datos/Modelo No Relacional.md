@@ -11,9 +11,11 @@ Desde los últimos años, la velocidad de las redes y la capacidad de almacenami
 
 Tendremos cuatro tipos principales de bases de datos no relacionales:
 
-- **Clave/Valor:** Permiten guardar información en 
+- **Clave/Valor:** Permiten guardar información en un formato de diccionarios, con clave y valor.
 - **Orientadas a documentos:** Permiten guardar documentos como JSON o XML.
 - **Wide Column:** Tienen diccionarios con columnas que permiten ser extendidas, pero con ciertas reglas. Tienen una serie de "columnas" que se repiten.
-- **Basadas en grafos:**
+- **Basadas en grafos**
 
-En cada uno de ellos cambia la definición de *agregado*. De como conjuntos de objetos relacionados se agrupan en colecciones para ser tratados como una unidad. Las bases de datos relacionales y las basadas en grafos carecen de la noción de agregado.
+![[Modelo No Relacional 1698782230.png|500]]
+
+En cada uno de ellos cambia la definición de *agregado*, es decir, de como conjuntos de objetos relacionados se agrupan en colecciones para ser tratados como una unidad y ser almacenados en el mismo lugar. Las bases de datos relacionales y las basadas en grafos carecen de la noción de agregado.
