@@ -30,6 +30,7 @@
 ### No Relacionales
 
 - [[Modelo No Relacional]]
+- [[Base de Datos Distribuida]]
 
 
 ## Apuntes Prácticos
