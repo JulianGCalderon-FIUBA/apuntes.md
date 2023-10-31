@@ -222,7 +222,8 @@
     "Recuperabilidad",
     "Rollback",
     "Log",
-    "Concurrencia"
+    "Concurrencia",
+    "Paralelizar"
   ],
   "newFileLocation": "current",
   "focusNewTab": true
