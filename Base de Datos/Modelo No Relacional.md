@@ -1,0 +1,1 @@
+La necedidad de diseñar gestores de bases de datos no relacionales surgió en la decada del 2000, 
