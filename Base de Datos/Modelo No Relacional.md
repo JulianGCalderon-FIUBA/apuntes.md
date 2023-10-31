@@ -21,6 +21,14 @@ En cada uno de ellos cambia la definición de *agregado*, es decir, de como conj
 
 ## Clave/Valor
 
+Almacenan vectores asociativos o diccionarios, es decir, conjuntos formados por pares de elementos de la forma `(clave, valor)`.
+
+Las claves son únicas, y el único requisito sobre su dominio es que sea comparable por igual. Algunos ejemplos son:
+
+- Berkeley DB
+- Dynamo
+- Redis
+
 Este tipo de bases de datos tiene cuatro operaciones elementales:
 
 - Insertar un nuevo par: `put`
@@ -30,7 +38,23 @@ Este tipo de bases de datos tiene cuatro operaciones elementales:
 
 Sus ventajas son:
 
-- **Simplicidad:** no se define un esquema, [[Lenguajes#Data-Definition Language|DDL]], restricciones de integriad, ni dominios. El agregadoes mínimo, y esta limitado al par. El objetivo es guardar y consultar grandes cantidades de datos, pero no de interrelaciones entre los datos.
+- **Simplicidad:** no se define un esquema, [[Lenguajes#Data-Definition Language|DDL]], restricciones de integridad, ni dominios. El agregado es mínimo, y está limitado al par. El objetivo es guardar y consultar grandes cantidades de datos, pero no de interrelaciones entre los datos.
 - **Velocidad:** Ya que prioriza la eficiencia de acceso, por sobre la integridad de los datos.
-- **Escalabilidad:** Generalmente proveen replicación (ya sea maestro-esclavo o distribuida), y permiten repartir las consultas entre los nodos.
-- 
+- **Escalabilidad:** Generalmente, proveen replicación (ya sea maestro-esclavo o distribuida), y permiten repartir las consultas entre los nodos.
+
+### Dynamo
+
+#todo
+
+## Orientadas a Documentos
+
+En las bases de datos orientadas a documentos, un documento es un agregado, que almacena datos bajo una cierta estructura.
+
+Sin necesidad de definir un esquema rígido para la estructura del documento, estas bases de datos ofrecen la posibilidad de manejar estructuras un poco más complejas que un par `(clave, valor)`
+
+Generalmente, un documento se define como un conjunto de pares `(clave, valor)` que representan los atributos del documento y sus valores. Se admiten atributos multivaluados, y tambien se admite que el valor de un atributo sea a su vez un documento
+
+Comparten algunas características con las bases de datos realcionales, como hacer consulta de selección o agregar datos. Algunos ejemplos son:
+
+- MondoDB
+- Rethink
