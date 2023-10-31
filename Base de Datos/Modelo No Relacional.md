@@ -8,3 +8,6 @@ La necesidad de diseñar un [[Gestor de Base de Datos]] no relacional surgió en
 En un [[Modelo Relacional]], las operaciones de junta entre datos que se encuentran en nodos distintos puede ser un problema. Por otro lado, garantizar las [[Transacción#Propiedades ACID|propiedades ACID]] en un sistema distribuido es difícil, necesitamos que los nodos se sincronicen entre sí. Si bien es posible distribuir una base de datos relacional, tiene diversas dificultades.
 
 Desde los últimos años, la velocidad de las redes y la capacidad de almacenamiento aumenta, mientras que el procesamiento se mantiene estancado. Debido a esto, las bases de datos *"noSQL"* no fragmentarán los datos, sino que los replicaran. Esto permite que las bases de datos no se sincronicen.
+
+Tendremos cuatri tipos principales de bases de datos no relacionales:
+- Clave/Valor
