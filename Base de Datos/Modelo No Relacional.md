@@ -19,3 +19,5 @@ Tendremos cuatro tipos principales de bases de datos no relacionales:
 ![[Modelo No Relacional 1698782230.png|500]]
 
 En cada uno de ellos cambia la definición de *agregado*, es decir, de como conjuntos de objetos relacionados se agrupan en colecciones para ser tratados como una unidad y ser almacenados en el mismo lugar. Las bases de datos relacionales y las basadas en grafos carecen de la noción de agregado.
+
+En el caso de una base de datos orientada a documentos, los documentos serán los agregados.
