@@ -46,3 +46,5 @@
 - [[Reutilización de Consultas]]
 - [[Funciones de Ventana]]
 - [[Transacciones]]
+
+## Sintaxis de Mongo
