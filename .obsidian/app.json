@@ -223,7 +223,8 @@
     "Rollback",
     "Log",
     "Concurrencia",
-    "Paralelizar"
+    "Paralelizar",
+    "recibe"
   ],
   "newFileLocation": "current",
   "focusNewTab": true

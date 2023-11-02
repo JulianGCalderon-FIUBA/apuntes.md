@@ -27,7 +27,7 @@ Tendremos cuatro propiedades importantes que buscaremos respetar:
 
 También conocida como *snapshot isolation*. Al iniciar una transacción, el proceso recibe una copa de todos los archivos a los cuales tiene acceso.
 
-Hasta que hace commit, el proceso trabaja  con la copia. Al hacer commit, se persisten los cambios.
+Hasta que hace commit, el proceso trabaja con la copia. Al hacer commit, se persisten los cambios.
 
 Salvo por algunas optimizaciones, este algoritmo es extremadamente costoso.
 
@@ -37,4 +37,30 @@ Los archivos se modifican *in-place*, pero se mantiene una lista de los cambios 
 
 Si la transacción se aborta, se lee el log de atrás hacia adelante para deshacer los cambios (rollback).
 
-## Commit 
+## Commit de Dos Fases
+
+El coordinador es aquel proceso que ejecuta la transacción:
+
+1. En la primera fase, el coordinador escribe *prepare* en su log y envía el mensaje *prepare* al esto de procesos. Los procesos que recibe el mensaje escriben *ready* en el log y envían *ready* al coordinador.
+2. En la segunda fase, el coordinador hace los cambios y envía el mensaje *commit* al resto de los procesos. Los procesos que reciben el mensaje escriben *commit* en el log y envían *finished* al coordinador.
+
+## Two-Phase Locking
+
+Existen dos fases:
+
+- Fase de expansión: Se toman todos los locks usar.
+- Fase de contracción: Se liberan todos los locks. No se puede tomar un lock después de liberar otro.
+
+Esto garantiza la propiedad serializable para las transacciones, pero pueden ocurrir deadlocks.
+
+En el **strict two-phase locking**, la contracción ocurre después del commit.
+
+## Concurrencia Optimistica
+
+El proceso modifica los archivos sin ningún control, esperando que no haya conflictos. Al commitear, se verifica si el resto de las transacciones modificó los mismos archivos. Si es así, se aborta la transacción.
+
+Este modelo es libre de deadlocks y favorece el paralelismo, pero rehacer todo puede ser costoso en condiciones de alta carga.
+
+## Timestamps
+
+Existen *t*
