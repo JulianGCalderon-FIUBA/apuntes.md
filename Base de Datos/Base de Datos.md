@@ -31,6 +31,7 @@
 
 - [[Modelo No Relacional]]
 - [[Base de Datos Distribuida]]
+- [[Mondo]]
 - [[Sharding]]
 
 ## Apuntes Prácticos
@@ -49,4 +50,4 @@
 
 ### Gestores No Relacionales
 
-- [[MondoDB]]
+- [[Sintaxis de MondoDB]]

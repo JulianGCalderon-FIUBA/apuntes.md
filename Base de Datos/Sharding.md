@@ -1,4 +1,4 @@
-Es el modelo distribuido de procesamiento utilizado por [[MondoDB]].
+Es el modelo distribuido de procesamiento utilizado por [[Sintaxis de MondoDB]].
 
 Se basa en el particionamiento horizontal de las colecciones en **chunks**, que se distribuyen en nodos denominados **shards** o fragmentos. Cada uno de estos contendrá un subconjunto de los documentos en cada colección.
 
@@ -36,3 +36,12 @@ El esquema de réplicas es de *master-slave with automated failover*:
 - Cada fragmento pasa a tener un servidor `mongod` primario y uno o más servidores secundarios. El conjunto de réplicas de un fragmento se denomina *replica set*.
 - Las réplicas eligen inicialmente un *master* a través de un algoritmo de elección de líder.
 - Cuando el *master* falla, los *slaves* eligen entre sí a un nuevo *master*.
+
+![[Sharding 1698894730.png|475]]
+
+Todas las operaciones de escritura sobre el fragmento se realizan sobre el fragmento primario. Los secundarios solo sirven de respaldo.
+
+Los clientes pueden especificar una preferencia de lecutra para que las leecturas sean enviadas a los nodos ecundarios de los fragmentos.
+
+> [!note] Nota
+> También los servidores de configuración se implementan como *replica sets*.

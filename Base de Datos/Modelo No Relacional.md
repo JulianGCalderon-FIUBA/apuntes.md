@@ -52,7 +52,7 @@ Generalmente, un documento se define como un conjunto de pares `(clave, valor)` 
 
 Comparten algunas características con las bases de datos relacionales, como hacer consulta de selección o agregar datos. Algunos ejemplos son:
 
-- **[[MondoDB]]**
+- **[[Sintaxis de MondoDB]]**
 - **RethinkDB**
 - **CouchDB**
 - **RavenDB**
