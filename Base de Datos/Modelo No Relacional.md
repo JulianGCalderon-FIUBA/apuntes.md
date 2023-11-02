@@ -56,17 +56,9 @@ Generalmente, un documento se define como un conjunto de pares `(clave, valor)` 
 
 Comparten algunas características con las bases de datos relacionales, como hacer consulta de selección o agregar datos. Algunos ejemplos son:
 
-- **MondoDB**
+- **[[MondoDB]]**
 - **RethinkDB**
 - **CouchDB**
 - **RavenDB**
-
-### MondoDB
-
-Basada en *hashes* para identificar objetos. No utiliza esquemas, ni existe un DLL.
-
-Los documentos tienen un formato JSON, por lo que almacena pares de clave/valor.
-
-Organiza los datos de una base de datos en colecciones, que contienen documentos. Los documentos a su vez tienen múltiples campos.
 
 #todo
