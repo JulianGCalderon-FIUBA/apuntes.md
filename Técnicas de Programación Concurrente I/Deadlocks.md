@@ -12,4 +12,32 @@ Una posible solución es utiliza timestamps globales para ordenar los mensajes.
 
 ### Algoritmo Distribuido
 
-Cuando un proceso debe esperar por un recurso, en
+Cuando un proceso debe esperar por un recurso, envía un *probe message* al proceso que tiene el recurso. El mensaje contiene:
+
+- Identificador del proceso que se bloquea.
+- identificador el proceso que envía el mensaje.
+- identificador el proceso destinatario.
+
+Al recibir el mensaje, el proceso actualiza el *id* del proceso que envía y el *id* del destinatario, y lo envía a los procesos que tienen el recurso que necesita.
+
+Si el mensaje llega al proceso original, tenemos un ciclo en el grafo.
+
+## Algoritmos de Prevención
+
+### Algoritmo Wait-Die
+
+Se asigna un *timestamp* único y global a cada transacción al inicial (algoritmo de Lamport).
+
+Cuando un proceso está por bloquearse en un recurso (que tiene otro proceso), se comparan los *timestamps*.
+
+- Si el *timestamp* es menor, espera (proceso mas viejo).
+- Si no, el proceso aborta la transacción *(access-to-late)*.
+
+### Algoritmo Wound-Wait
+
+Se asigna un timestamp único y global a cada transacción al inicial (algoritmo deLamport)
+
+Cuando un proceso está por bloquearse en un recurso (que tiene otro proceso), se comparan los *timestamps*.
+
+- Si el *timestamp* es menor, espera.
+- Si no, el proceso aborta la transacción *(access-to-ate)*.
