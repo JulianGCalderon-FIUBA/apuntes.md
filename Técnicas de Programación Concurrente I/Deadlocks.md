@@ -30,8 +30,8 @@ Se asigna un *timestamp* único y global a cada transacción al inicial (algorit
 
 Cuando un proceso está por bloquearse en un recurso (que tiene otro proceso), se comparan los *timestamps*.
 
-- Si el *timestamp* es menor, espera (proceso mas viejo).
-- Si no, el proceso aborta la transacción *(access-to-late)*.
+- Si el *timestamp* es menor, espera (proceso más viejo).
+- Si no, el proceso aborta la transacción.
 
 ### Algoritmo Wound-Wait
 
@@ -39,5 +39,5 @@ Se asigna un timestamp único y global a cada transacción al inicial (algoritmo
 
 Cuando un proceso está por bloquearse en un recurso (que tiene otro proceso), se comparan los *timestamps*.
 
-- Si el *timestamp* es menor, espera.
-- Si no, el proceso aborta la transacción *(access-to-ate)*.
+- Si el *timestamp* es menor (proceso más viejo), se aborta la transacción del proceso que tiene el recurso, para que el más viejo pueda tomarlo.
+- Si no, el proceso espera.
