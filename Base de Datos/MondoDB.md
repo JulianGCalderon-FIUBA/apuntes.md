@@ -90,3 +90,23 @@ A lo sumo, deberemos buscar documentos referenciados concretos para una consulta
 Desde la versión 3.2 de MongoDB, existe el comando *lookup*, que permite realiza la junta entre dos colecciones.
 
 ## Agregación
+
+MongoDB implementa la agregación a través de un pipeline secuencial que combina etapas de agrupamiento, selección, etc. La función `agregate()` opera a partir de un vector de documentos JSON, en donde cada documento describe una operación.
+
+```Python
+result = col_clientes . aggregate ( [
+	{ "$group": {"_id": "$localidad", "cantidad": { "$sum": 1 } } },
+	{ "$match": {"cantidad": { "$lte": 1 } } } ])
+
+for cliente in result:
+	pprint.pprint( cliente )
+```
+
+El pipeline de agregación de MongoDB ofrece las siguientes operaciones, entre otras:
+
+- `match`: Filtrado de resultados
+- `group`: Agrupamiento de los resultados por uno o más atributos, aplicando funciones de agregación.
+- `sort`: Ordenamiento de resultados.
+- `limit`: Limitado de resultados
+- `sample`: Selección aleatoria de resultados
+- `unwind`: Deconstrucción de un at

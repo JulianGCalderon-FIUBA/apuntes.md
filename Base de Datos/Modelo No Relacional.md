@@ -42,10 +42,6 @@ Sus ventajas son:
 - **Velocidad:** Ya que prioriza la eficiencia de acceso, por sobre la integridad de los datos.
 - **Escalabilidad:** Generalmente, proveen replicación (ya sea maestro-esclavo o distribuida), y permiten repartir las consultas entre los nodos.
 
-### Dynamo
-
-#todo
-
 ## Orientadas a Documentos
 
 En las bases de datos orientadas a documentos, un documento es un agregado, que almacena datos bajo una cierta estructura.
@@ -60,5 +56,3 @@ Comparten algunas características con las bases de datos relacionales, como hac
 - **RethinkDB**
 - **CouchDB**
 - **RavenDB**
-
-#todo
