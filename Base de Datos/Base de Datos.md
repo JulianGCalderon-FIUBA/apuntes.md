@@ -31,6 +31,7 @@
 
 - [[Modelo No Relacional]]
 - [[Base de Datos Distribuida]]
+- [[Sharding]]
 
 ## Apuntes Prácticos
 

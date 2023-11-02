@@ -8,6 +8,8 @@ Fue desarrollada en C++, pero tiene APIs en múltiples lenguajes, como Python, J
 
 Los atributos pueden ser multivaluados, ya que un vector es un tipo de dato valido.
 
+MondoDB utiliza un modelo distribuido de procesamiento conocido como [[Sharding]].
+
 ## Creación de Documentos
 
 Para la creación de documentos, debemos primero crear una base de datos, luego una colección, y finalmente agregarle un documento.

@@ -40,4 +40,6 @@ Para las consultas comunes, utilizamos las tablas de hash distribuidas. Para otr
 
 ## Consistencia
 
-#TODO
+Hay distintas tecnicas que solucionan el problema de la consistencia, como:
+
+- [[Sharding]]
