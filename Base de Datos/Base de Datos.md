@@ -31,13 +31,13 @@
 
 - [[Modelo No Relacional]]
 - [[Base de Datos Distribuida]]
-- [[Mondo]]
 - [[Sharding]]
 
 ## Apuntes Prácticos
 
 - [[Exportación e Importación]]
 - [[Pasaje de Modelos]]
+- [[Sintaxis de MondoDB]]
 
 ### Sintaxis de SQL
 
@@ -47,7 +47,3 @@
 - [[Reutilización de Consultas]]
 - [[Funciones de Ventana]]
 - [[Creación de Transacciones|Creación de Transacciones]]
-
-### Gestores No Relacionales
-
-- [[Sintaxis de MondoDB]]
