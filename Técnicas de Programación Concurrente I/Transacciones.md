@@ -57,10 +57,21 @@ En el **strict two-phase locking**, la contracción ocurre después del commit.
 
 ## Concurrencia Optimistica
 
-El proceso modifica los archivos sin ningún control, esperando que no haya conflictos. Al commitear, se verifica si el resto de las transacciones modificó los mismos archivos. Si es así, se aborta la transacción.
+El proceso modifica los archivos sin ningún control, esperando que no haya conflictos. Al *commitear*, se verifica si el resto de las transacciones modificó los mismos archivos. Si es así, se aborta la transacción.
 
 Este modelo es libre de deadlocks y favorece el paralelismo, pero rehacer todo puede ser costoso en condiciones de alta carga.
 
 ## Timestamps
 
-Existen *t*
+Existen *timestamps* únicos globales para garantizar orden. Cada archivo tiene:
+
+- Un *timestamp* de lectura
+- Un *timestamp* de escritura
+- Qué transacción hizo la misma operación
+
+Cada transacción al iniciarse recibe un timestamp, se compara el timestamp de la transacción con los timestamps del archivo:
+
+- Si es mayor, la transacción está en orden y se procede con la operación.
+- Si es menor, la transacción se aborta.
+
+Al commitear, se actualizan los timestamps del archivo.

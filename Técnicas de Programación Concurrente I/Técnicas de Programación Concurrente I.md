@@ -11,6 +11,7 @@
 - [[Modelo Cliente Servidor]]
 - [[Elección de Lider]]
 - [[Técnicas de Programación Concurrente I/Transacciones|Transacciones]]
+- [[Deadlocks]]
 
 ## Primitivas de Sincronización
 

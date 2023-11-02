@@ -224,7 +224,11 @@
     "Log",
     "Concurrencia",
     "Paralelizar",
-    "recibe"
+    "recibe",
+    "timestamp",
+    "timestamps",
+    "commitear",
+    "Timestamps"
   ],
   "newFileLocation": "current",
   "focusNewTab": true
