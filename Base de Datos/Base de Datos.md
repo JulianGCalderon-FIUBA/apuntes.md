@@ -32,7 +32,6 @@
 - [[Modelo No Relacional]]
 - [[Base de Datos Distribuida]]
 
-
 ## Apuntes Prácticos
 
 - [[Exportación e Importación]]
@@ -45,6 +44,6 @@
 - [[Manipulación de Datos]]
 - [[Reutilización de Consultas]]
 - [[Funciones de Ventana]]
-- [[Transacciones]]
+- [[Base de Datos/Transacciones]]
 
-## Sintaxis de Mongo
+## Sintaxis de No SQL
