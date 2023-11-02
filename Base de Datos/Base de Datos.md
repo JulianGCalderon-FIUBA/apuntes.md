@@ -44,7 +44,7 @@
 - [[Manipulación de Datos]]
 - [[Reutilización de Consultas]]
 - [[Funciones de Ventana]]
-- [[Base de Datos/Transacciones]]
+- [[Creación de Transacciones|Creación de Transacciones]]
 
 ### Sintaxis de No SQL
 

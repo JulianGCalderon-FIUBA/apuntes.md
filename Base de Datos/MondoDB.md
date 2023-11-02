@@ -10,11 +10,11 @@ Los atributos pueden ser multivaluados, ya que un vector es un tipo de dato vali
 
 ## Creación de Documentos
 
+Para la creación de documentos, debemos primero crear una base de datos, luego una colección, y finalmente agregarle un documento.
+
 ```Python
 from pymongo import MongoClient
 conn = MongoClient()
-
-conn.database_names()
 
 # Creamos una nueva base de datos
 bd_empresa = conn.base_empresa
@@ -29,5 +29,35 @@ cliente1 = {
 						"domicilio": "Av. Entre Ríos 1560"
 }
 
-id_clie
+id_cliente1 = col_clientes.insert_one(cliente1).inserted_id
+```
+
+Los documentos dentro de una colección se identifican a través de un campo `_id`. Si no lo indicamos, MongoDB asignará un *hash* de 12 bytes. La función `ObjectId(h)` convierte un hash en una referencia al documento que dicho hash identifica.
+
+El hash también asegura que no se pueda insertar dos veces el mismo documento en una colección.
+
+## Consultas
+
+Las consultas se realizan con la función `find()` sobre la colección. El resultado es un cursor que debe ser iterado.
+
+```Python
+# Buscamos todos los clientes que son de Morón
+respuesta_query = col_clientes .find ({" localidad ": "Morón"})
+
+for c in respuesta_query:
+	pprint.pprint(c)
+```
+
+## Documentos Embebidos vs. Referenciados
+
+Podemos utilizar los `ObjectId` para referenciar objetos.
+
+```Python
+pedido1 = {
+					 " cod_pedido " : 78303 ,
+" cliente " : id_cliente2 ,
+" productos " : [ {" producto ": id_producto2 , " cantidad ": 3} ],
+" fecha_entrega_limite ": datetime . datetime (2017 , 6, 18),
+" entregado " : False }
+pprint . pprint ( pedido1 )
 ```
