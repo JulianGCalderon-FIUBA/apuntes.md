@@ -104,9 +104,13 @@ for cliente in result:
 
 El pipeline de agregación de MongoDB ofrece las siguientes operaciones, entre otras:
 
-- `match`: Filtrado de resultados
+- `match`: Filtrado de resultados.
 - `group`: Agrupamiento de los resultados por uno o más atributos, aplicando funciones de agregación.
 - `sort`: Ordenamiento de resultados.
-- `limit`: Limitado de resultados
-- `sample`: Selección aleatoria de resultados
-- `unwind`: Deconstrucción de un at
+- `limit`: Limitado de resultados.
+- `sample`: Selección aleatoria de resultados.
+- `unwind`: Deconstrucción de un atributo de tipo vector. Se genera un documento nuevo completo por cada elemento del vector.
+
+El conjunto de resultados que devuelve una operación será utilizado como entrada por la siguiente operación del *pipeline*.
+
+Un mismo tipo de operación podría ser utilizado más de una vez dentro del pipeline.
