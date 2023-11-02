@@ -79,6 +79,14 @@ Como `producto` está embebido, podemos utilizar `.` para indicar el subatributo
 
 ## Juntas
 
-MongoDB no está pensado para realizar operaciones de junta en forma eficiente. En general, cuando necesitamos hacer una junta la escribiremos a mano, como en el ejemplo anterior.
+MongoDB no está pensado para realizar operaciones de junta en forma eficiente. En general, cuando necesitamos hacer una junta, la escribiremos a mano, como en el ejemplo anterior.
 
-Si debemos acceder muy frecuentemente al documen
+Si debemos acceder muy frecuentemente al documento referenciado, hay que pensar si no sería conveniente tenerlo directamente embebido.
+
+La no redundancia de datos y la normalización la sacrificamos, ya que NoSQL, y MongoDB en particular rompen con el paradigma del modelo relacional.
+
+A lo sumo, deberemos buscar documentos referenciados concretos para una consulta en particular. Esto se resuelve de forma eficiente gracias a la utilización de *hash*.
+
+Desde la versión 3.2 de MongoDB, existe el comando *lookup*, que permite realiza la junta entre dos colecciones.
+
+## Agregación

@@ -27,7 +27,7 @@
 - [[Recuperación ante Fallas]]
 - [[Puntos de Control]]
 
-### No Relacionales
+### Modelos No Relacionales
 
 - [[Modelo No Relacional]]
 - [[Base de Datos Distribuida]]
@@ -46,6 +46,6 @@
 - [[Funciones de Ventana]]
 - [[Creación de Transacciones|Creación de Transacciones]]
 
-### Sintaxis de No SQL
+### Gestores No Relacionales
 
 - [[MondoDB]]
