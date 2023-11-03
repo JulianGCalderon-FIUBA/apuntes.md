@@ -8,4 +8,4 @@ El *checkout* debe llevarse a cabo atómicamente, si cualquiera de los servicios
 
 ## Solución
 
-Para resovler esto, tendremos que utilizar el [[Transacciones#Two-Phase Locking]] para bloquear los recursos antes de comenzar la operación.
+Para resovler esto, tendremos que utilizar el [[Transacciones#Two-Phase Locking|Two-Phase Locking]] para bloquear los recursos antes de comenzar la operación.
