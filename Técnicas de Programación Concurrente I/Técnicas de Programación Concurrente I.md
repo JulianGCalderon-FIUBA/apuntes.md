@@ -35,4 +35,5 @@
 - [[Problema del Lector-Escritor]]
 - [[Problema de la Impresora]]
 - [[Problema del Scrum Team]]
-- [[Problema de Concusheets]]
+- [[Problema de Concusheets
+- [[Problema de RustiShop]]]]
