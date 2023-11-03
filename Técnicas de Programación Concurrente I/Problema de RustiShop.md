@@ -5,3 +5,7 @@ RustiShop es un sitio para que cualquiera pueda levantar una tienda por internet
 - RustiEnvios para planificar la entrega.
 
 El *checkout* debe llevarse a cabo atómicamente, si cualquiera de los servicios falla o rechaza el pedido, se debe cancelar toda la operación.
+
+## Solución
+
+Para resovler esto, tendremos que utilizar el [[Transacciones#Two-Phase Locking]] para bloquear los recursos antes de comenzar la operación.
