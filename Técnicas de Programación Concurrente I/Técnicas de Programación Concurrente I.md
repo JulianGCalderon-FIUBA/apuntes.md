@@ -36,4 +36,4 @@
 - [[Problema de la Impresora]]
 - [[Problema del Scrum Team]]
 - [[Problema de ConcuSheets]]
-- [[Problema de RustiShop]]]]
+- [[Problema de RustiShop]]
