@@ -10,8 +10,6 @@ Este es un problema donde hay un único recurso, compartido por múltiples actor
 
 Algunas posibles soluciones son:
 
-- [[Transacciones#Concurrencia Optimistica]]: Modifico localmente. Al guardar la información, si veo que el valor es distinto al que leí inicialmente, debo abortar la transacción.
-- **Timestamps:** Similar al anterior, pero aplico los cambios dependiendo del timestamp de la persona que lo modifico anteriormente.
-- **Writeahead Log:** Además de guardar la información, guardo un archivo de *log* que me permite deshacer la transacción que realice. No es necesario modificar localmente.
-
-En este algoritmo no se puede usar 2PL *(two-phase locking)* ya que tenemos un unico recurso compartido.
+- [[Transacciones#Concurrencia Optimistica|Concurrencia Optimistica]]: Modifico localmente. Al guardar la información, si veo que el valor es distinto al que leí inicialmente, debo abortar la transacción.
+- [[Transacciones#Timestamps|Timestamps]]: Similar al anterior, pero aplico los cambios dependiendo del timestamp de la persona que lo modifico anteriormente.
+- [[Transacciones#Writeahead Log|Writeahead Log]]: Además de guardar la información, guardo un archivo de *log* que me permite deshacer la transacción que realice. No es necesario modificar localmente.
