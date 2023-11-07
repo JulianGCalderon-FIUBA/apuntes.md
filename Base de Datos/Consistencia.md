@@ -1,3 +1,4 @@
-Hay distintas tecnicas que solucionan el problema de la consistencia, como:
+Hay distintas técnicas que solucionan el problema de la consistencia, como:
 
-- [[Modelo Sharding]]
+- [[Consistencia Secuencial]]
+- [[Consistencia Eventual]]

@@ -30,6 +30,11 @@
 ### Modelos No Relacionales
 
 - [[Modelo No Relacional]]
+- [[Gestores de Clave Valor]]
+- [[Geso]]
+
+### Bases Distribuidas
+
 - [[Base de Datos Distribuida]]
 - [[Modelo Sharding]]
 - [[Hashing Consistente]]
