@@ -20,6 +20,18 @@ No es estrictamente orientada a columnas. La organización de los datos es por f
 
 Utiliza una arquitectura llamada **share-nothing**. No existe un estado compartido centralizado, ni un controlador, ni una arquitectura maestro-esclavo. Todos los nodos son pares. Esto nos permite ofrecer mucha escalabilidad.
 
-El concepto análogo al de la tabla es el de **column family**. Una fila está formada por una clave compuesta, y un conjunto de pares clave valor (o columnas).
+### Esquema
 
 Cada **keyspace** puede estar distribuido en varios nodos de nuestro *cluster*.
+
+El concepto análogo al de la tabla es el de **column family**.
+
+Una fila está formada por una clave compuesta, y un conjunto de pares clave valor (o columnas).
+
+### Wide Columns
+
+La idea es que las columnas de una fila puedan variar dinámicamente en función de las necesidades. Es necesario indicar cuáles son las columnas que se pueden repetir.
+
+Cuando en una fila las columnas se repiten identificadas por el valor que toman las columnas clave, se dice que la fila se convirtió en una **wide row**. Dentro de una misma **wide row**, se pueden pensar a las columnas dinámicas como sus filas.
+
+![[Gestores Wide Column 1699391317.png|525]]
