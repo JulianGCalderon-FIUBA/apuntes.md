@@ -72,3 +72,7 @@ Para diseñar una base de datos en Cassandra, debemos tener en cuenta los siguie
 - **Diseño orientado a las consultas:** Las consultas preceden al modelo de datos, debemos pensar de antemano que consultas haremos para poder diseñar las tablas.
 
 Se han propuesto distintos diagramas para el modelado lógico en Cassandra. Nosotros utilizaremos uno de los más conocidos: **Chebotko**.
+
+### Métodos de Acceso en Cassandra
+
+Cassandra esta optimizado para altas tasas de escritura. Utiliza una estructura de búsqueda denominada **LSM-tree (log-structured merge tree)**, que mantiene parte de sus datos en m
