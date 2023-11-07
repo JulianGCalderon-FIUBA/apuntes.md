@@ -31,13 +31,17 @@
 
 - [[Modelo No Relacional]]
 - [[Gestores de Clave Valor]]
-- [[Geso]]
+- [[Gestores Orientados a Documentos]]
 
 ### Bases Distribuidas
 
 - [[Base de Datos Distribuida]]
+- [[Base de Datos/Fragmentación|Fragmentación]]
+- [[Replicación]]
 - [[Modelo Sharding]]
+- [[Búsqueda]]
 - [[Hashing Consistente]]
+- [[Consistencia]]
 
 ## Apuntes Prácticos
 
