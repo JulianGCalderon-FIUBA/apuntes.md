@@ -27,9 +27,9 @@
 - [[Recuperación ante Fallas]]
 - [[Puntos de Control]]
 
-### Modelos No Relacionales
+### NoSQL
 
-- [[Modelo No Relacional]]
+- [[Gestores no Relacionales]]
 - [[Gestores de Clave Valor]]
 - [[Gestores Orientados a Documentos]]
 - [[Gestores Wide Column]]
