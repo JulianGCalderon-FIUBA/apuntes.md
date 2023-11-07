@@ -21,3 +21,13 @@ En el modelo de consistencia causal se busca capturar eventos que puedan estar c
 Si un evento $b$ fue influenciado por un evento $a$, la causalidad requiere que todos vean al evento $a$ antes que al evento $b$. Dos eventos que no están causalmente correlacionados se dicen concurrentes, y no es necesario que sean vistos por todos en el mismo orden.
 
 En este modelo, "dos escrituras que están potencialmente causalmente relacionadas deben ser vistas por todos en el mismo orden".
+
+## Consistencia Eventual
+
+El modelo de consistencia eventual está basado en la siguiente observación: "En la mayoría de los sistemas reales, son pocos los procesos que realizan modificaciones o escrituras, mientras que la mayor parte solo lee, ¿Qué tan rápido necesitamos que las actualizaciones de un proceso que escribe sean vistos por los procesos que leen?"
+
+Estas situaciones pueden tolerar un grado bastante más alto de inconsistencia.
+
+Decimos entonces que una ejecución tiene consistencia eventual cuando "si en el sistema no se producen modificaciones (escrituras) por un tiempo suficientemente grande, entonces eventualmente todos los procesos verán los mismos valores".
+
+En otras palabras, esto implica que eventualmente todas las réplicas llegaran a ser consistentes.
