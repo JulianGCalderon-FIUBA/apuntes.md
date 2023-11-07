@@ -1,5 +1,3 @@
-## Fragmentación
-
 La fragmentación es la tarea de dividir un conjunto de agregados entre un conjunto de nodos. Se realiza con dos objetivos:
 
 - Almacenar conjuntos muy grandes de datos que de lo contrario no podrían caber en un único nodo.
