@@ -38,7 +38,10 @@ Este tipo de bases de datos tiene cuatro operaciones elementales:
 
 Sus ventajas son:
 
-- **Simplicidad:** no se define un esquema, [[Lenguajes#Data-Definition Language|DDL]], restricciones de integridad, ni dominios. El agregado es mínimo, y está limitado al par. El objetivo es guardar y consultar grandes cantidades de datos, pero no de interrelaciones entre los datos.
+- **Simplicidad**
+	- No se define un esquema, [[Lenguajes#Data-Definition Language|DDL]], restricciones de integridad, ni dominios.
+	- El agregado es mínimo, y está limitado al par.
+	- El objetivo es guardar y consultar grandes cantidades de datos, pero no de interrelaciones entre los datos.
 - **Velocidad:** Ya que prioriza la eficiencia de acceso, por sobre la integridad de los datos.
 - **Escalabilidad:** Generalmente, proveen replicación (ya sea maestro-esclavo o distribuida), y permiten repartir las consultas entre los nodos.
 
