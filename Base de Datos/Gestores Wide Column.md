@@ -52,4 +52,21 @@ Toda la *wide-row* se almacenará contigua en disco, y la clave de clustering no
 
 El diseño físico de los datos en Cassandra impone algunas restricciones sobre la elección de la clave primaria de cada *column family*:
 
-- Las columnas que form
+- Las columnas que forman parte de la partition key deben ser comparadas por igual contra valores constantes en los predicados
+- Si una columna que forma parte de la clustering key es utilizada en un predicado, también deben ser utilizadas todas las restantes columnas que son parte de la clustering key, y que preceden a dicha columna en la definición de la clave primaria.
+- En particular, si una columna que forma parte de la clustering key es comparada por rango en un predicado, entonces todas las columnas de la clustering key que la preceden deben ser comparadas por igual, y las posteriores no deben ser utilizadas.
+
+Cassandra permite trabajar con colecciones como tipos de datos:
+
+- `set`: Conjunto de elementos.
+- `list`: Lista ordenada de elementos.
+- `map`: Conjunto de pares clave/valor.
+
+### Reglas de Diseño
+
+Para diseñar una base de datos en Cassandra, debemos tener en cuenta los siguientes puntos:
+
+- **No existe el concepto de junta.** Si para alguna consulta típica necesitamos el resultado de una junta, entonces debemos guardarla como una tabla desnormalizada.
+- **No existe el concepto de integriadad referencial.** Si la necesitamos, debe ser manejada desde el nivel de aplicaión
+- **Desnormalización de datos.** En las bases de datos NoSQL el uso de tablas no normalizada está a la orden del día, y básicamente por un único motivo: *performance*.
+- **Diseño orientado a las consultas:** S
