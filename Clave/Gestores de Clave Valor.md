@@ -28,6 +28,6 @@ Dynamo es el *key-value store* de Amazon. Está diseñado siguiendo una arquitec
 
 Utiliza un método de lookup denominado [[Hashing Consistente]] que reduce la cantidad de movimientos de pares necesarios cuando cambia la cantidad de nodos $S$.
 
-Utiliza un modelo de consistencia denominado [[Consistencia Eventual]], que tolera pequeñas inconsistencias en los valores almacenados en distintas réplicas.
+Utiliza un modelo de consistencia denominado [[Consistencia#Consistencia Eventual|Consistencia Eventual]], que tolera pequeñas inconsistencias en los valores almacenados en distintas réplicas.
 
 Es totalmente descentralizado, los nodos son pares entre sí. Esto implica que carece de un punto único de falla.
