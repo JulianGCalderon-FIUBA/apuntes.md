@@ -67,6 +67,8 @@ Cassandra permite trabajar con colecciones como tipos de datos:
 Para diseñar una base de datos en Cassandra, debemos tener en cuenta los siguientes puntos:
 
 - **No existe el concepto de junta.** Si para alguna consulta típica necesitamos el resultado de una junta, entonces debemos guardarla como una tabla desnormalizada.
-- **No existe el concepto de integriadad referencial.** Si la necesitamos, debe ser manejada desde el nivel de aplicaión
+- **No existe el concepto de integriadad referencial.** Si la necesitamos, debe ser manejada desde el nivel de aplicación
 - **Desnormalización de datos.** En las bases de datos NoSQL el uso de tablas no normalizada está a la orden del día, y básicamente por un único motivo: *performance*.
-- **Diseño orientado a las consultas:** S
+- **Diseño orientado a las consultas:** Las consultas preceden al modelo de datos, debemos pensar de antemano que consultas haremos para poder diseñar las tablas.
+
+Se han propuesto distintos diagramas para el modelado lógico en Cassandra. Nosotros utilizaremos uno de los más conocidos: **Chebotko**.
