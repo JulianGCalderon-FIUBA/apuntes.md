@@ -29,9 +29,9 @@ CREATE COLUMNFAMILY clientes (
 
 Es obligatoria definir una clave primaria.
 
-### Definición de Wide Column
+### Definición de Wide Row
 
-Podemos crear una **wide column**, indicando una clave de particionado y una clave de clustering.
+Podemos crear una **wide column**, indicando una clave de particionado y una clave de *clustering*.
 
 ```CQL
 CREATE COLUMNFAMILY clientes (

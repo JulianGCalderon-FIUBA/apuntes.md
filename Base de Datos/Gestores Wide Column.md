@@ -37,3 +37,7 @@ Cuando en una fila las columnas se repiten identificadas por el valor que toman 
 ![[Gestores Wide Column 1699391317.png|525]]
 
 Nuestra clave primaria ahora queda dividida en dos partes. Una clave de partición, y una clave de *clustering*. Adicionalmente, podemos tener columnas estáticas, que sean únicas por cada *partition key*.
+
+Al igual que en las bases relacionales, pediremos que la clave primaria permita identificar a la fila, pero ademas, la clave de particionado por si sola debe alcanzar para identificar a la *wide-row*.
+
+No siempre vamos a pedir que la clave sea minimal, podemos agregar a ella los atributos necesarios para las búsquedas que tengamos que hacer en esa **
