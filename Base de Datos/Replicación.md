@@ -1,4 +1,4 @@
-La fragmentación es el proceso por el cual se almacenan múltiples copias de un mismo dato en distintos nodos del sistema. Nos brinda varias ventajas:
+La replicaci es el proceso por el cual se almacenan múltiples copias de un mismo dato en distintos nodos del sistema. Nos brinda varias ventajas:
 
 - **Es un mecanismo de backup**, permite recuperar el sistema en caso de fallas de disco o catastróficas.
 - **Permite repartir la carga** de procesamiento si permitimos que las réplicas respondan consultas o actualizaciones.

@@ -30,6 +30,12 @@ Utiliza un método de [[Búsqueda]] denominado [[Hashing Consistente]] que reduc
 
 Es totalmente descentralizado, los nodos son pares entre sí. Esto implica que carece de un punto único de falla.
 
+Dynamo fue originalmente creado por Amazon como un SGDB distribuido para gestionar su sitio de comercio electrónico. Luego ha servido de base para la construcción de **Dynamo DB** disponible a través de AWS, la plataforma de *cloud computing* de Amazon.
+
+En Dynamo, los datos deben estar estructurados de manera que las búsquedas sean siempre por clave.
+
+### Consistencia
+
 Utiliza un modelo de [[Consistencia]] denominado [[Consistencia#Consistencia Eventual|Consistencia Eventual]], que tolera pequeñas inconsistencias en los valores almacenados en distintas réplicas.
 
 Gracias a esto, las lecturas y escrituras pueden devolver el control rápidamente. Cuando un nodo recibe un *put* sobre una clave, no necesita propagarlo a las réplicas antes de confirmar la escritura. Dado que las operaciones de *get* pueden realizarse sobre cualquier réplica, es posible leer un valor no actualizado.
@@ -40,9 +46,3 @@ Se definen dos parámetros adicionales:
 - $R \leq N$: Quorum de lectura. Un nodo puede devolver el valor de una clave leída luego de disponer de la lectura de $R$ nodos distintos (incluido el mismo).
 
 Para mantener sincronizadas las réplicas, *Dynamo* utiliza una estructura llamada **Merkle Tree** que consiste en un árbol en que cada nodo no-hoja es un hash criptográfico de los valores de sus hijos.
-
-Dynamo fue originalmente creado por Amazon como un SGDB distriuido para gestionar su sitio de comercio electronico. Luego ha servido de base para la construcción de **Dynamo DB** dispoinible a través de AWS, la plataforma de *cloud computing* de Amazon.
-
-En Dynamo, los datos deben estar estructurados de manera que las búsquedas sean siempre por clave.
-
-Una forma de simular la estructura de tabla de los gestores relacionaales es utilizando pares (clave, valor) con la siguiente estructura
