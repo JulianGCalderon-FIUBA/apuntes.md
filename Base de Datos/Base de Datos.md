@@ -30,9 +30,10 @@
 ### Modelos No Relacionales
 
 - [[Modelo No Relacional]]
-- [[Base de Datos Distribuida]]
 - [[Gestores de Clave Valor]]
 - [[Gestores Orientados a Documentos]]
+- [[Gestores Wide Column]]
+- [[Base de Datos Distribuida]]
 - [[Hashing Consistente]]
 - [[Modelo Sharding]]
 - [[Consistencia]]

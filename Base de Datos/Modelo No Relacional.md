@@ -9,7 +9,7 @@ Tendremos cuatro tipos principales de bases de datos no relacionales:
 
 - **[[Gestores de Clave Valor]]:** Permiten guardar información en un formato de diccionarios, con clave y valor.
 - **[[Gestores Orientados a Documentos]]:** Permiten guardar documentos como JSON o XML.
-- **Wide Column:** Tienen diccionarios con columnas que permiten ser extendidas, pero con ciertas reglas. Tienen una serie de "columnas" que se repiten.
+- **[[Gestores Wide Column]]:** Tienen diccionarios con columnas que permiten ser extendidas, pero con ciertas reglas. Tienen una serie de "columnas" que se repiten.
 - **Basadas en grafos**
 
 ![[Modelo No Relacional 1698782230.png|500]]
