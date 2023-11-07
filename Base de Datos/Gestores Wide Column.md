@@ -38,6 +38,18 @@ Cuando en una fila las columnas se repiten identificadas por el valor que toman 
 
 Nuestra clave primaria ahora queda dividida en dos partes. Una clave de partición, y una clave de *clustering*. Adicionalmente, podemos tener columnas estáticas, que sean únicas por cada *partition key*.
 
-Al igual que en las bases relacionales, pediremos que la clave primaria permita identificar a la fila, pero ademas, la clave de particionado por si sola debe alcanzar para identificar a la *wide-row*.
+Al igual que en las bases relacionales, pediremos que la clave primaria permita identificar a la fila, pero además, la clave de particionado por sí sola debe alcanzar para identificar a la *wide-row*.
 
-No siempre vamos a pedir que la clave sea minimal, podemos agregar a ella los atributos necesarios para las búsquedas que tengamos que hacer en esa **
+No siempre vamos a pedir que la clave sea minimal, podemos agregar a ella los atributos necesarios para las búsquedas que tengamos que hacer en esa *column family*.
+
+La correcta definición de la clave primaria es fundamental para el funcionamiento de la base de datos en Cassandra. Está muy relacionada con el uso que le vamos a dar a la column-family para responder consultas.
+
+La clave de particionado determina los nodos del cluster que se guardarán la *wide-row* (se utiliza *hashing consistente* para la búsqueda).
+
+Toda la *wide-row* se almacenará contigua en disco, y la clave de clustering nos determina el ordenamiento interno de las columnas dentro de ella.
+
+### Restricciones
+
+El diseño físico de los datos en Cassandra impone algunas restricciones sobre la elección de la clave primaria de cada *column family*:
+
+- Las columnas que form
