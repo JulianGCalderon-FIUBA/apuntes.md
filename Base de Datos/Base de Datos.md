@@ -29,12 +29,13 @@
 
 ### Modelos No Relacionales
 
-- [[Base de Datos Distribuida]]
 - [[Modelo No Relacional]]
+- [[Base de Datos Distribuida]]
 - [[Gestores de Clave Valor]]
-- [[Hashing Consistente]]
 - [[Gestores Orientados a Documentos]]
+- [[Hashing Consistente]]
 - [[Modelo Sharding]]
+- [[Consistencia]]
 
 ## Apuntes Prácticos
 
