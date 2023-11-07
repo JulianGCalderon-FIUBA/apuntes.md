@@ -55,9 +55,7 @@
 
 #### Conceptos
 
-- [[Hashing Consistente]]
 - [[Modelo Sharding]]
-- [[Consistencia]]
 
 ## Apuntes Prácticos
 
