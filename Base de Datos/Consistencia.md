@@ -12,4 +12,10 @@ Partimos de una serie de procesos que ejecutan instrucciones de lectura $R_{P_i}
 
 Se dice que una base de datos distribuida tiene consistencia secuencial cuando "el resultado de cualquier ejecución concurrente de los procesos es equivalente al de alguna ejecución secuencial en que las instrucciones de los procesos se ejecutan una después de otra". Esto no implica serializabilidad, pues las transacciones no deben ser solapadas.
 
-## Consistencia Eventual
+Este tipo de consistencia va en contra de la disponibilidad, pues es un modelo muy restrictivo.
+
+## Consistencia Causal
+
+En el modelo de consistencia causal se busca capturar eventos que puedan estar causalmente relacionados.
+
+Si un evento $b$ fue influenciado por un evento $a$, la causalidad requiere que todos vean al evento $a$ antes que al evento $b$.
