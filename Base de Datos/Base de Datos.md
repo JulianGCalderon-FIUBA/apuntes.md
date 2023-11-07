@@ -30,9 +30,30 @@
 ### NoSQL
 
 - [[Gestores no Relacionales]]
-- [[Bases de Datos Distribuida]]
+- [[Bases de Datos Distribuidas]]
 
-asdasd
+### Bases de Datos Distribuidas
+
+#### Gestores
+
+- [[Gestores de Clave Valor]]
+- [[Gestores Orientados a Documentos]]
+- [[Gestores Wide Column]]
+- [[Gestores Basados en Grafos]]
+
+#### Particulares
+
+- [[Dynamo]]
+
+#### Distribuidas
+
+- [[Replicación]]
+- [[Base de Datos/Fragmentación|Fragmentación]]
+- [[Lookup]]
+- [[Consistencia]]
+- [[Métodos de acceso]]
+
+#### Conceptos
 
 - [[Hashing Consistente]]
 - [[Modelo Sharding]]

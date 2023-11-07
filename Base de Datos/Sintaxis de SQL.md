@@ -1,4 +1,4 @@
-Breve resumen de la sintaxis de SQL:
+Breve resumen de la sintaxis de SQL, para mas información referirse a la documentación del lenguaje.
 
 - [[Definición de Datos]]
 - [[Visualización de Datos]]
