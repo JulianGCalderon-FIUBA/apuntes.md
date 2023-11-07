@@ -75,4 +75,6 @@ Se han propuesto distintos diagramas para el modelado lógico en Cassandra. Noso
 
 ### Métodos de Acceso en Cassandra
 
-Cassandra esta optimizado para altas tasas de escritura. Utiliza una estructura de búsqueda denominada **LSM-tree (log-structured merge tree)**, que mantiene parte de sus datos en m
+Cassandra está optimizado para altas tasas de escritura. Utiliza una estructura de búsqueda denominada **LSM-tree (log-structured merge tree)**, que mantiene parte de sus datos en memoria, para diferir los cambios sobre el índice en disco.
+
+Se busca acceder en forma secuencial a disco, para mejorar el *trade-off* entre el costo de hacer un *disk seek* y el costo de un buffer en memoria. Esto ha sido bastante estudiado y se conoce como **five-minute rule**.
