@@ -44,3 +44,4 @@
 - [[Pasaje de Modelos]]
 - [[Sintaxis de SQL]]
 - [[Sintaxis de MondoDB]]
+- [[Sintaxis de Cassandra]]
