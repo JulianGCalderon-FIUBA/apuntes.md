@@ -36,5 +36,13 @@ Gracias a esto, las lecturas y escrituras pueden devolver el control rápidament
 
 Se definen dos parámetros adicionales:
 
-- $W \leq N$: Quorum de escritura. Un nodo puede devolver un resultado de escritura exitosa luego de recibir la ocnfirmación de escritura de otros $W-1$ nodos del listado de preferencia.
-- $R \leq N$: Quorum de lectura
+- $W \leq N$: Quorum de escritura. Un nodo puede devolver un resultado de escritura exitosa luego de recibir la confirmación de escritura de otros $W-1$ nodos del listado de preferencia.
+- $R \leq N$: Quorum de lectura. Un nodo puede devolver el valor de una clave leída luego de disponer de la lectura de $R$ nodos distintos (incluido el mismo).
+
+Para mantener sincronizadas las réplicas, *Dynamo* utiliza una estructura llamada **Merkle Tree** que consiste en un árbol en que cada nodo no-hoja es un hash criptográfico de los valores de sus hijos.
+
+Dynamo fue originalmente creado por Amazon como un SGDB distriuido para gestionar su sitio de comercio electronico. Luego ha servido de base para la construcción de **Dynamo DB** dispoinible a través de AWS, la plataforma de *cloud computing* de Amazon.
+
+En Dynamo, los datos deben estar estructurados de manera que las búsquedas sean siempre por clave.
+
+Una forma de simular la estructura de tabla de los gestores relacionaales es utilizando pares (clave, valor) con la siguiente estructura
