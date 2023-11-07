@@ -28,3 +28,18 @@ CREATE COLUMNFAMILY clientes (
 ```
 
 Es obligatoria definir una clave primaria.
+
+### Definición de Wide Column
+
+Podemos crear una **wide column**, indicando una clave de particionado y una clave de clustering.
+
+```CQL
+CREATE COLUMNFAMILY clientes (
+	cuit int,
+	nombre text static,
+	domicilio text static,
+	ISBN bigint
+	nombre_libro text
+	primary key ((cuit), ISBN));
+)
+```
