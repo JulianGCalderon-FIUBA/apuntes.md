@@ -1,4 +1,4 @@
-Es el modelo distribuido de procesamiento utilizado por [[Gestores Orientados a Documentos]].
+Es el modelo distribuido de procesamiento utilizado por [[Gestores Orientados a Documentos#MongoDB|MongoDB]].
 
 Se basa en el particionamiento horizontal de las colecciones en **chunks**, que se distribuyen en nodos denominados **shards** o fragmentos. Cada uno de estos contendrá un subconjunto de los documentos en cada colección.
 

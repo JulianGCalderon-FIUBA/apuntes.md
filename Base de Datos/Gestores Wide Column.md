@@ -2,4 +2,24 @@ Son una evolución de los [[Gestores de Clave Valor]], ya que agrupan los pares 
 
 Un valor particular de la clave primaria junto con todas sus columnas asociadas forma un agregado análogo a la fila de una tabla. Pero además, estas bases permiten agregar conjuntos de columnas en forma dinámica a una fila, convirtiéndola en un agregado llamado **wide row**.
 
-A diferencia de gestores orientados a documenos
+Esta dinámica podría representar las interrelaciones de la entidad con otra entidad.
+
+Los gestores de este estilo mas conocidos son:
+
+- Google BigTable
+- Apache HBase
+- Apache Cassandra
+
+## Cassandra
+
+Surgio en Facebook en 2008, y en 2009 fue adquirida por Apache. Actualmente, es utilizada po Facebook, Twitter, Netflix.
+
+A diferencia de gestores como [[Gestores Orientados a Documentos#MongoDB|MongoDB]], el esquema de las tablas está definido, por lo que no se puede agregar datos de cualquier forma.
+
+No es estrictamente orientada a columnas. La organización de los datos es por fila o *wide row*.
+
+Utiliza una arquitectura llamada **share-nothing**. No existe un estado compartido centralizado, ni un controlador, ni una arquitectura maestro-esclavo. Todos los nodos son pares. Esto nos permite ofrecer mucha escalabilidad.
+
+El concepto análogo al de la tabla es el de **column family**. Una fila está formada por una clave compuesta, y un conjunto de pares clave valor (o columnas).
+
+Cada **keyspace** puede estar distribuido en varios nodos de nuestro *cluster*.
