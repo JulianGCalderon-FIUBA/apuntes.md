@@ -42,4 +42,4 @@ Para las consultas comunes, utilizamos las tablas de hash distribuidas. Para otr
 
 Hay distintas tecnicas que solucionan el problema de la consistencia, como:
 
-- [[Sharding]]
+- [[Modelo Sharding]]
