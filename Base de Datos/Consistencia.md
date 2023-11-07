@@ -18,4 +18,6 @@ Este tipo de consistencia va en contra de la disponibilidad, pues es un modelo m
 
 En el modelo de consistencia causal se busca capturar eventos que puedan estar causalmente relacionados.
 
-Si un evento $b$ fue influenciado por un evento $a$, la causalidad requiere que todos vean al evento $a$ antes que al evento $b$.
+Si un evento $b$ fue influenciado por un evento $a$, la causalidad requiere que todos vean al evento $a$ antes que al evento $b$. Dos eventos que no están causalmente correlacionados se dicen concurrentes, y no es necesario que sean vistos por todos en el mismo orden.
+
+En este modelo, "dos escrituras que están potencialmente causalmente relacionadas deben ser vistas por todos en el mismo orden".
