@@ -45,6 +45,16 @@ Sus ventajas son:
 - **Velocidad:** Ya que prioriza la eficiencia de acceso, por sobre la integridad de los datos.
 - **Escalabilidad:** Generalmente, proveen replicación (ya sea maestro-esclavo o distribuida), y permiten repartir las consultas entre los nodos.
 
+### Dynamo
+
+Dynamo es el *key-value store* de Amazon. Está diseñado siguiendo una arquitectura orientada a servicio, la base de datos está distribuida en un *server cluster* que posee servidores web, routers de agregación, y nodos de procesamiento.
+
+Utiliza un método de lookup denominado [[Hashing Consistente]] que reduce la cantidad de movimientos de pares necesarios cuando cambia la cantidad de nodos $S$.
+
+Utiliza un modelo de consistencia denominado [[Consistencia Eventual]], que tolera pequeñas inconsistencias en los valores almacenados en distintas réplicas.
+
+Es totalmente descentralizado, los nodos son pares entre sí. Esto implica que carece de un punto único de falla.
+
 ## Orientadas a Documentos
 
 En las bases de datos orientadas a documentos, un documento es un agregado, que almacena datos bajo una cierta estructura.

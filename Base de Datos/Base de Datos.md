@@ -32,6 +32,7 @@
 - [[Modelo No Relacional]]
 - [[Base de Datos Distribuida]]
 - [[Sharding]]
+- [[Hashing Consistente]]
 
 ## Apuntes Prácticos
 
