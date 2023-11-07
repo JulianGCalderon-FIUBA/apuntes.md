@@ -8,9 +8,15 @@ Es totalmente descentralizado, los nodos son pares entre sí. Esto implica que c
 
 ## Consistencia
 
-Utiliza el modelo de consistencia denominado [[Consistencia#Consistencia Eventual|Consistencia Eventual]], que tolera pequeñas inconsistencias en los valores almacenados en distintas réplicas.
+Utiliza el modelo de consistencia denominado [[Consistencia#Consistencia Eventual|Consistencia Eventual]], que permite que las actualizaciones se propaguen a las réplicas de forma asincrónica.
 
-Gracias a esto, las lecturas y escrituras pueden devolver el control rápidamente. Cuando un nodo recibe un *put* sobre una clave, no necesita propagarlo a las réplicas antes de confirmar la escritura. Dado que las operaciones de *get* pueden realizarse sobre cualquier réplica, es posible leer un valor no actualizado.
+Gracias a esto, las lecturas y escrituras pueden devolver el control rápidamente:
+
+- Cuando un nodo recibe un *put* sobre una clave, no necesita propagarlo a las réplicas antes de confirmar la escritura.
+- Dado que las operaciones de *get* pueden realizarse sobre cualquier réplica, es posible leer un valor no actualizado.
+
+> [!note] Nota
+> Cualquier nodo del listado de preferencias de una clave es elegible para una operación de *put* o *get*.
 
 Se definen dos parámetros adicionales:
 

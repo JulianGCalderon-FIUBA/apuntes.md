@@ -13,7 +13,7 @@ Se dice que una base de datos distribuida tiene consistencia secuencial cuando "
 > [!warning] Atención
 > Esto no quiere decir que los procesos se ejecuten uno después de otro, sino que una instrucción no comienza hasta que otra no haya terminado de aplicarse en todas las réplicas.
 
-Este tipo de consistencia va en contra de la disponibilidad, pues es un modelo muy restrictivo.
+Garantizar la consistencia secuencial es costoso, ya que requiere de mecanismos de sincronización fuertes que aumentan los tiempos de respuesta. Este tipo de consistencia va en contra de la disponibilidad del sistema.
 
 ## Consistencia Causal
 
@@ -21,14 +21,16 @@ En el modelo de consistencia causal se busca capturar eventos que puedan estar c
 
 Si un evento $b$ fue influenciado por un evento $a$, la causalidad requiere que todos vean al evento $a$ antes que al evento $b$. Dos eventos que no están causalmente correlacionados se dicen concurrentes, y no es necesario que sean vistos por todos en el mismo orden.
 
-En este modelo, "dos escrituras que están potencialmente causalmente relacionadas deben ser vistas por todos en el mismo orden".
+En este modelo, "dos escrituras que están potencialmente causalmente relacionadas deben ser vistas por todos en el mismo orden". Esto implica que todas las replicas recibió la información en el mismo orden, y, por lo tanto, tiene la base de datos en el mismo estado.
 
 ## Consistencia Eventual
 
-El modelo de consistencia eventual está basado en la siguiente observación: "En la mayoría de los sistemas reales, son pocos los procesos que realizan modificaciones o escrituras, mientras que la mayor parte solo lee, ¿Qué tan rápido necesitamos que las actualizaciones de un proceso que escribe sean vistos por los procesos que leen?"
+El modelo de consistencia eventual está basado en la siguiente observación
+
+> "En la mayoría de los sistemas reales, son pocos los procesos que realizan modificaciones o escrituras, mientras que la mayor parte solo lee, ¿Qué tan rápido necesitamos que las actualizaciones de un proceso que escribe sean vistos por los procesos que leen?"
 
 Estas situaciones pueden tolerar un grado bastante más alto de inconsistencia.
 
 Decimos entonces que una ejecución tiene consistencia eventual cuando "si en el sistema no se producen modificaciones (escrituras) por un tiempo suficientemente grande, entonces eventualmente todos los procesos verán los mismos valores".
 
-En otras palabras, esto implica que eventualmente todas las réplicas llegaran a ser consistentes.
+En otras palabras, esto implica que eventualmente todas las réplicas llegaran a ser consistentes (guardaran los mismos valores).
