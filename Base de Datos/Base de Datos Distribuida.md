@@ -7,6 +7,6 @@ Desde los últimos años, la velocidad de las redes y la capacidad de almacenami
 Hay distintos problemas que debo resolver cuando diseñamos una base de datos distribuida:
 
 - [[Replicación]]
-- [[Búsqueda]]
 - [[Base de Datos/Fragmentación|Fragmentación]]
+- [[Búsqueda]]
 - [[Consistencia]]

@@ -33,11 +33,11 @@
 - [[Gestores de Clave Valor]]
 - [[Gestores Orientados a Documentos]]
 
-### Bases Distribuidas
+### Bases de Datos Distribuidas
 
 - [[Base de Datos Distribuida]]
-- [[Base de Datos/Fragmentación|Fragmentación]]
 - [[Replicación]]
+- [[Base de Datos/Fragmentación|Fragmentación]]
 - [[Modelo Sharding]]
 - [[Búsqueda]]
 - [[Hashing Consistente]]
@@ -47,4 +47,5 @@
 
 - [[Exportación e Importación]]
 - [[Pasaje de Modelos]]
+- [[Sintaxis de SQL]]
 - [[Sintaxis de MondoDB]]
