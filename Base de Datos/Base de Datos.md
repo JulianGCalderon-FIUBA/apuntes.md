@@ -30,8 +30,6 @@
 ### Modelos No Relacionales
 
 - [[Modelo No Relacional]]
-- [[Gestores de Clave - Valor]]
-- [[Gestores Orientados a Documentos]]
 - [[Base de Datos Distribuida]]
 - [[Modelo Sharding]]
 - [[Hashing Consistente]]
