@@ -30,10 +30,7 @@
 ### NoSQL
 
 - [[Gestores no Relacionales]]
-- [[Gestores de Clave Valor]]
-- [[Gestores Orientados a Documentos]]
-- [[Gestores Wide Column]]
-- [[Base de Datos Distribuida]]
+- [[Bases de Datos Distribuida]]
 - [[Hashing Consistente]]
 - [[Modelo Sharding]]
 - [[Consistencia]]

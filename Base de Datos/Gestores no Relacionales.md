@@ -3,17 +3,7 @@ La necesidad de diseñar un [[Gestor de Base de Datos]] no relacional surgió en
 - **Mayor escalabilidad** para trabajar con grandes volúmenes de datos. Fue uno de los objetivos principales en el desarrollo de *BigTable* (Google, 2005)
 - **Mayor performance** en las aplicaciones WEB. Se buscaban formatos que fueran fáciles de serializar, como XML y JSON.
 - **Mayor flexibilidad** sobre las estructuras de datos. Queremos permitir una estructura que facilite la evolución de datos (agregado de columnas). En un modelo relacional, el sistema es muy rígido. El desarrollo WEB busca darle mayor libertad al desarrollador para organizar los datos.
-- **Mayor capacidad de [[Base de Datos Distribuida|distribución]]**. Se busca tener mayor disponibilidad y tolerancia a fallas. Para ello, se requieren mecanismos de replicación y fragmentación automática de los datos. Se prioriza la capacidad de procesamiento distribuido.
-
-## Gestores Relacionales
-
-Los gestores relacionales no fueron concebidos con la distribución en mente.
-
-Estos tienen varias limitaciones cuando se trata de escalar los sistemas, ya que las juntas pueden ser operaciones muy costosas, y el manejo de transacciones de forma distribuida no escala.
-
-A medida que evoluciona la tecnología, las redes son cada vez más rápidas, y el almacenamiento es cada vez más barato, pero la capacidad de procesamiento no aumenta.
-
-En esta escenario, se diseñaron nuevos gestores que rompían con el paradigma del modelo relacional, por ende, con SQL.
+- **Mayor capacidad de [[Bases de Datos Distribuida|distribución]]**. Se busca tener mayor disponibilidad y tolerancia a fallas. Para ello, se requieren mecanismos de replicación y fragmentación automática de los datos. Se prioriza la capacidad de procesamiento distribuido.
 
 ## Clasificación
 
@@ -22,7 +12,7 @@ Tendremos cuatro tipos principales de bases de datos no relacionales:
 - **[[Gestores de Clave Valor]]:** Permiten guardar información en un formato de diccionarios, con clave y valor.
 - **[[Gestores Orientados a Documentos]]:** Permiten guardar documentos como JSON o XML.
 - **[[Gestores Wide Column]]:** Tienen diccionarios con columnas que permiten ser extendidas, pero con ciertas reglas. Tienen una serie de "columnas" que se repiten.
-- **Basadas en grafos**
+- **[[Gestores Basados en Grafos]]:** Ordenan la información en grafos.
 
 ![[Modelo No Relacional 1698782230.png|500]]
 
