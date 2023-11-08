@@ -4,7 +4,7 @@ Tiene un esquema de tablas definido, por lo que no se puede agregar datos de cua
 
 Utiliza una arquitectura llamada **share-nothing**. No existe un estado compartido centralizado, ni un controlador, ni una arquitectura maestro-esclavo. Todos los nodos son pares. Esto nos permite ofrecer mucha escalabilidad.
 
-Está optimizado para ofrecer una alta tasa de escrituras.
+Está optimizado para ofrecer una alta tasa de escrituras. Utiliza una estructura de búsqueda denominada [[Métodos de acceso#LSM Tree|LSM Tree]].
 
 ## Estructura
 
@@ -102,9 +102,3 @@ Se han propuesto distintos diagramas para el modelado lógico en Cassandra. Noso
 Además, podemos representar flujos de consultas a partir de unir las familias de columnas.
 
 ![[Apache Cassandra 1699404317.png|450]]
-
-## Métodos de Acceso en Cassandra
-
-Cassandra está optimizado para altas tasas de escritura. Utiliza una estructura de búsqueda denominada [[Métodos de acceso#LSM Tree|LSM Tree]], que mantiene parte de sus datos en memoria, para diferir los cambios sobre el índice en disco.
-
-Se busca acceder en forma secuencial a disco, para mejorar el *trade-off* entre el costo de hacer un *disk seek* y el costo de un buffer en memoria. Esto ha sido bastante estudiado y se conoce como **five-minute rule**.
