@@ -11,7 +11,7 @@ Cada entidad cuenta con las siguientes **capacidades**:
 	- Registro de valor de entrada: `value(x)`.
 - Procesamiento local.
 - Comunicación: preparación, transmisión, recepción de mensajes.
-- Establecer y restablecer un reloj local.
+- Establecer y restablecer un reloj local (temporizador).
 
 ### Eventos Externos
 
@@ -24,3 +24,21 @@ La entidad solamente responde a eventos externos (es reactiva). Los posibles eve
 A excepción del impulso espontáneo, los eventos se generan dentro de los límites del sistema.
 
 ## Reglas y Comportamientos
+
+Una **acción** es una secuencia finita e indivisible de operaciones. Es atómica porque se ejecuta sin interrupciones.
+
+Una **regla** es la relación entre el evento que ocurre y el estado en el que se encuentra la entidad cuando ocurre dicho evento, de modo tal que:
+
+$$
+\text{estado} \times \text{evento} \to \text{acción}
+$$
+
+Para cada posible evento y estado debe existir una única regla.
+
+El **comportamiento** de una entidad El conjunto $B(x)$ de todas las reglas que obedece una entidad $x$. También es llamada **protocolo** o **algoritmo distribuido** de $x$.
+
+El **comportamiento colectivo** del sistema se define como la unión de todos los comportamientos, tal que:
+
+$$
+B(E) = B(x): \forall x \in E
+$$
