@@ -67,5 +67,13 @@ Definimos los axiomas a partir de los cuales trabajaremos:
 
 - **Retrasos finitos en la comunicación:** En la ausencia de fallas, los retrasos en la comunicación tienen una duración finita.
 - **Orientación local:** Una entidad puede distinguir entre sus vecinos de salida $N_\text{out}$ y entre sus vecinos de entrada $N_\text{in}$.
-- Una entidad puede distinguir qué vecino le envía un mensaje.
-- Una entidad pue
+	- Una entidad puede distinguir qué vecino le envía un mensaje.
+	- Una entidad puede enviar un mensaje a un vecino específico.
+
+## Restricciones de Confiabilidad
+
+Algunas restricciones respecto a la confiabilidad:
+
+- La entrega es **garantizada**, cualquier mensaje enviado será recibido con su contenido intacto.
+- Si hay confiabilidad **parcial**, no ocurrirán fallas.
+- Si hay confiabilidad **total**, no han ocurrido ni ocurrirán fallas.
