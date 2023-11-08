@@ -61,3 +61,20 @@ Por ejemplo, una transacción puede ser escrita como:
 $$
 b_T\dots R_T(X)\dots W_T(X)\dots c_T
 $$
+
+## SQL
+
+En SQL, podemos definir una transacción con:
+
+```SQL
+START TRANSACTION [ ISOLATION LEVEL ...]
+.... (sql commands)
+COMMIT | ROLLBACK
+```
+
+También, podemos establecer el [[Anomalías#Niveles de Aislamiento|nivel de aislamiento]] de la transacción con:
+
+```SQL
+SET TRANSACTION ISOLATION LEVEL
+READ UNCOMMITTED | READ COMMITTED | REPEATABLE READ | SERIALIZABLE ;
+```
