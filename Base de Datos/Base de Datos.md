@@ -1,4 +1,4 @@
-## Apuntes Teóricos
+
 
 - [[Definición]]
 - [[Gestor de Base de Datos]]
@@ -7,9 +7,10 @@
 - [[Modelo Entidad-Interrelación]]
 - [[Modelo Entidad-Interrelación Aumentado]]
 
-### Modelo Relacional
+## Modelo Relacional
 
 - [[Modelo Relacional]]
+- [[Pasaje de Modelos]]
 - [[Álgebra Relacional]]
 - [[Cálculo Relacional]]
 - [[Lenguaje SQL]]
@@ -17,7 +18,7 @@
 - [[Dependencias Funcionales]]
 - [[Formas Normales]]
 
-### Concurrencia
+## Concurrencia
 
 - [[Transacción]]
 - [[Base de Datos/Concurrencia|Concurrencia]]
@@ -27,7 +28,7 @@
 - [[Recuperación ante Fallas]]
 - [[Puntos de Control]]
 
-### NoSQL
+## NoSQL
 
 - [[Gestores no Relacionales]]
 - [[Gestores de Clave Valor]]
@@ -36,7 +37,7 @@
 - [[Gestores Wide Column]]
 - [[Gestores Basados en Grafos]]
 
-### Bases de Datos Distribuidas
+## Bases de Datos Distribuidas
 
 - [[Bases de Datos Distribuidas]]
 - [[Replicación]]
@@ -45,11 +46,3 @@
 - [[Consistencia]]
 - [[Métodos de acceso]]
 - [[Modelo Sharding]]
-
-## Apuntes Prácticos
-
-- [[Exportación e Importación]]
-- [[Pasaje de Modelos]]
-- [[Sintaxis de SQL]]
-- [[Sintaxis de MondoDB]]
-- [[Sintaxis de Cassandra]]
