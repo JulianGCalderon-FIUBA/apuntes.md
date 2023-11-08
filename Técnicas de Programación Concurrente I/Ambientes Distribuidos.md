@@ -35,10 +35,19 @@ $$
 
 Para cada posible evento y estado debe existir una única regla.
 
-El **comportamiento** de una entidad El conjunto $B(x)$ de todas las reglas que obedece una entidad $x$. También es llamada **protocolo** o **algoritmo distribuido** de $x$.
+El **comportamiento**, o *behaviour* de una entidad El conjunto $B(x)$ de todas las reglas que obedece una entidad $x$. También es llamada **protocolo** o **algoritmo distribuido** de $x$.
 
 El **comportamiento colectivo** del sistema se define como la unión de todos los comportamientos, tal que:
 
 $$
 B(E) = B(x): \forall x \in E
 $$
+
+El comportamiento colectivo es **homogéneo** si todas las entidades que lo componen tienen el mismo comportamiento, o sea:
+
+$$
+\forall x,y \in E, B(X) = B(Y)
+$$
+
+> [!note] Propiedad
+> Todo comportamiento colectivo se puede transformar en homogéneo.
