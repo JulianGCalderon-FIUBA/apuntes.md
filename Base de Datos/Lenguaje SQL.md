@@ -7,3 +7,6 @@ Es un lenguaje no procedural, y está basado en el [[Cálculo Relacional]] de tu
 SQL es una gramática libre de contexto (*context-free grammar*, CFG). Esto implica que su sintaxis puede ser descrita a través de reglas de producción.
 
 Una de las notaciones más conocidas para CFG es la notación de Backus-Naur (*Backus-Naur form*, BNF). Esta es la notación adoptada en el estándar.
+
+## Sintaxis de SQL
+
