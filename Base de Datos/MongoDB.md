@@ -18,4 +18,18 @@ Los documentos dentro de una colección se identifican a través de un campo `_i
 
 El hash también asegura que no se pueda insertar dos veces el mismo documento en una colección.
 
-Los documentos a su vez pueden referenciar otros documentos a través de esta clave, conocid
+Los documentos a su vez pueden referenciar otros documentos a través de esta clave, conocida como `ObjectId`. Por otro lado, los documentos pueden anidar otros documentos dentro del mismo.
+
+## Juntas
+
+MongoDB no está pensado para realizar operaciones de junta en forma eficiente. En general, cuando necesitamos hacer una junta, la escribimos a mano.
+
+A lo sumo, debemos ir a buscar documentos referenciados concretos para una consulta particular, pero esto es rápido debido al *hashing*.
+
+Si debemos acceder muy frecuentemente a un documento referenciado, hay que pensar si no sería conveniente tenerlo directamente embebido.
+
+La no redundancia de datos y la normalización es sacrificada en las bases de datos NoSQL, y MongoDB en particular.
+
+## Agregación
+
+MongoDB implementa agregación a través de un *pipeline* secuencial que combina etapas de agrupamiento, selección, etc. El conjunto de resultados que devuelve una operación será utilizado como entrada por la siguiente operación.
