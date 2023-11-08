@@ -23,6 +23,15 @@ La entidad solamente responde a eventos externos (es reactiva). Los posibles eve
 
 A excepción del impulso espontáneo, los eventos se generan dentro de los límites del sistema.
 
+### Comunicación
+
+Una entidad se comunica con otras entidades mediante mensajes. Un mensaje es una secuencia finita de *bits*.
+
+Puede ocurrir que una entidad solo pueda comunicarse con un subconjunto del resto de las entidades, definimos entonces:
+
+- $N_{\text{out}}(x) \subseteq E:$ Es el conjunto de entidades a las cuales $x$ puede enviarles un mensaje directamente.
+- $N_{\text{in}}(x) \subseteq E:$ Es el conjunto de entidades a las cuales $x$ puede enviarles un mensaje directamente.
+
 ## Reglas y Comportamientos
 
 Una **acción** es una secuencia finita e indivisible de operaciones. Es atómica porque se ejecuta sin interrupciones.
@@ -52,15 +61,6 @@ $$
 > [!note] Propiedad
 > Todo comportamiento colectivo se puede transformar en homogéneo.
 
-## Comunicación
-
-Una entidad se comunica con otras entidades mediante mensajes. Un mensaje es una secuencia finita de *bits*.
-
-Puede ocurrir que una entidad solo pueda comunicarse con un subconjunto del resto de las entidades, definimos entonces:
-
-- $N_{\text{out}}(x) \subseteq E:$ Es el conjunto de entidades a las cuales $x$ puede enviarles un mensaje directamente.
-- $N_{\text{in}}(x) \subseteq E:$ Es el conjunto de entidades a las cuales $x$ puede enviarles un mensaje directamente.
-
 ## Axiomas
 
 Definimos los axiomas a partir de los cuales trabajaremos:
@@ -70,10 +70,22 @@ Definimos los axiomas a partir de los cuales trabajaremos:
 	- Una entidad puede distinguir qué vecino le envía un mensaje.
 	- Una entidad puede enviar un mensaje a un vecino específico.
 
-## Restricciones de Confiabilidad
+### Restricciones de Confiabilidad
 
-Algunas restricciones respecto a la confiabilidad:
+Algunas restricciones respecto a la confiabilidad que podremos asumir:
 
 - La entrega es **garantizada**, cualquier mensaje enviado será recibido con su contenido intacto.
 - Si hay confiabilidad **parcial**, no ocurrirán fallas.
 - Si hay confiabilidad **total**, no han ocurrido ni ocurrirán fallas.
+
+### Restricciones Temporales
+
+Algunas restricciones temporales que podremos asumir:
+
+- Los relojes están **sincronizados**. Esto implica que todos los relojes locales se incrementan simultáneamente, y el intervalo de incremento es constante.
+- Si los **retardos** de comunicación son **acotados**, existe una constante $\Delta$ tal que en ausencia de fallas el retardo de cualquier mensaje en el enlace es a lo sumo $\Delta$.
+- Si los **retardos** de comunicación son **unitarios**, en ausencia de fallas, el retardo de cualquier mensaje en un enlace es igual a una unidad de tiempo.
+
+## Costo y Complejidad
+
+Son las medidas 
