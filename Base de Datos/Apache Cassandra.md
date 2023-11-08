@@ -37,15 +37,28 @@ Cuando en una fila las columnas se repiten identificadas por el valor que toman 
 
 Nuestra clave primaria ahora queda dividida en dos partes. Una clave de partición, y una clave de *clustering*. Adicionalmente, podemos tener columnas estáticas, que sean únicas por cada *partition key*.
 
+Adicionalmente, podemos tener columnas estáticas que sean únicas por cada clave de partición.
+
+```CQL
+CREATE COLUMNFAMILY clientes (
+	nro_cliente int,
+	nombre text static,
+	ISBN bigint,
+	nombre_libro text,
+	primary key ((nro_cliente), ISBN));
+```
+
 Al igual que en las bases relacionales, pediremos que la clave primaria permita identificar a la fila, pero además, la clave de particionado por sí sola debe alcanzar para identificar a la *wide-row*.
+
+## Clave Primaria
 
 No siempre vamos a pedir que la clave sea minimal, podemos agregar a ella los atributos necesarios para las búsquedas que tengamos que hacer en esa *column family*.
 
-La correcta definición de la clave primaria es fundamental para el funcionamiento de la base de datos en Cassandra. Está muy relacionada con el uso que le vamos a dar a la column-family para responder consultas.
+La correcta definición de la clave primaria es fundamental para el funcionamiento de la base de datos en Cassandra. Está muy relacionada con el uso que le vamos a dar a la *column-family* para responder consultas.
 
-La clave de particionado determina los nodos del cluster que se guardarán la *wide-row* (se utiliza *hashing consistente* para la búsqueda).
+La clave de particionado determina los nodos del *cluster* que se guardarán la *wide-row* (se utiliza *hashing consistente* para la búsqueda).
 
-Toda la *wide-row* se almacenará contigua en disco, y la clave de clustering nos determina el ordenamiento interno de las columnas dentro de ella.
+Toda la *wide-row* se almacenará contigua en disco, y la clave de *clustering* nos determina el ordenamiento interno de las columnas dentro de ella. Esto nos permite que las operaciones de lectura del disco sean eficientes.
 
 ## Restricciones
 
@@ -54,6 +67,16 @@ El diseño físico de los datos en Cassandra impone algunas restricciones sobre 
 - Las columnas que forman parte de la partition key deben ser comparadas por igual contra valores constantes en los predicados
 - Si una columna que forma parte de la clustering key es utilizada en un predicado, también deben ser utilizadas todas las restantes columnas que son parte de la clustering key, y que preceden a dicha columna en la definición de la clave primaria.
 - En particular, si una columna que forma parte de la clustering key es comparada por rango en un predicado, entonces todas las columnas de la clustering key que la preceden deben ser comparadas por igual, y las posteriores no deben ser utilizadas.
+
+## Tipos de Datos
+
+Los tipos de dato básicos son similares a los de SQL:
+
+- `int`, `smallint`, `bingint`, `float`, `decimal`.
+- `text`, `varchar`.
+- `timestamp`, `date`, `time`
+- `uuid`
+- `boolean
 
 Cassandra permite trabajar con colecciones como tipos de datos:
 
