@@ -99,4 +99,20 @@ Son las medidas de comparación de los algoritmos distribuidos:
 
 ## Tiempo y Eventos
 
-Los eventos desencadenan acciones en un tiempo futuro. Los distintos retardos result
+Los eventos desencadenan acciones en un tiempo futuro. Los distintos retardos resultan en distintas ejecuciones del protocolo con posibles resultados diferentes.
+
+- Los eventos disparan acciones que pueden generar nuevos eventos
+- Si suceden, los nuevos eventos ocurrirán en un tiempo futuro: `Future(t)`.
+- Una ejecución se describe por la secuencia de eventos que ocurrieron.
+
+## Estado y Configuraciones
+
+El estado interno de $x$ en el instante $t$ se conoce como $\sigma(x, t)$. Este es el contenido de los registros de $x$, y el valor del reloj $c_x$ en el instante $t$.
+
+El estado interno de una entidad cambia con la ocurrencia de eventos.
+
+Sea una entidad $x$ que recibe el mismo evento en dos ejecuciones distintas, y $\sigma_1, \sigma_2$ los estados internos. Si $\sigma_1 = \sigma_2$, entonces el nuevo estado interno de $x$ será el mismo en ambas ejecuciones.
+
+## Conocimiento
+
+
