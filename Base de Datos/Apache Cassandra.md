@@ -93,10 +93,18 @@ Para diseñar una base de datos en Cassandra, debemos tener en cuenta los siguie
 - **Desnormalización de datos.** En las bases de datos NoSQL el uso de tablas no normalizada está a la orden del día, y básicamente por un único motivo: *performance*.
 - **Diseño orientado a las consultas:** Las consultas preceden al modelo de datos, debemos pensar de antemano que consultas haremos para poder diseñar las tablas.
 
+## Chebotko
+
 Se han propuesto distintos diagramas para el modelado lógico en Cassandra. Nosotros utilizaremos uno de los más conocidos: **Chebotko**.
+
+![[Apache Cassandra 1699404239.png|450]]
+
+Además, podemos representar flujos de consultas a partir de unir las familias de columnas.
+
+![[Apache Cassandra 1699404317.png|450]]
 
 ## Métodos de Acceso en Cassandra
 
-Cassandra está optimizado para altas tasas de escritura. Utiliza una estructura de búsqueda denominada **LSM-tree (log-structured merge tree)**, que mantiene parte de sus datos en memoria, para diferir los cambios sobre el índice en disco.
+Cassandra está optimizado para altas tasas de escritura. Utiliza una estructura de búsqueda denominada [[Métodos de acceso#LSM Tree|LSM Tree]], que mantiene parte de sus datos en memoria, para diferir los cambios sobre el índice en disco.
 
 Se busca acceder en forma secuencial a disco, para mejorar el *trade-off* entre el costo de hacer un *disk seek* y el costo de un buffer en memoria. Esto ha sido bastante estudiado y se conoce como **five-minute rule**.

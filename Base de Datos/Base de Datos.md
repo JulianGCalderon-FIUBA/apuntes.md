@@ -36,6 +36,7 @@
 - [[Gestores Orientados a Documentos]]
 - [[MongoDB]]
 - [[Gestores Wide Column]]
+- [[Apache Cassandra]]
 - [[Gestores Basados en Grafos]]
 
 ## Bases de Datos Distribuidas
