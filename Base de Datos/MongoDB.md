@@ -12,6 +12,26 @@ Los documentos tienen un formato JSON, por lo que almacena pares de clave/valor.
 
 Los atributos pueden ser multivaluados, ya que un vector es un tipo de dato válido.
 
+```Python
+from pymongo import MongoClient
+conn = MongoClient()
+
+# Creamos una nueva base de datos
+bd_empresa = conn.base_empresa
+
+# Le agregamos una colección
+col_clientes = bd_empresa.clientes
+
+# Le agregamos un documento a la colección
+cliente1 = {
+	"nombre": "Mario",
+	"apellido": "Wilkerson",
+	"domicilio": "Av. Entre Ríos 1560"
+}
+
+id_cliente1 = col_clientes.insert_one(cliente1).inserted_id
+```
+
 ## Claves
 
 Los documentos dentro de una colección se identifican a través de un campo `_id`. Si nosotros no lo especificamos, entonces se asignará automáticamente.

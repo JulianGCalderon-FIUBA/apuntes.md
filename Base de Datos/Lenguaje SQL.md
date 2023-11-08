@@ -10,3 +10,8 @@ Una de las notaciones más conocidas para CFG es la notación de Backus-Naur (*B
 
 ## Sintaxis de SQL
 
+- [[Visualización de Datos]]
+- [[Definición de Datos]]
+- [[Funciones de Ventana]]
+- [[Manipulación de Datos]]
+- [[Reutilización de Consultas]]
