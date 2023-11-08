@@ -115,4 +115,10 @@ Sea una entidad $x$ que recibe el mismo evento en dos ejecuciones distintas, y $
 
 ## Conocimiento
 
+El conocimiento **local** es el contenido de la memoria local de $x$ y la información que se deriva. En ausencia de fallas, el conocimiento no puede perderse.
 
+Los tipos de conocimiento son:
+
+- **Información métrica:** Información numérica sobre la red. Esto puede ser el número de nodos del grafo, el número de arcos del grafo, el diámetro, etc.
+- **Propiedades topológicas:** Conocimiento sobre propiedades de la topología. Ejemplo: el grafo es un anillo, el grafo es acíclico, demás.
+- **Mapas topológicos:** Un mapa de la vecindad de la entidad hasta una distancia $d$. Por ejemplo, una matriz de adyacencia del grafo.
