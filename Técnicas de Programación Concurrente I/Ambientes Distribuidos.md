@@ -88,4 +88,15 @@ Algunas restricciones temporales que podremos asumir:
 
 ## Costo y Complejidad
 
-Son las medidas 
+Son las medidas de comparación de los algoritmos distribuidos:
+
+- **Cantidad de actividades de comunicación:**
+	- Cantidad de transmisiones o costo de mensajes, $M$.
+	- Carga de trabajo por entidad, y carga de transmisión.
+- **Tiempo:**
+	- Tiempo total de ejecución del protocolo.
+	- Tiempo ideal de ejecución: tiempo medido bajo ciertas condiciones, como retardos de comunicación unitarios y relojes sincronizados.
+
+## Tiempo y Eventos
+
+Los eventos desencadenan acciones en un tiempo futuro. Los distintos retardos result
