@@ -22,3 +22,5 @@ La entidad solamente responde a eventos externos (es reactiva). Los posibles eve
 - Un impulso espontáneo.
 
 A excepción del impulso espontáneo, los eventos se generan dentro de los límites del sistema.
+
+## Reglas y Comportamientos
