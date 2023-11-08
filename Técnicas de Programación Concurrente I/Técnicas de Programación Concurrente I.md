@@ -12,6 +12,7 @@
 - [[Elección de Lider]]
 - [[Técnicas de Programación Concurrente I/Transacciones|Transacciones]]
 - [[Deadlocks]]
+- [[Ambientes Distribuidos]]
 
 ## Primitivas de Sincronización
 
