@@ -51,3 +51,21 @@ $$
 
 > [!note] Propiedad
 > Todo comportamiento colectivo se puede transformar en homogéneo.
+
+## Comunicación
+
+Una entidad se comunica con otras entidades mediante mensajes. Un mensaje es una secuencia finita de *bits*.
+
+Puede ocurrir que una entidad solo pueda comunicarse con un subconjunto del resto de las entidades, definimos entonces:
+
+- $N_{\text{out}}(x) \subseteq E:$ Es el conjunto de entidades a las cuales $x$ puede enviarles un mensaje directamente.
+- $N_{\text{in}}(x) \subseteq E:$ Es el conjunto de entidades a las cuales $x$ puede enviarles un mensaje directamente.
+
+## Axiomas
+
+Definimos los axiomas a partir de los cuales trabajaremos:
+
+- **Retrasos finitos en la comunicación:** En la ausencia de fallas, los retrasos en la comunicación tienen una duración finita.
+- **Orientación local:** Una entidad puede distinguir entre sus vecinos de salida $N_\text{out}$ y entre sus vecinos de entrada $N_\text{in}$.
+- Una entidad puede distinguir qué vecino le envía un mensaje.
+- Una entidad pue
