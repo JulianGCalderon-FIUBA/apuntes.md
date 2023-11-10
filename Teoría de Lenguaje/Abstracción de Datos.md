@@ -102,10 +102,19 @@ end
 Una vez tenemos esta estructura, podríamos utilizarla en nuestra implementación de Stack, **no empaquetado** y **cerrado**.
 
 ```Oz
-fun {NewStack} {Wrap nil} end  
-fun {Push S E} E|S end  
-fun {Pop S E}
-	case S of X|S1 then E=X S1 end  
-end  
-fun {IsEmpty S} S==nil end
+fun {StackOperations}
+	local Wrap Unwrap NewStack Push Pop IsEmpty in
+		{NewWrapper Wrap UnWrap}
+		fun {NewStack} {Wrap nil} end  
+		fun {Push S E} {Wrap E|{Unwrap S}} end  
+		fun {Pop S E}
+			case {Unwrap S} of X|S1 then 
+				E=X
+				{Wrap S1}
+			end  
+		end  
+		fun {IsEmpty S} {Unwrap S}==nil end
+		stack(new:NewStack, push:Push, pop:Pop, isEmpty:isEmpty)
+	end
+end
 ```
