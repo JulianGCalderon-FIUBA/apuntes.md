@@ -53,17 +53,17 @@ Counter2 = {NewCounter}
 
 ## Principios
 
-Algunos principios basicos que son utilizados en la programación orientada a objetos son:
+Algunos principios básicos que son utilizados en la programación orientada a objetos son:
 
 - **SOLID:** Es un acrónimo para.
 	- **SIngle Responsibility.**
 	- **Open / Closed:** Abierto para agregar funcionalidad, y cerrado para modificarla.
 	- **Liskov Substitution:** Se debería poder representar cualquier objeto por un subtipo.
-	- **Interface Segregation.**
-	- **Dependcy Inversion.**
-- **GRASP:** Es un acrónimo para "General responsibility assignment software patterns".
-	- Polimorfismo.
-	- Alta cohesión.
-	- Bajo acoplamiento.
+	- **Interface Segregation:** Los comportamientos se deberían separar en interfaces.
+	- **Dependency Inversion:** No debemos depender de implementaciones, sino de interfaces.
+- **GRASP:** Es un acrónimo para *"General responsibility assignment software patterns"*.
+	- **Polimorfismo.**
+	- **Alta cohesión:** Los elementos de una misma clase deben estar muy relacionadas entre sí.
+	- **Bajo acoplamiento:** Los objetos no deben depender mucho de otras clases.
 
 ## Herencia
