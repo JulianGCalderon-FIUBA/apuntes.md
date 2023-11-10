@@ -14,15 +14,29 @@ Un tipo de dato abstracto, o TDA, puede ser categorizado según distintas caract
 
 ## Implementación de Stack
 
-En Oz, podemos implementar un TDA Stack, no empaquetado, abierto, y sin estado.
+En Oz, la implementación más simple de un Stack es: **abierto**, **sin estado**, y **no empaquetado**.
 
 ```Oz
 fun {NewStack} nil end  
 fun {Push S E} E|S end  
-fun {Pop S E} 
-	case S of X|S1 
-	then E=X S1 
-	end  
+fun {Pop S E}
+	case S of X|S1 then E=X S1 end  
 end  
 fun {IsEmpty S} S==nil end
 ```
+
+Si queremos que tenga **estado**, entonces debemos utilizar celdas.
+
+```Oz
+fun {NewStack} {NewCell nil} end
+proc {Push C E} C := E|@C end
+proc {Pop C ?E}
+	case @C of X|S1 then
+		E = X
+		C := S1
+	end
+end
+fun {IsEmpty S} S=nil end
+```
+
+Si queremos que sea empaquetado, entonces tenemos que crear un registro con sus propios métodos.
