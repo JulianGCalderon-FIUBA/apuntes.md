@@ -12,7 +12,7 @@ Dentro del presente, tendremos:
 
 Dentro del pasado, tendremos:
 
-- Past Simple:
+- Past Simple: El verbo está seguido del sufijo -ed, o en *past participle*. También puede estar en presente, antecedido por *did*. Indi
 - Past Progressive:
 - Past Perfect:
 
