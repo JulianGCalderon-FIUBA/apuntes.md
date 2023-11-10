@@ -12,7 +12,7 @@ Dentro del presente, tendremos:
 
 Dentro del pasado, tendremos:
 
-- **Past Simple:** El verbo está seguido del sufijo *-ed*, o en conjungado con la segunda columna. También puede estar en presente, antecedido por *did*. Indica acciones que ya terminaron.
+- **Past Simple:** El verbo está seguido del sufijo *-ed*, o en conjugado con la segunda columna. También puede estar en presente, antecedido por *did*. Indica acciones que ya terminaron.
 - **Past Progressive:** Compuesto por *was/where*, seguido del verbo con sufijo *-ing*. Se utiliza para acciones interrumpidas, o acciones en progreso en un momento del pasado.
 - **Past Perfect:** Compuesto por *have*, seguido del verbo en *past participle*. Se utiliza para acciones que ocurrieron antes que otras acciones en el pasado.
 
@@ -21,5 +21,5 @@ Dentro del pasado, tendremos:
 Dentro del futuro, tendremos:
 
 - **Future Simple:** Compuesto por *will/won't*, seguido del verbo en infinitivo. Se utiliza para una promesa, o una amenaza, para decisiones tomadas en el momento, para predicciones sin evidencia, o para intenciones. No se utiliza para planes.
-- **Future Progressive:** Compuesto por *am/is/are going to*, seguido del verbo en infinitivo. Se utiliza para planes.
-- **Future Perfect:**
+- **Future Progressive:** Compuesto por *am/is/are going to*, seguido del verbo en infinitivo. Se utiliza para planes. Una vez el plan se convierte en un *arrangement*, se utiliza el *present progressive*. También se utiliza para predicciones con evidencia.
+- **Future Perfect:** Compuesto por *will have*, seguido del verbo en *past participle*. Se utiliza para representar una acción que ya ocurrió en algún punto del futuro.
