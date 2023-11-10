@@ -82,3 +82,11 @@ end
 ```
 
 Si queremos una implementación **no empaquetada** y **cerrada**, necesitamos tener una clave para pseudo-encriptar el estado. Envolvemos el valor en algo que solo desde dentro de la función se puede desencriptar.
+
+```Oz
+proc {NewWrapper Wrap UnWrap}
+	local Key in 
+		Key = {NewName}
+	end
+end
+```
