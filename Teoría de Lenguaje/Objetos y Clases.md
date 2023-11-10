@@ -1,6 +1,6 @@
 ## Objetos
 
-Definiremos un objeto como una función con memoria interna. Esta memoria interna debe ser mutable, por lo que recurriremos al [[Estado.
+Definiremos un objeto como una función con memoria interna. Esta memoria interna debe ser mutable, por lo que recurriremos al [[Estado Explícito]].
 
 Las funciones capturan su entorno, a partir del concepto de [[Scoping]]
 
@@ -50,3 +50,20 @@ Counter2 = {NewCounter}
 
 {Browse {Counter2.read}} % 0
 ```
+
+## Principios
+
+Algunos principios basicos que son utilizados en la programación orientada a objetos son:
+
+- **SOLID:** Es un acrónimo para.
+	- **SIngle Responsibility.**
+	- **Open / Closed:** Abierto para agregar funcionalidad, y cerrado para modificarla.
+	- **Liskov Substitution:** Se debería poder representar cualquier objeto por un subtipo.
+	- **Interface Segregation.**
+	- **Dependcy Inversion.**
+- **GRASP:** Es un acrónimo para "General responsibility assignment software patterns".
+	- Polimorfismo.
+	- Alta cohesión.
+	- Bajo acoplamiento.
+
+## Herencia
