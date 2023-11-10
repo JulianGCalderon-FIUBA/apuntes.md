@@ -36,25 +36,26 @@ proc {Pop S ?E}
 		S := S1
 	end
 end
-fun {IsEmpty S} S=nil end
+fun {IsEmpty S} @S == nil end
 ```
 
-Si queremos que sea empaquetado, entonces tenemos que crear un registro con sus propios métodos.
+Si queremos que sea **empaquetado**, entonces tenemos que crear un registro con sus propios métodos. Esta implementación además es **cerrada**.
 
 ```Oz
 fun {NewStack}
 	local S Push Popt IsEmpty in
 		S = {NewCell nil}
 		proc {Push E} C := E|@C end
-		proc {Pop C ?E}
+		proc {Pop ?E}
 			case @C of X|S1 then
 				E = X
 				C := S1
 			end
 		end
-		fun {IsEmpty S} S=nil end
-		
+		fun {IsEmpty} @S == nil end
 		stack(push:Push, pop:Pop, isEmpty:isEmpty)
 	end
 end
 ```
+
+Si ahora queremos hacerlo **abierto**, entonces basta con agregar la celda en el registro. Si queremos sacarle el estado, tenemos que crear un nuevo registro luego de cada operación.
