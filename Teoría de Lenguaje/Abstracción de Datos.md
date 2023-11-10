@@ -58,7 +58,7 @@ fun {NewStack}
 end
 ```
 
-Si queremos sacarle el estado, tenemos que crear un nuevo registro luego de cada operación.
+Si queremos hacerlo **sin estado**, tenemos que crear un nuevo registro luego de cada operación. Nuevamente, la implementación es **cerrada**, pero para hacerla **abierta** basta con agregar el estado interno al registro.
 
 ```Oz
 fun {NewStack}
@@ -80,3 +80,5 @@ fun {NewStack}
 	end
 end
 ```
+
+Sí queremos una implementación **no empaquetada** y **cerrada**, necesitamos tener una clave para encriptar el 
