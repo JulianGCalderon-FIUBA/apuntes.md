@@ -66,4 +66,16 @@ Algunos principios básicos que son utilizados en la programación orientada a o
 	- **Alta cohesión:** Los elementos de una misma clase deben estar muy relacionadas entre sí.
 	- **Bajo acoplamiento:** Los objetos no deben depender mucho de otras clases.
 
+## Tipado
+
+El tipado puede ser según cuando se define: **dinámico** o estático.
+
+El tipado puede ser según cómo se define: implícito (inferido), o explicito.
+
+Cuando hablamos de objetos, tenemos que definir que tan especifico es el tipado:
+
+- **Nominal:** Se guarda no solo el tipo de dato, sino además la jerarquía.
+- **Estructural:** No se guarda la jerarquia, sino solo las implementaciones. Si cumple con cierta implementación, entonces cumple con cierta interfaz.
+- **Duck Typing**
+
 ## Herencia
