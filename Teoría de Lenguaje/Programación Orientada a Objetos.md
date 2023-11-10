@@ -78,6 +78,17 @@ Counter2 = {NewCounter}
 {Browse {Counter2.read}} % 0
 ```
 
+## Herencia
+
+La herencia ocurre cuando una clase extiende a otra clase, heredando sus propiedades y métodos.
+
 ## Mixin
 
-Un mixin es una clase que existe solamente para agregar compo
+Un *mixin* es una clase que existe solamente para agregar comportamiento a otros a través de composición o herencia. A veces se conoce como **trait**. Se usan para herencia múltiple.
+
+## Delegation & Forwarding
+
+La herencia no es el único mecanismo de extender funcionalidad.
+
+- **Delegation:** Se define en los objetos, en lugar de las clases. Permite extender la funcionalidad de una instancia particular.
+- **Forwarding:** Se define sobre la instancia, pero no comparten los atributos del objeto original. Es externo. De esta forma, define a que otra instancia enviarle un mensaje que desconoce.
