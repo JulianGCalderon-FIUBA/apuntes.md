@@ -132,7 +132,7 @@ end
 
 ### Embedding
 
-Los procedimientos pueden ser parte de una estructura de datos. De esta forma podemos modelar [[Objetos y Clases]].
+Los procedimientos pueden ser parte de una estructura de datos. De esta forma podemos modelar [[Programación Orientada a Objetos]].
 
 ## Currying
 

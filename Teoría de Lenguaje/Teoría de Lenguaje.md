@@ -25,4 +25,4 @@
 - [[Estado Explícito]]
 - [[Abstracción de Datos]]
 - [[Pasaje de Parámetros]]
-- [[Objetos y Clases]]
+- [[Programación Orientada a Objetos]]
