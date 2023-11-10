@@ -118,3 +118,9 @@ fun {StackOperations}
 	end
 end
 ```
+
+## Capabilities
+
+Un cómputo es seguro si está claramente definido, independiente de la existencia de otros.
+
+Una **capability** es un *token* asociado a un objeto, que da autoridad para usarlo. Son parte escencial en "lenguajes seguros". `Wrap/Unwrap` son usados como tal.

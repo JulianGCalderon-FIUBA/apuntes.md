@@ -25,3 +25,4 @@
 - [[Estado Explícito]]
 - [[Objetos y Clases]]
 - [[Abstracción de Datos]]
+- [[Pasaje de Parámetros]]
