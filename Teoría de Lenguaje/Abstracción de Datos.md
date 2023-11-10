@@ -87,6 +87,25 @@ Si queremos una implementación **no empaquetada** y **cerrada**, necesitamos te
 proc {NewWrapper Wrap UnWrap}
 	local Key in 
 		Key = {NewName}
+		fun {Wrap X}  
+			fun {$ K}  
+				if (K==Key) then X end  
+			end  
+		end  
+		fun {Unwrap W}  
+			{Wrap Key}  
+		end
 	end
 end
+```
+
+Una vez tenemos esta estructura, podríamos utilizarla en nuestra implementación de Stack, **no empaquetado** y **cerrado**.
+
+```Oz
+fun {NewStack} {Wrap nil} end  
+fun {Push S E} E|S end  
+fun {Pop S E}
+	case S of X|S1 then E=X S1 end  
+end  
+fun {IsEmpty S} S==nil end
 ```
