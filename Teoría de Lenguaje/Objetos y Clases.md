@@ -1,6 +1,6 @@
 ## Objetos
 
-Definiremos un objeto como una función con memoria interna. Esta memoria interna debe ser mutable, por lo que recurriremos al estado explícito.
+Definiremos un objeto como una función con memoria interna. Esta memoria interna debe ser mutable, por lo que recurriremos al [[Estado.
 
 Las funciones capturan su entorno, a partir del concepto de [[Scoping]]
 

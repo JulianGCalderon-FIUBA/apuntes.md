@@ -23,6 +23,6 @@
 - [[Streams]]
 - [[Teoría de Lenguaje/Canales|Canales]]
 - [[Estado Explícito]]
-- [[Objetos y Clases]]
 - [[Abstracción de Datos]]
 - [[Pasaje de Parámetros]]
+- [[Objetos y Clases]]
