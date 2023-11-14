@@ -53,5 +53,6 @@
 
 ## Procesamiento y Optimización
 
-[[Esquema de Procesamiento]]
-[[Índices]]
+- [[Esquema de Procesamiento]]
+- [[Índices]]
+- [[Costos de Operadores]]
