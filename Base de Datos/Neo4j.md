@@ -68,6 +68,6 @@ RETURN length(camino)
 No es necesario indicar por qué elementos agrupamos, se agrupa por todos aquellos que no están en una función de agregación.
 
 ```Cypher
-MATCH (p1:Persona)-[:AMIGO_DE*]-(p2:Persona)
+MATCH (p1:Persona)-[:AMIGO_DE]-(p2:Persona)
 RETURN p1.nombre, count(p2) 
 ```
