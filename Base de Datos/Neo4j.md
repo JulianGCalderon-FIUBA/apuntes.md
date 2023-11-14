@@ -52,7 +52,7 @@ MATCH (n:Persona)-[:AMIGO_DE]-(m:Persona)-[:AMIGO_DE]-(o:Persona),
 RETURN DISTINCT n.nombre, o.nombre
 ```
 
-Los grafos son siempre dirigidos, pero podemos ignorar la direccionalidad utilizando `-` en lugar de `->`.
+Los grafos son siempre dirigidos, pero podemos ignorar la direccionalidad en las consultas utilizando `-` en lugar de `->`.
 
 Con un $*$ en la interrelación, podemos indicar una cantidad indeterminada de saltos.
 
