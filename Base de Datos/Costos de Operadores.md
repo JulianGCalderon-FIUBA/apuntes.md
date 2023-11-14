@@ -29,13 +29,15 @@ $$
 **Búsqueda con índice de clustering:** Cuando $A_i$ no es clave, pero se tiene un índice de ordenamiento *(clustering)* por él. Las tuplas se encuentran contiguas en los bloques, los cuales estarán disjuntos.
 $$
 
-\text{cost}(S_5) = \text{Height}(I(A_i, R)) + \frac{n(R)}{V(A_i, R) \cdot F(R)}
+\text{cost}(S_5) = \text{Height}(I(A_i, R)) + \Big\lceil\frac{B(R)}{V(A_i, R)}\Big\rceil
 
 $$
-En lugar de leer un solo bloque de memoria, debemos leer todos aquellos que cumplan con 
+Como no sabemos en qué bloque se encuentra, debemos buscar todos los bloques. Pero como están ordenados, entonces la cantidad de bloques es menor. Podemos aproximar dividiendo la cantidad de bloques entre la cantidad de valores distintos.
 
-**Búsqueda con índice secundario:** Cuando $A_i$ no tiene un índice de clustering, pero existe un índice secundario asociado a él, entonces.
+**Búsqueda con índice secundario:** Cuando $A_i$ no tiene un índice de *clustering*, pero existe un índice secundario asociado a él, entonces.
 
 $$
-\text{cost}(S_6) = \te
+
+\text{cost}(S_6) = \text{Height}(I(A_i, R)) + \Big\lceil\frac{n(R)}{V(A_i, R)}\Big\rceil
+
 $$
