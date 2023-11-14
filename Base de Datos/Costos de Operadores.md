@@ -41,3 +41,27 @@ $$
 \text{cost}(S_6) = \text{Height}(I(A_i, R)) + \Big\lceil\frac{n(R)}{V(A_i, R)}\Big\rceil
 
 $$
+### Selecciones Complejas
+
+Si la selección involucra la conjunción de varias condiciones simples, pueden adoptarse distintas estrategias:
+
+- Si uno de los atributos tiene un índice asociado, se aplica primero esta condición, y luego se selecciona del resultado a aquellas tuplas que cumplen con las demás condiciones.
+- Si hay un índice compuesto que involucra a atributos de más de una condición, se utiliza este índice y luego se seleccionan las tuplas que cumplen los demás criterios.
+- Si hay índices simples para varios atributos, se utilizan los índices por separado y luego se intersecan los resultados.
+
+Si la selección involucra una disyunción de condiciones simples, debemos aplicar las mismas por separado y luego unir los resultados. Si uno de los atributos no dispone de índice, hay que usar fuerza bruta.
+
+## Proyección
+
+Dividiremos el análisis de la proyección $\pi_X(R)$ en dos casos.
+
+Si $X$ es superclave, no es necesario eliminar duplicados, por lo que el costo será:
+
+$$
+
+cost(\pi_X(R)) = B(R)
+
+$$
+Si $X$ no es superclave, entonces debemos eliminar duplicados. Llamaremos $\hat\pi_X(R)$ a la proyección de multiconjuntos:
+
+- Podemos ordenar la tabla
