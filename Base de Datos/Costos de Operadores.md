@@ -62,6 +62,19 @@ $$
 cost(\pi_X(R)) = B(R)
 
 $$
-Si $X$ no es superclave, entonces debemos eliminar duplicados. Llamaremos $\hat\pi_X(R)$ a la proyección de multiconjuntos:
+Si $X$ no es superclave, entonces debemos eliminar duplicados. Llamaremos $\hat\pi_X(R)$ a la proyección de multiconjuntos.
 
-- Podemos ordenar la tabla
+Podemos ordenar la tabla en memoria si la tabla entra en memoria, en caso contrario el costo usando un ordenamiento externo será:
+
+$$
+
+\text{cost}(\pi_X(R)) = \text{cost}(\text{ord}_M(R)) = 2B(R) \cdot [\log_{M-1}(B(R))] - B(R)
+
+$$
+También podemos utilizar una estructura de *hash*. Si no entra en memoria, el costo usando un *hashing* externo será de:
+$$
+
+\text{cost}(\pi_X(R)) = B(R) + 2\cdot B(\hat\pi_X(R))
+
+$$
+Si la consulta de SQL no incluye `DISTINCT`, entonces el resultado es un multiconjunto y el costo es siempre $B(R)$.
