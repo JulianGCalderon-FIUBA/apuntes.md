@@ -1,6 +1,8 @@
 En las bases de datos basadas en grafos, los elementos principales son **nodos** y **arcos (ejes)**.
 
-Estas bases de datos resultan útiles para modelar interrelaciones complejas entre las entidades. Cada nodo mantiene una referencia directa a sus nodos adyacentes.
+Estas bases de datos resultan útiles para modelar interrelaciones complejas entre las entidades.
+
+Para almacenar la información, cada nodo mantiene una referencia directa a sus nodos adyacentes *(matriz de adyacencias)*.
 
 Una de las bases de datos orientadas a grafos más conocida es [[Neo4j]]
 
