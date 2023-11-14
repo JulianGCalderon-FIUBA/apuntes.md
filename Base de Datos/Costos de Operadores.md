@@ -78,3 +78,5 @@ $$
 
 $$
 Si la consulta de SQL no incluye `DISTINCT`, entonces el resultado es un multiconjunto y el costo es siempre $B(R)$.
+
+##
