@@ -7,3 +7,23 @@ Está desarrollada en Java, y posee APIs en distintos lenguajes como Python, Rub
 Utiliza un lenguaje de consultas declarativo denominado **Cypher**.
 
 ## Creación
+
+Un nodo puede tener distintos *labels*, dentro de cada *label*, el nodo tendrá un conjunto de propiedades con determinados valores.
+
+```Cypher
+CREATE (pedro:Persona {nombre: 'Pedro', color: 'Azul'})
+```
+
+No existe una estructura rígida, por lo que podemos agregar distintos propiedades para un mismo *label*.
+
+## Búsqueda
+
+Para buscar un nodo o conjunto de nodos, utilizamos el comando `MATCH`.
+
+```Cypher
+MATCH (p:Persona {nombre: 'Maria'}) RETURN p.nombre
+```
+
+El resultado de la consulta es un conjunto de *records*, que podemos representar con una tabla.
+
+También se puede aplicar condiciones de selección sobre las búsquedas con el comando `WHERE`.
