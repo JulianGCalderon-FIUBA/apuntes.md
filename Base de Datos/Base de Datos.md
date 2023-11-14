@@ -50,3 +50,5 @@
 - [[Métodos de acceso]]
 - [[Modelo Sharding]]
 - [[Teorema CAP]]
+
+## Procesamiento y Optimización
