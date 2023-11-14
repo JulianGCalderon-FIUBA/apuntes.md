@@ -52,3 +52,5 @@
 - [[Teorema CAP]]
 
 ## Procesamiento y Optimización
+
+[[Esquema de Procesamiento]]

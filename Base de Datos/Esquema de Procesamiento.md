@@ -1,0 +1,1 @@
+Los gestores guardan distinto tipo de información de cat
