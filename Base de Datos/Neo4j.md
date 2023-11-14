@@ -2,7 +2,7 @@ Neo4j es una de las bases de datos orientadas a grafos más conocidas. Es actual
 
 Incluye soporte para transacciones ACID, y para bases de datos distribuidas.
 
-Está desarrollada en Java, pero también posee APIs en distintos lenguajes como Python, Ruby, etc.
+Está desarrollada en Java, y posee APIs en distintos lenguajes como Python, Ruby, Java, etc.
 
 Utiliza un lenguaje de consultas declarativo denominado **Cypher**.
 
