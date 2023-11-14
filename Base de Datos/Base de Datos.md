@@ -49,3 +49,4 @@
 - [[Consistencia]]
 - [[Métodos de acceso]]
 - [[Modelo Sharding]]
+- [[Teorema CAP]]
