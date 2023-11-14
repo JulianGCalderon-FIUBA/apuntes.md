@@ -16,7 +16,7 @@ CREATE (pedro:Persona {nombre: 'Pedro', color: 'Azul'})
 
 No existe una estructura rígida, por lo que podemos agregar distintas propiedades para un mismo *label*.
 
-## Búsqueda
+## Consultas
 
 Para buscar un nodo o conjunto de nodos, utilizamos el comando `MATCH`.
 
@@ -40,12 +40,25 @@ Podemos utilizar el comando `CREATE` para definir interrelaciones entre los nodo
 
 ```Cypher
 CREATE (juan)-[:AMIGO_DE]->(lucas),
-       (edith)-[:AMIGO_DE]->(maria),
-       (maria)-[:AMIGO_DE]->(lucas)
+       (lucas)-[:AMIGO_DE]->(maria),
+       (juan)-[:ENEMIGO_DE]->(maria)
+```
+
+Podemos consultar entidades que cumplan con ciertas interrelaciones a partir del comando `MATCH`.
+
+```Cypher
+MATCH (n:Persona)-[:AMIGO_DE]-(m:Persona),
+      (m:Persona)-[:AMIGO_DE]-(o:Persona),
+      (n:Persona)-[:ENEMIGO_DE]-(o:Persona),
+RETURN n.nombre, o.nombre
 ```
 
 Los grafos son siempre dirigidos, pero podemos ignorar la direccionalidad utilizando `-` en lugar de `->`.
 
-## Consultas sobre Interrelaciones
+Con un $*$ en la interrelación, podemos indicar una cantidad indeterminada de saltos.
 
-Podemos consultar entidades que cumplan con ciertas interrelaciones a partir del comando `MATCH`.
+```Cypher
+MATCH (juan:Persona {nombre:'Juan'})
+      (luis:Persona {nombre:'Luis'})
+      p=(juan:Persona)-[:AMIGO_DE*]-(luis:Persona)
+```
