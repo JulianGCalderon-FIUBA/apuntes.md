@@ -39,6 +39,13 @@ Como estamos utilizando directamente `RETURN m`, entonces nos devolverá un graf
 Podemos utilizar el comando `CREATE` para definir interrelaciones entre los nodos.
 
 ```Cypher
-CREATE (juan)-[:AMIGO_DE]->(lucas)
-														
+CREATE (juan)-[:AMIGO_DE]->(lucas),
+       (edith)-[:AMIGO_DE]->(maria),
+       (maria)-[:AMIGO_DE]->(lucas)
 ```
+
+Los grafos son siempre dirigidos, pero podemos ignorar la direccionalidad utilizando `-` en lugar de `->`.
+
+## Consultas sobre Interrelaciones
+
+Podemos consultar entidades que cumplan con ciertas interrelaciones a partir del comando `MATCH`.
