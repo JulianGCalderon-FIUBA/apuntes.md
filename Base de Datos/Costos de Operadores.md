@@ -18,17 +18,24 @@ $$
 
 Estos métodos utilizan un índice de búsqueda.
 
-**Búsqueda con índice primario:** Cuando $A_i$ es un atributo clave del que se tiene un índice primario, solo una tupla puede satisfacer la condición.
+**Búsqueda con índice primario:** Cuando $A_i$ es un atributo clave del que se tiene un índice primario, solo una tupla puede satisfacer la condición:
 
-- Si utilizamos un árbol de búsqueda, entonces tendremos:
-	$$
-	\text{cost}(S_1) = B(R)
-	$$
-- Si utilizamos una clave de hash, entonces tendremos:
-	$$
-	\text{cost}(S_{3a}) = \text{Height}(I(A_i, R)) + 1
-	$$
+$$
 
-#### Búsqueda con índice de clustering
+\text{cost}(S_{3a}) = \text{Height}(I(A_i, R)) + 1
 
-Cuando $A_i$ no es clave, pero se tiene un índice de ordenamiento (clustering) por él.
+$$
+
+**Búsqueda con índice de clustering:** Cuando $A_i$ no es clave, pero se tiene un índice de ordenamiento *(clustering)* por él. Las tuplas se encuentran contiguas en los bloques, los cuales estarán disjuntos.
+$$
+
+\text{cost}(S_5) = \text{Height}(I(A_i, R)) + \frac{n(R)}{V(A_i, R) \cdot F(R)}
+
+$$
+En lugar de leer un solo bloque de memoria, debemos leer todos aquellos que cumplan con 
+
+**Búsqueda con índice secundario:** Cuando $A_i$ no tiene un índice de clustering, pero existe un índice secundario asociado a él, entonces.
+
+$$
+\text{cost}(S_6) = \te
+$$
