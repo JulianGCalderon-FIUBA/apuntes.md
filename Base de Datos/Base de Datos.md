@@ -38,6 +38,7 @@
 - [[Gestores Wide Column]]
 - [[Apache Cassandra]]
 - [[Gestores Basados en Grafos]]
+- [[Neo4j]]
 
 ## Bases de Datos Distribuidas
 
