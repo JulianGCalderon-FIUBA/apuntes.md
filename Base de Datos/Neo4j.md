@@ -62,3 +62,12 @@ MATCH (juan:Persona {nombre:'Juan'})
       camino=(juan)-[:AMIGO_DE*]-(luis)
 RETURN length(camino)
 ```
+
+## Agregación
+
+No es necesario indicar por qué elementos agrupamos, se agrupa por todos aquellos que no están en una función de agregación.
+
+```Cypher
+MATCH (p1:Persona)-[:AMIGO_DE*]-(p2:Persona)
+RETURN p1.nombre, count(p2) 
+```
