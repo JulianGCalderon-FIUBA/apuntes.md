@@ -1,6 +1,6 @@
 ## Información de Catálogo
 
-Los gestores guardan distinto tipo de información de catálogo que es utilizada para estimar costos y optimizar consultas. Utilizaremos la siguiente notación:
+Los gestores guardan distinto tipo de información de catálogo que es utilizada para estimar costos y optimizar consultas. Utilizaremos la siguiente notación teórica:
 
 - $n(R)$: Cantidad de tuplas de la relación $R$.
 - $B(R)$: Cantidad de bloques de almacenamiento que ocupa $R$
