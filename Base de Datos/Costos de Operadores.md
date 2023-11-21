@@ -49,7 +49,7 @@ Aproximaremos la cantidad de valores posibles, como la división entre la cantid
 Si la selección involucra la conjunción de varias condiciones simples, pueden adoptarse distintas estrategias:
 
 - Si uno de los atributos tiene un índice asociado, se aplica primero esta condición, y luego se selecciona del resultado a aquellas tuplas que cumplen con las demás condiciones.
-- Si hay un índice compuesto que involucra a atributos de más de una condición, se utiliza este índice y luego se seleccionan las tuplas que cumplen los demás criterios.
+- Si hay un índice compuesto que involucra a atributos de más de una condición, se utiliza este índice y luego se seleccionan las tuplas que cumplen los demás criterios. Este caso no es común.
 - Si hay índices simples para varios atributos, se utilizan los índices por separado y luego se intersecan los resultados.
 
 Si la selección involucra una disyunción de condiciones simples, debemos aplicar las mismas por separado y luego unir los resultados. Si uno de los atributos no dispone de índice, hay que usar fuerza bruta.
