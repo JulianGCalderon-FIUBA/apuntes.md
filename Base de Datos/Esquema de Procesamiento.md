@@ -8,7 +8,7 @@ Los gestores guardan distinto tipo de información de catálogo que es utilizada
 - $F(R)$: Cantidad de tuplas de $R$ que entran en un bloque (factor de bloque).
 
 $$
-F(R) = \frac{n(R)}{B(R)} \implies B(R) = \frac{n(R)}{F(R)}
+F(R) = \Big\lceil\frac{n(R)}{B(R)}\Big\rceil
 $$
 
 También se almacena información sobre la cantidad de niveles que tienen los índices construidos, y la cantidad de bloques que ocupan sus hojas.
