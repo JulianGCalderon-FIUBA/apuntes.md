@@ -152,3 +152,7 @@ $$
 )
 
 $$
+> [!note] Nota
+> En caso donde las tablas son chicas, no siempre es mas efectivo este método
+
+### Método de sort-merge
