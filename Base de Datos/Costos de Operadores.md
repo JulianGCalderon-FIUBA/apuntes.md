@@ -176,6 +176,16 @@ $$
 
 ### Método de sort-merge - GRACE
 
-La idea de este método es particionar las tablas $R$ y $S$ en $m$ grupos utilizando una función de hash $h(X)$, aplicada sobre los atributos de junta $X$. El costo del particionado será de: $2 \cdot (B(R) + B(S))$.
+La idea de este método es particionar las tablas $R$ y $S$ en $m$ grupos utilizando una función de hash $h(X)$, aplicada sobre los atributos de junta $X$. El costo del particionado (y envío a disco) será de: $2 \cdot (B(R) + B(S))$. Notemos que si dos tuplas $r, S$ cumplen que $h(r.X) = h(s.X)$ no implica que $r.X = s.X$.
 
-Luego, cada par de grupos se combina verificando si se cumpla la condición condición de junta con un enfoque de fuerza bruta.
+Luego, cada par de grupos se combina verificando si se cumpla la condición de junta con un enfoque de fuerza bruta. No es necesario combinar $R_i, S_j$, con $i \neq j$.
+
+El número $m$ es escogido de manera que para cada par de grupos, al menos uno entre en memoria, y sobre un bloque de memoria para hacer desfilar al otro grupo. El costo de la combinación de $R_i, S_i$ es de $B(R_i) + B(S_i)$.
+
+El costo total entonces es:
+
+$$
+
+\text{cost}(R*S) = 3 \cdot (B(R) + B(S))
+
+$$
