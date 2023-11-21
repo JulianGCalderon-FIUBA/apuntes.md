@@ -6,17 +6,17 @@ Analizaremos los costos en función de cuantos accesos a discos se requiere
 
 Partimos de una selección básica del tipo $\sigma_\text{cond}(R)$, en donde $\text{cond}$ es una condición atómica. Analizaremos distintas situaciones para la comparación por igual.
 
-Si no tenemos índices, entonces debemos recorrer el disco en busca de los registros que cumplen con la condición.
+### Búsqueda Lineal
 
-**Búsqueda lineal:** Consiste en explorar cada registro, analizando si se verifica la condición.
+Si no tenemos índices, entonces debemos recorrer el disco en busca de los registros que cumplen con la condición. Consiste en explorar cada registro, analizando si se verifica la condición.
 
 $$
 	\text{cost}(\sigma) = B(R)
 	$$
 
-Si contamos con índices, entonces podremos realizar consultas más eficientes:
+### Búsqueda con índice primario
 
-**Búsqueda con índice primario:** Cuando $A_i$ es un atributo clave del que se tiene un índice primario, solo una tupla puede satisfacer la condición. Necesitaremos un acceso por cada nivel de árbol, más un acceso más por el bloque que contiene las tuplas.
+Si contamos con índices, entonces podremos realizar consultas más eficientes. Este método se utiliza cuando $A_i$ es un atributo clave del que se tiene un índice primario, solo una tupla puede satisfacer la condición. Necesitaremos un acceso por cada nivel de árbol, más un acceso más por el bloque que contiene las tuplas.
 
 $$
 
@@ -24,15 +24,19 @@ $$
 
 $$
 
-**Búsqueda con índice de clustering:** Cuando $A_i$ no es clave, pero se tiene un índice de ordenamiento *(clustering)* por él. Las tuplas que coincidan con la condición se encuentran contiguas en distintos bloques.
+### Búsqueda con índice de ordenamiento
+
+Se utiliza cuando $A_i$ no es clave, pero se tiene un índice de ordenamiento *(clustering)* por él. Las tuplas que coincidan con la condición se encuentran contiguas en distintos bloques.
 $$
 
 \text{cost}(\sigma) \approx \text{Height}(I(A_i, R)) + \Big\lceil\frac{B(R)}{V(A_i, R)}\Big\rceil
 
 $$
-Como los bloques están ordenados, aproximamos la cantidad de bloques con el valor buscado como la divisón entre la cantidad de bloques y la variabilidad.
+Como los bloques están ordenados, aproximamos la cantidad de bloques con el valor buscado como la división entre la cantidad de bloques y la variabilidad.
 
-**Búsqueda con índice secundario:** Cuando $A_i$ no tiene un índice de *clustering*, pero existe un índice secundario asociado a él. Las tuplas que coincidan con la condición se encuentran dispersas en distintos bloques.
+### Búsqueda con índice secundario
+
+Se utiliza cuando $A_i$ no tiene un índice de *clustering*, pero existe un índice secundario asociado a él. Las tuplas que coincidan con la condición se encuentran dispersas en distintos bloques.
 
 $$
 
@@ -53,6 +57,8 @@ Si la selección involucra una disyunción de condiciones simples, debemos aplic
 ## Proyección
 
 Dividiremos el análisis de la proyección $\pi_X(R)$ en dos casos.
+
+### Con Superclave
 
 Si $X$ es superclave, no es necesario eliminar duplicados, por lo que el costo será:
 
@@ -99,4 +105,12 @@ Existen distintos métodos para calcular una junta. Solo indicaremos el costo de
 
 ### Loops anidados por bloque
 
-Se utiliza cuando no tenemos indices, y consiste en tomar cada par de bloques de ambas rela
+Dadas dos relaciones $R$, $S$, se utiliza cuando no tenemos índices, y consiste en tomar cada par de bloques de ambas relaciones, y comparar todas sus tuplas entre sí.
+
+El costo de procesar cada bloque de $R$ es de $1 + B(S)$, y el total es de: $B(R)\cdot(1+B(S))$, suponiendo que utilizamos $R$ como pivote. Elegiremos como pivote el más conveniente:
+
+$$
+
+\text{cost}(R*S) = \min(B(R) + B(R)\cdot B(S), B(S) + B(S) \cdot B(R))
+
+$$
