@@ -124,3 +124,31 @@ $$
 
 $$
 ### Método de único loop
+
+Si el atributo de junta tiene un índice asociado en $R$, por ejemplo, podemos recorrer las tuplas de $S$ y para cada una de ellas buscar en el índice las tuplas de $R$ en que el atributo coincide. Luego, el costo será $B(S)$, sumado al costo de selección multiplicado por la cantidad de tuplas
+
+Si el índice es primario, entonces el costo será:
+
+$$
+
+\text{cost}(R*S) = B(S) + n(S)\cdot(\text{Height}(I(A_i, R)) + 1)
+
+$$
+Si el índice es de ordenamiento, entonces el costo será:
+
+$$
+
+\text{cost}(R*S) = B(S) + n(S)\cdot(\text{Height}(I(A_i, R)) + \Big\lceil\frac{B(R)}{V(A_i, R)}\Big\rceil
+
+)
+
+$$
+Si el índice es secundario, entonces el costo será:
+
+$$
+
+\text{cost}(R*S) = B(S) + n(S)\cdot(\text{Height}(I(A_i, R)) + \Big\lceil\frac{n(R)}{V(A_i, R)}\Big\rceil
+
+)
+
+$$
