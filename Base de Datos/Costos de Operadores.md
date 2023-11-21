@@ -11,7 +11,7 @@ Si no tenemos índices, entonces debemos recorrer el disco en busca de los regis
 **Búsqueda lineal:** Consiste en explorar cada registro, analizando si se verifica la condición.
 
 $$
-	\text{cost}(S) = B(R)
+	\text{cost}(\sigma) = B(R)
 	$$
 
 Si contamos con índices, entonces podremos realizar consultas más eficientes:
@@ -20,14 +20,14 @@ Si contamos con índices, entonces podremos realizar consultas más eficientes:
 
 $$
 
-\text{cost}(S) = \text{Height}(I(A_i, R)) + 1
+\text{cost}(\sigma) = \text{Height}(I(A_i, R)) + 1
 
 $$
 
 **Búsqueda con índice de clustering:** Cuando $A_i$ no es clave, pero se tiene un índice de ordenamiento *(clustering)* por él. Las tuplas que coincidan con la condición se encuentran contiguas en distintos bloques.
 $$
 
-\text{cost}(S) \approx \text{Height}(I(A_i, R)) + \Big\lceil\frac{B(R)}{V(A_i, R)}\Big\rceil
+\text{cost}(\sigma) \approx \text{Height}(I(A_i, R)) + \Big\lceil\frac{B(R)}{V(A_i, R)}\Big\rceil
 
 $$
 Como los bloques están ordenados, aproximamos la cantidad de bloques con el valor buscado como la divisón entre la cantidad de bloques y la variabilidad.
@@ -36,10 +36,10 @@ Como los bloques están ordenados, aproximamos la cantidad de bloques con el val
 
 $$
 
-\text{cost}(S) \approx \text{Height}(I(A_i, R)) + \Big\lceil\frac{n(R)}{V(A_i, R)}\Big\rceil
+\text{cost}(\sigma) \approx \text{Height}(I(A_i, R)) + \Big\lceil\frac{n(R)}{V(A_i, R)}\Big\rceil
 
 $$
-Aproximaremos la cantidad de valores posibles, como la división entre la cantidad de tuplas y la variabilidad. Luego asumimos el peor caso (no estan ordenados), cada una de estas tuplas está en un bloque distinto.
+Aproximaremos la cantidad de valores posibles, como la división entre la cantidad de tuplas y la variabilidad. Luego asumimos el peor caso (no están ordenados), cada una de estas tuplas está en un bloque distinto.
 ### Selecciones Complejas
 
 Si la selección involucra la conjunción de varias condiciones simples, pueden adoptarse distintas estrategias:
@@ -67,13 +67,13 @@ Podemos ordenar la tabla en memoria si la tabla entra en memoria, en caso contra
 
 $$
 
-\text{cost}(X) = \text{cost}(\text{ord}_M(R)) = 2B(R) \cdot [\log_{M-1}(B(R))] - B(R)
+\text{cost}(\pi) = \text{cost}(\text{ord}_M(R)) = 2B(R) \cdot [\log_{M-1}(B(R))] - B(R)
 
 $$
 También podemos utilizar una estructura de *hash*. Si no entra en memoria, el costo usando un *hashing* externo será de:
 $$
 
-\text{cost}(X) = B(R) + 2\cdot B(\hat\pi_X(R))
+\text{cost}(\pi) = B(R) + 2\cdot B(\hat\pi_X(R))
 
 $$
 Si la consulta de SQL no incluye `DISTINCT`, entonces el resultado es un multiconjunto y el costo es siempre $B(R)$.
@@ -88,7 +88,15 @@ Procesaremos ambas tablas ordenadas haciendo un *merge* que avanza por las filas
 
 $$
 
-\text{cost} = \text{cost}(\text{ord}_M(R)) + \text{cost}(\text{ord}_M(S)) + 2B(R) + 2B(S)
+\text{cost}(\cup | \cap) = \text{cost}(\text{ord}_M(R)) + \text{cost}(\text{ord}_M(S)) + 2B(R) + 2B(S)
 
 $$
 Los algoritmos utilizados sobre las filas $r_i$ y $s_i$ serán los algoritmos clásicos de operaciones entre conjuntos.
+
+## Junta
+
+Existen distintos métodos para calcular una junta. Solo indicaremos el costo de lectura de datos y cálculo del resultado. Para calcular el costo de almacenamiento, es necesario estimar la cardinalidad del resultado.
+
+### Loops anidados por bloque
+
+Se utiliza cuando no tenemos indices, y consiste en tomar cada par de bloques de ambas rela
