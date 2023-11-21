@@ -30,7 +30,7 @@ $$
 \text{cost}(S) \approx \text{Height}(I(A_i, R)) + \Big\lceil\frac{B(R)}{V(A_i, R)}\Big\rceil
 
 $$
-Como no sabemos en qué bloque se encuentra, debemos buscar todos los bloques. Pero como están ordenados, entonces la cantidad de bloques es menor. Aproximaremos la cantidad de bloques a leer, como la división entre la cantidad de bloques, y la variabilidad.
+Como los bloques están ordenados, aproximamos la cantidad de bloques con el valor buscado como la divisón entre la cantidad de bloques y la variabilidad.
 
 **Búsqueda con índice secundario:** Cuando $A_i$ no tiene un índice de *clustering*, pero existe un índice secundario asociado a él. Las tuplas que coincidan con la condición se encuentran dispersas en distintos bloques.
 
@@ -39,7 +39,7 @@ $$
 \text{cost}(S) \approx \text{Height}(I(A_i, R)) + \Big\lceil\frac{n(R)}{V(A_i, R)}\Big\rceil
 
 $$
-Aproximaremos la cantidad de valores posibles, como la división entre la cantidad de tuplas y la variabilidad. Luego asumimos el peor caso, cada una de estas tuplas está en un bloque distinto.
+Aproximaremos la cantidad de valores posibles, como la división entre la cantidad de tuplas y la variabilidad. Luego asumimos el peor caso (no estan ordenados), cada una de estas tuplas está en un bloque distinto.
 ### Selecciones Complejas
 
 Si la selección involucra la conjunción de varias condiciones simples, pueden adoptarse distintas estrategias:
@@ -58,7 +58,7 @@ Si $X$ es superclave, no es necesario eliminar duplicados, por lo que el costo s
 
 $$
 
-cost(\pi_X(R)) = B(R)
+cost(\pi) = B(R)
 
 $$
 Si $X$ no es superclave, entonces debemos eliminar duplicados. Llamaremos $\hat\pi_X(R)$ a la proyección de multiconjuntos.
@@ -67,13 +67,13 @@ Podemos ordenar la tabla en memoria si la tabla entra en memoria, en caso contra
 
 $$
 
-\text{cost}(\pi_X(R)) = \text{cost}(\text{ord}_M(R)) = 2B(R) \cdot [\log_{M-1}(B(R))] - B(R)
+\text{cost}(X) = \text{cost}(\text{ord}_M(R)) = 2B(R) \cdot [\log_{M-1}(B(R))] - B(R)
 
 $$
 También podemos utilizar una estructura de *hash*. Si no entra en memoria, el costo usando un *hashing* externo será de:
 $$
 
-\text{cost}(\pi_X(R)) = B(R) + 2\cdot B(\hat\pi_X(R))
+\text{cost}(X) = B(R) + 2\cdot B(\hat\pi_X(R))
 
 $$
 Si la consulta de SQL no incluye `DISTINCT`, entonces el resultado es un multiconjunto y el costo es siempre $B(R)$.
