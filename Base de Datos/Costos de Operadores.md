@@ -152,7 +152,12 @@ $$
 )
 
 $$
+Si existe la consulta simétrica, entonces podremos calcular ambas estimaciones y elegir la más eficiente.
+
 > [!note] Nota
 > En caso donde las tablas son chicas, no siempre es mas efectivo este método
 
+
 ### Método de sort-merge
+
+Este método consiste en ordenar los archivos de cada tabla por el atributo de junta. Si entran en memoria, el ordenamiento puede hacerse con quicksort y el costo de acceso a disco es sólo $B(R)))
