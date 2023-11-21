@@ -9,6 +9,9 @@ En los gestores los índices se clasifican en distintos tipos:
 - Cuando se construye sobre el campo de ordenamiento del archivo físico, pero este no es clave, el índice se denomina **índice de clustering**.
 - Los índices que se construyen sobre campos que no son los campos de ordenamiento del archivo se denominan **índices secundarios**.
 
+> [!note] Observación
+> Un archivo solo puede tener un único índice primario o de clustering
+
 ## [[Lenguaje SQL]]]
 
 SQL no dispone de una sentencia estándar para la definición de índices, aunque la mayoría de los gestores tienen una sentencia tipo `CREATE INDEX` con la siguiente sintaxis:
@@ -17,3 +20,5 @@ SQL no dispone de una sentencia estándar para la definición de índices, aunqu
 CREATE [UNIQUE] INDEX nombreIndice
 ON tabla (A1, ..., An);
 ```
+
+En Postgres no se pueden crear índice de *clustering*, pero sí permite *clusterizar* la tabla manualmente, lo cual se puede ejecutar periódicamente.
