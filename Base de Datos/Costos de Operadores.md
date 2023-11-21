@@ -182,6 +182,8 @@ Luego, cada par de grupos se combina verificando si se cumpla la condición de j
 
 El número $m$ es escogido de manera que para cada par de grupos, al menos uno entre en memoria, y sobre un bloque de memoria para hacer desfilar al otro grupo. El costo de la combinación de $R_i$ y  $S_i$ es de $B(R_i) + B(S_i)$.
 
+De igual forma, el número $m$ debe ser menor que la variabilidad, pues no sirve de nada tener particiones vacías.
+
 El costo total entonces es:
 
 $$
