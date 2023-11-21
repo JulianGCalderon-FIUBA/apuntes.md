@@ -180,7 +180,7 @@ La idea de este método es particionar las tablas $R$ y $S$ en $m$ grupos utiliz
 
 Luego, cada par de grupos se combina verificando si se cumpla la condición de junta con un enfoque de fuerza bruta. No es necesario combinar $R_i, S_j$, con $i \neq j$.
 
-El número $m$ es escogido de manera que para cada par de grupos, al menos uno entre en memoria, y sobre un bloque de memoria para hacer desfilar al otro grupo. El costo de la combinación de $R_i, S_i$ es de $B(R_i) + B(S_i)$.
+El número $m$ es escogido de manera que para cada par de grupos, al menos uno entre en memoria, y sobre un bloque de memoria para hacer desfilar al otro grupo. El costo de la combinación de $R_i$ y  $S_i$ es de $B(R_i) + B(S_i)$.
 
 El costo total entonces es:
 
