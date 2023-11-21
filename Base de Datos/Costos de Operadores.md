@@ -174,8 +174,8 @@ $$
 
 $$
 
-### Método de sort-merge (variante GRACE)
+### Método de sort-merge - GRACE
 
 La idea de este método es particionar las tablas $R$ y $S$ en $m$ grupos utilizando una función de hash $h(X)$, aplicada sobre los atributos de junta $X$. El costo del particionado será de: $2 \cdot (B(R) + B(S))$.
 
-Luego, cada par de grupos se combina verificando si se cumpla la condición condicón de junta con un enfoque de fuerza bruta.
+Luego, cada par de grupos se combina verificando si se cumpla la condición condición de junta con un enfoque de fuerza bruta.
