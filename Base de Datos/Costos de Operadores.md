@@ -160,4 +160,20 @@ Si existe la consulta simétrica, entonces podremos calcular ambas estimaciones 
 
 ### Método de sort-merge
 
-Este método consiste en ordenar los archivos de cada tabla por el atributo de junta. Si entran en memoria, el ordenamiento puede hacerse con quicksort y el costo de acceso a disco es sólo $B(R)))
+Este método consiste en ordenar los archivos de cada tabla por el atributo de junta. Si entran en memoria, el ordenamiento puede hacerse con *quicksort* y el costo de acceso a disco es solo $B(R) + B(S)$.
+
+Si los archivos no caben en memoria, debe utilizarse un algoritmo de *sort* externo. El costo de ordenar $R$ y volverlo a guardar en disco es de aproximadamente $2B(R) \cdot \lceil\log_{M-1}(B(R))\rceil$
+
+Una vez ordenados, se hace un *merge* de ambos archivos que solo selecciona aquellos pares de tuplas en que coinciden los atributos de junta. El *merge* recorre una única vez cada archivo, con un costo total de $B(R) + B(S)$.
+
+El costo total entonces es:
+
+$$
+
+\text{cost}(R*S) = B(R) + B(S) + 2B(R) \cdot \lceil\log_{M-1}(B(R))\rceil + 2B(S) \cdot \lceil\log_{M-1}(B(S))\rceil
+
+$$
+
+### Método de sort-merge (variante GRACE)
+
+La idea de este método es particionar las tablas $R$ y $S$ en $m$ grupos utilizando una función de hash $h(X)$, aplicada sobre los atribtuos de junta $X$. El costo del particionado será de: $2 \cdot (B(R) + B(S))$
