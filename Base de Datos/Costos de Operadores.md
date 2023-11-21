@@ -16,7 +16,7 @@ $$
 
 Si contamos con índices, entonces podremos realizar consultas más eficientes:
 
-**Búsqueda con índice primario:** Cuando $A_i$ es un atributo clave del que se tiene un índice primario, solo una tupla puede satisfacer la condición:
+**Búsqueda con índice primario:** Cuando $A_i$ es un atributo clave del que se tiene un índice primario, solo una tupla puede satisfacer la condición. Necesitaremos un acceso por cada nivel de árbol, más un acceso más por el bloque que contiene las tuplas.
 
 $$
 
@@ -24,19 +24,19 @@ $$
 
 $$
 
-**Búsqueda con índice de clustering:** Cuando $A_i$ no es clave, pero se tiene un índice de ordenamiento *(clustering)* por él. Las tuplas se encuentran contiguas en los bloques, los cuales estarán disjuntos.
+**Búsqueda con índice de clustering:** Cuando $A_i$ no es clave, pero se tiene un índice de ordenamiento *(clustering)* por él. Las tuplas que coincidan con la condición se encuentran contiguas en distintos bloques.
 $$
 
-\text{cost}(S) = \text{Height}(I(A_i, R)) + \Big\lceil\frac{B(R)}{V(A_i, R)}\Big\rceil
+\text{cost}(S) \approx \text{Height}(I(A_i, R)) + \Big\lceil\frac{B(R)}{V(A_i, R)}\Big\rceil
 
 $$
-Como no sabemos en qué bloque se encuentra, debemos buscar todos los bloques. Pero como están ordenados, entonces la cantidad de bloques es menor. Podemos aproximar dividiendo la cantidad de bloques entre la cantidad de valores distintos.
+Como no sabemos en qué bloque se encuentra, debemos buscar todos los bloques. Pero como están ordenados, entonces la cantidad de bloques es menor. Podemos aproximar la cantidad de bloques por valor distinto, dividiendo la cantidad de bloques entre la cantidad de valores distintos.
 
-**Búsqueda con índice secundario:** Cuando $A_i$ no tiene un índice de *clustering*, pero existe un índice secundario asociado a él, entonces.
+**Búsqueda con índice secundario:** Cuando $A_i$ no tiene un índice de *clustering*, pero existe un índice secundario asociado a él. Las tuplas que coincidan con la condición se encuentran contiguas en distintos bloques.
 
 $$
 
-\text{cost}(S) = \text{Height}(I(A_i, R)) + \Big\lceil\frac{n(R)}{V(A_i, R)}\Big\rceil
+\text{cost}(S) \approx \text{Height}(I(A_i, R)) + \Big\lceil\frac{n(R)}{V(A_i, R)}\Big\rceil
 
 $$
 ### Selecciones Complejas
