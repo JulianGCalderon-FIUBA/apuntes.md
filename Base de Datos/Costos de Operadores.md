@@ -30,7 +30,7 @@ $$
 \text{cost}(S) \approx \text{Height}(I(A_i, R)) + \Big\lceil\frac{B(R)}{V(A_i, R)}\Big\rceil
 
 $$
-Como no sabemos en qué bloque se encuentra, debemos buscar todos los bloques. Pero como están ordenados, entonces la cantidad de bloques es menor. Podemos aproximar la cantidad de bloques por valor distinto, dividiendo la cantidad de bloques entre la cantidad de valores distintos.
+Como no sabemos en qué bloque se encuentra, debemos buscar todos los bloques. Pero como están ordenados, entonces la cantidad de bloques es menor. Aproximaremos la cantidad de bloques a leer, como la división entre la cantidad de bloques, y la variabilidad.
 
 **Búsqueda con índice secundario:** Cuando $A_i$ no tiene un índice de *clustering*, pero existe un índice secundario asociado a él. Las tuplas que coincidan con la condición se encuentran dispersas en distintos bloques.
 
@@ -39,7 +39,7 @@ $$
 \text{cost}(S) \approx \text{Height}(I(A_i, R)) + \Big\lceil\frac{n(R)}{V(A_i, R)}\Big\rceil
 
 $$
-Aproximaremos
+Aproximaremos la cantidad de valores posibles, como la división entre la cantidad de tuplas y la variabilidad. Luego asumimos el peor caso, cada una de estas tuplas está en un bloque distinto.
 ### Selecciones Complejas
 
 Si la selección involucra la conjunción de varias condiciones simples, pueden adoptarse distintas estrategias:
