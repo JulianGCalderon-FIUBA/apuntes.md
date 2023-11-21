@@ -6,7 +6,7 @@ Analizaremos los costos en función de cuantos accesos a discos se requiere
 
 Partimos de una selección básica del tipo $\sigma_\text{cond}(R)$, en donde $\text{cond}$ es una condición atómica. Analizaremos distintas situaciones para la comparación por igual.
 
-### Búsqueda Lineal
+### Búsqueda lineal
 
 Si no tenemos índices, entonces debemos recorrer el disco en busca de los registros que cumplen con la condición. Consiste en explorar cada registro, analizando si se verifica la condición.
 
@@ -44,7 +44,7 @@ $$
 
 $$
 Aproximaremos la cantidad de valores posibles, como la división entre la cantidad de tuplas y la variabilidad. Luego asumimos el peor caso (no están ordenados), cada una de estas tuplas está en un bloque distinto.
-### Selecciones Complejas
+### Selecciones complejas
 
 Si la selección involucra la conjunción de varias condiciones simples, pueden adoptarse distintas estrategias:
 
@@ -58,7 +58,7 @@ Si la selección involucra una disyunción de condiciones simples, debemos aplic
 
 Dividiremos el análisis de la proyección $\pi_X(R)$ en dos casos.
 
-### Con Superclave
+### Con superclave
 
 Si $X$ es superclave, no es necesario eliminar duplicados, por lo que el costo será:
 
@@ -67,7 +67,7 @@ $$
 cost(\pi) = B(R)
 
 $$
-### Sin Superclave
+### Sin superclave
 
 Si $X$ no es superclave, entonces debemos eliminar duplicados. Llamaremos $\hat\pi_X(R)$ a la proyección de multiconjuntos.
 
@@ -109,7 +109,7 @@ Existen distintos métodos para calcular una junta. Solo indicaremos el costo de
 
 Dadas dos relaciones $R$, $S$, se utiliza cuando no tenemos índices, y consiste en tomar cada par de bloques de ambas relaciones, y comparar todas sus tuplas entre sí.
 
-El costo de procesar cada bloque de $R$ es de $1 + B(S)$, y el total es de: $B(R)\cdot(1+B(S))$, suponiendo que utilizamos $R$ como pivote. Elegiremos como pivote el más conveniente (el de menor):
+El costo de procesar cada bloque de $R$ es de $1 + B(S)$, y el total es de: $B(R)\cdot(1+B(S))$, suponiendo que utilizamos $R$ como pivote. Elegiremos como pivote el más conveniente (el de menor cantidad de bloques):
 
 $$
 
@@ -123,3 +123,4 @@ $$
 \text{cost}(R*S) = B(R) + B(S)
 
 $$
+### Método de único loop
