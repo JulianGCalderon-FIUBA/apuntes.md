@@ -1,35 +1,33 @@
+A partir de la [[Esquema de Procesamiento#Información de Catálogo|información de catálogo]], podemos estimar el costo de las distintas operaciones, según la estructura del disco.
+
+Analizaremos los costos en función de cuantos accesos a discos se requiere
+
 ## Selección
 
 Partimos de una selección básica del tipo $\sigma_\text{cond}(R)$, en donde $\text{cond}$ es una condición atómica. Analizaremos distintas situaciones para la comparación por igual.
 
-Existen distintas estrategias de búsqueda, según los recursos con los que contamos.
+Si no tenemos índices, entonces debemos recorrer el disco en busca de los registros que cumplen con la condición.
 
-### Métodos de File Scan
-
-Estos métodos recorren el disco en busca de los registros que cumplen con la condición.
-
-La búsqueda lineal consiste en explorar cada registro, analizando si se verifica la condición.
+**Búsqueda lineal:** Consiste en explorar cada registro, analizando si se verifica la condición.
 
 $$
-	\text{cost}(S_{3a}) = 1
+	\text{cost}(S) = B(R)
 	$$
 
-### Métodos de Index Scan
-
-Estos métodos utilizan un índice de búsqueda.
+Si contamos con índices, entonces podremos realizar consultas más eficientes:
 
 **Búsqueda con índice primario:** Cuando $A_i$ es un atributo clave del que se tiene un índice primario, solo una tupla puede satisfacer la condición:
 
 $$
 
-\text{cost}(S_{3a}) = \text{Height}(I(A_i, R)) + 1
+\text{cost}(S) = \text{Height}(I(A_i, R)) + 1
 
 $$
 
 **Búsqueda con índice de clustering:** Cuando $A_i$ no es clave, pero se tiene un índice de ordenamiento *(clustering)* por él. Las tuplas se encuentran contiguas en los bloques, los cuales estarán disjuntos.
 $$
 
-\text{cost}(S_5) = \text{Height}(I(A_i, R)) + \Big\lceil\frac{B(R)}{V(A_i, R)}\Big\rceil
+\text{cost}(S) = \text{Height}(I(A_i, R)) + \Big\lceil\frac{B(R)}{V(A_i, R)}\Big\rceil
 
 $$
 Como no sabemos en qué bloque se encuentra, debemos buscar todos los bloques. Pero como están ordenados, entonces la cantidad de bloques es menor. Podemos aproximar dividiendo la cantidad de bloques entre la cantidad de valores distintos.
@@ -38,7 +36,7 @@ Como no sabemos en qué bloque se encuentra, debemos buscar todos los bloques. P
 
 $$
 
-\text{cost}(S_6) = \text{Height}(I(A_i, R)) + \Big\lceil\frac{n(R)}{V(A_i, R)}\Big\rceil
+\text{cost}(S) = \text{Height}(I(A_i, R)) + \Big\lceil\frac{n(R)}{V(A_i, R)}\Big\rceil
 
 $$
 ### Selecciones Complejas

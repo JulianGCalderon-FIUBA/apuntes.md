@@ -21,4 +21,4 @@ CREATE [UNIQUE] INDEX nombreIndice
 ON tabla (A1, ..., An);
 ```
 
-En Postgres no se pueden crear índice de *clustering*, pero sí permite *clusterizar* la tabla manualmente, lo cual se puede ejecutar periódicamente.
+En PostgreSQL no se pueden crear índice de *clustering*, pero sí permite *clusterizar* la tabla manualmente, lo cual se puede ejecutar periódicamente.
