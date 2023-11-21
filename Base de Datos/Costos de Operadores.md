@@ -174,7 +174,7 @@ $$
 
 $$
 
-### Método de sort-merge - GRACE
+### Método de sort-merge GRACE
 
 La idea de este método es particionar las tablas $R$ y $S$ en $m$ grupos utilizando una función de hash $h(X)$, aplicada sobre los atributos de junta $X$. El costo del particionado (y envío a disco) será de: $2 \cdot (B(R) + B(S))$. Notemos que si dos tuplas $r, S$ cumplen que $h(r.X) = h(s.X)$ no implica que $r.X = s.X$.
 
@@ -191,3 +191,11 @@ $$
 \text{cost}(R*S) = 3 \cdot (B(R) + B(S))
 
 $$
+
+### Pipelining
+
+En muchos casos, el resultado de un operador puede ser procesado por el operador siguiente en forma parcial (es decir, sin necesidad de que el operador anterior haya terminado de generar todas las tuplas)
+
+Esta estrategia se denomina *pipelining*, y los gestores suelen utilizarla en los planes de ejecución siempre que sea posible.
+
+Al calcular el costo de dos operaciones anidadas $O_2(O_1(R))$, debemos considerar que en el caso de utilizar pipelining no será necesario tener todos los bloques de la salida de $O_1$ para comenzar a calcular $O_2$. En particular, no tendremos que materializar toda la salida de $O_1$ por falta de espacio en memoria.
