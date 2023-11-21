@@ -32,13 +32,14 @@ $$
 $$
 Como no sabemos en qué bloque se encuentra, debemos buscar todos los bloques. Pero como están ordenados, entonces la cantidad de bloques es menor. Podemos aproximar la cantidad de bloques por valor distinto, dividiendo la cantidad de bloques entre la cantidad de valores distintos.
 
-**Búsqueda con índice secundario:** Cuando $A_i$ no tiene un índice de *clustering*, pero existe un índice secundario asociado a él. Las tuplas que coincidan con la condición se encuentran contiguas en distintos bloques.
+**Búsqueda con índice secundario:** Cuando $A_i$ no tiene un índice de *clustering*, pero existe un índice secundario asociado a él. Las tuplas que coincidan con la condición se encuentran dispersas en distintos bloques.
 
 $$
 
 \text{cost}(S) \approx \text{Height}(I(A_i, R)) + \Big\lceil\frac{n(R)}{V(A_i, R)}\Big\rceil
 
 $$
+Aproximaremos
 ### Selecciones Complejas
 
 Si la selección involucra la conjunción de varias condiciones simples, pueden adoptarse distintas estrategias:
