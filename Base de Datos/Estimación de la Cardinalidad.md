@@ -63,4 +63,9 @@ Si queremos estimar la cantidad de bloques, necesitaremos el factor de bloque. E
 $$
 F(R*S) = \Big(\frac{1}{F(R)} + \frac{1}{F(S)}\Big)^{-1}
 $$
- 
+
+Una vez tenemos el factor de bloque, podremos fácilmente deducir la cantidad de bloques dividiendo la cantidad de tuplas entre el factor de bloque.
+
+### Junta con histograma
+
+Si el gestor tiene histogramas para el atributo de junta, podria aproximar de mejor forma la cantidad de tuplas de 
