@@ -34,6 +34,14 @@ $$
 
 Este método no nos permite selecciones con otros operadores, y asume una distribución uniforme.
 
-## Selección con histograma
+### Selección con histograma
 
 El histograma nos resume la distribución de los valores que toma un atributo en una instancia de relación dada. No necesariamente cubrirá a todos los valores.
+
+Los histogramas suelen agrupar a partir de quantiles, agrupando la misma cantidad de tuplas en cada sección.
+
+Si el gestor conoce la cantidad de tuplas para un valor particular, puede devolver directamente el valor almacenado. Si el agrupamiento contiene más de un valor distinto, entonces podremos utilizar la variabilidad de ese grupo para una mejor estimación.
+
+Para selecciones por rango, el histograma es áun mas util, pues podemos obervar la distribución en un rango de 
+
+## Junta
