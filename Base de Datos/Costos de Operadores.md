@@ -209,5 +209,19 @@ Para poder probar las combinaciones posibles que puede utilizar un gestor, se ba
 	- Unión: $\sigma_{c_1\lor c_2 \lor \dots \lor c_n}(R) = \sigma_{c_1}(R) \cup \sigma_{c_2}(R) \cup \dots \cup \sigma_{c_n}(R)$
 	- Conmutatividad: $\sigma_{c_1}(\sigma_{c_2}(R)) = \sigma_{c_2}(\sigma_{c_1}(R))$
 - **Proyección:**
-	- Cascada: $\pi_{X_1}(\pi_{X_2}(\dots(\pi_{X_n}(R))\dots))$ = \pi_{X_1}()
-	- 
+	- Cascada: $\pi_{X_1}(\pi_{X_2}(\dots(\pi_{X_n}(R))\dots)) = \pi_{X_1}(R)$. Siempre y cuando las proyecciones sean subconjuntos de sus proyecciones siguientes.
+	- Conmutatividad con $\sigma$: $\pi_X(\sigma_c(R)) = \sigma_c(\pi_X(R))$. Siempre y cuando entre los atributos que proyecto se mantengan los atributos sobre los cuales condiciono.
+- **Producto Cartesiano y Junta:**
+	- Conmutatividad:
+		- $R \times S = S \times R$
+		- $R * S = S * R$
+	- Asociatividad:
+		- $(R \times S) \times T = R \times (S \times T)$
+		- $(R * S) * T = R * (S * T)$
+- **Operaciones de Conjuntos:**
+	- Conmutatividad:
+		- $R \times S = S \times R$
+		- $R * S = S * R$
+	- Asociatividad:
+		- $(R \times S) \times T = R \times (S \times T)$
+		- $(R * S) * T = R * (S * T)$
