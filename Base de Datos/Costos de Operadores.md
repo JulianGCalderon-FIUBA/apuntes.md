@@ -220,8 +220,11 @@ Para poder probar las combinaciones posibles que puede utilizar un gestor, se ba
 		- $(R * S) * T = R * (S * T)$
 - **Operaciones de Conjuntos:**
 	- Conmutatividad:
-		- $R \times S = S \times R$
-		- $R * S = S * R$
+		- $R \cup S = S \cup R$
+		- $R \cap S = S \cap R$
 	- Asociatividad:
-		- $(R \times S) \times T = R \times (S \times T)$
-		- $(R * S) * T = R * (S * T)$
+		- $(R \cup S) \cup T = R \cup (S \cup T)$
+		- $(R \cap S) \cap T = R \cap (S \cap T)$
+- **Mixtas:**
+	- Distribución de la selección en la junta: $\sigma_c(R*S) = \sigma_{C_r}(R) * \sigma_{C_s}(S)*$. Solo si $c$ puede escribirse como $c_R \land c_S$. Donde involucran solo y respectivamente atributos de $R$ y $S$.
+	- Distribución de la proyección en la junta: $\pi_X(R*S) = \pi_{X_R}(R)*\pi_{X_S}(S)$. Solo si todos los atributos de junta estan incluidos en $X$, entonces llamando $X_R
