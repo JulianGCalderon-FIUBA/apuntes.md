@@ -42,6 +42,8 @@ Los histogramas suelen agrupar a partir de quantiles, agrupando la misma cantida
 
 Si el gestor conoce la cantidad de tuplas para un valor particular, puede devolver directamente el valor almacenado. Si el agrupamiento contiene más de un valor distinto, entonces podremos utilizar la variabilidad de ese grupo para una mejor estimación.
 
-Para selecciones por rango, el histograma es áun mas util, pues podemos obervar la distribución en un rango de 
+Para selecciones por rango, el histograma es áun mas util, pues podemos obervar la distribución en un rango de valores.
 
 ## Junta
+
+Consideremos la junta $R(A, B)$, y $S(B, C)$. En principio, $0 \leq n(R*S) \leq n(R) \cdot n(S)$, dependiendo de como estén distribuidos los valores de $B$ en una y otra relación.
