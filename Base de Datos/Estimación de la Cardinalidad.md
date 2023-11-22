@@ -58,4 +58,9 @@ $$
 n(R*S) = \text{js} \cdot n(R) \cdot n(S) = \frac{n(R) \cdot n(S)}{\max{(V(B,R), V(B, S))}}
 $$
 
-Si queremos estimar la cantidad de bloques, necesitaremos el factor de bloque. Este dependerá del tamaño de las tuplas.
+Si queremos estimar la cantidad de bloques, necesitaremos el factor de bloque. Este dependerá del tamaño de las tuplas. Recordemos que el tamaño $t_R$ de una tupla de $R$ está dado por $1/F(R)$, y el tamaño de una tupla en la junta está dado por la suma del tamaño de las tuplas de cada relación involucrada.
+
+$$
+F(R*S) = \Big(\frac{1}{F(R)} + \frac{1}{F(S)}\Big)^{-1}
+$$
+ 
