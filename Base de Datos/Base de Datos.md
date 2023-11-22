@@ -57,3 +57,4 @@
 - [[Índices]]
 - [[Costos de Operadores]]
 - [[Estimación de la Cardinalidad]]
+- [[Reglas de Equivalencia]]
