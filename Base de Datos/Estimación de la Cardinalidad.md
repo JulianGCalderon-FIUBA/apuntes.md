@@ -70,6 +70,16 @@ Una vez tenemos el factor de bloque, podremos fácilmente deducir la cantidad de
 
 Si el gestor tiene histogramas para el atributo de junta, podría aproximar de mejor forma la cantidad de tuplas de la junta.
 
-Para cada intervalo $x_i$ del que conocemos $f_R(X_i)$ y $f_s(X_i)$ (cantidad de tuplas)
+Supongamos que tenemos un histograma que divide el atributo en $k$ valores, con una última columna de los valores que quedaron sin agrupación.
+
+Para cada valor $x_i$ del que conocemos $f_R(X_i)$ y $f_S(X_i)$ (donde esto representa la cantidad de tuplas con el valor $x_i$) sabemos que la cantidad de tuplas en el resultado será: $f_R(x_i) \cdot f_S(x_i)$.
+
+Para aquellos $x_i$ de los que no conocemos uno de los dos, estimaremos el faltante a partir de la columna sin agrupamiento, y la variabilidad.
+
+$$
+f_S(x_i) = \frac{f_S(\text{otros})}{V(B,S) - k}
+$$
+
+Una vez calculado esto, debemos agregarlo al histograma y restarlo de la columna sin agrupamiento.
 
 Para calcularlo, se calculará la junta para cada quantil, y luego se sumarán los resultados. Si para algún quantil no tenemos información de alguna de las relaciones, debemos estimar este valor a partir de la columna de restantes (sin agrupamiento())
