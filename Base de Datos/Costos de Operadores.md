@@ -199,3 +199,10 @@ En muchos casos, el resultado de un operador puede ser procesado por el operador
 Esta estrategia se denomina *pipelining*, y los gestores suelen utilizarla en los planes de ejecución siempre que sea posible.
 
 Al calcular el costo de dos operaciones anidadas $O_2(O_1(R))$, debemos considerar que en el caso de utilizar pipelining no será necesario tener todos los bloques de la salida de $O_1$ para comenzar a calcular $O_2$. En particular, no tendremos que materializar toda la salida de $O_1$ por falta de espacio en memoria.
+
+## Reglas de Equivalencia
+
+Para poder probar las combinacines posibles que puede utilizar un gestor, se basaran en las reglas de equivalencia.
+
+- Selección:
+	- $\sigma_{c_1\land c_2 \land \dots \land c_n}(R) =$

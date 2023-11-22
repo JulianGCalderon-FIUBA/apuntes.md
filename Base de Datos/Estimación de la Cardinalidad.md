@@ -80,6 +80,16 @@ $$
 f_S(x_i) = \frac{f_S(\text{otros})}{V(B,S) - k}
 $$
 
-Una vez calculado esto, debemos agregarlo al histograma y restarlo de la columna sin agrupamiento.
+Una vez calculado esto, debemos agregarlo al histograma y restarlo de la columna sin agrupamiento. Además, calcularemos $k'$ para cada columna, sumando para los valores recién agregados.
 
-Para calcularlo, se calculará la junta para cada quantil, y luego se sumarán los resultados. Si para algún quantil no tenemos información de alguna de las relaciones, debemos estimar este valor a partir de la columna de restantes (sin agrupamiento())
+Finalmente, estimamos las tuplas correspondientes a la columna sin agrupamiento en el resultado utilizando la estimación simple (equiprobable):
+
+$$
+f_{R*S}(\text{otros}) = \frac{f_R(\text{otros})\cdot f_R(\text{otros})}{\max{(V(R,B) - k', V(S,B) - k')}}
+$$
+
+La estimación se obtiene sumando estas estimaciones, con:
+
+$$
+n(R*S) = \sum_i f_{R*S}(x_i)
+$$
