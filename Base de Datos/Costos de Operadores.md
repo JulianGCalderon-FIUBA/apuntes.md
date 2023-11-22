@@ -202,7 +202,12 @@ Al calcular el costo de dos operaciones anidadas $O_2(O_1(R))$, debemos consider
 
 ## Reglas de Equivalencia
 
-Para poder probar las combinacines posibles que puede utilizar un gestor, se basaran en las reglas de equivalencia.
+Para poder probar las combinaciones posibles que puede utilizar un gestor, se basaran en las reglas de equivalencia.
 
-- Selección:
-	- $\sigma_{c_1\land c_2 \land \dots \land c_n}(R) =$
+- **Selección:**
+	- Cascada: $\sigma_{c_1\land c_2 \land \dots \land c_n}(R) = \sigma_{c_1}(\sigma_{c_2}(\dots(\sigma_{c_n}(R))\dots)$
+	- Unión: $\sigma_{c_1\lor c_2 \lor \dots \lor c_n}(R) = \sigma_{c_1}(R) \cup \sigma_{c_2}(R) \cup \dots \cup \sigma_{c_n}(R)$
+	- Conmutatividad: $\sigma_{c_1}(\sigma_{c_2}(R)) = \sigma_{c_2}(\sigma_{c_1}(R))$
+- **Proyección:**
+	- Cascada: $\pi_{X_1}(\pi_{X_2}(\dots(\pi_{X_n}(R))\dots))$ = \pi_{X_1}()
+	- 
