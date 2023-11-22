@@ -18,8 +18,22 @@ Si se eliminan duplicados, utilizaremos la variabilidad para estimar de forma m�
 
 La selección reduce el número de tuplas en el resultado, aunque mantiene el tamaño de cada tupla.
 
-Para estimar el tamaño de una selección $\sigma_{A_i=c}(R)$, utilizaremos la variabilidad de $A_i$ en $R$, denominada $V(A_i, R)$. 
+Para estimar el tamaño de una selección $\sigma_{A_i=c}(R)$, utilizaremos la variabilidad de $A_i$ en $R$, denominada $V(A_i, R)$.
 
 $$
-n
+n(\sigma_{A_i=c}(R)) = \frac{n(R)}{V(A_i, R)}
 $$
+
+Se le suele llamar a la fracción $\frac{1}{V(A_i, R)}$ se denomina selectividad de $A_i$ en $R$.
+
+Si quiero calcular la cantidad de bloques, podremos utilizar análogamente:
+
+$$
+B(\sigma_{A_i=c}(R)) = \frac{B(R)}{V(A_i, R)}
+$$
+
+Este método no nos permite selecciones con otros operadores, y asume una distribución uniforme.
+
+## Selección con histograma
+
+El histograma nos resume la distribución de los valores que toma un atributo en una instancia de relación dada. No necesariamente cubrirá a todos los valores.
