@@ -47,3 +47,11 @@ Para selecciones por rango, el histograma es aún más útil, pues podemos obser
 ## Junta
 
 Consideremos la junta $R(A, B)$, y $S(B, C)$. En principio, $0 \leq n(R*S) \leq n(R) \cdot n(S)$, dependiendo de como estén distribuidos los valores de $B$ en una y otra relación.
+
+Dadas las variabilidades $V(B, R)$, y $V(B,S)$, asumiremos que los valores de $B$ en la relación con menor variabilidad están incluidos dentro de los valores de $B$ en la otra relación.
+
+Luego, si asumimos que $V(B, R) < V(B,S)$. Entonces por cada par de tupla $r,s$ en $R,S$, la probabilidad de que se junten es de $1/V(B,S)$. Llamaremos $\text{js}$ a la varibilidad de la junta, definida como $1/\max{(V(B,R))}
+
+$$
+n(R*S) = \frac
+$$
