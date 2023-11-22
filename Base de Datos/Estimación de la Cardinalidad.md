@@ -68,4 +68,8 @@ Una vez tenemos el factor de bloque, podremos fácilmente deducir la cantidad de
 
 ### Junta con histograma
 
-Si el gestor tiene histogramas para el atributo de junta, podria aproximar de mejor forma la cantidad de tuplas de 
+Si el gestor tiene histogramas para el atributo de junta, podría aproximar de mejor forma la cantidad de tuplas de la junta.
+
+Para cada intervalo $x_i$ del que conocemos $f_R(X_i)$ y $f_s(X_i)$ (cantidad de tuplas)
+
+Para calcularlo, se calculará la junta para cada quantil, y luego se sumarán los resultados. Si para algún quantil no tenemos información de alguna de las relaciones, debemos estimar este valor a partir de la columna de restantes (sin agrupamiento())
