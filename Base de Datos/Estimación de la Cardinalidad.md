@@ -50,8 +50,12 @@ Consideremos la junta $R(A, B)$, y $S(B, C)$. En principio, $0 \leq n(R*S) \leq 
 
 Dadas las variabilidades $V(B, R)$, y $V(B,S)$, asumiremos que los valores de $B$ en la relación con menor variabilidad están incluidos dentro de los valores de $B$ en la otra relación.
 
-Luego, si asumimos que $V(B, R) < V(B,S)$. Entonces por cada par de tupla $r,s$ en $R,S$, la probabilidad de que se junten es de $1/V(B,S)$. Llamaremos $\text{js}$ a la varibilidad de la junta, definida como $1/\max{(V(B,R))}
+Luego, si asumimos que $V(B, R) < V(B,S)$. Entonces por cada par de tupla $r,s$ en $R,S$, la probabilidad de que se junten es de $1/V(B,S)$. Llamaremos $\text{js}$ a la selectividad de la junta, definida como $1/\max{(V(B,R), V(B, S))}$.
+
+A partir de esto, deducimos la cardinalidad del resultado como:
 
 $$
-n(R*S) = \frac
+n(R*S) = \text{js} \cdot n(R) \cdot n(S) = \frac{n(R) \cdot n(S)}{\max{(V(B,R), V(B, S))}}
 $$
+
+Si queremos estimar la cantidad de bloques, necesitaremos el factor de bloque. Este dependerá del tamaño de las tuplas.
