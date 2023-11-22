@@ -174,7 +174,7 @@ $$
 
 $$
 
-### Método de sort-merge GRACE
+### Método de junta hash GRACE
 
 La idea de este método es particionar las tablas $R$ y $S$ en $m$ grupos utilizando una función de hash $h(X)$, aplicada sobre los atributos de junta $X$. El costo del particionado (y envío a disco) será de: $2 \cdot (B(R) + B(S))$. Notemos que si dos tuplas $r, S$ cumplen que $h(r.X) = h(s.X)$ no implica que $r.X = s.X$.
 

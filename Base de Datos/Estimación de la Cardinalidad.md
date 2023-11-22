@@ -1,0 +1,2 @@
+Como parte de la estimación del costo de una consulta, es necesario a veces estimar el tamaño de las relaciones intermedias antes de calcularlas. Se espera que una estimación cumpla con los siguientes requisitos:
+- 

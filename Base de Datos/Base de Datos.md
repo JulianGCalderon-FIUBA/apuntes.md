@@ -56,3 +56,4 @@
 - [[Esquema de Procesamiento]]
 - [[Índices]]
 - [[Costos de Operadores]]
+- [[Estimación de la Cardinalidad]]
