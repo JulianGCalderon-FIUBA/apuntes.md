@@ -186,7 +186,7 @@ La idea de este método es particionar las tablas $R$ y $S$ en $m$ grupos utiliz
 
 Luego, cada par de grupos se combina verificando si se cumpla la condición de junta con un enfoque de fuerza bruta. No es necesario combinar $R_i, S_j$, con $i \neq j$. El costo de la combinación de $R_i$ y  $S_i$ es de $B(R_i) + B(S_i)$.
 
-El número $m$ es escogido de manera que haya un bloque para cada partición, al momento de realizar el *hashing* (y sobre un bloque para el desfile), y cada partición entre completa en memoria en el momento de realizar la
+El número $m$ es escogido de manera que haya un bloque para cada partición, al momento de realizar el *hashing* (y sobre un bloque para el desfile), y cada partición entre completa en memoria en el momento de realizar la junta.
 
 De igual forma, el número $m$ debe ser menor que la variabilidad, pues no sirve de nada tener particiones vacías.
 
