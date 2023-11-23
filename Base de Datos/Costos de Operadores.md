@@ -123,6 +123,12 @@ $$
 \text{cost}(R*S) = B(R) + B(S)
 
 $$
+Genéricamente, podemos calcular el costo, siendo $M$ la cantidad de memoria disponible (en bloques). Notemos que debemos guardar un bloque para el desfile, y otro bloque para los resultados.
+$$
+
+B(R) + \lceil B(R)/(M-2)\rceil \cdot B(S)
+
+$$
 ### Método de único loop
 
 Si el atributo de junta $A_i$ tiene un índice asociado en $R$, por ejemplo, podemos recorrer las tuplas de $S$ y para cada una de ellas buscar en el índice las tuplas de $R$ en que el atributo coincide. Luego, el costo será $B(S)$, sumado al costo de selección multiplicado por la cantidad de tuplas.
