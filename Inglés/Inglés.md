@@ -14,3 +14,4 @@
 - [[Frases Nominales]]
 - [[Morfología]]
 - [[Tenses]]
+- [[Frases Verbales]]
