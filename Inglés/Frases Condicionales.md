@@ -1,0 +1,1 @@
+La frases condicioniales se suelen estructurar como **cond. clause, main clause**, aunque también se pueden enc

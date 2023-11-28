@@ -1,4 +1,5 @@
 - [[Comprensión de Textos]]
+- [[Palabras Desconocidas]]
 - [[Cognados]]
 - [[Paratexto]]
 - [[Técnicas de Lectura]]
@@ -13,5 +14,6 @@
 - [[Adjetivos Compuestos]]
 - [[Frases Nominales]]
 - [[Morfología]]
-- [[Tenses]]
+- [[Tiempos Verbales]]
 - [[Frases Verbales]]
+- [[Frases Condicionales]]
