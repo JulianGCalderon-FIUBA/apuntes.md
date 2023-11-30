@@ -93,11 +93,25 @@ $$
 
 Una vez calculado esto, debemos agregarlo al histograma y restarlo de la columna sin agrupamiento. Además, calcularemos $k'$ para cada columna, sumando para los valores recién agregados.
 
+|       | 4     | 12   | 14    | 20    | 22    | 30   | otros |
+| ----- | ----- | ---- | ----- | ----- | ----- | ---- | ----- |
+| R.A   | 200   | 43   | 320   | 120   | 150   | 65   | 507   |
+| S.A   | 150   | 100  | 41    | 180   | 210   | 85   | 369   |
+| R * S | 30000 | 4300 | 13120 | 21600 | 31500 | 5525 |       |
+
 Finalmente, estimamos las tuplas correspondientes a la columna sin agrupamiento en el resultado utilizando la estimación simple (equiprobable):
 
 $$
 f_{R*S}(\text{otros}) = \frac{f_R(\text{otros})\cdot f_R(\text{otros})}{\max{(V(R,B) - k', V(S,B) - k')}}
 $$
+
+Obtendremos entonces:
+
+|       | 4     | 12   | 14    | 20    | 22    | 30   | otros |
+| ----- | ----- | ---- | ----- | ----- | ----- | ---- | ----- |
+| R.A   | 200   | 43   | 320   | 120   | 150   | 65   | 507   |
+| S.A   | 150   | 100  | 41    | 180   | 210   | 85   | 369   |
+| R * S | 30000 | 4300 | 13120 | 21600 | 31500 | 5525 | 15590      |
 
 La estimación se obtiene sumando estas estimaciones, con:
 
