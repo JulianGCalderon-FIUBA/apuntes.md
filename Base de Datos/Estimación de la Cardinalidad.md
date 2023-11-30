@@ -70,13 +70,20 @@ Una vez tenemos el factor de bloque, podremos fácilmente deducir la cantidad de
 
 Si el gestor tiene histogramas para el atributo de junta, podría aproximar de mejor forma la cantidad de tuplas de la junta.
 
-Supongamos que tenemos un histograma que divide el atributo en los $k$ valores mas frecuentes, para cada una de las relaciones, con una última columna de los valores que quedaron sin agrupación.
+Supongamos que tenemos un histograma que divide el atributo en los $k$ valores más frecuentes, para cada una de las relaciones, con una última columna de los valores que quedaron sin agrupación.
 
-| CABA | BSAS | CORDOBA | SANTA FE | OTROS |
-| ---- | ---- | ------- | -------- | ----- |
-|      |      |         |          |       |
+|       | 4   | 12  | 14  | 20  | 22  | 30  | otros |
+| ----- | --- | --- | --- | --- | --- | --- | ----- |
+| R.A   | 200 |     | 320 | 120 | 150 | 65  | 550   |
+| S.A   | 150 | 100 |     | 180 | 210 | 85  | 410   |
 
-Para cada valor $x_i$ del que conocemos $f_R(X_i)$ y $f_S(X_i)$ (donde esto representa la cantidad de tuplas con el valor $x_i$) sabemos que la cantidad de tuplas en el resultado será: $f_R(x_i) \cdot f_S(x_i)$.
+Para cada valor $x_i$ del que conocemos $f_R(x_i)$ y $f_S(x_i)$ (donde esto representa la cantidad de tuplas con el valor $x_i$) sabemos que la cantidad de tuplas en el resultado será: $f_R(x_i) \cdot f_S(x_i)$.
+
+|       | 4     | 12  | 14  | 20    | 22    | 30   | otros |
+| ----- | ----- | --- | --- | ----- | ----- | ---- | ----- |
+| R.A   | 200   |     | 320 | 120   | 150   | 65   | 550   |
+| S.A   | 150   | 100 |     | 180   | 210   | 85   | 410   |
+| R * S | 30000 |     |     | 21600 | 31500 | 5525 |       |
 
 Para aquellos $x_i$ de los que no conocemos uno de los dos, estimaremos el faltante a partir de la columna sin agrupamiento, y la variabilidad.
 
