@@ -70,7 +70,11 @@ Una vez tenemos el factor de bloque, podremos fácilmente deducir la cantidad de
 
 Si el gestor tiene histogramas para el atributo de junta, podría aproximar de mejor forma la cantidad de tuplas de la junta.
 
-Supongamos que tenemos un histograma que divide el atributo en $k$ valores, con una última columna de los valores que quedaron sin agrupación.
+Supongamos que tenemos un histograma que divide el atributo en los $k$ valores mas frecuentes, para cada una de las relaciones, con una última columna de los valores que quedaron sin agrupación.
+
+| CABA | BSAS | CORDOBA | SANTA FE | OTROS |
+| ---- | ---- | ------- | -------- | ----- |
+|      |      |         |          |       |
 
 Para cada valor $x_i$ del que conocemos $f_R(X_i)$ y $f_S(X_i)$ (donde esto representa la cantidad de tuplas con el valor $x_i$) sabemos que la cantidad de tuplas en el resultado será: $f_R(x_i) \cdot f_S(x_i)$.
 
