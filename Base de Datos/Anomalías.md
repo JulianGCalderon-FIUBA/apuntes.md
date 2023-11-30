@@ -18,14 +18,20 @@ $$
 
 La anomalía de la **actualización perdida** ocurre cuando una transacción $T_1$ lee un valor que es luego modificado por $T_2$. Si la primera transacción luego modifica el valor, lo hará en base al valor leído inicialmente, y la modificación de $T_2$ se perderá.
 
+Esta anomalía es un conflicto del tipo $RW$, seguido por otro de tipo $WW$.
+
+$$
+R_{T_1}(X)\dots W_{T_2}(X)\dots W_{T_1}(X)\dots(a_{T_1} \lor c_{T_1})
+$$
+
 ## Lectura no repetible
 
 Si, en cambio, la primera transacción volvería a leer el ítem luego de que la segunda la escribiera, se encontraría un valor distinto. Este caso se conoce como **lectura no repetible** (*unrepeatable read*)
 
-Esta anomalía es un conflicto del tipo $RW$, seguido por otro de tipo $WW$ o $WR$.
+Esta anomalía es un conflicto del tipo $RW$, seguido por otro de tipo $WR$.
 
 $$
-R_{T_1}(X)\dots W_{T_2}(X)\dots(a_{T_1} \lor c_{T_1})
+R_{T_1}(X)\dots W_{T_2}(X)\dots R_{T_1}(X)\dots(a_{T_1} \lor c_{T_1})
 $$
 
 ## Escritura sucia
