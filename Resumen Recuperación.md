@@ -92,6 +92,6 @@ En este algoritmo, el procedimiento con un *checkpointing* activo se realiza de 
 2. Hacer el volcado a disco de todos los *ítems* que hayan sido modificados antes del $(\text{BEGIN CKPT})$
 3. Escribir $(\text{END CKPT})$ en el *log* y volcarlo a disco.
 
-En la recuperación, debemos retroceder hasta el inicio de la transacción más antigua en el listado del listado, para deshacerla en caso de que no haya *commiteado*, o para rehacer sus operaciones posteriores al $(\text{BEGIN CKPT})$ en caso de que haya *commiteado*.
+En la recuperación, debemos retroceder hasta el inicio de la transacción más antigua en el listado del listado, para deshacerla en caso de que no haya *commiteado*. Para las transacciones que si *commitearon*, rehacemos sus operaciones posteriores al $(\text{BEGIN CKPT})$.
 
 Si encontramos primero un registro $(\text{BEGIN CKPT})$, entonces no nos sirve, y debemos buscar un *checkpoint* anterior en el log.

@@ -7,6 +7,10 @@
 - **Índice de ordenamiento:** $\text{cost}(\sigma) \approx \text{Height}(I(A_i, R)) + \Big\lceil\frac{B(R)}{V(A_i, R)}\Big\rceil$
 - **Índice secundario:** $\text{cost}(\sigma) \approx \text{Height}(I(A_i, R)) + \Big\lceil\frac{n(R)}{V(A_i, R)}\Big\rceil$
 
+### Estimación de cardinalidad
+
+
+
 ## Proyección
 
 ### Estimación de costos
@@ -17,6 +21,14 @@ Llamaremos $\hat\pi_X(R)$ a la proyección de multiconjuntos.
 - **Sin superclave:**
 	- **Sort:** $\text{cost}(\pi) = \text{cost}(\text{ord}_M(R)) = 2B(R) \cdot [\log_{M-1}(B(R))] - B(R)$
 	- **Hashing:** $\text{cost}(\pi) = B(R) + 2\cdot B(\hat\pi_X(R))$
+
+### Estimación de cardinalidad
+
+Si no elimina duplicados, entonces:
+
+$$
+B(\pi_{\text{DNI}}(\text{Persona})) = \frac{\text{\#Tuplas} \cdot \text{size}(\text{DNI})}{\text{size}(\text{bloque})}
+$$
 
 ## Unión e Intersección
 
