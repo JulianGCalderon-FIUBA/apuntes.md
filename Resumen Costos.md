@@ -18,7 +18,7 @@
 
 Llamaremos $\hat\pi_X(R)$ a la proyección de multiconjuntos.
 
-- **Con superclave:** $cost(\pi) = B(R)$
+- **Con superclave / en memoria:** $cost(\pi) = B(R)$
 - **Sin superclave:**
 	- **Sort:** $\text{cost}(\pi) = \text{cost}(\text{ord}_M(R)) = 2B(R) \cdot [\log_{M-1}(B(R))] - B(R)$
 	- **Hashing:** $\text{cost}(\pi) = B(R) + 2\cdot B(\hat\pi_X(R))$
