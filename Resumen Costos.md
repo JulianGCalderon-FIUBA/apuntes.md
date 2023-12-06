@@ -89,3 +89,9 @@ El factor del bloque como:
 $$
 F(R*S) = \Big(\frac{1}{F(R)} + \frac{1}{F(S)}\Big)^{-1}
 $$
+
+El factor de bloque es equivalente a:
+
+$$
+F(R) = \Big\lceil\frac{n(R)}{B(R)}\Big\rceil
+$$
