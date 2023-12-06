@@ -59,4 +59,6 @@ $$
 $$
 
 Hay que elegir cantidad de particiones, tal que:
-- todas en memoria, y que sobre uno para el desfile: $k < M$
+
+- Un bloque por particion, y uno para el desfile: $k < M$
+- Particion completa en memoria, y uno para el desfile: $k \geq B(n)/(M-1)$
