@@ -12,6 +12,8 @@
 - **Estimación de cantidad de tuplas:** $n(\sigma_{A_i=c}(R)) = \frac{n(R)}{V(A_i, R)}$
 - **Estimación de cantidad de bloques** $B(\sigma_{A_i=c}(R)) = \frac{B(R)}{V(A_i, R)}$
 
+Si tenemos un histograma, podremos usarlo para obtener la cantidad de tuplas.
+
 ## Proyección
 
 ### Estimación de costos
@@ -95,3 +97,15 @@ El factor de bloque es equivalente a:
 $$
 F(R) = \Big\lceil\frac{n(R)}{B(R)}\Big\rceil
 $$
+
+#### Histograma
+
+Para los atributos con cardinalidad conocida:
+
+$$
+
+$$
+
+Si tenemos un histograma, calculamos para cada valor conocido como el producto de las tuplas en cada relación, y luego calculamos los restantes con la fórmula general, asumiendo que sus elementos son equiprobables.
+
+Si para una sección del histograma una relación tiene un valor y la otra no, la otra asume un valor a partir de la columna de los restantes.
