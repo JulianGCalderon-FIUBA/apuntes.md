@@ -9,7 +9,8 @@
 
 ### Estimación de cardinalidad
 
-
+- **Estimación de cantidad de tuplas:** $n(\sigma_{A_i=c}(R)) = \frac{n(R)}{V(A_i, R)}$
+- **Estimación de cantidad de bloques** $B(\sigma_{A_i=c}(R)) = \frac{B(R)}{V(A_i, R)}$
 
 ## Proyección
 
@@ -74,3 +75,17 @@ Hay que elegir cantidad de particiones, tal que:
 
 - Un bloque por particion, y uno para el desfile: $k < M$
 - Particion completa en memoria, y uno para el desfile: $k \geq B(n)/(M-1)$
+
+### Estimación de Cardinalidad
+
+La cantidad de tuplas se estima como:
+
+$$
+n(R*S) = \text{js} \cdot n(R) \cdot n(S) = \frac{n(R) \cdot n(S)}{\max{(V(B,R), V(B, S))}}
+$$
+
+El factor del bloque como:
+
+$$
+F(R*S) = \Big(\frac{1}{F(R)} + \frac{1}{F(S)}\Big)^{-1}
+$$
