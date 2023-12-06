@@ -103,9 +103,23 @@ $$
 Para los atributos con cardinalidad conocida:
 
 $$
-
+f_R(x_i) \cdot f_S(x_i)
 $$
 
-Si tenemos un histograma, calculamos para cada valor conocido como el producto de las tuplas en cada relación, y luego calculamos los restantes con la fórmula general, asumiendo que sus elementos son equiprobables.
+Para aquellos atributos cuya cardinalidad solo conocemos de una de las tablas:
 
-Si para una sección del histograma una relación tiene un valor y la otra no, la otra asume un valor a partir de la columna de los restantes.
+$$
+f_S(x_i) = \frac{f_S(\text{otros})}{V(B,S) - k}; k := k - 1
+$$
+
+Para los atributos restantes
+
+$$
+f_{R*S}(\text{otros}) = \frac{f_R(\text{otros})\cdot f_R(\text{otros})}{\max{(V(R,B) - k_R, V(S,B) - k_S)}}
+$$
+
+Resultado final:
+
+$$
+n(R*S) = \sum_i f_{R*S}(x_i)
+$$
