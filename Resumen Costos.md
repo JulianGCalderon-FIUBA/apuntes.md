@@ -9,73 +9,30 @@
 
 ## Proyección
 
+### Estimación de costos
+
+Llamaremos $\hat\pi_X(R)$ a la proyección de multiconjuntos.
+
 - **Con superclave:** $cost(\pi) = B(R)$
-- **Sin superclave:** 
-	- **Sor**$cost(\pi) = B(R)$
-
-### Sin superclave
-
-Si $X$ no es superclave, entonces debemos eliminar duplicados. Llamaremos $\hat\pi_X(R)$ a la proyección de multiconjuntos.
-
-Podemos ordenar la tabla en memoria si la tabla entra en memoria, en caso contrario el costo usando un ordenamiento externo será:
-
-$$
-
-\text{cost}(\pi) = \text{cost}(\text{ord}_M(R)) = 2B(R) \cdot [\log_{M-1}(B(R))] - B(R)
-
-$$
-
-También podemos utilizar una estructura de *hash*. Si no entra en memoria, el costo usando un *hashing* externo será de:
-
-$$
-
-\text{cost}(\pi) = B(R) + 2\cdot B(\hat\pi_X(R))
-
-$$
-
-Si la consulta de SQL no incluye `DISTINCT`, entonces el resultado es un multiconjunto y el costo es siempre $B(R)$.
+- **Sin superclave:**
+	- **Sort:** $\text{cost}(\pi) = \text{cost}(\text{ord}_M(R)) = 2B(R) \cdot [\log_{M-1}(B(R))] - B(R)$
+	- **Hashing:** $\text{cost}(\pi) = B(R) + 2\cdot B(\hat\pi_X(R))$
 
 ## Unión e Intersección
 
-Primero, ordenamos las tablas $R$ y $S$. Si alguno no entra en memoria, utilizamos un *sort* externo.
-
-Asumimos que no se devuelven repetidos (comportamiento por defecto de SQL). Se puede modificar sencillamente en caso de querer repetidos.
-
-Procesaremos ambas tablas ordenadas haciendo un *merge* que avanza por las filas $r_i$ y $s_i$ ordenadas de cada tabla, el costo es:
+### Estimación de costos
 
 $$
-
 \text{cost}(\cup | \cap) = \text{cost}(\text{ord}_M(R)) + \text{cost}(\text{ord}_M(S)) + 2B(R) + 2B(S)
-
 $$
-
-Los algoritmos utilizados sobre las filas $r_i$ y $s_i$ serán los algoritmos clásicos de operaciones entre conjuntos.
 
 ## Junta
 
-Existen distintos métodos para calcular una junta. Solo indicaremos el costo de lectura de datos y cálculo del resultado. Para calcular el costo de almacenamiento, es necesario estimar la cardinalidad del resultado.
-
 ### Loops anidados por bloque
 
-Dadas dos relaciones $R$, $S$, se utiliza cuando no tenemos índices, y consiste en tomar cada par de bloques de ambas relaciones, y comparar todas sus tuplas entre sí.
-
-El costo de procesar cada bloque de $R$ es de $1 + B(S)$, y el total es de: $B(R)\cdot(1+B(S))$, suponiendo que utilizamos $R$ como pivote. Elegiremos como pivote el más conveniente (el de menor cantidad de bloques):
-
-$$
-
-\text{cost}(R*S) = \min(B(R) + B(R)\cdot B(S), B(S) + B(S) \cdot B(R))
-
-$$
-
-Esta estimación es un peor caso, suponiendo que solo podemos tener un bloque de cada tabla simultáneamente en memoria. Si pudiéramos cargar una de las tablas completa en memoria, sobrará un bloque, tendríamos el mejor caso:
-
-$$
-
-\text{cost}(R*S) = B(R) + B(S)
-
-$$
-
-Genéricamente, podemos calcular el costo, siendo $M$ la cantidad de memoria disponible (en bloques). Notemos que debemos guardar un bloque para el desfile, y otro bloque para los resultados.
+- **Peor Caso:** $B(R) + B(R)\cdot B(S)$
+- **Mejor Caso:** $B(R) + B(S)$
+- - **Mejor Caso:** $B(R) + B(S)$
 
 $$
 
