@@ -12,7 +12,7 @@ La forma de resolverlo es imponiendo un orden específico. Numeramos los palitos
 
 Esto nos asegura nunca llegar a un *deadlock*, pues nunca se tendrá que todos los filósofos tomen el palito de la derecha, ya que uno tomará el palito de la izquierda.
 
-## Solución con [[Técnicas de Programación Concurrente I/Canales]]
+## Solución con [[Técnicas de Programación Concurrente I/Canales|Canales]]
 
 Modelaremos los cinco tenedores con cinco canales. No es relevante el elemento que se envía, sino el hecho de enviarlo.
 
