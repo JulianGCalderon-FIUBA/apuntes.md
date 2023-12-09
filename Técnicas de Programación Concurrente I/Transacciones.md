@@ -45,6 +45,8 @@ Los archivos se modifican *in-place*, pero se mantiene una lista de los cambios 
 
 Si la transacción se aborta, se lee el log de atrás hacia adelante para deshacer los cambios (rollback).
 
+Si otra transacción dependía de un cambio realizado por una transacción que está abortando, esa transacción también se debe deshacer.
+
 ## Commit de Dos Fases
 
 El coordinador es aquel proceso que ejecuta la transacción:
