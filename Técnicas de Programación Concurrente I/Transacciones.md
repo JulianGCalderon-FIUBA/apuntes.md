@@ -53,6 +53,7 @@ El coordinador es aquel proceso que ejecuta la transacción:
 
 1. En la primera fase, el coordinador escribe *prepare* en su log y envía el mensaje *prepare* al esto de procesos. Los procesos que recibe el mensaje escriben *ready* en el log y envían *ready* al coordinador.
 2. En la segunda fase, el coordinador hace los cambios y envía el mensaje *commit* al resto de los procesos. Los procesos que reciben el mensaje escriben *commit* en el log y envían *finished* al coordinador.
+3. Si alguno no le responde, entonces el coordinador escribe un mensaje de *abort* y se lo envía al resto de procesos.
 
 ## Two-Phase Locking
 
