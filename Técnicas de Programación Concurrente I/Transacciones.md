@@ -49,7 +49,7 @@ Si otra transacción dependía de un cambio realizado por una transacción que e
 
 ## Commit de Dos Fases
 
-El coordinador es aquel proceso que ejecuta la transacción:
+El coordinador es aquel proceso que ejecuta la transacción, y quiere sincronizar un *commit* entre múltiples procesos participantes.
 
 1. En la primera fase, el coordinador escribe *prepare* en su log y envía el mensaje *prepare* al esto de procesos. Los procesos que recibe el mensaje escriben *ready* en el log y envían *ready* al coordinador.
 2. En la segunda fase, el coordinador hace los cambios y envía el mensaje *commit* al resto de los procesos. Los procesos que reciben el mensaje escriben *commit* en el log y envían *finished* al coordinador.
