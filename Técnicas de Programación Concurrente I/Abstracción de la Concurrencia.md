@@ -13,7 +13,7 @@ Dos de las herramientas más importantes para la abstracción del software son e
 
 ## Ejecución Concurrente
 
-La **ejecución del programa concurrente** resulta al ejecutar una secuencia de instrucciones atómicas que se obtiene de intercalar de forma arbitraria las instrucciones atómicas de los procesos que lo componen. A cada posible secuencia de ejecución se le suele llama **computación**, o *escenarios*.
+La **ejecución del programa concurrente** resulta al ejecutar una secuencia de instrucciones atómicas que se obtiene de intercalar de forma arbitraria las instrucciones atómicas de los procesos que lo componen. A cada posible secuencia de ejecución se le suele llamar **computación**, o *escenarios*.
 
 Esta ejecución está definida por **estados** y las transiciones entre estos estados. En cada punto de la ejecución, el programa debe estar en algún estado particular. Definido por el valor de las variables y el *program counter* de cada proceso. Un escenario, luego, es una secuencia de estados.
 
