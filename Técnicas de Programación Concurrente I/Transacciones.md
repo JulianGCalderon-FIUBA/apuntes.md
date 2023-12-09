@@ -62,7 +62,7 @@ Existen dos fases:
 - Fase de expansión: Se toman todos los locks usar.
 - Fase de contracción: Se liberan todos los locks. No se puede tomar un lock después de liberar otro.
 
-Esto garantiza la propiedad de serializabilidad para las transacciones, pero pueden ocurrir deadlocks. Una forma de prevernirlos puede ser u
+Esto garantiza la propiedad de serializabilidad para las transacciones, pero pueden ocurrir deadlocks. Una forma de prevenirlos puede ser utilizar un órden canónico para tomarlos.
 
 En el **strict two-phase locking**, la contracción ocurre después del commit. Esto asegura la recuperabilidad de las transacciones (sin rollbacks en cascada).
 
