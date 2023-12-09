@@ -2,6 +2,10 @@ El modelo de transacciones está conformado por un conjunto de procesos independ
 
 Los errores en la comunicación son manejados transparentemente por la capa de la comunicación.
 
+## Almacenamiento
+
+Existen tres tipos de almacenamiento
+
 El almacenamiento es estable, se implementa con discos, y la probabilidad de perder los datos es extremadamente pequeña.
 
 ## Primitivas
@@ -23,7 +27,7 @@ Tendremos cuatro propiedades importantes que buscaremos respetar:
 - **Aisladas:** Las transacciones concurrentes no interfieren con ellas mismas
 - **Durables:** Una vez que se *commitean* los cambios, son permanentes.
 
-## Private Worskpace
+## Private Workspace
 
 También conocida como *snapshot isolation*. Al iniciar una transacción, el proceso recibe una copa de todos los archivos a los cuales tiene acceso.
 
