@@ -8,4 +8,4 @@ El *checkout* debe llevarse a cabo atómicamente, si cualquiera de los servicios
 
 ## Solución
 
-Para resovler esto, tendremos que utilizar el [[Transacciones#Two-Phase Locking|Two-Phase Locking]] para bloquear los recursos antes de comenzar la operación.
+Para resolver esto, tendremos que utilizar él [[Transacciones#Lock de dos Fases|Locks de dos fases]] para bloquear los recursos antes de comenzar la operación. También se puede utilizar el algoritmo de [[Transacciones#Commit de dos Fases|Commit de dos fases]] para sincronizar el *commit* entre los servicios.
