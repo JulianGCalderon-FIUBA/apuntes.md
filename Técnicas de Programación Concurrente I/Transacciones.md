@@ -35,7 +35,9 @@ También conocida como *snapshot isolation*. Al iniciar una transacción, el pro
 
 Hasta que hace commit, el proceso trabaja con la copia. Al hacer commit, se persisten los cambios.
 
-Una primera optimización consiste en que si una transacción debe únicamente leer un archivo. No es necesario que lo copie (a menos)
+Una primera optimización consiste en que si una transacción debe únicamente leer un archivo. No es necesario que lo copie (a menos que haya sido cambiado desde que comenzó la transacción).
+
+Una segunda optimización consiste en clonar únicamente los índices de los archivos. Estos apuntarán a donde efectivamente esté guardado el archivo. Cuando se modifican, se crea un nuevo bloque y se escribe la actualización allí, actualizando los índices. Si una transacción tiene los índices viejos, no verá las actualizaciones.
 
 ## Writeahead Log
 
