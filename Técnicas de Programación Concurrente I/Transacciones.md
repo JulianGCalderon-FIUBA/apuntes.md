@@ -78,11 +78,11 @@ Existen *timestamps* únicos globales para garantizar orden. Cada archivo tiene:
 
 - Un *timestamp* de lectura
 - Un *timestamp* de escritura
-- Qué transacción hizo la misma operación
+- Qué transacción hizo la operación
 
 Cada transacción al iniciarse recibe un timestamp, se compara el timestamp de la transacción con los timestamps del archivo:
 
 - Si es mayor, la transacción está en orden y se procede con la operación.
 - Si es menor, la transacción se aborta.
 
-Al commitear, se actualizan los timestamps del archivo.
+Al commitear, se actualizan los timestamps del archivo según las operaciones que haya realizado la transacción.

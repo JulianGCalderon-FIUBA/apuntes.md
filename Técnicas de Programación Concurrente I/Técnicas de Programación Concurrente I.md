@@ -11,7 +11,7 @@
 - [[Exclusión Mutua Distribuida]]
 - [[Elección de Lider]]
 - [[Técnicas de Programación Concurrente I/Transacciones|Transacciones]]
-- [[Deadlocks]]
+- [[Deadlocks Distribuidos]]
 - [[Ambientes Distribuidos]]
 
 ## Primitivas de Sincronización

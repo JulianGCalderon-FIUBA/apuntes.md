@@ -1,4 +1,4 @@
-Existen distintos algoritmos para lidiar con deadlocks
+Los *deadlocks* en los sistemas distribuidos son más difíciles de evitar. Existen distintos algoritmos para lidiar con deadlocks
 
 ## Algoritmos de Detección
 
