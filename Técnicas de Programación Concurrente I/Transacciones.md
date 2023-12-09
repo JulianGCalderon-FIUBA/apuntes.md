@@ -4,9 +4,11 @@ Los errores en la comunicación son manejados transparentemente por la capa de l
 
 ## Almacenamiento
 
-Existen tres tipos de almacenamiento
+Existen tres tipos de almacenamiento. La memoria RAM se borra cuando se apaga el sistema. El almacenamiento en disco persiste, pero puede perderse cuando este *crashea*.
 
-El almacenamiento es estable, se implementa con discos, y la probabilidad de perder los datos es extremadamente pequeña.
+El almacenamiento estable se implementa con múltiples discos, sincronizando la información entre ambos.
+
+Si ocurre un error durante una escritura, se puede comparar los contenidos con otro de los discos. La probabilidad de perder los datos es extremadamente pequeña.
 
 ## Primitivas
 
@@ -29,7 +31,7 @@ Tendremos cuatro propiedades importantes que buscaremos respetar:
 
 ## Private Workspace
 
-También conocida como *snapshot isolation*. Al iniciar una transacción, el proceso recibe una copa de todos los archivos a los cuales tiene acceso.
+También conocida como *snapshot isolation*. Al iniciar una transacción, el proceso recibe una copia de todos los archivos a los cuales tiene acceso.
 
 Hasta que hace commit, el proceso trabaja con la copia. Al hacer commit, se persisten los cambios.
 
