@@ -10,7 +10,7 @@ Para resolver esto de forma centralizada, necesitaremos la ayuda de un coordinad
 
 ## Algoritmo Distribuido
 
-Cuando un proceso quiere entrar en una sección crítica, construye un mensaje con el nombre de la sección crítica, el número de procesos, y el *timestamp*. Al recibir el mensaje:
+Cuando un proceso quiere entrar en una sección crítica, construye un mensaje con el nombre de la sección crítica, el número de identificador de proceso, y el *timestamp*. Al recibir el mensaje.
 
 - Si no está en la sección crítica y no quiere entrar, envía OK
 - Si está en la sección crítica, no responde y encola el mensaje. Cuando sale, envía OK.
