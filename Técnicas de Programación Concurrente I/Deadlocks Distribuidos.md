@@ -33,9 +33,11 @@ Cuando un proceso está por bloquearse en un recurso (que tiene otro proceso), s
 - Si el *timestamp* es menor, espera (proceso más viejo).
 - Si no, el proceso aborta la transacción.
 
+Si bien se puede hacer que el proceso más viejo sea el que aborte, es más intuitivo el sentido contrario, ya que un proceso más viejo tiende a tener más recursos y más tiempo invertido, por lo que no es bueno abortarlo.
+
 ### Algoritmo Wound-Wait
 
-Se asigna un timestamp único y global a cada transacción al inicial (algoritmo deLamport)
+Se asigna un timestamp único y global a cada transacción al inicial (algoritmo de Lamport)
 
 Cuando un proceso está por bloquearse en un recurso (que tiene otro proceso), se comparan los *timestamps*.
 
