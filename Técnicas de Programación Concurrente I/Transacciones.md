@@ -35,7 +35,7 @@ También conocida como *snapshot isolation*. Al iniciar una transacción, el pro
 
 Hasta que hace commit, el proceso trabaja con la copia. Al hacer commit, se persisten los cambios.
 
-Salvo por algunas optimizaciones, este algoritmo es extremadamente costoso.
+Una primera optimización consiste en que si una transacción debe únicamente leer un archivo. No es necesario que lo copie (a menos)
 
 ## Writeahead Log
 
