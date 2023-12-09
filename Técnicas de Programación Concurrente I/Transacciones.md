@@ -47,7 +47,7 @@ Si la transacción se aborta, se lee el log de atrás hacia adelante para deshac
 
 Si otra transacción dependía de un cambio realizado por una transacción que está abortando, esa transacción también se debe deshacer.
 
-## Commit de Dos Fases
+## Commit de dos Fases
 
 El coordinador es aquel proceso que ejecuta la transacción, y quiere sincronizar un *commit* entre múltiples procesos participantes.
 
@@ -55,18 +55,18 @@ El coordinador es aquel proceso que ejecuta la transacción, y quiere sincroniza
 2. En la segunda fase, el coordinador hace los cambios y envía el mensaje *commit* al resto de los procesos. Los procesos que reciben el mensaje escriben *commit* en el log y envían *finished* al coordinador.
 3. Si alguno no le responde, entonces el coordinador escribe un mensaje de *abort* y se lo envía al resto de procesos.
 
-## Two-Phase Locking
+## Lock de dos Fases
 
 Existen dos fases:
 
 - Fase de expansión: Se toman todos los locks usar.
 - Fase de contracción: Se liberan todos los locks. No se puede tomar un lock después de liberar otro.
 
-Esto garantiza la propiedad serializable para las transacciones, pero pueden ocurrir deadlocks.
+Esto garantiza la propiedad de serializabilidad para las transacciones, pero pueden ocurrir deadlocks. Una forma de prevernirlos puede ser u
 
-En el **strict two-phase locking**, la contracción ocurre después del commit.
+En el **strict two-phase locking**, la contracción ocurre después del commit. Esto asegura la recuperabilidad de las transacciones (sin rollbacks en cascada).
 
-## Concurrencia Optimistica
+## Concurrencia Optimista
 
 El proceso modifica los archivos sin ningún control, esperando que no haya conflictos. Al *commitear*, se verifica si el resto de las transacciones modificó los mismos archivos. Si es así, se aborta la transacción.
 
