@@ -2,15 +2,17 @@ Los *deadlocks* en los sistemas distribuidos son más difíciles de evitar, prev
 
 ## Algoritmos de Detección
 
-Prevenirlos es dificil, por lo que se desarrollaron métodos para poder detectar los métodos una vez ocurrieron.
+Prevenirlos es difícil, por lo que se desarrollaron métodos para poder detectar los métodos una vez ocurrieron.
 
 ### Algoritmo Centralizado
 
-El proceso coordinador mantiene el grafo de uso de recursos, los procesos envían mensaje al coordinador cuando obtienen/liberan un recurso y el coordinador actualiza el grafo.
+Un primer enfoque trata de imitar un algoritmo no distribuido para la detección de deadlocks.
 
-Un posible problema puede llegar ser que los mensajes lleguen desordenados, y generar falsos deadlocks.
+El proceso coordinador mantiene el grafo de uso de recursos, los procesos envían mensaje al coordinador cuando obtienen/liberan un recurso, y el coordinador actualiza el grafo.
 
-Una posible solución es utiliza timestamps globales para ordenar los mensajes.
+En cuento el coordinador detecta un ciclo en el grafo, puede indicarle a uno de los procesos que debe abortar.
+
+Un posible problema puede llegar ser que los mensajes lleguen desordenados, y generar falsos deadlocks. Una posible solución es utiliza timestamps globales para ordenar los mensajes.
 
 ### Algoritmo Distribuido
 
