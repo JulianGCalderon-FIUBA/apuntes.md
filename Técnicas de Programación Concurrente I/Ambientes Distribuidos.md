@@ -85,7 +85,14 @@ A partir del sistema general, podemos agregarle restricciones para obtener un *s
 ### Restricciones de Comunicación
 
 Algunas restricciones respecto a la confiabilidad que podremos asumir:
-- 
+
+- **Política de encolado:** Un enlace puede verse como un canal o una cola. Es posible que los mensajes no lleguen en el mismo orden en el que son enviados. Las colas FIFO son caracterizadas por la siguiente restricción:
+	- **Ordenamiento de mensajes:** En la ausencia de fallas, los mensajes se transmiten en el mismo orden en el que fueron enviados.
+- **Propiedades de enlace:** Las entidades se conectan con enlaces físicos, que pueden tener distintas propiedades.
+	- **Comunicación recíproca:** Si $x$ puede enviarle un mensaje a $y$, entonces $y$ puede enviarle un mensaje a $x$.
+	- **Enlaces bidireccionales:** 
+
+asdasd
 
 - La entrega es **garantizada**, cualquier mensaje enviado será recibido con su contenido intacto.
 - Si hay confiabilidad **parcial**, no ocurrirán fallas.
