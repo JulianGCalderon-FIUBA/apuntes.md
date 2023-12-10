@@ -22,7 +22,11 @@ Cuando un proceso debe esperar por un recurso, envía un *probe message* al proc
 - identificador el proceso que envía el mensaje.
 - identificador el proceso destinatario.
 
-Al recibir el mensaje, el proceso actualiza el *id* del proceso que envía y el *id* del destinatario, y lo envía a los procesos que tienen el recurso que necesita.
+Al recibir el mensaje, el proceso actualiza el identificador del proceso que envía y el identificador del destinatario, y lo envía a los procesos que tienen el recurso que necesita.
+
+![[Deadlocks Distribuidos 1702237691.png]]
+
+En el diagrama solo ve muestran los mensajes enviados entre computadoras distintas.
 
 Si el mensaje llega al proceso original, tenemos un ciclo en el grafo.
 
