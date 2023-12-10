@@ -67,22 +67,25 @@ Puede ocurrir que una entidad solo pueda comunicarse con un subconjunto del rest
 - $N_{\text{out}}(x) \subseteq E:$ Es el conjunto de entidades a las cuales $x$ puede enviarles un mensaje directamente.
 - $N_{\text{in}}(x) \subseteq E:$ Es el conjunto de entidades a las cuales $x$ puede enviarles un mensaje directamente.
 
-La relación de vecindario define un grafo dirigido $G$ donde los vértices corresponden a entidades, y las aristas corres
-
-## Reglas y Comportamientos
+La relación de vecindario define un grafo dirigido $G$ donde los vértices corresponden a entidades, y las aristas implican que una entidad puede comunicarse con otra. Este grafo representa la topología comunicacional del ambiente.
 
 ## Axiomas
 
 Definimos los axiomas a partir de los cuales trabajaremos:
 
 - **Retrasos finitos en la comunicación:** En la ausencia de fallas, los retrasos en la comunicación tienen una duración finita.
-- **Orientación local:** Una entidad puede distinguir entre sus vecinos de salida $N_\text{out}$ y entre sus vecinos de entrada $N_\text{in}$.
+- **Orientación local:** Una entidad puede distinguir entre sus vecinos de salida $N_\text{out}$ y entre sus vecinos de entrada $N_\text{in}$. Esto implica que:
 	- Una entidad puede distinguir qué vecino le envía un mensaje.
 	- Una entidad puede enviar un mensaje a un vecino específico.
 
-### Restricciones de Confiabilidad
+## Restricciones
+
+A partir del sistema general, podemos agregarle restricciones para obtener un *submodule* del modelo general. Es importante que todas las restricciones se dejen explicitas.
+
+### Restricciones de Comunicación
 
 Algunas restricciones respecto a la confiabilidad que podremos asumir:
+- 
 
 - La entrega es **garantizada**, cualquier mensaje enviado será recibido con su contenido intacto.
 - Si hay confiabilidad **parcial**, no ocurrirán fallas.
