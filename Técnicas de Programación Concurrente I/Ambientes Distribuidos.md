@@ -6,8 +6,8 @@ Una **entidad** de un ambiente distribuido es la unidad de cómputo de ambiente 
 
 Cada entidad cuenta con las siguientes **capacidades**:
 
-- Acceso de lectura y escritura a una memoria local, no compartida con otras entidades:
-	- Registro de estado: `status(x)`.
+- Acceso de lectura y escritura a una memoria local, no compartida con otras entidades. Estos son registros con siempre un valor definido inicialmente. Entre ellos, encontramos:
+	- Registro de estado: `status(x)`. Este toma valor de un conjunto finito de estados del sistema.
 	- Registro de valor de entrada: `value(x)`.
 - Procesamiento local.
 - Comunicación: preparación, transmisión, recepción de mensajes.
@@ -23,18 +23,15 @@ La entidad solamente responde a eventos externos (es reactiva). Los posibles eve
 
 A excepción del impulso espontáneo, los eventos se generan dentro de los límites del sistema.
 
-### Comunicación
+### Acciones
 
-Una entidad se comunica con otras entidades mediante mensajes. Un mensaje es una secuencia finita de *bits*.
-
-Puede ocurrir que una entidad solo pueda comunicarse con un subconjunto del resto de las entidades, definimos entonces:
-
-- $N_{\text{out}}(x) \subseteq E:$ Es el conjunto de entidades a las cuales $x$ puede enviarles un mensaje directamente.
-- $N_{\text{in}}(x) \subseteq E:$ Es el conjunto de entidades a las cuales $x$ puede enviarles un mensaje directamente.
-
-## Reglas y Comportamientos
+Cuando ocurre un evento externo $e$, la entidad reaccionará realizando una acción.
 
 Una **acción** es una secuencia finita e indivisible de operaciones. Es atómica porque se ejecuta sin interrupciones.
+
+Se define una acción especial que puede tomar la entidad denominada **acción nula**. La entidad no reacciona al evento.
+
+### Comportamiento
 
 Una **regla** es la relación entre el evento que ocurre y el estado en el que se encuentra la entidad cuando ocurre dicho evento, de modo tal que:
 
@@ -60,6 +57,17 @@ $$
 
 > [!note] Propiedad
 > Todo comportamiento colectivo se puede transformar en homogéneo.
+
+## Comunicación
+
+Una entidad se comunica con otras entidades mediante mensajes. Un mensaje es una secuencia finita de *bits*.
+
+Puede ocurrir que una entidad solo pueda comunicarse con un subconjunto del resto de las entidades, definimos entonces:
+
+- $N_{\text{out}}(x) \subseteq E:$ Es el conjunto de entidades a las cuales $x$ puede enviarles un mensaje directamente.
+- $N_{\text{in}}(x) \subseteq E:$ Es el conjunto de entidades a las cuales $x$ puede enviarles un mensaje directamente.
+
+## Reglas y Comportamientos
 
 ## Axiomas
 
