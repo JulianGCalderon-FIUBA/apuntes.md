@@ -97,12 +97,18 @@ Algunas restricciones respecto a la comunicación que podremos asumir:
 Algunas restricciones respecto a la confiabilidad del envío que podremos asumir:
 
 - **Detección de fallas:** Algunos sistemas proveen mecanismos para detectar fallas:
-	- **Detección de fallas de enlace:** Ambas entidades en una conexión detectaran que un enlace falló.
+	- **Detección de fallas de enlace:** Ambas entidades en una conexión detectarán que un enlace falló.
 	- **Detección de fallas de entidades:** Las entidades pueden detectar que una entidad vecina falló.
 - **Tipos de fallas:** En algunos sistemas no todas las fallas pueden ocurrir:
-	- **Entrega garantizada:** cualquier mensaje enviado será recibido con su contenido intacto.
-- Si hay confiabilidad **parcial**, no ocurrirán fallas.
-- Si hay confiabilidad **total**, no han ocurrido ni ocurrirán fallas.
+	- **Entrega garantizada:** Cualquier mensaje enviado será recibido con su contenido intacto.
+	- **Confiabilidad parcial:** No ocurrirán fallas.
+	- **Confiabilidad total:** No han ocurrido ni ocurrirán fallas.
+
+### Restricciones de Topología
+
+En general, una entidad no está conectada con todas las entidades. Sin embargo, puede comunicarse con otras entidades a través de intermediarios.
+
+- **Conectividad:** El grafo topológico es fuertemente conexo.
 
 ### Restricciones Temporales
 
@@ -114,11 +120,11 @@ Algunas restricciones temporales que podremos asumir:
 
 ## Costo y Complejidad
 
-Son las medidas de comparación de los algoritmos distribuidos:
+Utilizaremos dos tipos de medidas para analizar la eficiencia de un protocolo.
 
-- **Cantidad de actividades de comunicación:**
-	- Cantidad de transmisiones o costo de mensajes, $M$.
-	- Carga de trabajo por entidad, y carga de transmisión.
+- **Cantidad de actividades de comunicación:** En un ambiente distribuido, la acitividad comun
+	- Cantidad de transmisiones de mensajes $M$, también es llamado costo de mensaje.
+	- Cantidad de transmisiones por entidad. $L = M/|V|$.
 - **Tiempo:**
 	- Tiempo total de ejecución del protocolo.
 	- Tiempo ideal de ejecución: tiempo medido bajo ciertas condiciones, como retardos de comunicación unitarios y relojes sincronizados.
