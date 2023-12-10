@@ -1,4 +1,4 @@
-En estos ambientes, una falla en una entidad que no conocemos puede ocasionar un error en nuestro sistema.
+Se define un ambiente distribuido como aquel en el que una falla en una entidad que no conocemos puede ocasionar un error en nuestro sistema.
 
 ## Entidades
 

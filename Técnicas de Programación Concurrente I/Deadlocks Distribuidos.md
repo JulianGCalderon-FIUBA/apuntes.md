@@ -40,7 +40,7 @@ Se asigna un *timestamp* único y global a cada transacción al inicial (algorit
 
 Cuando un proceso está por bloquearse en un recurso (que tiene otro proceso), se comparan los *timestamps*.
 
-- Si el *timestamp* es menor, espera (proceso más viejo).
+- Si el *timestamp* propio es menor (el proceso es más viejo), espera.
 - Si no, el proceso aborta la transacción.
 
 De esta forma, en una cadena de bloqueos, los *timestamps* solo incrementan, por lo que un ciclo es estructuralmente imposible.
@@ -53,5 +53,7 @@ Se asigna un timestamp único y global a cada transacción al inicial (algoritmo
 
 Cuando un proceso está por bloquearse en un recurso (que tiene otro proceso), se comparan los *timestamps*.
 
-- Si el *timestamp* es menor (proceso más viejo), se aborta la transacción del proceso que tiene el recurso, para que el más viejo pueda tomarlo.
+- Si el *timestamp* propio es menor (el proceso es más viejo), se aborta la transacción del proceso que tiene el recurso, para que el más viejo pueda tomarlo.
 - Si no, el proceso espera.
+
+Nuevamente, se prioriza a los procesos más viejos, ya que tienen más tiempo invertido.
