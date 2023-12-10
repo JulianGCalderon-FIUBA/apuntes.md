@@ -1,6 +1,8 @@
-Los *deadlocks* en los sistemas distribuidos son más difíciles de evitar. Existen distintos algoritmos para lidiar con deadlocks
+Los *deadlocks* en los sistemas distribuidos son más difíciles de evitar, prevenir, o incluso detectar. También es más difícil resolverlos una vez fueron encontrados, ya que la información relevante se encuentra dispersa en diferentes geográficamente. Existen distintos algoritmos para lidiar con deadlocks.
 
 ## Algoritmos de Detección
+
+Prevenirlos es dificil, por lo que se desarrollaron métodos para poder detectar los métodos una vez ocurrieron.
 
 ### Algoritmo Centralizado
 
