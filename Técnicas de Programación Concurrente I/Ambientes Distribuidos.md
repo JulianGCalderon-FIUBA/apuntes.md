@@ -33,10 +33,10 @@ Se define una acción especial que puede tomar la entidad denominada **acción n
 
 ### Comportamiento
 
-Una **regla** es la relación entre el evento que ocurre y el estado en el que se encuentra la entidad cuando ocurre dicho evento, de modo tal que:
+Se define una **regla** como la relación entre un determinado estado interno, y un determinado evento externo. Las reglas determinan las acciones a ejecutarse.
 
 $$
-\text{estado} \times \text{evento} \to \text{acción}
+\text{Regla}:\qquad\text{estado} \times \text{evento} \to \text{acción}
 $$
 
 Para cada posible evento y estado debe existir una única regla.
@@ -66,6 +66,8 @@ Puede ocurrir que una entidad solo pueda comunicarse con un subconjunto del rest
 
 - $N_{\text{out}}(x) \subseteq E:$ Es el conjunto de entidades a las cuales $x$ puede enviarles un mensaje directamente.
 - $N_{\text{in}}(x) \subseteq E:$ Es el conjunto de entidades a las cuales $x$ puede enviarles un mensaje directamente.
+
+La relación de vecindario define un grafo dirigido $G$ donde los vértices corresponden a entidades, y las aristas corres
 
 ## Reglas y Comportamientos
 
