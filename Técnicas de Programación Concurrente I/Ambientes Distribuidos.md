@@ -122,16 +122,20 @@ Algunas restricciones temporales que podremos asumir:
 
 Utilizaremos dos tipos de medidas para analizar la eficiencia de un protocolo.
 
-- **Cantidad de actividades de comunicación:** En un ambiente distribuido, la acitividad comun
+- **Cantidad de actividades de comunicación:** En un ambiente distribuido, la actividad comunicacional básica del sistema es la transmisión de mensajes. Podremos calcular:
 	- Cantidad de transmisiones de mensajes $M$, también es llamado costo de mensaje.
 	- Cantidad de transmisiones por entidad. $L = M/|V|$.
-- **Tiempo:**
+- **Tiempo:** Otra medida importante es el retardo de ejecución. Podremos calcular:
 	- Tiempo total de ejecución del protocolo.
-	- Tiempo ideal de ejecución: tiempo medido bajo ciertas condiciones, como retardos de comunicación unitarios y relojes sincronizados.
+	- Tiempo ideal de ejecución. Este es el tiempo medido bajo ciertas condiciones, como retardos de comunicación unitarios y relojes sincronizados.
 
 ## Tiempo y Eventos
 
-Los eventos desencadenan acciones en un tiempo futuro. Los distintos retardos resultan en distintas ejecuciones del protocolo con posibles resultados diferentes.
+Las acciones pueden generar nuevos eventos:
+
+- La operación `send` puede generar un evento de recepción
+- La operación `set_alarm` puede generar un evento temporal.
+sdas
 
 - Los eventos disparan acciones que pueden generar nuevos eventos
 - Si suceden, los nuevos eventos ocurrirán en un tiempo futuro: `Future(t)`.
