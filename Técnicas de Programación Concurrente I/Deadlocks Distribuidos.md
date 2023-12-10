@@ -19,18 +19,20 @@ Un posible problema puede llegar ser que los mensajes lleguen desordenados, y ge
 Cuando un proceso debe esperar por un recurso, envía un *probe message* al proceso que tiene el recurso. El mensaje contiene:
 
 - Identificador del proceso que se bloquea.
-- identificador el proceso que envía el mensaje.
-- identificador el proceso destinatario.
+- Identificador el proceso que envía el mensaje.
+- Identificador el proceso destinatario.
 
 Al recibir el mensaje, el proceso actualiza el identificador del proceso que envía y el identificador del destinatario, y lo envía a los procesos que tienen el recurso que necesita.
 
 ![[Deadlocks Distribuidos 1702237691.png]]
 
-En el diagrama solo ve muestran los mensajes enviados entre computadoras distintas.
+En el diagrama solo ve muestran los mensajes enviados entre computadoras distintas. Una vez el mensaje vuelve al proceso 0, se detecta un ciclo, por lo que el proceso 0 abortará.
 
-Si el mensaje llega al proceso original, tenemos un ciclo en el grafo.
+Un algoritmo alternativo consiste en que cada proceso agregue su identificador al mensaje. Una vez se alcanza un *deadlock*, se puede ver cuál es el proceso de mayor identificador y eliminarlo (o enviarle un mensaje para que se suicide).
 
 ## Algoritmos de Prevención
+
+Estos algoritmos consisten en diseñar un sistema bajo el cual los deadlocks son estructuralmente imposibles.
 
 ### Algoritmo Wait-Die
 
@@ -40,6 +42,8 @@ Cuando un proceso está por bloquearse en un recurso (que tiene otro proceso), s
 
 - Si el *timestamp* es menor, espera (proceso más viejo).
 - Si no, el proceso aborta la transacción.
+
+De esta forma, en una cadena de bloqueos, los *timestamps* solo incrementan, por lo que un ciclo es estructuralmente imposible.
 
 Si bien se puede hacer que el proceso más viejo sea el que aborte, es más intuitivo el sentido contrario, ya que un proceso más viejo tiende a tener más recursos y más tiempo invertido, por lo que no es bueno abortarlo.
 
