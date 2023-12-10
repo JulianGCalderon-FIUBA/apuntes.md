@@ -146,9 +146,19 @@ Los eventos espontáneos por definición se definen antes de que comience la eje
 
 El estado interno de $x$ en el instante $t$ se conoce como $\sigma(x, t)$. Este es el contenido de los registros de $x$, y el valor del reloj $c_x$ en el instante $t$. El estado interno de una entidad cambia con la ocurrencia de eventos.
 
-Sea una entidad $x$ que recibe el mismo evento en dos ejecuciones distintas, y $\sigma_1, \sigma_2$ los estados internos. Si $\sigma_1 = \sigma_2$, entonces el nuevo estado interno de $x$ será el mismo en ambas ejecuciones. Esto se debe a que una entidad es definida por su estado interno, y dos entidades con el 
+Dos entidades con el mismo comportamiento y el mismo estado interno son indistinguibles
+
+Sea una entidad $x$ que recibe el mismo evento en dos ejecuciones distintas, y $\sigma_1, \sigma_2$ los estados internos. Si $\sigma_1 = \sigma_2$, entonces el nuevo estado interno de $x$ será el mismo en ambas ejecuciones.
+
+Para describir el estado global (o configuración) en un tiempo $t$, necesitamos no solo el estado interno en dicho momento, sino el conjunto de eventos generados que ocurrirán tras cierto tiempo. Esto es:
+
+$$
+C(t) = (\sum(t), \text{Future}(t))
+$$
 
 ## Conocimiento
+
+El conocimiento es fundamental en la computación distribuida. Un sistema distribuido puede ser visto como un proceso adquiriendo información a través de actividades comunicacionales
 
 El conocimiento **local** es el contenido de la memoria local de $x$ y la información que se deriva. En ausencia de fallas, el conocimiento no puede perderse.
 
