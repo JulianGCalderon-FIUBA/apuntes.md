@@ -160,10 +160,12 @@ $$
 
 El conocimiento es fundamental en la computación distribuida. Un sistema distribuido puede ser visto como un proceso adquiriendo información a través de actividades comunicacionales
 
-El conocimiento **local** es el contenido de la memoria local de $x$ y la información que se deriva. En ausencia de fallas, el conocimiento no puede perderse.
+El conocimiento **local** de una entidad es el contenido de su memoria local y la información que se deriva del mismo. En ausencia de fallas, el conocimiento no puede perderse.
+
+### Tipos de Conocimiento
 
 Los tipos de conocimiento son:
 
 - **Información métrica:** Información numérica sobre la red. Esto puede ser el número de nodos del grafo, el número de arcos del grafo, el diámetro, etc.
 - **Propiedades topológicas:** Conocimiento sobre propiedades de la topología. Ejemplo: el grafo es un anillo, el grafo es acíclico, demás.
-- **Mapas topológicos:** Un mapa de la vecindad de la entidad hasta una distancia $d$. Por ejemplo, una matriz de adyacencia del grafo.
+- **Mapas topológicos:** Un mapa de la vecindad de la entidad hasta una distancia $d$. Por ejemplo, una matriz de adyacencia del grafo, una matriz de incidencias del grafo.
