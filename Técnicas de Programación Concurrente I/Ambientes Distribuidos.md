@@ -90,7 +90,7 @@ Algunas restricciones respecto a la comunicación que podremos asumir:
 	- **Ordenamiento de mensajes:** En la ausencia de fallas, los mensajes se transmiten en el mismo orden en el que fueron enviados.
 - **Propiedades de enlace:** Las entidades se conectan con enlaces físicos, que pueden tener distintas propiedades.
 	- **Comunicación recíproca:** Si $x$ puede enviarle un mensaje a $y$, entonces $y$ puede enviarle un mensaje a $x$. Las entidades no necesariamente están al tanto de esto.
-	- **Enlaces bidireccionales:** Las entidades saben que se utiliza una comunicación bidireccional.
+	- **Enlaces bidireccionales:** Las entidades saben que se utiliza una comunicación bidireccional: *full-duplex*.
 
 ### Restricciones de Confiabilidad
 
