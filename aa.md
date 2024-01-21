@@ -1,4 +1,4 @@
-# Notion to Obsidian
+## Notion to Obsidian
 
 Before Callout
 
@@ -7,10 +7,8 @@ Before Callout
 
 > [!note]
 > This is another Callout…
->
+> 
 > > [!note]
 > > With a Child!
 
 After Callout
-
-
