@@ -1,8 +1,8 @@
-# Notion to Obsidian
+## Notion to Obsidian
 
-## Basic Blocks
+### Basic Blocks
 
-### Paragraph
+#### Paragraph
 
 This is a simple paragraph
 
@@ -18,25 +18,25 @@ This is a $\text{mathed}$ paragraph
 
 This is a `coded` paragraph
 
-### Heading
+#### Heading
 
-#### This is a simple heading
+##### This is a simple heading
 
-#### This is a **bolded** heading
+##### This is a **bolded** heading
 
-#### This is a _italized_ heading
+##### This is a _italized_ heading
 
-#### This is a _**bolded and italized**_ heading
+##### This is a _**bolded and italized**_ heading
 
-#### This is a ~~striked~~ heading
+##### This is a ~~striked~~ heading
 
-#### This is a [linked](http://www.google.com/) heading
+##### This is a [linked](http://www.google.com/) heading
 
-#### This is a $\text{mathed}$ heading
+##### This is a $\text{mathed}$ heading
 
-#### This is a `coded` heading
+##### This is a `coded` heading
 
-### Code
+#### Code
 
 ```json
 {
@@ -56,7 +56,7 @@ This is a `coded` paragraph
 }
 ```
 
-### Quote
+#### Quote
 
 > This is a simple quote
 
@@ -156,10 +156,3 @@ I am after two dividers
    1. With an inner item
 
    And another paragraph
-
-
-
-* sad
-
-* asda
-
