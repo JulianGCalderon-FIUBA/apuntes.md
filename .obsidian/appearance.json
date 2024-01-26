@@ -1,9 +1,9 @@
 {
   "accentColor": "",
-  "cssTheme": "Things",
+  "cssTheme": "",
   "enabledCssSnippets": [
     "image-grid"
   ],
   "baseFontSize": 18,
-  "theme": "obsidian"
+  "theme": "moonstone"
 }
