@@ -5,7 +5,7 @@ El software tiene **4 propiedades:**
 - Variabilidad
 - Complejidad
 - Conformidad
-- Invisibilidad
+- Invisibilidad 
 
 Algunas prácticas recomendadas son:
 
