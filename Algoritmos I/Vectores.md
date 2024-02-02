@@ -1,5 +1,3 @@
-## Vectores
-
 Un `vector` almacena una colección finita y secuencial, de elementos de un mismo tipo de dato.
 
 - El **tamaño** del vector define la cantidad máxima de elementos que puede llegar a tener
@@ -24,7 +22,7 @@ int tope = 6;
 agregar_elemento(edades, &tope, 78);
 ```
 
-### Matrices
+## Matrices
 
 Una `matriz` es un arreglo de 2 dimensiones, como vectores adentro de un vector. Se comporta como un vector
 

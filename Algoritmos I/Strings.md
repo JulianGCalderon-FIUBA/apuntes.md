@@ -1,8 +1,6 @@
-## Strings
-
 Para trabajar con *strings*, debemos importar `strings.h`. Las funciones suponen que un `string` es un vector de caracteres terminado en `\0`
 
-### Funciones
+## Funciones
 
 ```c
 // POST: La longitud de la cadena
@@ -23,7 +21,7 @@ void strcat(char destino[], char origen[]);
 int strcmp(char cadena1[], char cadena2[]);
 ```
 
-### Operaciones
+## Operaciones
 
 - `printf("%s", cadena);`
 - `scanf("%s", &cadena);` Lee hasta el primer espacio o `\n`
