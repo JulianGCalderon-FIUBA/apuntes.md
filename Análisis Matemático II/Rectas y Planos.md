@@ -1,3 +1,5 @@
+Hay distintas formas de representar rectas o planos en el espacio.
+
 ## Rectas en $\mathbb{R}^2$
 
 - **Paramétrica:** $(x,y)=\lambda(d_1,d_2)+(p_1,p_2)$
