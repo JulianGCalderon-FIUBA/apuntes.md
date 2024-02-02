@@ -110,6 +110,10 @@ Las bibliotecas estándar son aquellas que vienen con c, no tenemos que instalar
 #include <ctype.h>
 ```
 
+
+> [!note] Traducción
+> El termino **biblioteca** viene del ingles **library**. La traducción **librería** es incorrecta ya que refiere al ingles **bookstore**.
+
 ## Strings
 
 `#include <string.h>`
