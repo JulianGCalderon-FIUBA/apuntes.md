@@ -1,7 +1,5 @@
 ## Unidades 1-5
 
-- [[Rectas y Planos]]
-- [[Cónicas]]
 - [[Topología]]
 - [[Cuádricas]]
 - [[Funciones de varias variables]]
