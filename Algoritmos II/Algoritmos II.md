@@ -1,5 +1,5 @@
 - [[Memoria]]
-- [[Algoritmos II/Punteros]]
+- [[Algoritmos II/Punteros|Punteros]]
 - [[Análisis de Algoritmos]]
 - [[Algoritmos II/Recursividad|Recursividad]]
 - [[TDA]]

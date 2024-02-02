@@ -1,6 +1,6 @@
 La **memoria** es un conjunto de celdas distribuidas linealmente, y cada una tiene una única dirección de memoria
 
-Un `puntero` es un número que apunta a una dirección de memoria, lo que permite modificarla desde cualquier lugar del código.
+Un `puntero` es una variable que apunta a una dirección de memoria, lo que permite modificarla desde cualquier lugar del código.
 
 - `&`: Devuelve la dirección en la que se encuentra una variable.
 - `*`: Devuelve el valor al que apunta un puntero

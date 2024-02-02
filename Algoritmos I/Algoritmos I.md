@@ -1,7 +1,10 @@
-- [[Conceptos Básicos]]
+- [[Buenas Prácticas]]
 - [[Funciones]]
-- [[Puntero
-- [[Bibliotecas Personales]]
+- [[Algoritmos I/Punteros|Punteros]]
+- [[Vectores]]
+- [[Bibliotecas]]
+- [[Strings]]
+- [[Algoritmos I/Registros]]]
 - [[Algoritmos I/Recursividad|Recursividad]]
 - [[Operaciones con Arreglos]]
 - [[Manejo de Archivos]]

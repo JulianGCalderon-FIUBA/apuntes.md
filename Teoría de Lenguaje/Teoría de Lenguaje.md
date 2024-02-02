@@ -12,7 +12,7 @@
 
 - [[Variables]]
 - [[Funciones]]
-- [[Registros]]
+- [[Teoría de Lenguaje/Registros]]
 - [[Pattern Matching]]
 - [[Variables Ligadas]]
 - [[Scoping]]
