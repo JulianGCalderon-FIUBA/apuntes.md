@@ -110,15 +110,12 @@ Las bibliotecas estándar son aquellas que vienen con c, no tenemos que instalar
 #include <ctype.h>
 ```
 
-
 > [!note] Traducción
-> El termino **biblioteca** viene del ingles **library**. La traducción **librería** es incorrecta ya que refiere al ingles **bookstore**.
+> El término **biblioteca** viene del inglés **library**. La traducción **librería** es incorrecta, ya que viene del inglés **bookstore**.
 
 ## Strings
 
-`#include <string.h>`
-
-Al trabajar con `strings`, las funciones suponen que un `string` es un vector de caracteres terminado en '\0'
+Para trabajar con *strings*, debemos importar `strings.h`. Las funciones suponen que un `string` es un vector de caracteres terminado en '\0'
 
 ### Funciones
 
@@ -154,7 +151,7 @@ int strcmp(char cadena1[], char cadena2[]);
 
 ## Registros
 
-Un registro es un tipo de dato que define una lista de variables agrupadas bajo un mismo nombre en un bloque de memoria.
+Un registro (del inglés *record*) es un tipo de dato que define una lista de variables agrupadas bajo un mismo nombre en un bloque de memoria.
 
 ```c
 typedef struct fecha{
@@ -164,9 +161,9 @@ typedef struct fecha{
 } fecha_t;
 ```
 
-Para acceder a estos campos a partir de un registro, usamos el operador **[.]**
+Para acceder a estos campos a partir de un registro, usamos el operador `.`
 
-Para acceder a estos campos a partir de un puntero, podemos usar la abreviación **[→]**
+Para acceder a estos campos a partir de un puntero, podemos usar la abreviación `->`
 
 ```c
 fecha_t reg;
