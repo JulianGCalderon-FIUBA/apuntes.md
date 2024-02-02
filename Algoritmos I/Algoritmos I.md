@@ -6,6 +6,7 @@
 - [[Strings]]
 - [[Algoritmos I/Registros|Registros]]
 - [[Algoritmos I/Recursividad|Recursividad]]
+- [[Algoritmos de Ordenamiento]]
 - [[Operaciones con Vectores]]
 - [[Manejo de Archivos]]
 - [[Operaciones con Archivos]]
