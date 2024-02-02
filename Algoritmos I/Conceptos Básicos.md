@@ -1,25 +1,25 @@
 ## Buenas Prácticas
 
-El software tiene **4 propiedades:**
+El software tiene **cuatro propiedades:**
 
 - Variabilidad
 - Complejidad
 - Conformidad
-- Invisibilidad 
+- Invisibilidad
 
 Algunas prácticas recomendadas son:
 
 - Usar nombres descriptivos, significantes.
 - Usar una sola palabra para cada concepto.
-- Definir todo en **snake_case.**
-- Constantes en **MAYÚSCULA.**
+- Definir todo en `snake_case`.
+- Constantes en `MAYÚSCULA`.
 - Escribir pre-post condiciones para cada función.
 
 ## Modulación
 
-Una `función` solo debe hacer una cosa, y recibe el nombre de lo que devuelve.
+Una **función** solo debe hacer una cosa, y recibe el nombre de lo que devuelve.
 
-Un `procedimiento` es una función que no devuelve nada, recibe el nombre de lo que hace
+Un **procedimiento** es una función que no devuelve nada, recibe el nombre de lo que haceke
 
 ```c
 int cuadrado(int numero){ //FIRMA DE LA FUNCION
