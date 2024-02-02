@@ -115,7 +115,7 @@ Las bibliotecas estándar son aquellas que vienen con c, no tenemos que instalar
 
 ## Strings
 
-Para trabajar con *strings*, debemos importar `strings.h`. Las funciones suponen que un `string` es un vector de caracteres terminado en '\0'
+Para trabajar con *strings*, debemos importar `strings.h`. Las funciones suponen que un `string` es un vector de caracteres terminado en `\0`
 
 ### Funciones
 
@@ -140,12 +140,7 @@ int strcmp(char cadena1[], char cadena2[]);
 
 ### Operaciones
 
-#### Imprimir cadenas:
-
 - `printf("%s", cadena);`
-
-#### Leer Cadenas
-
 - `scanf("%s", &cadena);` Lee hasta el primer espacio o `\n`
 - `scanf("%s[^\n]", cadena);` Lee hasta el primer `\n`
 
@@ -161,9 +156,8 @@ typedef struct fecha{
 } fecha_t;
 ```
 
-Para acceder a estos campos a partir de un registro, usamos el operador `.`
-
-Para acceder a estos campos a partir de un puntero, podemos usar la abreviación `->`
+- Para acceder a estos campos a partir de un registro, usamos el operador `.`
+- Para acceder a estos campos a partir de un puntero, podemos usar la abreviación `->`
 
 ```c
 fecha_t reg;
