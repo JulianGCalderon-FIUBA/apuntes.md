@@ -1,5 +1,3 @@
-## Registros
-
 Un registro (del inglés *record*) es un tipo de dato que define una lista de variables agrupadas bajo un mismo nombre en un bloque de memoria.
 
 ```c

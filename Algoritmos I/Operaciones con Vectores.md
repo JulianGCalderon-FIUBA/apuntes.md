@@ -1,6 +1,4 @@
-## Modificación
-
-### Inserción Ordenada
+## Inserción Ordenada
 
 La idea de este algoritmo es poder insertar un elemento dentro de un vector, manteniendo el orden del mismo
 
@@ -20,7 +18,7 @@ void insertar_ordenado(vector_t vector, int *tope, elemento_t elemento){
 }
 ```
 
-### Eliminación Ordenada
+## Eliminación Ordenada
 
 La idea de este algoritmo es eliminar un elemento dentro de un vector, sin dejar huecos en el medio.
 
@@ -48,9 +46,7 @@ void eliminar_ordenado(vector_t vector, int *tope, elemento_t elemento){
 }
 ```
 
-## Búsqueda
-
-### Búsqueda Lineal
+## Búsqueda Lineal
 
 La búsqueda lineal busca sucesivamente cada elemento de un arreglo, hasta encontrar el elemento buscado
 
@@ -77,7 +73,7 @@ int busqueda_lineal(vector_t vector, int tope, elemento_t elemento_buscado){
 }
 ```
 
-### Búsqueda Binaria
+## Búsqueda Binaria
 
 La búsqueda binaria es un algoritmo más eficiente para buscar elementos, cuando los elementos del arreglo están ordenados.
 
@@ -182,7 +178,9 @@ void insercion(vector_t vector, int tope){
 }
 ```
 
-## Operaciones Avanzadas entre Arreglos
+## Operaciones De Conjuntos
+
+### Mezcla
 
 La mezcla consiste en tomar todos los valores de ambos arreglos
 
