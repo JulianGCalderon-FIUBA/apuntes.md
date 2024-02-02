@@ -42,7 +42,7 @@ El **ámbito** de una función es el espacio de memoria que puede acceder. Cada 
 
 La **memoria** es un conjunto de celdas distribuidas linealmente, y cada una tiene una única dirección de memoria
 
-Un `puntero` es un número que apunta a una dirección de memoria, lo que permite modificarla desde cualquier lugar del código
+Un `puntero` es un número que apunta a una dirección de memoria, lo que permite modificarla desde cualquier lugar del código.
 
 ```c
 void duplicar(int *numero){
@@ -52,7 +52,7 @@ void duplicar(int *numero){
 int numero = 3;
 duplicar(&numero);
 
-printf("%i", numero); //9
+printf("%i", numero); // 9
 ```
 
 ### Operadores
@@ -83,8 +83,7 @@ int const MAXIMO = 10;
 int edades[MAXIMO] = {12, 23, 34, 45, 56, 67};
 int tope = 6;
 
-int elemento = 78;
-agregar_elemento(edades, &tope, elemento);
+agregar_elemento(edades, &tope, 78);
 ```
 
 ## Matrices
