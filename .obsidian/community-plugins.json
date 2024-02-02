@@ -1,11 +1,8 @@
 [
   "obsidian-linter",
-  "obsidian-minimal-settings",
   "obsidian-git",
-  "obsidian-style-settings",
   "table-editor-obsidian",
   "mousewheel-image-zoom",
-  "obsidian-pandoc",
   "obsidian-languagetool-plugin",
   "attachment-manager"
 ]
