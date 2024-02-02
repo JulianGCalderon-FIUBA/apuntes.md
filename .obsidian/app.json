@@ -238,5 +238,6 @@
     "quantil"
   ],
   "newFileLocation": "current",
-  "focusNewTab": true
+  "focusNewTab": true,
+  "livePreview": false
 }

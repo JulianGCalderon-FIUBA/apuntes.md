@@ -1,4 +1,6 @@
 - [[Conceptos Básicos]]
+- [[Funciones]]
+- [[Puntero
 - [[Bibliotecas Personales]]
 - [[Algoritmos I/Recursividad|Recursividad]]
 - [[Operaciones con Arreglos]]

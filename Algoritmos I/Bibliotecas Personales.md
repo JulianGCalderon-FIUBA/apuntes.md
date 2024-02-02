@@ -55,14 +55,20 @@ Al momento de compilar, debo incluir solo los archivos fuentes.
 
 ### Opción 1
 
-`gcc -g aritmetica.c -c` → **`aritmetica.o`**
-
-`gcc -g main.c aritmetica.o -o main` → `**main`**
+```bash
+$ gcc -g aritmetica.c -c
+# OUTPUT: aritmetica.o
+$ gcc -g main.c aritmetica.o -o main
+# OUTPUT: main
+```
 
 ### Opción 2:
 
-`gcc -g main.c aritmetica.c -o main` → `**main**`
+```bash
+$ gcc -g main.c aritmetica.c -o main
+# OUTPUT: main
+```
 
-Si el procesador encuentra la directiva `#include`, remplaza esta línea por el contenido completo del archivo que se encuentra en el sistema (<> o "")
+Si el procesador encuentra la directiva `#include`, remplaza esta línea por el contenido completo del archivo que se encuentra en el sistema.
 
 La directiva `#ifndef` se encarga de que no se definan los elementos del archivo 2 veces, y si ya se definió una vez, entonces omite el archivo.
