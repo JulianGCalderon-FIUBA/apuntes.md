@@ -24,7 +24,7 @@ agregar_elemento(edades, &tope, 78);
 
 ## Matrices
 
-Una `matriz` es un arreglo de 2 dimensiones, como vectores adentro de un vector. Se comporta como un vector
+Una `matriz` es un vector de 2 dimensiones, como vectores adentro de un vector. Se comporta como un vector
 
 ```c
 int matriz[MAX_FILAS][MAX_COLUMNAS] = ...
