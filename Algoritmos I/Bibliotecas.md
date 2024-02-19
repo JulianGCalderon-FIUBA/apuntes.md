@@ -1,8 +1,23 @@
+Las bibliotecas son código externo, que podemos importar a nuestro archivo. Las bibliotecas estándar son aquellas que vienen con C, no tenemos que instalarlas.
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <time.h>
+#include <ctype.h>
+```
+
+> [!note] Traducción
+> El término **biblioteca** viene del inglés **library**. La traducción **librería** es incorrecta, ya que viene del inglés **bookstore**.
+
+Para compilar un proyecto con multiples archivos, necesitaremos definir los siguientes elementos.
+
 ## Header
 
 El compilador los incluye de forma automática al compilar su archivo fuente. Acá se definen las funciones, variables y constantes, que pueden ser accedidas por otro archivo.
 
-Escribo el prototipo de las funciones, y sus pre/post condiciones.
+Se escribe el prototipo de las funciones, y sus pre/post condiciones.
 
 ```c
 /* aritmetica.h */
@@ -49,20 +64,26 @@ int main(){
 }
 ```
 
-## Terminal
+## Compilado
 
 Al momento de compilar, debo incluir solo los archivos fuentes.
 
 ### Opción 1
 
-`gcc -g aritmetica.c -c` → **`aritmetica.o`**
-
-`gcc -g main.c aritmetica.o -o main` → `**main`**
+```bash
+$ gcc -g aritmetica.c -c
+# OUTPUT: aritmetica.o
+$ gcc -g main.c aritmetica.o -o main
+# OUTPUT: main
+```
 
 ### Opción 2:
 
-`gcc -g main.c aritmetica.c -o main` → `**main**`
+```bash
+$ gcc -g main.c aritmetica.c -o main
+# OUTPUT: main
+```
 
-Si el procesador encuentra la directiva `#include`, remplaza esta línea por el contenido completo del archivo que se encuentra en el sistema (<> o "")
+Si el procesador encuentra la directiva `#include`, remplaza esta línea por el contenido completo del archivo que se encuentra en el sistema.
 
 La directiva `#ifndef` se encarga de que no se definan los elementos del archivo 2 veces, y si ya se definió una vez, entonces omite el archivo.

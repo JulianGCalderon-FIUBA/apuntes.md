@@ -4,15 +4,19 @@
 
 **Persistencia total:** La información almacenada dentro de un archivo persiste en el tiempo, es decir, que queda almacenada una vez el algoritmo termina de hacer uso de la misma.
 
-**De Texto:** Los archivos de texto están escritos en caracteres, son secuenciales. Tienen extensión `.txt`
-
-**Binarios:** Están escritos en binario, pueden ser tanto secuenciales como de acceso directo. Tienen extensión `.dat`
-
-**Secuenciales:** No pueden abrirse con el modo `+`. Se leen o modifican de principio a fin.
-
-**Acceso Directo:** Podemos modificar la posición del puntero y modificarlo o leerlo en cualquier orden.
-
 **Lectura:** La mínima unidad de lectura que puede tener un archivo de texto es una estructura `char`, en el caso de archivos binarios, la unidad es él `int`
+
+## Clasificación
+
+Los archivos se pueden clasificar según su contenido:
+
+- **De Texto:** Los archivos de texto están escritos en caracteres, son secuenciales. Tienen extensión `.txt`
+- **Binarios:** Están escritos en binario, pueden ser tanto secuenciales como de acceso directo. Tienen extensión `.dat`
+
+También se pueden clasificar según su tipo de acceso:
+
+- **Secuenciales:** No pueden abrirse con el modo `+`. Se leen o modifican de principio a fin.
+- **Acceso Directo:** Podemos modificar la posición del puntero y modificarlo o leerlo en cualquier orden.
 
 ## Funciones
 

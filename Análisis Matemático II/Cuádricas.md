@@ -4,6 +4,8 @@ $$
 Ax^2 + By^2 + Cz^2 + Dxy + Eyz + Fzx + Gx + Hy + Iz + J = 0
 $$
 
+Si la ecuación no tiene terminos cruzados, es una de las ofrmas que estudiaremos pero desplaza o descentrada del origen de coordenadas.
+
 ## Esferas y Elipsoides
 
 Definida por la ecuación:
