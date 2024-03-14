@@ -42,3 +42,4 @@ title: Índice
 ## 1.° 2024
 
 - [[Ingeniería de Software II]]
+- [[Gestión del Desarrollo de Sistemas Informáticos]]
