@@ -2,7 +2,9 @@ Un stakeholder es alguien que tiene interés o es afectado por el proyecto. Algu
 
 ## Identificación
 
-Existen distintas técnicas para la identificación de los stakeholders.
+Existen distintas técnicas para la identificación de los stakeholders. Es una tarea continua que se debe realizar durante todo el proyecto. A medida que progresa un proyecto, nuevos stakeholders pueden surgir, y los antiguos pueden perder interés en el proyecto.
+
+Se debe tener un registro mínimo con información de todos los stakeholders.
 
 ### Project Charter
 
@@ -27,4 +29,6 @@ Entrevistar expertos (u otros stakeholders) puede ser útil para obtener informa
 Este tipo de sesiones con los miembros del equipo y los expertos pueden ser beneficiosas para obtener información. Algunas preguntas útiles son:
 
 - ¿Quién está directa o indirectamente involucrado con el proyecto?
-- ¿Quien puede ser afectado?
+- ¿Quién puede ser afectado?
+- ¿Quién gana y quién pierde?
+- ¿Quién quiere que el proyecto sea exitoso?
