@@ -6,8 +6,6 @@ Esta herramienta es:
 - Fácil de crear
 - Visual
 
-Esta técnica se puede utilizar como *backlog*, ya que proporciona más información (debido a que tiene más dimensiones), que un *backlog* lineal y común. Es más planear un lanzamiento con un mapa, que con una lista plana de tareas.
-
 ## Creación
 
 Para crearlo, es necesario identificar a los **actores** principales del sistema. Estos estarán encima del diagrama.
@@ -23,3 +21,11 @@ Esta técnica se puede utilizar para definir el MVP, trazando una línea para se
 ## Recorrido
 
 Una vez armado el mapa, se puede recorrer de principio a fin con un usuario o inversor y contar la historia de lo que hacen. Esto es útil para hallar cosas que se olvidaron o para obtener feedback.
+
+## Backlog
+
+Esta técnica se puede utilizar como *backlog*, ya que proporciona más información (debido a que tiene más dimensiones), que un *backlog* lineal y común. Es más planear un lanzamiento con un mapa, que con una lista plana de tareas.
+
+Usualmente, es útil dejar el mapa colgado en algún lugar a medida que el proyecto avanza. Esto permite corregirlo y actualizarlo.
+
+Si surgen nuevas características para implementar, a veces es mejor armar un mapa nuevo para estas características, que hacer un mapa nuevo completo.
