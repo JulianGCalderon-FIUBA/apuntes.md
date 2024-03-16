@@ -1,4 +1,3 @@
 - [[Lean Inception]]
 - [[Stakeholders]]
 - [[Product Discovery]]
-- [[Lean Sales Up]]
