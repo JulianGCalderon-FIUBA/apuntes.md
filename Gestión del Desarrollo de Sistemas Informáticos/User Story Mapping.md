@@ -6,6 +6,10 @@ Esta herramienta es:
 - Fácil de crear
 - Visual
 
+Esta técnica se puede utilizar como *backlog*, ya que proporciona más información (debido a que tiene más dimensiones), que un *backlog* lineal y común. Es más facil 
+
+## Creación
+
 Para crearlo, es necesario identificar a los **actores** principales del sistema. Estos estarán encima del diagrama.
 
 Luego, trataremos de descubrir como usará el sistema, cuáles serán los principales procesos de negocio bajo su responsabilidad. Estas se denominan **actividades**, y definen a grandes rasgos la interacción del actor. En general es difícil definir estas actividades en una etapa inicial. Las actividades irán debajo de los cajeros, ordenando en línea de tiempo de izquierda a derecha.
@@ -14,4 +18,6 @@ Otra alternativa es pensar **tareas** que realizará el usuario. Estas deben ser
 
 ![[User Story Mapping 1710615177.png]]
 
-Esta técnica se puede utilizar para definir el MVP, trazando una linea para separar las tareas que entran y las tareas que no.
+Esta técnica se puede utilizar para definir el MVP, trazando una línea para separar las tareas que entran y las tareas que no.
+
+##
