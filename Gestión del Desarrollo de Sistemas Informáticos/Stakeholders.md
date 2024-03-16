@@ -8,10 +8,23 @@ Existen distintas técnicas para la identificación de los stakeholders.
 
 Se nombra al PM y se comienza el proyecto. Es un documento que contiene información de alto nivel y nombre de los interesados.
 
-### Contract Documents
+### Documentos de Contrato
 
 Si el proyecto comienza con un contrato, se debe revisar estos documentos con cuidado, ya que probablemente contenga información de los stakeholders
 
 ### OPA y EEF
 
-Revisar los EEF (Enterprise Environmental Fators) y los OPA
+Revisar los EEF (Enterprise Environmental Factors) y los OPA (Organizational Process Assets) puede revelar muchos stakeholders.
+
+El gobierno suele ser un stakeholder en cualquier proyecto, y su soporte es crítico para el éxito del mismo.
+
+### Entrevistas con Expertos
+
+Entrevistar expertos (u otros stakeholders) puede ser útil para obtener información.
+
+### Sesiones de Brainstorming
+
+Este tipo de sesiones con los miembros del equipo y los expertos pueden ser beneficiosas para obtener información. Algunas preguntas útiles son:
+
+- ¿Quién está directa o indirectamente involucrado con el proyecto?
+- ¿Quien puede ser afectado?
