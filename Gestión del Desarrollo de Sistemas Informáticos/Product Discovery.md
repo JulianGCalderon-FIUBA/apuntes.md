@@ -22,11 +22,10 @@ Estas reuniones pueden durar desde cuatro horas hasta una semana en proyectos de
 
 Muchas veces, surge que no existe una visión unificada del producto (incluso dentro de la misma empresa).
 
-## Lean Sales Up
+## Herramientas
 
-El proceso de preventa puede ser doloroso, largo y caro. Debemos convencer al prospecto que somos la mejor opción. Para alcanzar una expectativa realista del producto, es necesario integrar el proceso de ventas con el proceso de desarrollo. Los desarrolladores son los que deben vender.
+Algunas de las herramientas utilizadas en este etapa son:
 
-El proceso de preventa se basa en las siguientes tres heurísticas:
-
-- **Explicar que es la agilidad:** No todos saben lo que implica, por lo cual debemos transmitir estas ideas al cliente.
-- **Descubrir tu producto:**
+- [[User Story Mapping]]
+- [[Lean Canvas]]
+- [[Elevator Pitch]]
