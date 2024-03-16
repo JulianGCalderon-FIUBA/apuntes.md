@@ -1,2 +1,3 @@
 - [[Lean Inception]]
 - [[Stakeholders]]
+- [[Product Discovery]]
