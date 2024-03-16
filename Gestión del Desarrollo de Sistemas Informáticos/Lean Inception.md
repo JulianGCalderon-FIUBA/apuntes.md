@@ -7,7 +7,7 @@
 
 Un MVP se construye para saber si es rentable seguir construyendo el producto. Es necesario entender a los usuarios, sus actividades, y como medir si el producto es útil.
 
-Esta técnica es útil en dos circustancias principales:
+Esta técnica es útil en dos circunstancias principales:
 
-- Los proyectos grandes quieren empezar rapidamente y ser orientados en un estilo *lean*. Esto es, construir iteraciones tempranas diseñadas para descubrir y probar las caracteristicas valiosas.
-- Las organizaciones pequeñas quieren tomar una idea
+- Los proyectos grandes quieren empezar rápidamente y ser orientados en un estilo *lean*. Esto es, construir iteraciones tempranas diseñadas para descubrir y probar las características valiosas.
+- Las organizaciones pequeñas quieren tomar una idea que fue probada por un MVP y hacerla evolucionar hacia un producto completo.
