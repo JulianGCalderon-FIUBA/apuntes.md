@@ -29,4 +29,23 @@ Algunas de las herramientas utilizadas en esta etapa son:
 - [[User Story Mapping]]
 - [[Lean Canvas]]
 - [[Elevator Pitch]]
-- [[Descripción de Personas]]
+
+### Descripción de Personas
+
+Esta tecnica es muy util para lograr conocimient ocompartido. Consiste en la identificaión de un tipo de usuario del mundo real que intentaremos descubir:
+
+- Cómo es el usuario
+- Cuáles son sus características
+- Valor que el producto que desarrollaremos brindará
+
+Esta *persona* representa un conjunto de usuarios que comparten las misma características.
+
+Este ejercicio puede realizarlo el *product owner* para después informar sus conclusiones o puede efectuarse a través de un taller donde participe todo el equipo incluyendo a los desarrolladores.
+
+### ¿Qué nos quita el sueño?
+
+Es importante identifica los mayores reisgos y dejarlos explicitos. Se trabaja sobre un papel de gran tamaño y post-its que son entregados a todos los participantes.
+
+Durante 5' cada integrante del equipo pensará y escribirá riegos. Al final se discutirá la gravedad de cada uno de ellos, evaluando como pueden ser mitigados.
+
+### Experimentos de Usabilidad
