@@ -6,6 +6,6 @@ Para obtener esta información, entregaremos al equipo un afichecon los siguient
 - Quienes (necesidad u oportunidad)
 - El (nombre del producto)
 - Es un (tipo de aplicación o vertical)
-- Qué (beneficios claves or)
-- A diferencia de
-- Nuestro Producto
+- Qué (beneficios claves o razones más importantes por las que lo comprarían)
+- A diferencia de (competidor principal)
+- Nuestro Producto (diferencial)
