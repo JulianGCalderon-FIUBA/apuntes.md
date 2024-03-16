@@ -18,4 +18,15 @@ Se busca encontrar respuesta a las siguientes cuestiones:
 
 Esta etapa se facilita a través de una serie de talleres que se desarrollan en conjunto con los clientes.
 
-Estas reuniones pueden durar desde cuatro horas hasta una semana en proyectos de grán magnitud.
+Estas reuniones pueden durar desde cuatro horas hasta una semana en proyectos de gran magnitud.
+
+Muchas veces, surge que no existe una visión unificada del producto (incluso dentro de la misma empresa).
+
+## Lean Sales Up
+
+El proceso de preventa puede ser doloroso, largo y caro. Debemos convencer al prospecto que somos la mejor opción. Para alcanzar una expectativa realista del producto, es necesario integrar el proceso de ventas con el proceso de desarrollo. Los desarrolladores son los que deben vender.
+
+El proceso de preventa se basa en las siguientes tres heurísticas:
+
+- **Explicar que es la agilidad:** No todos saben lo que implica, por lo cual debemos transmitir estas ideas al cliente.
+- **Descubrir tu producto:**
