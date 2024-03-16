@@ -13,3 +13,5 @@ Luego, trataremos de descubrir como usará el sistema, cuáles serán los princi
 Otra alternativa es pensar **tareas** que realizará el usuario. Estas deben ser pequeñas. Una vez tenemos tareas, podremos agruparlas en sus actividades correspondientes. Las tareas se colocarán debajo de las actividades, con las más prioritarias arriba.
 
 ![[User Story Mapping 1710615177.png]]
+
+Esta técnica se puede utilizar para definir el MVP, trazando una linea para separar las tareas que entran y las tareas que no.
