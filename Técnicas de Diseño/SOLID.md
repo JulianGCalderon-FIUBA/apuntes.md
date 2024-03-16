@@ -16,10 +16,10 @@ Si una entidad debe reutilizar una parte del comportamiento, podemos utilizar co
 
 ## Interface Segregation Principle
 
-Muchas interfaces pequeñas son mejores que una interfaz general, ya no obligan a las entidades implementar elementos que no necesita de una interfaz grande. Sinó unicamente las subentidades que requiere realmente.
+Muchas interfaces pequeñas son mejores que una interfaz general.
 
 La biblioteca estándar de Go es un buen ejemplo de este principio: https://pkg.go.dev/io@go1.22.1#pkg-types
 
 ## Dependency Inversion Principle
 
-Se debe depender de las abstracciones, no de las implementaciones.
+Se debe depender de las abstracciones, no de las implementaciones. Esto permite cambiar las implementaciones sin romper con las entidades dependientes. La función 
