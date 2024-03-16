@@ -28,7 +28,6 @@ Algunas de las herramientas utilizadas en esta etapa son:
 
 - [[User Story Mapping]]
 - [[Lean Canvas]]
-- [[Elevator Pitch]]
 
 ### Descripción de Personas
 
@@ -49,3 +48,13 @@ Es importante identifica los mayores reisgos y dejarlos explicitos. Se trabaja s
 Durante 5' cada integrante del equipo pensará y escribirá riegos. Al final se discutirá la gravedad de cada uno de ellos, evaluando como pueden ser mitigados.
 
 ### Experimentos de Usabilidad
+
+Podremos realizar purebas de usabilidad en cinco pasos:
+
+1. Definir los objetivos del test. Los objetivos pueden ser revisar la arquitectura, los rótulos de determiandas seciones, etc. Estos son sumamente importantes.
+2. Construir un guion de tareas. Un guion se divide en conjuntos de preguntas y series de tareas, cada una de las cuales está vinculada a ciertos objetivos. Como mínimo, debe tener lo siguiente:
+
+	- Introducción: El consultor se presenta y le cuenta el usuario que va a hacer, los objetivos del test, etc.
+	- Cuestionario previo al test: Aquí setrata de identificar o verificar el perfil del usuario.
+	- Descripción de un escenario:
+	- Tareas

@@ -5,3 +5,5 @@ El proceso de preventa se basa en las siguientes tres heurísticas:
 - **Explicar que es la agilidad:** No todos saben lo que implica, por lo cual debemos transmitir estas ideas al cliente.
 - **Descubrir tu producto:** El Product Discovery se utiliza para esto.
 - **Entender la psicología del cliente:** Debemos desafiar las ideas del potencial cliente, entender como piensa, como decide, qué necesita y qué no.
+
+Para lograr esto, podremos utilizar la técnica del [[Elevator Pitch]]
