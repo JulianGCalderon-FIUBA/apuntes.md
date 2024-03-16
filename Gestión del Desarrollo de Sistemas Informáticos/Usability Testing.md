@@ -36,6 +36,6 @@ Es recomendable realizar dos o tres sesiones en la mañana, y tener un tiempo in
 
 El modo de organizar el informe final con los resultados es muy personal. En general, es recomendable comenzar por lo más destacado y terminar con los detalles.
 
-Se debe clasificar los errores o problemas para luego poder prioriarlos. Las categorías deben ser simples y reducidas.
+Se debe clasificar los errores o problemas para luego poder priorizarlos. Las categorías deben ser simples y reducidas: graves, importantes, menores.
 
-Los errores también se pueden clasificar por tipo: arquitectura, diseño, textos, etc.s
+Los errores también se pueden clasificar por tipo: arquitectura, diseño, textos, etc.
