@@ -24,8 +24,10 @@ Muchas veces, surge que no existe una visión unificada del producto (incluso de
 
 ## Herramientas
 
-Algunas de las herramientas utilizadas en este etapa son:
+Algunas de las herramientas utilizadas en esta etapa son:
 
 - [[User Story Mapping]]
 - [[Lean Canvas]]
 - [[Elevator Pitch]]
+
+## Personas
