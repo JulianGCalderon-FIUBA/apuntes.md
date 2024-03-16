@@ -28,4 +28,14 @@ Se deben tener en cuenta factores como:
 
 ## Realización de los tests
 
-Es importante que no haya inprevistos durante las sesiones. Se debe verificar que todo funcione de forma acorde.
+Es importante que no haya imprevistos durante las sesiones. Se debe verificar que todo funcione de forma acorde.
+
+Es recomendable realizar dos o tres sesiones en la mañana, y tener un tiempo intermedio para registrar notas.
+
+## Redacción de informe
+
+El modo de organizar el informe final con los resultados es muy personal. En general, es recomendable comenzar por lo más destacado y terminar con los detalles.
+
+Se debe clasificar los errores o problemas para luego poder prioriarlos. Las categorías deben ser simples y reducidas.
+
+Los errores también se pueden clasificar por tipo: arquitectura, diseño, textos, etc.s

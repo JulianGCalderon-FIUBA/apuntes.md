@@ -14,6 +14,8 @@ Se busca encontrar respuesta a las siguientes cuestiones:
 - Riesgos: Es muy común que en esta etapa se detecten riesgos, tantos técnicos como de negocio.
 - Estimación inicial de magnitud: Una vez resueltas las preguntas anteriores, podremos tener una idea inicial de cuán grande podría llegar a ser el resultado.
 
+Se utiliza el resultado de este proceso en [[Lean Sales Up]] para poder tener una propuesta adecuada a los clientes.
+
 ## Talleres
 
 Esta etapa se facilita a través de una serie de talleres que se desarrollan en conjunto con los clientes.
@@ -29,5 +31,5 @@ Algunas de las herramientas utilizadas en esta etapa son:
 - [[User Story Mapping]]
 - [[Lean Canvas]]
 - [[Personas]]
-- [[Usability Testing]]
 - [[Risk Brainstorming]]
+- [[Usability Testing]]
