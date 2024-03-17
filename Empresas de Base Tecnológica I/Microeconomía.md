@@ -1,0 +1,1 @@
+Es la rama de la [[Economía]] que estudia el comportamiento, las acciones y las decisiones de los agentes económicos individuales: las personas, las familias y las organizaciones; y sus relaciones e interacciones en los mercados.
