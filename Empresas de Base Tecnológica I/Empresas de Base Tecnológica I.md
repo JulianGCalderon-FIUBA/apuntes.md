@@ -1,2 +1,3 @@
 - [[Economía]]
 - [[Factores de la Producción]]
+- [[Costo de Oportunidad]]
