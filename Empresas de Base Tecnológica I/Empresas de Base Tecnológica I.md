@@ -1,5 +1,4 @@
 - [[Economía]]
 - [[Factores de la Producción]]
 - [[Costo de Oportunidad]]
-- [[Empresa de Base Tecnológica]]
 - [[Producto Bruto Interno]]
