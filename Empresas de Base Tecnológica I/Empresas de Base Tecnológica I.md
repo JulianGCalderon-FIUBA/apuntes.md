@@ -2,3 +2,4 @@
 - [[Factores de la Producción]]
 - [[Costo de Oportunidad]]
 - [[Producto Bruto Interno]]
+- [[Circuito Macroeconómico Abierto]]
