@@ -15,6 +15,10 @@ Si estudiamos la suma de todos los bienes y servicios producidos en una economí
 
 Esto permite hacer comparaciones con otros años y eliminar errores por la inflación.
 
-## Definiciones
+## Producto Bruto Nacional
 
-El PBI
+El producto bruto nacional (PBN) tiene en cuenta la diferencia entre el dinero que se queda en el país.
+
+## Producto Neto Interno
+
+El producto neto interno (PNI) se debe tener en cuenta las amortizaciones o deprecaciones
