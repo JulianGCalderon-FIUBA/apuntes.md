@@ -4,7 +4,7 @@ Se utiliza para obtener feedback rápido del producto. Las cosas que no funciona
 
 Surgió para evitar entregar un producto demasiado tarde, y tener un retorno de inversión más temprano. Se evita que la entrega del producto no sirva y se puedan satisfacer las necesidades correctas.
 
-Algunos otros conceptos relacionados son:
+Un buen camino para obtener un MVP es obtener los siguientes elementos en orden:
 
 - Earliest Testable Product
 - Earliest Usable Product
