@@ -1,3 +1,8 @@
+---
+aliases:
+  - PBI
+---
+
 El Producto Bruto Interno (PBI) es la suma de todos los bienes y servicios producidos en una economía en un determinado período de tiempo. Generalmente, se toma como período de tiempo un año.
 
 ![[Producto Bruto Interno 1710723246.png]]
