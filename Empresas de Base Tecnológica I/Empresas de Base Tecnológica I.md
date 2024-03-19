@@ -1,5 +1,7 @@
 - [[Economía]]
 - [[Factores de la Producción]]
 - [[Costo de Oportunidad]]
+- [[Frontera de Posibilidades de Producción]]
 - [[Producto Bruto Interno]]
 - [[Finanzas]]
+- [[Mercado]]
