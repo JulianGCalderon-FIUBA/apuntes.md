@@ -6,3 +6,5 @@ La ley de la demanda establece que existe una relación inversa entre el precio 
 
 - A mayor precio, menor cantidad demandada
 - A menor precio, mayor cantidad demandada
+
+Esta relación no suele ser lineal, y la curva depende del [[Mercado]].
