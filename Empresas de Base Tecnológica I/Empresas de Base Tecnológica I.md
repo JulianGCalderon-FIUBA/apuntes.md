@@ -6,3 +6,5 @@
 - [[Finanzas]]
 - [[Mercado]]
 - [[Demanda]]
+- [[Oferta]]
+- [[Oferta y Demanda]]
