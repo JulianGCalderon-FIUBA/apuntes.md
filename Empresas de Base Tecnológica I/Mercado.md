@@ -13,4 +13,4 @@ Un mercado está definido por las siguientes características:
 - La cantidad de empresas u organizaciones que participan en el mercado.
 - La capacidad de diferenciación o sustitución de los productos y servicios.
 - El poder de las empresas u organizaciones de fijar el precio en el mercado.
-- Las barreras de entrada y de salida del mercado. Son los impedimentos que tiene una empresa al momento de entrar o salir a un mercado. Algunos ejemplos: inversión inicial
+- Las barreras de entrada y de salida del mercado. Son los impedimentos que tiene una empresa al momento de entrar o salir a un mercado. Algunos ejemplos son: inversión inicial, cantidad de empleados, dificultad de venta de una fábrica.
