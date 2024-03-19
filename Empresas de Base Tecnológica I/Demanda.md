@@ -12,3 +12,5 @@ Esta relación no suele ser lineal, y la curva depende del [[Mercado]].
 Cuando se habla de cantidad demandada, se habla de un punto de específico de la curva de demanda.
 
 ![[Demanda 1710892100.png]]
+
+Se refiere a función de la demanda, a la expresión que define la curva.
