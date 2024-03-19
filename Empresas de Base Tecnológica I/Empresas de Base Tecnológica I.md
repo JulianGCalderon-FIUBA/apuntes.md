@@ -7,4 +7,4 @@
 - [[Mercado]]
 - [[Demanda]]
 - [[Oferta]]
-- [[Oferta y Demanda]]
+- [[Equilibrio]]

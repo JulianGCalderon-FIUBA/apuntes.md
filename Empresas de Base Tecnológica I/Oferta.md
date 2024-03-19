@@ -8,3 +8,5 @@ La ley de la oferta establece que existe una relación directa entre el precio d
 - A menor precio, menor cantidad ofertada.
 
 La cantidad ofertada refiere a un punto especifico de la curva de oferta.
+
+![[Oferta 1710892059.png]]
