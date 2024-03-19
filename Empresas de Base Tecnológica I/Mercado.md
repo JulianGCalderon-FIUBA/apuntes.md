@@ -8,8 +8,9 @@ El precio y la cantidad son las dos variables más importantes que tiene el merc
 
 ## Características
 
-Un mercado esta definido por las siguientes características:
+Un mercado está definido por las siguientes características:
 
 - La cantidad de empresas u organizaciones que participan en el mercado.
 - La capacidad de diferenciación o sustitución de los productos y servicios.
-- El poder de las empresas u organizaciones de fijar el precio en el merca
+- El poder de las empresas u organizaciones de fijar el precio en el mercado.
+- Las barreras de entrada y de salida del mercado. Son los impedimentos que tiene una empresa al momento de entrar o salir a un mercado. Algunos ejemplos: inversión inicial
