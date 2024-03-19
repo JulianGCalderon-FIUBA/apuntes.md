@@ -1,4 +1,5 @@
 - [[Lean Inception]]
 - [[Stakeholders]]
 - [[Product Discovery]]
+- [[MVP]]
 - [[User Story Mapping]]
