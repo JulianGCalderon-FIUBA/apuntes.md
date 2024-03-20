@@ -14,3 +14,4 @@ Cuando una de las curvas se desplaza desde el equilibrio (mientras la otra se ma
 
 ![[Equilibrio 1710893873.png]]
 
+El desplazamiento de una de las curvas suele tener como consecuencia el desplazamiento de la otra curva.
