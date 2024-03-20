@@ -18,7 +18,13 @@ Se refiere a función de la oferta, a la expresión que define la curva.
 La función de oferta es la función matemática que relaciona la cantidad ofertada de un bien o servicio con otras variables, además de su precio. Entre ellas:
 
 - Precio del bien o servicio en cuestión.
-- Ingreso disponible.
-- Precio del bien o servicio sustituto.
+- Precio de los factores de la producción.
+- La tecnología.
 - Precio del bien o servicio complementario.
-- Otras variables como gustos y preferencias de los consumidores, tamaño del mercado, expectativas, etc.
+- La cantidad de organizaciones que ofrecen el mismo bien o servicio, expectativas económicas, etc.
+
+## Desplazamiento
+
+Cuando aumenta o disminuye la oferta, la curva se desplaza:
+
+![[Oferta 1710893789.png]]
