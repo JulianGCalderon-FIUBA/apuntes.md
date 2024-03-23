@@ -4,6 +4,8 @@ Cuando la inflación es baja, es fácil solucionarla. Cuando la inflación es al
 
 ## Niveles de Inflación
 
+Se puede clasificar la inflación según su grado:
+
 - Baja: menor al 10% anual. La media mundial es del 5% antes de la pandemia.
 - Media: del 10% al 20%. Se considera inflación mensual.
 - Alta: mayor al 20% anual.
@@ -11,7 +13,9 @@ Cuando la inflación es baja, es fácil solucionarla. Cuando la inflación es al
 
 A mayor inflación, más rápido pierden sus funciones el [[Dinero]].
 
-## Tipos de Inflación
+## Causas de Inflación
+
+Se puede clasificarla inflación según sus causas.
 
 ### Inflación por Demanda
 
@@ -54,4 +58,4 @@ Algunas soluciones a la inflación son:
 - Aumento de las tasas de interés.
 - Moderar la emisión monetaria.
 
-En el caso de Argentina, se debe entender todo esto como un plan integral y no como puntos aislados ya que no funcionan si se aplican de a uno. 
+En el caso de Argentina, se debe entender todo esto como un plan integral y no como puntos aislados ya que no funcionan si se aplican de a uno.
