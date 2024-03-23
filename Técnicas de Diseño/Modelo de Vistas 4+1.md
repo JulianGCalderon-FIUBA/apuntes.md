@@ -38,4 +38,9 @@ Esperamos que diferentes configuraciones puedan usarse: algunas para desarrollo 
 
 ## Vista de Escenarios
 
-Los elementos de las cuatri vistas trabajan conjuntamente en forma natural mediante el uso de un conjunto pequeño de escnearios relevantes. Los escenarios son de alguna manera una bst
+Los elementos de las cuatro vistas trabajan conjuntamente en forma natural mediante el uso de un conjunto pequeño de escenarios relevantes.
+
+Los escenarios son de alguna manera una abstracción de los requisitos más importantes. Sirve para dos propósitos principales:
+
+- Como un guía para descubrir elementos arquitectónicos durante el diseño de arquitectura.
+- Como un rol de validación e ilustración después de completar el diseño de arquitectura, en el papel y como un punto de partido de las pruebas de un prototipo de la arquitectura.
