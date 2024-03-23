@@ -10,5 +10,6 @@
 - [[Equilibrio]]
 - [[Dinero]]
 - [[Agregados Monetarios]]
-- [[Inflación]]
 - [[Agentes]]
+- [[Tasa de Interés]]
+- [[Inflación]]

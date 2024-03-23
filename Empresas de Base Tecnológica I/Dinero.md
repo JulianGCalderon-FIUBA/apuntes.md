@@ -12,3 +12,11 @@ Es todo activo o bien generalmente aceptado como medio de pago por los [[Agentes
 - **Liquidez**: Capacidad de un activo de convertirse en dinero sin perder su valor. Hay diferentes grados de liquidez.
 - **Rendimiento:** Renumeración debida a su posesión durante un determinado período de tiempo.
 - **Riesgo:** Evalúa la posibilidad de afectar su calidad como reserva de valor.
+
+## Motivos de Demanda de Dinero
+
+- Transacciones: para compra de bienes y servicios
+- Precaución: para cubrirse ante una necesidad imprevista
+- Especulación: hay que analizar el costo de oportunidad de tener liquidez perfecta frente a tasas de interés altas.
+
+Las transacciones y las precauciones son motivos que tienen que ver con el ingreso de dinero. La especulación tiene que ver con la tasa de interés.

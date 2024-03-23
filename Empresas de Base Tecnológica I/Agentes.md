@@ -4,28 +4,4 @@ Existen tres tipos de agentes.
 - Bancos comerciales
 - Personas
 
-## Balance
-
-El balance de un agente es el resumen de sus [[Activos]] y sus [[Pasivos]].
-
-### Banco Central
-
-| ACTIVOS        | PASIVOS    |
-| -------------- | ---------- |
-| Oro y Divisas  | Circulante |
-| Otros Activos  | Reservas   |
-| Prest. al Gob. | Bonos BCRA |
-
-### Bancos Comerciales
-
-| ACTIVOS            | PASIVOS   |
-| ------------------ | --------- |
-| Préstamos          | Depósitos |
-| Reservas           |           |
-
-### Personas
-
-| ACTIVOS    | PASIVOS |
-| ---------- | ------- |
-| Circulante | Riqueza |
-| Depósitos  |         |
+El balance de un agente es el resumen de sus [[Activos]] y sus [[Pasivos]]. Lo que es el pasivo para un agente, es un activo para el otro.

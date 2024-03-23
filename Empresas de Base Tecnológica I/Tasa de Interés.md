@@ -1,0 +1,1 @@
+Es el costo de [[Dinero]] en un período detiempo d
