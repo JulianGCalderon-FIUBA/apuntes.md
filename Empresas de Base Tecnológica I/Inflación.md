@@ -15,7 +15,7 @@ A mayor inflación, más rápido pierden sus funciones el [[Dinero]].
 
 ## Causas de Inflación
 
-Se puede clasificarla inflación según sus causas.
+Se puede clasificarla inflación según sus causas. Por lo general, la inflación es multicausal.
 
 ### Inflación por Demanda
 
@@ -52,8 +52,8 @@ Los orígenes del exceso de oferta de dinero pueden deberse a una financiación 
 Algunas soluciones a la inflación son:
 
 - Pacto social entre los agentes económicos para llegar a un acuerdo de precios y salarios.
-- Corrección de los precios relativos.
-- Metas de inflación reales.
+- Corrección de los precios relativos. Esto es cuando la diferencia de precio entre dos productos es mayor que la diferencia real de valor entre ambos.
+- Proponer metas de inflación reales.
 - Evitar que el tipo de cambio fluctúe bruscamente.
 - Aumento de las tasas de interés.
 - Moderar la emisión monetaria.
