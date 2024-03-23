@@ -11,7 +11,20 @@ Cuando la inflación es baja, es fácil solucionarla. Cuando la inflación es al
 
 A mayor inflación, más rápido pierden sus funciones el [[Dinero]].
 
-## Tipos de Dinero
+## Tipos de Inflación
 
-- Inflación de Demanda
-- Inflación de Costos
+### Inflación por Demanda
+
+La inflación por demanda se origina por un aumento en la demanda agregada por encima de la oferta agregada. Puede ser por un aumento en el consumo, la inversión, el gasto del gobierno, el salario real, la oferta monetaria o una disminución de los impuestos.
+
+![[Inflación 1711227965.png]]
+
+### Inflación de Costos
+
+La inflación de costos se origina por un aumento en los precios. Puede ser por un aumento del salario nominal (cuando no viene acompañado de otra medida), un aumento del Mark Up o una disminución de la productividad.
+
+![[Inflación 1711228023.png]]
+
+### Inflación Inercial
+
+La inflación
