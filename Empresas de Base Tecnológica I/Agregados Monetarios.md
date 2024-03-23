@@ -24,4 +24,4 @@ Se trata de una cuenta que ofrece al cliente menos facilidades para realizar ing
 
 ### Plazo Fijo (PF)
 
-Es una alternativa de inversión, que permite obtener un rendimiento conocido y fijo a cambio de inmovilizar el dinero por plazo previamente pautado.
+Es una alternativa de inversión, que permite obtener un rendimiento conocido y fijo a cambio de inmovilizar el dinero por plazo previamente pautado. Hay que tener en cuenta el [[Costo de Oportunidad]] de tener el dinero inmovilizado.
