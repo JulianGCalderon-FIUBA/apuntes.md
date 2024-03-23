@@ -20,7 +20,7 @@ Se suele utilizar un diagrama de clases.
 
 ## Vista de Componentes
 
-La vista de desarrollo se centra en la organización real de los módulos de software en el ambiente de desarrollo de software.
+La vista de componentes (o de desarrollo) se centra en la organización real de los módulos de software en el ambiente de desarrollo de software.
 
 El software se empaqueta en partes pequeñas - bibliotecas de programas o subsistemas - que pueden ser desarrollados por uno o un grupo pequeño de desarrolladores.
 
@@ -30,4 +30,12 @@ Se suele utilizar un diagrama de componentes (similar a un diagrama de clases).
 
 ## Vista Física
 
+La vista física (o de despliegue) toma en cuenta primeramente los requisitos no funcionales del sistema como la disponibilidad, confiabilidad, rendimiento, y escalabilidad.
 
+El software se ejecuta sobre una red de computadores o nodos de procesamiento. Los variados elementos identificados - redes, procesos, tareas y objetos - requieren ser mapeados sobre los nodos.
+
+Esperamos que diferentes configuraciones puedan usarse: algunas para desarrollo y pruebas, otras para mostrar el sistema en varios sitios para distintos usuarios. Por lo tanto, la relación del software en los nodos debe ser altamente flexible y tener un impacto mínimo sobre el código fuente.
+
+## Vista de Escenarios
+
+Los elementos de las cuatri vistas trabajan conjuntamente en forma natural mediante el uso de un conjunto pequeño de escnearios relevantes. Los escenarios son de alguna manera una bst
