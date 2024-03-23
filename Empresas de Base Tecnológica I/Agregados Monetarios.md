@@ -25,3 +25,11 @@ Se trata de una cuenta que ofrece al cliente menos facilidades para realizar ing
 ### Plazo Fijo (PF)
 
 Es una alternativa de inversión, que permite obtener un rendimiento conocido y fijo a cambio de inmovilizar el dinero por plazo previamente pautado. Hay que tener en cuenta el [[Costo de Oportunidad]] de tener el dinero inmovilizado.
+
+## Base Monetaria (BM = C + R)
+
+La base monetaria es el valor de todos los billetes y de todas las monedas que hay en la economía.
+
+## Oferta Monetaria (M = C + D)
+
+La oferta monetaria de una economía es la suma del efectivo en manos del público y los saldos de los depósitos a la visita de los hogares y de las empresas no financieras de la economía.
