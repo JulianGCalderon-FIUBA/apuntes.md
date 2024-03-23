@@ -8,3 +8,5 @@
 - [[Demanda]]
 - [[Oferta]]
 - [[Equilibrio]]
+- [[Dinero]]
+- [[Inflación]]
