@@ -27,4 +27,31 @@ La inflación de costos se origina por un aumento en los precios. Puede ser por 
 
 ### Inflación Inercial
 
-La inflación
+La inflación inercial se origina por las expectativas que tienen los agentes económicos de que se repita la inflación de los períodos anteriores. Esas expectativas terminan generando una "profecía autocumplida" generando lo que se conoce como Espiral Inflacionaria.
+
+![[Inflación 1711228090.png]]
+
+### Inflación Estructural
+
+La inflación Estructural no se debe a un desequilibrio de la demanda agregada o de la oferta agregada, sino a un aumento de precios producto del atraso de la estructura productiva.
+
+Una estructura productiva atrasada se reconoce por poseer cuellos de botella en determinados sectores. Este problema productivo se traslada al resto de la economía en forma de aumentos de precios.
+
+### Inflación por Política Monetaria
+
+La inflación por Política Monetaria se origina cuando la oferta de dinero crece a una tasa superior a la demanda de dinero. El principal fundamento teórico de quienes aplican esta teoría es la teoría cuantitativa del dinero.
+
+Los orígenes del exceso de oferta de dinero pueden deberse a una financiación del déficit del Gobierno o debido a una situación extraordinaria (Pandemia COVID-19).
+
+## Soluciones a la Inflación
+
+Algunas soluciones a la inflación son:
+
+- Pacto social entre los agentes económicos para llegar a un acuerdo de precios y salarios.
+- Corrección de los precios relativos.
+- Metas de inflación reales.
+- Evitar que el tipo de cambio fluctúe bruscamente.
+- Aumento de las tasas de interés.
+- Moderar la emisión monetaria.
+
+En el caso de Argentina, se debe entender todo esto como un plan integral y no como puntos aislados ya que no funcionan si se aplican de a uno. 
