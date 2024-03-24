@@ -51,11 +51,11 @@ Los orígenes del exceso de oferta de dinero pueden deberse a una financiación 
 
 Algunas soluciones a la inflación son:
 
-- Pacto social entre los agentes económicos para llegar a un acuerdo de precios y salarios.
-- Corrección de los precios relativos. Esto es cuando la diferencia de precio entre dos productos es mayor que la diferencia real de valor entre ambos.
+- Armar un pacto social entre los agentes económicos para llegar a un acuerdo de precios y salarios.
+- Corregir de los precios relativos. Esto es cuando la diferencia de precio entre dos productos es mayor que la diferencia real de valor entre ambos.
 - Proponer metas de inflación reales.
 - Evitar que el tipo de cambio fluctúe bruscamente.
-- Aumento de las tasas de interés.
+- Aumentar las tasas de interés.
 - Moderar la emisión monetaria.
 
 En el caso de Argentina, se debe entender todo esto como un plan integral y no como puntos aislados ya que no funcionan si se aplican de a uno.
