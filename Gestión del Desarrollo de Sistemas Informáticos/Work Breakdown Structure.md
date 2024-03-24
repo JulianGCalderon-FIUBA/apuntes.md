@@ -8,4 +8,4 @@ Para lograr esto, se puede seguir la siguiente regla. El WBS debe contener susta
 
 Debido a que todos los proyectos producen entregables, todos los proyectos deberían poder tener un WBS.
 
-Es importante que los entregables no intersequen, que las diferentes ramas del árbol sean independientes.
+Es importante que las ramas sean independientes, y que la descomposición de una rama contenga todos los entregables de su padre.
