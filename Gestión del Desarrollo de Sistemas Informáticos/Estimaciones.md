@@ -30,4 +30,15 @@ El método finaliza cuando se cumple cierto criterio de salida.
 
 ## Planning Poker
 
-Es una técnicas basada en método anterior.
+Es una técnica basada en método anterior.
+
+1. Cada participante obtiene un mazo de cartas de estimación, representando números de secuencia. Algunos populares son la secuencia de Fibonacci o la serie geométrica.
+2. El moderador presenta una historia de usuario a la vez
+3. El product owner response cualquier pregunta que el equipo tenga sobre la historia
+4. Cada participante elige una carta representando su estimación.
+5. Las cartas se presentan simultáneamente.
+6. Si hay consenso en un número particular, el tamaño se registra.
+7. Si no hay consenso, las estimaciones más altas y más bajas defienden sus estimaciones.
+8. El grupo debate los argumentos
+9. Se hace una nueva ronda de estimación, hasta que haya consenso.
+
