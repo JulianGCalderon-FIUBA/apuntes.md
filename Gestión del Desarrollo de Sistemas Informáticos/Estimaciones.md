@@ -46,6 +46,6 @@ Los managers no deben votar, ya que en general están sesgados para que el proye
 
 Cuando hay un empate entre dos números consecutivos, se debe elegir el número más grande.
 
-Se deben frenar discusiones de implementación antes de que profundicen mucho. Se puede utilizar un limite de tiempo.
+Se deben frenar discusiones de implementación antes de que profundicen mucho. Se puede utilizar un límite de tiempo.
 
-Si no se alcanza consenso tras varias rondas, se elige el número mas grande.
+Si no se alcanza consenso tras varias rondas, se elige el número más grande.
