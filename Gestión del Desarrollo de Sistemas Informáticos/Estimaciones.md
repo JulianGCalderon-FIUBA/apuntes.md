@@ -20,3 +20,8 @@ Una estrategia para obtener buenas estimaciones es pedirle a distintas personas 
 - **Kickoff:** Se usa para introducir el concepto el método y el problema a estimar a los estimadores. El moderador debe asegurarse de que los estimadores tienen suficiente información para que se una buena estimación.
 - **Individual preparations:** Cada estimador desarrolla una lista de tareas a realizarse para el proyecto, o tareas de soporte. Estiman el tamaño de estas tareas.
 - **Estimation Meeting:** Se recolecta cada estimación y se crea un gráfico para representarlas. La estimación es anónima. Cada estimador cuenta la lista de tareas que pensó, y las suposiciones que tomó. Los estimadores pueden agregar tareas y generar una nueva estimación. Esto sigue hasta completar cuatro rondas.
+
+![[Estimaciones 1711408874.png]]
+
+- **Assemble Tasks:** El modelador crea una lista única a partir de todas las sublistas creadas.
+- **Review Results:** El equipo de estimación toma la lista unificada y genera una estimación en conjunto. La lista final debe ser lo más completa posible.
