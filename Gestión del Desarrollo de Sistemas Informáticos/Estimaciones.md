@@ -27,3 +27,7 @@ Una estrategia para obtener buenas estimaciones es pedirle a distintas personas 
 - **Review Results:** El equipo de estimación toma la lista unificada y genera una estimación en conjunto. La lista final debe ser lo más completa posible.
 
 El método finaliza cuando se cumple cierto criterio de salida.
+
+## Planning Poker
+
+Es una técnicas basada en método anterior.
