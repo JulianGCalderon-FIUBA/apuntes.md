@@ -1,0 +1,1 @@
+Una estimación es una evaluación tentativa y preliminar del costo (tanto temporal como monetario) de un proyecto. Los objetivos del proyecto, el compromiso y el control están relacionados con la estimación.
