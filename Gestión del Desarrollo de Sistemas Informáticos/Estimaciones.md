@@ -25,3 +25,5 @@ Una estrategia para obtener buenas estimaciones es pedirle a distintas personas 
 
 - **Assemble Tasks:** El modelador crea una lista única a partir de todas las sublistas creadas.
 - **Review Results:** El equipo de estimación toma la lista unificada y genera una estimación en conjunto. La lista final debe ser lo más completa posible.
+
+El método finaliza cuando se cumple cierto criterio de salida.
