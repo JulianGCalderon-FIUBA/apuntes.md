@@ -2,4 +2,8 @@ Una estimación es una evaluación tentativa y preliminar del costo (tanto tempo
 
 Una estimación no es un plan. El objetivo de una estimación es que sea certera, no debe ser sesgada por el objetivo.
 
-Las estimaciones no deben tener un solo punto, sinó un rango.
+Las estimaciones no deben tener un solo punto, sino un rango. Las estimaciones siempre tienen un cierto grado de probabilidad de cumplirse.
+
+![[Estimaciones 1711406561.png]]
+
+Una certeza del $\pm 10%$ sería ideal. Es po
