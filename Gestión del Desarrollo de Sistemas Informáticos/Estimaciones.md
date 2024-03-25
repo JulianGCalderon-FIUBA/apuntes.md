@@ -10,5 +10,11 @@ Una buena estimación es aquella que provee una clara vista de la realidad del p
 
 Es útil comparar estimaciones con resultados para ir mejorando nuestra capacidad de estimación.
 
-Otra estrategia para obtener buenas estimaciones es pedirle a distintas personas que hagan estimaciones individuales, y después analizar los resultados. Este método se conoce como *Wideband Delphi*.
+## Wideband Delphi
 
+Una estrategia para obtener buenas estimaciones es pedirle a distintas personas que hagan estimaciones individuales, y después que el *project manager* decida el resultado. Este método se conoce como *Wideband Delphi*.
+
+![[Estimaciones 1711407796.png]]
+
+- **Planificación:** Se define el alcance del proyecto. El moderador debe recolectar información para poder darle toda la información necesaria a los estimadores.
+- **Kickoff:** Se usa para introducir el concepto el método a los estimadores.
