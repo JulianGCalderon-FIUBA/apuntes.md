@@ -17,4 +17,5 @@ Una estrategia para obtener buenas estimaciones es pedirle a distintas personas 
 ![[Estimaciones 1711407796.png]]
 
 - **Planificación:** Se define el alcance del proyecto. El moderador debe recolectar información para poder darle toda la información necesaria a los estimadores.
-- **Kickoff:** Se usa para introducir el concepto el método a los estimadores.
+- **Kickoff:** Se usa para introducir el concepto el método y el problema a estimar a los estimadores. El moderador debe asegurarse de que los estimadores tienen suficiente información para que se una buena estimación.
+- 
