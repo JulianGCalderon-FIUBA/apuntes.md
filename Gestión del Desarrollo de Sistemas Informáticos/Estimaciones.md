@@ -42,3 +42,10 @@ Es una técnica basada en método anterior.
 8. El grupo debate los argumentos
 9. Se hace una nueva ronda de estimación, hasta que haya consenso.
 
+Los managers no deben votar, ya que en general están sesgados para que el proyecto finalice rápido.
+
+Cuando hay un empate entre dos números consecutivos, se debe elegir el número más grande.
+
+Se deben frenar discusiones de implementación antes de que profundicen mucho. Se puede utilizar un limite de tiempo.
+
+Si no se alcanza consenso tras varias rondas, se elige el número mas grande.
