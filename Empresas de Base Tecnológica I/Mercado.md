@@ -27,4 +27,14 @@ Los mercados de competencia perfecta poseen las siguientes características:
 
 ## Monopolio
 
-Un monopolio es un tippo de mercado d
+Un monopolio es un tipo de mercado de competencia imperfecta que pose las siguientes características.
+
+- Una sola empresa u organización.
+- Se conoce toda la información con la que opera ese mercado.
+- Se comercializa un solo bien o servicio.
+- Es muy difícil o imposible entrar a ese mercado.
+- Al ser una sola empresa u organización, esta tiene todo el poder de mercado para influir en los precios.
+
+Un ejemplo de monopolio es Meta, todas las redes sociales pertenecen a la misma empresa.
+
+## Oligopolios
