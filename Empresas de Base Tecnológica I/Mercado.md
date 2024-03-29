@@ -38,3 +38,7 @@ Un monopolio es un tipo de mercado de competencia imperfecta que pose las siguie
 Un ejemplo de monopolio es Meta, todas las redes sociales pertenecen a la misma empresa.
 
 ## Oligopolios
+
+Un oligopolio es un tipo de mercado de competencia imperfecta que pose las siguientes características.
+
+- Pocas empresas u organizaciones
