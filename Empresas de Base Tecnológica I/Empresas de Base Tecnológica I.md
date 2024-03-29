@@ -13,3 +13,4 @@
 - [[Agentes]]
 - [[Tasa de Interés]]
 - [[Inflación]]
+- [[Elasticidad]]
