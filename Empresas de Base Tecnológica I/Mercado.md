@@ -41,4 +41,12 @@ Un ejemplo de monopolio es Meta, todas las redes sociales pertenecen a la misma 
 
 Un oligopolio es un tipo de mercado de competencia imperfecta que pose las siguientes características.
 
-- Pocas empresas u organizaciones
+- Pocas empresas u organizaciones (2 o 3).
+- No se conoce toda día información con la que opera ese mercado.
+- Se comercializan bienes o servicios homogéneos o diferenciados.
+- Es muy difícil imposible entrar en ese mercado.
+- Al ser pocas empresas u organizaciones, estas tienen mucho poder de mercado para influir en los precios.
+
+Un ejemplo de oligopolio es CocaCola y Pepsi. En informática hay muchos oligopolios. Es el tipo de mercado más común.
+
+La [[Elasticidad]] en estos mercados es inelastica.
