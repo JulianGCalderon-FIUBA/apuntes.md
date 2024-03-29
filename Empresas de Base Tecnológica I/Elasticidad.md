@@ -16,4 +16,4 @@ Normalmente, es una cifra negativa. Cuando sube el precio de un bien, la cantida
 - **Demanda Inelástica** - $E_p < 1$. La demanda varía, pero no tanto como el precio. Ej.: electricidad.
 - **Demanda Unitaria** - $E_p = 1$. La demanda varía tanto como el precio. Este es el ideal, pero muy difícil de alcanzar.
 - **Demanda Elástica** - $E_p > 1$. La demanda varía, aún más que el precio. Los productos de consumo masivo no esenciales están en esta categoría. Ej.: pasajes de avión.
-- **Demanda Perfectamente Elástica** - $E_p = \infty$. A precio contante, la demanda varía igualmente. Ej.: frutas y verduras, en el caso ideal.
+- **Demanda Perfectamente Elástica** - $E_p = \infty$. A precio contante, la demanda varía igualmente. Ej.: frutas y verduras,.
