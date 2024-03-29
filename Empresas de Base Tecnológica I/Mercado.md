@@ -24,3 +24,7 @@ Los mercados de competencia perfecta poseen las siguientes características:
 - Los bienes y servicios que se comercializan son homogéneos.
 - No hay barreras de entrada y salida.
 - Ninguna empresa u organización tiene el poder de mercado suficiente para influir los precios.
+
+## Monopolio
+
+Un monopolio es un tippo de mercado d
