@@ -50,3 +50,15 @@ Un oligopolio es un tipo de mercado de competencia imperfecta que pose las sigui
 Un ejemplo de oligopolio es Coca-Cola y Pepsi. En informática hay muchos oligopolios. Es el tipo de mercado más común.
 
 La [[Elasticidad]] en estos mercados es inelástica.
+
+## Competencia Monopólica
+
+Una competencia monopólica es un tipo de mercado de competencia imperfecta que pose las siguientes características:
+
+- Gran cantidad de empresas u organizaciones
+- No se conoce toda la información con la que se opera ese mercado.
+- Se comercializan bienes o servicios diferenciados.
+- Bajas barreras de entrada y salida.
+- Las empresas u organizaciones tienen poco poder de mercado para influir en los precios (pero lo tienen).
+
+Todos buscan diferenciar su producto, aunque resuelven la misma necesidad.
