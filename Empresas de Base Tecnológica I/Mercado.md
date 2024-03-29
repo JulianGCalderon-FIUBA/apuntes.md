@@ -14,3 +14,13 @@ Un mercado está definido por las siguientes características:
 - La capacidad de diferenciación o sustitución de los productos y servicios.
 - El poder de las empresas u organizaciones de fijar el precio en el mercado.
 - Las barreras de entrada y de salida del mercado. Son los impedimentos que tiene una empresa al momento de entrar o salir a un mercado. Algunos ejemplos son: inversión inicial, cantidad de empleados, dificultad de venta de una fábrica.
+
+## Competencia Perfecta
+
+Los mercados de competencia perfecta poseen las siguientes características:
+
+- Gran cantidad de empresas u organizaciones.
+- Se conoce toda la información con la que opera ese mercado.
+- Los bienes y servicios que se comercializan son homogéneos.
+- No hay barreras de entrada y salida.
+- Ninguna empresa u organización tiene el poder de mercado suficiente para influir los precios.

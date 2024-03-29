@@ -26,12 +26,4 @@ $$
 E_o = \frac{\%\Delta Q}{\%\Delta P}
 $$
 
-Donde $\%\Delta Q$ es la variación porcentual de la cantidad, y $\%\Delta P$ es la variación porcentual del precio.
-
-Normalmente, es una cifra positivo. Cuando sube el precio de un bien, la cantidad ofertada disminuye. En general trabajaremos con la magnitud de su valor (absoluto).
-
-- **Demanda Perfectamente Inelástica** - $E_p = 0$. La demanda no varía según el precio. Ej.: pan y la insulina.
-- **Demanda Inelástica** - $E_p < 1$. La demanda varía, pero no tanto como el precio. Ej.: electricidad.
-- **Demanda Unitaria** - $E_p = 1$. La demanda varía tanto como el precio. Este es el ideal, pero muy difícil de alcanzar.
-- **Demanda Elástica** - $E_p > 1$. La demanda varía, aún más que el precio. Los productos de consumo masivo no esenciales están en esta categoría. Ej.: pasajes de avión.
-- **Demanda Perfectamente Elástica** - $E_p = \infty$. A precio contante, la demanda varía igualmente. Ej.: frutas y verduras (en argentina no se cumple).
+Normalmente, es una cifra positiva. Cuando sube el precio de un bien, la cantidad ofertada aumenta.
