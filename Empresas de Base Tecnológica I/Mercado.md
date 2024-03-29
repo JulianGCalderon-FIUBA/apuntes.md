@@ -47,6 +47,6 @@ Un oligopolio es un tipo de mercado de competencia imperfecta que pose las sigui
 - Es muy difícil imposible entrar en ese mercado.
 - Al ser pocas empresas u organizaciones, estas tienen mucho poder de mercado para influir en los precios.
 
-Un ejemplo de oligopolio es CocaCola y Pepsi. En informática hay muchos oligopolios. Es el tipo de mercado más común.
+Un ejemplo de oligopolio es Coca-Cola y Pepsi. En informática hay muchos oligopolios. Es el tipo de mercado más común.
 
-La [[Elasticidad]] en estos mercados es inelastica.
+La [[Elasticidad]] en estos mercados es inelástica.
