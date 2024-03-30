@@ -18,5 +18,5 @@ Para usar la información generada por los cálculos del *Earned Value*:
 
 1. Actualizar la planificación reportando el progreso de las actividades. Es importante ser lo más objetivo posible.
 2. Ingresar el costo real de las actividades.
-3. Realizar los cálculos, y graficar los reportes y tablas. El *earned value* es simplemente el producto del porcentaje de completitud de las actividades por el presupuesto. También se pueden calcular valores auxiliares, como el porcentje de completitud de los niveles mas altos del WBS.
+3. Realizar los cálculos, y graficar los reportes y tablas. El *earned value* es simplemente el producto del porcentaje de completitud de las actividades por el presupuesto. También se pueden calcular valores auxiliares, como el porcentaje de completitud de los niveles más altos del WBS.
 4. Analizar los datos y escribir la narrativa de rendimiento.
