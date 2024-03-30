@@ -5,3 +5,4 @@
 - [[User Story Mapping]]
 - [[Work Breakdown Structure]]
 - [[Estimaciones]]
+- [[Earned Value]]
