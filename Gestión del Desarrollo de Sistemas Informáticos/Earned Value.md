@@ -4,4 +4,3 @@ Es algo que se gana con esfuerzo, a medida que se completan actividades. Es una 
 - Es un método consistente para el análisis del rendimiento y progreso de un proyecto.
 - Es la base para el análisis de costo-rendimiento de un proyecto.
 
-
