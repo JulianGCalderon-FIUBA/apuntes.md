@@ -4,11 +4,9 @@ Es algo que se gana con esfuerzo, a medida que se completan actividades. Es una 
 - Es un método consistente para el análisis del rendimiento y progreso de un proyecto.
 - Es la base para el análisis de costo-rendimiento de un proyecto.
 
-Este método funciona bien con las técnicas de desarrollo ágiles, y su implementación puede simplificarse mucho en estos casos.
+El *earned value*, o EV, es simplemente el porcentaje de completitud de las actividades. Si lo multiplicamos por el presupuesto, obtendremos el costo total del proyecto.
 
-El *earned value* es simplemente el producto del porcentaje de completitud de las actividades por el presupuesto. También se pueden calcular valores auxiliares, como el porcentaje de completitud de los niveles más altos del WBS.
-
-## Implementación
+También se pueden calcular valores auxiliares, como el porcentaje de completitud de los niveles más altos del WBS.
 
 Para utilizar este concepto/método en un proyecto, tendremos que seguir los siguientes pasos:
 
@@ -27,8 +25,19 @@ Para usar la información generada por los cálculos del *Earned Value*:
 
 ## Técnicas Ágiles
 
+Este método funciona bien con las técnicas de desarrollo ágiles, y su implementación puede simplificarse mucho en estos casos.
+
 Para simplificar el método, registraremos tres valores:
 
 - PV - Planned Value: Budgeted cost of work scheduled. Este es el progreso que esperamos realizar, como un porcentaje del total del proyecto.
 - EV - Earned Value: Budgeted cost of work performed. Este es el progreso que realizamos, como un porcentaje del producto total.
 - AC: Actual Cost: Actual cost of work performed. Este es el costo actual, como un porcentaje del presupuesto total del proyecto.
+
+Para su implementación:
+
+1. Simplificamos la distribución del PV a lo largo del tiempo, no es necesaria computarla, podemos dibujarla a mano.
+2. La grafica es nuestro único formato para reportar EV, no tendremos tablas numéricas.
+3. No separamos el costo por tarea, solo graficamos su agregado.
+4. No interferimos con el sistema financiero. Esto es más efectivo y más barato.
+5. El EV de una tarea se tiene en cuenta solo si la tarea se completo.
+6. El periodo de tiempo de la gráfica debe ser suficientemente grande
