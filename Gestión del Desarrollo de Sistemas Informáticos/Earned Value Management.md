@@ -36,8 +36,15 @@ Para simplificar el método, registraremos tres valores:
 Para su implementación:
 
 1. Simplificamos la distribución del PV a lo largo del tiempo, no es necesaria computarla, podemos dibujarla a mano.
-2. La grafica es nuestro único formato para reportar EV, no tendremos tablas numéricas.
+2. La gráfica es nuestro único formato para reportar EV, no tendremos tablas numéricas.
 3. No separamos el costo por tarea, solo graficamos su agregado.
 4. No interferimos con el sistema financiero. Esto es más efectivo y más barato.
-5. El EV de una tarea se tiene en cuenta solo si la tarea se completo.
-6. El periodo de tiempo de la gráfica debe ser suficientemente grande
+5. El EV de una tarea se tiene en cuenta solo si la tarea se completó.
+6. El periodo de tiempo de la gráfica debe ser suficientemente grande como para mostrar un panorama completo.
+
+Ante cambios en el alcance del proyecto, no se recomienda incluir estas "tareas derivadas" en el EVM.
+
+Para implementar esta técnica, es necesario:
+
+- Definir el alcance del proyecto desde el comienzo.
+- Alcanzar un esquema de entregas lineal. La mayoría de los procesos ágiles están diseñados para hacer esto.
