@@ -4,6 +4,8 @@ Es algo que se gana con esfuerzo, a medida que se completan actividades. Es una 
 - Es un método consistente para el análisis del rendimiento y progreso de un proyecto.
 - Es la base para el análisis de costo-rendimiento de un proyecto.
 
+Este método funciona bien con las técnicas de desarrollo ágiles, y su implementación puede simplificarse mucho en estos casos.
+
 ## Implementación
 
 Para utilizar este concepto/método en un proyecto, tendremos que seguir los siguientes pasos:
@@ -20,3 +22,5 @@ Para usar la información generada por los cálculos del *Earned Value*:
 2. Ingresar el costo real de las actividades.
 3. Realizar los cálculos, y graficar los reportes y tablas. El *earned value* es simplemente el producto del porcentaje de completitud de las actividades por el presupuesto. También se pueden calcular valores auxiliares, como el porcentaje de completitud de los niveles más altos del WBS.
 4. Analizar los datos y escribir la narrativa de rendimiento.
+
+## Técnicas Ágiles
