@@ -33,6 +33,10 @@ Para simplificar el método, registraremos tres valores:
 - EV - Earned Value: Budgeted cost of work performed. Este es el progreso que realizamos, como un porcentaje del producto total.
 - AC: Actual Cost: Actual cost of work performed. Este es el costo actual, como un porcentaje del presupuesto total del proyecto.
 
+Es útil presentar estos valores sin acrónimos, para evitar confusiones.
+
+Es recomendable para el rendimiento del equipo mostrar cambios en el EV de forma dinámica. Esto incrementa motivación.
+
 Para su implementación:
 
 1. Simplificamos la distribución del PV a lo largo del tiempo, no es necesaria computarla, podemos dibujarla a mano.
