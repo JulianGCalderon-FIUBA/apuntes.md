@@ -1,0 +1,1 @@
+Es un gráfica que representa el progreso del proyecto a lo largo
