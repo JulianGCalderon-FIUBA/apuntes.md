@@ -6,3 +6,4 @@
 - [[Work Breakdown Structure]]
 - [[Estimaciones]]
 - [[Earned Value Management]]
+- [[Burn Chart]]
