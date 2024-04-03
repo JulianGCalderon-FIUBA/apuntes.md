@@ -11,3 +11,5 @@ Si surgen nuevos requerimientos, o por alguna razón se retrasa el proyecto, uti
 Otra estrategia es utilizar una *burn up chart*. Aquí se agrega más trabajo simplemente moviendo la línea del alcance.
 
 ![[Burn Chart 1712089434.png]]
+
+Este tipo de gráficas nos permiten analizar el rendimiento de un equipo.
