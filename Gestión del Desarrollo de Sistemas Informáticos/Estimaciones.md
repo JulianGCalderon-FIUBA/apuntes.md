@@ -12,7 +12,9 @@ Es útil comparar estimaciones con resultados para ir mejorando nuestra capacida
 
 ## Esfuerzo o Duración
 
-La duración es la duración de una tarea
+La duración es la duración de una tarea. El esfuerzo se mide en unidades de trabajo (horas de trabajo por persona).
+
+Cuando hablamos de costos, nos referimos al esfuerzo.
 
 ## Wideband Delphi
 
