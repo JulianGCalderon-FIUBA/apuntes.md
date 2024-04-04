@@ -20,6 +20,8 @@ Cuando hablamos de costos, nos referimos al esfuerzo.
 
 El precio es explícitamente monetario. El costo puede ser temporal, social, mental, entre otros factores.
 
+Por lo general, los costos deben estar debajo de los ingresos.
+
 ## Wideband Delphi
 
 Una estrategia para obtener buenas estimaciones es pedirle a distintas personas que hagan estimaciones individuales, y después que el *project manager* decida el resultado. Este método se conoce como *Wideband Delphi*.
