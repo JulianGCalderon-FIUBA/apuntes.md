@@ -10,18 +10,6 @@ Una buena estimación es aquella que provee una clara vista de la realidad del p
 
 Es útil comparar estimaciones con resultados para ir mejorando nuestra capacidad de estimación.
 
-## Esfuerzo o Duración
-
-La duración es la duración de una tarea. El esfuerzo se mide en unidades de trabajo (horas de trabajo por persona).
-
-Cuando hablamos de costos, nos referimos al esfuerzo.
-
-## Costo y Precio
-
-El precio es explícitamente monetario. El costo puede ser temporal, social, mental, entre otros factores.
-
-Por lo general, los costos deben estar debajo de los ingresos.
-
 ## Wideband Delphi
 
 Una estrategia para obtener buenas estimaciones es pedirle a distintas personas que hagan estimaciones individuales, y después que el *project manager* decida el resultado. Este método se conoce como *Wideband Delphi*.

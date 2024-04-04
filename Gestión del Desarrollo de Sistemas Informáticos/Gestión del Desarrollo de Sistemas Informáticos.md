@@ -6,5 +6,6 @@
 - [[User Story Mapping]]
 - [[Work Breakdown Structure]]
 - [[Estimaciones]]
+- [[Costos]]
 - [[Earned Value Management]]
 - [[Burn Chart]]
