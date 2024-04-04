@@ -1,6 +1,7 @@
 - [[Lean Inception]]
 - [[Stakeholders]]
 - [[Product Discovery]]
+- [[Triangulo de Hierro]]
 - [[MVP]]
 - [[User Story Mapping]]
 - [[Work Breakdown Structure]]
