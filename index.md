@@ -23,14 +23,12 @@ title: Índice
 ## 2.º 2022
 
 - [[Sistemas Operativos]]
-- [[Organización de Datos]]
 
 ## 1.º 2023
 
 - [[Matemática Discreta]]
 - [[Introducción a Sistemas Distribuidos]]
 - [[Modelos y Optimización I]]
-- [[Análisis de la Información]]
 
 ## 2.º 2023
 
@@ -41,6 +39,4 @@ title: Índice
 
 ## 1.° 2024
 
-- [[Técnicas de Diseño]]
-- [[Gestión del Desarrollo de Sistemas Informáticos]]
 - [[Empresas de Base Tecnológica I]]

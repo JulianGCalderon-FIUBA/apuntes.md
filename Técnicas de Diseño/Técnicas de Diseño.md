@@ -1,7 +1,0 @@
-- [[SOLID]]
-- [[Arquitectura]]
-- [[Modelo de Vistas 4+1]]
-- [[Atributos de Cálidad]]
-- [[Broker]]
-- [[Pipe and Filter]]
-- [[Microservicios]]
