@@ -49,3 +49,10 @@ Cuando hay un empate entre dos números consecutivos, se debe elegir el número 
 Se deben frenar discusiones de implementación antes de que profundicen mucho. Se puede utilizar un límite de tiempo.
 
 Si no se alcanza consenso tras varias rondas, se elige el número más grande.
+
+## Técnicas de Compresión
+
+Cuando el tiempo que tenemos no es suficiente, tenemos algunas opciones:
+
+- **Crashing:** Agregamos más horas o más gente, no siempre funciona bien, ya que se suman tiempos de coordinación y transferencia.
+- **Fast Tracking:** Paralelizamos el trabajo, esto agrega el riesgo de re-trabajo.
