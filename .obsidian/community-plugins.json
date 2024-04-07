@@ -1,9 +1,7 @@
 [
   "obsidian-linter",
   "obsidian-git",
-  "table-editor-obsidian",
   "mousewheel-image-zoom",
   "obsidian-languagetool-plugin",
-  "attachment-manager",
-  "obsidian-style-settings"
+  "attachment-manager"
 ]

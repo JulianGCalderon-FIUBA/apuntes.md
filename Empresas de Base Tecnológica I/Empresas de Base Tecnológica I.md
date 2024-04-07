@@ -13,3 +13,5 @@
 - [[Tasa de Interés]]
 - [[Inflación]]
 - [[Elasticidad]]
+- [[Contabilidad]]
+- [[Balance]]
