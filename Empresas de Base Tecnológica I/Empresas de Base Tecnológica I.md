@@ -15,3 +15,4 @@
 - [[Elasticidad]]
 - [[Contabilidad]]
 - [[Balance]]
+- [[Cuadro de Resultados]]
