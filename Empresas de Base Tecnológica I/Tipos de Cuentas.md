@@ -28,3 +28,5 @@ Son las obligaciones hacia terceros que posee la organización. Las cuentas del 
 
 - Pasivo corriente: pasivos que son exigibles en un plazo menor en un año
 - Pasivo no corriente: pasivos que no son exigibles en un plazo menor a un año.
+
+###
