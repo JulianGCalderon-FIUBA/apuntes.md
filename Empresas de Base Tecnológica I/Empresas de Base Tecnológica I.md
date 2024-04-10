@@ -1,6 +1,7 @@
 - [[Economía]]
 - [[Factores de la Producción]]
 - [[Costo de Oportunidad]]
+- [[Frontera de Posibilidades de Producción]]
 - [[Producto Bruto Interno]]
 - [[Finanzas]]
 - [[Mercado]]
@@ -17,3 +18,4 @@
 - [[Balance]]
 - [[Cuadro de Resultados]]
 - [[Tipos de Cuentas]]
+- [[Partida Doble]]
