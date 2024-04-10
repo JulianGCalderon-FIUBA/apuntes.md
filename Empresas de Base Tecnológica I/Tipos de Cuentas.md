@@ -1,12 +1,12 @@
 Hay diferentes tipos de cuentas:
 
-- Patrimoniales
-	- Activo:
-	- Pasivo
-	- Patrimonio Neto
-- Transitorias: nacen y mueren durante el período:
-	- De Resultados (ingreso / egreso)
-	- De producción
+- Patrimoniales:
+	- Activo.
+	- Pasivo.
+	- Patrimonio Neto.
+- Transitorias. Nacen y mueren durante el período:
+	- De Resultados.
+	- De Producción.
 
 ## Activos
 
@@ -53,8 +53,6 @@ Son las obligaciones hacia los socios o accionistas que posee la organización. 
 
 Hay tres:
 
-- Ingresos.
-- Egresos.
+- Ingresos (positivo).
+- Egresos (ingreso).
 - Producción.
-
-##
