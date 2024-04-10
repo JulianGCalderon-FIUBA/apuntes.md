@@ -26,7 +26,13 @@ Son los bienes y derechos que posee la organización. Las cuentas del activo se 
 
 Son las obligaciones hacia terceros que posee la organización. Las cuentas del pasivo se ordenan en orden de liquidez descendente y por tipo de acreedor.
 
-- Pasivo corriente: pasivos que son exigibles en un plazo menor en un año
+- Pasivo corriente: pasivos que son exigibles en un plazo menor en un año.
 - Pasivo no corriente: pasivos que no son exigibles en un plazo menor a un año.
 
-###
+### Deuda, Provisión y Previsión
+
+Existen diferencias entre estos conceptos:
+
+- En una deuda se conoce el monto a pagar y la fecha de pago.
+- En una provisión no conozco el monto a pagar, pero sí la fecha de pago.
+- En una previsión no conozco el monto a pagar ni la fecha de pago.
