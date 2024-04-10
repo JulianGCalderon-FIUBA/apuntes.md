@@ -5,3 +5,5 @@ El libro diario es el estado contable donde se registran los hechos económicos 
 - Conocer la situación económica y financiera del ente.
 - Saber la rentabilidad que estamos teniendo.
 - Nos permite elaborar otros estados contables, como el libro mayor, balance, cuadro de resultados, etc.
+
+![[Libro Diario 1712791095.png]]
