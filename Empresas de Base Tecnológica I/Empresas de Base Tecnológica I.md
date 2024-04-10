@@ -18,4 +18,7 @@
 - [[Balance]]
 - [[Cuadro de Resultados]]
 - [[Tipos de Cuentas]]
+- [[Deuda, Provisión y Previsión]]
 - [[Partida Doble]]
+- [[Devengamiento y Cobro]]
+- [[Plan de Cuentas y Manual de Cuentas]]

@@ -16,10 +16,3 @@ Existen dos ramas de la economía:
 
 - [[Microeconomía]]
 - [[Macroeconomía]]
-
-## Enfoques de la economía
-
-Existen dos políticas principales para manejar la economía.
-
-- [[Economía Positiva]]
-- [[Economía Normativa]]
