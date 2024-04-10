@@ -23,3 +23,4 @@
 - [[Devengamiento y Cobro]]
 - [[Plan de Cuentas y Manual de Cuentas]]
 - [[Libro Diario]]
+- [[Libro Mayor]]
