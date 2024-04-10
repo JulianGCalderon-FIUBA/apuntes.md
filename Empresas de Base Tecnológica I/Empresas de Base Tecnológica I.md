@@ -16,3 +16,4 @@
 - [[Contabilidad]]
 - [[Balance]]
 - [[Cuadro de Resultados]]
+- [[Tipos de Cuentas]]
