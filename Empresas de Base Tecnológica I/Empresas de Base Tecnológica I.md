@@ -25,3 +25,4 @@
 - [[Libro Diario]]
 - [[Libro Mayor]]
 - [[Cadena de Valor]]
+- [[Cuello de Botella]]
