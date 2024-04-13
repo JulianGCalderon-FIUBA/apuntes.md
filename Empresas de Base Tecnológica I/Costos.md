@@ -13,3 +13,11 @@ Se denominan gastos a los bienes y servicios adquiridos para la actividad de una
 El costo es el gasto consumido en la actividad productiva. El costo se capitaliza, el gasto no.
 
 Una inversión es un gasto, pero no necesariamente un costo.
+
+## Tipos de Costos
+
+Hay tres tipos de costos principales:
+
+- **Costos variables:** son aquellos que cambian directamente con la cantidad producida o vendida.
+- **Costos fijos:** son aquellos que permanecen constantes independientemente de la producción y las ventas.
+- **Costos semi-variables o mixtos:** Pueden cambiar, pero no directamente con la producción. Ej.: costo de electricidad.
