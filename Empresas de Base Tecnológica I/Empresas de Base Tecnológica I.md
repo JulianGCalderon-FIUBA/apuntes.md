@@ -24,3 +24,4 @@
 - [[Plan de Cuentas y Manual de Cuentas]]
 - [[Libro Diario]]
 - [[Libro Mayor]]
+- [[Cadena de Valor]]
