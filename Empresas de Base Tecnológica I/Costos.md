@@ -8,4 +8,8 @@ Una correcta contabilización de costos es básica a la hora de establecer proye
 
 ## Costo y Gasto
 
-Un gasto
+Se denominan gastos a los bienes y servicios adquiridos para la actividad de una empresa.
+
+El costo es el gasto consumido en la actividad productiva. El costo se capitaliza, el gasto no.
+
+Una inversión es un gasto, pero no necesariamente un costo.
