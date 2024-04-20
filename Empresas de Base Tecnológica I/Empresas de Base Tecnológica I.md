@@ -27,5 +27,6 @@
 - [[Cadena de Valor]]
 - [[Cuello de Botella]]
 - [[Costos]]
+- [[Eficiencia y Eficacia]]
 - [[Valor Agregado]]
 - [[Empresa de Base Tecnológica]]
