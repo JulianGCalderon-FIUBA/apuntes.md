@@ -25,3 +25,22 @@ Para que se dé el ecosistema de innovación debe haber tres elementos:
 Las EBT suelen seguir las siguientes etapas:
 
 ![[Empresa de Base Tecnológica 1713640704.png]]
+
+### Incubación
+
+1. Identificación de una oportunidad tecnológica → Idea
+2. Validación del modelo de negocio → investigación de mercado, análisis de competidores y evaluación de la demanda. 
+3. Mentoría y asesoramiento → Formación de un equipo multidisciplinario
+4. Desarrollo tecnológico → I+D, iteraciones y mejoras
+5. Búsqueda de financiamiento y recursos → Red de contactos. Armado de pitchs.
+6. Consideraciones legales y de propiedad intelectual
+7. Vigilancia tecnológica
+
+## Aceleración
+
+- Crecimiento Rápido → Aceleración
+- Acceso a Recursos → financiamiento privado y público
+- Red de Contactos → inversores, expertos en la industria y otros emprendedores
+- Validación de Mercado → validar su modelo de negocio y su producto en el mercado
+- Programas Estructurados → capacitación intensiva, eventos de networking y oportunidades para presentar su empresa a inversores.
+- Objetivo de Financiamiento → rondas de negocios e inversores
