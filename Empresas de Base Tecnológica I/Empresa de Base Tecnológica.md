@@ -9,3 +9,20 @@ Una empresa de base tecnológica desarrolla un producto con alto [[Valor Agregad
 - Ecosistema y Plataformas: La creación de un ecosistema o plataforma puede fomentar la colaboración, la integración con otros servicios y la expansión de las capacidades de la empresa.
 - Rápida Adaptación al Cambio
 - Conciencia de Marca y Confianza: Agregar valor a través de la construcción de una marca sólida y una reputación confiable puede ser un activo valioso.
+
+## Ecosistema de Innovación
+
+El estado:
+
+- Inversión
+- Definición de áreas estratégicas
+
+Sistema CyT:
+
+- Formación
+- Incubación
+
+Empresas:
+
+- Aceleración
+- Comercialización
