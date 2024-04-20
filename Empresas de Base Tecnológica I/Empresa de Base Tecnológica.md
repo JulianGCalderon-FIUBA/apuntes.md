@@ -15,7 +15,7 @@ Una empresa de base tecnológica desarrolla un producto con alto [[Valor Agregad
 Para que se dé el ecosistema de innovación debe haber tres elementos:
 
 - El estado debe dar fondos e incentivar el desarrollo tecnológico en áreas estratégicas.
-- El sistema científico y tecnológico se encarga de la formación de los expertos y la incubación de ideas nuevas.
+- El sistema científico y tecnológico se encarga de la formación de los expertos y la [[Incubación vs Aceleración|incubación]] de ideas nuevas.
 - Las empresas aceleran el desarrollo de las ideas y las comercializan.
 
 ![[Empresa de Base Tecnológica 1713639285.png]]
