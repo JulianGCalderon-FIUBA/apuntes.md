@@ -2,6 +2,7 @@
 - [[Factores de la Producción]]
 - [[Costo de Oportunidad]]
 - [[Frontera de Posibilidades de Producción]]
+- [[Empresa de Base Tecnológica]]
 - [[Producto Bruto Interno]]
 - [[Finanzas]]
 - [[Mercado]]
@@ -27,3 +28,4 @@
 - [[Cadena de Valor]]
 - [[Cuello de Botella]]
 - [[Costos]]
+- [[Valor Agregado]]
