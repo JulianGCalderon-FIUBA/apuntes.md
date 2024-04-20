@@ -19,3 +19,9 @@ Para que se dé el ecosistema de innovación debe haber tres elementos:
 - Las empresas aceleran el desarrollo de las ideas y las comercializan.
 
 ![[Empresa de Base Tecnológica 1713639285.png]]
+
+## Etapas
+
+Las EBT suelen seguir las siguientes etapas:
+
+![[Empresa de Base Tecnológica 1713640704.png]]
