@@ -21,7 +21,7 @@ $$
 
 El interés al cabo de $n$ periodos se calcula como $I = VF - VP$.
 
-## Tasa Nominal Anual
+## Tasa Nominal Anual (TNA)
 
 La tasa de interés nominal anual (TNA) es la tasa de interés que se declara en las operaciones financieras, en la documentación legal, con fines comerciales, etc.
 
@@ -33,16 +33,18 @@ Algunas capitalizaciones son:
 - Trimestral: cuatro veces al año
 - Anual: una vez al año
 
-Para adaptar la formula, el valor futuro es:
+Para adaptar la fórmula, el valor futuro es:
 
 $$
 VF = CP \cdot (1 + \frac{TNA}m)^m
 $$
 
-Siendo $m$ la cantidad de veces
+Siendo $m$ la cantidad de veces que se capitaliza al año.
 
-## Tasa Efectiva Anual
+## Tasa Efectiva Anual (TEA)
 
-La tasa de interés efectiva anual es la tasa de interés que incluye la cantidad de veces que se capitalizan los intereses en el año.
+La tasa de interés efectiva anual (TEA) es la tasa de interés que incluye la cantidad de veces que se capitalizan los intereses en el año.
 
 Son las tasas que realmente pagamos y cobramos, y son las que nos interesa conocer.
+
+Puede haber dos tasas son diferente TNA, pero misma TEA (por diferente capitalización). Diremos que son equivalentes.
