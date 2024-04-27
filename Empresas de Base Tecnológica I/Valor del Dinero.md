@@ -17,7 +17,3 @@ VF = VP \dot (1 + i)^n
 $$
 
 Siendo $n$ la cantidad de periodos y $i$ la tasa de interés.
-
-## Tasa de Interés
-
-La tasa de in
