@@ -27,6 +27,8 @@ La tasa de interés nominal anual (TNA) es la tasa de interés que se declara en
 
 El problema de trabajar con la TNA es que la información que brinda es incompleta, ya que no menciona la cantidad de veces que los intereses se capitalizan en el año.
 
+A
+
 ## Tasa Efectiva Anual
 
 La tasa de interés efectiva anual es la tasa de interés que incluye la cantidad de veces que se capitalizan los intereses en el año.
