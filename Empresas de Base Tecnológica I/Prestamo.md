@@ -21,3 +21,11 @@ Se lo conoce como préstamo de cuota constante e interés sobre saldos. En cada 
 Los intereses que pago periodo a período se calculan, en base a la amortización que me falta pagar.
 
 Suele utilizarse en grandes negocios en los que el dinero se cobra todo junto en un mismo período.
+
+## Sistema Directo
+
+Se denomina así porque los intereses se calculan directamente sobra la deuda original. Hablamos de un sistema de amortización e intereses constantes. La cuota es constante
+
+Es engañoso porque permite publicar una tasa de interés más baja con iguales, peores, o mejores resultados para el tomador del préstamo.
+
+Se conoce como efectivo rápido.
