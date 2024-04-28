@@ -8,9 +8,16 @@ Se le conoce como préstamo de **cuota constante e intereses sobre saldo**. Cada
 
 El sistema de préstamos más frecuente.
 
-
 ## Sistema Alemán
 
 Se lo conoce como **préstamo de amortización constante, cuota decreciente, e interés sobre saldos**. Cada período, el valor de la cuota disminuye, pero la amortización que se paga es siempre la misma.
 
-El sistema alemán suele utilizarse para prestamos entre empresas.
+El sistema alemán suele utilizarse para préstamos entre empresas.
+
+## Sistema Bullet
+
+Se lo conoce como préstamo de cuota constante e interés sobre saldos. En cada período, se paga la cuota que solo se compone del interés correspondiente, y el último período se paga todo el préstamo.
+
+Los intereses que pago periodo a período se calculan, en base a la amortización que me falta pagar.
+
+Suele utilizarse en grandes negocios en los que el dinero se cobra todo junto en un mismo período.
