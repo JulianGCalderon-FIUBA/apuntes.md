@@ -13,7 +13,7 @@ El valor nominal del dinero es el valor que tiene este en un momento determinado
 El valor tiempo del dinero es el valor de este, teniendo en cuenta que una misma suma de dinero vale más hoy que en el futuro, debido a que, en el presente, puedo tomar ese dinero y ponerlo a generar rendimientos a futuro.
 
 $$
-VF = VP \dot (1 + i)^n
+VF = VP \cdot (1 + i)^n
 $$
 
 Siendo $n$ la cantidad de periodos y $i$ la tasa de interés.

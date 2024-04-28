@@ -50,11 +50,3 @@ Las EBT suelen seguir las siguientes etapas:
 El objetivo de una empresa es maximizar el valor de la misma, y la toma de decisiones estará centrada en este objetivo.
 
 Es importante recalcar que no es conveniente utilizar como objetivo la maximización de utilidades por la ambigüedad del periodo de referencia, la omisión de considerar el riesgo de dicha utilidad y por la no consideración de los negocios futuros en la meta.
-
-Para calcular el valor de la empresa, utilizaremos los flujos de efectivo pronosticados:
-
-$$
-V = \sum_{t=1}^{\infty}\frac{FF_t}{(1 + \text{Costo de Oportunidad})^t}
-$$
-
-El costo de oportunidad es el perdido por estar en este negocio y no en otro negocio del mismo riesgo.
