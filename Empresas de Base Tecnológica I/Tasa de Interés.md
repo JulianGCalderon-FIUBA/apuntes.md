@@ -41,6 +41,8 @@ $$
 
 Siendo $m$ la cantidad de veces que se capitaliza al año.
 
+
+
 ## Tasa Efectiva Anual (TEA)
 
 La tasa de interés efectiva anual (TEA) es la tasa de interés que incluye la cantidad de veces que se capitalizan los intereses en el año.
@@ -48,3 +50,5 @@ La tasa de interés efectiva anual (TEA) es la tasa de interés que incluye la c
 Son las tasas que realmente pagamos y cobramos, y son las que nos interesa conocer.
 
 Puede haber dos tasas son diferente TNA, pero misma TEA (por diferente capitalización). Diremos que son equivalentes.
+
+Para pasar de tasas efec
