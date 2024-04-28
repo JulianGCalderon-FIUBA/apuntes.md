@@ -4,6 +4,13 @@ Los préstamos $P$ se componen de cuotas $C$ y estas tienen dos partes: La amort
 
 ## Sistema Frances
 
-Se le conoce como préstamo de cuota constante e intereses sobre saldo. Cada periodo, el valor de la cuota es el mismo, pero varía la proporción de amortización e interés. Al comienzo la proporción del interés sobre la cuota es mayor, y va disminuyendo período a período.
+Se le conoce como préstamo de **cuota constante e intereses sobre saldo**. Cada periodo, el valor de la cuota es el mismo, pero varía la proporción de amortización e interés. Al comienzo la proporción del interés sobre la cuota es mayor, y va disminuyendo período a período.
 
-El el sistema de préstamos más frecuente.
+El sistema de préstamos más frecuente.
+
+
+## Sistema Alemán
+
+Se lo conoce como **préstamo de amortización constante, cuota decreciente, e interés sobre saldos**. Cada período, el valor de la cuota disminuye, pero la amortización que se paga es siempre la misma.
+
+El sistema alemán suele utilizarse para prestamos entre empresas.
