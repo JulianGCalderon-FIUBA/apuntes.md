@@ -1,4 +1,10 @@
+Se considera un flujo al conjunto de entradas y salidas de efectivo en un periodo dado.
 
+## Flujos de Efectivo Múltiples
+
+Generalmente, necesitamos conocer el valor presente o futuro de un flujo de dinero que posee diferentes valores, como también diferentes signos.
+
+La forma de resolver esto es simple pero tediosa. Se llevan todos los flujos de dinero a la fecha buscada y se suman algebraicamente.
 
 ## Valor de una Empresa
 
@@ -10,10 +16,3 @@ $$
 
 El costo de oportunidad es el perdido por estar en este negocio y no en otro negocio del mismo riesgo.
 
-## Flujos de Efectivo Múltiples
-
-Generalmente, necesitamos conocer el valor presente o futuro de un flujo de dinero que posee diferentes valores como también diferentes signos.
-
-La forma de resolver esto es simple pero tediosa. Se llevan todos los flujos de dinero a la fecha buscada y se suman algebraicamente.
-
-### Cu
