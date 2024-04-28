@@ -29,3 +29,9 @@ Se denomina así porque los intereses se calculan directamente sobra la deuda or
 Es engañoso porque permite publicar una tasa de interés más baja con iguales, peores, o mejores resultados para el tomador del préstamo.
 
 Se conoce como efectivo rápido.
+
+## Refinanciación de Préstamos
+
+Si en algún momento se interrumpen las cuotas por imposibilidad de cumplimiento, se deberá calcular cuál es la deuda en esa fecha trayendo, a ese instante de tiempo, todo lo que se habría pactado pagar, desde el instante del default, hasta la fecha final pactada.
+
+Esta suma se tratará como si fuese un nuevo préstamos, eventualmente con un método distinto de devolución de préstamos, con otra tasa de interés y otros plazos.
