@@ -32,6 +32,10 @@ Se conoce como efectivo rápido.
 
 ## Refinanciación de Préstamos
 
-Si en algún momento se interrumpen las cuotas por imposibilidad de cumplimiento, se deberá calcular cuál es la deuda en esa fecha trayendo, a ese instante de tiempo, todo lo que se habría pactado pagar, desde el instante del default, hasta la fecha final pactada.
+Si en algún momento se interrumpen las cuotas por imposibilidad de cumplimiento, se deberá calcular cuál es la deuda en esa fecha, trayendo, a ese instante de tiempo, todo lo que se habría pactado pagar, desde el instante del default, hasta la fecha final pactada.
 
-Esta suma se tratará como si fuese un nuevo préstamos, eventualmente con un método distinto de devolución de préstamos, con otra tasa de interés y otros plazos.
+Esta suma se tratará como si fuese un nuevo préstamo, eventualmente con un método distinto de devolución de préstamos, con otra tasa de interés y otros plazos.
+
+## Tasa de Interés e Inflación
+
+Ante la presencia de inflación en la economía, se debe revisar el cálculo de las tasas de interés. La tasa efectiva es nominal respecto a la inflación; por lo tanto; debemos calcular el efecto de la inflación en las tasas para obtener la tasa real.
