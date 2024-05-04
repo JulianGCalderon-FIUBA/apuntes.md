@@ -69,4 +69,6 @@ $$
 
 El periodo de tiempo de los componentes debe ser el mismo (anual en todos los casos, o mensual, etc.).
 
+## Tipos de Cambio
+
 También debemos tener en cuenta el tipo de cambio. Puede suceder que las ganancias en una moneda sean muy altas, pero al dividirlo por el tipo de cambio respecto a otra moneda, resulta que tenemos menos dinero que con el que empezamos.
