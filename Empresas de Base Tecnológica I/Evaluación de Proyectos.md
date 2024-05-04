@@ -11,3 +11,11 @@ Para evaluar Proyectos es necesario conocer qué alternativas de inversión tien
 $$
 VAN = \sum_{t=0}^{\infty} \frac{\text{Entradas}_t - \text{Salidas}_t}{(1 + TREMA)^t}
 $$
+
+## TIR
+
+La TIR es la tasa de interés requerida para que el proyecto aporte valor al proyecto. Para calcularlo, planteo $VAN=0$ y despejo la tasa de interés mínima.
+
+## Tiempo
+
+Otra alternativa es, dado el valor del proyecto y la tasa de interés mínima. Cuando me toma comenzar a obtener ganancias. Para esto debo despejar el tiempo.
