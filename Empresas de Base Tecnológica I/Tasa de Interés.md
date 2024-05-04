@@ -61,8 +61,10 @@ La tasa efectiva es nominal respecto a la inflación, por lo que debemos tenerla
 
 ## Tasa Real
 
-Para tener en cuenta la tasa de la inflación en una tasa de interés. utilizaremos la siguiente formula.
+Para tener en cuenta la tasa de la inflación en una tasa de interés. Utilizaremos la siguiente fórmula.
 
 $$
 1 + \text{Tasa Real} = \frac{1 + \text{Tasa Efectiva}}{1 + \text{Tasa de Inflacion}}
 $$
+
+El periodo de tiempo de los componentes debe ser el mismo (anual en todos los casos, o mensual, etc.).

@@ -11,7 +11,6 @@
 - [[Dinero]]
 - [[Agregados Monetarios]]
 - [[Agentes]]
-- [[Tasa de Interés]]
 - [[Inflación]]
 - [[Elasticidad]]
 - [[Contabilidad]]
@@ -34,3 +33,4 @@
 - [[Valor del Dinero]]
 - [[Flujos de Dinero]]
 - [[Prestamo]]
+- [[Tasa de Interés]]
