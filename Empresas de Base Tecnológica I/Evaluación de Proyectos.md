@@ -20,6 +20,6 @@ Otra alternativa es, dado el valor del proyecto y la tasa de interés mínima. C
 
 Hay diferentes enfoques para evaluar Proyectos según como se ordenen las cuentas.
 
-Un enfoque es calcular primero los impuestos a las ganancias a través de los [[Cuadro de Resultados|cuadros de resultados]] proyectados y luego armar él [[Flujo de Fondos]]. A este enfoque se lo conoce como enfoque descendente: primero se colocan las ventas, luego los costos y finalmente los impuestos a las ganancias.
+El enfoque descendente consiste en primero calcular primero los impuestos a las ganancias a través de los [[Cuadro de Resultados|cuadros de resultados]] proyectados y luego armar él [[Flujo de Fondos]]. Es descendente ya que primero se colocan las ventas, luego los costos y finalmente los impuestos a las ganancias.
 
 Otros enfoques son el enfoque ascendente y el enfoque fiscal.
