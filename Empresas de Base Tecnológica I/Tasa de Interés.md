@@ -56,3 +56,13 @@ $$
 $$
 
 Siendo TEX la tasa equivalente en un periodo determinado e $Y$ la cantidad de veces que ese periodo entra en un año.
+
+La tasa efectiva es nominal respecto a la inflación, por lo que debemos tenerla en cuenta para hallar la tasa real.
+
+## Tasa Real
+
+Para tener en cuenta la tasa de la inflación en una tasa de interés. utilizaremos la siguiente formula.
+
+$$
+1 + \text{Tasa Real} = \frac{1 + \text{Tasa Efectiva}}{1 + \text{Tasa de Inflacion}}
+$$
