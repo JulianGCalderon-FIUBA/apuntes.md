@@ -12,8 +12,16 @@ El Bono está en el pasivo del ente que lo emite y en el activo de quien lo comp
 
 ### Valuación de Bonos
 
-Para calcular el valor de un bono, utilizaremos la tasa cupón.
+Para calcular el valor de un bono, utilizaremos la siguiente fórmula:
 
 $$
-P = C \cdot F_i½
+P = C \cdot F_i^n + \frac{VN}{(1+i)^n}
 $$
+
+Donde los cupones se calculan como:
+
+$$
+C = TC \cdot VN
+$$
+
+La tasa cupón es la tasa de interés mensual del bono.
