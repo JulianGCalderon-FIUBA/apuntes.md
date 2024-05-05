@@ -1,4 +1,3 @@
-El Flujos de Fondos (también llamado Cashflow) es un documento contable-financiero que mide los movimientos de efectivo y las variaciones de éste en un período determinado.
 
 Tiene como objetivo el control de la situación financiera de la organización garantizando que, en todo período, haya disponibilidad de efectivo; evitando que se produzca lo que se conoce como "Bache" o "Quiebre de Caja".
 
