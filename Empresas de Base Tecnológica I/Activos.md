@@ -1,0 +1,1 @@
+Un activo es construido con bienes y servicios.
