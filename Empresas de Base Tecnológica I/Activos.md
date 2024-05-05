@@ -10,6 +10,8 @@ Los Bonos son instrumentos de renta fija en los cuales la promesa de dinero que 
 
 El Bono está en el pasivo del ente que lo emite y en el activo de quien lo compra.
 
+A diferencia de un plazo fijo. El bono es comerciable.
+
 ### Valuación de Bonos
 
 Para calcular el valor de un bono, utilizaremos la siguiente fórmula:
@@ -25,3 +27,13 @@ C = TC \cdot VN
 $$
 
 La tasa cupón es la tasa de interés mensual del bono.
+
+### Bonos con Cláusulas
+
+Hay distintos tipos de bonos:
+
+- Bonos rescatables: El emisor tiene derecho a recomprarlo pagando una suma de dinero y el tenedor está obligado a entregarlo debido a la cláusula que lo compromete. Generalmente el empresario recompra los bonos cuando puede volver a emitirlos a una tasa cupón menor.
+- Bonos convertible: el tenedor tiene derecho a cambiarlos por acciones de la empresa. 
+- Bonos exentos de impuestos: poseen una situación impositiva ventajosa.
+
+### 
