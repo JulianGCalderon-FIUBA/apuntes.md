@@ -48,4 +48,14 @@ Las Acciones son instrumentos de renta variable en los cuales la promesa de dine
 
 Las Acciones están en el pasivo del ente que lo emite y en el activo de quién las compra.
 
-Además, las acciones otorgan a su titular la potestad de votar en la junta de accionistas como también participar de las decisiones económicas de la empresa y disfrutar de sus beneficios.
+Además, las acciones otorgan a su titular la potestad de votar en la junta de accionistas, como también participar de las decisiones económicas de la empresa y disfrutar de sus beneficios.
+
+### Valuación de Acciones
+
+Una posible manera de evaluar una acción sería simplemente determinar el Precio Por Acción (PPA) a partir del índice PER de una empresa muy similar.
+
+$$
+PER = \frac{PPA}{UPA}
+$$
+
+Es importante remarcar que el Precio Por Acción al cual se comercie la acción en el mercado no tiene por qué coincidir con el valor de la acción en los libros contables de la empresa. El mismo podrá ser superior o inferior al valor contable según cuáles sean las expectativas futuras que la acción provoque.
