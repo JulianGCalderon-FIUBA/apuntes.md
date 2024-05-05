@@ -32,8 +32,20 @@ La tasa cupón es la tasa de interés mensual del bono.
 
 Hay distintos tipos de bonos:
 
-- Bonos rescatables: El emisor tiene derecho a recomprarlo pagando una suma de dinero y el tenedor está obligado a entregarlo debido a la cláusula que lo compromete. Generalmente el empresario recompra los bonos cuando puede volver a emitirlos a una tasa cupón menor.
-- Bonos convertible: el tenedor tiene derecho a cambiarlos por acciones de la empresa. 
+- Bonos rescatables: El emisor tiene derecho a recomprarlo pagando una suma de dinero y el tenedor está obligado a entregarlo debido a la cláusula que lo compromete. Generalmente, el empresario recompra los bonos cuando puede volver a emitirlos a una tasa cupón menor.
+- Bonos convertibles: el tenedor tiene derecho a cambiarlos por acciones de la empresa. 
 - Bonos exentos de impuestos: poseen una situación impositiva ventajosa.
 
-### 
+### Duration de los Bonos
+
+Se denomina Duration a la distancia en el tiempo entre el instante de análisis (generalmente el período inicial) y el baricentro de los ingresos que promete el bono.
+
+Se suele preferir una Duration corta a una Duration larga debido a que el baricentro de los ingresos se encontraría más cerca del bolsillo del tenedor, pero puede darse un escenario dónde se sepa de antemano que las tasas de interés bajarán a futuro y ahí es conveniente tener un Bono de Duration largo.
+
+## Acciones
+
+Las Acciones son instrumentos de renta variable en los cuales la promesa de dinero que ofrecen varía en el tiempo y depende de la perfomance de la empresa y de cómo reparten los beneficios. 
+
+Las Acciones están en el pasivo del ente que lo emite y en el activo de quién las compra.
+
+Además, las acciones otorgan a su titular la potestad de votar en la junta de accionistas como también participar de las decisiones económicas de la empresa y disfrutar de sus beneficios.
