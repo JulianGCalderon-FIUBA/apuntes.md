@@ -7,3 +7,5 @@ $$
 $$
 
 El balance refleja, entre otras cosas, las inversiones del ente y como fueron financiadas.
+
+![[Balance 1715128842.png]]
