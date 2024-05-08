@@ -3,3 +3,5 @@ El cuadro de resultados es un estado contable que refleja las ganancias y pérdi
 Las utilidades representan las ganancias o perdidas del ente en ese periodo.
 
 También se conoce como P&L (profit & losses).
+
+![[Cuadro de Resultados 1715128714.png]]
