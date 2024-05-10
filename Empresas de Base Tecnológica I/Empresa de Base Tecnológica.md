@@ -1,4 +1,3 @@
-
 ## Valor Agregado
 
 - Innovación y Tecnología Avanzada: Capacidad de ofrecer innovación y tecnología avanzada, como la inteligencia artificial, la realidad virtual, el aprendizaje automático, entre otros.
