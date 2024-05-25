@@ -35,8 +35,3 @@ title: Índice
 - [[Técnicas de Programación Concurrente I]]
 - [[Base de Datos]]
 - [[Teoría de Lenguaje]]
-- [[Inglés]]
-
-## 1.° 2024
-
-- [[Empresas de Base Tecnológica I]]
