@@ -1,1 +1,0 @@
-Es la rama de la [[Economía]] que estudia el comportamiento, la estructura y la capacidad de variables agregadas: [[Producto Bruto Interno]], inflación, crecimiento económico, tasa de empleo y desempleo, tasa de interés, deuda privada y pública, etc.
