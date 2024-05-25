@@ -1,3 +1,7 @@
+---
+title: Algoritmos I
+---
+
 - [[Buenas Prácticas]]
 - [[Funciones]]
 - [[Algoritmos I/Punteros|Punteros]]

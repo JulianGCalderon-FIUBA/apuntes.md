@@ -1,3 +1,7 @@
+---
+title: Sistemas Operativos
+---
+
 Breve resumen de los contenidos teóricos de la materia, consultar la bibliografía.
 
 - [[Introducción a Sistemas Operativos]]

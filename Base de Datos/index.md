@@ -1,3 +1,7 @@
+---
+title: Base de Datos
+---
+
 ## Introducción
 
 - [[Definición]]

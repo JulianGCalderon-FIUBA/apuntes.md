@@ -1,3 +1,7 @@
+---
+title: Introducción a Sistemas Distribuidos
+---
+
 El apunte teórico está basado en la bibliografía de la materia.
 
 1. [[Computer Networks and the Internet]]

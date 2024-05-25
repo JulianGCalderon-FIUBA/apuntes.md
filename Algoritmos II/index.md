@@ -1,3 +1,7 @@
+---
+title: Algoritmos II
+---
+
 - [[Memoria]]
 - [[Algoritmos II/Punteros|Punteros]]
 - [[Análisis de Algoritmos]]

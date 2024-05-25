@@ -1,3 +1,7 @@
+---
+title: Modelos y Optimización I
+---
+
 ## Programación Lineal
 
 - [[Modelos y Optimización I/Introducción|Introducción]]

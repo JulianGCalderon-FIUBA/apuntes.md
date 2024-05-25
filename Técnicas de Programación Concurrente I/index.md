@@ -1,3 +1,7 @@
+---
+title: Técnicas de Programación Concurrente I
+---
+
 - [[Definiciónes Básicas]]
 - [[Abstracción de la Concurrencia]]
 - [[Modelos de Concurrencia]]

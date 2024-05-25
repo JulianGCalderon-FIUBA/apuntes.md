@@ -1,3 +1,7 @@
+---
+title: Matemática Discreta
+---
+
 ## Álgebra de Conjuntos
 
 - [[Álgebra de Conjuntos]]

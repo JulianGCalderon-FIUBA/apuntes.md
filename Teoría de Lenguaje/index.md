@@ -1,3 +1,7 @@
+---
+title: Teoría de Lenguaje
+---
+
 ## Temas Centrales
 
 - [[Lenguajes de Programación]]
