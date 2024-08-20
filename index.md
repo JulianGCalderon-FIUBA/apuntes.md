@@ -38,4 +38,4 @@ title: Índice
 
 ## 2.º 2024
 
-- [[Introducción a Sistemas Distribuidos/index|Sistemas Distribuidos]]
+- [[Sistemas Distribuidos/index|Sistemas Distribuidos]]
