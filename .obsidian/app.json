@@ -240,5 +240,6 @@
   ],
   "newFileLocation": "current",
   "focusNewTab": true,
-  "livePreview": false
+  "livePreview": false,
+  "newLinkFormat": "shortest"
 }
