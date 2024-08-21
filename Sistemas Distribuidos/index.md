@@ -10,7 +10,6 @@ title: Sistemas Distribuidos
 
 - [[Multiprogramación]]
 - [[Modelos de Análisis]]
-- [[Paralelismo vs. Concurrencia]]
 - [[Sistema Centralizado]]
 - [[Sistema Distribuido]]
 - [[Topología de Red]]
