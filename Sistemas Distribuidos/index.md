@@ -24,7 +24,7 @@ title: Sistemas Distribuidos
 - En un ambiente concurrente, los procesos se turnan para acceder a un recurso compartido (memoria, procesador)
 - En un ambiente paralelo, los procesos acceden a recursos distintos y, por lo tanto, pueden avanzar a la vez.
 
-### Topologías de Comunicación
+### Topologías
 
 - Bus
 - Star
@@ -33,20 +33,9 @@ title: Sistemas Distribuidos
 - Sequential
 - Ring
 
-### Centralizados vs. Distribuidos
+[[Sistema Centralizado]]
 
-#### Centralizados
-
-En un sistema centralizado no hay conexiones, o las conexiones son sin trabajo colaborativo y sin un objetivo común. Por ejemplo: sistemas de tiempo compartido, o terminales de conexión.
-
-Son sistemas difíciles de escalar (procesamiento, memoria, disco).
-
-- **Control**: lógica de control muy simple, efectiva y, en ocasiones, eficiente.
-- **Homogeneidad**: la centralización incita a definir estándares para software y hardware.
-- **Consistencia**: es posible definir fuertes políticas de consistencia de información y monitoreo del estado global del sistema.
-- **Seguridad**: se disminuye la superficie de ataque frente a amenazas.
-
-#### Distribuidos
+### Sistema Distribuido
 
 En un sistema distribuido, los componentes están conectados y realizan trabajo colaborativo buscando un objetivo común.
 
@@ -59,9 +48,9 @@ Escalan distribuyendo trabajo y recursos.
 - **Movilidad**: no están circunscritos al alcance de un único computador.
 - **Costo**: componentes más simples. Subsistemas delegados en servicios terceros
 
-##### Descentralizar vs. Distribuir
+#### Descentralizar vs. Distribuir
 
-**Centralizar** implica la concentración de la autoridad en los niveles más altos de un jerarquía.
+**Centralizar** implica la concentración de la autoridad en los niveles más altos de una jerarquía.
 
 **Descentralizar** implica transferir la toma de decisiones a eslabones inferiores de cierta organización.
 
