@@ -8,11 +8,13 @@ title: Sistemas Distribuidos
 
 ## Herramientas
 
+- [[Multiprogramación]]
+- [[Modelos de Análisis]]
 - [[Paralelismo vs. Concurrencia]]
 - [[Sistema Centralizado]]
 - [[Sistema Distribuido]]
-- [[Modelos de Análisis]]
 - [[Topología de Red]]
+- [[Virtualización]]
 
 ## Fundamentos de Sistemas Distribuidos
 
