@@ -1,5 +1,3 @@
-### Sistema Centralizado
-
 En un sistema centralizado no hay conexiones, o las conexiones son sin trabajo colaborativo y sin un objetivo común. Por ejemplo: sistemas de tiempo compartido, o terminales de conexión.
 
 Son sistemas difíciles de escalar (procesamiento, memoria, disco).
