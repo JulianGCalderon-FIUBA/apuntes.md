@@ -9,6 +9,7 @@ title: Sistemas Distribuidos
 ## Herramientas
 
 - [[Multiprogramación]]
+- [[Inter Process Communication]]
 - [[Modelos de Análisis]]
 - [[Sistema Centralizado]]
 - [[Sistema Distribuido]]

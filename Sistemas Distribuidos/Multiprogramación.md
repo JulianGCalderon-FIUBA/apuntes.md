@@ -33,9 +33,3 @@ Algunas características clave de esta variante son:
 - Los componentes están separados, en general simples.
 - Mayor escalabilidad y estabilidad que el multi-threading.
 - No hay tolerancia a fallos del hardware o del sistema operativo.
-
-## Paralelismo vs. Concurrencia
-
-En un ambiente concurrente, los procesos se turnan para acceder a un recurso compartido (memoria, procesador)
-
-En un ambiente paralelo, los procesos acceden a recursos distintos y, por lo tanto, pueden avanzar a la vez.
