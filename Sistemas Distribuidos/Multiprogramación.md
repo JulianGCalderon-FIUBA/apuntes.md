@@ -19,9 +19,19 @@ Algunas características clave de esta variante son:
 - Es sencillo compartir información.
 - Alto acoplamiento entre los componentes
 - Estabilidad escasa, ya que un hilo defectuoso afecta todo el sistema.
-- Escalabilidad muy limitada
+- Escalabilidad muy limitada.
 
-## Multiprovessing
+## Multi-processing
+
+Hay menos recursos compartidos (code segment)
+
+Para sincronizar procesos, dependeremos de Inter Process Communication (IPC). Algunas opciones son: señales, pipes, memoria compartida, semaforos, colas, locks, sockets.
+
+Algunas características clave de esta variante son:
+
+- No es trivial compartir información entre procesos.
+- Los componentes están separados, en general simples.
+- Mayor escalabilidad y estabilidad que el multi-threading.
 
 ## Paralelismo vs. Concurrencia
 
