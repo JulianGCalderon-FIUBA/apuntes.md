@@ -25,13 +25,14 @@ Algunas características clave de esta variante son:
 
 Hay menos recursos compartidos (code segment)
 
-Para sincronizar procesos, dependeremos de Inter Process Communication (IPC). Algunas opciones son: señales, pipes, memoria compartida, semaforos, colas, locks, sockets.
+Para sincronizar procesos, dependeremos de Inter Process Communication (IPC). Algunas opciones son: señales, pipes, memoria compartida, semáforos, colas, locks, sockets.
 
 Algunas características clave de esta variante son:
 
 - No es trivial compartir información entre procesos.
 - Los componentes están separados, en general simples.
 - Mayor escalabilidad y estabilidad que el multi-threading.
+- No hay tolerancia a fallos del hardware o del sistema operativo.
 
 ## Paralelismo vs. Concurrencia
 
