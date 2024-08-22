@@ -4,6 +4,25 @@ Existen distintas variantes de la multiprogramación:
 - Multi-processing: Procesos con memoria independiente
 - Multi-computing: Distintas computadoras independientes
 
+## Multi-threading
+
+Hay recursos compartidos (heap, data segment, file descriptors, code segment)
+
+Para sincronizar hilos hay distintas alternativas:
+
+- Soporte de threading del sistema operativo (mutex)
+- Soporte de threading del runtime
+- Inter Process Communication (IPC)
+
+Algunas características clave de esta variante son:
+
+- Es sencillo compartir información.
+- Alto acoplamiento entre los componentes
+- Estabilidad escasa, ya que un hilo defectuoso afecta todo el sistema.
+- Escalabilidad muy limitada
+
+## Multiprovessing
+
 ## Paralelismo vs. Concurrencia
 
 En un ambiente concurrente, los procesos se turnan para acceder a un recurso compartido (memoria, procesador)
