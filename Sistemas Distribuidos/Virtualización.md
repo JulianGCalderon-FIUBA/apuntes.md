@@ -1,5 +1,3 @@
-## Etapas de la Virtualización
-
 Originalmente, existía la virtualización *bare metal* (70s - 00s). Se utilizaba un hipervisor que administraba directamente los recursos del hardware.
 
 ![[Virtualización 1724203503.png]]
@@ -10,6 +8,6 @@ Luego, con soporte del hardware, se empezó a utilizar un hipervisor por encima 
 
 ![[Virtualización 1724203775.png]]
 
-Los contenedores (10s) permitieron reutilizar el sistema operativo y las bibliotecas entre múltiples aplicaciones. Ejecutando cada aplicacion en un contexto ais
+Los contenedores (10s) permitieron reutilizar el sistema operativo y las bibliotecas entre múltiples aplicaciones. Ejecutando cada aplicación en un contexto aislado, pero reutilizando muchos componentes.
 
 ![[Virtualización 1724203800.png]]
