@@ -12,7 +12,7 @@ Para sincronizar hilos hay distintas alternativas:
 
 - Soporte de threading del sistema operativo (mutex)
 - Soporte de threading del runtime
-- Inter Process Communication (IPC)
+- [[Inter Process Communication]]
 
 Algunas características clave de esta variante son:
 
@@ -25,7 +25,7 @@ Algunas características clave de esta variante son:
 
 Hay menos recursos compartidos (code segment)
 
-Para sincronizar procesos, dependeremos de Inter Process Communication (IPC). Algunas opciones son: señales, pipes, memoria compartida, semáforos, colas, locks, sockets.
+Para sincronizar procesos, dependeremos de [[Inter Process Communication|IPC]].
 
 Algunas características clave de esta variante son:
 
