@@ -19,3 +19,5 @@ Invertir el pensamiento
 ## Work-Span
 
 Es un modelo más cercano a la realidad para estimar optimizaciones. Provee una cota inferior y una cota superior para el speedup.
+
+## Estrategias de paralelización
