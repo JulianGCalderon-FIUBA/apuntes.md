@@ -236,7 +236,9 @@
     "multiconjuntos",
     "quantiles",
     "quantil",
-    "Psicografía"
+    "Psicografía",
+    "secuencialidad",
+    "paraleliza"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,
