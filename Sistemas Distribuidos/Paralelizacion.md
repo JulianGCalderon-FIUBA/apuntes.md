@@ -14,4 +14,8 @@ Permite obtener el beneficio de invertir en la paralelización de las tareas. De
 
 ## Ley de Gustafson
 
-Invertir el pensa
+Invertir el pensamiento
+
+## Work-Span
+
+Es un modelo más cercano a la realidad para estimar optimizaciones. Provee una cota inferior y una cota superior para el speedup.
