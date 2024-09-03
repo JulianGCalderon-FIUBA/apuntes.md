@@ -23,4 +23,4 @@ La difusión puede ser centralizada (uno envía a todos) o descentralizada (uno 
 
 Los mensajes deben entregarse a todos o a ninguno. En estos casos es necesario realizar ACK de los mensajes, demorar el delivery de los paquetes recibidos.
 
-Se puede reintentar el renvio de los mensjaes para asegurar la entrega, o tener un mensaje de "rollback" para notificar.
+Se puede reintentar el renvio de los mensjaes para asegurar la entrega, o tener un mensaje de "rollback" para notificar al grupo que se debe enviar cierto mensaje.

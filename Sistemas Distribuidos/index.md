@@ -20,6 +20,7 @@ title: Sistemas Distribuidos
 - [[Direccionamiento]]
 - [[Mensajes]]
 - [[Grupos]]
+- [[MIddlewares]]
 
 ## Fundamentos de Sistemas Distribuidos
 
