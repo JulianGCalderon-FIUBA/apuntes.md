@@ -8,6 +8,12 @@ Se puede autogenerar código para serializar. Algunos ejemplos son: Google Proto
 
 ## Texto Plano
 
-El rendimiento es bajo debido a que el tamaño de los mensajes es mayor. Se le puede agregar comprension para reducir el tamaño, pero esto agrega overhead.
+El rendimiento es bajo debido a que el tamaño de los mensajes es mayor. Se le puede agregar comprensión para reducir el tamaño, pero esto agrega overhead.
 
-Se pueden utilizar formatos existentes como JSON, XML, HTTP.
+Se pueden utilizar formatos existentes como JSON, XML, HTTP. Es fácil de debuggear, ya que existen aplicaciones existentes con soporte para estos casos (CURL).
+
+## Longitud de Paquete
+
+Se pueden utilizar delimitadores para definir el fin del paquete, o utilizar tamaños fijos. Cada uno tiene sus ventajas y desventajas.
+
+En un esquema mixto, se pueden utilizar 
