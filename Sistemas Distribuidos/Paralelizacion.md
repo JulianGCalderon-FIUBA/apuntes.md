@@ -8,9 +8,17 @@ Los objetivos de la paralelización son:
 
 Es la máxima longitud de tareas secuenciales a computar. Define el mejor rendimiento que se puede obtener al realizar un conjunto de tareas.
 
+## Speedup
+
+Se define el speedup como el ratio de optimización de una operación.
+
 ## Ley de Amdahl
 
+> The effort expended on achieving high parallel processing rates is wasted unless it is accompanied by achievements in sequential processing rates of very nearly the same magnitude.
+
 Permite obtener el beneficio de invertir en la paralelización de las tareas. Depende de la naturaleza del problema. Una tarea altamente secuencial no obtendrá beneficio si se paraleliza.
+
+El speedup maximo 
 
 ## Ley de Gustafson
 
