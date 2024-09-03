@@ -33,20 +33,30 @@ Aumentar el paralelismo puede permitir la modificación del problema original pa
 
 Es un modelo más cercano a la realidad para estimar optimizaciones. Provee una cota inferior y una cota superior para el speedup.
 
-Se toman los siguientes suposiciones:
+Se toman las siguientes suposiciones:
 
 - Paralelismo imperfecto: no todo el trabajo paralelizable se puede ejecutar al mismo tiempo.
 - Greedy scheduling: Si un proceso está disponible, se ejecuta la tarea
 - El tiempo de acceso a memoria es despreciable.
 - El tiempo de ejecución entre procesos es despreciable.
-- Posibilidad de analizar la operacion o el algoritmo en caja blanca.
+- Posibilidad de analizar la operación o el algoritmo en caja blanca.
 
 Luego, se define:
 
 - $T_1$: Tiempo en ejecutar el algoritmo con un solo proceso.
-- $T_\infty$: Tiempo en ejecutar el camino critico de la operacion.
+- $T_\infty$: Tiempo en ejecutar el camino crítico de la operación.
 
-Entonces, las cotas seran:
-- $$
+Entonces, las cotas serán:
+
+- $\text{Cota Superior} = \min (P, T_1/T_\infty)$
+- $\text{Cota Inferior} = (T_1 - T_\infty) / P + T_\infty$
 
 ## Estrategias de paralelización
+
+### Descomposición Funcional
+
+Se separa el resultado en la agregación del resultado de distintas funciones, y las subfunciones se resuelven de forma paralela.
+
+### Particionamiento de Datos
+
+Se separa la entrada en distintos conjuntos, y se 
