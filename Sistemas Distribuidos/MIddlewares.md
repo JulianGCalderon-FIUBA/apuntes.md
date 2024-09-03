@@ -12,13 +12,17 @@ Permite el acceso a recursos compartidos de forma eficiente, transparente y cont
 
 Dar estándares claros sobre sintaxis y semántica de los servicios ofrecidos. Dar interoperabilidad y portabilidad.
 
-Permitir comunicación de grupo (broadcast, multicast). Facilitar la relocalización de elementos y coordinación de tareas.
+Permitir comunicación de grupo (*broadcast*, *multicast*). Facilitar la relocalización de elementos y coordinación de tareas.
 
-## Clasificacion
+## Clasificación
 
 Hay distintos tipos de middleware:
 
 - **Transaccionales**: Permiten garantizar la transaccionalidad de las operaciones respecto a los datos. Permiten un acceso transparente al grupo.
 - **Orientados a objetos**: Los objetos viven dentro del middleware, y se puede operar con ellos desde los clientes.
 - **Orientados a procedimientos**: El middleware trabaja como un servidor de funciones que se pueden invocar. Se pueden explorar y ejecutar, pero no presentan estado para futuras invocaciones.
-- **Orientados a mensajes**: Funciona omo
+- **Orientados a mensajes**: Funciona como un sistema de mensajería entre aquellas aplicaciones que utilizan el middleware.
+	- Pueden enviarse mensajes bajo ciertos tópicos, para que aquellos interesados lo reciban (bus de información).
+	- Pueden enviarse mensajes con un destinatario definido (queue).
+
+## MOM (Message Oriented Middleware)
