@@ -238,7 +238,9 @@
     "quantil",
     "Psicografía",
     "secuencialidad",
-    "paraleliza"
+    "paraleliza",
+    "middleware",
+    "transaccionalidad"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,
