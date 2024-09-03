@@ -18,6 +18,7 @@ title: Sistemas Distribuidos
 - [[Paralelizacion]]
 - [[Estrategias de Paralelización]]
 - [[Direccionamiento]]
+- [[Mensajes]]
 
 ## Fundamentos de Sistemas Distribuidos
 
