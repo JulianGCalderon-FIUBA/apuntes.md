@@ -4,13 +4,10 @@ Los objetivos de la paralelización son:
 - Incrementar la cantidad de tareas que se pueden realizar en paralelo (throughput)
 - Reducir la energía consumida al realizar todas las tareas
 
-## Camino Crítico
+Algunas definiciones útiles:
 
-Es la máxima longitud de tareas secuenciales a computar. Define el mejor rendimiento que se puede obtener al realizar un conjunto de tareas.
-
-## Speedup
-
-Se define el speedup como el ratio de optimización de una operación.
+- Camino Crítico: Es la máxima longitud de tareas secuenciales a computar. Define el mejor rendimiento que se puede obtener al realizar un conjunto de tareas.
+- Speedup: Se define el speedup como el ratio de optimización de una operación.
 
 ## Ley de Amdahl
 
@@ -50,22 +47,3 @@ Entonces, las cotas serán:
 
 - $\text{Cota Superior} = \min (P, T_1/T_\infty)$
 - $\text{Cota Inferior} = (T_1 - T_\infty) / P + T_\infty$
-
-## Estrategias de paralelización
-
-### Descomposición Funcional
-
-Se separa el resultado en la agregación del resultado de distintas funciones, y las subfunciones se resuelven de forma paralela.
-
-### Particionamiento de Datos
-
-Se separa el resultado en la agregación del resultado de una única función con distintos conjuntos, y cada subconjunto se procesa de forma paralela.
-
-## Patrones de Procesamiento
-
-Los patrones de procesamiento son basados en algoritmos, no son tan abstractos como patrones de diseño. No incluyen detalles de implementación y son agnósticos al lenguaje. Algunos ejemplos son:
-
-- Fork-Join
-- Pack
-- Pipeline
-- Map-Reduce

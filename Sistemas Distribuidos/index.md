@@ -16,6 +16,7 @@ title: Sistemas Distribuidos
 - [[Topología de Red]]
 - [[Virtualización]]
 - [[Paralelizacion]]
+- [[Estrategias de Paralelización]]
 - [[Direccionamiento]]
 
 ## Fundamentos de Sistemas Distribuidos
