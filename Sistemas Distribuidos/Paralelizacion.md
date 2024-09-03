@@ -1,12 +1,12 @@
-Objetivos:
+Los objetivos de la paralelización son:
 
 - Reducir el tiempo de cómputo de una tarea (latencia)
 - Incrementar la cantidad de tareas que se pueden realizar en paralelo (throughput)
 - Reducir la energía consumida al realizar todas las tareas
 
-Camino crítico:
+## Camino Crítico
 
-- Máxima longitud...
+Es la máxima longitud de tareas secuenciales a computar. Define el mejor rendimiento que se puede obtener al realizar un conjunto de tareas.
 
 ## Ley de Amdahl
 
