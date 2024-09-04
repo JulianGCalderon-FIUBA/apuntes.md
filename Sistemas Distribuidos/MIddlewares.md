@@ -22,7 +22,20 @@ Hay distintos tipos de middleware:
 - **Orientados a objetos**: Los objetos viven dentro del middleware, y se puede operar con ellos desde los clientes.
 - **Orientados a procedimientos**: El middleware trabaja como un servidor de funciones que se pueden invocar. Se pueden explorar y ejecutar, pero no presentan estado para futuras invocaciones.
 - **Orientados a mensajes**: Funciona como un sistema de mensajería entre aquellas aplicaciones que utilizan el middleware.
-	- Pueden enviarse mensajes bajo ciertos tópicos, para que aquellos interesados lo reciban (bus de información).
-	- Pueden enviarse mensajes con un destinatario definido (queue).
 
-## MOM (Message Oriented Middleware)
+## MOMs (Message Oriented Middlewares)
+
+Tiene dos modos de operación:
+
+- **Bus de información**: Pueden enviarse mensajes bajo ciertos tópicos, para que aquellos interesados lo reciban. Los mensajes se pierden si nadie los toma.
+- **Cola de mensajes**: Pueden enviarse mensajes con un destinatario definido. Se quedan esperando hasta que este lo reciba.
+
+## Sincrónico
+
+Se modela una conexión punto a punto. Permite obtener respuestas instantaneas.
+
+## Asincrónico
+
+Se implementa utilizando colas. La arquitectura soporta periodos de discontinuidad del transporte.
+
+Se deben configurar alertas para cuando se llenan las colas. Tienen un tamaño limite, no existe la cola infinita.
