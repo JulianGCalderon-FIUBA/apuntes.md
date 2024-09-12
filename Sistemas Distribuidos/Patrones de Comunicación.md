@@ -9,3 +9,8 @@ Ante la perdida del reply, tenemos 3 estrategias principales:
 - **Sin control**: No tenemos certeza de si el mensaje se envió.
 - **Reejecución**: Volvemos a enviar el mensaje, pero podría haber reejecución.
 - **Retransmisión**: Implementamos un filtro de duplicados (con un ID, por ejemplo). Aseguramos que no hay reejecución.
+
+Para el reintento, se puede utilizar exponential backoff con jitter para evitar saturar el servidor y agrupamiento de clientes.
+
+## Producer-Consumer
+
