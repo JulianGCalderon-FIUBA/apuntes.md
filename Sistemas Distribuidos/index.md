@@ -21,6 +21,7 @@ title: Sistemas Distribuidos
 - [[Mensajes]]
 - [[Grupos]]
 - [[Middlewares]]
+- [[Patrones de Comunicación]]
 
 ## Fundamentos de Sistemas Distribuidos
 
