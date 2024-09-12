@@ -34,3 +34,7 @@ Hay dos posibles arquitecturas:
 
 - Basada en tópicos: Publicación y subscripción indicando el tipo de evento.
 - Basada en canales: Publicaciones y suscripciones orientadas a canales específicos.
+
+## Pipelines
+
+Los datos de entrada forman un flujo donde distintos filtros o procesadores se conectan entre sí para procesarlos de manera secuencial.
