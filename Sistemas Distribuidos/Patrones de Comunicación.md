@@ -60,6 +60,8 @@ Los nodos indican tareas, y las aristas flujo de información.
 Permite calcular trabajo total para una tarea (camino crítico)
 
 Algunas ventajas del modelo:
-- Es la representacion natural de flujos de datos
-- La carga de procesamiento se puede paralelizar
-- Admite proceasr sol9o nodos eru
+
+- Es la representación natural de flujos de datos.
+- La carga de procesamiento se puede paralelizar.
+- Admite procesar solo nodos requeridos por dependencias.
+
