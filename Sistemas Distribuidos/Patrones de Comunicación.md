@@ -50,3 +50,16 @@ Cada procesador funciona como una etapa, pudiendo ser:
 
 - **Paralela**: Cada ítem a procesar es independiente de anteriores.
 - **Secuencial**: No se puede procesar de forma paralela debido a la dependencia entre los ítems.
+
+## DAGs
+
+Similar al patrón de pipelines, pero ya no es lineal.
+
+Los nodos indican tareas, y las aristas flujo de información.
+
+Permite calcular trabajo total para una tarea (camino crítico)
+
+Algunas ventajas del modelo:
+- Es la representacion natural de flujos de datos
+- La carga de procesamiento se puede paralelizar
+- Admite proceasr sol9o nodos eru
