@@ -35,7 +35,7 @@ Hay dos posibles arquitecturas:
 - Basada en **tópicos**: Publicación y subscripción indicando el tipo de evento.
 - Basada en **canales**: Publicaciones y suscripciones orientadas a canales específicos.
 
-## Pipelines
+## Pipeline
 
 Los datos de entrada forman un flujo donde distintos filtros o procesadores se conectan entre sí para procesarlos de manera secuencial.
 
@@ -51,7 +51,7 @@ Cada procesador funciona como una etapa, pudiendo ser:
 - **Paralela**: Cada ítem a procesar es independiente de anteriores.
 - **Secuencial**: No se puede procesar de forma paralela debido a la dependencia entre los ítems.
 
-## DAGs
+## DAG
 
 Similar al patrón de pipelines, pero ya no es lineal.
 
@@ -67,4 +67,4 @@ Algunas ventajas del modelo:
 
 ### Dependencias
 
-Se puede utilizar un DAG para calcular dependencias entre procesos. Si se encuentra un ciclo, entonces existe la posibilidad de un deadlock.
+Se pueden para calcular dependencias entre procesos. Si se encuentra un ciclo, entonces existe la posibilidad de un deadlock.
