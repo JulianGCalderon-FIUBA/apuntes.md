@@ -22,8 +22,9 @@ title: Sistemas Distribuidos
 - [[Grupos]]
 - [[Middlewares]]
 - [[Patrones de Comunicación]]
-- [[Arqutiecturas Simples]]
+- [[Arquitecturas Simples]]
 - [[Remote Procedure Control]]
+- [[Objetos Distribuidos]]
 
 ## Fundamentos de Sistemas Distribuidos
 
