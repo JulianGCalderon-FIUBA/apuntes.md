@@ -23,6 +23,7 @@ title: Sistemas Distribuidos
 - [[Middlewares]]
 - [[Patrones de Comunicación]]
 - [[Arqutiecturas Simples]]
+- [[Remote Procedure Control]]
 
 ## Fundamentos de Sistemas Distribuidos
 

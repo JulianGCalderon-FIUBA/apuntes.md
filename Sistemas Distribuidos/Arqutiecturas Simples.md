@@ -25,4 +25,9 @@ Es muy útil cuando existen objetivos de colaboración por parte del negocio:
 - Protocolo acordado entre partes
 - La lógica distribuida requiere coherencia entre los nodos
 
-Es muy difícil establecer comunicación entre pares. Es común un esquema mixto donde hay un servidor que provee un servicio de nombres.
+Es muy difícil establecer comunicación entre pares.
+
+- Es común un esquema mixto donde hay un servidor que provee un servicio de nombres.
+- Otra opción es tener un grupo de comunicación donde ser comparten dirección de miembros.
+
+Requieren mayores permisos de networking (reglas de firewall de entrada, rangos de puertos, etc)
