@@ -10,6 +10,12 @@ Está diseñado para tener alta escalabilidad y alta disponibilidad.
 
 ## Relojes Lógicos
 
-Un evento es un suceso relativo a un proeso que modifica su estado.
+Un evento es un suceso relativo a un proceso que modifica su estado.
 
-El estado es el valor de todas l
+El estado es el valor de todas las variables de un proceso
+
+La relación `ocurre antes` es una relación de causalidad entre eventos, tal que:
+
+- $a \to b$ si pertenecen al mismo proceso y $a$ ocurre antes que $b$.
+- $a \to b$ si pertenecen a procesos distintos, pero $a$ es el envío de un mensaje y $b$ su recepción.
+- $a \to c$, si $a \to b$ y $b \to c$ (transitividad)
