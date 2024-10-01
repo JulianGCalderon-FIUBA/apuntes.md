@@ -11,9 +11,8 @@ title: Sistemas Distribuidos
 - [[Multiprogramación]]
 - [[Sistema Centralizado]]
 - [[Sistema Distribuido]]
-- [[Arquitecturas Simples]]
-- [[Patrones de Comunicación]]
 - [[Paralelizacion]]
+- [[Patrones de Comunicación]]
 - [[Relojes]]
 - [[Sincronismo]]
 
