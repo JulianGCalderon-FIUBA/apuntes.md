@@ -9,22 +9,18 @@ title: Sistemas Distribuidos
 ## Herramientas
 
 - [[Multiprogramación]]
-- [[Inter Process Communication]]
-- [[Modelos de Análisis]]
 - [[Sistema Centralizado]]
 - [[Sistema Distribuido]]
-- [[Topología de Red]]
-- [[Virtualización]]
 - [[Paralelizacion]]
 - [[Estrategias de Paralelización]]
 - [[Direccionamiento]]
-- [[Mensajes]]
 - [[Grupos]]
 - [[Middlewares]]
 - [[Patrones de Comunicación]]
 - [[Arquitecturas Simples]]
 - [[Remote Procedure Control]]
 - [[Objetos Distribuidos]]
+- [[Relojes]]
 
 ## Fundamentos de Sistemas Distribuidos
 

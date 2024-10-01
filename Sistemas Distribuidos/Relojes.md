@@ -1,0 +1,1 @@
+El **tiempo** es una magnitud para medir duracion y separacion de eventos. Se lo puede definir mediante una variable 
