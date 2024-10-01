@@ -21,6 +21,7 @@ title: Sistemas Distribuidos
 - [[Remote Procedure Control]]
 - [[Objetos Distribuidos]]
 - [[Relojes]]
+- [[Sincronismo]]
 
 ## Fundamentos de Sistemas Distribuidos
 
