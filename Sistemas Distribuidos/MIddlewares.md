@@ -60,3 +60,5 @@ Proveen transparencia de localización entre emisor y receptor.
 Pueden soportar lógica en el middleware para filtrado y modificación de mensajes.
 
 Brindan un punto de control y monitoreo.
+
+##
