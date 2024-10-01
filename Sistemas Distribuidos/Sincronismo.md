@@ -13,3 +13,8 @@ Un algoritmo es **sincrónico** si sus acciones pueden ser delimitadas en el tie
 	- Define que tan constante es la recepción de mensaje.
 - **Tightness**: Es la máxima diferencia entre los tiempos de delivery para cualquier mensaje.
 	- Define la simultaneidad con la cual un mensaje es recibido por múltiples procesos.
+
+## Tipos de Protocolos
+
+- **Time-Driven**: Las fases del protocolo están definidas por un factor de tiempo entre mensajes.
+- **Clock-Driven**: Las fases del protocolo están definidas por el reloj de cada proceso.
