@@ -11,17 +11,19 @@ title: Sistemas Distribuidos
 - [[Multiprogramación]]
 - [[Sistema Centralizado]]
 - [[Sistema Distribuido]]
-- [[Paralelizacion]]
-- [[Estrategias de Paralelización]]
-- [[Direccionamiento]]
-- [[Grupos]]
-- [[Middlewares]]
-- [[Patrones de Comunicación]]
 - [[Arquitecturas Simples]]
-- [[Remote Procedure Control]]
-- [[Objetos Distribuidos]]
+- [[Patrones de Comunicación]]
+- [[Paralelizacion]]
 - [[Relojes]]
 - [[Sincronismo]]
+
+### Middlewares
+
+- [[Mensajes]]
+- [[Middlewares]]
+- [[MOM]]
+- [[Objetos Distribuidos]]
+- [[Remote Procedure Control]]
 
 ## Fundamentos de Sistemas Distribuidos
 

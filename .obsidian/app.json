@@ -240,7 +240,8 @@
     "secuencialidad",
     "paraleliza",
     "middleware",
-    "transaccionalidad"
+    "transaccionalidad",
+    "Middlewares"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,
