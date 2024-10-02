@@ -6,4 +6,4 @@ En una máquina de estados, el estado en todo momento está dado por un estado a
 
 La historia es la secuencia de todos los eventos procesados por la máquina de estados. Un corte es el subconjunto de historias de todos los procesos hasta cierto evento $k$ de cada proceso.
 
-Un corte es consistente si por cada evento que contiene, tambien contiene a aquellos que ocurren antes. El algoritmo de Chandy & Lamport se utiliza para corte consistente
+Un corte es consistente si por cada evento que contiene, también contiene a aquellos que ocurren antes. El algoritmo de Chandy & Lamport se utiliza para obtener corte consistente de un sistema distribuido.
