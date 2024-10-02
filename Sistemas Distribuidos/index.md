@@ -9,14 +9,13 @@ title: Sistemas Distribuidos
 ## Herramientas
 
 - [[Multiprogramación]]
-- [[Sistema Centralizado]]
 - [[Sistema Distribuido]]
 - [[Paralelizacion]]
 - [[Mensajes]]
+- [[Middlewares]]
+- [[Message Oriented Middleware]]
 - [[Remote Procedure Control]]
 - [[Patrones de Comunicación]]
-- [[Middlewares]]
-- [[MOM]]
 - [[Objetos Distribuidos]]
 - [[Relojes]]
 - [[Sincronismo]]
