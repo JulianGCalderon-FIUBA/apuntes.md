@@ -4,6 +4,8 @@ El estado **global** es la unión de todos los estados del sistema.
 
 ## Máquina de estados
 
-En una máquina de estados, el estado en todo momento está dado por un estado anterior, y un evento que lo hace llegar al estado siguiente
+En una máquina de estados, el estado en todo momento está dado por un estado anterior, y un evento que lo hace llegar al estado siguiente. Es importante que las transiciones sean determinísticas.
 
-## Histor
+La historia es la secuencia de todos los eventos procesados por la máquina de estados. Un corte es el subconjunto de historias de todos los procesos hasta cierto evento $k$ de cada proceso.
+
+Un corte es consistente si por cada evento que contiene, tambien contiene a aquellos que ocurren antes.

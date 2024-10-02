@@ -6,15 +6,12 @@ title: Sistemas Distribuidos
 
 > "Un sistema distribuido es aquel en el que el fallo de una computadora que ni siquiera sabes que existe, puede dejar tu propio computador inutilizable." ~ Lamport
 
-## Introducción
-
 - [[Multiprogramación]]
 - [[Sistema Distribuido]]
-- [[Objetivos de la Paralelizacion]]
-- [[Patrones de Comunicación]]
 
-## Conceptos
+## Herramientas
 
+- [[Speedup]]
 - [[Mensajes]]
 - [[Grupos]]
 - [[Relojes]]
@@ -24,6 +21,7 @@ title: Sistemas Distribuidos
 ## Middlewares
 
 - [[Middlewares]]
+- [[Patrones de Comunicación]]
 - [[Message Oriented Middleware]]
 - [[Remote Procedure Control]]
 - [[Objetos Distribuidos]]
