@@ -241,7 +241,8 @@
     "paraleliza",
     "middleware",
     "transaccionalidad",
-    "Middlewares"
+    "Middlewares",
+    "Middleware"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,
