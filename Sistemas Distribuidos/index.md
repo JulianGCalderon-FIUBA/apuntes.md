@@ -12,17 +12,14 @@ title: Sistemas Distribuidos
 - [[Sistema Centralizado]]
 - [[Sistema Distribuido]]
 - [[Paralelizacion]]
-- [[Patrones de Comunicación]]
-- [[Relojes]]
-- [[Sincronismo]]
-
-### Middlewares
-
 - [[Mensajes]]
+- [[Remote Procedure Control]]
+- [[Patrones de Comunicación]]
 - [[Middlewares]]
 - [[MOM]]
 - [[Objetos Distribuidos]]
-- [[Remote Procedure Control]]
+- [[Relojes]]
+- [[Sincronismo]]
 
 ## Fundamentos de Sistemas Distribuidos
 
