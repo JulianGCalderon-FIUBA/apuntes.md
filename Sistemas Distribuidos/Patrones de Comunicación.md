@@ -65,6 +65,4 @@ Algunas ventajas del modelo:
 - La carga de procesamiento se puede paralelizar.
 - Admite procesar solo nodos requeridos por dependencias.
 
-### Dependencias
-
 Se pueden para calcular dependencias entre procesos. Si se encuentra un ciclo, entonces existe la posibilidad de un deadlock.

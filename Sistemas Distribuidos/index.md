@@ -11,17 +11,19 @@ title: Sistemas Distribuidos
 - [[Multiprogramación]]
 - [[Sistema Distribuido]]
 - [[Objetivos de la Paralelizacion]]
+- [[Patrones de Comunicación]]
 
 ## Conceptos
 
 - [[Mensajes]]
+- [[Grupos]]
 - [[Relojes]]
 - [[Sincronismo]]
+- [[Estados]]
 
 ## Middlewares
 
 - [[Middlewares]]
 - [[Message Oriented Middleware]]
 - [[Remote Procedure Control]]
-- [[Patrones de Comunicación]]
 - [[Objetos Distribuidos]]
