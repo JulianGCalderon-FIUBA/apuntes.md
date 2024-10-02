@@ -36,6 +36,6 @@ title: Índice
 - [[Base de Datos/index|Base de Datos]]
 - [[Teoría de Lenguaje/index|Teoría de Lenguaje]]
 
-## 2.º 2024
+## 1.º 2024
 
-- [[Sistemas Distribuidos/index|Sistemas Distribuidos]]
+A partir de este cuatrimestre empecé a trabajar, por lo que dejé de toma apuntes de forma consistente. Remitirse a la bibliografía oficial de las materias.
