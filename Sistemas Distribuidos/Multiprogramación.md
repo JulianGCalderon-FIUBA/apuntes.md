@@ -4,12 +4,6 @@ Existen distintas variantes de la multiprogramación:
 - Multi-processing: Procesos con memoria independiente
 - Multi-computing: Distintas computadoras independientes
 
-Los objetivos de la paralelización son:
-
-- Reducir el tiempo de cómputo de una tarea (latencia)
-- Incrementar la cantidad de tareas que se pueden realizar en paralelo (throughput)
-- Reducir la energía consumida al realizar todas las tareas
-
 ## Multi-threading
 
 Hay recursos compartidos (heap, data segment, file descriptors, code segment)

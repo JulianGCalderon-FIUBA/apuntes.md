@@ -8,6 +8,7 @@ title: Sistemas Distribuidos
 
 - [[Multiprogramación]]
 - [[Sistema Distribuido]]
+- [[Paralelización]]
 
 ## Herramientas
 
