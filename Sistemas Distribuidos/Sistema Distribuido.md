@@ -9,6 +9,15 @@ Escalan distribuyendo trabajo y recursos.
 - **Movilidad**: no están circunscritos al alcance de un único computador.
 - **Costo**: componentes más simples. Subsistemas delegados en servicios terceros
 
+Por otro lado, un sistema **centralizado** tiene las siguientes ventajas:
+
+- **Control**: lógica de control muy simple, efectiva y, en ocasiones, eficiente.
+- **Homogeneidad**: la centralización fuerza estándares para software y
+hardware.
+- **Consistencia**: es posible definir fuertes políticas de consistencia de
+información y monitoreo del estado global del sistema.
+- **Seguridad**: se disminuye la 'superficie de ataque' frente a amenazas.
+
 ## Descentralizar vs. Distribuir
 
 **Centralizar** implica la concentración de la autoridad en los niveles más altos de una jerarquía.
