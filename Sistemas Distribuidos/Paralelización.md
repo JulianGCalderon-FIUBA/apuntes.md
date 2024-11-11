@@ -10,7 +10,9 @@ Los objetivos de la paralelización son:
 
 Se define el **speedup** como el ratio de optimización de una operación.
 
-El camino crítico es la máxima longitud de tareas secuenciales a computar. Define el mejor rendimiento que se puede obtener al realizar un conjunto de tareas.
+## Camino Crítico
+
+El **camino crítico** es la máxima longitud de tareas secuenciales a computar. Define el mejor rendimiento que se puede obtener al realizar un conjunto de tareas.
 
 ## Ley de Amdahl
 
@@ -18,13 +20,17 @@ El camino crítico es la máxima longitud de tareas secuenciales a computar. Def
 
 Permite obtener el beneficio de invertir en la paralelización de las tareas. Depende de la naturaleza del problema. Una tarea altamente secuencial no obtendrá beneficio si se paraleliza.
 
-El speedup maximo se encuentra acotado por la fraccion de tiempo quen o puede ser paralelizable.
+El speedup maximo se encuentra acotado por la fracción de tiempo que no puede ser paralelizable.
+
+Es un modelo que simplifica el problema en dos partes, por lo que no se centra en la naturaleza del problema.
 
 ## Ley de Gustafson
 
-> Speedup should be measured by scalling the problem to the number or processors, not by fixing the problem size.
+> Speedup should be measured by scalling the problem to the number of processors, not by fixing the problem size.
 
-Aumentar el paralelismo puede permitir la modificación del problema original para ejecutar más trabajo. Si el problema crece, caben dos alternativas:
+Aumentar el paralelismo puede permitir la modificación del problema original para ejecutar más trabajo.
+
+Si el problema crece, caben dos alternativas:
 
 - Parte serial disminuye => speedup aumenta
 - Paralelismo aumenta => speedup aumenta
