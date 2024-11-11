@@ -10,6 +10,7 @@ title: Sistemas Distribuidos
 
 - [[Multiprogramación]]
 - [[Sistema Distribuido]]
+- [[Descentralizar y Distribuir]]
 - [[Paralelización]]
 
 ## Herramientas
