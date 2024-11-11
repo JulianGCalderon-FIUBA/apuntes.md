@@ -16,3 +16,13 @@ Escalan distribuyendo trabajo y recursos.
 **Descentralizar** implica transferir la toma de decisiones a eslabones inferiores de cierta organización.
 
 **Distribuir** implica utilizar un modelo descentralizado de control de computadoras para la coordinación de actividades con una coherencia dada.
+
+## Parámetros de Diseño
+
+Algunos parámetros en el diseño de un sistema distribuido:
+
+- Transparencia
+- Escalabilidad
+- Tolerancia a fallos
+- Acceso a recursos compartidos
+- Sistemas distribuidos abiertos:

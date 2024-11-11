@@ -2,7 +2,7 @@ Existen distintas variantes de la multiprogramación:
 
 - Multi-threading: Hilos compartiendo memoria
 - Multi-processing: Procesos con memoria independiente
-- Multi-computing: Distintas computadoras independientes
+- Multi-computing: Distintas computadoras independientes. Refiere a un [[Sistema Distribuido]]
 
 ## Multi-threading
 
