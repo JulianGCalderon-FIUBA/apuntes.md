@@ -10,22 +10,21 @@ title: Sistemas Distribuidos
 
 - [[Multiprogramación]]
 - [[Sistema Distribuido]]
-- [[Descentralizar vs. D]]
+- [[Descentralizar y Distribuir]]
 - [[Paralelización]]
-
-## Herramientas
-
-- [[Speedup]]
-- [[Mensajes]]
-- [[Grupos]]
-- [[Relojes]]
-- [[Sincronismo]]
-- [[Estados]]
 
 ## Middlewares
 
+- [[Mensajes]]
+- [[Grupos]]
 - [[Middlewares]]
 - [[Patrones de Comunicación]]
 - [[Message Oriented Middleware]]
 - [[Remote Procedure Control]]
 - [[Objetos Distribuidos]]
+
+## Varios
+
+- [[Relojes]]
+- [[Sincronismo]]
+- [[Estados]]
