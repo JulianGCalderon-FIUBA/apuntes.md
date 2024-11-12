@@ -13,10 +13,17 @@ title: Sistemas Distribuidos
 - [[Descentralizar y Distribuir]]
 - [[Paralelización]]
 
-## Middlewares
+## Herramientas
 
+- [[Nombres]]
 - [[Mensajes]]
 - [[Grupos]]
+- [[Relojes]]
+- [[Sincronismo]]
+- [[Estados]]
+
+## Middlewares
+
 - [[Middlewares]]
 - [[Patrones de Comunicación]]
 - [[Message Oriented Middleware]]
@@ -24,7 +31,3 @@ title: Sistemas Distribuidos
 - [[Objetos Distribuidos]]
 
 ## Varios
-
-- [[Relojes]]
-- [[Sincronismo]]
-- [[Estados]]

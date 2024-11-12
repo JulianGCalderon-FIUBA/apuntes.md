@@ -2,7 +2,7 @@ Existen distintas variantes de la multiprogramación:
 
 - Multi-threading: Hilos compartiendo memoria
 - Multi-processing: Procesos con memoria independiente
-- Multi-computing: Distintas computadoras independientes. Refiere a un [[Sistema Distribuido]]
+- Multi-computing: Distintas computadoras independientes.
 
 ## Multi-threading
 
@@ -33,3 +33,13 @@ Algunas características clave de esta variante son:
 - Los componentes están separados, en general simples.
 - Mayor escalabilidad y estabilidad que el multi-threading.
 - No hay tolerancia a fallos del hardware o del sistema operativo.
+
+## Multi-computing
+
+No hay recursos compartidos.
+
+Para sincronizar depen de mensajes enviados entre computadoras. No poseen un reloj central que permita sincronizarlas
+
+Las computadoras pueden fallar independientemente.
+
+Son altamente escalables
