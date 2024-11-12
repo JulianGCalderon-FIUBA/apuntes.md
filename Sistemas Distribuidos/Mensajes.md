@@ -4,7 +4,7 @@ Los nombres permiten inequívocamente a una entidad dentro de un sistema. Deben 
 
 ## Direccionamiento
 
-El direccionamiento, o *addressing*, es la relación entre un nombre y una dirección. La dirección puede cambiar, pero el nombre no.
+El direccionamiento, o _addressing_, es la relación entre un nombre y una dirección. La dirección puede cambiar, pero el nombre no.
 
 ## Atomicidad
 
