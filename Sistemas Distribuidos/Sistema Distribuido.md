@@ -12,10 +12,8 @@ Escalan distribuyendo trabajo y recursos.
 Por otro lado, un sistema **centralizado** tiene las siguientes ventajas:
 
 - **Control**: lógica de control muy simple, efectiva y, en ocasiones, eficiente.
-- **Homogeneidad**: la centralización fuerza estándares para software y
-hardware.
-- **Consistencia**: es posible definir fuertes políticas de consistencia de
-información y monitoreo del estado global del sistema.
+- **Homogeneidad**: la centralización fuerza estándares para software y hardware.
+- **Consistencia**: es posible definir fuertes políticas de consistencia de información y monitoreo del estado global del sistema.
 - **Seguridad**: se disminuye la 'superficie de ataque' frente a amenazas.
 
 ## Parámetros de Diseño

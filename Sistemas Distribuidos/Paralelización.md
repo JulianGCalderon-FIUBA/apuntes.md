@@ -20,6 +20,10 @@ El **camino crítico** es la máxima longitud de tareas secuenciales a computar.
 
 Permite obtener el beneficio de invertir en la paralelización de las tareas. Depende de la naturaleza del problema. Una tarea altamente secuencial no obtendrá beneficio si se paraleliza.
 
+$$
+T_p = W_s + W_p / P
+$$
+
 El speedup maximo se encuentra acotado por la fracción de tiempo que no puede ser paralelizable.
 
 Es un modelo que simplifica el problema en dos partes, por lo que no se centra en la naturaleza del problema.
