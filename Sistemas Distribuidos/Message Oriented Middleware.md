@@ -1,25 +1,20 @@
-Son middlewares que se comunican a través de mensajes. Esto hace que la comunicación sea transparente al resto de aplicaciones.
+Se comunica a través de mensajes. Esto hace que la comunicación sea transparente al resto de aplicaciones.
 
-Resuelve problemas de transarencia respectos a ubicaciones, fallos, escalabilidad.
+Resuelve problemas de transparencia respectos a ubicaciones, fallos, escalabilidad.
 
-## Modos
+## Modo
 
 Tiene dos modos de operación:
 
 - **Bus de información**: Pueden enviarse mensajes bajo ciertos tópicos, para que aquellos interesados lo reciban. Los mensajes se pierden si nadie los toma.
 - **Cola de mensajes**: Pueden enviarse mensajes con un destinatario definido. Se quedan esperando hasta que este lo reciba.
 
-## Sincrónico
+## Sincronismo
 
-Se modela una conexión punto a punto. Permite obtener respuestas instantáneas.
+El middleware puede ser sincrónico o asincrónico:
 
-## Asincrónico
-
-Se implementa utilizando colas. La arquitectura soporta periodos de discontinuidad del transporte.
-
-Se deben configurar alertas para cuando se llenan las colas. Tienen un tamaño límite, no existe la cola infinita.
-
-Si se quiere recibir respuesta a los pedidos, es necesario tener dos colas (una por cada cliente de la comunicación)
+- **Sincronico**: Se modela una conexión punto a punto. Permite obtener respuestas instantáneas.
+- **Asincronico**: Se implementa utilizando colas. La arquitectura soporta periodos de discontinuidad del transporte. Se deben configurar alertas para cuando se llenan las colas. Tienen un tamaño límite, no existe la cola infinita. Si se quiere recibir respuesta a los pedidos, es necesario tener dos colas (una por cada cliente de la comunicación)
 
 ## Operaciones
 
@@ -32,8 +27,8 @@ Algunas operaciones comunes son:
 
 ## Broker
 
-Proveen transparencia de localización entre emisor y receptor.
+El borker provee transparencia de localización entre emisor y receptor.
 
 Pueden soportar lógica en el middleware para filtrado y modificación de mensajes.
 
-Brindan un punto de control y monitoreo.
+Además, brindan un punto de control y monitoreo.

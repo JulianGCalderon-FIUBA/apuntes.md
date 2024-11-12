@@ -18,7 +18,7 @@ title: Sistemas Distribuidos
 - [[Nombres]]
 - [[Mensajes]]
 - [[Grupos]]
-- [[Middlewares]]
+- [[MIddleware]]
 - [[Message Oriented Middleware]]
 
 ## Varios
