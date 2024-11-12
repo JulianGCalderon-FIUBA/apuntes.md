@@ -61,5 +61,5 @@ Luego, se define:
 
 Entonces, las cotas serán:
 
-- $\text{Cota Superior} = \min (P, T_1/T_\infty)$: Si el speedup es lineal, entonces toma el valor de P.
+- $\text{Cota Superior} = \min (P, T_1/T_\infty)$
 - $\text{Cota Inferior} = (T_1 - T_\infty) / P + T_\infty$
