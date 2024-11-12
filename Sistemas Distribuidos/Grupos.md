@@ -1,4 +1,4 @@
-Es una construcción lógica que nos permite definir conjuntos de procesos que se comunicarán entre sí.
+Es una construcción lógica que nos permite definir conjuntos de procesos que se comunicarán entre sí. Permiten ver una coleccion de procesos como una abstraccion.
 
 Los mensajes son enviados a todos o algunos de los miembros de un grupo.
 
