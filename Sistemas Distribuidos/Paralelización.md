@@ -14,7 +14,9 @@ Se define el **speedup** como el ratio de optimización de una operación.
 
 El **camino crítico** es la máxima longitud de tareas secuenciales a computar. Define el mejor rendimiento que se puede obtener al realizar un conjunto de tareas.
 
-## Ley de Amdahl
+## Modelos de Análisis
+
+### Ley de Amdahl
 
 > The effort expended on achieving high parallel processing rates is wasted unless it is accompanied by achievements in sequential processing rates of very nearly the same magnitude.
 
@@ -32,20 +34,15 @@ $$
 S = 1/f
 $$
 
-## Ley de Gustafson
+### Ley de Gustafson
 
 > Speedup should be measured by scalling the problem to the number of processors, not by fixing the problem size.
 
-Tiene un enfoque menos pesimista al calcular el speedup.
+Tiene un enfoque menos pesimista al calcular el speedup. Si no se puede mejorar la solucion, podemos modificar el problema para aprovechar mas los recursos.
 
 Aumentar el paralelismo puede permitir la modificación del problema original para ejecutar más trabajo, aunque la parte serial no se pueda mejorar.
 
-Si el problema crece, caben dos alternativas:
-
-- Parte serial disminuye => speedup aumenta
-- Paralelismo aumenta => speedup aumenta
-
-## Work-Span
+### Work-Span
 
 Es un modelo más cercano a la realidad para estimar optimizaciones. Provee una cota inferior y una cota superior para el speedup.
 
@@ -64,5 +61,5 @@ Luego, se define:
 
 Entonces, las cotas serán:
 
-- $\text{Cota Superior} = \min (P, T_1/T_\infty)$
+- $\text{Cota Superior} = \min (P, T_1/T_\infty)$: Si el speedup es lineal, entonces toma el valor de P.
 - $\text{Cota Inferior} = (T_1 - T_\infty) / P + T_\infty$
