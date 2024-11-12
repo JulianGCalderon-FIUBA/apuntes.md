@@ -18,6 +18,7 @@ title: Sistemas Distribuidos
 - [[Nombres]]
 - [[Mensajes]]
 - [[Grupos]]
+- [[Middlewares]]
 
 ## Varios
 
