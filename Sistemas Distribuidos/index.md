@@ -19,14 +19,13 @@ title: Sistemas Distribuidos
 - [[Mensajes]]
 - [[Grupos]]
 - [[Middlewares]]
+- [[Message Oriented Middleware]]
 
 ## Varios
 
 - [[Relojes]]
 - [[Sincronismo]]
 - [[Estados]]
-- [[Middlewares]]
 - [[Patrones de Comunicación]]
-- [[Message Oriented Middleware]]
 - [[Remote Procedure Control]]
 - [[Objetos Distribuidos]]

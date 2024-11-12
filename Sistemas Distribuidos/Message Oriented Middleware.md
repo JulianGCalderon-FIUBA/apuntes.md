@@ -1,3 +1,7 @@
+Son middlewares que se comunican a través de mensajes. Esto hace que la comunicación sea transparente al resto de aplicaciones.
+
+Resuelve problemas de transarencia respectos a ubicaciones, fallos, escalabilidad.
+
 ## Modos
 
 Tiene dos modos de operación:
