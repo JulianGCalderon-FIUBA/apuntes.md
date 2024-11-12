@@ -13,10 +13,9 @@ title: Sistemas Distribuidos
 - [[Descentralizar y Distribuir]]
 - [[Paralelización]]
 
-## Herramientas
+## Fundamentos
 
 - [[Nombres]]
-- [[Mensajes]]
 - [[Grupos]]
 - [[Relojes]]
 - [[Sincronismo]]
@@ -29,5 +28,3 @@ title: Sistemas Distribuidos
 - [[Message Oriented Middleware]]
 - [[Remote Procedure Control]]
 - [[Objetos Distribuidos]]
-
-## Varios

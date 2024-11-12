@@ -12,7 +12,7 @@ Permite el acceso a recursos compartidos de forma eficiente, transparente y cont
 
 Dar estándares claros sobre sintaxis y semántica de los servicios ofrecidos. Dar interoperabilidad y portabilidad.
 
-Permitir comunicación de grupo (*broadcast*, *multicast*). Facilitar la relocalización de elementos y coordinación de tareas.
+Permitir comunicación de grupo (_broadcast_, _multicast_). Facilitar la relocalización de elementos y coordinación de tareas.
 
 ## Clasificación
 

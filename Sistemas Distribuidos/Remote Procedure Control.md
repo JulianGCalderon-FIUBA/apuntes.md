@@ -19,7 +19,7 @@ Según las estrategias adoptadas para asegurar el delivery de mensajes, los mens
 
 En términos generales, tendremos las siguientes entidades:
 
-- **Cliente**: Se conecta al *stub* y realiza llamadas de forma transparente al servidor**:
-- **Servidor**: Se encuentra conectado a un *stub* del cual recibe llamadas y envía resultados. Posee lógica de negocio.
-- **Stub**: Administra el *marshalling* de la información, y el envío al módulo de comunicación.
+- **Cliente**: Se conecta al _stub_ y realiza llamadas de forma transparente al servidor**:
+- **Servidor**: Se encuentra conectado a un _stub_ del cual recibe llamadas y envía resultados. Posee lógica de negocio.
+- **Stub**: Administra el _marshalling_ de la información, y el envío al módulo de comunicación.
 - **Comunicación**: Encapsula la comunicación con el servidor.

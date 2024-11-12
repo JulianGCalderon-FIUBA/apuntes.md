@@ -24,7 +24,7 @@ Algunas operaciones comunes son:
 - `Put`: Publicar un mensaje.
 - `Get`: Esperar hasta que un mensaje sea detectado, luego eliminarlo y retornarlo.
 - `Poll`: Revisa mensajes pendientes, sin bloquear.
-- `Notify`: Asocia un *callback* utilizado por el middleware para ser ejecutado frente a publicación de ciertos mensajes.
+- `Notify`: Asocia un _callback_ utilizado por el middleware para ser ejecutado frente a publicación de ciertos mensajes.
 
 ## Broker
 
