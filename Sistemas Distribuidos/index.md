@@ -16,13 +16,14 @@ title: Sistemas Distribuidos
 ## Fundamentos
 
 - [[Nombres]]
+- [[Mensajes]]
 - [[Grupos]]
+
+## Varios
+
 - [[Relojes]]
 - [[Sincronismo]]
 - [[Estados]]
-
-## Middlewares
-
 - [[Middlewares]]
 - [[Patrones de Comunicación]]
 - [[Message Oriented Middleware]]
