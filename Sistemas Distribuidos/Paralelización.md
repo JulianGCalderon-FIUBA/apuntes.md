@@ -20,19 +20,25 @@ El **camino crítico** es la máxima longitud de tareas secuenciales a computar.
 
 Permite obtener el beneficio de invertir en la paralelización de las tareas. Depende de la naturaleza del problema. Una tarea altamente secuencial no obtendrá beneficio si se paraleliza.
 
+Es un modelo que simplifica el problema en dos partes, por lo que no se centra en la naturaleza del problema. El problema se divide en la parte serial y en la parte paralelizable.
+
 $$
-T_p = W_s + W_p / P
+T_p = W_s + W_p / P = f + (1 - f) / P
 $$
 
-El speedup maximo se encuentra acotado por la fracción de tiempo que no puede ser paralelizable.
+El speedup $S$ maximo se encuentra acotado por la fracción de tiempo que no puede ser paralelizable.
 
-Es un modelo que simplifica el problema en dos partes, por lo que no se centra en la naturaleza del problema.
+$$
+S = 1/f
+$$
 
 ## Ley de Gustafson
 
 > Speedup should be measured by scalling the problem to the number of processors, not by fixing the problem size.
 
-Aumentar el paralelismo puede permitir la modificación del problema original para ejecutar más trabajo.
+Tiene un enfoque menos pesimista al calcular el speedup.
+
+Aumentar el paralelismo puede permitir la modificación del problema original para ejecutar más trabajo, aunque la parte serial no se pueda mejorar.
 
 Si el problema crece, caben dos alternativas:
 
