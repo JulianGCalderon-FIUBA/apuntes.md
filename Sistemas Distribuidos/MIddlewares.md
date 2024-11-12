@@ -1,18 +1,16 @@
-Software de conectividad que ofrece un conjunto de servicios que hacen posible el funcionamiento de aplicaciones distribuidas sobre plataformas heterogéneas.
+Es un software de conectividad que ofrece un conjunto de servicios que hacen posible el funcionamiento de aplicaciones distribuidas sobre plataformas heterogéneas.
 
 El middleware puede ser un nodo centralizado, o estar descentralizado en forma de bibliotecas que se usan entre los procesos.
 
 ## Objetivos
 
-Da transparencia para ocultar la distribución del sistema, y responde como si fuera una única computadora.
+Un middleware tiene distintos objetivos:
 
-Dar tolerancia a fallos para que el sistema se comporte de manera predecible incluso frente a la aparición de eventos catastróficos.
-
-Permite el acceso a recursos compartidos de forma eficiente, transparente y controlada.
-
-Dar estándares claros sobre sintaxis y semántica de los servicios ofrecidos. Dar interoperabilidad y portabilidad.
-
-Permitir comunicación de grupo (_broadcast_, _multicast_). Facilitar la relocalización de elementos y coordinación de tareas.
+- Da transparencia para ocultar la distribución del sistema, y responde como si fuera una única computadora.
+- Dar tolerancia a fallos para que el sistema se comporte de manera predecible incluso frente a la aparición de eventos catastróficos.
+- Permite el acceso a recursos compartidos de forma eficiente, transparente y controlada.
+- Dar estándares claros sobre sintaxis y semántica de los servicios ofrecidos. Dar interoperabilidad y portabilidad.
+- Permitir comunicación de grupo (_broadcast_, _multicast_). Facilitar la relocalización de elementos y coordinación de tareas.
 
 ## Clasificación
 

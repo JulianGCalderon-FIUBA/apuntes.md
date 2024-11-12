@@ -1,25 +1,25 @@
-Es una construcción lógica que nos permite definir conjuntos de procesos que se comunicarán entre sí. Permiten ver una coleccion de procesos como una abstraccion.
+Es una construcción lógica que nos permite definir conjuntos de procesos que se comunicarán entre sí. Permiten ver una colección de procesos como una abstracción.
 
 - Los mensajes son enviados a todos o algunos de los miembros de un grupo.
 - Los grupos son dinámicos, pueden crearse y destruirse en cualquier momento.
 - Se debe definir un formato de entrada y de salida al grupo (suscripción y cancelación).
 
-## Difusion de Mensajes
+## Difusión de Mensajes
 
-Hay distintos modos de envio:
+Hay distintos modos de envío:
 
-- Unicast: Comunicacion punto a punto
+- Unicast: Comunicación punto a punto
 - Anycast: Uno solo lo recibe, pero cualquiera
-- Multicast: Lo reciben todos los que estan en el grupo
+- Multicast: Lo reciben todos los que están en el grupo
 - Broadcast: Lo reciben todos los procesos
 
-## Topologia
+## Topología
 
-Hay distintos tipos de topologias para la difusion:
+Hay distintos tipos de topologías para la difusión:
 
-- Centralziada: Un nodo le envia a todos.
-- Descentralizada: Un nodo le envia a los vecinos, y estos propagan el mensaje.
+- Centralizada: Un nodo le envía a todos.
+- Descentralizada: Un nodo le envía a los vecinos, y estos propagan el mensaje.
 
 ## Atomicidad
 
-Hay situaciones donde queremos que o todos reciban el mensaje, o ninguno. Para esto necesitaremos utilizar ACKs y reintentos.
+Hay situaciones donde queremos que o todos reciban el mensaje, o ninguno. Para esto necesitaremos utilizar ACK y reintentos.
