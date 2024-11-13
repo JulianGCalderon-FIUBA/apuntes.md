@@ -15,17 +15,16 @@ title: Sistemas Distribuidos
 
 ## Fundamentos
 
-- [[Nombres]]
-- [[Mensajes]]
-- [[Grupos]]
+- [[Nombres y Direccionamiento]]
+- [[Formato de Mensajes]]
+- [[Comunicacion de Grupos]]
 - [[Middlewares]]
-- [[MOMs]]
+- [[Patrones de Comunicación]]
 
 ## Varios
 
 - [[Relojes]]
 - [[Sincronismo]]
 - [[Estados]]
-- [[Patrones de Comunicación]]
 - [[Remote Procedure Control]]
 - [[Objetos Distribuidos]]
