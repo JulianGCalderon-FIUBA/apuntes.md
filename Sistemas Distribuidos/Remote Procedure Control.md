@@ -7,11 +7,11 @@ La comunicación remota es transparente para el usuario.
 
 Hay portabilidad a través de implementación de interfaces bien definidas.
 
-## Interface Definition Language
+## Interface Description Language
 
 Son lenguajes que permiten que múltiples lenguajes puedan ser invocados entre sí.
 
-Las funciones se definen según los tipos de entrada y de salida. Los tipos de dato se deben enviar como valor, ya que los punteros no tienen sentido en una llamada a través de la red.
+Definen la interfaz de la comunicación en función de los tipos de entrada y de salida. Los tipos de dato se deben enviar como valor, ya que los punteros no tienen sentido en una llamada a través de la red.
 
 Un ejemplo de esto es *Google Protocol Buffers*, que ofrece un estándar para el formato de los procedimientos y los mensajes a enviar.
 
@@ -19,9 +19,9 @@ Un ejemplo de esto es *Google Protocol Buffers*, que ofrece un estándar para el
 
 A diferencia de en una llamada local. Un mensaje puede llegar a ser recibidos 0, 1, o muchas veces. Hay distintas estrategias para mitigar esto:
 
-- Request-Retry con Timeout.
+- Request-Retry con Time out.
 - Filtrado de operaciones duplicadas.
-- Retransmisión y reejecución sí se pierde un retry.
+- Retransmisión y reejecución si se pierde un reintento.
 
 ## Implementación
 
