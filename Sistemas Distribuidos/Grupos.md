@@ -9,7 +9,7 @@ Es una construcción lógica que nos permite definir conjuntos de procesos que s
 Hay distintos modos de envío:
 
 - Unicast: Comunicación punto a punto
-- Anycast: Uno solo lo recibe, pero cualquiera
+- Anycast: Uno solo lo recibe, pero cualquiera. Por ejemplo, envía al nodo más cercano.
 - Multicast: Lo reciben todos los que están en el grupo
 - Broadcast: Lo reciben todos los procesos
 
