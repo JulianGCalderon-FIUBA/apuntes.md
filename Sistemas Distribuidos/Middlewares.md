@@ -16,13 +16,17 @@ Para definir un middleware, hablaremos de sus objetivos.
 
 Un middleware tiene distintos objetivos:
 
-- Da transparencia para ocultar la distribución del sistema, y responde como si fuera una única computadora.
-- Dar tolerancia a fallos para que el sistema se comporte de manera predecible, incluso frente a la aparición de eventos catastróficos.
-- Permite el acceso a recursos compartidos de forma eficiente, transparente y controlada.
-- Dar estándares claros sobre sintaxis y semántica de los servicios ofrecidos. Dar interoperabilidad y portabilidad.
-- Permitir comunicación de grupo (_broadcast_, _multicast_). Facilitar la relocalización de elementos y coordinación de tareas.
+- Da **transparencia** para ocultar la distribución del sistema, y responde como si fuera una única computadora. Esto es respecto a: Ubicacion, Acceso, Migracion, Replicacion, Concurrencia, Fallos, Persistencia.
+- Dar **tolerancia a fallos** para que el sistema se comporte de manera predecible, incluso frente a la aparición de eventos catastróficos. La idea es que siga funcionando, aunque de forma degradada. Esto abarca: Availability, Reliability, Safety, Maintainability.
+- Permite el **acceso a recursos compartidos** de forma eficiente, transparente y controlada.
+- Dar **estándares claros sobre sintaxis y semántica** de los servicios ofrecidos. Dar interoperabilidad y portabilidad.
+- Permitir **comunicación de grupo** (_broadcast_, _multicast_). Facilitar la relocalización de elementos y coordinación de tareas.
 
-El middleware puede ser un nodo centralizado, o estar descentralizado en forma de bibliotecas que se usan entre los procesos.
+## Centralizado o Descentralizado
+
+El middleware puede ser centralizado, en forma de un nodo intermedio con el cual se comunican los clientes.
+
+Por otro lado, el middleware puede descentralizado, en forma de bibliotecas presentes en cada nodo que abstraigan este detalle.
 
 ## Clasificación
 
