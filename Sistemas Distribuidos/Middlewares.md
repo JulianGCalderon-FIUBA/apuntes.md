@@ -39,4 +39,4 @@ Hay distintos tipos de middleware:
 - **Transaccionales**: Permiten garantizar la transaccionalidad de las operaciones respecto a los datos. Permiten un acceso transparente al grupo.
 - **Orientados a objetos**: Los objetos viven dentro del middleware, y se puede operar con ellos desde los clientes.
 - **Orientados a procedimientos**: El middleware trabaja como un servidor de funciones que se pueden invocar. Se pueden explorar y ejecutar, pero no presentan estado para futuras invocaciones.
-- **Orientados a mensajes**: Funciona como un sistema de mensajería entre aquellas aplicaciones que utilizan el middleware. Se conocen como [[MOMs]].
+- **Orientados a mensajes**: Funciona como un sistema de mensajería entre aquellas aplicaciones que utilizan el middleware. Este tipo se conoce como [[Message Oriented Middleware]].
