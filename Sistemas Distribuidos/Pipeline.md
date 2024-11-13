@@ -1,8 +1,10 @@
-## Pipeline
+Esta arquitectura tambien se conoce como "pipes and filters". Es utilizado bastante en los sistemas operativos de tipo Unix
+
+```bash
+cat in | grep pattern | sort | uniq > out
+```
 
 Los datos de entrada forman un flujo donde distintos filtros o procesadores se conectan entre sí para procesarlos de manera secuencial.
-
-Es utilizado bastante en los sistemas operativos de tipo Unix.
 
 Admite dos modos de procesamiento:
 
