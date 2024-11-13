@@ -4,4 +4,4 @@ Existen varios patrones típicos de comunicación, útiles en distintos casos:
 - [[Producer-Consumer]]
 - [[Publisher-Subscriber]]
 - [[Pipeline]]
-- [[DAG]]
+- [[Direct Acyclic Graph]]
