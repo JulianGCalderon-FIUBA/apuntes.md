@@ -5,4 +5,6 @@ En este sistema, los servidores ya no proveen servicios sino objetos. Existe un 
 - Manejo de errores o excepciones.
 - Recolección de basura.
 
-A diferencia de en [[Remote Procedure Control]], en los objetos hay estado. Este cambio debe persistirse ante migracion o replicacion.
+A diferencia de en [[Remote Procedure Control]], en los objetos hay estado. Este cambio debe persistirse ante migración o replicación.
+
+Un ejemplo de objetos distribuidos es CORBA, aunque está en vías de deprecación. Otro ejemplo es RMI, que es un mecanismo de Java que ofrece invocaciones remotas.
