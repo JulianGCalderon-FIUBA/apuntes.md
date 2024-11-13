@@ -27,5 +27,3 @@ title: Sistemas Distribuidos
 - [[Relojes]]
 - [[Sincronismo]]
 - [[Estados]]
-- [[Remote Procedure Control]]
-- [[Objetos Distribuidos]]
