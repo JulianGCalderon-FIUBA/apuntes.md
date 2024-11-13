@@ -1,4 +1,10 @@
-Es un software de conectividad que ofrece un conjunto de servicios que hacen posible el funcionamiento de aplicaciones distribuidas sobre plataformas heterogéneas.
+## Definiciones
+
+> Es un software de conectividad que ofrece un conjunto de servicios que hacen posible el funcionamiento de aplicaciones distribuidas sobre plataformas heterogéneas.
+
+> Módulo intermedio que actúa como conductor entre sistemas permitiendo
+a cualquier usuario de sistemas de información comunicarse con varias fuentes
+de información que se encuentran conectadas por una red
 
 El middleware puede ser un nodo centralizado, o estar descentralizado en forma de bibliotecas que se usan entre los procesos.
 

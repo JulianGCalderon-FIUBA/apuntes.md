@@ -13,7 +13,7 @@ Hay distintos modos de envío:
 - Multicast: Lo reciben todos los que están en el grupo
 - Broadcast: Lo reciben todos los procesos
 
-## Topología
+## Topología de Difusión
 
 Hay distintos tipos de topologías para la difusión:
 
@@ -22,4 +22,4 @@ Hay distintos tipos de topologías para la difusión:
 
 ## Atomicidad
 
-Hay situaciones donde queremos que o todos reciban el mensaje, o ninguno. Para esto necesitaremos utilizar ACK y reintentos.
+Hay situaciones donde queremos que o todos reciban el mensaje, o ninguno. Para eso, es necesario soportar reintentos, ACK, y demorar el envío de los mensajes recibidos hasta que todos lo hayan recibido.
