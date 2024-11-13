@@ -7,9 +7,9 @@ La comunicación remota es transparente para el usuario.
 
 Hay portabilidad a través de implementación de interfaces bien definidas.
 
-## Call Semantics
+## Tolerancia a Fallas
 
-Según las estrategias adoptadas para asegurar el delivery de mensajes, los mensajes pueden llegar a ser recibidos 0, 1, o muchas veces.
+A diferencia de en una llamada local. Un mensaje puede llegar a ser recibidos 0, 1, o muchas veces.
 
 - Sin control y sin garantía de recepción
 - Reejecución sin filtro de duplicados.
