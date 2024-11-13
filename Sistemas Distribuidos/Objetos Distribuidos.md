@@ -2,9 +2,7 @@ En este sistema, los servidores ya no proveen servicios sino objetos. Existe un 
 
 - Referencias a objetos remotos.
 - Invocación de acciones sobre objetos.
-- Manejo de errores.
+- Manejo de errores o excepciones.
 - Recolección de basura.
 
-![[Objetos Distribuidos 1726789262.png]]
-
-A diferencia de en [[Remote Procedure Control]], en los objetos hay estado.
+A diferencia de en [[Remote Procedure Control]], en los objetos hay estado. Este cambio debe persistirse ante migracion o replicacion.
