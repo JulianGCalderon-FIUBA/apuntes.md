@@ -1,4 +1,3 @@
-### Ley de Amdahl
 
 > The effort expended on achieving high parallel processing rates is wasted unless it is accompanied by achievements in sequential processing rates of very nearly the same magnitude.
 

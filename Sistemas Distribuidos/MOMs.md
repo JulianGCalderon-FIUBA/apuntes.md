@@ -1,6 +1,12 @@
-Se comunica a través de mensajes. Esto hace que la comunicación sea transparente al resto de aplicaciones.
+Basan su funcionamiento en el concepto de comunicar mensajes entre aplicación. La comunicación de grupo es transparente a las aplicaciones que la requieren.
 
 Resuelve problemas de transparencia respectos a ubicaciones, fallos, escalabilidad.
+
+Algunos ejemplos son:
+
+- RabbitMQ
+- Kafka
+- ZeroMQ
 
 ## Modos de Operación
 
@@ -18,9 +24,8 @@ El middleware puede ser sincrónico o asincrónico:
 
 ## Broker
 
-El broker tiene las siguientes prioridades:
+El broker es un nodo central que provee transparencia de localización entre los emisores y los receptores.
 
-- El broker provee transparencia de localización entre emisor y receptor.
 - Pueden soportar lógica en el middleware para filtrado y modificación de mensajes.
 - Además, brindan un punto de control y monitoreo.
 - Pueden ofrecer persistencia del mensaje en caso de que no haya nadie para recibirlo aun.

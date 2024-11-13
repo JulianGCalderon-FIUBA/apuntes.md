@@ -28,6 +28,10 @@ El middleware puede ser centralizado, en forma de un nodo intermedio con el cual
 
 Por otro lado, el middleware puede descentralizado, en forma de bibliotecas presentes en cada nodo que abstraigan este detalle.
 
+Un middleware centralizado es más fácil de monitorear, ya que hay un único punto donde obtener la información del sistema (por ejemplo: encontrar congestión).
+
+Un middleware distribuido puede llegar a ser más performante y tiene mejor tolerancia a fallas.
+
 ## Clasificación
 
 Hay distintos tipos de middleware:
