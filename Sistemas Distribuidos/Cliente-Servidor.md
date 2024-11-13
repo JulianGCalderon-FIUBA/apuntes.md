@@ -3,14 +3,15 @@ Se definen roles para los participantes:
 - Servidor como elemento pasivo y provee servicios
 - Clientes activos que envían pedidos al servidor
 
-● Permite centralización en toma de
+La arquitectura tiene las siguientes características:
 
-decisiones
+- Permite centralización en toma de decisiones.
+- Suele asumirse que los servidores tienen más capacidades de hardware que los clientes.
+- Los clientes deben conocer la ubicación del servidor para poder utilizarlo.
+- El servidor no conoce la ubicación de los clientes.
+- Los clientes no entablan comunicaciones entre sí, salvo a través del servidor.
 
-● Suele asumirse que los servidores tienen
+Para obtener notificaciones por parte del servidor, se pueden utilizar modelos de callback, aunque no es su carácter natural: Hay dos alternativas principales:
 
-más capacidades de
-
-hardware que los
-
-clientes
+- Long polling: El cliente se queda esperando
+- Push notifications
