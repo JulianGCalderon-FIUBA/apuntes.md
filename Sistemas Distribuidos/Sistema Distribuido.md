@@ -9,6 +9,8 @@ Escalan distribuyendo trabajo y recursos.
 - **Movilidad**: no están circunscritos al alcance de un único computador.
 - **Costo**: componentes más simples. Subsistemas delegados en servicios terceros
 
+## Centralización
+
 Por otro lado, un sistema **centralizado** tiene las siguientes ventajas:
 
 - **Control**: lógica de control muy simple, efectiva y, en ocasiones, eficiente.
