@@ -11,7 +11,7 @@ La arquitectura tiene las siguientes características:
 - El servidor no conoce la ubicación de los clientes.
 - Los clientes no entablan comunicaciones entre sí, salvo a través del servidor.
 
-Para obtener notificaciones por parte del servidor, se pueden utilizar modelos de callback, aunque no es su carácter natural: Hay dos alternativas principales:
+Para obtener notificaciones por parte del servidor, se pueden utilizar modelos de *callback*, aunque no es su carácter natural: Hay dos alternativas principales:
 
-- Long polling: El cliente se queda esperando
-- Push notifications
+- **Long polling**: El cliente se queda esperando, esperando a que haya alguna notificación.
+- **Push notifications**: El cliente se conecta cada cierto tiempo, y pregunta si tiene alguna notificación para él. No es necesario que esté continuamente conectado.
