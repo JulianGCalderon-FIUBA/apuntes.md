@@ -20,6 +20,7 @@ title: Sistemas Distribuidos
 - [[Comunicacion de Grupos]]
 - [[Middlewares]]
 - [[Patrones de Comunicación]]
+- [[Arquitecturas simples]]
 
 ## Varios
 
