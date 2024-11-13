@@ -19,23 +19,23 @@ Tiene dos modos de operación:
 
 El middleware puede ser sincrónico o asincrónico:
 
-En el caso sincronico, se modela una conexión punto a punto. Permite obtener respuestas instantáneas.
+En el caso **sincrónico**, se modela una conexión punto a punto. Permite obtener respuestas instantáneas. No permite implementar transparencia frente a errores.
 
-No permite implementar transparencia frente a errores.
-
-En el caso asincronico se implementa utilizando colas. La arquitectura soporta periodos de discontinuidad del transporte.
-
-  Se deben configurar alertas para cuando se llenan las colas, ya que tienen un tamaño límite. No existe la cola infinita.
-
-  Si se quiere recibir respuesta a los pedidos, es necesario tener dos colas (una por cada cliente de la comunicación)
+En el caso **asincrónico** se implementa utilizando colas. La arquitectura soporta periodos de discontinuidad del transporte. Si se quiere recibir respuesta a los pedidos, es necesario tener dos colas (una por cada cliente de la comunicación)
 
 ## Colas
+
+Pueden existir varias colas definidas dentro del middleware, y estas tienen un nombre. También pueden existir colas anónimas privadas.
+
+Se deben configurar alertas para cuando se llenan las colas, ya que tienen un tamaño límite. No existe la cola infinita.
+
+Gracias a las colas, se le da garantía al emisor de que el mensaje es insertado.
 
 ## Broker
 
 El broker es un nodo central que provee transparencia de localización entre los emisores y los receptores.
 
-Algunas caracteristicas de la utilización de un broker:
+Algunas características de la utilización de un broker:
 
 - Soportar lógica para filtrado y modificación de mensajes.
 - Brinda un punto de control y monitoreo.

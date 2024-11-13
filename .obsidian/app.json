@@ -243,7 +243,9 @@
     "transaccionalidad",
     "Middlewares",
     "Middleware",
-    "performante"
+    "performante",
+    "Broker",
+    "broker"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,
