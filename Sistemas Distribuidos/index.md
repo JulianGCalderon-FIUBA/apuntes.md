@@ -18,8 +18,8 @@ title: Sistemas Distribuidos
 - [[Nombres]]
 - [[Mensajes]]
 - [[Grupos]]
-- [[MIddleware]]
-- [[Message Oriented Middleware]]
+- [[Middlewares]]
+- [[MOMs]]
 
 ## Varios
 

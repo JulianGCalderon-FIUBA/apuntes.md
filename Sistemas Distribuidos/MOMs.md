@@ -27,8 +27,9 @@ Algunas operaciones comunes son:
 
 ## Broker
 
-El borker provee transparencia de localización entre emisor y receptor.
+El broker tiene las siguientes prioridades:
 
-Pueden soportar lógica en el middleware para filtrado y modificación de mensajes.
-
-Además, brindan un punto de control y monitoreo.
+- El broker provee transparencia de localización entre emisor y receptor.
+- Pueden soportar lógica en el middleware para filtrado y modificación de mensajes.
+- Además, brindan un punto de control y monitoreo.
+- Pueden ofrecer persistencia del mensaje en caso de que no haya nadie para recibirlo aun.
