@@ -1,3 +1,5 @@
+En la multiprogramación, más de un programa está activo al mismo tiempo. Hay más de una unidad de procesamiento *logica*.
+
 Existen distintas variantes de la multiprogramación:
 
 - Multi-threading: Hilos compartiendo memoria
@@ -6,13 +8,13 @@ Existen distintas variantes de la multiprogramación:
 
 ## Multi-threading
 
-Hay recursos compartidos (heap, data segment, file descriptors, code segment)
+Los distintos programas se ejecutan concurrentemente en distintos hilos del sistema operativo.
 
-Para sincronizar hilos hay distintas alternativas:
+Esto implica que **hay** recursos compartidos (heap, data segment, file descriptors, code segment)
 
-- Soporte de threading del sistema operativo (mutex)
-- Soporte de threading del runtime
-- Inter Process Communication
+Para sincronizar hilos, se necesita soporte del sistema operativo, como por ejemplo, utilizando un *mutex* o IPC (*inter process communication*). En el caso de que sean hilos ligeros, se puede resolver con soporte del *runtime* del lenguaje.
+
+Al pertenecer al mismo proceso, es mas sencillo compartir información, pero los compo
 
 Algunas características clave de esta variante son:
 
