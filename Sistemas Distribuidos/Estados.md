@@ -4,6 +4,8 @@ El estado **global** es la unión de todos los estados del sistema.
 
 En una máquina de estados, el estado en todo momento está dado por un estado anterior, y un evento que lo hace llegar al estado siguiente. Es importante que las transiciones sean determinísticas.
 
-La historia es la secuencia de todos los eventos procesados por la máquina de estados. Un corte es el subconjunto de historias de todos los procesos hasta cierto evento $k$ de cada proceso.
+La historia es la secuencia de todos los eventos procesados por la máquina de estados.
+
+Un corte es el subconjunto de historias de todos los procesos hasta cierto evento $k$ de cada proceso.
 
 Un corte es consistente si por cada evento que contiene, también contiene a aquellos que ocurren antes. El algoritmo de Chandy & Lamport se utiliza para obtener corte consistente de un sistema distribuido.

@@ -16,14 +16,14 @@ title: Sistemas Distribuidos
 
 - [[Paralelización]]
 - [[Direccionamiento]]
-- [[Formato de Mensajes]]
-- [[Comunicacion de Grupos]]
+- [[Grupos]]
 - [[Middlewares]]
-- [[Patrones de Comunicación]]
-- [[Arquitecturas simples]]
-
-## Varios
-
 - [[Relojes]]
 - [[Sincronismo]]
 - [[Estados]]
+
+## Varios
+
+- [[Patrones de Comunicación]]
+- [[Arquitecturas simples]]
+- [[Coordinacion de procesos]]
