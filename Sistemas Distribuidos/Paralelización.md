@@ -6,11 +6,9 @@ Los objetivos de la paralelización son:
 - Incrementar la cantidad de tareas que se pueden realizar en paralelo (throughput)
 - Reducir la energía consumida al realizar todas las tareas
 
-## Speedup
+## Definiciones
 
 Se define el **speedup** como el ratio de optimización de una operación.
-
-## Camino Crítico
 
 El **camino crítico** es la máxima longitud de tareas secuenciales a computar. Define el mejor rendimiento que se puede obtener al realizar un conjunto de tareas.
 
