@@ -17,13 +17,13 @@ title: Sistemas Distribuidos
 - [[Paralelización]]
 - [[Direccionamiento]]
 - [[Grupos]]
-- [[Middlewares]]
 - [[Relojes]]
 - [[Sincronismo]]
 - [[Estados]]
 
 ## Varios
 
+- [[Middlewares]]
 - [[Patrones de Comunicación]]
 - [[Arquitecturas simples]]
 - [[Coordinacion de procesos]]
