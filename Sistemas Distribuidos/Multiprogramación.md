@@ -14,34 +14,28 @@ Esto implica que **hay** recursos compartidos (heap, data segment, file descript
 
 Para sincronizar hilos, se necesita soporte del sistema operativo, como por ejemplo, utilizando un *mutex* o IPC (*inter process communication*). En el caso de que sean hilos ligeros, se puede resolver con soporte del *runtime* del lenguaje.
 
-Al pertenecer al mismo proceso, es mas sencillo compartir información, pero los compo
+Al pertenecer al mismo proceso, es más sencillo compartir información, pero los componentes están muy acoplados.
 
-Algunas características clave de esta variante son:
-
-- Es sencillo compartir información.
-- Alto acoplamiento entre los componentes
-- Estabilidad escasa, ya que un hilo defectuoso afecta todo el sistema.
-- Escalabilidad muy limitada.
+La escalabilidad es muy limitada, ya que está limitada por las capacidades de la computadora. Además, hay poca estabilidad, ya que hay un único punto de falla.
 
 ## Multi-processing
 
-Hay menos recursos compartidos (code segment)
+Los distintos programas se ejecutan concurrentemente en distintos procesos del sistema operativo.
 
-Para sincronizar procesos, dependeremos de Inter Process Communication.
+Esto implica que hay menos recursos compartidos (code segment).
 
-Algunas características clave de esta variante son:
+Para sincronizar procesos, dependeremos nuevamente de soporte del sistema operativo, como por ejemplo, con IPC.
 
-- No es trivial compartir información entre procesos.
-- Los componentes están separados, en general simples.
-- Mayor escalabilidad y estabilidad que el multi-threading.
-- No hay tolerancia a fallos del hardware o del sistema operativo.
+Al ser procesos distintos, compartir información no es tan trivial, aunque esto ofrece menor acoplamiento entre los procesos.
+
+Hay mayor escalabilidad y estabilidad, aunque sique limitado por las capacidades de la computadora.
 
 ## Multi-computing
 
-No hay recursos compartidos.
+Los distintos programas se ejecutan en computadoras distintas, totalmente independientes.
 
-Para sincronizar depen de mensajes enviados entre computadoras. No poseen un reloj central que permita sincronizarlas
+Al ser computadoras distintas, no hay recursos compartidos.
 
-Las computadoras pueden fallar independientemente.
+Para sincronizarse, dependen mensajes enviados entre computadoras. Además, no poseen un reloj central que permita sincronizarlas
 
-Son altamente escalables
+Este sistema es altamente escalable y estable, ya que una falla en una 
