@@ -11,11 +11,11 @@ title: Sistemas Distribuidos
 - [[Multiprogramación]]
 - [[Sistema Distribuido]]
 - [[Descentralizar y Distribuir]]
-- [[Paralelización]]
 
 ## Fundamentos
 
-- [[Nombres y Direccionamiento]]
+- [[Paralelización]]
+- [[Direccionamiento]]
 - [[Formato de Mensajes]]
 - [[Comunicacion de Grupos]]
 - [[Middlewares]]
