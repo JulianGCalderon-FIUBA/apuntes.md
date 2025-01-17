@@ -32,10 +32,10 @@ Hay mayor escalabilidad y estabilidad, aunque sique limitado por las capacidades
 
 ## Multi-computing
 
-Los distintos programas se ejecutan en computadoras distintas, totalmente independientes.
+Los distintos programas se ejecutan en computadoras distintas, totalmente independientes. Esta categoría se acerca más a la idea de un [[Sistema Distribuido]]
 
 Al ser computadoras distintas, no hay recursos compartidos.
 
-Para sincronizarse, dependen mensajes enviados entre computadoras. Además, no poseen un reloj central que permita sincronizarlas
+Para sincronizarse, dependen mensajes enviados entre computadoras. Además, no poseen un [[Relojes|reloj]] central que permita sincronizarlas fácilmente.
 
-Este sistema es altamente escalable y estable, ya que una falla en una 
+Este sistema es altamente escalable y estable, ya que una falla en una computadora no afecta a las otras.

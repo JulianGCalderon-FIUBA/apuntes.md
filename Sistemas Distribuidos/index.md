@@ -10,11 +10,11 @@ title: Sistemas Distribuidos
 
 - [[Multiprogramación]]
 - [[Sistema Distribuido]]
-- [[Descentralizar y Distribuir]]
+- [[Paralelización]]
 
 ## Fundamentos
 
-- [[Paralelización]]
+- [[Speedup]]
 - [[Direccionamiento]]
 - [[Grupos]]
 - [[Relojes]]
