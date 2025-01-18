@@ -40,22 +40,26 @@ La arquitectura está basada en estratos:
 - Los servidores también se pueden conectar con servidores en el mismo estrato, en conexiones peer-to-peer, en caso de ser necesario.
 - Al final de la estructura de estratos se encuentran los clientes.
 
+![[Relojes 1737227315.png]]
+
 Los mensajes son enviados utilizando UDP.
 
 Hay diversos modos de sincronización:
 
-- **Cliente-Servidor**: Las aplicaciones se conectan formando un grupo, donde las aplicaciones entre sí no pueden sincronizarse. Esto da la confianza de que todas las aplicaciones están sincronizadas (puesto que se sincronizan con el mismo grupo de servidores)
+- **Cliente-Servidor**: Las aplicaciones se conectan formando un grupo, donde las aplicaciones entre sí no pueden sincronizarse. Esto da la confianza de que todas las aplicaciones están sincronizadas, puesto que se sincronizan con el mismo grupo de servidores. Es utilizado por los clientes.
 - **Modo Simétrico**: Los peers se conectan entre sí, ofreciendo respaldo mutuo. Es utilizado por los estratos 1 y 2.
 - **Multicast o Broadcast**: Es utilizado en LAN de alta velocidad, es eficiente pero de baja precisión. Por lo general no se utilizan para sincronizar computadoras.
 
 ## Relojes Lógicos
 
-Un evento es un suceso relativo a un proceso que modifica su estado.
+Un **evento** es un suceso relativo a un proceso que modifica su estado.
 
-El estado es el valor de todas las variables de un proceso
+El **estado** es el valor de todas las variables de un proceso
 
-La relación `ocurre antes` es una relación de causalidad entre eventos, tal que:
+La relación **ocurre antes** ($\to$) es una relación de causalidad entre eventos, tal que:
 
 - $a \to b$ si pertenecen al mismo proceso y $a$ ocurre antes que $b$.
 - $a \to b$ si pertenecen a procesos distintos, pero $a$ es el envío de un mensaje y $b$ su recepción.
-- $a \to c$, si $a \to b$ y $b \to c$ (transitividad)
+- Además, se define la transitividad: $a \to c$, si $a \to b$ y $b \to c$
+
+Dado $S$, el conjunto de todos los estados posibles del sistema,
