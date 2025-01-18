@@ -32,15 +32,21 @@ Es un protocolo de red para sincronizar relojes entre computadoras a través de 
 - Debe ser escalable, y soportar a un gran número de clientes sincronizados de forma frecuente.
 - Debe tener en cuenta los efectos del drift.
 
-La arquitectura está basada en estratos, donde el estrato cero son los *master clocks*, y los estratos inferiores se conectan con estratos superiores en formato de árbol. Para sincronizarse, utilizan el [[#Algoritmo de Cristian]].
+La arquitectura está basada en estratos:
+
+- El estrato cero son los *master clocks*
+- Los estratos inferiores se conectan con estratos superiores en formato de árbol.
+- Utilizan el [[#Algoritmo de Cristian]] para sincronizarse.
+- Los servidores también se pueden conectar con servidores en el mismo estrato, en conexiones peer-to-peer, en caso de ser necesario.
+- Al final de la estructura de estratos se encuentran los clientes.
 
 Los mensajes son enviados utilizando UDP.
 
 Hay diversos modos de sincronización:
 
-- Multicast o Broadcast: Utilizado en LAN de alta velocidad, es eficiente pero de baja precisión.
-- Cliente-Servidor: LosGrupos de aplicaciones se conectan formando un grupo, donde las aplicaciones entre sí no pueden sincronizarse.
-- Modo Simétrico: Los peers se conectan entre si
+- **Cliente-Servidor**: Las aplicaciones se conectan formando un grupo, donde las aplicaciones entre sí no pueden sincronizarse. Esto da la confianza de que todas las aplicaciones están sincronizadas (puesto que se sincronizan con el mismo grupo de servidores)
+- **Modo Simétrico**: Los peers se conectan entre sí, ofreciendo respaldo mutuo. Es utilizado por los estratos 1 y 2.
+- **Multicast o Broadcast**: Es utilizado en LAN de alta velocidad, es eficiente pero de baja precisión. Por lo general no se utilizan para sincronizar computadoras.
 
 ## Relojes Lógicos
 

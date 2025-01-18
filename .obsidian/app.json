@@ -260,7 +260,8 @@
     "reducers",
     "particiona",
     "reducer",
-    "request"
+    "request",
+    "peers"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,
