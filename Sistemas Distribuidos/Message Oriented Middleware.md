@@ -40,3 +40,11 @@ Algunas características de la utilización de un broker:
 - Soportar lógica para filtrado y modificación de mensajes.
 - Brinda un punto de control y monitoreo.
 - Ofrecer persistencia del mensaje en caso de que no haya nadie para recibirlo aún.
+
+## Patrones de Comunicación
+
+- [[Request-Reply]]
+- [[Producer-Consumer]]
+- [[Publisher-Subscriber]]
+- [[Pipeline]]
+- [[Direct Acyclic Graph]]

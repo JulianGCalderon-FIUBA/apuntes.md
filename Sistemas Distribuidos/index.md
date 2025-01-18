@@ -21,14 +21,6 @@ title: Sistemas Distribuidos
 - [[Sincronismo]]
 - [[Estados]]
 
-## Patrones de Comunicación
-
-- [[Request-Reply]]
-- [[Producer-Consumer]]
-- [[Publisher-Subscriber]]
-- [[Pipeline]]
-- [[Direct Acyclic Graph]]
-
 ## Middlewares
 
 - [[Middlewares]]
