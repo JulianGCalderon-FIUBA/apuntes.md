@@ -35,4 +35,6 @@ El pipeline se define de forma similar a Flink.
 
 Es un paradigma desarrollado por Google en 2004. La idea es identificar tareas que pueden ser ejecutados en paralelo, y grupos de datos que puedan ser procesados en paralelo.
 
+Algunas implementaciones de este paradigma son: Apache Hadoop, Amazon EMR, Google MapReduce.
+
 Está inspirado en las funciones `map` y `reduce` de los lenguajes funcionales.
