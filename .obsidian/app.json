@@ -250,7 +250,10 @@
     "paralelizable",
     "paralelizarlo",
     "speedup",
-    "framework"
+    "framework",
+    "chunks",
+    "workers",
+    "master"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,
