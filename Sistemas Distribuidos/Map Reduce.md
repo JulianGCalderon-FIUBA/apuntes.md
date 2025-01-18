@@ -24,10 +24,14 @@ Los workers, son los encargados de:
 
 La cantidad de mappers y reducers es especificada por el usuario. En un caso idea, tendríamos un mapper por cada chunk.
 
-## Lógica de Negocio
+## Funcionamiento
 
 La lógica de negocio, provista por el usuario, son las funciones `map` y `reduce`.
 
 La función `map` recibe un chunk y devuelve un resultado intermedio como un conjunto de pares clave-valor.
+
+No se puede llamar a la función `reduce` hasta que se hallan procesados todos los datos, por lo que los datos intermedios se guardan en un archivo intermedio (IF). Una vez procesados todos los datos, se le notifica al master la ubicación del archivo master.
+
+El proceso master, le envía la ubicación del IF a los reducers.
 
 La función `reduce` recibe un conjunto de pares clave-valor. Esta función es llamada por cada clave única, y devuelve el resultado final del procesamiento.
