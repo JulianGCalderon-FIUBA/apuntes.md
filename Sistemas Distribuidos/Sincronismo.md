@@ -8,15 +8,22 @@ Un algoritmo es **sincrónico** si sus acciones pueden ser delimitadas en el tie
 
 Esto se generaliza en dos propiedades: _steadiness_ y _tightness_.
 
-Antes de definirlas, debemos definir:
+Antes de definirlas, debemos definir dos conceptos auxiliares:
 
-- **Tiempo de delivery** $t_D^P(m)$: Es el tiempo que tarda un mensaje $m$ en ser recibido, una vez enviado.
-- **Timeout de delivery** $T_{D\max}(m)$: Todo mensaje enviado va a ser recibido antes de un $t$ conocido.
-- **Steadiness:** Es la máxima diferencia entre el mínimo y el máximo tiempo de delivery de cualquier mensaje recibido por un proceso.
-  - Define la varianza con la cual un proceso observa que recibe los mensajes.
-  - Define que tan constante es la recepción de mensaje.
-- **Tightness**: Es la máxima diferencia entre los tiempos de delivery para cualquier mensaje.
-  - Define la simultaneidad con la cual un mensaje es recibido por múltiples procesos.
+- **Tiempo de delivery** $t_D^P(m)$: Es el tiempo que tarda un mensaje $m$ en ser recibido por $p$, una vez enviado.
+- **Timeout de delivery** $T_{D\max}(m)$: Es el tiempo de delivery máximo, para un mensaje $m$.
+
+Luego, podemos definir el **steadiness** $\sigma$ como la máxima diferencia entre el mínimo y el máximo tiempo de delivery de cualquier mensaje recibido por un proceso.
+
+$$
+\sigma = \max(T_{D\max} - T_{D\min})
+$$
+
+Define la varianza con la cual un proceso observa que recibe los mensajes, y muestra que tan constante es la recepción de mensaje.
+
+Por otro lado, el **tightness** como la máxima diferencia entre los tiempos de delivery para cualquier mensaje.
+
+Define la simultaneidad con la cual un mensaje es recibido por múltiples procesos.
 
 ## Tipos de Protocolos
 
