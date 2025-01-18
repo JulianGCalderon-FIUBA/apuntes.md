@@ -261,7 +261,8 @@
     "particiona",
     "reducer",
     "request",
-    "peers"
+    "peers",
+    "Lamport"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,

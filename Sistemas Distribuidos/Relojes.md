@@ -62,4 +62,14 @@ La relación **ocurre antes** ($\to$) es una relación de causalidad entre event
 - $a \to b$ si pertenecen a procesos distintos, pero $a$ es el envío de un mensaje y $b$ su recepción.
 - Además, se define la transitividad: $a \to c$, si $a \to b$ y $b \to c$
 
-Dado $S$, el conjunto de todos los estados posibles del sistema,
+Dado $S$, el conjunto de todos los estados posibles del sistema, entonces un **reloj lógico** es una función $C$ monotónica creciente que asocia estados con un número natural, garantiza:
+
+$$
+\forall s,t \in S : s \to t \implies C(s) < C(t)
+$$
+
+### Algoritmo de Lamport
+
+Dado un conjunto de $n$ procesos. Todos comienzan con un reloj lógico inicializado en $0$. Cada evento interno
+
+### Vector de Relojes
