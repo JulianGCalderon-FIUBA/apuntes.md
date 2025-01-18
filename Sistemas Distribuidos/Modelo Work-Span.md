@@ -8,12 +8,12 @@ El speedup $S_p$ se define como la mejora al usar $p$ procesos con respecto a un
 
 El tiempo en ejecutar el camino crítico se puede denotar como $T_\infty$, equivalente al tiempo de realizar el cómputo con infinitos procesadores.
 
-El modelo provee una cota superior y una copa inferior para $S_p$.
+El modelo provee una cota superior y una copa inferior para el tiempo que toma ejecutar el computo en $p$ procesadores:
 
 $$
-T_1/T_\infty <= S_p <= (T_1 - T_\infty) / P + T_\infty
+\max(\text{work}/p, \text{span}) <= T_p < \text{work}/p + \text{span}
 $$
 
-$$
-\max(\text{work}/p, span) <= T_p < work/p + span
-$$
+Similarmente, se puede hallar cotas para el speedup
+
+\
