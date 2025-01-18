@@ -1,8 +1,8 @@
-Hay distintas formas de coordinar actividades:
+Hay distintas razones por las cuales se busca coordinar actividades:
 
-- Coordinación: Cada nodo hace un trabajo distinto, y luego otro nodo unifica la información
-- Replicación: Cada nodo hace el mismo trabajo, y luego se llega a un consenso. Esto agrega redundancia
-- Acceso a recursos compartidos: Hay un nodo que se encarga de serializar el acceso a un recurso
+- Distribución: donde cada nodo hace un trabajo distinto, y luego otro nodo unifica la información
+- Replicación: donde cada nodo hace el mismo trabajo, y luego se llega a un consenso. Esto agrega redundancia
+- Acceso a recursos compartidos: donde múltiples nodos acceden a un recurso compartido, y se necesita coordinar su acceso.
 
 ## MPI
 
@@ -18,5 +18,7 @@ El framework permite define un *dataflow*, que es un [[Direct Acyclic Graph|DAG]
 
 Algunos casos de uso comunes son:
 
-- ETL (Extract, Transform and Load)
-- Data Pipelines: Tareas de procesamient orecurrentes, basadas en la ocurrencia de eventos.
+- **ETL**: *extract, transform and load*
+- **Data Pipelines**: Tareas de procesamiento recurrentes, basadas en la ocurrencia de eventos.
+
+Se pueden utilizar múltiples pipelines de Flink que procesan distintos datos y colaboran entre sí.

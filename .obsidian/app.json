@@ -249,7 +249,8 @@
     "paralelizar",
     "paralelizable",
     "paralelizarlo",
-    "speedup"
+    "speedup",
+    "framework"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,
