@@ -19,7 +19,7 @@ title: Sistemas Distribuidos
 - [[Grupos]]
 - [[Relojes]]
 - [[Sincronismo]]
-- [[Orden]]
+- [[Orden de Mensajes]]
 - [[Estados]]
 
 ## Middlewares
