@@ -1,20 +1,8 @@
 Es un modelo más cercano a la realidad para estimar optimizaciones. Provee una cota inferior y una cota superior para el speedup.
 
-El work, o trabajo, de un cómputo ejecutado por $p$ procesos es la cantidad total de operaciones primitivas realzadas por todos los procesos.
-
-El span es la longitud de la mayor cadena de operaciones que deb
-
-Se definen dos leyes:
-
-- work law:
-
-Se toman las siguientes suposiciones:
-
-- Paralelismo imperfecto: no todo el trabajo paralelizable se puede ejecutar al mismo tiempo.
-- Greedy scheduling: Si un proceso está disponible, se ejecuta la tarea
-- El tiempo de acceso a memoria es despreciable.
-- El tiempo de ejecución entre procesos es despreciable.
-- Posibilidad de analizar la operación o el algoritmo en caja blanca.
+- El *work*, o trabajo, de un cómputo ejecutado por $p$ procesos es la cantidad total de operaciones primitivas realzadas por todos los procesos.
+- El *span* es la longitud de la mayor cadena de operaciones que deben realizarse secuencialmente (camino crítico).
+- El costo expresa el tiempo total invertido por todos los procesadores.
 
 Luego, se define:
 
