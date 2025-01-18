@@ -27,9 +27,12 @@ Todo mensajes que implique la generación de un nuevo mensaje, debe ser entregad
 
 El mensaje $M_1$ causa el mensaje $M_2$, y este a su vez causa el mensaje $M_3$. Luego, vemos como desde $P_1$, el delivery de $d_3$ es retrasado de modo que sea entregado luego de $d_2$.
 
+Una forma de implementarlo podría ser agregar en cada mensaje una lista de dependencias.
+
 ## Orden Total
 
 Todo par de mensajes entregado a los mismos receptores es recibido en el mismo orden por esos receptores
 
 ![[Orden de Mensajes 1737241468.png]]
 
+En el ejemplo, vemos como ambos receptores reciben los dos mensajes en el mismo orden, independiente de cuando fueron enviados.
