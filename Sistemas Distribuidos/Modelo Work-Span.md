@@ -6,8 +6,10 @@ Es un modelo más cercano a la realidad para estimar optimizaciones.
 
 El speedup $S_p$ se define como la mejora al usar $p$ procesos con respecto a una ejecución serial: $S_p = T_1 / T_p$.
 
-El modelo provee una cota superior y una copa inferior para $T_p$.
+El tiempo en ejecutar el camino crítico se puede denotar como $T_\infty$, equivalente al tiempo de realizar el cómputo con infinitos procesadores.
+
+El modelo provee una cota superior y una copa inferior para $S_p$.
 
 $$
-T_1/T_\infty <= T_p <= (T_1 - T_\infty) / P + T_\infty
+T_1/T_\infty <= S_p <= (T_1 - T_\infty) / P + T_\infty
 $$

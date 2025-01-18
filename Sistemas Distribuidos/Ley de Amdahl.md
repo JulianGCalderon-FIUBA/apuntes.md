@@ -7,4 +7,8 @@ El modelo simplifica el cómputo a realizar en dos partes. En una parte paraleli
 
 El tiempo de ejecución serial, será $T_1 = W_s + W_p$. Por otro lado, el tiempo de ejecución en paralelo será: $T_p = W_s + W_p / p$.
 
-El speedup se encuentra acotado por la fracción de tiempo que no puede ser paralelizable.
+El speedup se encuentra acotado por la fracción de tiempo que no puede ser paralelizable ($f$).
+
+$$
+S_\infty = 1/f
+$$
