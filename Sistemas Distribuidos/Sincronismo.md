@@ -1,13 +1,17 @@
 Un algoritmo es **sincrónico** si sus acciones pueden ser delimitadas en el tiempo
 
 - **Sincronismo**: Entrega de un mensaje posee un _timeout_ conocido.
-- **Parcialmente sincrónico:** Entrega de un mensaje posee un _timeout_ conocido o bien es el mismo.
+- **Parcialmente sincrónico:** Entrega de un mensaje no posee un _timeout_ conocido o bien el mismo es variable.
 - **Asincrónico**: Entrega de un mensaje no posee un _timeout_ asociado.
 
 ## Propiedades
 
-- **Timeout:** Todo mensaje enviado va a ser recibido antes de un $t$ conocido.
-- **Tiempo:** Es el tiempo que tarda en ser recibido una vez enviado. Envío no es lo mismo que delivery.
+Esto se generaliza en dos propiedades: _steadiness_ y _tightness_.
+
+Antes de definirlas, debemos definir:
+
+- **Tiempo de delivery** $t_D^P(m)$: Es el tiempo que tarda un mensaje $m$ en ser recibido, una vez enviado.
+- **Timeout de delivery** $T_{D\max}(m)$: Todo mensaje enviado va a ser recibido antes de un $t$ conocido.
 - **Steadiness:** Es la máxima diferencia entre el mínimo y el máximo tiempo de delivery de cualquier mensaje recibido por un proceso.
   - Define la varianza con la cual un proceso observa que recibe los mensajes.
   - Define que tan constante es la recepción de mensaje.
