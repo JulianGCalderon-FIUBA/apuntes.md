@@ -21,13 +21,6 @@ title: Sistemas Distribuidos
 - [[Sincronismo]]
 - [[Estados]]
 
-## Middlewares
-
-- [[Middlewares]]
-- [[Message Oriented Middleware]]
-- [[Remote Procedure Control]]
-- [[Objetos Distribuidos]]
-
 ## Patrones de Comunicación
 
 - [[Request-Reply]]
@@ -36,11 +29,10 @@ title: Sistemas Distribuidos
 - [[Pipeline]]
 - [[Direct Acyclic Graph]]
 
-## Arquitecturas
+## Middlewares
 
-- [[Cliente-Servidor]]
-- [[Peer-to-Peer]]
-
-## Varios
-
+- [[Middlewares]]
+- [[Message Oriented Middleware]]
+- [[Remote Procedure Control]]
+- [[Objetos Distribuidos]]
 - [[Coordinacion de procesos]]

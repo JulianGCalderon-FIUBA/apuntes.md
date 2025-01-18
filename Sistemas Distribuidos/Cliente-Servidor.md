@@ -15,3 +15,5 @@ Para obtener notificaciones por parte del servidor, se pueden utilizar modelos d
 
 - **Long polling**: El cliente se queda esperando, esperando a que haya alguna notificación.
 - **Push notifications**: El cliente se conecta cada cierto tiempo, y pregunta si tiene alguna notificación para él. No es necesario que esté continuamente conectado.
+
+Un ejemplo de la arquitectura cliente-servidor es el estándar de [[Remote Procedure Control]].

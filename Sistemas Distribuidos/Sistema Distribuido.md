@@ -18,10 +18,17 @@ Por otro lado, un sistema **centralizado** tiene las siguientes ventajas:
 - **Consistencia**: es posible definir fuertes políticas de consistencia de información y monitoreo del estado global del sistema.
 - **Seguridad**: se disminuye la 'superficie de ataque' frente a amenazas.
 
-## Descentraliar vs. Distribuir
+## Descentralizar vs. Distribuir
 
-Existen tres conceptos que estan relacionados entre si:
+Existen tres conceptos que están relacionados entre sí:
 
 - **Centralizar** implica la concentración de la autoridad en los niveles más altos de una jerarquía.
 - **Descentralizar** implica transferir la toma de decisiones a eslabones inferiores de cierta organización.
 - **Distribuir** implica utilizar un modelo descentralizado de control de computadoras para la coordinación de actividades con una coherencia dada.
+
+## Arquitecturas
+
+Hay dos arquitecturas principales de un sistema distribuido
+
+- [[Cliente-Servidor]]
+- [[Peer-to-Peer]]
