@@ -23,9 +23,24 @@ title: Sistemas Distribuidos
 
 ## Middlewares
 
+- [[Middlewares]]
+- [[Message Oriented Middleware]]
+- [[Remote Procedure Control]]
+- [[Objetos Distribuidos]]
+
+## Patrones de Comunicación
+
+- [[Request-Reply]]
+- [[Producer-Consumer]]
+- [[Publisher-Subscriber]]
+- [[Pipeline]]
+- [[Direct Acyclic Graph]]
+
+## Arquitecturas
+
+- [[Cliente-Servidor]]
+- [[Peer-to-Peer]]
+
 ## Varios
 
-- [[Middlewares]]
-- [[Patrones de Comunicación]]
-- [[Arquitecturas simples]]
 - [[Coordinacion de procesos]]

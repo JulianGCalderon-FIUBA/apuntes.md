@@ -2,15 +2,6 @@ Un nodo envía un mensaje, y el otro nodo responde con otro mensaje. Es sincrón
 
 Podría ser asincrónico. Requeriría de 2 ciclos de request-reply. En el primero se hace un pedido. En el segundo se pide la respuesta del pedido.
 
-## Estructura de Mensajes
-
-Los siguientes campos suelen ser obligatorios:
-
-- **Tipo de mensaje**: Si es un request o un reply
-- **ID del mensaje**: identificador único del mensaje
-- **Tipo de operación**: Identifica el tipo de operación a realizar
-- **Argumentos**: Los argumentos de la operación. Dependen del tipo de operación.
-
 ## Tolerancia a Fallos
 
 Ante la perdida del reply, tenemos 3 estrategias principales:
