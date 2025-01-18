@@ -41,4 +41,9 @@ En un protocolo **Clock-Driven**, las fases del protocolo están definidas por e
 
 ![[Sincronismo 1737236049.png]]
 
-En este ejemplo, vemos que el proceso $P_1$ envia un mensaje $m$ al resto de procesos, que incluye el timestamp de $P_1$. El mensaje solo se entregará al proceso tras un tiempo $t+\Delta$. De esta forma, nos aseguramos un cierto zistea
+En este ejemplo, vemos que el proceso $P_1$ envía un mensaje $m$ al resto de procesos, que incluye el timestamp de $P_1$. El mensaje solo se entregará al proceso tras un tiempo $t+\Delta$. De esta forma, nos aseguramos un cierto _steadiness_ y _tightness_. Esto requiere que el [[Relojes|reloj]] de los procesos estén sincronizados.
+
+![[Sincronismo 1737236672.png]]
+
+En este otro ejemplo, vemos como los mensajes se envían en _time slots_ puntuales. Esto nuevamente nos asegura un cierto _steadiness_ y _tightness_, ya que la 
+
