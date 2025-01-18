@@ -72,9 +72,12 @@ $$
 
 Dado un conjunto de $n$ procesos. Todos comienzan con un reloj lógico inicializado en $0$. Cada evento interno incrementa el reloj lógico en $1$.
 
-Los mensajes enviados entre procesos incluyen el *timestamp* de ese evento. Cuando un proceso recibe un mensaje cuyo timestamp es mayor al valor del reloj actual, actualiza el reloj de modo que la recepción del mensaje tenga un timestamp mayor al del envío.
+1. Los mensajes enviados entre procesos incluyen el *timestamp* de ese evento.
+2. Cuando un proceso recibe un mensaje:
+	- Si el timestamp es mayor al valor del reloj actual, actualiza el reloj de modo que la recepción del mensaje tenga un timestamp mayor al del envío.
+	- Si el timestamp es menor, entonces no actualiza el reloj
 
-Esto, garantiza la definición de reloj lógica, pero no garantiza la recíproca.
+Esto, garantiza la definición de reloj lógica, pero no garantiza la recíproca. Esto implica que no necesariamente los relojes mostrarán la verdad.
 
 ![[Relojes 1737228063.png]]
 
