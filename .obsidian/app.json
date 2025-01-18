@@ -259,7 +259,8 @@
     "mapper",
     "reducers",
     "particiona",
-    "reducer"
+    "reducer",
+    "request"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,

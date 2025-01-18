@@ -8,8 +8,6 @@ Los relojes físicos no son confiables, ya que tienen **drift** (debido a cambio
 
 Hay relojes globales y relojes locales, los relojes globales se utilizan como referencia para sincronizar relojes locales.
 
-![[Relojes 1737218437.png]]
-
 Algunas referencias conocidas son:
 
 - **GMT** (*greamwich mean time*): ya no se utiliza como referencia, sino para el huso horario. Está basado en el tiempo de rotación terrestre.
@@ -18,7 +16,13 @@ Algunas referencias conocidas son:
 
 Para sincronizar un reloj físico, debemos compararnos con alguna referencia y aplicar una corrección.
 
-### Algoritmo de Cristián
+### Algoritmo de Cristian
+
+El algoritmo asume que los retrasos en la red son constantes. Mide el tiempo de retraso $D$ entre que el cliente envía la request y recibe la respuesta, y luego actualiza su reloj:
+
+$$
+T = T_\text{server} + D / 2
+$$
 
 ## Protocolo NTP
 
