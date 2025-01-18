@@ -1,5 +1,3 @@
-## Definiciones
-
 Hay muchas definiciones:
 
 > Es un software de conectividad que ofrece un conjunto de servicios que hacen posible el funcionamiento de aplicaciones distribuidas sobre plataformas heterogéneas.
@@ -37,6 +35,6 @@ Un middleware distribuido puede llegar a ser más performante y tiene mejor tole
 Hay distintos tipos de middleware:
 
 - **Transaccionales**: Permiten garantizar la transaccionalidad de las operaciones respecto a los datos. Permiten un acceso transparente al grupo.
-- **Orientados a objetos**: Los objetos viven dentro del middleware, y se puede operar con ellos desde los clientes.
-- **Orientados a procedimientos**: El middleware trabaja como un servidor de funciones que se pueden invocar. Se pueden explorar y ejecutar, pero no presentan estado para futuras invocaciones.
+- **Orientados a objetos**: Los objetos viven dentro del middleware, y se puede operar con ellos desde los clientes. A este concepto se lo conoce como [[Objetos Distribuidos]]
+- **Orientados a procedimientos**: El middleware trabaja como un servidor de funciones que se pueden invocar. Se pueden explorar y ejecutar, pero no presentan estado para futuras invocaciones. Un ejemplo es [[Remote Procedure Control]].
 - **Orientados a mensajes**: Funciona como un sistema de mensajería entre aquellas aplicaciones que utilizan el middleware. Este tipo se conoce como [[Message Oriented Middleware]].
