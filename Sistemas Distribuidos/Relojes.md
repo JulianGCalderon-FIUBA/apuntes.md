@@ -24,11 +24,15 @@ $$
 T = T_\text{server} + D / 2
 $$
 
-## Protocolo NTP
+### Network Time Protocol (NTP)
 
-Es un protocolo de red para sincronizar relojes entre computadoras a través de redes con latencia variable.
+Es un protocolo de red para sincronizar relojes entre computadoras a través de redes con latencia variable. Se puede hacer un análisis estadístico para filtrar datos y obtener resultados de calidad.
 
-Está diseñado para tener alta escalabilidad y alta disponibilidad.
+- Debe tener una alta disponibilidad, para sobrevivir a largas caídas de conectividad. Para eso necesita tener servidores y rutas redundantes.
+- Debe ser escalable, y soportar a un gran número de clientes sincronizados de forma frecuente.
+- Debe tener en cuenta los efectos del drift.
+
+La arquitectura esta basada en estratos, donde el estrato cero son los *master clocks*, y los estratos inferiores se concectan con estratos superiores en formato de arbol. Para sincronizarse, utilizan el [[Algo]]
 
 ## Relojes Lógicos
 
