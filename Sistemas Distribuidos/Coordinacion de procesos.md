@@ -10,7 +10,7 @@ Es un estándar basado en transmisión y recepción de mensajes. Implementa un m
 
 La ejecución se vuelve transparente a la cantidad de nodos involucrados.
 
-## Flink
+## Apache Flink
 
 Es una plataforma para procesamiento distribuido de datos. Incluye un motor de ejecución de pipelines de transformación. Las consultas se pueden especificar en un formato similar a SQL.
 
@@ -25,4 +25,8 @@ Se pueden utilizar múltiples pipelines de Flink que procesan distintos datos y 
 
 ## Beam
 
-Es un modelo de definición de pipelines de procesamiento de datos con portabilidad
+Es un modelo de definición de pipelines de procesamiento de datos con portabilidad de lenguajes y motorse de ejecución.
+
+Soporta distintos lenguajes de programación, y distintos runners (como por ejemplo [[#Apache Flink]]).
+
+El pipeline se define de forma similar a Flink.
