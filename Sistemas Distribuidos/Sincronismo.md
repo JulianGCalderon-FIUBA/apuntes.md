@@ -37,13 +37,12 @@ En un protocolo **Time-Driven**, las fases del protocolo están definidas por un
 
 En este ejemplo, vemos que el proceso $P_1$ envía mensaje al resto de procesos. Al haber un timeout conocido (algoritmo sincrónico), si no le llega el $ack$ tras un tiempo $T_{D\max}$, entonces el mensaje se vuelve a enviar. No hay garantía de que a los procesos les llegue el mensaje al mismo tiempo.
 
-En un protocolo **Clock-Driven**, las fases del protocolo están definidas por el reloj de cada proceso. Los mensajes se pueden recibir antes, pero el delivery ocurre en una fracción de tiempo determinada.
+En un protocolo **Clock-Driven**, las fases del protocolo están definidas por el reloj de cada proceso. Los mensajes se pueden recibir antes, pero el _delivery_ ocurre en una fracción de tiempo determinada.
 
 ![[Sincronismo 1737236049.png]]
 
-En este ejemplo, vemos que el proceso $P_1$ envía un mensaje $m$ al resto de procesos, que incluye el timestamp de $P_1$. El mensaje solo se entregará al proceso tras un tiempo $t+\Delta$. De esta forma, nos aseguramos un cierto _steadiness_ y _tightness_. Esto requiere que el [[Relojes|reloj]] de los procesos estén sincronizados.
+En este ejemplo, vemos que el proceso $P_1$ envía un mensaje $m$ al resto de procesos, que incluye el timestamp de $P_1$. El delivery del mensaje solo se hará tras un tiempo $t+\Delta$. De esta forma, nos aseguramos un cierto _steadiness_ y _tightness_. Esto requiere que el [[Relojes|reloj]] de los procesos estén sincronizados.
 
 ![[Sincronismo 1737236672.png]]
 
-En este otro ejemplo, vemos como los mensajes se envían en _time slots_ puntuales. Esto nuevamente nos asegura un cierto _steadiness_ y _tightness_, ya que la 
-
+En este otro ejemplo, vemos como los mensajes se envían en _time slots_ puntuales. Esto nuevamente nos asegura un cierto _steadiness_ y _tightness_, ya que el delivery de los mensajes se retrasa utilizando información del timestamp y los relojes.
