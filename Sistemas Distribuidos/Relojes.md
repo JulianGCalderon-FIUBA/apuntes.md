@@ -10,10 +10,15 @@ Hay relojes globales y relojes locales, los relojes globales se utilizan como re
 
 ![[Relojes 1737218437.png]]
 
-Algunas referencias conocidas, son:
+Algunas referencias conocidas son:
 
 - **GMT** (*greamwich mean time*): ya no se utiliza como referencia, sino para el huso horario. Está basado en el tiempo de rotación terrestre.
-- **UTC** (universal time coordinated): basado en medición de relojes atómicos.
+- **UTC** (*universal time coordinated*): basado en relojes atómicos, y recibe ajustes periódicos.
+- **GPS Time** (*global positioning system time*): basado en relojes atómicos, permite ajustar satélites, pero no recibe ajustes periódicos.
+
+Para sincronizar un reloj físico, debemos compararnos con alguna referencia y aplicar una corrección.
+
+### Algoritmo de Cristián
 
 ## Protocolo NTP
 
