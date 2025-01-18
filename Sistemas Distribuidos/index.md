@@ -27,5 +27,10 @@ title: Sistemas Distribuidos
 - [[Message Oriented Middleware]]
 - [[Remote Procedure Control]]
 - [[Objetos Distribuidos]]
-- [[Coordinacion de procesos]]
+
+## Cómputo Distribuído
+
+- [[Open MPI]]
+- [[Apache Flink]]
+- [[Beam]]
 - [[Map Reduce]]
