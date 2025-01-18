@@ -257,7 +257,9 @@
     "chunk",
     "mappers",
     "mapper",
-    "reducers"
+    "reducers",
+    "particiona",
+    "reducer"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,
