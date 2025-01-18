@@ -35,6 +35,10 @@ En un protocolo **Time-Driven**, las fases del protocolo están definidas por un
 
 ![[Sincronismo 1737235770.png]]
 
-En este ejemplo, vemos que el proceso $P_1$ envía mensaje al resto de procesos. Al haber un timeout conocido, si no le llega el $ack$ tras un tiempo $T_{D\max}$, entonces el mensaje se vuelve a enviar.
+En este ejemplo, vemos que el proceso $P_1$ envía mensaje al resto de procesos. Al haber un timeout conocido (algoritmo sincrónico), si no le llega el $ack$ tras un tiempo $T_{D\max}$, entonces el mensaje se vuelve a enviar. 
 
 En un protocolo **Clock-Driven**, las fases del protocolo están definidas por el reloj de cada proceso. Los mensajes se pueden recibir antes, pero el delivery ocurre en una fracción de tiempo determinada.
+
+![[Sincronismo 1737236049.png]]
+
+En este ejemplo, vemos que el proceso $P_1$ envia un mensaje $m$.
