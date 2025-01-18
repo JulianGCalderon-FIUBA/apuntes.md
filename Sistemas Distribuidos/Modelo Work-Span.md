@@ -1,5 +1,13 @@
 Es un modelo más cercano a la realidad para estimar optimizaciones. Provee una cota inferior y una cota superior para el speedup.
 
+El work, o trabajo, de un cómputo ejecutado por $p$ procesos es la cantidad total de operaciones primitivas realzadas por todos los procesos.
+
+El span es la longitud de la mayor cadena de operaciones que deb
+
+Se definen dos leyes:
+
+- work law:
+
 Se toman las siguientes suposiciones:
 
 - Paralelismo imperfecto: no todo el trabajo paralelizable se puede ejecutar al mismo tiempo.

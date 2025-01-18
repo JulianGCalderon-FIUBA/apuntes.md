@@ -8,4 +8,4 @@ Existen distintas formas de analizar el speedup:
 
 - [[Ley de Amdahl]]
 - [[Ley de Gustafson]]
-- [[Work-Span]]
+- [[Modelo Work-Span]]
