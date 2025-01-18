@@ -3,8 +3,22 @@ La recepción de los mensajes no es lo mismo que el *delivery* de los mismos.
 - La recepción consiste en que los mensajes lleguen al sistema
 - El delivery consiste en procesar los mensajes, provocando cambios en el sistema.
 
-Los mensajes se mantienen en una cola, permitiendo demorar su delivery. Esto permite reordenarlos.
+Los mensajes se mantienen en una cola, llamada *hold-back queue*, permitiendo demorar su delivery. Esto también permite reordenarlos.
 
 Por ejemplo, el protocolo TCP demora el delivery de los mensajes para asegurar que los mismos estén ordenados.
 
 ## Orden Sincrónico
+
+Se asume que el tiempo de delivery es nulo, por lo que no hay necesidad de ordenar mensajes, o de demorarlos.
+
+## Orden FIFO
+
+Todo par de mensajes desde un mismo emisor a un mismo receptor, son entregados en el orden que fueron enviados.
+
+![[Orden de Mensajes 1737241103.png]]
+
+Este orden no requiere sincronizar relojes para implementarse.
+
+## Orden Causal
+
+Todo mensajes que implique la generación de un nuevo mensaje, debe ser entregado 
