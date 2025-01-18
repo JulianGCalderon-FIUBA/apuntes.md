@@ -70,6 +70,12 @@ $$
 
 ### Algoritmo de Lamport
 
-Dado un conjunto de $n$ procesos. Todos comienzan con un reloj lógico inicializado en $0$. Cada evento interno
+Dado un conjunto de $n$ procesos. Todos comienzan con un reloj lógico inicializado en $0$. Cada evento interno incrementa el reloj lógico en $1$.
+
+Los mensajes enviados entre procesos incluyen el *timestamp* de ese evento. Cuando un proceso recibe un mensaje cuyo timestamp es mayor al valor del reloj actual, actualiza el reloj de modo que la recepción del mensaje tenga un timestamp mayor al del envío.
+
+Esto, garantiza la definición de reloj lógica, pero no garantiza la recíproca.
+
+![[Relojes 1737228063.png]]
 
 ### Vector de Relojes
