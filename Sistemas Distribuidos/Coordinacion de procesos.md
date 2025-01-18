@@ -12,8 +12,11 @@ La ejecución se vuelve transparente a la cantidad de nodos involucrados.
 
 ## Flink
 
-Es una plataforma para procesamiento distribuido de datos.
+Es una plataforma para procesamiento distribuido de datos. Incluye un motor de ejecución de pipelines de transformación. Las consultas se pueden especificar en un formato similar a SQL.
 
-Incluye un motor de ejecución de pipelines de transformación. Las consultas se pueden especificar en un formato similar a SQL.
+El framework permite define un *dataflow*, que es un [[Direct Acyclic Graph|DAG]] de operaciones sobre un flujo de datos.
 
-Se define un *dataflow*, que es un [[Direct Acyclic Graph|DAG]] de operaciones sobre un flujo de datos.
+Algunos casos de uso comunes son:
+
+- ETL (Extract, Transform and Load)
+- Data Pipelines: Tareas de procesamient orecurrentes, basadas en la ocurrencia de eventos.
