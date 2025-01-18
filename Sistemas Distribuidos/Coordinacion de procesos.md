@@ -30,3 +30,9 @@ Es un modelo de definición de pipelines de procesamiento de datos con portabili
 Soporta distintos lenguajes de programación, y distintos runners (como por ejemplo [[#Apache Flink]], o Google Cloud).
 
 El pipeline se define de forma similar a Flink.
+
+## Map Reduce
+
+Es un paradigma desarrollado por Google en 2004. La idea es identificar tareas que pueden ser ejecutados en paralelo, y grupos de datos que puedan ser procesados en paralelo.
+
+Está inspirado en las funciones `map` y `reduce` de los lenguajes funcionales.
