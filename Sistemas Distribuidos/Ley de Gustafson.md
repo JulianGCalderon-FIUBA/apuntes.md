@@ -1,5 +1,6 @@
-
 > Speedup should be measured by scalling the problem to the number of processors, not by fixing the problem size.
+
+A diferencia de la [[Ley de Amdahl]]
 
 Tiene un enfoque menos pesimista al calcular el speedup. Si no se puede mejorar la solucion, podemos modificar el problema para aprovechar mas los recursos.
 

@@ -1,18 +1,8 @@
 
-> The effort expended on achieving high parallel processing rates is wasted unless it is accompanied by achievements in sequential processing rates of very nearly the same magnitude.
+> The overall performance improvement gained by optimizing a single part of a system is limited by the fraction of time that the improved part is actually used
 
-Esto implica que, mientras mayor sea la fracción de tiempo que sea utilizado un componente, mayor *speedup* se espera al paralelizarlo.
+Esto implica que, mientras mayor sea la fracción de tiempo que sea utilizado un componente, mayor *speedup* se espera al paralelizarlo. El speedup a obtener depende de la naturaleza del problema. Una tarea altamente secuencial no obtendrá beneficio si se paraleliza.
 
-Permite obtener el beneficio de invertir en la paralelización de las tareas. Depende de la naturaleza del problema. Una tarea altamente secuencial no obtendrá beneficio si se paraleliza.
+El modelo simplifica el cómputo a realizar en dos partes. En una parte paralelizable $W_p$, y una parte serial $W_s$.
 
-Es un modelo que simplifica el problema en dos partes, por lo que no se centra en la naturaleza del problema. El problema se divide en la parte serial y en la parte paralelizable.
-
-$$
-T_p = W_s + W_p / P = f + (1 - f) / P
-$$
-
-El speedup $S$ maximo se encuentra acotado por la fracción de tiempo que no puede ser paralelizable.
-
-$$
-S = 1/f
-$$
+El speedup se encuentra acotado por la fracción de tiempo que no puede ser paralelizable.
