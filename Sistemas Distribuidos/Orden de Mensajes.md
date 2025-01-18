@@ -21,4 +21,15 @@ Este orden no requiere sincronizar relojes para implementarse.
 
 ## Orden Causal
 
-Todo mensajes que implique la generación de un nuevo mensaje, debe ser entregado 
+Todo mensajes que implique la generación de un nuevo mensaje, debe ser entregado manteniendo esta secuencia de causalidad.
+
+![[Orden de Mensajes 1737241219.png]]
+
+El mensaje $M_1$ causa el mensaje $M_2$, y este a su vez causa el mensaje $M_3$. Luego, vemos como desde $P_1$, el delivery de $d_3$ es retrasado de modo que sea entregado luego de $d_2$.
+
+## Orden Total
+
+Todo par de mensajes entregado a los mismos receptores es recibido en el mismo orden por esos receptores
+
+![[Orden de Mensajes 1737241468.png]]
+
