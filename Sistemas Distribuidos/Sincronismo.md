@@ -23,6 +23,10 @@ Define la varianza con la cual un proceso observa que recibe los mensajes, y mue
 
 Por otro lado, el **tightness** como la máxima diferencia entre los tiempos de delivery para cualquier mensaje.
 
+$$
+\forall p,q : \tau = \max_{m,p,q}(t_D^p(m) - t_D^q(m))
+$$
+
 Define la simultaneidad con la cual un mensaje es recibido por múltiples procesos.
 
 ## Tipos de Protocolos
