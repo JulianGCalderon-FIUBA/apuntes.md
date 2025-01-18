@@ -11,8 +11,4 @@ Algunos ejemplos de la diferencia entre estos conceptos:
 - Es una red local, la dirección IP identifica a un nodo, y su para llegar a él necesitamos la dirección Ethernet.
 - El nombre de dominio identifica a una página web, mientras que para llegar a él necesitamos la dirección IP. El protocolo que ofrece esta traducción es DNS.
 
-Existen servicios que conectan nombres con direcciones. Son servicios de _service discovery_:
-
-- Zookeper
-- Istio
-- Linkerd
+Existen servicios de _service discovery_ que permiten hallar la dirección de una entidad a partir de su nombre.

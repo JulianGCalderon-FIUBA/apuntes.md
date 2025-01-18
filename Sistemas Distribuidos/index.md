@@ -21,6 +21,8 @@ title: Sistemas Distribuidos
 - [[Sincronismo]]
 - [[Estados]]
 
+## Middlewares
+
 ## Varios
 
 - [[Middlewares]]
