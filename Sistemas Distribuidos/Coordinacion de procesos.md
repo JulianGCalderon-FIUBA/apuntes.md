@@ -22,3 +22,7 @@ Algunos casos de uso comunes son:
 - **Data Pipelines**: Tareas de procesamiento recurrentes, basadas en la ocurrencia de eventos.
 
 Se pueden utilizar múltiples pipelines de Flink que procesan distintos datos y colaboran entre sí.
+
+## Beam
+
+Es un modelo de definición de pipelines de procesamiento de datos con portabilidad
