@@ -70,6 +70,8 @@ $$
 
 ### Algoritmo de Lamport
 
+Dado un conjunto de $n$ procesos. Todos comienzan con un reloj lógico inicializado en $0$. Cada evento toma como timestamp el valor del  Cada evento interno incrementa la posición del vector correspondiente a sí mismo en $1$.
+
 1. Los mensajes enviados entre procesos incluyen el *timestamp* de ese evento.
 2. Cuando un proceso recibe un mensaje:
 	- Si el timestamp es mayor al valor del reloj actual, actualiza el reloj de modo que la recepción del mensaje tenga un timestamp mayor al del envío.
@@ -93,4 +95,9 @@ $$
 s.v < t.v \iff \forall k: s.v[k] <= t.v[k] \land \exists j : s.v[j] < t.v[j]
 $$
 
-Dado un conjunto de $n$ procesos. Todos comienzan con un vector lógico inicializado en $0$. Cada evento interno incrementa el reloj lógico en $1$.
+Dado un conjunto de $n$ procesos. Todos comienzan con un vector lógico inicializado en $0$. Cada evento interno incrementa la posición del vector correspondiente a sí mismo en $1$.
+
+1. Los mensajes enviados entre procesos incluyen el *timestamp* de ese evento (vector completo).
+2. Cuando un proceso recibe un mensaje, actualiza cada posición del vector para obtener el máximo entre el vector actual, y el vector contenido en el mensaje.
+
+![[Relojes 1737228759.png]]
