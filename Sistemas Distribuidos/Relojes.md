@@ -100,4 +100,4 @@ Dado un conjunto de $n$ procesos. Todos comienzan con un vector lógico iniciali
 
 ![[Relojes 1737228759.png]]
 
-Esto, garantiza la definición de reloj lógica, y también garantiza la recíproca. Si dados dos eventos $s, v$ tal que $s \not < v$ y $
+Esto, garantiza la definición de reloj lógica, y también garantiza la recíproca. Si dados dos eventos $s, v$ tal que $s \not < v$ y $v \not < s$, diremos que los eventos son concurrentes.
