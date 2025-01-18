@@ -45,4 +45,4 @@ En este ejemplo, vemos que el proceso $P_1$ envía un mensaje $m$ al resto de pr
 
 ![[Sincronismo 1737236672.png]]
 
-En este otro ejemplo, vemos como los mensajes se envían en _time slots_ puntuales. Esto nuevamente nos asegura un cierto _steadiness_ y _tightness_, ya que el delivery de los mensajes se retrasa utilizando información del timestamp y los relojes.
+En este otro ejemplo, vemos como los mensajes se envían en _time slots_ puntuales. Esto nuevamente nos asegura un cierto _steadiness_ y _tightness_, ya que el delivery de los mensajes se retrasa utilizando información del los relojes.
