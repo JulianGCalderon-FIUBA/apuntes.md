@@ -1,4 +1,4 @@
-Es un modelo más cercano a la realidad para estimar optimizaciones. Provee una cota inferior y una cota superior para el speedup.
+Es un modelo más cercano a la realidad para estimar optimizaciones.
 
 - El *work*, o trabajo, de un cómputo ejecutado por $p$ procesos es la cantidad total de operaciones primitivas realzadas por todos los procesos. Es equivalente al tiempo que toma ejecutar el cómpu en un solo procesador, denotado como $T_1$.
 - El *span* es la longitud de la mayor cadena de operaciones que deben realizarse secuencialmente (camino crítico).
@@ -6,7 +6,8 @@ Es un modelo más cercano a la realidad para estimar optimizaciones. Provee una 
 
 El speedup $S_p$ se define como la mejora al usar $p$ procesos con respecto a una ejecución serial: $S_p = T_1 / T_p$.
 
-Entonces, las cotas serán:
+El modelo provee una cota superior y una copa inferior para $T_p$.
 
-- $\text{Cota Superior} = \min (P, T_1/T_\infty)$
-- $\text{Cota Inferior} = (T_1 - T_\infty) / P + T_\infty$
+$$
+T_1/T_\infty <= T_p <= (T_1 - T_\infty) / P + T_\infty
+$$
