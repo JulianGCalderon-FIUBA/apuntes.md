@@ -28,3 +28,4 @@ title: Sistemas Distribuidos
 - [[Remote Procedure Control]]
 - [[Objetos Distribuidos]]
 - [[Coordinacion de procesos]]
+- [[Map Reduce]]
