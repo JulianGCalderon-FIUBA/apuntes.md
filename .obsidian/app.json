@@ -253,7 +253,11 @@
     "framework",
     "chunks",
     "workers",
-    "master"
+    "master",
+    "chunk",
+    "mappers",
+    "mapper",
+    "reducers"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,
