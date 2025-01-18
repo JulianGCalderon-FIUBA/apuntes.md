@@ -1,5 +1,11 @@
 El **tiempo** es una magnitud para medir duración y separación de eventos. Se lo puede definir mediante una variable monotónica creciente. No necesariamente está vinculada con la hora de la vida real.
 
+La medición del tiempo permite, ordenar y sincronizar procesos. Tambien se puede utilizar para registar eventos con un timestamps: 
+
+- Marcar la ocurrencia de un proceso, con un timestamp: punto absoluto en la línea de tiempo
+
+## Relojes Físicos
+
 Los relojes físicos no son confiables, ya que tienen **drift**. Hay que sincronizarlos periódicamente, y al despertar la computadora.
 
 ## Protocolo NTP
