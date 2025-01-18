@@ -13,3 +13,7 @@ El modelo provee una cota superior y una copa inferior para $S_p$.
 $$
 T_1/T_\infty <= S_p <= (T_1 - T_\infty) / P + T_\infty
 $$
+
+$$
+\max(\text{work}/p, span) <= T_p < work/p + span
+$$
