@@ -31,5 +31,10 @@ Define la simultaneidad con la cual un mensaje es recibido por múltiples proces
 
 ## Tipos de Protocolos
 
-- **Time-Driven**: Las fases del protocolo están definidas por un factor de tiempo entre mensajes.
-- **Clock-Driven**: Las fases del protocolo están definidas por el reloj de cada proceso. Los mensajes se pueden recibir antes, pero el delivery ocurre en una fracción de tiempo determinada.
+En un protocolo **Time-Driven**, las fases del protocolo están definidas por un factor de tiempo entre mensajes.
+
+![[Sincronismo 1737235770.png]]
+
+En este ejemplo, vemos que el proceso $P_1$ envía mensaje al resto de procesos. Al haber un timeout conocido, si no le llega el $ack$ tras un tiempo $T_{D\max}$, entonces el mensaje se vuelve a enviar.
+
+En un protocolo **Clock-Driven**, las fases del protocolo están definidas por el reloj de cada proceso. Los mensajes se pueden recibir antes, pero el delivery ocurre en una fracción de tiempo determinada.

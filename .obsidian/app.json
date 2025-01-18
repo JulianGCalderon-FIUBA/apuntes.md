@@ -262,7 +262,8 @@
     "reducer",
     "request",
     "peers",
-    "Lamport"
+    "Lamport",
+    "timeout"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,
