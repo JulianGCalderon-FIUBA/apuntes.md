@@ -7,4 +7,4 @@ La comunicación remota es transparente para el usuario.
 
 Hay portabilidad a través de implementación de interfaces bien definidas.
 
-A diferencia de en una llamada local, debemos tomar medidas para prevenir fallos en la comunicaci
+A diferencia de en una llamada local, debemos tomar medidas para prevenir fallos en la comunicación: [[Request-Reply#Tolerancia a Fallos|Tolerancia a Fallos]]
