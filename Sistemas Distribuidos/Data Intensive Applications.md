@@ -174,9 +174,7 @@ Los objetivos del sistema, son:
 - Portabilidad: Preparado para ser ejecutado en hardware de bajo costo, utilizando TCP entre servidores, y RPC con los clientes.
 - Performance: Favorece operaciones de lectura.
 
-Una operación es mucho más eficiente si se encuentra cerca de los datos con los que opera. Como eslogan del proyecto, se habla de:
-
-> "Moving computation is cheaper than moving data"
+### Arquitectura
 
 La arquitectura consta de un *namenode* que conoce donde está cada porción de cada archivo y contiene toda la metadata, y múltiples *datanodes*.
 
@@ -184,4 +182,14 @@ Los clientes consultan al *namenode* por el *file system* y la ubicación de los
 
 ![[Data Intensive Applications 1737303640.png]]
 
-Los archivos se particionan en bloques de 128MB, y los bloques son replicados en dis
+Los archivos se particionan en bloques de 128 MB, y los bloques son replicados en distintos *datanodes*.
+
+El *namenode* mantiene el listado de *datanodes* para un archivo. La metadata se mantiene en memoria para optimizar su acceso, con un log de transacciones.
+
+También se permite un rebalanceo de bloques entre los *datanodes*.
+
+Para el acceso a los datos se favorece el principio de localidad de los datos. El cliente obtiene una lista de *datanodes* para cada bloque y sus replicas.
+
+Una operación es mucho más eficiente si se encuentra cerca de los datos con los que opera
+
+> "Moving computation is cheaper than moving data"
