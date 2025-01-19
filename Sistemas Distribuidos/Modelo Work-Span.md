@@ -13,3 +13,5 @@ El modelo provee una cota superior y una copa inferior para el tiempo que toma e
 $$
 \max(\text{work}/p, \text{span}) <= T_p < \text{work}/p + \text{span}
 $$
+
+En el peor de los casos, el tiempo será la longitud del camino mas larga

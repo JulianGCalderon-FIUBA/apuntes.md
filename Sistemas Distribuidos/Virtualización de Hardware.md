@@ -21,3 +21,5 @@ A diferencia de las máquinas virtuales, los contenedores se ejecutan sobre el s
 Un contenedor es un empaquetado de todo el código y sus dependencias, pero no contiene el sistema operativo.
 
 El motor de contenedores se encargará de a aislar la ejecución de contenedores para que puedan ser ejecutados a la vez.
+
+Algunos ejemplos son Docker, y Podman (open source).
