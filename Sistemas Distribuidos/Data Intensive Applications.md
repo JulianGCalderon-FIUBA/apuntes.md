@@ -85,5 +85,16 @@ También hay enfoques mixtos, como:
 
 ### Enrutamiento
 
-Si conozco la función de particionameint
+Hay distintas formas de obtener un dato en una base de datos particionada:
 
+- Si conozco la función de particionamiento, puedo calcular en que partición se encuentra utilizando el dato.
+- Si no conozco la función de partición, debo consultar en alguna de las particiones, y que esta me indique en que partición se encuentra.
+- En algunas situaciones, existirá un nodo *centinela* que conocerá en que partición se encuentran los datos.
+
+![[Data Intensive Applications 1737301563.png]]
+
+## Distributed Shared Memory
+
+Es un patrón para manejar el *storage* en un sistema distribuido. Brinda la ilusión de que los procesos tienen una memoria compartida centralizada.
+
+Es un patron intuitivo, y permite que los algoritmos
