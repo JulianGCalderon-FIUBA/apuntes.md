@@ -16,6 +16,8 @@ En una máquina de estados, el estado en todo momento está dado por un estado a
 
 ![[Estados del Sistema 1737246065.png]]
 
+## Historia y Corte
+
 Se define **historia** $h_i$ o corrida, como la secuencia de todos los eventos procesados por un solo proceso $p_i$.
 
 $$
@@ -24,4 +26,14 @@ $$
 
 Se define **corte** $C$ como el subconjunto de historias de todos los procesos hasta cierto evento $k$ de cada proceso.
 
-Un corte es consistente si por cada evento que contiene, también contiene a aquellos que ocurren antes. El algoritmo de Chandy & Lamport se utiliza para obtener corte consistente de un sistema distribuido.
+$$
+C = h_0 \cup h_1 \cup \cdots \cup h_n
+$$
+
+Se dice que un corte es **consistente** si por cada evento que contiene, también contiene a aquellos que ocurren antes: $\forall e \in C: f \to e \implies f \in C$
+
+![[Estados del Sistema 1737246521.png]]
+
+## Algoritmo de Chandy & Lamport
+
+Es un algoritmo que permite obtener *snapshots* 
