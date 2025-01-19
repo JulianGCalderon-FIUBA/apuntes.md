@@ -38,3 +38,7 @@ title: Sistemas Distribuidos
 - [[Apache Flink]]
 - [[Beam]]
 - [[Map Reduce]]
+
+## Data Intensive Applications
+
+- [[Transactional Data]]
