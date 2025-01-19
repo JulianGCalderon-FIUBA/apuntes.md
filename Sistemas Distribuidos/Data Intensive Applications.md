@@ -37,8 +37,6 @@ Una réplica se designa como *master* o *leader*, y el resto de réplicas se des
 
 Solo se aceptan escrituras en el *leader*, los cuales se sincronizan de forma periódica.
 
-![[Data Intensive Applications 1737300142.png]]
-
 ### Multi-Leader Based
 
 Es común en escenarios con múltiples data-centers, o donde hay separación entre los usuarios.
@@ -49,4 +47,18 @@ Un problema común es como resolver conflictos entre distintos *leaders*. Otros 
 
 - Manejo de triggers.
 - Claves incrementales.
-- Integri
+- Integridad de relaciones
+
+### Leaderless Based
+
+Es un sistema totalmente distribuido, y las réplicas deben sincronizarse mutuamente. Se pueden definir [[Topología de Comunicación|topologías]] de sincronización.
+
+Son muy comunes los conflictos, a menos que se particionen los datos. Una forma de resolver los conflictos es el de conseguir consenso entre las réplicas para aplicar escrituras.
+
+## Particionamiento de Datos
+
+Los datos se particionan por distintos motivos:
+
+- Performance: Mejora de velocidad de escritura y de lectura.
+- Conflictos: Evitar colisiones o reducir los conflictos.
+- Redundancia: Permitir recuperacion ante fallas.
