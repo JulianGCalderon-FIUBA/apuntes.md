@@ -42,11 +42,16 @@ Los factores de diseño del sistema, son:
 
 ### Arquitectura
 
-La arquitectura consta de un *namenode* que conoce donde está cada porción de cada archivo y contiene toda la metadata, y múltiples *datanodes*.
+La arquitectura consta de:
+
+- Un *namenode* que conoce donde está cada porción de cada archivo y contiene toda la metadata.
+- Múltiples *datanodes*, que contienen los contenidos de los archivos.
 
 Los clientes consultan al *namenode* por el *file system* y la ubicación de los archivos, y luego se comunican con los *datanodes* correspondientes.
 
 ![[Data Intensive Applications 1737303640.png]]
+
+### Almacenamiento de Datos
 
 Los archivos se particionan en bloques de 128 MB, y los bloques son replicados en distintos *datanodes*.
 
@@ -60,4 +65,4 @@ Una operación es mucho más eficiente si se encuentra cerca de los datos con lo
 
 > "Moving computation is cheaper than moving data"
 
-Para el acceso a los datos se favorece el principio de localidad de los datos. El cliente obtiene una lista de *datanodes* para cada bloque y sus réplicas, y se intenta acceder a los bloques más cercanos.
+Para el acceso a los datos se favorece el principio de localidad de los datos. El cliente obtiene una lista de *datanodes* para cada bloque y sus réplicas, y se intenta acceder a los bloques más cercanos (del mismo rack en caso de ser posible, o del mismo datacenter).

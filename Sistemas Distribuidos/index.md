@@ -39,9 +39,9 @@ title: Sistemas Distribuidos
 - [[Beam]]
 - [[Map Reduce]]
 
-## Varios
+## Data Intensive Applications
 
-- [[Data Intensive Applications]]
+- [[Data Intensive Architecture]]
 - [[Replicación de Datos]]
 - [[Particionamiento de Datos]]
 - [[Distributed Shared Memory]]
