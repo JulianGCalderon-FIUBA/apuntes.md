@@ -17,3 +17,12 @@ Es una plataforma de computación en la nube, ofrecida por Amazon.
 - Como *monitoring automático*, utiliza *Amazon CloudWatch*. Este ofrece métricas globales automatizadas, y además permite agregar métricas propias.
 
 ![[Elasticidad 1737317968.png]]
+
+## Kubernetes
+
+Es una plataforma para desplegar contenedores:
+
+- Como *application load balancer*, utiliza *Kubernetes Service*. Este redirecciona tráfico a *pods* listos. Para saber si un contenedor está listo, se utilizan *liveness* y *readiness* *probes* permiten al usuario indicar si un contenedor debe recibir tráfico o no.
+- Como autoscaler, utiliza
+
+### Probes
