@@ -15,9 +15,19 @@ A partir de como evoluciona la carga en el sistema según el tiempo, se definen 
 - **Predictable Burst**: Se conoce que en cierto determinado momento, la carga en el sistema aumentará, como por ejemplo: Navidad.
 - **Unpredictable Burst**: Fluctuaciones impredecibles en la carga del sistema. Ante estas situaciones, podemos realizar un análisis estadístico para poder predecir la carga del sistema, y anticiparnos a estos momentos.
 - **Periodic Processing**: Durante un determinado intervalo de tiempo, la carga del sistema cesa, como por ejemplo: Transacciones en un sistema bancario.
-- **Start Small, Grow Fast**: Esta relacionado a las startups exc
+- **Start Small, Grow Fast**: Está relacionado con las startups exitosas. A medida que el servicio toma tracción, la carga en el sistema aumenta. El sistema debe ser pensado desde el inicio con esto en mente, para poder escalarlo.
 
 ![[Escalabilidad 1737314465.png]]
+
+## Limitantes
+
+Al momento de escalar un sistema, hay algunos factores que limitaran la capacidad del sitema:
+
+- **Arquitectura**: Si la arquitectura no está preparada para escalar el sistema, necesitaremos rediseñar la arquitectura.
+- **Algoritmos**: A menor escala, los algoritmos utilizados también son un factor importante, y en situaciones necesitamos cambiar los algoritmos utilizados para poder mejorar la performance del sistema.
+- **Red**: Si la cantidad de datos a manejar es mayor a la que el sistema puede soportar
+- **Datos**:
+- **Presupuesto**
 
 ## Técnicas
 
