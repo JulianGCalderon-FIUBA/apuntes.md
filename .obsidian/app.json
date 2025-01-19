@@ -266,7 +266,8 @@
     "timeout",
     "paralelizamos",
     "Particionamiento",
-    "ZeroMQ"
+    "ZeroMQ",
+    "Particionar"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,
