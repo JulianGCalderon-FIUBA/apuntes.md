@@ -18,3 +18,15 @@ Hay dos estrategias principales para paralelizar el trabajo:
 - Particionamiento de datos, en donde cada conjunto independiente de datos se procesa en paralelo.
 
 Estas dos estrategias se pueden combinar.
+
+## Speedup
+
+El **speedup** es el ratio de optimización de una operación.
+
+El **camino crítico** es la máxima longitud de tareas secuenciales a computar. Define el mejor rendimiento que se puede obtener al realizar un conjunto de tareas.
+
+Existen distintas formas de analizar el speedup:
+
+- [[Ley de Amdahl]]
+- [[Ley de Gustafson]]
+- [[Modelo Work-Span]]

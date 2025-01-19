@@ -13,17 +13,13 @@ title: Sistemas Distribuidos
 - [[Paralelización]]
 - [[Virtualización de Hardware]]
 
-## Fundamentos
+## Comunicación
 
 - [[Topología de Comunicación]]
-- [[Speedup de Paralelización]]
 - [[Nombres y Direccionamiento]]
-- [[Comunicacion Confiable]]
+- [[Mensajes]]
 - [[Grupos de Comunicación]]
-- [[Relojes]]
-- [[Sincronismo]]
-- [[Orden de Mensajes]]
-- [[Estados del Sistema]]
+- [[Comunicacion Confiable]]
 
 ## Middlewares
 
@@ -31,6 +27,13 @@ title: Sistemas Distribuidos
 - [[Message Oriented Middleware]]
 - [[Remote Procedure Control]]
 - [[Objetos Distribuidos]]
+
+## Sincronización
+
+- [[Relojes]]
+- [[Sincronismo]]
+- [[Orden de Mensajes]]
+- [[Estados del Sistema]]
 
 ## Cómputo Distribuido
 
