@@ -43,4 +43,10 @@ Solo se aceptan escrituras en el *leader*, los cuales se sincronizan de forma pe
 
 Es común en escenarios con múltiples data-centers, o donde hay separación entre los usuarios.
 
-Frente a caidas en un data-center, se puede promover a otro leader como leader global.
+Frente a caídas en un data-center, se puede promover a otro como *leader* global.
+
+Un problema común es como resolver conflictos entre distintos *leaders*. Otros problemas comunes incluyen:
+
+- Manejo de triggers.
+- Claves incrementales.
+- Integri
