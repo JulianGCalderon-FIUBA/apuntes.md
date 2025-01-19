@@ -45,3 +45,4 @@ title: Sistemas Distribuidos
 - [[Replicación de Datos]]
 - [[Particionamiento de Datos]]
 - [[Distributed Shared Memory]]
+- [[Distributed File System]]
