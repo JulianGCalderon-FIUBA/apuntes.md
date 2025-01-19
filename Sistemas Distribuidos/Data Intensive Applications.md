@@ -57,8 +57,13 @@ Son muy comunes los conflictos, a menos que se particionen los datos. Una forma 
 
 ## Particionamiento de Datos
 
-Los datos se particionan por distintos motivos:
+Los datos se pueden particionar por distintos motivos:
 
-- Performance: Mejora de velocidad de escritura y de lectura.
-- Conflictos: Evitar colisiones o reducir los conflictos.
-- Redundancia: Permitir recuperacion ante fallas.
+- **Performance**: Mejora de velocidad de escritura y de lectura.
+- **Conflictos**: Evita colisiones o reduce los conflictos.
+- **Redundancia**: Permite recuperación ante fallas (al guardar las particiones en más de un lugar).
+
+Hay dos enfoques principales para realizar la partición de datos:
+
+- **Horizontal**: La información se segrega por registros entre cada partición. Los registros se encuentran *completos* en alguna partición.
+- **Vertical**: La información se segrega por atributos. Los registros se encuentran en todas las particiones, por lo que no son eficientes para consultas de filas completas.
