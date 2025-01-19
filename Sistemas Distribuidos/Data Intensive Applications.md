@@ -171,4 +171,15 @@ Los objetivos del sistema, son:
 
 - Tolerancia a Fallos: Los fallos en el hardware son comúnes, por lo que es mas económico soportarlos.
 - Volumen y Latencia: Favorece operaciones de streaming, y sobre archivos volumétricos.
-- Portabilidad: 
+- Portabilidad: Preparado para ser ejecutado en hardware de bajo costo, utilizando TCP entre servidores, y RPC con los clientes.
+- Performance: Favorece operaciones de lectura.
+
+Como eslogan del proyecto, se habla de:
+
+> "Moving computation is cheaper than moving data"
+
+La idea es que es mas económico mover procesos para que esten cerca de los datos, a que sea al reves.
+
+La arquitectura consta de un nodo maestro, que conoce donde esta cada porción de cada archivos, también conoce toda su metadata.
+
+![[Data Intensive Applications 1737303640.png]]
