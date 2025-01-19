@@ -12,4 +12,9 @@ Para que el servicio sea más rápido, se suele utilizar una caché.
 
 Si una petición es muy demandante, se puede encolar en algún [[Message Oriented Middleware|MOM]], y resuelta de forma asincrónica.
 
-## Transactional Data
+## Tipos de Transacciones
+
+Hay dos tipos de transacciones:
+
+- OLTP (Online Transaction Processing): Se busca acceder a pocos registros, y con un acceso aleatorio. Se utlizan en las bases de datos mas comunes. El orden de magnitud de los datos esta en el orden de los MB, o GB.
+- OLAP (Online Analytics Processing): Se busca acceder a muchos datos, y a realizar análisis estadísticos. Se trabaja en baches o streams. El orden de magnitud de los datos está en el orden de los .
