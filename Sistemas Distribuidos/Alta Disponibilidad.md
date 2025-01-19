@@ -16,3 +16,16 @@ En sistemas con redundancia, debemos analizar el caso donde todas las réplicas 
 ![[Alta Disponibilidad 1737319117.png]]
 
 En sistemas con *clusters*, multiplicamos la disponibilidad de cada *cluster*.
+
+![[Alta Disponibilidad 1737319191.png]]
+
+## Terminología
+
+En la industria se utilizan diversos acrónimos:
+
+- **SLA** (*Service Level Agreement*): Es el contrato de disponibilidad pactado con el cliente. También define qué sucede si el mismo no se respeta (e.g. BigQuery SLA).
+- **SLO** (*Service Level Objectives*): Es lo que se debe cumplir para no invalidar el SLA (e.g. Disponibilidad mayor a 99.95%).
+- **SLI** (*Service Level Indicators*): Son las - Métricas a ser comparadas con los SLOs
+	- Siempre deben ser superiores al threshold del SLO
+	- Por lo general requiere una plataforma de observability
+	- Analizar impacto del despliegue de los servicios
