@@ -160,3 +160,15 @@ Requiere de una abstracción del kernel llamada *Virtual File System*. Las aplic
 ![[Data Intensive Applications 1737303143.png]]
 
 Las consultas se harían utilizando [[Remote Procedure Control|RPC]], tanto sobre UDP como TCP.
+
+### Apache Hadoop DFS
+
+Es un sistema de archivos distribuido, diseñado para utilizar hardware de bajo costo. La implementación está basada en el diseño de Google File System (GFS).
+
+No soporta el estándar POSIX, por lo que se considera un *storage* en lugar de un *file system*. Se pensó para soportar operaciones útiles en ambientes de cómputo distribuido (como [[Map Reduce]]).
+
+Los objetivos del sistema, son:
+
+- Tolerancia a Fallos: Los fallos en el hardware son comúnes, por lo que es mas económico soportarlos.
+- Volumen y Latencia: Favorece operaciones de streaming, y sobre archivos volumétricos.
+- Portabilidad: 
