@@ -12,4 +12,8 @@ Para que esto sea posible, es necesario al menos los siguientes componentes:
 
 Es una plataforma de computación en la nube, ofrecida por Amazon.
 
-- Como application load balancer, utiliza Amazon Elastic Load Balancer. Este redirecciona tráfico a instancias (EC2), incluso en diferentes zonas. Además, interactua con instancias para verificar su estado.
+- Como *application load balancer*, utiliza *Amazon Elastic Load Balancer*. Este redirecciona tráfico a instancias (EC2), incluso en diferentes zonas. Además, interactua con instancias para verificar su estado.
+- Como *autoscaler*, utiliza *Amazon Autoscalling*. Este permite definir una cantidad minima, deseada, y máxima de instancias para un grupo de *autoscalling*. Soporta distintas políticas para lograr distintos objetivos (*scalling* dinámico vs. manual).
+- Como *monitoring automático*, utiliza *Amazon CloudWatch*. Este ofrece métricas globales automatizadas, y además permite agregar métricas propias.
+
+![[Elasticidad 1737317968.png]]
