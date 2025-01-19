@@ -269,7 +269,8 @@
     "ZeroMQ",
     "Particionar",
     "Master",
-    "particionados"
+    "particionados",
+    "Componentización"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,

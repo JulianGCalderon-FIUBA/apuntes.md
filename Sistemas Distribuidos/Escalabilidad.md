@@ -32,13 +32,11 @@ Al momento de escalar un sistema, hay algunos factores que limitaran la capacida
 
 ## Técnicas
 
-Existen distintas técncias para escalar sistemas:
+Existen distintas técnicas para escalar sistemas:
 
 - **Escalamiento vertical**: Cuando un nodo físico del sistema se encuentra siendo un cuello de botella, se puede agregar recursos al nodo.
 - **Escalamiento horizontal**: Si la arquitectura está preparada para tener componentes redundantes, podremos agregar más nodos, balanceando la carga en el sistema. En esta caso, podemos tener en cuenta la proximidad geográfica de los componentes, llevando los componentes cerca de los usuarios.
 - **Fragmentación de datos**: Los datos pueden ser particionados de forma que los datos con mayor afinidad entre sí estén más cercanos.
-- **Componentización**: En lugar de tener un sistema monolítico, podremos separar el sistema en diferentes subservicios que se comunican entre sí. Esto permite escalar servicios especificos.
+- **Componentización**: En lugar de tener un sistema monolítico, podremos separar el sistema en diferentes subservicios que se comunican entre sí. Esto permite escalar servicios específicos.
 - **Optimizar algoritmos**: En caso de que se pueda mejorar, al mejorar los algoritmos podemos mejorar la capacidad de cómputo del sistema, o la carga en la red (si logramos que los mensajes sean más pequeños).
-- **Asincronismo**: Al mantener sincrónico únicamente lo estrictamente necesario,
-	- Mantener sincrónico sólo lo estrictamente necesario
-	- Limitado por el negocio
+- **Asincronismo**: Al mantener sincrónico únicamente lo estrictamente necesario, mejoramos la velocidad de respuesta del sistema, aunque el procesamiento se realice de forma asincrónica. Esto está limitado por las reglas de negocio.
