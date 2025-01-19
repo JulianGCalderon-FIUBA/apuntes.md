@@ -136,4 +136,15 @@ Posee un esquema centralizado de información persistente, ofrece:
 - Control de backups.
 - Control de acceso y monitoreo.
 
-Además, permite optimizar los recursos debido a la centralización, ya 
+Además, permite optimizar los recursos debido a la centralización, ya que podremos tener discos de mayor capacidad y menor costo de administración.
+
+Los objetivos de este sistema son:
+
+- **Transparencia a los clientes**:
+	- **Acceso**: obtener los recursos con credenciales usuales.
+	- **Localización**: operar con archivos como si fueran locales.
+	- **Movilidad**: el movimiento interno de archivos no debe ser percibido.
+	- **Performance**: las optimizaciones no deben afectar al cliente
+- **Concurrencia**: El acceso concurrente no debe requerir operaciones particulares de los clientes.
+- **Heterogeneidad de Hardware**: El sistema puede estar compuesto por hardwares distintos.
+- **Tolerancia a Fallos**: Capacidad de ocultar o minimizar fallos
