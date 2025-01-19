@@ -54,4 +54,4 @@ title: Sistemas Distribuidos
 
 - [[Escalabilidad]]
 - [[Elasticidad]]
-- [[Disponibilidad]]
+- [[Alta Disponibilidad]]

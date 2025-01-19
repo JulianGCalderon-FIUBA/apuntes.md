@@ -24,6 +24,9 @@ Es una plataforma para desplegar contenedores:
 
 - Como *application load balancer*, utiliza *Kubernetes Service*. Este redirecciona tráfico a contenedores listos. Para saber si un contenedor está listo, se utilizan *probes*.
 - Como *autoscaler*, utiliza *Horizontal Pod Autoscale*. Monitorea los recursos de un conjunto de contenedores, similar a como funciona el de Amazon.
+- Como *monitoring automático*, utiliza *Kubernetes Metrics Server*. Recolecta métricas de cada contenedor en el *cluster*. Está diseñado específicamente para autoscaling.
+
+![[Elasticidad 1737318714.png]]
 
 ### Probes
 
