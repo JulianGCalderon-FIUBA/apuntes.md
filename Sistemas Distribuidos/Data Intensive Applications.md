@@ -174,12 +174,14 @@ Los objetivos del sistema, son:
 - Portabilidad: Preparado para ser ejecutado en hardware de bajo costo, utilizando TCP entre servidores, y RPC con los clientes.
 - Performance: Favorece operaciones de lectura.
 
-Como eslogan del proyecto, se habla de:
+Una operación es mucho más eficiente si se encuentra cerca de los datos con los que opera. Como eslogan del proyecto, se habla de:
 
 > "Moving computation is cheaper than moving data"
 
-La idea es que es mas económico mover procesos para que esten cerca de los datos, a que sea al reves.
+La arquitectura consta de un *namenode* que conoce donde está cada porción de cada archivo y contiene toda la metadata, y múltiples *datanodes*.
 
-La arquitectura consta de un nodo maestro, que conoce donde esta cada porción de cada archivos, también conoce toda su metadata.
+Los clientes consultan al *namenode* por el *file system* y la ubicación de los archivos, y luego se comunican con los *datanodes* correspondientes.
 
 ![[Data Intensive Applications 1737303640.png]]
+
+Los archivos se particionan en bloques de 128MB, y los bloques son replicados en dis
