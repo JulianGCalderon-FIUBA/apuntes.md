@@ -6,6 +6,6 @@ Los objetivos de la paralelización son:
 - Incrementar la cantidad de tareas que se pueden realizar en paralelo (*throughput*)
 - Reducir la energía consumida al realizar todas las tareas
 
-No es lo mismo un sistema paralelo, que un sistema concurrente. En un sistema paralelo, los componentes se ejecutan exactamente al mismo tiempo.
+No es lo mismo un sistema paralelo, que un sistema concurrente. En un sistema paralelo, los procesos son independientes, y cada uno tiene sus propios recursos. En un sistema concurrente, los recursos son compartidos.
 
 La posibilidad de paralelización es una de las ventajas importantes de un [[Sistema Distribuido]]

@@ -14,6 +14,7 @@ title: Sistemas Distribuidos
 
 ## Fundamentos
 
+- [[Topología de Comunicación]]
 - [[Speedup]]
 - [[Direccionamiento]]
 - [[Comunicacion Confiable]]
