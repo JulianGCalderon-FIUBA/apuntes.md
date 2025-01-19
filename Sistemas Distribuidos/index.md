@@ -16,11 +16,11 @@ title: Sistemas Distribuidos
 
 - [[Speedup]]
 - [[Direccionamiento]]
-- [[Grupos]]
+- [[Grupos de Comunicación]]
 - [[Relojes]]
 - [[Sincronismo]]
 - [[Orden de Mensajes]]
-- [[Estados]]
+- [[Estados del Sistema]]
 
 ## Middlewares
 
