@@ -15,11 +15,7 @@ Hay distintos modos de envío:
 
 ## Topología de Difusión
 
-Hay distintos tipos de topologías para la difusión:
+Hay distintos tipos de [[Topología de Comunicación|topologías]] para la difusión:
 
 - Centralizada: Un nodo le envía a todos.
 - Descentralizada: Un nodo le envía a los vecinos, y estos propagan el mensaje.
-
-## Atomicidad
-
-Hay situaciones donde queremos que o todos reciban el mensaje, o ninguno. Para eso, es necesario soportar reintentos, ACK, y demorar el envío de los mensajes recibidos hasta que todos lo hayan recibido.
