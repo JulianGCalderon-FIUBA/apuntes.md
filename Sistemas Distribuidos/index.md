@@ -16,8 +16,8 @@ title: Sistemas Distribuidos
 ## Fundamentos
 
 - [[Topología de Comunicación]]
-- [[Speedup]]
-- [[Direccionamiento]]
+- [[Speedup de Paralelización]]
+- [[Nombres y Direccionamiento]]
 - [[Comunicacion Confiable]]
 - [[Grupos de Comunicación]]
 - [[Relojes]]
@@ -44,3 +44,4 @@ title: Sistemas Distribuidos
 - [[Data Intensive Applications]]
 - [[Replicación de Datos]]
 - [[Particionamiento de Datos]]
+- [[Distributed Shared Memory]]
