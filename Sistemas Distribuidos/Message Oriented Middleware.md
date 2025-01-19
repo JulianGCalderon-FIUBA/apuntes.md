@@ -1,7 +1,6 @@
 ---
 aliases:
   - MOM
-  - Message Oriented Middleware
 ---
 
 Basan su funcionamiento en el concepto de comunicar mensajes entre aplicación. La comunicación de grupo es transparente a las aplicaciones que la requieren.
