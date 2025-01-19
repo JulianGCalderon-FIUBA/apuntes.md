@@ -11,6 +11,7 @@ title: Sistemas Distribuidos
 - [[Multiprogramación]]
 - [[Sistema Distribuido]]
 - [[Paralelización]]
+- [[Virtualización]]
 
 ## Fundamentos
 
