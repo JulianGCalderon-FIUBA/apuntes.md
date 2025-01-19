@@ -93,7 +93,7 @@ Hay distintas formas de obtener un dato en una base de datos particionada:
 
 ![[Data Intensive Applications 1737301563.png]]
 
-## Distributed Shared Memory
+## Distributed Shared Memory (DSM)
 
 Es un patrón para manejar el *storage* en un sistema distribuido. Brinda la ilusión de que los procesos tienen una memoria compartida centralizada.
 
@@ -115,7 +115,7 @@ La información es almacenada en el servidor, pero delegada a los clientes. Esto
 
 Este enfoque no permite acceso concurrente a una página, pero permite optimizar la localidad de acceso.
 
-## Replicación de Memory Pages
+### Replicación de Memory Pages
 
 Las lecturas implican una replicación read-only, y las escrituras son coordinadas por el servidor, invalidando a las réplicas.
 
@@ -123,4 +123,17 @@ Las lecturas implican una replicación read-only, y las escrituras son coordinad
 
 Este enfoque favorece un escenario de muchas lecturas, y pocas escrituras.
 
-Si queremos permitir lectura-escritura, entonces el servidor funciona como un secuenciadorde operaciones. Las p'agi
+Si queremos permitir lectura-escritura, entonces el servidor funciona como un secuenciador de operaciones. Las páginas se encuentran en múltiples lugares a la vez, y el servidor debe notificar a las réplicas cuando se deben actualizar las réplicas.
+
+![[Data Intensive Applications 1737302364.png]]
+
+## Distributed File System (DFS)
+
+Es un sistema que permite compartir archivos en redes locales e intranets.
+
+Posee un esquema centralizado de información persistente, ofrece:
+
+- Control de backups.
+- Control de acceso y monitoreo.
+
+Además, permite optimizar los recursos debido a la centralización, ya 
