@@ -33,4 +33,4 @@ Ambas alternativas agregan un overhead de longitud en el mensaje.
 
 En un esquema mixto, tendremos campos fijos y campos variables, por lo que algunos campos necesitarán delimitadores, mientras que otros no.
 
-Un ejemplo típico que funciona para muchos casos, es el esquema TLV:
+Un ejemplo típico que funciona para muchos casos, es el esquema **TLV** (*type*, *length*, *value*).

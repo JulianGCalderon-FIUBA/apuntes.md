@@ -12,9 +12,9 @@ Para que el servicio sea más rápido, se suele utilizar una caché.
 
 Si una petición es muy demandante, se puede encolar en algún [[Message Oriented Middleware|MOM]], y resuelta de forma asincrónica.
 
-## Tipos de Transacciones
+## Tipos de Procesamiento
 
-Hay dos tipos de transacciones:
+Hay dos tipos de procesamiento:
 
 - **OLTP** (*Online Transaction Processing*): Se busca acceder a pocos registros, y con un acceso aleatorio. Se utilizan en las bases de datos más comunes. La magnitud de los datos está en el orden de los MB o GB.
 - **OLAP** (*Online Analytics Processing*): Se busca acceder a muchos datos, y a realizar análisis estadísticos. Se trabaja en baches o streams. La magnitud de los datos está en el orden de los TB o PB.
