@@ -267,7 +267,8 @@
     "paralelizamos",
     "Particionamiento",
     "ZeroMQ",
-    "Particionar"
+    "Particionar",
+    "Master"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,

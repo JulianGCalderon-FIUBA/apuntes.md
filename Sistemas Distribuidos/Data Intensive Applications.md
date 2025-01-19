@@ -188,8 +188,10 @@ El *namenode* mantiene el listado de *datanodes* para un archivo. La metadata se
 
 También se permite un rebalanceo de bloques entre los *datanodes*.
 
-Para el acceso a los datos se favorece el principio de localidad de los datos. El cliente obtiene una lista de *datanodes* para cada bloque y sus replicas.
+### Acceso a Datos
 
-Una operación es mucho más eficiente si se encuentra cerca de los datos con los que opera
+Una operación es mucho más eficiente si se encuentra cerca de los datos con los que opera.
 
 > "Moving computation is cheaper than moving data"
+
+Para el acceso a los datos se favorece el principio de localidad de los datos. El cliente obtiene una lista de *datanodes* para cada bloque y sus réplicas, y se intenta acceder a los bloques más cercanos.
