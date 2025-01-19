@@ -21,20 +21,20 @@ A partir de como evoluciona la carga en el sistema según el tiempo, se definen 
 
 ## Limitantes
 
-Al momento de escalar un sistema, hay algunos factores que limitaran la capacidad del sitema:
+Al momento de escalar un sistema, hay algunos factores que limitaran la capacidad del sistema:
 
 - **Arquitectura**: Si la arquitectura no está preparada para escalar el sistema, necesitaremos rediseñar la arquitectura.
 - **Algoritmos**: A menor escala, los algoritmos utilizados también son un factor importante, y en situaciones necesitamos cambiar los algoritmos utilizados para poder mejorar la performance del sistema.
-- **Red**: Si la cantidad de datos a manejar es mayor a la que el sistema puede soportar
-- **Datos**:
-- **Presupuesto**
+- **Red**: Si la cantidad de datos a manejar es mayor a la que el sistema puede soportar, tendremos que aumentar el ancho de banda, pero esto lleva a una limitación financiera.
+- **Datos**: Si el volumen de los datos es mayor a la capacidad de sistema, tendremos que mejorar el *storage* del sistema, pero esto también lleva a una limitación financiera.
+- **Presupuesto**: Relacionado con el resto de limitantes, es posible que no tengamos presupuesto suficiente como para resolver los otros limitantes.
+- **Restricciones Legales**: En algunas situaciones, restricciones legales pueden limitar la escalabilidad, como por ejemplo: los datos no pueden atravesar otros países.
 
 ## Técnicas
 
 Existen distintas técncias para escalar sistemas:
 
-- **Escalamiento vertical**:
-	- Agregar recursos a un nodo
+- **Escalamiento vertical**: Cuando un nodo físico del sistema se encuentra siendo un cuello de botella, se puede agregar recursos al nodo.
 - **Escalamiento horizontal**:
 	- Redundancia
 	- Balanceadores de carga
