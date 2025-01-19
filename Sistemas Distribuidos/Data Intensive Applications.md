@@ -148,3 +148,15 @@ Los objetivos de este sistema son:
 - **Concurrencia**: El acceso concurrente no debe requerir operaciones particulares de los clientes.
 - **Heterogeneidad de Hardware**: El sistema puede estar compuesto por hardwares distintos.
 - **Tolerancia a Fallos**: Capacidad de ocultar o minimizar fallos
+
+### Network File System
+
+Fue diseñado para ser independiente de las plataformas, pero desarrollado en UNIX en 1984.
+
+Desde un primer lugar, se diseñó para que el file system siga el estandar POSIX.
+
+Requiere de una abstracción del kernel llamada *Virtual File System*. Las aplicaciones utilizarían VFS para acceder los archivos, lo que requiere de una invocación remota.
+
+![[Data Intensive Applications 1737303143.png]]
+
+Las consultas se harían utilizando [[Remote Procedure Control|RPC]], tanto sobre UDP como TCP.

@@ -1,3 +1,8 @@
+---
+aliases:
+  - RPC
+---
+
 Permite ejecución remota de procedimientos, con un esquema de cliente-servidor
 
 - El cliente realiza una llamada a un procedimiento
