@@ -12,10 +12,16 @@ $$
 
 ## Máquina de Estados
 
-En una máquina de estados, el estado en todo momento está dado por un estado anterior, y un evento que lo modifica. Es importante que las transiciones sean determinísticas.
+En una máquina de estados, el estado en todo momento está dado por un estado anterior, y un evento que lo modifica. Es importante que las transiciones sean determinísticas, esto permite volver hacia atrás en el tiempo y continuar con la ejecución, volviendo al estado actual.
 
-La historia es la secuencia de todos los eventos procesados por la máquina de estados.
+![[Estados del Sistema 1737246065.png]]
 
-Un corte es el subconjunto de historias de todos los procesos hasta cierto evento $k$ de cada proceso.
+Se define **historia** $h_i$ o corrida, como la secuencia de todos los eventos procesados por un solo proceso $p_i$.
+
+$$
+h_1 = (e_0, e_1, e_2, \cdots)
+$$
+
+Se define **corte** $C$ como el subconjunto de historias de todos los procesos hasta cierto evento $k$ de cada proceso.
 
 Un corte es consistente si por cada evento que contiene, también contiene a aquellos que ocurren antes. El algoritmo de Chandy & Lamport se utiliza para obtener corte consistente de un sistema distribuido.
