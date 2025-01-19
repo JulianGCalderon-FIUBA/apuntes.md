@@ -26,3 +26,21 @@ Hay distintas formas de almacenar información:
 - **Modelo Relacional**: Se accede a la información fila a fila, y tiene buen soporta para realizar *joins*.
 - **Modelo Columnar**: Se accede a la información de a columnas, y es útil para realizar agregaciones. Si los datos se repiten mucho, entonces es más fácil comprimirlos.
 - **Cubos de Información**: Se utiliza mucho en transacciones de tipo OLAP. Mantienen vistas materializadas con cálculos estadísticos. Se crean grillas agrupadas por diferentes dimensiones, y se consultan operaciones sobre dicho cubos (como `sum`, `count`, `max`, etc.).
+
+## Replicación de Datos
+
+Hay distintas formas de replicar datos:
+
+### Leader Based
+
+Una réplica se designa como *master* o *leader*, y el resto de réplicas se designan como *mirrors*, *slaves*, o *followers*.
+
+Solo se aceptan escrituras en el *leader*, los cuales se sincronizan de forma periódica.
+
+![[Data Intensive Applications 1737300142.png]]
+
+### Multi-Leader Based
+
+Es común en escenarios con múltiples data-centers, o donde hay separación entre los usuarios.
+
+Frente a caidas en un data-center, se puede promover a otro leader como leader global.
