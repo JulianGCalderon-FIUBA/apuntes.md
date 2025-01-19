@@ -30,7 +30,7 @@ title: Sistemas Distribuidos
 - [[Remote Procedure Control]]
 - [[Objetos Distribuidos]]
 
-## Cómputo Distribuído
+## Cómputo Distribuido
 
 - [[Open MPI]]
 - [[Apache Flink]]
