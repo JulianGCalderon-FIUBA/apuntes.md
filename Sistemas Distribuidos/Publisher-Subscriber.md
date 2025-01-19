@@ -10,4 +10,4 @@ Hay dos posibles arquitecturas:
 - Basada en **tópicos**: Publicación y subscripción indicando el tipo de evento.
 - Basada en **canales**: Publicaciones y suscripciones orientadas a canales específicos.
 
-Los [[Message Oriented Middleware]] ofrecen este patrón.
+Los [[MOMs]] ofrecen este patrón.

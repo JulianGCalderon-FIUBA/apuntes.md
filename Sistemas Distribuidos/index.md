@@ -26,7 +26,7 @@ title: Sistemas Distribuidos
 ## Middlewares
 
 - [[Middlewares]]
-- [[Message Oriented Middleware]]
+- [[MOMs]]
 - [[Remote Procedure Control]]
 - [[Objetos Distribuidos]]
 
