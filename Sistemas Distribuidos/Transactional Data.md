@@ -1,1 +1,0 @@
-Los datos transaccionales son aquellos datos que crecen con el tiempo. 

@@ -39,6 +39,6 @@ title: Sistemas Distribuidos
 - [[Beam]]
 - [[Map Reduce]]
 
-## Data Intensive Applications
+## Varios
 
-- [[Transactional Data]]
+- [[Data Intensive Applications]]
