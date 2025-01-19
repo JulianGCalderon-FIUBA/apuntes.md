@@ -263,7 +263,9 @@
     "request",
     "peers",
     "Lamport",
-    "timeout"
+    "timeout",
+    "paralelizamos",
+    "Particionamiento"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,

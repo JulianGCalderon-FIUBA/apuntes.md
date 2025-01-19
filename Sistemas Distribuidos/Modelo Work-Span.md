@@ -14,4 +14,6 @@ $$
 \max(\text{work}/p, \text{span}) <= T_p < \text{work}/p + \text{span}
 $$
 
-En el peor de los casos, el tiempo será la longitud del camino mas larga
+En el mejor de los casos, podremos dividir el trabajo de forma equitativa entre los $p$ procesos, asumiendo que el trabajo se puede dividir de forma perfecta. También tenemos en consideración la existencia de un camino crítico (*span*)
+
+En el peor de los casos, dividimos el trabajo, pero asumimos el peor caso en el que el camino crítico no pueda realizarse en paralelo de ninguna otra tarea.

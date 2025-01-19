@@ -9,3 +9,12 @@ Los objetivos de la paralelización son:
 No es lo mismo un sistema paralelo, que un sistema concurrente. En un sistema paralelo, los procesos son independientes, y cada uno tiene sus propios recursos. En un sistema concurrente, los recursos son compartidos.
 
 La posibilidad de paralelización es una de las ventajas importantes de un [[Sistema Distribuido]]
+
+## Estrategias de Paralelización
+
+Hay dos estrategias principales para paralelizar el trabajo:
+
+- Descomposición funcional, en donde paralelizamos las tareas a realizar, y luego agregamos el resultado
+- Particionamiento de datos, en donde cada conjunto independiente de datos se procesa en paralelo.
+
+Estas dos estrategias se pueden combinar.
