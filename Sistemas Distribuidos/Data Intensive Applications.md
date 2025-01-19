@@ -97,4 +97,16 @@ Hay distintas formas de obtener un dato en una base de datos particionada:
 
 Es un patrón para manejar el *storage* en un sistema distribuido. Brinda la ilusión de que los procesos tienen una memoria compartida centralizada.
 
-Es un patron intuitivo, y permite que los algoritmos
+Es un patrón intuitivo, y permite que los algoritmos no distribuidos se traduzcan fácilmente, pero desalienta la distribución y poco performante, y tiene un único punto de falla.
+
+### Enfoque Naive
+
+La información es almacenada en el servidor. Los clientes acceden mediante consultas de escritura y lectura. El servidor puede garantizar la consistencia muy fácilmente serializando los consultas.
+
+Este enfoque ofrece muy baja performance.
+
+### Migración de Memory Pages
+
+La información es almacenada en el servidor, pero delegada a los clientes. Esto permite a los clientes manejarla y optimizar su acceso. Otros clientes pueden pedir la página delegada al cliente que la tiene.
+
+Este enfoque no permite acceso concurrente a una página, pero permite
