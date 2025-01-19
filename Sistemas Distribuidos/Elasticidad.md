@@ -22,7 +22,13 @@ Es una plataforma de computación en la nube, ofrecida por Amazon.
 
 Es una plataforma para desplegar contenedores:
 
-- Como *application load balancer*, utiliza *Kubernetes Service*. Este redirecciona tráfico a *pods* listos. Para saber si un contenedor está listo, se utilizan *liveness* y *readiness* *probes* permiten al usuario indicar si un contenedor debe recibir tráfico o no.
-- Como autoscaler, utiliza
+- Como *application load balancer*, utiliza *Kubernetes Service*. Este redirecciona tráfico a contenedores listos. Para saber si un contenedor está listo, se utilizan *probes*.
+- Como *autoscaler*, utiliza *Horizontal Pod Autoscale*. Monitorea los recursos de un conjunto de contenedores, similar a como funciona el de Amazon.
 
 ### Probes
+
+Las *probes* permiten al usuario indicar si un contenedor debe recibir tráfico o no:
+
+- **Liveness**: Determinan cuando reiniciar un contenedor. Por ejemplo, pueden detectar un deadlock.
+- **Readiness**: Determinan cuando un contenedor está listo para recibir tráfico.
+- **Startup**: Determina cuando un contenedor ya comenzó.
