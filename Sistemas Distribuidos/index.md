@@ -42,3 +42,5 @@ title: Sistemas Distribuidos
 ## Varios
 
 - [[Data Intensive Applications]]
+- [[Replicación de Datos]]
+- [[Particionamiento de Datos]]
