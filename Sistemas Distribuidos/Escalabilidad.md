@@ -12,13 +12,16 @@ Otra opción es utilizar arquitecturas ad hoc y **personalizadas**, aunque neces
 
 A partir de como evoluciona la carga en el sistema según el tiempo, se definen distintos patrones de carga:
 
-- **Predictable Burst**: Se conoce que en cierto determinado momento, la carga en el sistema aumenta. Por ejemplo: Navidad.
-- Unpredictable Burst:
-- Per
+- **Predictable Burst**: Se conoce que en cierto determinado momento, la carga en el sistema aumentará, como por ejemplo: Navidad.
+- **Unpredictable Burst**: Fluctuaciones impredecibles en la carga del sistema. Ante estas situaciones, podemos realizar un análisis estadístico para poder predecir la carga del sistema, y anticiparnos a estos momentos.
+- **Periodic Processing**: Durante un determinado intervalo de tiempo, la carga del sistema cesa, como por ejemplo: Transacciones en un sistema bancario.
+- **Start Small, Grow Fast**: Esta relacionado a las startups exc
 
 ![[Escalabilidad 1737314465.png]]
 
 ## Técnicas
+
+Existen distintas técncias para escalar sistemas:
 
 - **Escalamiento vertical**:
 	- Agregar recursos a un nodo
