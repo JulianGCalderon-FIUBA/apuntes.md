@@ -268,7 +268,8 @@
     "Particionamiento",
     "ZeroMQ",
     "Particionar",
-    "Master"
+    "Master",
+    "particionados"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,
