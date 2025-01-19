@@ -1,6 +1,12 @@
-Es una plataforma para procesamiento distribuido de datos. Incluye un motor de ejecución de pipelines de transformación. Las consultas se pueden especificar en un formato similar a SQL.
+Es una plataforma para procesamiento distribuido de datos. Incluye un motor de ejecución de pipelines de transformación.
 
-El framework permite define un *dataflow*, que es un [[Direct Acyclic Graph|DAG]] de operaciones sobre un flujo de datos.
+Ofrece distintos niveles de abstracción para desarrollar las aplicaciones:
+
+- SQL: Lenguaje de alto nivel para especificar consultas
+- Table API: Es un DSL declarativo para especificar consultas
+- DataStream: Es la interfaz principal, y o
+
+El framework permite definir un *dataflow*, que es un [[Direct Acyclic Graph|DAG]] de operaciones sobre un flujo de datos.
 
 Algunos casos de uso comunes son:
 
