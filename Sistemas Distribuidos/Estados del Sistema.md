@@ -36,4 +36,11 @@ Se dice que un corte es **consistente** si por cada evento que contiene, tambié
 
 ## Algoritmo de Chandy & Lamport
 
-Es un algoritmo que permite obtener *snapshots* 
+Es un algoritmo que permite obtener *snapshots* (o cortes consistentes), de estados globales en sistemas distribuidos.
+
+El algoritmo toma las siguientes suposiciones:
+
+- Los procesos y canales de comunicación no fallan.
+- Los canales son unidireccionales y tienen un [[Orden de Mensajes#Orden FIFO|orden fifo]].
+- El grafo de comunicación es fuertemente conexo.
+- Cada proceso puede iniciar un snapshot en cualquier momento.

@@ -16,6 +16,7 @@ title: Sistemas Distribuidos
 
 - [[Speedup]]
 - [[Direccionamiento]]
+- [[Comunicacion Confiable]]
 - [[Grupos de Comunicación]]
 - [[Relojes]]
 - [[Sincronismo]]
