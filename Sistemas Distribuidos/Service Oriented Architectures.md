@@ -20,8 +20,14 @@ El *reverse proxy* es un único punto de falla, por lo que debemos ser cuidadoso
 
 ### Service Oriented Architecture
 
-Si tenemos distintas necesidades en las aplicaciones, y queremos asignar recursos según la aplicación en lugar de todas por igual, surge la necesidad de realizar aplicaciones orientadas a servicios.
+Si tenemos distintas necesidades en las aplicaciones, y queremos asignar recursos según la aplicación en lugar de todas por igual, surge la necesidad de utilizar una *service oriented architecture* (SOA).
 
 ![[Service Oriented Architectures 1737416013.png]]
 
 En estos sistemas, los clientes acceden al registro de servicios para encontrar los procesos orquestadores. Estos a su vez utilizarán uno o varios servicios, que accederán a una a varias bases de datos. Estos elementos se agregarán para lograr algo más complejo.
+
+Si los servicios se comunican entre sí, necesitaremos definir un *service bus*.
+
+SOA no es únicamente la definición de arquitecturas, sino un paradigma orientado al ámbito corporativo. Se complementa con el concepto de BPM (*Business Process Management*):
+
+> "... discipline involving any combination of modeling, automation, execution, control, measurement and optimization of business activity flows, in support of enterprise goals, spanning systems, employees, customers and partners within and beyond the enterprise boundaries" Palmer, Nathaniel.
