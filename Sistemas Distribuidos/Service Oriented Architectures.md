@@ -31,3 +31,13 @@ Si los servicios se comunican entre sí, necesitaremos definir un *service bus*.
 SOA no es únicamente la definición de arquitecturas, sino un paradigma orientado al ámbito corporativo. Se complementa con el concepto de BPM (*Business Process Management*):
 
 > "... discipline involving any combination of modeling, automation, execution, control, measurement and optimization of business activity flows, in support of enterprise goals, spanning systems, employees, customers and partners within and beyond the enterprise boundaries" Palmer, Nathaniel.
+
+La tecnología para desarrollar estas arquitecturas fue:
+
+- *Web services*, con SOAP + HTTP
+- *Enterprise Service Buses*, utilizados para emitir y receptar eventos.
+- *Service repository and discovery*, para encontrar los servicios
+
+## Microservicios
+
+A diferencia de SOA, 
