@@ -40,8 +40,16 @@ La tecnología para desarrollar estas arquitecturas fue:
 
 ## Microservicios
 
-A diferencia de SOA donde todos los servicios accedian a todos los repositorios de datos, los microservicios encapsulan conceptos y están compuestos por un servidor web, una base de datos.
+Los encapsulan un concepto, y estan compuestos por un servidor web y una base de datos.
+
+A diferencia de SOA, , y una base de datos. Es un enfoque con mayor granularidad.
 
 Internamente, los servicios se comunicarán entre sí. Los clientes se comunicarán con aplicaciones y un gateway que conocerá la ubicación de los servicios.
 
 ![[Service Oriented Architectures 1737417009.png]]
+
+## Transición de Arquitecturas
+
+Hay muchos sistemas que trataron/tratan de migrar de una aplicación monolítica, a una arquitectura de microservicios. Esta es una migración difícil de lograr, ya que son enfoques muy distintos.
+
+![[Service Oriented Architectures 1737417286.png]]
