@@ -55,3 +55,7 @@ title: Sistemas Distribuidos
 - [[Escalabilidad]]
 - [[Elasticidad]]
 - [[Alta Disponibilidad]]
+
+## Service Oriented Architectures
+
+- [[Service Oriented Architectures]]
