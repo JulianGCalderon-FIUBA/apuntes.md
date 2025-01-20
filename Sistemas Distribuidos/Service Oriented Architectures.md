@@ -24,4 +24,4 @@ Si tenemos distintas necesidades en las aplicaciones, y queremos asignar recurso
 
 ![[Service Oriented Architectures 1737416013.png]]
 
-En estos sistemas, los clientes acceden al registro de servicios
+En estos sistemas, los clientes acceden al registro de servicios para encontrar los procesos orquestadores. Estos a su vez utilizarán uno o varios servicios, que accederán a una a varias bases de datos. Estos elementos se agregarán para lograr algo más complejo.
