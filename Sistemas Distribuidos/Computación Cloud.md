@@ -30,7 +30,7 @@ La necesidad de utilizar nubes privadas dependerá del contexto. En una nube pú
 - Los servidores compartidos con otros usuarios
 - La disponibilidad de los recursos están garantizados con SLA.
 - Los costos son variables (*pay as you go*)
-- Se accede mediante el internet
+- Se accede mediante internet
 
 Por otro lado, en una nube privada:
 
@@ -38,3 +38,16 @@ Por otro lado, en una nube privada:
 - Los recursos son dedicados, permitiendo controlarlos de forma completa. En situaciones extremas, las plataformas de nube se priorizan a sí mismas.
 - Tiene costos fijos de mantenimiento y expansión. En algunas situaciones es mejor que el costo variable.
 - Se accede mediante intranet.
+
+## Adopción de la Nube
+
+Hay factores políticos que causan la resistencia a la nube:
+
+- Licenciamiento, jurisdicción y perdida de gobernabilidad sobre los datos. No podemos controlar por donde pasan los datos, y a veces esto es importante, en especial para los gobiernos.
+- Incapacidad de influir sobre la toma de decisiones que afecta al hardware. Hay situaciones donde no elijo el sistema operativo, o los lenguajes.
+
+Por otro lado, también existen factores técnicos:
+
+- Hay sistemas obsoletos que son muy costosos de migrar a la nube.
+- Los datos sensibles quedarán expuestos, si los sistemas de seguridad no estan adaptados para esto.
+- 
