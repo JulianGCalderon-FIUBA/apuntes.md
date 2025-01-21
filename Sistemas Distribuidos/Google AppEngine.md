@@ -34,6 +34,6 @@ Crear una instancia puede tomar cierto tiempo, por lo que a veces es preferible 
 
 ## Arquitectura
 
-Hay *front servers* que reciben peticiones, responden las que ya tiene cacheadas.
+Hay *front servers* que reciben peticiones, responden las que ya tiene cacheadas. Las consultas que no pueden s
 
 ![[Google AppEngine 1737426237.png]]
