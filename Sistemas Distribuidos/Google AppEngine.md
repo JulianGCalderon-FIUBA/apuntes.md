@@ -58,7 +58,25 @@ Las instancias acceden a un almacenamiento compartido.
 
 Hay dos tipos principales de colas:
 
-- Colas de push:
+- Colas de *push*:
 	- Envían consultas a instancias activas.
-	- La URL define la instancia, servicio, y versión a atender el mensaje
-	- El payload está dado por los argumentos en la URL y los headers
+	- La *url* define la instancia, servicio, y versión a atender el mensaje.
+	- El *payload* está dado por los argumentos en la URL y los headers.
+- Colas de *pull*:
+	- Permiten encolar tareas para ser consumidas de forma controlada.
+	- Los mensajes están en modo *leasing*: los mensajes son prestados de la cola hasta que se marcan como procesados.
+	- Es en enfoque más usual de colas de tareas.
+
+## Almacenamiento
+
+Utiliza Datastore, una base de datos no relacional administraba por Google.
+
+- Es un modelo de objetos con atributos, llamados *entities*.
+- Los tipos no tienen un esquema, pero tienen atributos indexables, llamados *kinds*.
+
+Este almacenamiento es altamente escalable en el volumen de datos:
+
+- Basado en BigTable
+- Soporta entidades de hasta 1 MB
+- Soporta consultas por clave, o por atributos indexados
+
