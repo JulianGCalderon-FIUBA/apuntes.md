@@ -21,3 +21,11 @@ Además, ofrece los siguientes servicios:
 ## Microservicios
 
 Se definen aplicaciones que pueden comunicarse entre sí. Cada aplicación tiene servicios, que pueden comunicarse entre sí.
+
+A su vez, los servicios tienen su capa de caché, su capa de datastore, y un servicio de colas. Hoy en día, estos servicios se ofrecen por separado.
+
+![[Google AppEngine 1737425829.png]]
+
+Un servicio es un módulo, que permite mantenerr unidad entre las operaciones soportadas. Pueden desplegarse distintas versiones a la vez, y para cada versión pueden existir una o más instancias.
+
+Una instancia (app servers)
