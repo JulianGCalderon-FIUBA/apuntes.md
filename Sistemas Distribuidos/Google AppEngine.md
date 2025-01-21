@@ -66,7 +66,7 @@ Hay dos tipos principales de colas:
 	- El *payload* está dado por los argumentos en la URL y los headers.
 - Colas de *pull*:
 	- Permiten encolar tareas para ser consumidas de forma controlada.
-	- Los mensajes están en modo *leasing*: los mensajes son prestados de la cola hasta que se marcan como procesados.
+	- Los mensajes están en modo *leasing*: los mensajes son prestados de la cola hasta que se marcan como procesados. Es un mecanismo similar al ACK de las colas de RabbitMQ.
 	- Es en enfoque más usual de colas de tareas.
 
 ## Almacenamiento
@@ -82,12 +82,12 @@ Este almacenamiento es altamente escalable en el volumen de datos:
 - Soporta entidades de hasta 1 MB.
 - Permite consultas por clave, o por atributos indexados.
 - Soporta millones de escrituras por segundo, pero no está optimizado para consultas.
-- Implementa operaciones ACID, incluso entre entidades.
+- Garantiza operaciones ACID, incluso entre entidades.
 
 ## Particionado
 
-Los datos se particionan de modo que los árboles de entidades se encuentren en lugares cercanos.
+Los datos se particionan de modo que los árboles de entidades se encuentren en lugares cercanos. Esto permite operaciones atómicas sin tener que sincronizar nodos.
 
 ![[Google AppEngine 1737428341.png]]
 
-Si los datos involucran múltiples nodos, entonces se tienen que usar *cross group transactions*.
+Si los datos involucran múltiples nodos, entonces se tienen que usar *cross group transactions*. Este es un mecanismo muy costoso.
