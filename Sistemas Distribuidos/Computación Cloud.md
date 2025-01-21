@@ -15,3 +15,12 @@ Cuanto más arriba estemos en la pirámide de abstracción, menos control tenemo
 ![[Cloud 1737418864.png]]
 
 ## Beneficios de Cloud
+
+Algunos de los principales beneficios de Cloud, son:
+
+- **Accesibilidad**: Los componentes pueden ser accedidos desde todos lados. Hay movilidad y visibilidad constante de los recursos.
+- **Time-to-Market**: Los recursos están disponibles de forma instantánea.
+- **Escalabilidad:** Hay capacidades "ilimitadas" para alquilar recursos: almacenamiento, ancho de banda, cómputo, memoria, etc.
+- **Costos:** El pago es a demanda, por lo que puedo controlar el gasto según el uso. La accesibilidad, escalabilidad, y confiabildiad es mucho más barata que antes.
+
+## Pública vs. Privada
