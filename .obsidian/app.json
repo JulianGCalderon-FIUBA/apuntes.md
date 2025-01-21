@@ -271,7 +271,8 @@
     "Master",
     "particionados",
     "Componentización",
-    "datastore"
+    "datastore",
+    "Particionado"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,

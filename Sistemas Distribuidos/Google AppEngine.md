@@ -76,7 +76,10 @@ Utiliza Datastore, una base de datos no relacional administraba por Google.
 
 Este almacenamiento es altamente escalable en el volumen de datos:
 
-- Basado en BigTable
-- Soporta entidades de hasta 1 MB
-- Soporta consultas por clave, o por atributos indexados
+- Está basado en BigTable, un *key-value store* y *wide column*.
+- Soporta entidades de hasta 1 MB.
+- Permite consultas por clave, o por atributos indexados
+- Soporta millones de escrituras por segundo, pero no está optimizado para consultas
+- Implementa operaciones ACID, incluso entre entidades.
 
+## Particionado
