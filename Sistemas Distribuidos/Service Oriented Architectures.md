@@ -56,8 +56,14 @@ Hay muchos sistemas que trataron/tratan de migrar de una aplicación monolítica
 
 Si los servicios se vuelven cada vez más pequeños, hasta el punto donde cada servicio es una función, llegamos a arquitecturas *serverless*.
 
-Este modelo fue popularizado por AWS Lambda, un sistema que permitia centrarse únicamente en la lógica de negocio (funciones), y no pensar en como era el despliegue del sistema.
+Este modelo fue popularizado por AWS Lambda, un sistema que permitía centrarse únicamente en la lógica de negocio (funciones), y no pensar en como era el despliegue del sistema.
+
+Esta arquitectura permite asignar recursos o permisos a funciones particulares, sin tener que agruparlas en servicios.
+
+La comunicación entre las funciones también está resuelta dentro de la plataforma
 
 ![[Service Oriented Architectures 1737417667.png]]
 
-Esto evolucionó a ser utilizado para desplegar contenedores (o microservicios), sin importar donde se estaban desplegando.
+Esto evolucionó a ser utilizado para desplegar contenedores (o microservicios), sin importar donde o como se estaban desplegando.
+
+Al usar *serverless*, todos los elementos están en la nube, por lo que es poco probable que algún componente se caiga.
