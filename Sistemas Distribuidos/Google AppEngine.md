@@ -26,6 +26,14 @@ A su vez, los servicios tienen su capa de caché, su capa de datastore, y un ser
 
 ![[Google AppEngine 1737425829.png]]
 
-Un servicio es un módulo, que permite mantenerr unidad entre las operaciones soportadas. Pueden desplegarse distintas versiones a la vez, y para cada versión pueden existir una o más instancias.
+Un servicio (módulo), que permite mantenerr unidad entre las operaciones soportadas. Pueden desplegarse distintas versiones a la vez, y para cada versión pueden existir una o más instancias.
 
-Una instancia (app servers)
+Una instancia (app servers o backend servers) es una unidad de procesamiento. Puede ser dinámica o residente. Las dinámicas se crean automáticamente al recibir consultas, mientras que las residentes se escalan de forma manual.
+
+Crear una instancia puede tomar cierto tiempo, por lo que a veces es preferible definir instancias residentes.
+
+## Arquitectura
+
+Hay data centers
+
+![[Google AppEngine 1737426237.png]]
