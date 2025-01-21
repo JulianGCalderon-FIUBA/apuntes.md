@@ -57,9 +57,9 @@ Por otro lado, también existen factores técnicos:
 Es un sistema que ofrece una plataforma para desarrollar, esto incluye:
 
 - **Infraestructura**: Permite desplegar fácilmente, sin tener que preocuparnos por el hardware.
-- **Plataforma de desarrollo**: Se ofrecen sistemas operativos definidos seguros, bibliotecas y todo lo necesario para desarrollar una aplicación.
-- **Persistencia**: Se ofrecen mecanismos de persistencia, aunque la variedad generalmente es limitada.
-- **Monitoreo**: Hay monitoreo automático de las aplicaciones.
+- **Plataforma de desarrollo**: Se ofrecen sistemas operativos definidos, bibliotecas y todas las dependencias necesarias para desarrollar una aplicación.
+- **Persistencia**: Se ofrecen distintos mecanismos de persistencia, aunque la variedad generalmente es limitada.
+- **Monitoreo**: Hay monitoreo automático de las aplicaciones de distinto tipo.
 - **Escalabilidad**: Facilita la escalabilidad del sistema, con balanceo de carga y sistemas elásticos.
 
 ![[Computación Cloud 1737420468.png]]
