@@ -78,8 +78,14 @@ Este almacenamiento es altamente escalable en el volumen de datos:
 
 - Está basado en BigTable, un *key-value store* y *wide column*.
 - Soporta entidades de hasta 1 MB.
-- Permite consultas por clave, o por atributos indexados
-- Soporta millones de escrituras por segundo, pero no está optimizado para consultas
+- Permite consultas por clave, o por atributos indexados.
+- Soporta millones de escrituras por segundo, pero no está optimizado para consultas.
 - Implementa operaciones ACID, incluso entre entidades.
 
 ## Particionado
+
+Los datos se particionan de modo que los árboles de entidades se encuentren en lugares cercanos.
+
+![[Google AppEngine 1737428341.png]]
+
+Si los datos involucran múltiples nodos, entonces se tienen que usar *cross group transactions*.

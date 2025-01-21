@@ -14,6 +14,8 @@ Cuanto más arriba estemos en la pirámide de abstracción, menos control tenemo
 
 ![[Cloud 1737418864.png]]
 
+En el siguiente diagrama, se ven servicios del ecosistema 
+
 ## Beneficios de Cloud
 
 Algunos de los principales beneficios de Cloud, son:
