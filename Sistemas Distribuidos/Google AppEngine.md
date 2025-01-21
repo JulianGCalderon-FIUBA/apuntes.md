@@ -45,3 +45,20 @@ Una instancia (app servers o backend servers) es una unidad de procesamiento, qu
 Hay *front servers* que reciben peticiones, responden las que ya tiene cacheadas. Las consultas que no pueden ser resueltas son reenviadas a la aplicación.
 
 ![[Google AppEngine 1737426237.png]]
+
+Las consultas llegan a una cola de tipo *push*. En lugar de esperar a que otro proceso tome el mensaje, la cola es un elemento activo que puede crear instancias de forma dinámica. Además, puede actuar como balanceo de carga.
+
+![[Google AppEngine 1737427429.png]]
+
+Las consultas largas van a otras colas de tipo *pull* para ser resueltas de forma asincrónica, por un proceso residente.
+
+Las instancias acceden a un almacenamiento compartido.
+
+## Tipos de Colas
+
+Hay dos tipos principales de colas:
+
+- Colas de push:
+	- Envían consultas a instancias activas.
+	- La URL define la instancia, servicio, y versión a atender el mensaje
+	- El payload está dado por los argumentos en la URL y los headers
