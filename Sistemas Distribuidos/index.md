@@ -59,4 +59,4 @@ title: Sistemas Distribuidos
 ## Service Oriented Architectures
 
 - [[Evolución de Arquitecturas]]
-- [[Cloud]]
+- [[Computación Cloud]]
