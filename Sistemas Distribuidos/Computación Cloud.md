@@ -18,6 +18,18 @@ En el siguiente diagrama, se ven servicios del ecosistema Google en diferentes l
 
 ![[Computación Cloud 1737428530.png]]
 
+## Platform as a Service (PaaS)
+
+Es un sistema que ofrece una plataforma para desarrollar, esto incluye:
+
+- **Infraestructura**: Permite desplegar fácilmente, sin tener que preocuparnos por el hardware.
+- **Plataforma de desarrollo**: Se ofrecen sistemas operativos definidos, bibliotecas y todas las dependencias necesarias para desarrollar una aplicación.
+- **Persistencia**: Se ofrecen distintos mecanismos de persistencia, aunque la variedad generalmente es limitada.
+- **Monitoreo**: Hay monitoreo automático de las aplicaciones de distinto tipo.
+- **Escalabilidad**: Facilita la escalabilidad del sistema, con balanceo de carga y sistemas elásticos.
+
+![[Computación Cloud 1737420468.png]]
+
 ## Beneficios de Cloud
 
 Algunos de los principales beneficios de Cloud, son:
@@ -55,15 +67,3 @@ Por otro lado, también existen factores técnicos:
 - Hay sistemas obsoletos que son muy costosos de migrar a la nube.
 - Los datos sensibles quedarán expuestos, si los sistemas de seguridad no están adaptados para esto.
 - Al ser una arquitectura y tecnología nueva, se genera una resistencia al cambio.
-
-## Platform as a Service (PaaS)
-
-Es un sistema que ofrece una plataforma para desarrollar, esto incluye:
-
-- **Infraestructura**: Permite desplegar fácilmente, sin tener que preocuparnos por el hardware.
-- **Plataforma de desarrollo**: Se ofrecen sistemas operativos definidos, bibliotecas y todas las dependencias necesarias para desarrollar una aplicación.
-- **Persistencia**: Se ofrecen distintos mecanismos de persistencia, aunque la variedad generalmente es limitada.
-- **Monitoreo**: Hay monitoreo automático de las aplicaciones de distinto tipo.
-- **Escalabilidad**: Facilita la escalabilidad del sistema, con balanceo de carga y sistemas elásticos.
-
-![[Computación Cloud 1737420468.png]]
