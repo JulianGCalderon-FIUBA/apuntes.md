@@ -28,12 +28,20 @@ A su vez, los servicios tienen su capa de caché, su capa de datastore, y un ser
 
 Un servicio (módulo), que permite mantenerr unidad entre las operaciones soportadas. Pueden desplegarse distintas versiones a la vez, y para cada versión pueden existir una o más instancias.
 
-Una instancia (app servers o backend servers) es una unidad de procesamiento. Puede ser dinámica o residente. Las dinámicas se crean automáticamente al recibir consultas, mientras que las residentes se escalan de forma manual.
+Una instancia (app servers o backend servers) es una unidad de procesamiento, que uede ser dinámica o residente:
 
-Crear una instancia puede tomar cierto tiempo, por lo que a veces es preferible definir instancias residentes.
+- Instancias dinámicas:
+	- Se crean dinámicamente, aunque hacerlo toma un poco de tiempo.
+	- Procesan consultas pequeñas.
+	- Fuerzan respuestas rápidas y sin manejo de estado.
+	- Pueden aceptar consultas externas o internas.
+- Instancias residentes:
+	- Son creadas de forma manual mediante configuración. A veces es preferible tener instancias precalentadas (*warmed up*) para evitar el costo de inicio ante una consulta.
+	- No existen límites para su empleo y se pueden elegir su capacidad de cómputo
+	- Procesas consultas largas, especialmente en baches (con o sin estado)
 
 ## Arquitectura
 
-Hay *front servers* que reciben peticiones, responden las que ya tiene cacheadas. Las consultas que no pueden s
+Hay *front servers* que reciben peticiones, responden las que ya tiene cacheadas. Las consultas que no pueden ser resueltas son reenviadas a la aplicación.
 
 ![[Google AppEngine 1737426237.png]]
