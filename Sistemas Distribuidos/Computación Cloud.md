@@ -49,5 +49,17 @@ Hay factores políticos que causan la resistencia a la nube:
 Por otro lado, también existen factores técnicos:
 
 - Hay sistemas obsoletos que son muy costosos de migrar a la nube.
-- Los datos sensibles quedarán expuestos, si los sistemas de seguridad no estan adaptados para esto.
-- 
+- Los datos sensibles quedarán expuestos, si los sistemas de seguridad no están adaptados para esto.
+- Al ser una arquitectura y tecnología nueva, se genera una resistencia al cambio.
+
+## Platform as a Service (PaaS)
+
+Es un sistema que ofrece una plataforma para desarrollar, esto incluye:
+
+- Infraestructura: Permite desplegar fácilmente, sin tener que preocuparnos por el hardware.
+- Plataforma de desarrollo:
+- Persistencia
+- Monitoreo
+- Escalabilidad
+
+![[Computación Cloud 1737420468.png]]
