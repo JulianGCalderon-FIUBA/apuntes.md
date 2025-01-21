@@ -1,6 +1,4 @@
-## Evolución de Arquitecturas
-
-### Monolíticas
+## Monolíticas
 
 Esta fue la arquitectura más usada en la historia del internet. A medida que crece el sistema, crece el *web server*.
 
@@ -18,7 +16,7 @@ Esto nos da la posibilidad de routear consultas según distintos criterios, como
 
 El *reverse proxy* es un único punto de falla, por lo que debemos ser cuidadosos con las responsabilidades que le asignamos.
 
-### Service Oriented Architecture
+## Service Oriented Architecture
 
 Si tenemos distintas necesidades en las aplicaciones, y queremos asignar recursos según la aplicación en lugar de todas por igual, surge la necesidad de utilizar una *service oriented architecture* (SOA).
 
@@ -60,10 +58,10 @@ Este modelo fue popularizado por AWS Lambda, un sistema que permitía centrarse 
 
 Esta arquitectura permite asignar recursos o permisos a funciones particulares, sin tener que agruparlas en servicios.
 
-La comunicación entre las funciones también está resuelta dentro de la plataforma
+La comunicación entre las funciones también está resuelta dentro de la plataforma. Cada función tiene una *url* para poder llamarla, pero también puede ser invocada al escuchar eventos en una cola.
 
 ![[Service Oriented Architectures 1737417667.png]]
 
 Esto evolucionó a ser utilizado para desplegar contenedores (o microservicios), sin importar donde o como se estaban desplegando.
 
-Al usar *serverless*, todos los elementos están en la nube, por lo que es poco probable que algún componente se caiga.
+Al migrar a *serverless*, todos los elementos pasan a estar en la nube y de forma distribuida, por lo que es poco probable que algún componente se caiga.
