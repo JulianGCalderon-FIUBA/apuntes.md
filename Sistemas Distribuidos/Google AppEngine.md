@@ -1,5 +1,7 @@
 Es un servicio de [[Computación Cloud#Platform as a Service (PaaS)|PaaS]] de Google, iniciado en 2008. Ofrece servicios gratuitos y servicios de pago.
 
+![[Google AppEngine 1737428574.png]]
+
 ## Objetivos de Diseño
 
 El concepto consiste en una plataforma donde las buenas prácticas son forzadas:
