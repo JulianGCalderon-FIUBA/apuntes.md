@@ -34,6 +34,6 @@ Crear una instancia puede tomar cierto tiempo, por lo que a veces es preferible 
 
 ## Arquitectura
 
-Hay data centers
+Hay *front servers* que reciben peticiones, responden las que ya tiene cacheadas.
 
 ![[Google AppEngine 1737426237.png]]
