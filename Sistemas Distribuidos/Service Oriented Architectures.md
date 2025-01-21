@@ -40,11 +40,9 @@ La tecnología para desarrollar estas arquitecturas fue:
 
 ## Microservicios
 
-Los encapsulan un concepto, y estan compuestos por un servidor web y una base de datos.
+Los microservicios encapsulan un concepto, y están compuestos por un servidor web y una base de datos. A diferencia de en SOA, los microservicios tienen mayor granularidad y mayor encapsulamiento.
 
-A diferencia de SOA, , y una base de datos. Es un enfoque con mayor granularidad.
-
-Internamente, los servicios se comunicarán entre sí. Los clientes se comunicarán con aplicaciones y un gateway que conocerá la ubicación de los servicios.
+Internamente, los servicios se comunicarán entre sí. Externamente, los clientes se comunicarán con aplicaciones y un gateway que conocerá la ubicación de los servicios.
 
 ![[Service Oriented Architectures 1737417009.png]]
 
@@ -53,3 +51,13 @@ Internamente, los servicios se comunicarán entre sí. Los clientes se comunicar
 Hay muchos sistemas que trataron/tratan de migrar de una aplicación monolítica, a una arquitectura de microservicios. Esta es una migración difícil de lograr, ya que son enfoques muy distintos.
 
 ![[Service Oriented Architectures 1737417286.png]]
+
+## Serverless
+
+Si los servicios se vuelven cada vez más pequeños, hasta el punto donde cada servicio es una función, llegamos a arquitecturas *serverless*.
+
+Este modelo fue popularizado por AWS Lambda, un sistema que permitia centrarse únicamente en la lógica de negocio (funciones), y no pensar en como era el despliegue del sistema.
+
+![[Service Oriented Architectures 1737417667.png]]
+
+Esto evolucionó a ser utilizado para desplegar contenedores (o microservicios), sin importar donde se estaban desplegando.
