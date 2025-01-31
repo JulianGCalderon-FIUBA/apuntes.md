@@ -58,11 +58,11 @@ Para definir el nivel de tolerancia a fallos de un sistema, es necesario indicar
 
 Las condiciones se pueden separar en dos tipos:
 
-- **Condiciones del entorno**
+- **Condiciones del entorno**:
 	- Entorno físico del hardware, como temperatura, polvo, etc.
 	- Interferencia y ruido.
 	- *Drift* del reloj.
-- **Condiciones operacionales**
+- **Condiciones operacionales**:
 	- Especificaciones, valores límite y tiempos de respuesta.
 	- Ancho de banda, latencia
 	- Protocolos soportado
@@ -74,4 +74,19 @@ Hay distintas estrategias para manejar los fallos:
 - **Fault removal**: Eliminar los errores antes de que sucedan. Por ejemplo: estrategias de *code correction* para evitar cambios de bits.
 - **Fault prevention:** Evitar las condiciones que llevan a los errores. Por ejemplo: con componentes que impidan que haya fallos (relojes atómicos, componentes de grado militar).
 - **Fault forecasting:** Determinar la probabilidad de que un componente pueda fallar, y reemplazarlo. Por ejemplo: reemplazar componentes cada cierta cantidad de horas de uso.
-- **Fault toelrance:** Procesas los errores del sistema, en lugar de evitar que sucedan. Es la estrategía mas común en soft
+- **Fault tolerance:** Procesas los errores del sistema, en lugar de evitar que sucedan. Es la estrategía más común en software.
+
+## Resiliencia
+
+La resiliencia consiste en la capacidad de mantener un nivel aceptable de servicio en presencia de fallos.
+
+Se dice que un sistema tiene degradación suave (*graceful degradation*) cuando el comportamiento se degrada, pero continúa siendo aceptable.
+
+## Recuperación
+
+La recuperación consiste en tras un error, llevar el sistema a un estado correcto. Algunas estrategias para lograrlo son:
+
+- Almacenamiento estable.
+- **Checkpoints**: se guarda periódicamente el estado completo del sistema en almacenamiento estable.
+- **Message logging**: Se parte de un checkpoint y se repiten todos los mensajes intercambiados desde ese checkpoint.
+- **Consenso**: Se acorda el estado correcto.
