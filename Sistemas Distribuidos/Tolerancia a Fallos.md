@@ -46,8 +46,19 @@ Es importante entender la diferencia entre fallos **improbables**, y fallos **im
 
 Otra forma de clasificar los fallos es:
 
-- Crash: se detiene el servicio
-- Timing: Se da una respuesta fuera de los tiempos aceptables
-- Omision: El servicio falla al resopnder solicitudes entrantes
-- Rsepuesta: La respuesta es incorrecta
-- Arbitraria: Es arbitraria en tiempso y respuesta; la infor
+- **Crash**: se detiene el servicio por completo.
+- **Timing**: Se da una respuesta fuera de los tiempos aceptables.
+- **Omisión**: El servicio falla al responder solicitudes entrantes.
+- **Respuesta**: La respuesta es incorrecta.
+- **Bizantina**: Es arbitraria en tiempos y respuesta; la información es diferente para distintos consumidores. A veces lo hace por motivos maliciosos.
+
+## Condiciones de Trabajo
+
+Para definir el nivel de tolerancia a fallos de un sistema, es necesario indicar en que condiciones opera el sistema:
+
+- Condiciones del entorno:
+	- Entorno físico del hardware, como temperatura, polvo, etc.
+	- Interferencia y ruido.
+	- *Drift* del reloj.
+- Condiciones operacionales:
+	- Especificaciones, valores límite y tei
