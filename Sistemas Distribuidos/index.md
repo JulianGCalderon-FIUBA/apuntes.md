@@ -61,3 +61,7 @@ title: Sistemas Distribuidos
 - [[Evolución de Arquitecturas]]
 - [[Computación Cloud]]
 - [[Google AppEngine]]
+
+## Tolerancia a Fallos
+
+- [[Tolerancia a Fallos]]
