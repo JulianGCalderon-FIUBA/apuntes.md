@@ -74,7 +74,7 @@ Hay distintas estrategias para manejar los fallos:
 - **Fault removal**: Eliminar los errores antes de que sucedan. Por ejemplo: estrategias de *code correction* para evitar cambios de bits.
 - **Fault prevention:** Evitar las condiciones que llevan a los errores. Por ejemplo: con componentes que impidan que haya fallos (relojes atómicos, componentes de grado militar).
 - **Fault forecasting:** Determinar la probabilidad de que un componente pueda fallar, y reemplazarlo. Por ejemplo: reemplazar componentes cada cierta cantidad de horas de uso.
-- **Fault tolerance:** Procesas los errores del sistema, en lugar de evitar que sucedan. Es la estrategía más común en software.
+- **Fault tolerance:** Procesas los errores del sistema, en lugar de evitar que sucedan. Es la estrategia más común en software.
 
 ## Resiliencia
 
@@ -86,12 +86,12 @@ Se dice que un sistema tiene degradación suave (*graceful degradation*) cuando 
 
 La recuperación consiste en tras un error, llevar el sistema a un estado correcto. Una forma de lograrlo es:
 
-- En primer lugar, necesitamos un almacenamiento estable.
-- **Checkpoints**: se guarda periódicamente el estado completo del sistema en almacenamiento estable. De esta forma, podemos volver a un escenario previo al fallo.
+- **Almacenamiento estable**: En primer lugar, necesitamos un almacenamiento seguro.
+- **Checkpoints**: Se guarda periódicamente el estado completo del sistema en almacenamiento estable. De esta forma, podemos volver a un escenario previo al fallo.
 - **Message logging**: Se parte de un checkpoint válido y se repiten todos los mensajes intercambiados desde ese checkpoint.
-- **Consenso**: En caso de ser necesario, se acuerda el estado correcto.
+- **Consenso**: En caso de ser necesario, se acuerda entre los componentes vivos el estado correcto.
 
-Estos mecanismo son costosos, pero es mejor que no tener ninguna forma de restaurar el sistema.
+Estos mecanismos son costosos, pero es mejor que no tener ninguna forma de restaurar el sistema.
 
 ## Redundancia
 
@@ -109,4 +109,6 @@ Podemos utilizar algoritmos de consenso para obtener el estado real cuando hay d
 
 Hay distintos tipos de replicación:
 
-- Activa: Hay múltiples réplicas de la misma máquina de estado, que ejecutan las mismas operaciones en el mismo orden. Por ejemplo: blockchain.
+- **Pasiva**: Hay una réplica primaria que procesa la información, y varias secundarias (o de respaldo) que reciben actualizaciones del líder
+- **Activa**: Hay múltiples réplicas de la misma máquina de estado, que ejecutan las mismas operaciones en el mismo orden. Por ejemplo: blockchain.
+- **Semi-activa** (*leader-follower*): Todas las réplicas ejecutan los comandos, pero una sola (el líder) toma las decisiones no determinísticas. Hay un balanceador de carga que envía las consultas a las réplicas.
