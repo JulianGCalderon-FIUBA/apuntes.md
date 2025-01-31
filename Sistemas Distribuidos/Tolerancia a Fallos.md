@@ -14,4 +14,12 @@ Algunas herramientas para lograr esto son:
 
 ## Generación de Fallos
 
-Un fallo o *fault* causa la ocurrencia de un estado de error en el sistema. Esto eventualmente desencadena en un comportamiento incorrecto: falla o averia (*failure*).
+Un **fallo** o *fault* causa la ocurrencia de un estado de **error** en el sistema. Esto eventualmente desencadena en un comportamiento incorrecto: falla o **avería** (*failure*). Se busca que todos los fallos (o errores) se encapsulen y que nunca se llegue a una avería.
+
+Un fallo parcial ocurre cuando un componente de un sistema distribuido incurre en error. Es una característica distintiva de los sistemas distribuidos, y puede generar una reacción encadena que afecta al comportamiento del sistema completo.
+
+Por ejemplo:
+
+- Un rayo cósmico cambia el estado de un bit en memoria: esto es un **fallo**.
+- Esto causa que un puntero apunte a una dirección inválida: hay un **error** en el estado del sistema.
+- Eventualmente, el programa accedera a esta dirección de memoria inválida y morirá: esto es una falla
