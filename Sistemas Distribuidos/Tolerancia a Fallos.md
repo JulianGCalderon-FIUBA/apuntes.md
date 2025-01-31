@@ -54,11 +54,24 @@ Otra forma de clasificar los fallos es:
 
 ## Condiciones de Trabajo
 
-Para definir el nivel de tolerancia a fallos de un sistema, es necesario indicar en que condiciones opera el sistema:
+Para definir el nivel de tolerancia a fallos de un sistema, es necesario indicar en que condiciones opera el sistema.
 
-- Condiciones del entorno:
+Las condiciones se pueden separar en dos tipos:
+
+- **Condiciones del entorno**
 	- Entorno físico del hardware, como temperatura, polvo, etc.
 	- Interferencia y ruido.
 	- *Drift* del reloj.
-- Condiciones operacionales:
-	- Especificaciones, valores límite y tei
+- **Condiciones operacionales**
+	- Especificaciones, valores límite y tiempos de respuesta.
+	- Ancho de banda, latencia
+	- Protocolos soportado
+
+## Estrategias de Manejo de Fallos
+
+Hay distintas estrategias para manejar los fallos:
+
+- **Fault removal**: Eliminar los errores antes de que sucedan. Por ejemplo: estrategias de *code correction* para evitar cambios de bits.
+- **Fault prevention:** Evitar las condiciones que llevan a los errores. Por ejemplo: con componentes que impidan que haya fallos (relojes atómicos, componentes de grado militar).
+- **Fault forecasting:** Determinar la probabilidad de que un componente pueda fallar, y reemplazarlo. Por ejemplo: reemplazar componentes cada cierta cantidad de horas de uso.
+- **Fault toelrance:** Procesas los errores del sistema, en lugar de evitar que sucedan. Es la estrategía mas común en soft
