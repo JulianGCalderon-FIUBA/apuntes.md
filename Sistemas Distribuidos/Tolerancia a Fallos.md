@@ -4,7 +4,7 @@ La tolerancia a fallos estudia las necesidades de los sistemas confiables (*depe
 - Busca prevenir la aparición de fallas de cara al usuario, tanto normales como excepcionales.
 - Hay distintas alternativas para prevenir o tolerar cada situación.
 
-La idea es que el sistema nunca salga de estados definidos.
+La idea es que el sistema nunca salga de estados definidos. Todo escenario debe estar contemplado, y debe haber una forma para volver al flujo habitual.
 
 Se permite definir la inversión y el nivel de tolerancia para cada tipo de sistema.
 
@@ -38,4 +38,16 @@ Otro ejemplo:
 
 Los fallos se clasifican en:
 
-- Transientes: ocurren una vez y luego despa
+- **Transientes**: ocurren una vez y luego desaparecen; si se repite la operación, el fallo desaparece. Es un ello esporádico.
+- **Intermitentes**: Ocurren de forma intermitente; son difíciles de diagnosticar.
+- **Permanentes**: Existen hasta que los componentes defectuosos se reemplaza: se rompe el disco.
+
+Es importante entender la diferencia entre fallos **improbables**, y fallos **imposibles**: ¿Es imposible que una lluvia solar altere el estado de un sistema?
+
+Otra forma de clasificar los fallos es:
+
+- Crash: se detiene el servicio
+- Timing: Se da una respuesta fuera de los tiempos aceptables
+- Omision: El servicio falla al resopnder solicitudes entrantes
+- Rsepuesta: La respuesta es incorrecta
+- Arbitraria: Es arbitraria en tiempso y respuesta; la infor
