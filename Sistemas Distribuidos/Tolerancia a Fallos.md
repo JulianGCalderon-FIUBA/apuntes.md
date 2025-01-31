@@ -84,12 +84,14 @@ Se dice que un sistema tiene degradación suave (*graceful degradation*) cuando 
 
 ## Recuperación
 
-La recuperación consiste en tras un error, llevar el sistema a un estado correcto. Algunas estrategias para lograrlo son:
+La recuperación consiste en tras un error, llevar el sistema a un estado correcto. Una forma de lograrlo es:
 
-- Almacenamiento estable.
-- **Checkpoints**: se guarda periódicamente el estado completo del sistema en almacenamiento estable.
-- **Message logging**: Se parte de un checkpoint y se repiten todos los mensajes intercambiados desde ese checkpoint.
-- **Consenso**: Se acuerda el estado correcto.
+- En primer lugar, necesitamos un almacenamiento estable.
+- **Checkpoints**: se guarda periódicamente el estado completo del sistema en almacenamiento estable. De esta forma, podemos volver a un escenario previo al fallo.
+- **Message logging**: Se parte de un checkpoint válido y se repiten todos los mensajes intercambiados desde ese checkpoint.
+- **Consenso**: En caso de ser necesario, se acuerda el estado correcto.
+
+Estos mecanismo son costosos, pero es mejor que no tener ninguna forma de restaurar el sistema.
 
 ## Redundancia
 
@@ -99,4 +101,12 @@ Consiste en tolerar los errores mediante a redundancia. Esta puede ser de varios
 - **Información**: Se guarda información de más. Los sistemas de *code correction* utilizan este tipo de redundancia.
 - **Tiempo**: Se utilizan reintentos ante un error.
 
-Ante situaciones donde hay un único punto de fallo, debemos tratar de replicarlo. Podemos utilizar algoritmos de consenso para 
+## Replicación
+
+Ante situaciones donde hay un único punto de fallo, debemos tratar de replicarlo.
+
+Podemos utilizar algoritmos de consenso para obtener el estado real cuando hay discrepancias. Si la red se particiona, es muy difícil reconciliar el estado.
+
+Hay distintos tipos de replicación:
+
+- Activa: Hay múltiples réplicas de la misma máquina de estado, que ejecutan las mismas operaciones en el mismo orden. Por ejemplo: blockchain.
