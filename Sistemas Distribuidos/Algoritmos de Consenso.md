@@ -31,16 +31,24 @@ Algunos requerimientos necesarios de los algoritmos de consenso, son:
 
 ## Algoritmo Sincrónico
 
-Cada proceso almacena, en cada instante de tiempo, el valor computado por todos los procesos.
+Cada proceso $p_i$ tiene la variable `state(x,y)` que almacena la información de cada proceso `x` en el instante de tiempo `y`.
+
+Al iniciar el proceso:
 
 ```
-Values(x,y):
-  - x -> numero de proceso
-  - y -> instante de tiempo
-	Values(x, y)
+set state(i, 0) = {}
+set state(i, 1) = { v }
 ```
 
 En cada ronda, los procesos envían los valores computados en esa ronda a todo el resto de procesos. Cada proceso recibe los datos del resto de procesos y los almacena.
+
+```
+For each round r, with 1 < r <= f+1:
+     broadcast state(i, r) - state(i, r-1)
+     set state(i, r+1) = state(i, r)
+     For each process j:
+	     receive state from j into state(j, r)
+```
 
 Tras $f$ rondas, se aplica una función de agregación sobre el estado, y como la información total es la misma (ya que todos los procesos compartían los datos computados en cada ronda), entonces la decisión será determinística.
 
