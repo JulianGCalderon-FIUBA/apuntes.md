@@ -22,3 +22,7 @@ Se busca resolver los siguientes problemas:
  - Determinación del valor correcto de una propiedad.
 
 ## Algoritmo de Consenso Simple
+
+Dados $n$ procesos, se quiere llegar a un acuerdo sobre un valor particular. Cada proceso almacena, en cada instante de tiempo, el valor computado por cada proceso.
+
+En cada ronda, los procesos 
