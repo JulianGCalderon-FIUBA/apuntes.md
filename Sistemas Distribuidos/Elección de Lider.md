@@ -46,6 +46,15 @@ Se definen las siguientes variables:
 - `t_proceso`: Tiempo máximo de cualquier proceso para resolver un mensaje.
 - `T`: Tiempo para detectar procesos caídos, calculado como `2 * t_max + t_proceso`.
 
-El proceso con mayor identificador puede identificarse como líder, y envía un mensaje de "coordinador" a todos los procesos del sistema, indicando que él es el líder. Los procesos al recibir este mensaje, eligen al proceso que envío el mensaje como líder.
+El proceso con mayor identificador puede identificarse como líder, y envía un mensaje de "coordinador" a todos los procesos del sistema, indicando que él es el líder:
 
-Si un proceso detecta el líder está caído, envía un mensaje de "elección" a todos los procesos con un identificador mayor al suyo. Los procesos al recibir este mensaje, responden con un mensaje "ack".
+- Los procesos al recibir este mensaje, eligen al proceso que envío el mensaje como líder.
+
+Si un proceso detecta el líder está caído, envía un mensaje de "elección" a todos los procesos con un identificador mayor al suyo:
+
+- Los procesos al recibir este mensaje, responden con un mensaje "ack", y comienzan una nueva elección.
+- Si un proceso que comenzó una elección no recibe respuesta luego de un tiempo transcurrido $T$, este se autoproclama líder.
+
+Eventualmente, el proceso vivo con mayor identificador recibira un mensaje "elección", y al obtener respuesta del resto se autoproclamará como líder.
+
+Si un proceso caído vuelve a la vida, comienza una nueva elección de lider. Si este es el que posee el mayor identificador, será elegido como nuevo líder.
