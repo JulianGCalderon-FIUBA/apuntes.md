@@ -31,3 +31,7 @@ Cuando un proceso recibe un mensaje de elección de líder:
 	- Si es igual al suyo, entonces es el líder.
 
 Cuando un proceso reconoce que es el líder, entonces cambia su estado a "no participando", y envía un mensaje de "líder elegido".
+
+Cuando un proceso recibe un mensaje de "líder elegido", cambia su estado a "no participando", y registra el nuevo líder. Si el identificador es distinto al suyo, retransmite el mensaje.
+
+Pérdida
