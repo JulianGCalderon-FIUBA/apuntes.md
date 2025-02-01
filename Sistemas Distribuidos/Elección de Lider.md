@@ -36,9 +36,9 @@ Cuando un proceso recibe un mensaje de "líder elegido", cambia su estado a "no 
 
 ### Algoritmo Bully
 
-Este algoritmo asume que cualquier proceso puede morir de forma inesperada, por lo que utiliza timeouts para detectar que un proceso no está respondiendo.
+Este algoritmo asume que cualquier proceso puede morir de forma inesperada, por lo que utiliza *timeouts* para detectar que un proceso no está respondiendo.
 
-Asume que
+Asume que todos los procesos pueden comunicarse entre sí, y conocen los identificadores de todo el resto de procesos.
 
 Se definen las siguientes variables:
 
