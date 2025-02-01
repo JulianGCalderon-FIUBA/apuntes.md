@@ -184,3 +184,5 @@ Al ser un problema complejo, se suelen tomar suposiciones, por ejemplo:
 - La caída de un proceso no puede ocasionar la caída de otro.
 
 ### Coordinación y Acuerdo
+
+El objetivo es lograr que un conjunto de procesos pueda realizar ciertas tareas siguiendo una secuencia, permitiendo la replicación de información y evitar los puntos únicos de fallo.
