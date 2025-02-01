@@ -205,6 +205,10 @@ El objetivo es crear un algoritmo que permita pedir y obtener acceso exclusivo a
 
 Recordemos que las propiedades que se buscan cumplir:
 
-- Safety: Solo un proceso puede obtener el recurso en todo momento.
-- Liveness: Si un proceso está listo para recibir un recurso, debe obtenerlo eventualmente.
-- Fairness: Cada proc
+- **Safety**: Solo un proceso puede obtener el recurso en todo momento.
+- **Liveness**: Si un proceso está listo para recibir un recurso, debe obtenerlo eventualmente.
+- **Fairness**: El uso del recurso se distribuye de forma uniforme entre los procesos.
+
+#### Servidor Central
+
+Se designa alguno de por procesos del sistema como coordinación de la sección crítica.
