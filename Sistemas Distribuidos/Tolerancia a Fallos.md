@@ -170,4 +170,8 @@ Es necesario definir un **Disaster Recovery Process** para la infraestructura y 
 
 El tiempo de restauración debe ser conocido para poder garantizar los SLA.
 
-Los escenarios catastróficos deben ser testeados.
+Los escenarios catastróficos deben ser testeados. En algunas situaciones se fuerza la caída de algunos componentes para ver como se comporta el sistema, o para ver si el protocolo funciona correctamente.
+
+## Consenso
+
+El consenso es un
