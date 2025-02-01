@@ -30,4 +30,4 @@ Cuando un proceso recibe un mensaje de elección de líder:
 	- Si es mayor al suyo, reenvía el mensaje.
 	- Si es igual al suyo, entonces es el líder.
 
-Cuando un proceso
+Cuando un proceso reconoce que es el líder, entonces cambia su estado a "no participando", y envía un mensaje de "líder elegido".
