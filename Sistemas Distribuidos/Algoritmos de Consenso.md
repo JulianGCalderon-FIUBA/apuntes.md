@@ -3,9 +3,9 @@ El consenso es un procedimiento para un conjunto de procesos distribuidos acuerd
 Al ser un problema complejo, se suelen tomar suposiciones, por ejemplo:
 
 - Los canales de comunicación son *reliables*.
-- Todos los procesos pueden comunicarse entre sí.
+- Todos los procesos pueden comunicarse entre sí: no hay particionamiento de redes.
 - La única falla a considerar es la caída de un proceso.
-- La caída de un proceso no puede ocasionar la caída de otro.
+- La caída de un proceso no puede ocasionar la caída de otro. Esto no ocurre si los sistemas se encuentran en la misma computadora.
 
 ## Coordinación y Acuerdo
 
