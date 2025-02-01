@@ -44,12 +44,20 @@ En cada ronda, los procesos envían los valores computados en esa ronda a todo e
 
 ```
 For each round r, with 1 < r <= f+1:
-     broadcast state(i, r) - state(i, r-1)
-     set state(i, r+1) = state(i, r)
-     For each process j:
-	     receive state from j into state(j, r)
+	broadcast state(i, r) - state(i, r-1)
+	set state(i, r+1) = state(i, r)
+	For each process j:
+		receive state from j into state(j, r)
+		set state(i, r+1) += state(j, r)
 ```
 
-Tras $f$ rondas, se aplica una función de agregación sobre el estado, y como la información total es la misma (ya que todos los procesos compartían los datos computados en cada ronda), entonces la decisión será determinística.
+Tras `f+1` rondas, se aplica una función de agregación sobre el estado, y como la información total es la misma (ya que todos los procesos compartían los datos computados en cada ronda), entonces la decisión será determinística.
+
+```
+decide d = aggregate over state(i, f+1)
+```
 
 La función de agregación puede ser, por ejemplo, una votación.
+
+> [!note] Elección de Líder
+> El algoritmo es genérico y puede ser utilizado para implementar una elección de líder si, por ejemplo, `v_i` representa el identificador del proceso `i`, y la función de agregación es `max`.
