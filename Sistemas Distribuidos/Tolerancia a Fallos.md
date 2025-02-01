@@ -244,4 +244,12 @@ Cuando un proceso intenta acceder a una sección crítica, entonces:
 
 - Crea un mensaje con un timestamp asociado al proceso, un identificador, y el nombre del recurso a acceder.
 - Envía el mensaje a todos los procesos del grupo.
-- Espera hasta que todos los procesos le den permiso de ingresar a la sección.
+- Espera hasta que todos los procesos le den permiso de ingresar a la sección (OK)
+- Entra la sección crítica.
+
+Cuando un proceso recibe una consulta, entonces:
+
+- Si no está interesado en entrar a la sección crítica, devuelve OK
+- Si posee la sección crítica, no responde y encola el mensaje. Una vez sale, devuelve OK a todos los mensajes encolados.
+- Si envió previamente un mensaje para acceder a la sección crítica, entonces:
+	1. Compara el timestamp del mensaj
