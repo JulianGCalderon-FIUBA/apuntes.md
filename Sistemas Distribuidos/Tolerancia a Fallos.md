@@ -212,3 +212,5 @@ Recordemos que las propiedades que se buscan cumplir:
 #### Servidor Central
 
 Se designa alguno de por procesos del sistema como coordinación de la sección crítica.
+
+Si un recurso se encuentra tomado, los 
