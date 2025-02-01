@@ -200,3 +200,7 @@ Se busca resolver los siguientes problemas:
 ### Algoritmo de Consenso Simple
 
 ### Exclusión Mutua Distribuida
+
+El objetivo es crear un algoritmo que permita pedir y obtener acceso exclusivo a un recurso que se encuentra disponible en la red. Para lograr el objetivo, se utilizará **pasaje de mensajes**.
+
+Recordemos que las propiedades
