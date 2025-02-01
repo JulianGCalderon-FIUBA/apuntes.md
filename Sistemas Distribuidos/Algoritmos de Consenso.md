@@ -13,6 +13,16 @@ Algunas propiedades necesarias de los algoritmos de consenso, son:
 - Integrity
 - Termination
 
+## Definición
+
+Se tienen un conjunto de $N$ procesos $P_i$ que desean llegar a un acuerdo:
+
+- Cada proceso comienza en el estado `undecided`.
+- Cada proceso $p_i$ posee una variable de decisión $d_i$.
+- Cada proceso propone un valor $v_i$.
+
+Luego de haber recibido mensaje de otros procesos, el proceso $p_i$ establece su variable de decisión $d_i$ y cambia su estad
+
 ## Algoritmo de Consenso Simple
 
 Dados $n$ procesos, se quiere llegar a un acuerdo sobre un valor particular. Cada proceso almacena, en cada instante de tiempo, el valor computado por todos los procesos.
