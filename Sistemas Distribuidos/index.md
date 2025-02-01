@@ -72,6 +72,7 @@ title: Sistemas Distribuidos
 
 ## Algoritmos de Consenso
 
+- [[Coordinación y Acuerdo]]
 - [[Algoritmos de Consenso]]
 - [[Exclusión Mutua Distribuida]]
 - [[Elección de Lider]]
