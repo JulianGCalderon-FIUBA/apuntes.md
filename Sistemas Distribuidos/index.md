@@ -66,3 +66,10 @@ title: Sistemas Distribuidos
 
 - [[Tolerancia a Fallos]]
 - [[Generación de Fallos]]
+- [[Recuperación]]
+- [[Redundancía]]
+- [[Resiliencía]]
+
+## Algoritmos de Consenso
+
+- [[]]
