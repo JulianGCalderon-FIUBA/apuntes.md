@@ -176,4 +176,11 @@ Los escenarios catastróficos deben ser testeados. En algunas situaciones se fue
 
 El consenso es un procedimiento para un conjunto de procesos distribuidos acuerden en el mismo valor dado un punto de decisión. Implica coordinación y establecer un algoritmo de acuerdo.
 
-Al ser un problema complejo, se suelen tomar supociciones:
+Al ser un problema complejo, se suelen tomar suposiciones, por ejemplo:
+
+- Los canales de comunicación son *reliables*.
+- Todos los procesos pueden comunicarse entre sí.
+- La única falla a considerar es la caída de un proceso.
+- La caída de un proceso no puede ocasionar la caída de otro.
+
+### Coordinación y Acuerdo
