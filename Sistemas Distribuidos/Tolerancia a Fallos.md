@@ -238,4 +238,10 @@ Se debe implementar algún mecanismo de recuperación de token, en caso de que s
 
 #### Ricart & Agrawala
 
-Es un algoritmo distribuido que utiliza *reliable multicast*
+Es un algoritmo distribuido que utiliza *reliable multicast* y relojes lógicos.
+
+Cuando un proceso intenta acceder a una sección crítica, entonces:
+
+- Crea un mensaje con un timestamp asociado al proceso, un identificador, y el nombre del recurso a acceder.
+- Envía el mensaje a todos los procesos del grupo.
+- Espera hasta que todos los procesos le den permiso de ingresar a la sección.
