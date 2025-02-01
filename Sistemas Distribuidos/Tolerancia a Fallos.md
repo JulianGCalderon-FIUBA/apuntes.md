@@ -213,4 +213,6 @@ Recordemos que las propiedades que se buscan cumplir:
 
 Se designa alguno de por procesos del sistema como coordinación de la sección crítica.
 
-Si un recurso se encuentra tomado, los 
+Este w
+
+Si un recurso se encuentra tomado, las consultas 
