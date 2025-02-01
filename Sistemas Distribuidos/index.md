@@ -72,4 +72,5 @@ title: Sistemas Distribuidos
 
 ## Algoritmos de Consenso
 
-- [[]]
+- [[Algoritmos de Consenso]]
+- [[Exclusión Mutua Distribuida]]
