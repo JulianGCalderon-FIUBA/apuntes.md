@@ -150,7 +150,7 @@ Las actualizaciones son inmediatas, ya que únicamente implican ejecutar la imag
 
 Los contenedores pueden ser replicados y relanzados ante errores, lo que aumenta la disponibilidad del sistema.
 
-Al usar imagenes, puedo desacoplar el sistema de la infraestructura y de la plataforma 
+Al usar imágenes, puedo desacoplar el sistema de la infraestructura (IaaS) y de la plataforma (PaaS). Al especificar únicamente la imagen, no es necesario configurar la infraestructura completa.
 
 Se puede realizar testing de imágenes antes del despliegue, ya que la configuración en el ambiente de testing es igual al ejecutado en producción.
 
@@ -163,3 +163,9 @@ La **durabilidad** (*durability*) es la probabilidad de que un dato persistido s
 ## Seguridad
 
 La **seguridad** (*safety*) implica que en presencia de fallos, no ocurre nada catastrófico.
+
+> El sistema debe poder ser recuperado automática o manualmente ante cualquier tipo de falla
+
+Es necesario definir un **Disaster Recovery Process** para la infraestructura y los datos. Son situaciones improbables pero no imposibles, y debemos poder resolverlas. Los escenarios catastróficos deben ser testeados.
+
+El tiempo de restauración debe ser conocido para poder garantizar los SLA.
