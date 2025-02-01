@@ -34,4 +34,14 @@ Cuando un proceso reconoce que es el líder, entonces cambia su estado a "no par
 
 Cuando un proceso recibe un mensaje de "líder elegido", cambia su estado a "no participando", y registra el nuevo líder. Si el identificador es distinto al suyo, retransmite el mensaje.
 
-Pérdida
+### Algoritmo Bully
+
+Este algoritmo asume que cualquier proceso puede morir de forma inesperada, por lo que utiliza timeouts para detectar que un proceso no está respondiendo.
+
+Asume que
+
+Se definen las siguientes variables:
+
+- `t_max`: Tiempo máximo de transmisión.
+- `t_proceso`: Tiempo máximo de cualquier proceso para resolver un mensaje.
+- `T`: Tiempo para detectar procesos caídos, calculado como `2 * t_max + t_proceso`.
