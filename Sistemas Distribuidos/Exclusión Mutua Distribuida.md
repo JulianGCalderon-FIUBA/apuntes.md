@@ -4,13 +4,15 @@ Recordemos que las propiedades que se buscan cumplir:
 
 - **Safety**: Solo un proceso puede obtener el recurso en todo momento.
 - **Liveness**: Si un proceso está listo para recibir un recurso, debe obtenerlo eventualmente.
-- **Fairness**: El uso del recurso se distribuye de forma uniforme entre los procesos.
+- **Fairness**: El uso del recurso se distribuye de forma uniforme entre los procesos. Una vez obtenido, debe ser liberado luego de un tiempo límite.
 
 ## Servidor Central
 
-Se designa alguno de por procesos del sistema como coordinación de la sección crítica.
+Se designa alguno de los procesos del sistema como coordinación de la sección crítica.
 
 Los procesos piden acceso a la sección crítica al servidor central, el cual se los otorga de a uno a la vez. Si un recurso se encuentra tomado, las consultas se encolan en modo FIFO.
+
+Se sabe el identificador de cada recurso de antemano.
 
 Algunas ventajas de este esquema son:
 

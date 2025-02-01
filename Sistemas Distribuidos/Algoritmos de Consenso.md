@@ -23,6 +23,10 @@ Se busca resolver los siguientes problemas:
 
 ## Algoritmo de Consenso Simple
 
-Dados $n$ procesos, se quiere llegar a un acuerdo sobre un valor particular. Cada proceso almacena, en cada instante de tiempo, el valor computado por cada proceso.
+Dados $n$ procesos, se quiere llegar a un acuerdo sobre un valor particular. Cada proceso almacena, en cada instante de tiempo, el valor computado por todos los procesos.
 
-En cada ronda, los procesos 
+En cada ronda, los procesos envían los valores computados en esa ronda a todo el resto de procesos. Cada proceso recibe los datos del resto de procesos y los almacena.
+
+Tras $f$ rondas, se aplica una función de agregación sobre el estado, y como la información total es la misma (ya que todos los procesos compartían los datos computados en cada ronda), entonces la decisión será determinística.
+
+La función de agregación puede ser, por ejemplo, una votación.
