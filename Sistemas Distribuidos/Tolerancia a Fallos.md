@@ -213,6 +213,19 @@ Recordemos que las propiedades que se buscan cumplir:
 
 Se designa alguno de por procesos del sistema como coordinación de la sección crítica.
 
-Este w
+Los procesos piden acceso a la sección crítica al servidor central, el cual se los otorga de a uno a la vez. Si un recurso se encuentra tomado, las consultas se encolan en modo FIFO.
 
-Si un recurso se encuentra tomado, las consultas 
+Algunas ventajas de este esquema son:
+
+- Las consultas son procesadas en orden.
+- Es fácil de entender y de implementar.
+- Los procesos solo necesitan conocer al servidor.
+- La cantidad de conexiones y mensajes es mínima.
+
+Por otro lado, tiene las siguientes desventajas:
+
+- El servidor central es un único punto de falla.
+- Los procesos no pueden distinguir entre sí el servidor está caído o no responsivo.
+- Se produce un cuello de botella.
+
+#### Token Ring
