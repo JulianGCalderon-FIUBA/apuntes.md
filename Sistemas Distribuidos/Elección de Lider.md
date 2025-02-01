@@ -45,3 +45,5 @@ Se definen las siguientes variables:
 - `t_max`: Tiempo máximo de transmisión.
 - `t_proceso`: Tiempo máximo de cualquier proceso para resolver un mensaje.
 - `T`: Tiempo para detectar procesos caídos, calculado como `2 * t_max + t_proceso`.
+
+El proceso c
