@@ -17,6 +17,8 @@ Se tienen un conjunto de $N$ procesos $P_i$ que desean llegar a un acuerdo:
 
 Luego de haber recibido mensaje de otros procesos, el proceso $p_i$ establece su variable de decisión $d_i$ y cambia su estado a `decided`.
 
+Existe una fórmula de quorum. TODO
+
 ## Requerimientos
 
 Algunos requerimientos necesarios de los algoritmos de consenso, son:
@@ -25,7 +27,7 @@ Algunos requerimientos necesarios de los algoritmos de consenso, son:
 - **Integrity**: Si los procesos correctos propusieron el mismo valor $v$, entonces el valor de su variable de decisión es la misma.
 - **Termination**: Eventualmente, todos los procesos activos establecen su variable de decisión.
 
-## Algoritmo de Consenso Simple
+## Algoritmo Sincrónico
 
 Dados $n$ procesos, se quiere llegar a un acuerdo sobre un valor particular. Cada proceso almacena, en cada instante de tiempo, el valor computado por todos los procesos.
 
