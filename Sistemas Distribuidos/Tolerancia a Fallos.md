@@ -166,6 +166,8 @@ La **seguridad** (*safety*) implica que en presencia de fallos, no ocurre nada c
 
 > El sistema debe poder ser recuperado automática o manualmente ante cualquier tipo de falla
 
-Es necesario definir un **Disaster Recovery Process** para la infraestructura y los datos. Son situaciones improbables pero no imposibles, y debemos poder resolverlas. Los escenarios catastróficos deben ser testeados.
+Es necesario definir un **Disaster Recovery Process** para la infraestructura y los datos. Son situaciones improbables pero no imposibles, y debemos poder resolverlas.
 
 El tiempo de restauración debe ser conocido para poder garantizar los SLA.
+
+Los escenarios catastróficos deben ser testeados.
