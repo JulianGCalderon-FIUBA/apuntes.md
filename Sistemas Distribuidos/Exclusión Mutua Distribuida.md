@@ -36,6 +36,7 @@ Cuando un proceso recibe el token, accede a la sección crítica en caso de que 
 Es un algoritmo fácil de implementar y de entender, aunque tiene algunas desventajas:
 
 - Se debe implementar algún mecanismo de recuperación de token, en caso de que se caiga el nodo que lo tenía.
+- La creación de un anillo de forma dinámica requiere un protocolo en si mismo.
 
 ## Ricart & Agrawala
 
@@ -58,6 +59,6 @@ Cuando un proceso recibe una consulta, entonces:
 
 Este algoritmo tiene la ventaja de que no requiere de un coordinador, pero tiene otras desventajas:
 
-- Se requiere de una malla de conexiones. Todos los procesos deben conocerse.
+- Se requiere de un *mesh* de conexiones. Todos los procesos deben conocerse.
 - La cantidad de mensajes enviados es muy alta.
 - Es imposible detectar entre un proceso caído o un proceso en una sección crítica.
