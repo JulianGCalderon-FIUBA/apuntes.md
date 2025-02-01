@@ -126,8 +126,15 @@ La mejor estrategia depende de varios factores:
 - Necesidades de performance y escalabilidad.
 - Necesidades heterogéneas de cada componente.
 
-Para tomar las decisiones adecuadas, debemos pensar en el origen de los errores: no todos los errores son de hardware.
+Para tomar las decisiones adecuadas, debemos pensar en el origen de los errores: no todos los errores son de hardware (20% aproximadamente). Hay muchos errores relacionados a errores de software, y errores de humanos (de configuración).
+
+- **Mantenibilidad** (*maintainability*): La cantidad de tiempo que se requiere para recuperar el sistema (ej. repararlo o actualizarlo).
+
+Para garantizarla, se crea una imagen para cada cambio a desplegar. No se manejan con estados mutables. Esto permite automatizar los despliegues, sin que haya humanos realizándolo de forma directa. Esto reduce la probabilidad de errores humanos.
+
+Se puede realizar testing de imagenes antes del despligue, yaque la configuración en el ambiente de testing es igual al ejecutado en producción.
+
+Las imagenes viejas pueden ser a
 
 - **Durabilidad** (*durability*): Probabilidad de que un dato persistido se pueda recuperar.
 - **Seguridad** (*safety*): En presencia de fallos, no ocurre nada catastrófico.
-- **Mantenibilidad** (*maintainability*): La cantidad de tiempo que se requiere para recuperar el sistema (ej. repararlo o actualizarlo).
