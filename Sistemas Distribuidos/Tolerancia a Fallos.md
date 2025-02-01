@@ -203,4 +203,8 @@ Se busca resolver los siguientes problemas:
 
 El objetivo es crear un algoritmo que permita pedir y obtener acceso exclusivo a un recurso que se encuentra disponible en la red. Para lograr el objetivo, se utilizará **pasaje de mensajes**.
 
-Recordemos que las propiedades
+Recordemos que las propiedades que se buscan cumplir:
+
+- Safety: Solo un proceso puede obtener el recurso en todo momento.
+- Liveness: Los procesos no deben esperar
+- Fairness:
