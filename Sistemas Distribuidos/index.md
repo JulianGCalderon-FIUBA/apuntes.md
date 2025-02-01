@@ -65,3 +65,4 @@ title: Sistemas Distribuidos
 ## Tolerancia a Fallos
 
 - [[Tolerancia a Fallos]]
+- [[Generación de Fallos]]
