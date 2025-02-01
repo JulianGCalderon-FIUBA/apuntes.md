@@ -7,12 +7,6 @@ Al ser un problema complejo, se suelen tomar suposiciones, por ejemplo:
 - La única falla a considerar es la caída de un proceso.
 - La caída de un proceso no puede ocasionar la caída de otro. Esto no ocurre si los sistemas se encuentran en la misma computadora.
 
-Algunas propiedades necesarias de los algoritmos de consenso, son:
-
-- Agreement
-- Integrity
-- Termination
-
 ## Definición
 
 Se tienen un conjunto de $N$ procesos $P_i$ que desean llegar a un acuerdo:
@@ -21,7 +15,15 @@ Se tienen un conjunto de $N$ procesos $P_i$ que desean llegar a un acuerdo:
 - Cada proceso $p_i$ posee una variable de decisión $d_i$.
 - Cada proceso propone un valor $v_i$.
 
-Luego de haber recibido mensaje de otros procesos, el proceso $p_i$ establece su variable de decisión $d_i$ y cambia su estad
+Luego de haber recibido mensaje de otros procesos, el proceso $p_i$ establece su variable de decisión $d_i$ y cambia su estado a `decided`.
+
+## Requerimientos
+
+Algunos requerimientos necesarios de los algoritmos de consenso, son:
+
+- **Agreement**: El valor de la variable es el mismo en todos los procesos correctos.
+- **Integrity**: Si los procesos correctos propusieron el mismo valor $v$, entonces el valor de su variable de decisión es la misma.
+- **Termination**: Eventualmente, todos los procesos activos establecen su variable de decisión.
 
 ## Algoritmo de Consenso Simple
 
