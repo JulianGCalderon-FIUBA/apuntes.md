@@ -76,8 +76,6 @@ Hay distintas estrategias para manejar los fallos:
 - **Fault forecasting:** Determinar la probabilidad de que un componente pueda fallar, y reemplazarlo. Por ejemplo: reemplazar componentes cada cierta cantidad de horas de uso.
 - **Fault tolerance:** Procesas los errores del sistema, en lugar de evitar que sucedan. Es la estrategia más común en software.
 
-## Resiliencia
-
 ## Recuperación
 
 La recuperación consiste en tras un error, llevar el sistema a un estado correcto. Una forma de lograrlo es:
@@ -145,6 +143,14 @@ La **mantenibilidad** (*maintainability*) es la cantidad de tiempo que se requie
 Para garantizarla, se crea una imagen para cada cambio a desplegar. No se manejan con estados mutables. Esto permite automatizar los despliegues, sin que haya humanos realizándolo de forma directa. Esto reduce la probabilidad de errores humanos.
 
 ![[Tolerancia a Fallos 1738378604.png]]
+
+Esta inmutabilidad nos permite realizar trazabilidad de las imágenes, para ver de donde vinieron.
+
+Las actualizaciones son inmediatas, ya que únicamente implican ejecutar la imagen y configurar el balanceador de carga para que mueva las consultas al nuevo contenedor.
+
+Los contenedores pueden ser replicados y relanzados ante errores, lo que aumenta la disponibilidad del sistema.
+
+Al usar imagenes, puedo desacoplar el sistema de la infraestructura y de la plataforma 
 
 Se puede realizar testing de imágenes antes del despliegue, ya que la configuración en el ambiente de testing es igual al ejecutado en producción.
 
