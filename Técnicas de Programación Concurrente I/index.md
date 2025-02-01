@@ -13,7 +13,7 @@ title: Técnicas de Programación Concurrente I
 - [[Pasaje de Mensajes]]
 - [[Modelo Cliente Servidor]]
 - [[Exclusión Mutua Distribuida]]
-- [[Elección de Lider]]
+- [[Técnicas de Programación Concurrente I/Elección de Lider]]
 - [[Técnicas de Programación Concurrente I/Transacciones|Transacciones]]
 - [[Deadlocks Distribuidos]]
 - [[Ambientes Distribuidos]]

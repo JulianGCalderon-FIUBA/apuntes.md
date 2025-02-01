@@ -4,7 +4,7 @@ Dentro del equipo, uno de ellos ejerce el rol de **Scrum Master**. Los desarroll
 
 Cada cierto tiempo, el **Scrum Master** se cansa de atender a su equipo, y decide tomar unas vacaciones sin previo aviso. Al ser un equipo de pares, cualquier otro desarrollador asume sus funciones.
 
-## Solución con Algoritmo de [[Elección de Lider]]
+## Solución con Algoritmo de [[Técnicas de Programación Concurrente I/Elección de Lider]]
 
 Para resolver el problema, necesitaremos utilizar alguno de los algoritmos de elección de líder. El código a alto nivel será idéntico, independiente del algoritmo utilizado.
 
