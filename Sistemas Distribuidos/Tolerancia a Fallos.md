@@ -112,3 +112,11 @@ Hay distintos tipos de replicación:
 - **Pasiva**: Hay una réplica primaria que procesa la información, y varias secundarias (o de respaldo) que reciben actualizaciones del líder
 - **Activa**: Hay múltiples réplicas de la misma máquina de estado, que ejecutan las mismas operaciones en el mismo orden. Por ejemplo: blockchain.
 - **Semi-activa** (*leader-follower*): Todas las réplicas ejecutan los comandos, pero una sola (el líder) toma las decisiones no determinísticas. Hay un balanceador de carga que envía las consultas a las réplicas.
+
+## Confiabilidad
+
+La confianza (*dependability*) es la medida de la confianza en el sistema:
+
+- **Disponibilidad** (*availability*): La probabilidad de que el sistema esté operando.
+- **Fiabilidad** (*reliability*): La capacidad del sistema para dar un servicio correcto de forma continúa. No solo tiene que estar disponible, sino que tiene que hacerlo de forma correcta.
+- Durabilidad (*durability*)
