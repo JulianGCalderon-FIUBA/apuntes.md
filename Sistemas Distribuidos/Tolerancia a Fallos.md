@@ -119,4 +119,15 @@ La confianza (*dependability*) es la medida de la confianza en el sistema:
 
 - **Disponibilidad** (*availability*): La probabilidad de que el sistema esté operando.
 - **Fiabilidad** (*reliability*): La capacidad del sistema para dar un servicio correcto de forma continúa. No solo tiene que estar disponible, sino que tiene que hacerlo de forma correcta.
-- Durabilidad (*durability*)
+
+La mejor estrategia depende de varios factores:
+
+- Costos y presupuesto disponible.
+- Necesidades de performance y escalabilidad.
+- Necesidades heterogéneas de cada componente.
+
+Para tomar las decisiones adecuadas, debemos pensar en el origen de los errores: no todos los errores son de hardware.
+
+- **Durabilidad** (*durability*): Probabilidad de que un dato persistido se pueda recuperar.
+- **Seguridad** (*safety*): En presencia de fallos, no ocurre nada catastrófico.
+- **Mantenibilidad** (*maintainability*): La cantidad de tiempo que se requiere para recuperar el sistema (ej. repararlo o actualizarlo).
