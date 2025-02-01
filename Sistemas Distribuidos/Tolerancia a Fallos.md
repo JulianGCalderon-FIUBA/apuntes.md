@@ -174,4 +174,6 @@ Los escenarios catastróficos deben ser testeados. En algunas situaciones se fue
 
 ## Consenso
 
-El consenso es un
+El consenso es un procedimiento para un conjunto de procesos distribuidos acuerden en el mismo valor dado un punto de decisión. Implica coordinación y establecer un algoritmo de acuerdo.
+
+Al ser un problema complejo, se suelen tomar supociciones:
