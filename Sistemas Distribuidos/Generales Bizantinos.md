@@ -4,6 +4,8 @@ El problema de los generales bizantinos es un experimento que se utiliza para il
 - El ataque solo es exitoso si se realiza en la mayoría de los frentes a la vez.
 - Uno de los generales es además el **comandante**, y es el que da la orden de atacar/retirarse. Esta orden se realiza enviando un mensajero a cada uno de los otros generales.
 - Los generales/comandante pueden ser **traidores**, en cuyo caso pueden ofrecer información errónea.
+- Si un general es traicionero, va a replicar valores incorrectos.
+- Si un comandante es traicionero, va a entregar un nodo distinto a cada nodo.
 
 Se debe encontrar una forma de que los generales se pongan de acuerdo, evitando perder la guerra.
 
@@ -25,8 +27,16 @@ En el siguiente caso, vemos que el nodo $2$ recibe valores distintos de $1$ y $2
 
 ![[Generales Bizantinos 1738624253.png]]
 
+El sistema no tiene solución.
+
 ## Solución con `N >= 3f + 1`
 
-Vemos que los nodos siempre reciben
+Vemos que los nodos siempre reciben valores distintos, pero la mayoría de los valores coinciden.
 
 ![[Generales Bizantinos 1738624468.png]]
+
+Este sistema tiene solución.
+
+Si el comandante es traicionero, le enviará un valor distinto a cada nodo, y no habrá consenso (todos reciben valores distintos). Los nodos pueden darse cuenta de que el traicionero es el comandante.
+
+![[Generales Bizantinos 1738624605.png]]

@@ -17,7 +17,7 @@ Se tienen un conjunto de $N$ procesos $P_i$ que desean llegar a un acuerdo:
 
 Luego de haber recibido mensaje de otros procesos, el proceso $p_i$ establece su variable de decisión $d_i$ y cambia su estado a `decided`.
 
-Existe una fórmula de quorum que indica los requerimientos para llegar a un consenso.
+Se denota como $f$ como la cantidad de nodos que pueden fallar bizantina, y $N$ con la cantidad de nodos del sistema. Luego la fórmula de quorum, indica la cantidad de nodos necesarios para que el sistema pueda llegar a un consenso. Por ejemplo, si se requiere mayoría: $: N >= 2f + 1$
 
 ## Requerimientos
 
