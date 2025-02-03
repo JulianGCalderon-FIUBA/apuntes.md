@@ -77,3 +77,4 @@ title: Sistemas Distribuidos
 - [[Exclusión Mutua Distribuida]]
 - [[Elección de Lider]]
 - [[Generales Bizantinos]]
+- [[Paxos]]

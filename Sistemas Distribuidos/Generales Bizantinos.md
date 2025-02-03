@@ -40,3 +40,5 @@ Este sistema tiene solución.
 Si el comandante es traicionero, le enviará un valor distinto a cada nodo, y no habrá consenso (todos reciben valores distintos). Los nodos pueden darse cuenta de que el traicionero es el comandante.
 
 ![[Generales Bizantinos 1738624605.png]]
+
+En este caso, los nodos pueden llegar al acuerdo de que "no hay acuerdo". Pueden, por ejemplo, elegir un nuevo líder.
