@@ -4,9 +4,9 @@ El algoritmo progresó siempre que la mayoría estén funcionando correctamente,
 
 ## Arquitectura
 
-El **cliente** del sistema envía un request a la red (la cual funciona utilizando Paxos), este pedido:
+El **cliente** del sistema envía un request al algoritmo:
 
-- Puede ser rechazado.
+- Puede ser rechazado. Este es el flujo esperado del algoritmo.
 - Se puede reintentar tantas veces como desea.
 
 Los **proposers** reciben requests de clientes y comienzan el protocolo.
@@ -27,8 +27,26 @@ Los **learners** ejecutan las consultas cuando se llega a un consenso, y dan la 
 
 El protocolo está dividido en fases.
 
-- **Fase 0**: El cliente envia una propuesta a un proposer.
-- **Fase 1a - Prepare**: El proposer envía la propuesta a los acceptors, esperando una respuesta. Este pedido tiene un número identificador: `Prepare(N)`.
-- **Fase 1b - Promise**: Los acceptors responden con una promesa de que no aceptaran ningún otro pedido con un identificador menor al recibido: `Promise(N, v)`.
-- **Fase 2a - Propose**: Si recibe promesas de la mayoría, el proposer rechazará todos los requests con un identificador menor, y envía la propuesta `Propose(N, v)`.
-- **Fase 2b - Accept**: Si la promesa es mantenida, se anuncia el nuevo valor 
+### Fase 0
+
+El cliente envía una propuesta al proposer.
+
+![[Paxos 1738626189.png]]
+
+### Fase 1a - Prepare
+
+El proposer envía la propuesta a los acceptors, esperando una respuesta. Este pedido tiene un número identificador: `Prepare(N)`.
+
+![[Paxos 1738626210.png]]
+
+### Fase 1b - Promise
+
+Los acceptors responden con una promesa de que no aceptaran ningún otro pedido con un identificador menor al recibido: `Promise(N, v)`.
+
+### Fase 2a - Propose
+
+Si recibe promesas de la mayoría, el proposer rechazará todos los requests con un identificador menor, y envía la propuesta `Propose(N, v)`.
+
+### Fase 2b - Accept
+
+Si la promesa es mantenida, se anuncia el nuevo valor `v`, y envia `Accept(N, v)` a todos los learners y al proposer inicial.
