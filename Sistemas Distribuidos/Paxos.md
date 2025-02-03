@@ -8,6 +8,7 @@ El **cliente** del sistema envía un request al algoritmo:
 
 - Puede ser rechazado. Este es el flujo esperado del algoritmo.
 - Se puede reintentar tantas veces como desea.
+- Los eventos se almacenan en un orden consistente.
 
 Los **proposers** reciben requests de clientes y comienzan el protocolo.
 
@@ -25,7 +26,7 @@ Los **learners** ejecutan las consultas cuando se llega a un consenso, y dan la 
 
 ## Funcionamiento
 
-El protocolo está dividido en fases.
+El protocolo está dividido en dos fases principales:
 
 ### Fase 0
 
@@ -43,10 +44,16 @@ El proposer envía la propuesta a los acceptors, esperando una respuesta. Este p
 
 Los acceptors responden con una promesa de que no aceptaran ningún otro pedido con un identificador menor al recibido: `Promise(N, v)`.
 
+![[Paxos 1738626338.png]]
+
 ### Fase 2a - Propose
 
 Si recibe promesas de la mayoría, el proposer rechazará todos los requests con un identificador menor, y envía la propuesta `Propose(N, v)`.
 
+![[Paxos 1738626350.png]]
+
 ### Fase 2b - Accept
 
 Si la promesa es mantenida, se anuncia el nuevo valor `v`, y envia `Accept(N, v)` a todos los learners y al proposer inicial.
+
+![[Paxos 1738626363.png]]
