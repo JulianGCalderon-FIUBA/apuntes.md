@@ -27,6 +27,8 @@ Los **learners** ejecutan las consultas cuando se llega a un consenso, y dan la 
 
 El protocolo está dividido en fases.
 
-- Fase 0: El cliente envia una propuesta a un proposer.
-- Fase 1a: El proposer envía la propuesta a los acceptors, esperando una respuesta.
-- Fase 1b: Los acceptors responden con una promesa de que no aceptaran ningun
+- **Fase 0**: El cliente envia una propuesta a un proposer.
+- **Fase 1a - Prepare**: El proposer envía la propuesta a los acceptors, esperando una respuesta. Este pedido tiene un número identificador: `Prepare(N)`.
+- **Fase 1b - Promise**: Los acceptors responden con una promesa de que no aceptaran ningún otro pedido con un identificador menor al recibido: `Promise(N, v)`.
+- **Fase 2a - Propose**: Si recibe promesas de la mayoría, el proposer rechazará todos los requests con un identificador menor, y envía la propuesta `Propose(N, v)`.
+- **Fase 2b - Accept**: Si la promesa es mantenida, se anuncia el nuevo valor 
