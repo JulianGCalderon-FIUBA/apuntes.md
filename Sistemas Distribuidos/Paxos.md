@@ -47,10 +47,12 @@ En la subfase de **prepare**, el proposer envía la propuesta a los acceptors, y
 
 En la subfase de **promise**, si los acceptors no habían prometido nada previamente, prometen no aceptar ninguna otra request con un identificador menor al recibido
 
-- Responden al proposer con un mensaje de `promise(N', v')` que contiene al `N'` y `v'` previo.
+- Responden al proposer con un mensaje de `promise(N', v')` que contiene al `N'` y `v'` de una etapa previa.
 - No responden si llega una propuesta con `N < N'`.
 
 ![[Paxos 1738626338.png]]
+
+Si no se llega al consenso, el valor previo de la promesa se utiliza para volver a proponer un pedido. De esta forma, es tolerante a fallos ante la caída de un acceptor.
 
 ### Fase 2
 
