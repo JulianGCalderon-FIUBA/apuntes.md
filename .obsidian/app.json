@@ -272,7 +272,17 @@
     "particionados",
     "Componentización",
     "datastore",
-    "Particionado"
+    "Particionado",
+    "Acceptor",
+    "Learner",
+    "Proposer",
+    "proposers",
+    "requests",
+    "starvation",
+    "proposers",
+    "acceptors",
+    "proposer",
+    "learners"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,

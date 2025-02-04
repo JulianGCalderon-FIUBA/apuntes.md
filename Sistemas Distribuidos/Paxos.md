@@ -2,15 +2,19 @@ Paxos es un protocolo/familia de protocolos que resuelven consenso en una red no
 
 El algoritmo progresó siempre que la mayoría estén funcionando correctamente, por lo que la fórmula de consenso es: $N >= 2f + 1$.
 
-El consenso obtenido será eventualmente conocido por todos, y las en
+El consenso obtenido será eventualmente conocido por todos, y las entidades buscarán acordar cualquier valor, independiente de quien lo propuso.
+
+El algoritmo funciona sobre la base de que los pedidos pueden ser rechazados, y es el flujo típico. Los clientes pueden reintentar consultas tantas veces como se desea.
 
 ## Arquitectura
 
-El **cliente** del sistema envía un request al algoritmo:
+El sistema consiste en los siguientes actores:
 
-- Puede ser rechazado. Este es el flujo esperado del algoritmo.
-- Se puede reintentar tantas veces como desea.
-- Los eventos se almacenan en un orden consistente.
+- **Proposer**: proponen valores al algoritmo.
+- **Acceptor**: trabajan en obtener consenso.
+- **Learner**: aprenden al valor consensuado.
+
+![[Paxos 1738625508.png]]
 
 Los **proposers** reciben requests de clientes y comienzan el protocolo.
 
@@ -24,8 +28,6 @@ Los **acceptors** reciben propuestas de proposers y deben consensar los valores 
 
 Los **learners** ejecutan las consultas cuando se llega a un consenso, y dan la respuesta al cliente.
 
-![[Paxos 1738625508.png]]
-
 ## Funcionamiento
 
 El protocolo está dividido en dos fases principales:
@@ -38,16 +40,16 @@ El cliente envía una propuesta al proposer.
 
 ### Fase 1
 
-Se divide en dos subfases:
+Se divide en dos sub fases:
 
 - **Prepare**
 - **Promise**
 
-En la subfase de **prepare**, el proposer envía la propuesta a los acceptors, y espera a recibir el quorum. Este es el mensaje `prepare(N)`.
+En la sub fase de **prepare**, el proposer envía la propuesta a los acceptors, y espera a recibir el quorum. Este es el mensaje `prepare(N)`.
 
 ![[Paxos 1738626210.png]]
 
-En la subfase de **promise**, si los acceptors no habían prometido nada previamente, prometen no aceptar ninguna otra request con un identificador menor al recibido
+En la sub fase de **promise**, si los acceptors no habían prometido nada previamente, prometen no aceptar ninguna otra request con un identificador menor al recibido
 
 - Responden al proposer con un mensaje de `promise(N', v')` que contiene al `N'` y `v'` de una etapa previa.
 - No responden si llega una propuesta con `N < N'`.
@@ -58,21 +60,21 @@ Si no se llega al consenso, el valor previo de la promesa se utiliza para volver
 
 ### Fase 2
 
-Se divide en dos subfases:
+Se divide en dos sub fases:
 
 - **Propose**
 - **Accept**
 
-En la subfase de **propose**, si el proposer recibe promesas de la mayoría, entonces:
+En la sub fase de **propose**, si el proposer recibe promesas de la mayoría, entonces:
 
 - Envía las propuestas a los acceptors.
-- Rechazá todas las consultas son un identificador menor a `N`.
+- Rechaza todas las consultas son un identificador menor a `N`.
 
 ![[Paxos 1738626350.png]]
 
-En la subfase de **accept**, si la promesa es mantenida, se anuncia el nuevo valor `v`:
+En la sub fase de **accept**, si la promesa es mantenida, se anuncia el nuevo valor `v`:
 
-- Envian un mensaje de `accept(N, v)` a todos los learners y al proposer inicial.
+- Envían un mensaje de `accept(N, v)` a todos los learners y al proposer inicial.
 - No envían `accept` si un mensaje con un identificador superior fue recibido.
 
 ![[Paxos 1738626363.png]]
