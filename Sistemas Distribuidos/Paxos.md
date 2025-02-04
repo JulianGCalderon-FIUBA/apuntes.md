@@ -21,7 +21,7 @@ Además, se requiere que los nodos deben ser persistentes.
 Los **proposers** son los que comienzan el protocolo.
 
 - Se debe elegir un líder para evitar *starvation*.
-- Mantienen un identificador incremental para las propuestas. Estos deben ser únicos, por lo que una solución se particionarlos (por ejemplo, un proposer utiliza identificadores pares, y otro identificadores impares).
+- Mantienen un identificador incremental para las propuestas.
 
 Los **acceptors** deben consensar los valores asociados a las propuestas.
 
@@ -36,25 +36,21 @@ El protocolo está dividido en dos fases principales:
 
 ### Prepare
 
-En la fase de **prepare**, el proposer envía la propuesta a los acceptors, y espera a recibir el quorum. Este es el mensaje `prepare(N)`.
+El proposer envía un mensaje de `PREPARE IDp` a todos los acceptors (o la mayoría).
+
+El identificador del pedido debe ser único e incremental. Estos se pueden particionar, por ejemplo, un proposer utiliza identificadores pares, y el otro proposer identificadores impares.
 
 ![[Paxos 1738626210.png]]
 
-En la sub fase de **promise**, si los acceptors no habían prometido nada previamente, prometen no aceptar ninguna otra request con un identificador menor al recibido
+### Promise
 
-- Responden al proposer con un mensaje de `promise(N', v')` que contiene al `N'` y `v'` de una etapa previa.
-- No responden si llega una propuesta con `N < N'`.
+Los acceptors reciben el `PREPARE IDp`, y si no prometió ignorarlo, entonces promete ignorar todos los siguientes mensajes con un identificador menor al recibido. En este caso, responde con un mensaje de `PROMISE IDp`.
 
 ![[Paxos 1738626338.png]]
 
 Si no se llega al consenso, el valor previo de la promesa se utiliza para volver a proponer un pedido. De esta forma, es tolerante a fallos ante la caída de un acceptor.
 
-### Fase 2
-
-Se divide en dos sub fases:
-
-- **Propose**
-- **Accept**
+### Propose
 
 En la sub fase de **propose**, si el proposer recibe promesas de la mayoría, entonces:
 

@@ -282,7 +282,8 @@
     "proposers",
     "acceptors",
     "proposer",
-    "learners"
+    "learners",
+    "particionarlos"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,
