@@ -2,7 +2,7 @@ Paxos es un protocolo/familia de protocolos que resuelven consenso en una red no
 
 El algoritmo progresó siempre que la mayoría estén funcionando correctamente, por lo que la fórmula de consenso es: $N >= 2f + 1$.
 
-El consenso obtenido será eventualmente conocido por todos, y las entidades buscarán acordar cualquier valor, independiente de quien lo propuso.
+El consenso obtenido será eventualmente conocido por todos, y las entidades buscarán acordar cualquier valor, independiente de quien lo propuso. Una vez obtenido el consenso, no se puede cambiar.
 
 El algoritmo funciona sobre la base de que los pedidos pueden ser rechazados, y es el flujo típico. Los clientes pueden reintentar consultas tantas veces como se desea.
 
@@ -14,38 +14,29 @@ El sistema consiste en los siguientes actores:
 - **Acceptor**: trabajan en obtener consenso.
 - **Learner**: aprenden al valor consensuado.
 
+Además, se requiere que los nodos deben ser persistentes.
+
 ![[Paxos 1738625508.png]]
 
-Los **proposers** reciben requests de clientes y comienzan el protocolo.
+Los **proposers** son los que comienzan el protocolo.
 
 - Se debe elegir un líder para evitar *starvation*.
-- Mantienen un identificador incremental para cada propuesta.
+- Mantienen un identificador incremental para las propuestas. Estos deben ser únicos, por lo que una solución se particionarlos (por ejemplo, un proposer utiliza identificadores pares, y otro identificadores impares).
 
-Los **acceptors** reciben propuestas de proposers y deben consensar los valores asociados a las propuestas.
+Los **acceptors** deben consensar los valores asociados a las propuestas.
 
-- Mantienen el estado del protocolo en un almacenamiento estable.
 - Se llega al quorum si la mayoría están funcionando de forma correcta.
+- Se debe conocer la cantidad de acceptors que hay en el sistema
 
-Los **learners** ejecutan las consultas cuando se llega a un consenso, y dan la respuesta al cliente.
+Los **learners** ejecutan las consultas cuando se llega a un consenso.
 
 ## Funcionamiento
 
 El protocolo está dividido en dos fases principales:
 
-### Fase 0
+### Prepare
 
-El cliente envía una propuesta al proposer.
-
-![[Paxos 1738626189.png]]
-
-### Fase 1
-
-Se divide en dos sub fases:
-
-- **Prepare**
-- **Promise**
-
-En la sub fase de **prepare**, el proposer envía la propuesta a los acceptors, y espera a recibir el quorum. Este es el mensaje `prepare(N)`.
+En la fase de **prepare**, el proposer envía la propuesta a los acceptors, y espera a recibir el quorum. Este es el mensaje `prepare(N)`.
 
 ![[Paxos 1738626210.png]]
 
