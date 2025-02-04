@@ -63,7 +63,7 @@ Si el proposer obtiene mayoría de promesas para un identificador determinado `I
 
 El valor a enviar es el asociado al mayor identificador de un pedido aceptado que tenga. En caso de que no tenga ninguno, puede utilizar el valor del pedido actual.
 
-Esto permite que pe
+Esto permite que pedidos que fueron aceptados, pero que no llegaron a consenso por la caída de acceptors, se reintenten.
 
 ![[Paxos 1738626350.png]]
 
