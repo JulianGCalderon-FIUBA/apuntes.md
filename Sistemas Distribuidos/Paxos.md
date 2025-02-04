@@ -41,6 +41,8 @@ El protocolo está dividido en dos fases principales:
 	- **Propose**
 	- **Accept**
 
+Una corrida completa de Paxos se utiliza para obtener consenso en un solo valor. Para otros valores se requiere de una corrida distinta.
+
 ### Prepare
 
 El proposer envía un mensaje de `PREPARE IDp` a todos los acceptors (o la mayoría).
@@ -73,6 +75,6 @@ Los acceptors reciben el mensaje `PROPOSE IDp, Value`, y si no prometió ignorar
 
 ![[Paxos 1738626363.png]]
 
-Si la mayoría de los acceptors aceptan el valor `Value`, se llega a consenso sobre el valor. El consenso no necesariamente es sobre el identificador, ya que este es interno para el protocolo.
+Si la mayoría de los acceptors aceptan el valor `Value`, se llega a consenso sobre el valor. Es cuestión de tiempo que el valor acordado llegue al resto de la red. El consenso no necesariamente es sobre el identificador, ya que este es interno para el protocolo.
 
 Si un proposer o learner recibe mayoría *accepts* sobre el valor `Value`, saben que se llegó al consenso sobre el valor.
