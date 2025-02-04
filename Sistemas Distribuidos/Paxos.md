@@ -20,7 +20,7 @@ Además, se requiere que los nodos deben ser persistentes.
 
 Los **proposers** son los que comienzan el protocolo.
 
-- Se debe elegir un líder para evitar *starvation*.
+- Se debe elegir un líder para evitar *starvation*, u tomar otras medidas para prevenirlo. Esto es debido a que el alto número de reintentos genere *contention* en la red.
 - Mantienen un identificador incremental para las propuestas.
 
 Los **acceptors** deben consensar los valores asociados a las propuestas.
@@ -65,7 +65,7 @@ Si el proposer obtiene mayoría de promesas para un identificador determinado `I
 
 El valor a enviar es el asociado al mayor identificador de un pedido aceptado que tenga. En caso de que no tenga ninguno, puede utilizar el valor del pedido actual.
 
-Esto permite que pedidos que fueron aceptados, pero que no llegaron a consenso por la caída de acceptors, se reintenten.
+Esto permite que pedidos que fueron aceptados, pero que no llegaron a consenso por la caída de acceptors, se reintenten hasta qué sean aceptados por toda la red. También permite a proposers/acceptors obtener un valor ya consensuado.
 
 ![[Paxos 1738626350.png]]
 
