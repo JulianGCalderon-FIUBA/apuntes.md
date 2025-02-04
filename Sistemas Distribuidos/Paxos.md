@@ -34,12 +34,12 @@ Los **learners** ejecutan las consultas cuando se llega a un consenso.
 
 El protocolo está dividido en dos fases principales:
 
-- Fase 1
-	- Prepare
-	- Promise
-- Fase 2
-	- Propose
-	- Accept
+- **Fase 1**
+	- **Prepare**
+	- **Promise**
+- **Fase 2**
+	- **Propose**
+	- **Accept**
 
 ### Prepare
 
@@ -69,6 +69,6 @@ Los acceptors reciben el mensaje `PROPOSE IDp, Value`, y si no prometió ignorar
 
 ![[Paxos 1738626363.png]]
 
-El learner le responde al cliente y se toman acciones respecto al valor acordado:
+Si la mayoría de los acceptors aceptan el valor `Value`, se llega a consenso sobre el valor. El consenso no necesariamente es sobre el identificador, ya que este es interno para el protocolo.
 
-![[Paxos 1738627421.png]]
+Si un proposer o learner recibe mayoría *accepts* sobre el valor `Value`, saben que se llegó al consenso sobre el valor.
