@@ -53,13 +53,17 @@ El identificador del pedido debe ser único e incremental. Estos se pueden parti
 
 Los acceptors reciben el `PREPARE IDp`, y si no prometió ignorarlo, entonces promete ignorar todos los siguientes mensajes con un identificador menor al recibido. En este caso, responde con un mensaje de `PROMISE IDp`.
 
-![[Paxos 1738626338.png]]
+En caso de que ya haya prometido algo previamente, entonces en su lugar responde con un mensaje de `PROMISE IDp, IDa, Value`, donde `IDa` y `Value` corresponden a valores de un pedido previo.
 
-Si no se llega al consenso, el valor previo de la promesa se utiliza para volver a proponer un pedido. De esta forma, es tolerante a fallos ante la caída de un acceptor.
+![[Paxos 1738626338.png]]
 
 ### Propose
 
 Si el proposer obtiene mayoría de promesas para un identificador determinado `IDp`, entonces envía `PROPOSE IDp, Value` a todos los acceptors (o la mayoría).
+
+El valor a enviar es el asociado al mayor identificador de un pedido aceptado que tenga. En caso de que no tenga ninguno, puede utilizar el valor del pedido actual.
+
+Esto permite que pe
 
 ![[Paxos 1738626350.png]]
 
