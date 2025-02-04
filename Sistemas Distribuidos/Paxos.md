@@ -41,13 +41,13 @@ Se divide en dos subfases:
 - **Prepare**
 - **Promise**
 
-En la subfase de prepare, el proposer envía la propuesta a los acceptors, y espera a recibir el quorum. Este es el mensaje `prepare(N)`.
+En la subfase de **prepare**, el proposer envía la propuesta a los acceptors, y espera a recibir el quorum. Este es el mensaje `prepare(N)`.
 
 ![[Paxos 1738626210.png]]
 
-En la subfase de propose, si los acceptors no habían prometido nada previamente, prometen no aceptar ninguna otra request con un identificador menor al recibido
+En la subfase de **promise**, si los acceptors no habían prometido nada previamente, prometen no aceptar ninguna otra request con un identificador menor al recibido
 
-- Le responden al proposer con un mensaje de promesa, con un mensaje de `promise(N', v')` que contiene al `N'` y `v'` previo.
+- Responden al proposer con un mensaje de `promise(N', v')` que contiene al `N'` y `v'` previo.
 - No responden si llega una propuesta con `N < N'`.
 
 ![[Paxos 1738626338.png]]
@@ -59,14 +59,20 @@ Se divide en dos subfases:
 - **Propose**
 - **Accept**
 
-En la subfase de propose, si el proposer recibe promesas de la mayoría, entonces:
-- Envía las propuestas a los acceptors
+En la subfase de **propose**, si el proposer recibe promesas de la mayoría, entonces:
+
+- Envía las propuestas a los acceptors.
 - Rechazá todas las consultas son un identificador menor a `N`.
 
 ![[Paxos 1738626350.png]]
 
-### Fase 2
+En la subfase de **accept**, si la promesa es mantenida, se anuncia el nuevo valor `v`:
 
-Si la promesa es mantenida, se anuncia el nuevo valor `v`, y envia `Accept(N, v)` a todos los learners y al proposer inicial.
+- Envian un mensaje de `accept(N, v)` a todos los learners y al proposer inicial.
+- No envían `accept` si un mensaje con un identificador superior fue recibido.
 
 ![[Paxos 1738626363.png]]
+
+El learner le responde al cliente y se toman acciones respecto al valor acordado:
+
+![[Paxos 1738627421.png]]
