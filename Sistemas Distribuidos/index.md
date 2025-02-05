@@ -49,6 +49,7 @@ title: Sistemas Distribuidos
 - [[Particionamiento de Datos]]
 - [[Distributed Shared Memory]]
 - [[Distributed File System]]
+- [[Big Table]]
 
 ## Sistemas Elásticos
 
