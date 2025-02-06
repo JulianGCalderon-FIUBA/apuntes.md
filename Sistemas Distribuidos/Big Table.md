@@ -9,7 +9,13 @@ Un tablet es un conjunto de filas consecutivas, de acuerdo a la clave. Es la uni
 Este modelo tiene algunas ventajas:
 
 - Las operaciones son atómicas por clave.
-- Se aprovecha el principio de lcoalidad de datos, para ahcer lecturas por rangos de claves de forma rápida.
+- Se aprovecha el principio de localidad de datos, para hacer lecturas por rangos de claves de forma rápida.
+- Hay versionado de celdas, lo que permite guardar múltiples versiones de un valor en un mismo lugar.
+
+Por otro lado, tiene las siguientes restricciones:
+
+- Es imposible crear índices, ya que está indexado en base a la clave.
+- Es imposible crear contextos de transacciones *cross-keys*.
 
 ## Jerarquía
 
@@ -17,7 +23,7 @@ El almacenamiento es similar al de un árbol B+, la unidad de almacenamiento bas
 
 ![[Big Table 1738715853.png]]
 
-La velocidad es constante, y está optimizada para bases de datos muy grandes.
+La velocidad es constante indiferente de la cantidad de datos, y está optimizada para bases de datos muy grandes.
 
 ## Arquitectura
 
@@ -25,4 +31,6 @@ La velocidad es constante, y está optimizada para bases de datos muy grandes.
 
 Las operaciones de metadata se envían a un **Big Table Master**. Estas operaciones implican comunicarse con las tablets, y lockear tables o porciones de tablets, utilizando un servidor de llaves **chubby**.
 
-A diferencia de Hadoop, y debido a la estructura de árbol, a veces es necesario rebalancear las tablets. Las tablets se dividen en dos, y pueden ser almacenados en servidores distintos.
+A diferencia de Hadoop, y debido a la estructura de árbol, a veces es necesario rebalancear las tablets. Las tablets se dividen en dos, y pueden ser almacenados en servidores distintos, dividiendo el trabajo.
+
+Es posible que la división de tablets no sea exitosa, y que todas las siguientes consultas vayan a una sola de las particiones.
