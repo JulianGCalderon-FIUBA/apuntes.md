@@ -1,4 +1,4 @@
-Un sistema de tiempo real, o *real time* Es un sistema cuya evolución se especifica en términos de requerimientos temporales requeridos por el entorno. La correctitud del **sistema** depende de que entregue respuestas correctas y en tiempo correcto.
+Un sistema de tiempo real, o *real time* Es un sistema cuya evolución se especifica en términos de requerimientos temporales requeridos por el entorno. La correctitud del sistema depende de que entregue respuestas correctas y en tiempo correcto.
 
 Algunos ejemplos son:
 
@@ -9,4 +9,11 @@ Algunos ejemplos son:
 - Control de aeronaves
 - Marcapasos
 
-Un sistema es real time si tiene al menos un servicio real time.
+Un sistema es de tiempo real si tiene al menos un servicio de tiempo real.
+
+## Tipos de Real Time
+
+Hay dos tipos principales de servicios en real time:
+
+- **Hard RT**: Se debe evitar todo fallo relacionado con el tiempo de delivery. Perder un deadline o plazo de respuesta es un fallo total.
+- **Soft RT**: Los fallos relacionados con el tiempo de delivery pueden ser admitidos ocasionalmente. La utilidad de un resultado disminuye tras el deadline.
