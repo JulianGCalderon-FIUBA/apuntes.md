@@ -15,5 +15,11 @@ Un sistema es de tiempo real si tiene al menos un servicio de tiempo real.
 
 Hay dos tipos principales de servicios en real time:
 
-- **Hard RT**: Se debe evitar todo fallo relacionado con el tiempo de delivery. Perder un deadline o plazo de respuesta es un fallo total.
-- **Soft RT**: Los fallos relacionados con el tiempo de delivery pueden ser admitidos ocasionalmente. La utilidad de un resultado disminuye tras el deadline.
+- **Hard RT**: Se debe evitar todo fallo relacionado con el tiempo de delivery. Perder un deadline o plazo de respuesta es un fallo total. Por ejemplo: Control de aeronaves.
+- **Soft RT**: Los fallos relacionados con el tiempo de delivery pueden ser admitidos ocasionalmente. La utilidad de un resultado disminuye tras el deadline. Por ejemplo: Servicio de streaming.
+
+## Previsibilidad
+
+El concepto de real time implica previsibilidad, no performance. Un sistema veloz, pero sin previsibilidad no es de tiempo real, mientras que un sistema previsible con tiempos característicos lentos lo son.
+
+Se trata de hacer un correcto *scheduling* para que se cumplan los plazos previstos por diseño.
