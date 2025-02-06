@@ -283,7 +283,8 @@
     "acceptors",
     "proposer",
     "learners",
-    "particionarlos"
+    "particionarlos",
+    "correctitud"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,

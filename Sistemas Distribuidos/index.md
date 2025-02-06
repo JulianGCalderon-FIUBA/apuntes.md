@@ -79,3 +79,7 @@ title: Sistemas Distribuidos
 - [[Elección de Lider]]
 - [[Generales Bizantinos]]
 - [[Paxos]]
+
+## Sistemas de Tiempo Real
+
+- [[Sistemas de Tiempo Real]]
