@@ -83,3 +83,4 @@ title: Sistemas Distribuidos
 ## Sistemas de Tiempo Real
 
 - [[Sistemas de Tiempo Real]]
+- [[Sistemas de Control]]

@@ -284,7 +284,8 @@
     "proposer",
     "learners",
     "particionarlos",
-    "correctitud"
+    "correctitud",
+    "Expendedoers"
   ],
   "newFileLocation": "current",
   "focusNewTab": true,
