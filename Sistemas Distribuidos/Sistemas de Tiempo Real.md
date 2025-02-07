@@ -9,7 +9,7 @@ Algunos ejemplos son:
 - Control de aeronaves
 - Marcapasos
 
-Un sistema es de tiempo real si tiene al menos un servicio de tiempo real.
+Un sistema es realtime si tiene al menos un servicio real time.
 
 ## Tipos de Real Time
 
@@ -26,4 +26,9 @@ Se trata de hacer un correcto *scheduling* para que se cumplan los deadlines pre
 
 ## Comunicaciones
 
-Un sistema real time requiere comunicación fiable y sincrónica (con deadlines bien definidos)
+Un sistema real time requiere comunicación fiable y sincrónica (con deadlines bien definidos):
+
+- La comunicación TCP/IP no permite asegurar estos atributos. No se asegura un deadline sobre el tiempo.
+- La comunicación serial permite controlar estos atributos. Ya hay productos comerciales que proveen garantías: Profibus.
+- Ethernet puede ser utilizado, pero con un protocolo adecuado. Ya hay protocolos que lo cumplen: Profinet.
+	- Se requiere evitar el no determinismo en el protocolo.
