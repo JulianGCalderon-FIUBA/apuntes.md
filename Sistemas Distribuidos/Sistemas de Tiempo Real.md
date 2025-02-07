@@ -51,4 +51,4 @@ El cliente solo puede controlar sus propios tiempos, y se deben proveer garantí
 
 ![[Sistemas de Tiempo Real 1738887182.png]]
 
-En los sistemas **time-triggered**, se delimitan time slots,
+En los sistemas **time-triggered**, se definen *time slots*, y dentro de cada uno se emiten eventos. Estos eventos pueden demandar respuesta, y las garantías sobre estas respuestas están definidas en base a los *time slots* (por ejemplo, la respuesta debe llegar en el propio *time slot*, o el siguiente).
