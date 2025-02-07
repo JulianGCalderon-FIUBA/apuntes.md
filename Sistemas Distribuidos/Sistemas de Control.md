@@ -32,8 +32,14 @@ Hay dos tipos de variables:
 
 Una **perturbación** es una señal que afecta negativamente el valor de la salida del sistema. Por ejemplo, abrir una ventana en un sistema de aire acondicionado.
 
-## Control de Lazo Abierto
+## Control a Lazo Abierto
 
-En un sistema de lazo abierto, la salida no afecta la acción de control. Por ejemplo, los aires acondicionados antiguos.
+En un sistema de lazo abierto, la salida no afecta la acción de control. Por ejemplo, los aires acondicionados antiguos sin control de temperatura.
 
 ![[Sistemas de Control 1738888270.png]]
+
+## Control a Lazo Cerrado
+
+En un control a lazo cerrado o realimentado (*feedback*), se utiliza la información sobre el estado del sistema para actuar sobre el sistema, y llevar la salida del mismo a los valores deseados. Por ejemplo, un aire acondicionado moderno, que analiza la temperatura y decide como actuar para llegar al objetivo.
+
+![[Sistemas de Control 1738888363.png]]
