@@ -30,5 +30,10 @@ Un sistema real time requiere comunicación fiable y sincrónica (con deadlines 
 
 - La comunicación TCP/IP no permite asegurar estos atributos. No se asegura un deadline sobre el tiempo.
 - La comunicación serial permite controlar estos atributos. Ya hay productos comerciales que proveen garantías: Profibus.
-- Ethernet puede ser utilizado, pero con un protocolo adecuado. Ya hay protocolos que lo cumplen: Profinet.
-	- Se requiere evitar el no determinismo en el protocolo.
+- Ethernet puede ser utilizado, pero con un protocolo adecuado.
+	- Se requiere evitar el no determinismo en el protocolo. Esto solo puede ocurrir en caso de colisiones en la transmisión.
+	- Existen protocolos que ya cumplen con esto, por ejemplo: Profinet.
+
+## Tolerancia a Fallos
+
+Ahora, los sistemas deben además ser tolerantes a fallos de tiempo.
