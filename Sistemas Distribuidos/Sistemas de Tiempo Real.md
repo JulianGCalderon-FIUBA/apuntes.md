@@ -36,4 +36,9 @@ Un sistema real time requiere comunicación fiable y sincrónica (con deadlines 
 
 ## Tolerancia a Fallos
 
-Ahora, los sistemas deben además ser tolerantes a fallos de tiempo.
+Los sistemas de **real time** deben además ser tolerantes a fallos de tiempo.
+
+Hay distintas est de tolerar fallas:
+
+- **Hard RT**: Son sistemas de misión crítica, y suelen ser sistemas de control. Frente a errores, se asume un fallo catastrófico y se debe reiniciar el sistema. En estos casos es importante que el sistema sea mantenible.
+- **Soft RT**: Si la restricción no se cumple, entonces se degrada el servicio, pero no es catastrófico. Un ejemplo son los sistemas web de gran escala. Una posible restricción es: el 90% de los requests deben responderse en 2 segundos, mientras que el 10% restante debe responderse en a lo sumo 10 segundos.
