@@ -24,6 +24,8 @@ El concepto de real time implica previsibilidad, no performance. Un sistema velo
 
 Se trata de hacer un correcto *scheduling* para que se cumplan los deadlines previstos por diseño.
 
+El scheduling es importante, y debe ser apropiativo (non-preemptive), y de acuerdo a un esquema de prioridades para poder cumplir deadlines.
+
 ## Comunicaciones
 
 Un sistema real time requiere comunicación fiable y sincrónica (con deadlines bien definidos):
@@ -33,6 +35,8 @@ Un sistema real time requiere comunicación fiable y sincrónica (con deadlines 
 - Ethernet puede ser utilizado, pero con un protocolo adecuado.
 	- Se requiere evitar el no determinismo en el protocolo. Esto solo puede ocurrir en caso de colisiones en la transmisión.
 	- Existen protocolos que ya cumplen con esto, por ejemplo: Profinet.
+
+Se busca evitar algoritmos de backoff, ya que aumentan la imprevisibilidad del sistema.
 
 ## Tolerancia a Fallos
 
