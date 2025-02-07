@@ -38,7 +38,17 @@ Un sistema real time requiere comunicación fiable y sincrónica (con deadlines 
 
 Los sistemas de **real time** deben además ser tolerantes a fallos de tiempo.
 
-Hay distintas est de tolerar fallas:
+Hay distintas estrategias para tratar con fallos temporales:
 
-- **Hard RT**: Son sistemas de misión crítica, y suelen ser sistemas de control. Frente a errores, se asume un fallo catastrófico y se debe reiniciar el sistema. En estos casos es importante que el sistema sea mantenible.
+- **Hard RT**: Son sistemas de misión crítica, y suelen ser sistemas de control. Frente a errores, se asume un fallo catastrófico y se debe reiniciar el sistema. En estos casos es importante que el sistema sea mantenible, para que se pueda recuperar de forma barata, rápida y consistente.
 - **Soft RT**: Si la restricción no se cumple, entonces se degrada el servicio, pero no es catastrófico. Un ejemplo son los sistemas web de gran escala. Una posible restricción es: el 90% de los requests deben responderse en 2 segundos, mientras que el 10% restante debe responderse en a lo sumo 10 segundos.
+
+## Paradigmas de Trabajo
+
+Hay dos paradigmas de trabajo. En los sistemas **event-triggered**, hay un actor que hace consultas, y otro que responde (denotado como servidor, pero puede ser cualquier cosa, como un sensor).
+
+El cliente solo puede controlar sus propios tiempos, y se deben proveer garantías sobre los deadlines en la comunicación, o en el procesamiento por parte del servidor.
+
+![[Sistemas de Tiempo Real 1738887182.png]]
+
+En los sistemas **time-triggered**, se delimitan time slots,
