@@ -39,12 +39,12 @@ Algunas ventajas:
 - No es necesario elegir un coordinador
 - Tolerante a caídas de nodos
 - Requiere pocas conexiones (en el peor caso tiene que concoer a todos los nodos, pero se puede limitar a, por ejemplo, solo los 3 siguientes).
-- S
 
 Es un algoritmo fácil de implementar y de entender, aunque tiene algunas desventajas:
 
 - Se debe implementar algún mecanismo de recuperación de token, en caso de que se caiga el nodo que lo tenía.
-- La creación de un anillo de forma dinámica requiere un protocolo en si mismo.
+- La creación de un anillo de forma dinámica requiere un protocolo en sí mismo.
+- Se comunican siempre aunque nadie necesite el token.
 
 ## Ricart & Agrawala
 
