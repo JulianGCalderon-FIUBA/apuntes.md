@@ -46,6 +46,19 @@ Algunas características de la utilización de un broker:
 - Brinda un punto de control y monitoreo.
 - Ofrecer persistencia del mensaje en caso de que no haya nadie para recibirlo aún.
 
+## TCP
+
+A diferencia de TCP, que es un protocolo simple, *stream oriented*, y para comunicación uno a uno, un MOM ofrece las siguientes características:
+
+- Comunicación uno a muchos, o muchos a muchos.
+- Monitoreo.
+- Persistencia.
+- Replicación.
+- Confirmaciones de mensajes semánticos, no solo de segmentos de TCP (por ejemplo: se procesó determinada consulta).
+- Expiración de mensajes.
+- Prioridades.
+- Routing de mensajes.
+
 ## Patrones de Comunicación
 
 - [[Request-Reply]]
