@@ -12,6 +12,8 @@ La comunicación remota es transparente para el usuario.
 
 Hay portabilidad a través de implementación de interfaces bien definidas.
 
+Las llamadas al servidor son *stateless*, no guarda estado.
+
 ## Interface Definition language
 
 Se utilizan lenguajes de definición de interfaces, que luego son utilizados para generar las estructuras necesarias en el lenguaje deseado (Python, Go, Rust).
