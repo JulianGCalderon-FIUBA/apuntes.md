@@ -14,7 +14,7 @@ Se dice que un sistema tiene degradación suave (*graceful degradation*) cuando 
 
 Son dos conceptos que estan relacionados:
 
-- **Disponibilidad** (*availability*): La probabilidad de que el sistema esté operando.
+- **Disponibilidad** (*availability*): La probabilidad de que el sistema esté operando cuando se lo precisa.
 - **Fiabilidad** (*reliability*): La capacidad del sistema para dar un servicio correcto de forma continúa. No solo tiene que estar disponible, sino que tiene que hacerlo de forma correcta.
 
 La mejor estrategia depende de varios factores:
