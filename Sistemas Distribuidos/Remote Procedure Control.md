@@ -14,7 +14,11 @@ Hay portabilidad a través de implementación de interfaces bien definidas.
 
 ## Interface Definition language
 
-Se utilizan lenguajes de definición de interfaces, que luego son utilizados para generar las estructuars necesarias en el lenguaje deseado (Python, Go, Rust).
+Se utilizan lenguajes de definición de interfaces, que luego son utilizados para generar las estructuras necesarias en el lenguaje deseado (Python, Go, Rust).
+
+La interfaz de las funciones está definida según sus datos de entrada (input) y sus datos de salida (output).
+
+Un ejemplo de esto es *google protocol buffers*
 
 ## Tolerancia a Fallos
 
