@@ -8,7 +8,7 @@ title: Sistemas Distribuidos
 
 ## Introducción
 
-- [[Necesidades]]
+- [[Motivaciones]]
 - [[Multiprogramación]]
 - [[Sistema Distribuido]]
 - [[Paralelización]]
