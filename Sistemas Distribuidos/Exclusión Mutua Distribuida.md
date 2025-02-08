@@ -35,9 +35,10 @@ Cuando un proceso recibe el token, accede a la sección crítica en caso de que 
 
 Algunas ventajas:
 
-- Facil de implementar
+- Fácil de implementar
 - No es necesario elegir un coordinador
-- Tolerante a caidas de nodos
+- Tolerante a caídas de nodos
+- Requiere pocas conexiones (en el peor caso tiene que concoer a todos los nodos, pero se puede limitar a, por ejemplo, solo los 3 siguientes).
 
 Es un algoritmo fácil de implementar y de entender, aunque tiene algunas desventajas:
 
