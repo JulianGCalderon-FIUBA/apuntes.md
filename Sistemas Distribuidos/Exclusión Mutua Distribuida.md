@@ -33,6 +33,12 @@ Se construye un anillo ordenando a todos los procesos por algún atributo. Luego
 
 Cuando un proceso recibe el token, accede a la sección crítica en caso de que sea necesario, y luego le pasa el *token* a su vecino. Puede haber múltiples *tokens*, uno por sección crítica.
 
+Algunas ventajas:
+
+- Facil de implementar
+- No es necesario elegir un coordinador
+- Tolerante a caidas de nodos
+
 Es un algoritmo fácil de implementar y de entender, aunque tiene algunas desventajas:
 
 - Se debe implementar algún mecanismo de recuperación de token, en caso de que se caiga el nodo que lo tenía.
