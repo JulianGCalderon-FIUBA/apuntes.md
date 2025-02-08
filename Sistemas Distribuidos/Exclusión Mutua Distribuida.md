@@ -33,7 +33,7 @@ Se construye un anillo ordenando a todos los procesos por algún atributo. Luego
 
 Cuando un proceso recibe el token, accede a la sección crítica en caso de que sea necesario, y luego le pasa el *token* a su vecino. Puede haber múltiples *tokens*, uno por sección crítica.
 
-Algunas ventajas:
+Algunas ventaas:
 
 - Fácil de implementar
 - No es necesario elegir un coordinador
@@ -64,7 +64,12 @@ Cuando un proceso recibe una consulta, entonces:
 	- Si el receptor es el perdedor, entonces envía un `OK`.
 	- Si el receptor es el ganador, entonces encola la consulta.
 
-Este algoritmo tiene la ventaja de que no requiere de un coordinador, pero tiene otras desventajas:
+Algunas ventajas:
+
+- No requiere de un coordinador
+- Mientras nadie quiera acceder al recurso, no consume recursos en la red
+
+Tiene otras desventajas:
 
 - Se requiere de un *mesh* de conexiones. Todos los procesos deben conocerse.
 - La cantidad de mensajes enviados es muy alta.
