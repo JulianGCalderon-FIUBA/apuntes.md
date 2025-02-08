@@ -38,3 +38,5 @@ Todo par de mensajes entregado a los mismos receptores es recibido en el mismo o
 ![[Orden de Mensajes 1737241468.png]]
 
 En el ejemplo, vemos como ambos receptores reciben los dos mensajes en el mismo orden, independiente de cuando fueron enviados.
+
+El orden total no es excluyente con el orden causal.
