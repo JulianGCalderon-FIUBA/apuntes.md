@@ -39,12 +39,6 @@ Todo par de mensajes entregado a los mismos receptores es recibido en el mismo o
 
 En el ejemplo, vemos como ambos receptores reciben los dos mensajes en el mismo orden, independiente de cuando fueron enviados.
 
-El orden total no es excluyente con el orden causal.
+El orden total no es excluyente con el orden causal. Por ejemplo, en el siguiente diagrama, El segundo proceso recibe el mensaje $D3$ antes que el mensaje $D2$, incumpliendo el orden causal, pero cumpliendo el orden causal.
 
-```mermaid
-sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    John-->>Alice: Great!
-    Alice-)John: See you later!
-
-```
+![[Orden de Mensajes 1739042807.png]]
