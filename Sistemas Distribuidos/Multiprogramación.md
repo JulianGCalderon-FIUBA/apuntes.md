@@ -24,7 +24,7 @@ Los distintos programas se ejecutan concurrentemente en distintos procesos del s
 
 Esto implica que hay menos recursos compartidos (code segment).
 
-Para sincronizar procesos, dependeremos nuevamente de soporte del sistema operativo, como por ejemplo, con IPC.
+Para sincronizar procesos, dependeremos nuevamente de soporte del sistema operativo, como por ejemplo, con IPC (señales, memoria compartida, sockets, pipes, fifos, semaforos, colas, locks).
 
 Al ser procesos distintos, compartir información no es tan trivial, aunque esto ofrece menor acoplamiento entre los procesos.
 

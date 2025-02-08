@@ -9,6 +9,14 @@ Escalan distribuyendo trabajo y recursos.
 - **Movilidad**: no están circunscritos al alcance de un único computador.
 - **Costo**: los componentes más simples, puede contener subsistemas delegados en servicios terceros
 
+## Ley de Conway
+
+> "Cualquier organización que diseñe un sistema, inevitablemente producirá un diseño cuya estructura será una copia de la estructura de comunicación de la organización" (Conway M., How do committees invent, Datamation, 1968).
+
+Este enunciado fue demostrado empíricamente en distintos relevamientos de arquitecturas de software corporativo. Es decir, se probó que diseñamos de acuerdo a lo que conocemos y estamos acostumbrados a hacer en el día a día.
+
+No es necesariamente negativo: en su trabajo, el hombre tiende a encontrar soluciones distribuidas y paralelas eficientes (minimizan costo, energía, tiempo, etc.).
+
 ## Centralización
 
 Por otro lado, un sistema **centralizado** tiene las siguientes ventajas:
