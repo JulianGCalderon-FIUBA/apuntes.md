@@ -30,3 +30,5 @@ Existen distintas formas de analizar el speedup:
 - [[Ley de Amdahl]]
 - [[Ley de Gustafson]]
 - [[Modelo Work-Span]]
+
+## Paralelismo vs. Concurrencia
