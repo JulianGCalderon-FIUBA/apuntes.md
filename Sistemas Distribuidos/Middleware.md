@@ -20,6 +20,12 @@ Un middleware tiene distintos objetivos:
 - Dar **estándares claros sobre sintaxis y semántica** de los servicios ofrecidos. Dar interoperabilidad y portabilidad.
 - Permitir **comunicación de grupo** (_broadcast_, _multicast_). Facilitar la relocalización de elementos y coordinación de tareas.
 
+## Vista Lógica
+
+El middleware es una capa entre el sistema operativo y las aplicaciones que ofrece una vista única al sistema.
+
+![[Middleware 1739231921.png]]
+
 ## Centralizado o Descentralizado
 
 El middleware puede ser centralizado, en forma de un nodo intermedio con el cual se comunican los clientes. Un ejemplo es RabbitMQ.
