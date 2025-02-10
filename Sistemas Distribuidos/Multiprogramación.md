@@ -30,11 +30,20 @@ Al ser procesos distintos, compartir información no es tan trivial, aunque esto
 
 Hay mayor escalabilidad y estabilidad, aunque sique limitado por las capacidades de la computadora.
 
-### Modelo Físico
+### Múltiples Procesadores
 
 El sistema puede contar con una única CPU (el caso más común), o con múltiples CPU, que se comunican a través de un bus para acceder a recursos compartidos. Esto puede generar complicaciones.
 
 ![[Multiprogramación 1739230468.png]]
+
+### Taxonomía de Flynn
+
+Es una clasificación de sistemas de acuerdo a la cardinalidad del flujo de instrucciones y flujo de datos:
+
+- **SISD - Single Instruction Single Data**: Es el modelo estándar de procesamiento.
+- **SIMD - Single Instruction Multiple Data**: Los procesadores modernos suelen tener soporte para esto, y permite realizar múltiples operaciones a la vez.
+- **MISD - Multiple Instruction Single Data:** Ofrecen redundancia cuando no se confía que los procesadores funcionen correctamente. No es una arquitectura común.
+- **MIMD - Multiple Instruction Multiple Data**: Requiere sincronziar y coordinador el acceso a la memoría, y no es necesariemente uniforme. 
 
 ## Multi-computing
 
