@@ -8,6 +8,8 @@ En una comunicación de uno a muchos, la atomicidad requiere atención especial.
 
 Si los mensajes deben entregarse a múltiples procesos de forma atómica, entonces surge la necesidad de tener ACK, y demorar la entrega de los mensajes.
 
+No es lo mismo la recepción de un mensaje (a nivel de capa de transporte), a la entrega del mensaje a la capa de 
+
 ## Perdida de Mensajes
 
 Ante la perdida de un mensaje, tenemos 3 estrategias principales:

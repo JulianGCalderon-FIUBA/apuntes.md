@@ -6,7 +6,7 @@ Hay dos variantes para el formato de mensajes, el formato **binario** y el forma
 
 ### Binario
 
-Al tener control total sobre los bytes del mensaje, podemos usar una representación muy eficiente de almacenar y serialiar. En estos casos, la compresión puede noser necesaria.
+Al tener control total sobre los bytes del mensaje, podemos usar una representación muy eficiente de almacenar y serialiar. En estos casos, la compresión puede no ser necesaria.
 
 Para la serialización, tendremos que implementar una solución a mano, o utilizar algún DSL para generar el código correspondiente, como por ejemplo: Google Protobuf, Thrift, ASN.1.
 

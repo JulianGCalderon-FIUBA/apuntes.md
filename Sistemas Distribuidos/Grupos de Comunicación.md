@@ -19,3 +19,5 @@ Hay distintos tipos de [[Topología de Comunicación|topologías]] para la difus
 
 - Centralizada: Un nodo le envía a todos.
 - Descentralizada: Un nodo le envía a los vecinos, y estos propagan el mensaje.
+
+![[Grupos de Comunicación 1739231329.png]]
