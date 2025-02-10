@@ -36,6 +36,13 @@ El sistema puede contar con una única CPU (el caso más común), o con múltipl
 
 ![[Multiprogramación 1739230468.png]]
 
+Los diseños de memoria pueden ser simétricos o asimétricos:
+
+- UMA (Uniform Memory Access): El tiempo de acceso a la memoria es igual para todos los procesadores, y el ancho de banda es compartido. Es un sistema con performance balanceada para el uso general.
+- NUMA (Non-Uniform Memory Access): Cada procesador tiene memoria local, para la cual tiene mayor ancho de banda. Recientemente se empezó a ofrecer en *cloud*.
+
+![[Multiprogramación 1739230968.png]]
+
 ### Taxonomía de Flynn
 
 Es una clasificación de sistemas de acuerdo a la cardinalidad del flujo de instrucciones y flujo de datos:
@@ -43,7 +50,7 @@ Es una clasificación de sistemas de acuerdo a la cardinalidad del flujo de inst
 - **SISD - Single Instruction Single Data**: Es el modelo estándar de procesamiento.
 - **SIMD - Single Instruction Multiple Data**: Los procesadores modernos suelen tener soporte para esto, y permite realizar múltiples operaciones a la vez.
 - **MISD - Multiple Instruction Single Data:** Ofrecen redundancia cuando no se confía que los procesadores funcionen correctamente. No es una arquitectura común.
-- **MIMD - Multiple Instruction Multiple Data**: Requiere sincronziar y coordinador el acceso a la memoría, y no es necesariemente uniforme. 
+- **MIMD - Multiple Instruction Multiple Data**: Requiere sincronizar y coordinador el acceso a la memoria, y no es necesariamente uniforme, ya que existen modelos asimétricos que benefician la afinidad. Se puede implementar con un modelo *multiprocessor*, con memoria y clock compartidos, o con un modelo *multicomputing*.
 
 ## Multi-computing
 
