@@ -32,3 +32,11 @@ Existen distintas formas de analizar el speedup:
 - [[Modelo Work-Span]]
 
 ## Paralelismo vs. Concurrencia
+
+En un sistema paralelo, la ejecución ocurre al mismo tiempo, con dos recursos distintos, de forma independiente
+
+En un sistema concurrente, los procesos se deben sincronizar para acceder al mismo recurso.
+
+![[Paralelización 1739229107.png]]
+
+Cuanto más paralelizable es un sistema, más se podrá mejorar. Los casos de error tiend
