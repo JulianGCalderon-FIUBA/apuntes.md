@@ -30,6 +30,12 @@ Al ser procesos distintos, compartir información no es tan trivial, aunque esto
 
 Hay mayor escalabilidad y estabilidad, aunque sique limitado por las capacidades de la computadora.
 
+### Modelo Físico
+
+El sistema puede contar con una única CPU (el caso más común), o con múltiples CPU, que se comunican a través de un bus para acceder a recursos compartidos. Esto puede generar complicaciones.
+
+![[Multiprogramación 1739230468.png]]
+
 ## Multi-computing
 
 Los distintos programas se ejecutan en computadoras distintas, totalmente independientes. Esta categoría se acerca más a la idea de un [[Sistema Distribuido]]
