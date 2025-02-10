@@ -2,7 +2,7 @@
 
 A diferencia de la [[Ley de Amdahl]], Gustafson plantea que el problema no tiene un tamaño fijo: si no podemos mejorar la solución, podemos modificar el problema para aprovechar más los recursos, o realizar más trabajo en la misma cantidad de tiempo.
 
-Si el problema se modifica (crece), caben dos alternativas:
+Por lo general, observó que la parte serial no suele aumentar al modificar el problema:
 
 - La parte serial disminuye, por lo que el *speedup* aumenta.
 - El paralelismo aumenta, por lo que el *speedup* aumenta.
