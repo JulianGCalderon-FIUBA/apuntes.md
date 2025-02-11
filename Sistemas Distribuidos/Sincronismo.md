@@ -1,6 +1,6 @@
 Un algoritmo es **sincrónico** si sus acciones pueden ser delimitadas en el tiempo
 
-- **Sincronismo**: Entrega de un mensaje posee un _timeout_ conocido.
+- **Sincrónico**: Entrega de un mensaje posee un _timeout_ conocido.
 - **Parcialmente sincrónico:** Entrega de un mensaje no posee un _timeout_ conocido o bien el mismo es variable.
 - **Asincrónico**: Entrega de un mensaje no posee un _timeout_ asociado.
 
@@ -13,15 +13,15 @@ Antes de definirlas, debemos definir dos conceptos auxiliares:
 - **Tiempo de delivery** $t_D^P(m)$: Es el tiempo que tarda un mensaje $m$ en ser recibido por $p$, una vez enviado.
 - **Timeout de delivery** $T_{D\max}(m)$: Es el tiempo de delivery máximo, para un mensaje $m$.
 
-Luego, podemos definir el **steadiness** $\sigma$ como la máxima diferencia entre el mínimo y el máximo tiempo de delivery de cualquier mensaje recibido por un proceso.
+Luego, podemos definir el **steadiness** $\sigma$ como la máxima diferencia tiempo de delivery de cualquier mensaje recibido por un solo proceso.
 
 $$
-\sigma = \max(T_{D\max} - T_{D\min})
+\sigma = \max(t_{D\max} - t_{D\min})
 $$
 
 Define la varianza con la cual un proceso observa que recibe los mensajes, y muestra que tan constante es la recepción de mensaje.
 
-Por otro lado, el **tightness** como la máxima diferencia entre los tiempos de delivery para cualquier mensaje.
+Por otro lado, el **tightness** como la máxima diferencia entre los tiempos de delivery para un mensaje dado, hacia todos los procesos.
 
 $$
 \forall p,q : \tau = \max_{m,p,q}(t_D^p(m) - t_D^q(m))

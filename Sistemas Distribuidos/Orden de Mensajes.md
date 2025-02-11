@@ -13,8 +13,6 @@ Se asume que el tiempo de delivery es nulo, por lo que no hay necesidad de orden
 
 ## Orden FIFO
 
-^1dd0f4
-
 Todo par de mensajes desde un mismo emisor a un mismo receptor, son entregados en el orden que fueron enviados.
 
 ![[Orden de Mensajes 1737241103.png]]
