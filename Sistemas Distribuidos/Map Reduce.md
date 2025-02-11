@@ -32,7 +32,7 @@ La lógica de negocio, provista por el usuario, son las funciones `map` y `reduc
 
 La función `map` recibe un chunk y devuelve un resultado intermedio como un conjunto de pares clave-valor.
 
-```go
+```rust
 map: (input shard) -> intermediate(key/value pairs)
 ```
 
@@ -44,6 +44,6 @@ Cada clave única es procesada por un único reducer, pero un reducer puede proc
 
 La función `reduce` recibe un conjunto de pares clave-valor. Esta función es llamada por cada clave única, y devuelve el resultado final del procesamiento.
 
-```
+```rust
 reduce: intermediate(key/value pairs) -> result files
 ```

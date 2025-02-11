@@ -8,11 +8,14 @@ Los relojes físicos no son confiables, ya que tienen **drift** (debido a cambio
 
 Hay relojes globales y relojes locales, los relojes globales se utilizan como referencia para sincronizar relojes locales.
 
+![[Relojes 1739235128.png]]
+
 Algunas referencias conocidas son:
 
 - **GMT** (*greamwich mean time*): ya no se utiliza como referencia, sino para el huso horario. Está basado en el tiempo de rotación terrestre.
 - **UTC** (*universal time coordinated*): basado en relojes atómicos, y recibe ajustes periódicos.
 - **GPS Time** (*global positioning system time*): basado en relojes atómicos, permite ajustar satélites, pero no recibe ajustes periódicos.
+- **TAI** (*Temps Atomique International*): Hay 200 relojes atómicos en 70 países. No recibe ajustes astronómicos.
 
 Para sincronizar un reloj físico, debemos compararnos con alguna referencia y aplicar una corrección.
 
@@ -24,13 +27,15 @@ $$
 T = T_\text{server} + D / 2
 $$
 
+![[Relojes 1739235204.png]]
+
 ### Network Time Protocol (NTP)
 
-Es un protocolo de red para sincronizar relojes entre computadoras a través de redes con latencia variable. Se puede hacer un análisis estadístico para filtrar datos y obtener resultados de calidad.
 
 - Debe tener una alta disponibilidad, para sobrevivir a largas caídas de conectividad. Para eso necesita tener servidores y rutas redundantes.
 - Debe ser escalable, y soportar a un gran número de clientes sincronizados de forma frecuente.
 - Debe tener en cuenta los efectos del drift.
+- Debe ofrecer sincronización, se puede hacer un análisis estadístico para filtrar datos y obtener resultados de calidad.
 
 La arquitectura está basada en estratos:
 
