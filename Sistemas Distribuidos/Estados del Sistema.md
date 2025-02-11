@@ -53,7 +53,9 @@ El algoritmo toma las siguientes suposiciones:
 
 Funciona de la siguiente manera:
 
-1. El algoritmo comienza cuando el proceso que decide generar un corte envía un marcador, y guarda el estado actual.
-2. El resto de procesos, al recibir un marcador (esto incluye a sí mismo)
+1. El algoritmo comienza cuando el proceso que quiere generar un corte envía un marcador al resto de procesos. Esto incluye un mensaje a sí mismo.
+2. Cuando un proceso recibe un marcador por primera vez, guarda su estado actual, y activa un *log* que registrará todos los mensajes que recibe.
+3. La segunda vez que recibe un marcador, entonces guardara los mensajes registrados en el corte.
+4. Una vez se recibieron todos los marcadores de todos los procesos, se da por finalizado el corte.
 
 ![[Estados del Sistema 1739238412.png]]
