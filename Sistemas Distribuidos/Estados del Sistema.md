@@ -16,9 +16,11 @@ En una máquina de estados, el estado en todo momento está dado por un estado a
 
 ![[Estados del Sistema 1737246065.png]]
 
-Hay que analizar que el estado del sistema sea valido o invalido.
+Hay que analizar que el estado del sistema sea válido o inválido.
 
 ![[Estados del Sistema 1739238268.png]]
+
+En este ejemplo, el estado $u_1 \cup u_0$ es válido, pero el estado $u_1 \cup t_0$ no lo es, puesto que $u_1$ depende del mensaje $m$ enviado por el evento $e_2$, que ocurrió luego de $t_0$.
 
 ## Historia y Corte
 
@@ -48,3 +50,10 @@ El algoritmo toma las siguientes suposiciones:
 - Los canales son unidireccionales y tienen un [[Orden de Mensajes#Orden FIFO|orden fifo]].
 - El grafo de comunicación es fuertemente conexo.
 - Cada proceso puede iniciar un snapshot en cualquier momento.
+
+Funciona de la siguiente manera:
+
+1. El algoritmo comienza cuando el proceso que decide generar un corte envía un marcador, y guarda el estado actual.
+2. El resto de procesos, al recibir un marcador (esto incluye a sí mismo)
+
+![[Estados del Sistema 1739238412.png]]
