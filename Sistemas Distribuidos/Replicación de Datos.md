@@ -28,4 +28,4 @@ Son muy comunes los conflictos, a menos que se particionen los datos. Una forma 
 
 En estos casos, es común tener un middleware que sincronice a las replicas.
 
-Es un modelo útil
+Es un modelo útil cuando tenemos una gran cantdiad de datos y/o de usuarios.

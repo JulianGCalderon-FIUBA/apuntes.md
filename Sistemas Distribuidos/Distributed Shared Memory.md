@@ -4,7 +4,7 @@ Es un patrón intuitivo, y permite que los algoritmos no distribuidos se traduzc
 
 ## Enfoque *naive*
 
-La información es almacenada en el servidor. Los clientes acceden mediante consultas de escritura y lectura. El servidor puede garantizar la consistencia muy fácilmente serializando los consultas.
+La información es almacenada en el servidor. Los clientes acceden mediante consultas de escritura y lectura sobre las paginas. El servidor puede garantizar la consistencia muy fácilmente serializando los consultas.
 
 ![[Data Intensive Applications 1737302115.png]]
 
