@@ -23,3 +23,19 @@ Un ejemplo de esto es *google protocol buffers*
 ## Tolerancia a Fallos
 
 A diferencia de en una llamada local, debemos tomar medidas para prevenir fallos en la comunicación: [[Comunicacion Confiable#Perdida de Mensajes|Perdida de Mensajes]].
+
+## Implementación
+
+Una implementación típica tiene tres componentes:
+
+- La capa de negocio, que realiza llamadas y ejecuta procedimientos.
+- La capa de serialización, denominada **stub**.
+- La capa de comunicaciones.
+
+![[Remote Procedure Control 1739233301.png]]
+
+### gRPC
+
+Es una definición de RPC que está basada en HTTP2, y Google Protocol Buffers para la serialización.
+
+Se definen las interfaces en archivos `.proto` y estas son compiladas al lenguaje destino.
