@@ -8,7 +8,11 @@ Hay muchas definiciones:
 
 > Software que permite conectar componentes, softwares o aplicaciones. El mismo consiste en un conjunto de servicios que permiten que múltiples procesos corriendo en una o varias máquinas interactúen de un lado a otro de la red
 
-Para definir un middleware, hablaremos de sus objetivos.
+## Vista Lógica
+
+El middleware es una capa entre el sistema operativo y las aplicaciones que ofrece una vista única al sistema.
+
+![[Middleware 1739231921.png]]
 
 ## Objetivos
 
@@ -20,17 +24,13 @@ Un middleware tiene distintos objetivos:
 - Dar **estándares claros sobre sintaxis y semántica** de los servicios ofrecidos. Dar interoperabilidad y portabilidad.
 - Permitir **comunicación de grupo** (_broadcast_, _multicast_). Facilitar la relocalización de elementos y coordinación de tareas.
 
-## Vista Lógica
-
-El middleware es una capa entre el sistema operativo y las aplicaciones que ofrece una vista única al sistema.
-
-![[Middleware 1739231921.png]]
-
 ## Centralizado o Descentralizado
 
 El middleware puede ser centralizado, en forma de un nodo intermedio con el cual se comunican los clientes. Un ejemplo es RabbitMQ.
 
 Por otro lado, el middleware puede descentralizado, en forma de bibliotecas presentes en cada nodo que abstraigan este detalle. Un ejemplo es ZeroMQ.
+
+![[Middleware 1739232130.png]]
 
 Un middleware centralizado es más fácil de monitorear, ya que hay un único punto donde obtener la información del sistema (por ejemplo: encontrar congestión).
 
@@ -40,7 +40,7 @@ Un middleware distribuido puede llegar a ser más performante y tiene mejor tole
 
 Hay distintos tipos de middleware:
 
-- **Transaccionales**: Permiten garantizar la transaccionalidad de las operaciones respecto a los datos. Permiten un acceso transparente al grupo.
+- **Transaccionales**: Permiten garantizar la transaccionalidad de las operaciones respecto a los datos. Permiten un acceso transparente al grupo. Poseen políticas de reintentos y retención de datos frente a caídas.
 - **Orientados a procedimientos**: El middleware trabaja como un servidor de funciones que se pueden invocar. Se pueden explorar y ejecutar, pero no presentan estado para futuras invocaciones. Un ejemplo es [[Remote Procedure Control]].
 - **Orientados a objetos**: Los objetos viven dentro del middleware, y se puede operar con ellos desde los clientes. A este concepto se lo conoce como [[Objetos Distribuidos]].
 - **Orientados a mensajes**: Funciona como un sistema de mensajería entre aquellas aplicaciones que utilizan el middleware. Este tipo se conoce como [[Message Oriented Middleware]].
