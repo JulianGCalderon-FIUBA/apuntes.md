@@ -82,9 +82,15 @@ Dado un conjunto de $n$ procesos. Todos comienzan con un reloj lógico inicializ
 1. Los mensajes enviados entre procesos incluyen el *timestamp* de ese evento.
 2. Cuando un proceso recibe un mensaje, actualiza el reloj para obtener el máximo entre el reloj actual y el timestamp del mensaje, de modo que la recepción del mensaje tenga un valor mayor al envió del mismo (el timestamp dentro del mensaje).
 
-Esto, garantiza la definición de reloj lógica, pero no garantiza la recíproca. Esto implica que no necesariamente los relojes mostrarán la verdad.
-
 ![[Relojes 1737228063.png]]
+
+Esto, garantiza la definición de reloj lógica, pero no garantiza la recíproca. Es decir:
+
+$$
+C(s) < C(t) \cancel\implies s\to t
+$$
+
+Si para dos eventos, ninguno tiene un menor timestamp que otro, entonces se dice que ocurrieron en paralelo.
 
 ### Vector de Relojes
 
@@ -110,3 +116,5 @@ Dado un conjunto de $n$ procesos. Todos comienzan con un vector lógico iniciali
 Esto, garantiza la definición de reloj lógica, y también garantiza la recíproca. Si dados dos eventos $s, v$ tal que $s \not < v$ y $v \not < s$, diremos que los eventos son concurrentes.
 
 Esto lo hace redefiniendo la operación de $<$ de modo que solo se cumpla cuando se sabe que los eventos asociados ocurrieron uno después del otro. En el resto de casos, no se cumplirá $<$, $=$, ni $>$.
+
+Si para dos eventos, ninguno tiene un menor timestamp que otro, entonces se dice que ocurrieron en paralelo.
