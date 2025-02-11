@@ -16,7 +16,7 @@ La información es almacenada en el servidor, pero delegada a los clientes. Esto
 
 ![[Data Intensive Applications 1737302128.png]]
 
-Este enfoque no permite acceso concurrente a una página, pero permite optimizar la localidad de acceso.
+Este enfoque no permite acceso concurrente a una página, pero permite optimizar la localidad de acceso, gracias a la delegación.
 
 ## Replicación de Memory Pages
 
