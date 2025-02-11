@@ -12,3 +12,5 @@ Esto tiene las siguientes ventajas
 - Admite procesar solo nodos requeridos por dependencias (lazy loading).
 
 Se pueden utilizar para calcular dependencias entre procesos. Si se encuentra un ciclo, entonces existe la posibilidad de un deadlock.
+
+Es útil acompañar el grafo con los datos que viajan a través de cada arista.

@@ -8,6 +8,10 @@ Los datos de entrada forman un flujo donde distintos filtros o procesadores se c
 
 Esta arquitectura puede iniciar el procesamiento antes de que estén todos los datos, lo que permite trabajar con flujos infinitos de información, en modo de _stream_.
 
+![[Pipeline 1739233025.png]]
+
+Este patrón es útil para algoritmo online, donde se puede comenzar a procesar la tarea antes de terminar de recibir los datos, y situaciones donde los datos son un flujo infinito.
+
 ## Modelos de Procesamiento
 
 Admite dos modos de procesamiento:

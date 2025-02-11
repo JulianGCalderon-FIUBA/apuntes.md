@@ -7,4 +7,6 @@ Existen 2 tipos de nodos:
 
 Se suele usar para el procesamiento de tareas.
 
-Un fram
+![[Producer-Consumer 1739232896.png]]
+
+Los [[Message Oriented Middleware]] ofrecen este patrón.
