@@ -103,8 +103,10 @@ $$
 Dado un conjunto de $n$ procesos. Todos comienzan con un vector lógico inicializado en $0$. Cada evento toma como timestamp el valor de vector actual, e incrementa la posición del vector correspondiente a sí mismo en $1$.
 
 1. Los mensajes enviados entre procesos incluyen el *timestamp* de ese evento (vector completo).
-2. Cuando un proceso recibe un mensaje, actualiza cada posición del reloj para obtener el máximo entre el vector actual, y el vector contenido en el mensaje. Esto asegura que la repe
+2. Cuando un proceso recibe un mensaje, actualiza cada posición del reloj para obtener el máximo entre el vector actual, y el vector contenido en el mensaje. Esto asegura que la recepción del mensaje tenga un timestamp mayor al envío del mismo (el timestamp dentro del mensaje).
 
 ![[Relojes 1737228759.png]]
 
 Esto, garantiza la definición de reloj lógica, y también garantiza la recíproca. Si dados dos eventos $s, v$ tal que $s \not < v$ y $v \not < s$, diremos que los eventos son concurrentes.
+
+Esto lo hace redefiniendo la operación de $<$ de modo que solo se cumpla cuando se sabe que los eventos asociados ocurrieron uno después del otro. En el resto de casos, no se cumplirá $<$, $=$, ni $>$.
