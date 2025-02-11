@@ -16,6 +16,10 @@ En una máquina de estados, el estado en todo momento está dado por un estado a
 
 ![[Estados del Sistema 1737246065.png]]
 
+Hay que analizar que el estado del sistema sea valido o invalido.
+
+![[Estados del Sistema 1739238268.png]]
+
 ## Historia y Corte
 
 Se define **historia** $h_i$ o corrida, como la secuencia de todos los eventos procesados por un solo proceso $p_i$.

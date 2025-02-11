@@ -11,6 +11,8 @@ Por ejemplo, el protocolo TCP demora el delivery de los mensajes para asegurar q
 
 Se asume que el tiempo de delivery es nulo, por lo que no hay necesidad de ordenar mensajes, o de demorarlos.
 
+![[Orden de Mensajes 1739237984.png]]
+
 ## Orden FIFO
 
 Todo par de mensajes desde un mismo emisor a un mismo receptor, son entregados en el orden que fueron enviados.
@@ -18,6 +20,8 @@ Todo par de mensajes desde un mismo emisor a un mismo receptor, son entregados e
 ![[Orden de Mensajes 1737241103.png]]
 
 Este orden no requiere sincronizar relojes para implementarse.
+
+El protocolo TCP asegura un orden FIFO.
 
 ## Orden Causal
 
@@ -37,6 +41,6 @@ Todo par de mensajes entregado a los mismos receptores es recibido en el mismo o
 
 En el ejemplo, vemos como ambos receptores reciben los dos mensajes en el mismo orden, independiente de cuando fueron enviados.
 
-El orden total no es excluyente con el orden causal. Por ejemplo, en el siguiente diagrama, El segundo proceso recibe el mensaje $D3$ antes que el mensaje $D2$, incumpliendo el orden causal, pero cumpliendo el orden causal.
+El orden total no es excluyente con el orden causal. Por ejemplo, en el siguiente diagrama, El segundo proceso recibe el mensaje $M3$ antes que el mensaje $M2$, incumpliendo el orden causal, pero cumpliendo el orden causal.
 
 ![[Orden de Mensajes 1739042807.png]]
