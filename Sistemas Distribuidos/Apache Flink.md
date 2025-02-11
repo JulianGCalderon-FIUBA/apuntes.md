@@ -16,3 +16,5 @@ Algunos casos de uso comunes son:
 ![[Apache Flink 1737294823.png]]
 
 Se pueden utilizar múltiples pipelines de Flink que procesan distintos datos y colaboran entre sí.
+
+![[Apache Flink 1739234793.png]]

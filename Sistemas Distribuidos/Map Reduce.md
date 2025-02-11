@@ -26,11 +26,15 @@ La cantidad de mappers y reducers es especificada por el usuario. En un caso ide
 
  ![[Map Reduce 1737214860.png]]
 
-## Funcionamiento
+## Lógica de Negocio
 
 La lógica de negocio, provista por el usuario, son las funciones `map` y `reduce`.
 
 La función `map` recibe un chunk y devuelve un resultado intermedio como un conjunto de pares clave-valor.
+
+```go
+map: (input shard) -> intermediate(key/value pairs)
+```
 
 No se puede llamar a la función `reduce` hasta que se hallan procesados todos los datos, por lo que los datos intermedios se guardan en un archivo intermedio (IF). Una vez procesados todos los datos, se le notifica al master la ubicación del archivo master.
 
@@ -39,3 +43,7 @@ El proceso master toma los archivos intermedios y los agrupa por clave. Luego pa
 Cada clave única es procesada por un único reducer, pero un reducer puede procesar más de una clave.
 
 La función `reduce` recibe un conjunto de pares clave-valor. Esta función es llamada por cada clave única, y devuelve el resultado final del procesamiento.
+
+```
+reduce: intermediate(key/value pairs) -> result files
+```
