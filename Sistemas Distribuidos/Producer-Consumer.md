@@ -6,3 +6,5 @@ Existen 2 tipos de nodos:
 - **Consumers**: Son los receptores, consumen información para realizar algún tipo de procesamiento.
 
 Se suele usar para el procesamiento de tareas.
+
+Un fram

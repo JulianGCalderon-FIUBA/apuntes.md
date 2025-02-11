@@ -26,6 +26,7 @@ title: Sistemas Distribuidos
 
 - [[Middleware]]
 - [[Message Oriented Middleware]]
+- [[Patrones de Comunicación]]
 - [[Remote Procedure Control]]
 - [[Objetos Distribuidos]]
 
