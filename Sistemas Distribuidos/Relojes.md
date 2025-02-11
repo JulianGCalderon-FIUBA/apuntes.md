@@ -31,11 +31,12 @@ $$
 
 ### Network Time Protocol (NTP)
 
+Es un protocolo de red para sincronizar relojes entre computadoras a través de redes con latencia variable.
 
 - Debe tener una alta disponibilidad, para sobrevivir a largas caídas de conectividad. Para eso necesita tener servidores y rutas redundantes.
 - Debe ser escalable, y soportar a un gran número de clientes sincronizados de forma frecuente.
 - Debe tener en cuenta los efectos del drift.
-- Debe ofrecer sincronización, se puede hacer un análisis estadístico para filtrar datos y obtener resultados de calidad.
+- Debe ofrecer sincronización. Sé puede hacer un análisis estadístico para filtrar datos y obtener resultados de calidad.
 
 La arquitectura está basada en estratos:
 
@@ -44,6 +45,7 @@ La arquitectura está basada en estratos:
 - Utilizan el [[#Algoritmo de Cristian]] para sincronizarse.
 - Los servidores también se pueden conectar con servidores en el mismo estrato, en conexiones peer-to-peer, en caso de ser necesario.
 - Al final de la estructura de estratos se encuentran los clientes.
+- Hay muchos estratos
 
 ![[Relojes 1737227315.png]]
 
@@ -75,10 +77,10 @@ $$
 
 ### Algoritmo de Lamport
 
-Dado un conjunto de $n$ procesos. Todos comienzan con un reloj lógico inicializado en $1$. Cada evento toma como timestamp el valor del reloj actual, y lo incrementa en $1$.
+Dado un conjunto de $n$ procesos. Todos comienzan con un reloj lógico inicializado en $0$. Cada evento toma como timestamp el valor del reloj actual, y lo incrementa en $1$.
 
 1. Los mensajes enviados entre procesos incluyen el *timestamp* de ese evento.
-2. Cuando un proceso recibe un mensaje, actualiza el reloj para obtener el maximo entre el reloj actual y el timestamp del mensaje.
+2. Cuando un proceso recibe un mensaje, actualiza el reloj para obtener el máximo entre el reloj actual y el timestamp del mensaje, de modo que la recepción del mensaje tenga un valor mayor al envió del mismo (el timestamp dentro del mensaje).
 
 Esto, garantiza la definición de reloj lógica, pero no garantiza la recíproca. Esto implica que no necesariamente los relojes mostrarán la verdad.
 
@@ -98,10 +100,10 @@ $$
 s.v < t.v \iff \forall k: s.v[k] <= t.v[k] \land \exists j : s.v[j] < t.v[j]
 $$
 
-Dado un conjunto de $n$ procesos. Todos comienzan con un vector lógico inicializado en $0$, exceptuando la posición de vector que corresponde a sí mismo (que tiene $1$). Cada evento toma como timestamp el valor de vector actual, e incrementa la posición del vector correspondiente a sí mismo en $1$.
+Dado un conjunto de $n$ procesos. Todos comienzan con un vector lógico inicializado en $0$. Cada evento toma como timestamp el valor de vector actual, e incrementa la posición del vector correspondiente a sí mismo en $1$.
 
 1. Los mensajes enviados entre procesos incluyen el *timestamp* de ese evento (vector completo).
-2. Cuando un proceso recibe un mensaje, actualiza cada posición del vector para obtener el máximo entre el vector actual, y el vector contenido en el mensaje.
+2. Cuando un proceso recibe un mensaje, actualiza cada posición del reloj para obtener el máximo entre el vector actual, y el vector contenido en el mensaje. Esto asegura que la repe
 
 ![[Relojes 1737228759.png]]
 
