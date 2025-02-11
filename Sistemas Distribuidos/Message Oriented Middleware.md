@@ -7,6 +7,8 @@ Basan su funcionamiento en el concepto de comunicar mensajes entre aplicación. 
 
 Resuelve problemas de transparencia respectos a ubicaciones, fallos, escalabilidad.
 
+Se le puede agregar lógica de negocio para resolver problemas específicos, o se pueden utilizar soluciones generales.
+
 Algunos ejemplos son:
 
 - RabbitMQ
@@ -19,6 +21,8 @@ Tiene dos modos de operación:
 
 - **Bus de información**: Pueden enviarse mensajes bajo ciertos tópicos, para que aquellos interesados lo reciban. Los mensajes se pierden si nadie los toma.
 - **Cola de mensajes**: Pueden enviarse mensajes con un destinatario definido. Se quedan esperando hasta que este lo reciba. En general, no se garantiza orden de recepción.
+
+![[Message Oriented Middleware 1739232501.png]]
 
 ## Sincronismo y Asincronismo
 
