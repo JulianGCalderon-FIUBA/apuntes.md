@@ -26,3 +26,7 @@ En la industria se utilizan diversos acrónimos:
 - **SLA** (*Service Level Agreement*): Es el contrato de disponibilidad pactado con el cliente. También define qué sucede si el mismo no se respeta (e.g. BigQuery SLA).
 - **SLO** (*Service Level Objectives*): Es lo que se debe cumplir para no invalidar el SLA (e.g. Disponibilidad mayor a 99.95%).
 - **SLI** (*Service Level Indicators*): Son las métricas a ser comparadas con los SLO. Siempre deben ser superiores al umbral del SLO. Por lo general requiere una plataforma de observabilidad. También debemos analizar impacto del despliegue de los servicios, o de su mantenimiento.
+
+No siempre se puede garantizar disponibilidad, ya que a veces conflictúa con otros atributos deseados, como la consistencia y la tolerancia ([Teorema CAP](https://en.wikipedia.org/wiki/CAP_theorem)):
+
+![[Alta Disponibilidad 1739320651.png]]
