@@ -27,7 +27,7 @@ Requiere de una abstracción del kernel llamada *Virtual File System*. Las aplic
 
 Las consultas se harían utilizando [[Remote Procedure Control|RPC]], tanto sobre UDP como TCP.
 
-No est'a pe
+No está pensado para grandes volúmenes de datos, sino para compartir información en una red interna.
 
 ## Hadoop DFS (HDFS)
 
