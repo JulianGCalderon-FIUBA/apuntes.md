@@ -1,10 +1,16 @@
 Es una plataforma de Google para almacenamiento distribuido, pero también un concepto el cual inspira otras bases de datos distribuidas.
 
-La unidad de almacenamiento básica son pares clave-datos. Los datos son en realidad, un conjunto de valores (columnas).
+Los datos se almacenan en tablas, que son mapas ordenados clave-valor. Cada clave representa una fila, y el valor representa los atributos de dicha fila (el valor para cada columna).
 
-Los datos pueden ser de tipo *sparse*, donde hay muchos datos nulos, por lo que se optimiza el almacenamiento para este caso. Estos datos no tienen un orden definido, sino que conocen su "column family".
+Las columnas son agrupadas en un "column family", y diferenciadas dentro de cada famlia por un "column qualifier".
 
-Un tablet es un conjunto de filas consecutivas, de acuerdo a la clave. Es la unidad de balanceo de Big Table, lo que permite escalar el sistema.
+Las tablas son *sparse*, es decir, si una columna no se utiliza en un rango de valores, no ocupa espacio.
+
+Cada celda guarda múltiples valores, permitiendo versionado de los datos. Además, guarda un timestamp $t$.
+
+![[Big Table 1739319381.png]]
+
+Un tablet es un conjunto de filas consecutivas de una tabla, de acuerdo a la clave. Es la unidad de balanceo de Big Table, lo que permite escalar el sistema.
 
 Este modelo tiene algunas ventajas:
 
