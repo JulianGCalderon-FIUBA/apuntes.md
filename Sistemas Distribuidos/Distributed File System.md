@@ -13,19 +13,21 @@ Los factores de diseño de este sistema son:
 	- **Performance**: las optimizaciones no deben afectar al cliente
 - **Concurrencia**: El acceso concurrente no debe requerir operaciones particulares de los clientes.
 - **Heterogeneidad de Hardware**: El sistema puede estar compuesto por hardwares distintos.
-- **Tolerancia a Fallos**: Capacidad de ocultar o minimizar fallos
+- **Tolerancia a Fallos**: Capacidad de ocultar o minimizar fallos.
 
 ## Network File System (NFS)
 
 Fue diseñado para ser independiente de las plataformas, pero desarrollado en UNIX en 1984.
 
-Desde un primer lugar, se diseñó para que el file system siga el estandar POSIX.
+Desde un primer lugar, se diseñó para que el file system siga el estándar POSIX.
 
 Requiere de una abstracción del kernel llamada *Virtual File System*. Las aplicaciones utilizarían VFS para acceder los archivos, lo que requiere de una invocación remota.
 
 ![[Data Intensive Applications 1737303143.png]]
 
 Las consultas se harían utilizando [[Remote Procedure Control|RPC]], tanto sobre UDP como TCP.
+
+No est'a pe
 
 ## Hadoop DFS (HDFS)
 
