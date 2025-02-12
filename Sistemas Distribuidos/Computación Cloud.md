@@ -30,20 +30,22 @@ Es un sistema que ofrece una plataforma para desarrollar, esto incluye:
 
 ![[Computación Cloud 1737420468.png]]
 
+Si bien estas cosas nos facilitan el desarrollo, también nos sacan el control. Perdemos control sobre, por ejemplo, el sistema operativo utilizado.
+
 ## Beneficios de Cloud
 
 Algunos de los principales beneficios de Cloud, son:
 
 - **Accesibilidad**: Los componentes pueden ser accedidos desde todos lados. Hay movilidad y visibilidad constante de los recursos.
 - **Time-to-Market**: Los recursos están disponibles de forma instantánea.
-- **Escalabilidad:** Hay capacidades "ilimitadas" para alquilar recursos: almacenamiento, ancho de banda, cómputo, memoria, etc.
+- **Escalabilidad:** Hay capacidades "ilimitadas" para alquilar recursos: almacenamiento, ancho de banda, cómputo, memoria, etc., siempre y cuando tenga la plata suficiente.
 - **Costos:** El pago es a demanda (*pay as you go*), por lo que puedo controlar el gasto según el uso. La accesibilidad, escalabilidad, y confiabilidad es mucho más barata que antes.
 
 ## Nubes Privadas
 
 La necesidad de utilizar nubes privadas dependerá del contexto. En una nube pública:
 
-- Los servidores compartidos con otros usuarios
+- Los servidores compartidos con otros usuarios. En situaciones extremas, las plataformas de nube se priorizan a sí mismas.
 - La disponibilidad de los recursos están garantizados con SLA.
 - Los costos son variables (*pay as you go*)
 - Se accede mediante internet
@@ -51,7 +53,7 @@ La necesidad de utilizar nubes privadas dependerá del contexto. En una nube pú
 Por otro lado, en una nube privada:
 
 - Los *datacenters* son propios de la empresa
-- Los recursos son dedicados, permitiendo controlarlos de forma completa. En situaciones extremas, las plataformas de nube se priorizan a sí mismas.
+- Los recursos son dedicados, permitiendo controlarlos de forma completa.
 - Tiene costos fijos de mantenimiento y expansión. En algunas situaciones es mejor que el costo variable.
 - Se accede mediante intranet.
 
