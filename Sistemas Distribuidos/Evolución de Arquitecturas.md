@@ -38,6 +38,8 @@ La tecnología para desarrollar estas arquitecturas fue:
 
 ## Microservicios
 
+En los microservicios, se eliminan los orquestadores y se distribuye la responsabilidad a todo el sistema.
+
 Los microservicios encapsulan un concepto, y están compuestos por un servidor web y una base de datos. A diferencia de en SOA, los microservicios tienen mayor granularidad y mayor encapsulamiento.
 
 Internamente, los servicios se comunicarán entre sí. Externamente, los clientes se comunicarán con aplicaciones y un gateway que conocerá la ubicación de los servicios.
@@ -65,3 +67,5 @@ La comunicación entre las funciones también está resuelta dentro de la plataf
 Esto evolucionó a ser utilizado para desplegar contenedores (o microservicios), sin importar donde o como se estaban desplegando.
 
 Al migrar a *serverless*, todos los elementos pasan a estar en la nube y de forma distribuida, por lo que es poco probable que algún componente se caiga.
+
+Una problemática con esta arquitectura es que se pierde la completitud de tener una base de datos en el servidor, y no hay mucho consenso sobre cuál es la solución ideal.
