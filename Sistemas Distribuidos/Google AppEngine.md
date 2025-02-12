@@ -24,13 +24,13 @@ Además, ofrece los siguientes servicios:
 
 Se definen aplicaciones que pueden comunicarse entre sí. Cada aplicación tiene servicios, que pueden comunicarse entre sí.
 
-A su vez, los servicios tienen su capa de caché, su capa de datastore, y un servicio de colas. Hoy en día, estos servicios se ofrecen por separado.
+A su vez, los servicios tienen su capa de caché, su capa de datastore, y un servicio de colas. Hoy en día, estos servicios evolucionaron y se ofrecen por separado.
 
 ![[Google AppEngine 1737425829.png]]
 
-Un servicio (módulo), que permite mantenerr unidad entre las operaciones soportadas. Pueden desplegarse distintas versiones a la vez, y para cada versión pueden existir una o más instancias.
+Un servicio (módulo), que permite mantener unidad entre las operaciones soportadas. Pueden desplegarse distintas versiones a la vez, y para cada versión pueden existir una o más instancias.
 
-Una instancia (app servers o backend servers) es una unidad de procesamiento, que uede ser dinámica o residente:
+Una instancia (app servers o backend servers) es una unidad de procesamiento, que puede ser dinámica o residente:
 
 - Instancias dinámicas:
 	- Se crean dinámicamente, aunque hacerlo toma un poco de tiempo.
@@ -67,7 +67,7 @@ Hay dos tipos principales de colas:
 - Colas de *pull*:
 	- Permiten encolar tareas para ser consumidas de forma controlada.
 	- Los mensajes están en modo *leasing*: los mensajes son prestados de la cola hasta que se marcan como procesados. Es un mecanismo similar al ACK de las colas de RabbitMQ.
-	- Es en enfoque más usual de colas de tareas.
+	- Es el enfoque más usual de colas de tareas.
 
 ## Almacenamiento
 
@@ -78,13 +78,13 @@ Utiliza Datastore, una base de datos no relacional administraba por Google.
 
 Este almacenamiento es altamente escalable en el volumen de datos:
 
-- Está basado en BigTable, un *key-value store* y *wide column*.
+- Está basado en BigTable.
 - Soporta entidades de hasta 1 MB.
 - Permite consultas por clave, o por atributos indexados.
 - Soporta millones de escrituras por segundo, pero no está optimizado para consultas.
 - Garantiza operaciones ACID, incluso entre entidades.
 
-## Particionado
+### Particionado
 
 Los datos se particionan de modo que los árboles de entidades se encuentren en lugares cercanos. Esto permite operaciones atómicas sin tener que sincronizar nodos.
 
