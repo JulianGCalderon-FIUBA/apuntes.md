@@ -6,7 +6,7 @@ Para que esto sea posible, es necesario al menos los siguientes componentes:
 
 - **Application Load Balancer**: Esto permite que nuevas instancias reciban tráfico de forma instantáneo. Además debemos saber si el servicio está preparado para recibir dicho tráfico. De forma análoga, debe permitir que servicios degradados dejen de recibir tráfico.
 - **Autoscaler**: Es un componente que tiene capacidad para incrementar (*scale in*) o decrementar (*scale out*) las instancias del sistema, a partir de métricas de su funcionamiento.
-- **Monitoring Automático**: Permite ver métricas sobre CPU, memoria, I/O, networking, etc. por cada servicio y por cada instancia. Esta información puede ser utilizada por el *autoscaler*
+- **Monitoring Automático**: Permite ver métricas sobre CPU, memoria, I/O, networking, etc. por cada servicio y por cada instancia. Esta información puede ser utilizada por el *autoscaler*.
 
 ## Amazon Web Services (AWS)
 
