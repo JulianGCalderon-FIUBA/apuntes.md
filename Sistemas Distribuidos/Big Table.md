@@ -16,7 +16,6 @@ Este modelo tiene algunas ventajas:
 
 - Las operaciones son atómicas por clave.
 - Se aprovecha el principio de localidad de datos, para hacer lecturas por rangos de claves de forma rápida.
-- Hay versionado de celdas, lo que permite guardar múltiples versiones de un valor en un mismo lugar.
 
 Por otro lado, tiene las siguientes restricciones:
 
@@ -39,4 +38,4 @@ Las operaciones de metadata se envían a un **Big Table Master**. Estas operacio
 
 A diferencia de Hadoop, y debido a la estructura de árbol, a veces es necesario rebalancear las tablets. Las tablets se dividen en dos, y pueden ser almacenados en servidores distintos, dividiendo el trabajo.
 
-Es posible que la división de tablets no sea exitosa, y que todas las siguientes consultas vayan a una sola de las particiones.
+Es posible que la división de tablets no sea exitosa, y que todas las siguientes consultas vayan a una sola de las particiones. Este es el peor caso, y se busca evitar.
