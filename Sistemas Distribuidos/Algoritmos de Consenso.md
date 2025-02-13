@@ -83,7 +83,7 @@ La función de agregación puede ser, por ejemplo, una votación.
 
 ### Ejemplo
 
-Dados 3 sensores, se tienen que poner de acuerdo en la altitud de un avion. Inicialmente, los primeros dos sensores miden $9000 m$, y el último sensor mide $10000 m$.
+Dados 3 sensores, se tienen que poner de acuerdo en la altitud de un avión. Inicialmente, los primeros dos sensores miden $9000 m$, y el último sensor mide $10000 m$.
 
 ![[Algoritmos de Consenso 1739467572.png]]
 
