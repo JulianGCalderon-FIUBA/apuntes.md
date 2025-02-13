@@ -11,7 +11,6 @@ title: Sistemas Distribuidos
 - [[Motivaciones]]
 - [[Multiprogramación]]
 - [[Sistema Distribuido]]
-- [[Paralelización]]
 - [[Virtualización de Hardware]]
 
 ## Comunicación
