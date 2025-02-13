@@ -47,7 +47,7 @@ En el gráfico podemos ver como `P1` y `P2` propusieron el mismo valor `proceed`
 
 ## Algoritmo Sincrónico
 
-Cada proceso tiene la variable `state(t)` que almacena los valores propuestos conocidos para un dado proceso en el instante de tiempo `t`.
+Cada proceso tiene la variable `state(t)` que almacena un conjunto con los valores propuestos conocidos para un dado proceso en el instante de tiempo `t`.
 
 Al iniciar la ronda `1`, solo conoceremos nuestro propio valor `v`.
 
@@ -83,9 +83,9 @@ La función de agregación puede ser, por ejemplo, una votación.
 
 ### Ejemplo
 
-Dados 3 sensores, se tienen que poner de acuerdo en la altitud de un avión. Inicialmente, los primeros dos sensores miden $9000 m$, y el último sensor mide $10000 m$.
+Dados 3 procesos, se tienen que poner de acuerdo en un valor. Inicialmente, los primeros dos procesos tienen el valor $9$, y el último proceso tiene el valor $10$. Como función de agregación, se utiliza el `minimo`.
 
-![[Algoritmos de Consenso 1739467572.png]]
+![[Algoritmos de Consenso 1739469786.png]]
 
 Con `f=0`, el sistema funciona, ya que no se cae ningún nodo. Si queremos que sea tolerante a caídas de nodos, entonces debemos agregar más rondas de redundancia.
 
