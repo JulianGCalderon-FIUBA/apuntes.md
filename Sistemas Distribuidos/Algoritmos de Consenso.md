@@ -65,13 +65,13 @@ for each round r, with 1 <= r <= f+1:
 	set state(r+1) = state(r)
 	for each process j:
 		get state from j
-		set state(i, r+1) += state from j
+		set state(r+1) += state from j
 ```
 
 Tras `f+1` rondas, se aplica una función de agregación sobre el estado, y como la información total es la misma, entonces la decisión será determinística.
 
 ```
-decide d = aggregate over state(i, f+1)
+decide d = aggregate over state(f+1)
 ```
 
 Se necesita una ronda por cada nodo que puede caer (ya que al menos un nodo caído implica que no todos los nodos reciben la misma información). Si se caen $f$ nodos, a partir de la ronda $f+1$ la información no cambiará (ya que no podrá caerse ningún nodo más).
