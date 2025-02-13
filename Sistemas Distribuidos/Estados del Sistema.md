@@ -53,9 +53,9 @@ El algoritmo toma las siguientes suposiciones:
 
 El algoritmo tiene cuatro reglas principales:
 
-- **Inicio del algoritmo**: Cuando un proceso quiere generar un corte (el observador), guarda su propio estado y envía un marcador al resto de procesos.
-- **Primera recepción del marcador**: Cuando un proceso recibe un marcador por primera vez, envía su propio estado al observador, y comienza a registrar todos los mensajes recibidos exeptuando .
-- **Siguientes recepciones del marcador**: Cuando un proceso vuelve a recibir un marcador, entonces envía todos los mensajes registrados hasta el momento al observador.
+- **Inicio del algoritmo**: Cuando un proceso *observer* $p_i$ quiere generar un corte, guarda su propio estado y envía un marcador al resto de procesos.
+- **Primera recepción del marcador**: Cuando un proceso recibe un marcador por primera vez de un proceso $p_j$, envía su propio estado al observador, y comienza a registrar todos los mensajes recibidos del resto de procesos, exceptuando a $p_j$.
+- **Siguientes recepciones del marcador**: Cuando un proceso vuelve a recibir un marcador del proceso $p_k$, entonces envía todos los mensajes registrados hasta el momento al observador, y deja de registrar los mensajes recibidos por $p_k$.
 - **Fin del algoritmo**: Cuando el observador recibe el marcador de cada uno de los otros procesos, da por finalizado el algoritmo.
 
 El corte final contendrá el estado al iniciar el algoritmo para cada proceso, y además todos los mensajes enviados antes de que finalice el corte.
