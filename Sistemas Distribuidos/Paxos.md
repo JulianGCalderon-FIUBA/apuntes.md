@@ -23,7 +23,7 @@ Los **proposers** son los que comienzan el protocolo.
 - Se debe elegir un líder para evitar *starvation*, u tomar otras medidas para prevenirlo. Esto es debido a que el alto número de reintentos genere *contention* en la red.
 - Mantienen un identificador incremental para las propuestas.
 
-Los **acceptors** deben consensar los valores asociados a las propuestas.
+Los **acceptors** deben consensuar los valores asociados a las propuestas.
 
 - Se llega al quorum si la mayoría están funcionando de forma correcta.
 - Se debe conocer la cantidad de acceptors que hay en el sistema
