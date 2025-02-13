@@ -58,4 +58,6 @@ El algoritmo tiene cuatro reglas principales:
 - **Siguientes recepciones del marcador**: Cuando un proceso vuelve a recibir un marcador del proceso $p_i$, entonces envía todos los mensajes registrados hasta el momento al *observer*, y deja de registrar los mensajes recibidos por $p_k$. Esto se debe a que el proceso $p_i$ ya registro su estado, por lo que debemos ignorar los mensajes siguientes que envíe.
 - **Fin del algoritmo**: Cuando el *observer* recibe el marcador de cada uno de los otros procesos, da por finalizado el algoritmo.
 
-El corte final contendrá el estado en el que se encontraba cada proceso cuando recibió por primera vez el marcador, y además todos los mensajes enviados por el mismo proceso antes de hacerlo, pero luego de haber finalizado el algoritmo.
+El corte final contendrá el estado en el que se encontraba cada proceso cuando recibió por primera vez el marcador, y además todos los mensajes enviados por el mismo proceso antes de hacerlo.
+
+![[Estados del Sistema 1739475044.png]]
