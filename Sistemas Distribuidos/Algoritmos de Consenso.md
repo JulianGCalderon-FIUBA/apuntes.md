@@ -88,3 +88,7 @@ Dados 3 sensores, se tienen que poner de acuerdo en la altitud de un avion. Inic
 ![[Algoritmos de Consenso 1739467572.png]]
 
 Con `f=0`, el sistema funciona, ya que no se cae ningún nodo. Si queremos que sea tolerante a caídas de nodos, entonces debemos agregar más rondas de redundancia.
+
+![[Algoritmos de Consenso 1739468209.png]]
+
+Vemos que el resultado de la ronda 2 contiene los cambios en el estado del resto de nodos, pero debido a la caída del nodo 3, no todos tienen la misma información. Sin embargo, debido a que hay dos rondas,
