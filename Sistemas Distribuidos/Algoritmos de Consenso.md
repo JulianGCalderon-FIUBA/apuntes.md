@@ -64,8 +64,8 @@ for each round r, with 1 <= r <= f+1:
 	
 	set state(r+1) = state(r)
 	for each process j:
-		get state from j into state_j
-		set state(i, r+1) += state_j
+		get state from j
+		set state(i, r+1) += state from j
 ```
 
 Tras `f+1` rondas, se aplica una función de agregación sobre el estado, y como la información total es la misma (ya que todos los procesos compartían los datos computados en cada ronda), entonces la decisión será determinística.
@@ -74,7 +74,13 @@ Tras `f+1` rondas, se aplica una función de agregación sobre el estado, y como
 decide d = aggregate over state(i, f+1)
 ```
 
+Se necesita una ronda por cada nodo que puede caer (ya que al menos un nodo caído implica que no todos los nodos reciben la misma información). Si se caen $f$ nodos, a partir de la ronda $f+1$ la información no cambiará (ya que no podrá caerse ningun nodo mas).
+
 La función de agregación puede ser, por ejemplo, una votación.
 
 > [!note] Elección de Líder
 > El algoritmo es genérico y puede ser utilizado para implementar una elección de líder si, por ejemplo, `v_i` representa el identificador del proceso `i`, y la función de agregación es `max`.
+
+### Ejemplo
+
+Dados 3 sensores, se tienen que poner de acuerdo en la altitud de un avion. Inicialmente, los primeros dos sensores miden $9000 m$, y el último sensor mide $10000 m$.
