@@ -1,10 +1,10 @@
 La resiliencia o confianza (*dependability*) es la medida de la confianza en el sistema: Tiene distintos factores:
 
-- **Disponibilidad**
-- **Fiabilidad**
-- **Mantenibilidad**
-- **Seguridad**
-- **Durabilidad**
+- **Disponibilidad (availability)**
+- **Fiabilidad (reiliability)**
+- **Mantenibilidad (maintainability)**
+- **Seguridad (security)**
+- **Durabilidad (durability)**
 
 La resiliencia consiste en la capacidad de mantener un nivel aceptable de servicio en presencia de fallos:
 
@@ -34,11 +34,11 @@ Para tomar las decisiones adecuadas, debemos pensar en el origen de los errores:
 
 La **mantenibilidad** (*maintainability*) es la cantidad de tiempo que se requiere para recuperar el sistema (ej. repararlo o actualizarlo.
 
-Para garantizarla, se crea una imagen para cada cambio a desplegar. No se manejan con estados mutables. Esto permite automatizar los despliegues, sin que haya humanos realizándolo de forma directa. Esto reduce la probabilidad de errores humanos.
+Para garantizarla, se crea una imagen para cada cambio a desplegar. Esto permite automatizar los despliegues, sin que haya humanos realizándolo de forma directa. Esto reduce la probabilidad de errores humanos.
+
+Al usar imágenes, el despliegue es inmutable. Esta inmutabilidad nos permite realizar trazabilidad de las imágenes, para ver de donde vinieron.
 
 ![[Tolerancia a Fallos 1738378604.png]]
-
-Esta inmutabilidad nos permite realizar trazabilidad de las imágenes, para ver de donde vinieron.
 
 Las actualizaciones son inmediatas, ya que únicamente implican ejecutar la imagen y configurar el balanceador de carga para que mueva las consultas al nuevo contenedor.
 
@@ -53,6 +53,8 @@ Las imágenes viejas pueden ser almacenadas para un posible rollback.
 ## Durabilidad
 
 La **durabilidad** (*durability*) es la probabilidad de que un dato persistido se pueda recuperar.
+
+Para garantizarlo deb
 
 ## Seguridad
 
