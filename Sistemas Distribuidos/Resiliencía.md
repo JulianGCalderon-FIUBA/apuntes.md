@@ -54,7 +54,7 @@ Las imágenes viejas pueden ser almacenadas para un posible rollback.
 
 La **durabilidad** (*durability*) es la probabilidad de que un dato persistido se pueda recuperar.
 
-Para garantizarlo deb
+Para garantizarlo debemos usar almacenamiento estable, en lo posible redundante.
 
 ## Seguridad
 

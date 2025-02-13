@@ -7,7 +7,7 @@ Al ser un problema complejo, se suelen tomar suposiciones, por ejemplo:
 - La única falla a considerar es la caída de un proceso.
 - La caída de un proceso no puede ocasionar la caída de otro. Esto no ocurre si los sistemas se encuentran en la misma computadora.
 
-## Definición
+## Definición General
 
 Se tienen un conjunto de $N$ procesos $P_i$ que desean llegar a un acuerdo:
 

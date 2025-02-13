@@ -4,7 +4,7 @@ Algunos de los objetivos a lograr son:
 - Permitir la replicación de información.
 - Evitar los puntos únicos de fallo.
 
-Se busca resolver los siguientes problemas:
+Algunos de los problemas que se pueden resolver, son:
 
  - Sincronización entre diferentes procesos: un proceso debe esperar a otro para continuar, o se requiere acceso exclusivo a un recurso compartido.
  - Elección de un proceso coordinación líder.
