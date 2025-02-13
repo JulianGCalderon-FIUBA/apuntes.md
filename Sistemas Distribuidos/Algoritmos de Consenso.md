@@ -74,7 +74,7 @@ Tras `f+1` rondas, se aplica una función de agregación sobre el estado, y como
 decide d = aggregate over state(i, f+1)
 ```
 
-Se necesita una ronda por cada nodo que puede caer (ya que al menos un nodo caído implica que no todos los nodos reciben la misma información). Si se caen $f$ nodos, a partir de la ronda $f+1$ la información no cambiará (ya que no podrá caerse ningun nodo mas).
+Se necesita una ronda por cada nodo que puede caer (ya que al menos un nodo caído implica que no todos los nodos reciben la misma información). Si se caen $f$ nodos, a partir de la ronda $f+1$ la información no cambiará (ya que no podrá caerse ningún nodo más).
 
 La función de agregación puede ser, por ejemplo, una votación.
 
@@ -85,6 +85,6 @@ La función de agregación puede ser, por ejemplo, una votación.
 
 Dados 3 sensores, se tienen que poner de acuerdo en la altitud de un avion. Inicialmente, los primeros dos sensores miden $9000 m$, y el último sensor mide $10000 m$.
 
-![[Algoritmos de Consenso 1739467344.png]]
+![[Algoritmos de Consenso 1739467572.png]]
 
-Con `f=0`, el sistema funciona, ya que no se cae ningún nodo. Si queremos que sea tolerante a caidas de nodos, entonces debemos agregar mas rondas de redundancia.
+Con `f=0`, el sistema funciona, ya que no se cae ningún nodo. Si queremos que sea tolerante a caídas de nodos, entonces debemos agregar más rondas de redundancia.
