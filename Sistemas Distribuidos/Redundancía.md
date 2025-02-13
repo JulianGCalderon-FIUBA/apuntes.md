@@ -13,5 +13,8 @@ Podemos utilizar algoritmos de consenso para obtener el estado real cuando hay d
 Hay distintos tipos de replicación:
 
 - **Pasiva**: Hay una réplica primaria que procesa la información, y varias secundarias (o de respaldo) que reciben actualizaciones del líder
-- **Activa**: Hay múltiples réplicas de la misma máquina de estado, que ejecutan las mismas operaciones en el mismo orden. Por ejemplo: blockchain.
-- **Semi-activa** (*leader-follower*): Todas las réplicas ejecutan los comandos, pero una sola (el líder) toma las decisiones no determinísticas. Hay un balanceador de carga que envía las consultas a las réplicas.
+	![[Redundancía 1739405165.png]]
+- **Activa**: Hay múltiples réplicas de la misma máquina de estado, que ejecutan las mismas operaciones en el mismo orden (total). Por ejemplo: blockchain.
+	![[Redundancía 1739405156.png]]
+- **Semi-activa** (*leader-follower*): Todas las réplicas ejecutan los comandos, pero una sola (el líder) toma las decisiones no determinísticas.
+	![[Redundancía 1739405148.png]]

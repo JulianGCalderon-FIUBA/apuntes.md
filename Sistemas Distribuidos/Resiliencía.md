@@ -6,7 +6,12 @@ La resiliencia o confianza (*dependability*) es la medida de la confianza en el 
 - **Seguridad**
 - **Durabilidad**
 
-La resiliencia consiste en la capacidad de mantener un nivel aceptable de servicio en presencia de fallos.
+La resiliencia consiste en la capacidad de mantener un nivel aceptable de servicio en presencia de fallos:
+
+- Errores de configuracion u operacionales.
+- Desastres naturales.
+- Factores políticos, económicos, sociales, del negocio.
+- Ataques maliciosos.
 
 Se dice que un sistema tiene degradación suave (*graceful degradation*) cuando el comportamiento se degrada, pero continúa siendo aceptable.
 
