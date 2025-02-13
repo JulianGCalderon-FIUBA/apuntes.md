@@ -52,7 +52,7 @@ El proceso con mayor identificador puede identificarse como líder, y envía un 
 
 Si un proceso detecta el líder está caído, envía un mensaje de "elección" a todos los procesos con un identificador mayor al suyo:
 
-- Los procesos al recibir este mensaje, responden con un mensaje "ack", y comienzan una nueva elección.
+- Los procesos al recibir este mensaje, responden con un mensaje "ack", y comienzan una nueva elección (envían un mensaje de "elección" a los que tienen un identificador mayor al suyo).
 - Si un proceso que comenzó una elección no recibe respuesta luego de un tiempo transcurrido $T$, este se autoproclama líder.
 
 Eventualmente, el proceso vivo con mayor identificador recibira un mensaje "elección", y al obtener respuesta del resto se autoproclamará como líder.
