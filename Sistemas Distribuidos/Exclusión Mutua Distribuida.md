@@ -14,6 +14,8 @@ Los procesos piden acceso a la sección crítica al servidor central, el cual se
 
 Se sabe el identificador de cada recurso de antemano.
 
+![[Exclusión Mutua Distribuida 1739406268.png]]
+
 Algunas ventajas de este esquema son:
 
 - Las consultas son procesadas en orden.
