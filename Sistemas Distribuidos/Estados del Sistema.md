@@ -53,9 +53,9 @@ El algoritmo toma las siguientes suposiciones:
 
 El algoritmo tiene cuatro reglas principales:
 
-- **Inicio del algoritmo**: Cuando un proceso *observer* $p_i$ quiere generar un corte, guarda su propio estado y envía un marcador al resto de procesos.
-- **Primera recepción del marcador**: Cuando un proceso recibe un marcador por primera vez de un proceso $p_j$, envía su propio estado al observador, y comienza a registrar todos los mensajes recibidos del resto de procesos, exceptuando a $p_j$.
-- **Siguientes recepciones del marcador**: Cuando un proceso vuelve a recibir un marcador del proceso $p_k$, entonces envía todos los mensajes registrados hasta el momento al observador, y deja de registrar los mensajes recibidos por $p_k$.
-- **Fin del algoritmo**: Cuando el observador recibe el marcador de cada uno de los otros procesos, da por finalizado el algoritmo.
+- **Inicio del algoritmo**: Cuando un proceso *observer* quiere generar un corte, guarda su propio estado y envía un marcador al resto de procesos.
+- **Primera recepción del marcador**: Cuando un proceso recibe un marcador por primera vez de un proceso $p_i$, envía su propio estado al *observer*, y comienza a registrar todos los mensajes recibidos del resto de procesos, exceptuando a $p_i$. Esto se debe a que el proceso $p_i$ ya registro su estado, por lo que debemos ignorar los mensajes siguientes que envíe.
+- **Siguientes recepciones del marcador**: Cuando un proceso vuelve a recibir un marcador del proceso $p_i$, entonces envía todos los mensajes registrados hasta el momento al *observer*, y deja de registrar los mensajes recibidos por $p_k$. Esto se debe a que el proceso $p_i$ ya registro su estado, por lo que debemos ignorar los mensajes siguientes que envíe.
+- **Fin del algoritmo**: Cuando el *observer* recibe el marcador de cada uno de los otros procesos, da por finalizado el algoritmo.
 
-El corte final contendrá el estado al iniciar el algoritmo para cada proceso, y además todos los mensajes enviados antes de que finalice el corte.
+El corte final contendrá el estado en el que se encontraba cada proceso cuando recibió por primera vez el marcador, y además todos los mensajes enviados por el mismo proceso antes de hacerlo, pero luego de haber finalizado el algoritmo.
