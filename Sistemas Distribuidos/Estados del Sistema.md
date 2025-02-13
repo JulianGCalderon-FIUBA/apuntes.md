@@ -50,3 +50,9 @@ El algoritmo toma las siguientes suposiciones:
 - Los canales son unidireccionales y tienen un [[Orden de Mensajes#Orden FIFO|orden fifo]].
 - El grafo de comunicación es fuertemente conexo.
 - Cada proceso puede iniciar un snapshot en cualquier momento.
+
+El algoritmo tiene tres reglas principales:
+
+- Inicio del algoritmo: Cuando un proceso quiere generar un corte (el observador), guarda su propio estado y envía un marcador al resto de procesos.
+- Primera recepción del marcador: Cuando un proceso recibe un marcador por primera vez, envía su propio estado al observador, y comienza a registrar todos los mensajes recibidos.
+- Siguientes recepciones del marcador: Cuando un proceso vuelve a recibir un marcador, entonces envía todos los mensajes registrados hasta el momento al observador.
