@@ -47,9 +47,9 @@ En el gráfico podemos ver como `P1` y `P2` propusieron el mismo valor `proceed`
 
 ## Algoritmo Sincrónico
 
-Cada proceso tiene la variable `state(t)` que almacena los valores propuestos conocidos para un dado proceso en el instante de tiempo `t`. El valor inicial de cada proceso es `v`.
+Cada proceso tiene la variable `state(t)` que almacena los valores propuestos conocidos para un dado proceso en el instante de tiempo `t`.
 
-Al iniciar el proceso, al iniciar la ronda `1`, solo conoceremos nuestro propio valor $v$.
+Al iniciar la ronda `1`, solo conoceremos nuestro propio valor `v`.
 
 ```
 set state(0) = {}
@@ -59,12 +59,13 @@ set state(1) = {v}
 En cada ronda, los procesos envían los valores computados en esa ronda a todo el resto de procesos. Cada proceso recibe los datos del resto de procesos y los almacena.
 
 ```
-for each round r, with 1 < r <= f+1:
-	broadcast state(i, r) - state(i, r-1)
-	set state(i, r+1) = state(i, r)
+for each round r, with 1 <= r <= f+1:
+	broadcast state(r) - state(r-1)
+	
+	set state(r+1) = state(r)
 	for each process j:
-		receive state from j into state(j, r)
-		set state(i, r+1) += state(j, r)
+		get state from j into state_j
+		set state(i, r+1) += state_j
 ```
 
 Tras `f+1` rondas, se aplica una función de agregación sobre el estado, y como la información total es la misma (ya que todos los procesos compartían los datos computados en cada ronda), entonces la decisión será determinística.
