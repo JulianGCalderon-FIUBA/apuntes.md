@@ -26,7 +26,6 @@ Algunas ventajas de este esquema son:
 Por otro lado, tiene las siguientes desventajas:
 
 - El servidor central es un único punto de falla.
-- Los procesos no pueden distinguir entre sí el servidor está caído o no responsivo.
 - Se produce un cuello de botella.
 
 ## Token Ring
@@ -77,4 +76,3 @@ Tiene otras desventajas:
 
 - Se requiere de un *mesh* de conexiones. Todos los procesos deben conocerse.
 - La cantidad de mensajes enviados es muy alta.
-- Es imposible detectar entre un proceso caído o un proceso en una sección crítica.
