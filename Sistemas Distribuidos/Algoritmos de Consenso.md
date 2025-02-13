@@ -56,11 +56,11 @@ set state(0) = {}
 set state(1) = {v}
 ```
 
-En cada ronda, los procesos envían los valores computados en esa ronda a todo el resto de procesos. Cada proceso recibe los datos del resto de procesos y los almacena.
+En cada ronda, los procesos envían los valores que conoce al resto de procesos (no hace falta enviar un mismo valor dos veces, por lo que una vez que un dato fue enviado, no hace falta enviarlo en las rondas siguientes). Cada proceso recibe los datos del resto de procesos y los almacena.
 
 ```
 for each round r, with 1 <= r <= f+1:
-	broadcast state(r) - state(r-1)
+	broadcast state(r)
 	
 	set state(r+1) = state(r)
 	for each process j:
@@ -76,19 +76,19 @@ decide d = aggregate over state(i, f+1)
 
 Se necesita una ronda por cada nodo que puede caer (ya que al menos un nodo caído implica que no todos los nodos reciben la misma información). Si se caen $f$ nodos, a partir de la ronda $f+1$ la información no cambiará (ya que no podrá caerse ningún nodo más).
 
-La función de agregación puede ser, por ejemplo, una votación.
+La función de agregación puede ser, por ejemplo, el valor mínimo.
 
 > [!note] Elección de Líder
 > El algoritmo es genérico y puede ser utilizado para implementar una elección de líder si, por ejemplo, `v_i` representa el identificador del proceso `i`, y la función de agregación es `max`.
 
 ### Ejemplo
 
-Dados 3 procesos, se tienen que poner de acuerdo en un valor. Inicialmente, los primeros dos procesos tienen el valor $9$, y el último proceso tiene el valor $10$. Como función de agregación, se utiliza el `minimo`.
+Dados 3 procesos, se tienen que poner de acuerdo en un valor. Inicialmente, un proceso tiene el valor $9$, y los otros tienen el valor $10$. Como función de agregación, se utiliza el `minimo`.
 
-![[Algoritmos de Consenso 1739469786.png]]
+Con `f=0`, el sistema funciona siempre que no se caiga ningún nodo. Si queremos que sea tolerante a caídas de nodos, entonces debemos agregar más rondas de redundancia.
 
-Con `f=0`, el sistema funciona, ya que no se cae ningún nodo. Si queremos que sea tolerante a caídas de nodos, entonces debemos agregar más rondas de redundancia.
+![[Algoritmos de Consenso 1739470540.png]]
 
-![[Algoritmos de Consenso 1739468209.png]]
+Vemos que si hubiese una sola ronda, entonces no se llegaría al consenso debido a que al finalizar la primera ronda, los procesos 2,3 tienen un estado distinto.
 
 Vemos que el resultado de la ronda 2 contiene los cambios en el estado del resto de nodos, pero debido a la caída del nodo 3, no todos tienen la misma información. Sin embargo, debido a que hay dos rondas,
