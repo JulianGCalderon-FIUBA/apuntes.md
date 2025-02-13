@@ -47,22 +47,22 @@ En el gráfico podemos ver como `P1` y `P2` propusieron el mismo valor `proceed`
 
 ## Algoritmo Sincrónico
 
-Cada proceso $p_i$ tiene la variable `state(x,y)` que almacena la información de cada proceso `x` en el instante de tiempo `y`.
+Cada proceso tiene la variable `state(t)` que almacena los valores propuestos conocidos para un dado proceso en el instante de tiempo `t`. El valor inicial de cada proceso es `v`.
 
-Al iniciar el proceso:
+Al iniciar el proceso, al iniciar la ronda `1`, solo conoceremos nuestro propio valor $v$.
 
 ```
-set state(i, 0) = {}
-set state(i, 1) = { v }
+set state(0) = {}
+set state(1) = {v}
 ```
 
 En cada ronda, los procesos envían los valores computados en esa ronda a todo el resto de procesos. Cada proceso recibe los datos del resto de procesos y los almacena.
 
 ```
-For each round r, with 1 < r <= f+1:
+for each round r, with 1 < r <= f+1:
 	broadcast state(i, r) - state(i, r-1)
 	set state(i, r+1) = state(i, r)
-	For each process j:
+	for each process j:
 		receive state from j into state(j, r)
 		set state(i, r+1) += state(j, r)
 ```
