@@ -57,6 +57,8 @@ Los acceptors reciben el `PREPARE IDp`, y si no prometió ignorarlo, entonces pr
 
 En caso de que ya haya prometido algo previamente, entonces en su lugar responde con un mensaje de `PROMISE IDp, IDa, Value`, donde `IDa` y `Value` corresponden a valores de un pedido previo.
 
+El valor de la promesa anterior es utilizada para permitir que un valor ya prometido, pero no consensuado, sea eventualmente consensuado.
+
 ![[Paxos 1738626338.png]]
 
 Una vez que se obtenga mayoría de promesas para una propuesta, se sabe que ningún identificador menor podrá ser aceptado.
@@ -79,6 +81,6 @@ Los acceptors reciben el mensaje `PROPOSE IDp, Value`, y si no prometió ignorar
 
 Si la mayoría de los acceptors aceptan el valor `Value`, se llega a consenso sobre el valor. El consenso no necesariamente es sobre el identificador, ya que este es interno para el protocolo.
 
-Es cuestión de tiempo que el valor acordado llegue al resto de la red. Esto se debe a que cualquier propuesta futura
+Es cuestión de tiempo que el valor acordado llegue al resto de la red. Esto se debe a que cualquier propuesta futura con menor identificador será ignorada, y cualquier propuesta futura con mayor identificador y distinto valor también será reemplazada por el valor ya aceptado.
 
 Si un proposer o learner recibe mayoría *accepts* sobre el valor `Value`, saben que se llegó al consenso sobre el valor.
