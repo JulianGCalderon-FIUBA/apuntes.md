@@ -59,6 +59,8 @@ En caso de que ya haya prometido algo previamente, entonces en su lugar responde
 
 ![[Paxos 1738626338.png]]
 
+Una vez que se obtenga mayoría de promesas para una propuesta, se sabe que ningún identificador menor podrá ser aceptado.
+
 ### Propose
 
 Si el proposer obtiene mayoría de promesas para un identificador determinado `IDp`, entonces envía `PROPOSE IDp, Value` a todos los acceptors (o la mayoría).
@@ -75,6 +77,8 @@ Los acceptors reciben el mensaje `PROPOSE IDp, Value`, y si no prometió ignorar
 
 ![[Paxos 1738626363.png]]
 
-Si la mayoría de los acceptors aceptan el valor `Value`, se llega a consenso sobre el valor. Es cuestión de tiempo que el valor acordado llegue al resto de la red. El consenso no necesariamente es sobre el identificador, ya que este es interno para el protocolo.
+Si la mayoría de los acceptors aceptan el valor `Value`, se llega a consenso sobre el valor. El consenso no necesariamente es sobre el identificador, ya que este es interno para el protocolo.
+
+Es cuestión de tiempo que el valor acordado llegue al resto de la red. Esto se debe a que cualquier propuesta futura
 
 Si un proposer o learner recibe mayoría *accepts* sobre el valor `Value`, saben que se llegó al consenso sobre el valor.
