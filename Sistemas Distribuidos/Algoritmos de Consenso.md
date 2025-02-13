@@ -47,7 +47,7 @@ En el gráfico podemos ver como `P1` y `P2` propusieron el mismo valor `proceed`
 
 ## Algoritmo Sincrónico
 
-Cada proceso tiene la variable `state(t)` que almacena un conjunto con los valores propuestos conocidos para un dado proceso en el instante de tiempo `t`.
+Cada proceso tiene la variable `state(t)` que almacena un conjunto (sin repetidos) con los valores propuestos conocidos para un dado proceso en el instante de tiempo `t`.
 
 Al iniciar la ronda `1`, solo conoceremos nuestro propio valor `v`.
 
@@ -68,7 +68,7 @@ for each round r, with 1 <= r <= f+1:
 		set state(i, r+1) += state from j
 ```
 
-Tras `f+1` rondas, se aplica una función de agregación sobre el estado, y como la información total es la misma (ya que todos los procesos compartían los datos computados en cada ronda), entonces la decisión será determinística.
+Tras `f+1` rondas, se aplica una función de agregación sobre el estado, y como la información total es la misma, entonces la decisión será determinística.
 
 ```
 decide d = aggregate over state(i, f+1)
@@ -89,6 +89,4 @@ Con `f=0`, el sistema funciona siempre que no se caiga ningún nodo. Si queremos
 
 ![[Algoritmos de Consenso 1739470540.png]]
 
-Vemos que si hubiese una sola ronda, entonces no se llegaría al consenso debido a que al finalizar la primera ronda, los procesos 2,3 tienen un estado distinto.
-
-Vemos que el resultado de la ronda 2 contiene los cambios en el estado del resto de nodos, pero debido a la caída del nodo 3, no todos tienen la misma información. Sin embargo, debido a que hay dos rondas,
+Vemos que si hubiese una sola ronda, entonces no se llegaría al consenso debido a que al finalizar la primera ronda, los procesos 2,3 tienen un estado distinto. Luego de la siguiente ronda, ya el estado el el mismo, por lo que el valor final también lo será.
