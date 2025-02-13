@@ -81,7 +81,7 @@ La función de agregación puede ser, por ejemplo, el valor mínimo.
 > [!note] Elección de Líder
 > El algoritmo es genérico y puede ser utilizado para implementar una elección de líder si, por ejemplo, `v_i` representa el identificador del proceso `i`, y la función de agregación es `max`.
 
-### Ejemplo
+### Ejemplo con 3 procesos
 
 Dados 3 procesos, se tienen que poner de acuerdo en un valor. Inicialmente, un proceso tiene el valor $9$, y los otros tienen el valor $10$. Como función de agregación, se utiliza el `minimo`.
 
@@ -89,4 +89,4 @@ Con `f=0`, el sistema funciona siempre que no se caiga ningún nodo. Si queremos
 
 ![[Algoritmos de Consenso 1739470540.png]]
 
-Vemos que si hubiese una sola ronda, entonces no se llegaría al consenso debido a que al finalizar la primera ronda, los procesos 2,3 tienen un estado distinto. Luego de la siguiente ronda, ya el estado el el mismo, por lo que el valor final también lo será.
+Vemos que si hubiese una sola ronda, entonces no se llegaría al consenso debido a que al finalizar la primera ronda, los procesos 2,3 tienen un estado distinto. Luego de la siguiente ronda, ya el estado es el mismo, por lo que el valor final también lo será.
