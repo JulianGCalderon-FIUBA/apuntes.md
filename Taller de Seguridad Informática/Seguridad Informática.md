@@ -1,6 +1,4 @@
-## Definiciones
-
-Algunas definiciones útiles
+Algunos conceptos de la seguridad informática, son:
 
 - **Amenaza**: Una potencial violación de la seguridad.
 - **Ataque**: Las acciones que hacen que una amenaza se efectivice.

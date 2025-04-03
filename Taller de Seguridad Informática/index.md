@@ -2,6 +2,8 @@
 title: Taller de Seguridad Informática
 ---
 
+## Introducción
+
 - [[Seguridad Informática]]
 - [[Seguridad de la Información]]
 - [[Tipos de Amenazas]]
