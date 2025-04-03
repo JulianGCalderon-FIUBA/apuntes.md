@@ -31,15 +31,15 @@ Al ahora de realizar el diseño del sistema, se emplean distintos principios:
 
 Es un documento elaborado por el IEEE, y es más moderno que los principios de diseño:
 
-- Confianza: Conseguir o dar, pero nunca asumir confianza.
-- Autenticación: Usar un mecanismo de autenticación confiable.
-- Autorización: 
-- Señalización en banda.
-- Validación.
-- Criptografía.
-- Datos sensibles.
-- Los usuarios.
-- Componentes externos y superficie de ataque.
-- Flexibilidad con respecto al futuro.
+- **Confianza**: Conseguir o dar, pero nunca asumir confianza.
+- **Autenticación**: Usar un mecanismo de autenticación confiable.
+- **Autorización**: Autorizar después de autenticar.
+- **Señalización en banda**: Separar datos de instrucciones de control. Nunca procesar instrucciones de control recibidas de fuentes no confiables.
+- **Validación**: Definir un enfoque que asegure que todos los datos sean explícitamente validados.
+- **Criptografía**: Asegurarse de utilizar correctamente la criptografía.
+- **Datos sensibles**: Identificar datos sensibles, y como manejarlos.
+- **Los usuarios**: Siempre, considere a los usuarios. Debe ser sencillo utilizarlo de manera segura.
+- **Componentes externos y superficie de ataque**: Comprenda como las interacciones con componentes externos modifican la superficie de ataque.
+- **Flexibilidad con respecto al futuro**: Sea flexible al considerar cambios futuros.
 
 Para más información, ver [Avoiding The Top 10 Software Security Design Flaws](https://ieeecs-media.computer.org/media/technical-activities/CYBSI/docs/Top-10-Flaws.pdf).
