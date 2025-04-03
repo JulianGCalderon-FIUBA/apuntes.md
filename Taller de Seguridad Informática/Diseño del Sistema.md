@@ -9,13 +9,6 @@ Según los términos en que se expresen, verificar que un diseño satisface una 
 Dado un diseño, la implementación crea un sistema que satisface ese diseño. Si el diseño satisface las especificaciones, por transitividad la implementación satisfará las especificaciones.
 
 - Se dice que un programa es _correcto_ si satisface las especificaciones
+- Verificar que el programa es correcto es mucho más arduo que verificar un diseño.
 
-● Mucho más arduo que verificar un diseño
-
-● Verificación formal: cada instrucción es una operación matemática
-
-○ Es posible en teoría, en la práctica sólo se usa para cosas pequeñas y
-
-críticas
-
-○ El lenguaje en que se escribe no es el lenguaje que se ejecuta
+En una verificación formal, cada instrucción es una operación matemática. Es posible, en teoría, en la práctica solamente se usa para cosas pequeñas y críticas. El lenguaje en que se escribe no es el lenguaje que se ejecuta.
