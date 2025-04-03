@@ -23,3 +23,4 @@ Al ahora de realizar el diseño del sistema, se emplean distintos principios:
 - [[Principio de Economía de Mecanismo]]
 - [[Principio de Mediación Completa]]
 - [[Principio de Diseño Abierto]]
+- [[Principio de Separación de Privilegios]]
