@@ -24,3 +24,14 @@ Al ahora de realizar el diseño del sistema, se emplean distintos principios:
 - [[Principio de Mediación Completa]]
 - [[Principio de Diseño Abierto]]
 - [[Principio de Separación de Privilegios]]
+- [[Principio de Mínimo Mecanismo Común]]
+- [[Principio de Aceptabilidad Psicológica]]
+
+## Top 10 Design Flaws
+
+Es un documento elaborado por el IEEE, y es más moderno que los principios de diseño:
+
+- Confianza
+- Autenticación.
+
+Para más información, ver [Avoiding The Top 10 Software Security Design Flaws](https://ieeecs-media.computer.org/media/technical-activities/CYBSI/docs/Top-10-Flaws.pdf).
