@@ -9,4 +9,3 @@ title: Taller de Seguridad Informática
 - [[Mecanismos de Seguridad]]
 - [[Políticas de Seguridad]]
 - [[Diseño del Sistema]]
-- [[Principios del Diseño]]

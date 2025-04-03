@@ -39,3 +39,7 @@ title: Índice
 ## 2.º 2024
 
 - [[Sistemas Distribuidos/index|Sistemas Distribuidos]]
+
+## 1.º 2025
+
+- [[Taller de Seguridad Informática/index|Taller de Seguridad Informática]]
