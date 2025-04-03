@@ -8,3 +8,4 @@ title: Taller de Seguridad Informática
 - [[Vulnerabilidades]]
 - [[Mecanismos de Seguridad]]
 - [[Políticas de Seguridad]]
+- [[Diseño del Sistema]]
