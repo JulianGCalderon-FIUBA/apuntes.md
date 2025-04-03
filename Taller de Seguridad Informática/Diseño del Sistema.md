@@ -31,9 +31,9 @@ Al ahora de realizar el diseño del sistema, se emplean distintos principios:
 
 Es un documento elaborado por el IEEE, y es más moderno que los principios de diseño:
 
-- Confianza.
-- Autenticación.
-- Autorización.
+- Confianza: Conseguir o dar, pero nunca asumir confianza.
+- Autenticación: Usar un mecanismo de autenticación confiable.
+- Autorización: 
 - Señalización en banda.
 - Validación.
 - Criptografía.
