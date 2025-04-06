@@ -21,6 +21,4 @@ En la práctica, un *penetration test* se divide en las siguientes fases:
 	- La fase de borrar rasgos incluye técnicas *anti-forenses*, para evitar revelar información ante un análisis forense posterior a la explotación.
 - **Informes**: Suelen ser dos informes, uno ejecutivo y uno técnico. Se debe utilizar un lenguaje acorde al público del informe.
 	- Un informe ejecutivo debe ser corto y resumido sobre la situación. Tiene que contener gráficos. Algunos elementos a mencionar son: objetivo, alcance, línea de tiempo, alcance, resumen.
-	- Un informe técnico contiene el detalle completo de las vulnerabilida
-
-## Informes
+	- Un informe técnico contiene el detalle completo de las vulnerabilidades, las herramientas, los ataques, los hosts ubicados, etc. También debe contener recomendaciones de mejora con el fin de mitigar las vulnerabilidades.
