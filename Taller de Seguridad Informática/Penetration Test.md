@@ -12,7 +12,7 @@ Hay 3 tipos principales de *penetration tests*.
 
 En la práctica, un *penetration test* se divide en las siguientes fases:
 
-- **Acuerdo de Confidencialidad**:
+- **Acuerdo de Confidencialidad**: Un contrato donde ambas partes se ponen de acuerdo en no divulgar información. Por ejemplo: vulnerabilidades, credenciales.
 - **Reconocimiento**:
 - **Enumeración**:
 - **Explotación**:
