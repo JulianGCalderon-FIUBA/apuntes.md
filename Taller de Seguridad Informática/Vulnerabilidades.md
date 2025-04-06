@@ -17,7 +17,7 @@ Se pueden tratar de encontrar nuevas vulnerabilidades/bugs.
 - Pruebas automatizadas.
 - Análisis estático (sin ejecutar código).
 - Análisis dinámico (durante la ejecución del programa).
-- *Pentesting*: simula ataques para encontrar vulnerabilidades.
+- [[Penetration Test]]
 
 Se pueden tratar de mitigar vulnerabilidades para no se puedan explotar más, o que sea más difícil hacerlo.
 
