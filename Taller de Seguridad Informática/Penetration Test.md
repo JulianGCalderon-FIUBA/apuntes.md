@@ -14,7 +14,7 @@ En la práctica, un *penetration test* se divide en las siguientes fases:
 
 - **Acuerdo de Confidencialidad**: Un contrato donde ambas partes se ponen de acuerdo en no divulgar información. Por ejemplo: vulnerabilidades, credenciales.
 - **Reconocimiento**: Se reconoce el campo de trabajo sobre el cual está inmerso el objetivo. Esto involucra utiliza buscadores web, bases de datos, consultas DNS, ingeniería social.
-- **Enumeración**:
-- **Explotación**:
+- **Enumeración**: A esta fase se la conoce como reconocimiento activo. Empezaremos a utilizar herramientas para analizar nuestro objetivo profundamente. Es una fase mas agresiva.
+- **Explotación**: A partir de las vulnerabilidades encontradas, dedicaremos tiempo a investigar herramientas para explotarlas.
 - **Post Explotación**:
 - **Informes**:
