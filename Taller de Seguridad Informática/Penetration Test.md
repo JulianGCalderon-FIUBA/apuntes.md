@@ -12,9 +12,9 @@ Hay 3 tipos principales de *penetration tests*.
 
 En la práctica, un *penetration test* se divide en las siguientes fases:
 
-- Acuerdo de Confidencialidad
-- Reconocimiento
-- Enumeración
-- Explotación
-- Post Explotación
-- Informes
+- **Acuerdo de Confidencialidad**:
+- **Reconocimiento**:
+- **Enumeración**:
+- **Explotación**:
+- **Post Explotación**:
+- **Informes**:
